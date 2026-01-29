@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Minerlytics — Trade Like an Insider</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!-- Top Nav -->
+  <header class="topbar">
+    <div class="brand">
+      <div class="logoMark" aria-hidden="true"></div>
+      <span class="brandName">MINERLYTICS</span>
+    </div>
+
+    <nav class="navLinks" aria-label="Primary navigation">
+      <a class="navLink isActive" href="#home">Home</a>
+      <a class="navLink" href="#analysis">Analysis</a>
+      <a class="navLink" href="#trends">Trends</a>
+      <a class="navLink" href="#company">Company Profile</a>
+      <a class="navLink" href="#subscriptions">Subscriptions</a>
+      <a class="navLink" href="#about">About</a>
+    </nav>
+
+    <div class="navRight">
+      <div class="navSearch">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <path fill="currentColor" d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
+        </svg>
+        <input id="globalSearch" type="search" placeholder="Search tickers, commodities, companies, and more…" />
+      </div>
+
+      <a class="btn btnGhost" href="#signin">Sign In</a>
+      <a class="btn btnPrimary" href="#signup">Join Minerlytics</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main class="shell" id="home">
+    <section class="hero">
+      <div class="heroLeft">
+        <h1>Trade Like an Insider</h1>
+        <p class="subhead">
+          Track the forces that move mining markets — momentum, sentiment, interviews, news, and project milestones.
+        </p>
+
+        <div class="heroSearch">
+          <div class="heroSearchBox">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+              <path fill="currentColor" d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
+            </svg>
+            <input id="heroSearch" type="search" placeholder="Search stocks, commodities, and more…" />
+            <button id="searchBtn" class="btn btnPrimary btnTight" type="button">Search</button>
+          </div>
+          <div class="hintRow">
+            <span class="pill">Mining sector focus</span>
+            <span class="pill">US + Canada markets</span>
+            <span class="pill">News + YouTube + Social</span>
+          </div>
+        </div>
+
+        <!-- “Trending now” row -->
+        <div class="sectionTitleRow">
+          <span class="sectionTitle">Trending Now on Minerlytics</span>
+        </div>
+
+        <div class="trendRow" id="trendRow">
+          <!-- filled by app.js -->
+        </div>
+
+        <!-- Feature tiles -->
+        <div class="tileGrid">
+          <a class="tile" href="#trends">
+            <div class="tileIcon" aria-hidden="true">⚡</div>
+            <div>
+              <div class="tileTitle">Momentum</div>
+              <div class="tileMeta">Top movers, 1D / 7D / 6M / 1Y</div>
+            </div>
+            <span class="tileCta">See Dashboard →</span>
+          </a>
+
+          <a class="tile" href="#analysis">
+            <div class="tileIcon" aria-hidden="true">🧠</div>
+            <div>
+              <div class="tileTitle">Conversational AI</div>
+              <div class="tileMeta">Ask about sentiment, drills, permits</div>
+            </div>
+            <span class="tileCta">Open →</span>
+          </a>
+
+          <a class="tile" href="#company">
+            <div class="tileIcon" aria-hidden="true">⛏️</div>
+            <div>
+              <div class="tileTitle">Company Profiles</div>
+              <div class="tileMeta">Leadership, mines, timelines, regs</div>
+            </div>
+            <span class="tileCta">Explore →</span>
+          </a>
+        </div>
+
+        <!-- Mini quote cards (like the screenshot) -->
+        <div class="quoteRow" id="quoteRow">
+          <!-- filled by app.js -->
+        </div>
+      </div>
+
+      <div class="heroRight">
+        <div class="artCard">
+          <div class="artGrid"></div>
+          <div class="artGlow"></div>
+
+          <div class="artHud">
+            <div class="hudItem">
+              <div class="hudLabel">Recent News</div>
+              <div class="hudValue">Live feed</div>
+            </div>
+            <div class="hudItem">
+              <div class="hudLabel">Recent Interviews</div>
+              <div class="hudValue">YouTube channels</div>
+            </div>
+            <div class="hudItem">
+              <div class="hudLabel">Sentiment</div>
+              <div class="hudValue">Rolling score</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Charts placeholders required by your doc -->
+        <div class="chartGrid">
+          <div class="chartCard">
+            <div class="chartHeader">
+              <span>7-day Gold</span>
+              <div class="seg" role="group" aria-label="Gold range filter">
+                <button class="segBtn isOn" data-range="7d">7D</button>
+                <button class="segBtn" data-range="1d">1D</button>
+                <button class="segBtn" data-range="6m">6M</button>
+                <button class="segBtn" data-range="1y">1Y</button>
+              </div>
+            </div>
+            <div class="chartBody"><canvas id="goldChart" height="110"></canvas></div>
+          </div>
+
+          <div class="chartCard">
+            <div class="chartHeader">
+              <span>7-day Silver</span>
+              <div class="seg" role="group" aria-label="Silver range filter">
+                <button class="segBtn isOn" data-range="7d">7D</button>
+                <button class="segBtn" data-range="1d">1D</button>
+                <button class="segBtn" data-range="6m">6M</button>
+                <button class="segBtn" data-range="1y">1Y</button>
+              </div>
+            </div>
+            <div class="chartBody"><canvas id="silverChart" height="110"></canvas></div>
+          </div>
+
+          <div class="chartCard">
+            <div class="chartHeader">
+              <span>7-day Copper</span>
+              <div class="seg" role="group" aria-label="Copper range filter">
+                <button class="segBtn isOn" data-range="7d">7D</button>
+                <button class="segBtn" data-range="1d">1D</button>
+                <button class="segBtn" data-range="6m">6M</button>
+                <button class="segBtn" data-range="1y">1Y</button>
+              </div>
+            </div>
+            <div class="chartBody"><canvas id="copperChart" height="110"></canvas></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom bar: “All News” + ticker strip -->
+    <section class="bottomBar">
+      <div class="bottomLeft">
+        <span class="dot"></span>
+        <span class="bottomLabel">Trending</span>
+      </div>
+
+      <div class="ticker" aria-label="Scrolling news ticker">
+        <div class="tickerTrack" id="tickerTrack"></div>
+      </div>
+
+      <button class="newsBtn" type="button">All News</button>
+    </section>
+
+    <!-- Minimal “Sign-in / Sign-up” modal-ish section hooks (placeholders) -->
+    <section class="authRow" id="signin">
+      <div class="authCard">
+        <h2>Sign In</h2>
+        <label>Username <input type="text" placeholder="username" /></label>
+        <label>Password <input type="password" placeholder="password" /></label>
+        <button class="btn btnPrimary" type="button">Sign In</button>
+      </div>
+
+      <div class="authCard" id="signup">
+        <h2>Sign Up</h2>
+        <label>Email <input type="email" placeholder="you@email.com" /></label>
+        <label>Password <input type="password" placeholder="create password" /></label>
+        <button class="btn btnPrimary" type="button">Create Account</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
