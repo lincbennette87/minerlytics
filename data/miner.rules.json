@@ -1,0 +1,11 @@
+{
+  "sector": "miners",
+  "categories": [
+    { "name": "gold", "keywords": ["gold"] },
+    { "name": "silver", "keywords": ["silver"] },
+    { "name": "copper", "keywords": ["copper"] },
+    { "name": "uranium", "keywords": ["uranium"] },
+    { "name": "lithium", "keywords": ["lithium"] },
+    { "name": "rare_earths", "keywords": ["rare earth"] }
+  ]
+}
