@@ -110,21 +110,30 @@
           <div class="artGrid"></div>
           <div class="artGlow"></div>
 
-          <div class="artHud">
-            <div class="hudItem">
-              <div class="hudLabel">Recent News</div>
-              <div class="hudValue">Live feed</div>
-            </div>
-            <div class="hudItem">
-              <div class="hudLabel">Recent Interviews</div>
-              <div class="hudValue">YouTube channels</div>
-            </div>
-            <div class="hudItem">
-              <div class="hudLabel">Sentiment</div>
-              <div class="hudValue">Rolling score</div>
-            </div>
-          </div>
-        </div>
+          <div class="aiHud">
+  <div class="aiTop">
+    <div class="aiTitle">Minerlytics AI Assistant</div>
+    <div class="aiSub">Grounded on D1 (daily_ohlcv)</div>
+  </div>
+
+  <div class="aiForm">
+    <input id="aiSymbol" type="text" placeholder="Ticker (HYMC, AEM, CDE...)" />
+    <input id="aiQuestion" type="text" placeholder="Ask (e.g., summarize last 10 days)" />
+    <button id="aiRun" class="btn btnPrimary btnTight" type="button">Ask</button>
+  </div>
+
+  <div class="aiQuickRow">
+    <button class="pillBtn" type="button" data-t="HYMC">HYMC</button>
+    <button class="pillBtn" type="button" data-t="AEM">AEM</button>
+    <button class="pillBtn" type="button" data-t="CDE">CDE</button>
+    <button class="pillBtn" type="button" data-t="WPM">WPM</button>
+  </div>
+
+  <div class="aiOut" id="aiOut">
+    <div class="aiHint">Type a ticker and question. Response uses only your stored OHLCV.</div>
+  </div>
+</div>
+
 
         <!-- Charts placeholders required by your doc -->
         
