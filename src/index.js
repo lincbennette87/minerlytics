@@ -21,7 +21,7 @@ export default {
       }
 
       if (url.pathname === "/api/health") {
-        return new Response("Minerlytics DEV is running ✅", {
+        return new Response("Minerlytics DEV is running ✅ v2", {
           headers: { "content-type": "text/plain", ...CORS },
         });
       }
@@ -29,6 +29,13 @@ export default {
       if (url.pathname === "/api/d1-test") {
         const r = await env.DB.prepare("SELECT COUNT(*) as n FROM daily_ohlcv").first();
         return json({ ok: true, rows_in_daily_ohlcv: (r && r.n) ? r.n : 0 });
+      }
+
+      if (url.pathname === "/api/assistant" && request.method === "GET") {
+        return new Response(
+          'OK. Use POST /api/assistant with JSON body like {"symbol":"HYMC","question":"..."}',
+          { headers: { "content-type": "text/plain", ...CORS } }
+        );
       }
 
       if (url.pathname === "/api/assistant" && request.method === "POST") {
@@ -41,10 +48,10 @@ export default {
         const rows = await env.DB
           .prepare(
             "SELECT symbol, category, date, open, high, low, close, volume, source " +
-            "FROM daily_ohlcv " +
-            "WHERE symbol = ? " +
-            "ORDER BY date DESC " +
-            "LIMIT 60"
+              "FROM daily_ohlcv " +
+              "WHERE symbol = ? " +
+              "ORDER BY date DESC " +
+              "LIMIT 60"
           )
           .bind(symbol)
           .all();
@@ -60,9 +67,7 @@ export default {
         const prevClose = prev ? Number(prev.close) : null;
         const chg = prevClose && isFinite(prevClose) ? close - prevClose : null;
         const chgPct =
-          prevClose && isFinite(prevClose) && prevClose !== 0
-            ? (chg / prevClose) * 100
-            : null;
+          prevClose && isFinite(prevClose) && prevClose !== 0 ? (chg / prevClose) * 100 : null;
 
         const context = {
           symbol: symbol,
