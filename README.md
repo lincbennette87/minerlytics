@@ -2,6 +2,8 @@
 
 Minerlytics is a web application that empowers retail investors to **discover, evaluate, and monitor commodity mining opportunities** using **AI-driven insights**.
 
+TEST LINK: https://minerlytics.pages.dev/#analysis
+
 The platform combines **multi-source data ingestion**, **machine learning**, and **interactive analytics** to deliver forward-looking investment signals, risk assessments, scenario simulations, and diligence support for mining and commodity-focused equities.
 
 ---
