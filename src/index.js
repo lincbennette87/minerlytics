@@ -1,4 +1,3 @@
-```js
 const CORS = {
   "access-control-allow-origin": "*",
   "access-control-allow-methods": "GET,POST,OPTIONS",
@@ -28,32 +27,34 @@ export default {
       }
 
       if (url.pathname === "/api/d1-test") {
-        const r = await env.DB
-          .prepare("SELECT COUNT(*) as n FROM daily_ohlcv")
-          .first();
-        return json({ ok: true, rows_in_daily_ohlcv: r?.n ?? 0 });
+        const r = await env.DB.prepare("SELECT COUNT(*) as n FROM daily_ohlcv").first();
+        return json({ ok: true, rows_in_daily_ohlcv: (r && r.n) ? r.n : 0 });
       }
 
       if (url.pathname === "/api/assistant" && request.method === "POST") {
         const body = await request.json().catch(() => ({}));
-        const symbol = (body.symbol || "").trim().toUpperCase();
-        const question = (body.question || "").trim();
+        const symbol = String(body.symbol || "").trim().toUpperCase();
+        const question = String(body.question || "").trim();
 
         if (!symbol) return json({ error: "Missing symbol" }, 400);
 
         const rows = await env.DB
           .prepare(
-            "SELECT symbol, category, date, open, high, low, close, volume, source FROM daily_ohlcv WHERE symbol = ? ORDER BY date DESC LIMIT 60"
+            "SELECT symbol, category, date, open, high, low, close, volume, source " +
+            "FROM daily_ohlcv " +
+            "WHERE symbol = ? " +
+            "ORDER BY date DESC " +
+            "LIMIT 60"
           )
           .bind(symbol)
           .all();
 
         if (!rows.results || rows.results.length === 0) {
-          return json({ symbol, answer: `No OHLCV found for ${symbol} in D1.` });
+          return json({ symbol: symbol, answer: "No OHLCV found for " + symbol + " in D1." });
         }
 
         const latest = rows.results[0];
-        const prev = rows.results[1] || null;
+        const prev = rows.results.length > 1 ? rows.results[1] : null;
 
         const close = Number(latest.close);
         const prevClose = prev ? Number(prev.close) : null;
@@ -64,8 +65,8 @@ export default {
             : null;
 
         const context = {
-          symbol,
-          latest,
+          symbol: symbol,
+          latest: latest,
           previous: prev,
           computed: { one_day_change: chg, one_day_change_pct: chgPct },
           series: rows.results,
@@ -93,20 +94,18 @@ export default {
 
         const answer =
           (typeof result === "string" && result) ||
-          result?.response ||
-          result?.result ||
+          (result && (result.response || result.result)) ||
           JSON.stringify(result);
 
-        return json({ symbol, answer });
+        return json({ symbol: symbol, answer: answer });
       }
 
       return new Response("Not found", { status: 404, headers: CORS });
     } catch (err) {
       return new Response(
-        "Worker error:\n" + (err?.stack || err?.message || String(err)),
+        "Worker error:\n" + (err && (err.stack || err.message)) + "\n" + String(err),
         { status: 500, headers: { "content-type": "text/plain", ...CORS } }
       );
     }
   },
 };
-```
