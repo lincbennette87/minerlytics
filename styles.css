@@ -365,3 +365,48 @@ input,button{font:inherit}
   .authRow{grid-template-columns:1fr}
   .heroLeft h1{font-size:42px}
 }
+.aiHud{ position:relative; z-index:2; padding:18px; }
+.aiTop{ margin-bottom:12px; }
+.aiTitle{ font-weight:800; letter-spacing:.06em; }
+.aiSub{ opacity:.75; font-size:.9rem; margin-top:4px; }
+
+.aiForm{ display:flex; flex-direction:column; gap:10px; margin:12px 0; }
+.aiForm input{
+  padding:12px;
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,.12);
+  background:rgba(0,0,0,.18);
+  color:inherit;
+  outline:none;
+}
+
+.aiQuickRow{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px; }
+.pillBtn{
+  border:1px solid rgba(255,255,255,.12);
+  background:rgba(0,0,0,.14);
+  color:inherit;
+  padding:8px 10px;
+  border-radius:999px;
+  cursor:pointer;
+}
+
+.aiOut{
+  border:1px solid rgba(255,255,255,.10);
+  background:rgba(0,0,0,.10);
+  border-radius:14px;
+  padding:12px;
+  min-height:140px;
+}
+
+.aiHint{ opacity:.75; }
+.aiLoading{ font-weight:700; opacity:.9; }
+.aiErr{ font-weight:700; opacity:.95; }
+.aiPre{
+  white-space:pre-wrap;
+  word-break:break-word;
+  margin:0;
+  font-family: ui-monospace, Menlo, Monaco, Consolas, monospace;
+  font-size:.9rem;
+  line-height:1.35rem;
+}
+
