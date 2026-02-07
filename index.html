@@ -156,6 +156,67 @@
     <!-- Minimal “Sign-in / Sign-up” modal-ish section hooks (placeholders) -->
    
   </main>
+          <script>
+  (function () {
+    const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+
+    const out = document.getElementById("aiOut");
+    const sym = document.getElementById("aiSymbol");
+    const q = document.getElementById("aiQuestion");
+    const btn = document.getElementById("aiRun");
+
+    function esc(s){
+      return String(s || "")
+        .replaceAll("&","&amp;")
+        .replaceAll("<","&lt;")
+        .replaceAll(">","&gt;")
+        .replaceAll('"',"&quot;")
+        .replaceAll("'","&#039;");
+    }
+
+    async function ask(){
+      const symbol = (sym.value || "").trim().toUpperCase();
+      const question = (q.value || "").trim();
+
+      if(!symbol){
+        out.innerHTML = '<div class="aiErr">Enter a ticker.</div>';
+        return;
+      }
+
+      out.innerHTML = `<div class="aiLoading">Thinking about ${esc(symbol)}…</div>`;
+
+      let res;
+      try {
+        res = await fetch(API_BASE + "/api/assistant", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ symbol, question })
+        });
+      } catch (e) {
+        out.innerHTML = `<div class="aiErr">Network error: ${esc(e?.message || String(e))}</div>`;
+        return;
+      }
+
+      if(!res.ok){
+        const txt = await res.text().catch(()=> "");
+        out.innerHTML = `<div class="aiErr">${esc(txt || ("Request failed: " + res.status))}</div>`;
+        return;
+      }
+
+      const data = await res.json().catch(()=> null);
+      const answer = data && data.answer ? String(data.answer) : "No answer returned.";
+      out.innerHTML = `<pre class="aiPre">${esc(answer)}</pre>`;
+    }
+
+    btn.addEventListener("click", ask);
+
+    sym.addEventListener("keydown", (e)=>{ if(e.key==="Enter") ask(); });
+    q.addEventListener("keydown", (e)=>{ if(e.key==="Enter") ask(); });
+  })();
+</script>
+
+<script src="./app.js"></script>
+
 
   <script src="./app.js"></script>
 </body>
