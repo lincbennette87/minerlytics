@@ -1,5 +1,5 @@
 {
-  "name": "minerlytics-site-api",
+  "name": "minerlytics-dev",
   "compatibility_date": "2026-02-07",
   "main": "src/index.js"
 }
