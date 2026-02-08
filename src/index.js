@@ -126,7 +126,6 @@ export default {
         };
 
         const system =
-          const system =
           "You are Minerlytics AI.\n" +
           "Use ONLY the provided data.\n" +
           "Do NOT mention 'JSON', 'context', 'provided data', or internal tooling.\n" +
