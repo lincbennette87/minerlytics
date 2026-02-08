@@ -11,7 +11,7 @@ const CORS = {
 function json(data, status = 200, extraHeaders = {}) {
   return new Response(JSON.stringify(data), {
     status,
-    headers: { "content-type": "application/json", ...CORS, ...extraHeaders },
+    headers: { "content-type": "application/json; charset=utf-8", ...CORS, ...extraHeaders },
   });
 }
 
@@ -26,10 +26,15 @@ function options() {
   return new Response(null, { status: 204, headers: { ...CORS } });
 }
 
-function normalizeTickerFromSymbol(symbolWithSuffix) {
-  const s = String(symbolWithSuffix || "").trim();
-  if (!s) return "";
-  return s.replace(/\.us$/i, "").toUpperCase();
+function normalizeSymbolToStooqUS(raw) {
+  let symbol = String(raw || "").trim().toLowerCase();
+  if (!symbol) return "";
+  if (!symbol.endsWith(".us")) symbol = symbol + ".us";
+  return symbol;
+}
+
+function symbolToTicker(symbol) {
+  return String(symbol || "").replace(/\.us$/i, "").toUpperCase().trim();
 }
 
 export default {
@@ -48,11 +53,12 @@ export default {
         return json({ ok: true, rows_in_daily_ohlcv: r && r.n ? r.n : 0 });
       }
 
-      if (url.pathname === "/api/news" && request.method === "GET") {
-        const ticker = String(url.searchParams.get("ticker") || "")
-          .toUpperCase()
-          .trim();
+      if (url.pathname === "/api/assistant" && request.method === "GET") {
+        return text('OK. Use POST /api/assistant with JSON body like {"symbol":"HYMC","question":"..."}');
+      }
 
+      if (url.pathname === "/api/news" && request.method === "GET") {
+        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
         if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
 
         const rssUrl = googleRssUrl(TICKERS[ticker].q);
@@ -64,10 +70,7 @@ export default {
       }
 
       if (url.pathname === "/api/news-summary" && request.method === "GET") {
-        const ticker = String(url.searchParams.get("ticker") || "")
-          .toUpperCase()
-          .trim();
-
+        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
         if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
 
         const summary = await env.DB.prepare(
@@ -77,21 +80,14 @@ export default {
         return json({ ticker, summary: summary || null });
       }
 
-      if (url.pathname === "/api/assistant" && request.method === "GET") {
-        return text('OK. Use POST /api/assistant with JSON body like {"symbol":"HYMC","question":"..."}');
-      }
-
       if (url.pathname === "/api/assistant" && request.method === "POST") {
         const body = await request.json().catch(() => ({}));
 
-        let symbol = String(body.symbol || "").trim().toLowerCase();
-        if (!symbol) return json({ error: "Missing symbol" }, 400);
-
-        if (!symbol.endsWith(".us")) symbol = symbol + ".us";
-
-        const ticker = normalizeTickerFromSymbol(symbol);
-
+        const symbol = normalizeSymbolToStooqUS(body.symbol);
+        const ticker = symbolToTicker(symbol);
         const question = String(body.question || "").trim();
+
+        if (!symbol) return json({ error: "Missing symbol" }, 400);
 
         const rows = await env.DB
           .prepare(
@@ -105,7 +101,7 @@ export default {
           .all();
 
         if (!rows.results || rows.results.length === 0) {
-          return json({ symbol: symbol, answer: "No OHLCV found for " + symbol + " in D1." });
+          return json({ symbol, answer: "No OHLCV found for " + symbol + " in D1." });
         }
 
         const latest = rows.results[0];
@@ -122,9 +118,9 @@ export default {
         ).bind(ticker).first();
 
         const context = {
-          symbol: symbol,
-          ticker: ticker,
-          latest: latest,
+          symbol,
+          ticker,
+          latest,
           previous: prev,
           computed: { one_day_change: chg, one_day_change_pct: chgPct },
           news: newsSummary || null,
@@ -160,7 +156,7 @@ export default {
           (result && (result.response || result.result)) ||
           JSON.stringify(result);
 
-        return json({ symbol: symbol, answer: answer });
+        return json({ symbol, answer });
       }
 
       if (url.pathname === "/api/debug-lookup" && request.method === "GET") {
@@ -168,23 +164,17 @@ export default {
         const s = raw.toUpperCase();
 
         const exact = await env.DB
-          .prepare(
-            "SELECT symbol, date, close FROM daily_ohlcv WHERE symbol = ? ORDER BY date DESC LIMIT 5"
-          )
+          .prepare("SELECT symbol, date, close FROM daily_ohlcv WHERE symbol = ? ORDER BY date DESC LIMIT 5")
           .bind(s)
           .all();
 
         const norm = await env.DB
-          .prepare(
-            "SELECT symbol, date, close FROM daily_ohlcv WHERE UPPER(TRIM(symbol)) = ? ORDER BY date DESC LIMIT 5"
-          )
+          .prepare("SELECT symbol, date, close FROM daily_ohlcv WHERE UPPER(TRIM(symbol)) = ? ORDER BY date DESC LIMIT 5")
           .bind(s)
           .all();
 
         const like = await env.DB
-          .prepare(
-            "SELECT symbol, date, close FROM daily_ohlcv WHERE UPPER(symbol) LIKE ? ORDER BY date DESC LIMIT 10"
-          )
+          .prepare("SELECT symbol, date, close FROM daily_ohlcv WHERE UPPER(symbol) LIKE ? ORDER BY date DESC LIMIT 10")
           .bind("%" + s + "%")
           .all();
 
@@ -195,7 +185,7 @@ export default {
           like_count: like.results?.length || 0,
           exact: exact.results || [],
           normalized: norm.results || [],
-          like: like.results || [],
+          like: like.results || []
         });
       }
 
@@ -203,7 +193,7 @@ export default {
     } catch (err) {
       return new Response(
         "Worker error:\n" + (err && (err.stack || err.message)) + "\n" + String(err),
-        { status: 500, headers: { "content-type": "text/plain", ...CORS } }
+        { status: 500, headers: { "content-type": "text/plain; charset=utf-8", ...CORS } }
       );
     }
   },
