@@ -37,6 +37,38 @@ function symbolToTicker(symbol) {
   return String(symbol || "").replace(/\.us$/i, "").toUpperCase().trim();
 }
 
+function buildNewsDetailFromSummary(summaryRow) {
+  if (!summaryRow) return null;
+
+  let titles = [];
+  try {
+    titles = JSON.parse(summaryRow.top_titles_json || "[]");
+    if (!Array.isArray(titles)) titles = [];
+  } catch {
+    titles = [];
+  }
+
+  const total = Number(summaryRow.mentions || 0);
+  const bullish = Number(summaryRow.bullish || 0);
+  const bearish = Number(summaryRow.bearish || 0);
+  const neutral = Number(summaryRow.neutral || 0);
+
+  const pct = (x) => (total ? Math.round((x / total) * 100) : 0);
+
+  return {
+    window_hours: Number(summaryRow.window_hours || 0),
+    total,
+    bullish,
+    bearish,
+    neutral,
+    bullish_pct: pct(bullish),
+    bearish_pct: pct(bearish),
+    neutral_pct: pct(neutral),
+    top_titles: titles,
+    last_updated: summaryRow.last_updated || null,
+  };
+}
+
 export default {
   async fetch(request, env) {
     try {
@@ -69,28 +101,6 @@ export default {
         return json({ ticker, rssUrl, items });
       }
 
-      if (url.pathname === "/api/news-detail" && request.method === "GET") {
-  const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
-  if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
-
-  const limit = Math.min(Math.max(parseInt(url.searchParams.get("limit") || "15", 10), 1), 100);
-
-  const summary = await env.DB.prepare(
-    "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
-  ).bind(ticker).first();
-
-  const items = await env.DB.prepare(
-    "SELECT title, link, source, published_at, fetched_at FROM news_items WHERE ticker = ? ORDER BY fetched_at DESC LIMIT ?"
-  ).bind(ticker, limit).all();
-
-  return json({
-    ticker,
-    summary: summary || null,
-    items: items.results || []
-  });
-}
-
-
       if (url.pathname === "/api/news-summary" && request.method === "GET") {
         const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
         if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
@@ -100,6 +110,27 @@ export default {
         ).bind(ticker).first();
 
         return json({ ticker, summary: summary || null });
+      }
+
+      if (url.pathname === "/api/news-detail" && request.method === "GET") {
+        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
+
+        const limit = Math.min(Math.max(parseInt(url.searchParams.get("limit") || "15", 10), 1), 100);
+
+        const summary = await env.DB.prepare(
+          "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
+        ).bind(ticker).first();
+
+        const items = await env.DB.prepare(
+          "SELECT title, link, source, published_at, fetched_at FROM news_items WHERE ticker = ? ORDER BY fetched_at DESC LIMIT ?"
+        ).bind(ticker, limit).all();
+
+        return json({
+          ticker,
+          summary: summary || null,
+          items: items.results || [],
+        });
       }
 
       if (url.pathname === "/api/assistant" && request.method === "POST") {
@@ -131,42 +162,15 @@ export default {
 
         const close = Number(latest.close);
         const prevClose = prev ? Number(prev.close) : null;
-        const chg = prevClose && isFinite(prevClose) ? close - prevClose : null;
+        const chg = prevClose && Number.isFinite(prevClose) ? close - prevClose : null;
         const chgPct =
-          prevClose && isFinite(prevClose) && prevClose !== 0 ? (chg / prevClose) * 100 : null;
+          prevClose && Number.isFinite(prevClose) && prevClose !== 0 ? (chg / prevClose) * 100 : null;
 
-        const newsSummary = await env.DB.prepare(
+        const newsSummaryRow = await env.DB.prepare(
           "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
         ).bind(ticker).first();
 
-        const newsSummary = await env.DB.prepare(
-  "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
-).bind(ticker).first();
-
-let newsDetail = null;
-
-if (newsSummary) {
-  const titles = JSON.parse(newsSummary.top_titles_json || "[]");
-  const total = Number(newsSummary.mentions || 0);
-  const bullish = Number(newsSummary.bullish || 0);
-  const bearish = Number(newsSummary.bearish || 0);
-  const neutral = Number(newsSummary.neutral || 0);
-
-  const pct = (x) => total ? Math.round((x / total) * 100) : 0;
-
-  newsDetail = {
-    window_hours: newsSummary.window_hours,
-    total,
-    bullish,
-    bearish,
-    neutral,
-    bullish_pct: pct(bullish),
-    bearish_pct: pct(bearish),
-    neutral_pct: pct(neutral),
-    top_titles: titles
-  };
-}
-
+        const newsDetail = buildNewsDetailFromSummary(newsSummaryRow);
 
         const context = {
           symbol,
@@ -194,7 +198,6 @@ if (newsSummary) {
           "📉 **Trend Analysis**\n" +
           "📰 **News Sentiment**\n" +
           "🏷️ **Category + Source**";
-
 
         const user =
           "Question: " +
@@ -251,5 +254,9 @@ if (newsSummary) {
         { status: 500, headers: { "content-type": "text/plain; charset=utf-8", ...CORS } }
       );
     }
-  }
+  },
+
+  scheduled: async (event, env) => {
+    await refreshNewsForAll(env);
+  },
 };
