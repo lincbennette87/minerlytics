@@ -256,7 +256,4 @@ export default {
     }
   },
 
-  scheduled: async (event, env) => {
-    await refreshNewsForAll(env);
-  },
 };
