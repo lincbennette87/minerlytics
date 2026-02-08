@@ -69,6 +69,28 @@ export default {
         return json({ ticker, rssUrl, items });
       }
 
+      if (url.pathname === "/api/news-detail" && request.method === "GET") {
+  const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+  if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
+
+  const limit = Math.min(Math.max(parseInt(url.searchParams.get("limit") || "15", 10), 1), 100);
+
+  const summary = await env.DB.prepare(
+    "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
+  ).bind(ticker).first();
+
+  const items = await env.DB.prepare(
+    "SELECT title, link, source, published_at, fetched_at FROM news_items WHERE ticker = ? ORDER BY fetched_at DESC LIMIT ?"
+  ).bind(ticker, limit).all();
+
+  return json({
+    ticker,
+    summary: summary || null,
+    items: items.results || []
+  });
+}
+
+
       if (url.pathname === "/api/news-summary" && request.method === "GET") {
         const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
         if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
@@ -117,29 +139,62 @@ export default {
           "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
         ).bind(ticker).first();
 
+        const newsSummary = await env.DB.prepare(
+  "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
+).bind(ticker).first();
+
+let newsDetail = null;
+
+if (newsSummary) {
+  const titles = JSON.parse(newsSummary.top_titles_json || "[]");
+  const total = Number(newsSummary.mentions || 0);
+  const bullish = Number(newsSummary.bullish || 0);
+  const bearish = Number(newsSummary.bearish || 0);
+  const neutral = Number(newsSummary.neutral || 0);
+
+  const pct = (x) => total ? Math.round((x / total) * 100) : 0;
+
+  newsDetail = {
+    window_hours: newsSummary.window_hours,
+    total,
+    bullish,
+    bearish,
+    neutral,
+    bullish_pct: pct(bullish),
+    bearish_pct: pct(bearish),
+    neutral_pct: pct(neutral),
+    top_titles: titles
+  };
+}
+
+
         const context = {
           symbol,
           ticker,
           latest,
           previous: prev,
           computed: { one_day_change: chg, one_day_change_pct: chgPct },
-          news: newsSummary || null,
+          news: newsDetail || null,
           series: rows.results,
         };
 
         const system =
           "You are Minerlytics AI.\n" +
-          "You must ONLY use the provided JSON context.\n" +
-          "You MAY compute derived metrics such as trend, momentum, volatility, and percentage changes.\n" +
-          "Do NOT invent external data such as news or fundamentals beyond what is in the JSON.\n" +
-          "If external info is requested, clearly state it is unavailable.\n\n" +
-          "Return your response formatted exactly like this:\n" +
+          "Use ONLY the provided data.\n" +
+          "Do NOT mention 'JSON', 'context', 'provided data', or internal tooling.\n" +
+          "If news data exists, you MUST:\n" +
+          "1) compute bullish/bearish/neutral percentages\n" +
+          "2) list 3 most recent headlines with source\n" +
+          "3) explain what the headlines suggest in 2-4 lines\n" +
+          "If news is missing, say: 'News sentiment not available yet.'\n\n" +
+          "Return format:\n" +
           "📌 **Summary**\n" +
           "📊 **Latest OHLCV**\n" +
           "📈 **1D Change**\n" +
           "📉 **Trend Analysis**\n" +
-          "📰 **News Sentiment (if provided)**\n" +
+          "📰 **News Sentiment**\n" +
           "🏷️ **Category + Source**";
+
 
         const user =
           "Question: " +
