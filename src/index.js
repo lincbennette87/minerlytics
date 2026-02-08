@@ -196,9 +196,5 @@ export default {
         { status: 500, headers: { "content-type": "text/plain; charset=utf-8", ...CORS } }
       );
     }
-  },
-
-  scheduled: async (event, env) => {
-    await refreshNewsForAll(env);
-  },
+  }
 };
