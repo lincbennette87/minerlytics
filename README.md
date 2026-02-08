@@ -165,9 +165,10 @@ Users can compare up to **5 stocks** across:
 
 ## Subscriptions
 
-- 1-Month Plan
 - 6-Month Plan
 - 1-Year Plan
+- newsletter for 5 tickers
+- alert/ email trigger for changes related to 5 tickers 
 
 ---
 
