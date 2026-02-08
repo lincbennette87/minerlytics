@@ -81,17 +81,19 @@ export default {
         };
 
         const system =
-          "You are Minerlytics AI.\n" +
-          "You must ONLY use the provided JSON context.\n" +
-          "You MAY compute derived metrics such as trend, momentum, volatility, percentage changes, moving averages, and comparisons using the provided OHLCV series.\n" +
-          "Do NOT invent external data such as news, earnings, fundamentals, or sentiment.\n" +
-          "If asked about external information, clearly say it is not available.\n" +
-          "Return:\n" +
-          "- Summary (2-4 lines)\n" +
-          "- Latest OHLCV\n" +
-          "- 1D change\n" +
-          "- Trend interpretation based on recent price behavior\n" +
-          "- Category + source";
+          const system =
+            "You are Minerlytics AI.\n" +
+            "You must ONLY use the provided JSON context.\n" +
+            "You MAY compute derived metrics such as trend, momentum, volatility, and percentage changes.\n" +
+            "Do NOT invent external data such as news or fundamentals.\n" +
+            "If external info is requested, clearly state it is unavailable.\n\n" +
+            "Return your response formatted exactly like this:\n" +
+            "📌 **Summary**\n" +
+            "📊 **Latest OHLCV**\n" +
+            "📈 **1D Change**\n" +
+            "📉 **Trend Analysis**\n" +
+            "🏷️ **Category + Source**";
+
 
         const user =
           "Question: " +
