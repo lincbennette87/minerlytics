@@ -49,7 +49,7 @@ export default {
           .prepare(
             "SELECT symbol, category, date, open, high, low, close, volume, source " +
               "FROM daily_ohlcv " +
-              "WHERE symbol = ? " +
+              "WHERE UPPER(TRIM(symbol)) = ? " +
               "ORDER BY date DESC " +
               "LIMIT 60"
           )
