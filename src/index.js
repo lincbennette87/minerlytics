@@ -27,18 +27,19 @@ function options() {
 }
 
 function normalizeSymbolToStooqUS(raw) {
-  const s = String(raw || "").trim().toLowerCase();
-  if (!s) return "";
-  return s.endsWith(".us") ? s : s + ".us";
+  let symbol = String(raw || "").trim().toLowerCase();
+  if (!symbol) return "";
+  if (!symbol.endsWith(".us")) symbol += ".us";
+  return symbol;
 }
 
 function symbolToTicker(symbol) {
   return String(symbol || "").replace(/\.us$/i, "").toUpperCase().trim();
 }
 
-function safeJsonParseArray(s) {
+function safeJsonParseArray(maybeJson) {
   try {
-    const v = JSON.parse(s || "[]");
+    const v = JSON.parse(maybeJson || "[]");
     return Array.isArray(v) ? v : [];
   } catch {
     return [];
@@ -72,24 +73,20 @@ export default {
   async fetch(request, env) {
     try {
       const url = new URL(request.url);
-      const path = url.pathname;
 
       if (request.method === "OPTIONS") return options();
 
-      if (path === "/api/health") {
-        return text("Minerlytics DEV is running ✅ v2");
+      if (url.pathname === "/api/health") {
+        // unique marker so you can verify deployment
+        return text("Minerlytics DEV is running ✅ v2.7");
       }
 
-      if (path === "/api/d1-test") {
+      if (url.pathname === "/api/d1-test") {
         const r = await env.DB.prepare("SELECT COUNT(*) as n FROM daily_ohlcv").first();
         return json({ ok: true, rows_in_daily_ohlcv: r && r.n ? r.n : 0 });
       }
 
-      if (path === "/api/assistant" && request.method === "GET") {
-        return text('OK. Use POST /api/assistant with JSON body like {"symbol":"HYMC","question":"..."}');
-      }
-
-      if (path === "/api/news" && request.method === "GET") {
+      if (url.pathname === "/api/news" && request.method === "GET") {
         const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
         if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
 
@@ -97,11 +94,10 @@ export default {
         const r = await fetch(rssUrl, { headers: { "User-Agent": "Mozilla/5.0" } });
         const xml = await r.text();
         const items = parseRssItems(xml, 25);
-
         return json({ ticker, rssUrl, items });
       }
 
-      if (path === "/api/news-summary" && request.method === "GET") {
+      if (url.pathname === "/api/news-summary" && request.method === "GET") {
         const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
         if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
 
@@ -112,13 +108,13 @@ export default {
         return json({ ticker, summary: row || null });
       }
 
-      if (path === "/api/news-detail" && request.method === "GET") {
+      if (url.pathname === "/api/news-detail" && request.method === "GET") {
         const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
         if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
 
         const limit = Math.min(Math.max(parseInt(url.searchParams.get("limit") || "15", 10), 1), 100);
 
-        const row = await env.DB.prepare(
+        const summaryRow = await env.DB.prepare(
           "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
         ).bind(ticker).first();
 
@@ -126,10 +122,14 @@ export default {
           "SELECT title, link, source, published_at, fetched_at FROM news_items WHERE ticker = ? ORDER BY fetched_at DESC LIMIT ?"
         ).bind(ticker, limit).all();
 
-        return json({ ticker, summary: row || null, items: items.results || [] });
+        return json({ ticker, summary: summaryRow || null, items: items.results || [] });
       }
 
-      if (path === "/api/assistant" && request.method === "POST") {
+      if (url.pathname === "/api/assistant" && request.method === "GET") {
+        return text('OK. Use POST /api/assistant with JSON body like {"symbol":"HYMC","question":"..."}');
+      }
+
+      if (url.pathname === "/api/assistant" && request.method === "POST") {
         const body = await request.json().catch(() => ({}));
 
         const symbol = normalizeSymbolToStooqUS(body.symbol);
@@ -155,11 +155,11 @@ export default {
         const chg = prevClose && Number.isFinite(prevClose) ? close - prevClose : null;
         const chgPct = prevClose && Number.isFinite(prevClose) && prevClose !== 0 ? (chg / prevClose) * 100 : null;
 
-        const summaryRow = await env.DB.prepare(
+        const sentimentRow = await env.DB.prepare(
           "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
         ).bind(ticker).first();
 
-        const newsDetail = buildNewsDetailFromSummary(summaryRow);
+        const newsDetail = buildNewsDetailFromSummary(sentimentRow);
 
         const context = {
           symbol,
@@ -176,8 +176,8 @@ export default {
           "Use ONLY the provided data.\n" +
           "Do NOT mention 'JSON', 'context', 'provided data', or internal tooling.\n" +
           "If news data exists, you MUST:\n" +
-          "1) compute bullish/bearish/neutral percentages\n" +
-          "2) list 3 most recent headlines with source\n" +
+          "1) report bullish/bearish/neutral percentages\n" +
+          "2) list 3 headlines with source (from top_titles if present)\n" +
           "3) explain what the headlines suggest in 2-4 lines\n" +
           "If news is missing, say: 'News sentiment not available yet.'\n\n" +
           "Return format:\n" +
@@ -188,14 +188,14 @@ export default {
           "📰 **News Sentiment**\n" +
           "🏷️ **Category + Source**";
 
-        const user =
+        const userPrompt =
           "Question: " +
           (question || "Give a quick summary using stored OHLCV only.") +
           "\n\nDATA:\n" +
           JSON.stringify(context);
 
         const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
-          prompt: system + "\n\n" + user,
+          prompt: system + "\n\n" + userPrompt,
         });
 
         const answer =
@@ -206,7 +206,7 @@ export default {
         return json({ symbol, answer });
       }
 
-      if (path === "/api/debug-lookup" && request.method === "GET") {
+      if (url.pathname === "/api/debug-lookup" && request.method === "GET") {
         const raw = (url.searchParams.get("s") || "").trim();
         const s = raw.toUpperCase();
 
@@ -215,25 +215,7 @@ export default {
           .bind(s)
           .all();
 
-        const norm = await env.DB
-          .prepare("SELECT symbol, date, close FROM daily_ohlcv WHERE UPPER(TRIM(symbol)) = ? ORDER BY date DESC LIMIT 5")
-          .bind(s)
-          .all();
-
-        const like = await env.DB
-          .prepare("SELECT symbol, date, close FROM daily_ohlcv WHERE UPPER(symbol) LIKE ? ORDER BY date DESC LIMIT 10")
-          .bind("%" + s + "%")
-          .all();
-
-        return json({
-          query: s,
-          exact_count: exact.results?.length || 0,
-          normalized_count: norm.results?.length || 0,
-          like_count: like.results?.length || 0,
-          exact: exact.results || [],
-          normalized: norm.results || [],
-          like: like.results || [],
-        });
+        return json({ query: s, exact: exact.results || [], exact_count: exact.results?.length || 0 });
       }
 
       return new Response("Not found", { status: 404, headers: CORS });
