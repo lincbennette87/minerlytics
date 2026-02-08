@@ -104,6 +104,35 @@ export default {
 
         return json({ symbol: symbol, answer: answer });
       }
+if (url.pathname === "/api/debug-lookup" && request.method === "GET") {
+  const raw = (url.searchParams.get("s") || "").trim();
+  const s = raw.toUpperCase();
+
+  const exact = await env.DB
+    .prepare("SELECT symbol, date, close FROM daily_ohlcv WHERE symbol = ? ORDER BY date DESC LIMIT 5")
+    .bind(s)
+    .all();
+
+  const norm = await env.DB
+    .prepare("SELECT symbol, date, close FROM daily_ohlcv WHERE UPPER(TRIM(symbol)) = ? ORDER BY date DESC LIMIT 5")
+    .bind(s)
+    .all();
+
+  const like = await env.DB
+    .prepare("SELECT symbol, date, close FROM daily_ohlcv WHERE UPPER(symbol) LIKE ? ORDER BY date DESC LIMIT 10")
+    .bind("%" + s + "%")
+    .all();
+
+  return json({
+    query: s,
+    exact_count: exact.results?.length || 0,
+    normalized_count: norm.results?.length || 0,
+    like_count: like.results?.length || 0,
+    exact: exact.results || [],
+    normalized: norm.results || [],
+    like: like.results || []
+  });
+}
 
       return new Response("Not found", { status: 404, headers: CORS });
     } catch (err) {
