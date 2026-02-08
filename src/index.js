@@ -69,6 +69,41 @@ function buildNewsDetailFromSummary(row) {
   };
 }
 
+async function runAssistant(env, question, context) {
+  const system =
+    "You are Minerlytics AI.\n" +
+    "Use ONLY the provided data.\n" +
+    "Do NOT mention 'JSON', 'context', 'provided data', or internal tooling.\n" +
+    "If news data exists, you MUST:\n" +
+    "1) report bullish/bearish/neutral percentages\n" +
+    "2) list 3 headlines with source (from top_titles if present)\n" +
+    "3) explain what the headlines suggest in 2-4 lines\n" +
+    "If news is missing, say: 'News sentiment not available yet.'\n\n" +
+    "Return format:\n" +
+    "📌 **Summary**\n" +
+    "📊 **Latest OHLCV**\n" +
+    "📈 **1D Change**\n" +
+    "📉 **Trend Analysis**\n" +
+    "📰 **News Sentiment**\n" +
+    "🏷️ **Category + Source**";
+
+  const userPrompt =
+    "Question: " +
+    (question || "Give a quick summary using stored OHLCV only.") +
+    "\n\nDATA:\n" +
+    JSON.stringify(context);
+
+  const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
+    prompt: system + "\n\n" + userPrompt,
+  });
+
+  return (
+    (typeof result === "string" && result) ||
+    (result && (result.response || result.result)) ||
+    JSON.stringify(result)
+  );
+}
+
 export default {
   async fetch(request, env) {
     try {
@@ -77,8 +112,7 @@ export default {
       if (request.method === "OPTIONS") return options();
 
       if (url.pathname === "/api/health") {
-        // unique marker so you can verify deployment
-        return text("Minerlytics DEV is running ✅ v2.7");
+        return text("Minerlytics DEV is running ✅ v2.8");
       }
 
       if (url.pathname === "/api/d1-test") {
@@ -94,6 +128,7 @@ export default {
         const r = await fetch(rssUrl, { headers: { "User-Agent": "Mozilla/5.0" } });
         const xml = await r.text();
         const items = parseRssItems(xml, 25);
+
         return json({ ticker, rssUrl, items });
       }
 
@@ -122,7 +157,11 @@ export default {
           "SELECT title, link, source, published_at, fetched_at FROM news_items WHERE ticker = ? ORDER BY fetched_at DESC LIMIT ?"
         ).bind(ticker, limit).all();
 
-        return json({ ticker, summary: summaryRow || null, items: items.results || [] });
+        return json({
+          ticker,
+          summary: summaryRow || null,
+          items: items.results || [],
+        });
       }
 
       if (url.pathname === "/api/assistant" && request.method === "GET") {
@@ -153,7 +192,8 @@ export default {
         const close = Number(latest.close);
         const prevClose = prev ? Number(prev.close) : null;
         const chg = prevClose && Number.isFinite(prevClose) ? close - prevClose : null;
-        const chgPct = prevClose && Number.isFinite(prevClose) && prevClose !== 0 ? (chg / prevClose) * 100 : null;
+        const chgPct =
+          prevClose && Number.isFinite(prevClose) && prevClose !== 0 ? (chg / prevClose) * 100 : null;
 
         const sentimentRow = await env.DB.prepare(
           "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
@@ -171,37 +211,7 @@ export default {
           series: rows.results,
         };
 
-        const system =
-          "You are Minerlytics AI.\n" +
-          "Use ONLY the provided data.\n" +
-          "Do NOT mention 'JSON', 'context', 'provided data', or internal tooling.\n" +
-          "If news data exists, you MUST:\n" +
-          "1) report bullish/bearish/neutral percentages\n" +
-          "2) list 3 headlines with source (from top_titles if present)\n" +
-          "3) explain what the headlines suggest in 2-4 lines\n" +
-          "If news is missing, say: 'News sentiment not available yet.'\n\n" +
-          "Return format:\n" +
-          "📌 **Summary**\n" +
-          "📊 **Latest OHLCV**\n" +
-          "📈 **1D Change**\n" +
-          "📉 **Trend Analysis**\n" +
-          "📰 **News Sentiment**\n" +
-          "🏷️ **Category + Source**";
-
-        const userPrompt =
-          "Question: " +
-          (question || "Give a quick summary using stored OHLCV only.") +
-          "\n\nDATA:\n" +
-          JSON.stringify(context);
-
-        const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
-          prompt: system + "\n\n" + userPrompt,
-        });
-
-        const answer =
-          (typeof result === "string" && result) ||
-          (result && (result.response || result.result)) ||
-          JSON.stringify(result);
+        const answer = await runAssistant(env, question, context);
 
         return json({ symbol, answer });
       }
