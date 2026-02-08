@@ -1,3 +1,7 @@
+import { refreshNewsForAll } from "./news_cron.js";
+import { TICKERS } from "./tickers.js";
+import { googleRssUrl, parseRssItems } from "./rss.js";
+
 const CORS = {
   "access-control-allow-origin": "*",
   "access-control-allow-methods": "GET,POST,OPTIONS",
@@ -61,7 +65,36 @@ export default {
 
         if (!rows.results || rows.results.length === 0) {
           return json({ symbol: symbol, answer: "No OHLCV found for " + symbol + " in D1." });
+          if (url.pathname === "/api/news") {
+  const ticker = (url.searchParams.get("ticker") || "").toUpperCase().trim();
+  if (!ticker || !TICKERS[ticker]) return new Response(JSON.stringify({ error: "unknown ticker" }), { status: 400 });
+
+  const rssUrl = googleRssUrl(TICKERS[ticker].q);
+  const r = await fetch(rssUrl, { headers: { "User-Agent": "Mozilla/5.0" } });
+  const xml = await r.text();
+  const items = parseRssItems(xml, 25);
+
+  return new Response(JSON.stringify({ ticker, rssUrl, items }), {
+    headers: { "content-type": "application/json" }
+  });
+}
+if (url.pathname === "/api/news-summary") {
+  const ticker = (url.searchParams.get("ticker") || "").toUpperCase().trim();
+  if (!ticker || !TICKERS[ticker]) return new Response(JSON.stringify({ error: "unknown ticker" }), { status: 400 });
+
+  const summary = await env.DB.prepare(
+    "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
+  ).bind(ticker).first();
+
+  return new Response(JSON.stringify({ ticker, summary: summary || null }), {
+    headers: { "content-type": "application/json" }
+  });
+}
         }
+        async scheduled(event, env) {
+  await refreshNewsForAll(env);
+}
+
 
         const latest = rows.results[0];
         const prev = rows.results.length > 1 ? rows.results[1] : null;
