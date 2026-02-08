@@ -185,7 +185,7 @@ export default {
           like_count: like.results?.length || 0,
           exact: exact.results || [],
           normalized: norm.results || [],
-          like: like.results || []
+          like: like.results || [],
         });
       }
 
@@ -196,7 +196,7 @@ export default {
         { status: 500, headers: { "content-type": "text/plain; charset=utf-8", ...CORS } }
       );
     }
-  },
+  }, // <<< DO NOT REMOVE THIS COMMA
 
   async scheduled(event, env) {
     await refreshNewsForAll(env);
