@@ -40,7 +40,10 @@ export default {
 
       if (url.pathname === "/api/assistant" && request.method === "POST") {
         const body = await request.json().catch(() => ({}));
-        const symbol = String(body.symbol || "").trim().toUpperCase();
+        let symbol = String(body.symbol || "").trim().toLowerCase();
+        if (!symbol.endsWith(".us")) {
+        symbol = symbol + ".us";
+        }
         const question = String(body.question || "").trim();
 
         if (!symbol) return json({ error: "Missing symbol" }, 400);
@@ -49,7 +52,7 @@ export default {
           .prepare(
             "SELECT symbol, category, date, open, high, low, close, volume, source " +
               "FROM daily_ohlcv " +
-              "WHERE UPPER(TRIM(symbol)) = ? " +
+              "WHERE symbol = ? " +
               "ORDER BY date DESC " +
               "LIMIT 60"
           )
