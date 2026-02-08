@@ -27,19 +27,18 @@ function options() {
 }
 
 function normalizeSymbolToStooqUS(raw) {
-  let symbol = String(raw || "").trim().toLowerCase();
-  if (!symbol) return "";
-  if (!symbol.endsWith(".us")) symbol = symbol + ".us";
-  return symbol;
+  const s = String(raw || "").trim().toLowerCase();
+  if (!s) return "";
+  return s.endsWith(".us") ? s : s + ".us";
 }
 
 function symbolToTicker(symbol) {
   return String(symbol || "").replace(/\.us$/i, "").toUpperCase().trim();
 }
 
-function safeJsonParseArray(maybeJson) {
+function safeJsonParseArray(s) {
   try {
-    const v = JSON.parse(maybeJson || "[]");
+    const v = JSON.parse(s || "[]");
     return Array.isArray(v) ? v : [];
   } catch {
     return [];
@@ -73,23 +72,24 @@ export default {
   async fetch(request, env) {
     try {
       const url = new URL(request.url);
+      const path = url.pathname;
 
       if (request.method === "OPTIONS") return options();
 
-      if (url.pathname === "/api/health") {
+      if (path === "/api/health") {
         return text("Minerlytics DEV is running ✅ v2");
       }
 
-      if (url.pathname === "/api/d1-test") {
+      if (path === "/api/d1-test") {
         const r = await env.DB.prepare("SELECT COUNT(*) as n FROM daily_ohlcv").first();
         return json({ ok: true, rows_in_daily_ohlcv: r && r.n ? r.n : 0 });
       }
 
-      if (url.pathname === "/api/assistant" && request.method === "GET") {
+      if (path === "/api/assistant" && request.method === "GET") {
         return text('OK. Use POST /api/assistant with JSON body like {"symbol":"HYMC","question":"..."}');
       }
 
-      if (url.pathname === "/api/news" && request.method === "GET") {
+      if (path === "/api/news" && request.method === "GET") {
         const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
         if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
 
@@ -101,7 +101,7 @@ export default {
         return json({ ticker, rssUrl, items });
       }
 
-      if (url.pathname === "/api/news-summary" && request.method === "GET") {
+      if (path === "/api/news-summary" && request.method === "GET") {
         const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
         if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
 
@@ -112,13 +112,13 @@ export default {
         return json({ ticker, summary: row || null });
       }
 
-      if (url.pathname === "/api/news-detail" && request.method === "GET") {
+      if (path === "/api/news-detail" && request.method === "GET") {
         const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
         if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
 
         const limit = Math.min(Math.max(parseInt(url.searchParams.get("limit") || "15", 10), 1), 100);
 
-        const summaryRow = await env.DB.prepare(
+        const row = await env.DB.prepare(
           "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
         ).bind(ticker).first();
 
@@ -126,14 +126,87 @@ export default {
           "SELECT title, link, source, published_at, fetched_at FROM news_items WHERE ticker = ? ORDER BY fetched_at DESC LIMIT ?"
         ).bind(ticker, limit).all();
 
-        return json({
-          ticker,
-          summary: summaryRow || null,
-          items: items.results || [],
-        });
+        return json({ ticker, summary: row || null, items: items.results || [] });
       }
 
-      if (url.pathname === "/api/debug-lookup" && request.method === "GET") {
+      if (path === "/api/assistant" && request.method === "POST") {
+        const body = await request.json().catch(() => ({}));
+
+        const symbol = normalizeSymbolToStooqUS(body.symbol);
+        const ticker = symbolToTicker(symbol);
+        const question = String(body.question || "").trim();
+
+        if (!symbol) return json({ error: "Missing symbol" }, 400);
+
+        const rows = await env.DB.prepare(
+          "SELECT symbol, category, date, open, high, low, close, volume, source " +
+            "FROM daily_ohlcv WHERE symbol = ? ORDER BY date DESC LIMIT 60"
+        ).bind(symbol).all();
+
+        if (!rows.results || rows.results.length === 0) {
+          return json({ symbol, answer: "No OHLCV found for " + symbol + " in D1." });
+        }
+
+        const latest = rows.results[0];
+        const prev = rows.results.length > 1 ? rows.results[1] : null;
+
+        const close = Number(latest.close);
+        const prevClose = prev ? Number(prev.close) : null;
+        const chg = prevClose && Number.isFinite(prevClose) ? close - prevClose : null;
+        const chgPct = prevClose && Number.isFinite(prevClose) && prevClose !== 0 ? (chg / prevClose) * 100 : null;
+
+        const summaryRow = await env.DB.prepare(
+          "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
+        ).bind(ticker).first();
+
+        const newsDetail = buildNewsDetailFromSummary(summaryRow);
+
+        const context = {
+          symbol,
+          ticker,
+          latest,
+          previous: prev,
+          computed: { one_day_change: chg, one_day_change_pct: chgPct },
+          news: newsDetail,
+          series: rows.results,
+        };
+
+        const system =
+          "You are Minerlytics AI.\n" +
+          "Use ONLY the provided data.\n" +
+          "Do NOT mention 'JSON', 'context', 'provided data', or internal tooling.\n" +
+          "If news data exists, you MUST:\n" +
+          "1) compute bullish/bearish/neutral percentages\n" +
+          "2) list 3 most recent headlines with source\n" +
+          "3) explain what the headlines suggest in 2-4 lines\n" +
+          "If news is missing, say: 'News sentiment not available yet.'\n\n" +
+          "Return format:\n" +
+          "📌 **Summary**\n" +
+          "📊 **Latest OHLCV**\n" +
+          "📈 **1D Change**\n" +
+          "📉 **Trend Analysis**\n" +
+          "📰 **News Sentiment**\n" +
+          "🏷️ **Category + Source**";
+
+        const user =
+          "Question: " +
+          (question || "Give a quick summary using stored OHLCV only.") +
+          "\n\nDATA:\n" +
+          JSON.stringify(context);
+
+        const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
+          prompt: system + "\n\n" + user,
+        });
+
+        const answer =
+          (typeof result === "string" && result) ||
+          (result && (result.response || result.result)) ||
+          JSON.stringify(result);
+
+        return json({ symbol, answer });
+      }
+
+      if (path === "/api/debug-lookup" && request.method === "GET") {
         const raw = (url.searchParams.get("s") || "").trim();
         const s = raw.toUpperCase();
 
@@ -163,87 +236,6 @@ export default {
         });
       }
 
-      if (url.pathname === "/api/assistant" && request.method === "POST") {
-        const body = await request.json().catch(() => ({}));
-
-        const symbol = normalizeSymbolToStooqUS(body.symbol);
-        const ticker = symbolToTicker(symbol);
-        const question = String(body.question || "").trim();
-
-        if (!symbol) return json({ error: "Missing symbol" }, 400);
-
-        const rows = await env.DB.prepare(
-          "SELECT symbol, category, date, open, high, low, close, volume, source " +
-            "FROM daily_ohlcv " +
-            "WHERE symbol = ? " +
-            "ORDER BY date DESC " +
-            "LIMIT 60"
-        ).bind(symbol).all();
-
-        if (!rows.results || rows.results.length === 0) {
-          return json({ symbol, answer: "No OHLCV found for " + symbol + " in D1." });
-        }
-
-        const latest = rows.results[0];
-        const prev = rows.results.length > 1 ? rows.results[1] : null;
-
-        const close = Number(latest.close);
-        const prevClose = prev ? Number(prev.close) : null;
-        const chg = prevClose && Number.isFinite(prevClose) ? close - prevClose : null;
-        const chgPct =
-          prevClose && Number.isFinite(prevClose) && prevClose !== 0 ? (chg / prevClose) * 100 : null;
-
-        const sentimentRow = await env.DB.prepare(
-          "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
-        ).bind(ticker).first();
-
-        const newsDetail = buildNewsDetailFromSummary(sentimentRow);
-
-        const context = {
-          symbol,
-          ticker,
-          latest,
-          previous: prev,
-          computed: { one_day_change: chg, one_day_change_pct: chgPct },
-          news: newsDetail,
-          series: rows.results,
-        };
-
-        const system =
-          "You are Minerlytics AI.\n" +
-          "Use ONLY the provided data.\n" +
-          "Do NOT mention 'JSON', 'context', 'provided data', or internal tooling.\n" +
-          "If news data exists, you MUST:\n" +
-          "1) report bullish/bearish/neutral percentages\n" +
-          "2) list 3 headlines with source (from top_titles if present)\n" +
-          "3) explain what the headlines suggest in 2-4 lines\n" +
-          "If news is missing, say: 'News sentiment not available yet.'\n\n" +
-          "Return format:\n" +
-          "📌 **Summary**\n" +
-          "📊 **Latest OHLCV**\n" +
-          "📈 **1D Change**\n" +
-          "📉 **Trend Analysis**\n" +
-          "📰 **News Sentiment**\n" +
-          "🏷️ **Category + Source**";
-
-        const userPrompt =
-          "Question: " +
-          (question || "Give a quick summary using stored OHLCV only.") +
-          "\n\nDATA:\n" +
-          JSON.stringify(context);
-
-        const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
-          prompt: system + "\n\n" + userPrompt,
-        });
-
-        const answer =
-          (typeof result === "string" && result) ||
-          (result && (result.response || result.result)) ||
-          JSON.stringify(result);
-
-        return json({ symbol, answer });
-      }
-
       return new Response("Not found", { status: 404, headers: CORS });
     } catch (err) {
       return new Response(
@@ -253,7 +245,7 @@ export default {
     }
   },
 
-  scheduled: async (event, env) => {
+  async scheduled(event, env) {
     await refreshNewsForAll(env);
   },
 };
