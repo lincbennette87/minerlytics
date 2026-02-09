@@ -1,0 +1,18 @@
+{
+  "AEM": { "name": "Agnico Eagle", "queries": ["Agnico Eagle", "AEM stock", "AEM earnings", "AEM conference call"] },
+  "PZG": { "name": "Paramount Gold Nevada", "queries": ["Paramount Gold Nevada", "PZG stock", "PZG interview"] },
+  "GAYMF": { "name": "Galiano Gold", "queries": ["Galiano Gold", "GAYMF stock", "Galiano earnings"] },
+  "GFI": { "name": "Gold Fields", "queries": ["Gold Fields", "GFI stock", "Gold Fields earnings"] },
+  "DSVSF": { "name": "Discovery Silver", "queries": ["Discovery Silver", "DSVSF stock", "Discovery Silver interview"] },
+
+  "HYMC": { "name": "Hycroft Mining", "queries": ["Hycroft", "HYMC stock", "HYMC interview", "HYMC earnings"] },
+  "CDE": { "name": "Coeur Mining", "queries": ["Coeur Mining", "CDE stock", "Coeur earnings"] },
+  "WPM": { "name": "Wheaton Precious Metals", "queries": ["Wheaton", "WPM stock", "Wheaton earnings"] },
+  "HL":  { "name": "Hecla Mining", "queries": ["Hecla", "HL stock", "Hecla earnings"] },
+
+  "PSLV": { "name": "Sprott Physical Silver Trust", "queries": ["PSLV", "Sprott Physical Silver Trust", "Sprott silver"] },
+  "SLV":  { "name": "iShares Silver Trust", "queries": ["SLV ETF", "iShares Silver Trust", "silver ETF SLV"] },
+  "SIVR": { "name": "abrdn Physical Silver Shares", "queries": ["SIVR", "abrdn physical silver shares", "SIVR ETF"] },
+  "SIL":  { "name": "Global X Silver Miners ETF", "queries": ["SIL ETF", "Global X Silver Miners", "silver miners ETF"] },
+  "SILJ": { "name": "Amplify Junior Silver Miners ETF", "queries": ["SILJ", "junior silver miners ETF", "SILJ ETF"] }
+}
