@@ -110,64 +110,33 @@
           <div class="artGrid"></div>
           <div class="artGlow"></div>
 
-          <div class="artHud">
-            <div class="hudItem">
-              <div class="hudLabel">Recent News</div>
-              <div class="hudValue">Live feed</div>
-            </div>
-            <div class="hudItem">
-              <div class="hudLabel">Recent Interviews</div>
-              <div class="hudValue">YouTube channels</div>
-            </div>
-            <div class="hudItem">
-              <div class="hudLabel">Sentiment</div>
-              <div class="hudValue">Rolling score</div>
-            </div>
-          </div>
-        </div>
+          <div class="aiHud">
+  <div class="aiTop">
+    <div class="aiTitle">Minerlytics AI Assistant</div>
+    <div class="aiSub">Grounded on D1 (daily_ohlcv)</div>
+  </div>
+
+  <div class="aiForm">
+    <input id="aiSymbol" type="text" placeholder="Ticker (HYMC, AEM, CDE...)" />
+    <input id="aiQuestion" type="text" placeholder="Ask (e.g., summarize last 10 days)" />
+    <button id="aiRun" class="btn btnPrimary btnTight" type="button">Ask</button>
+  </div>
+
+  <div class="aiQuickRow">
+    <button class="pillBtn" type="button" data-t="HYMC">HYMC</button>
+    <button class="pillBtn" type="button" data-t="AEM">AEM</button>
+    <button class="pillBtn" type="button" data-t="CDE">CDE</button>
+    <button class="pillBtn" type="button" data-t="WPM">WPM</button>
+  </div>
+
+  <div class="aiOut" id="aiOut">
+    <div class="aiHint">Type a ticker and question. Response uses only your stored OHLCV.</div>
+  </div>
+</div>
+
 
         <!-- Charts placeholders required by your doc -->
-        <div class="chartGrid">
-          <div class="chartCard">
-            <div class="chartHeader">
-              <span>7-day Gold</span>
-              <div class="seg" role="group" aria-label="Gold range filter">
-                <button class="segBtn isOn" data-range="7d">7D</button>
-                <button class="segBtn" data-range="1d">1D</button>
-                <button class="segBtn" data-range="6m">6M</button>
-                <button class="segBtn" data-range="1y">1Y</button>
-              </div>
-            </div>
-            <div class="chartBody"><canvas id="goldChart" height="110"></canvas></div>
-          </div>
-
-          <div class="chartCard">
-            <div class="chartHeader">
-              <span>7-day Silver</span>
-              <div class="seg" role="group" aria-label="Silver range filter">
-                <button class="segBtn isOn" data-range="7d">7D</button>
-                <button class="segBtn" data-range="1d">1D</button>
-                <button class="segBtn" data-range="6m">6M</button>
-                <button class="segBtn" data-range="1y">1Y</button>
-              </div>
-            </div>
-            <div class="chartBody"><canvas id="silverChart" height="110"></canvas></div>
-          </div>
-
-          <div class="chartCard">
-            <div class="chartHeader">
-              <span>7-day Copper</span>
-              <div class="seg" role="group" aria-label="Copper range filter">
-                <button class="segBtn isOn" data-range="7d">7D</button>
-                <button class="segBtn" data-range="1d">1D</button>
-                <button class="segBtn" data-range="6m">6M</button>
-                <button class="segBtn" data-range="1y">1Y</button>
-              </div>
-            </div>
-            <div class="chartBody"><canvas id="copperChart" height="110"></canvas></div>
-          </div>
-        </div>
-      </div>
+        
     </section>
 
     <!-- Bottom bar: “All News” + ticker strip -->
@@ -185,22 +154,69 @@
     </section>
 
     <!-- Minimal “Sign-in / Sign-up” modal-ish section hooks (placeholders) -->
-    <section class="authRow" id="signin">
-      <div class="authCard">
-        <h2>Sign In</h2>
-        <label>Username <input type="text" placeholder="username" /></label>
-        <label>Password <input type="password" placeholder="password" /></label>
-        <button class="btn btnPrimary" type="button">Sign In</button>
-      </div>
-
-      <div class="authCard" id="signup">
-        <h2>Sign Up</h2>
-        <label>Email <input type="email" placeholder="you@email.com" /></label>
-        <label>Password <input type="password" placeholder="create password" /></label>
-        <button class="btn btnPrimary" type="button">Create Account</button>
-      </div>
-    </section>
+   
   </main>
+          <script>
+  (function () {
+    const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+
+    const out = document.getElementById("aiOut");
+    const sym = document.getElementById("aiSymbol");
+    const q = document.getElementById("aiQuestion");
+    const btn = document.getElementById("aiRun");
+
+    function esc(s){
+      return String(s || "")
+        .replaceAll("&","&amp;")
+        .replaceAll("<","&lt;")
+        .replaceAll(">","&gt;")
+        .replaceAll('"',"&quot;")
+        .replaceAll("'","&#039;");
+    }
+
+    async function ask(){
+      const symbol = (sym.value || "").trim().toUpperCase();
+      const question = (q.value || "").trim();
+
+      if(!symbol){
+        out.innerHTML = '<div class="aiErr">Enter a ticker.</div>';
+        return;
+      }
+
+      out.innerHTML = `<div class="aiLoading">Thinking about ${esc(symbol)}…</div>`;
+
+      let res;
+      try {
+        res = await fetch(API_BASE + "/api/assistant", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ symbol, question })
+        });
+      } catch (e) {
+        out.innerHTML = `<div class="aiErr">Network error: ${esc(e?.message || String(e))}</div>`;
+        return;
+      }
+
+      if(!res.ok){
+        const txt = await res.text().catch(()=> "");
+        out.innerHTML = `<div class="aiErr">${esc(txt || ("Request failed: " + res.status))}</div>`;
+        return;
+      }
+
+      const data = await res.json().catch(()=> null);
+      const answer = data && data.answer ? String(data.answer) : "No answer returned.";
+      out.innerHTML = `<pre class="aiPre">${esc(answer)}</pre>`;
+    }
+
+    btn.addEventListener("click", ask);
+
+    sym.addEventListener("keydown", (e)=>{ if(e.key==="Enter") ask(); });
+    q.addEventListener("keydown", (e)=>{ if(e.key==="Enter") ask(); });
+  })();
+</script>
+
+<script src="./app.js"></script>
+
 
   <script src="./app.js"></script>
 </body>
