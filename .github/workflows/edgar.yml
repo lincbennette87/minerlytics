@@ -45,6 +45,10 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add public/data out data/universe.json data/miner.rules.json || true
-          git commit -m "Dev: refresh EDGAR data" || echo "No changes"
+
+          # Stage the files your pipeline actually generates
+          git add data/universe.json public package-lock.json
+
+          git status
+          git commit -m "Dev: refresh EDGAR data" || echo "No changes to commit"
           git push
