@@ -1,0 +1,37 @@
+name: EDGAR (Dev)
+
+on:
+  workflow_dispatch:        # Manual run from GitHub UI
+  push:
+    branches:
+      - dev                 # Auto-run only when pushing to dev
+
+permissions:
+  contents: write           # Needed to commit changes back to repo
+
+jobs:
+  run-edgar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Run EDGAR pipeline
+        run: npm run edgar:all
+
+      - name: Commit updated data files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add public/data config/universe.json
+          git commit -m "Dev: Update EDGAR data" || echo "No changes to commit"
+          git push
