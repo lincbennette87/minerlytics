@@ -367,65 +367,53 @@
        - decline => disables AI
   =================================== -->
   <script>
-  (function () {
-    const overlay = document.getElementById("aiDisclaimerOverlay");
-    const acceptBtn = document.getElementById("aiAccept");
-    const declineBtn = document.getElementById("aiDecline");
+(function () {
+  const overlay = document.getElementById("aiDisclaimerOverlay");
+  const acceptBtn = document.getElementById("aiAccept");
+  const declineBtn = document.getElementById("aiDecline");
+  const aiHud = document.querySelector(".aiHud");
 
-    const aiHud = document.querySelector(".aiHud");
-    const aiInputs = [
-      document.getElementById("aiSymbol"),
-      document.getElementById("aiQuestion"),
-      document.getElementById("aiRun"),
-      document.getElementById("aiClear")
-    ].filter(Boolean);
+  const KEY = "minerlytics_ai_disclaimer_accepted";
 
-    // start hidden; shown on first interaction with AI unless already accepted
+  function showOverlay(){
+    if(localStorage.getItem(KEY) === "true") return;
+    overlay.style.display = "flex";
+    document.body.classList.add("disclaimer-active");
+  }
+
+  function hideOverlay(){
     overlay.style.display = "none";
+    document.body.classList.remove("disclaimer-active");
+  }
 
-    const KEY = "minerlytics_ai_disclaimer_accepted";
-    const isAccepted = () => localStorage.getItem(KEY) === "true";
+  function disableAI(){
+    if(!aiHud) return;
+    aiHud.style.pointerEvents = "none";
+    aiHud.style.opacity = ".45";
+  }
 
-    function showOverlay(){
-      if(isAccepted()) return;
-      overlay.style.display = "flex";
-      // prevent interacting behind overlay
-      document.body.style.overflow = "hidden";
-    }
+  // Start hidden
+  overlay.style.display = "none";
 
-    function hideOverlay(){
-      overlay.style.display = "none";
-      document.body.style.overflow = "";
-    }
+  // Show when user interacts with AI
+  if(aiHud){
+    aiHud.addEventListener("pointerdown", showOverlay, { capture:true });
+    aiHud.addEventListener("focusin", showOverlay, { capture:true });
+  }
 
-    function disableAI(){
-      if(!aiHud) return;
-      aiHud.style.pointerEvents = "none";
-      aiHud.style.opacity = ".45";
-    }
+  acceptBtn.addEventListener("click", function(){
+    localStorage.setItem(KEY, "true");
+    hideOverlay();
+  });
 
-    // Trigger disclaimer when user tries to use AI
-    if(aiHud){
-      aiHud.addEventListener("pointerdown", () => showOverlay(), { capture:true });
-      aiHud.addEventListener("focusin", () => showOverlay(), { capture:true });
-    }
+  declineBtn.addEventListener("click", function(){
+    hideOverlay();
+    disableAI();
+  });
 
-    acceptBtn.addEventListener("click", function(){
-      localStorage.setItem(KEY, "true");
-      hideOverlay();
-    });
+})();
+</script>
 
-    declineBtn.addEventListener("click", function(){
-      hideOverlay();
-      disableAI();
-    });
-
-    // If accepted previously, ensure overlay never blocks and AI is enabled
-    if(isAccepted()){
-      hideOverlay();
-    }
-  })();
-  </script>
 
   <!-- your existing app.js (keep only one include) -->
   <script src="./app.js"></script>
