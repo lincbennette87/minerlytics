@@ -365,13 +365,25 @@ input,button{font:inherit}
   .authRow{grid-template-columns:1fr}
   .heroLeft h1{font-size:42px}
 }
+
+/* =========================
+   Minerlytics AI Chat (UPDATED)
+   ========================= */
+
 .aiHud{ position:relative; z-index:2; padding:18px; }
 .aiTop{ margin-bottom:12px; }
 .aiTitle{ font-weight:800; letter-spacing:.06em; }
 .aiSub{ opacity:.75; font-size:.9rem; margin-top:4px; }
 
-.aiForm{ display:flex; flex-direction:column; gap:10px; margin:12px 0; }
-.aiForm input{
+/* Ticker + Clear row */
+.aiControls{
+  display:flex;
+  gap:10px;
+  align-items:center;
+  margin:12px 0 10px;
+}
+.aiControls input{
+  flex:1;
   padding:12px;
   border-radius:12px;
   border:1px solid rgba(255,255,255,.12);
@@ -380,7 +392,75 @@ input,button{font:inherit}
   outline:none;
 }
 
-.aiQuickRow{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px; }
+/* Chat transcript */
+.aiChat{
+  border:1px solid rgba(255,255,255,.10);
+  background:rgba(0,0,0,.10);
+  border-radius:14px;
+  padding:10px;
+  height:240px;
+  overflow:auto;
+}
+
+/* Message rows */
+.aiMsg{
+  display:flex;
+  margin:10px 0;
+  gap:10px;
+}
+.aiMsg.user{ justify-content:flex-end; }
+.aiMsg.assistant{ justify-content:flex-start; }
+
+.aiBubble{
+  max-width:88%;
+  padding:10px 12px;
+  border-radius:14px;
+  line-height:1.35;
+  font-size:13px;
+  white-space:pre-wrap;
+  word-break:break-word;
+  border:1px solid rgba(255,255,255,.10);
+  background:rgba(255,255,255,.06);
+}
+.aiMsg.user .aiBubble{
+  background:rgba(124,92,255,.16);
+  border-color:rgba(124,92,255,.22);
+}
+
+/* Label under bubble */
+.aiMeta{
+  font-size:11px;
+  opacity:.70;
+  margin-top:4px;
+}
+
+/* Empty state / typing */
+.aiTyping{
+  opacity:.8;
+  font-size:12px;
+  padding:6px 2px;
+}
+
+/* Composer */
+.aiComposer{
+  display:flex;
+  gap:10px;
+  margin-top:10px;
+  align-items:flex-end;
+}
+.aiComposer textarea{
+  flex:1;
+  resize:none;
+  padding:10px 12px;
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,.12);
+  background:rgba(0,0,0,.18);
+  color:inherit;
+  outline:none;
+}
+
+/* Keep your quick row & pill buttons (slight spacing tweak) */
+.aiQuickRow{ display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
 .pillBtn{
   border:1px solid rgba(255,255,255,.12);
   background:rgba(0,0,0,.14);
@@ -389,24 +469,4 @@ input,button{font:inherit}
   border-radius:999px;
   cursor:pointer;
 }
-
-.aiOut{
-  border:1px solid rgba(255,255,255,.10);
-  background:rgba(0,0,0,.10);
-  border-radius:14px;
-  padding:12px;
-  min-height:140px;
-}
-
-.aiHint{ opacity:.75; }
-.aiLoading{ font-weight:700; opacity:.9; }
-.aiErr{ font-weight:700; opacity:.95; }
-.aiPre{
-  white-space:pre-wrap;
-  word-break:break-word;
-  margin:0;
-  font-family: ui-monospace, Menlo, Monaco, Consolas, monospace;
-  font-size:.9rem;
-  line-height:1.35rem;
-}
-
+.pillBtn:hover{ border-color:rgba(255,255,255,.22); }
