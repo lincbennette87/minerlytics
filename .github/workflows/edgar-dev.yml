@@ -1,10 +1,6 @@
-name: Edgar Dev (Manual)
+name: EDGAR (dev)
 
 on:
   workflow_dispatch:
-
-jobs:
-  run-edgar:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+  push:
+    branches: [ dev ]
