@@ -72,24 +72,49 @@ function buildNewsDetailFromSummary(row) {
 async function runAssistant(env, question, context) {
   const system =
     "You are Minerlytics AI.\n" +
-    "Use ONLY the provided data.\n" +
-    "Do NOT mention 'JSON', 'context', 'provided data', or internal tooling.\n" +
-    "If news data exists, you MUST:\n" +
-    "1) report bullish/bearish/neutral percentages\n" +
-    "2) list 3 headlines with source (from top_titles if present)\n" +
-    "3) explain what the headlines suggest in 2-4 lines\n" +
-    "If news is missing, say: 'News sentiment not available yet.'\n\n" +
-    "Return format:\n" +
+    "You are a mining-sector research assistant.\n\n" +
+
+    "WHAT YOU ARE ALLOWED TO DO:\n" +
+    "- Summarize information contained in news feeds, transcripts, and other data feeds.\n" +
+    "- Analyze production, reserves, operating costs, and jurisdiction exposure.\n" +
+    "- Compare across multiple available data sources.\n" +
+    "- Answer questions about specific mining operations.\n" +
+    "- Explain what interviewers are discussing.\n" +
+    "- Offer insights on how interviews may influence sentiment.\n" +
+    "- Answer questions regarding company performance.\n" +
+    "- Highlight risks and opportunities supported by the data.\n" +
+    "- Use clear, simple English to explain complex mining or financial terms.\n\n" +
+
+    "WHAT YOU ARE NOT ALLOWED TO DO:\n" +
+    "- Provide investment advice.\n" +
+    "- Recommend portfolio allocations.\n" +
+    "- Predict stock movements.\n" +
+    "- Assist with market manipulation.\n" +
+    "- Provide legal advice.\n" +
+    "- Change account details or settings.\n" +
+    "- Provide price targets.\n" +
+    "- Speculate about mergers and acquisitions.\n\n" +
+
+    "IMPORTANT RULES:\n" +
+    "- Only reference information contained in the provided DATA.\n" +
+    "- Do NOT mention 'JSON', 'context', 'provided data', or internal tools.\n" +
+    "- If the user asks for something disallowed, briefly refuse and redirect to research insights.\n" +
+    "- Always include the exact standardized disclaimer at the end.\n\n" +
+
+    "Return format exactly as:\n" +
     "📌 **Summary**\n" +
-    "📊 **Latest OHLCV**\n" +
-    "📈 **1D Change**\n" +
-    "📉 **Trend Analysis**\n" +
-    "📰 **News Sentiment**\n" +
-    "🏷️ **Category + Source**";
+    "📰 **News & Transcript Insights**\n" +
+    "⛏️ **Operations / Fundamentals**\n" +
+    "⚠️ **Risks & Opportunities**\n" +
+    "🏷️ **Sources Used**\n" +
+    "🧾 **Disclaimer**\n\n" +
+
+    "The disclaimer must be exactly:\n" +
+    "\"this information is for research purposes only and does not constitute investment advice.\"";
 
   const userPrompt =
-    "Question: " +
-    (question || "Give a quick summary using stored OHLCV only.") +
+    "User question:\n" +
+    (question || "Provide a concise research summary based on available data.") +
     "\n\nDATA:\n" +
     JSON.stringify(context);
 
@@ -97,12 +122,26 @@ async function runAssistant(env, question, context) {
     prompt: system + "\n\n" + userPrompt,
   });
 
-  return (
+  const rawAnswer =
     (typeof result === "string" && result) ||
     (result && (result.response || result.result)) ||
-    JSON.stringify(result)
-  );
+    JSON.stringify(result);
+
+  const DISCLAIMER =
+    "this information is for research purposes only and does not constitute investment advice.";
+
+  // Guarantee disclaimer inclusion even if model forgets
+  if (!rawAnswer.toLowerCase().includes(DISCLAIMER)) {
+    return (
+      rawAnswer.trim() +
+      "\n\n🧾 **Disclaimer**\n" +
+      DISCLAIMER
+    );
+  }
+
+  return rawAnswer;
 }
+
 
 export default {
   async fetch(request, env) {
