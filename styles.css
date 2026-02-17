@@ -459,7 +459,7 @@ input,button{font:inherit}
   outline:none;
 }
 
-/* Keep your quick row & pill buttons (slight spacing tweak) */
+/* Quick row & pill buttons */
 .aiQuickRow{ display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
 .pillBtn{
   border:1px solid rgba(255,255,255,.12);
@@ -472,28 +472,36 @@ input,button{font:inherit}
 .pillBtn:hover{ border-color:rgba(255,255,255,.22); }
 
 /* =========================
-   AI Disclaimer Modal
+   AI Disclaimer (CLEAN + WORKING)
    ========================= */
 
+/* Blur entire page when disclaimer is active */
+body.disclaimer-active > *:not(.disclaimerOverlay){
+  filter: blur(8px);
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Overlay (hidden by default; JS sets display:flex) */
 .disclaimerOverlay{
   position:fixed;
   inset:0;
-  background:rgba(5,8,15,.65);
-  backdrop-filter: blur(14px);
-  display:flex;
+  display:none;
   align-items:center;
   justify-content:center;
+  background:rgba(5,8,15,.55);
+  backdrop-filter: blur(2px);
   z-index:9999;
 }
 
 .disclaimerModal{
   width:min(620px, 92%);
-  background:linear-gradient(180deg, rgba(14,22,48,.95), rgba(11,19,42,.95));
+  background:linear-gradient(180deg, rgba(14,22,48,.96), rgba(11,19,42,.96));
   border:1px solid rgba(255,255,255,.12);
   border-radius:20px;
   padding:28px;
-  box-shadow:0 30px 80px rgba(0,0,0,.6);
-  animation: fadeIn .25s ease-out;
+  box-shadow:0 30px 80px rgba(0,0,0,.65);
+  animation: disclaimerFadeIn .25s ease-out;
 }
 
 .disclaimerModal h2{
@@ -508,9 +516,7 @@ input,button{font:inherit}
   color:var(--muted);
 }
 
-.disclaimerBody p{
-  margin-bottom:12px;
-}
+.disclaimerBody p{ margin:0 0 12px; }
 
 .disclaimerActions{
   display:flex;
@@ -519,51 +525,7 @@ input,button{font:inherit}
   margin-top:20px;
 }
 
-/* fade animation */
-@keyframes fadeIn{
-  from{opacity:0; transform:translateY(8px)}
-  to{opacity:1; transform:translateY(0)}
-}
-
-/* Hide overlay when accepted */
-.disclaimerHidden{
-  display:none;
-}
-/* =========================
-   Full Screen Blur When Disclaimer Active
-   ========================= */
-
-/* Blur entire page when active */
-body.disclaimer-active > *:not(.disclaimerOverlay){
-  filter: blur(8px);
-  pointer-events: none;
-  user-select: none;
-}
-
-/* Overlay */
-.disclaimerOverlay{
-  position:fixed;
-  inset:0;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background:rgba(5,8,15,.55);
-  backdrop-filter: blur(2px);
-  z-index:9999;
-}
-
-.disclaimerModal{
-  width:min(620px,92%);
-  background:linear-gradient(180deg, rgba(14,22,48,.96), rgba(11,19,42,.96));
-  border:1px solid rgba(255,255,255,.12);
-  border-radius:20px;
-  padding:28px;
-  box-shadow:0 30px 80px rgba(0,0,0,.65);
-  animation: fadeIn .25s ease-out;
-}
-
-@keyframes fadeIn{
+@keyframes disclaimerFadeIn{
   from{opacity:0; transform:translateY(10px)}
   to{opacity:1; transform:translateY(0)}
 }
-
