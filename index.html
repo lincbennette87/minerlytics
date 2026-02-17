@@ -36,9 +36,10 @@
     </div>
   </header>
 
+  <!-- Hero -->
   <main class="shell" id="home">
 
-    <!-- MOVED HERE: News bar just above hero -->
+    <!-- News bar moved above hero -->
     <section class="bottomBar">
       <div class="bottomLeft">
         <span class="dot"></span>
@@ -52,7 +53,6 @@
       <button class="newsBtn" type="button">All News</button>
     </section>
 
-    <!-- Hero -->
     <section class="hero">
       <div class="heroLeft">
         <h1>Trade Like an Insider</h1>
@@ -125,16 +125,25 @@
           <div class="artGrid"></div>
           <div class="artGlow"></div>
 
+          <!-- ✅ Chat-style AI Assistant -->
           <div class="aiHud">
             <div class="aiTop">
               <div class="aiTitle">Minerlytics AI Assistant</div>
               <div class="aiSub">Grounded on D1 (daily_ohlcv)</div>
             </div>
 
-            <div class="aiForm">
+            <div class="aiControls">
               <input id="aiSymbol" type="text" placeholder="Ticker (HYMC, AEM, CDE...)" />
-              <input id="aiQuestion" type="text" placeholder="Ask (e.g., summarize last 10 days)" />
-              <button id="aiRun" class="btn btnPrimary btnTight" type="button">Ask</button>
+              <button id="aiClear" class="btn btnGhost btnTight" type="button">Clear</button>
+            </div>
+
+            <div class="aiChat" id="aiChat" aria-label="AI chat transcript">
+              <!-- messages render here -->
+            </div>
+
+            <div class="aiComposer">
+              <textarea id="aiQuestion" rows="2" placeholder="Ask a question… (Enter to send, Shift+Enter for new line)"></textarea>
+              <button id="aiRun" class="btn btnPrimary btnTight" type="button">Send</button>
             </div>
 
             <div class="aiQuickRow">
@@ -142,10 +151,6 @@
               <button class="pillBtn" type="button" data-t="AEM">AEM</button>
               <button class="pillBtn" type="button" data-t="CDE">CDE</button>
               <button class="pillBtn" type="button" data-t="WPM">WPM</button>
-            </div>
-
-            <div class="aiOut" id="aiOut">
-              <div class="aiHint">Type a ticker and question. Response uses only your stored OHLCV.</div>
             </div>
           </div>
 
@@ -155,65 +160,184 @@
     </section>
   </main>
 
+  <!-- ✅ Chat-enabled AI script (replaces your old one-off Q/A script) -->
   <script>
-    (function () {
-      const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+  (function () {
+    const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 
-      const out = document.getElementById("aiOut");
-      const sym = document.getElementById("aiSymbol");
-      const q = document.getElementById("aiQuestion");
-      const btn = document.getElementById("aiRun");
+    const chatEl   = document.getElementById("aiChat");
+    const symEl    = document.getElementById("aiSymbol");
+    const qEl      = document.getElementById("aiQuestion");
+    const sendBtn  = document.getElementById("aiRun");
+    const clearBtn = document.getElementById("aiClear");
 
-      function esc(s){
-        return String(s || "")
-          .replaceAll("&","&amp;")
-          .replaceAll("<","&lt;")
-          .replaceAll(">","&gt;")
-          .replaceAll('"',"&quot;")
-          .replaceAll("'","&#039;");
+    // Conversation memory for follow-ups (client-side, sent each turn)
+    let messages = []; // { role:"system"|"user"|"assistant", content:"..." }
+
+    function esc(s){
+      return String(s ?? "")
+        .replaceAll("&","&amp;")
+        .replaceAll("<","&lt;")
+        .replaceAll(">","&gt;")
+        .replaceAll('"',"&quot;")
+        .replaceAll("'","&#039;");
+    }
+
+    function scrollToBottom(){
+      chatEl.scrollTop = chatEl.scrollHeight;
+    }
+
+    function render(){
+      chatEl.innerHTML = "";
+
+      if(messages.filter(m => m.role !== "system").length === 0){
+        chatEl.innerHTML = `
+          <div class="aiTyping">
+            Start a chat. Try: “summarize last 10 days” or “what changed vs last week?”
+          </div>
+        `;
+        return;
       }
 
-      async function ask(){
-        const symbol = (sym.value || "").trim().toUpperCase();
-        const question = (q.value || "").trim();
+      for(const m of messages){
+        if(m.role === "system") continue;
 
-        if(!symbol){
-          out.innerHTML = '<div class="aiErr">Enter a ticker.</div>';
-          return;
-        }
+        const who = m.role === "user" ? "user" : "assistant";
+        const label = m.role === "user" ? "You" : "Minerlytics AI";
 
-        out.innerHTML = `<div class="aiLoading">Thinking about ${esc(symbol)}…</div>`;
+        const node = document.createElement("div");
+        node.className = `aiMsg ${who}`;
+        node.innerHTML = `
+          <div>
+            <div class="aiBubble">${esc(m.content)}</div>
+            <div class="aiMeta">${esc(label)}</div>
+          </div>
+        `;
+        chatEl.appendChild(node);
+      }
+      scrollToBottom();
+    }
 
-        let res;
-        try {
-          res = await fetch(API_BASE + "/api/assistant", {
-            method: "POST",
-            headers: { "content-type": "application/json" },
-            body: JSON.stringify({ symbol, question })
-          });
-        } catch (e) {
-          out.innerHTML = `<div class="aiErr">Network error: ${esc(e?.message || String(e))}</div>`;
-          return;
-        }
+    function pushSystemPrimer(symbol){
+      // Keep assistant consistent & OHLCV-only.
+      messages = messages.filter(m => m.role !== "system");
+      messages.unshift({
+        role: "system",
+        content:
+          `You are Minerlytics AI Assistant. Answer using only stored OHLCV for the given symbol from D1 (daily_ohlcv). ` +
+          `If asked for news/fundamentals/social, say it's not available in this dataset. Current symbol: ${symbol}.`
+      });
+    }
 
-        if(!res.ok){
-          const txt = await res.text().catch(()=> "");
-          out.innerHTML = `<div class="aiErr">${esc(txt || ("Request failed: " + res.status))}</div>`;
-          return;
-        }
+    function typingOn(){
+      const node = document.createElement("div");
+      node.id = "aiTyping";
+      node.className = "aiTyping";
+      node.textContent = "Thinking…";
+      chatEl.appendChild(node);
+      scrollToBottom();
+    }
 
-        const data = await res.json().catch(()=> null);
-        const answer = data && data.answer ? String(data.answer) : "No answer returned.";
-        out.innerHTML = `<pre class="aiPre">${esc(answer)}</pre>`;
+    function typingOff(){
+      const node = document.getElementById("aiTyping");
+      if(node) node.remove();
+    }
+
+    async function send(){
+      const symbol = (symEl.value || "").trim().toUpperCase();
+      const question = (qEl.value || "").trim();
+
+      if(!symbol){
+        messages.push({ role:"assistant", content:"Enter a ticker first (e.g., HYMC)." });
+        render();
+        return;
       }
 
-      btn.addEventListener("click", ask);
-      sym.addEventListener("keydown", (e)=>{ if(e.key==="Enter") ask(); });
-      q.addEventListener("keydown", (e)=>{ if(e.key==="Enter") ask(); });
-    })();
+      if(!question){
+        messages.push({ role:"assistant", content:"Type a question to send." });
+        render();
+        return;
+      }
+
+      pushSystemPrimer(symbol);
+      messages.push({ role:"user", content: question });
+
+      qEl.value = "";
+      render();
+      typingOn();
+
+      // Keep payload smaller
+      const MAX_TURNS = 16;
+      const context = messages.slice(-MAX_TURNS);
+
+      let res;
+      try{
+        res = await fetch(API_BASE + "/api/assistant", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({
+            symbol,
+            question,
+            messages: context
+          })
+        });
+      } catch (e){
+        typingOff();
+        messages.push({ role:"assistant", content:`Network error: ${String(e?.message || e)}` });
+        render();
+        return;
+      }
+
+      if(!res.ok){
+        const txt = await res.text().catch(()=> "");
+        typingOff();
+        messages.push({ role:"assistant", content: (txt || `Request failed: ${res.status}`) });
+        render();
+        return;
+      }
+
+      const data = await res.json().catch(()=> null);
+      const answer = data?.answer ? String(data.answer) : "No answer returned.";
+      typingOff();
+      messages.push({ role:"assistant", content: answer });
+      render();
+    }
+
+    function clearChat(){
+      messages = [];
+      render();
+    }
+
+    // Click send
+    sendBtn.addEventListener("click", send);
+    clearBtn.addEventListener("click", clearChat);
+
+    // Enter to send (Shift+Enter = newline)
+    qEl.addEventListener("keydown", (e)=>{
+      if(e.key === "Enter" && !e.shiftKey){
+        e.preventDefault();
+        send();
+      }
+    });
+
+    // Quick ticker pills
+    document.addEventListener("click", (e)=>{
+      const btn = e.target.closest(".pillBtn");
+      if(!btn) return;
+      const t = btn.getAttribute("data-t");
+      if(t){
+        symEl.value = t;
+        clearChat();
+        messages.push({ role:"assistant", content:`Set ticker to ${t}. Ask your first question.` });
+        render();
+      }
+    });
+
+    render();
+  })();
   </script>
 
-  <!-- keep only one app.js include -->
+  <!-- your existing app.js (keep only one include) -->
   <script src="./app.js"></script>
 </body>
 </html>
