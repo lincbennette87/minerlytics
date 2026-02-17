@@ -2,15 +2,27 @@ import fs from "node:fs";
 import path from "node:path";
 import { secGetJson, createThrottle } from "./secFetch.js";
 
-const rules = JSON.parse(fs.readFileSync(path.resolve("data/miner.rules.json"), "utf8"));
-const universe = JSON.parse(fs.readFileSync(path.resolve("data/universe.json"), "utf8"));
+// Reads from /data (your choice)
+const rulesPath = path.resolve("data/miner.rules.json");
+const universePath = path.resolve("data/universe.json");
+
+// Writes to Pages-served folder
+const outDir = path.resolve("public/data");
+const outFile = path.join(outDir, "fundamentals_latest.json");
+
+// Load configs
+const rules = JSON.parse(fs.readFileSync(rulesPath, "utf8"));
+const universe = JSON.parse(fs.readFileSync(universePath, "utf8"));
 
 const userAgent = rules.edgar?.userAgent;
-const rps = rules.edgar?.rps ?? 3;
-if (!userAgent) throw new Error("Missing rules.edgar.userAgent in data/miner.rules.json");
+if (!userAgent) {
+  throw new Error("Missing rules.edgar.userAgent in data/miner.rules.json");
+}
 
+const rps = rules.edgar?.rps ?? 1;
 const throttle = createThrottle(rps);
 
+// Metrics mapping: metricKey -> possible US-GAAP tags (we try in order)
 const METRICS = {
   revenue: ["Revenues", "SalesRevenueNet"],
   netIncome: ["NetIncomeLoss", "ProfitLoss"],
@@ -22,9 +34,29 @@ const METRICS = {
   sharesOutstanding: ["CommonStockSharesOutstanding"]
 };
 
-function pickLatest(arr) {
-  const sorted = [...arr].sort((a, b) => new Date(b.end) - new Date(a.end));
-  return sorted[0];
+function pickLatestFact(factsArr) {
+  // Prefer most recent by "end" date, fall back safely
+  return [...factsArr].sort((a, b) => {
+    const da = new Date(a.end || 0).getTime();
+    const db = new Date(b.end || 0).getTime();
+    return db - da;
+  })[0];
+}
+
+function chooseUnit(unitsObj, localTagName) {
+  const unitKeys = Object.keys(unitsObj || {});
+  if (unitKeys.length === 0) return null;
+
+  // If shares tag, prefer "shares"
+  if (localTagName.toLowerCase().includes("share")) {
+    if (unitKeys.includes("shares")) return "shares";
+  }
+
+  // Prefer USD if present
+  if (unitKeys.includes("USD")) return "USD";
+
+  // Otherwise pick the first available unit
+  return unitKeys[0];
 }
 
 function extractLatest(usgaap, tagList) {
@@ -32,44 +64,88 @@ function extractLatest(usgaap, tagList) {
     const node = usgaap?.[tag];
     if (!node?.units) continue;
 
-    const unitKeys = Object.keys(node.units);
-    const preferred = unitKeys.includes("USD") ? "USD"
-      : unitKeys.includes("shares") ? "shares"
-      : unitKeys[0];
+    const unit = chooseUnit(node.units, tag);
+    if (!unit) continue;
 
-    const arr = node.units[preferred]?.filter(x => x.end && x.val !== undefined);
+    const arr = node.units[unit]
+      ?.filter(x => x && x.end && x.val !== undefined && x.val !== null);
+
     if (!arr || arr.length === 0) continue;
 
-    const latest = pickLatest(arr);
-    return { tag, unit: preferred, end: latest.end, fy: latest.fy, fp: latest.fp, val: latest.val };
+    const latest = pickLatestFact(arr);
+
+    return {
+      tag,
+      unit,
+      end: latest.end || null,
+      fy: latest.fy ?? null,
+      fp: latest.fp ?? null,
+      form: latest.form ?? null,
+      filed: latest.filed ?? null,
+      val: latest.val
+    };
   }
   return null;
 }
 
 async function main() {
+  fs.mkdirSync(outDir, { recursive: true });
+
   const fundamentals = [];
+  let processed = 0;
+  let skipped = 0;
 
-  for (const c of universe.companies) {
-    if (!c.cik) continue;
+  // Your universe.json is: { "AEM": { name, queries, cik? }, ... }
+  for (const [ticker, info] of Object.entries(universe)) {
+    const cik = info?.cik;
+    if (!cik) {
+      console.log(`Skip ${ticker}: no CIK yet`);
+      skipped++;
+      continue;
+    }
 
-    const url = `https://data.sec.gov/api/xbrl/companyfacts/CIK${c.cik}.json`;
+    const url = `https://data.sec.gov/api/xbrl/companyfacts/CIK${cik}.json`;
+
     await throttle();
-    const data = await secGetJson(url, userAgent);
+    let data;
+    try {
+      data = await secGetJson(url, userAgent);
+    } catch (e) {
+      console.log(`FAIL ${ticker}: companyfacts fetch error`);
+      console.log(String(e).slice(0, 300));
+      skipped++;
+      continue;
+    }
 
     const usgaap = data?.facts?.["us-gaap"];
-    if (!usgaap) continue;
+    if (!usgaap) {
+      console.log(`Skip ${ticker}: no us-gaap facts`);
+      skipped++;
+      continue;
+    }
 
-    const row = { cik: c.cik, ticker: c.ticker, asOf: new Date().toISOString() };
+    const row = {
+      cik,
+      ticker,
+      name: info?.name ?? null,
+      asOf: new Date().toISOString()
+    };
+
     for (const [metric, tags] of Object.entries(METRICS)) {
       row[metric] = extractLatest(usgaap, tags);
     }
+
     fundamentals.push(row);
-    console.log(`${c.ticker}: fundamentals ok`);
+    processed++;
+    console.log(`OK ${ticker}: fundamentals extracted`);
   }
 
-  fs.mkdirSync(path.resolve("public/data"), { recursive: true });
-  fs.writeFileSync(path.resolve("public/data/fundamentals_latest.json"), JSON.stringify(fundamentals, null, 2));
-  console.log("Wrote public/data/fundamentals_latest.json");
+  fs.writeFileSync(outFile, JSON.stringify(fundamentals, null, 2));
+  console.log(`\nWrote ${outFile}`);
+  console.log(`Processed: ${processed}, Skipped: ${skipped}`);
 }
 
-main().catch(e => { console.error(e); process.exit(1); });
+main().catch(e => {
+  console.error(e);
+  process.exit(1);
+});
