@@ -18,6 +18,29 @@ const tickerItems = [
   "Regulatory update: project approval milestone reached",
 ];
 
+// ✅ Worker base (no api folder needed)
+const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+
+function esc(s){
+  return String(s ?? "")
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("'","&#039;");
+}
+
+function fmtPct(x){
+  const n = Number(x);
+  if (!Number.isFinite(n)) return "—";
+  return (n >= 0 ? "+" : "") + n.toFixed(2) + "%";
+}
+
+function fmtDate(s){
+  if(!s) return "";
+  return String(s).replace("T"," ").replace("Z","");
+}
+
 function renderTrending() {
   const el = document.getElementById("trendRow");
   el.innerHTML = trending.map(t => `
@@ -52,7 +75,6 @@ function renderQuotes() {
 
 function renderTicker() {
   const el = document.getElementById("tickerTrack");
-  // Duplicate so it loops cleanly
   const combined = [...tickerItems, ...tickerItems].map(t => `
     <span class="tickerItem"><span class="badge"></span>${t}</span>
   `).join("");
@@ -67,7 +89,6 @@ function wireSearch() {
   function go(q) {
     const query = (q || "").trim();
     if (!query) return;
-    // Placeholder: later route to Company Profile / Analysis page
     alert(`Search: ${query}\n\nNext: connect to ticker/company lookup + mining-only filter.`);
   }
 
@@ -92,7 +113,6 @@ function spark(canvasId) {
 
   ctx.clearRect(0,0,w,h);
 
-  // grid
   ctx.globalAlpha = 0.18;
   ctx.strokeStyle = "#ffffff";
   for (let i = 1; i < 4; i++) {
@@ -103,7 +123,6 @@ function spark(canvasId) {
   }
   ctx.globalAlpha = 1;
 
-  // line (no custom color; use default current strokeStyle)
   ctx.lineWidth = 2;
   ctx.strokeStyle = "rgba(234,240,255,.82)";
   ctx.beginPath();
@@ -115,7 +134,6 @@ function spark(canvasId) {
   });
   ctx.stroke();
 
-  // fill
   const grad = ctx.createLinearGradient(0, 0, 0, h);
   grad.addColorStop(0, "rgba(124,92,255,.22)");
   grad.addColorStop(1, "rgba(124,92,255,0)");
@@ -128,11 +146,14 @@ function spark(canvasId) {
 
 function wireSegButtons() {
   document.querySelectorAll(".segBtn").forEach(btn => {
+    // Only apply this placeholder behavior to the chart segment group
+    // Media toggle has its own wiring below (by ID)
+    if (btn.id === "mediaNewsBtn" || btn.id === "mediaInterviewsBtn") return;
+
     btn.addEventListener("click", () => {
       const group = btn.parentElement;
       group.querySelectorAll(".segBtn").forEach(b => b.classList.remove("isOn"));
       btn.classList.add("isOn");
-      // Placeholder: later fetch data by range (1d/7d/6m/1y)
       spark("goldChart");
       spark("silverChart");
       spark("copperChart");
@@ -140,11 +161,119 @@ function wireSegButtons() {
   });
 }
 
+/* =========================
+   Phase 1: Top 5 Momentum
+   ========================= */
+async function loadMomentumTop(){
+  const el = document.getElementById("momentumRow");
+  if(!el) return;
+
+  el.innerHTML = `<div class="quoteCard" style="grid-column:1/-1;">Loading momentum…</div>`;
+
+  try{
+    const r = await fetch(`${API_BASE}/api/momentum-top?limit=5`);
+    if(!r.ok) throw new Error("momentum-top failed: " + r.status);
+    const j = await r.json();
+    const items = j.items || [];
+
+    if(items.length === 0){
+      el.innerHTML = `<div class="quoteCard" style="grid-column:1/-1;">No momentum data yet.</div>`;
+      return;
+    }
+
+    el.innerHTML = items.map(it => {
+      const sym = String(it.symbol || "").replace(/\.us$/i,"").toUpperCase();
+      const pct = fmtPct(it.chg_pct);
+      return `
+        <div class="trendCard">
+          <div class="avatar" aria-hidden="true"></div>
+          <div class="trendText">
+            <div class="trendTitle">${esc(sym)}</div>
+            <div class="trendMeta">${esc(pct)} · Close ${esc(it.close_latest)}</div>
+          </div>
+        </div>
+      `;
+    }).join("");
+  } catch(e){
+    console.error(e);
+    el.innerHTML = `<div class="quoteCard" style="grid-column:1/-1;">Failed to load momentum.</div>`;
+  }
+}
+
+/* =========================
+   Phase 1: Recent Media
+   ========================= */
+async function loadRecentMedia(type){
+  const list = document.getElementById("recentMediaList");
+  if(!list) return;
+
+  if(type === "interviews"){
+    list.innerHTML = `<div style="opacity:.75;">Interviews coming soon.</div>`;
+    return;
+  }
+
+  list.innerHTML = "Loading…";
+
+  try{
+    const r = await fetch(`${API_BASE}/api/recent-media?type=news&limit=10`);
+    if(!r.ok) throw new Error("recent-media failed: " + r.status);
+    const j = await r.json();
+    const items = j.items || [];
+
+    if(items.length === 0){
+      list.innerHTML = `<div style="opacity:.75;">No news yet.</div>`;
+      return;
+    }
+
+    list.innerHTML = `
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        ${items.map(it => `
+          <a href="${esc(it.link)}" target="_blank" rel="noreferrer"
+             style="display:flex;flex-direction:column;gap:4px;padding:10px;border:1px solid rgba(255,255,255,.08);border-radius:14px;background:rgba(255,255,255,.03);">
+            <div style="font-weight:650;">${esc(it.title)}</div>
+            <div style="font-size:12px;opacity:.70;">
+              ${esc(it.source || "Source")}
+              ${it.ticker ? " · " + esc(it.ticker) : ""}
+              ${it.published_at || it.fetched_at ? " · " + esc(fmtDate(it.published_at || it.fetched_at)) : ""}
+            </div>
+          </a>
+        `).join("")}
+      </div>
+    `;
+  } catch(e){
+    console.error(e);
+    list.innerHTML = `<div style="opacity:.75;">Failed to load news.</div>`;
+  }
+}
+
+function wireMediaToggle(){
+  const newsBtn = document.getElementById("mediaNewsBtn");
+  const intBtn  = document.getElementById("mediaInterviewsBtn");
+  if(!newsBtn || !intBtn) return;
+
+  newsBtn.addEventListener("click", () => {
+    newsBtn.classList.add("isOn");
+    intBtn.classList.remove("isOn");
+    loadRecentMedia("news");
+  });
+
+  intBtn.addEventListener("click", () => {
+    intBtn.classList.add("isOn");
+    newsBtn.classList.remove("isOn");
+    loadRecentMedia("interviews");
+  });
+}
+
+/* Init */
 renderTrending();
 renderQuotes();
 renderTicker();
 wireSearch();
 wireSegButtons();
+
+loadMomentumTop();
+wireMediaToggle();
+loadRecentMedia("news");
 
 spark("goldChart");
 spark("silverChart");
