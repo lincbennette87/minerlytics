@@ -1,0 +1,627 @@
+[
+  {
+    "cik": "0000002809",
+    "ticker": "AEM",
+    "name": "Agnico Eagle",
+    "asOf": "2026-02-17T07:46:24.455Z",
+    "revenue": {
+      "tag": "Revenues",
+      "unit": "USD",
+      "end": "2010-03-31",
+      "fy": 2010,
+      "fp": "Q1",
+      "form": "6-K",
+      "filed": "2010-05-13",
+      "val": 239305000
+    },
+    "netIncome": {
+      "tag": "ProfitLoss",
+      "unit": "USD",
+      "end": "2014-06-30",
+      "fy": 2014,
+      "fp": "Q2",
+      "form": "6-K",
+      "filed": "2014-08-11",
+      "val": 146528000
+    },
+    "assets": {
+      "tag": "Assets",
+      "unit": "USD",
+      "end": "2014-06-30",
+      "fy": 2014,
+      "fp": "Q2",
+      "form": "6-K",
+      "filed": "2014-08-11",
+      "val": 6708478000
+    },
+    "liabilities": null,
+    "cashFlowOps": {
+      "tag": "NetCashProvidedByUsedInOperatingActivities",
+      "unit": "USD",
+      "end": "2011-06-30",
+      "fy": 2011,
+      "fp": "Q2",
+      "form": "6-K",
+      "filed": "2011-08-12",
+      "val": 333864000
+    },
+    "epsBasic": {
+      "tag": "EarningsPerShareBasic",
+      "unit": "USD/shares",
+      "end": "2014-06-30",
+      "fy": 2014,
+      "fp": "Q2",
+      "form": "6-K",
+      "filed": "2014-08-11",
+      "val": 0.81
+    },
+    "epsDiluted": {
+      "tag": "EarningsPerShareDiluted",
+      "unit": "USD/shares",
+      "end": "2014-06-30",
+      "fy": 2014,
+      "fp": "Q2",
+      "form": "6-K",
+      "filed": "2014-08-11",
+      "val": 0.81
+    },
+    "sharesOutstanding": {
+      "tag": "CommonStockSharesOutstanding",
+      "unit": "shares",
+      "end": "2012-03-31",
+      "fy": 2012,
+      "fp": "Q1",
+      "form": "6-K",
+      "filed": "2012-05-08",
+      "val": 170880330
+    }
+  },
+  {
+    "cik": "0001629210",
+    "ticker": "PZG",
+    "name": "Paramount Gold Nevada",
+    "asOf": "2026-02-17T07:46:25.304Z",
+    "revenue": {
+      "tag": "Revenues",
+      "unit": "USD",
+      "end": "2022-03-31",
+      "fy": 2022,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2022-05-10",
+      "val": 326971
+    },
+    "netIncome": {
+      "tag": "NetIncomeLoss",
+      "unit": "USD",
+      "end": "2025-12-31",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-02-10",
+      "val": -8751275
+    },
+    "assets": {
+      "tag": "Assets",
+      "unit": "USD",
+      "end": "2025-12-31",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-02-10",
+      "val": 53859326
+    },
+    "liabilities": {
+      "tag": "Liabilities",
+      "unit": "USD",
+      "end": "2025-12-31",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-02-10",
+      "val": 25380807
+    },
+    "cashFlowOps": {
+      "tag": "NetCashProvidedByUsedInOperatingActivities",
+      "unit": "USD",
+      "end": "2025-12-31",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-02-10",
+      "val": -2478619
+    },
+    "epsBasic": {
+      "tag": "EarningsPerShareBasic",
+      "unit": "USD/shares",
+      "end": "2025-12-31",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-02-10",
+      "val": -0.11
+    },
+    "epsDiluted": {
+      "tag": "EarningsPerShareDiluted",
+      "unit": "USD/shares",
+      "end": "2025-12-31",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-02-10",
+      "val": -0.11
+    },
+    "sharesOutstanding": {
+      "tag": "CommonStockSharesOutstanding",
+      "unit": "shares",
+      "end": "2025-12-31",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-02-10",
+      "val": 79325833
+    }
+  },
+  {
+    "cik": "0001172724",
+    "ticker": "GFI",
+    "name": "Gold Fields",
+    "asOf": "2026-02-17T07:46:26.377Z",
+    "revenue": null,
+    "netIncome": {
+      "tag": "NetIncomeLoss",
+      "unit": "USD",
+      "end": "2015-12-31",
+      "fy": 2015,
+      "fp": "FY",
+      "form": "20-F",
+      "filed": "2016-04-13",
+      "val": -345000000
+    },
+    "assets": {
+      "tag": "Assets",
+      "unit": "USD",
+      "end": "2015-12-31",
+      "fy": 2015,
+      "fp": "FY",
+      "form": "20-F",
+      "filed": "2016-04-13",
+      "val": 5513800000
+    },
+    "liabilities": {
+      "tag": "Liabilities",
+      "unit": "USD",
+      "end": "2015-12-31",
+      "fy": 2015,
+      "fp": "FY",
+      "form": "20-F",
+      "filed": "2016-04-13",
+      "val": 2876800000
+    },
+    "cashFlowOps": {
+      "tag": "NetCashProvidedByUsedInOperatingActivities",
+      "unit": "USD",
+      "end": "2015-12-31",
+      "fy": 2015,
+      "fp": "FY",
+      "form": "20-F",
+      "filed": "2016-04-13",
+      "val": 580000000
+    },
+    "epsBasic": {
+      "tag": "EarningsPerShareBasic",
+      "unit": "USD/shares",
+      "end": "2012-12-31",
+      "fy": 2012,
+      "fp": "FY",
+      "form": "20-F",
+      "filed": "2013-05-14",
+      "val": 0.9
+    },
+    "epsDiluted": {
+      "tag": "EarningsPerShareDiluted",
+      "unit": "USD/shares",
+      "end": "2012-12-31",
+      "fy": 2012,
+      "fp": "FY",
+      "form": "20-F",
+      "filed": "2013-05-14",
+      "val": 0.9
+    },
+    "sharesOutstanding": {
+      "tag": "CommonStockSharesOutstanding",
+      "unit": "shares",
+      "end": "2015-12-31",
+      "fy": 2015,
+      "fp": "FY",
+      "form": "20-F",
+      "filed": "2016-04-13",
+      "val": 771416491
+    }
+  },
+  {
+    "cik": "0001718405",
+    "ticker": "HYMC",
+    "name": "Hycroft Mining",
+    "asOf": "2026-02-17T07:46:27.379Z",
+    "revenue": {
+      "tag": "Revenues",
+      "unit": "USD",
+      "end": "2019-12-31",
+      "fy": 2019,
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2020-03-12",
+      "val": 0
+    },
+    "netIncome": {
+      "tag": "NetIncomeLoss",
+      "unit": "USD",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-10-28",
+      "val": -32872000
+    },
+    "assets": {
+      "tag": "Assets",
+      "unit": "USD",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-10-28",
+      "val": 230591000
+    },
+    "liabilities": {
+      "tag": "Liabilities",
+      "unit": "USD",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-10-28",
+      "val": 183106000
+    },
+    "cashFlowOps": {
+      "tag": "NetCashProvidedByUsedInOperatingActivities",
+      "unit": "USD",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-10-28",
+      "val": -22157000
+    },
+    "epsBasic": {
+      "tag": "EarningsPerShareBasic",
+      "unit": "USD/shares",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-10-28",
+      "val": -1.04
+    },
+    "epsDiluted": {
+      "tag": "EarningsPerShareDiluted",
+      "unit": "USD/shares",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-10-28",
+      "val": -1.04
+    },
+    "sharesOutstanding": {
+      "tag": "CommonStockSharesOutstanding",
+      "unit": "shares",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-10-28",
+      "val": 54583513
+    }
+  },
+  {
+    "cik": "0000215466",
+    "ticker": "CDE",
+    "name": "Coeur Mining",
+    "asOf": "2026-02-17T07:46:28.533Z",
+    "revenue": {
+      "tag": "Revenues",
+      "unit": "USD",
+      "end": "2018-09-30",
+      "fy": 2018,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2018-10-31",
+      "val": 482049000
+    },
+    "netIncome": {
+      "tag": "NetIncomeLoss",
+      "unit": "USD",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-10-29",
+      "val": 370903000
+    },
+    "assets": {
+      "tag": "Assets",
+      "unit": "USD",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-10-29",
+      "val": 4512162000
+    },
+    "liabilities": null,
+    "cashFlowOps": {
+      "tag": "NetCashProvidedByUsedInOperatingActivities",
+      "unit": "USD",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-10-29",
+      "val": 512292000
+    },
+    "epsBasic": {
+      "tag": "EarningsPerShareBasic",
+      "unit": "USD/shares",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-10-29",
+      "val": 0.62
+    },
+    "epsDiluted": {
+      "tag": "EarningsPerShareDiluted",
+      "unit": "USD/shares",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-10-29",
+      "val": 0.61
+    },
+    "sharesOutstanding": {
+      "tag": "CommonStockSharesOutstanding",
+      "unit": "shares",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-10-29",
+      "val": 642210145
+    }
+  },
+  {
+    "cik": "0000719413",
+    "ticker": "HL",
+    "name": "Hecla Mining",
+    "asOf": "2026-02-17T07:46:30.437Z",
+    "revenue": {
+      "tag": "Revenues",
+      "unit": "USD",
+      "end": "2016-12-31",
+      "fy": 2016,
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2017-02-23",
+      "val": 645957000
+    },
+    "netIncome": {
+      "tag": "NetIncomeLoss",
+      "unit": "USD",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-11-05",
+      "val": 187303000
+    },
+    "assets": {
+      "tag": "Assets",
+      "unit": "USD",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-11-05",
+      "val": 3221842000
+    },
+    "liabilities": {
+      "tag": "Liabilities",
+      "unit": "USD",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-11-05",
+      "val": 772198000
+    },
+    "cashFlowOps": {
+      "tag": "NetCashProvidedByUsedInOperatingActivities",
+      "unit": "USD",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-11-05",
+      "val": 345583000
+    },
+    "epsBasic": {
+      "tag": "EarningsPerShareBasic",
+      "unit": "USD/shares",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-11-05",
+      "val": 0.29
+    },
+    "epsDiluted": {
+      "tag": "EarningsPerShareDiluted",
+      "unit": "USD/shares",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-11-05",
+      "val": 0.29
+    },
+    "sharesOutstanding": {
+      "tag": "CommonStockSharesOutstanding",
+      "unit": "shares",
+      "end": "2020-12-31",
+      "fy": 2020,
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2021-02-18",
+      "val": 531666371
+    }
+  },
+  {
+    "cik": "0001330568",
+    "ticker": "SLV",
+    "name": "iShares Silver Trust",
+    "asOf": "2026-02-17T07:46:32.389Z",
+    "revenue": {
+      "tag": "Revenues",
+      "unit": "USD",
+      "end": "2013-12-31",
+      "fy": 2013,
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2014-02-28",
+      "val": -1914970000
+    },
+    "netIncome": {
+      "tag": "NetIncomeLoss",
+      "unit": "USD",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-11-06",
+      "val": 8162197125
+    },
+    "assets": {
+      "tag": "Assets",
+      "unit": "USD",
+      "end": "2014-12-31",
+      "fy": 2014,
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2015-02-27",
+      "val": 5263140000
+    },
+    "liabilities": {
+      "tag": "Liabilities",
+      "unit": "USD",
+      "end": "2014-12-31",
+      "fy": 2014,
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2015-02-27",
+      "val": 2338000
+    },
+    "cashFlowOps": {
+      "tag": "NetCashProvidedByUsedInOperatingActivities",
+      "unit": "USD",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-11-06",
+      "val": 0
+    },
+    "epsBasic": {
+      "tag": "EarningsPerShareBasic",
+      "unit": "USD/shares",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-11-06",
+      "val": 16
+    },
+    "epsDiluted": null,
+    "sharesOutstanding": null
+  },
+  {
+    "cik": "0001450922",
+    "ticker": "SIVR",
+    "name": "abrdn Physical Silver Shares",
+    "asOf": "2026-02-17T07:46:33.438Z",
+    "revenue": null,
+    "netIncome": {
+      "tag": "NetIncomeLoss",
+      "unit": "USD",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-11-07",
+      "val": 970839000
+    },
+    "assets": {
+      "tag": "Assets",
+      "unit": "USD",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-11-07",
+      "val": 3004743000
+    },
+    "liabilities": {
+      "tag": "Liabilities",
+      "unit": "USD",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-11-07",
+      "val": 718000
+    },
+    "cashFlowOps": {
+      "tag": "NetCashProvidedByUsedInOperatingActivities",
+      "unit": "USD",
+      "end": "2013-12-31",
+      "fy": 2013,
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2014-02-28",
+      "val": 0
+    },
+    "epsBasic": {
+      "tag": "EarningsPerShareBasic",
+      "unit": "USD/shares",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-11-07",
+      "val": 17.49
+    },
+    "epsDiluted": null,
+    "sharesOutstanding": {
+      "tag": "CommonStockSharesOutstanding",
+      "unit": "shares",
+      "end": "2025-09-30",
+      "fy": 2025,
+      "fp": "Q3",
+      "form": "10-Q",
+      "filed": "2025-11-07",
+      "val": 68300000
+    }
+  }
+]

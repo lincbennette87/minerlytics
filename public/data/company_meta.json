@@ -1,0 +1,105 @@
+[
+  {
+    "cik": "0000002809",
+    "ticker": "AEM",
+    "name": "AGNICO EAGLE MINES LTD",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001629210",
+    "ticker": "PZG",
+    "name": "Paramount Gold Nevada Corp.",
+    "sic": "1000",
+    "sicDescription": "Metal Mining",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001172724",
+    "ticker": "GFI",
+    "name": "GOLD FIELDS LTD",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE",
+      "OTC"
+    ]
+  },
+  {
+    "cik": "0001718405",
+    "ticker": "HYMC",
+    "name": "HYCROFT MINING HOLDING CORP",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "Nasdaq",
+      "OTC"
+    ]
+  },
+  {
+    "cik": "0000215466",
+    "ticker": "CDE",
+    "name": "Coeur Mining, Inc.",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001323404",
+    "ticker": "WPM",
+    "name": "Wheaton Precious Metals Corp.",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0000719413",
+    "ticker": "HL",
+    "name": "HECLA MINING CO/DE/",
+    "sic": "1400",
+    "sicDescription": "Mining & Quarrying of  Nonmetallic Minerals (No Fuels)",
+    "exchanges": [
+      "NYSE",
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001494728",
+    "ticker": "PSLV",
+    "name": "Sprott Physical Silver Trust",
+    "sic": "6221",
+    "sicDescription": "Commodity Contracts Brokers & Dealers",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001330568",
+    "ticker": "SLV",
+    "name": "iShares Silver Trust",
+    "sic": "6221",
+    "sicDescription": "Commodity Contracts Brokers & Dealers",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001450922",
+    "ticker": "SIVR",
+    "name": "abrdn Silver ETF Trust",
+    "sic": "6221",
+    "sicDescription": "Commodity Contracts Brokers & Dealers",
+    "exchanges": [
+      "NYSE"
+    ]
+  }
+]
