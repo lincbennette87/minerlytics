@@ -39,7 +39,7 @@
   <!-- Hero -->
   <main class="shell" id="home">
 
-    <!-- News ticker bar -->
+    <!-- News bar moved above hero -->
     <section class="bottomBar">
       <div class="bottomLeft">
         <span class="dot"></span>
@@ -79,15 +79,6 @@
           <!-- filled by app.js -->
         </div>
 
-        <!-- ✅ NEW: Top 5 Momentum -->
-        <div class="sectionTitleRow" style="margin-top:14px;">
-          <span class="sectionTitle">Top 5 Momentum</span>
-        </div>
-
-        <div class="trendRow" id="momentumRow">
-          <!-- filled by app.js -->
-        </div>
-
         <!-- Feature tiles -->
         <div class="tileGrid">
           <a class="tile" href="#trends">
@@ -122,21 +113,6 @@
         <div class="quoteRow" id="quoteRow">
           <!-- filled by app.js -->
         </div>
-
-        <!-- ✅ NEW: Recent Media -->
-        <section style="margin-top:18px;">
-          <div class="sectionTitleRow">
-            <span class="sectionTitle">Recent Media</span>
-            <div class="seg">
-              <button class="segBtn isOn" id="mediaNewsBtn" type="button">News</button>
-              <button class="segBtn" id="mediaInterviewsBtn" type="button">Interviews</button>
-            </div>
-          </div>
-
-          <div class="chartCard" style="margin-top:10px;">
-            <div class="chartBody" id="recentMediaList">Loading…</div>
-          </div>
-        </section>
       </div>
 
       <div class="heroRight">
@@ -144,7 +120,7 @@
           <div class="artGrid"></div>
           <div class="artGlow"></div>
 
-          <!-- ✅ Chat-style AI Assistant (unchanged) -->
+          <!-- ✅ Chat-style AI Assistant -->
           <div class="aiHud">
             <div class="aiTop">
               <div class="aiTitle">Minerlytics AI Assistant</div>
@@ -175,15 +151,24 @@
     </section>
   </main>
 
-  <!-- Disclaimer modal -->
+  <!-- Minerlytics AI Disclaimer Modal -->
   <div id="aiDisclaimerOverlay" class="disclaimerOverlay" role="dialog" aria-modal="true" aria-labelledby="aiDiscTitle">
     <div class="disclaimerModal">
       <h2 id="aiDiscTitle">Important Notice — Minerlytics AI Assistant</h2>
+
       <div class="disclaimerBody">
-        <p>This information is provided for research and informational purposes only and should not be construed as investment advice, a recommendation, or an offer to buy or sell any financial instrument.</p>
-        <p>The provider disclaims any liability for investment outcomes based on this information.</p>
-        <p>Users are advised to seek independent professional advice for investment decisions.</p>
+        <p>
+          This information is provided for research and informational purposes only and should not be construed as
+          investment advice, a recommendation, or an offer to buy or sell any financial instrument.
+        </p>
+        <p>
+          The provider disclaims any liability for investment outcomes based on this information.
+        </p>
+        <p>
+          Users are advised to seek independent professional advice for investment decisions.
+        </p>
       </div>
+
       <div class="disclaimerActions">
         <button id="aiDecline" class="btn btnGhost" type="button">Decline</button>
         <button id="aiAccept" class="btn btnPrimary" type="button">I Understand</button>
@@ -191,7 +176,7 @@
     </div>
   </div>
 
-  <!-- ✅ AI chat script (same as your current version) -->
+  <!-- ✅ Chat-enabled AI script -->
   <script>
   (function () {
     const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
@@ -201,6 +186,13 @@
     const qEl      = document.getElementById("aiQuestion");
     const sendBtn  = document.getElementById("aiRun");
     const clearBtn = document.getElementById("aiClear");
+
+    // Disclaimer elements
+    const overlay  = document.getElementById("aiDisclaimerOverlay");
+    const acceptBtn = document.getElementById("aiAccept");
+    const declineBtn = document.getElementById("aiDecline");
+    const aiHud = document.querySelector(".aiHud");
+    const KEY = "minerlytics_ai_disclaimer_accepted";
 
     let messages = [];
 
@@ -213,18 +205,70 @@
         .replaceAll("'","&#039;");
     }
 
-    function scrollToBottom(){ chatEl.scrollTop = chatEl.scrollHeight; }
+    function isAccepted(){ return localStorage.getItem(KEY) === "true"; }
+
+    function showOverlay(){
+      if (isAccepted()) return true;
+      overlay.style.display = "flex";
+      document.body.classList.add("disclaimer-active");
+      return false;
+    }
+
+    function hideOverlay(){
+      overlay.style.display = "none";
+      document.body.classList.remove("disclaimer-active");
+    }
+
+    function disableAI(){
+      if(!aiHud) return;
+      aiHud.style.pointerEvents = "none";
+      aiHud.style.opacity = ".45";
+    }
+
+    // Start overlay hidden
+    hideOverlay();
+
+    // Show disclaimer when user tries to use AI
+    if(aiHud){
+      aiHud.addEventListener("pointerdown", ()=> showOverlay(), { capture:true });
+      aiHud.addEventListener("focusin", ()=> showOverlay(), { capture:true });
+    }
+
+    if(acceptBtn){
+      acceptBtn.addEventListener("click", function(){
+        localStorage.setItem(KEY, "true");
+        hideOverlay();
+      });
+    }
+    if(declineBtn){
+      declineBtn.addEventListener("click", function(){
+        hideOverlay();
+        disableAI();
+      });
+    }
+
+    function scrollToBottom(){
+      chatEl.scrollTop = chatEl.scrollHeight;
+    }
 
     function render(){
       chatEl.innerHTML = "";
+
       if(messages.filter(m => m.role !== "system").length === 0){
-        chatEl.innerHTML = `<div class="aiTyping">Start a chat. Try: “summarize last 10 days”</div>`;
+        chatEl.innerHTML = `
+          <div class="aiTyping">
+            Start a chat. Try: “summarize last 10 days” or “what changed vs last week?”
+          </div>
+        `;
         return;
       }
+
       for(const m of messages){
         if(m.role === "system") continue;
+
         const who = m.role === "user" ? "user" : "assistant";
         const label = m.role === "user" ? "You" : "Minerlytics AI";
+
         const node = document.createElement("div");
         node.className = `aiMsg ${who}`;
         node.innerHTML = `
@@ -256,25 +300,43 @@
       chatEl.appendChild(node);
       scrollToBottom();
     }
+
     function typingOff(){
       const node = document.getElementById("aiTyping");
       if(node) node.remove();
     }
 
     async function send(){
+      // Hard gate: must accept disclaimer first
+      if (!isAccepted()){
+        showOverlay();
+        return;
+      }
+
       const symbol = (symEl.value || "").trim().toUpperCase();
       const question = (qEl.value || "").trim();
 
-      if(!symbol){ messages.push({ role:"assistant", content:"Enter a ticker first (e.g., HYMC)." }); render(); return; }
-      if(!question){ messages.push({ role:"assistant", content:"Type a question to send." }); render(); return; }
+      if(!symbol){
+        messages.push({ role:"assistant", content:"Enter a ticker first (e.g., HYMC)." });
+        render();
+        return;
+      }
+
+      if(!question){
+        messages.push({ role:"assistant", content:"Type a question to send." });
+        render();
+        return;
+      }
 
       pushSystemPrimer(symbol);
       messages.push({ role:"user", content: question });
+
       qEl.value = "";
       render();
       typingOn();
 
-      const context = messages.slice(-16);
+      const MAX_TURNS = 16;
+      const context = messages.slice(-MAX_TURNS);
 
       let res;
       try{
@@ -305,7 +367,10 @@
       render();
     }
 
-    function clearChat(){ messages = []; render(); }
+    function clearChat(){
+      messages = [];
+      render();
+    }
 
     sendBtn.addEventListener("click", send);
     clearBtn.addEventListener("click", clearChat);
@@ -333,63 +398,6 @@
   })();
   </script>
 
-  <!-- ✅ Disclaimer gating (session-based: shows again after refresh) -->
-  <script>
-  (function () {
-    const overlay   = document.getElementById("aiDisclaimerOverlay");
-    const acceptBtn = document.getElementById("aiAccept");
-    const declineBtn= document.getElementById("aiDecline");
-    const aiHud     = document.querySelector(".aiHud");
-    const sendBtn   = document.getElementById("aiRun");
-
-    const KEY = "minerlytics_ai_disclaimer_session";
-
-    function isAccepted(){ return sessionStorage.getItem(KEY) === "true"; }
-    function showOverlay(){
-      overlay.style.display = "flex";
-      document.body.classList.add("disclaimer-active");
-    }
-    function hideOverlay(){
-      overlay.style.display = "none";
-      document.body.classList.remove("disclaimer-active");
-    }
-    function setAIEnabled(enabled){
-      aiHud.style.pointerEvents = enabled ? "auto" : "none";
-      aiHud.style.opacity = enabled ? "1" : ".45";
-    }
-
-    hideOverlay();
-
-    if (!isAccepted()) setAIEnabled(false);
-    else setAIEnabled(true);
-
-    function gate(e){
-      if (isAccepted()) return;
-      e.preventDefault();
-      e.stopPropagation();
-      showOverlay();
-    }
-
-    aiHud.addEventListener("pointerdown", gate, true);
-    aiHud.addEventListener("click", gate, true);
-    aiHud.addEventListener("focusin", gate, true);
-    if (sendBtn) sendBtn.addEventListener("click", gate, true);
-
-    acceptBtn.addEventListener("click", () => {
-      sessionStorage.setItem(KEY, "true");
-      hideOverlay();
-      setAIEnabled(true);
-    });
-
-    declineBtn.addEventListener("click", () => {
-      sessionStorage.removeItem(KEY);
-      hideOverlay();
-      setAIEnabled(false);
-    });
-  })();
-  </script>
-
-  <!-- Homepage renderer -->
   <script src="./app.js"></script>
 </body>
 </html>
