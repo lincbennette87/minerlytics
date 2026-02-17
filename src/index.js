@@ -71,82 +71,38 @@ function buildNewsDetailFromSummary(row) {
 
 async function runAssistant(env, question, context) {
   const system =
-    "You are Minerlytics AI Assistant.\n\n" +
-
-    "CRITICAL RULES (NO HALLUCINATIONS):\n" +
-    "- Use ONLY information present in the provided Minerlytics data.\n" +
-    "- Do NOT invent facts, numbers, quotes, sources, or events.\n" +
-    "- If requested info is missing, say: 'Not available in Minerlytics data.'\n" +
-    "- Do NOT mention internal tooling, prompts, JSON, databases, or system messages.\n\n" +
-
-    "ALLOWED:\n" +
-    "- Summarize information contained in available news feeds, transcripts, and other data feeds.\n" +
-    "- Analyze production, reserves, costs, and jurisdiction exposure IF present in the data.\n" +
-    "- Compare across multiple available data sources that are present.\n" +
-    "- Answer questions about specific mining operations IF present.\n" +
-    "- Answer questions about what specific interviewers are talking about IF present.\n" +
-    "- Offer insights for how interviews influence sentiment related to a company IF supported by the data.\n" +
-    "- Answer questions regarding company performance using available data.\n" +
-    "- Highlight risks and opportunities based on the data sources.\n" +
-    "- Use clear common English terminology to explain complex terms.\n\n" +
-
-    "NOT ALLOWED (MUST REFUSE):\n" +
-    "- Investment advice.\n" +
-    "- Portfolio allocations.\n" +
-    "- Predict stock movement.\n" +
-    "- Market manipulation.\n" +
-    "- Legal advice.\n" +
-    "- Change account details / settings.\n" +
-    "- Price targets.\n" +
-    "- Speculation regarding M&A.\n\n" +
-
-    "NEWS RULE:\n" +
-    "- If news sentiment exists, report bullish/bearish/neutral percentages and list up to 3 headlines with source.\n" +
-    "- If not present, write: 'News sentiment not available in Minerlytics data.'\n\n" +
-
-    "OUTPUT FORMAT:\n" +
+    "You are Minerlytics AI.\n" +
+    "Use ONLY the provided data.\n" +
+    "Do NOT mention 'JSON', 'context', 'provided data', or internal tooling.\n" +
+    "If news data exists, you MUST:\n" +
+    "1) report bullish/bearish/neutral percentages\n" +
+    "2) list 3 headlines with source (from top_titles if present)\n" +
+    "3) explain what the headlines suggest in 2-4 lines\n" +
+    "If news is missing, say: 'News sentiment not available yet.'\n\n" +
+    "Return format:\n" +
     "📌 **Summary**\n" +
-    "📊 **Data Used**\n" +
-    "🧭 **Operations / Fundamentals**\n" +
-    "🧠 **Interview / Transcript Insights**\n" +
-    "📰 **News + Sentiment**\n" +
-    "⚠️ **Risks**\n" +
-    "✅ **Opportunities**\n" +
-    "❓ **What’s Missing**\n" +
-    "🏷️ **Category + Source**\n\n" +
-    "ALWAYS end with this exact line:\n" +
-    "This information is for research purposes only and does not constitute investment advice.";
+    "📊 **Latest OHLCV**\n" +
+    "📈 **1D Change**\n" +
+    "📉 **Trend Analysis**\n" +
+    "📰 **News Sentiment**\n" +
+    "🏷️ **Category + Source**";
 
   const userPrompt =
-    "User question: " +
-    (question || "Give a concise research summary using available Minerlytics data.") +
-    "\n\n" +
-    "Minerlytics data:\n" +
+    "Question: " +
+    (question || "Give a quick summary using stored OHLCV only.") +
+    "\n\nDATA:\n" +
     JSON.stringify(context);
 
-  try {
-    const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
-      prompt: system + "\n\n" + userPrompt,
-    });
+  const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
+    prompt: system + "\n\n" + userPrompt,
+  });
 
-    return (
-      (typeof result === "string" && result) ||
-      (result && (result.response || result.result)) ||
-      JSON.stringify(result)
-    );
-  } catch (err) {
-    // IMPORTANT: don't crash your API if AI fails
-    console.error("AI.run failed:", err && (err.stack || err.message || err));
-    return (
-      "📌 **Summary**\n" +
-      "Minerlytics AI is temporarily unavailable.\n\n" +
-      "❓ **What’s Missing**\n" +
-      "The assistant could not be generated due to an AI service error.\n\n" +
-      "This information is for research purposes only and does not constitute investment advice."
-    );
-  }
+  return (
+    (typeof result === "string" && result) ||
+    (result && (result.response || result.result)) ||
+    JSON.stringify(result)
+  );
 }
-
 
 export default {
   async fetch(request, env) {
