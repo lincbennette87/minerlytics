@@ -37,21 +37,38 @@ async function main() {
   const companyMeta = [];
   const filings = [];
 
-  for (const c of universe.companies) {
-    if (!c.cik) continue;
+  for (const [ticker, info] of Object.entries(universe)) {
+  const cik = info?.cik;
+  const name = info?.name;
 
-    const url = `https://data.sec.gov/submissions/CIK${c.cik}.json`;
-    await throttle();
-    const sub = await secGetJson(url, userAgent);
+  if (!cik) {
+    console.log(`Skip ${ticker} (no CIK)`);
+    continue;
+  }
 
-    companyMeta.push({
-      cik: c.cik,
-      ticker: (sub.tickers && sub.tickers[0]) || c.ticker,
-      name: sub.name || c.name || null,
-      sic: sub.sic || null,
-      sicDescription: sub.sicDescription || null,
-      exchanges: sub.exchanges || null
-    });
+  const url = `https://data.sec.gov/submissions/CIK${cik}.json`;
+  ...
+  companyMeta.push({
+    cik,
+    ticker: (sub.tickers && sub.tickers[0]) || ticker,
+    name: sub.name || name || null,
+    sic: sub.sic || null,
+    sicDescription: sub.sicDescription || null,
+    exchanges: sub.exchanges || null
+  });
+
+  ...
+  filings.push({
+    cik,
+    ticker: (sub.tickers && sub.tickers[0]) || ticker,
+    accessionNumber: r.accessionNumber,
+    form: r.form,
+    filingDate: r.filingDate,
+    reportDate: r.reportDate,
+    primaryDocument: r.primaryDocument
+  });
+}
+
 
     const recent = sub?.filings?.recent;
     if (!recent) continue;
