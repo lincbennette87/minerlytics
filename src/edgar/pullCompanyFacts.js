@@ -2,12 +2,12 @@ import fs from "node:fs";
 import path from "node:path";
 import { secGetJson, createThrottle } from "./secFetch.js";
 
-const rules = JSON.parse(fs.readFileSync(path.resolve("config/miner.rules.json"), "utf8"));
-const universe = JSON.parse(fs.readFileSync(path.resolve("config/universe.json"), "utf8"));
+const rules = JSON.parse(fs.readFileSync(path.resolve("data/miner.rules.json"), "utf8"));
+const universe = JSON.parse(fs.readFileSync(path.resolve("data/universe.json"), "utf8"));
 
 const userAgent = rules.edgar?.userAgent;
 const rps = rules.edgar?.rps ?? 3;
-if (!userAgent) throw new Error("Missing rules.edgar.userAgent in config/miner.rules.json");
+if (!userAgent) throw new Error("Missing rules.edgar.userAgent in data/miner.rules.json");
 
 const throttle = createThrottle(rps);
 
