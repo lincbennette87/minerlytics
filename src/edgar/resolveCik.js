@@ -24,13 +24,17 @@ async function main() {
   }
 
   let updated = 0;
-  universe.companies = universe.companies.map(c => {
-    if (c.cik) return c;
-    const cikStr = byTicker.get(String(c.ticker).toUpperCase());
-    if (!cikStr) return c;
-    updated++;
-    return { ...c, cik: pad10(cikStr) };
-  });
+  for (const [ticker, info] of Object.entries(universe)) {
+  if (!info || typeof info !== "object") continue;
+  if (info.cik) continue;
+
+  const cikStr = byTicker.get(String(ticker).toUpperCase());
+  if (!cikStr) continue;
+
+  universe[ticker] = { ...info, cik: pad10(cikStr) };
+  updated++;
+}
+
 
   fs.writeFileSync(universePath, JSON.stringify(universe, null, 2));
   console.log(`Done. Added CIK to ${updated} companies.`);
