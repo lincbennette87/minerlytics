@@ -3,13 +3,48 @@ name: EDGAR (Dev)
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write   # needed only if you want the workflow to commit/push results
+
 jobs:
   run-edgar:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm ci || npm install
-      - run: npm run edgar:all
+
+      - name: Install deps
+        run: npm ci || npm install
+
+      - name: Debug folders
+        run: |
+          ls -la
+          ls -la data || true
+          ls -la src || true
+          ls -la src/edgar || true
+
+      - name: Resolve CIK
+        run: npm run edgar:resolve
+
+      - name: Pull Submissions
+        run: npm run edgar:submissions
+
+      - name: Pull Facts
+        run: npm run edgar:facts
+
+      - name: Find TRS
+        run: npm run edgar:trs
+
+      # Optional: only keep this if your scripts write output files you want in the repo
+      - name: Commit outputs
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add public/data out data/universe.json data/miner.rules.json || true
+          git commit -m "Dev: refresh EDGAR data" || echo "No changes"
+          git push
