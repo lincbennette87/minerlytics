@@ -2,8 +2,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { secGetJson } from "./secFetch.js";
 
-const universePath = path.resolve("config/universe.json");
-const rulesPath = path.resolve("config/miner.rules.json");
+const universePath = path.resolve("data/universe.json");
+const rulesPath = path.resolve("data/miner.rules.json");
 
 function pad10(n) { return String(n).padStart(10, "0"); }
 
@@ -12,7 +12,7 @@ async function main() {
   const rules = JSON.parse(fs.readFileSync(rulesPath, "utf8"));
 
   const userAgent = rules.edgar?.userAgent;
-  if (!userAgent) throw new Error("Missing rules.edgar.userAgent in config/miner.rules.json");
+  if (!userAgent) throw new Error("Missing rules.edgar.userAgent in data/miner.rules.json");
 
   const mapUrl = "https://www.sec.gov/files/company_tickers.json";
   const mapObj = await secGetJson(mapUrl, userAgent);
