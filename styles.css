@@ -529,4 +529,41 @@ input,button{font:inherit}
 .disclaimerHidden{
   display:none;
 }
+/* =========================
+   Full Screen Blur When Disclaimer Active
+   ========================= */
+
+/* Blur entire page when active */
+body.disclaimer-active > *:not(.disclaimerOverlay){
+  filter: blur(8px);
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Overlay */
+.disclaimerOverlay{
+  position:fixed;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(5,8,15,.55);
+  backdrop-filter: blur(2px);
+  z-index:9999;
+}
+
+.disclaimerModal{
+  width:min(620px,92%);
+  background:linear-gradient(180deg, rgba(14,22,48,.96), rgba(11,19,42,.96));
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:20px;
+  padding:28px;
+  box-shadow:0 30px 80px rgba(0,0,0,.65);
+  animation: fadeIn .25s ease-out;
+}
+
+@keyframes fadeIn{
+  from{opacity:0; transform:translateY(10px)}
+  to{opacity:1; transform:translateY(0)}
+}
 
