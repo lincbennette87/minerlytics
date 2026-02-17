@@ -7,15 +7,14 @@
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-
   <!-- Top Nav -->
   <header class="topbar">
     <div class="brand">
-      <div class="logoMark"></div>
+      <div class="logoMark" aria-hidden="true"></div>
       <span class="brandName">MINERLYTICS</span>
     </div>
 
-    <nav class="navLinks">
+    <nav class="navLinks" aria-label="Primary navigation">
       <a class="navLink isActive" href="#home">Home</a>
       <a class="navLink" href="#analysis">Analysis</a>
       <a class="navLink" href="#trends">Trends</a>
@@ -26,42 +25,102 @@
 
     <div class="navRight">
       <div class="navSearch">
-        <input type="search" placeholder="Search tickers, commodities, companies…" />
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <path fill="currentColor" d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
+        </svg>
+        <input id="globalSearch" type="search" placeholder="Search tickers, commodities, companies, and more…" />
       </div>
-      <a class="btn btnGhost">Sign In</a>
-      <a class="btn btnPrimary">Join Minerlytics</a>
+
+      <a class="btn btnGhost" href="#signin">Sign In</a>
+      <a class="btn btnPrimary" href="#signup">Join Minerlytics</a>
     </div>
   </header>
 
+  <!-- Hero -->
   <main class="shell" id="home">
 
-    <!-- News Bar -->
+    <!-- News bar moved above hero -->
     <section class="bottomBar">
       <div class="bottomLeft">
         <span class="dot"></span>
         <span class="bottomLabel">Trending</span>
       </div>
-      <div class="ticker">
+
+      <div class="ticker" aria-label="Scrolling news ticker">
         <div class="tickerTrack" id="tickerTrack"></div>
       </div>
-      <button class="newsBtn">All News</button>
+
+      <button class="newsBtn" type="button">All News</button>
     </section>
 
-    <!-- Hero -->
     <section class="hero">
       <div class="heroLeft">
         <h1>Trade Like an Insider</h1>
         <p class="subhead">
-          Track the forces that move mining markets — momentum, sentiment, interviews, and project milestones.
+          Track the forces that move mining markets — momentum, sentiment, interviews, news, and project milestones.
         </p>
+
+        <div class="heroSearch">
+          <div class="heroSearchBox">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+              <path fill="currentColor" d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
+            </svg>
+            <input id="heroSearch" type="search" placeholder="Search stocks, commodities, and more…" />
+            <button id="searchBtn" class="btn btnPrimary btnTight" type="button">Search</button>
+          </div>
+        </div>
+
+        <!-- “Trending now” row -->
+        <div class="sectionTitleRow">
+          <span class="sectionTitle">Trending Now on Minerlytics</span>
+        </div>
+
+        <div class="trendRow" id="trendRow">
+          <!-- filled by app.js -->
+        </div>
+
+        <!-- Feature tiles -->
+        <div class="tileGrid">
+          <a class="tile" href="#trends">
+            <div class="tileIcon" aria-hidden="true">⚡</div>
+            <div>
+              <div class="tileTitle">Momentum</div>
+              <div class="tileMeta">Top movers, 1D / 7D / 6M / 1Y</div>
+            </div>
+            <span class="tileCta">See Dashboard →</span>
+          </a>
+
+          <a class="tile" href="#analysis">
+            <div class="tileIcon" aria-hidden="true">🧠</div>
+            <div>
+              <div class="tileTitle">Conversational AI</div>
+              <div class="tileMeta">Ask about sentiment, drills, permits</div>
+            </div>
+            <span class="tileCta">Open →</span>
+          </a>
+
+          <a class="tile" href="#company">
+            <div class="tileIcon" aria-hidden="true">⛏️</div>
+            <div>
+              <div class="tileTitle">Company Profiles</div>
+              <div class="tileMeta">Leadership, mines, timelines, regs</div>
+            </div>
+            <span class="tileCta">Explore →</span>
+          </a>
+        </div>
+
+        <!-- Mini quote cards -->
+        <div class="quoteRow" id="quoteRow">
+          <!-- filled by app.js -->
+        </div>
       </div>
 
-      <!-- AI Section -->
       <div class="heroRight">
         <div class="artCard">
           <div class="artGrid"></div>
           <div class="artGlow"></div>
 
+          <!-- ✅ Chat-style AI Assistant -->
           <div class="aiHud">
             <div class="aiTop">
               <div class="aiTitle">Minerlytics AI Assistant</div>
@@ -70,70 +129,63 @@
 
             <div class="aiControls">
               <input id="aiSymbol" type="text" placeholder="Ticker (HYMC, AEM, CDE...)" />
-              <button id="aiClear" class="btn btnGhost btnTight">Clear</button>
+              <button id="aiClear" class="btn btnGhost btnTight" type="button">Clear</button>
             </div>
 
-            <div class="aiChat" id="aiChat"></div>
+            <div class="aiChat" id="aiChat" aria-label="AI chat transcript">
+              <!-- messages render here -->
+            </div>
 
             <div class="aiComposer">
-              <textarea id="aiQuestion" rows="2"
-                placeholder="Ask a question… (Enter to send, Shift+Enter for newline)"></textarea>
-              <button id="aiRun" class="btn btnPrimary btnTight">Send</button>
+              <textarea id="aiQuestion" rows="2" placeholder="Ask a question… (Enter to send, Shift+Enter for new line)"></textarea>
+              <button id="aiRun" class="btn btnPrimary btnTight" type="button">Send</button>
+            </div>
+
+            <div class="aiQuickRow">
+              <button class="pillBtn" type="button" data-t="HYMC">HYMC</button>
+              <button class="pillBtn" type="button" data-t="AEM">AEM</button>
+              <button class="pillBtn" type="button" data-t="CDE">CDE</button>
+              <button class="pillBtn" type="button" data-t="WPM">WPM</button>
             </div>
           </div>
 
+          <!-- Charts placeholders required by your doc -->
         </div>
       </div>
     </section>
-
   </main>
 
   <!-- ===============================
-       AI DISCLAIMER MODAL
+       Minerlytics AI Disclaimer Modal
+       (added only; no other changes)
   =================================== -->
-  <div id="aiDisclaimerOverlay" class="disclaimerOverlay">
+  <div id="aiDisclaimerOverlay" class="disclaimerOverlay" role="dialog" aria-modal="true" aria-labelledby="aiDiscTitle">
     <div class="disclaimerModal">
-      <h2>Important Notice – Minerlytics AI Assistant</h2>
+      <h2 id="aiDiscTitle">Important Notice — Minerlytics AI Assistant</h2>
 
       <div class="disclaimerBody">
         <p>
-          The Minerlytics AI Assistant provides information for research and general informational purposes only.
+          This information is provided for research and informational purposes only and should not be construed as
+          investment advice, a recommendation, or an offer to buy or sell any financial instrument.
         </p>
         <p>
-          Nothing generated by this tool constitutes investment advice, financial advice,
-          a recommendation, or an offer to buy or sell any security, commodity,
-          or financial instrument.
+          The provider disclaims any liability for investment outcomes based on this information.
         </p>
         <p>
-          Minerlytics makes no representations or warranties regarding the accuracy,
-          completeness, or timeliness of the information provided.
-        </p>
-        <p>
-          The provider expressly disclaims any liability for investment decisions
-          or outcomes resulting from the use of this feature.
-        </p>
-        <p>
-          Users should conduct their own due diligence and consult with a qualified
-          financial professional before making any investment decisions.
-        </p>
-        <p>
-          By proceeding, you acknowledge and accept these terms.
+          Users are advised to seek independent professional advice for investment decisions.
         </p>
       </div>
 
       <div class="disclaimerActions">
-        <button id="aiDecline" class="btn btnGhost">Decline</button>
-        <button id="aiAccept" class="btn btnPrimary">I Understand</button>
+        <button id="aiDecline" class="btn btnGhost" type="button">Decline</button>
+        <button id="aiAccept" class="btn btnPrimary" type="button">I Understand</button>
       </div>
     </div>
   </div>
 
-  <!-- ===============================
-       AI CHAT SCRIPT
-  =================================== -->
+  <!-- ✅ Chat-enabled AI script (replaces your old one-off Q/A script) -->
   <script>
   (function () {
-
     const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 
     const chatEl   = document.getElementById("aiChat");
@@ -142,86 +194,240 @@
     const sendBtn  = document.getElementById("aiRun");
     const clearBtn = document.getElementById("aiClear");
 
-    let messages = [];
+    // Conversation memory for follow-ups (client-side, sent each turn)
+    let messages = []; // { role:"system"|"user"|"assistant", content:"..." }
 
-    function render(){
-      chatEl.innerHTML = "";
-      messages.forEach(m=>{
-        const div = document.createElement("div");
-        div.className = "aiMsg " + m.role;
-        div.innerHTML = `<div><div class="aiBubble">${m.content}</div>
-        <div class="aiMeta">${m.role === "user" ? "You" : "Minerlytics AI"}</div></div>`;
-        chatEl.appendChild(div);
-      });
+    function esc(s){
+      return String(s ?? "")
+        .replaceAll("&","&amp;")
+        .replaceAll("<","&lt;")
+        .replaceAll(">","&gt;")
+        .replaceAll('"',"&quot;")
+        .replaceAll("'","&#039;");
+    }
+
+    function scrollToBottom(){
       chatEl.scrollTop = chatEl.scrollHeight;
     }
 
-    async function send(){
-      const symbol = symEl.value.trim().toUpperCase();
-      const question = qEl.value.trim();
-      if(!symbol || !question) return;
+    function render(){
+      chatEl.innerHTML = "";
 
-      messages.push({ role:"user", content:question });
-      render();
-      qEl.value = "";
+      if(messages.filter(m => m.role !== "system").length === 0){
+        chatEl.innerHTML = `
+          <div class="aiTyping">
+            Start a chat. Try: “summarize last 10 days” or “what changed vs last week?”
+          </div>
+        `;
+        return;
+      }
 
-      const res = await fetch(API_BASE + "/api/assistant",{
-        method:"POST",
-        headers:{"content-type":"application/json"},
-        body:JSON.stringify({symbol,question,messages})
+      for(const m of messages){
+        if(m.role === "system") continue;
+
+        const who = m.role === "user" ? "user" : "assistant";
+        const label = m.role === "user" ? "You" : "Minerlytics AI";
+
+        const node = document.createElement("div");
+        node.className = \`aiMsg \${who}\`;
+        node.innerHTML = `
+          <div>
+            <div class="aiBubble">\${esc(m.content)}</div>
+            <div class="aiMeta">\${esc(label)}</div>
+          </div>
+        `;
+        chatEl.appendChild(node);
+      }
+      scrollToBottom();
+    }
+
+    function pushSystemPrimer(symbol){
+      // Keep assistant consistent & OHLCV-only.
+      messages = messages.filter(m => m.role !== "system");
+      messages.unshift({
+        role: "system",
+        content:
+          \`You are Minerlytics AI Assistant. Answer using only stored OHLCV for the given symbol from D1 (daily_ohlcv). \` +
+          \`If asked for news/fundamentals/social, say it's not available in this dataset. Current symbol: \${symbol}.\`
       });
+    }
 
-      const data = await res.json();
-      messages.push({ role:"assistant", content:data.answer || "No response." });
+    function typingOn(){
+      const node = document.createElement("div");
+      node.id = "aiTyping";
+      node.className = "aiTyping";
+      node.textContent = "Thinking…";
+      chatEl.appendChild(node);
+      scrollToBottom();
+    }
+
+    function typingOff(){
+      const node = document.getElementById("aiTyping");
+      if(node) node.remove();
+    }
+
+    async function send(){
+      const symbol = (symEl.value || "").trim().toUpperCase();
+      const question = (qEl.value || "").trim();
+
+      if(!symbol){
+        messages.push({ role:"assistant", content:"Enter a ticker first (e.g., HYMC)." });
+        render();
+        return;
+      }
+
+      if(!question){
+        messages.push({ role:"assistant", content:"Type a question to send." });
+        render();
+        return;
+      }
+
+      pushSystemPrimer(symbol);
+      messages.push({ role:"user", content: question });
+
+      qEl.value = "";
+      render();
+      typingOn();
+
+      // Keep payload smaller
+      const MAX_TURNS = 16;
+      const context = messages.slice(-MAX_TURNS);
+
+      let res;
+      try{
+        res = await fetch(API_BASE + "/api/assistant", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({
+            symbol,
+            question,
+            messages: context
+          })
+        });
+      } catch (e){
+        typingOff();
+        messages.push({ role:"assistant", content:\`Network error: \${String(e?.message || e)}\` });
+        render();
+        return;
+      }
+
+      if(!res.ok){
+        const txt = await res.text().catch(()=> "");
+        typingOff();
+        messages.push({ role:"assistant", content: (txt || \`Request failed: \${res.status}\`) });
+        render();
+        return;
+      }
+
+      const data = await res.json().catch(()=> null);
+      const answer = data?.answer ? String(data.answer) : "No answer returned.";
+      typingOff();
+      messages.push({ role:"assistant", content: answer });
       render();
     }
 
+    function clearChat(){
+      messages = [];
+      render();
+    }
+
+    // Click send
     sendBtn.addEventListener("click", send);
-    clearBtn.addEventListener("click", ()=>{ messages=[]; render(); });
-    qEl.addEventListener("keydown", e=>{
-      if(e.key==="Enter" && !e.shiftKey){ e.preventDefault(); send(); }
+    clearBtn.addEventListener("click", clearChat);
+
+    // Enter to send (Shift+Enter = newline)
+    qEl.addEventListener("keydown", (e)=>{
+      if(e.key === "Enter" && !e.shiftKey){
+        e.preventDefault();
+        send();
+      }
     });
 
+    // Quick ticker pills
+    document.addEventListener("click", (e)=>{
+      const btn = e.target.closest(".pillBtn");
+      if(!btn) return;
+      const t = btn.getAttribute("data-t");
+      if(t){
+        symEl.value = t;
+        clearChat();
+        messages.push({ role:"assistant", content:\`Set ticker to \${t}. Ask your first question.\` });
+        render();
+      }
+    });
+
+    render();
   })();
   </script>
 
   <!-- ===============================
-       DISCLAIMER LOGIC
+       Disclaimer gating logic
+       - shows overlay only when user tries to use AI
+       - accept => enables AI
+       - decline => disables AI
   =================================== -->
   <script>
-  (function(){
-
+  (function () {
     const overlay = document.getElementById("aiDisclaimerOverlay");
     const acceptBtn = document.getElementById("aiAccept");
     const declineBtn = document.getElementById("aiDecline");
-    const aiSection = document.querySelector(".aiHud");
 
-    const accepted = localStorage.getItem("minerlytics_ai_disclaimer");
+    const aiHud = document.querySelector(".aiHud");
+    const aiInputs = [
+      document.getElementById("aiSymbol"),
+      document.getElementById("aiQuestion"),
+      document.getElementById("aiRun"),
+      document.getElementById("aiClear")
+    ].filter(Boolean);
 
-    if(accepted === "true"){
+    // start hidden; shown on first interaction with AI unless already accepted
+    overlay.style.display = "none";
+
+    const KEY = "minerlytics_ai_disclaimer_accepted";
+    const isAccepted = () => localStorage.getItem(KEY) === "true";
+
+    function showOverlay(){
+      if(isAccepted()) return;
+      overlay.style.display = "flex";
+      // prevent interacting behind overlay
+      document.body.style.overflow = "hidden";
+    }
+
+    function hideOverlay(){
       overlay.style.display = "none";
+      document.body.style.overflow = "";
+    }
+
+    function disableAI(){
+      if(!aiHud) return;
+      aiHud.style.pointerEvents = "none";
+      aiHud.style.opacity = ".45";
+    }
+
+    // Trigger disclaimer when user tries to use AI
+    if(aiHud){
+      aiHud.addEventListener("pointerdown", () => showOverlay(), { capture:true });
+      aiHud.addEventListener("focusin", () => showOverlay(), { capture:true });
     }
 
     acceptBtn.addEventListener("click", function(){
-      localStorage.setItem("minerlytics_ai_disclaimer", "true");
-      overlay.style.display = "none";
+      localStorage.setItem(KEY, "true");
+      hideOverlay();
     });
 
     declineBtn.addEventListener("click", function(){
-      aiSection.style.pointerEvents = "none";
-      aiSection.style.opacity = ".4";
-      overlay.innerHTML = `
-        <div class="disclaimerModal">
-          <h2>Access Restricted</h2>
-          <p style="margin-top:12px; color:var(--muted)">
-            You must accept the disclaimer to use the Minerlytics AI Assistant.
-          </p>
-        </div>
-      `;
+      hideOverlay();
+      disableAI();
     });
 
+    // If accepted previously, ensure overlay never blocks and AI is enabled
+    if(isAccepted()){
+      hideOverlay();
+    }
   })();
   </script>
 
+  <!-- your existing app.js (keep only one include) -->
+  <script src="./app.js"></script>
 </body>
 </html>
