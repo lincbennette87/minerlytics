@@ -1,0 +1,12 @@
+{
+  "name": "minerlytics-edgar",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "edgar:resolve": "node src/edgar/resolveCik.js",
+    "edgar:submissions": "node src/edgar/pullSubmissions.js",
+    "edgar:facts": "node src/edgar/pullCompanyFacts.js",
+    "edgar:trs": "node src/edgar/findTRS.js",
+    "edgar:all": "npm run edgar:resolve && npm run edgar:submissions && npm run edgar:facts && npm run edgar:trs"
+  }
+}
