@@ -1,3 +1,4 @@
+// src/index.js
 import { refreshNewsForAll } from "./news_cron.js";
 
 /* =============================
@@ -55,6 +56,7 @@ async function fetchText(url) {
         "Cache-Control": "no-cache",
         "Pragma": "no-cache",
       },
+      cf: { cacheTtl: 300, cacheEverything: false },
     });
 
     if (res.ok) return await res.text();
@@ -65,10 +67,11 @@ async function fetchText(url) {
       continue;
     }
 
-    throw new Error(`Fetch failed ${res.status} for ${url}`);
+    const body = await res.text().catch(() => "");
+    throw new Error(`Fetch failed ${res.status} for ${url}. BodyHead=${body.slice(0, 160)}`);
   }
 
-  throw new Error(`Fetch failed 429 after ${maxAttempts} attempts`);
+  throw new Error(`Fetch failed 429 after ${maxAttempts} attempts for ${url}`);
 }
 
 /* =============================
@@ -76,29 +79,28 @@ async function fetchText(url) {
 ============================= */
 
 /**
- * SAFELY extract caption tracks
- * Never throws, never crashes
+ * SAFELY extract caption tracks.
+ * Never throws, returns [] when missing or blocked.
  */
 function extractCaptionTracksSafe(html) {
   if (!html || html.length < 2000) return [];
 
-  // Preferred: ytInitialPlayerResponse (more stable)
+  // Preferred: ytInitialPlayerResponse (more stable than captionTracks regex)
   const pr = html.match(/ytInitialPlayerResponse\s*=\s*(\{.*?\});/s);
   if (pr && pr[1]) {
     try {
       const player = JSON.parse(pr[1]);
       const tracks =
-        player?.captions?.playerCaptionsTracklistRenderer?.captionTracks;
-      if (Array.isArray(tracks)) return tracks;
+        player?.captions?.playerCaptionsTracklistRenderer?.captionTracks || [];
+      return Array.isArray(tracks) ? tracks : [];
     } catch {
-      // fallthrough
+      // fall through to regex
     }
   }
 
-  // Fallback: captionTracks regex
+  // Fallback: captionTracks regex (guarded)
   const m = html.match(/"captionTracks":(\[.*?\])/s);
   if (!m || !m[1]) return [];
-
   try {
     const tracks = JSON.parse(m[1]);
     return Array.isArray(tracks) ? tracks : [];
@@ -107,15 +109,19 @@ function extractCaptionTracksSafe(html) {
   }
 }
 
+/**
+ * Fetch transcript lines from a public YouTube video.
+ * Returns [] if none or blocked.
+ */
 async function fetchTranscriptLines(videoId) {
-  const watchUrl = `https://www.youtube.com/watch?v=${videoId}`;
+  const watchUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`;
   const html = await fetchText(watchUrl);
 
   const tracks = extractCaptionTracksSafe(html);
   if (!tracks.length) return [];
 
   const track =
-    tracks.find((t) => t.languageCode?.startsWith("en")) || tracks[0];
+    tracks.find((t) => String(t.languageCode || "").startsWith("en")) || tracks[0];
 
   if (!track?.baseUrl) return [];
 
@@ -126,6 +132,7 @@ async function fetchTranscriptLines(videoId) {
   const body = await fetchText(captionUrl);
   const trimmed = (body || "").trim();
 
+  // Guard: srv3 is JSON; if we didn't get JSON, return []
   if (!trimmed.startsWith("{")) return [];
 
   let data;
@@ -141,13 +148,18 @@ async function fetchTranscriptLines(videoId) {
   for (const ev of events) {
     if (!ev?.segs?.length) continue;
 
-    const text = ev.segs.map((s) => s.utf8 || "").join("").trim();
-    if (!text) continue;
+    const txt = ev.segs
+      .map((s) => s.utf8 || "")
+      .join("")
+      .replace(/\s+/g, " ")
+      .trim();
+
+    if (!txt) continue;
 
     const start = (ev.tStartMs || 0) / 1000;
     const end = ((ev.tStartMs || 0) + (ev.dDurationMs || 0)) / 1000;
 
-    lines.push({ start, end, text });
+    lines.push({ start, end, text: txt });
   }
 
   return lines;
@@ -171,8 +183,11 @@ function chunkLines(lines, maxChars = 1100, overlap = 200) {
     }
 
     chunks.push({ start, end, text: buf.trim() });
-    buf = buf.slice(-overlap) + " " + ln.text;
+
+    const overlapText = buf.slice(-overlap);
+    buf = (overlapText + " " + ln.text).trim();
     start = ln.start;
+    end = ln.end;
   }
 
   if (buf.trim()) chunks.push({ start, end, text: buf.trim() });
@@ -183,6 +198,19 @@ function chunkLines(lines, maxChars = 1100, overlap = 200) {
    YOUTUBE MONTHLY JOB
 ============================= */
 
+async function markVideo(db, videoId, status, errorMsg) {
+  await db
+    .prepare(
+      `UPDATE yt_videos
+       SET transcript_status = ?,
+           transcript_fetched_at = datetime('now'),
+           error = ?
+       WHERE video_id = ?`
+    )
+    .bind(status, errorMsg || null, videoId)
+    .run();
+}
+
 async function runYoutubeMonthlyJob(env, limit = 1) {
   const db = env.DB;
 
@@ -190,14 +218,18 @@ async function runYoutubeMonthlyJob(env, limit = 1) {
     .prepare(`SELECT channel_id FROM yt_channels WHERE is_enabled = 1`)
     .all();
 
+  if (!channels?.length) return { ok: true, channels: 0, processed: 0 };
+
   let processed = 0;
 
   for (const ch of channels) {
     const { results: vids } = await db
       .prepare(
-        `SELECT video_id FROM yt_videos
+        `SELECT video_id
+         FROM yt_videos
          WHERE channel_id = ?
            AND (transcript_status IS NULL OR transcript_status='PENDING')
+         ORDER BY published_at DESC
          LIMIT ?`
       )
       .bind(ch.channel_id, limit)
@@ -205,48 +237,69 @@ async function runYoutubeMonthlyJob(env, limit = 1) {
 
     for (const v of vids) {
       try {
+        // mark that we attempted
+        await markVideo(db, v.video_id, "PENDING", null);
+
         const lines = await fetchTranscriptLines(v.video_id);
 
         if (!lines.length) {
-          await db.prepare(
-            `UPDATE yt_videos SET transcript_status='NONE' WHERE video_id=?`
-          ).bind(v.video_id).run();
+          await markVideo(
+            db,
+            v.video_id,
+            "NONE",
+            "No captionTracks or empty transcript (blocked or none)"
+          );
           continue;
         }
 
         const chunks = chunkLines(lines);
 
-        await db.prepare(`DELETE FROM yt_chunks WHERE video_id=?`)
-          .bind(v.video_id)
-          .run();
+        await db.prepare(`DELETE FROM yt_chunks WHERE video_id=?`).bind(v.video_id).run();
 
         for (let i = 0; i < chunks.length; i++) {
           const c = chunks[i];
-          await db.prepare(
-            `INSERT INTO yt_chunks
-             (video_id, chunk_index, start_sec, end_sec, text, created_at)
-             VALUES (?, ?, ?, ?, ?, datetime('now'))`
-          )
-          .bind(v.video_id, i, c.start, c.end, c.text)
-          .run();
+          await db
+            .prepare(
+              `INSERT INTO yt_chunks
+               (video_id, chunk_index, start_sec, end_sec, text, created_at)
+               VALUES (?, ?, ?, ?, ?, datetime('now'))`
+            )
+            .bind(v.video_id, i, c.start, c.end, c.text)
+            .run();
         }
 
-        await db.prepare(
-          `UPDATE yt_videos SET transcript_status='OK' WHERE video_id=?`
-        ).bind(v.video_id).run();
-
+        await markVideo(db, v.video_id, "OK", null);
         processed++;
-        await sleep(1500 + Math.random() * 800);
 
+        // throttle to reduce 429s
+        await sleep(1500 + Math.floor(Math.random() * 1000));
       } catch (e) {
-        await db.prepare(
-          `UPDATE yt_videos SET transcript_status='ERROR', error=? WHERE video_id=?`
-        ).bind(String(e.message), v.video_id).run();
+        await markVideo(db, v.video_id, "ERROR", String(e?.message || e));
+        await sleep(1500 + Math.floor(Math.random() * 1000));
       }
     }
   }
 
   return { ok: true, channels: channels.length, processed };
+}
+
+/* =============================
+   DEBUG ENDPOINT (STOP GUESSING)
+============================= */
+
+async function debugVideo(env, videoId) {
+  const watchUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`;
+  const html = await fetchText(watchUrl);
+  const tracks = extractCaptionTracksSafe(html);
+
+  return {
+    videoId,
+    html_len: html?.length || 0,
+    tracks_found: tracks.length,
+    languages: tracks.map((t) => t.languageCode).slice(0, 12),
+    has_baseUrl: tracks.some((t) => !!t.baseUrl),
+    html_head: (html || "").slice(0, 200),
+  };
 }
 
 /* =============================
@@ -264,30 +317,45 @@ export default {
         return text("Minerlytics Worker running ✅");
       }
 
-      // Browser trigger
+      // Browser trigger for YouTube job
+      // Example: /api/yt/run-monthly?limit=1
       if (url.pathname === "/api/yt/run-monthly") {
-        const limit = parseInt(url.searchParams.get("limit") || "1", 10);
+        const limit = Math.min(Math.max(parseInt(url.searchParams.get("limit") || "1", 10), 1), 25);
         const result = await runYoutubeMonthlyJob(env, limit);
         return json(result);
       }
 
-      return new Response("Not found", { status: 404, headers: CORS });
+      // Debug a specific video to see if captionTracks exist in the HTML we receive
+      // Example: /api/yt/debug?video_id=2yr-KAO3XWw
+      if (url.pathname === "/api/yt/debug") {
+        const videoId = String(url.searchParams.get("video_id") || "").trim();
+        if (!videoId) return json({ error: "missing video_id" }, 400);
+        const out = await debugVideo(env, videoId);
+        return json(out);
+      }
 
+      return new Response("Not found", { status: 404, headers: CORS });
     } catch (err) {
-      return new Response(
-        err.stack || err.message,
-        { status: 500, headers: { "content-type": "text/plain", ...CORS } }
-      );
+      return new Response(err.stack || err.message, {
+        status: 500,
+        headers: { "content-type": "text/plain; charset=utf-8", ...CORS },
+      });
     }
   },
 
   async scheduled(event, env, ctx) {
+    // Keep your daily OHLCV/news cron behavior (whatever refreshNewsForAll does)
     if (event.cron === DAILY_CRON) {
       ctx.waitUntil(refreshNewsForAll(env));
+      return;
     }
 
+    // Monthly YouTube transcripts
     if (event.cron === MONTHLY_YT_CRON) {
       ctx.waitUntil(runYoutubeMonthlyJob(env, 1));
+      return;
     }
+
+    console.log(`[CRON] Unknown cron '${event.cron}' — no job executed.`);
   },
 };
