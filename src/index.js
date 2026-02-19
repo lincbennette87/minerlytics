@@ -42,9 +42,10 @@ function sleep(ms) {
 
 /* =============================
    SAFE FETCH WITH 429 BACKOFF
+   + (NEW) header override support
 ============================= */
 
-async function fetchText(url) {
+async function fetchText(url, extraHeaders = {}) {
   const maxAttempts = 5;
 
   for (let i = 1; i <= maxAttempts; i++) {
@@ -55,6 +56,9 @@ async function fetchText(url) {
         "Accept": "*/*",
         "Cache-Control": "no-cache",
         "Pragma": "no-cache",
+        // Helps avoid odd compression issues in some runtimes
+        "Accept-Encoding": "identity",
+        ...extraHeaders,
       },
       cf: { cacheTtl: 300, cacheEverything: false },
       redirect: "follow",
@@ -69,7 +73,9 @@ async function fetchText(url) {
     }
 
     const body = await res.text().catch(() => "");
-    throw new Error(`Fetch failed ${res.status} for ${url}. BodyHead=${body.slice(0, 160)}`);
+    throw new Error(
+      `Fetch failed ${res.status} for ${url}. BodyHead=${body.slice(0, 160)}`
+    );
   }
 
   throw new Error(`Fetch failed 429 after ${maxAttempts} attempts for ${url}`);
@@ -86,7 +92,7 @@ async function fetchText(url) {
 function extractCaptionTracksSafe(html) {
   if (!html || html.length < 2000) return [];
 
-  // Preferred: ytInitialPlayerResponse (more stable than captionTracks regex)
+  // Preferred: ytInitialPlayerResponse
   const pr = html.match(/ytInitialPlayerResponse\s*=\s*(\{.*?\});/s);
   if (pr && pr[1]) {
     try {
@@ -95,7 +101,7 @@ function extractCaptionTracksSafe(html) {
         player?.captions?.playerCaptionsTracklistRenderer?.captionTracks || [];
       return Array.isArray(tracks) ? tracks : [];
     } catch {
-      // fall through to regex
+      // fall through
     }
   }
 
@@ -111,31 +117,24 @@ function extractCaptionTracksSafe(html) {
 }
 
 /**
- * Fetch transcript lines from a public YouTube video.
- * Returns [] if none or blocked.
- *
- * NOTE: We use fmt=json3 (often more reliable than srv3).
+ * Decode common HTML/XML entities found in captions.
  */
-async function fetchTranscriptLines(videoId) {
-  const watchUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`;
-  const html = await fetchText(watchUrl);
+function decodeEntities(s) {
+  if (!s) return "";
+  return s
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)));
+}
 
-  const tracks = extractCaptionTracksSafe(html);
-  if (!tracks.length) return [];
-
-  const track =
-    tracks.find((t) => String(t.languageCode || "").startsWith("en")) || tracks[0];
-
-  if (!track?.baseUrl) return [];
-
-  const captionUrl = track.baseUrl.includes("fmt=")
-    ? track.baseUrl
-    : `${track.baseUrl}&fmt=json3`;
-
-  const body = await fetchText(captionUrl);
+/**
+ * Parse transcript from JSON3 captions body.
+ */
+function parseJson3ToLines(body) {
   const trimmed = (body || "").trim();
-
-  // Guard: json3 is JSON; if we didn't get JSON, return []
   if (!trimmed.startsWith("{")) return [];
 
   let data;
@@ -166,6 +165,84 @@ async function fetchTranscriptLines(videoId) {
   }
 
   return lines;
+}
+
+/**
+ * Parse transcript from XML captions body.
+ * Example:
+ * <transcript><text start="0.0" dur="2.0">Hello</text>...</transcript>
+ */
+function parseXmlToLines(xml) {
+  const s = (xml || "").trim();
+  if (!s) return [];
+
+  // Quick guard: should look like XML
+  if (!s.startsWith("<")) return [];
+
+  const matches = [...s.matchAll(/<text\b([^>]*)>([\s\S]*?)<\/text>/g)];
+  if (!matches.length) return [];
+
+  const lines = [];
+  for (const m of matches) {
+    const attrs = m[1] || "";
+    const raw = m[2] || "";
+
+    const startMatch = attrs.match(/\bstart="([^"]+)"/);
+    const durMatch = attrs.match(/\bdur="([^"]+)"/);
+
+    const start = startMatch ? parseFloat(startMatch[1]) : 0;
+    const dur = durMatch ? parseFloat(durMatch[1]) : 0;
+    const end = start + (Number.isFinite(dur) ? dur : 0);
+
+    const txt = decodeEntities(raw)
+      .replace(/\s+/g, " ")
+      .trim();
+
+    if (!txt) continue;
+    lines.push({ start, end, text: txt });
+  }
+
+  return lines;
+}
+
+/**
+ * Fetch transcript lines from a public YouTube video.
+ * Strategy:
+ * 1) Try fmt=json3 first
+ * 2) If that fails or returns non-JSON, fall back to XML baseUrl
+ */
+async function fetchTranscriptLines(videoId) {
+  const watchUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`;
+  const html = await fetchText(watchUrl);
+
+  const tracks = extractCaptionTracksSafe(html);
+  if (!tracks.length) return [];
+
+  const track =
+    tracks.find((t) => String(t.languageCode || "").startsWith("en")) || tracks[0];
+
+  if (!track?.baseUrl) return [];
+
+  // 1) Try JSON3
+  const json3Url = track.baseUrl.includes("fmt=")
+    ? track.baseUrl.replace(/fmt=[^&]+/i, "fmt=json3")
+    : `${track.baseUrl}&fmt=json3`;
+
+  const json3Body = await fetchText(json3Url, {
+    Accept: "application/json,text/plain,*/*",
+  });
+
+  const json3Lines = parseJson3ToLines(json3Body);
+  if (json3Lines.length) return json3Lines;
+
+  // 2) Fallback to XML (no fmt or explicit fmt=srv3 works too)
+  // Keep it simple: call the original baseUrl as-is
+  const xmlBody = await fetchText(track.baseUrl, {
+    Accept: "text/xml,application/xml;q=0.9,*/*;q=0.8",
+  });
+
+  const xmlLines = parseXmlToLines(xmlBody);
+  return xmlLines;
 }
 
 function chunkLines(lines, maxChars = 1100, overlap = 200) {
@@ -240,7 +317,6 @@ async function runYoutubeMonthlyJob(env, limit = 1) {
 
     for (const v of vids) {
       try {
-        // mark that we attempted
         await markVideo(db, v.video_id, "PENDING", null);
 
         const lines = await fetchTranscriptLines(v.video_id);
@@ -250,7 +326,7 @@ async function runYoutubeMonthlyJob(env, limit = 1) {
             db,
             v.video_id,
             "NONE",
-            "No captionTracks or empty transcript (blocked, unavailable, or non-JSON caption response)"
+            "No captionTracks or empty transcript (blocked, unavailable, or empty JSON/XML caption response)"
           );
           continue;
         }
@@ -274,7 +350,6 @@ async function runYoutubeMonthlyJob(env, limit = 1) {
         await markVideo(db, v.video_id, "OK", null);
         processed++;
 
-        // throttle to reduce 429s
         await sleep(1500 + Math.floor(Math.random() * 1000));
       } catch (e) {
         await markVideo(db, v.video_id, "ERROR", String(e?.message || e));
@@ -289,7 +364,7 @@ async function runYoutubeMonthlyJob(env, limit = 1) {
 /* =============================
    DEBUG ENDPOINT
    - Shows if captionTracks exist
-   - Also fetches the caption URL and reports status + body head
+   - Fetches BOTH json3 + xml and reports status + body heads
 ============================= */
 
 async function debugVideo(env, videoId) {
@@ -300,33 +375,61 @@ async function debugVideo(env, videoId) {
   const track =
     tracks.find((t) => String(t.languageCode || "").startsWith("en")) || tracks[0];
 
-  const captionUrl =
-    track?.baseUrl
-      ? (track.baseUrl.includes("fmt=") ? track.baseUrl : `${track.baseUrl}&fmt=json3`)
+  const baseUrl = track?.baseUrl || null;
+
+  const json3Url =
+    baseUrl
+      ? (baseUrl.includes("fmt=")
+          ? baseUrl.replace(/fmt=[^&]+/i, "fmt=json3")
+          : `${baseUrl}&fmt=json3`)
       : null;
 
-  let captionStatus = null;
-  let captionHead = null;
+  let json3Status = null;
+  let json3Head = null;
+  let xmlStatus = null;
+  let xmlHead = null;
 
-  if (captionUrl) {
+  if (json3Url) {
     try {
-      const res = await fetch(captionUrl, {
+      const res = await fetch(json3Url, {
         headers: {
           "User-Agent": "Mozilla/5.0 (compatible; minerlytics-yt/1.0)",
           "Accept-Language": "en-US,en;q=0.9",
-          "Accept": "*/*",
+          Accept: "application/json,text/plain,*/*",
           "Cache-Control": "no-cache",
-          "Pragma": "no-cache",
+          Pragma: "no-cache",
+          "Accept-Encoding": "identity",
         },
         redirect: "follow",
       });
-
-      captionStatus = res.status;
+      json3Status = res.status;
       const body = await res.text();
-      captionHead = (body || "").slice(0, 260);
+      json3Head = (body || "").slice(0, 260);
     } catch (e) {
-      captionStatus = "FETCH_ERROR";
-      captionHead = String(e?.message || e);
+      json3Status = "FETCH_ERROR";
+      json3Head = String(e?.message || e);
+    }
+  }
+
+  if (baseUrl) {
+    try {
+      const res = await fetch(baseUrl, {
+        headers: {
+          "User-Agent": "Mozilla/5.0 (compatible; minerlytics-yt/1.0)",
+          "Accept-Language": "en-US,en;q=0.9",
+          Accept: "text/xml,application/xml;q=0.9,*/*;q=0.8",
+          "Cache-Control": "no-cache",
+          Pragma: "no-cache",
+          "Accept-Encoding": "identity",
+        },
+        redirect: "follow",
+      });
+      xmlStatus = res.status;
+      const body = await res.text();
+      xmlHead = (body || "").slice(0, 260);
+    } catch (e) {
+      xmlStatus = "FETCH_ERROR";
+      xmlHead = String(e?.message || e);
     }
   }
 
@@ -336,9 +439,16 @@ async function debugVideo(env, videoId) {
     tracks_found: tracks.length,
     languages: tracks.map((t) => t.languageCode).slice(0, 12),
     has_baseUrl: tracks.some((t) => !!t.baseUrl),
-    caption_url_present: !!captionUrl,
-    caption_status: captionStatus,
-    caption_body_head: captionHead,
+
+    base_url_present: !!baseUrl,
+    json3_url_present: !!json3Url,
+
+    json3_status: json3Status,
+    json3_body_head: json3Head,
+
+    xml_status: xmlStatus,
+    xml_body_head: xmlHead,
+
     html_head: (html || "").slice(0, 200),
   };
 }
@@ -361,7 +471,10 @@ export default {
       // Browser trigger for YouTube job
       // Example: /api/yt/run-monthly?limit=1
       if (url.pathname === "/api/yt/run-monthly") {
-        const limit = Math.min(Math.max(parseInt(url.searchParams.get("limit") || "1", 10), 1), 25);
+        const limit = Math.min(
+          Math.max(parseInt(url.searchParams.get("limit") || "1", 10), 1),
+          25
+        );
         const result = await runYoutubeMonthlyJob(env, limit);
         return json(result);
       }
