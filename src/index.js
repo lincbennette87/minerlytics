@@ -44,24 +44,21 @@ function sleep(ms) {
    SAFE FETCH WITH 429 BACKOFF
 ============================= */
 
-function baseHeaders(extra = {}) {
-  return {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Accept": "*/*",
-    "Cache-Control": "no-cache",
-    "Pragma": "no-cache",
-    ...extra,
-  };
-}
-
 async function fetchText(url, extraHeaders = {}) {
   const maxAttempts = 5;
 
   for (let i = 1; i <= maxAttempts; i++) {
     const res = await fetch(url, {
-      headers: baseHeaders(extraHeaders),
-      cf: { cacheTtl: 300, cacheEverything: false },
+      headers: {
+        "User-Agent": "Mozilla/5.0 (compatible; minerlytics-yt/1.0)",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept": "*/*",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache",
+        "Accept-Encoding": "identity",
+        ...extraHeaders,
+      },
+      cf: { cacheTtl: 0, cacheEverything: false },
       redirect: "follow",
     });
 
@@ -80,18 +77,34 @@ async function fetchText(url, extraHeaders = {}) {
   throw new Error(`Fetch failed 429 after ${maxAttempts} attempts for ${url}`);
 }
 
-// For captions: do NOT use cf caching; use stricter browser-ish headers
-async function fetchTextNoCache(url, extraHeaders = {}) {
+async function fetchBytes(url, extraHeaders = {}) {
   const maxAttempts = 5;
 
   for (let i = 1; i <= maxAttempts; i++) {
     const res = await fetch(url, {
-      headers: baseHeaders(extraHeaders),
+      headers: {
+        "User-Agent": "Mozilla/5.0 (compatible; minerlytics-yt/1.0)",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept": "*/*",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache",
+        "Accept-Encoding": "identity",
+        ...extraHeaders,
+      },
+      cf: { cacheTtl: 0, cacheEverything: false },
       redirect: "follow",
-      // Intentionally omit cf caching here
     });
 
-    if (res.ok) return await res.text();
+    if (res.ok) {
+      const buf = await res.arrayBuffer();
+      return {
+        status: res.status,
+        contentType: res.headers.get("content-type"),
+        contentLength: res.headers.get("content-length"),
+        byteLen: buf.byteLength,
+        text: new TextDecoder("utf-8").decode(buf),
+      };
+    }
 
     if (res.status === 429) {
       const delay = 1000 * Math.pow(2, i - 1) + Math.random() * 800;
@@ -135,40 +148,19 @@ function extractCaptionTracksSafe(html) {
   }
 }
 
-async function fetchTranscriptLines(videoId) {
-  const watchUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`;
+function decodeEntities(s) {
+  if (!s) return "";
+  return s
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)));
+}
 
-  const html = await fetchText(watchUrl, {
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-  });
-
-  const tracks = extractCaptionTracksSafe(html);
-  if (!tracks.length) return [];
-
-  const track =
-    tracks.find((t) => String(t.languageCode || "").startsWith("en")) || tracks[0];
-
-  if (!track?.baseUrl) return [];
-
-  const captionUrl = track.baseUrl.includes("fmt=")
-    ? track.baseUrl
-    : `${track.baseUrl}&fmt=json3`;
-
-  // IMPORTANT: captions fetch with Referer/Origin/etc.
-  const captionBody = await fetchTextNoCache(captionUrl, {
-    "Referer": watchUrl,
-    "Origin": "https://www.youtube.com",
-    "Accept": "application/json,text/plain,*/*",
-    "Sec-Fetch-Site": "same-origin",
-    "Sec-Fetch-Mode": "cors",
-    "Sec-Fetch-Dest": "empty",
-  });
-
-  const trimmed = (captionBody || "").trim();
-
-  // If YouTube returns empty 200, this will be empty
-  if (!trimmed) return [];
-
+function parseJson3ToLines(body) {
+  const trimmed = (body || "").trim();
   if (!trimmed.startsWith("{")) return [];
 
   let data;
@@ -194,11 +186,147 @@ async function fetchTranscriptLines(videoId) {
 
     const start = (ev.tStartMs || 0) / 1000;
     const end = ((ev.tStartMs || 0) + (ev.dDurationMs || 0)) / 1000;
+    lines.push({ start, end, text: txt });
+  }
+  return lines;
+}
+
+function parseXmlToLines(xml) {
+  const s = (xml || "").trim();
+  if (!s || !s.startsWith("<")) return [];
+
+  const matches = [...s.matchAll(/<text\b([^>]*)>([\s\S]*?)<\/text>/g)];
+  if (!matches.length) return [];
+
+  const lines = [];
+  for (const m of matches) {
+    const attrs = m[1] || "";
+    const raw = m[2] || "";
+
+    const startMatch = attrs.match(/\bstart="([^"]+)"/);
+    const durMatch = attrs.match(/\bdur="([^"]+)"/);
+
+    const start = startMatch ? parseFloat(startMatch[1]) : 0;
+    const dur = durMatch ? parseFloat(durMatch[1]) : 0;
+    const end = start + (Number.isFinite(dur) ? dur : 0);
+
+    const txt = decodeEntities(raw).replace(/\s+/g, " ").trim();
+    if (!txt) continue;
+
+    lines.push({ start, end, text: txt });
+  }
+  return lines;
+}
+
+/**
+ * Parse WebVTT captions into lines.
+ * VTT example:
+ * 00:00:01.000 --> 00:00:04.000
+ * hello world
+ */
+function parseVttToLines(vtt) {
+  const s = (vtt || "").replace(/\r/g, "").trim();
+  if (!s.startsWith("WEBVTT")) return [];
+
+  const lines = [];
+  const blocks = s.split("\n\n");
+
+  function toSeconds(ts) {
+    // supports HH:MM:SS.mmm or MM:SS.mmm
+    const parts = ts.split(":").map((p) => p.trim());
+    let h = 0, m = 0, sec = 0;
+
+    if (parts.length === 3) {
+      h = Number(parts[0]);
+      m = Number(parts[1]);
+      sec = Number(parts[2]);
+    } else {
+      m = Number(parts[0]);
+      sec = Number(parts[1]);
+    }
+
+    const [sPart, msPart] = String(sec).split(".");
+    const sNum = Number(sPart);
+    const msNum = msPart ? Number(msPart.padEnd(3, "0")) : 0;
+    return h * 3600 + m * 60 + sNum + msNum / 1000;
+  }
+
+  for (const b of blocks) {
+    const rows = b.split("\n").filter(Boolean);
+    if (rows.length < 2) continue;
+
+    const timeRow = rows.find((r) => r.includes("-->"));
+    if (!timeRow) continue;
+
+    const [a, b2] = timeRow.split("-->").map((x) => x.trim());
+    const start = toSeconds(a);
+    const end = toSeconds(b2.split(" ")[0].trim());
+
+    const textRows = rows
+      .filter((r) => !r.includes("-->") && !/^\d+$/.test(r))
+      .map((r) => r.replace(/<[^>]+>/g, "").trim())
+      .filter(Boolean);
+
+    const txt = decodeEntities(textRows.join(" ")).replace(/\s+/g, " ").trim();
+    if (!txt) continue;
 
     lines.push({ start, end, text: txt });
   }
 
   return lines;
+}
+
+async function fetchTranscriptLines(videoId) {
+  const watchUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`;
+  const html = await fetchText(watchUrl);
+
+  const tracks = extractCaptionTracksSafe(html);
+  if (!tracks.length) return [];
+
+  const track =
+    tracks.find((t) => String(t.languageCode || "").startsWith("en")) || tracks[0];
+
+  if (!track?.baseUrl) return [];
+
+  const commonHeaders = {
+    Referer: watchUrl,
+    Origin: "https://www.youtube.com",
+  };
+
+  // JSON3
+  const json3Url = track.baseUrl.includes("fmt=")
+    ? track.baseUrl.replace(/fmt=[^&]+/i, "fmt=json3")
+    : `${track.baseUrl}&fmt=json3`;
+
+  const json3Body = await fetchText(json3Url, {
+    Accept: "application/json,text/plain,*/*",
+    ...commonHeaders,
+  });
+
+  const json3Lines = parseJson3ToLines(json3Body);
+  if (json3Lines.length) return json3Lines;
+
+  // XML
+  const xmlBody = await fetchText(track.baseUrl, {
+    Accept: "text/xml,application/xml;q=0.9,*/*;q=0.8",
+    ...commonHeaders,
+  });
+
+  const xmlLines = parseXmlToLines(xmlBody);
+  if (xmlLines.length) return xmlLines;
+
+  // VTT (NEW fallback)
+  const vttUrl = track.baseUrl.includes("fmt=")
+    ? track.baseUrl.replace(/fmt=[^&]+/i, "fmt=vtt")
+    : `${track.baseUrl}&fmt=vtt`;
+
+  const vttBody = await fetchText(vttUrl, {
+    Accept: "text/vtt,text/plain,*/*",
+    ...commonHeaders,
+  });
+
+  const vttLines = parseVttToLines(vttBody);
+  return vttLines;
 }
 
 function chunkLines(lines, maxChars = 1100, overlap = 200) {
@@ -282,7 +410,7 @@ async function runYoutubeMonthlyJob(env, limit = 1) {
             db,
             v.video_id,
             "NONE",
-            "Caption fetch returned empty/non-JSON (common with YouTube + Cloudflare IPs) or no captions."
+            "Empty transcript: json3/xml/vtt all returned empty (YouTube gating likely)"
           );
           continue;
         }
@@ -319,50 +447,64 @@ async function runYoutubeMonthlyJob(env, limit = 1) {
 
 /* =============================
    DEBUG ENDPOINT
+   - Shows captionTracks exist
+   - Fetches json3/xml/vtt and reports byte_len + heads
 ============================= */
 
 async function debugVideo(env, videoId) {
   const watchUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`;
-  const html = await fetchText(watchUrl, {
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-  });
-
+  const html = await fetchText(watchUrl);
   const tracks = extractCaptionTracksSafe(html);
 
   const track =
     tracks.find((t) => String(t.languageCode || "").startsWith("en")) || tracks[0];
 
-  const captionUrl =
-    track?.baseUrl
-      ? (track.baseUrl.includes("fmt=") ? track.baseUrl : `${track.baseUrl}&fmt=json3`)
+  const baseUrl = track?.baseUrl || null;
+
+  const commonHeaders = {
+    Referer: watchUrl,
+    Origin: "https://www.youtube.com",
+  };
+
+  const json3Url =
+    baseUrl
+      ? (baseUrl.includes("fmt=")
+          ? baseUrl.replace(/fmt=[^&]+/i, "fmt=json3")
+          : `${baseUrl}&fmt=json3`)
       : null;
 
-  let captionStatus = null;
-  let captionHead = null;
-  let captionLen = null;
+  const vttUrl =
+    baseUrl
+      ? (baseUrl.includes("fmt=")
+          ? baseUrl.replace(/fmt=[^&]+/i, "fmt=vtt")
+          : `${baseUrl}&fmt=vtt`)
+      : null;
 
-  if (captionUrl) {
+  let json3 = null;
+  let xml = null;
+  let vtt = null;
+
+  if (json3Url) {
     try {
-      const res = await fetch(captionUrl, {
-        headers: baseHeaders({
-          "Referer": watchUrl,
-          "Origin": "https://www.youtube.com",
-          "Accept": "application/json,text/plain,*/*",
-          "Sec-Fetch-Site": "same-origin",
-          "Sec-Fetch-Mode": "cors",
-          "Sec-Fetch-Dest": "empty",
-        }),
-        redirect: "follow",
-      });
-
-      captionStatus = res.status;
-      const body = await res.text();
-      captionLen = (body || "").length;
-      captionHead = (body || "").slice(0, 260);
+      json3 = await fetchBytes(json3Url, { Accept: "application/json,*/*", ...commonHeaders });
     } catch (e) {
-      captionStatus = "FETCH_ERROR";
-      captionHead = String(e?.message || e);
-      captionLen = null;
+      json3 = { status: "FETCH_ERROR", byteLen: null, text: String(e?.message || e) };
+    }
+  }
+
+  if (baseUrl) {
+    try {
+      xml = await fetchBytes(baseUrl, { Accept: "text/xml,*/*", ...commonHeaders });
+    } catch (e) {
+      xml = { status: "FETCH_ERROR", byteLen: null, text: String(e?.message || e) };
+    }
+  }
+
+  if (vttUrl) {
+    try {
+      vtt = await fetchBytes(vttUrl, { Accept: "text/vtt,text/plain,*/*", ...commonHeaders });
+    } catch (e) {
+      vtt = { status: "FETCH_ERROR", byteLen: null, text: String(e?.message || e) };
     }
   }
 
@@ -372,10 +514,23 @@ async function debugVideo(env, videoId) {
     tracks_found: tracks.length,
     languages: tracks.map((t) => t.languageCode).slice(0, 12),
     has_baseUrl: tracks.some((t) => !!t.baseUrl),
-    caption_url_present: !!captionUrl,
-    caption_status: captionStatus,
-    caption_len: captionLen,
-    caption_body_head: captionHead,
+
+    base_url_present: !!baseUrl,
+    json3_url_present: !!json3Url,
+    vtt_url_present: !!vttUrl,
+
+    json3_status: json3?.status ?? null,
+    json3_len: json3?.byteLen ?? null,
+    json3_body_head: (json3?.text || "").slice(0, 180),
+
+    xml_status: xml?.status ?? null,
+    xml_len: xml?.byteLen ?? null,
+    xml_body_head: (xml?.text || "").slice(0, 180),
+
+    vtt_status: vtt?.status ?? null,
+    vtt_len: vtt?.byteLen ?? null,
+    vtt_body_head: (vtt?.text || "").slice(0, 180),
+
     html_head: (html || "").slice(0, 200),
   };
 }
@@ -395,16 +550,15 @@ export default {
         return text("Minerlytics Worker running ✅");
       }
 
-      // Browser trigger for YouTube job
-      // Example: /api/yt/run-monthly?limit=1
       if (url.pathname === "/api/yt/run-monthly") {
-        const limit = Math.min(Math.max(parseInt(url.searchParams.get("limit") || "1", 10), 1), 25);
+        const limit = Math.min(
+          Math.max(parseInt(url.searchParams.get("limit") || "1", 10), 1),
+          25
+        );
         const result = await runYoutubeMonthlyJob(env, limit);
         return json(result);
       }
 
-      // Debug a specific video
-      // Example: /api/yt/debug?video_id=2yr-KAO3XWw
       if (url.pathname === "/api/yt/debug") {
         const videoId = String(url.searchParams.get("video_id") || "").trim();
         if (!videoId) return json({ error: "missing video_id" }, 400);
