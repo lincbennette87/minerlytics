@@ -1,6 +1,4 @@
 import { refreshNewsForAll } from "./news_cron.js";
-import { TICKERS } from "./tickers.js";
-import { googleRssUrl, parseRssItems } from "./rss.js";
 
 /* =============================
    CRON SETTINGS
@@ -10,7 +8,7 @@ const DAILY_CRON = "30 3 * * *";
 const MONTHLY_YT_CRON = "0 4 1 * *";
 
 /* =============================
-   HELPERS
+   RESPONSE HELPERS
 ============================= */
 
 const CORS = {
@@ -38,174 +36,126 @@ function options() {
 }
 
 function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+  return new Promise((r) => setTimeout(r, ms));
 }
 
 /* =============================
-   429-SAFE FETCH
+   SAFE FETCH WITH 429 BACKOFF
 ============================= */
 
-async function fetchText(url, headers = {}) {
+async function fetchText(url) {
   const maxAttempts = 5;
 
-  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+  for (let i = 1; i <= maxAttempts; i++) {
     const res = await fetch(url, {
       headers: {
         "User-Agent": "Mozilla/5.0 (compatible; minerlytics-yt/1.0)",
         "Accept-Language": "en-US,en;q=0.9",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept": "*/*",
         "Cache-Control": "no-cache",
         "Pragma": "no-cache",
-        ...headers,
       },
-      cf: { cacheTtl: 300, cacheEverything: false },
     });
 
     if (res.ok) return await res.text();
 
     if (res.status === 429) {
-      const baseDelay = 1000 * Math.pow(2, attempt - 1);
-      const jitter = Math.floor(Math.random() * 800);
-      await sleep(baseDelay + jitter);
+      const delay = 1000 * Math.pow(2, i - 1) + Math.random() * 800;
+      await sleep(delay);
       continue;
     }
 
-    const body = await res.text().catch(() => "");
-    throw new Error(`Fetch failed ${res.status} for ${url}. ${body.slice(0, 120)}`);
+    throw new Error(`Fetch failed ${res.status} for ${url}`);
   }
 
-  throw new Error(`Fetch failed 429 after ${maxAttempts} attempts for ${url}`);
+  throw new Error(`Fetch failed 429 after ${maxAttempts} attempts`);
 }
 
 /* =============================
-   YOUTUBE TRANSCRIPT PIPELINE
+   YOUTUBE TRANSCRIPT EXTRACTION
 ============================= */
 
-async function runYoutubeMonthlyJob(env, limit = 5) {
-  const db = env.DB;
+/**
+ * SAFELY extract caption tracks
+ * Never throws, never crashes
+ */
+function extractCaptionTracksSafe(html) {
+  if (!html || html.length < 2000) return [];
 
-  const { results: channels } = await db
-    .prepare(`SELECT channel_id FROM yt_channels WHERE is_enabled = 1`)
-    .all();
-
-  if (!channels?.length) return { ok: true, channels: 0, processed: 0 };
-
-  let processed = 0;
-
-  for (const ch of channels) {
-    const n = await processPendingTranscripts(env, ch.channel_id, limit);
-    processed += n;
-
-    await db
-      .prepare(`UPDATE yt_channels SET last_run_at = datetime('now') WHERE channel_id = ?`)
-      .bind(ch.channel_id)
-      .run();
-  }
-
-  return { ok: true, channels: channels.length, processed };
-}
-
-async function processPendingTranscripts(env, channelId, limit) {
-  const db = env.DB;
-
-  const { results: vids } = await db
-    .prepare(
-      `SELECT video_id
-       FROM yt_videos
-       WHERE channel_id = ?
-         AND (transcript_status IS NULL OR transcript_status = 'PENDING')
-       ORDER BY published_at DESC
-       LIMIT ?`
-    )
-    .bind(channelId, limit)
-    .all();
-
-  if (!vids?.length) return 0;
-
-  let okCount = 0;
-
-  for (const v of vids) {
+  // Preferred: ytInitialPlayerResponse (more stable)
+  const pr = html.match(/ytInitialPlayerResponse\s*=\s*(\{.*?\});/s);
+  if (pr && pr[1]) {
     try {
-      await setTranscriptStatus(db, v.video_id, "PENDING", null);
-
-      const lines = await fetchTranscriptLines(v.video_id);
-
-      if (!lines.length) {
-        await setTranscriptStatus(db, v.video_id, "NONE", "No captions found");
-        continue;
-      }
-
-      const chunks = chunkLines(lines);
-
-      await db.prepare(`DELETE FROM yt_chunks WHERE video_id = ?`)
-        .bind(v.video_id)
-        .run();
-
-      for (let i = 0; i < chunks.length; i++) {
-        const c = chunks[i];
-        await db.prepare(
-          `INSERT INTO yt_chunks
-           (video_id, chunk_index, start_sec, end_sec, text, created_at)
-           VALUES (?, ?, ?, ?, ?, datetime('now'))`
-        )
-        .bind(v.video_id, i, c.start, c.end, c.text)
-        .run();
-      }
-
-      await setTranscriptStatus(db, v.video_id, "OK", null);
-      okCount++;
-
-      await sleep(1500 + Math.floor(Math.random() * 1000));
-    } catch (e) {
-      await setTranscriptStatus(db, v.video_id, "ERROR", e.message);
+      const player = JSON.parse(pr[1]);
+      const tracks =
+        player?.captions?.playerCaptionsTracklistRenderer?.captionTracks;
+      if (Array.isArray(tracks)) return tracks;
+    } catch {
+      // fallthrough
     }
   }
 
-  return okCount;
-}
+  // Fallback: captionTracks regex
+  const m = html.match(/"captionTracks":(\[.*?\])/s);
+  if (!m || !m[1]) return [];
 
-async function setTranscriptStatus(db, videoId, status, error) {
-  await db.prepare(
-    `UPDATE yt_videos
-     SET transcript_status = ?,
-         transcript_fetched_at = datetime('now'),
-         error = ?
-     WHERE video_id = ?`
-  )
-  .bind(status, error, videoId)
-  .run();
+  try {
+    const tracks = JSON.parse(m[1]);
+    return Array.isArray(tracks) ? tracks : [];
+  } catch {
+    return [];
+  }
 }
 
 async function fetchTranscriptLines(videoId) {
   const watchUrl = `https://www.youtube.com/watch?v=${videoId}`;
   const html = await fetchText(watchUrl);
 
-  const match = html.match(/"captionTracks":(\[.*?\])/s);
-  if (!match) return [];
+  const tracks = extractCaptionTracksSafe(html);
+  if (!tracks.length) return [];
 
-  const tracks = JSON.parse(match[1]);
-  const track = tracks.find(t => t.languageCode?.startsWith("en")) || tracks[0];
+  const track =
+    tracks.find((t) => t.languageCode?.startsWith("en")) || tracks[0];
+
   if (!track?.baseUrl) return [];
 
   const captionUrl = track.baseUrl.includes("fmt=")
     ? track.baseUrl
     : `${track.baseUrl}&fmt=srv3`;
 
-  const captionBody = await fetchText(captionUrl);
-  const data = JSON.parse(captionBody);
+  const body = await fetchText(captionUrl);
+  const trimmed = (body || "").trim();
 
-  return (data.events || [])
-    .filter(e => e.segs?.length)
-    .map(e => ({
-      start: (e.tStartMs || 0) / 1000,
-      end: ((e.tStartMs || 0) + (e.dDurationMs || 0)) / 1000,
-      text: e.segs.map(s => s.utf8).join("").trim(),
-    }));
+  if (!trimmed.startsWith("{")) return [];
+
+  let data;
+  try {
+    data = JSON.parse(trimmed);
+  } catch {
+    return [];
+  }
+
+  const events = data?.events || [];
+  const lines = [];
+
+  for (const ev of events) {
+    if (!ev?.segs?.length) continue;
+
+    const text = ev.segs.map((s) => s.utf8 || "").join("").trim();
+    if (!text) continue;
+
+    const start = (ev.tStartMs || 0) / 1000;
+    const end = ((ev.tStartMs || 0) + (ev.dDurationMs || 0)) / 1000;
+
+    lines.push({ start, end, text });
+  }
+
+  return lines;
 }
 
 function chunkLines(lines, maxChars = 1100, overlap = 200) {
   const chunks = [];
-  let buffer = "";
+  let buf = "";
   let start = null;
   let end = null;
 
@@ -213,52 +163,121 @@ function chunkLines(lines, maxChars = 1100, overlap = 200) {
     if (start === null) start = ln.start;
     end = ln.end;
 
-    const addition = (buffer ? " " : "") + ln.text;
+    const piece = (buf ? " " : "") + ln.text;
 
-    if ((buffer + addition).length < maxChars) {
-      buffer += addition;
+    if ((buf + piece).length < maxChars) {
+      buf += piece;
       continue;
     }
 
-    chunks.push({ start, end, text: buffer });
-
-    const overlapText = buffer.slice(-overlap);
-    buffer = overlapText + " " + ln.text;
+    chunks.push({ start, end, text: buf.trim() });
+    buf = buf.slice(-overlap) + " " + ln.text;
     start = ln.start;
   }
 
-  if (buffer.trim()) chunks.push({ start, end, text: buffer.trim() });
+  if (buf.trim()) chunks.push({ start, end, text: buf.trim() });
   return chunks;
 }
 
 /* =============================
-   MAIN WORKER HANDLER
+   YOUTUBE MONTHLY JOB
+============================= */
+
+async function runYoutubeMonthlyJob(env, limit = 1) {
+  const db = env.DB;
+
+  const { results: channels } = await db
+    .prepare(`SELECT channel_id FROM yt_channels WHERE is_enabled = 1`)
+    .all();
+
+  let processed = 0;
+
+  for (const ch of channels) {
+    const { results: vids } = await db
+      .prepare(
+        `SELECT video_id FROM yt_videos
+         WHERE channel_id = ?
+           AND (transcript_status IS NULL OR transcript_status='PENDING')
+         LIMIT ?`
+      )
+      .bind(ch.channel_id, limit)
+      .all();
+
+    for (const v of vids) {
+      try {
+        const lines = await fetchTranscriptLines(v.video_id);
+
+        if (!lines.length) {
+          await db.prepare(
+            `UPDATE yt_videos SET transcript_status='NONE' WHERE video_id=?`
+          ).bind(v.video_id).run();
+          continue;
+        }
+
+        const chunks = chunkLines(lines);
+
+        await db.prepare(`DELETE FROM yt_chunks WHERE video_id=?`)
+          .bind(v.video_id)
+          .run();
+
+        for (let i = 0; i < chunks.length; i++) {
+          const c = chunks[i];
+          await db.prepare(
+            `INSERT INTO yt_chunks
+             (video_id, chunk_index, start_sec, end_sec, text, created_at)
+             VALUES (?, ?, ?, ?, ?, datetime('now'))`
+          )
+          .bind(v.video_id, i, c.start, c.end, c.text)
+          .run();
+        }
+
+        await db.prepare(
+          `UPDATE yt_videos SET transcript_status='OK' WHERE video_id=?`
+        ).bind(v.video_id).run();
+
+        processed++;
+        await sleep(1500 + Math.random() * 800);
+
+      } catch (e) {
+        await db.prepare(
+          `UPDATE yt_videos SET transcript_status='ERROR', error=? WHERE video_id=?`
+        ).bind(String(e.message), v.video_id).run();
+      }
+    }
+  }
+
+  return { ok: true, channels: channels.length, processed };
+}
+
+/* =============================
+   WORKER ENTRYPOINT
 ============================= */
 
 export default {
-  async fetch(request, env) {
+  async fetch(req, env) {
     try {
-      const url = new URL(request.url);
+      const url = new URL(req.url);
 
-      if (request.method === "OPTIONS") return options();
+      if (req.method === "OPTIONS") return options();
 
       if (url.pathname === "/api/health") {
-        return text("Minerlytics is running ✅");
+        return text("Minerlytics Worker running ✅");
       }
 
-      // Manual browser test
+      // Browser trigger
       if (url.pathname === "/api/yt/run-monthly") {
-        const limit = parseInt(url.searchParams.get("limit") || "3", 10);
+        const limit = parseInt(url.searchParams.get("limit") || "1", 10);
         const result = await runYoutubeMonthlyJob(env, limit);
         return json(result);
       }
 
-      return new Response("Not found", { status: 404 });
+      return new Response("Not found", { status: 404, headers: CORS });
+
     } catch (err) {
-      return new Response(err.stack || err.message, {
-        status: 500,
-        headers: { "content-type": "text/plain; charset=utf-8", ...CORS },
-      });
+      return new Response(
+        err.stack || err.message,
+        { status: 500, headers: { "content-type": "text/plain", ...CORS } }
+      );
     }
   },
 
@@ -268,7 +287,7 @@ export default {
     }
 
     if (event.cron === MONTHLY_YT_CRON) {
-      ctx.waitUntil(runYoutubeMonthlyJob(env, 5));
+      ctx.waitUntil(runYoutubeMonthlyJob(env, 1));
     }
   },
 };
