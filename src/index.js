@@ -52,9 +52,9 @@ async function fetchText(url, extraHeaders = {}) {
       headers: {
         "User-Agent": "Mozilla/5.0 (compatible; minerlytics-yt/1.0)",
         "Accept-Language": "en-US,en;q=0.9",
-        "Accept": "*/*",
+        Accept: "*/*",
         "Cache-Control": "no-cache",
-        "Pragma": "no-cache",
+        Pragma: "no-cache",
         "Accept-Encoding": "identity",
         ...extraHeaders,
       },
@@ -71,7 +71,9 @@ async function fetchText(url, extraHeaders = {}) {
     }
 
     const body = await res.text().catch(() => "");
-    throw new Error(`Fetch failed ${res.status} for ${url}. BodyHead=${body.slice(0, 160)}`);
+    throw new Error(
+      `Fetch failed ${res.status} for ${url}. BodyHead=${body.slice(0, 160)}`
+    );
   }
 
   throw new Error(`Fetch failed 429 after ${maxAttempts} attempts for ${url}`);
@@ -85,9 +87,9 @@ async function fetchBytes(url, extraHeaders = {}) {
       headers: {
         "User-Agent": "Mozilla/5.0 (compatible; minerlytics-yt/1.0)",
         "Accept-Language": "en-US,en;q=0.9",
-        "Accept": "*/*",
+        Accept: "*/*",
         "Cache-Control": "no-cache",
-        "Pragma": "no-cache",
+        Pragma: "no-cache",
         "Accept-Encoding": "identity",
         ...extraHeaders,
       },
@@ -113,7 +115,9 @@ async function fetchBytes(url, extraHeaders = {}) {
     }
 
     const body = await res.text().catch(() => "");
-    throw new Error(`Fetch failed ${res.status} for ${url}. BodyHead=${body.slice(0, 160)}`);
+    throw new Error(
+      `Fetch failed ${res.status} for ${url}. BodyHead=${body.slice(0, 160)}`
+    );
   }
 
   throw new Error(`Fetch failed 429 after ${maxAttempts} attempts for ${url}`);
@@ -123,9 +127,14 @@ async function fetchBytes(url, extraHeaders = {}) {
    YOUTUBE TRANSCRIPT EXTRACTION
 ============================= */
 
+/**
+ * SAFELY extract caption tracks.
+ * Never throws, returns [] when missing or blocked.
+ */
 function extractCaptionTracksSafe(html) {
   if (!html || html.length < 2000) return [];
 
+  // Preferred: ytInitialPlayerResponse
   const pr = html.match(/ytInitialPlayerResponse\s*=\s*(\{.*?\});/s);
   if (pr && pr[1]) {
     try {
@@ -138,6 +147,7 @@ function extractCaptionTracksSafe(html) {
     }
   }
 
+  // Fallback: captionTracks regex (guarded)
   const m = html.match(/"captionTracks":(\[.*?\])/s);
   if (!m || !m[1]) return [];
   try {
@@ -148,6 +158,32 @@ function extractCaptionTracksSafe(html) {
   }
 }
 
+/**
+ * NEW: pull Innertube API key + client context + transcript params
+ * from the watch HTML.
+ */
+function extractInnertubeKey(html) {
+  const m = html.match(/"INNERTUBE_API_KEY":"([^"]+)"/);
+  return m ? m[1] : null;
+}
+
+function extractInnertubeClient(html) {
+  const name =
+    html.match(/"INNERTUBE_CONTEXT_CLIENT_NAME":\s*([0-9]+)/)?.[1] || "1";
+  const ver =
+    html.match(/"INNERTUBE_CONTEXT_CLIENT_VERSION":"([^"]+)"/)?.[1] ||
+    "2.20240201.00.00";
+  return { clientName: Number(name), clientVersion: ver };
+}
+
+function extractTranscriptParams(html) {
+  const m = html.match(/"getTranscriptEndpoint":\{"params":"([^"]+)"\}/);
+  return m ? m[1] : null;
+}
+
+/**
+ * Decode common HTML/XML entities found in captions.
+ */
 function decodeEntities(s) {
   if (!s) return "";
   return s
@@ -159,6 +195,9 @@ function decodeEntities(s) {
     .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)));
 }
 
+/**
+ * Parse transcript from JSON3 captions body.
+ */
 function parseJson3ToLines(body) {
   const trimmed = (body || "").trim();
   if (!trimmed.startsWith("{")) return [];
@@ -186,11 +225,16 @@ function parseJson3ToLines(body) {
 
     const start = (ev.tStartMs || 0) / 1000;
     const end = ((ev.tStartMs || 0) + (ev.dDurationMs || 0)) / 1000;
+
     lines.push({ start, end, text: txt });
   }
+
   return lines;
 }
 
+/**
+ * Parse transcript from XML captions body.
+ */
 function parseXmlToLines(xml) {
   const s = (xml || "").trim();
   if (!s || !s.startsWith("<")) return [];
@@ -215,14 +259,12 @@ function parseXmlToLines(xml) {
 
     lines.push({ start, end, text: txt });
   }
+
   return lines;
 }
 
 /**
  * Parse WebVTT captions into lines.
- * VTT example:
- * 00:00:01.000 --> 00:00:04.000
- * hello world
  */
 function parseVttToLines(vtt) {
   const s = (vtt || "").replace(/\r/g, "").trim();
@@ -232,9 +274,10 @@ function parseVttToLines(vtt) {
   const blocks = s.split("\n\n");
 
   function toSeconds(ts) {
-    // supports HH:MM:SS.mmm or MM:SS.mmm
     const parts = ts.split(":").map((p) => p.trim());
-    let h = 0, m = 0, sec = 0;
+    let h = 0,
+      m = 0,
+      sec = 0;
 
     if (parts.length === 3) {
       h = Number(parts[0]);
@@ -276,9 +319,105 @@ function parseVttToLines(vtt) {
   return lines;
 }
 
+/**
+ * NEW: Try to fetch transcript via YouTube Innertube API.
+ * This can sometimes work when timedtext (json3/xml/vtt) returns 0 bytes on Workers.
+ */
+async function fetchTranscriptViaInnertube(videoId, html) {
+  const apiKey = extractInnertubeKey(html);
+  const params = extractTranscriptParams(html);
+  const { clientName, clientVersion } = extractInnertubeClient(html);
+
+  if (!apiKey || !params) return [];
+
+  const endpoint = `https://www.youtube.com/youtubei/v1/get_transcript?key=${encodeURIComponent(
+    apiKey
+  )}`;
+
+  const watchUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`;
+
+  const payload = {
+    context: {
+      client: {
+        clientName,
+        clientVersion,
+        hl: "en",
+        gl: "US",
+      },
+    },
+    params,
+  };
+
+  const res = await fetch(endpoint, {
+    method: "POST",
+    headers: {
+      "content-type": "application/json",
+      "user-agent": "Mozilla/5.0 (compatible; minerlytics-yt/1.0)",
+      accept: "application/json",
+      "accept-language": "en-US,en;q=0.9",
+      origin: "https://www.youtube.com",
+      referer: watchUrl,
+      "accept-encoding": "identity",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+    },
+    body: JSON.stringify(payload),
+  });
+
+  const body = await res.text();
+  if (!res.ok || !body) return [];
+
+  let data;
+  try {
+    data = JSON.parse(body);
+  } catch {
+    return [];
+  }
+
+  const cueGroups =
+    data?.actions?.[0]?.updateEngagementPanelAction?.content?.transcriptRenderer
+      ?.body?.transcriptBodyRenderer?.cueGroups || [];
+
+  const lines = [];
+
+  for (const g of cueGroups) {
+    const cues = g?.transcriptCueGroupRenderer?.cues || [];
+    for (const c of cues) {
+      const cue = c?.transcriptCueRenderer;
+      const start = Number(cue?.startOffsetMs || 0) / 1000;
+      const dur = Number(cue?.durationMs || 0) / 1000;
+      const end = start + dur;
+
+      const runs = cue?.cue?.runs || [];
+      const txt = runs
+        .map((r) => r?.text || "")
+        .join("")
+        .replace(/\s+/g, " ")
+        .trim();
+
+      if (txt) lines.push({ start, end, text: txt });
+    }
+  }
+
+  return lines;
+}
+
+/**
+ * Fetch transcript lines from a public YouTube video.
+ * Strategy:
+ * 0) NEW: Innertube transcript API
+ * 1) Try fmt=json3
+ * 2) Fallback to XML
+ * 3) Fallback to fmt=vtt
+ */
 async function fetchTranscriptLines(videoId) {
   const watchUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`;
   const html = await fetchText(watchUrl);
+
+  // NEW: Innertube attempt first
+  const innertubeLines = await fetchTranscriptViaInnertube(videoId, html);
+  if (innertubeLines.length) return innertubeLines;
 
   const tracks = extractCaptionTracksSafe(html);
   if (!tracks.length) return [];
@@ -315,7 +454,7 @@ async function fetchTranscriptLines(videoId) {
   const xmlLines = parseXmlToLines(xmlBody);
   if (xmlLines.length) return xmlLines;
 
-  // VTT (NEW fallback)
+  // VTT
   const vttUrl = track.baseUrl.includes("fmt=")
     ? track.baseUrl.replace(/fmt=[^&]+/i, "fmt=vtt")
     : `${track.baseUrl}&fmt=vtt`;
@@ -410,7 +549,7 @@ async function runYoutubeMonthlyJob(env, limit = 1) {
             db,
             v.video_id,
             "NONE",
-            "Empty transcript: json3/xml/vtt all returned empty (YouTube gating likely)"
+            "Empty transcript: innertube + json3/xml/vtt returned empty (YouTube gating likely)"
           );
           continue;
         }
@@ -447,24 +586,17 @@ async function runYoutubeMonthlyJob(env, limit = 1) {
 
 /* =============================
    DEBUG ENDPOINT
-   - Shows captionTracks exist
-   - Fetches json3/xml/vtt and reports byte_len + heads
 ============================= */
 
 async function debugVideo(env, videoId) {
   const watchUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`;
   const html = await fetchText(watchUrl);
-  const tracks = extractCaptionTracksSafe(html);
 
+  const tracks = extractCaptionTracksSafe(html);
   const track =
     tracks.find((t) => String(t.languageCode || "").startsWith("en")) || tracks[0];
 
   const baseUrl = track?.baseUrl || null;
-
-  const commonHeaders = {
-    Referer: watchUrl,
-    Origin: "https://www.youtube.com",
-  };
 
   const json3Url =
     baseUrl
@@ -480,13 +612,32 @@ async function debugVideo(env, videoId) {
           : `${baseUrl}&fmt=vtt`)
       : null;
 
+  const innertube_key_present = !!extractInnertubeKey(html);
+  const innertube_params_present = !!extractTranscriptParams(html);
+
+  let innertube_try_len = null;
+  try {
+    const lines = await fetchTranscriptViaInnertube(videoId, html);
+    innertube_try_len = lines.length;
+  } catch {
+    innertube_try_len = "ERROR";
+  }
+
+  const commonHeaders = {
+    Referer: watchUrl,
+    Origin: "https://www.youtube.com",
+  };
+
   let json3 = null;
   let xml = null;
   let vtt = null;
 
   if (json3Url) {
     try {
-      json3 = await fetchBytes(json3Url, { Accept: "application/json,*/*", ...commonHeaders });
+      json3 = await fetchBytes(json3Url, {
+        Accept: "application/json,*/*",
+        ...commonHeaders,
+      });
     } catch (e) {
       json3 = { status: "FETCH_ERROR", byteLen: null, text: String(e?.message || e) };
     }
@@ -494,7 +645,10 @@ async function debugVideo(env, videoId) {
 
   if (baseUrl) {
     try {
-      xml = await fetchBytes(baseUrl, { Accept: "text/xml,*/*", ...commonHeaders });
+      xml = await fetchBytes(baseUrl, {
+        Accept: "text/xml,*/*",
+        ...commonHeaders,
+      });
     } catch (e) {
       xml = { status: "FETCH_ERROR", byteLen: null, text: String(e?.message || e) };
     }
@@ -502,7 +656,10 @@ async function debugVideo(env, videoId) {
 
   if (vttUrl) {
     try {
-      vtt = await fetchBytes(vttUrl, { Accept: "text/vtt,text/plain,*/*", ...commonHeaders });
+      vtt = await fetchBytes(vttUrl, {
+        Accept: "text/vtt,text/plain,*/*",
+        ...commonHeaders,
+      });
     } catch (e) {
       vtt = { status: "FETCH_ERROR", byteLen: null, text: String(e?.message || e) };
     }
@@ -518,6 +675,10 @@ async function debugVideo(env, videoId) {
     base_url_present: !!baseUrl,
     json3_url_present: !!json3Url,
     vtt_url_present: !!vttUrl,
+
+    innertube_key_present,
+    innertube_params_present,
+    innertube_lines_found: innertube_try_len,
 
     json3_status: json3?.status ?? null,
     json3_len: json3?.byteLen ?? null,
@@ -550,6 +711,8 @@ export default {
         return text("Minerlytics Worker running ✅");
       }
 
+      // Browser trigger for YouTube job
+      // Example: /api/yt/run-monthly?limit=1
       if (url.pathname === "/api/yt/run-monthly") {
         const limit = Math.min(
           Math.max(parseInt(url.searchParams.get("limit") || "1", 10), 1),
@@ -559,6 +722,8 @@ export default {
         return json(result);
       }
 
+      // Debug a specific video
+      // Example: /api/yt/debug?video_id=cUXL6Yf9c6I
       if (url.pathname === "/api/yt/debug") {
         const videoId = String(url.searchParams.get("video_id") || "").trim();
         if (!videoId) return json({ error: "missing video_id" }, 400);
@@ -576,11 +741,13 @@ export default {
   },
 
   async scheduled(event, env, ctx) {
+    // Daily cron (your existing job)
     if (event.cron === DAILY_CRON) {
       ctx.waitUntil(refreshNewsForAll(env));
       return;
     }
 
+    // Monthly cron (YouTube transcripts)
     if (event.cron === MONTHLY_YT_CRON) {
       ctx.waitUntil(runYoutubeMonthlyJob(env, 1));
       return;
