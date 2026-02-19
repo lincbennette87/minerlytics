@@ -14,9 +14,6 @@
   ],
 
   "triggers": {
-  "crons": [
-    "30 3 * * *",      // Daily (OHLCV)
-    "0 4 1 * *"        // Monthly (YouTube)
-  ]
+    "crons": ["30 3 * * *", "0 4 1 * *"]
+  }
 }
-
