@@ -5,8 +5,8 @@ import { googleRssUrl, parseRssItems } from "./rss.js";
 
 /**
  * CRON ROUTING
- * - Keep your existing daily cron (OHLCV/News): "30 3 * * *"
- * - Add a monthly cron (YouTube transcripts): "0 4 1 * *"
+ * - Daily cron (your OHLCV/news): "30 3 * * *"
+ * - Monthly cron (YouTube transcripts): "0 4 1 * *"
  *
  * Wrangler: "triggers": { "crons": ["30 3 * * *", "0 4 1 * *"] }
  */
@@ -26,12 +26,14 @@ function json(data, status = 200) {
     headers: { "content-type": "application/json; charset=utf-8", ...CORS },
   });
 }
+
 function text(data, status = 200) {
   return new Response(data, {
     status,
     headers: { "content-type": "text/plain; charset=utf-8", ...CORS },
   });
 }
+
 function options() {
   return new Response(null, { status: 204, headers: { ...CORS } });
 }
@@ -42,6 +44,7 @@ function normalizeSymbolToStooqUS(raw) {
   if (!symbol.endsWith(".us")) symbol += ".us";
   return symbol;
 }
+
 function symbolToTicker(symbol) {
   return String(symbol || "").replace(/\.us$/i, "").toUpperCase().trim();
 }
@@ -137,20 +140,13 @@ async function runAssistant(env, question, context) {
   if (!rawAnswer.toLowerCase().includes(DISCLAIMER)) {
     return rawAnswer.trim() + "\n\n🧾 **Disclaimer**\n" + DISCLAIMER;
   }
+
   return rawAnswer;
 }
 
 /* =========================
    YOUTUBE (MONTHLY) PIPELINE
    ========================= */
-
-/**
- * Expected tables:
- * - yt_channels(channel_id TEXT PK, channel_name TEXT, is_enabled INT, last_run_at TEXT, created_at TEXT)
- * - yt_videos has video_id, title, channel, published_at, url, fetched_at, symbol_tags
- *   plus recommended columns: transcript_status, transcript_lang, transcript_fetched_at, error, channel_id
- * - yt_chunks(video_id, chunk_index, start_sec, end_sec, text, created_at)
- */
 
 async function runYoutubeMonthlyJob(env, limitPerRun = 20) {
   const db = env.DB;
@@ -167,7 +163,7 @@ async function runYoutubeMonthlyJob(env, limitPerRun = 20) {
   let processed = 0;
 
   for (const ch of channels) {
-    // If you already have a separate channel-ingest job, call it here.
+    // If you later add an ingest step to populate yt_videos for a channel, call it here:
     // await ingestChannelVideos(env, ch.channel_id);
 
     const n = await processPendingTranscripts(env, ch.channel_id, Math.max(1, limitPerRun));
@@ -185,7 +181,6 @@ async function runYoutubeMonthlyJob(env, limitPerRun = 20) {
 async function processPendingTranscripts(env, channelId, limit) {
   const db = env.DB;
 
-  // Pull newest pending videos for this channel
   const { results: vids } = await db
     .prepare(
       `SELECT video_id, url, title
@@ -233,7 +228,7 @@ async function processPendingTranscripts(env, channelId, limit) {
 
       await setTranscriptStatus(db, v.video_id, "OK", null, "en");
       okCount++;
-      // Light throttling helps avoid being blocked
+
       await sleep(250);
     } catch (e) {
       await setTranscriptStatus(db, v.video_id, "ERROR", String(e?.message || e), null);
@@ -264,8 +259,6 @@ async function setTranscriptStatus(db, videoId, status, error, lang) {
  * 2) extract captionTracks
  * 3) download captions as JSON3 (fmt=srv3)
  * 4) convert to timestamped lines
- *
- * Note: Some videos legitimately have no captions/transcript.
  */
 async function fetchTranscriptLines(videoId) {
   const watchUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`;
@@ -279,8 +272,7 @@ async function fetchTranscriptLines(videoId) {
   if (!tracks?.length) return [];
 
   const track =
-    tracks.find((t) => String(t.languageCode || "").startsWith("en")) ||
-    tracks[0];
+    tracks.find((t) => String(t.languageCode || "").startsWith("en")) || tracks[0];
 
   const base = track.baseUrl;
   const captionUrl = base.includes("fmt=") ? base : `${base}&fmt=srv3`;
@@ -317,14 +309,18 @@ function extractCaptionTracks(html) {
 function json3ToLines(data) {
   const events = data?.events || [];
   const lines = [];
+
   for (const ev of events) {
     if (!ev?.segs?.length) continue;
     const text = ev.segs.map((s) => s.utf8 || "").join("").replace(/\s+/g, " ").trim();
     if (!text) continue;
+
     const start = (ev.tStartMs || 0) / 1000;
     const end = ((ev.tStartMs || 0) + (ev.dDurationMs || 0)) / 1000;
+
     lines.push({ start, end, text });
   }
+
   return lines;
 }
 
@@ -362,7 +358,7 @@ function sleep(ms) {
 }
 
 /* =========================
-   MAIN WORKER HANDLERS
+   WORKER HANDLERS
    ========================= */
 
 export default {
@@ -381,10 +377,13 @@ export default {
         return json({ ok: true, rows_in_daily_ohlcv: r && r.n ? r.n : 0 });
       }
 
-      // Manual trigger for YouTube monthly job (for testing)
-      if (url.pathname === "/api/yt/run-monthly" && request.method === "POST") {
-        const body = await request.json().catch(() => ({}));
-        const limit = Math.min(Math.max(parseInt(body.limit || "20", 10), 1), 100);
+      // ✅ Browser-friendly manual trigger (GET)
+      // Example: /api/yt/run-monthly?limit=5
+      if (url.pathname === "/api/yt/run-monthly" && request.method === "GET") {
+        const limit = Math.min(
+          Math.max(parseInt(url.searchParams.get("limit") || "5", 10), 1),
+          100
+        );
         const result = await runYoutubeMonthlyJob(env, limit);
         return json(result);
       }
@@ -416,7 +415,10 @@ export default {
         const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
         if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
 
-        const limit = Math.min(Math.max(parseInt(url.searchParams.get("limit") || "15", 10), 1), 100);
+        const limit = Math.min(
+          Math.max(parseInt(url.searchParams.get("limit") || "15", 10), 1),
+          100
+        );
 
         const summaryRow = await env.DB.prepare(
           "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
@@ -462,7 +464,9 @@ export default {
         const prevClose = prev ? Number(prev.close) : null;
         const chg = prevClose && Number.isFinite(prevClose) ? close - prevClose : null;
         const chgPct =
-          prevClose && Number.isFinite(prevClose) && prevClose !== 0 ? (chg / prevClose) * 100 : null;
+          prevClose && Number.isFinite(prevClose) && prevClose !== 0
+            ? (chg / prevClose) * 100
+            : null;
 
         const sentimentRow = await env.DB.prepare(
           "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
@@ -470,7 +474,6 @@ export default {
 
         const newsDetail = buildNewsDetailFromSummary(sentimentRow);
 
-        // (Later) you can also pull transcript chunks here by symbol_tags/channel_id
         const context = {
           symbol,
           ticker,
@@ -509,21 +512,20 @@ export default {
   async scheduled(event, env, ctx) {
     const cron = event.cron || "";
 
-    // DAILY (keep your existing behavior)
+    // DAILY (OHLCV/news)
     if (cron === DAILY_CRON) {
       console.log(`[CRON] Daily job: ${cron}`);
       ctx.waitUntil(refreshNewsForAll(env));
       return;
     }
 
-    // MONTHLY YOUTUBE
+    // MONTHLY (YouTube transcripts)
     if (cron === MONTHLY_YT_CRON) {
       console.log(`[CRON] Monthly YouTube job: ${cron}`);
       ctx.waitUntil(runYoutubeMonthlyJob(env, 20));
       return;
     }
 
-    // Fallback: if Cloudflare passes a slightly different string, don’t run the wrong job.
     console.log(`[CRON] Unknown cron '${cron}' — no job executed.`);
   },
 };
