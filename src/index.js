@@ -57,6 +57,7 @@ async function fetchText(url) {
         "Pragma": "no-cache",
       },
       cf: { cacheTtl: 300, cacheEverything: false },
+      redirect: "follow",
     });
 
     if (res.ok) return await res.text();
@@ -112,6 +113,8 @@ function extractCaptionTracksSafe(html) {
 /**
  * Fetch transcript lines from a public YouTube video.
  * Returns [] if none or blocked.
+ *
+ * NOTE: We use fmt=json3 (often more reliable than srv3).
  */
 async function fetchTranscriptLines(videoId) {
   const watchUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`;
@@ -127,12 +130,12 @@ async function fetchTranscriptLines(videoId) {
 
   const captionUrl = track.baseUrl.includes("fmt=")
     ? track.baseUrl
-    : `${track.baseUrl}&fmt=srv3`;
+    : `${track.baseUrl}&fmt=json3`;
 
   const body = await fetchText(captionUrl);
   const trimmed = (body || "").trim();
 
-  // Guard: srv3 is JSON; if we didn't get JSON, return []
+  // Guard: json3 is JSON; if we didn't get JSON, return []
   if (!trimmed.startsWith("{")) return [];
 
   let data;
@@ -247,7 +250,7 @@ async function runYoutubeMonthlyJob(env, limit = 1) {
             db,
             v.video_id,
             "NONE",
-            "No captionTracks or empty transcript (blocked or none)"
+            "No captionTracks or empty transcript (blocked, unavailable, or non-JSON caption response)"
           );
           continue;
         }
@@ -284,7 +287,9 @@ async function runYoutubeMonthlyJob(env, limit = 1) {
 }
 
 /* =============================
-   DEBUG ENDPOINT (STOP GUESSING)
+   DEBUG ENDPOINT
+   - Shows if captionTracks exist
+   - Also fetches the caption URL and reports status + body head
 ============================= */
 
 async function debugVideo(env, videoId) {
@@ -292,12 +297,48 @@ async function debugVideo(env, videoId) {
   const html = await fetchText(watchUrl);
   const tracks = extractCaptionTracksSafe(html);
 
+  const track =
+    tracks.find((t) => String(t.languageCode || "").startsWith("en")) || tracks[0];
+
+  const captionUrl =
+    track?.baseUrl
+      ? (track.baseUrl.includes("fmt=") ? track.baseUrl : `${track.baseUrl}&fmt=json3`)
+      : null;
+
+  let captionStatus = null;
+  let captionHead = null;
+
+  if (captionUrl) {
+    try {
+      const res = await fetch(captionUrl, {
+        headers: {
+          "User-Agent": "Mozilla/5.0 (compatible; minerlytics-yt/1.0)",
+          "Accept-Language": "en-US,en;q=0.9",
+          "Accept": "*/*",
+          "Cache-Control": "no-cache",
+          "Pragma": "no-cache",
+        },
+        redirect: "follow",
+      });
+
+      captionStatus = res.status;
+      const body = await res.text();
+      captionHead = (body || "").slice(0, 260);
+    } catch (e) {
+      captionStatus = "FETCH_ERROR";
+      captionHead = String(e?.message || e);
+    }
+  }
+
   return {
     videoId,
     html_len: html?.length || 0,
     tracks_found: tracks.length,
     languages: tracks.map((t) => t.languageCode).slice(0, 12),
     has_baseUrl: tracks.some((t) => !!t.baseUrl),
+    caption_url_present: !!captionUrl,
+    caption_status: captionStatus,
+    caption_body_head: captionHead,
     html_head: (html || "").slice(0, 200),
   };
 }
@@ -325,7 +366,7 @@ export default {
         return json(result);
       }
 
-      // Debug a specific video to see if captionTracks exist in the HTML we receive
+      // Debug a specific video
       // Example: /api/yt/debug?video_id=2yr-KAO3XWw
       if (url.pathname === "/api/yt/debug") {
         const videoId = String(url.searchParams.get("video_id") || "").trim();
@@ -344,13 +385,13 @@ export default {
   },
 
   async scheduled(event, env, ctx) {
-    // Keep your daily OHLCV/news cron behavior (whatever refreshNewsForAll does)
+    // Daily cron (your existing job)
     if (event.cron === DAILY_CRON) {
       ctx.waitUntil(refreshNewsForAll(env));
       return;
     }
 
-    // Monthly YouTube transcripts
+    // Monthly cron (YouTube transcripts)
     if (event.cron === MONTHLY_YT_CRON) {
       ctx.waitUntil(runYoutubeMonthlyJob(env, 1));
       return;
