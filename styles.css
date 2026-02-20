@@ -529,3 +529,268 @@ body.disclaimer-active > *:not(.disclaimerOverlay){
   from{opacity:0; transform:translateY(10px)}
   to{opacity:1; transform:translateY(0)}
 }
+
+/* =========================
+   Intel Block (Spotlight + Pulse Matrix)
+   ========================= */
+
+.intelBlock{
+  margin-top: 14px;
+  display: grid;
+  gap: 12px;
+}
+
+/* --- AI Insight Spotlight --- */
+.spotlight{
+  position: relative;
+  border-radius: var(--r2);
+  padding: 14px 14px 12px;
+  background: linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.02));
+  border: 1px solid var(--line);
+  backdrop-filter: blur(12px);
+  overflow: hidden;
+  box-shadow: 0 18px 60px rgba(0,0,0,.28);
+}
+
+.spotlight::before{
+  content:"";
+  position:absolute;
+  inset:-50%;
+  background:
+    radial-gradient(520px 320px at 18% 20%, rgba(124,92,255,.24), transparent 60%),
+    radial-gradient(520px 320px at 78% 65%, rgba(57,230,200,.18), transparent 62%),
+    radial-gradient(420px 280px at 88% 20%, rgba(255,204,102,.10), transparent 70%);
+  filter: blur(18px);
+  opacity: .95;
+  pointer-events:none;
+}
+
+.spotlightTop{
+  position: relative;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 12px;
+}
+
+.spotlightTitle{
+  display:flex;
+  align-items:center;
+  gap: 10px;
+  font-weight: 750;
+  letter-spacing: .02em;
+}
+
+.spotDot{
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--accent2);
+  box-shadow: 0 0 16px rgba(57,230,200,.45);
+}
+
+.spotlightMeta{
+  font-size: 12px;
+  opacity: .78;
+  color: rgba(234,240,255,.72);
+  white-space: nowrap;
+}
+
+.spotlightBody{
+  position: relative;
+  margin-top: 10px;
+  display: grid;
+  gap: 10px;
+}
+
+.spotlightText{
+  font-size: 15px;
+  line-height: 1.38;
+  color: rgba(234,240,255,.92);
+  max-width: 980px;
+}
+
+.spotlightTags{
+  display:flex;
+  flex-wrap:wrap;
+  gap: 8px;
+}
+
+.spotTag{
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.10);
+  background: rgba(0,0,0,.12);
+  color: rgba(234,240,255,.84);
+}
+
+.spotTag:nth-child(1){ border-color: rgba(255,204,102,.22); background: rgba(255,204,102,.07); }
+.spotTag:nth-child(2){ border-color: rgba(124,92,255,.22); background: rgba(124,92,255,.08); }
+.spotTag:nth-child(3){ border-color: rgba(57,230,200,.22); background: rgba(57,230,200,.07); }
+
+.spotlight.glint::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: linear-gradient(120deg, transparent 0%, rgba(255,255,255,.14) 45%, transparent 70%);
+  transform: translateX(-120%);
+  animation: glint 850ms ease-out;
+  pointer-events:none;
+}
+
+@keyframes glint{
+  to{ transform: translateX(120%); }
+}
+
+/* --- Momentum Pulse Matrix --- */
+.pulsePanel{
+  border-radius: var(--r2);
+  padding: 14px;
+  background: rgba(14,22,48,.45);
+  border: 1px solid var(--line);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 16px 50px rgba(0,0,0,.24);
+}
+
+.pulseHeader{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.pulseHeaderLeft{ display:flex; flex-direction:column; gap:2px; }
+
+.pulseTitle{
+  font-weight: 800;
+  letter-spacing: .02em;
+}
+
+.pulseSub{
+  font-size: 12px;
+  color: rgba(234,240,255,.65);
+}
+
+.pulseGrid{
+  display:grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+}
+
+@media (max-width: 980px){
+  .pulseGrid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* Tile */
+.pulseTile{
+  --glow: .18;
+  position: relative;
+  border-radius: 16px;
+  padding: 12px;
+  overflow:hidden;
+  border: 1px solid rgba(255,255,255,.10);
+  background: rgba(7,10,18,.28);
+  transition: transform 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+}
+
+.pulseTile:hover{
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,.18);
+  box-shadow: 0 18px 50px rgba(0,0,0,.28);
+}
+
+.pulseTile::before{
+  content:"";
+  position:absolute;
+  inset:-40%;
+  background:
+    radial-gradient(420px 260px at 18% 20%, rgba(124,92,255,var(--glow)), transparent 60%),
+    radial-gradient(420px 260px at 70% 70%, rgba(57,230,200, calc(var(--glow) - .05)), transparent 65%);
+  filter: blur(18px);
+  opacity: .95;
+  pointer-events:none;
+}
+
+.pulseTile > *{ position: relative; }
+
+.pulseTopRow{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap: 10px;
+}
+
+.pulseTicker{
+  font-weight: 900;
+  letter-spacing: .10em;
+  font-size: 13px;
+}
+
+.pulsePrice{
+  font-size: 12px;
+  opacity: .85;
+  font-variant-numeric: tabular-nums;
+}
+
+.pulseMidRow{
+  margin-top: 8px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 8px;
+}
+
+.pulseMetric{
+  font-size: 12px;
+  color: rgba(234,240,255,.78);
+}
+
+.pulseMetric strong{
+  font-weight: 850;
+  color: rgba(234,240,255,.95);
+}
+
+/* Optional "delta" pill if you add it later in JS */
+.pulseDelta{
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.10);
+  background: rgba(255,255,255,.05);
+}
+
+/* Volume pulse highlight */
+.pulseTile.pulseOn::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius: 16px;
+  border: 1px solid rgba(57,230,200,.30);
+  animation: pulseRing 1.35s ease-in-out infinite;
+  pointer-events:none;
+}
+
+@keyframes pulseRing{
+  0%{ opacity:.12; }
+  50%{ opacity:.82; }
+  100%{ opacity:.12; }
+}
+
+/* Sparkline canvas */
+.spark{
+  margin-top: 10px;
+  height: 34px;
+  width: 100%;
+  display:block;
+  border-radius: 12px;
+  background: rgba(255,255,255,.03);
+  border: 1px solid rgba(255,255,255,.06);
+}
+
+/* Slightly reduce layout density on small screens */
+@media (max-width: 760px){
+  .intelBlock{ gap: 10px; }
+  .spotlightText{ font-size: 14px; }
+}
