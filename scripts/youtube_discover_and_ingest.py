@@ -156,6 +156,8 @@ def main():
     print("total_skipped_seen:", total_skipped_seen)
     print("total_ingested:", total_ingested)
     print("total_failed:", total_failed)
+    if total_ingested == 0:
+        raise SystemExit("No videos ingested (check errors above).")
 
 
 if __name__ == "__main__":
