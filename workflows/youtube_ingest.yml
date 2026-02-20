@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: pip install youtube-transcript-api requests
+      - run: pip install -U "youtube-transcript-api>=0.6.2" requests
 
       - env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
