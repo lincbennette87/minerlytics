@@ -1,5 +1,8 @@
 import os, json, time, requests
 from youtube_transcript_api import YouTubeTranscriptApi
+import youtube_transcript_api
+print("youtube_transcript_api loaded from:", youtube_transcript_api.__file__)
+print("youtube_transcript_api version:", getattr(youtube_transcript_api, "__version__", "unknown"))
 
 YT_KEY = os.environ["YOUTUBE_API_KEY"]
 WORKER_INGEST_URL = os.environ["WORKER_INGEST_URL"]   # https://.../api/ingest/youtube
