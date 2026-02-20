@@ -54,8 +54,22 @@ def worker_seen(video_id):
 
 
 def ingest(video_id, title, channel, published_at, symbol):
-    # Transcript fetch (often the #1 failure point)
-    segs = YouTubeTranscriptApi.get_transcript(video_id)
+    segments = []
+
+    try:
+        segs = YouTubeTranscriptApi.get_transcript(video_id)
+        segments = [
+            {
+                "start": s["start"],
+                "duration": s.get("duration", 0),
+                "text": s["text"]
+            }
+            for s in segs
+        ]
+        print("TRANSCRIPT_OK:", video_id)
+
+    except Exception as e:
+        print("NO_TRANSCRIPT:", video_id, str(e))
 
     payload = {
         "video_id": video_id,
@@ -64,18 +78,24 @@ def ingest(video_id, title, channel, published_at, symbol):
         "published_at": published_at or "",
         "url": f"https://www.youtube.com/watch?v={video_id}",
         "symbol_tags": [symbol],
-        "segments": [
-            {"start": s["start"], "duration": s.get("duration", 0), "text": s["text"]}
-            for s in segs
-        ],
+        "segments": segments  # may be empty
     }
 
     r = requests.post(
         WORKER_INGEST_URL,
-        headers={"content-type": "application/json", "x-api-key": WORKER_API_KEY},
+        headers={
+            "content-type": "application/json",
+            "x-api-key": WORKER_API_KEY
+        },
         data=json.dumps(payload),
-        timeout=60,
+        timeout=60
     )
+
+    if r.status_code != 200:
+        print("WORKER_ERROR:", r.status_code, r.text)
+
+    r.raise_for_status()
+    print("INGEST_OK:", symbol, video_id)
 
     # If worker rejects / errors, print it (previously this was silent)
     if r.status_code != 200:
