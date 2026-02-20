@@ -25,7 +25,7 @@
 
     <div class="navRight">
       <div class="navSearch">
-        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="16" height="16">
           <path fill="currentColor" d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
         </svg>
         <input id="globalSearch" type="search" placeholder="Search tickers, commodities, companies, and more…" />
@@ -36,17 +36,16 @@
     </div>
   </header>
 
-  <!-- Hero -->
   <main class="shell" id="home">
 
-    <!-- News bar moved above hero -->
+    <!-- News bar -->
     <section class="bottomBar">
       <div class="bottomLeft">
         <span class="dot"></span>
         <span class="bottomLabel">Trending</span>
       </div>
 
-      <div class="ticker" aria-label="Scrolling news ticker">
+      <div class="ticker">
         <div class="tickerTrack" id="tickerTrack"></div>
       </div>
 
@@ -60,9 +59,10 @@
           Track the forces that move mining markets — momentum, sentiment, interviews, news, and project milestones.
         </p>
 
+        <!-- Hero Search -->
         <div class="heroSearch">
           <div class="heroSearchBox">
-            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="18" height="18">
               <path fill="currentColor" d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
             </svg>
             <input id="heroSearch" type="search" placeholder="Search stocks, commodities, and more…" />
@@ -70,49 +70,114 @@
           </div>
         </div>
 
-        <!-- “Trending now” row -->
-        <div class="sectionTitleRow">
-          <span class="sectionTitle">Trending Now on Minerlytics</span>
-        </div>
+        <!-- ===== NEW ADDITION STARTS HERE ===== -->
 
-        <div class="trendRow" id="trendRow">
-          <!-- filled by app.js -->
-        </div>
+        <section class="intelBlock">
 
-        <!-- Feature tiles -->
-        <div class="tileGrid">
-          <a class="tile" href="#trends">
-            <div class="tileIcon" aria-hidden="true">⚡</div>
-            <div>
-              <div class="tileTitle">Momentum</div>
-              <div class="tileMeta">Top movers, 1D / 7D / 6M / 1Y</div>
+          <!-- AI Insight Spotlight -->
+          <div class="spotlight" id="spotlight">
+            <div class="spotlightTop">
+              <div class="spotlightTitle">
+                <span class="spotDot"></span>
+                <span>AI Insight Spotlight</span>
+              </div>
+              <div class="spotlightMeta" id="spotlightMeta"></div>
             </div>
-            <span class="tileCta">See Dashboard →</span>
-          </a>
 
-          <a class="tile" href="#analysis">
-            <div class="tileIcon" aria-hidden="true">🧠</div>
-            <div>
-              <div class="tileTitle">Conversational AI</div>
-              <div class="tileMeta">Ask about sentiment, drills, permits</div>
+            <div class="spotlightBody">
+              <div class="spotlightText" id="spotlightText">
+                Gold miners show a momentum-led bid even as spot consolidates — mid-tier names are outpacing majors on volume confirmation.
+              </div>
+              <div class="spotlightTags" id="spotlightTags">
+                <span class="spotTag">Gold</span>
+                <span class="spotTag">Momentum</span>
+                <span class="spotTag">Volume</span>
+              </div>
             </div>
-            <span class="tileCta">Open →</span>
-          </a>
+          </div>
 
-          <a class="tile" href="#company">
-            <div class="tileIcon" aria-hidden="true">⛏️</div>
-            <div>
-              <div class="tileTitle">Company Profiles</div>
-              <div class="tileMeta">Leadership, mines, timelines, regs</div>
+          <!-- Momentum Pulse Matrix -->
+          <div class="pulsePanel">
+            <div class="pulseHeader">
+              <div>
+                <div class="pulseTitle">Momentum Pulse Matrix</div>
+                <div class="pulseSub">Top 5 leaders by 30D momentum + volume signal</div>
+              </div>
+              <button class="btn btnGhost btnTight" id="refreshPulse" type="button">
+                Refresh
+              </button>
             </div>
-            <span class="tileCta">Explore →</span>
-          </a>
-        </div>
 
-        <!-- Mini quote cards -->
-        <div class="quoteRow" id="quoteRow">
-          <!-- filled by app.js -->
-        </div>
+            <div class="pulseGrid" id="pulseGrid">
+              <!-- Sample Tiles (temporary static layout) -->
+
+              <div class="pulseTile">
+                <div class="pulseTopRow">
+                  <div class="pulseTicker">AEM</div>
+                  <div class="pulsePrice">$54.21</div>
+                </div>
+                <div class="pulseMidRow">
+                  <div class="pulseMetric">30D <strong>+14.3%</strong></div>
+                  <div class="pulseMetric">Vol <strong>+32%</strong></div>
+                </div>
+                <canvas class="spark"></canvas>
+              </div>
+
+              <div class="pulseTile">
+                <div class="pulseTopRow">
+                  <div class="pulseTicker">WPM</div>
+                  <div class="pulsePrice">$45.88</div>
+                </div>
+                <div class="pulseMidRow">
+                  <div class="pulseMetric">30D <strong>+11.2%</strong></div>
+                  <div class="pulseMetric">Vol <strong>+10%</strong></div>
+                </div>
+                <canvas class="spark"></canvas>
+              </div>
+
+              <div class="pulseTile">
+                <div class="pulseTopRow">
+                  <div class="pulseTicker">CDE</div>
+                  <div class="pulsePrice">$3.14</div>
+                </div>
+                <div class="pulseMidRow">
+                  <div class="pulseMetric">30D <strong>+9.6%</strong></div>
+                  <div class="pulseMetric">Vol <strong>+28%</strong></div>
+                </div>
+                <canvas class="spark"></canvas>
+              </div>
+
+              <div class="pulseTile">
+                <div class="pulseTopRow">
+                  <div class="pulseTicker">HL</div>
+                  <div class="pulsePrice">$4.62</div>
+                </div>
+                <div class="pulseMidRow">
+                  <div class="pulseMetric">30D <strong>+8.1%</strong></div>
+                  <div class="pulseMetric">Vol <strong>+18%</strong></div>
+                </div>
+                <canvas class="spark"></canvas>
+              </div>
+
+              <div class="pulseTile">
+                <div class="pulseTopRow">
+                  <div class="pulseTicker">HYMC</div>
+                  <div class="pulsePrice">$2.11</div>
+                </div>
+                <div class="pulseMidRow">
+                  <div class="pulseMetric">30D <strong>+7.4%</strong></div>
+                  <div class="pulseMetric">Vol <strong>+41%</strong></div>
+                </div>
+                <canvas class="spark"></canvas>
+              </div>
+
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ===== NEW ADDITION ENDS HERE ===== -->
+
       </div>
 
       <div class="heroRight">
@@ -120,283 +185,18 @@
           <div class="artGrid"></div>
           <div class="artGlow"></div>
 
-          <!-- ✅ Chat-style AI Assistant -->
           <div class="aiHud">
             <div class="aiTop">
               <div class="aiTitle">Minerlytics AI Assistant</div>
               <div class="aiSub">Grounded on D1 (daily_ohlcv)</div>
             </div>
-
-            <div class="aiControls">
-              <input id="aiSymbol" type="text" placeholder="Ticker (HYMC, AEM, CDE...)" />
-              <button id="aiClear" class="btn btnGhost btnTight" type="button">Clear</button>
-            </div>
-
-            <div class="aiChat" id="aiChat" aria-label="AI chat transcript"></div>
-
-            <div class="aiComposer">
-              <textarea id="aiQuestion" rows="2" placeholder="Ask a question… (Enter to send, Shift+Enter for new line)"></textarea>
-              <button id="aiRun" class="btn btnPrimary btnTight" type="button">Send</button>
-            </div>
-
-            <div class="aiQuickRow">
-              <button class="pillBtn" type="button" data-t="HYMC">HYMC</button>
-              <button class="pillBtn" type="button" data-t="AEM">AEM</button>
-              <button class="pillBtn" type="button" data-t="CDE">CDE</button>
-              <button class="pillBtn" type="button" data-t="WPM">WPM</button>
-            </div>
+            <div class="aiChat" id="aiChat"></div>
           </div>
+
         </div>
       </div>
     </section>
   </main>
-
-  <!-- Minerlytics AI Disclaimer Modal -->
-  <div id="aiDisclaimerOverlay" class="disclaimerOverlay" role="dialog" aria-modal="true" aria-labelledby="aiDiscTitle">
-    <div class="disclaimerModal">
-      <h2 id="aiDiscTitle">Important Notice — Minerlytics AI Assistant</h2>
-
-      <div class="disclaimerBody">
-        <p>
-          This information is provided for research and informational purposes only and should not be construed as
-          investment advice, a recommendation, or an offer to buy or sell any financial instrument.
-        </p>
-        <p>
-          The provider disclaims any liability for investment outcomes based on this information.
-        </p>
-        <p>
-          Users are advised to seek independent professional advice for investment decisions.
-        </p>
-      </div>
-
-      <div class="disclaimerActions">
-        <button id="aiDecline" class="btn btnGhost" type="button">Decline</button>
-        <button id="aiAccept" class="btn btnPrimary" type="button">I Understand</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- ✅ Chat-enabled AI script -->
-  <script>
-  (function () {
-    const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
-
-    const chatEl   = document.getElementById("aiChat");
-    const symEl    = document.getElementById("aiSymbol");
-    const qEl      = document.getElementById("aiQuestion");
-    const sendBtn  = document.getElementById("aiRun");
-    const clearBtn = document.getElementById("aiClear");
-
-    // Disclaimer elements
-    const overlay  = document.getElementById("aiDisclaimerOverlay");
-    const acceptBtn = document.getElementById("aiAccept");
-    const declineBtn = document.getElementById("aiDecline");
-    const aiHud = document.querySelector(".aiHud");
-    const KEY = "minerlytics_ai_disclaimer_accepted";
-
-    let messages = [];
-
-    function esc(s){
-      return String(s ?? "")
-        .replaceAll("&","&amp;")
-        .replaceAll("<","&lt;")
-        .replaceAll(">","&gt;")
-        .replaceAll('"',"&quot;")
-        .replaceAll("'","&#039;");
-    }
-
-    function isAccepted(){ return localStorage.getItem(KEY) === "true"; }
-
-    function showOverlay(){
-      if (isAccepted()) return true;
-      overlay.style.display = "flex";
-      document.body.classList.add("disclaimer-active");
-      return false;
-    }
-
-    function hideOverlay(){
-      overlay.style.display = "none";
-      document.body.classList.remove("disclaimer-active");
-    }
-
-    function disableAI(){
-      if(!aiHud) return;
-      aiHud.style.pointerEvents = "none";
-      aiHud.style.opacity = ".45";
-    }
-
-    // Start overlay hidden
-    hideOverlay();
-
-    // Show disclaimer when user tries to use AI
-    if(aiHud){
-      aiHud.addEventListener("pointerdown", ()=> showOverlay(), { capture:true });
-      aiHud.addEventListener("focusin", ()=> showOverlay(), { capture:true });
-    }
-
-    if(acceptBtn){
-      acceptBtn.addEventListener("click", function(){
-        localStorage.setItem(KEY, "true");
-        hideOverlay();
-      });
-    }
-    if(declineBtn){
-      declineBtn.addEventListener("click", function(){
-        hideOverlay();
-        disableAI();
-      });
-    }
-
-    function scrollToBottom(){
-      chatEl.scrollTop = chatEl.scrollHeight;
-    }
-
-    function render(){
-      chatEl.innerHTML = "";
-
-      if(messages.filter(m => m.role !== "system").length === 0){
-        chatEl.innerHTML = `
-          <div class="aiTyping">
-            Start a chat. Try: “summarize last 10 days” or “what changed vs last week?”
-          </div>
-        `;
-        return;
-      }
-
-      for(const m of messages){
-        if(m.role === "system") continue;
-
-        const who = m.role === "user" ? "user" : "assistant";
-        const label = m.role === "user" ? "You" : "Minerlytics AI";
-
-        const node = document.createElement("div");
-        node.className = `aiMsg ${who}`;
-        node.innerHTML = `
-          <div>
-            <div class="aiBubble">${esc(m.content)}</div>
-            <div class="aiMeta">${esc(label)}</div>
-          </div>
-        `;
-        chatEl.appendChild(node);
-      }
-      scrollToBottom();
-    }
-
-    function pushSystemPrimer(symbol){
-      messages = messages.filter(m => m.role !== "system");
-      messages.unshift({
-        role: "system",
-        content:
-          `You are Minerlytics AI Assistant. Answer using only stored OHLCV for the given symbol from D1 (daily_ohlcv). ` +
-          `If asked for news/fundamentals/social, say it's not available in this dataset. Current symbol: ${symbol}.`
-      });
-    }
-
-    function typingOn(){
-      const node = document.createElement("div");
-      node.id = "aiTyping";
-      node.className = "aiTyping";
-      node.textContent = "Thinking…";
-      chatEl.appendChild(node);
-      scrollToBottom();
-    }
-
-    function typingOff(){
-      const node = document.getElementById("aiTyping");
-      if(node) node.remove();
-    }
-
-    async function send(){
-      // Hard gate: must accept disclaimer first
-      if (!isAccepted()){
-        showOverlay();
-        return;
-      }
-
-      const symbol = (symEl.value || "").trim().toUpperCase();
-      const question = (qEl.value || "").trim();
-
-      if(!symbol){
-        messages.push({ role:"assistant", content:"Enter a ticker first (e.g., HYMC)." });
-        render();
-        return;
-      }
-
-      if(!question){
-        messages.push({ role:"assistant", content:"Type a question to send." });
-        render();
-        return;
-      }
-
-      pushSystemPrimer(symbol);
-      messages.push({ role:"user", content: question });
-
-      qEl.value = "";
-      render();
-      typingOn();
-
-      const MAX_TURNS = 16;
-      const context = messages.slice(-MAX_TURNS);
-
-      let res;
-      try{
-        res = await fetch(API_BASE + "/api/assistant", {
-          method: "POST",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify({ symbol, question, messages: context })
-        });
-      } catch (e){
-        typingOff();
-        messages.push({ role:"assistant", content:`Network error: ${String(e?.message || e)}` });
-        render();
-        return;
-      }
-
-      if(!res.ok){
-        const txt = await res.text().catch(()=> "");
-        typingOff();
-        messages.push({ role:"assistant", content: (txt || `Request failed: ${res.status}`) });
-        render();
-        return;
-      }
-
-      const data = await res.json().catch(()=> null);
-      const answer = data?.answer ? String(data.answer) : "No answer returned.";
-      typingOff();
-      messages.push({ role:"assistant", content: answer });
-      render();
-    }
-
-    function clearChat(){
-      messages = [];
-      render();
-    }
-
-    sendBtn.addEventListener("click", send);
-    clearBtn.addEventListener("click", clearChat);
-
-    qEl.addEventListener("keydown", (e)=>{
-      if(e.key === "Enter" && !e.shiftKey){
-        e.preventDefault();
-        send();
-      }
-    });
-
-    document.addEventListener("click", (e)=>{
-      const btn = e.target.closest(".pillBtn");
-      if(!btn) return;
-      const t = btn.getAttribute("data-t");
-      if(t){
-        symEl.value = t;
-        clearChat();
-        messages.push({ role:"assistant", content:`Set ticker to ${t}. Ask your first question.` });
-        render();
-      }
-    });
-
-    render();
-  })();
-  </script>
 
   <script src="./app.js"></script>
 </body>
