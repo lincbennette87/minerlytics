@@ -75,6 +75,116 @@
           <span class="sectionTitle">Trending Now on Minerlytics</span>
         </div>
 
+        <section class="trendChart" aria-label="Top 5 tickers line chart">
+  <div class="trendChartHead">
+    <div class="trendChartTitle">Top 5 Tickers — 6M Trend</div>
+    <div class="trendChartMeta">
+      Window: <span id="trendWindowLabel">30D</span>
+    </div>
+  </div>
+
+  <div class="trendChartCanvasWrap">
+    <canvas id="top5LineChart" class="trendChartCanvas"></canvas>
+  </div>
+
+  <div class="trendChartControls">
+    <input
+      id="trendWindow"
+      type="range"
+      min="30"
+      max="180"
+      step="10"
+      value="30"
+      aria-label="Select window in days"
+    />
+    <div class="trendChartTicks">
+      <span>30D</span><span>60D</span><span>90D</span><span>120D</span><span>150D</span><span>180D</span>
+    </div>
+  </div>
+
+  <div class="trendChartLegend" id="trendLegend"></div>
+
+  <!-- Minimal styles for this block only (doesn't touch your existing CSS) -->
+  <style>
+    .trendChart{
+      margin-top: 10px;
+      border: 1px solid var(--line);
+      background: rgba(11,19,42,.40);
+      border-radius: 18px;
+      padding: 12px;
+      box-shadow: 0 16px 50px rgba(0,0,0,.18);
+      overflow: hidden;
+    }
+    .trendChartHead{
+      display:flex;
+      align-items:baseline;
+      justify-content:space-between;
+      gap:12px;
+      margin-bottom: 10px;
+    }
+    .trendChartTitle{
+      font-weight: 800;
+      letter-spacing: .02em;
+      font-size: 13px;
+    }
+    .trendChartMeta{
+      font-size: 12px;
+      color: rgba(234,240,255,.70);
+      white-space: nowrap;
+    }
+    .trendChartCanvasWrap{
+      border: 1px solid rgba(255,255,255,.08);
+      background: rgba(0,0,0,.10);
+      border-radius: 14px;
+      padding: 10px;
+    }
+    .trendChartCanvas{
+      width: 100%;
+      height: 150px;
+      display:block;
+    }
+    .trendChartControls{
+      margin-top: 10px;
+      display:grid;
+      gap: 6px;
+    }
+    .trendChartControls input[type="range"]{
+      width: 100%;
+      accent-color: var(--accent);
+    }
+    .trendChartTicks{
+      display:flex;
+      justify-content:space-between;
+      font-size: 11px;
+      color: rgba(234,240,255,.55);
+    }
+    .trendChartLegend{
+      margin-top: 10px;
+      display:flex;
+      flex-wrap:wrap;
+      gap: 8px;
+    }
+    .trendLegendItem{
+      display:flex;
+      align-items:center;
+      gap: 8px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.10);
+      background: rgba(255,255,255,.03);
+      font-size: 12px;
+      color: rgba(234,240,255,.82);
+    }
+    .trendLegendSwatch{
+      width: 10px;
+      height: 10px;
+      border-radius: 4px;
+      background: var(--accent2);
+      box-shadow: 0 0 14px rgba(57,230,200,.25);
+    }
+  </style>
+</section>
+
         <div class="trendRow" id="trendRow">
           <!-- filled by app.js -->
         </div>
@@ -399,5 +509,142 @@
   </script>
 
   <script src="./app.js"></script>
+  <script>
+(function(){
+  const canvas = document.getElementById("top5LineChart");
+  const slider = document.getElementById("trendWindow");
+  const label  = document.getElementById("trendWindowLabel");
+  const legend = document.getElementById("trendLegend");
+  if(!canvas || !slider || !label || !legend) return;
+
+  // Sample “Top 5” tickers (swap later with your computed momentum list)
+  const tickers = ["AEM","WPM","NEM","CDE","HYMC"];
+
+  // Create 180 days of random-walk close prices per ticker
+  const DAYS = 180;
+  const series = tickers.map((t, idx) => {
+    const base = 10 + idx * 8 + Math.random() * 8;
+    const arr = [];
+    let v = base;
+    for(let i=0;i<DAYS;i++){
+      // random walk with slight drift
+      const drift = (Math.random() - 0.48) * 0.6;
+      v = Math.max(0.5, v + drift);
+      arr.push(v);
+    }
+    return { t, closes: arr };
+  });
+
+  function resizeCanvas(){
+    const dpr = window.devicePixelRatio || 1;
+    const rect = canvas.getBoundingClientRect();
+    canvas.width  = Math.max(1, Math.floor(rect.width * dpr));
+    canvas.height = Math.max(1, Math.floor(rect.height * dpr));
+  }
+
+  function draw(windowDays){
+    resizeCanvas();
+    const ctx = canvas.getContext("2d");
+    const w = canvas.width;
+    const h = canvas.height;
+
+    ctx.clearRect(0,0,w,h);
+
+    // Plot area
+    const dpr = window.devicePixelRatio || 1;
+    const padL = 12*dpr, padR = 10*dpr, padT = 10*dpr, padB = 14*dpr;
+    const pw = w - padL - padR;
+    const ph = h - padT - padB;
+
+    // Slice last N days
+    const start = Math.max(0, DAYS - windowDays);
+    const sliced = series.map(s => ({ t:s.t, closes: s.closes.slice(start) }));
+
+    // global min/max for scaling
+    let mn = Infinity, mx = -Infinity;
+    for(const s of sliced){
+      for(const v of s.closes){
+        if(v < mn) mn = v;
+        if(v > mx) mx = v;
+      }
+    }
+    if(!isFinite(mn) || !isFinite(mx) || mn === mx){
+      mn = 0; mx = 1;
+    }
+    const span = mx - mn;
+
+    // grid lines
+    ctx.save();
+    ctx.strokeStyle = "rgba(255,255,255,0.06)";
+    ctx.lineWidth = 1*dpr;
+    for(let i=0;i<=4;i++){
+      const y = padT + (ph*i/4);
+      ctx.beginPath();
+      ctx.moveTo(padL, y);
+      ctx.lineTo(padL+pw, y);
+      ctx.stroke();
+    }
+    ctx.restore();
+
+    // Color palette derived from your theme but distinct
+    const colors = [
+      "rgba(57,230,200,0.95)",     // accent2
+      "rgba(124,92,255,0.95)",     // accent
+      "rgba(255,204,102,0.95)",    // warn
+      "rgba(234,240,255,0.80)",    // text-ish
+      "rgba(255,107,139,0.85)"     // pink-ish
+    ];
+
+    // Draw lines
+    sliced.forEach((s, i) => {
+      const arr = s.closes;
+      ctx.save();
+      ctx.strokeStyle = colors[i % colors.length];
+      ctx.lineWidth = 2*dpr;
+      ctx.beginPath();
+      arr.forEach((v, idx) => {
+        const x = padL + (idx * pw) / (arr.length - 1 || 1);
+        const y = padT + (1 - (v - mn) / span) * ph;
+        if(idx === 0) ctx.moveTo(x,y);
+        else ctx.lineTo(x,y);
+      });
+      ctx.stroke();
+
+      // glow pass
+      ctx.globalAlpha = 0.25;
+      ctx.lineWidth = 6*dpr;
+      ctx.stroke();
+      ctx.restore();
+    });
+
+    // Legend
+    legend.innerHTML = "";
+    tickers.forEach((t, i) => {
+      const item = document.createElement("div");
+      item.className = "trendLegendItem";
+      const sw = document.createElement("span");
+      sw.className = "trendLegendSwatch";
+      sw.style.background = colors[i % colors.length];
+      sw.style.boxShadow = `0 0 14px ${colors[i % colors.length].replace("0.95","0.20")}`;
+      const txt = document.createElement("span");
+      txt.textContent = t;
+      item.appendChild(sw);
+      item.appendChild(txt);
+      legend.appendChild(item);
+    });
+  }
+
+  function onSlider(){
+    const days = Number(slider.value || 30);
+    label.textContent = days + "D";
+    draw(days);
+  }
+
+  slider.addEventListener("input", onSlider);
+  window.addEventListener("resize", () => draw(Number(slider.value || 30)));
+
+  onSlider();
+})();
+</script>
 </body>
 </html>
