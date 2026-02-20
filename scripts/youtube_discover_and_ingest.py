@@ -107,7 +107,7 @@ def main():
 
         for q in queries:
             try:
-                data = yt_search(q, max_results=8)
+                data = yt_search(q, max_results=2)
             except Exception as e:
                 total_failed += 1
                 print("YT_SEARCH_FAILED:", symbol, q, str(e))
