@@ -54,44 +54,44 @@ def worker_seen(video_id):
 
 
 def ingest(video_id, title, channel, published_at, symbol):
-    try:
-        segs = YouTubeTranscriptApi.get_transcript(video_id)
-        print("TRANSCRIPT_OK:", video_id, "segments:", len(segs))
-    except Exception as e:
-        print("TRANSCRIPT_FAIL:", video_id, str(e))
-        return
+    try:
+        segs = YouTubeTranscriptApi.get_transcript(video_id)
+        print("TRANSCRIPT_OK:", video_id, "segments:", len(segs))
+    except Exception as e:
+        print("TRANSCRIPT_FAIL:", video_id, str(e))
+        return
 
-    segments = [
-        {
-            "start": s["start"],
-            "duration": s.get("duration", 0),
-            "text": s["text"]
-        }
-        for s in segs
-    ]
+    segments = [
+        {
+            "start": s["start"],
+            "duration": s.get("duration", 0),
+            "text": s["text"]
+        }
+        for s in segs
+    ]
 
-    payload = {
-        "video_id": video_id,
-        "title": title,
-        "channel": channel,
-        "published_at": published_at,
-        "url": f"https://www.youtube.com/watch?v={video_id}",
-        "symbol_tags": [symbol],
-        "segments": segments,
-    }
+    payload = {
+        "video_id": video_id,
+        "title": title,
+        "channel": channel,
+        "published_at": published_at,
+        "url": f"https://www.youtube.com/watch?v={video_id}",
+        "symbol_tags": [symbol],
+        "segments": segments,
+    }
 
-    r = requests.post(
-        WORKER_INGEST_URL,
-        headers={
-            "content-type": "application/json",
-            "x-api-key": WORKER_API_KEY
-        },
-        data=json.dumps(payload),
-        timeout=60,
-    )
+    r = requests.post(
+        WORKER_INGEST_URL,
+        headers={
+            "content-type": "application/json",
+            "x-api-key": WORKER_API_KEY
+        },
+        data=json.dumps(payload),
+        timeout=60,
+    )
 
-    print("INGEST_STATUS:", video_id, r.status_code)
-    r.raise_for_status()
+    print("INGEST_STATUS:", video_id, r.status_code)
+    r.raise_for_status()
 
 def main():
     # Make sure universe loads (GitHub Actions working dir matters)
