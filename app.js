@@ -1,15 +1,34 @@
-const trending = [
-  { title: "Top 5 Momentum (30D)", meta: "Toggle: Potential momentum stocks" },
-  { title: "Recent News", meta: "Toggle: Recent interviews" },
-  { title: "Mining Sector Watchlist", meta: "US + Canada tickers" },
+/* =========================
+   Minerlytics - app.js
+   (Top Trending cards now pull real-time headlines via /api/news/trending
+    and tickers are loaded from /universe.json)
+   ========================= */
+
+/* ---------- Trending Cards (TOP) ---------- */
+/**
+ * NOTE:
+ * - "Trending cards" are rendered from `trending[]` via renderTrending()
+ * - We now update `trending` from the Worker endpoint: /api/news/trending
+ * - The list of symbols is loaded from /universe.json (served from /public)
+ */
+
+let trending = [
+  { title: "Loading news…", meta: "Fetching latest headlines" },
+  { title: "Loading news…", meta: "Fetching latest headlines" },
+  { title: "Loading news…", meta: "Fetching latest headlines" },
 ];
 
+// fallback until universe.json loads
+let NEWS_TICKERS = ["AEM", "WPM", "NEM"];
+
+/* ---------- Quotes (still mocked) ---------- */
 const quotes = [
   { sym: "AEM", company: "Agnico Eagle Mines", price: 54.21, chg: +1.28 },
   { sym: "WPM", company: "Wheaton Precious Metals", price: 45.88, chg: -0.62 },
   { sym: "NEM", company: "Newmont", price: 39.14, chg: +0.41 },
 ];
 
+/* ---------- Running ticker strip (still mocked) ---------- */
 const tickerItems = [
   "Gold breaks above key resistance as USD weakens",
   "Interview: permitting timelines and risk factors (new video)",
@@ -18,47 +37,127 @@ const tickerItems = [
   "Regulatory update: project approval milestone reached",
 ];
 
+/* ============ Universe Loader ============ */
+/**
+ * Make sure universe.json is served from /public/universe.json
+ * so it's accessible at: https://YOUR_DOMAIN/universe.json
+ */
+async function loadUniverseTickers(limit = 12) {
+  const res = await fetch("/universe.json", {
+    headers: { accept: "application/json" },
+    cache: "no-store",
+  });
+  if (!res.ok) throw new Error(`universe.json status ${res.status}`);
+  const uni = await res.json();
+
+  // Accept common shapes:
+  // 1) ["AEM","WPM",...]
+  // 2) { tickers: ["AEM", ...] }
+  // 3) { symbols: ["AEM", ...] }
+  // 4) { items: [{sym:"AEM"}, ...] }
+  if (Array.isArray(uni)) return uni.map(String).slice(0, limit);
+
+  const arr =
+    uni.tickers ||
+    uni.symbols ||
+    uni.universe ||
+    (Array.isArray(uni.items)
+      ? uni.items
+          .map((x) => x?.sym || x?.symbol || x?.ticker)
+          .filter(Boolean)
+      : []);
+
+  return (arr || []).map(String).slice(0, limit);
+}
+
+/* ============ Real-time Trending News Fetch ============ */
+/**
+ * Your Worker (index.js) should implement:
+ * GET /api/news/trending?symbols=AEM,WPM,NEM
+ *
+ * and return:
+ * { cards: [{ title: "AEM: ...", meta: "Source • 2h ago" }, ...] }
+ */
+async function refreshTrendingNews() {
+  try {
+    const res = await fetch(
+      `/api/news/trending?symbols=${encodeURIComponent(NEWS_TICKERS.join(","))}`,
+      {
+        headers: { accept: "application/json" },
+        cache: "no-store",
+      }
+    );
+    if (!res.ok) throw new Error(`news status ${res.status}`);
+
+    const data = await res.json();
+    const cards = Array.isArray(data.cards) ? data.cards : [];
+
+    if (cards.length) {
+      trending = cards.slice(0, 6); // adjust based on how many cards you want visible
+      renderTrending();
+    }
+  } catch (e) {
+    console.warn("refreshTrendingNews failed:", e);
+    // keep old cards (fallback)
+  }
+}
+
+/* ============ Renderers ============ */
 function renderTrending() {
   const el = document.getElementById("trendRow");
-  el.innerHTML = trending.map(t => `
+  if (!el) return;
+  el.innerHTML = trending
+    .map(
+      (t) => `
     <div class="trendCard">
       <div class="avatar" aria-hidden="true"></div>
       <div class="trendText">
-        <div class="trendTitle">${t.title}</div>
-        <div class="trendMeta">${t.meta}</div>
+        <div class="trendTitle">${escapeHtml(t.title ?? "")}</div>
+        <div class="trendMeta">${escapeHtml(t.meta ?? "")}</div>
       </div>
     </div>
-  `).join("");
+  `
+    )
+    .join("");
 }
 
 function renderQuotes() {
   const el = document.getElementById("quoteRow");
-  el.innerHTML = quotes.map(q => {
-    const up = q.chg >= 0;
-    const cls = up ? "up" : "down";
-    const sign = up ? "+" : "";
-    return `
+  if (!el) return;
+  el.innerHTML = quotes
+    .map((q) => {
+      const up = q.chg >= 0;
+      const cls = up ? "up" : "down";
+      const sign = up ? "+" : "";
+      return `
       <div class="quoteCard">
         <div class="quoteTop">
-          <div class="sym">${q.sym}</div>
-          <div class="price">${q.price.toFixed(2)}</div>
-          <div class="chg ${cls}">${sign}${q.chg.toFixed(2)}%</div>
+          <div class="sym">${escapeHtml(q.sym)}</div>
+          <div class="price">${Number(q.price).toFixed(2)}</div>
+          <div class="chg ${cls}">${sign}${Number(q.chg).toFixed(2)}%</div>
         </div>
-        <div class="company">${q.company}</div>
+        <div class="company">${escapeHtml(q.company)}</div>
       </div>
     `;
-  }).join("");
+    })
+    .join("");
 }
 
 function renderTicker() {
   const el = document.getElementById("tickerTrack");
+  if (!el) return;
   // Duplicate so it loops cleanly
-  const combined = [...tickerItems, ...tickerItems].map(t => `
-    <span class="tickerItem"><span class="badge"></span>${t}</span>
-  `).join("");
+  const combined = [...tickerItems, ...tickerItems]
+    .map(
+      (t) => `
+    <span class="tickerItem"><span class="badge"></span>${escapeHtml(t)}</span>
+  `
+    )
+    .join("");
   el.innerHTML = combined;
 }
 
+/* ============ Search wiring ============ */
 function wireSearch() {
   const hero = document.getElementById("heroSearch");
   const btn = document.getElementById("searchBtn");
@@ -68,50 +167,58 @@ function wireSearch() {
     const query = (q || "").trim();
     if (!query) return;
     // Placeholder: later route to Company Profile / Analysis page
-    alert(`Search: ${query}\n\nNext: connect to ticker/company lookup + mining-only filter.`);
+    alert(
+      `Search: ${query}\n\nNext: connect to ticker/company lookup + mining-only filter.`
+    );
   }
 
-  btn.addEventListener("click", () => go(hero.value));
-  hero.addEventListener("keydown", (e) => { if (e.key === "Enter") go(hero.value); });
-  global.addEventListener("keydown", (e) => { if (e.key === "Enter") go(global.value); });
+  if (btn && hero) btn.addEventListener("click", () => go(hero.value));
+  if (hero)
+    hero.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") go(hero.value);
+    });
+  if (global)
+    global.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") go(global.value);
+    });
 }
 
-/* Tiny chart placeholder (simple canvas sparkline) */
+/* ============ Tiny chart placeholder (simple canvas sparkline) ============ */
 function spark(canvasId) {
   const c = document.getElementById(canvasId);
   if (!c) return;
   const ctx = c.getContext("2d");
-  const w = c.width = c.parentElement.clientWidth - 4;
+  const w = (c.width = c.parentElement.clientWidth - 4);
   const h = c.height;
 
-  const pts = Array.from({length: 28}, (_, i) => {
-    const base = Math.sin(i/4) * 0.35 + 0.5;
+  const pts = Array.from({ length: 28 }, (_, i) => {
+    const base = Math.sin(i / 4) * 0.35 + 0.5;
     const noise = (Math.random() - 0.5) * 0.12;
     return Math.max(0.08, Math.min(0.92, base + noise));
   });
 
-  ctx.clearRect(0,0,w,h);
+  ctx.clearRect(0, 0, w, h);
 
   // grid
   ctx.globalAlpha = 0.18;
   ctx.strokeStyle = "#ffffff";
   for (let i = 1; i < 4; i++) {
     ctx.beginPath();
-    ctx.moveTo(0, (h*i)/4);
-    ctx.lineTo(w, (h*i)/4);
+    ctx.moveTo(0, (h * i) / 4);
+    ctx.lineTo(w, (h * i) / 4);
     ctx.stroke();
   }
   ctx.globalAlpha = 1;
 
-  // line (no custom color; use default current strokeStyle)
+  // line
   ctx.lineWidth = 2;
   ctx.strokeStyle = "rgba(234,240,255,.82)";
   ctx.beginPath();
   pts.forEach((p, i) => {
     const x = (w * i) / (pts.length - 1);
     const y = h - p * h;
-    if (i === 0) ctx.moveTo(x,y);
-    else ctx.lineTo(x,y);
+    if (i === 0) ctx.moveTo(x, y);
+    else ctx.lineTo(x, y);
   });
   ctx.stroke();
 
@@ -127,10 +234,10 @@ function spark(canvasId) {
 }
 
 function wireSegButtons() {
-  document.querySelectorAll(".segBtn").forEach(btn => {
+  document.querySelectorAll(".segBtn").forEach((btn) => {
     btn.addEventListener("click", () => {
       const group = btn.parentElement;
-      group.querySelectorAll(".segBtn").forEach(b => b.classList.remove("isOn"));
+      group.querySelectorAll(".segBtn").forEach((b) => b.classList.remove("isOn"));
       btn.classList.add("isOn");
       // Placeholder: later fetch data by range (1d/7d/6m/1y)
       spark("goldChart");
@@ -140,6 +247,17 @@ function wireSegButtons() {
   });
 }
 
+/* ============ Small helpers ============ */
+function escapeHtml(s) {
+  return String(s ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+/* ============ Boot ============ */
 renderTrending();
 renderQuotes();
 renderTicker();
@@ -149,6 +267,18 @@ wireSegButtons();
 spark("goldChart");
 spark("silverChart");
 spark("copperChart");
+
+// Load tickers from universe.json, then start real-time trending refresh
+(async () => {
+  try {
+    NEWS_TICKERS = await loadUniverseTickers(12); // first 12 tickers
+  } catch (e) {
+    console.warn("universe load failed, using fallback tickers:", e);
+  }
+
+  refreshTrendingNews(); // immediate
+  setInterval(refreshTrendingNews, 60000); // every 60s
+})();
 
 window.addEventListener("resize", () => {
   spark("goldChart");
