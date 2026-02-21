@@ -1,5 +1,3 @@
-/ index.js (GitHub) — your original code + ONLY the YouTube endpoints added.
-// ✅ Do NOT rename the file. Keep it as index.js
 
 import { refreshNewsForAll } from "./news_cron.js";
 import { TICKERS } from "./tickers.js";
