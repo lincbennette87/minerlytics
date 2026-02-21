@@ -1,3 +1,6 @@
+/ index.js (GitHub) — your original code + ONLY the YouTube endpoints added.
+// ✅ Do NOT rename the file. Keep it as index.js
+
 import { refreshNewsForAll } from "./news_cron.js";
 import { TICKERS } from "./tickers.js";
 import { googleRssUrl, parseRssItems } from "./rss.js";
@@ -5,7 +8,7 @@ import { googleRssUrl, parseRssItems } from "./rss.js";
 const CORS = {
 "access-control-allow-origin": "*",
 "access-control-allow-methods": "GET,POST,OPTIONS",
-// ✅ ADDED x-api-key so your Python/GitHub can call secured endpoints
+// ✅ added x-api-key so browser/clients can send it
 "access-control-allow-headers": "content-type,x-api-key",
 };
 
@@ -133,27 +136,22 @@ const DISCLAIMER =
 
 // Guarantee disclaimer inclusion even if model forgets
 if (!rawAnswer.toLowerCase().includes(DISCLAIMER)) {
-return (
-rawAnswer.trim() +
-"\n\n🧾 **Disclaimer**\n" +
-DISCLAIMER
-);
+return rawAnswer.trim() + "\n\n🧾 **Disclaimer**\n" + DISCLAIMER;
 }
 
 return rawAnswer;
 }
 
 /* ============================================================
-✅ ADDED: simple API-key auth for ingest endpoints
-- Set WORKER_API_KEY in Cloudflare Worker env vars (Secrets)
-- Python must send header: x-api-key: <WORKER_API_KEY>
+✅ ADDED: auth helper for YouTube ingest endpoints
+Secret must be named exactly: WORKER_API_KEY
 ============================================================ */
 function requireApiKey(request, env) {
-const k = request.headers.get("x-api-key") || "";
+const key = request.headers.get("x-api-key") || "";
 if (!env.WORKER_API_KEY) {
 return { ok: false, res: text("Missing WORKER_API_KEY on Worker", 500) };
 }
-if (k !== env.WORKER_API_KEY) {
+if (key !== env.WORKER_API_KEY) {
 return { ok: false, res: json({ ok: false, error: "Unauthorized" }, 401) };
 }
 return { ok: true };
@@ -176,83 +174,98 @@ return json({ ok: true, rows_in_daily_ohlcv: r && r.n ? r.n : 0 });
 }
 
 /* ============================================================
-✅ ADDED: GET /api/youtube/seen?video_id=XXXX
-Returns: { seen: true/false }
+✅ ADDED: GET /api/youtube/seen?video_id=...
 ============================================================ */
 if (url.pathname === "/api/youtube/seen" && request.method === "GET") {
 const auth = requireApiKey(request, env);
 if (!auth.ok) return auth.res;
 
 const video_id = String(url.searchParams.get("video_id") || "").trim();
-if (!video_id) return json({ ok: false, error: "Missing video_id" }, 400);
+if (!video_id) return json({ ok: false, error: "video_id required" }, 400);
 
-const row = await env.DB
-.prepare("SELECT video_id FROM youtube_videos WHERE video_id = ? LIMIT 1")
-.bind(video_id)
-.first();
+const row = await env.DB.prepare(
+"SELECT video_id FROM youtube_videos WHERE video_id = ?"
+).bind(video_id).first();
 
-return json({ seen: !!row });
+if (!row) return json({ seen: false }, 200);
+
+const symbols = await env.DB.prepare(
+"SELECT symbol FROM youtube_video_symbols WHERE video_id = ?"
+).bind(video_id).all();
+
+return json(
+{ seen: true, symbols: (symbols.results || []).map((r) => r.symbol) },
+200
+);
 }
 
 /* ============================================================
 ✅ ADDED: POST /api/ingest/youtube
-Body:
-{
-video_id, title, channel, published_at, url,
-symbol_tags: ["AEM", ...],
-segments: [{start,duration,text}, ...] // can be []
-}
 ============================================================ */
 if (url.pathname === "/api/ingest/youtube" && request.method === "POST") {
 const auth = requireApiKey(request, env);
 if (!auth.ok) return auth.res;
 
-const body = await request.json().catch(() => ({}));
+let body;
+try {
+body = await request.json();
+} catch {
+return json({ ok: false, error: "Invalid JSON" }, 400);
+}
 
-const video_id = String(body.video_id || "").trim();
-const title = String(body.title || "");
-const channel = String(body.channel || "");
-const published_at = body.published_at ? String(body.published_at) : null;
-const urlStr = String(body.url || "");
+const video_id = body.video_id;
+if (!video_id) return json({ ok: false, error: "video_id required" }, 400);
 
-const symbol_tags = Array.isArray(body.symbol_tags)
-? body.symbol_tags.map((s) => String(s || "").toUpperCase().trim()).filter(Boolean)
-: [];
-
+const title = body.title || "";
+const channel = body.channel || "";
+const published_at = body.published_at || "";
+const urlStr = body.url || "";
 const segments = Array.isArray(body.segments) ? body.segments : [];
+const symbol_tags = Array.isArray(body.symbol_tags) ? body.symbol_tags : [];
 
-if (!video_id) return json({ ok: false, error: "Missing video_id" }, 400);
+const stmts = [];
 
-// 1) Insert video metadata
-await env.DB.prepare(
-"INSERT OR IGNORE INTO youtube_videos (video_id, title, channel, published_at, url, created_at) " +
-"VALUES (?, ?, ?, ?, ?, datetime('now'))"
-).bind(video_id, title, channel, published_at, urlStr).run();
+// 1) video row (only once)
+stmts.push(
+env.DB.prepare(
+`INSERT OR IGNORE INTO youtube_videos (video_id, title, channel, published_at, url)
+VALUES (?, ?, ?, ?, ?)`
+).bind(video_id, title, channel, published_at, urlStr)
+);
 
-// 2) Link video to symbols (dedup via PK on (video_id,symbol))
+// 2) tags (multi-symbol supported)
 for (const sym of symbol_tags) {
-await env.DB.prepare(
-"INSERT OR IGNORE INTO youtube_video_symbols (video_id, symbol, created_at) " +
-"VALUES (?, ?, datetime('now'))"
-).bind(video_id, sym).run();
+if (!sym) continue;
+stmts.push(
+env.DB.prepare(
+`INSERT OR IGNORE INTO youtube_video_symbols (video_id, symbol)
+VALUES (?, ?)`
+).bind(video_id, String(sym).toUpperCase())
+);
 }
 
-// 3) Insert transcript segments (ok if empty)
-let segCount = 0;
+// 3) segments
 for (const s of segments) {
-const start = Number(s?.start ?? 0);
-const duration = Number(s?.duration ?? 0);
-const textVal = String(s?.text ?? "");
-if (!textVal) continue;
+if (!s || typeof s.text !== "string") continue;
+const start = Number(s.start ?? 0);
+const duration = Number(s.duration ?? 0);
+const textVal = s.text;
 
-await env.DB.prepare(
-"INSERT INTO youtube_segments (video_id, start, duration, text) VALUES (?, ?, ?, ?)"
-).bind(video_id, start, duration, textVal).run();
-
-segCount++;
+stmts.push(
+env.DB.prepare(
+`INSERT INTO youtube_segments (video_id, start, duration, text)
+VALUES (?, ?, ?, ?)`
+).bind(video_id, start, duration, textVal)
+);
 }
 
-return json({ ok: true, video_id, symbols: symbol_tags, segments: segCount });
+try {
+await env.DB.batch(stmts);
+} catch (e) {
+return json({ ok: false, error: "DB error", detail: String(e) }, 500);
+}
+
+return json({ ok: true, video_id, segments: segments.length }, 200);
 }
 
 // ---- your existing routes continue unchanged ----
