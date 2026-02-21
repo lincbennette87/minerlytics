@@ -54,46 +54,44 @@ def worker_seen(video_id):
 
 
 def ingest(video_id, title, channel, published_at, symbol):
-    segments = []
+    try:
+        segs = YouTubeTranscriptApi.get_transcript(video_id)
+        print("TRANSCRIPT_OK:", video_id, "segments:", len(segs))
+    except Exception as e:
+        print("TRANSCRIPT_FAIL:", video_id, str(e))
+        return
 
-    try:
-        segs = YouTubeTranscriptApi.get_transcript(video_id)
-        print("TRANSCRIPT_OK", video_id, "segments:", len(segs))
-    except Exception as e:
-        print("TRANSCRIPT_FAIL", video_id, str(e))
-    return
-        segments = [
-            {
-                "start": s["start"],
-                "duration": s.get("duration", 0),
-                "text": s["text"]
-            }
-            for s in segs
-        ]
-        print("TRANSCRIPT_OK:", video_id)
+    segments = [
+        {
+            "start": s["start"],
+            "duration": s.get("duration", 0),
+            "text": s["text"]
+        }
+        for s in segs
+    ]
 
-    except Exception as e:
-        print("NO_TRANSCRIPT:", video_id, str(e))
+    payload = {
+        "video_id": video_id,
+        "title": title,
+        "channel": channel,
+        "published_at": published_at,
+        "url": f"https://www.youtube.com/watch?v={video_id}",
+        "symbol_tags": [symbol],
+        "segments": segments,
+    }
 
-    payload = {
-        "video_id": video_id,
-        "title": title or "",
-        "channel": channel or "",
-        "published_at": published_at or "",
-        "url": f"https://www.youtube.com/watch?v={video_id}",
-        "symbol_tags": [symbol],
-        "segments": segments  # may be empty
-    }
+    r = requests.post(
+        WORKER_INGEST_URL,
+        headers={
+            "content-type": "application/json",
+            "x-api-key": WORKER_API_KEY
+        },
+        data=json.dumps(payload),
+        timeout=60,
+    )
 
-    r = requests.post(
-        WORKER_INGEST_URL,
-        headers={
-            "content-type": "application/json",
-            "x-api-key": WORKER_API_KEY
-        },
-        data=json.dumps(payload),
-        timeout=60
-    )
+    print("INGEST_STATUS:", video_id, r.status_code)
+    r.raise_for_status()
 
     if r.status_code != 200:
         print("WORKER_ERROR:", r.status_code, r.text)
