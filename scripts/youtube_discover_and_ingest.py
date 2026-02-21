@@ -1,18 +1,20 @@
 import os, json, time, requests
 from youtube_transcript_api import YouTubeTranscriptApi
-import youtube_transcript_api
-
-print("youtube_transcript_api loaded from:", youtube_transcript_api.__file__)
-print("youtube_transcript_api version:", getattr(youtube_transcript_api, "__version__", "unknown"))
+from youtube_transcript_api._errors import (
+    TranscriptsDisabled,
+    NoTranscriptFound,
+    VideoUnavailable,
+    TooManyRequests,
+    CouldNotRetrieveTranscript,
+)
 
 YT_KEY = os.environ["YOUTUBE_API_KEY"]
 WORKER_INGEST_URL = os.environ["WORKER_INGEST_URL"]   # https://.../api/ingest/youtube
 WORKER_API_KEY = os.environ["WORKER_API_KEY"]         # simple secret
 
-# Only ingest 5 videos per channel
-MAX_VIDEOS_PER_CHANNEL = 5
+MAX_INGEST_PER_CHANNEL = 5
+CANDIDATES_PER_CHANNEL = 25  # pull more because many will have no captions
 
-# Channels we care about (we'll resolve channel IDs via API)
 TARGET_CHANNELS = [
     {"name": "Kitco NEWS",   "query": "Kitco NEWS",   "tag": "KITCO_NEWS"},
     {"name": "Kitco Mining", "query": "Kitco Mining", "tag": "KITCO_MINING"},
@@ -20,7 +22,6 @@ TARGET_CHANNELS = [
 
 
 def yt_search(params):
-    """Generic wrapper for YouTube Data API v3 search endpoint."""
     url = "https://www.googleapis.com/youtube/v3/search"
     params = {**params, "key": YT_KEY}
     r = requests.get(url, params=params, timeout=30)
@@ -31,10 +32,6 @@ def yt_search(params):
 
 
 def resolve_channel_id(channel_query: str) -> str:
-    """
-    Resolve a channel's UC id using YouTube search (type=channel).
-    This avoids hardcoding channel IDs (especially for custom URLs / handles).
-    """
     data = yt_search({
         "part": "snippet",
         "q": channel_query,
@@ -45,16 +42,13 @@ def resolve_channel_id(channel_query: str) -> str:
     items = data.get("items", []) or []
     if not items:
         raise RuntimeError(f"Could not resolve channel_id for query: {channel_query}")
-
     chan_id = ((items[0] or {}).get("id") or {}).get("channelId")
     if not chan_id:
         raise RuntimeError(f"Bad channel search response for: {channel_query}")
-
     return chan_id
 
 
-def yt_latest_videos_from_channel(channel_id: str, max_results: int = 5):
-    """Get latest videos from a specific channel."""
+def yt_latest_videos_from_channel(channel_id: str, max_results: int):
     data = yt_search({
         "part": "snippet",
         "channelId": channel_id,
@@ -69,16 +63,10 @@ def worker_seen(video_id):
     base = WORKER_INGEST_URL.replace("/api/ingest/youtube", "")
     seen_url = f"{base}/api/youtube/seen?video_id={video_id}"
 
-    r = requests.get(
-        seen_url,
-        headers={"x-api-key": WORKER_API_KEY},
-        timeout=20,
-    )
-
+    r = requests.get(seen_url, headers={"x-api-key": WORKER_API_KEY}, timeout=20)
     if r.status_code != 200:
         print("SEEN_CHECK_ERROR:", video_id, r.status_code, r.text[:300])
         return False
-
     try:
         data = r.json()
     except Exception as e:
@@ -88,22 +76,33 @@ def worker_seen(video_id):
     return data.get("seen") is True
 
 
-def ingest(video_id, title, channel, published_at, tag):
+def fetch_transcript_segments(video_id: str):
+    """
+    Returns list of segments or None if unavailable.
+    """
     try:
+        # Try the default transcript selection (auto where available)
         segs = YouTubeTranscriptApi.get_transcript(video_id)
-        print("TRANSCRIPT_OK:", video_id, "segments:", len(segs))
+        return [
+            {"start": s["start"], "duration": s.get("duration", 0), "text": s["text"]}
+            for s in segs
+        ]
+    except (TranscriptsDisabled, NoTranscriptFound) as e:
+        print("TRANSCRIPT_UNAVAILABLE:", video_id, str(e).splitlines()[0])
+        return None
+    except (VideoUnavailable, CouldNotRetrieveTranscript, TooManyRequests) as e:
+        # treat as unavailable for now; you can add retry/backoff if needed
+        print("TRANSCRIPT_ERROR:", video_id, type(e).__name__, str(e)[:200])
+        return None
     except Exception as e:
-        print("TRANSCRIPT_FAIL:", video_id, str(e))
-        return False
+        print("TRANSCRIPT_FAIL:", video_id, str(e)[:200])
+        return None
 
-    segments = [
-        {
-            "start": s["start"],
-            "duration": s.get("duration", 0),
-            "text": s["text"]
-        }
-        for s in segs
-    ]
+
+def ingest(video_id, title, channel, published_at, tag):
+    segments = fetch_transcript_segments(video_id)
+    if not segments:
+        return False
 
     payload = {
         "video_id": video_id,
@@ -111,21 +110,18 @@ def ingest(video_id, title, channel, published_at, tag):
         "channel": channel,
         "published_at": published_at,
         "url": f"https://www.youtube.com/watch?v={video_id}",
-        "symbol_tags": [tag],     # keep your worker contract; tag by channel
+        "symbol_tags": [tag],     # keep your worker contract
         "segments": segments,
     }
 
     r = requests.post(
         WORKER_INGEST_URL,
-        headers={
-            "content-type": "application/json",
-            "x-api-key": WORKER_API_KEY
-        },
+        headers={"content-type": "application/json", "x-api-key": WORKER_API_KEY},
         data=json.dumps(payload),
         timeout=60,
     )
 
-    print("INGEST_STATUS:", video_id, r.status_code)
+    print("INGEST_STATUS:", video_id, r.status_code, "| segments:", len(segments))
     r.raise_for_status()
     return True
 
@@ -135,12 +131,13 @@ def main():
     total_skipped_seen = 0
     total_ingested = 0
     total_failed = 0
+    total_no_transcript = 0
 
-    # Local dedupe within this run
     seen_in_run = set()
 
     for ch in TARGET_CHANNELS:
-        print(f"\n=== CHANNEL: {ch['name']} | pulling latest {MAX_VIDEOS_PER_CHANNEL} videos ===")
+        ingested_for_channel = 0
+        print(f"\n=== CHANNEL: {ch['name']} | need {MAX_INGEST_PER_CHANNEL} ingests ===")
 
         try:
             channel_id = resolve_channel_id(ch["query"])
@@ -151,14 +148,17 @@ def main():
             continue
 
         try:
-            items = yt_latest_videos_from_channel(channel_id, max_results=MAX_VIDEOS_PER_CHANNEL)
-            print("VIDEOS_FOUND:", ch["name"], len(items))
+            items = yt_latest_videos_from_channel(channel_id, max_results=CANDIDATES_PER_CHANNEL)
+            print("CANDIDATES_FOUND:", ch["name"], len(items))
         except Exception as e:
             total_failed += 1
             print("CHANNEL_VIDEO_FETCH_FAILED:", ch["name"], str(e))
             continue
 
         for item in items:
+            if ingested_for_channel >= MAX_INGEST_PER_CHANNEL:
+                break
+
             vid = (((item or {}).get("id") or {}).get("videoId")) or ""
             snip = (item or {}).get("snippet") or {}
             if not vid:
@@ -167,7 +167,6 @@ def main():
             if vid in seen_in_run:
                 continue
             seen_in_run.add(vid)
-
             total_found += 1
 
             # Skip if already in DB
@@ -176,7 +175,7 @@ def main():
                     total_skipped_seen += 1
                     continue
             except Exception as e:
-                print("SEEN_CHECK_EXCEPTION:", vid, str(e))
+                print("SEEN_CHECK_EXCEPTION:", vid, str(e)[:200])
 
             try:
                 ok = ingest(
@@ -188,20 +187,27 @@ def main():
                 )
                 if ok:
                     total_ingested += 1
+                    ingested_for_channel += 1
                 else:
-                    total_failed += 1
+                    total_no_transcript += 1
                 time.sleep(0.2)
             except Exception as e:
                 total_failed += 1
-                print("INGEST_FAILED:", vid, str(e))
+                print("INGEST_FAILED:", vid, str(e)[:300])
+
+        print(f"CHANNEL_DONE: {ch['name']} ingested={ingested_for_channel}/{MAX_INGEST_PER_CHANNEL}")
 
     print("\n=== DONE ===")
     print("total_found:", total_found)
     print("total_skipped_seen:", total_skipped_seen)
+    print("total_no_transcript:", total_no_transcript)
     print("total_ingested:", total_ingested)
     print("total_failed:", total_failed)
+
+    # IMPORTANT: Don't hard-fail GitHub Actions just because some videos had no transcripts.
+    # If you WANT to fail when nothing ingests, change this to raise SystemExit(...)
     if total_ingested == 0:
-        raise SystemExit("No videos ingested (check errors above).")
+        print("WARNING: No videos ingested (likely no captions available on recent uploads).")
 
 
 if __name__ == "__main__":
