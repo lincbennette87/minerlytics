@@ -1,4 +1,3 @@
-
 import { refreshNewsForAll } from "./news_cron.js";
 import { TICKERS } from "./tickers.js";
 import { googleRssUrl, parseRssItems } from "./rss.js";
