@@ -93,20 +93,6 @@ def ingest(video_id, title, channel, published_at, symbol):
     print("INGEST_STATUS:", video_id, r.status_code)
     r.raise_for_status()
 
-    if r.status_code != 200:
-        print("WORKER_ERROR:", r.status_code, r.text)
-
-    r.raise_for_status()
-    print("INGEST_OK:", symbol, video_id)
-
-    # If worker rejects / errors, print it (previously this was silent)
-    if r.status_code != 200:
-        print("INGEST_WORKER_ERROR:", symbol, video_id, r.status_code, r.text[:500])
-
-    r.raise_for_status()
-    print("INGEST_OK:", symbol, video_id, (title or "")[:80])
-
-
 def main():
     # Make sure universe loads (GitHub Actions working dir matters)
     with open(UNIVERSE_PATH, "r", encoding="utf-8") as f:
@@ -129,7 +115,7 @@ def main():
 
         for q in queries:
             try:
-                data = yt_search(q, max_results=1)
+                data = yt_search(q, max_results=2)
             except Exception as e:
                 total_failed += 1
                 print("YT_SEARCH_FAILED:", symbol, q, str(e))
