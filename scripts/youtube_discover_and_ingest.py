@@ -57,7 +57,7 @@ def ingest(video_id, title, channel, published_at, symbol):
     segments = []
 
     try:
-        segs = YouTubeTranscriptApi.get_transcript(video_id)
+        segs = YouTubeTranscriptApi.get_transcript(video_id, languages=["en"])
         segments = [
             {
                 "start": s["start"],
