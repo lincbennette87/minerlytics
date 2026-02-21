@@ -208,6 +208,80 @@ function requireApiKey(request, env) {
   return { ok: true };
 }
 
+/* ============================================================
+✅ ADDED: helpers for Trending News Cards endpoint
+- Used by your app.js top "Trending" row
+============================================================ */
+function parseSymbolsParam(param) {
+  return String(param || "")
+    .split(",")
+    .map((s) => String(s || "").trim().toUpperCase())
+    .filter(Boolean);
+}
+
+function clamp(n, min, max) {
+  return Math.max(min, Math.min(max, n));
+}
+
+function relTime(isoOrDate) {
+  const d = new Date(isoOrDate);
+  const t = d.getTime();
+  if (!Number.isFinite(t)) return "recent";
+  const diffMs = Date.now() - t;
+  const diffMin = Math.floor(diffMs / 60000);
+  if (diffMin < 1) return "just now";
+  if (diffMin < 60) return `${diffMin}m ago`;
+  const diffHr = Math.floor(diffMin / 60);
+  if (diffHr < 24) return `${diffHr}h ago`;
+  const diffDay = Math.floor(diffHr / 24);
+  return `${diffDay}d ago`;
+}
+
+async function getLatestNewsCardForTicker(env, ticker) {
+  // 1) Try D1 first (fast, no external call)
+  try {
+    const row = await env.DB.prepare(
+      `
+        SELECT title, source, published_at, fetched_at
+        FROM news_items
+        WHERE ticker = ?
+        ORDER BY
+          CASE WHEN published_at IS NOT NULL AND published_at != '' THEN published_at ELSE fetched_at END DESC
+        LIMIT 1
+      `
+    )
+      .bind(ticker)
+      .first();
+
+    if (row && row.title) {
+      const when = row.published_at || row.fetched_at || null;
+      const meta = `${row.source || "News"} • ${when ? relTime(when) : "recent"}`;
+      return { title: `${ticker}: ${row.title}`, meta };
+    }
+  } catch {
+    // ignore and fallback
+  }
+
+  // 2) Fallback: fetch RSS via your existing helpers
+  try {
+    if (!TICKERS[ticker]) return null;
+    const rssUrl = googleRssUrl(TICKERS[ticker].q);
+    const r = await fetch(rssUrl, { headers: { "User-Agent": "Mozilla/5.0" } });
+    const xml = await r.text();
+    const items = parseRssItems(xml, 5);
+    const top = items && items[0] ? items[0] : null;
+    if (!top || !top.title) return null;
+
+    const when = top.published_at || top.pubDate || top.date || null;
+    const src = top.source || top.publisher || "News";
+    const meta = `${src} • ${when ? relTime(when) : "recent"}`;
+
+    return { title: `${ticker}: ${top.title}`, meta };
+  } catch {
+    return null;
+  }
+}
+
 export default {
   async fetch(request, env) {
     try {
@@ -222,6 +296,34 @@ export default {
       if (url.pathname === "/api/d1-test") {
         const r = await env.DB.prepare("SELECT COUNT(*) as n FROM daily_ohlcv").first();
         return json({ ok: true, rows_in_daily_ohlcv: r && r.n ? r.n : 0 });
+      }
+
+      /* ============================================================
+✅ ADDED: GET /api/news/trending?symbols=AEM,WPM,NEM...
+- Used by app.js TOP Trending cards
+Returns: { cards: [{title, meta}, ...] }
+============================================================ */
+      if (url.pathname === "/api/news/trending" && request.method === "GET") {
+        const symbols = parseSymbolsParam(url.searchParams.get("symbols") || "");
+        const maxCards = clamp(parseInt(url.searchParams.get("limit") || "6", 10), 1, 12);
+
+        // Only allow tickers that exist in your tickers.js map
+        const tickers = (symbols.length ? symbols : Object.keys(TICKERS))
+          .map((t) => String(t || "").toUpperCase().trim())
+          .filter((t) => !!TICKERS[t])
+          .slice(0, 20);
+
+        // If nothing valid, return empty list (UI can fallback)
+        if (!tickers.length) return json({ cards: [] }, 200);
+
+        const cards = [];
+        for (const t of tickers) {
+          const card = await getLatestNewsCardForTicker(env, t);
+          if (card) cards.push(card);
+          if (cards.length >= maxCards) break;
+        }
+
+        return json({ cards }, 200);
       }
 
       /* ============================================================
