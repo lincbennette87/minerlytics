@@ -162,7 +162,7 @@ const url = new URL(request.url);
 if (request.method === "OPTIONS") return options();
 
 if (url.pathname === "/api/health") {
-return text("Minerlytics DEV is running ✅ v2.8");
+return text("Minerlytics DEV is running ✅ v2026");
 }
 
 if (url.pathname === "/api/d1-test") {
