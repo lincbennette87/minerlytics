@@ -1,3 +1,15 @@
+const trending = [
+  { title: "Top 5 Momentum (30D)", meta: "Toggle: Potential momentum stocks" },
+  { title: "Recent News", meta: "Toggle: Recent interviews" },
+  { title: "Mining Sector Watchlist", meta: "US + Canada tickers" },
+];
+
+const quotes = [
+  { sym: "AEM", company: "Agnico Eagle Mines", price: 54.21, chg: +1.28 },
+  { sym: "WPM", company: "Wheaton Precious Metals", price: 45.88, chg: -0.62 },
+  { sym: "NEM", company: "Newmont", price: 39.14, chg: +0.41 },
+];
+
 const tickerItems = [
   "Gold breaks above key resistance as USD weakens",
   "Interview: permitting timelines and risk factors (new video)",
