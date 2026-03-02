@@ -1,6 +1,6 @@
-import fs from "fs";
-import path from "path";
-import cheerio from "cheerio";
+const fs = require("fs");
+const path = require("path");
+const cheerio = require("cheerio");
 
 const OUT_DIR = "public/data";
 const REPORT_DIR = "public/data/trs_reports";
