@@ -39,6 +39,9 @@ jobs:
 
       - name: Find TRS
         run: npm run edgar:trs
+        
+      - name: Extract TRS Reports
+        run: npm run edgar:trs-extract
 
       # Optional: only keep this if your scripts write output files you want in the repo
       - name: Commit outputs
@@ -47,7 +50,7 @@ jobs:
           git config user.email "actions@github.com"
 
           # Stage the files your pipeline actually generates
-          git add data/universe.json public package-lock.json
+          git add public/data data/universe.json package-lock.json
 
           git status
           git commit -m "Dev: refresh EDGAR data" || echo "No changes to commit"
