@@ -3,7 +3,7 @@
     "cik": "0000002809",
     "ticker": "AEM",
     "name": "Agnico Eagle",
-    "asOf": "2026-03-03T06:49:30.598Z",
+    "asOf": "2026-03-03T08:37:40.347Z",
     "revenue": {
       "tag": "Revenues",
       "unit": "USD",
@@ -80,7 +80,7 @@
     "cik": "0001629210",
     "ticker": "PZG",
     "name": "Paramount Gold Nevada",
-    "asOf": "2026-03-03T06:49:31.523Z",
+    "asOf": "2026-03-03T08:37:41.149Z",
     "revenue": {
       "tag": "Revenues",
       "unit": "USD",
@@ -166,7 +166,7 @@
     "cik": "0001172724",
     "ticker": "GFI",
     "name": "Gold Fields",
-    "asOf": "2026-03-03T06:49:32.535Z",
+    "asOf": "2026-03-03T08:37:42.195Z",
     "revenue": null,
     "netIncome": {
       "tag": "NetIncomeLoss",
@@ -243,7 +243,7 @@
     "cik": "0001718405",
     "ticker": "HYMC",
     "name": "Hycroft Mining",
-    "asOf": "2026-03-03T06:49:33.531Z",
+    "asOf": "2026-03-03T08:37:43.181Z",
     "revenue": {
       "tag": "Revenues",
       "unit": "USD",
@@ -329,7 +329,7 @@
     "cik": "0000215466",
     "ticker": "CDE",
     "name": "Coeur Mining",
-    "asOf": "2026-03-03T06:49:34.607Z",
+    "asOf": "2026-03-03T08:37:44.378Z",
     "revenue": {
       "tag": "Revenues",
       "unit": "USD",
@@ -406,7 +406,7 @@
     "cik": "0000719413",
     "ticker": "HL",
     "name": "Hecla Mining",
-    "asOf": "2026-03-03T06:49:36.720Z",
+    "asOf": "2026-03-03T08:37:46.242Z",
     "revenue": {
       "tag": "Revenues",
       "unit": "USD",
@@ -492,7 +492,7 @@
     "cik": "0001330568",
     "ticker": "SLV",
     "name": "iShares Silver Trust",
-    "asOf": "2026-03-03T06:49:38.478Z",
+    "asOf": "2026-03-03T08:37:48.146Z",
     "revenue": {
       "tag": "Revenues",
       "unit": "USD",
@@ -560,7 +560,7 @@
     "cik": "0001450922",
     "ticker": "SIVR",
     "name": "abrdn Physical Silver Shares",
-    "asOf": "2026-03-03T06:49:39.432Z",
+    "asOf": "2026-03-03T08:37:49.112Z",
     "revenue": null,
     "netIncome": {
       "tag": "NetIncomeLoss",
