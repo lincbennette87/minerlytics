@@ -8,12 +8,14 @@
     { "name": "lithium", "keywords": ["lithium"] },
     { "name": "rare_earths", "keywords": ["rare earth"] }
   ],
+  {
   "edgar": {
-    "userAgent": "Minerlytics/1.0 (contact: vishakhedu@gmail.com)",
-    "rps": 1,
+    "lookbackDays": 1825,
     "forms": ["10-K", "10-Q", "8-K", "20-F", "40-F", "6-K"],
-    "lookbackDays": 365
-  },
+    "rps": 1,
+    "userAgent": "Minerlytics EDGAR (contact: vishakhedu@gmail.com)"
+  }
+},
   "trs": {
     "searchDescriptionContains": ["Technical Report Summary"],
     "maxFilingsToScanPerCompany": 20
