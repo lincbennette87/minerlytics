@@ -10,10 +10,10 @@
   ],
   {
   "edgar": {
-    "lookbackDays": 1825,
-    "forms": ["10-K", "10-Q", "8-K", "20-F", "40-F", "6-K"],
+    "userAgent": "Minerlytics EDGAR (contact: vishakhedu@gmail.com)",
     "rps": 1,
-    "userAgent": "Minerlytics EDGAR (contact: vishakhedu@gmail.com)"
+    "lookbackDays": 1825,
+    "forms": ["10-K", "10-Q", "8-K", "20-F", "40-F", "6-K"]
   }
 },
   "trs": {
