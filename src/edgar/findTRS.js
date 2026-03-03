@@ -108,7 +108,7 @@ async function main() {
   // Scan most-recent first if dates exist.
   candidates.sort((a, b) => String(b.filingDate || "").localeCompare(String(a.filingDate || "")));
 
-  const MAX_SCAN = 300; // start small; increase after it works
+  const MAX_SCAN = candidates.length; // start small; increase after it works
   const toScan = source.slice(0, MAX_SCAN);
 
   console.log(`Scanning up to ${toScan.length} filings for TRS exhibits...`);
