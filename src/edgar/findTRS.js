@@ -112,7 +112,7 @@ async function main() {
   candidates.sort((a, b) => String(b.filingDate || "").localeCompare(String(a.filingDate || "")));
 
   const MAX_SCAN = candidates.length; // start small; increase after it works
-  const toScan = source.slice(0, MAX_SCAN);
+  const toScan = source2.slice(0, MAX_SCAN);
 
   console.log(`Scanning up to ${toScan.length} filings for TRS exhibits...`);
 
