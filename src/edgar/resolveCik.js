@@ -8,8 +8,8 @@ const rulesPath = path.resolve("data/miner.rules.json");
 function pad10(n) { return String(n).padStart(10, "0"); }
 
 async function main() {
-  const universe = JSON.parse(fs.readFileSync(universePath, "utf8"));
-  const rules = JSON.parse(fs.readFileSync(rulesPath, "utf8"));
+  const universe = JSON.parse(fs.readFileSync("data/universe.json", "utf8"));
+  const rules = JSON.parse(fs.readFileSync("data/miner.rules.json", "utf8"));
 
   const userAgent = rules.edgar?.userAgent;
   if (!userAgent) throw new Error("Missing rules.edgar.userAgent in data/miner.rules.json");
