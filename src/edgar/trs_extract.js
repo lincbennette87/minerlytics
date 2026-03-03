@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import cheerio from "cheerio";
+import * as cheerio from "cheerio";
 
 const OUT_DIR = "public/data";
 const REPORT_DIR = "public/data/trs_reports";
