@@ -100,13 +100,16 @@ async function main() {
 
   // Use filings.json as the “universe” of recent filings to scan
   const candidates = getCandidateFilingsFromFilingsJson();
+  const ONLY = new Set(["AEM","WPM","CDE","HL","GFI","NEM","PAAS","AG","SBSW","BVN","PZG","DSVSF","GAYMF","HYMC"]);
+  const filtered = candidates.filter(f => ONLY.has(String(f.ticker || f.symbol || "").toUpperCase()));
+  const source = filtered.length ? filtered : candidates;
 
   // Keep it bounded so you don’t hammer SEC.
   // Scan most-recent first if dates exist.
   candidates.sort((a, b) => String(b.filingDate || "").localeCompare(String(a.filingDate || "")));
 
-  const MAX_SCAN = 120; // start small; increase after it works
-  const toScan = candidates.slice(0, MAX_SCAN);
+  const MAX_SCAN = 300; // start small; increase after it works
+  const toScan = source.slice(0, MAX_SCAN);
 
   console.log(`Scanning up to ${toScan.length} filings for TRS exhibits...`);
 
@@ -137,6 +140,16 @@ async function main() {
       const scored = items
         .map((it) => ({ ...it, _score: scoreTRSFile(it) }))
         .sort((a, b) => b._score - a._score);
+
+      // Debug first few filings to see what documents exist
+    if (!globalThis.__dbg) globalThis.__dbg = 0;
+    if (globalThis.__dbg < 3) {
+    console.log(`--- DEBUG filing ${ticker || ""} ${accession} (top 12 files) ---`);
+    for (const f of scored.slice(0, 12)) {
+    console.log(" ", f._score, f.name, "-", f.description || "");
+    }
+    globalThis.__dbg++;
+    }
 
       const best = scored[0];
       if (best && best._score >= 80) {
