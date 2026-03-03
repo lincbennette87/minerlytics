@@ -100,6 +100,9 @@ async function main() {
 
   // Use filings.json as the “universe” of recent filings to scan
   const candidates = getCandidateFilingsFromFilingsJson();
+  const FORM_ALLOW = new Set(["10-K","S-1","S-3","S-4","S-8","8-K","F-1","F-3","F-4","20-F"]);
+  const narrowed = candidates.filter(f => FORM_ALLOW.has(String(f.form || "").toUpperCase()));
+  const source = narrowed.length ? narrowed : candidates;
   const ONLY = new Set(["AEM","WPM","CDE","HL","GFI","NEM","PAAS","AG","SBSW","BVN","PZG","DSVSF","GAYMF","HYMC"]);
   const filtered = candidates.filter(f => ONLY.has(String(f.ticker || f.symbol || "").toUpperCase()));
   const source = filtered.length ? filtered : candidates;
