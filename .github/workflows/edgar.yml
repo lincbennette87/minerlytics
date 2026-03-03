@@ -30,6 +30,12 @@ jobs:
           ls -la data || true
           ls -la src || true
           ls -la src/edgar || true
+            - name: Debug JSON validity
+        run: |
+          echo "---- miner.rules.json ----"
+          sed -n '1,220p' data/miner.rules.json || true
+          echo "---- universe.json (head) ----"
+          sed -n '1,120p' data/universe.json || true
 
       - name: Resolve CIK
         run: npm run edgar:resolve
