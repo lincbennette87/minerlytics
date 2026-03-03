@@ -105,7 +105,7 @@ async function main() {
   const source = narrowed.length ? narrowed : candidates;
   const ONLY = new Set(["AEM","WPM","CDE","HL","GFI","NEM","PAAS","AG","SBSW","BVN","PZG","DSVSF","GAYMF","HYMC"]);
   const filtered = candidates.filter(f => ONLY.has(String(f.ticker || f.symbol || "").toUpperCase()));
-  const source = filtered.length ? filtered : candidates;
+  const source2 = filtered.length ? filtered : candidates;
 
   // Keep it bounded so you don’t hammer SEC.
   // Scan most-recent first if dates exist.
