@@ -3044,6 +3044,24 @@
   {
     "cik": "0001718405",
     "ticker": "HYMC",
+    "accessionNumber": "0001718405-26-000009",
+    "form": "10-K",
+    "filingDate": "2026-03-03",
+    "reportDate": "2025-12-31",
+    "primaryDocument": "hymc-20251231.htm"
+  },
+  {
+    "cik": "0001718405",
+    "ticker": "HYMC",
+    "accessionNumber": "0001493152-26-008631",
+    "form": "8-K",
+    "filingDate": "2026-03-03",
+    "reportDate": "2026-03-03",
+    "primaryDocument": "form8-k.htm"
+  },
+  {
+    "cik": "0001718405",
+    "ticker": "HYMC",
     "accessionNumber": "0001493152-26-007255",
     "form": "8-K",
     "filingDate": "2026-02-18",

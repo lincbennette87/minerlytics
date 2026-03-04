@@ -1,0 +1,76 @@
+{
+  "ticker": "HL",
+  "cik": "0000719413",
+  "accessionNumber": "0000950170-25-104199",
+  "form": "10-Q",
+  "filingDate": "2025-08-06",
+  "reportDate": "2025-06-30",
+  "primaryDocument": "hl-20250630.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/719413/000095017025104199/hl-20250630.htm",
+  "extractedAt": "2026-03-04T02:15:43.590Z",
+  "textBlocks": [],
+  "tables": [
+    {
+      "rows": [
+        [
+          "6500 N. Mineral Drive, Suite 200Coeur d’Alene, Idaho",
+          "83815-9408"
+        ]
+      ]
+    },
+    {
+      "rows": [
+        [
+          "Properties, plants, equipment and mineral interests, net",
+          "",
+          "",
+          "603",
+          "",
+          "",
+          "",
+          "2,705,732",
+          "",
+          "",
+          "",
+          "8,104",
+          "",
+          "",
+          "",
+          "—",
+          "",
+          "",
+          "",
+          "2,714,439",
+          ""
+        ]
+      ]
+    },
+    {
+      "rows": [
+        [
+          "Properties, plants, equipment and mineral interests - net",
+          "",
+          "",
+          "603",
+          "",
+          "",
+          "",
+          "2,685,407",
+          "",
+          "",
+          "",
+          "8,109",
+          "",
+          "",
+          "",
+          "—",
+          "",
+          "",
+          "$",
+          "2,694,119",
+          ""
+        ]
+      ]
+    }
+  ]
+}

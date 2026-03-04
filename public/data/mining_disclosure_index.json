@@ -1,0 +1,1096 @@
+{
+  "generatedAt": "2026-03-04T02:14:15.073Z",
+  "scanned": 141,
+  "found": 121,
+  "items": [
+    {
+      "ticker": "AEM",
+      "cik": "0000002809",
+      "accessionNumber": "0001104659-25-017551",
+      "form": "40-F",
+      "filingDate": "2025-02-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/2809/000110465925017551/aem-20241231x40f.htm",
+      "output": "public/data/mining_disclosure_reports/AEM_0001104659-25-017551.json"
+    },
+    {
+      "ticker": "AEM",
+      "cik": "0000002809",
+      "accessionNumber": "0001104659-24-037982",
+      "form": "40-F",
+      "filingDate": "2024-03-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/2809/000110465924037982/aem-20231231x40f.htm",
+      "output": "public/data/mining_disclosure_reports/AEM_0001104659-24-037982.json"
+    },
+    {
+      "ticker": "AEM",
+      "cik": "0000002809",
+      "accessionNumber": "0001104659-23-037010",
+      "form": "40-F",
+      "filingDate": "2023-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/2809/000110465923037010/aem-20221231x40f.htm",
+      "output": "public/data/mining_disclosure_reports/AEM_0001104659-23-037010.json"
+    },
+    {
+      "ticker": "AEM",
+      "cik": "0000002809",
+      "accessionNumber": "0001104659-22-037577",
+      "form": "40-F",
+      "filingDate": "2022-03-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/2809/000110465922037577/aem-20211231x40f.htm",
+      "output": "public/data/mining_disclosure_reports/AEM_0001104659-22-037577.json"
+    },
+    {
+      "ticker": "AEM",
+      "cik": "0000002809",
+      "accessionNumber": "0001047469-21-000756",
+      "form": "40-F",
+      "filingDate": "2021-03-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/2809/000104746921000756/a2242767z40-f.htm",
+      "output": "public/data/mining_disclosure_reports/AEM_0001047469-21-000756.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0001193125-26-044779",
+      "form": "10-Q",
+      "filingDate": "2026-02-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000119312526044779/pzg-20251231.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0001193125-26-044779.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0001193125-25-281737",
+      "form": "10-Q",
+      "filingDate": "2025-11-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000119312525281737/pzg-20250930.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0001193125-25-281737.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0001193125-25-217759",
+      "form": "10-K",
+      "filingDate": "2025-09-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000119312525217759/pzg-20250630.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0001193125-25-217759.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0000950170-25-069293",
+      "form": "10-Q",
+      "filingDate": "2025-05-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000095017025069293/pzg-20250331.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0000950170-25-069293.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0000950170-25-018900",
+      "form": "10-Q",
+      "filingDate": "2025-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000095017025018900/pzg-20241231.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0000950170-25-018900.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0000950170-24-125424",
+      "form": "10-Q",
+      "filingDate": "2024-11-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000095017024125424/pzg-20240930.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0000950170-24-125424.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0000950170-24-109633",
+      "form": "10-K",
+      "filingDate": "2024-09-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000095017024109633/pzg-20240630.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0000950170-24-109633.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0000950170-24-059575",
+      "form": "10-Q",
+      "filingDate": "2024-05-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000095017024059575/pzg-20240331.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0000950170-24-059575.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0000950170-24-014581",
+      "form": "10-Q",
+      "filingDate": "2024-02-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000095017024014581/pzg-20231231.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0000950170-24-014581.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0000950170-23-062083",
+      "form": "10-Q",
+      "filingDate": "2023-11-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000095017023062083/pzg-20230930.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0000950170-23-062083.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0000950170-23-049730",
+      "form": "10-K",
+      "filingDate": "2023-09-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000095017023049730/pzg-20230630.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0000950170-23-049730.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0000950170-23-021808",
+      "form": "10-Q",
+      "filingDate": "2023-05-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000095017023021808/pzg-20230331.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0000950170-23-021808.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0000950170-23-002482",
+      "form": "10-Q",
+      "filingDate": "2023-02-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000095017023002482/pzg-20221231.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0000950170-23-002482.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0000950170-22-024512",
+      "form": "10-Q",
+      "filingDate": "2022-11-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000095017022024512/pzg-20220930.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0000950170-22-024512.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0000950170-22-019552",
+      "form": "10-K",
+      "filingDate": "2022-10-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000095017022019552/pzg-20220630.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0000950170-22-019552.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0000950170-22-009017",
+      "form": "10-Q",
+      "filingDate": "2022-05-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000095017022009017/pzg-20220331.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0000950170-22-009017.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0001564590-22-003947",
+      "form": "10-Q",
+      "filingDate": "2022-02-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000156459022003947/pzg-10q_20211231.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0001564590-22-003947.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0001564590-21-055739",
+      "form": "10-Q",
+      "filingDate": "2021-11-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000156459021055739/pzg-10q_20210930.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0001564590-21-055739.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0001564590-21-048261",
+      "form": "10-K",
+      "filingDate": "2021-09-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000156459021048261/pzg-10k_20210630.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0001564590-21-048261.json"
+    },
+    {
+      "ticker": "PZG",
+      "cik": "0001629210",
+      "accessionNumber": "0001564590-21-025259",
+      "form": "10-Q",
+      "filingDate": "2021-05-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1629210/000156459021025259/pzg-10q_20210331.htm",
+      "output": "public/data/mining_disclosure_reports/PZG_0001564590-21-025259.json"
+    },
+    {
+      "ticker": "GFI",
+      "cik": "0001172724",
+      "accessionNumber": "0001172724-25-000010",
+      "form": "20-F",
+      "filingDate": "2025-03-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1172724/000117272425000010/gfi-20241231.htm",
+      "output": "public/data/mining_disclosure_reports/GFI_0001172724-25-000010.json"
+    },
+    {
+      "ticker": "GFI",
+      "cik": "0001172724",
+      "accessionNumber": "0001172724-24-000017",
+      "form": "20-F",
+      "filingDate": "2024-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1172724/000117272424000017/gfi-20231231.htm",
+      "output": "public/data/mining_disclosure_reports/GFI_0001172724-24-000017.json"
+    },
+    {
+      "ticker": "GFI",
+      "cik": "0001172724",
+      "accessionNumber": "0001172724-23-000018",
+      "form": "20-F",
+      "filingDate": "2023-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1172724/000117272423000018/gfi-20221231.htm",
+      "output": "public/data/mining_disclosure_reports/GFI_0001172724-23-000018.json"
+    },
+    {
+      "ticker": "GFI",
+      "cik": "0001172724",
+      "accessionNumber": "0001172724-22-000025",
+      "form": "20-F",
+      "filingDate": "2022-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1172724/000117272422000025/gfi-20211231.htm",
+      "output": "public/data/mining_disclosure_reports/GFI_0001172724-22-000025.json"
+    },
+    {
+      "ticker": "GFI",
+      "cik": "0001172724",
+      "accessionNumber": "0001193125-21-101972",
+      "form": "20-F",
+      "filingDate": "2021-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1172724/000119312521101972/d187841d20f.htm",
+      "output": "public/data/mining_disclosure_reports/GFI_0001193125-21-101972.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-26-000009",
+      "form": "10-K",
+      "filingDate": "2026-03-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840526000009/hymc-20251231.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-26-000009.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-25-000033",
+      "form": "10-Q",
+      "filingDate": "2025-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840525000033/hymc-20250930.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-25-000033.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-25-000026",
+      "form": "10-Q",
+      "filingDate": "2025-07-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840525000026/hymc-20250630.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-25-000026.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-25-000016",
+      "form": "10-Q",
+      "filingDate": "2025-05-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840525000016/hymc-20250331.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-25-000016.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-25-000006",
+      "form": "10-K",
+      "filingDate": "2025-03-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840525000006/hymc-20241231.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-25-000006.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-24-000029",
+      "form": "10-Q",
+      "filingDate": "2024-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840524000029/hymc-20240930.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-24-000029.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-24-000025",
+      "form": "10-Q",
+      "filingDate": "2024-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840524000025/hymc-20240630.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-24-000025.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-24-000020",
+      "form": "10-Q",
+      "filingDate": "2024-05-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840524000020/hymc-20240331.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-24-000020.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-24-000012",
+      "form": "10-K",
+      "filingDate": "2024-03-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840524000012/hymc-20231231.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-24-000012.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-23-000076",
+      "form": "10-Q",
+      "filingDate": "2023-10-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840523000076/hymc-20230930.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-23-000076.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-23-000072",
+      "form": "10-Q",
+      "filingDate": "2023-07-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840523000072/hymc-20230630.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-23-000072.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-23-000069",
+      "form": "10-Q",
+      "filingDate": "2023-05-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840523000069/hymc-20230331.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-23-000069.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-23-000038",
+      "form": "10-K",
+      "filingDate": "2023-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840523000038/hymc-20221231.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-23-000038.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-22-000081",
+      "form": "10-Q",
+      "filingDate": "2022-11-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840522000081/hymc-20220930.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-22-000081.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-22-000048",
+      "form": "10-Q",
+      "filingDate": "2022-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840522000048/hymc-20220630.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-22-000048.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-22-000021",
+      "form": "10-Q",
+      "filingDate": "2022-05-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840522000021/hymc-20220331.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-22-000021.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-22-000016",
+      "form": "10-K",
+      "filingDate": "2022-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840522000016/hymc-20211231.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-22-000016.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-21-000110",
+      "form": "10-Q",
+      "filingDate": "2021-11-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840521000110/hymc-20210930.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-21-000110.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-21-000100",
+      "form": "10-Q",
+      "filingDate": "2021-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840521000100/hymc-20210630.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-21-000100.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-21-000046",
+      "form": "10-Q",
+      "filingDate": "2021-05-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840521000046/hymc-20210331.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-21-000046.json"
+    },
+    {
+      "ticker": "HYMC",
+      "cik": "0001718405",
+      "accessionNumber": "0001718405-21-000029",
+      "form": "10-K",
+      "filingDate": "2021-03-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840521000029/hymc-20201231.htm",
+      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-21-000029.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-26-000004",
+      "form": "10-K",
+      "filingDate": "2026-02-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546626000004/cde-20251231.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-26-000004.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-25-000137",
+      "form": "10-Q",
+      "filingDate": "2025-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546625000137/cde-20250930.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-25-000137.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-25-000123",
+      "form": "10-Q",
+      "filingDate": "2025-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546625000123/cde-20250630.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-25-000123.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-25-000075",
+      "form": "10-Q",
+      "filingDate": "2025-05-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546625000075/cde-20250331.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-25-000075.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-25-000009",
+      "form": "10-K",
+      "filingDate": "2025-02-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546625000009/cde-20241231.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-25-000009.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-24-000122",
+      "form": "10-Q",
+      "filingDate": "2024-11-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546624000122/cde-20240930.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-24-000122.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-24-000095",
+      "form": "10-Q",
+      "filingDate": "2024-08-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546624000095/cde-20240630.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-24-000095.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-24-000077",
+      "form": "10-Q",
+      "filingDate": "2024-05-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546624000077/cde-20240331.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-24-000077.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-24-000008",
+      "form": "10-K",
+      "filingDate": "2024-02-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546624000008/cde-20231231.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-24-000008.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-23-000146",
+      "form": "10-Q",
+      "filingDate": "2023-11-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546623000146/cde-20230930.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-23-000146.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-23-000124",
+      "form": "10-Q",
+      "filingDate": "2023-08-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546623000124/cde-20230630.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-23-000124.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-23-000087",
+      "form": "10-Q",
+      "filingDate": "2023-05-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546623000087/cde-20230331.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-23-000087.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-23-000027",
+      "form": "10-K",
+      "filingDate": "2023-02-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546623000027/cde-20221231.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-23-000027.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-22-000131",
+      "form": "10-Q",
+      "filingDate": "2022-11-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546622000131/cde-20220930.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-22-000131.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-22-000115",
+      "form": "10-Q",
+      "filingDate": "2022-08-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546622000115/cde-20220630.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-22-000115.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-22-000094",
+      "form": "10-Q",
+      "filingDate": "2022-05-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546622000094/cde-20220331.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-22-000094.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-22-000019",
+      "form": "10-K",
+      "filingDate": "2022-02-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546622000019/cde-20211231.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-22-000019.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-21-000114",
+      "form": "10-Q",
+      "filingDate": "2021-10-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546621000114/cde-20210930.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-21-000114.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-21-000096",
+      "form": "10-Q",
+      "filingDate": "2021-07-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546621000096/cde-20210630.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-21-000096.json"
+    },
+    {
+      "ticker": "CDE",
+      "cik": "0000215466",
+      "accessionNumber": "0000215466-21-000071",
+      "form": "10-Q",
+      "filingDate": "2021-04-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546621000071/cde-20210331.htm",
+      "output": "public/data/mining_disclosure_reports/CDE_0000215466-21-000071.json"
+    },
+    {
+      "ticker": "WPM",
+      "cik": "0001323404",
+      "accessionNumber": "0001193125-25-068900",
+      "form": "40-F",
+      "filingDate": "2025-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1323404/000119312525068900/d893628d40f.htm",
+      "output": "public/data/mining_disclosure_reports/WPM_0001193125-25-068900.json"
+    },
+    {
+      "ticker": "WPM",
+      "cik": "0001323404",
+      "accessionNumber": "0001193125-24-080810",
+      "form": "40-F",
+      "filingDate": "2024-03-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1323404/000119312524080810/d741247d40f.htm",
+      "output": "public/data/mining_disclosure_reports/WPM_0001193125-24-080810.json"
+    },
+    {
+      "ticker": "WPM",
+      "cik": "0001323404",
+      "accessionNumber": "0001193125-23-088220",
+      "form": "40-F",
+      "filingDate": "2023-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1323404/000119312523088220/d261928d40f.htm",
+      "output": "public/data/mining_disclosure_reports/WPM_0001193125-23-088220.json"
+    },
+    {
+      "ticker": "WPM",
+      "cik": "0001323404",
+      "accessionNumber": "0001193125-22-091967",
+      "form": "40-F",
+      "filingDate": "2022-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1323404/000119312522091967/d639516d40f.htm",
+      "output": "public/data/mining_disclosure_reports/WPM_0001193125-22-091967.json"
+    },
+    {
+      "ticker": "WPM",
+      "cik": "0001323404",
+      "accessionNumber": "0001193125-21-102453",
+      "form": "40-F",
+      "filingDate": "2021-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1323404/000119312521102453/d91774d40f.htm",
+      "output": "public/data/mining_disclosure_reports/WPM_0001193125-21-102453.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0001193125-26-055059",
+      "form": "10-K",
+      "filingDate": "2026-02-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000119312526055059/hl-20251231.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0001193125-26-055059.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0001193125-25-267093",
+      "form": "10-Q",
+      "filingDate": "2025-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000119312525267093/hl-20250930.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0001193125-25-267093.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0000950170-25-104199",
+      "form": "10-Q",
+      "filingDate": "2025-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000095017025104199/hl-20250630.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0000950170-25-104199.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0000950170-25-062012",
+      "form": "10-Q",
+      "filingDate": "2025-05-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000095017025062012/hl-20250331.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0000950170-25-062012.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0000950170-25-019955",
+      "form": "10-K",
+      "filingDate": "2025-02-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000095017025019955/hl-20241231.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0000950170-25-019955.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0000950170-24-123004",
+      "form": "10-Q",
+      "filingDate": "2024-11-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000095017024123004/hl-20240930.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0000950170-24-123004.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0000950170-24-092450",
+      "form": "10-Q",
+      "filingDate": "2024-08-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000095017024092450/hl-20240630.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0000950170-24-092450.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0000950170-24-056495",
+      "form": "10-Q",
+      "filingDate": "2024-05-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000095017024056495/hl-20240331.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0000950170-24-056495.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0000950170-24-015673",
+      "form": "10-K",
+      "filingDate": "2024-02-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000095017024015673/hl-20231231.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0000950170-24-015673.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0000950170-23-059922",
+      "form": "10-Q",
+      "filingDate": "2023-11-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000095017023059922/hl-20230930.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0000950170-23-059922.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0000950170-23-040271",
+      "form": "10-Q",
+      "filingDate": "2023-08-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000095017023040271/hl-20230630.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0000950170-23-040271.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0000950170-23-019998",
+      "form": "10-Q",
+      "filingDate": "2023-05-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000095017023019998/hl-20230331.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0000950170-23-019998.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0000950170-23-003174",
+      "form": "10-K",
+      "filingDate": "2023-02-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000095017023003174/hl-20221231.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0000950170-23-003174.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0001193125-22-281241",
+      "form": "10-Q",
+      "filingDate": "2022-11-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000119312522281241/d514140d10q.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0001193125-22-281241.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0001437749-22-018972",
+      "form": "10-Q",
+      "filingDate": "2022-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000143774922018972/hl20220630_10q.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0001437749-22-018972.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0001437749-22-011641",
+      "form": "10-Q",
+      "filingDate": "2022-05-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000143774922011641/hl20220331_10q.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0001437749-22-011641.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0001437749-22-004164",
+      "form": "10-K",
+      "filingDate": "2022-02-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000143774922004164/hl20211231_10k.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0001437749-22-004164.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0001437749-21-025360",
+      "form": "10-Q",
+      "filingDate": "2021-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000143774921025360/hl20210930_10q.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0001437749-21-025360.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0001437749-21-018712",
+      "form": "10-Q",
+      "filingDate": "2021-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000143774921018712/hl20210630_10q.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0001437749-21-018712.json"
+    },
+    {
+      "ticker": "HL",
+      "cik": "0000719413",
+      "accessionNumber": "0001437749-21-011073",
+      "form": "10-Q",
+      "filingDate": "2021-05-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000143774921011073/hl20210331_10q.htm",
+      "output": "public/data/mining_disclosure_reports/HL_0001437749-21-011073.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-26-006059",
+      "form": "10-K",
+      "filingDate": "2026-02-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774926006059/slv20251231_10k.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-26-006059.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-25-033436",
+      "form": "10-Q",
+      "filingDate": "2025-11-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774925033436/slv20250930_10q.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-25-033436.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-25-024885",
+      "form": "10-Q",
+      "filingDate": "2025-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774925024885/slv20250630_10q.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-25-024885.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-25-015169",
+      "form": "10-Q",
+      "filingDate": "2025-05-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774925015169/slv20250331_10q.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-25-015169.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-25-004259",
+      "form": "10-K",
+      "filingDate": "2025-02-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774925004259/slv20241231_10k.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-25-004259.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-24-033818",
+      "form": "10-Q",
+      "filingDate": "2024-11-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774924033818/slv20240930c_10q.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-24-033818.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-24-025404",
+      "form": "10-Q",
+      "filingDate": "2024-08-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774924025404/slv20240630c_10q.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-24-025404.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-24-015393",
+      "form": "10-Q",
+      "filingDate": "2024-05-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774924015393/slv20240331c_10q.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-24-015393.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-24-004672",
+      "form": "10-K",
+      "filingDate": "2024-02-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774924004672/slv20231231c_10k.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-24-004672.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-23-030198",
+      "form": "10-Q",
+      "filingDate": "2023-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774923030198/slv20230930_10q.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-23-030198.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-23-022119",
+      "form": "10-Q",
+      "filingDate": "2023-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774923022119/slv20230630c_10q.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-23-022119.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-23-012785",
+      "form": "10-Q",
+      "filingDate": "2023-05-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774923012785/slv20230331_10q.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-23-012785.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-23-004332",
+      "form": "10-K",
+      "filingDate": "2023-02-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774923004332/slv20221231_10k.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-23-004332.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-22-025350",
+      "form": "10-Q",
+      "filingDate": "2022-11-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774922025350/slv20220930_10q.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-22-025350.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-22-018859",
+      "form": "10-Q",
+      "filingDate": "2022-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774922018859/slv20220630_10q.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-22-018859.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-22-011362",
+      "form": "10-Q",
+      "filingDate": "2022-05-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774922011362/slv20220331_10q.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-22-011362.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-22-004900",
+      "form": "10-K",
+      "filingDate": "2022-03-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774922004900/slv20211231_10k.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-22-004900.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-21-025051",
+      "form": "10-Q",
+      "filingDate": "2021-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774921025051/slv20210930_10q.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-21-025051.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-21-018892",
+      "form": "10-Q",
+      "filingDate": "2021-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774921018892/slv20210630_10q.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-21-018892.json"
+    },
+    {
+      "ticker": "SLV",
+      "cik": "0001330568",
+      "accessionNumber": "0001437749-21-010721",
+      "form": "10-Q",
+      "filingDate": "2021-05-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774921010721/slv20210331_10q.htm",
+      "output": "public/data/mining_disclosure_reports/SLV_0001437749-21-010721.json"
+    },
+    {
+      "ticker": "SIVR",
+      "cik": "0001450922",
+      "accessionNumber": "0001999371-26-004884",
+      "form": "10-K",
+      "filingDate": "2026-03-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1450922/000199937126004884/sivr-10k_123125.htm",
+      "output": "public/data/mining_disclosure_reports/SIVR_0001999371-26-004884.json"
+    },
+    {
+      "ticker": "SIVR",
+      "cik": "0001450922",
+      "accessionNumber": "0001839882-25-012450",
+      "form": "10-K",
+      "filingDate": "2025-02-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1450922/000183988225012450/sivr-10k_123124.htm",
+      "output": "public/data/mining_disclosure_reports/SIVR_0001839882-25-012450.json"
+    },
+    {
+      "ticker": "SIVR",
+      "cik": "0001450922",
+      "accessionNumber": "0001999371-24-002930",
+      "form": "10-K",
+      "filingDate": "2024-02-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1450922/000199937124002930/sivr-10k_123123.htm",
+      "output": "public/data/mining_disclosure_reports/SIVR_0001999371-24-002930.json"
+    },
+    {
+      "ticker": "SIVR",
+      "cik": "0001450922",
+      "accessionNumber": "0001387131-23-002698",
+      "form": "10-K",
+      "filingDate": "2023-03-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1450922/000138713123002698/sivr-10k_123122.htm",
+      "output": "public/data/mining_disclosure_reports/SIVR_0001387131-23-002698.json"
+    },
+    {
+      "ticker": "SIVR",
+      "cik": "0001450922",
+      "accessionNumber": "0001387131-22-002621",
+      "form": "10-K",
+      "filingDate": "2022-03-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1450922/000138713122002621/sivr-10k_123121.htm",
+      "output": "public/data/mining_disclosure_reports/SIVR_0001387131-22-002621.json"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
     "cik": "0000002809",
     "ticker": "AEM",
     "name": "Agnico Eagle",
-    "asOf": "2026-03-03T08:37:40.347Z",
+    "asOf": "2026-03-04T02:16:48.608Z",
     "revenue": {
       "tag": "Revenues",
       "unit": "USD",
@@ -80,7 +80,7 @@
     "cik": "0001629210",
     "ticker": "PZG",
     "name": "Paramount Gold Nevada",
-    "asOf": "2026-03-03T08:37:41.149Z",
+    "asOf": "2026-03-04T02:16:49.310Z",
     "revenue": {
       "tag": "Revenues",
       "unit": "USD",
@@ -166,7 +166,7 @@
     "cik": "0001172724",
     "ticker": "GFI",
     "name": "Gold Fields",
-    "asOf": "2026-03-03T08:37:42.195Z",
+    "asOf": "2026-03-04T02:16:50.236Z",
     "revenue": null,
     "netIncome": {
       "tag": "NetIncomeLoss",
@@ -243,7 +243,7 @@
     "cik": "0001718405",
     "ticker": "HYMC",
     "name": "Hycroft Mining",
-    "asOf": "2026-03-03T08:37:43.181Z",
+    "asOf": "2026-03-04T02:16:51.242Z",
     "revenue": {
       "tag": "Revenues",
       "unit": "USD",
@@ -257,79 +257,79 @@
     "netIncome": {
       "tag": "NetIncomeLoss",
       "unit": "USD",
-      "end": "2025-09-30",
+      "end": "2025-12-31",
       "fy": 2025,
-      "fp": "Q3",
-      "form": "10-Q",
-      "filed": "2025-10-28",
-      "val": -32872000
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2026-03-03",
+      "val": -40664000
     },
     "assets": {
       "tag": "Assets",
       "unit": "USD",
-      "end": "2025-09-30",
+      "end": "2025-12-31",
       "fy": 2025,
-      "fp": "Q3",
-      "form": "10-Q",
-      "filed": "2025-10-28",
-      "val": 230591000
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2026-03-03",
+      "val": 263027000
     },
     "liabilities": {
       "tag": "Liabilities",
       "unit": "USD",
-      "end": "2025-09-30",
+      "end": "2025-12-31",
       "fy": 2025,
-      "fp": "Q3",
-      "form": "10-Q",
-      "filed": "2025-10-28",
-      "val": 183106000
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2026-03-03",
+      "val": 49332000
     },
     "cashFlowOps": {
       "tag": "NetCashProvidedByUsedInOperatingActivities",
       "unit": "USD",
-      "end": "2025-09-30",
+      "end": "2025-12-31",
       "fy": 2025,
-      "fp": "Q3",
-      "form": "10-Q",
-      "filed": "2025-10-28",
-      "val": -22157000
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2026-03-03",
+      "val": -82874000
     },
     "epsBasic": {
       "tag": "EarningsPerShareBasic",
       "unit": "USD/shares",
-      "end": "2025-09-30",
+      "end": "2025-12-31",
       "fy": 2025,
-      "fp": "Q3",
-      "form": "10-Q",
-      "filed": "2025-10-28",
-      "val": -1.04
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2026-03-03",
+      "val": -0.94
     },
     "epsDiluted": {
       "tag": "EarningsPerShareDiluted",
       "unit": "USD/shares",
-      "end": "2025-09-30",
+      "end": "2025-12-31",
       "fy": 2025,
-      "fp": "Q3",
-      "form": "10-Q",
-      "filed": "2025-10-28",
-      "val": -1.04
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2026-03-03",
+      "val": -0.94
     },
     "sharesOutstanding": {
       "tag": "CommonStockSharesOutstanding",
       "unit": "shares",
-      "end": "2025-09-30",
+      "end": "2025-12-31",
       "fy": 2025,
-      "fp": "Q3",
-      "form": "10-Q",
-      "filed": "2025-10-28",
-      "val": 54583513
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2026-03-03",
+      "val": 83025384
     }
   },
   {
     "cik": "0000215466",
     "ticker": "CDE",
     "name": "Coeur Mining",
-    "asOf": "2026-03-03T08:37:44.378Z",
+    "asOf": "2026-03-04T02:16:52.413Z",
     "revenue": {
       "tag": "Revenues",
       "unit": "USD",
@@ -406,7 +406,7 @@
     "cik": "0000719413",
     "ticker": "HL",
     "name": "Hecla Mining",
-    "asOf": "2026-03-03T08:37:46.242Z",
+    "asOf": "2026-03-04T02:16:54.460Z",
     "revenue": {
       "tag": "Revenues",
       "unit": "USD",
@@ -492,7 +492,7 @@
     "cik": "0001330568",
     "ticker": "SLV",
     "name": "iShares Silver Trust",
-    "asOf": "2026-03-03T08:37:48.146Z",
+    "asOf": "2026-03-04T02:16:56.202Z",
     "revenue": {
       "tag": "Revenues",
       "unit": "USD",
@@ -560,7 +560,7 @@
     "cik": "0001450922",
     "ticker": "SIVR",
     "name": "abrdn Physical Silver Shares",
-    "asOf": "2026-03-03T08:37:49.112Z",
+    "asOf": "2026-03-04T02:16:57.156Z",
     "revenue": null,
     "netIncome": {
       "tag": "NetIncomeLoss",
