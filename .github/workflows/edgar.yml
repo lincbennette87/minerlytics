@@ -43,6 +43,9 @@ jobs:
       - name: Pull Submissions
         run: npm run edgar:submissions
 
+      - name: Extract mining disclosure from primary filings
+        run: npm run edgar:mining-extract
+
       - name: Pull Facts
         run: npm run edgar:facts
 
