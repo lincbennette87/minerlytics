@@ -1,60 +1,43 @@
-name: Import Mining Disclosures to D1
+- name: Import one JSON file to Cloudflare endpoint
+  env:
+    IMPORT_URL: ${{ secrets.CF_IMPORT_URL }}
+    IMPORT_KEY: ${{ secrets.CF_IMPORT_KEY }}
+  run: |
+    python3 - <<'PY'
+import os
+import json
+import glob
+import urllib.request
+import urllib.error
 
-on:
-  workflow_dispatch:
+files = sorted(glob.glob("public/data/mining_disclosure_reports/*.json"))
+print("Found", len(files), "files")
 
-jobs:
-  import-json:
-    runs-on: ubuntu-latest
+for path in files[:1]:
+    print("Processing:", path)
 
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
 
-      - name: Import one JSON file to Cloudflare endpoint
-        env:
-          IMPORT_URL: ${{ secrets.CF_IMPORT_URL }}
-          IMPORT_KEY: ${{ secrets.CF_IMPORT_KEY }}
-        run: |
-          python3 - <<'PY'
-          import os, json, glob, urllib.request, urllib.error
+    req = urllib.request.Request(
+        os.environ["IMPORT_URL"],
+        data=json.dumps(data).encode("utf-8"),
+        headers={
+            "Content-Type": "application/json",
+            "x-import-key": os.environ["IMPORT_KEY"],
+            "User-Agent": "GitHub-Minerlytics-Importer"
+        },
+        method="POST"
+    )
 
-          files = sorted(glob.glob("public/data/mining_disclosure_reports/*.json"))
-          print(f"Found {len(files)} files")
-          print("IMPORT_URL =", os.environ["IMPORT_URL"])
-
-          for path in files[:1]:
-              with open(path, "r", encoding="utf-8") as f:
-                  data = json.load(f)
-
-              req = urllib.request.Request(
-                  os.environ["IMPORT_URL"],
-                  data=json.dumps(data).encode("utf-8"),
-                  headers={
-                      "Content-Type": "application/json",
-                      "x-import-key": os.environ["IMPORT_KEY"],
-                      "User-Agent": "GitHub-Actions-Minerlytics-Importer"
-                  },
-                  method="POST"
-              )
-
-              try:
-                  with urllib.request.urlopen(req) as resp:
-                      body = resp.read().decode("utf-8")
-                      print("SUCCESS")
-                      print(body)
-              except urllib.error.HTTPError as e:
-                  body = e.read().decode("utf-8", errors="replace")
-                  print(f"FAILED: HTTP {e.code}")
-                  print(body)
-                  raise
-          PY              )
-
-              try:
-                  with urllib.request.urlopen(req) as resp:
-                      body = resp.read().decode("utf-8")
-                      print(f"OK {path}: {body[:300]}")
-              except Exception as e:
-                  print(f"FAILED {path}: {e}")
-                  raise
-          PY
+    try:
+        with urllib.request.urlopen(req) as resp:
+            body = resp.read().decode("utf-8")
+            print("SUCCESS")
+            print(body)
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")
+        print("FAILED:", e.code)
+        print(body)
+        raise
+PY
