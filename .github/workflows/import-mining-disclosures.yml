@@ -11,18 +11,19 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Import JSON files to Cloudflare endpoint
+      - name: Import one JSON file to Cloudflare endpoint
         env:
           IMPORT_URL: ${{ secrets.CF_IMPORT_URL }}
           IMPORT_KEY: ${{ secrets.CF_IMPORT_KEY }}
         run: |
           python3 - <<'PY'
-          import os, json, glob, urllib.request
+          import os, json, glob, urllib.request, urllib.error
 
           files = sorted(glob.glob("public/data/mining_disclosure_reports/*.json"))
           print(f"Found {len(files)} files")
+          print("IMPORT_URL =", os.environ["IMPORT_URL"])
 
-          for path in files:
+          for path in files[:1]:
               with open(path, "r", encoding="utf-8") as f:
                   data = json.load(f)
 
@@ -31,10 +32,23 @@ jobs:
                   data=json.dumps(data).encode("utf-8"),
                   headers={
                       "Content-Type": "application/json",
-                      "x-import-key": os.environ["IMPORT_KEY"]
+                      "x-import-key": os.environ["IMPORT_KEY"],
+                      "User-Agent": "GitHub-Actions-Minerlytics-Importer"
                   },
                   method="POST"
               )
+
+              try:
+                  with urllib.request.urlopen(req) as resp:
+                      body = resp.read().decode("utf-8")
+                      print("SUCCESS")
+                      print(body)
+              except urllib.error.HTTPError as e:
+                  body = e.read().decode("utf-8", errors="replace")
+                  print(f"FAILED: HTTP {e.code}")
+                  print(body)
+                  raise
+          PY              )
 
               try:
                   with urllib.request.urlopen(req) as resp:
