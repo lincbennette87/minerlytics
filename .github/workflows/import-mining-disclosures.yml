@@ -29,7 +29,7 @@ jobs:
           if not files:
               raise Exception("No JSON files found in public/data/mining_disclosure_reports/")
 
-          for path in files[:1]:
+          for path in files:
               print("Processing:", path)
 
               with open(path, "r", encoding="utf-8") as f:
