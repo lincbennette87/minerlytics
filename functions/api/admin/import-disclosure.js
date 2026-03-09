@@ -3,14 +3,36 @@ export async function onRequestPost(context) {
 
   const auth = request.headers.get("x-import-key");
 
-  return new Response(JSON.stringify({
-    hasHeader: !!auth,
-    headerLength: auth ? auth.length : 0,
-    hasEnvKey: !!env.IMPORT_KEY,
-    envKeyLength: env.IMPORT_KEY ? env.IMPORT_KEY.length : 0,
-    headerPreview: auth ? auth.slice(0, 4) : null,
-    envPreview: env.IMPORT_KEY ? env.IMPORT_KEY.slice(0, 4) : null
-  }), {
+  if (!auth) {
+    return new Response(JSON.stringify({
+      error: "Missing x-import-key header"
+    }), {
+      status: 403,
+      headers: { "content-type": "application/json" }
+    });
+  }
+
+  if (!env.IMPORT_KEY) {
+    return new Response(JSON.stringify({
+      error: "IMPORT_KEY not set in Cloudflare env"
+    }), {
+      status: 403,
+      headers: { "content-type": "application/json" }
+    });
+  }
+
+  if (auth !== env.IMPORT_KEY) {
+    return new Response(JSON.stringify({
+      error: "x-import-key does not match IMPORT_KEY",
+      headerLength: auth.length,
+      envLength: env.IMPORT_KEY.length
+    }), {
+      status: 403,
+      headers: { "content-type": "application/json" }
+    });
+  }
+
+  return new Response(JSON.stringify({ ok: true }), {
     headers: { "content-type": "application/json" }
   });
 }
