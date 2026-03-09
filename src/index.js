@@ -96,6 +96,98 @@ function buildTranscriptContext(results) {
   });
 }
 
+/* ============================================================
+✅ ADDED: mining disclosure helpers for assistant + UI
+Uses mining_reports + mining_report_blocks
+============================================================ */
+function buildDisclosureContext(results) {
+  return (results || []).map((r, i) => {
+    const sid = `SEC${i + 1}`;
+    return {
+      sid,
+      ticker: r.ticker || "",
+      accession_number: r.accession_number || "",
+      filing_date: r.filing_date || "",
+      heading: r.heading || "",
+      url: r.source_url || "",
+      text: String(r.text_content || "").replace(/\s+/g, " ").trim(),
+    };
+  });
+}
+
+async function getMiningDisclosureMatches(env, ticker, q, limit = 20) {
+  const safeLimit = Math.min(Math.max(Number(limit || 20), 1), 50);
+  const query = String(q || "").trim();
+
+  let rows;
+
+  if (ticker && query) {
+    rows = await env.DB.prepare(
+      `
+        SELECT
+          r.ticker,
+          r.accession_number,
+          r.filing_date,
+          r.source_url,
+          b.heading,
+          b.text_content
+        FROM mining_report_blocks b
+        JOIN mining_reports r
+          ON r.id = b.report_id
+        WHERE r.ticker = ?
+          AND (
+            b.text_content LIKE '%' || ? || '%'
+            OR b.heading LIKE '%' || ? || '%'
+          )
+        ORDER BY r.filing_date DESC, b.block_index ASC
+        LIMIT ?
+      `
+    ).bind(ticker, query, query, safeLimit).all();
+  } else if (ticker) {
+    rows = await env.DB.prepare(
+      `
+        SELECT
+          r.ticker,
+          r.accession_number,
+          r.filing_date,
+          r.source_url,
+          b.heading,
+          b.text_content
+        FROM mining_report_blocks b
+        JOIN mining_reports r
+          ON r.id = b.report_id
+        WHERE r.ticker = ?
+        ORDER BY r.filing_date DESC, b.block_index ASC
+        LIMIT ?
+      `
+    ).bind(ticker, safeLimit).all();
+  } else if (query) {
+    rows = await env.DB.prepare(
+      `
+        SELECT
+          r.ticker,
+          r.accession_number,
+          r.filing_date,
+          r.source_url,
+          b.heading,
+          b.text_content
+        FROM mining_report_blocks b
+        JOIN mining_reports r
+          ON r.id = b.report_id
+        WHERE
+          b.text_content LIKE '%' || ? || '%'
+          OR b.heading LIKE '%' || ? || '%'
+        ORDER BY r.filing_date DESC, b.block_index ASC
+        LIMIT ?
+      `
+    ).bind(query, query, safeLimit).all();
+  } else {
+    rows = { results: [] };
+  }
+
+  return buildDisclosureContext((rows && rows.results) || []);
+}
+
 async function runAssistant(env, question, context) {
   const system =
 "You are Minerlytics AI.\n" +
@@ -166,6 +258,10 @@ async function runAssistant(env, question, context) {
 "TRANSCRIPT RULES:\n" +
 "- If transcript content is used and exists in DATA.youtube_transcripts, cite sid and url.\n" +
 "- Do not cite transcripts you did not use.\n\n" +
+
+"SEC / FILING RULES:\n" +
+"- If mining disclosure content is used and exists in DATA.sec_filings, cite sid and url.\n" +
+"- Do not cite filings you did not use.\n\n" +
 
 "The disclaimer must be exactly:\n" +
 "\"this information is for research purposes only and does not constitute investment advice.\"";
@@ -472,7 +568,18 @@ VALUES (?, ?, ?, ?)`
 
         const rows = await env.DB.prepare(sql).bind(...bindings).all();
         const results = buildTranscriptContext(rows.results || []);
-        return json({ ok: true, q, symbol: symbol || null, results }, 200);
+        const filingResults = await getMiningDisclosureMatches(env, symbol || null, q, limit);
+
+        return json(
+          {
+            ok: true,
+            q,
+            symbol: symbol || null,
+            results,
+            sec_filing_matches: filingResults,
+          },
+          200
+        );
       }
 
       /* ============================================================
@@ -527,12 +634,14 @@ Body: { q: "...", symbol: "AEM" (optional), limit: 20 }
 
         const rows = await env.DB.prepare(sql).bind(...bindings).all();
         const transcriptMatches = buildTranscriptContext(rows.results || []);
+        const filingMatches = await getMiningDisclosureMatches(env, symbol || null, q, limit);
 
         // Build assistant context for LLM
         const context = {
           question: q,
           symbol: symbol || null,
           youtube_transcripts: transcriptMatches,
+          sec_filings: filingMatches,
         };
 
         const answer = await runAssistant(env, q, context);
@@ -544,9 +653,29 @@ Body: { q: "...", symbol: "AEM" (optional), limit: 20 }
             symbol: symbol || null,
             answer,
             youtube_matches: transcriptMatches, // ✅ UI can show these
+            sec_filing_matches: filingMatches,
           },
           200
         );
+      }
+
+      /* ============================================================
+✅ ADDED: GET /api/sec/search?q=...&symbol=...&limit=...
+- Direct SEC filing block search for UI/debugging
+============================================================ */
+      if (url.pathname === "/api/sec/search" && request.method === "GET") {
+        const auth = requireApiKey(request, env);
+        if (!auth.ok) return auth.res;
+
+        const q = String(url.searchParams.get("q") || "").trim();
+        const symbol = String(url.searchParams.get("symbol") || "").trim().toUpperCase();
+        const limit = Math.min(
+          Math.max(parseInt(url.searchParams.get("limit") || "20", 10), 1),
+          50
+        );
+
+        const results = await getMiningDisclosureMatches(env, symbol || null, q, limit);
+        return json({ ok: true, q, symbol: symbol || null, results }, 200);
       }
 
       // ---- your existing routes continue unchanged ----
@@ -667,6 +796,14 @@ Body: { q: "...", symbol: "AEM" (optional), limit: 20 }
           ytMatches = [];
         }
 
+        let filingMatches = [];
+        try {
+          const filingQ = question || ticker;
+          filingMatches = await getMiningDisclosureMatches(env, ticker, filingQ, 25);
+        } catch (e) {
+          filingMatches = [];
+        }
+
         const context = {
           symbol,
           ticker,
@@ -678,12 +815,20 @@ Body: { q: "...", symbol: "AEM" (optional), limit: 20 }
 
           // ✅ ADDED: transcripts for the assistant to use + cite
           youtube_transcripts: ytMatches,
+
+          // ✅ ADDED: SEC filing blocks for the assistant to use + cite
+          sec_filings: filingMatches,
         };
 
         const answer = await runAssistant(env, question, context);
 
         // ✅ ADDED: include transcript matches in the response for UI rendering
-        return json({ symbol, answer, youtube_matches: ytMatches });
+        return json({
+          symbol,
+          answer,
+          youtube_matches: ytMatches,
+          sec_filing_matches: filingMatches,
+        });
       }
 
       if (url.pathname === "/api/debug-lookup" && request.method === "GET") {
