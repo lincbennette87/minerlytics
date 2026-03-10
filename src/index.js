@@ -442,8 +442,8 @@ return null;
 }
 
 export default {
-async fetch(request, env) {
-try {
+  async fetch(request, env) {
+    try {
       const url = new URL(request.url);
 
       if (request.method === "OPTIONS" && url.pathname === "/api/education-portal-chat") {
@@ -456,9 +456,13 @@ try {
         return handleEducationPortalChat(request, env);
       }
 
-if (url.pathname === "/api/health") {
-return text("Minerlytics DEV is running ✅ v2026");
-}
+      if (url.pathname === "/api/health") {
+        return text("Minerlytics DEV is running ✅ v2026");
+      }
+
+      if (url.pathname === "/api/education-portal-chat" && request.method === "GET") {
+        return json({ ok: true, route: "education-portal-chat" }, 200);
+      }
 
 if (url.pathname === "/api/d1-test") {
 const r = await env.DB.prepare("SELECT COUNT(*) as n FROM daily_ohlcv").first();
