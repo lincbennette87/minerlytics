@@ -150,7 +150,7 @@
 
     .layout{
       display:grid;
-      grid-template-columns: minmax(0, 1.1fr) minmax(380px, 0.9fr);
+      grid-template-columns: minmax(0, 1.18fr) minmax(320px, 390px);
       gap: 18px;
       align-items: start;
     }
@@ -185,11 +185,6 @@
       border-radius: 1px;
     }
 
-    .indent{
-      margin-top:6px;
-      padding-left: 18px;
-    }
-
     .quick-list{
       list-style: disc;
       padding-left: 18px;
@@ -219,44 +214,53 @@
       position: sticky;
       top: 88px;
       overflow: hidden;
+      padding: 16px;
+      max-width: 390px;
+      width: 100%;
+      justify-self: end;
     }
 
     .assistantHeader{
       display:flex;
-      align-items:center;
+      align-items:flex-start;
       justify-content:space-between;
-      gap:12px;
-      margin-bottom: 14px;
+      gap:10px;
+      margin-bottom: 12px;
     }
 
     .assistantTitleWrap{
       display:flex;
       align-items:center;
-      gap:12px;
+      gap:10px;
+      min-width: 0;
     }
 
     .assistantTitle{
-      font-size: 18px;
+      font-size: 15px;
       font-weight: 800;
       color:#fff;
       margin:0;
+      line-height: 1.3;
     }
 
     .assistantSub{
-      margin: 2px 0 0;
-      font-size: 13px;
+      margin: 3px 0 0;
+      font-size: 12px;
       color: var(--muted);
+      line-height: 1.45;
     }
 
     .thinkingOrb{
       position: relative;
-      width: 44px;
-      height: 44px;
+      width: 36px;
+      height: 36px;
       border-radius: 50%;
       background: radial-gradient(circle at 30% 30%, rgba(124,92,255,.35), rgba(57,230,200,.12) 55%, rgba(255,255,255,.02));
       border: 1px solid rgba(255,255,255,.10);
-      box-shadow: 0 0 30px rgba(124,92,255,.18), inset 0 0 20px rgba(255,255,255,.03);
+      box-shadow: 0 0 20px rgba(124,92,255,.12), inset 0 0 14px rgba(255,255,255,.03);
       flex: 0 0 auto;
+      opacity: .45;
+      transition: opacity .25s ease, transform .25s ease, box-shadow .25s ease;
     }
 
     .thinkingOrb::before,
@@ -264,89 +268,138 @@
     .thinkingDot{
       content:"";
       position:absolute;
-      width:7px;
-      height:7px;
+      width:6px;
+      height:6px;
       border-radius:50%;
       background: linear-gradient(135deg, var(--accent2), #fff);
-      box-shadow: 0 0 10px rgba(57,230,200,.6);
+      box-shadow: 0 0 8px rgba(57,230,200,.55);
+      opacity: 0;
+      transition: opacity .25s ease;
     }
 
     .thinkingOrb::before{
       top: 2px;
-      left: 18px;
-      animation: orbit1 1.5s linear infinite;
+      left: 14px;
     }
 
     .thinkingOrb::after{
-      top: 18px;
+      top: 14px;
       right: 1px;
-      animation: orbit2 1.8s linear infinite;
     }
 
     .thinkingDot{
-      top: 28px;
-      left: 4px;
+      top: 23px;
+      left: 3px;
+    }
+
+    .thinkingOrb.isThinking{
+      opacity: 1;
+      transform: scale(1.03);
+      box-shadow: 0 0 26px rgba(124,92,255,.25), inset 0 0 18px rgba(255,255,255,.04);
+    }
+
+    .thinkingOrb.isThinking::before,
+    .thinkingOrb.isThinking::after,
+    .thinkingOrb.isThinking .thinkingDot{
+      opacity: 1;
+    }
+
+    .thinkingOrb.isThinking::before{
+      animation: orbit1 1.5s linear infinite;
+    }
+
+    .thinkingOrb.isThinking::after{
+      animation: orbit2 1.8s linear infinite;
+    }
+
+    .thinkingOrb.isThinking .thinkingDot{
       animation: orbit3 2.1s linear infinite;
     }
 
     @keyframes orbit1{
-      from{ transform: rotate(0deg) translateX(14px) rotate(0deg); }
-      to{ transform: rotate(360deg) translateX(14px) rotate(-360deg); }
+      from{ transform: rotate(0deg) translateX(11px) rotate(0deg); }
+      to{ transform: rotate(360deg) translateX(11px) rotate(-360deg); }
     }
 
     @keyframes orbit2{
-      from{ transform: rotate(0deg) translateX(12px) rotate(0deg); }
-      to{ transform: rotate(-360deg) translateX(12px) rotate(360deg); }
+      from{ transform: rotate(0deg) translateX(10px) rotate(0deg); }
+      to{ transform: rotate(-360deg) translateX(10px) rotate(360deg); }
     }
 
     @keyframes orbit3{
-      from{ transform: rotate(0deg) translateX(10px) rotate(0deg); opacity:.8; }
+      from{ transform: rotate(0deg) translateX(9px) rotate(0deg); opacity:.85; }
       50%{ opacity:1; }
-      to{ transform: rotate(360deg) translateX(10px) rotate(-360deg); opacity:.8; }
+      to{ transform: rotate(360deg) translateX(9px) rotate(-360deg); opacity:.85; }
     }
 
     .assistantState{
       display:inline-flex;
       align-items:center;
       gap:8px;
-      padding:8px 12px;
+      padding:7px 10px;
       border-radius:999px;
       background: rgba(255,255,255,.03);
       border: 1px solid rgba(255,255,255,.07);
       color: var(--muted);
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 700;
+      white-space: nowrap;
     }
 
     .assistantState .pulse{
-      width:8px;
-      height:8px;
+      width:7px;
+      height:7px;
       border-radius:50%;
       background: var(--success);
-      box-shadow: 0 0 12px rgba(126,240,168,.6);
+      box-shadow: 0 0 10px rgba(126,240,168,.55);
+    }
+
+    .chips{
+      display:flex;
+      flex-wrap:wrap;
+      gap:6px;
+      margin-bottom: 10px;
+    }
+
+    .chip{
+      border: 1px solid rgba(255,255,255,.08);
+      background: rgba(255,255,255,.03);
+      color: var(--muted);
+      border-radius:999px;
+      padding: 7px 10px;
+      font-size: 11px;
+      cursor:pointer;
+    }
+
+    .chip:hover{
+      color:#fff;
+      border-color: rgba(124,92,255,.30);
+      background: rgba(124,92,255,.08);
     }
 
     .chatWindow{
       border:1px solid rgba(255,255,255,.08);
       background: rgba(255,255,255,.02);
-      border-radius: 16px;
-      min-height: 420px;
-      max-height: 58vh;
+      border-radius: 14px;
+      min-height: 270px;
+      max-height: 360px;
       overflow:auto;
-      padding: 14px;
+      padding: 12px;
       display:flex;
       flex-direction:column;
-      gap: 12px;
+      gap: 10px;
+      margin-top: 10px;
     }
 
     .msg{
       max-width: 92%;
-      padding: 12px 14px;
-      border-radius: 16px;
-      line-height: 1.55;
+      padding: 10px 12px;
+      border-radius: 14px;
+      line-height: 1.5;
       white-space: pre-wrap;
       word-wrap: break-word;
       border:1px solid rgba(255,255,255,.06);
+      font-size: 13px;
     }
 
     .msg.user{
@@ -362,34 +415,36 @@
     }
 
     .msgMeta{
-      margin-top: 8px;
-      font-size: 11px;
+      margin-top: 7px;
+      font-size: 10px;
       color: rgba(234,240,255,.55);
     }
 
     .chatComposer{
-      margin-top: 14px;
+      margin-top: 12px;
       display:grid;
-      gap:10px;
+      gap:8px;
     }
 
     .inputWrap{
       display:flex;
-      gap:10px;
+      gap:8px;
       align-items:flex-end;
     }
 
     .chatInput{
       width:100%;
-      min-height: 110px;
+      min-height: 72px;
+      max-height: 130px;
       resize: vertical;
-      border-radius: 16px;
+      border-radius: 14px;
       border:1px solid rgba(255,255,255,.08);
       background: rgba(255,255,255,.03);
       color:#fff;
-      padding: 14px 16px;
+      padding: 12px 14px;
       font: inherit;
-      line-height: 1.5;
+      font-size: 13px;
+      line-height: 1.45;
       outline: none;
     }
 
@@ -399,7 +454,7 @@
 
     .btnRow{
       display:flex;
-      gap:10px;
+      gap:8px;
       flex-wrap:wrap;
     }
 
@@ -407,17 +462,17 @@
       appearance:none;
       border:none;
       cursor:pointer;
-      border-radius: 14px;
-      padding: 12px 16px;
+      border-radius: 12px;
+      padding: 10px 13px;
       font-weight: 700;
-      font-size: 14px;
+      font-size: 13px;
       transition: .2s ease;
     }
 
     .btnPrimary{
       background: linear-gradient(135deg, var(--accent), var(--accent2));
       color:#fff;
-      box-shadow: 0 10px 24px rgba(124,92,255,.24);
+      box-shadow: 0 8px 18px rgba(124,92,255,.22);
     }
 
     .btnPrimary:hover{ transform: translateY(-1px); }
@@ -429,48 +484,33 @@
     }
 
     .smallHint{
-      font-size: 12px;
+      font-size: 11px;
       color: var(--muted);
-      line-height: 1.5;
-    }
-
-    .chips{
-      display:flex;
-      flex-wrap:wrap;
-      gap:8px;
-    }
-
-    .chip{
-      border: 1px solid rgba(255,255,255,.08);
-      background: rgba(255,255,255,.03);
-      color: var(--muted);
-      border-radius:999px;
-      padding: 8px 12px;
-      font-size: 12px;
-      cursor:pointer;
+      line-height: 1.45;
     }
 
     .typing{
       display:none;
       align-items:center;
       gap:10px;
-      padding: 12px 14px;
-      border-radius: 16px;
+      padding: 10px 12px;
+      border-radius: 14px;
       width: fit-content;
       background: rgba(255,255,255,.035);
       border:1px solid rgba(255,255,255,.06);
+      font-size: 12px;
     }
 
     .typing.show{ display:flex; }
 
     .typingDots{
       display:flex;
-      gap:6px;
+      gap:5px;
     }
 
     .typingDots span{
-      width:7px;
-      height:7px;
+      width:6px;
+      height:6px;
       border-radius:50%;
       background: rgba(255,255,255,.7);
       animation: bounce 1.2s infinite ease-in-out;
@@ -492,6 +532,8 @@
       .assistantCard{
         position: relative;
         top: 0;
+        max-width: 100%;
+        justify-self: stretch;
       }
     }
 
@@ -608,7 +650,7 @@
             </div>
             <div>
               <h2 class="assistantTitle">Minerlytics Education Portal AI Assistant</h2>
-              <p class="assistantSub">Type your question and ask follow-ups based on transcript_text from your D1 table.</p>
+              <p class="assistantSub">Ask questions from transcript_text in your Cloudflare D1 Education_Portal table.</p>
             </div>
           </div>
 
@@ -619,26 +661,26 @@
         </div>
 
         <div class="chips">
-          <button class="chip" data-prompt="Summarize the main lessons across the education transcripts.">Summarize lessons</button>
-          <button class="chip" data-prompt="What are the biggest risks mining investors should watch for?">Mining risks</button>
-          <button class="chip" data-prompt="Explain project economics for junior miners in simple terms.">Junior miner economics</button>
-          <button class="chip" data-prompt="What do the transcripts say about management quality and capital allocation?">Management quality</button>
+          <button class="chip" type="button" data-prompt="Summarize the main lessons across the education transcripts.">Summarize lessons</button>
+          <button class="chip" type="button" data-prompt="What are the biggest risks mining investors should watch for?">Mining risks</button>
+          <button class="chip" type="button" data-prompt="Explain project economics for junior miners in simple terms.">Junior miner economics</button>
+          <button class="chip" type="button" data-prompt="What do the transcripts say about management quality and capital allocation?">Management quality</button>
         </div>
 
         <div class="chatWindow" id="chatWindow" aria-live="polite">
           <div class="msg assistant">
-Welcome — ask anything about mining education, miner evaluation, project economics, balance sheet risk, or lessons from the transcript library.
+Welcome — ask anything from the Education Portal transcript library.
 
 Examples:
 • “What did the videos say about IRR and payback?”
 • “Summarize royalty/streaming companies.”
-• “What are the key red flags for developers?”
+• “What are red flags for junior miners?”
             <div class="msgMeta">Minerlytics Education Portal AI Assistant</div>
           </div>
 
           <div class="typing" id="typingIndicator">
             <div class="typingDots"><span></span><span></span><span></span></div>
-            <div>Thinking… searching transcript_text and preparing answer.</div>
+            <div>Thinking…</div>
           </div>
         </div>
 
@@ -647,18 +689,18 @@ Examples:
             <textarea
               id="chatInput"
               class="chatInput"
-              placeholder="Type your question… for example: What do the transcripts say about valuing junior gold miners?"
+              placeholder="Type your question…"
             ></textarea>
           </div>
 
           <div class="btnRow">
-            <button type="submit" class="btn btnPrimary" id="sendBtn">Ask Assistant</button>
-            <button type="button" class="btn btnGhost" id="followUpBtn">Ask Follow-Up</button>
-            <button type="button" class="btn btnGhost" id="clearBtn">Clear Chat</button>
+            <button type="submit" class="btn btnPrimary" id="sendBtn">Ask</button>
+            <button type="button" class="btn btnGhost" id="followUpBtn">Follow-Up</button>
+            <button type="button" class="btn btnGhost" id="clearBtn">Clear</button>
           </div>
 
           <div class="smallHint">
-            Follow-up works automatically by keeping chat history in context.
+            Follow-ups stay in context automatically.
           </div>
         </form>
       </aside>
@@ -667,4 +709,4 @@ Examples:
 
   <script type="module" src="./js/education-portal-ai.js"></script>
 </body>
-</html>     
+</html>
