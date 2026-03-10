@@ -3,24 +3,114 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Minerlytics — About & Education Portal (Test)</title>
+  <title>Minerlytics — About & Education Portal</title>
 
-  <!-- Minimal styles so the fragment renders acceptably standalone -->
   <style>
     :root{
-      --line: rgba(255,255,255,0.06);
+      --bg: #07102a;
+      --panel: rgba(11,19,42,.42);
+      --line: rgba(255,255,255,0.08);
+      --text: rgba(234,240,255,0.92);
+      --muted: rgba(234,240,255,0.70);
       --accent: #7c5cff;
       --accent2: #39e6c8;
-      color-scheme: light;
+      color-scheme: dark;
     }
-    html,body{height:100%;}
+
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+
     body{
-      margin:16px;
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-      background: #07102a;
-      color: rgba(234,240,255,0.92);
-      -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
+      margin:0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(124,92,255,.18), transparent 28%),
+        radial-gradient(circle at top right, rgba(57,230,200,.10), transparent 25%),
+        var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    a{
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* Top Nav */
+    .topbar{
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 16px 24px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(7,16,42,.88);
+      backdrop-filter: blur(12px);
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      min-width: fit-content;
+    }
+
+    .logoMark{
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: 0 0 18px rgba(124,92,255,.45);
+      flex: 0 0 auto;
+    }
+
+    .brandName{
+      font-weight: 800;
+      letter-spacing: .12em;
+      font-size: 13px;
+      color: #fff;
+      white-space: nowrap;
+    }
+
+    .navLinks{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .navLink{
+      padding: 10px 14px;
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 600;
+      transition: .2s ease;
+      border: 1px solid transparent;
+    }
+
+    .navLink:hover{
+      color:#fff;
+      border-color: rgba(255,255,255,.08);
+      background: rgba(255,255,255,.04);
+    }
+
+    .navLink.isActive{
+      color:#fff;
+      background: rgba(124,92,255,.16);
+      border-color: rgba(124,92,255,.35);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.03);
+    }
+
+    .pageWrap{
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 20px 48px;
     }
 
     .shell{
@@ -28,13 +118,422 @@
       margin: 0 auto;
     }
 
+    .pageIntro{
+      margin: 8px auto 22px;
+      max-width: 980px;
+    }
+
+    .eyebrow{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    .pageTitle{
+      margin: 14px 0 8px;
+      font-size: clamp(28px, 4vw, 42px);
+      line-height: 1.08;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .pageSubtitle{
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--muted);
+      max-width: 820px;
+    }
+
     .sectionTitleRow{
       display:flex;
       align-items:center;
       gap:12px;
+      margin-top: 26px;
     }
+
     .sectionTitle{
       font-weight:800;
+      letter-spacing:.02em;
+      font-size:16px;
+      color:#fff;
+      text-transform: uppercase;
+    }
+
+    .card{
+      margin-top:10px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: 0 8px 30px rgba(0,0,0,.24);
+      color: rgba(234,240,255,.86);
+    }
+
+    .separator{
+      height:1px;
+      background: rgba(255,255,255,0.05);
+      margin: 22px 0;
+      border-radius: 1px;
+    }
+
+    .indent{
+      margin-top:6px;
+      padding-left: 18px;
+    }
+
+    ul, ol{
+      margin-top:8px;
+    }
+
+    h2,h3{
+      color: #eaf0ff;
+      margin-top:12px;
+      margin-bottom: 8px;
+    }
+
+    .quick-list{
+      list-style: disc;
+      padding-left: 18px;
+    }
+
+    .grid-12{
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap:12px;
+    }
+
+    .col-span-6{ grid-column: span 6; }
+    .col-span-8{ grid-column: span 8; }
+    .col-span-4{ grid-column: span 4; }
+
+    .infoBox{
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:16px;
+      padding:14px;
+      background: rgba(255,255,255,.03);
+      color: rgba(234,240,255,.78);
+    }
+
+    strong{ color:#fff; }
+
+    p{
+      margin:0 0 10px;
+      line-height:1.65;
+      color: rgba(234,240,255,.86);
+    }
+
+    li{
+      margin:6px 0;
+      line-height: 1.55;
+    }
+
+    @media (max-width: 900px){
+      .topbar{
+        align-items:flex-start;
+        flex-direction: column;
+      }
+
+      .navLinks{
+        width:100%;
+        justify-content:flex-start;
+      }
+
+      .col-span-6,
+      .col-span-8,
+      .col-span-4{
+        grid-column: span 12;
+      }
+
+      .pageWrap{
+        padding: 22px 14px 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="logoMark" aria-hidden="true"></div>
+      <span class="brandName">MINERLYTICS</span>
+    </div>
+
+    <nav class="navLinks" aria-label="Primary navigation">
+      <a class="navLink" href="./index.html#home">Home</a>
+      <a class="navLink" href="./index.html#analysis">Analysis</a>
+      <a class="navLink" href="./index.html#trends">Trends</a>
+      <a class="navLink" href="./index.html#EducationPortal">Education Portal</a>
+      <a class="navLink" href="./index.html#company">Company Profile</a>
+      <a class="navLink" href="./index.html#subscriptions">Subscriptions</a>
+      <a class="navLink isActive" href="./about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="pageWrap">
+    <section class="pageIntro shell">
+      <div class="eyebrow">Minerlytics Overview</div>
+      <h1 class="pageTitle">About Minerlytics</h1>
+      <p class="pageSubtitle">
+        Learn what Minerlytics is building, how the platform thinks about mining research,
+        and the educational framework behind better commodity and miner analysis.
+      </p>
+    </section>
+
+    <!-- About -->
+    <section class="shell" id="about" aria-label="About Minerlytics">
+      <div class="sectionTitleRow">
+        <span class="sectionTitle">About Minerlytics</span>
+      </div>
+
+      <div class="card">
+        <p>
+          <strong>Minerlytics AI</strong> provides retail investors with an accessible, research-grade AI platform that empowers deep, data-driven
+          analysis of miners and commodities so they can make informed investment decisions with confidence. We enable retail investors of mining and precious-metals who
+          want faster signal discovery and cleaner decision support. We bring together market data, thematic watchlists, and structured workflows so you can track what’s moving miners —
+          without juggling ten different tabs.
+        </p>
+
+        <div class="grid-12" style="margin-top:12px;">
+          <div class="col-span-6 infoBox">
+            <div style="font-weight:800; font-size:12px; letter-spacing:.02em;">What we do</div>
+            <ul style="margin:8px 0 0; padding-left: 18px;">
+              <li>Track mining equities, ETFs, and commodities with momentum-style views.</li>
+              <li>Translate complex mining and performance data to clear information to support decision making.</li>
+              <li>Highlight “what changed” across recent windows to spot inflections early.</li>
+              <li>Organize tickers by themes (gold, silver, copper, developers, producers, explorers).</li>
+              <li>Turn raw data into quick, readable insights for daily decision-making.</li>
+            </ul>
+          </div>
+
+          <div class="col-span-6 infoBox">
+            <div style="font-weight:800; font-size:12px; letter-spacing:.02em;">Our approach</div>
+            <ul style="margin:8px 0 0; padding-left: 18px;">
+              <li><strong>Signal-first:</strong> prioritize actionable deltas over noisy headlines.</li>
+              <li><strong>Explainable:</strong> keep outputs transparent and easy to sanity-check.</li>
+              <li><strong>Research-grade:</strong> design for repeatable workflows and auditability.</li>
+              <li><strong>Investor-focused:</strong> insights built for real portfolio decisions.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid-12" style="margin-top:12px;">
+          <div class="col-span-8 infoBox">
+            <div style="font-weight:800; font-size:12px; letter-spacing:.02em;">Minerlytics AI Assistant</div>
+            <p style="margin:8px 0 0;">
+              The AI Assistant is designed to help you query the platform’s stored market dataset (e.g., OHLCV time series)
+              in plain English — things like “summarize the last 30 days” or “show the biggest drawdowns.”
+              It is intended for research and education, not financial advice.
+            </p>
+          </div>
+
+          <div class="col-span-4 infoBox">
+            <div style="font-weight:800; font-size:12px; letter-spacing:.02em;">Company</div>
+            <div style="margin-top:8px;">
+              <div><strong>Name:</strong> Minerlytics</div>
+              <div><strong>Category:</strong> Mining market analytics</div>
+              <div><strong>Mission:</strong> Make mining research faster, clearer, and more decision-ready.</div>
+            </div>
+          </div>
+        </div>
+
+        <p style="margin:12px 0 0; color: rgba(234,240,255,.62); font-size:12px; line-height:1.55;">
+          <strong>Disclaimer:</strong> Minerlytics provides informational content for research purposes only and does not
+          provide investment advice. Always do your own due diligence and consult a licensed professional for financial decisions.
+        </p>
+      </div>
+    </section>
+
+    <!-- Education Portal -->
+    <section class="shell" id="EducationPortal" aria-label="Education Portal" style="margin-top:20px;">
+      <div class="sectionTitleRow">
+        <span class="sectionTitle">Education Portal</span>
+      </div>
+
+      <div class="card">
+        <p>
+          <strong>Minerlytics AI</strong> provides retail investors with an accessible, research-grade AI platform that empowers deep, data-driven
+          analysis of miners and commodities so they can make informed investment decisions with confidence. We enable retail investors of mining and precious-metals who
+          want faster signal discovery and cleaner decision support. We bring together market data, thematic watchlists, and structured workflows so you can track what’s moving miners —
+          without juggling ten different tabs.
+        </p>
+
+        <h2>High level industry overview</h2>
+        <ul>
+          <li>The mining sector is cyclical, capital intensive and asset depleting: producers exhaust resources and must continually replace reserves through exploration,
+            development or M&amp;A.</li>
+          <li>Key participant types:
+            <ul>
+              <li><strong>Majors:</strong> large, diversified producers with scale, FCF generation and balance sheet access.</li>
+              <li><strong>Developers / Juniors:</strong> discovery → de risk → finance → construct; high optionality, long timelines and dilution risk.</li>
+              <li><strong>Royalties/Streams:</strong> asset light, low sustaining capex, stable cash yields and different risk/return profile.</li>
+            </ul>
+          </li>
+          <li>Cycles and macro forces (commodity price swings, underinvestment, supply cliffs, political/social rents) dominate returns; successful investors
+            buy out of favor and sell when valuations fully price future upside.</li>
+        </ul>
+
+        <div class="separator" role="separator" aria-hidden="true"></div>
+
+        <h2>Core variables to review (and why they matter)</h2>
+
+        <ol>
+          <li>
+            <strong>Balance sheet flexibility and capital cost</strong>
+            <ul class="indent">
+              <li><strong>What to check:</strong> leverage ratios (debt/asset; debt/funded capital), debt tenor and structure, cash on hand, undrawn lines, cost of debt/equity.</li>
+              <li><strong>Why it matters:</strong> access and cost of capital determine whether the company can fund sustaining capex, growth or survive downturns.
+                Long maturities and low leverage reduce refinancing and revocation risk.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Free cash flow (FCF) profile and uses</strong>
+            <ul class="indent">
+              <li><strong>What to check:</strong> normalized trailing FCF, sustaining vs growth capex, peer FCF ranking, planned returns to shareholders (buybacks/dividends).</li>
+              <li><strong>Why it matters:</strong> FCF is the ultimate source of shareholder returns and optionality for M&amp;A or buffering downturns.
+                Relative FCF shows competitive financial flexibility.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Management quality, continuity and capital allocation discipline</strong>
+            <ul class="indent">
+              <li><strong>What to check:</strong> track record (deposit type and jurisdiction specific), board composition and role fit, history of capital allocation
+                (IRR thresholds, buybacks vs growth).</li>
+              <li><strong>Why it matters:</strong> in capital intensive cyclical businesses, management decisions (M&amp;A, project selection, capex discipline)
+                materially affect long term returns and cost of equity.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Technical franchise and competitive advantages</strong>
+            <ul class="indent">
+              <li><strong>What to check:</strong> deposit type expertise, geographic strengths, recycle ratio (incremental reserves per unit produced), low cost positions.</li>
+              <li><strong>Why it matters:</strong> domain specialization and repeatable technical skills produce durable margins and superior reserve replacement/returns.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Project economics and study integrity (developers)</strong>
+            <ul class="indent">
+              <li><strong>What to check:</strong> stage (PEA → PFS → FS), NPV of in situ recoverable reserves, IRR / RoCE (target &gt; ~25% for developers), payback,
+                AISC quartile, life of mine, after tax cashflows.</li>
+              <li><strong>Why it matters:</strong> studies are catalytic de risking events. Conservative, transparent assumptions (commodity price sensitivity, capex
+                inflations, taxes/royalties) and credible personnel signal bankability and lower execution risk.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Capital raising plan and dilution risk</strong>
+            <ul class="indent">
+              <li><strong>What to check:</strong> cash runway to next catalyst, explicit financing route (equity, project debt, JV, streaming, EPC finance),
+                target investor audience (US vs Canada; institutional vs retail), likely pricing.</li>
+              <li><strong>Why it matters:</strong> developers typically require staged funding; a clear plan reduces surprise dilution and execution delays.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Execution capability and governance</strong>
+            <ul class="indent">
+              <li><strong>What to check:</strong> EPC selection, contractor independence from feasibility authors, specific experienced personnel,
+                well constructed governance and failure/kill criteria.</li>
+              <li><strong>Why it matters:</strong> execution overruns and poor governance are top sources of value destruction in builds and expansions.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Valuation mechanics and cycle posture</strong>
+            <ul class="indent">
+              <li><strong>What to check:</strong> NPV matrix (low / forward strip / expected), enterprise value vs NPV gap, discount rate adjusted for
+                sovereign/credit risk, and where the company sits in the commodity cycle.</li>
+              <li><strong>Why it matters:</strong> valuation must reflect normalized economics and political/taxation risks; buying during liquidation provides asymmetric upside.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Jurisdictional &amp; political risk (social rents)</strong>
+            <ul class="indent">
+              <li><strong>What to check:</strong> permitting pathway, expected royalties/taxes, community relations, sovereign risk, and likely changes in social rents.</li>
+              <li><strong>Why it matters:</strong> fixed assets attract political attention and can be subject to increased taxes or expropriation;
+                incorporating post tax scenarios is essential.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Transparency, responsiveness and investor engagement</strong>
+            <ul class="indent">
+              <li><strong>What to check:</strong> management responsiveness, named investor “quarterback,” willingness to confirm investor notes,
+                clarity in public filings and risk disclosure.</li>
+              <li><strong>Why it matters:</strong> transparency reduces information asymmetry and improves the investor’s ability to monitor milestones
+                and act in a timely fashion.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Human capital and talent aggregation</strong>
+            <ul class="indent">
+              <li><strong>What to check:</strong> domain specific CVs for geologists, engineers, EPC, permitting and on the ground operators; ability to
+                hire or attract specialists (talent aggregators).</li>
+              <li><strong>Why it matters:</strong> execution is people driven—teams that repeatedly hire the right specialists or have repeatable track records
+                materially increase probability of success.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Failure criteria and staged decision logic</strong>
+            <ul class="indent">
+              <li><strong>What to check:</strong> defined “kill” rules, stop points for programs, sequence of unanswered questions and how each will be tested/paid for.</li>
+              <li><strong>Why it matters:</strong> disciplined capital stewardship preserves optionality and avoids value destruction from “drill until cash runs out.”</li>
+            </ul>
+          </li>
+        </ol>
+
+        <div class="separator" role="separator" aria-hidden="true"></div>
+
+        <h3>Practical screening checklist (quick reference)</h3>
+        <ul class="quick-list">
+          <li>Balance sheet: debt %, maturities, liquidity buffer, cost of capital.</li>
+          <li>Cash flow: trailing &amp; normalized FCF; sustaining vs growth capex requirements.</li>
+          <li>Management &amp; board: track record, deposit/jurisdiction fit, role clarity.</li>
+          <li>Project metrics (if developer): stage, NPV (in situ), IRR (&gt;25% target), payback, AISC quartile.</li>
+          <li>Funding: cash runway, next raise timing/price, financing route and target audience.</li>
+          <li>Execution: EPC independence, contractor CVs, contingency sizing.</li>
+          <li>Governance: explicit failure/kill criteria, transparency of studies and assumptions.</li>
+          <li>Jurisdiction: permits, royalties, sovereign risk, community acceptance.</li>
+          <li>Valuation: NPV vs EV gap, stress testing across commodity and cost scenarios.</li>
+          <li>Engagement: named investor contact, willingness to verify notes and provide follow up.</li>
+        </ul>
+
+        <div class="separator" role="separator" aria-hidden="true"></div>
+
+        <h3>Why these variables together matter</h3>
+        <ul>
+          <li>Mining returns are driven by a blend of geology, engineering, execution and finance. No single metric suffices—value is realized
+            only when technical scale, disciplined capital allocation, credible funding and capable teams converge.</li>
+          <li>The combination of conservative, transparent project economics; strong balance sheet optionality; and experienced,
+            focused teams with defined milestones and failure rules substantially increases the probability of asymmetric upside while limiting downside risk.</li>
+        </ul>
+
+        <p style="margin-top:12px; color: rgba(234,240,255,.62); font-size:12px; line-height:1.55;">
+          <strong>Disclaimer:</strong> Minerlytics provides informational content for research purposes only and does not
+          provide investment advice. Always do your own due diligence and consult a licensed professional for financial decisions.
+        </p>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>      font-weight:800;
       letter-spacing:.02em;
       font-size:16px;
       color: #fff;
