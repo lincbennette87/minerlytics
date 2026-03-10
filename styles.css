@@ -529,3 +529,85 @@ body.disclaimer-active > *:not(.disclaimerOverlay){
   from{opacity:0; transform:translateY(10px)}
   to{opacity:1; transform:translateY(0)}
 }
+<style>
+  .aiTop{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    margin-bottom:10px;
+  }
+
+  .aiThinkingWrap{
+    display:flex;
+    justify-content:flex-start;
+    margin:10px 0;
+  }
+
+  .aiThinkingBubble{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:12px 14px;
+    border-radius:16px;
+    background: rgba(255,255,255,.05);
+    border: 1px solid rgba(255,255,255,.08);
+    box-shadow: 0 10px 30px rgba(0,0,0,.18);
+  }
+
+  .aiGlobe{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    position:relative;
+    border:1px solid rgba(57,230,200,.45);
+    box-shadow:
+      0 0 0 1px rgba(57,230,200,.08) inset,
+      0 0 18px rgba(57,230,200,.18);
+    animation: globeSpin 1.6s linear infinite;
+  }
+
+  .aiGlobe::before,
+  .aiGlobe::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    border-radius:50%;
+    border:1px solid transparent;
+  }
+
+  .aiGlobe::before{
+    inset:5px 10px;
+    border-left:1px solid rgba(57,230,200,.55);
+    border-right:1px solid rgba(57,230,200,.55);
+  }
+
+  .aiGlobe::after{
+    inset:10px 5px;
+    border-top:1px solid rgba(57,230,200,.45);
+    border-bottom:1px solid rgba(57,230,200,.45);
+  }
+
+  .aiOrbitDot{
+    position:absolute;
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    background: rgba(124,92,255,.95);
+    top:-3px;
+    left:50%;
+    transform:translateX(-50%);
+    box-shadow:0 0 12px rgba(124,92,255,.55);
+  }
+
+  .aiThinkingText{
+    font-size:13px;
+    color:rgba(234,240,255,.75);
+    letter-spacing:.02em;
+  }
+
+  @keyframes globeSpin{
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+  }
+
