@@ -70,15 +70,14 @@ async function fetchRelevantRows(DB, question, history) {
 
     for (const kw of keywords) {
       clauses.push(`lower(Transcript_Text) LIKE ?`);
-      clauses.push(`lower(video_name) LIKE ?`);
-      params.push(`%${kw}%`, `%${kw}%`);
+      params.push(`%${kw}%`);
     }
 
     const sql = `
-      SELECT video_id, video_name, Transcript_Text
+      SELECT *
       FROM Education_Portal
       WHERE ${clauses.join(" OR ")}
-      LIMIT 8
+      LIMIT 3
     `;
 
     const result = await DB.prepare(sql).bind(...params).all();
@@ -87,9 +86,9 @@ async function fetchRelevantRows(DB, question, history) {
 
   if (!rows.length) {
     const fallback = await DB.prepare(`
-      SELECT video_id, video_name, Transcript_Text
+      SELECT *
       FROM Education_Portal
-      LIMIT 5
+      LIMIT 2
     `).all();
 
     rows = fallback?.results || [];
@@ -102,9 +101,16 @@ function buildContext(rows) {
   if (!rows.length) return "No transcript context found.";
 
   return rows.map((row, i) => {
-    const transcript = String(row?.Transcript_Text || "").slice(0, 4000);
+    const transcript = String(
+      row?.Transcript_Text ||
+      row?.transcript_text ||
+      row?.text ||
+      ""
+    )
+      .replace(/\s+/g, " ")
+      .slice(0, 1200);
+
     return `SOURCE ${i + 1}
-Video Name: ${row?.video_name || "Unknown"}
 Video ID: ${row?.video_id || "Unknown"}
 Transcript:
 ${transcript}`;
@@ -113,8 +119,8 @@ ${transcript}`;
 
 function buildHistory(history) {
   return (Array.isArray(history) ? history : [])
-    .slice(-8)
-    .map((m) => `${m?.role === "assistant" ? "Assistant" : "User"}: ${String(m?.content || "")}`)
+    .slice(-4)
+    .map((m) => `${m?.role === "assistant" ? "Assistant" : "User"}: ${String(m?.content || "").slice(0, 300)}`)
     .join("\n");
 }
 
@@ -142,23 +148,20 @@ export async function onRequestPost(context) {
     const priorConversation = buildHistory(history);
 
     const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
-      prompt: `You are the Minerlytics Education Portal AI Assistant.
+  prompt: `You are the Minerlytics Education Portal AI Assistant.
+Answer only from the transcript context if possible.
+Be concise and clear.
+If not found, say so.
 
-Answer using the transcript context below.
-Use prior conversation for follow-up questions.
-Be clear, educational, and concise.
-If the answer is not in the transcript context, say so directly.
-
-PRIOR CONVERSATION
+Conversation:
 ${priorConversation || "None"}
 
-QUESTION
+Question:
 ${question}
 
-TRANSCRIPT CONTEXT
+Transcript Context:
 ${transcriptContext}`
-    });
-
+});
     const answer =
       (typeof result === "string" && result) ||
       result?.response ||
