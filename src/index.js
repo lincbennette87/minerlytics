@@ -1,6 +1,7 @@
 import { refreshNewsForAll } from "./news_cron.js";
 import { TICKERS } from "./tickers.js";
 import { googleRssUrl, parseRssItems } from "./rss.js";
+import { handleEducationPortalChat, educationOptions } from "./educationPortalChat.js";
 
 const CORS = {
 "access-control-allow-origin": "*",
@@ -443,9 +444,17 @@ return null;
 export default {
 async fetch(request, env) {
 try {
-const url = new URL(request.url);
+      const url = new URL(request.url);
 
-if (request.method === "OPTIONS") return options();
+      if (request.method === "OPTIONS" && url.pathname === "/api/education-portal-chat") {
+        return educationOptions();
+      }
+
+      if (request.method === "OPTIONS") return options();
+
+      if (url.pathname === "/api/education-portal-chat" && request.method === "POST") {
+        return handleEducationPortalChat(request, env);
+      }
 
 if (url.pathname === "/api/health") {
 return text("Minerlytics DEV is running ✅ v2026");
