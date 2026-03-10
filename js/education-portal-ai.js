@@ -1,0 +1,141 @@
+const API_URL = "/api/education-portal-chat";
+
+const chatWindow = document.getElementById("chatWindow");
+const chatForm = document.getElementById("chatForm");
+const chatInput = document.getElementById("chatInput");
+const sendBtn = document.getElementById("sendBtn");
+const followUpBtn = document.getElementById("followUpBtn");
+const clearBtn = document.getElementById("clearBtn");
+const typingIndicator = document.getElementById("typingIndicator");
+const thinkingOrb = document.getElementById("thinkingOrb");
+const assistantStateText = document.getElementById("assistantStateText");
+const chips = document.querySelectorAll(".chip");
+
+let history = [];
+let lastUserQuestion = "";
+
+function scrollToBottom() {
+  chatWindow.scrollTop = chatWindow.scrollHeight;
+}
+
+function setThinking(isThinking) {
+  if (isThinking) {
+    typingIndicator.classList.add("show");
+    thinkingOrb.classList.add("isThinking");
+    assistantStateText.textContent = "Thinking";
+    sendBtn.disabled = true;
+    followUpBtn.disabled = true;
+  } else {
+    typingIndicator.classList.remove("show");
+    thinkingOrb.classList.remove("isThinking");
+    assistantStateText.textContent = "Ready";
+    sendBtn.disabled = false;
+    followUpBtn.disabled = false;
+  }
+  scrollToBottom();
+}
+
+function addMessage(role, text, meta = "") {
+  const msg = document.createElement("div");
+  msg.className = `msg ${role}`;
+  msg.textContent = text;
+
+  if (meta) {
+    const metaDiv = document.createElement("div");
+    metaDiv.className = "msgMeta";
+    metaDiv.textContent = meta;
+    msg.appendChild(metaDiv);
+  }
+
+  chatWindow.insertBefore(msg, typingIndicator);
+  scrollToBottom();
+}
+
+async function askAssistant(question, followUp = false) {
+  const cleanQuestion = question.trim();
+  if (!cleanQuestion) return;
+
+  lastUserQuestion = cleanQuestion;
+  addMessage("user", cleanQuestion, followUp ? "Follow-up question" : "User question");
+  history.push({ role: "user", content: cleanQuestion });
+
+  chatInput.value = "";
+  setThinking(true);
+
+  try {
+    const response = await fetch(API_URL, {
+      method: "POST",
+      headers: {
+        "content-type": "application/json"
+      },
+      body: JSON.stringify({
+        question: cleanQuestion,
+        history
+      })
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      throw new Error(data?.error || "Request failed.");
+    }
+
+    const answer = data?.answer || "I could not find an answer from the transcript library.";
+    addMessage("assistant", answer, "Minerlytics Education Portal AI Assistant");
+    history.push({ role: "assistant", content: answer });
+
+  } catch (err) {
+    addMessage(
+      "assistant",
+      `Sorry — the assistant could not respond right now.\n\n${err.message}`,
+      "System message"
+    );
+  } finally {
+    setThinking(false);
+  }
+}
+
+chatForm.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  await askAssistant(chatInput.value, false);
+});
+
+followUpBtn.addEventListener("click", async () => {
+  const value = chatInput.value.trim();
+  if (!value) {
+    chatInput.focus();
+    return;
+  }
+  await askAssistant(value, true);
+});
+
+clearBtn.addEventListener("click", () => {
+  history = [];
+  lastUserQuestion = "";
+  const messages = chatWindow.querySelectorAll(".msg");
+  messages.forEach((msg, idx) => {
+    if (idx > 0) msg.remove();
+  });
+  typingIndicator.classList.remove("show");
+  thinkingOrb.classList.remove("isThinking");
+  assistantStateText.textContent = "Ready";
+  chatInput.value = "";
+  scrollToBottom();
+});
+
+chips.forEach((chip) => {
+  chip.addEventListener("click", async () => {
+    const prompt = chip.dataset.prompt || "";
+    chatInput.value = prompt;
+    await askAssistant(prompt, false);
+  });
+});
+
+chatInput.addEventListener("keydown", async (e) => {
+  if (e.key === "Enter" && !e.shiftKey) {
+    e.preventDefault();
+    await askAssistant(chatInput.value, false);
+  }
+});
+
+scrollToBottom();
