@@ -205,19 +205,16 @@
           <div class="aiHud">
             <div class="aiTop">
               <div class="aiTitle">Minerlytics AI Assistant</div>
-            </div>
+            <button id="aiClear" class="btn btnGhost btnTight" type="button">Clear</button>
+          </div>
 
-            <div class="aiControls">
-              <input id="aiSymbol" type="text" placeholder="Ticker (HYMC, AEM, CDE...)" />
-              <button id="aiClear" class="btn btnGhost btnTight" type="button">Clear</button>
-            </div>
+          <div class="aiChat" id="aiChat" aria-label="AI chat transcript"></div>
 
-            <div class="aiChat" id="aiChat" aria-label="AI chat transcript"></div>
-
-            <div class="aiComposer">
-              <textarea id="aiQuestion" rows="2" placeholder="Ask a question… (Enter to send, Shift+Enter for new line)"></textarea>
-              <button id="aiRun" class="btn btnPrimary btnTight" type="button">Send</button>
-            </div>
+          <div class="aiComposer">
+            <textarea id="aiQuestion" rows="2" placeholder="Ask anything about mining companies, reports, trends, projects, news, or transcripts…"></textarea>
+          <button id="aiRun" class="btn btnPrimary btnTight" type="button">Send</button>
+          </div>
+          </div>
 
             <div class="aiQuickRow">
               <button class="pillBtn" type="button" data-t="HYMC">HYMC</button>
@@ -258,225 +255,220 @@
 
   <!-- ✅ Chat-enabled AI script -->
   <script>
-  (function () {
-    const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+(function () {
+  const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 
-    const chatEl   = document.getElementById("aiChat");
-    const symEl    = document.getElementById("aiSymbol");
-    const qEl      = document.getElementById("aiQuestion");
-    const sendBtn  = document.getElementById("aiRun");
-    const clearBtn = document.getElementById("aiClear");
+  const chatEl   = document.getElementById("aiChat");
+  const qEl      = document.getElementById("aiQuestion");
+  const sendBtn  = document.getElementById("aiRun");
+  const clearBtn = document.getElementById("aiClear");
 
-    // Disclaimer elements
-    const overlay  = document.getElementById("aiDisclaimerOverlay");
-    const acceptBtn = document.getElementById("aiAccept");
-    const declineBtn = document.getElementById("aiDecline");
-    const aiHud = document.querySelector(".aiHud");
-    const KEY = "minerlytics_ai_disclaimer_accepted";
+  const overlay   = document.getElementById("aiDisclaimerOverlay");
+  const acceptBtn = document.getElementById("aiAccept");
+  const declineBtn = document.getElementById("aiDecline");
+  const aiHud = document.querySelector(".aiHud");
+  const KEY = "minerlytics_ai_disclaimer_accepted";
 
-    let messages = [];
+  let messages = [];
 
-    function esc(s){
-      return String(s ?? "")
-        .replaceAll("&","&amp;")
-        .replaceAll("<","&lt;")
-        .replaceAll(">","&gt;")
-        .replaceAll('"',"&quot;")
-        .replaceAll("'","&#039;");
+  function esc(s){
+    return String(s ?? "")
+      .replaceAll("&","&amp;")
+      .replaceAll("<","&lt;")
+      .replaceAll(">","&gt;")
+      .replaceAll('"',"&quot;")
+      .replaceAll("'","&#039;");
+  }
+
+  function isAccepted(){
+    return localStorage.getItem(KEY) === "true";
+  }
+
+  function showOverlay(){
+    if (isAccepted()) return true;
+    overlay.style.display = "flex";
+    document.body.classList.add("disclaimer-active");
+    return false;
+  }
+
+  function hideOverlay(){
+    overlay.style.display = "none";
+    document.body.classList.remove("disclaimer-active");
+  }
+
+  function disableAI(){
+    if(!aiHud) return;
+    aiHud.style.pointerEvents = "none";
+    aiHud.style.opacity = ".45";
+  }
+
+  hideOverlay();
+
+  if(aiHud){
+    aiHud.addEventListener("pointerdown", ()=> showOverlay(), { capture:true });
+    aiHud.addEventListener("focusin", ()=> showOverlay(), { capture:true });
+  }
+
+  if(acceptBtn){
+    acceptBtn.addEventListener("click", function(){
+      localStorage.setItem(KEY, "true");
+      hideOverlay();
+    });
+  }
+
+  if(declineBtn){
+    declineBtn.addEventListener("click", function(){
+      hideOverlay();
+      disableAI();
+    });
+  }
+
+  function scrollToBottom(){
+    chatEl.scrollTop = chatEl.scrollHeight;
+  }
+
+  function render(){
+    chatEl.innerHTML = "";
+
+    const visibleMessages = messages.filter(m => m.role !== "system");
+
+    if(visibleMessages.length === 0){
+      chatEl.innerHTML = `
+        <div class="aiTyping">
+          Ask directly. Example: “What risks did AEM mention?”, “Summarize recent updates on HYMC”, or “What are red flags for junior miners?”
+        </div>
+      `;
+      return;
     }
 
-    function isAccepted(){ return localStorage.getItem(KEY) === "true"; }
+    for(const m of visibleMessages){
+      const who = m.role === "user" ? "user" : "assistant";
+      const label = m.role === "user" ? "You" : "Minerlytics AI";
 
-    function showOverlay(){
-      if (isAccepted()) return true;
-      overlay.style.display = "flex";
-      document.body.classList.add("disclaimer-active");
-      return false;
-    }
-
-    function hideOverlay(){
-      overlay.style.display = "none";
-      document.body.classList.remove("disclaimer-active");
-    }
-
-    function disableAI(){
-      if(!aiHud) return;
-      aiHud.style.pointerEvents = "none";
-      aiHud.style.opacity = ".45";
-    }
-
-    // Start overlay hidden
-    hideOverlay();
-
-    // Show disclaimer when user tries to use AI
-    if(aiHud){
-      aiHud.addEventListener("pointerdown", ()=> showOverlay(), { capture:true });
-      aiHud.addEventListener("focusin", ()=> showOverlay(), { capture:true });
-    }
-
-    if(acceptBtn){
-      acceptBtn.addEventListener("click", function(){
-        localStorage.setItem(KEY, "true");
-        hideOverlay();
-      });
-    }
-    if(declineBtn){
-      declineBtn.addEventListener("click", function(){
-        hideOverlay();
-        disableAI();
-      });
-    }
-
-    function scrollToBottom(){
-      chatEl.scrollTop = chatEl.scrollHeight;
-    }
-
-    function render(){
-      chatEl.innerHTML = "";
-
-      if(messages.filter(m => m.role !== "system").length === 0){
-        chatEl.innerHTML = `
-          <div class="aiTyping">
-            Start a chat. Try: “summarize last 10 days” or “what changed vs last week?”
-          </div>
-        `;
-        return;
-      }
-
-      for(const m of messages){
-        if(m.role === "system") continue;
-
-        const who = m.role === "user" ? "user" : "assistant";
-        const label = m.role === "user" ? "You" : "Minerlytics AI";
-
-        const node = document.createElement("div");
-        node.className = `aiMsg ${who}`;
-        node.innerHTML = `
-          <div>
-            <div class="aiBubble">${esc(m.content)}</div>
-            <div class="aiMeta">${esc(label)}</div>
-          </div>
-        `;
-        chatEl.appendChild(node);
-      }
-      scrollToBottom();
-    }
-
-    function pushSystemPrimer(symbol){
-      messages = messages.filter(m => m.role !== "system");
-      messages.unshift({
-        role: "system",
-        content:
-          `You are Minerlytics AI Assistant. Answer using only stored OHLCV for the given symbol from D1 (daily_ohlcv). ` +
-          `If asked for news/fundamentals/social, say it's not available in this dataset. Current symbol: ${symbol}.`
-      });
-    }
-
-    function typingOn(){
       const node = document.createElement("div");
-      node.id = "aiTyping";
-      node.className = "aiTyping";
-      node.textContent = "Thinking…";
+      node.className = `aiMsg ${who}`;
+      node.innerHTML = `
+        <div>
+          <div class="aiBubble">${esc(m.content)}</div>
+          <div class="aiMeta">${esc(label)}</div>
+        </div>
+      `;
       chatEl.appendChild(node);
-      scrollToBottom();
     }
 
-    function typingOff(){
-      const node = document.getElementById("aiTyping");
-      if(node) node.remove();
-    }
+    scrollToBottom();
+  }
 
-    async function send(){
-      // Hard gate: must accept disclaimer first
-      if (!isAccepted()){
-        showOverlay();
-        return;
-      }
-
-      const symbol = (symEl.value || "").trim().toUpperCase();
-      const question = (qEl.value || "").trim();
-
-      if(!symbol){
-        messages.push({ role:"assistant", content:"Enter a ticker first (e.g., HYMC)." });
-        render();
-        return;
-      }
-
-      if(!question){
-        messages.push({ role:"assistant", content:"Type a question to send." });
-        render();
-        return;
-      }
-
-      pushSystemPrimer(symbol);
-      messages.push({ role:"user", content: question });
-
-      qEl.value = "";
-      render();
-      typingOn();
-
-      const MAX_TURNS = 16;
-      const context = messages.slice(-MAX_TURNS);
-
-      let res;
-      try{
-        res = await fetch(API_BASE + "/api/assistant", {
-          method: "POST",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify({ symbol, question, messages: context })
-        });
-      } catch (e){
-        typingOff();
-        messages.push({ role:"assistant", content:`Network error: ${String(e?.message || e)}` });
-        render();
-        return;
-      }
-
-      if(!res.ok){
-        const txt = await res.text().catch(()=> "");
-        typingOff();
-        messages.push({ role:"assistant", content: (txt || `Request failed: ${res.status}`) });
-        render();
-        return;
-      }
-
-      const data = await res.json().catch(()=> null);
-      const answer = data?.answer ? String(data.answer) : "No answer returned.";
-      typingOff();
-      messages.push({ role:"assistant", content: answer });
-      render();
-    }
-
-    function clearChat(){
-      messages = [];
-      render();
-    }
-
-    sendBtn.addEventListener("click", send);
-    clearBtn.addEventListener("click", clearChat);
-
-    qEl.addEventListener("keydown", (e)=>{
-      if(e.key === "Enter" && !e.shiftKey){
-        e.preventDefault();
-        send();
-      }
+  function ensureSystemPrimer(){
+    messages = messages.filter(m => m.role !== "system");
+    messages.unshift({
+      role: "system",
+      content:
+        "You are Minerlytics AI Assistant. Users can ask questions directly without entering a ticker first. Infer the company, ticker, topic, or dataset from the user's question and chat history. Answer using the Minerlytics data available to you. If the question is ambiguous, use the most likely company/topic from the conversation. If the requested information is not available in the current dataset, clearly say what is unavailable and answer with whatever relevant information you do have."
     });
+  }
 
-    document.addEventListener("click", (e)=>{
-      const btn = e.target.closest(".pillBtn");
-      if(!btn) return;
-      const t = btn.getAttribute("data-t");
-      if(t){
-        symEl.value = t;
-        clearChat();
-        messages.push({ role:"assistant", content:`Set ticker to ${t}. Ask your first question.` });
-        render();
-      }
-    });
+  function thinkingOn(){
+    const wrap = document.createElement("div");
+    wrap.id = "aiThinking";
+    wrap.className = "aiThinkingWrap";
+    wrap.innerHTML = `
+      <div class="aiThinkingBubble">
+        <div class="aiGlobe">
+          <div class="aiOrbitDot"></div>
+        </div>
+      </div>
+    `;
+    chatEl.appendChild(wrap);
+    scrollToBottom();
+  }
 
+  function thinkingOff(){
+    const node = document.getElementById("aiThinking");
+    if(node) node.remove();
+  }
+
+  async function send(){
+    if (!isAccepted()){
+      showOverlay();
+      return;
+    }
+
+    const question = (qEl.value || "").trim();
+
+    if(!question){
+      messages.push({ role:"assistant", content:"Type a question to send." });
+      render();
+      return;
+    }
+
+    ensureSystemPrimer();
+
+    messages.push({ role:"user", content: question });
+    qEl.value = "";
     render();
-  })();
-  </script>
+    thinkingOn();
+
+    const MAX_TURNS = 16;
+    const context = messages.slice(-MAX_TURNS);
+
+    let res;
+    try{
+      res = await fetch(API_BASE + "/api/assistant", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          question,
+          messages: context
+        })
+      });
+    } catch (e){
+      thinkingOff();
+      messages.push({
+        role:"assistant",
+        content:`Network error: ${String(e?.message || e)}`
+      });
+      render();
+      return;
+    }
+
+    if(!res.ok){
+      const txt = await res.text().catch(()=> "");
+      thinkingOff();
+      messages.push({
+        role:"assistant",
+        content: txt || `Request failed: ${res.status}`
+      });
+      render();
+      return;
+    }
+
+    const data = await res.json().catch(()=> null);
+    const answer = data?.answer ? String(data.answer) : "No answer returned.";
+
+    thinkingOff();
+    messages.push({ role:"assistant", content: answer });
+    render();
+  }
+
+  function clearChat(){
+    messages = [];
+    render();
+  }
+
+  sendBtn.addEventListener("click", send);
+  clearBtn.addEventListener("click", clearChat);
+
+  qEl.addEventListener("keydown", (e)=>{
+    if(e.key === "Enter" && !e.shiftKey){
+      e.preventDefault();
+      send();
+    }
+  });
+
+  render();
+})();
+</script>
 
   <script src="./app.js"></script>
   <script>
