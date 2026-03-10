@@ -4,16 +4,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Minerlytics — Education Portal</title>
-
   <style>
     :root{
       --bg: #07102a;
       --panel: rgba(11,19,42,.42);
+      --panel-2: rgba(255,255,255,.03);
       --line: rgba(255,255,255,0.08);
       --text: rgba(234,240,255,0.92);
       --muted: rgba(234,240,255,0.70);
       --accent: #7c5cff;
       --accent2: #39e6c8;
+      --success: #7ef0a8;
       color-scheme: dark;
     }
 
@@ -35,6 +36,638 @@
     a{
       color: inherit;
       text-decoration: none;
+    }
+
+    .topbar{
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 16px 24px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(7,16,42,.88);
+      backdrop-filter: blur(12px);
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      min-width: fit-content;
+    }
+
+    .logoMark{
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: 0 0 18px rgba(124,92,255,.45);
+      flex: 0 0 auto;
+    }
+
+    .brandName{
+      font-weight: 800;
+      letter-spacing: .12em;
+      font-size: 13px;
+      color: #fff;
+      white-space: nowrap;
+    }
+
+    .navLinks{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .navLink{
+      padding: 10px 14px;
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 600;
+      transition: .2s ease;
+      border: 1px solid transparent;
+    }
+
+    .navLink:hover{
+      color:#fff;
+      border-color: rgba(255,255,255,.08);
+      background: rgba(255,255,255,.04);
+    }
+
+    .navLink.isActive{
+      color:#fff;
+      background: rgba(124,92,255,.16);
+      border-color: rgba(124,92,255,.35);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.03);
+    }
+
+    .pageWrap{
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 28px 20px 44px;
+    }
+
+    .pageIntro{
+      margin-bottom: 20px;
+    }
+
+    .eyebrow{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    .pageTitle{
+      margin: 14px 0 8px;
+      font-size: clamp(28px, 4vw, 42px);
+      line-height: 1.08;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .pageSubtitle{
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--muted);
+      max-width: 900px;
+    }
+
+    .layout{
+      display:grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(380px, 0.9fr);
+      gap: 18px;
+      align-items: start;
+    }
+
+    .card{
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: 0 8px 30px rgba(0,0,0,.24);
+    }
+
+    .sectionTitleRow{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      margin-bottom: 10px;
+    }
+
+    .sectionTitle{
+      font-weight:800;
+      letter-spacing:.02em;
+      font-size:16px;
+      color:#fff;
+      text-transform: uppercase;
+    }
+
+    .separator{
+      height:1px;
+      background: rgba(255,255,255,0.05);
+      margin: 22px 0;
+      border-radius: 1px;
+    }
+
+    .indent{
+      margin-top:6px;
+      padding-left: 18px;
+    }
+
+    .quick-list{
+      list-style: disc;
+      padding-left: 18px;
+    }
+
+    h2,h3{
+      color: #eaf0ff;
+      margin-top:12px;
+      margin-bottom: 8px;
+    }
+
+    p{
+      margin:0 0 10px;
+      line-height:1.65;
+      color: rgba(234,240,255,.86);
+    }
+
+    li{
+      margin:6px 0;
+      line-height: 1.55;
+    }
+
+    strong{ color:#fff; }
+
+    /* Assistant */
+    .assistantCard{
+      position: sticky;
+      top: 88px;
+      overflow: hidden;
+    }
+
+    .assistantHeader{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      margin-bottom: 14px;
+    }
+
+    .assistantTitleWrap{
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+
+    .assistantTitle{
+      font-size: 18px;
+      font-weight: 800;
+      color:#fff;
+      margin:0;
+    }
+
+    .assistantSub{
+      margin: 2px 0 0;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .thinkingOrb{
+      position: relative;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%, rgba(124,92,255,.35), rgba(57,230,200,.12) 55%, rgba(255,255,255,.02));
+      border: 1px solid rgba(255,255,255,.10);
+      box-shadow: 0 0 30px rgba(124,92,255,.18), inset 0 0 20px rgba(255,255,255,.03);
+      flex: 0 0 auto;
+    }
+
+    .thinkingOrb::before,
+    .thinkingOrb::after,
+    .thinkingDot{
+      content:"";
+      position:absolute;
+      width:7px;
+      height:7px;
+      border-radius:50%;
+      background: linear-gradient(135deg, var(--accent2), #fff);
+      box-shadow: 0 0 10px rgba(57,230,200,.6);
+    }
+
+    .thinkingOrb::before{
+      top: 2px;
+      left: 18px;
+      animation: orbit1 1.5s linear infinite;
+    }
+
+    .thinkingOrb::after{
+      top: 18px;
+      right: 1px;
+      animation: orbit2 1.8s linear infinite;
+    }
+
+    .thinkingDot{
+      top: 28px;
+      left: 4px;
+      animation: orbit3 2.1s linear infinite;
+    }
+
+    @keyframes orbit1{
+      from{ transform: rotate(0deg) translateX(14px) rotate(0deg); }
+      to{ transform: rotate(360deg) translateX(14px) rotate(-360deg); }
+    }
+
+    @keyframes orbit2{
+      from{ transform: rotate(0deg) translateX(12px) rotate(0deg); }
+      to{ transform: rotate(-360deg) translateX(12px) rotate(360deg); }
+    }
+
+    @keyframes orbit3{
+      from{ transform: rotate(0deg) translateX(10px) rotate(0deg); opacity:.8; }
+      50%{ opacity:1; }
+      to{ transform: rotate(360deg) translateX(10px) rotate(-360deg); opacity:.8; }
+    }
+
+    .assistantState{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:8px 12px;
+      border-radius:999px;
+      background: rgba(255,255,255,.03);
+      border: 1px solid rgba(255,255,255,.07);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .assistantState .pulse{
+      width:8px;
+      height:8px;
+      border-radius:50%;
+      background: var(--success);
+      box-shadow: 0 0 12px rgba(126,240,168,.6);
+    }
+
+    .chatWindow{
+      border:1px solid rgba(255,255,255,.08);
+      background: rgba(255,255,255,.02);
+      border-radius: 16px;
+      min-height: 420px;
+      max-height: 58vh;
+      overflow:auto;
+      padding: 14px;
+      display:flex;
+      flex-direction:column;
+      gap: 12px;
+    }
+
+    .msg{
+      max-width: 92%;
+      padding: 12px 14px;
+      border-radius: 16px;
+      line-height: 1.55;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      border:1px solid rgba(255,255,255,.06);
+    }
+
+    .msg.user{
+      align-self: flex-end;
+      background: rgba(124,92,255,.14);
+      color:#fff;
+    }
+
+    .msg.assistant{
+      align-self: flex-start;
+      background: rgba(255,255,255,.035);
+      color: rgba(234,240,255,.90);
+    }
+
+    .msgMeta{
+      margin-top: 8px;
+      font-size: 11px;
+      color: rgba(234,240,255,.55);
+    }
+
+    .chatComposer{
+      margin-top: 14px;
+      display:grid;
+      gap:10px;
+    }
+
+    .inputWrap{
+      display:flex;
+      gap:10px;
+      align-items:flex-end;
+    }
+
+    .chatInput{
+      width:100%;
+      min-height: 110px;
+      resize: vertical;
+      border-radius: 16px;
+      border:1px solid rgba(255,255,255,.08);
+      background: rgba(255,255,255,.03);
+      color:#fff;
+      padding: 14px 16px;
+      font: inherit;
+      line-height: 1.5;
+      outline: none;
+    }
+
+    .chatInput::placeholder{
+      color: rgba(234,240,255,.45);
+    }
+
+    .btnRow{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+
+    .btn{
+      appearance:none;
+      border:none;
+      cursor:pointer;
+      border-radius: 14px;
+      padding: 12px 16px;
+      font-weight: 700;
+      font-size: 14px;
+      transition: .2s ease;
+    }
+
+    .btnPrimary{
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color:#fff;
+      box-shadow: 0 10px 24px rgba(124,92,255,.24);
+    }
+
+    .btnPrimary:hover{ transform: translateY(-1px); }
+
+    .btnGhost{
+      background: rgba(255,255,255,.04);
+      color: var(--text);
+      border: 1px solid rgba(255,255,255,.08);
+    }
+
+    .smallHint{
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .chips{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+    }
+
+    .chip{
+      border: 1px solid rgba(255,255,255,.08);
+      background: rgba(255,255,255,.03);
+      color: var(--muted);
+      border-radius:999px;
+      padding: 8px 12px;
+      font-size: 12px;
+      cursor:pointer;
+    }
+
+    .typing{
+      display:none;
+      align-items:center;
+      gap:10px;
+      padding: 12px 14px;
+      border-radius: 16px;
+      width: fit-content;
+      background: rgba(255,255,255,.035);
+      border:1px solid rgba(255,255,255,.06);
+    }
+
+    .typing.show{ display:flex; }
+
+    .typingDots{
+      display:flex;
+      gap:6px;
+    }
+
+    .typingDots span{
+      width:7px;
+      height:7px;
+      border-radius:50%;
+      background: rgba(255,255,255,.7);
+      animation: bounce 1.2s infinite ease-in-out;
+    }
+
+    .typingDots span:nth-child(2){ animation-delay: .15s; }
+    .typingDots span:nth-child(3){ animation-delay: .3s; }
+
+    @keyframes bounce{
+      0%, 80%, 100%{ transform: scale(.7); opacity:.5; }
+      40%{ transform: scale(1); opacity:1; }
+    }
+
+    @media (max-width: 1100px){
+      .layout{
+        grid-template-columns: 1fr;
+      }
+
+      .assistantCard{
+        position: relative;
+        top: 0;
+      }
+    }
+
+    @media (max-width: 900px){
+      .topbar{
+        align-items:flex-start;
+        flex-direction: column;
+      }
+
+      .navLinks{
+        width:100%;
+        justify-content:flex-start;
+      }
+
+      .pageWrap{
+        padding: 22px 14px 40px;
+      }
+
+      .chatWindow{
+        max-height: 420px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logoMark" aria-hidden="true"></div>
+      <span class="brandName">MINERLYTICS</span>
+    </div>
+
+    <nav class="navLinks" aria-label="Primary navigation">
+      <a class="navLink" href="./index.html#home">Home</a>
+      <a class="navLink" href="./index.html#analysis">Analysis</a>
+      <a class="navLink" href="./index.html#trends">Trends</a>
+      <a class="navLink isActive" href="./education%20portal.html">Education Portal</a>
+      <a class="navLink" href="./index.html#company">Company Profile</a>
+      <a class="navLink" href="./index.html#subscriptions">Subscriptions</a>
+      <a class="navLink" href="./about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="pageWrap">
+    <section class="pageIntro">
+      <div class="eyebrow">Research Framework + AI Q&A</div>
+      <h1 class="pageTitle">Education Portal</h1>
+      <p class="pageSubtitle">
+        Learn how to evaluate miners and commodities — and ask the Minerlytics Education Portal AI Assistant questions based on the transcript library stored in Cloudflare D1.
+      </p>
+    </section>
+
+    <section class="layout">
+      <div class="card">
+        <div class="sectionTitleRow">
+          <span class="sectionTitle">Education Portal</span>
+        </div>
+
+        <p>
+          <strong>Minerlytics AI</strong> provides retail investors with an accessible, research-grade AI platform that empowers deep, data-driven
+          analysis of miners and commodities so they can make informed investment decisions with confidence. We enable retail investors of mining and precious-metals who
+          want faster signal discovery and cleaner decision support. We bring together market data, thematic watchlists, and structured workflows so you can track what’s moving miners —
+          without juggling ten different tabs.
+        </p>
+
+        <h2>High level industry overview</h2>
+        <ul>
+          <li>The mining sector is cyclical, capital intensive and asset depleting: producers exhaust resources and must continually replace reserves through exploration, development or M&amp;A.</li>
+          <li>Key participant types:
+            <ul>
+              <li><strong>Majors:</strong> large, diversified producers with scale, FCF generation and balance sheet access.</li>
+              <li><strong>Developers / Juniors:</strong> discovery → de risk → finance → construct; high optionality, long timelines and dilution risk.</li>
+              <li><strong>Royalties/Streams:</strong> asset light, low sustaining capex, stable cash yields and different risk/return profile.</li>
+            </ul>
+          </li>
+          <li>Cycles and macro forces dominate returns; successful investors often buy when assets are out of favor and sell when future upside is already fully priced in.</li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <h2>Core variables to review</h2>
+        <ol>
+          <li><strong>Balance sheet flexibility and cost of capital</strong></li>
+          <li><strong>Free cash flow profile and capital allocation</strong></li>
+          <li><strong>Management quality and technical franchise</strong></li>
+          <li><strong>Project economics and study credibility</strong></li>
+          <li><strong>Funding path and dilution risk</strong></li>
+          <li><strong>Execution capability and governance discipline</strong></li>
+          <li><strong>Jurisdictional and political risk</strong></li>
+          <li><strong>Valuation relative to cycle posture</strong></li>
+        </ol>
+
+        <div class="separator"></div>
+
+        <h3>Quick screening checklist</h3>
+        <ul class="quick-list">
+          <li>Debt load, maturities, and liquidity buffer</li>
+          <li>Normalized FCF and capex needs</li>
+          <li>Board and management track record</li>
+          <li>IRR, payback, AISC quartile, NPV gap</li>
+          <li>Permits, royalties, sovereign risk</li>
+          <li>Execution team strength and contingency planning</li>
+        </ul>
+
+        <p style="margin-top:16px; color: rgba(234,240,255,.62); font-size:12px;">
+          <strong>Disclaimer:</strong> Informational and educational use only. Not investment advice.
+        </p>
+      </div>
+
+      <aside class="card assistantCard">
+        <div class="assistantHeader">
+          <div class="assistantTitleWrap">
+            <div class="thinkingOrb" id="thinkingOrb" aria-hidden="true">
+              <span class="thinkingDot"></span>
+            </div>
+            <div>
+              <h2 class="assistantTitle">Minerlytics Education Portal AI Assistant</h2>
+              <p class="assistantSub">Type your question and ask follow-ups based on transcript_text from your D1 table.</p>
+            </div>
+          </div>
+
+          <div class="assistantState">
+            <span class="pulse"></span>
+            <span id="assistantStateText">Ready</span>
+          </div>
+        </div>
+
+        <div class="chips">
+          <button class="chip" data-prompt="Summarize the main lessons across the education transcripts.">Summarize lessons</button>
+          <button class="chip" data-prompt="What are the biggest risks mining investors should watch for?">Mining risks</button>
+          <button class="chip" data-prompt="Explain project economics for junior miners in simple terms.">Junior miner economics</button>
+          <button class="chip" data-prompt="What do the transcripts say about management quality and capital allocation?">Management quality</button>
+        </div>
+
+        <div class="chatWindow" id="chatWindow" aria-live="polite">
+          <div class="msg assistant">
+Welcome — ask anything about mining education, miner evaluation, project economics, balance sheet risk, or lessons from the transcript library.
+
+Examples:
+• “What did the videos say about IRR and payback?”
+• “Summarize royalty/streaming companies.”
+• “What are the key red flags for developers?”
+            <div class="msgMeta">Minerlytics Education Portal AI Assistant</div>
+          </div>
+
+          <div class="typing" id="typingIndicator">
+            <div class="typingDots"><span></span><span></span><span></span></div>
+            <div>Thinking… searching transcript_text and preparing answer.</div>
+          </div>
+        </div>
+
+        <form class="chatComposer" id="chatForm">
+          <div class="inputWrap">
+            <textarea
+              id="chatInput"
+              class="chatInput"
+              placeholder="Type your question… for example: What do the transcripts say about valuing junior gold miners?"
+            ></textarea>
+          </div>
+
+          <div class="btnRow">
+            <button type="submit" class="btn btnPrimary" id="sendBtn">Ask Assistant</button>
+            <button type="button" class="btn btnGhost" id="followUpBtn">Ask Follow-Up</button>
+            <button type="button" class="btn btnGhost" id="clearBtn">Clear Chat</button>
+          </div>
+
+          <div class="smallHint">
+            Follow-up works automatically by keeping chat history in context.
+          </div>
+        </form>
+      </aside>
+    </section>
+  </main>
+
+  <script type="module" src="./js/education-portal-ai.js"></script>
+</body>
+</html>      text-decoration: none;
     }
 
     .topbar{
