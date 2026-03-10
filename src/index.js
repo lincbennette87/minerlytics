@@ -1,6 +1,7 @@
 import { refreshNewsForAll } from "./news_cron.js";
 import { TICKERS } from "./tickers.js";
-import { googleRssUrl, parseRssItems } from "./rss.js";
+import { googleRssUrl, parseRssItems } from "./rss.js";https://github.com/lincbennette87/minerlytics/blob/develop/src/index.js
+import { handleEducationPortalChat, educationOptions } from "./educationPortalChat.js";
 
 const CORS = {
   "access-control-allow-origin": "*",
