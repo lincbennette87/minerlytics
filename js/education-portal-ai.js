@@ -64,21 +64,28 @@ async function askAssistant(question, followUp = false) {
 
   try {
     const response = await fetch(API_URL, {
-      method: "POST",
-      headers: {
-        "content-type": "application/json"
-      },
-      body: JSON.stringify({
-        question: cleanQuestion,
-        history
-      })
-    });
+  method: "POST",
+  headers: {
+    "content-type": "application/json"
+  },
+  body: JSON.stringify({
+    question: cleanQuestion,
+    history
+  })
+});
 
-    const data = await response.json();
+  const raw = await response.text();
 
-    if (!response.ok) {
-      throw new Error(data?.error || "Request failed.");
-    }
+let data = {};
+try {
+  data = raw ? JSON.parse(raw) : {};
+} catch {
+  throw new Error(`Server returned non-JSON response: ${raw || "empty response"}`);
+}
+
+if (!response.ok) {
+  throw new Error(data?.error || `Request failed with status ${response.status}`);
+}
 
     const answer = data?.answer || "I could not find an answer from the transcript library.";
     addMessage("assistant", answer, "Minerlytics Education Portal AI Assistant");
