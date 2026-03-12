@@ -204,57 +204,57 @@
           <!-- ✅ Chat-style AI Assistant -->
           <div class="aiHud">
             <div class="aiTop">
-              <div class="aiTitle">Minerlytics AI Assistant</div>
-            </div>
+            <div class="aiTitle">Minerlytics AI Assistant</div>
+          </div>
 
-            <div class="aiControls">
-              <input id="aiSymbol" type="text" placeholder="Ticker (HYMC, AEM, CDE...)" />
-              <button id="aiClear" class="btn btnGhost btnTight" type="button">Clear</button>
-            </div>
-
-          <div class="aiChat" id="aiChat" aria-label="AI chat transcript">
-  <div class="aiCenterVisual" id="aiCenterVisual" aria-hidden="true">
-    <div class="aiGlobeHero">
-      <span class="orbit orbit1"></span>
-      <span class="orbit orbit2"></span>
-      <span class="orbit orbit3"></span>
-
-      <span class="globeCore"></span>
-      <span class="ring ring1"></span>
-      <span class="ring ring2"></span>
-      <span class="ring ring3"></span>
-
-      <span class="node n1"></span>
-      <span class="node n2"></span>
-      <span class="node n3"></span>
-      <span class="node n4"></span>
-      <span class="node n5"></span>
-      <span class="node n6"></span>
-    </div>
-
-    <div class="aiCenterText">
-      <div class="aiCenterTitle">Minerlytics AI</div>
-      <div class="aiCenterSub" id="aiCenterStatus">
-        Ready for your next mining question
-      </div>
-    </div>
+           <div class="aiControls">
+    <input id="aiSymbol" type="text" placeholder="Ticker (HYMC, AEM, CDE...)" />
+    <button id="aiClear" class="btn btnGhost btnTight" type="button">Clear</button>
   </div>
 
-  <div class="aiMessages" id="aiMessages"></div>
+  <div class="aiChat" id="aiChat" aria-label="AI chat transcript">
+    <div class="aiCenterVisual" id="aiCenterVisual" aria-hidden="true">
+      <div class="aiGlobeHero">
+        <span class="orbit orbit1"></span>
+        <span class="orbit orbit2"></span>
+        <span class="orbit orbit3"></span>
+
+        <span class="globeCore"></span>
+        <span class="ring ring1"></span>
+        <span class="ring ring2"></span>
+        <span class="ring ring3"></span>
+
+        <span class="node n1"></span>
+        <span class="node n2"></span>
+        <span class="node n3"></span>
+        <span class="node n4"></span>
+        <span class="node n5"></span>
+        <span class="node n6"></span>
+      </div>
+
+    <div class="aiCenterText">
+        <div class="aiCenterTitle">Minerlytics AI</div>
+        <div class="aiCenterSub" id="aiCenterStatus">
+          Ready for your next mining question
+        </div>
+      </div>
+    </div>
+
+    <div class="aiMessages" id="aiMessages"></div>
+  </div>
+
+       <div class="aiComposer">
+    <textarea id="aiQuestion" rows="2" placeholder="Ask a question… (Enter to send, Shift+Enter for new line)"></textarea>
+    <button id="aiRun" class="btn btnPrimary btnTight" type="button">Send</button>
+  </div>
+
+  <div class="aiQuickRow">
+    <button class="pillBtn" type="button" data-t="HYMC">HYMC</button>
+    <button class="pillBtn" type="button" data-t="AEM">AEM</button>
+    <button class="pillBtn" type="button" data-t="CDE">CDE</button>
+    <button class="pillBtn" type="button" data-t="WPM">WPM</button>
+  </div>
 </div>
-
-            <div class="aiComposer">
-              <textarea id="aiQuestion" rows="2" placeholder="Ask a question… (Enter to send, Shift+Enter for new line)"></textarea>
-              <button id="aiRun" class="btn btnPrimary btnTight" type="button">Send</button>
-            </div>
-
-            <div class="aiQuickRow">
-              <button class="pillBtn" type="button" data-t="HYMC">HYMC</button>
-              <button class="pillBtn" type="button" data-t="AEM">AEM</button>
-              <button class="pillBtn" type="button" data-t="CDE">CDE</button>
-              <button class="pillBtn" type="button" data-t="WPM">WPM</button>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -291,6 +291,8 @@
     const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 
     const chatEl   = document.getElementById("aiChat");
+    const chatBody = document.getElementById("aiMessages");
+    const centerStatus = document.getElementById("aiCenterStatus");
     const symEl    = document.getElementById("aiSymbol");
     const qEl      = document.getElementById("aiQuestion");
     const sendBtn  = document.getElementById("aiRun");
@@ -357,130 +359,73 @@
     }
 
     function scrollToBottom(){
-      chatEl.scrollTop = chatEl.scrollHeight;
-    }
+  chatBody.scrollTop = chatBody.scrollHeight;
+}
 
-    function render(){
-      chatEl.innerHTML = "";
+function render(){
+  chatBody.innerHTML = "";
 
-      if(messages.filter(m => m.role !== "system").length === 0){
-        chatEl.innerHTML = `
-          <div class="aiTyping">
-            Start a chat. Try: “summarize last 10 days” or “what changed vs last week?”
-          </div>
-        `;
-        return;
-      }
+  const visibleMessages = messages.filter(m => m.role !== "system");
 
-      for(const m of messages){
-        if(m.role === "system") continue;
+  if(visibleMessages.length === 0){
+    chatEl.classList.remove("has-messages");
+    if(centerStatus) centerStatus.textContent = "Ready for your next mining question";
+    return;
+  }
 
-        const who = m.role === "user" ? "user" : "assistant";
-        const label = m.role === "user" ? "You" : "Minerlytics AI";
+  chatEl.classList.add("has-messages");
 
-        const node = document.createElement("div");
-        node.className = `aiMsg ${who}`;
-        node.innerHTML = `
-          <div>
-            <div class="aiBubble">${esc(m.content)}</div>
-            <div class="aiMeta">${esc(label)}</div>
-          </div>
-        `;
-        chatEl.appendChild(node);
-      }
-      scrollToBottom();
-    }
+  for(const m of messages){
+    if(m.role === "system") continue;
 
-    function pushSystemPrimer(symbol){
-      messages = messages.filter(m => m.role !== "system");
-      messages.unshift({
-        role: "system",
-        content:
-          `You are Minerlytics AI Assistant. Answer using only stored OHLCV for the given symbol from D1 (daily_ohlcv). ` +
-          `If asked for news/fundamentals/social, say it's not available in this dataset. Current symbol: ${symbol}.`
-      });
-    }
+    const who = m.role === "user" ? "user" : "assistant";
+    const label = m.role === "user" ? "You" : "Minerlytics AI";
 
-    function typingOn(){
-      const node = document.createElement("div");
-      node.id = "aiTyping";
-      node.className = "aiTyping";
-      node.textContent = "Thinking…";
-      chatEl.appendChild(node);
-      scrollToBottom();
-    }
+    const node = document.createElement("div");
+    node.className = `aiMsg ${who}`;
+    node.innerHTML = `
+      <div>
+        <div class="aiBubble">${esc(m.content)}</div>
+        <div class="aiMeta">${esc(label)}</div>
+      </div>
+    `;
+    chatBody.appendChild(node);
+  }
 
-    function typingOff(){
-      const node = document.getElementById("aiTyping");
-      if(node) node.remove();
-    }
+  scrollToBottom();
+}
 
-    async function send(){
-      // Hard gate: must accept disclaimer first
-      if (!isAccepted()){
-        showOverlay();
-        return;
-      }
+function typingOn(){
+  chatEl.classList.add("is-thinking");
+  if(centerStatus) centerStatus.textContent = "Analyzing market context...";
 
-      const symbol = (symEl.value || "").trim().toUpperCase();
-      const question = (qEl.value || "").trim();
+  const node = document.createElement("div");
+  node.id = "aiTyping";
+  node.className = "aiThinkingWrap";
+  node.innerHTML = `
+    <div class="aiThinkingBubble">
+      <div class="aiGlobeMini"></div>
+      <div class="aiThinkingText">Thinking...</div>
+    </div>
+  `;
+  chatBody.appendChild(node);
+  scrollToBottom();
+}
 
-      if(!symbol){
-        messages.push({ role:"assistant", content:"Enter a ticker first (e.g., HYMC)." });
-        render();
-        return;
-      }
+function typingOff(){
+  chatEl.classList.remove("is-thinking");
+  if(centerStatus) centerStatus.textContent = "Ready for your next mining question";
 
-      if(!question){
-        messages.push({ role:"assistant", content:"Type a question to send." });
-        render();
-        return;
-      }
+  const node = document.getElementById("aiTyping");
+  if(node) node.remove();
+}
 
-      pushSystemPrimer(symbol);
-      messages.push({ role:"user", content: question });
-
-      qEl.value = "";
-      render();
-      typingOn();
-
-      const MAX_TURNS = 16;
-      const context = messages.slice(-MAX_TURNS);
-
-      let res;
-      try{
-        res = await fetch(API_BASE + "/api/assistant", {
-          method: "POST",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify({ symbol, question, messages: context })
-        });
-      } catch (e){
-        typingOff();
-        messages.push({ role:"assistant", content:`Network error: ${String(e?.message || e)}` });
-        render();
-        return;
-      }
-
-      if(!res.ok){
-        const txt = await res.text().catch(()=> "");
-        typingOff();
-        messages.push({ role:"assistant", content: (txt || `Request failed: ${res.status}`) });
-        render();
-        return;
-      }
-
-      const data = await res.json().catch(()=> null);
-      const answer = data?.answer ? String(data.answer) : "No answer returned.";
-      typingOff();
-      messages.push({ role:"assistant", content: answer });
-      render();
-    }
-
-    function clearChat(){
-      messages = [];
-      render();
-    }
-
+function clearChat(){
+  messages = [];
+  chatEl.classList.remove("has-messages", "is-thinking");
+  if(centerStatus) centerStatus.textContent = "Ready for your next mining question";
+  render();
+}
     sendBtn.addEventListener("click", send);
     clearBtn.addEventListener("click", clearChat);
 
@@ -498,7 +443,7 @@
       if(t){
         symEl.value = t;
         clearChat();
-        messages.push({ role:"assistant", content:`Set ticker to ${t}. Ask your first question.` });
+        messages.push({ role:"assistant", content:`Ticker set to ${t}. Ask your first question.` });
         render();
       }
     });
