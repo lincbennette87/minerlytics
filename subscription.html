@@ -1,36 +1,474 @@
-<section class="shell" id="subscription" aria-label="Subscription Plans">
-  <div class="sectionTitleRow" style="margin-top:18px;">
-    <span class="sectionTitle">Subscription Plans</span>
-  </div>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Minerlytics — Subscription Plans</title>
 
-  <div class="subscriptionGrid">
-    <div class="subscriptionCard featured">
-      <div class="planBadge">Most Popular</div>
-      <h3>Free 7 Day Trial</h3>
-      <p class="planDesc">Explore the platform with full access for 7 days.</p>
-      <div class="planPrice">$0</div>
-      <button class="planBtn" onclick="unlockWebsite('trial')">Start Free Trial</button>
+  <style>
+    :root{
+      --bg: #07102a;
+      --panel: rgba(11,19,42,.42);
+      --line: rgba(255,255,255,0.08);
+      --text: rgba(234,240,255,0.92);
+      --muted: rgba(234,240,255,0.70);
+      --accent: #7c5cff;
+      --accent2: #39e6c8;
+      color-scheme: dark;
+    }
+
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(124,92,255,.18), transparent 28%),
+        radial-gradient(circle at top right, rgba(57,230,200,.10), transparent 25%),
+        var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    a{
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .topbar{
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 16px 24px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(7,16,42,.88);
+      backdrop-filter: blur(12px);
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      min-width: fit-content;
+    }
+
+    .logoMark{
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: 0 0 18px rgba(124,92,255,.45);
+      flex: 0 0 auto;
+    }
+
+    .brandName{
+      font-weight: 800;
+      letter-spacing: .12em;
+      font-size: 13px;
+      color: #fff;
+      white-space: nowrap;
+    }
+
+    .navLinks{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .navLink{
+      padding: 10px 14px;
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 600;
+      transition: .2s ease;
+      border: 1px solid transparent;
+    }
+
+    .navLink:hover{
+      color:#fff;
+      border-color: rgba(255,255,255,.08);
+      background: rgba(255,255,255,.04);
+    }
+
+    .navLink.isActive{
+      color:#fff;
+      background: rgba(124,92,255,.16);
+      border-color: rgba(124,92,255,.35);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.03);
+    }
+
+    .pageWrap{
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 20px 48px;
+    }
+
+    .shell{
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .pageIntro{
+      margin: 8px auto 22px;
+      max-width: 980px;
+    }
+
+    .eyebrow{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    .pageTitle{
+      margin: 14px 0 8px;
+      font-size: clamp(28px, 4vw, 42px);
+      line-height: 1.08;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .pageSubtitle{
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--muted);
+      max-width: 820px;
+    }
+
+    .sectionTitleRow{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      margin-top: 26px;
+    }
+
+    .sectionTitle{
+      font-weight:800;
+      letter-spacing:.02em;
+      font-size:16px;
+      color:#fff;
+      text-transform: uppercase;
+    }
+
+    .card{
+      margin-top:10px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: 0 8px 30px rgba(0,0,0,.24);
+      color: rgba(234,240,255,.86);
+    }
+
+    .separator{
+      height:1px;
+      background: rgba(255,255,255,0.05);
+      margin: 22px 0;
+      border-radius: 1px;
+    }
+
+    .grid-12{
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap:12px;
+    }
+
+    .col-span-6{ grid-column: span 6; }
+    .col-span-4{ grid-column: span 4; }
+
+    .infoBox{
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:16px;
+      padding:16px;
+      background: rgba(255,255,255,.03);
+      color: rgba(234,240,255,.78);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .featuredPlan{
+      border:1px solid rgba(124,92,255,.35);
+      background: linear-gradient(180deg, rgba(124,92,255,.10), rgba(255,255,255,.03));
+      box-shadow: 0 10px 30px rgba(124,92,255,.15);
+    }
+
+    .planBadge{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(124,92,255,.18);
+      border: 1px solid rgba(124,92,255,.34);
+      color:#fff;
+      font-size:11px;
+      font-weight:800;
+      letter-spacing:.04em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .planName{
+      margin:0 0 8px;
+      color:#fff;
+      font-size:22px;
+      font-weight:800;
+    }
+
+    .planPrice{
+      font-size:32px;
+      font-weight:800;
+      color:#fff;
+      margin: 6px 0 10px;
+    }
+
+    .planSub{
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+
+    .planList{
+      margin: 10px 0 0;
+      padding-left: 18px;
+    }
+
+    .planBtnRow{
+      display:flex;
+      gap:10px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+
+    .planBtn{
+      appearance:none;
+      border:none;
+      border-radius: 12px;
+      padding: 12px 16px;
+      font-weight: 700;
+      font-size: 14px;
+      cursor:pointer;
+      color:#fff;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: 0 10px 24px rgba(124,92,255,.22);
+      transition: transform .18s ease, opacity .18s ease;
+    }
+
+    .planBtn:hover{
+      transform: translateY(-1px);
+      opacity: .96;
+    }
+
+    .planBtn.secondary{
+      background: rgba(255,255,255,.05);
+      border: 1px solid rgba(255,255,255,.08);
+      box-shadow: none;
+      color: #fff;
+    }
+
+    strong{ color:#fff; }
+
+    p{
+      margin:0 0 10px;
+      line-height:1.65;
+      color: rgba(234,240,255,.86);
+    }
+
+    li{
+      margin:6px 0;
+      line-height: 1.55;
+    }
+
+    @media (max-width: 900px){
+      .topbar{
+        align-items:flex-start;
+        flex-direction: column;
+      }
+
+      .navLinks{
+        width:100%;
+        justify-content:flex-start;
+      }
+
+      .col-span-6,
+      .col-span-4{
+        grid-column: span 12;
+      }
+
+      .pageWrap{
+        padding: 22px 14px 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="logoMark" aria-hidden="true"></div>
+      <span class="brandName">MINERLYTICS</span>
     </div>
 
-    <div class="subscriptionCard">
-      <h3>30 Day Plan</h3>
-      <p class="planDesc">Perfect for short-term research and analysis.</p>
-      <div class="planPrice">$29</div>
-      <button class="planBtn" onclick="selectPlan('30-day')">Choose Plan</button>
-    </div>
+    <nav class="navLinks" aria-label="Primary navigation">
+      <a class="navLink" href="./index.html#home">Home</a>
+      <a class="navLink" href="./index.html#analysis">Analysis</a>
+      <a class="navLink" href="./index.html#trends">Trends</a>
+      <a class="navLink" href="./index.html#EducationPortal">Education Portal</a>
+      <a class="navLink" href="./index.html#company">Company Profile</a>
+      <a class="navLink isActive" href="./subscription.html">Subscriptions</a>
+      <a class="navLink" href="./about.html">About</a>
+    </nav>
+  </header>
 
-    <div class="subscriptionCard">
-      <h3>6 Month Plan</h3>
-      <p class="planDesc">Best for active investors and ongoing mining research.</p>
-      <div class="planPrice">$149</div>
-      <button class="planBtn" onclick="selectPlan('6-month')">Choose Plan</button>
-    </div>
+  <main class="pageWrap">
+    <section class="pageIntro shell">
+      <div class="eyebrow">Minerlytics Access</div>
+      <h1 class="pageTitle">Choose Your Subscription</h1>
+      <p class="pageSubtitle">
+        Unlock Minerlytics AI research tools, educational content, and platform access with a plan that fits your needs.
+        Start with a free trial or choose a longer-term subscription.
+      </p>
+    </section>
 
-    <div class="subscriptionCard">
-      <h3>1 Year Plan</h3>
-      <p class="planDesc">Best value for long-term users and serious analysis.</p>
-      <div class="planPrice">$249</div>
-      <button class="planBtn" onclick="selectPlan('1-year')">Choose Plan</button>
-    </div>
-  </div>
-</section>
+    <section class="shell" id="subscriptions" aria-label="Subscription Plans">
+      <div class="sectionTitleRow">
+        <span class="sectionTitle">Subscription Plans</span>
+      </div>
+
+      <div class="card">
+        <p>
+          <strong>Minerlytics</strong> gives you access to AI-powered mining research, educational content,
+          and structured insights across miners, commodities, and market themes. Choose the plan that works best for you.
+        </p>
+
+        <div class="grid-12" style="margin-top:12px;">
+          <div class="col-span-6 infoBox featuredPlan">
+            <div class="planBadge">Recommended</div>
+            <h2 class="planName">Free 7 Day Trial</h2>
+            <div class="planPrice">$0</div>
+            <p class="planSub">
+              Explore the full platform for 7 days and see how Minerlytics can support your research workflow.
+            </p>
+            <ul class="planList">
+              <li>Full platform preview access</li>
+              <li>Try Minerlytics AI features</li>
+              <li>Explore educational content</li>
+              <li>Best way to get started</li>
+            </ul>
+            <div class="planBtnRow">
+              <button class="planBtn" onclick="startPlan('free-trial-7-day')">Start Free Trial</button>
+            </div>
+          </div>
+
+          <div class="col-span-6 infoBox">
+            <div class="planBadge">Flexible</div>
+            <h2 class="planName">30 Day Plan</h2>
+            <div class="planPrice">$29</div>
+            <p class="planSub">
+              Great for short-term access if you want to test the platform for a full month.
+            </p>
+            <ul class="planList">
+              <li>30 days of platform access</li>
+              <li>Ideal for first-time users</li>
+              <li>Perfect for focused research periods</li>
+              <li>Simple monthly-style option</li>
+            </ul>
+            <div class="planBtnRow">
+              <button class="planBtn" onclick="startPlan('30-day')">Choose 30 Day</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-12" style="margin-top:12px;">
+          <div class="col-span-6 infoBox">
+            <div class="planBadge">Popular</div>
+            <h2 class="planName">6 Month Plan</h2>
+            <div class="planPrice">$149</div>
+            <p class="planSub">
+              Best for users who want ongoing access to market research and education over time.
+            </p>
+            <ul class="planList">
+              <li>Extended access for active users</li>
+              <li>Good balance of value and duration</li>
+              <li>Stay consistent with your research</li>
+              <li>Useful for recurring market monitoring</li>
+            </ul>
+            <div class="planBtnRow">
+              <button class="planBtn" onclick="startPlan('6-month')">Choose 6 Month</button>
+            </div>
+          </div>
+
+          <div class="col-span-6 infoBox">
+            <div class="planBadge">Best Value</div>
+            <h2 class="planName">1 Year Plan</h2>
+            <div class="planPrice">$249</div>
+            <p class="planSub">
+              Designed for serious long-term users who want uninterrupted access to the full Minerlytics experience.
+            </p>
+            <ul class="planList">
+              <li>Full year of access</li>
+              <li>Best long-term value</li>
+              <li>Ideal for committed users</li>
+              <li>Supports year-round research workflow</li>
+            </ul>
+            <div class="planBtnRow">
+              <button class="planBtn" onclick="startPlan('1-year')">Choose 1 Year</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="separator" role="separator" aria-hidden="true"></div>
+
+        <h3>What’s included with access</h3>
+        <ul>
+          <li>Minerlytics AI-powered research experience</li>
+          <li>Educational mining and commodity analysis content</li>
+          <li>Structured workflows for deeper market understanding</li>
+          <li>Access to platform features and future experience improvements</li>
+        </ul>
+
+        <div class="separator" role="separator" aria-hidden="true"></div>
+
+        <h3>How access works</h3>
+        <ul>
+          <li>New visitors can begin with the free trial.</li>
+          <li>Once a plan is selected, the website can store access locally for the session or returning visits.</li>
+          <li>You can later connect the plan buttons to Stripe, Paddle, or your own billing backend.</li>
+        </ul>
+
+        <p style="margin-top:12px; color: rgba(234,240,255,.62); font-size:12px; line-height:1.55;">
+          <strong>Note:</strong> This page currently displays subscription plans and selection buttons. Payment and account validation
+          can be connected next through your preferred billing system.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function startPlan(plan){
+      localStorage.setItem("minerlytics_subscription_access", plan);
+      alert("Selected plan: " + plan);
+    }
+  </script>
+
+</body>
+</html>
