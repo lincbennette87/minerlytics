@@ -400,6 +400,16 @@ function render(){
   scrollToBottom();
 }
 
+function pushSystemPrimer(symbol){
+  messages = messages.filter(m => m.role !== "system");
+  messages.unshift({
+    role: "system",
+    content:
+      `You are Minerlytics AI Assistant. Answer using only stored OHLCV for the given symbol from D1 (daily_ohlcv). ` +
+      `If asked for news/fundamentals/social, say it's not available in this dataset. Current symbol: ${symbol}.`
+  });
+}
+
 function typingOn(){
   chatEl.classList.add("is-thinking");
   if(centerStatus) centerStatus.textContent = "Analyzing market context...";
@@ -423,6 +433,66 @@ function typingOff(){
 
   const node = document.getElementById("aiTyping");
   if(node) node.remove();
+}
+
+async function send(){
+  if (!isAccepted()){
+    showOverlay();
+    return;
+  }
+
+  const symbol = (symEl.value || "").trim().toUpperCase();
+  const question = (qEl.value || "").trim();
+
+  if(!symbol){
+    messages.push({ role:"assistant", content:"Enter a ticker first (e.g., HYMC)." });
+    render();
+    return;
+  }
+
+  if(!question){
+    messages.push({ role:"assistant", content:"Type a question to send." });
+    render();
+    return;
+  }
+
+  pushSystemPrimer(symbol);
+  messages.push({ role:"user", content: question });
+
+  qEl.value = "";
+  render();
+  typingOn();
+
+  const MAX_TURNS = 16;
+  const context = messages.slice(-MAX_TURNS);
+
+  let res;
+  try{
+    res = await fetch(API_BASE + "/api/assistant", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ symbol, question, messages: context })
+    });
+  } catch (e){
+    typingOff();
+    messages.push({ role:"assistant", content:`Network error: ${String(e?.message || e)}` });
+    render();
+    return;
+  }
+
+  if(!res.ok){
+    const txt = await res.text().catch(()=> "");
+    typingOff();
+    messages.push({ role:"assistant", content: (txt || `Request failed: ${res.status}`) });
+    render();
+    return;
+  }
+
+  const data = await res.json().catch(()=> null);
+  const answer = data?.answer ? String(data.answer) : "No answer returned.";
+  typingOff();
+  messages.push({ role:"assistant", content: answer });
+  render();
 }
 
 function clearChat(){
