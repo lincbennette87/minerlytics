@@ -71,6 +71,619 @@
           </div>
         </div>
 
+        <div class="sectionTitleRow">
+          <span class="sectionTitle">Trending Now on Minerlytics</span>
+        </div>
+
+        <section class="trendChart" aria-label="Top 5 tickers line chart">
+          <div class="trendChartHead">
+            <div class="trendChartTitle">Top 5 Tickers — 6M Trend</div>
+            <div class="trendChartMeta">
+              Window: <span id="trendWindowLabel">30D</span>
+            </div>
+          </div>
+
+          <div class="trendChartCanvasWrap">
+            <canvas id="top5LineChart" class="trendChartCanvas"></canvas>
+          </div>
+
+          <div class="trendChartControls">
+            <input
+              id="trendWindow"
+              type="range"
+              min="30"
+              max="180"
+              step="10"
+              value="30"
+              aria-label="Select window in days"
+            />
+            <div class="trendChartTicks">
+              <span>30D</span><span>60D</span><span>90D</span><span>120D</span><span>150D</span><span>180D</span>
+            </div>
+          </div>
+
+          <div class="trendChartLegend" id="trendLegend"></div>
+
+          <style>
+            .trendChart{
+              margin-top: 10px;
+              border: 1px solid var(--line);
+              background: rgba(11,19,42,.40);
+              border-radius: 18px;
+              padding: 12px;
+              box-shadow: 0 16px 50px rgba(0,0,0,.18);
+              overflow: hidden;
+            }
+            .trendChartHead{
+              display:flex;
+              align-items:baseline;
+              justify-content:space-between;
+              gap:12px;
+              margin-bottom: 10px;
+            }
+            .trendChartTitle{
+              font-weight: 800;
+              letter-spacing: .02em;
+              font-size: 13px;
+            }
+            .trendChartMeta{
+              font-size: 12px;
+              color: rgba(234,240,255,.70);
+              white-space: nowrap;
+            }
+            .trendChartCanvasWrap{
+              border: 1px solid rgba(255,255,255,.08);
+              background: rgba(0,0,0,.10);
+              border-radius: 14px;
+              padding: 10px;
+            }
+            .trendChartCanvas{
+              width: 100%;
+              height: 150px;
+              display:block;
+            }
+            .trendChartControls{
+              margin-top: 10px;
+              display:grid;
+              gap: 6px;
+            }
+            .trendChartControls input[type="range"]{
+              width: 100%;
+              accent-color: var(--accent);
+            }
+            .trendChartTicks{
+              display:flex;
+              justify-content:space-between;
+              font-size: 11px;
+              color: rgba(234,240,255,.55);
+            }
+            .trendChartLegend{
+              margin-top: 10px;
+              display:flex;
+              flex-wrap:wrap;
+              gap: 8px;
+            }
+            .trendLegendItem{
+              display:flex;
+              align-items:center;
+              gap: 8px;
+              padding: 6px 10px;
+              border-radius: 999px;
+              border: 1px solid rgba(255,255,255,.10);
+              background: rgba(255,255,255,.03);
+              font-size: 12px;
+              color: rgba(234,240,255,.82);
+            }
+            .trendLegendSwatch{
+              width: 10px;
+              height: 10px;
+              border-radius: 4px;
+              background: var(--accent2);
+              box-shadow: 0 0 14px rgba(57,230,200,.25);
+            }
+          </style>
+        </section>
+
+        <div class="trendRow" id="trendRow">
+          <!-- filled by app.js -->
+        </div>
+
+        <div class="quoteRow" id="quoteRow">
+          <!-- filled by app.js -->
+        </div>
+      </div>
+
+      <div class="heroRight">
+        <div class="artCard">
+          <div class="artGrid"></div>
+          <div class="artGlow"></div>
+
+          <div class="aiHud">
+            <div class="aiTop">
+              <div class="aiTitle">Minerlytics AI Assistant</div>
+            </div>
+
+            <div class="aiControls">
+              <input id="aiSymbol" type="text" placeholder="Ticker (HYMC, AEM, CDE...)" />
+              <button id="aiClear" class="btn btnGhost btnTight" type="button">Clear</button>
+            </div>
+
+            <div class="aiChat" id="aiChat" aria-label="AI chat transcript">
+              <div class="aiCenterVisual" id="aiCenterVisual" aria-hidden="true">
+                <div class="aiGlobeHero">
+                  <span class="orbit orbit1"></span>
+                  <span class="orbit orbit2"></span>
+                  <span class="orbit orbit3"></span>
+
+                  <span class="globeCore"></span>
+                  <span class="ring ring1"></span>
+                  <span class="ring ring2"></span>
+                  <span class="ring ring3"></span>
+
+                  <span class="node n1"></span>
+                  <span class="node n2"></span>
+                  <span class="node n3"></span>
+                  <span class="node n4"></span>
+                  <span class="node n5"></span>
+                  <span class="node n6"></span>
+                </div>
+
+                <div class="aiCenterText">
+                  <div class="aiCenterTitle">Minerlytics AI</div>
+                  <div class="aiCenterSub" id="aiCenterStatus">
+                    Ready for your next mining question
+                  </div>
+                </div>
+              </div>
+
+              <div class="aiMessages" id="aiMessages"></div>
+            </div>
+
+            <div class="aiComposer">
+              <textarea id="aiQuestion" rows="2" placeholder="Ask a question… (Enter to send, Shift+Enter for new line)"></textarea>
+              <button id="aiRun" class="btn btnPrimary btnTight" type="button">Send</button>
+            </div>
+
+            <div class="aiQuickRow">
+              <button class="pillBtn" type="button" data-t="HYMC">HYMC</button>
+              <button class="pillBtn" type="button" data-t="AEM">AEM</button>
+              <button class="pillBtn" type="button" data-t="CDE">CDE</button>
+              <button class="pillBtn" type="button" data-t="WPM">WPM</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Minerlytics AI Disclaimer Modal -->
+  <div id="aiDisclaimerOverlay" class="disclaimerOverlay" role="dialog" aria-modal="true" aria-labelledby="aiDiscTitle">
+    <div class="disclaimerModal">
+      <h2 id="aiDiscTitle">Important Notice — Minerlytics AI Assistant</h2>
+
+      <div class="disclaimerBody">
+        <p>
+          This information is provided for research and informational purposes only and should not be construed as
+          investment advice, a recommendation, or an offer to buy or sell any financial instrument.
+        </p>
+        <p>
+          The provider disclaims any liability for investment outcomes based on this information.
+        </p>
+        <p>
+          Users are advised to seek independent professional advice for investment decisions.
+        </p>
+      </div>
+
+      <div class="disclaimerActions">
+        <button id="aiDecline" class="btn btnGhost" type="button">Decline</button>
+        <button id="aiAccept" class="btn btnPrimary" type="button">I Understand</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  (function () {
+    const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+
+    const chatEl   = document.getElementById("aiChat");
+    const chatBody = document.getElementById("aiMessages");
+    const centerStatus = document.getElementById("aiCenterStatus");
+    const symEl    = document.getElementById("aiSymbol");
+    const qEl      = document.getElementById("aiQuestion");
+    const sendBtn  = document.getElementById("aiRun");
+    const clearBtn = document.getElementById("aiClear");
+
+    const overlay  = document.getElementById("aiDisclaimerOverlay");
+    const acceptBtn = document.getElementById("aiAccept");
+    const declineBtn = document.getElementById("aiDecline");
+    const aiHud = document.querySelector(".aiHud");
+    const KEY = "minerlytics_ai_disclaimer_accepted";
+
+    let messages = [];
+
+    function esc(s){
+      return String(s ?? "")
+        .replaceAll("&","&amp;")
+        .replaceAll("<","&lt;")
+        .replaceAll(">","&gt;")
+        .replaceAll('"',"&quot;")
+        .replaceAll("'","&#039;");
+    }
+
+    function isAccepted(){
+      return localStorage.getItem(KEY) === "true";
+    }
+
+    function showOverlay(){
+      if (isAccepted()) return true;
+      overlay.style.display = "flex";
+      document.body.classList.add("disclaimer-active");
+      return false;
+    }
+
+    function hideOverlay(){
+      overlay.style.display = "none";
+      document.body.classList.remove("disclaimer-active");
+    }
+
+    function disableAI(){
+      if(!aiHud) return;
+      aiHud.style.pointerEvents = "none";
+      aiHud.style.opacity = ".45";
+    }
+
+    hideOverlay();
+
+    if(aiHud){
+      aiHud.addEventListener("pointerdown", ()=> showOverlay(), { capture:true });
+      aiHud.addEventListener("focusin", ()=> showOverlay(), { capture:true });
+    }
+
+    if(acceptBtn){
+      acceptBtn.addEventListener("click", function(){
+        localStorage.setItem(KEY, "true");
+        hideOverlay();
+      });
+    }
+
+    if(declineBtn){
+      declineBtn.addEventListener("click", function(){
+        hideOverlay();
+        disableAI();
+      });
+    }
+
+    function scrollToBottom(){
+      chatBody.scrollTop = chatBody.scrollHeight;
+    }
+
+    function render(){
+      chatBody.innerHTML = "";
+
+      const visibleMessages = messages.filter(m => m.role !== "system");
+
+      if(visibleMessages.length === 0){
+        chatEl.classList.remove("has-messages");
+        if(centerStatus) centerStatus.textContent = "Ready for your next mining question";
+        return;
+      }
+
+      chatEl.classList.add("has-messages");
+
+      for(const m of messages){
+        if(m.role === "system") continue;
+
+        const who = m.role === "user" ? "user" : "assistant";
+        const label = m.role === "user" ? "You" : "Minerlytics AI";
+
+        const node = document.createElement("div");
+        node.className = `aiMsg ${who}`;
+        node.innerHTML = `
+          <div>
+            <div class="aiBubble">${esc(m.content)}</div>
+            <div class="aiMeta">${esc(label)}</div>
+          </div>
+        `;
+        chatBody.appendChild(node);
+      }
+
+      scrollToBottom();
+    }
+
+    function pushSystemPrimer(symbol){
+      messages = messages.filter(m => m.role !== "system");
+      messages.unshift({
+        role: "system",
+        content:
+          `You are Minerlytics AI Assistant. Answer using only stored OHLCV for the given symbol from D1 (daily_ohlcv). ` +
+          `If asked for news/fundamentals/social, say it's not available in this dataset. Current symbol: ${symbol}.`
+      });
+    }
+
+    function typingOn(){
+      chatEl.classList.add("is-thinking");
+      if(centerStatus) centerStatus.textContent = "Analyzing market context...";
+
+      const node = document.createElement("div");
+      node.id = "aiTyping";
+      node.className = "aiThinkingWrap";
+      node.innerHTML = `
+        <div class="aiThinkingBubble">
+          <div class="aiGlobeMini"></div>
+          <div class="aiThinkingText">Thinking...</div>
+        </div>
+      `;
+      chatBody.appendChild(node);
+      scrollToBottom();
+    }
+
+    function typingOff(){
+      chatEl.classList.remove("is-thinking");
+      if(centerStatus) centerStatus.textContent = "Ready for your next mining question";
+
+      const node = document.getElementById("aiTyping");
+      if(node) node.remove();
+    }
+
+    async function send(){
+      if (!isAccepted()){
+        showOverlay();
+        return;
+      }
+
+      const symbol = (symEl.value || "").trim().toUpperCase();
+      const question = (qEl.value || "").trim();
+
+      if(!symbol){
+        messages.push({ role:"assistant", content:"Enter a ticker first (e.g., HYMC)." });
+        render();
+        return;
+      }
+
+      if(!question){
+        messages.push({ role:"assistant", content:"Type a question to send." });
+        render();
+        return;
+      }
+
+      pushSystemPrimer(symbol);
+      messages.push({ role:"user", content: question });
+
+      qEl.value = "";
+      render();
+      typingOn();
+
+      const MAX_TURNS = 16;
+      const context = messages.slice(-MAX_TURNS);
+
+      let res;
+      try{
+        res = await fetch(API_BASE + "/api/assistant", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ symbol, question, messages: context })
+        });
+      } catch (e){
+        typingOff();
+        messages.push({ role:"assistant", content:`Network error: ${String(e?.message || e)}` });
+        render();
+        return;
+      }
+
+      if(!res.ok){
+        const txt = await res.text().catch(()=> "");
+        typingOff();
+        messages.push({ role:"assistant", content: (txt || `Request failed: ${res.status}`) });
+        render();
+        return;
+      }
+
+      const data = await res.json().catch(()=> null);
+      const answer = data?.answer ? String(data.answer) : "No answer returned.";
+      typingOff();
+      messages.push({ role:"assistant", content: answer });
+      render();
+    }
+
+    function clearChat(){
+      messages = [];
+      chatEl.classList.remove("has-messages", "is-thinking");
+      if(centerStatus) centerStatus.textContent = "Ready for your next mining question";
+      render();
+    }
+
+    sendBtn.addEventListener("click", send);
+    clearBtn.addEventListener("click", clearChat);
+
+    qEl.addEventListener("keydown", (e)=>{
+      if(e.key === "Enter" && !e.shiftKey){
+        e.preventDefault();
+        send();
+      }
+    });
+
+    document.addEventListener("click", (e)=>{
+      const btn = e.target.closest(".pillBtn");
+      if(!btn) return;
+      const t = btn.getAttribute("data-t");
+      if(t){
+        symEl.value = t;
+        clearChat();
+        messages.push({ role:"assistant", content:`Ticker set to ${t}. Ask your first question.` });
+        render();
+      }
+    });
+
+    render();
+  })();
+  </script>
+
+  <script src="./app.js"></script>
+
+  <script>
+  (function(){
+    const canvas = document.getElementById("top5LineChart");
+    const slider = document.getElementById("trendWindow");
+    const label  = document.getElementById("trendWindowLabel");
+    const legend = document.getElementById("trendLegend");
+    if(!canvas || !slider || !label || !legend) return;
+
+    const tickers = ["AEM","WPM","NEM","CDE","HYMC"];
+
+    const DAYS = 180;
+    const series = tickers.map((t, idx) => {
+      const base = 10 + idx * 8 + Math.random() * 8;
+      const arr = [];
+      let v = base;
+      for(let i=0;i<DAYS;i++){
+        const drift = (Math.random() - 0.48) * 0.6;
+        v = Math.max(0.5, v + drift);
+        arr.push(v);
+      }
+      return { t, closes: arr };
+    });
+
+    function resizeCanvas(){
+      const dpr = window.devicePixelRatio || 1;
+      const rect = canvas.getBoundingClientRect();
+      canvas.width  = Math.max(1, Math.floor(rect.width * dpr));
+      canvas.height = Math.max(1, Math.floor(rect.height * dpr));
+    }
+
+    function draw(windowDays){
+      resizeCanvas();
+      const ctx = canvas.getContext("2d");
+      const w = canvas.width;
+      const h = canvas.height;
+
+      ctx.clearRect(0,0,w,h);
+
+      const dpr = window.devicePixelRatio || 1;
+      const padL = 12*dpr, padR = 10*dpr, padT = 10*dpr, padB = 14*dpr;
+      const pw = w - padL - padR;
+      const ph = h - padT - padB;
+
+      const start = Math.max(0, DAYS - windowDays);
+      const sliced = series.map(s => ({ t:s.t, closes: s.closes.slice(start) }));
+
+      let mn = Infinity, mx = -Infinity;
+      for(const s of sliced){
+        for(const v of s.closes){
+          if(v < mn) mn = v;
+          if(v > mx) mx = v;
+        }
+      }
+      if(!isFinite(mn) || !isFinite(mx) || mn === mx){
+        mn = 0; mx = 1;
+      }
+      const span = mx - mn;
+
+      ctx.save();
+      ctx.strokeStyle = "rgba(255,255,255,0.06)";
+      ctx.lineWidth = 1*dpr;
+      for(let i=0;i<=4;i++){
+        const y = padT + (ph*i/4);
+        ctx.beginPath();
+        ctx.moveTo(padL, y);
+        ctx.lineTo(padL+pw, y);
+        ctx.stroke();
+      }
+      ctx.restore();
+
+      const colors = [
+        "rgba(57,230,200,0.95)",
+        "rgba(124,92,255,0.95)",
+        "rgba(255,204,102,0.95)",
+        "rgba(234,240,255,0.80)",
+        "rgba(255,107,139,0.85)"
+      ];
+
+      sliced.forEach((s, i) => {
+        const arr = s.closes;
+        ctx.save();
+        ctx.strokeStyle = colors[i % colors.length];
+        ctx.lineWidth = 2*dpr;
+        ctx.beginPath();
+        arr.forEach((v, idx) => {
+          const x = padL + (idx * pw) / (arr.length - 1 || 1);
+          const y = padT + (1 - (v - mn) / span) * ph;
+          if(idx === 0) ctx.moveTo(x,y);
+          else ctx.lineTo(x,y);
+        });
+        ctx.stroke();
+
+        ctx.globalAlpha = 0.25;
+        ctx.lineWidth = 6*dpr;
+        ctx.stroke();
+        ctx.restore();
+      });
+
+      legend.innerHTML = "";
+      tickers.forEach((t, i) => {
+        const item = document.createElement("div");
+        item.className = "trendLegendItem";
+        const sw = document.createElement("span");
+        sw.className = "trendLegendSwatch";
+        sw.style.background = colors[i % colors.length];
+        sw.style.boxShadow = `0 0 14px ${colors[i % colors.length].replace("0.95","0.20")}`;
+        const txt = document.createElement("span");
+        txt.textContent = t;
+        item.appendChild(sw);
+        item.appendChild(txt);
+        legend.appendChild(item);
+      });
+    }
+
+    function onSlider(){
+      const days = Number(slider.value || 30);
+      label.textContent = days + "D";
+      draw(days);
+    }
+
+    slider.addEventListener("input", onSlider);
+    window.addEventListener("resize", () => draw(Number(slider.value || 30)));
+
+    onSlider();
+  })();
+  </script>
+</body>
+</html>    </div>
+  </header>
+
+  <!-- Hero -->
+  <main class="shell" id="home">
+
+    <!-- News bar moved above hero -->
+    <section class="bottomBar">
+      <div class="bottomLeft">
+        <span class="dot"></span>
+        <span class="bottomLabel">Trending</span>
+      </div>
+
+      <div class="ticker" aria-label="Scrolling news ticker">
+        <div class="tickerTrack" id="tickerTrack"></div>
+      </div>
+
+      <button class="newsBtn" type="button">All News</button>
+    </section>
+
+    <section class="hero">
+      <div class="heroLeft">
+        <h1>Trade Like an Insider</h1>
+        <p class="subhead">
+          Track the forces that move mining markets — momentum, sentiment, interviews, news, and project milestones.
+        </p>
+
+        <div class="heroSearch">
+          <div class="heroSearchBox">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+              <path fill="currentColor" d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
+            </svg>
+            <input id="heroSearch" type="search" placeholder="Search stocks, commodities, and more…" />
+            <button id="searchBtn" class="btn btnPrimary btnTight" type="button">Search</button>
+          </div>
+        </div>
+
         <!-- “Trending now” row -->
         <div class="sectionTitleRow">
           <span class="sectionTitle">Trending Now on Minerlytics</span>
