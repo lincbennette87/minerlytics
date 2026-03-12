@@ -440,7 +440,18 @@ async function send(){
     return;
   }
 
-  pushSystemPrimer();
+  const symbol = extractTicker(question);
+
+  if(!symbol){
+    messages.push({
+      role:"assistant",
+      content:"Please mention a ticker symbol (e.g., AEM, HYMC, CDE)."
+    });
+    render();
+    return;
+  }
+
+  pushSystemPrimer(symbol);
   messages.push({ role:"user", content: question });
 
   qEl.value = "";
@@ -456,6 +467,7 @@ async function send(){
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({
+        symbol,          // ✅ backend still gets symbol
         question,
         messages: context
       })
