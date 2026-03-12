@@ -426,6 +426,11 @@ function typingOff(){
   if(node) node.remove();
 }
 
+function extractTicker(text){
+  const m = text.match(/\b[A-Z]{1,5}\b/g);
+  return m ? m[m.length - 1] : null;
+}
+
 async function send(){
   if (!isAccepted()){
     showOverlay();
