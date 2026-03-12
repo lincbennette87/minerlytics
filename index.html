@@ -207,11 +207,9 @@
             <div class="aiTitle">Minerlytics AI Assistant</div>
           </div>
 
-           <div class="aiControls">
-    <input id="aiSymbol" type="text" placeholder="Ticker (HYMC, AEM, CDE...)" />
-    <button id="aiClear" class="btn btnGhost btnTight" type="button">Clear</button>
-  </div>
-
+          <div class="aiControls aiControlsSimple">
+  <button id="aiClear" class="btn btnGhost btnTight" type="button">Clear</button>
+</div>
   <div class="aiChat" id="aiChat" aria-label="AI chat transcript">
     <div class="aiCenterVisual" id="aiCenterVisual" aria-hidden="true">
       <div class="aiGlobeHero">
@@ -246,13 +244,6 @@
        <div class="aiComposer">
     <textarea id="aiQuestion" rows="2" placeholder="Ask a question… (Enter to send, Shift+Enter for new line)"></textarea>
     <button id="aiRun" class="btn btnPrimary btnTight" type="button">Send</button>
-  </div>
-
-  <div class="aiQuickRow">
-    <button class="pillBtn" type="button" data-t="HYMC">HYMC</button>
-    <button class="pillBtn" type="button" data-t="AEM">AEM</button>
-    <button class="pillBtn" type="button" data-t="CDE">CDE</button>
-    <button class="pillBtn" type="button" data-t="WPM">WPM</button>
   </div>
 </div>
         </div>
@@ -293,7 +284,6 @@
     const chatEl   = document.getElementById("aiChat");
     const chatBody = document.getElementById("aiMessages");
     const centerStatus = document.getElementById("aiCenterStatus");
-    const symEl    = document.getElementById("aiSymbol");
     const qEl      = document.getElementById("aiQuestion");
     const sendBtn  = document.getElementById("aiRun");
     const clearBtn = document.getElementById("aiClear");
@@ -400,13 +390,14 @@ function render(){
   scrollToBottom();
 }
 
-function pushSystemPrimer(symbol){
+function pushSystemPrimer(){
   messages = messages.filter(m => m.role !== "system");
   messages.unshift({
     role: "system",
     content:
-      `You are Minerlytics AI Assistant. Answer using only stored OHLCV for the given symbol from D1 (daily_ohlcv). ` +
-      `If asked for news/fundamentals/social, say it's not available in this dataset. Current symbol: ${symbol}.`
+      `You are Minerlytics AI Assistant. The user may mention one or more stock tickers directly in their question. ` +
+      `Infer the ticker from the user's message context. Answer using the Minerlytics D1 data available to you. ` +
+      `If no ticker is mentioned and the request truly needs one, ask a short follow-up question asking which ticker they mean.`
   });
 }
 
@@ -441,14 +432,7 @@ async function send(){
     return;
   }
 
-  const symbol = (symEl.value || "").trim().toUpperCase();
   const question = (qEl.value || "").trim();
-
-  if(!symbol){
-    messages.push({ role:"assistant", content:"Enter a ticker first (e.g., HYMC)." });
-    render();
-    return;
-  }
 
   if(!question){
     messages.push({ role:"assistant", content:"Type a question to send." });
@@ -456,7 +440,7 @@ async function send(){
     return;
   }
 
-  pushSystemPrimer(symbol);
+  pushSystemPrimer();
   messages.push({ role:"user", content: question });
 
   qEl.value = "";
@@ -471,7 +455,10 @@ async function send(){
     res = await fetch(API_BASE + "/api/assistant", {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify({ symbol, question, messages: context })
+      body: JSON.stringify({
+        question,
+        messages: context
+      })
     });
   } catch (e){
     typingOff();
@@ -508,18 +495,6 @@ function clearChat(){
       if(e.key === "Enter" && !e.shiftKey){
         e.preventDefault();
         send();
-      }
-    });
-
-    document.addEventListener("click", (e)=>{
-      const btn = e.target.closest(".pillBtn");
-      if(!btn) return;
-      const t = btn.getAttribute("data-t");
-      if(t){
-        symEl.value = t;
-        clearChat();
-        messages.push({ role:"assistant", content:`Ticker set to ${t}. Ask your first question.` });
-        render();
       }
     });
 
