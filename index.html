@@ -341,9 +341,14 @@
 
     // Show disclaimer when user tries to use AI
     if(aiHud){
-      aiHud.addEventListener("pointerdown", ()=> showOverlay(), { capture:true });
-      aiHud.addEventListener("focusin", ()=> showOverlay(), { capture:true });
+  aiHud.addEventListener("click", function(e){
+    if (!isAccepted()) {
+      e.preventDefault();
+      e.stopPropagation();
+      showOverlay();
     }
+  }, true);
+}
 
     if(acceptBtn){
       acceptBtn.addEventListener("click", function(){
