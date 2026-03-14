@@ -1349,6 +1349,7 @@ const system =
 "Allowed section headers (use only if relevant):\n" +
 "📌 Summary\n" +
 "📰 News & Transcript Insights\n" +
+"⛏️ Technical Reports Insights\n" +
 "⛏️ Operations / Fundamentals\n" +
 "⚠️ Risks & Opportunities\n" +
 "🏷️ Sources Used\n" +
@@ -2182,6 +2183,7 @@ async function runAssistant(env, question, context) {
 "Allowed section headers (use only if relevant):\n" +
 "📌 Summary\n" +
 "📰 News & Transcript Insights\n" +
+"⛏️ Technical Reports Insights\n" +
 "⛏️ Operations / Fundamentals\n" +
 "⚠️ Risks & Opportunities\n" +
 "🏷️ Sources Used\n" +
