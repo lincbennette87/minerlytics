@@ -314,11 +314,11 @@ async function runAssistant(env, question, context) {
   "- Do NOT default to a short generic company definition when richer source data exists in DATA.\n" +
   "- If multiple source categories exist in DATA, use them all.\n" +
   "- The answer must clearly show what each source category says.\n" +
+  "- Prioritize using text from the Edgar technical mining reports over the transcripts, unless specifically prompted.\n" +
   "- Think like a research analyst writing a structured internal memo.\n\n" +
 
   "NON-NEGOTIABLE RULES:\n" +
   "- Use ONLY facts present in DATA.\n" +
-  "- Never use outside knowledge.\n" +
   "- Never invent facts, dates, mine names, regions, financials, resources, reserves, prices, operating metrics, or commentary.\n" +
   "- If information is missing, write exactly: 'Not available'.\n" +
   "- Never provide investment advice, recommendations, targets, or predictions.\n" +
