@@ -791,6 +791,58 @@ function buildSourceSections(context) {
   };
 }
 
+function stableSortValue(value) {
+  if (Array.isArray(value)) {
+    const normalized = value.map(stableSortValue);
+
+    // If array contains objects, sort them deterministically by common fields
+    if (normalized.every((v) => v && typeof v === "object" && !Array.isArray(v))) {
+      return normalized.sort((a, b) => {
+        const aKey = [
+          a.sid ?? "",
+          a.date ?? a.filingDate ?? a.published_at ?? "",
+          a.form ?? "",
+          a.title ?? "",
+          a.url ?? "",
+          JSON.stringify(a),
+        ].join("|");
+
+        const bKey = [
+          b.sid ?? "",
+          b.date ?? b.filingDate ?? b.published_at ?? "",
+          b.form ?? "",
+          b.title ?? "",
+          b.url ?? "",
+          JSON.stringify(b),
+        ].join("|");
+
+        return aKey.localeCompare(bKey);
+      });
+    }
+
+    // If primitive array, sort primitives
+    if (normalized.every((v) => ["string", "number", "boolean"].includes(typeof v))) {
+      return normalized.sort((a, b) => String(a).localeCompare(String(b)));
+    }
+
+    return normalized;
+  }
+
+  if (value && typeof value === "object") {
+    const sorted = {};
+    for (const key of Object.keys(value).sort()) {
+      sorted[key] = stableSortValue(value[key]);
+    }
+    return sorted;
+  }
+
+  return value;
+}
+
+function stableStringify(value) {
+  return JSON.stringify(stableSortValue(value));
+}
+
 async function runAssistant(env, question, context) {
   const resolvedTicker =
     String(context?.resolved_ticker || context?.ticker || context?.symbol || "")
@@ -799,6 +851,10 @@ async function runAssistant(env, question, context) {
       .trim() || null;
 
   const filingQuestion = isFilingQuestion(question);
+
+  // Normalize context so same logical data produces same prompt
+  const normalizedContext = stableSortValue(context || {});
+  const normalizedDataString = stableStringify(normalizedContext);
 
   const system =
     "You are Minerlytics AI.\n" +
@@ -817,8 +873,9 @@ async function runAssistant(env, question, context) {
     "- If something is not explicitly stated in DATA, write exactly: 'Not available as explicitly stated in the provided data.'\n" +
     "- Do not provide investment advice.\n" +
     "- Do not output internal mode labels like 'COMPANY RESEARCH MODE'.\n" +
-    "- Keep wording as stable and deterministic as possible.\n" +
-    "- Prefer the same phrasing when the same question and same DATA are provided.\n\n" +
+    "- Use stable wording.\n" +
+    "- Prefer short factual sentences over paraphrased summaries.\n" +
+    "- When the same question and same DATA are provided, keep the same structure and phrasing as much as possible.\n\n" +
 
     "MANDATORY SOURCE COVERAGE RULE:\n" +
     "- Inspect ALL source groups present in DATA.\n" +
@@ -857,13 +914,16 @@ async function runAssistant(env, question, context) {
     "SECTION RULES:\n" +
     "- Include every relevant section supported by DATA.\n" +
     "- If a section has no available data, omit it.\n" +
-    "- In Executive Summary, summarize the most important points across all available source groups.\n" +
+    "- In Executive Summary, summarize only the most explicit points across available source groups.\n" +
     "- In Technical Reports / Mining Disclosure, use only DATA.sec_filings.\n" +
     "- In Market Data, use only DATA.market_data.\n" +
     "- In News / RSS, use only DATA.news_sentiment and DATA.rss_news.\n" +
     "- In YouTube Transcripts, use only DATA.youtube_transcripts and clearly label this as commentary/discussion if appropriate.\n" +
     "- In Cross-Source Takeaways, compare themes across at least two source groups.\n" +
-    "- In Risks & Opportunities, remain grounded in DATA. Any inference must begin with exactly 'Interpretation:'.\n\n" +
+    "- In Risks & Opportunities, remain grounded in DATA. Any inference must begin with exactly 'Interpretation:'.\n" +
+    "- Do not rename sections.\n" +
+    "- Do not add extra emoji headings.\n" +
+    "- Do not vary capitalization of section titles.\n\n" +
 
     "CITATION RULES:\n" +
     "- If using SEC excerpts, cite sid and url.\n" +
@@ -880,6 +940,7 @@ async function runAssistant(env, question, context) {
     "- Do not skip source groups that exist.\n" +
     "- Do not ask for ticker if RESOLVED_TICKER is present.\n" +
     "- Keep the response deterministic and consistent for the same question and same DATA.\n" +
+    "- Prefer extractive, factual wording over creative paraphrasing.\n" +
     (filingQuestion
       ? "- This is a filing-focused question. Prioritize DATA.sec_filings and explain the relevant filing/disclosure details first.\n"
       : "") +
@@ -888,7 +949,7 @@ async function runAssistant(env, question, context) {
     "User question:\n" +
     (question || "Provide a detailed research summary based on available data.") +
     "\n\nDATA:\n" +
-    JSON.stringify(context);
+    normalizedDataString;
 
   const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
     prompt: system + "\n\n" + userPrompt,
