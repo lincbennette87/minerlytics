@@ -816,7 +816,9 @@ async function runAssistant(env, question, context) {
     "- If information is missing, write exactly: 'Not available'.\n" +
     "- If something is not explicitly stated in DATA, write exactly: 'Not available as explicitly stated in the provided data.'\n" +
     "- Do not provide investment advice.\n" +
-    "- Do not output internal mode labels like 'COMPANY RESEARCH MODE'.\n\n" +
+    "- Do not output internal mode labels like 'COMPANY RESEARCH MODE'.\n" +
+    "- Keep wording as stable and deterministic as possible.\n" +
+    "- Prefer the same phrasing when the same question and same DATA are provided.\n\n" +
 
     "MANDATORY SOURCE COVERAGE RULE:\n" +
     "- Inspect ALL source groups present in DATA.\n" +
@@ -877,6 +879,7 @@ async function runAssistant(env, question, context) {
     "- Cover all relevant source categories available in DATA.\n" +
     "- Do not skip source groups that exist.\n" +
     "- Do not ask for ticker if RESOLVED_TICKER is present.\n" +
+    "- Keep the response deterministic and consistent for the same question and same DATA.\n" +
     (filingQuestion
       ? "- This is a filing-focused question. Prioritize DATA.sec_filings and explain the relevant filing/disclosure details first.\n"
       : "") +
@@ -890,7 +893,10 @@ async function runAssistant(env, question, context) {
   const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
     prompt: system + "\n\n" + userPrompt,
     max_tokens: 2200,
-    temperature: 0.1,
+    temperature: 0,
+    top_p: 1,
+    frequency_penalty: 0,
+    presence_penalty: 0,
   });
 
   const rawAnswer =
