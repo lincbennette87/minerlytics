@@ -2141,7 +2141,7 @@ async function runAssistant(env, question, context) {
   const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
     prompt: system + "\n\n" + userPrompt,
     max_tokens: 2200,
-    temperature: 0.1,
+    temperature: 0,
   });
 
   const rawAnswer =
@@ -3253,7 +3253,7 @@ async function runAssistant(env, question, context) {
   const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
     prompt: system + "\n\n" + userPrompt,
     max_tokens: 1800,
-    temperature: 0.1,
+    temperature: 0,
   });
 
   const rawAnswer =
