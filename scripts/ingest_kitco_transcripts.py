@@ -192,7 +192,7 @@ def main():
     print(f"Uploads playlist={uploads_playlist_id}")
     print(f"Channel title={channel_title}")
 
-    videos = get_all_uploaded_videos(uploads_playlist_id)
+    videos = get_all_uploaded_videos(uploads_playlist_id)[:5]
     print(f"Found {len(videos)} uploaded videos")
 
     success = 0
