@@ -1,5 +1,4 @@
-code = r'''
-content = """const CHAT_MODEL = "@cf/meta/llama-3.1-8b-instruct";
+const CHAT_MODEL = "@cf/meta/llama-3.1-8b-instruct";
 
 const EDU_CORS = {
   "access-control-allow-origin": "*",
