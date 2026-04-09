@@ -398,9 +398,7 @@ Answer using transcript context.`
       500
     );
   }
-}    .replace(/[^\w\s]/g, " ")
-    .split(/\s+/)
-    .filter(Boolean);
+}    
 
   const stop = new Set([
     "the","a","an","and","or","but","if","then","than","so","of","for","to","in","on","at","by",
