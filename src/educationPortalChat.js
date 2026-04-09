@@ -422,7 +422,7 @@ Answer using transcript context.`
   }
 
   return keywords;
-}
+
 
 async function fetchRelevantRows(env, question, history) {
   const keywords = buildKeywordList(question, history);
