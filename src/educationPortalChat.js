@@ -202,7 +202,6 @@ Please answer the user using the transcript context.`
     );
   }
 }
-"""
 path = "/mnt/data/educationPortalChat.js"
 with open(path, "w", encoding="utf-8") as f:
     f.write(content)
