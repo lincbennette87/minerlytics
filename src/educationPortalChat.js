@@ -247,7 +247,7 @@ Answer using transcript context.`,
   }
 
   return keywords;
-}
+
 
 /* ---------------- FETCH FROM D1 ---------------- */
 
