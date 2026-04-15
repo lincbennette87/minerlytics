@@ -51,7 +51,7 @@ jobs:
 
       - name: Extract Balance Sheet
         env:
-          SEC_USER_AGENT: "Minerlytics your-email@example.com"
+          SEC_USER_AGENT: "Minerlytics vishakhedu@gmail.com"
         run: npm run edgar:balance-sheet
 
       - name: Find TRS
