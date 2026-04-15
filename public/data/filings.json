@@ -2,6 +2,51 @@
   {
     "cik": "0000002809",
     "ticker": "AEM",
+    "accessionNumber": "0001104659-26-036785",
+    "form": "6-K",
+    "filingDate": "2026-03-30",
+    "reportDate": "2026-03-30",
+    "primaryDocument": "tm2610614d1_6k.htm"
+  },
+  {
+    "cik": "0000002809",
+    "ticker": "AEM",
+    "accessionNumber": "0001104659-26-036782",
+    "form": "6-K",
+    "filingDate": "2026-03-30",
+    "reportDate": "2026-03-30",
+    "primaryDocument": "tm2610614d2_6k.htm"
+  },
+  {
+    "cik": "0000002809",
+    "ticker": "AEM",
+    "accessionNumber": "0001104659-26-032797",
+    "form": "6-K",
+    "filingDate": "2026-03-20",
+    "reportDate": "2026-03-20",
+    "primaryDocument": "tm261283d2_6k.htm"
+  },
+  {
+    "cik": "0000002809",
+    "ticker": "AEM",
+    "accessionNumber": "0001104659-26-032795",
+    "form": "6-K",
+    "filingDate": "2026-03-20",
+    "reportDate": "2026-03-20",
+    "primaryDocument": "tm261123d6_6k.htm"
+  },
+  {
+    "cik": "0000002809",
+    "ticker": "AEM",
+    "accessionNumber": "0001104659-26-032153",
+    "form": "40-F",
+    "filingDate": "2026-03-19",
+    "reportDate": "2025-12-31",
+    "primaryDocument": "aem-20251231x40f.htm"
+  },
+  {
+    "cik": "0000002809",
+    "ticker": "AEM",
     "accessionNumber": "0001104659-26-017386",
     "form": "6-K",
     "filingDate": "2026-02-19",
@@ -1062,33 +1107,6 @@
     "primaryDocument": "a2243227z6-k.htm"
   },
   {
-    "cik": "0000002809",
-    "ticker": "AEM",
-    "accessionNumber": "0001047469-21-000842",
-    "form": "6-K",
-    "filingDate": "2021-04-05",
-    "reportDate": "2021-03-22",
-    "primaryDocument": "a2242798z6-k.htm"
-  },
-  {
-    "cik": "0000002809",
-    "ticker": "AEM",
-    "accessionNumber": "0001104659-21-042893",
-    "form": "6-K",
-    "filingDate": "2021-03-29",
-    "reportDate": "2021-03-25",
-    "primaryDocument": "tm211449d4_6k.htm"
-  },
-  {
-    "cik": "0000002809",
-    "ticker": "AEM",
-    "accessionNumber": "0001047469-21-000756",
-    "form": "40-F",
-    "filingDate": "2021-03-26",
-    "reportDate": "2020-12-31",
-    "primaryDocument": "a2242767z40-f.htm"
-  },
-  {
     "cik": "0001629210",
     "ticker": "PZG",
     "accessionNumber": "0001193125-26-044779",
@@ -1483,6 +1501,33 @@
     "filingDate": "2021-05-07",
     "reportDate": "2021-03-31",
     "primaryDocument": "pzg-10q_20210331.htm"
+  },
+  {
+    "cik": "0001172724",
+    "ticker": "GFI",
+    "accessionNumber": "0001628280-26-022989",
+    "form": "6-K",
+    "filingDate": "2026-04-02",
+    "reportDate": "2026-03-31",
+    "primaryDocument": "sens2april266-k.htm"
+  },
+  {
+    "cik": "0001172724",
+    "ticker": "GFI",
+    "accessionNumber": "0001628280-26-021912",
+    "form": "6-K",
+    "filingDate": "2026-03-30",
+    "reportDate": "2026-03-30",
+    "primaryDocument": "form6-kpublication2025.htm"
+  },
+  {
+    "cik": "0001172724",
+    "ticker": "GFI",
+    "accessionNumber": "0001628280-26-021904",
+    "form": "20-F",
+    "filingDate": "2026-03-30",
+    "reportDate": "2025-12-31",
+    "primaryDocument": "gfi-20251231.htm"
   },
   {
     "cik": "0001172724",
@@ -3015,40 +3060,22 @@
     "primaryDocument": "goldfields_release.htm"
   },
   {
-    "cik": "0001172724",
-    "ticker": "GFI",
-    "accessionNumber": "0001193125-21-101972",
-    "form": "20-F",
-    "filingDate": "2021-03-31",
-    "reportDate": "2020-12-31",
-    "primaryDocument": "d187841d20f.htm"
-  },
-  {
-    "cik": "0001172724",
-    "ticker": "GFI",
-    "accessionNumber": "0001205613-21-000033",
-    "form": "6-K",
-    "filingDate": "2021-03-31",
-    "reportDate": "2021-03-31",
-    "primaryDocument": "goldfields_release.htm"
-  },
-  {
-    "cik": "0001172724",
-    "ticker": "GFI",
-    "accessionNumber": "0001205613-21-000028",
-    "form": "6-K",
-    "filingDate": "2021-03-12",
-    "reportDate": "2021-03-12",
-    "primaryDocument": "goldfields_release.htm"
+    "cik": "0001718405",
+    "ticker": "HYMC",
+    "accessionNumber": "0001493152-26-014812",
+    "form": "8-K",
+    "filingDate": "2026-04-02",
+    "reportDate": "2026-04-02",
+    "primaryDocument": "form8-k.htm"
   },
   {
     "cik": "0001718405",
     "ticker": "HYMC",
-    "accessionNumber": "0001718405-26-000009",
-    "form": "10-K",
-    "filingDate": "2026-03-03",
-    "reportDate": "2025-12-31",
-    "primaryDocument": "hymc-20251231.htm"
+    "accessionNumber": "0001493152-26-010289",
+    "form": "8-K",
+    "filingDate": "2026-03-16",
+    "reportDate": "2026-03-16",
+    "primaryDocument": "form8-k.htm"
   },
   {
     "cik": "0001718405",
@@ -3058,6 +3085,15 @@
     "filingDate": "2026-03-03",
     "reportDate": "2026-03-03",
     "primaryDocument": "form8-k.htm"
+  },
+  {
+    "cik": "0001718405",
+    "ticker": "HYMC",
+    "accessionNumber": "0001718405-26-000009",
+    "form": "10-K",
+    "filingDate": "2026-03-03",
+    "reportDate": "2025-12-31",
+    "primaryDocument": "hymc-20251231.htm"
   },
   {
     "cik": "0001718405",
@@ -4167,40 +4203,13 @@
     "primaryDocument": "hymc-20210421.htm"
   },
   {
-    "cik": "0001718405",
-    "ticker": "HYMC",
-    "accessionNumber": "0001718405-21-000036",
+    "cik": "0000215466",
+    "ticker": "CDE",
+    "accessionNumber": "0001140361-26-010650",
     "form": "8-K",
-    "filingDate": "2021-04-15",
-    "reportDate": "2021-04-15",
-    "primaryDocument": "hymc-20210415.htm"
-  },
-  {
-    "cik": "0001718405",
-    "ticker": "HYMC",
-    "accessionNumber": "0001718405-21-000031",
-    "form": "8-K",
-    "filingDate": "2021-03-24",
-    "reportDate": "2021-03-24",
-    "primaryDocument": "hymc-20210324.htm"
-  },
-  {
-    "cik": "0001718405",
-    "ticker": "HYMC",
-    "accessionNumber": "0001718405-21-000029",
-    "form": "10-K",
-    "filingDate": "2021-03-24",
-    "reportDate": "2020-12-31",
-    "primaryDocument": "hymc-20201231.htm"
-  },
-  {
-    "cik": "0001718405",
-    "ticker": "HYMC",
-    "accessionNumber": "0001104659-21-035679",
-    "form": "8-K",
-    "filingDate": "2021-03-12",
-    "reportDate": "2021-03-12",
-    "primaryDocument": "tm219587d1_8k.htm"
+    "filingDate": "2026-03-23",
+    "reportDate": "2026-03-19",
+    "primaryDocument": "ef20066748_8k.htm"
   },
   {
     "cik": "0000215466",
@@ -5011,6 +5020,105 @@
     "filingDate": "2021-04-28",
     "reportDate": "2021-04-28",
     "primaryDocument": "cde-20210428.htm"
+  },
+  {
+    "cik": "0001323404",
+    "ticker": "WPM",
+    "accessionNumber": "0001279569-26-000288",
+    "form": "6-K",
+    "filingDate": "2026-04-09",
+    "reportDate": "2026-04-08",
+    "primaryDocument": "wheaton6k.htm"
+  },
+  {
+    "cik": "0001323404",
+    "ticker": "WPM",
+    "accessionNumber": "0001193125-26-145433",
+    "form": "6-K",
+    "filingDate": "2026-04-07",
+    "reportDate": "2026-04-07",
+    "primaryDocument": "d890261d6k.htm"
+  },
+  {
+    "cik": "0001323404",
+    "ticker": "WPM",
+    "accessionNumber": "0001279569-26-000264",
+    "form": "6-K",
+    "filingDate": "2026-04-02",
+    "reportDate": "2026-04-01",
+    "primaryDocument": "wheaton6k.htm"
+  },
+  {
+    "cik": "0001323404",
+    "ticker": "WPM",
+    "accessionNumber": "0001279569-26-000263",
+    "form": "6-K",
+    "filingDate": "2026-04-02",
+    "reportDate": "2026-04-01",
+    "primaryDocument": "wheaton6k.htm"
+  },
+  {
+    "cik": "0001323404",
+    "ticker": "WPM",
+    "accessionNumber": "0001104659-26-038311",
+    "form": "6-K",
+    "filingDate": "2026-04-01",
+    "reportDate": "2026-04-01",
+    "primaryDocument": "wpm-20260401x6k.htm"
+  },
+  {
+    "cik": "0001323404",
+    "ticker": "WPM",
+    "accessionNumber": "0001279569-26-000251",
+    "form": "6-K",
+    "filingDate": "2026-03-31",
+    "reportDate": "2026-03-31",
+    "primaryDocument": "wheaton6k.htm"
+  },
+  {
+    "cik": "0001323404",
+    "ticker": "WPM",
+    "accessionNumber": "0001193125-26-134908",
+    "form": "40-F",
+    "filingDate": "2026-03-31",
+    "reportDate": "2025-12-31",
+    "primaryDocument": "d56281d40f.htm"
+  },
+  {
+    "cik": "0001323404",
+    "ticker": "WPM",
+    "accessionNumber": "0001062993-26-001700",
+    "form": "6-K",
+    "filingDate": "2026-03-31",
+    "reportDate": "2025-06-30",
+    "primaryDocument": "form6k.htm"
+  },
+  {
+    "cik": "0001323404",
+    "ticker": "WPM",
+    "accessionNumber": "0001193125-26-104706",
+    "form": "6-K",
+    "filingDate": "2026-03-13",
+    "reportDate": "2026-03-12",
+    "primaryDocument": "d71774d6k.htm"
+  },
+  {
+    "cik": "0001323404",
+    "ticker": "WPM",
+    "accessionNumber": "0001279569-26-000213",
+    "form": "6-K",
+    "filingDate": "2026-03-13",
+    "reportDate": "2026-03-12",
+    "primaryDocument": "wheaton6k.htm"
+  },
+  {
+    "cik": "0001323404",
+    "ticker": "WPM",
+    "accessionNumber": "0001279569-26-000195",
+    "form": "6-K",
+    "filingDate": "2026-03-09",
+    "reportDate": "2026-03-02",
+    "primaryDocument": "wheaton6k.htm"
   },
   {
     "cik": "0001323404",
@@ -6210,94 +6318,22 @@
     "primaryDocument": "d180071d6k.htm"
   },
   {
-    "cik": "0001323404",
-    "ticker": "WPM",
-    "accessionNumber": "0001279569-21-000457",
-    "form": "6-K",
-    "filingDate": "2021-04-15",
-    "reportDate": "2021-04-14",
-    "primaryDocument": "wheaton6k.htm"
+    "cik": "0000719413",
+    "ticker": "HL",
+    "accessionNumber": "0001437749-26-011930",
+    "form": "8-K",
+    "filingDate": "2026-04-10",
+    "reportDate": "2026-04-09",
+    "primaryDocument": "hl20260409_8k.htm"
   },
   {
-    "cik": "0001323404",
-    "ticker": "WPM",
-    "accessionNumber": "0001104659-21-048035",
-    "form": "6-K",
-    "filingDate": "2021-04-08",
-    "reportDate": "2021-05-14",
-    "primaryDocument": "tm214291d4_6k.htm"
-  },
-  {
-    "cik": "0001323404",
-    "ticker": "WPM",
-    "accessionNumber": "0001193125-21-109817",
-    "form": "6-K",
-    "filingDate": "2021-04-08",
-    "reportDate": "2021-04-08",
-    "primaryDocument": "d115032d6k.htm"
-  },
-  {
-    "cik": "0001323404",
-    "ticker": "WPM",
-    "accessionNumber": "0001279569-21-000401",
-    "form": "6-K",
-    "filingDate": "2021-04-01",
-    "reportDate": "2021-03-31",
-    "primaryDocument": "wheaton6k.htm"
-  },
-  {
-    "cik": "0001323404",
-    "ticker": "WPM",
-    "accessionNumber": "0001193125-21-102453",
-    "form": "40-F",
-    "filingDate": "2021-03-31",
-    "reportDate": "2020-12-31",
-    "primaryDocument": "d91774d40f.htm"
-  },
-  {
-    "cik": "0001323404",
-    "ticker": "WPM",
-    "accessionNumber": "0001062993-21-003121",
-    "form": "6-K",
-    "filingDate": "2021-03-30",
-    "reportDate": "2021-03-30",
-    "primaryDocument": "form6k.htm"
-  },
-  {
-    "cik": "0001323404",
-    "ticker": "WPM",
-    "accessionNumber": "0001279569-21-000361",
-    "form": "6-K",
-    "filingDate": "2021-03-25",
-    "reportDate": "2021-03-25",
-    "primaryDocument": "wheaton6k.htm"
-  },
-  {
-    "cik": "0001323404",
-    "ticker": "WPM",
-    "accessionNumber": "0000950142-21-000932",
-    "form": "6-K",
-    "filingDate": "2021-03-12",
-    "reportDate": "2021-03-11",
-    "primaryDocument": "eh210137078_6k.htm"
-  },
-  {
-    "cik": "0001323404",
-    "ticker": "WPM",
-    "accessionNumber": "0001279569-21-000303",
-    "form": "6-K",
-    "filingDate": "2021-03-12",
-    "reportDate": "2021-03-11",
-    "primaryDocument": "wheaton6k.htm"
-  },
-  {
-    "cik": "0001323404",
-    "ticker": "WPM",
-    "accessionNumber": "0001193125-21-078086",
-    "form": "6-K",
-    "filingDate": "2021-03-12",
-    "reportDate": "2021-03-11",
-    "primaryDocument": "d139911d6k.htm"
+    "cik": "0000719413",
+    "ticker": "HL",
+    "accessionNumber": "0001437749-26-009820",
+    "form": "8-K",
+    "filingDate": "2026-03-25",
+    "reportDate": "2026-03-25",
+    "primaryDocument": "hl20260325_8k.htm"
   },
   {
     "cik": "0000719413",
@@ -7128,31 +7164,13 @@
     "primaryDocument": "a52424557.htm"
   },
   {
-    "cik": "0000719413",
-    "ticker": "HL",
-    "accessionNumber": "0001437749-21-008510",
-    "form": "8-K",
-    "filingDate": "2021-04-08",
-    "reportDate": "2021-04-08",
-    "primaryDocument": "hl20210407_8k.htm"
-  },
-  {
-    "cik": "0000719413",
-    "ticker": "HL",
-    "accessionNumber": "0001157523-21-000406",
-    "form": "8-K",
-    "filingDate": "2021-03-31",
-    "reportDate": "2021-03-31",
-    "primaryDocument": "a52405008.htm"
-  },
-  {
-    "cik": "0000719413",
-    "ticker": "HL",
-    "accessionNumber": "0001437749-21-005952",
-    "form": "8-K",
-    "filingDate": "2021-03-12",
-    "reportDate": "2021-03-12",
-    "primaryDocument": "hl20210312_8k.htm"
+    "cik": "0001494728",
+    "ticker": "PSLV",
+    "accessionNumber": "0001999371-26-005829",
+    "form": "40-F",
+    "filingDate": "2026-03-16",
+    "reportDate": "2025-12-31",
+    "primaryDocument": "pslv-40f_123125.htm"
   },
   {
     "cik": "0001494728",
@@ -7371,22 +7389,13 @@
     "primaryDocument": "pslv-20210531x6k.htm"
   },
   {
-    "cik": "0001494728",
-    "ticker": "PSLV",
-    "accessionNumber": "0001558370-21-003331",
-    "form": "40-F",
-    "filingDate": "2021-03-22",
-    "reportDate": "2020-12-31",
-    "primaryDocument": "pslv-20201231x40f.htm"
-  },
-  {
-    "cik": "0001494728",
-    "ticker": "PSLV",
-    "accessionNumber": "0000919574-21-002562",
-    "form": "6-K",
-    "filingDate": "2021-03-19",
-    "reportDate": "2021-03-31",
-    "primaryDocument": "d8827814_6-k.htm"
+    "cik": "0001330568",
+    "ticker": "SLV",
+    "accessionNumber": "0001437749-26-010478",
+    "form": "8-K",
+    "filingDate": "2026-03-31",
+    "reportDate": "2026-03-27",
+    "primaryDocument": "slv20260328_8k.htm"
   },
   {
     "cik": "0001330568",

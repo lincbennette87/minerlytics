@@ -1,8 +1,17 @@
 {
-  "generatedAt": "2026-03-04T02:14:15.073Z",
-  "scanned": 141,
-  "found": 121,
+  "generatedAt": "2026-04-15T07:01:57.394Z",
+  "scanned": 140,
+  "found": 120,
   "items": [
+    {
+      "ticker": "AEM",
+      "cik": "0000002809",
+      "accessionNumber": "0001104659-26-032153",
+      "form": "40-F",
+      "filingDate": "2026-03-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/2809/000110465926032153/aem-20251231x40f.htm",
+      "output": "public/data/mining_disclosure_reports/AEM_0001104659-26-032153.json"
+    },
     {
       "ticker": "AEM",
       "cik": "0000002809",
@@ -38,15 +47,6 @@
       "filingDate": "2022-03-25",
       "url": "https://www.sec.gov/Archives/edgar/data/2809/000110465922037577/aem-20211231x40f.htm",
       "output": "public/data/mining_disclosure_reports/AEM_0001104659-22-037577.json"
-    },
-    {
-      "ticker": "AEM",
-      "cik": "0000002809",
-      "accessionNumber": "0001047469-21-000756",
-      "form": "40-F",
-      "filingDate": "2021-03-26",
-      "url": "https://www.sec.gov/Archives/edgar/data/2809/000104746921000756/a2242767z40-f.htm",
-      "output": "public/data/mining_disclosure_reports/AEM_0001047469-21-000756.json"
     },
     {
       "ticker": "PZG",
@@ -231,6 +231,15 @@
     {
       "ticker": "GFI",
       "cik": "0001172724",
+      "accessionNumber": "0001628280-26-021904",
+      "form": "20-F",
+      "filingDate": "2026-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1172724/000162828026021904/gfi-20251231.htm",
+      "output": "public/data/mining_disclosure_reports/GFI_0001628280-26-021904.json"
+    },
+    {
+      "ticker": "GFI",
+      "cik": "0001172724",
       "accessionNumber": "0001172724-25-000010",
       "form": "20-F",
       "filingDate": "2025-03-27",
@@ -263,15 +272,6 @@
       "filingDate": "2022-03-31",
       "url": "https://www.sec.gov/Archives/edgar/data/1172724/000117272422000025/gfi-20211231.htm",
       "output": "public/data/mining_disclosure_reports/GFI_0001172724-22-000025.json"
-    },
-    {
-      "ticker": "GFI",
-      "cik": "0001172724",
-      "accessionNumber": "0001193125-21-101972",
-      "form": "20-F",
-      "filingDate": "2021-03-31",
-      "url": "https://www.sec.gov/Archives/edgar/data/1172724/000119312521101972/d187841d20f.htm",
-      "output": "public/data/mining_disclosure_reports/GFI_0001193125-21-101972.json"
     },
     {
       "ticker": "HYMC",
@@ -452,15 +452,6 @@
       "filingDate": "2021-05-17",
       "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840521000046/hymc-20210331.htm",
       "output": "public/data/mining_disclosure_reports/HYMC_0001718405-21-000046.json"
-    },
-    {
-      "ticker": "HYMC",
-      "cik": "0001718405",
-      "accessionNumber": "0001718405-21-000029",
-      "form": "10-K",
-      "filingDate": "2021-03-24",
-      "url": "https://www.sec.gov/Archives/edgar/data/1718405/000171840521000029/hymc-20201231.htm",
-      "output": "public/data/mining_disclosure_reports/HYMC_0001718405-21-000029.json"
     },
     {
       "ticker": "CDE",
@@ -645,6 +636,15 @@
     {
       "ticker": "WPM",
       "cik": "0001323404",
+      "accessionNumber": "0001193125-26-134908",
+      "form": "40-F",
+      "filingDate": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1323404/000119312526134908/d56281d40f.htm",
+      "output": "public/data/mining_disclosure_reports/WPM_0001193125-26-134908.json"
+    },
+    {
+      "ticker": "WPM",
+      "cik": "0001323404",
       "accessionNumber": "0001193125-25-068900",
       "form": "40-F",
       "filingDate": "2025-03-31",
@@ -677,15 +677,6 @@
       "filingDate": "2022-03-31",
       "url": "https://www.sec.gov/Archives/edgar/data/1323404/000119312522091967/d639516d40f.htm",
       "output": "public/data/mining_disclosure_reports/WPM_0001193125-22-091967.json"
-    },
-    {
-      "ticker": "WPM",
-      "cik": "0001323404",
-      "accessionNumber": "0001193125-21-102453",
-      "form": "40-F",
-      "filingDate": "2021-03-31",
-      "url": "https://www.sec.gov/Archives/edgar/data/1323404/000119312521102453/d91774d40f.htm",
-      "output": "public/data/mining_disclosure_reports/WPM_0001193125-21-102453.json"
     },
     {
       "ticker": "HL",

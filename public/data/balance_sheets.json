@@ -1,0 +1,802 @@
+[
+  {
+    "ticker": "AEM",
+    "cik": "0000002809",
+    "entityName": "AGNICO EAGLE MINES LIMITED",
+    "extractedAt": "2026-04-15T07:04:53.553Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 4959359000,
+        "end": "2013-12-31",
+        "start": null,
+        "filed": "2014-03-26",
+        "form": "40-F",
+        "fy": 2013,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 804831000,
+        "end": "2013-12-31",
+        "start": null,
+        "filed": "2014-03-26",
+        "form": "40-F",
+        "fy": 2013,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 139101000,
+        "end": "2013-12-31",
+        "start": null,
+        "filed": "2014-03-26",
+        "form": "40-F",
+        "fy": 2013,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Current Liabilities": {
+        "value": 210654000,
+        "end": "2013-12-31",
+        "start": null,
+        "filed": "2014-03-26",
+        "form": "40-F",
+        "fy": 2013,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 3410212000,
+        "end": "2012-12-31",
+        "start": null,
+        "filed": "2013-03-28",
+        "form": "20-F",
+        "fy": 2012,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": -513441000,
+        "end": "2013-12-31",
+        "start": null,
+        "filed": "2014-03-26",
+        "form": "40-F",
+        "fy": 2013,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      },
+      "Total Liabilities": {
+        "value": 9728827000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-13",
+        "form": "6-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      }
+    }
+  },
+  {
+    "ticker": "PZG",
+    "cik": "0001629210",
+    "entityName": "PARAMOUNT GOLD NEVADA CORP.",
+    "extractedAt": "2026-04-15T07:04:53.769Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 52403032,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-09-25",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 2707350,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-09-25",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 1351001,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-09-25",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 18834909,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-09-25",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 659971,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-09-25",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 33568123,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-09-25",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": -91428662,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-09-25",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "GFI",
+    "cik": "0001172724",
+    "entityName": "Gold Fields Limited",
+    "extractedAt": "2026-04-15T07:04:53.957Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 5513800000,
+        "end": "2015-12-31",
+        "start": null,
+        "filed": "2016-04-13",
+        "form": "20-F",
+        "fy": 2015,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 904300000,
+        "end": "2015-12-31",
+        "start": null,
+        "filed": "2016-04-13",
+        "form": "20-F",
+        "fy": 2015,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 440000000,
+        "end": "2015-12-31",
+        "start": null,
+        "filed": "2016-04-13",
+        "form": "20-F",
+        "fy": 2015,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 2876800000,
+        "end": "2015-12-31",
+        "start": null,
+        "filed": "2016-04-13",
+        "form": "20-F",
+        "fy": 2015,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 522100000,
+        "end": "2015-12-31",
+        "start": null,
+        "filed": "2016-04-13",
+        "form": "20-F",
+        "fy": 2015,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 2554900000,
+        "end": "2015-12-31",
+        "start": null,
+        "filed": "2016-04-13",
+        "form": "20-F",
+        "fy": 2015,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": 324000000,
+        "end": "2015-12-31",
+        "start": null,
+        "filed": "2016-04-13",
+        "form": "20-F",
+        "fy": 2015,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "HYMC",
+    "cik": "0001718405",
+    "entityName": "HYCROFT MINING HOLDING CORPORATION",
+    "extractedAt": "2026-04-15T07:04:54.108Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 263027000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-03",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 187492000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-03",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 181738000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-03",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 49332000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-03",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 7734000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-03",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 213695000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-03",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": -826730000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-03",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "CDE",
+    "cik": "0000215466",
+    "entityName": "Coeur Mining, Inc.",
+    "extractedAt": "2026-04-15T07:04:54.577Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 4695682000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 972677000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 553597000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Current Liabilities": {
+        "value": 393144000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 3313051000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": -2476389000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "WPM",
+    "cik": "0001323404",
+    "entityName": "WHEATON PRECIOUS METALS CORP.",
+    "extractedAt": "2026-04-15T07:04:54.737Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 9125781000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 1204169000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 1153593000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 435273000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 154687000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 8690508000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "HL",
+    "cik": "0000719413",
+    "entityName": "HECLA MINING CO/DE/",
+    "extractedAt": "2026-04-15T07:04:55.170Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 3560645000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 629344000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 241558000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 968999000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 231564000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 2591646000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": -182143000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "PSLV",
+    "cik": "0001494728",
+    "entityName": "SPROTT PHYSICAL SILVER TRUST",
+    "extractedAt": "2026-04-15T07:04:55.258Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 15298827000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-16",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Cash & Equivalents": {
+        "value": 198933000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-16",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 189916000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-16",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Stockholders Equity": {
+        "value": 15108911000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-16",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "SLV",
+    "cik": "0001330568",
+    "entityName": "iShares® Silver Trust",
+    "extractedAt": "2026-04-15T07:04:55.441Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 5263140000,
+        "end": "2014-12-31",
+        "start": null,
+        "filed": "2015-02-27",
+        "form": "10-K",
+        "fy": 2014,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Cash & Equivalents": {
+        "value": 0,
+        "end": "2022-12-31",
+        "start": null,
+        "filed": "2023-02-23",
+        "form": "10-K",
+        "fy": 2022,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 2338000,
+        "end": "2014-12-31",
+        "start": null,
+        "filed": "2015-02-27",
+        "form": "10-K",
+        "fy": 2014,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Stockholders Equity": {
+        "value": 4391944000,
+        "end": "2015-12-31",
+        "start": null,
+        "filed": "2016-02-29",
+        "form": "10-K",
+        "fy": 2015,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      }
+    }
+  },
+  {
+    "ticker": "SIVR",
+    "cik": "0001450922",
+    "entityName": "abrdn Silver ETF Trust",
+    "extractedAt": "2026-04-15T07:04:55.552Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 5431606000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-02",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Cash & Equivalents": {
+        "value": 0,
+        "end": "2013-12-31",
+        "start": null,
+        "filed": "2014-02-28",
+        "form": "10-K",
+        "fy": 2013,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 1374000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-02",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Stockholders Equity": {
+        "value": 5430232000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-02",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": 0,
+        "end": "2013-12-31",
+        "start": null,
+        "filed": "2014-02-28",
+        "form": "10-K",
+        "fy": 2013,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  }
+]
