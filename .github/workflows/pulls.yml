@@ -1,4 +1,0 @@
-      - name: Extract Balance Sheet
-        env:
-          SEC_USER_AGENT: "Vishakh Sahni vishakhedu@gmail.com"
-        run: npm run edgar:balance-sheet
