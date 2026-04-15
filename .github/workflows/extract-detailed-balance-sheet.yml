@@ -1,0 +1,43 @@
+name: Extract Detailed Balance Sheets
+
+on:
+  workflow_dispatch:
+
+jobs:
+  extract-detailed-balance-sheet:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Debug folders
+        run: |
+          ls -la
+          ls -la data || true
+          ls -la src/edgar || true
+          ls -la public/data || true
+
+      - name: Extract Detailed Balance Sheets
+        env:
+          SEC_USER_AGENT: "Minerlytics vishakhedu@gmail.com"
+        run: npm run edgar:detailed-balance-sheet
+
+      - name: Commit output
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          git add public/data/detailed_balance_sheets.json
+
+          git status
+          git commit -m "Extract: detailed balance sheets" || echo "No changes to commit"
+          git push
