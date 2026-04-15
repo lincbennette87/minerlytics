@@ -1,0 +1,87 @@
+{
+  "ticker": "WPM",
+  "cik": "0001323404",
+  "form": "6-K",
+  "filingDate": "2008-08-11",
+  "accessionNumber": "0001176256-08-000929",
+  "primaryDocument": "slwwavotingresultsform6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000117625608000929/0001176256-08-000929-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "WARRANTHOLDERS VOTING RESULTS AUGUST 7, 2008",
+    "filename": "exhibit991.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1323404/000117625608000929/exhibit991.htm"
+  },
+  "extractedAt": "2026-04-15T16:45:23.671Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000117625608000929/exhibit991.htm",
+    "contentType": "html",
+    "title": "Exhibit 99.1",
+    "headings": [
+      "Exhibit 99.1",
+      "Meeting of Holders of",
+      "Common Share Purchase Warrants (“First Warrants”)",
+      "August 7, 2008",
+      "REPORT OF VOTING RESULTS",
+      "Matters Voted Upon",
+      "Resolution #1",
+      "Total Warrants Voted",
+      "Percentage of Votes Cast",
+      "Series A Common Share Purchase Warrants (“Series A Warrants”)"
+    ],
+    "text": "EX-99.1\n2\nexhibit991.htm\nWARRANTHOLDERS VOTING RESULTS AUGUST 7, 2008\n\nExhibit 99.1\n\nExhibit 99.1\n\nSILVER WHEATON CORP.\nMeeting of Holders of\nCommon Share Purchase Warrants (“First Warrants”)\nAugust 7, 2008\n\nREPORT OF VOTING RESULTS\nNational Instrument 51-102 - Continuous Disclosure Obligations\nSection 11.3\n\nMatters Voted Upon\n\nResolution #1\n\nThe disinterested warrantholders approved the entering into by the Company of a supplemental warrant indenture (the “Supplemental Indenture”) with CIBC Mellon Trust Company, as warrant agent, for the purpose of amending the terms of the amended and restated common share warrant indenture between the Company and CIBC Mellon Trust Company dated June 1, 2005 (the “Warrant Indenture”), and the terms of the common share purchase warrants governed by the Warrant Indenture, in the form of the resolution included in the Management Information Circular of the Company dated July 7, 2008.\n\n Total Warrants Voted\nPercentage of Votes Cast\n\nVotes in Favour\n82,563,304\n98.1%\n\nVotes Against\n1,558,220\n1.9%\n\nTotal Votes Cast\n84,121,524\n100%\n\nSILVER WHEATON CORP.\nMeeting of Holders of\nSeries A Common Share Purchase Warrants (“Series A Warrants”)\nAugust 7, 2008\n\nREPORT OF VOTING RESULTS\nNational Instrument 51-102 - Continuous Disclosure Obligations\nSection 11.3\n\nMatters Voted Upon\n\nResolution #1\n\nThe disinterested warrantholders approved the entering into by the Company of a supplemental warrant indenture (the “Supplemental Indenture”) with CIBC Mellon Trust Company, as warrant agent, for the purpose of amending the terms of the amended and restated common share warrant indenture between the Company and CIBC Mellon Trust Company dated November 30, 2004 (the “Warrant Indenture”), and the terms of the common share purchase warrants governed by the Warrant Indenture, in the form of the resolution included in the Management Information Circular of the Company dated July 7, 2008.\n\n Total Warrants Voted\nPercentage of Votes Cast\n\nVotes in Favour\n13,686,833\n91.2%\n\nVotes Against\n1,316,400\n8.8%\n\nTotal Votes Cast\n15,003,233\n100%",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 4,
+        "rows": [
+          [
+            "Total Warrants Voted",
+            "Percentage of Votes Cast"
+          ],
+          [
+            "Votes in Favour",
+            "82,563,304",
+            "98.1%"
+          ],
+          [
+            "Votes Against",
+            "1,558,220",
+            "1.9%"
+          ],
+          [
+            "Total Votes Cast",
+            "84,121,524",
+            "100%"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 4,
+        "rows": [
+          [
+            "Total Warrants Voted",
+            "Percentage of Votes Cast"
+          ],
+          [
+            "Votes in Favour",
+            "13,686,833",
+            "91.2%"
+          ],
+          [
+            "Votes Against",
+            "1,316,400",
+            "8.8%"
+          ],
+          [
+            "Total Votes Cast",
+            "15,003,233",
+            "100%"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit991.htm\n<DESCRIPTION>WARRANTHOLDERS VOTING RESULTS AUGUST 7, 2008\n<TEXT>\n<!doctype html public \"-//IETF//DTD HTML//EN\">\n<HTML>\n<HEAD>\n<TITLE>Exhibit 99.1</TITLE>\n<META NAME=\"author\" CONTENT=\"EDF\">\n<META NAME=\"date\" CONTENT=\"08/08/2008\">\n</HEAD>\n<BODY style=\"line-height:12pt; font-family:Times New Roman; font-size:10pt; color:#000000\">\n<P style=\"margin:0px; padding-top:4px; border-top:3px solid #3F3F3F\" align=right><BR></P>\n<P style=\"margin:0px\" align=right><B>Exhibit 99.1</B></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"line-height:16pt; margin:0px; font-size:14pt\" align=center>SILVER WHEATON CORP.</P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><B>Meeting of Holders of</B></P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><B>Common Share Purchase Warrants (&#147;First Warrants&#148;)</B></P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><B>August 7, 2008</B></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><B>REPORT OF VOTING RESULTS</B></P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><I>National Instrument 51-102 - Continuous Disclosure Obligations</I></P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><I>Section 11.3</I></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><B>Matters Voted Upon</B></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\"><B><U>Resolution #1</U></B></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\">The disinterested warrantholders approved the entering into by the Company of a supplemental warrant indenture (the &#147;Supplemental Indenture&#148;) with CIBC Mellon Trust Company, as warrant agent, for the purpose of amending the terms of the amended and restated common share warrant indenture between the Company and CIBC Mellon Trust Company dated June 1, 2005 (the &#147;Warrant Indenture&#148;), and the terms of the common share purchase warrants governed by the Warrant Indenture, in the form of the resolution included in the Management Information Circular of the Company dated July 7,<I> </I>2008.</P>\n<P style=\"margin:0px\"><BR></P>\n<TABLE style=\"font-size:10pt\" cellspacing=0><TR height=0 style=\"font-size:0\"><TD width=168></TD><TD width=228></TD><TD width=222></TD></TR>\n<TR><TD style=\"border:1px solid #000000\" width=168><P>&nbsp;</P></TD><TD style=\"border-top:1px solid #000000; border-right:1px solid #000000; border-bottom:1px solid #000000\" width=228><P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><B>Total Warrants Voted</B></P>\n</TD><TD style=\"border-top:1px solid #000000; border-right:1px solid #000000; border-bottom:1px solid #000000\" width=222><P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><B>Percentage of Votes Cast</B></P>\n</TD></TR>\n<TR><TD style=\"border-left:1px solid #000000; border-right:1px solid #000000; border-bottom:1px solid #000000\" width=168><P style=\"line-height:13pt; margin:0px; font-size:11pt\">Votes in Favour</P>\n</TD><TD style=\"border-right:1px solid #000000; border-bottom:1px solid #000000\" width=228><P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=right>82,563,304</P>\n</TD><TD style=\"border-right:1px solid #000000; border-bottom:1px solid #000000\" width=222><P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=right>98.1%</P>\n</TD></TR>\n<TR><TD style=\"border-left:1px solid #000000; border-right:1px solid #000000; border-bottom:1px solid #000000\" width=168><P style=\"line-height:13pt; margin:0px; font-size:11pt\">Votes Against</P>\n</TD><TD style=\"border-right:1px solid #000000; border-bottom:1px solid #000000\" width=228><P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=right>1,558,220</P>\n</TD><TD style=\"border-right:1px solid #000000; border-bottom:1px solid #000000\" width=222><P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=right>1.9%</P>\n</TD></TR>\n<TR><TD style=\"border-left:1px solid #000000; border-right:1px solid #000000; border-bottom:1px solid #000000\" width=168><P style=\"line-height:13pt; margin:0px; font-size:11pt\">Total Votes Cast</P>\n</TD><TD style=\"border-right:1px solid #000000; border-bottom:1px solid #000000\" width=228><P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=right>84,121,524</P>\n</TD><TD style=\"border-right:1px solid #000000; border-bottom:1px solid #000000\" width=222><P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=right>100%</P>\n</TD></TR>\n</TABLE>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR>\n<BR></P>\n<HR style=\"margin-top:9.6px; margin-bottom:9.6px\" noshade size=1.333>\n<P style=\"margin:0px; page-break-before:always\"><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"line-height:16pt; margin:0px; font-size:14pt\" align=center>SILVER WHEATON CORP.</P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><B>Meeting of Holders of</B></P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><B>Series A Common Share Purchase Warrants (&#147;Series A Warrants&#148;)</B></P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><B>August 7, 2008</B></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><B>REPORT OF VOTING RESULTS</B></P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><I>National Instrument 51-102 - Continuous Disclosure Obligations</I></P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><I>Section 11.3</I></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><B>Matters Voted Upon</B></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\"><B><U>Resolution #1</U></B></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"line-height:13pt; margin:0px; font-size:11pt\">The disinterested warrantholders approved the entering into by the Company of a supplemental warrant indenture (the &#147;Supplemental Indenture&#148;) with CIBC Mellon Trust Company, as warrant agent, for the purpose of amending the terms of the amended and restated common share warrant indenture between the Company and CIBC Mellon Trust Company dated November 30, 2004 (the &#147;Warrant Indenture&#148;), and the terms of the common share purchase warrants governed by the Warrant Indenture, in the form of the resolution included in the Management Information Circular of the Company dated July 7, 2008.</P>\n<P style=\"margin:0px\"><BR></P>\n<TABLE style=\"font-size:10pt\" cellspacing=0><TR height=0 style=\"font-size:0\"><TD width=167></TD><TD width=228></TD><TD width=222></TD></TR>\n<TR><TD style=\"border:1px solid #000000\" valign=top width=167><P>&nbsp;</P></TD><TD style=\"border-top:1px solid #000000; border-right:1px solid #000000; border-bottom:1px solid #000000\" width=228><P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><B>Total Warrants Voted</B></P>\n</TD><TD style=\"border-top:1px solid #000000; border-right:1px solid #000000; border-bottom:1px solid #000000\" valign=bottom width=222><P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=center><B>Percentage of Votes Cast</B></P>\n</TD></TR>\n<TR><TD style=\"border-left:1px solid #000000; border-right:1px solid #000000; border-bottom:1px solid #000000\" width=167><P style=\"line-height:13pt; margin:0px; font-size:11pt\">Votes in Favour</P>\n</TD><TD style=\"border-right:1px solid #000000; border-bottom:1px solid #000000\" width=228><P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=right>13,686,833</P>\n</TD><TD style=\"border-right:1px solid #000000; border-bottom:1px solid #000000\" width=222><P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=right>91.2%</P>\n</TD></TR>\n<TR><TD style=\"border-left:1px solid #000000; border-right:1px solid #000000; border-bottom:1px solid #000000\" width=167><P style=\"line-height:13pt; margin:0px; font-size:11pt\">Votes Against</P>\n</TD><TD style=\"border-right:1px solid #000000; border-bottom:1px solid #000000\" width=228><P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=right>1,316,400</P>\n</TD><TD style=\"border-right:1px solid #000000; border-bottom:1px solid #000000\" width=222><P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=right>8.8%</P>\n</TD></TR>\n<TR><TD style=\"border-left:1px solid #000000; border-right:1px solid #000000; border-bottom:1px solid #000000\" width=167><P style=\"line-height:13pt; margin:0px; font-size:11pt\">Total Votes Cast</P>\n</TD><TD style=\"border-right:1px solid #000000; border-bottom:1px solid #000000\" width=228><P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=right>15,003,233</P>\n</TD><TD style=\"border-right:1px solid #000000; border-bottom:1px solid #000000\" width=222><P style=\"line-height:13pt; margin:0px; font-size:11pt\" align=right>100%</P>\n</TD></TR>\n</TABLE>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px; padding-top:4px; border-top:3px solid #3F3F3F\"><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR>\n<BR></P>\n</BODY>\n<!-- EDGAR Validation Code: 89AB6C62 -->\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

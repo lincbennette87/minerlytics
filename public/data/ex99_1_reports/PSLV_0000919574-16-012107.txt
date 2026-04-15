@@ -1,0 +1,794 @@
+EX-99.1
+2
+exhibit.htm
+
+PRECIOUS METALS STORAGE AGREEMENT entered into as of the 14th day of March, 2014.
+
+B E T W E E N:
+
+ 
+
+ROYAL CANADIAN MINT
+Ottawa, Ontario, Canada, a Body Corporate established by the Royal Canadian Mint Act, R.S.C. 1985, c.R-9.
+(hereinafter referred to as the “Mint”)
+
+ 
+
+OF THE FIRST PART
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+A N D:
+
+ 
+
+ 
+ 
+
+ 
+
+SPROTT ASSET MANAGEMENT LP 
+
+for and on behalf of Sprott Physical Silver Trust, a trust organized under the laws of the province of Ontario.
+(hereinafter referred to as the “Customer”)
+
+ 
+
+OF THE SECOND PART
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+WHEREAS the Customer wishes to store Precious Metals (as defined herein) at the Mint’s Facility (as defined herein);
+
+WHEREAS the Mint agrees to store Precious Metals at the Mint’s Facility in accordance with the terms and conditions contained herein.
+
+NOW, THEREFORE, in consideration of the mutual promises and covenants hereinafter contained, the parties hereto agree as follows:
+
+1. Definitions
+
+In the Agreement (as defined below), the following terms and expressions have the following meanings:
+
+“Agreement” means this agreement and any document referred to in this agreement as forming part of this agreement.
+
+LS2014-136
+
+ 
+
+Page 1 of 21
+
+“Business Day” means any Monday to Friday inclusively, excluding holidays observed by the Mint.
+
+“Confidential Information” means all information received by a party to the Agreement (the receiving party) from another party to the Agreement (the disclosing party) during the course of the Agreement, whether disclosed in written, oral and/or visual form, which is expressly identified by the disclosing party as confidential at the time of disclosure or that a reasonable person would consider, from the nature of the information or circumstances of disclosure, as being confidential. Confidential Information includes, but is not limited to, information relating to the respective parties’ research, developments, technology, know-how, pricing, finances, marketing, business plans, customer lists, all information regarding the Precious Metals, including, but not limited to: kind, type, quantity, form and size of the Precious Metals in inventory at any time, and customers of the Customer to whom Property is transferred.
+
+“Force Majeure” means circumstances or causes beyond a party’s reasonable control, including, without limitation, acts or omissions or the failure to cooperate of the other party (including, without limitation, entities and/or individuals under their respective control, and/or their respective officers, directors, employees and/or other personnel and agents), fire or other casualty, act of God, strike or labour dispute, war or other violence, or any law, order or requirement of any governmental agency or authority.
+
+“Improperly Packed Pallet” means bars that are not securely or safely packed on a well constructed sturdy wood pallet.
+
+“Initial Notice” has the meaning ascribed thereto in Clause 4(c).
+
+“LBMA” means the London Bullion Market Association.
+
+“London Good Delivery Bars” means silver bars that meet the standard measure of quality in silver bullion as set forth by the London Bullion Market Association.
+
+“Mint’s Facility” means, at the Mint’s choice, the Mint’s premises located at 520 Lagimodière Boulevard, Winnipeg, Manitoba, R2J 3E7, and/or any other safe storage facility located in Canada used by the Mint for the purposes set out herein, including the facility of a Sub-Custodian, whether or not the Mint is the owner or tenant of said other facility or otherwise.
+
+“Notice of Discrepancy” means a written notice given by the Mint to the Customer pursuant to Sub-Clause 4(i) informing the Customer of a discrepancy between: (i) the weight in troy ounces, count and/or bar numbers of the Precious Metals as determined by the Mint or a Sub-Custodian pursuant to Sub-Clause 4(g); and (ii) the information stated in the relevant Initial Notice.
+
+“Notice of Loss” means a written notice given by the Mint or the Customer informing the other party of the discovery of loss, destruction and/or damage of Precious Metals, and specifying the date upon which such loss, destruction and/or damage was discovered.
+
+LS2014-136
+
+ 
+
+Page 2 of 21
+
+“Precious Metals” means Silver that belongs to the Customer or in regards to which the Customer is the duly authorized agent of the owner in the form of London Good Delivery Bars.
+
+“Rate Schedule” has the meaning ascribed thereto in Clause 3.
+
+“Receipt of Deposit” means the document issued by the Mint to the Customer confirming the count, the weight in troy ounces and the bar numbers of the Precious Metals received at the Mint’s Facility in a particular delivery.
+
+“Returning Instructions” means written instructions provided by the Customer to the Mint informing the Mint of the Customer’s carrier or representative to whom the Mint or the Sub-Custodian, as applicable, is to remit Precious Metals for their return, the Business Day on which the Precious Metals are to be remitted to said carrier or representative, said carrier’s or representative’s vehicle model and registration number and any other details which may be reasonably requested by the Mint in relation thereto.
+
+“Sub-Custodian” means a sub-custodian, agent or depository appointed by the Mint to perform any of the Mint’s duties under the Agreement, including the safekeeping of Precious Metals.
+
+“Transfer of Allocated Storage” means the transfer of allocated Precious Metals to or from another customer allocated storage account held by the Mint.
+
+“Transportation Costs” means any and all costs and expenses related to the transportation of Precious Metals to and from the Mint’s Facility, inclusive of any applicable taxes, duties, fees and assessments and the costs in obtaining insurance in relation thereto.
+
+“Withdrawal” means the physical removal of the Precious Metals or a portion thereof from the Mint’s Facility.
+
+2. Interpretation
+
+(a)
+
+The terms “herein”, “hereby” and “hereunder”, when used in any clause shall, unless the contrary is apparent from the context, be understood to relate to the Agreement as a whole, and not merely to the clause in which they appear.
+
+ 
+
+(b)
+
+The division of the Agreement into sections and the insertion of headings are for convenience of reference only and are not to affect the construction or interpretation of the Agreement.
+
+ 
+
+(c)
+
+In the Agreement, unless the context requires otherwise, words importing a singular number include the plural and vice versa and words importing the masculine include the feminine and neuter and vice versa.
+
+LS2014-136
+
+ 
+
+Page 3 of 21
+
+(d)
+
+Unless otherwise indicated, any reference to currency is to U.S. currency and any amount advanced, paid or calculated is to be advanced, paid or calculated in U.S. currency.
+
+ 
+
+ 
+
+3. Schedule(s)
+
+The following schedule is attached to and forms part of the Agreement:
+
+·
+
+Schedule A - Rate Schedule (the “Rate Schedule”).
+
+ 
+
+4. Description of Service
+
+(a)
+
+The Mint shall establish and maintain an account for Precious Metals stored at the Mint’s Facility pursuant to the terms and conditions set forth in the Agreement. The account will be established and maintained on an allocated basis and will record the amount of Precious Metals held from time to time on behalf of the Customer under the Agreement.
+
+(b)
+
+The Mint agrees to exercise the same degree of care and diligence in safeguarding the Precious Metals as any reasonably prudent person acting as a custodian would exercise in the same circumstances.
+
+(c)
+
+From time to time during the term of the Agreement, the Customer shall give written notice (an “Initial Notice”) to the Mint of its intention to have Precious Metals delivered to and stored at the Mint’s Facility. The Initial Notice shall be delivered to the Mint at least three (3) Business Days prior to the Business Day the Customer intends for the Precious Metals to be delivered to the Mint’s Facility. Within one (1) Business Day of the receipt of an Initial Notice, the Mint shall confirm to the Customer an acceptable receipt date for the delivery of the Precious Metals to the Mint’s Facility. The Mint reserves the right to suggest an alternative receipt date for delivery, or refuse receipt of a delivery in the event of storage capacity limitations.
+
+(d)
+
+Initial Notices shall specify the amount, weight in fine troy ounces and gross troy ounces, type, assay characteristics, bar numbers and bar brand(s) of the Precious Metals to be stored. Assay characteristics shall be denoted in troy ounces to two (2) decimal places. The Customer agrees that it shall never conceal or misrepresent any material fact or circumstance concerning the Precious Metals delivered to the Mint’s Facility. The Initial Notice shall also inform the Mint as to the identity of the armoured carrier company that will transport the Precious Metals on behalf of the Customer to the Mint’s Facility.
+
+LS2014-136
+
+ 
+
+Page 4 of 21
+
+(e)
+
+Except when otherwise specified in the Agreement, all Transportation Costs to and from the Mint’s Facility shall be borne by the Customer.
+
+(f)
+
+If the Precious Metals arrive at the Mint’s Facility without the Customer having given an Initial Notice in relation thereto or if the Precious Metals arrive prior to the date confirmed by the Mint as being acceptable, the whole in accordance with Sub- Clauses 4(c), the Mint may choose not to store such Precious Metals. In such an event, the Customer shall forthwith arrange for the return of said Precious Metals and provide the Mint with Returning Instructions.
+
+(g)
+
+Unless provided otherwise in the Agreement, the Mint or the Sub-Custodian, as applicable, shall, upon receiving Precious Metals at the Mint’s Facility, compare the bar numbers stated in the Initial Notice against corresponding bar numbers imprinted on each bar delivered by the Customer. The Mint or the Sub-Custodian, as applicable, shall also weigh the Precious Metals and compare its results with the weight in troy ounces stated in the Initial Notice.
+
+(h)
+
+Once the bar numbers and the weight in troy ounces stated in the Initial Notice have been successfully verified, the Mint shall confirm to the Customer receipt of said Precious Metals by providing to the Customer by facsimile transmission a Receipt of Deposit confirming the bar numbers and the weight in troy ounces of the Precious Metals received.
+
+(i)
+
+In the event the Mint or the Sub-Custodian, as applicable, discovers a discrepancy between: (i) the weight in troy ounces and/or bar numbers of the Precious Metals as determined by the Mint or the Sub-Custodian, as applicable, in furtherance to Sub- Clause 4(g); and (ii) the information stated in the Initial Notice, the Mint shall promptly send a Notice of Discrepancy to the Customer. In such a case, the Mint or the Sub-Custodian, as applicable, will suspend all activity and the Customer shall forthwith either: (i) arrange for the return of the Precious Metals and provide Returning Instructions to the Mint; or (ii) issue a revised Initial Notice to correct any such discrepancy. Notwithstanding the foregoing, in the event the Mint’s weight, or the Sub-Custodian’s weight, as applicable, results in a material excess of Precious Metals, the Mint reserves the right to refuse to store such excess Precious Metals or any portion thereof. In such case, the Customer shall forthwith arrange for the return of said excess Precious Metals and provide Returning Instructions.
+
+(j)
+
+The parties expressly understand and agree that the Mint does not assume any liability with respect to (i) the authenticity or assay characteristics of any Precious Metals; and/or (ii) any discrepancies identified between the weight, count and/or bar numbers of the Precious Metals as stated in the Initial Notice and the actual weight, count and bar numbers of the Precious Metals delivered.
+
+(k)
+
+If the Precious Metals arrive at the Mint’s Facility on Improperly Packed Pallets, the Customer will be notified in writing by the Mint that it considers the state of the packing to pose a potential safety hazard and the Mint will repack the pallet at the Customer’s expense at the rate set out in the Rate Schedule.
+
+LS2014-136
+
+ 
+
+Page 5 of 21
+
+(l)
+
+From time to time during the term of the Agreement, and for the fee set forth in the Rate Schedule, the Customer may give written notice to the Mint of its intention to withdraw Precious Metals from the Mint’s Facility. Such written notice shall be signed by an authorized representative of the Customer in accordance with Sub- Clause 4(n) and delivered to the Mint at least three (3) Business Days prior to the Business Day on which the Customer wishes the Withdrawal to occur and shall: (i) specify the Precious Metals to be withdrawn from the Mint’s Facility, including a bar list specifying, for each bar to be withdrawn, the bar number, the bar brand, the weight in fine troy ounces and gross troy ounces, and the fineness; and (ii) specify the Returning Instructions.
+
+(m)
+
+Upon receipt of proper and complete instructions in writing from the Customer, and for the fee set forth in the Rate Schedule, the Mint will transfer the Precious Metals or a portion thereof to a third party who has an allocated storage account with the Mint. The written transfer order must be signed by an authorized representative of the Customer in accordance with Sub-Clause 4(n). Transfers of Allocated Storage shall be processed within one (1) Business Day from reception of proper and complete instructions in writing and will be confirmed to the recipient by facsimile or email on the day of transfer.
+
+(n)
+
+The Customer shall provide the Mint with the names and signatures of the Customer’s authorized representatives who are empowered to request (i) Transfers of Allocated Storage pursuant to Sub-Clause 4(m); (ii) Withdrawals of Precious Metals from the Mint’s Facility pursuant to Sub-Clause 4(l); and (iii) inventory records pursuant to Sub-Clause 8(a). Such requests shall be signed by one of such authorized representatives. It is expressly understood and agreed that the Mint shall not be liable for any transfer of Precious Metals made under a Transfer of Allocated Storage, any Withdrawal and/or provision of inventory records where such request has been fraudulently executed in the name of an authorized Customer representative, nor for any transfer of Precious Metals under a Transfer of Allocated Storage, a Withdrawal, and/or a provision of inventory records where the authority of any such representative has been revoked and the Mint has not been notified thereof in writing in due time.
+
+(o)
+
+Nothing contained in the Agreement shall create between the parties the relationship of principal and agent, mandator and mandatary, partnership or joint venture. The Customer has no authority to and undertakes not to make any representation relating to the Mint, nor give any warranty or representation on behalf of the Mint, without the Mint’s prior written authorization. The Customer will be liable for any and all damages, losses and costs, including special, incidental, consequential, indirect and punitive damages, losses and costs (including lost profits and lost savings) suffered by the Mint as a result of a breach of any of the above undertakings. The Customer recognizes and acknowledges that any breach or threatened breach of the above undertakings may cause the Mint irreparable harm for which monetary damage may be inadequate. The Customer agrees therefore that the Mint shall be entitled to seek an injunction to restrain the Customer from such breach or threatened breach.
+
+ 
+
+LS2014-136
+
+ 
+
+Page 6 of 21
+
+ 
+
+ 
+
+5. Sub-Custodian
+
+The Mint may, with the prior written consent of the Customer, which consent shall not be unreasonably withheld and/or delayed, appoint one or more Sub-Custodians to perform any of its duties under the Agreement including the custody and safekeeping of Precious Metals. The Mint will, on request, provide the Customer with the name and address of any Sub-Custodian of the Precious Metals along with any other information which the Customer may reasonably require concerning the appointment of the Sub-Custodian(s).
+
+6. Segregation of Precious Metals
+
+Precious Metals stored under the Agreement shall be physically segregated at all times from precious metals belonging to the Mint and/or belonging to the Mint’s other customers, and shall specifically be identified as belonging to the Customer.
+
+7. Inventory Statements
+
+The Mint will send the Customer an inventory statement on a monthly basis. The monthly inventory statements will include a summary of all Receipts of Deposit, Transfers of Allocated Storage and Withdrawals which have been processed during the previous calendar month. Said inventory statements shall be issued no later than ten (10) Business Days following the end of each calendar month.
+
+8. Audit and Security and Safety Requirements
+
+(a)
+
+Following a minimum of two (2) weeks’ prior written notice and for the fee indicated in the Rate Schedule, the Customer’s authorized employees and representatives will have access to the Mint’s Facility for the purpose of performing a physical audit of the Precious Metals held in custody by the Mint and/or, as applicable, by a Sub-Custodian, provided that such audit does not disrupt the routine operation of the Mint’s Facility and is held on a Business Day during the Mint’s and/or the Sub-Custodian’s regular business hours, as applicable. The Mint has the right to reschedule the physical audit in the event the Mint or the Sub- Custodian determines, acting reasonably, that the audit would disrupt the routine operation of the Mint’s Facility if held on the date identified in the Customer’s written notice. The Mint shall also provide the Customer’s employees and representatives with the Mint’s and/or the Sub-Custodian’s inventory records relating to the Precious Metals, where such a request is made in writing and signed by an authorized representative of the Customer in accordance with Sub-Clause 4(n).
+
+LS2014-136
+
+ 
+
+Page 7 of 21
+
+(b)
+
+The Customer’s employees and representatives shall present proper credentials to the manager of the Mint’s Facility as a condition of being admitted to the Mint’s Facility.
+
+(c)
+
+The Customer agrees to be bound by the Mint’s and/or, as applicable, the Sub- Custodian’s security procedures and policies relating to the access to the Mint’s Facility. All authorized employees and representatives who are allowed access to the Mint’s Facility pursuant to the Agreement will be subject to security clearance prior to being admitted to the Mint’s Facility.
+
+(d)
+
+The Customer’s authorized employees and representatives could possibly be subject to search while at the Mint’s Facility.
+
+(e)
+
+Prior to arriving at the Mint’s Facility, the Mint shall provide the Customer with the details of the Mint’s and/or the Sub-Custodian’s safety regulations, including the Mint’s security procedures and policies relating to access the Mint’s Facility as applicable.
+
+9. Indemnity
+
+(a)
+
+The Customer shall indemnify and hold harmless the Mint, its directors, officers, employees and agents, from and against any damages and/or losses, including, but not limited to loss, destruction and/or damage to Precious Metals, any injuries, including, but not limited to, bodily injuries or death, any costs and/or expenses and/or any claim, action, suit and/or other proceeding, including reasonable settlement, judgment and attorney’s fees, arising out of the presence of any of the Customer’s employees, agents, representatives and/or contractors on the premises of the Mint’s Facility and/or arising out of their entering and/or leaving therefrom in connection with the Agreement.
+
+(b)
+
+The Customer warrants that it has legal title to the Precious Metals delivered and stored in the Mint’s Facility or is the duly authorized agent of the owner of the Precious Metals, with the right in either instance to transfer possession of the Precious Metals to the Mint and/or, as applicable, to a Sub-Custodian, free and clear of all liens and encumbrances. The Customer shall indemnify and hold harmless the Mint, its directors, officers, employees and agents, from and against any damages, losses, injuries, costs and/or expenses and/or any claim, action, suit and/or other proceeding, including reasonable settlement, judgment and attorney’s fees, arising out of any breach of this warranty.
+
+LS2014-136
+
+ 
+
+Page 8 of 21
+
+10. Service Charges and Payment
+
+(a)
+
+Except as otherwise provided for in the Agreement, the Customer shall pay the Mint, for the services provided by the Mint under the Agreement, the fees and charges invoiced in accordance with the rates set forth in the Rate Schedule within thirty (30) calendar days from the receipt of the respective invoices.
+
+(b)
+
+Federal, Provincial and/or local taxes, where applicable, shall be added to the charges invoiced in accordance with the rates set forth in the Rate Schedule.
+
+(c)
+
+The Customer shall effect payment to the Mint for value in USD funds by wire transfer using the following instructions:
+
+US Correspondent Bank:
+
+JP Morgan Chase
+
+New York, N.Y.
+
+ABA#: 021000021
+
+ 
+ 
+
+Destination Bank:
+
+Royal Bank of Canada
+
+90 Sparks Street
+
+Ottawa, Ontario
+
+Canada
+
+SWIFT#: ROYCCAT2
+
+ 
+ 
+
+Beneficiary:
+
+Royal Canadian Mint
+
+Transit:
+
+00006
+
+Account:
+
+400-216-8
+
+ 
+ 
+
+(d)
+
+All fees and charges remaining unpaid after the invoice due date will be subject to interest at a rate of 1½ percent (1.5%) per month, but in no event to exceed the highest rate allowed by applicable law.
+
+(e)
+
+The Mint reserves the right to change the rates set forth in the Rate Schedule no more than once per calendar year following a thirty (30) calendar days’ written notice to the Customer to that effect in the event of a change beyond the Mint’s control that increases operating costs incurred by the Mint. Within ten (10) Business Days of receipt of said notice, the Customer may provide the Mint with Returning Instructions for the return of the Precious Metals. Transportation Costs for returning the Precious Metals shall be borne by the Customer.
+
+(f)
+
+Without prejudice to any and all other rights and remedies provided in the Agreement and/or by way of law and/or equity, provided the Customer is in default in the full and timely payment of any monies due to the Mint pursuant to the Agreement, the Mint shall be permitted to set-off against any fees, costs and expenses payable to the Mint under the Agreement (which include, but are not limited to, the reasonable expenses incurred by the Mint in collecting the fees and expenses payable to the Mint under the Agreement, including, but not limited to, reasonable legal fees), any amounts which may be payable by the Mint to the Customer under the Agreement.
+
+LS2014-136
+
+ 
+
+Page 9 of 21
+
+(g)
+
+It is agreed that the Mint will have no obligation to proceed with a requested Withdrawal and/or Transfer of Allocated Storage until all sums due to the Mint per the Agreement have been paid in full.
+
+11. Risk and Liability
+
+(a)
+
+Except as otherwise provided in the Agreement, the Mint shall bear all risks of loss, destruction and/or damage to Precious Metals delivered to the Mint’s Facility for storage under the Agreement from the time said Precious Metals have been taken into the Mint’s or the Sub-Custodian’s possession and control, as applicable, whether through physical delivery or through a Transfer of Allocated Storage. Should the Mint or the Sub-Custodian, as applicable, discover a discrepancy during the verification process pursuant to Sub-Clause 4(g) between: (i) the weight in troy ounces and/or bar numbers of the Precious Metals as determined by the Mint or the Sub-Custodian, as applicable; and (ii) the information stated in the Initial Notice, the Mint’s liability under the Agreement shall be immediately adjusted to the weight in troy ounces of the Precious Metals as determined by the Mint or the Sub- Custodian, as applicable, upon the issuance by the Mint of a Notice of Discrepancy. In no event shall the Mint be liable for Precious Metals that were not actually delivered to the Mint’s Facility or taken into the Mint’s possession and control. The Mint’s liability shall terminate in respect of any portion of the Precious Metals upon the termination of the Agreement, whether or not the Precious Metals remain in the Mint’s Facility, upon transfer of the Precious Metals under a Transfer of Allocated Storage, as requested by the Customer, or upon remittance to the Customer’s carrier or representative in the event of a Withdrawal or in the event of the return of the Precious Metals pursuant to the Agreement.
+
+(b)
+
+The Customer shall ensure that Precious Metals sent to the Mint’s Facility are packaged in accordance with the custom of the trade so that the Precious Metals are not reasonably susceptible to damage.
+
+(c)
+
+Conditional upon the Customer giving the Mint a Notice of Loss in accordance with Sub-Clause 12(b) where the loss and/or destruction is discovered by the Customer, in the event of loss and/or destruction of Precious Metals (whether through fraud, theft, negligence or otherwise and regardless of culpability by the Mint) for which the Mint bears the risks of loss, destruction or damage as provided in Sub-Clause 11(a), the Mint will either, in its discretion:
+
+(i)
+
+replace the lost and/or destroyed Precious Metals as soon as practicable following receipt of Notice of Loss, based on the weight and assay characteristics provided in the Customer’s Initial Notice, as adjusted pursuant to Sub-Clause 11(a) in the event of a discrepancy;
+
+LS2014-136
+
+ 
+
+Page 10 of 21
+
+(ii)
+
+compensate the Customer for the monetary value of the lost and/or destroyed Precious Metals within fifteen (15) calendar days following the date the relevant Notice of Loss is given, based on the weight and assay characteristics provided in the Customer’s Initial Notice, as adjusted pursuant to Sub-Clause 11(a) in the event of a discrepancy, and the market value of the lost and/or destroyed Precious Metals using the silver fixing of the LBMA expressed in U.S. dollars on the first (1st) trading day following the discovery of said loss and/or destruction; or
+
+(iii)
+
+replace a portion of the lost and/or destroyed Precious Metals as soon as practicable following receipt of Notice of Loss, based on the weight and assay characteristics provided in the Customer’s Initial Notice, as adjusted pursuant to Sub-Clause 11(a) in the event of a discrepancy, and compensate the Customer for the monetary value of the remaining portion of the lost and/or destroyed Precious Metals within fifteen (15) calendar days following the date the relevant Notice of Loss is given, based on the weight and assay characteristics provided in the Customer’s Initial Notice, as adjusted pursuant to Sub-Clause 11(a) in the event of a discrepancy, and the market value of the lost and/or destroyed Precious Metals using the silver fixing of the LBMA expressed in U.S. dollars on the first (1st) trading day following the discovery of said loss and/or destruction.
+
+(d)
+
+Conditional upon the Customer giving the Mint a Notice of Loss in accordance with Sub-Clause 12(b) where the damage is discovered by the Customer, in the event of damage to Precious Metals for which the Mint bears the risks of loss, destruction or damage as provided in Sub-Clause 11(a), the Mint will restore the portion of damaged Precious Metals to at least as good as state as it was prior to being so damaged, including its form, purity and weight in fine ounces.
+
+(e)
+
+Upon replacement of and/or monetary compensation for the lost and/or destroyed Precious Metals as provided for above, the Customer hereby agrees to and does hereby assign to the Mint all of its right, title and interest in said lost and/or destroyed Precious Metals; upon replacement of and/or compensation for lost and/or destroyed Precious Metals and/or upon restoration of damaged Precious Metals, the Customer hereby agrees to and does hereby assign to the Mint all of its rights of recovery against third parties that are the subject of a claim and/or against whom a claim can be instituted, and to execute any documents as may be reasonably necessary to perfect such assignment upon request by the Mint or the Mint’s insurers.
+
+12. Notice of Loss
+
+(a)
+
+The Customer and the Mint shall maintain a record of all Precious Metals delivered to the Mint.
+
+LS2014-136
+
+ 
+
+Page 11 of 21
+
+(b)
+
+Should any party to the Agreement discover a loss, destruction and/or damage of Precious Metals under the Agreement, such party shall give a Notice of Loss to the other party within five (5) Business Days from the discovery of any such loss, destruction and/or damage. Notwithstanding the foregoing, in the event that the Customer receives a written statement from the Mint in which a discrepancy in the quantity of Precious Metals first appears, the Customer must give the Mint a Notice of Loss regarding such a discrepancy no later than sixty (60) calendar days following reception of said written statement. In the event that a Notice of Loss is given by either party in accordance with the above, the Customer shall forthwith provide the Mint with an affirmative written statement, subscribed and sworn to by a duly authorized representative of the Customer, detailing the Precious Metals lost, destroyed and/or damaged and substantiated by the books, records and accounts of the Customer. Should the Customer either (i) fail to give a Notice of Loss within the period stated herein with respect to a loss, destruction and/ or damage; or (ii) fail to bring an action, suit and/or proceeding within twelve (12) months from the discovery of a loss, destruction and/or damage notwithstanding that a Notice of Loss has been given in accordance with this Sub-Clause, all claims with respect to such loss, destruction and/or damage shall be deemed to have been waived, and no action suit and/or other proceeding in relation thereto shall be brought against the Mint.
+
+(c)
+
+The parties shall promptly and diligently assist each other to establish the identity of the Precious Metals lost, destroyed and/or damaged, and shall take all such other reasonable steps as may be necessary to assure the maximum amount of salvage at a minimum cost.
+
+13. Limitation of Liability
+
+Notwithstanding anything to the contrary in the Agreement, in addition to any other limitations of liability provided under the Agreement and/or by way of law, neither party shall be liable for any damages, losses, costs and/or expenses and/or for non-performance and/or delays of service caused by or resulting from any of the following, whether suffered directly or indirectly by the Mint and/or a Sub-Custodian, and/or the Customer:
+
+(a)
+
+either: (1) war, hostile or warlike action in time of peace or war, including action in hindering, combating or defending against an actual, impending or expected attack (i) by any government or sovereign power (de jure or de facto), or by any authority maintaining or using military, naval or air forces; or (ii) by military, naval or air forces; or (iii) by an agent of any such government, power, authority or forces; or (2) insurrection, rebellion, revolution, civil war, usurped power or action taken by governmental authority in hindering, combating or defending against such an occurrence or confiscation by order of any government or public authority.
+
+LS2014-136
+
+ 
+
+Page 12 of 21
+
+(b)
+
+either: (i) any chemical, biological, or electromagnetic weapon; (ii) the use or operation, as a means for inflicting harm, of any computer, computer system, computer software, computer software programme, malicious code, computer virus or process or any other electronic system; (iii) ionising radiations from or contamination by radioactivity from any nuclear fuel or from any nuclear waste or from the combustion of nuclear fuel; (iv) the radioactive, toxic, explosive or other hazardous or contaminating properties of any nuclear installation, reactor or other nuclear assembly or nuclear component thereof; (v) any weapon or device employing atomic or nuclear fission and/or fusion or other like reaction or radioactive force or matter; or (vi) the radioactive, toxic, explosive or other hazardous or contaminating properties of any radioactive matter. The exclusion in this Sub-Clause (vi) does not extend to radioactive isotopes, other than nuclear fuel, when such isotopes are being prepared, carried, stored, or used for commercial, agricultural, medical, scientific or other similar peaceful purposes.
+
+(c)
+
+any act of terrorism or any action taken in controlling, preventing, suppressing or in any way relating to any act of terrorism. An act of terrorism means an act, including but not limited to the use of force or violence and/or the threat thereof, of any person or group(s) of persons, whether acting alone or on behalf of or in connection with any organization(s) or government(s), committed for political, religious, ideological or similar purposes including the intention to influence any government and/or to put the public, or any section of the public, in fear;
+
+(d)
+
+strikes, lockouts or other labour disturbances, riots, authority of law, acts of God or means beyond the control of the Mint and/or any Sub-Custodian, and/or the Customer; and/or
+
+(e)
+
+a case of Force Majeure.
+
+14. Consequential Damages
+
+Except as otherwise specifically provided under the Agreement, the Mint shall not be liable for special, incidental, consequential, indirect and/or punitive losses and/or damages (including lost profits and/or lost savings), except as a result of gross negligence or wilful misconduct by the Mint and whether or not the Mint had knowledge that such losses and/or damages might be incurred.
+
+15. Hazardous Substances and Right to Refuse Shipment
+
+(a)
+
+To the best of the Customer’s knowledge, any and all Precious Metals sent to the Mint’s Facility shall be free of hazardous substances including, but not limited to, beryllium, cadmium, mercury, polychlorinated biphenzyls and radioactive material. The Mint reserves the right to sample and test the Precious Metals for the presence of hazardous substances.
+
+LS2014-136
+
+ 
+
+Page 13 of 21
+
+(b)
+
+The Mint may choose not to store Precious Metals which, in the Mint’s or the Sub- Custodian’s opinion, as applicable, acting reasonably, contains a hazardous substance, or is, or becomes, unsuitable and/or undesirable whether for metallurgical, environmental and/or other reasons. Without prejudice to the Mint’s right to refuse delivery or reject Precious Metals as described above, prior to the Mint doing same, the Mint shall discuss the situation with the Customer.
+
+(c)
+
+In the event the Mint rejects Precious Metals pursuant to Sub-Clause 15(b), the Customer shall, upon reception of a notice of rejection from the Mint, arrange for the return of the Precious Metals and provide Returning Instructions. Pending receipt of such instructions, the Mint may take action, as it considers appropriate, for the proper packaging and handling of the Precious Metals. Any expenses incurred by the Mint in doing so shall be for the Customer’s account.
+
+(d)
+
+The Customer shall be liable and shall indemnify and hold harmless the Mint, its directors, officers, employees and agents, from and against damages, losses, injuries, costs and/or expenses and/or any claim, action, suit and/or other proceeding, including reasonable settlement, judgment and attorney’s fees, arising out of the presence of any hazardous substances contained in the Precious Metals.
+
+16. Term of the Agreement and Return of Precious Metals
+
+The Agreement is effective as of the date first mentioned above and will continue until terminated by either party pursuant to Clause 17 or Clause 18, as applicable.
+
+17. Termination for Default
+
+(a)
+
+Where: (i) the Customer is in default in carrying out any of its obligations under the Agreement and fails to correct said default within ten (10) Business Days following a written notice sent by the Mint to the Customer informing the latter of the default; (ii) the Customer is dissolved or adjudged bankrupt, or a trustee, receiver or conservator of the Customer or of its property is appointed, or an application for any of the foregoing is filed; or (iii) the Customer is in breach of any representation or warranty contained herein, the Mint may, upon giving written notice to the Customer, terminate the Agreement.
+
+(b)
+
+Where: (i) the Mint is in default in carrying out any of its obligations under the Agreement and fails to correct said default within ten (10) Business Days following a written notice sent by the Customer to the Mint informing the latter of the default; (ii) the Mint is dissolved or adjudged bankrupt, or a trustee, receiver or conservator of the Mint or of its property is appointed, or an application for any of the foregoing is filed; or (iii) the Mint is in breach of any representation or warranty contained herein, the Customer may, upon giving written notice to the Mint, terminate the Agreement.
+
+LS2014-136
+
+ 
+
+Page 14 of 21
+
+(c)
+
+Upon the giving of a written notice of termination by either party pursuant to the terms of the present Clause, the Customer shall forthwith arrange for the return of the Precious Metals and provide Returning Instructions. The Transportation Costs for returning the Precious Metals to the Customer shall be borne by the defaulting party, except that the Mint shall only bear Transportation Costs for returning the Precious Metals to a facility located in one of Canada’s provincial capitals. Precious Metals left in storage at the Mint’s Facility after the termination date will be subject to storage and handling fees and charges as determined by the Mint, acting reasonably; the Customer acknowledges and agrees that such fees and charges may be greater than those set out in the Rate Schedule. Also, the Customer agrees to reimburse the Mint for any and all reasonable costs and expenses incurred by the Mint by reason of the Precious Metals having been left in storage at the Mint’s Facility after the termination date.
+
+(d)
+
+In case of termination by the Mint pursuant to the present Clause, the Customer shall, except for special, incidental, consequential, indirect, and/or punitive losses and/or damages, be liable towards the Mint for losses and damages which may be suffered by the Mint by reason of the default or occurrence upon which the notice was based. In case of termination by the Customer pursuant to the present Clause, the Mint shall, except for special, incidental, consequential, indirect and/or punitive losses and/or damages, be liable towards the Customer for losses and damages which may be suffered by the Customer by reason of the default or occurrence upon which the notice was based.
+
+18. Termination for Convenience
+
+(a)
+
+Notwithstanding anything contained in the Agreement, either the Mint or the Customer may, at its sole discretion, terminate the Agreement by giving thirty (30) calendar days written notice to the other party to that effect.
+
+(b)
+
+Upon a notice of termination being given pursuant to the terms of the present Clause, the Customer shall forthwith arrange for the return of the Precious Metals and provide Returning Instructions, the Transportation Costs shall be borne by the partyterminating the Agreement, except that the Mint shall only bear Transportation Costs for returning the Property to one of Canada’s provincial capitals. Precious Metals left in storage at the Mint’s Facility after the termination date due to the Customer not having given Return Instructions prior to termination date will be subject to storage and handling fees and charges as determined by the Mint, acting reasonably; the Customer acknowledges and agrees that such fees and charges may be greater than those set out in the Rate Schedule. Also, the Customer agrees to reimburse the Mint for any and all reasonable costs and expenses incurred by the Mint by reason of the Precious Metals having been left in storage at the Mint’s Facility after the termination date due to the Customer not having given Return Instructions prior to the termination date.
+
+LS2014-136
+
+ 
+
+Page 15 of 21
+
+(c)
+
+In the event of termination under the present Clause, neither party will have any claim for compensation except as otherwise specified in the Agreement and will have no claim for damages and/or loss of profit as a result of the termination.
+
+19. Notices, Demands & other Communications
+
+(a)
+
+Unless explicitly otherwise specified in the Agreement, any notice, demand or other communication required or permitted to be given to any party to the Agreement will be in writing, and will be delivered by messenger, prepaid registered mail, facsimile or email to the following addresses:
+
+If to the Mint:
+
+If to the Customer:
+
+ 
+ 
+
+Director, Mint Office
+
+Royal Canadian Mint
+
+320 Sussex Drive
+
+Ottawa, ON K1A 0G8
+
+Facsimile: (613) 998-1330
+
+E-mail: entwistle@mint.ca
+
+Steven Rostowsky
+
+Chief Financial Officer
+
+Sprott Asset Management LP
+
+200 Bay Street, Suite 2700
+
+Toronto, ON M5J 2J1
+
+Facsimile: (416) 943-6497
+
+E-mail: srostowsky@sprott.com
+
+ 
+
+(b)
+
+A party may change its address by informing the other party of the new address in writing.
+
+(c)
+
+Each notice shall be deemed given: (i) when received, if delivered by messenger; (ii) upon electronic confirmation of receipt, if given by facsimile or email; or (iii) three (3) Business Days after the date of mailing when sent by prepaid registered mail.
+
+20. Waiver
+
+The failure of a party to insist upon strict adherence to any term of the Agreement on one or more occasions will not be considered a waiver or deprive the party of the right thereafter to insist upon strict adherence to that term or any other term of the Agreement.
+
+21. Amendments
+
+Except as specifically provided for herein, the Agreement may not be waived, altered or amended except by an instrument in writing duly executed by the Customer and the Mint.
+
+LS2014-136
+
+ 
+
+Page 16 of 21
+
+22. Assignment
+
+The Agreement shall be binding on the Customer and the Mint and their respective successors and permitted assigns. Neither the Customer nor the Mint shall assign or transfer its rights or obligations hereunder without the prior written consent of the other. Any such consent shall not be unduly delayed or unreasonably withheld.
+
+23. Applicable Law and Arbitration
+
+(a)
+
+The Agreement and all matters relating to the Agreement (whether in contract, statute, tort (including, without limitation, negligence) or otherwise), is governed by, and construed in accordance with, the laws of the Province of Ontario (without giving effect to the choice of law principles thereof).
+
+(b)
+
+Any dispute arising out of or in connection with the Agreement, including any question regarding its existence, validity or termination, shall be referred to and finally resolved by arbitration in accordance with the Commercial Arbitration Act, R.S.C. 1985, c.17 (2nd Supp.) and any amendments thereto. The number of arbitrators will be three (3). The place of arbitration will be the City of Ottawa, Ontario, Canada. The language to be used in the arbitral proceedings is English and/or French. All proceedings, submissions and awards related to any recourse hereunder shall be kept confidential to the extent permissible by law.
+
+24. No Bribe
+
+The Customer represents and warrants:
+
+(a)
+
+that no bribe, gift and/or other inducement has been paid, given, promised and/or offered to any official and/or employee of the Mint for, or with a view to, the obtaining of the Agreement by the Customer; and
+
+(b)
+
+that it has not employed any person to solicit or secure the Agreement upon any agreement for a commission, percentage, brokerage and/or contingent fee.
+
+25. Members of the House of Commons
+
+No Member of the House of Commons shall be admitted to any share or part of the Agreement or to any benefit to arise therefrom.
+
+LS2014-136
+
+ 
+
+Page 17 of 21
+
+26. Confidentiality
+
+(a)
+
+Subject to the exceptions set out below, the receiving party shall keep confidential the disclosing party’s Confidential Information and shall not use any of the disclosing party’s Confidential Information except for the purposes contemplated in the Agreement.
+
+(b)
+
+The receiving party shall disclose the Confidential Information only to those of its own employees, agents or consultants who require the Confidential Information for the purpose of the Agreement. Prior to disclosure of the Confidential Information to its own employees, agents or consultants, the receiving party shall issue, or shall have issued, appropriate instructions to satisfy its obligations under the Agreement. Any agents or consultants to whom the disclosing party’s Confidential Information is to be disclosed shall be first bound, by agreement in writing, to observe terms of confidentiality which are at least as stringent as those set out in the Agreement.
+
+(c)
+
+Confidential Information shall be maintained by the receiving party in the same manner as the receiving party keeps its own Confidential Information of a similar nature and, in any event, the Confidential Information shall be kept in accordance with reasonable and prudent standards.
+
+(d)
+
+The receiving party shall not be liable for disclosure of the Confidential Information where disclosure is made in either of the following cases:
+
+(i)
+
+the Confidential Information had already entered the public domain other than through a breach of the Agreement;
+
+(ii)
+
+prior to disclosure, the Confidential Information was lawfully obtained by the receiving party from a third party or parties without restriction on disclosure and without a breach of the Agreement;
+
+(iii)
+
+the Confidential Information was known to the receiving party without restriction on disclosure prior to its initial disclosure by the other;
+
+(iv)
+
+the Confidential Information is independently developed by the receiving party; or
+
+(v)
+
+the disclosure is required by law and/or pursuant to an order of a court, administrative tribunal, regulatory authority, or other body having the power to compel the production of Confidential Information, or pursuant to a government directive or policy. Such disclosure shall be made only to the extent so ordered.
+
+27. Survival
+
+The parties’ respective accrued rights and obligations, as well as the provisions which by the nature of the rights or obligations might reasonably be expected to survive, will survive the termination of the Agreement, in addition to any other provisions which survive by operation of law, for a period of two (2) years.
+
+LS2014-136
+
+ 
+
+Page 18 of 21
+
+28. Investment Advice
+
+It is understood and agreed that, as part of its services under the Agreement, the Mint has not undertaken a duty to supervise the Customer’s investment in, or to make any recommendation to the Customer with respect to, the purchase, sale and/or other disposition of any Precious Metals or the balance of Precious Metals the Customer maintains in inventory.
+
+29. Entire Agreement
+
+The Agreement constitutes the entire agreement between the parties hereto with respect to the subject matter hereof, and supersedes all previous negotiations, documents and agreements in relation thereto as of the date first mentioned above. There are no warranties, conditions, and/or representations (including any that may be implied by statute) and there are no agreements in connection with such subject matter except as specifically set forth or referred to in the Agreement. No reliance is placed on any warranty, representation, opinion, advice and/or assertion of fact made either prior to or contemporaneous with the entering into the Agreement by any party to the Agreement to any other party to the Agreement, except to the extent that the same has been reduced to writing and included as a term of the Agreement, and none of the parties to the Agreement has been induced to enter into the Agreement by reason of any such warranty, representation, opinion, advice and/or assertion of fact. Accordingly, there is no liability, either in tort and/or in contract, assessed in relation to any such warranty, representation, opinion, advice and/or assertion of fact, except to the extent contemplated above.
+
+30. Counterparts
+
+The Agreement may be executed in any number of counterparts and by different parties in separate counterparts, each of which when so executed will be deemed to be an original and all of which taken together will constitute one and the same agreement. Delivery by facsimile or by electronic transmission in portable document format (PDF) of an executed counterpart of the Agreement is as effective as delivery of an originally executed counterpart of the Agreement.
+
+[Remainder of page left intentionally blank.]
+
+LS2014-136
+
+ 
+
+Page 19 of 21
+
+IN WITNESS WHEREOF, each of the parties hereto has caused the Agreement to be executed on its behalf by its duly authorized representative(s) as of the date and year first written above.
+
+Royal Canadian Mint
+
+Sprott Asset Management LP, for and on behalf of Sprott Physical Silver Trust, by its general partner, Sprott Asset Management GP Inc.
+
+ 
+ 
+
+(signed) “John Moore” 
+
+(signed) “Steven Rostowsky” 
+
+John Moore
+
+Vice President, Sales
+
+Steven Rostowsky
+
+Chief Financial Officer
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+LS2014-136
+
+ 
+
+Page 20 of 21
+
+ 
+
+SCHEDULE A – RATE SCHEDULE
+
+Storage and Handling Charges
+
+PRECIOUS METAL MONTHLY STORAGE AND WITHDRAWAL CHARGE (by type and weight)
+
+TYPE AND WEIGHT
+
+STORAGE RATES
+
+RATES
+
+DEPOSIT/WITHDRAWAL
+
+ 
+ 
+ 
+
+London Good Delivery Silver Bars
+
+USD $2.25 per bar per month
+
+USD $5.00 per bar
+
+deposited and/or withdrawn
+
+ 
+ 
+ 
+
+MISCELLANEOUS CHARGES:
+
+Transfer of Allocated Storage
+
+USD $50.00 per transfer
+
+Repacking of Pallet
+
+USD $50.00 per pallet packing fee
+
+Auditing Fee
+
+USD $500 per hour
+
+LS2014-136
+
+ 
+
+Page 21 of 21

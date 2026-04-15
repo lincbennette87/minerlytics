@@ -1,0 +1,111 @@
+{
+  "ticker": "WPM",
+  "cik": "0001323404",
+  "form": "6-K",
+  "filingDate": "2011-07-06",
+  "accessionNumber": "0001176256-11-000559",
+  "primaryDocument": "slw6k110705.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000117625611000559/0001176256-11-000559-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "NEWS RELEASE DATED JULY 5, 2011",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1323404/000117625611000559/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-04-15T16:44:52.675Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000117625611000559/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Exhibit 99.1",
+    "headings": [
+      "Exhibit 99.1",
+      "SILVER WHEATON TO RELEASE SECOND QUARTER 2011 RESULTS ON AUGUST 8"
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nNEWS RELEASE DATED JULY 5, 2011\n\n Exhibit 99.1\n\nExhibit 99.1\n\n \n\n \n\n FOR IMMEDIATE RELEASE\n\n TSX:SLW\n\n July 5, 2011\n\n NYSE:SLW\n\nSILVER WHEATON TO RELEASE SECOND QUARTER 2011 RESULTS ON AUGUST 8th\n\nVancouver, British Columbia – Silver Wheaton Corp. (TSX:SLW) (NYSE:SLW) will release second quarter financial results on Monday, August 8, 2011, prior to market open.\n\nA conference call will be held Monday, August 8, 2011, starting at 11:00 am (Eastern Time) to discuss these results. To participate in the live call use one of the following methods:\n\n \n\n \n\n Dial toll free from Canada or the US:\n\n 1-888-231-8191\n\n Dial from outside Canada or the US:\n\n 1-647-427-7450\n\n Pass code:\n\n 80457512\n\n Live audio webcast:\n\n www.silverwheaton.com\n\nParticipants should dial in five to ten minutes before the call.\n\nThe conference call will be recorded and you can listen to an archive of the call by one of the following methods:\n\n \n\n \n\n Dial toll free from Canada or the US:\n\n 1-800-642-1687\n\n Dial from outside Canada or the US:\n\n 1- 416-849-0833\n\n Pass code:\n\n 80457512\n\n Archived audio webcast:\n\n www.silverwheaton.com\n\nFor further information, please contact:\n\n \n\n Brad Kopp\n\n Senior Vice President, Investor Relations\n\n Silver Wheaton Corp.\n\n Tel: 1-800-380-8687\n\n Email: info@silverwheaton.com\n\n Website: www.silverwheaton.com",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 2,
+        "rows": [
+          [
+            "FOR IMMEDIATE RELEASE",
+            "TSX:SLW"
+          ],
+          [
+            "July 5, 2011",
+            "NYSE:SLW"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 4,
+        "rows": [
+          [
+            "Dial toll free from Canada or the US:",
+            "1-888-231-8191"
+          ],
+          [
+            "Dial from outside Canada or the US:",
+            "1-647-427-7450"
+          ],
+          [
+            "Pass code:",
+            "80457512"
+          ],
+          [
+            "Live audio webcast:",
+            "www.silverwheaton.com"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 4,
+        "rows": [
+          [
+            "Dial toll free from Canada or the US:",
+            "1-800-642-1687"
+          ],
+          [
+            "Dial from outside Canada or the US:",
+            "1- 416-849-0833"
+          ],
+          [
+            "Pass code:",
+            "80457512"
+          ],
+          [
+            "Archived audio webcast:",
+            "www.silverwheaton.com"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 3,
+        "rowCount": 6,
+        "rows": [
+          [
+            "Brad Kopp"
+          ],
+          [
+            "Senior Vice President, Investor Relations"
+          ],
+          [
+            "Silver Wheaton Corp."
+          ],
+          [
+            "Tel: 1-800-380-8687"
+          ],
+          [
+            "Email: info@silverwheaton.com"
+          ],
+          [
+            "Website: www.silverwheaton.com"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>NEWS RELEASE DATED JULY 5, 2011\n<TEXT>\n\n<HTML>\n<HEAD>\n   <TITLE>Exhibit 99.1</TITLE>\n</HEAD>\n\n<BODY bgcolor=\"#ffffff\" style=\"font-family: 'Times New Roman';font-size: 10pt;\">\n\n<A name=\"page_1\"></A>\n\n<HR noShade SIZE=3>\n\n\n\n<P style=\"MARGIN: 0%\" align=right><B>Exhibit 99.1</B></P>\n\n<DIV style=\"PADDING-RIGHT: 0%; PADDING-LEFT: 0%\">\n\n<P align=center>\n<IMG src=\"exhibit99-1x1x1.jpg\" border=0></P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; WIDTH: 100%; FONT-FAMILY: 'Times New Roman'\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"50%\"></TD>\n\n   <TD width=\"50%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left width=\"50%\">FOR IMMEDIATE RELEASE</TD>\n\n   <TD noWrap align=right width=\"50%\">TSX:SLW</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left width=\"50%\">July 5, 2011</TD>\n\n   <TD noWrap align=right width=\"50%\">NYSE:SLW</TD></TR></TABLE></DIV><BR>\n\n<P style=\"TEXT-ALIGN: center\"><B>SILVER WHEATON TO RELEASE SECOND QUARTER 2011 RESULTS ON AUGUST 8</B><B><SUP>th</SUP></B></P>\n\n<P style=\"TEXT-ALIGN: justify\">Vancouver, British Columbia &#8211; Silver Wheaton Corp. (TSX:SLW) (NYSE:SLW) will release second quarter financial results on Monday, August 8, 2011, prior to market open.</P>\n\n<P style=\"TEXT-ALIGN: justify\">A conference call will be held Monday, August 8, 2011, starting at 11:00 am (Eastern Time) to discuss these results. To participate in the live call use one of the following methods:</P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; WIDTH: 100%; FONT-FAMILY: 'Times New Roman'\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"50%\"></TD>\n\n   <TD width=\"50%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left>Dial toll free from Canada or the US:</TD>\n\n   <TD noWrap align=left>1-888-231-8191</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left>Dial from outside Canada or the US:</TD>\n\n   <TD noWrap align=left>1-647-427-7450</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left>Pass code:</TD>\n\n   <TD noWrap align=left>80457512</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left>Live audio webcast:</TD>\n\n   <TD noWrap align=left>www.silverwheaton.com</TD></TR></TABLE></DIV><BR>\n\n<P style=\"TEXT-ALIGN: justify\">Participants should dial in five to ten minutes before the call.</P>\n\n<P style=\"TEXT-ALIGN: justify\">The conference call will be recorded and you can listen to an archive of the call by one of the following methods:</P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; WIDTH: 100%; FONT-FAMILY: 'Times New Roman'\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"50%\"></TD>\n\n   <TD width=\"50%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left>Dial toll free from Canada or the US:</TD>\n\n   <TD noWrap align=left>1-800-642-1687</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left>Dial from outside Canada or the US:</TD>\n\n   <TD noWrap align=left>1- 416-849-0833</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left>Pass code:</TD>\n\n   <TD noWrap align=left>80457512</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left>Archived audio webcast:</TD>\n\n   <TD noWrap align=left>www.silverwheaton.com</TD></TR></TABLE></DIV><BR>\n\n<P style=\"TEXT-ALIGN: justify\">For further information, please contact:</P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; WIDTH: 100%; FONT-FAMILY: 'Times New Roman'\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"100%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left>Brad Kopp</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left>Senior Vice President, Investor Relations</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left>Silver Wheaton Corp.</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left>Tel: 1-800-380-8687</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left>Email: info@silverwheaton.com</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left>Website: www.silverwheaton.com</TD></TR></TABLE></DIV>\n\n<P style=\"MARGIN: 0px\">&nbsp;</P></DIV><BR>\n\n<HR align=center width=\"100%\" noShade SIZE=3>\n\n\n\n</BODY>\n\n</HTML>\n\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

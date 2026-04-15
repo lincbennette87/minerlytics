@@ -1,0 +1,107 @@
+{
+  "ticker": "PSLV",
+  "cik": "0001494728",
+  "form": "40-F",
+  "filingDate": "2023-03-21",
+  "accessionNumber": "0001387131-23-003845",
+  "primaryDocument": "pslv-40f_123122.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1494728/000138713123003845/0001387131-23-003845-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "CERTIFICATE OF THE CHIEF EXECUTIVE OFFICER",
+    "filename": "ex99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1494728/000138713123003845/ex99-1.htm"
+  },
+  "extractedAt": "2026-04-15T16:47:28.495Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1494728/000138713123003845/ex99-1.htm",
+    "contentType": "html",
+    "title": "",
+    "headings": [
+      "Exhibit 99.1",
+      "CERTIFICATION OF THE PRINCIPAL EXECUTIVE\nOFFICER"
+    ],
+    "text": "EX-99.1\n2\nex99-1.htm\nCERTIFICATE OF THE CHIEF EXECUTIVE OFFICER\n\n \n\n \n\nSprott Physical Silver Trust 40-F\n \n\nExhibit 99.1\n\n \n\nCERTIFICATION OF THE PRINCIPAL EXECUTIVE\nOFFICER\n\n \n\nI, John Ciampaglia, certify that:\n\n \n\n1. I have reviewed this annual report on Form 40-F of Sprott\nPhysical Silver Trust (the “Trust”);\n\n \n\n2. Based on my knowledge, this report does not contain any\nuntrue statement of a material fact or omit to state a material fact necessary to make the statements made, in light of the circumstances\nunder which such statements were made, not misleading with respect to the period covered by this report;\n\n \n\n3. Based on my knowledge, the financial statements, and\nother financial information included in this report, fairly present in all material respects the financial condition, results of operations\nand cash flows of the Trust as of, and for, the periods presented in this report;\n\n \n\n4. The Trust’s other certifying officer and I are\nresponsible for establishing and maintaining disclosure controls and procedures (as defined in Exchange Act Rules 13a-15(e) and 15d-15(e))\nand internal control over financial reporting (as defined in Exchange Act Rules 13a-15(f) and 15d-15(f)) for the Trust and have:\n\n \n\na)designed such disclosure controls and procedures, or caused such\ndisclosure controls and procedures to be designed under our supervision, to ensure that material information relating to the Trust, including\nits consolidated subsidiaries, is made known to us by others within those entities, particularly during the period in which this report\nis being prepared;\n\n \n\nb)designed such internal control over financial reporting, or caused\nsuch internal control over financial reporting to be designed under our supervision, to provide reasonable assurance regarding the reliability\nof financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting\nprinciples;\n\n \n\nc)evaluated the effectiveness of the Trust’s disclosure controls\nand procedures and presented in this report our conclusions about the effectiveness of the disclosure controls and procedures, as of\nthe end of the period covered by this report based on such evaluation; and\n\n \n\nd)disclosed in this report any change in the Trust’s internal\ncontrol over financial reporting that occurred during the period covered by this annual report that has materially affected or is reasonably\nlikely to materially affect, the Trust’s internal control over financial reporting.\n\n \n\n5. The Trust’s other certifying officer and I have disclosed,\nbased on our most recent evaluation of internal control over financial reporting, to the Trust’s auditors and the audit committee\nof the Trust’s board of directors (or persons performing the equivalent function):\n\n \n\na)all significant deficiencies and material weaknesses in the design\nor operation of internal control over financial reporting which are reasonably likely to adversely affect the Trust’s ability to\nrecord, process, summarize and report financial information; and\n\n \n\nb)any fraud, whether or not material, that involves management or\nother employees who have a significant role in the Trust’s internal control over financial reporting.\n\n \n\n \n Date: March 21, 2023\n \n \n \n \n \n \n /s/ John Ciampaglia\n \n \n John Ciampaglia\n \n \n Principal Executive Officer",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 1,
+        "rows": [
+          [
+            "a)",
+            "designed such disclosure controls and procedures, or caused such\ndisclosure controls and procedures to be designed under our supervision, to ensure that material information relating to the Trust, including\nits consolidated subsidiaries, is made known to us by others within those entities, particularly during the period in which this report\nis being prepared;"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 1,
+        "rows": [
+          [
+            "b)",
+            "designed such internal control over financial reporting, or caused\nsuch internal control over financial reporting to be designed under our supervision, to provide reasonable assurance regarding the reliability\nof financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting\nprinciples;"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 1,
+        "rows": [
+          [
+            "c)",
+            "evaluated the effectiveness of the Trust’s disclosure controls\nand procedures and presented in this report our conclusions about the effectiveness of the disclosure controls and procedures, as of\nthe end of the period covered by this report based on such evaluation; and"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 3,
+        "rowCount": 1,
+        "rows": [
+          [
+            "d)",
+            "disclosed in this report any change in the Trust’s internal\ncontrol over financial reporting that occurred during the period covered by this annual report that has materially affected or is reasonably\nlikely to materially affect, the Trust’s internal control over financial reporting."
+          ]
+        ]
+      },
+      {
+        "tableIndex": 4,
+        "rowCount": 1,
+        "rows": [
+          [
+            "a)",
+            "all significant deficiencies and material weaknesses in the design\nor operation of internal control over financial reporting which are reasonably likely to adversely affect the Trust’s ability to\nrecord, process, summarize and report financial information; and"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 5,
+        "rowCount": 1,
+        "rows": [
+          [
+            "b)",
+            "any fraud, whether or not material, that involves management or\nother employees who have a significant role in the Trust’s internal control over financial reporting."
+          ]
+        ]
+      },
+      {
+        "tableIndex": 6,
+        "rowCount": 4,
+        "rows": [
+          [
+            "Date: March 21, 2023"
+          ],
+          [
+            "/s/ John Ciampaglia"
+          ],
+          [
+            "John Ciampaglia"
+          ],
+          [
+            "Principal Executive Officer"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>ex99-1.htm\n<DESCRIPTION>CERTIFICATE OF THE CHIEF EXECUTIVE OFFICER\n<TEXT>\n<HTML>\n<HEAD>\n     <TITLE></TITLE>\n</HEAD>\n<BODY STYLE=\"font: 10pt Times New Roman, Times, Serif\">\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: left\"></P>\n\n<!-- Field: Rule-Page --><DIV STYLE=\"margin-top: 0; margin-bottom: 0; width: 100%\"><DIV STYLE=\"font-size: 1pt; border-top: Black 2pt solid; border-bottom: Black 1pt solid\">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: left\"><A HREF=\"pslv-40f_123122.htm\">Sprott Physical Silver Trust 40-F</A></P>\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right\">&#160;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right\"><B>Exhibit&nbsp;99.1</B></P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center\"><B><U>CERTIFICATION OF THE PRINCIPAL EXECUTIVE\nOFFICER</U></B></P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">I, John Ciampaglia, certify that:</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">1.&nbsp;&nbsp;I have reviewed this annual report on Form 40-F of Sprott\nPhysical Silver Trust (the &ldquo;Trust&rdquo;);</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">2.&nbsp;&nbsp;Based on my knowledge, this report does not contain any\nuntrue statement of a material fact or omit to state a material fact necessary to make the statements made, in light of the circumstances\nunder which such statements were made, not misleading with respect to the period covered by this report;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">3.&nbsp;&nbsp;Based on my knowledge, the financial statements, and\nother financial information included in this report, fairly present in all material respects the financial condition, results of operations\nand cash flows of the Trust as of, and for, the periods presented in this report;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">4.&nbsp;&nbsp;The Trust&rsquo;s other certifying officer and I are\nresponsible for establishing and maintaining disclosure controls and procedures (as defined in Exchange Act Rules 13a-15(e) and 15d-15(e))\nand internal control over financial reporting (as defined in Exchange Act Rules 13a-15(f) and 15d-15(f)) for the Trust and have:</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%\"><TR STYLE=\"vertical-align: top; text-align: justify\">\n<TD STYLE=\"width: 0.5in\"></TD><TD STYLE=\"width: 0.25in; text-align: left\">a)</TD><TD STYLE=\"text-align: left\">designed such disclosure controls and procedures, or caused such\ndisclosure controls and procedures to be designed under our supervision, to ensure that material information relating to the Trust, including\nits consolidated subsidiaries, is made known to us by others within those entities, particularly during the period in which this report\nis being prepared;</TD>\n</TR></TABLE>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.75in; text-indent: -0.25in\">&nbsp;</P>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%\"><TR STYLE=\"vertical-align: top; text-align: justify\">\n<TD STYLE=\"width: 0.5in\"></TD><TD STYLE=\"width: 0.25in; text-align: left\">b)</TD><TD STYLE=\"text-align: left\">designed such internal control over financial reporting, or caused\nsuch internal control over financial reporting to be designed under our supervision, to provide reasonable assurance regarding the reliability\nof financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting\nprinciples;</TD>\n</TR></TABLE>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.75in; text-indent: -0.25in\">&nbsp;</P>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%\"><TR STYLE=\"vertical-align: top; text-align: justify\">\n<TD STYLE=\"width: 0.5in\"></TD><TD STYLE=\"width: 0.25in; text-align: left\">c)</TD><TD STYLE=\"text-align: left\">evaluated the effectiveness of the Trust&rsquo;s disclosure controls\nand procedures and presented in this report our conclusions about the effectiveness of the disclosure controls and procedures, as of\nthe end of the period covered by this report based on such evaluation; and</TD>\n</TR></TABLE>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.75in; text-indent: -0.25in\">&nbsp;</P>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%\"><TR STYLE=\"vertical-align: top; text-align: justify\">\n<TD STYLE=\"width: 0.5in\"></TD><TD STYLE=\"width: 0.25in; text-align: left\">d)</TD><TD STYLE=\"text-align: left\">disclosed in this report any change in the Trust&rsquo;s internal\ncontrol over financial reporting that occurred during the period covered by this annual report that has materially affected or is reasonably\nlikely to materially affect, the Trust&rsquo;s internal control over financial reporting.</TD>\n</TR></TABLE>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">5. The Trust&rsquo;s other certifying officer and I have disclosed,\nbased on our most recent evaluation of internal control over financial reporting, to the Trust&rsquo;s auditors and the audit committee\nof the Trust&rsquo;s board of directors (or persons performing the equivalent function):</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%\"><TR STYLE=\"vertical-align: top; text-align: justify\">\n<TD STYLE=\"width: 0.5in\"></TD><TD STYLE=\"width: 0.25in; text-align: left\">a)</TD><TD STYLE=\"text-align: left\">all significant deficiencies and material weaknesses in the design\nor operation of internal control over financial reporting which are reasonably likely to adversely affect the Trust&rsquo;s ability to\nrecord, process, summarize and report financial information; and</TD>\n</TR></TABLE>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.75in; text-indent: -0.25in\">&nbsp;</P>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%\"><TR STYLE=\"vertical-align: top; text-align: justify\">\n<TD STYLE=\"width: 0.5in\"></TD><TD STYLE=\"width: 0.25in; text-align: left\">b)</TD><TD STYLE=\"text-align: left\">any fraud, whether or not material, that involves management or\nother employees who have a significant role in the Trust&rsquo;s internal control over financial reporting.</TD>\n</TR></TABLE>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<TABLE CELLSPACING=\"0\" CELLPADDING=\"0\" STYLE=\"font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse\">\n  <TR STYLE=\"vertical-align: bottom\">\n    <TD STYLE=\"width: 50%\"><FONT STYLE=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\">Date: March 21, 2023</FONT></TD>\n    <TD STYLE=\"width: 50%\">&nbsp;</TD></TR>\n  <TR STYLE=\"vertical-align: bottom\">\n    <TD>&nbsp;</TD>\n    <TD>&nbsp;</TD></TR>\n  <TR STYLE=\"vertical-align: bottom\">\n    <TD>&nbsp;</TD>\n    <TD STYLE=\"border-bottom: Black 1pt solid\"><FONT STYLE=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\">/s/ John Ciampaglia</FONT></TD></TR>\n  <TR STYLE=\"vertical-align: bottom\">\n    <TD>&nbsp;</TD>\n    <TD><FONT STYLE=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\">John Ciampaglia</FONT></TD></TR>\n  <TR STYLE=\"vertical-align: bottom\">\n    <TD>&nbsp;</TD>\n    <TD><FONT STYLE=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\">Principal Executive Officer</FONT></TD></TR>\n  </TABLE>\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<!-- Field: Page; Sequence: 1 -->\n    <DIV STYLE=\"margin-top: 6pt; margin-bottom: 6pt; border-bottom: Black 1pt solid\"><P STYLE=\"margin: 0pt\">&nbsp;</P></DIV>\n\n    <!-- Field: /Page -->\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\"></P>\n\n</BODY>\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

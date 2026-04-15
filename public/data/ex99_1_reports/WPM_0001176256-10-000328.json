@@ -1,0 +1,87 @@
+{
+  "ticker": "WPM",
+  "cik": "0001323404",
+  "form": "6-K",
+  "filingDate": "2010-04-13",
+  "accessionNumber": "0001176256-10-000328",
+  "primaryDocument": "slw6knr100412.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000117625610000328/0001176256-10-000328-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "NEWS RELEASE DATED APRIL 12, 2010",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1323404/000117625610000328/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-04-15T16:45:06.210Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000117625610000328/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Exhibit 99.1",
+    "headings": [
+      "Exhibit 99.1",
+      "SILVER WHEATON TO RELEASE FIRST QUARTER 2010 RESULTS ON MAY 12"
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nNEWS RELEASE DATED APRIL 12, 2010\n\nExhibit 99.1\n\nExhibit 99.1\n\n \n \n\n FOR IMMEDIATE RELEASE \n TSX: SLW \n\n April 12, 2010 \n NYSE: SLW \n\n SILVER WHEATON TO RELEASE FIRST QUARTER 2010 RESULTS ON MAY 12th\n Vancouver, British Columbia – Silver Wheaton Corp. (TSX, NYSE:SLW) will release first quarter financial results on Wednesday, May 12, 2010, after market close.\n A conference call will be held Thursday, May 13, 2010, starting at 11:00 am (Eastern Time) to discuss these results. To participate in the live call use one of the following methods:\n \n \n \n \n \n \n \n Dial toll free from Canada or the US: \n 1-888-231-8191 \n \n \n Dial from outside Canada or the US: \n 1-647-427-7450 \n \n \n Pass code: \n 68638151 \n \n \n Live audio webcast: \n www.silverwheaton.com \n \n \n \n \n Participants should dial in five to ten minutes before the call.\n The conference call will be recorded and you can listen to an archive of the call by one of the following methods:\n \n \n \n \n \n \n \n Dial toll free from Canada or the US: \n 1-800-642-1687 \n \n \n Dial from outside Canada or the US: \n 1-416-849-0833 \n \n \n Pass code: \n 68638151 \n \n \n Archived audio webcast: \n www.silverwheaton.com \n \n \n \n \n For further information, please contact:\n Brad Kopp\n Vice President, Investor Relations \n Silver Wheaton Corp.\n Tel: 1-800-380-8687\n Email: info@silverwheaton.com\n Website: www.silverwheaton.com",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 2,
+        "rows": [
+          [
+            "FOR IMMEDIATE RELEASE",
+            "TSX: SLW"
+          ],
+          [
+            "April 12, 2010",
+            "NYSE: SLW"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 4,
+        "rows": [
+          [
+            "Dial toll free from Canada or the US:",
+            "1-888-231-8191"
+          ],
+          [
+            "Dial from outside Canada or the US:",
+            "1-647-427-7450"
+          ],
+          [
+            "Pass code:",
+            "68638151"
+          ],
+          [
+            "Live audio webcast:",
+            "www.silverwheaton.com"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 4,
+        "rows": [
+          [
+            "Dial toll free from Canada or the US:",
+            "1-800-642-1687"
+          ],
+          [
+            "Dial from outside Canada or the US:",
+            "1-416-849-0833"
+          ],
+          [
+            "Pass code:",
+            "68638151"
+          ],
+          [
+            "Archived audio webcast:",
+            "www.silverwheaton.com"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>NEWS RELEASE DATED APRIL 12, 2010\n<TEXT>\n<HTML>\n<HEAD>\n<TITLE>Exhibit 99.1</TITLE>\n</HEAD>\n<BODY bgcolor=\"#ffffff\" style=\"font-family: 'Times New Roman';font-size: 10pt;\">\n<hr noshade size=\"3\">\n<A name=\"page_1\"></A>\n<P style=\"line-height:11pt; margin:0px; font-size:10pt; font-family:Times New Roman;\" align=right><b>Exhibit 99.1</b></p>\n<BR>\n<DIV style=\"PADDING-RIGHT: 0%; PADDING-LEFT: 0%\">\n<DIV align=center><img src=\"silverwheatonlogo.jpg\" width=\"511\" height=\"93\" alt=\"slwlogo\"><BR>\n<TABLE style=\"FONT-SIZE: 10pt; WIDTH: 100%; FONT-FAMILY: '''''''''''Times New Roman'''''''''''\" cellSpacing=0 border=0>\n<TR>\n     <TD width=\"50%\"></TD>\n     <TD width=\"50%\"></TD></TR>\n<TR vAlign=bottom>\n     <TD noWrap align=left>FOR IMMEDIATE RELEASE&nbsp;</TD>\n     <TD noWrap align=right>TSX: SLW&nbsp;</TD></TR>\n<TR vAlign=bottom>\n     <TD noWrap align=left>April 12, 2010&nbsp;</TD>\n     <TD noWrap align=right>NYSE: SLW&nbsp;</TD></TR></TABLE></DIV><BR>\n<BR>\n<DIV style=\"PADDING-RIGHT: 0%; PADDING-LEFT: 0%\">\n  <P style=\"TEXT-ALIGN: center\"><B>SILVER WHEATON TO RELEASE FIRST QUARTER 2010 RESULTS ON MAY 12</B><B><SUP>th</SUP></B></P>\n  <P style=\"TEXT-ALIGN: justify\">Vancouver, British Columbia &#150; Silver Wheaton Corp. (TSX, NYSE:SLW) will release first quarter financial results on Wednesday, May 12, 2010, after market close.</P>\n  <P style=\"TEXT-ALIGN: justify\">A conference call will be held Thursday, May 13, 2010, starting at 11:00 am (Eastern Time) to discuss these results. To participate in the live call use one of the following methods:</P>\n  <DIV align=left>\n    <TABLE style=\"FONT-SIZE: 10pt; WIDTH: 100%; FONT-FAMILY: ''''Times New Roman''''\" cellSpacing=0 border=0>\n      <TR>\n        <TD width=\"50%\"></TD>\n        <TD width=\"50%\"></TD>\n      </TR>\n      <TR vAlign=bottom>\n        <TD noWrap align=left>Dial toll free from Canada or the US:&nbsp;</TD>\n        <TD noWrap align=left>1-888-231-8191&nbsp;</TD>\n      </TR>\n      <TR vAlign=bottom>\n        <TD noWrap align=left>Dial from outside Canada or the US:&nbsp;</TD>\n        <TD noWrap align=left>1-647-427-7450&nbsp;</TD>\n      </TR>\n      <TR vAlign=bottom>\n        <TD noWrap align=left>Pass code:&nbsp;</TD>\n        <TD noWrap align=left>68638151&nbsp;</TD>\n      </TR>\n      <TR vAlign=bottom>\n        <TD noWrap align=left>Live audio webcast:&nbsp;</TD>\n        <TD noWrap align=left><FONT color=#000000>www.silverwheaton.com</FONT><FONT color=#000000>&nbsp;</FONT></TD>\n      </TR>\n    </TABLE>\n  </DIV>\n  <BR>\n  <P style=\"TEXT-ALIGN: justify\">Participants should dial in five to ten minutes before the call.</P>\n  <P style=\"TEXT-ALIGN: justify\">The conference call will be recorded and you can listen to an archive of the call by one of the following methods:</P>\n  <DIV align=left>\n    <TABLE style=\"FONT-SIZE: 10pt; WIDTH: 100%; FONT-FAMILY: ''''Times New Roman''''\" cellSpacing=0 border=0>\n      <TR>\n        <TD width=\"50%\"></TD>\n        <TD width=\"50%\"></TD>\n      </TR>\n      <TR vAlign=bottom>\n        <TD noWrap align=left>Dial toll free from Canada or the US:&nbsp;</TD>\n        <TD noWrap align=left>1-800-642-1687&nbsp;</TD>\n      </TR>\n      <TR vAlign=bottom>\n        <TD noWrap align=left>Dial from outside Canada or the US:&nbsp;</TD>\n        <TD noWrap align=left>1-416-849-0833&nbsp;</TD>\n      </TR>\n      <TR vAlign=bottom>\n        <TD noWrap align=left>Pass code:&nbsp;</TD>\n        <TD noWrap align=left>68638151&nbsp;</TD>\n      </TR>\n      <TR vAlign=bottom>\n        <TD noWrap align=left>Archived audio webcast:&nbsp;</TD>\n        <TD noWrap align=left><FONT color=#000000>www.silverwheaton.com</FONT>&nbsp;</TD>\n      </TR>\n    </TABLE>\n  </DIV>\n  <BR>\n  <P style=\"TEXT-ALIGN: justify\">For further information, please contact:</P>\n  <P style=\"TEXT-ALIGN: justify\">Brad Kopp<BR>\n    Vice President, Investor Relations <BR>\n    Silver Wheaton Corp.<BR>\n    Tel: 1-800-380-8687<BR>\n    Email: <FONT color=#0000ff><FONT color=#000000>info@silverwheaton.com</FONT><BR>\n    </FONT>Website: <FONT color=#000000>www.silverwheaton.com</FONT></P>\n</DIV>\n<BR>\n<HR align=center width=\"100%\" noShade SIZE=3>\n</BODY>\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

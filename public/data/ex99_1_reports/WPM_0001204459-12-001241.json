@@ -1,0 +1,91 @@
+{
+  "ticker": "WPM",
+  "cik": "0001323404",
+  "form": "6-K",
+  "filingDate": "2012-05-24",
+  "accessionNumber": "0001204459-12-001241",
+  "primaryDocument": "form6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000120445912001241/0001204459-12-001241-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1323404/000120445912001241/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-04-15T16:44:44.133Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000120445912001241/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Silver Wheaton Corp.: Exhibit 99.1 - Filed by newsfilecorp.com",
+    "headings": [
+      "Silver Wheaton Corp.: Exhibit 99.1 - Filed by newsfilecorp.com",
+      "Exhibit 99.1",
+      "Silver Wheaton Corp.",
+      "Annual\nMeeting of Holders of Common Shares May 23, 2012",
+      "REPORT OF VOTING RESULTS",
+      "Matters Voted Upon",
+      "Resolution #1: Election of Directors",
+      "Nominees",
+      "Number of Shares in",
+      "Favour",
+      "Percentage of",
+      "Votes Cast",
+      "Resolution #2: Appointment of Auditors"
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nEXHIBIT 99.1\n\n Silver Wheaton Corp.: Exhibit 99.1 - Filed by newsfilecorp.com\n\nExhibit 99.1\nSilver Wheaton Corp. Annual\nMeeting of Holders of Common Shares May 23, 2012 \nREPORT OF VOTING RESULTS National Instrument\n51-102 - Continuous Disclosure Obligations Section 11.3 \nMatters Voted Upon \nResolution #1: Election of Directors \nThe eight nominees listed below were elected as directors of\nthe Corporation by a majority vote cast by ballot. The Corporation’s\nshareholders present in person or represented by proxy at the meeting voted as\nfollows: \n\n \n Nominees \n Number of Shares in\n Favour \n Percentage of\n Votes Cast \n \n Lawrence I. Bell\n \n 180,179,704 \n 98.54% \n \n George L. Brack\n\n 161,396,087 \n 88.26% \n \n John A. Brough \n 154,485,654 \n 84.48% \n \n R. Peter Gillin\n\n 166,286,896 \n 90.94% \n \n Douglas M. Holtby\n \n 165,603,611 \n 90.60% \n \n Eduardo Luna \n 156,341,785 \n 85.50% \n \n Wade D. Nesmith\n\n 152,735,785 \n 83.53% \n \n Randy V.J.\n Smallwood \n 174,595,791 \n 95.48% \nResolution #2: Appointment of Auditors\n\nOn a show of hands, the Chairman declared that the shareholders\nappointed Deloitte & Touche LLP, Chartered Accountants, as auditors and\nauthorized the directors to fix their remuneration.",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 9,
+        "rows": [
+          [
+            "Nominees",
+            "Number of Shares in\n Favour",
+            "Percentage of\n Votes Cast"
+          ],
+          [
+            "Lawrence I. Bell",
+            "180,179,704",
+            "98.54%"
+          ],
+          [
+            "George L. Brack",
+            "161,396,087",
+            "88.26%"
+          ],
+          [
+            "John A. Brough",
+            "154,485,654",
+            "84.48%"
+          ],
+          [
+            "R. Peter Gillin",
+            "166,286,896",
+            "90.94%"
+          ],
+          [
+            "Douglas M. Holtby",
+            "165,603,611",
+            "90.60%"
+          ],
+          [
+            "Eduardo Luna",
+            "156,341,785",
+            "85.50%"
+          ],
+          [
+            "Wade D. Nesmith",
+            "152,735,785",
+            "83.53%"
+          ],
+          [
+            "Randy V.J.\n Smallwood",
+            "174,595,791",
+            "95.48%"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<HTML>\n<HEAD>\n   <TITLE>Silver Wheaton Corp.: Exhibit 99.1 - Filed by newsfilecorp.com</TITLE>\n</HEAD>\n\n<BODY style=\"font-size:10pt;\">\n\n<HR noshade align=\"center\" width=100% size=3 color=\"black\">\n<A name=page_1></A>\n<P align=right><B>Exhibit 99.1</B></P>\n<P align=center><B><FONT size=3>Silver Wheaton Corp. <BR></FONT></B><B>Annual\nMeeting of Holders of <BR>Common Shares <BR>May 23, 2012 </B></P>\n<P align=center><B>REPORT OF VOTING RESULTS <BR></B><I>National Instrument\n51-102 - Continuous Disclosure Obligations <BR>Section 11.3 </I></P>\n<P align=center><B>Matters Voted Upon </B></P>\n<P align=justify><B><U>Resolution #1: Election of Directors</U></B><B> </B></P>\n<P align=justify>The eight nominees listed below were elected as directors of\nthe Corporation by a majority vote cast by ballot. The Corporation&#146;s\nshareholders present in person or represented by proxy at the meeting voted as\nfollows: </P>\n<DIV>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\nborderColor=#000000 cellSpacing=0 cellPadding=3 width=\"100%\" border=1>\n\n  <TR vAlign=top>\n    <TD align=center bgColor=#c0c0c0><BR><B>Nominees </B></TD>\n    <TD align=center width=\"33%\" bgColor=#c0c0c0><B>Number of Shares in\n      </B><BR><B>Favour </B></TD>\n    <TD align=center width=\"33%\" bgColor=#c0c0c0><B>Percentage of\n      </B><BR><B>Votes Cast </B></TD></TR>\n  <TR vAlign=top>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=left>Lawrence I. Bell\n    </TD>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=center\n      width=\"33%\">180,179,704 </TD>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=right\n      width=\"33%\">98.54% </TD></TR>\n  <TR vAlign=top>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=left>George L. Brack\n</TD>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=center\n      width=\"33%\">161,396,087 </TD>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=right\n      width=\"33%\">88.26% </TD></TR>\n  <TR vAlign=top>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=left>John A. Brough </TD>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=center\n      width=\"33%\">154,485,654 </TD>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=right\n      width=\"33%\">84.48% </TD></TR>\n  <TR vAlign=top>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=left>R. Peter Gillin\n</TD>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=center\n      width=\"33%\">166,286,896 </TD>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=right\n      width=\"33%\">90.94% </TD></TR>\n  <TR vAlign=top>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=left>Douglas M. Holtby\n    </TD>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=center\n      width=\"33%\">165,603,611 </TD>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=right\n      width=\"33%\">90.60% </TD></TR>\n  <TR vAlign=top>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=left>Eduardo Luna </TD>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=center\n      width=\"33%\">156,341,785 </TD>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=right\n      width=\"33%\">85.50% </TD></TR>\n  <TR vAlign=top>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=left>Wade D. Nesmith\n</TD>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=center\n      width=\"33%\">152,735,785 </TD>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=right\n      width=\"33%\">83.53% </TD></TR>\n  <TR vAlign=top>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=left>Randy V.J.\n      Smallwood </TD>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=center\n      width=\"33%\">174,595,791 </TD>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=right\n      width=\"33%\">95.48% </TD></TR></TABLE></DIV>\n<P align=justify><B><U>Resolution #2: Appointment of Auditors</U></B><B>\n</B></P>\n<P align=justify>On a show of hands, the Chairman declared that the shareholders\nappointed Deloitte &amp; Touche LLP, Chartered Accountants, as auditors and\nauthorized the directors to fix their remuneration. </P>\n<HR align=center width=\"100%\" color=black noShade SIZE=5>\n\n</BODY>\n\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

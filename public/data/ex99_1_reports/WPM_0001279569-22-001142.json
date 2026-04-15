@@ -1,0 +1,74 @@
+{
+  "ticker": "WPM",
+  "cik": "0001323404",
+  "form": "6-K",
+  "filingDate": "2022-07-14",
+  "accessionNumber": "0001279569-22-001142",
+  "primaryDocument": "wheaton6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000127956922001142/0001279569-22-001142-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "NEWS RELEASE DATED JULY 11, 2022",
+    "filename": "ex991.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1323404/000127956922001142/ex991.htm"
+  },
+  "extractedAt": "2026-04-15T16:42:59.593Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000127956922001142/ex991.htm",
+    "contentType": "html",
+    "title": "",
+    "headings": [
+      "Exhibit 99.1",
+      "About Wheaton Precious Metals Corp.",
+      "For further information:"
+    ],
+    "text": "EX-99.1\n2\nex991.htm\nNEWS RELEASE DATED JULY 11, 2022\n\n \n\nExhibit 99.1\n\n \n\n \n\nWHEATON PRECIOUS METALS TO RELEASE 2022 SECOND\nQUARTER RESULTS ON AUGUST 11, 2022\n\nTSX | NYSE | LSE: WPM\n\nVANCOUVER, BC, July 11, 2022 /CNW/ - Wheaton Precious\nMetals™ Corp. will release its 2022 Second quarter results on Thursday, August 11, 2022, after market close. \n\nA conference call will be held on Friday, August 12,\n2022 starting at 11:00 am ET (8:00am PT) to discuss these results. To participate in the live call please use one of the following methods:\n\n \n Dial toll free from Canada or the US: \n 1-888-664-6383\n \n Dial from outside Canada or the US: \n 1-416-764-8650\n \n Pass code: \n 06939369\n \n Live webcast: \n Webcast URL\n \nThe accompanying slideshow will also be available\nin PDF format on the 'Events' page of the Wheaton Precious Metals website before the conference call.\n\nThe conference call will be recorded and available\nuntil August 19, 2022 at 11:59 pm ET. The webcast will be available for one year. You can listen to an archive of the call by one of the\nfollowing methods:\n\n \n Dial toll free from Canada or the US: \n 1-888-390-0541\n \n Dial from outside Canada or the US: \n 1-416-764-8677\n \n Pass code: \n 939369 #\n \n Archived webcast: \n Webcast URL \n \nAbout Wheaton Precious Metals Corp.\n\nWheaton Precious Metals is the world's premier precious\nmetals streaming company with the highest-quality portfolio of long-life, low-cost assets. Its business model offers investors leverage\nto commodity prices and exploration upside but with a much lower risk profile than a traditional mining company. Wheaton delivers amongst\nthe highest cash operating margins in the mining industry, allowing it to pay a competitive dividend and continue to grow through accretive\nacquisitions. As a result, Wheaton has consistently outperformed gold and silver, as well as other mining investments. Wheaton creates\nsustainable value through streaming.\n\nView original content:https://www.prnewswire.com/news-releases/wheaton-precious-metals-to-release-2022-second-quarter-results-on-august-11-2022-301584092.html\n\nSOURCE Wheaton Precious Metals Corp.\n\nView original content: http://www.newswire.ca/en/releases/archive/July2022/11/c3992.html\n\n%CIK: 0001323404\n\nFor further information: Patrick Drouin, Senior Vice President, Investor\nRelations and Sustainability, Wheaton Precious Metals Corp., Tel: 1-844-288-9878, Email: info@wheatonpm.com, Website: www.wheatonpm.com\n\nCO: Wheaton Precious Metals Corp.\n\nCNW 17:00e 11-JUL-22",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 4,
+        "rows": [
+          [
+            "Dial toll free from Canada or the US:",
+            "1-888-664-6383"
+          ],
+          [
+            "Dial from outside Canada or the US:",
+            "1-416-764-8650"
+          ],
+          [
+            "Pass code:",
+            "06939369"
+          ],
+          [
+            "Live webcast:",
+            "Webcast URL"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 4,
+        "rows": [
+          [
+            "Dial toll free from Canada or the US:",
+            "1-888-390-0541"
+          ],
+          [
+            "Dial from outside Canada or the US:",
+            "1-416-764-8677"
+          ],
+          [
+            "Pass code:",
+            "939369 #"
+          ],
+          [
+            "Archived webcast:",
+            "Webcast URL"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>ex991.htm\n<DESCRIPTION>NEWS RELEASE DATED JULY 11, 2022\n<TEXT>\n<HTML>\n<HEAD>\n     <TITLE></TITLE>\n</HEAD>\n<BODY STYLE=\"font: 10pt Times New Roman, Times, Serif\">\n\n<P STYLE=\"margin: 0; text-align: right\"><FONT STYLE=\"font: 8pt Arial, Helvetica, Sans-Serif\"><B>Exhibit 99.1</B></FONT></P>\n\n<P STYLE=\"margin: 0; text-align: right\">&nbsp;&nbsp;</P>\n\n<P STYLE=\"margin: 0; text-align: right\">&nbsp;</P>\n\n<P STYLE=\"margin: 0; text-align: left\"><IMG SRC=\"logo.jpg\" ALT=\"\"></P>\n\n<P STYLE=\"font: bold 24pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\"></P>\n\n<P STYLE=\"font: bold 24pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">WHEATON PRECIOUS METALS TO RELEASE 2022 SECOND\nQUARTER RESULTS ON AUGUST 11, 2022</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; text-align: right; margin-right: 0; margin-left: 0\">TSX | NYSE | LSE: WPM</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">VANCOUVER, BC, July 11, 2022 /CNW/ - Wheaton Precious\nMetals&trade; Corp. will release its 2022 Second quarter results on Thursday, August 11, 2022, after market close.&nbsp;</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">A conference call will be held on Friday, August 12,\n2022 starting at 11:00 am ET (8:00am PT) to discuss these results. To participate in the live call please use one of the following methods:</P>\n\n<TABLE CELLSPACING=\"0\" CELLPADDING=\"0\" STYLE=\"width: 100%; font: 15pt Arial, Helvetica, Sans-Serif; border-collapse: collapse\">\n  <TR>\n    <TD STYLE=\"padding-right: 2.05pt; padding-left: 3.95pt\"><FONT STYLE=\"font-family: Arial, Helvetica, Sans-Serif; font-size: 8pt\">Dial toll free from Canada or the US:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</FONT></TD>\n    <TD STYLE=\"padding-right: 2.05pt; padding-left: 3.95pt\"><FONT STYLE=\"font-family: Arial, Helvetica, Sans-Serif; font-size: 8pt\">1-888-664-6383</FONT></TD></TR>\n  <TR>\n    <TD STYLE=\"padding-right: 2.05pt; padding-left: 3.95pt\"><FONT STYLE=\"font-family: Arial, Helvetica, Sans-Serif; font-size: 8pt\">Dial from outside Canada or the US:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</FONT></TD>\n    <TD STYLE=\"padding-right: 2.05pt; padding-left: 3.95pt\"><FONT STYLE=\"font-family: Arial, Helvetica, Sans-Serif; font-size: 8pt\">1-416-764-8650</FONT></TD></TR>\n  <TR>\n    <TD STYLE=\"padding-right: 2.05pt; padding-left: 3.95pt\"><FONT STYLE=\"font-family: Arial, Helvetica, Sans-Serif; font-size: 8pt\">Pass code:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</FONT></TD>\n    <TD STYLE=\"padding-right: 2.05pt; padding-left: 3.95pt\"><FONT STYLE=\"font-family: Arial, Helvetica, Sans-Serif; font-size: 8pt\">06939369</FONT></TD></TR>\n  <TR>\n    <TD STYLE=\"padding-right: 2.05pt; padding-left: 3.95pt\"><FONT STYLE=\"font-family: Arial, Helvetica, Sans-Serif; font-size: 8pt\">Live webcast:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</FONT></TD>\n    <TD STYLE=\"padding-right: 2.05pt; padding-left: 3.95pt\"><FONT STYLE=\"font-family: Arial, Helvetica, Sans-Serif; font-size: 8pt\">Webcast URL</FONT></TD></TR>\n  </TABLE>\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">The accompanying slideshow will also be available\nin PDF format on the 'Events' page of the Wheaton Precious Metals website before the conference call.</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">The conference call will be recorded and available\nuntil August 19, 2022 at 11:59 pm ET. The webcast will be available for one year. You can listen to an archive of the call by one of the\nfollowing methods:</P>\n\n<TABLE CELLSPACING=\"0\" CELLPADDING=\"0\" STYLE=\"width: 100%; font: 15pt Arial, Helvetica, Sans-Serif; border-collapse: collapse\">\n  <TR>\n    <TD STYLE=\"padding-right: 2.05pt; padding-left: 3.95pt\"><FONT STYLE=\"font-family: Arial, Helvetica, Sans-Serif; font-size: 8pt\">Dial toll free from Canada or the US:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</FONT></TD>\n    <TD STYLE=\"padding-right: 2.05pt; padding-left: 3.95pt\"><FONT STYLE=\"font-family: Arial, Helvetica, Sans-Serif; font-size: 8pt\">1-888-390-0541</FONT></TD></TR>\n  <TR>\n    <TD STYLE=\"padding-right: 2.05pt; padding-left: 3.95pt\"><FONT STYLE=\"font-family: Arial, Helvetica, Sans-Serif; font-size: 8pt\">Dial from outside Canada or the US:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</FONT></TD>\n    <TD STYLE=\"padding-right: 2.05pt; padding-left: 3.95pt\"><FONT STYLE=\"font-family: Arial, Helvetica, Sans-Serif; font-size: 8pt\">1-416-764-8677</FONT></TD></TR>\n  <TR>\n    <TD STYLE=\"padding-right: 2.05pt; padding-left: 3.95pt\"><FONT STYLE=\"font-family: Arial, Helvetica, Sans-Serif; font-size: 8pt\">Pass code:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</FONT></TD>\n    <TD STYLE=\"padding-right: 2.05pt; padding-left: 3.95pt\"><FONT STYLE=\"font-family: Arial, Helvetica, Sans-Serif; font-size: 8pt\">939369 #</FONT></TD></TR>\n  <TR>\n    <TD STYLE=\"padding-right: 2.05pt; padding-left: 3.95pt\"><FONT STYLE=\"font-family: Arial, Helvetica, Sans-Serif; font-size: 8pt\">Archived webcast:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</FONT></TD>\n    <TD STYLE=\"padding-right: 2.05pt; padding-left: 3.95pt\"><FONT STYLE=\"font-family: Arial, Helvetica, Sans-Serif; font-size: 8pt\">Webcast URL&nbsp;</FONT></TD></TR>\n  </TABLE>\n<P STYLE=\"font: 17.5pt Arial, Helvetica, Sans-Serif; margin: 0\"><B>About Wheaton Precious Metals Corp.</B></P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">Wheaton Precious Metals is the world's premier precious\nmetals streaming company with the highest-quality portfolio of long-life, low-cost assets. Its business model offers investors leverage\nto commodity prices and exploration upside but with a much lower risk profile than a traditional mining company. Wheaton delivers amongst\nthe highest cash operating margins in the mining industry, allowing it to pay a competitive dividend and continue to grow through accretive\nacquisitions. As a result, Wheaton has consistently outperformed gold and silver, as well as other mining investments. Wheaton creates\nsustainable value through streaming.</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">View original content:https://www.prnewswire.com/news-releases/wheaton-precious-metals-to-release-2022-second-quarter-results-on-august-11-2022-301584092.html</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">SOURCE Wheaton Precious Metals Corp.</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">View original content: http://www.newswire.ca/en/releases/archive/July2022/11/c3992.html</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">%CIK: 0001323404</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin: 0\"><B>For further information: </B>Patrick Drouin, Senior Vice President, Investor\nRelations and Sustainability, Wheaton Precious Metals Corp., Tel: 1-844-288-9878, Email: info@wheatonpm.com, Website: www.wheatonpm.com</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">CO: Wheaton Precious Metals Corp.</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">CNW 17:00e 11-JUL-22</P>\n\n</BODY>\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

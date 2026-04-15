@@ -1,0 +1,50 @@
+{
+  "ticker": "WPM",
+  "cik": "0001323404",
+  "form": "6-K",
+  "filingDate": "2021-03-12",
+  "accessionNumber": "0000950142-21-000932",
+  "primaryDocument": "eh210137078_6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000095014221000932/0000950142-21-000932-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "eh210137078_ex9901.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1323404/000095014221000932/eh210137078_ex9901.htm"
+  },
+  "extractedAt": "2026-04-15T16:43:14.553Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000095014221000932/eh210137078_ex9901.htm",
+    "contentType": "html",
+    "title": "",
+    "headings": [
+      "EXHIBIT 99.1",
+      "CONSENT\nOF WES CARSON"
+    ],
+    "text": "EX-99.1\n2\neh210137078_ex9901.htm\nEXHIBIT 99.1\n\nEXHIBIT 99.1\n\n \n\nMarch\n11, 2021\n\n \n\nCONSENT\nOF WES CARSON\n\n \n\nUnited States\nSecurities and Exchange Commission\n\n \n\nI,\nWes Carson, P.Eng., Vice President, Mining Operations, Wheaton Precious Metals Corp. (the “Company”), hereby consent\nto being named as having approved the disclosure of the scientific and technical information relating to production figures contained\nin the news release of the Company dated March 11, 2021 (the “News Release”), which has been incorporated by reference\ninto the Company’s Registration Statement on Form F-10 (File No. 333-230782). I hereby confirm that I have read the News\nRelease and have no reason to believe that there are any misrepresentations in the information contained therein that is within\nmy knowledge as a result of the services performed by me in connection with my approval of the disclosure of the scientific and\ntechnical information contained in the News Release.\n\n \n\n[Signature\nAppears on Following Page]\n\n \n \n \n\n \n\n \n Yours truly,\n \n\n \n \n \n\n \n \n \n \n\n \n /s/\n Wes Carson\n \n\n \n Wes\n Carson, P.Eng.\n \n\n \n Vice President,\n Mining Operations\n \n\n \n Wheaton Precious\n Metals Corp.\n \n\n \n\n \n\n[Signature\nPage to Consent]",
+    "tables": [
+      {
+        "tableIndex": 1,
+        "rowCount": 5,
+        "rows": [
+          [
+            "Yours truly,"
+          ],
+          [
+            "/s/\n Wes Carson"
+          ],
+          [
+            "Wes\n Carson, P.Eng."
+          ],
+          [
+            "Vice President,\n Mining Operations"
+          ],
+          [
+            "Wheaton Precious\n Metals Corp."
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>eh210137078_ex9901.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<HTML>\n<HEAD>\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n\n\n<P STYLE=\"font: 12pt Times New Roman, Times, Serif; margin: 0; text-align: right; background-color: white\"><FONT STYLE=\"font-size: 10pt\"><B><BR>\nEXHIBIT 99.1</B></FONT></P>\n\n<P STYLE=\"font: 12pt Times New Roman, Times, Serif; margin: 0; background-color: white\"><FONT STYLE=\"font-size: 10pt\">&nbsp;</FONT></P>\n\n<P STYLE=\"font: 12pt Times New Roman, Times, Serif; margin: 0; text-align: right; background-color: white\"><FONT STYLE=\"font-size: 10pt\">March\n11, 2021</FONT></P>\n\n<P STYLE=\"font: 12pt Times New Roman, Times, Serif; margin: 0; text-align: right; background-color: white\"><FONT STYLE=\"font-size: 10pt\">&nbsp;</FONT></P>\n\n<P STYLE=\"font: 12pt Times New Roman, Times, Serif; margin: 0; text-align: center; background-color: white\"><FONT STYLE=\"font-size: 10pt\"><B>CONSENT\nOF WES CARSON</B></FONT></P>\n\n<P STYLE=\"font: 12pt Times New Roman, Times, Serif; margin: 0; background-color: white\"><FONT STYLE=\"font-size: 10pt\">&nbsp;</FONT></P>\n\n<P STYLE=\"font: 12pt Times New Roman, Times, Serif; margin: 0; background-color: white\"><FONT STYLE=\"font-size: 10pt\">United States\nSecurities and Exchange Commission</FONT></P>\n\n<P STYLE=\"font: 12pt Times New Roman, Times, Serif; margin: 0; background-color: white\"><FONT STYLE=\"font-size: 10pt\">&nbsp;</FONT></P>\n\n<P STYLE=\"font: 12pt Times New Roman, Times, Serif; margin: 0; text-indent: 0.5in; background-color: white\"><FONT STYLE=\"font-size: 10pt\">I,\nWes Carson, P.Eng., Vice President, Mining Operations, Wheaton Precious Metals Corp. (the &#8220;Company&#8221;), hereby consent\nto being named as having approved the disclosure of the scientific and technical information relating to production figures contained\nin the news release of the Company dated March 11, 2021 (the &#8220;News Release&#8221;), which has been incorporated by reference\ninto the Company&#8217;s Registration Statement on Form F-10 (File No. 333-230782). I hereby confirm that I have read the News\nRelease and have no reason to believe that there are any misrepresentations in the information contained therein that is within\nmy knowledge as a result of the services performed by me in connection with my approval of the disclosure of the scientific and\ntechnical information contained in the News Release.</FONT></P>\n\n<P STYLE=\"font: 12pt Times New Roman, Times, Serif; margin: 0 0 12pt; text-indent: 1in\"><FONT STYLE=\"font-size: 10pt\">&nbsp;</FONT></P>\n\n<P STYLE=\"font: 12pt Times New Roman, Times, Serif; margin: 0 0 12pt; text-align: center; text-indent: 0in\"><FONT STYLE=\"font-size: 10pt\">[<I>Signature\nAppears on Following Page</I>]</FONT></P>\n\n\n<!-- Field: Page; Sequence: 1 -->\n    <DIV STYLE=\"margin-top: 6pt; margin-bottom: 6pt; border-bottom: Black 2px solid\"><TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"border-collapse: collapse; width: 100%; font-size: 10pt\"><TR STYLE=\"vertical-align: top; text-align: left\"><TD STYLE=\"width: 33%\">&nbsp;</TD><TD STYLE=\"width: 34%\">&nbsp;</TD><TD STYLE=\"width: 33%\">&nbsp;</TD></TR></TABLE></DIV>\n    <DIV STYLE=\"break-before: page; margin-top: 6pt; margin-bottom: 6pt\"><P STYLE=\"margin: 0pt\">&nbsp;</P></DIV>\n    <!-- Field: /Page -->\n\n<P STYLE=\"font: 12pt Times New Roman, Times, Serif; margin: 0 0 0pt; text-align: center; text-indent: 0in\"><FONT STYLE=\"font-size: 10pt\">&nbsp;</FONT></P>\n\n<TABLE CELLSPACING=\"0\" CELLPADDING=\"0\" STYLE=\"width: 100%; font-size: 8pt; border-collapse: collapse\">\n<TR STYLE=\"vertical-align: top\">\n    <TD>&nbsp;</TD>\n    <TD COLSPAN=\"2\" STYLE=\"font: 12pt Times New Roman, Times, Serif; text-indent: 0in\"><FONT STYLE=\"font-size: 10pt\">Yours truly,</FONT></TD>\n    <TD>&nbsp;</TD></TR>\n<TR STYLE=\"vertical-align: top\">\n    <TD>&nbsp;</TD>\n    <TD COLSPAN=\"2\" STYLE=\"font: 12pt Times New Roman, Times, Serif; text-indent: 0in\"><FONT STYLE=\"font-size: 10pt\">&nbsp;</FONT></TD>\n    <TD>&nbsp;</TD></TR>\n<TR STYLE=\"vertical-align: top\">\n    <TD STYLE=\"width: 65%\">&nbsp;</TD>\n    <TD STYLE=\"width: 1%; font: 12pt Times New Roman, Times, Serif; text-indent: 0in\"><FONT STYLE=\"font-size: 10pt\">&nbsp;</FONT></TD>\n    <TD STYLE=\"font: 12pt Times New Roman, Times, Serif; width: 29%; text-indent: 0in\"></TD>\n    <TD STYLE=\"width: 5%\">&nbsp;</TD></TR>\n<TR STYLE=\"vertical-align: top\">\n    <TD>&nbsp;</TD>\n    <TD COLSPAN=\"2\" STYLE=\"border-bottom: Black 1pt solid; font: 12pt Times New Roman, Times, Serif; text-indent: 0in\"><FONT STYLE=\"font-size: 10pt\">/s/\n    Wes Carson</font></TD>\n    <TD>&nbsp;</TD></TR>\n<TR STYLE=\"vertical-align: top\">\n    <TD>&nbsp;</TD>\n    <TD COLSPAN=\"2\" STYLE=\"font: 12pt Times New Roman, Times, Serif; text-indent: 0in\"><FONT STYLE=\"font-size: 10pt\">Wes\n    Carson, P.Eng.</FONT></TD>\n    <TD>&nbsp;</TD></TR>\n<TR STYLE=\"vertical-align: top\">\n    <TD>&nbsp;</TD>\n    <TD COLSPAN=\"2\" STYLE=\"font: 12pt Times New Roman, Times, Serif; text-indent: 0in\"><FONT STYLE=\"font-size: 10pt\">Vice President,\n    Mining Operations</FONT></TD>\n    <TD>&nbsp;</TD></TR>\n<TR STYLE=\"vertical-align: top\">\n    <TD>&nbsp;</TD>\n    <TD COLSPAN=\"2\" STYLE=\"font: 12pt Times New Roman, Times, Serif; text-indent: 0in\"><FONT STYLE=\"font-size: 10pt\">Wheaton Precious\n    Metals Corp.</FONT></TD>\n    <TD>&nbsp;</TD></TR>\n</TABLE>\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0 0 12pt; text-align: right; text-indent: 0in\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0 0 12pt; text-align: right; text-indent: 0in\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 12pt; text-align: center\"><FONT STYLE=\"font-size: 10pt\">[<I>Signature\nPage to Consent</I>]</FONT></P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0 0 12pt; text-align: right; text-indent: 0in\"></P>\n\n<!-- Field: Page; Sequence: 2; Options: Last -->\n    <DIV STYLE=\"margin-top: 6pt; margin-bottom: 6pt; border-bottom: Black 2px solid\"><TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"border-collapse: collapse; width: 100%; font-size: 10pt\"><TR STYLE=\"vertical-align: top; text-align: left\"><TD STYLE=\"width: 33%\">&nbsp;</TD><TD STYLE=\"width: 34%\">&nbsp;</TD><TD STYLE=\"width: 33%\">&nbsp;</TD></TR></TABLE></DIV>\n    <!-- Field: /Page -->\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0 0 12pt; text-align: right; text-indent: 0in\"><FONT STYLE=\"font-size: 10pt\">&nbsp;</FONT></P>\n\n\n</BODY>\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

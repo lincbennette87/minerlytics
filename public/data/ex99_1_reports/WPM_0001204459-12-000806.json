@@ -1,0 +1,81 @@
+{
+  "ticker": "WPM",
+  "cik": "0001323404",
+  "form": "6-K",
+  "filingDate": "2012-04-16",
+  "accessionNumber": "0001204459-12-000806",
+  "primaryDocument": "form6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000120445912000806/0001204459-12-000806-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1323404/000120445912000806/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-04-15T16:44:45.947Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000120445912000806/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Silver Wheaton Corp.: Exhibit 99.1 - Filed by newsfilecorp.com",
+    "headings": [
+      "Silver Wheaton Corp.: Exhibit 99.1 - Filed by newsfilecorp.com",
+      "Exhibit 99.1",
+      "NOTICE OF ANNUAL MEETING OF SHAREHOLDERS",
+      "NOTICE IS HEREBY GIVEN",
+      "DATED"
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nEXHIBIT 99.1\n\n Silver Wheaton Corp.: Exhibit 99.1 - Filed by newsfilecorp.com\n\nExhibit 99.1 \n\n \n \n NOTICE OF ANNUAL MEETING OF SHAREHOLDERS\n\n \n \nNOTICE IS HEREBY GIVEN that the Annual Meeting of\nshareholders (the “Meeting”) of Silver Wheaton Corp. (the “Company”) will be\nheld in the Mackenzie Ballroom of the Fairmont Waterfront Hotel, 900 Canada\nPlace Way, Vancouver, British Columbia on May 23, 2012 at 1:00 p.m. (Vancouver\ntime), for the following purposes: \n\n \n \n (a) \n \n To receive and consider the audited consolidated\n financial statements of the Company for the year ended December 31, 2011\n and the report of the auditors thereon;\n \n \n \n \n \n \n (b) \n \n To elect the directors of the Company for the ensuing\n year;\n \n \n \n \n \n \n (c) \n \n To appoint Deloitte & Touche LLP, Independent\n Registered Chartered Accountants, as auditors of the Company for the\n ensuing year and to authorize the directors to fix the auditors’\n remuneration; and\n \n \n \n \n \n \n (d) \n \n To transact such other business as may properly come\n before the Meeting or any adjournment thereof.\nThis notice is accompanied by a management information\ncircular, either a form of proxy for registered shareholders or a voting\ninstruction form for beneficial shareholders, and, for those registered\nshareholders who so requested, a copy of the audited consolidated financial\nstatements and MD&A of the Company for the financial year ended December 31,\n2011. Shareholders are able to request to receive copies of the Company’s annual\nand/or interim financial statements and MD&A on the form of proxy or voting\ninstruction form, as applicable. The audited consolidated financial statements\nand MD&A of the Company for the financial year ended December 31, 2011 will\nbe sent to those shareholders who have previously requested to receive them.\nOtherwise, they are available upon request to the Company or they can be found\non SEDAR at www.sedar.com, on the United States Securities and Exchange\nCommission website at www.sec.gov, or on the Company’s website at\nwww.silverwheaton.com. \nRegistered shareholders who are unable to attend the Meeting\nare requested to complete, date, sign and return the enclosed form of proxy and\ndeposit it with the Company’s transfer agent by 1:00 p.m. (Vancouver time) on\nMay 18, 2012, or no later than 48 hours (excluding Saturdays, Sundays and\nholidays) before the time of any adjourned Meeting so that as large a\nrepresentation as possible may be had at the Meeting. \nNon-registered shareholders of the Company who have received\nthis Notice of Meeting and accompanying materials through a broker, a financial\ninstitution, a participant, a trustee or administrator of a self-administered\nretirement savings plan, retirement income fund, education savings plan or other\nsimilar self-administered savings or investment plan registered under the\nIncome Tax Act (Canada), or a nominee of any of the foregoing that holds\nyour security on your behalf (the “Intermediary”), are required to complete and\nreturn the materials in accordance with the instructions provided by the\nIntermediary. \nThe board of directors of the Company has by resolution fixed\nthe close of business on March 30, 2012 as the record date, being the date for\nthe determination of the registered holders of common shares entitled to receive\nnotice of, and to vote at, the Meeting and any adjournment thereof. \nDATED at Vancouver, British Columbia this 22nd\nday of March, 2012. \n\n \n \n By Order of the Board of Directors \n \n \n \n \n \n “Randy V. J.\n Smallwood” \n \n \n \n Randy V. J. Smallwood \n \n \n President and Chief Executive Officer",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 1,
+        "rows": [
+          [
+            "NOTICE OF ANNUAL MEETING OF SHAREHOLDERS"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 4,
+        "rows": [
+          [
+            "(a)",
+            "To receive and consider the audited consolidated\n financial statements of the Company for the year ended December 31, 2011\n and the report of the auditors thereon;"
+          ],
+          [
+            "(b)",
+            "To elect the directors of the Company for the ensuing\n year;"
+          ],
+          [
+            "(c)",
+            "To appoint Deloitte & Touche LLP, Independent\n Registered Chartered Accountants, as auditors of the Company for the\n ensuing year and to authorize the directors to fix the auditors’\n remuneration; and"
+          ],
+          [
+            "(d)",
+            "To transact such other business as may properly come\n before the Meeting or any adjournment thereof."
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 4,
+        "rows": [
+          [
+            "By Order of the Board of Directors"
+          ],
+          [
+            "“Randy V. J.\n Smallwood”"
+          ],
+          [
+            "Randy V. J. Smallwood"
+          ],
+          [
+            "President and Chief Executive Officer"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<HTML>\n<HEAD>\n   <TITLE>Silver Wheaton Corp.: Exhibit 99.1 - Filed by newsfilecorp.com</TITLE>\n</HEAD>\n\n<BODY style=\"font-size:10pt;\">\n\n<HR noshade align=\"center\" width=100% size=3 color=\"black\">\n\n<P align=right><A name=page_1></A><B>Exhibit 99.1 </B></P>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0>\n\n  <TR vAlign=top>\n    <TD style=\"BORDER-BOTTOM: medium none #000000; \" align=center><B>\n    <FONT\n      size=4>NOTICE OF ANNUAL MEETING OF SHAREHOLDERS\n</FONT></B></TD></TR>\n\n  <TR vAlign=top>\n    <TD style=\"BORDER-BOTTOM: 1px solid #000000; ; border-top-style:none; border-top-width:medium\" align=center>&nbsp;</TD></TR></TABLE>\n<P align=justify><B>NOTICE IS HEREBY GIVEN </B>that the Annual Meeting of\nshareholders (the &#147;Meeting&#148;) of Silver Wheaton Corp. (the &#147;Company&#148;) will be\nheld in the Mackenzie Ballroom of the Fairmont Waterfront Hotel, 900 Canada\nPlace Way, Vancouver, British Columbia on May 23, 2012 at 1:00 p.m. (Vancouver\ntime), for the following purposes: </P>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0 BCLLIST>\n\n  <TR>\n    <TD width=\"5%\"  >&nbsp;</TD>\n    <TD vAlign=top width=\"5%\">(a) </TD>\n    <TD>\n      <P align=justify>To receive and consider the audited consolidated\n      financial statements of the Company for the year ended December 31, 2011\n      and the report of the auditors thereon;</P></TD></TR>\n  <TR>\n    <TD width=\"5%\" >&nbsp;</TD>\n    <TD width=\"5%\">&nbsp;</TD>\n    <TD>&nbsp;</TD></TR>\n  <TR>\n    <TD width=\"5%\" >&nbsp;</TD>\n    <TD vAlign=top width=\"5%\">(b) </TD>\n    <TD>\n      <P align=justify>To elect the directors of the Company for the ensuing\n      year;</P></TD></TR>\n  <TR>\n    <TD width=\"5%\" >&nbsp;</TD>\n    <TD width=\"5%\">&nbsp;</TD>\n    <TD>&nbsp;</TD></TR>\n  <TR>\n    <TD width=\"5%\" >&nbsp;</TD>\n    <TD vAlign=top width=\"5%\">(c) </TD>\n    <TD>\n      <P align=justify>To appoint Deloitte &amp; Touche LLP, Independent\n      Registered Chartered Accountants, as auditors of the Company for the\n      ensuing year and to authorize the directors to fix the auditors&#146;\n      remuneration; and</P></TD></TR>\n  <TR>\n    <TD width=\"5%\" >&nbsp;</TD>\n    <TD width=\"5%\">&nbsp;</TD>\n    <TD>&nbsp;</TD></TR>\n  <TR>\n    <TD width=\"5%\" >&nbsp;</TD>\n    <TD vAlign=top width=\"5%\">(d) </TD>\n    <TD>\n      <P align=justify>To transact such other business as may properly come\n      before the Meeting or any adjournment thereof.</P></TD></TR></TABLE>\n<P align=justify>This notice is accompanied by a management information\ncircular, either a form of proxy for registered shareholders or a voting\ninstruction form for beneficial shareholders, and, for those registered\nshareholders who so requested, a copy of the audited consolidated financial\nstatements and MD&amp;A of the Company for the financial year ended December 31,\n2011. Shareholders are able to request to receive copies of the Company&#146;s annual\nand/or interim financial statements and MD&amp;A on the form of proxy or voting\ninstruction form, as applicable. The audited consolidated financial statements\nand MD&amp;A of the Company for the financial year ended December 31, 2011 will\nbe sent to those shareholders who have previously requested to receive them.\nOtherwise, they are available upon request to the Company or they can be found\non SEDAR at www.sedar.com<I>, </I>on the United States Securities and Exchange\nCommission website at www.sec.gov, or on the Company&#146;s website at\nwww.silverwheaton.com. </P>\n<P align=justify>Registered shareholders who are unable to attend the Meeting\nare requested to complete, date, sign and return the enclosed form of proxy and\ndeposit it with the Company&#146;s transfer agent by 1:00 p.m. (Vancouver time) on\nMay 18, 2012, or no later than 48 hours (excluding Saturdays, Sundays and\nholidays) before the time of any adjourned Meeting so that as large a\nrepresentation as possible may be had at the Meeting. </P>\n<P align=justify>Non-registered shareholders of the Company who have received\nthis Notice of Meeting and accompanying materials through a broker, a financial\ninstitution, a participant, a trustee or administrator of a self-administered\nretirement savings plan, retirement income fund, education savings plan or other\nsimilar self-administered savings or investment plan registered under the\n<I>Income Tax Act </I>(Canada), or a nominee of any of the foregoing that holds\nyour security on your behalf (the &#147;Intermediary&#148;), are required to complete and\nreturn the materials in accordance with the instructions provided by the\nIntermediary. </P>\n<P align=justify>The board of directors of the Company has by resolution fixed\nthe close of business on March 30, 2012 as the record date, being the date for\nthe determination of the registered holders of common shares entitled to receive\nnotice of, and to vote at, the Meeting and any adjournment thereof. </P>\n<P align=justify><B>DATED </B>at Vancouver, British Columbia this 22<SUP>nd\n</SUP>day of March, 2012. </P>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0>\n\n  <TR vAlign=top>\n    <TD align=left >&nbsp;</TD>\n    <TD align=left width=\"50%\">By Order of the Board of Directors </TD></TR>\n  <TR>\n    <TD >&nbsp;</TD>\n    <TD width=\"50%\">&nbsp; </TD></TR>\n  <TR vAlign=top>\n    <TD align=left >&nbsp;</TD>\n    <TD align=left width=\"50%\"><I><U>&#147;Randy V. J.\n      Smallwood&#148;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n      &nbsp;</U></I></TD></TR>\n  <TR vAlign=top>\n    <TD align=left >&nbsp;</TD>\n    <TD align=left width=\"50%\">Randy V. J. Smallwood </TD></TR>\n  <TR vAlign=top>\n    <TD align=left >&nbsp;</TD>\n    <TD align=left width=\"50%\">President and Chief Executive Officer\n  </TD></TR></TABLE><BR>\n<HR align=center width=\"100%\" color=black noShade SIZE=5>\n\n</BODY>\n\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

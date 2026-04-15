@@ -1,0 +1,4695 @@
+EX-99.1
+2
+pzg-ex991_6.htm
+EX-99.1
+
+pzg-ex991_6.htm
+
+Exhibit 99.1
+APPENDIX E 
+HISTORICAL FINANCIAL STATEMENTS OF CALICO 
+Calico Resources Corp. 
+Consolidated Financial Statements 
+Year Ended June 30, 2015 
+(Expressed in Canadian Dollars) 
+ 
+ 
+
+ 
+ 
+
+MANAGEMENT’S RESPONSIBILITY FOR FINANCIAL REPORTING 
+The consolidated financial statements of Calico Resources Corp. (An Exploration Stage Company) are the responsibility of the Company’s management. The financial statements are prepared in accordance with International Financial Reporting Standards as issued by the International Accounting Standards Board and reflect management’s best estimates and judgment based on information currently available. 
+Management has developed and maintains a system of internal controls to ensure that the Company’s assets are safeguarded, transactions are authorized and properly recorded and financial information is reliable. 
+The Board of Directors is responsible for ensuring management fulfills its responsibilities for financial reporting and internal controls through an audit committee. The Audit Committee reviews the results of the consolidated financial statements prior to their submission to the Board of Directors for approval. 
+ 
+
+ 
+
+ 
+
+“Paul A Parisotto”
+
+“Alec Peck”
+
+Paul A Parisotto
+
+Alec Peck
+
+Chief Executive Officer
+
+Chief Financial Officer
+
+2
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Tel: 604 688 5421
+Fax: 604 688 5132
+www.bdo.ca
+
+BDO Canada LLP
+600 Cathedral Place
+925 West Georgia Street
+ Vancouver BC V6C 3L2 Canada
+
+Independent Auditor’s Report 
+To the shareholders of Calico Resources Corp. 
+We have audited the accompanying consolidated financial statements of Calico Resources Corp., which comprise the consolidated statements of financial position as at June 30, 2015 and 2014 and the consolidated statements of loss and comprehensive income/(loss), changes in shareholders’ equity and cash flows for the years then ended, and a summary of significant accounting policies and other explanatory information. 
+Management’s Responsibility for the Consolidated Financial Statements 
+Management is responsible for the preparation and fair presentation of these consolidated financial statements in accordance with International Financial Reporting Standards, and for such internal control as management determines is necessary to enable the preparation of consolidated financial statements that are free from material misstatement, whether due to fraud or error. 
+Auditor’s Responsibility 
+Our responsibility is to express an opinion on these consolidated financial statements based on our audits. We conducted our audits in accordance with Canadian generally accepted auditing standards. Those standards require that we comply with ethical requirements and plan and perform the audit to obtain reasonable assurance about whether the consolidated financial statements are free from material misstatement. 
+An audit involves performing procedures to obtain audit evidence about the amounts and disclosures in the consolidated financial statements. The procedures selected depend on the auditor’s judgment, including the assessment of the risks of material misstatement of the financial statements, whether due to fraud or error. In making those risk assessments, the auditor considers internal control relevant to the entity’s preparation and fair presentation of the consolidated financial statements in order to design audit procedures that are appropriate in the circumstances, but not for the purpose of expressing an opinion on the effectiveness of the entity’s internal control. An audit also includes evaluating the appropriateness of accounting policies used and the reasonableness of accounting estimates made by management, as well as evaluating the overall presentation of the consolidated financial statements. 
+We believe that the audit evidence we have obtained in our audits is sufficient and appropriate to provide a basis for our audit opinion. 
+Opinion 
+In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of Calico Resources Corp. as at June 30, 2015 and 2014 and its financial performance and its cash flows for the year then ended in accordance with International Financial Reporting Standards. 
+Emphasis of Matter 
+Without qualifying our opinion, we draw attention to Note 2 in the consolidated financial statements, which indicates that at June 30, 2015, the Company had net loss of $810,920 for the year then ended and an accumulated deficit of $9,577,023 since inception and expects to incur further losses in the development of its business. These conditions, along with other matters as set forth in Note 2, indicate the existence of a material uncertainty that may cast significant doubt upon the Company’s ability to continue as a going concern. 
+(signed) “BDO CANADA LLP” 
+Chartered Professional Accountants 
+Vancouver, British Columbia 
+September 28, 2015 
+3
+ 
+
+ 
+800 Canada LLP, a Canadian limited liability partnership, is a member of 800 International Limited, a UK company limited by guarantee, and forms part of the international BOO network of Independent member firms. 
+ 
+4
+ 
+
+ 
+Calico Resources Corp. 
+Consolidated statements of financial position 
+(Expressed in Canadian dollars) 
+ 
+
+ 
+
+Notes
+
+June 30,
+2015
+
+June 30, 
+2014 
+
+ 
+
+ASSETS
+
+ 
+
+ 
+
+ 
+
+Current assets
+
+ 
+
+ 
+
+ 
+
+Cash and cash equivalents
+
+4
+
+$1,791,499
+
+$7,689
+
+Receivables
+
+ 
+
+11,207
+
+33,982
+
+Prepaid expenses
+
+ 
+
+12,483
+
+7,531
+
+ 
+
+ 
+
+ 
+
+1,815,189
+
+49,202
+
+ 
+
+Non-current assets
+
+ 
+
+ 
+
+ 
+
+Equipment
+
+ 
+
+-
+
+1,349 
+
+Exploration and evaluation assets
+
+5, 10
+
+12,433,509
+
+8,777,390 
+
+ 
+
+ 
+
+ 
+
+12,433,509
+
+8,778,739
+
+ 
+
+TOTAL ASSETS
+
+ 
+
+$14,248,698
+
+$8,827,941
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+LIABILITIES
+
+ 
+
+ 
+
+ 
+
+Current liabilities
+
+ 
+
+ 
+
+ 
+
+Trade payables and accrued liabilities
+
+6, 10
+
+$907,563
+
+$908,605 
+
+Loans payable
+
+ 7
+
+-
+
+250,000 
+
+ 
+
+TOTAL LIABILIITES
+
+ 
+
+907,563
+
+1,158,605 
+
+ 
+
+SHAREHOLDERS’ EQUITY
+
+ 
+
+ 
+
+ 
+
+Share capital
+
+ 8
+
+18,613,384
+
+13,721,608 
+
+Subscriptions received
+
+ 8
+
+-
+
+54,000 
+
+Reserves
+
+ 9
+
+2,463,604
+
+2,399,598 
+
+Accumulated other comprehensive income
+
+ 
+
+1,841,170
+
+260,233 
+
+Deficit
+
+ 
+
+(9,577,023)
+
+(8,766,103)
+
+ 
+
+TOTAL SHAREHOLDERS’ EQUITY
+
+ 
+
+13,341,135
+
+7,669,336 
+
+ 
+
+TOTAL LIABILITIES AND SHAREHOLDERS’ EQUITY
+
+ 
+
+$14,248,698
+
+$8,827,941 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Approved on behalf of the Board by:
+ 
+
+“John Pollesel”
+
+Director
+
+John Pollesel
+
+ 
+
+ 
+
+ 
+
+“Kevin Milledge”
+
+Director
+
+Kevin Milledge
+
+ 
+
+See accompanying notes to the consolidated financial statements 
+ 
+5
+ 
+
+ 
+Calico Resources Corp. 
+Consolidated statements of loss and comprehensive income / (loss) 
+(Expressed in Canadian dollars) 
+ 
+
+ 
+
+ 
+
+Year ended June 30,
+
+ 
+
+Notes 
+
+2015
+
+2014
+
+Expenses
+
+ 
+
+ 
+
+ 
+
+Audit and tax services
+
+ 
+
+$27,468
+
+$34,624
+
+Administration
+
+ 
+
+105,495
+
+109,450
+
+Depreciation
+
+ 
+
+1,349
+
+578
+
+Director fees
+
+10
+
+-
+
+24,025
+
+Insurance
+
+ 
+
+10,650
+
+17,282
+
+Investor relations
+
+ 
+
+12,183
+
+98,893
+
+Legal services
+
+ 6
+
+189,917
+
+472,153
+
+Management fees
+
+ 10
+
+186,034
+
+159,994
+
+Project generation
+
+ 
+
+-
+
+2,989
+
+Share-based payments
+
+ 10
+
+198,848
+
+-
+
+Transfer agent and filing fees
+
+ 
+
+44,673
+
+38,903
+
+Travel, promotion and board meetings
+
+ 
+
+19,746
+
+6,967
+
+ 
+
+ 
+
+(796,363)
+
+(965,858)
+
+Other items
+
+ 
+
+ 
+
+ 
+
+Interest income
+
+ 
+
+4,201
+
+1,471
+
+Interest expense
+
+ 
+
+(4,723)
+
+(2,112)
+
+Other income
+
+ 
+
+3,991
+
+-
+
+Foreign exchange loss
+
+ 
+
+(18,026)
+
+(2,339)
+
+Net loss for year
+
+ 
+
+(810,920)
+
+(968,838)
+
+Other comprehensive income
+
+ 
+
+ 
+
+ 
+
+Exchange differences on translating foreign operations
+
+ 
+
+1,580,937
+
+114,961
+
+Total comprehensive income / (loss)
+
+ 
+
+ $770,017
+
+$(853,877)
+
+ 
+
+ 
+
+ 
+
+ 
+
+Loss per share – basic and diluted
+
+ 
+
+$(0.01)
+
+$(0.02)
+
+ 
+
+ 
+
+ 
+
+ 
+
+Weighted average number of common shares outstanding
+
+ 
+
+75,785,794
+
+ 51,557,212
+
+See accompanying notes to the consolidated financial statements 
+ 
+6
+ 
+
+ 
+ 
+Calico Resources Corp. 
+Consolidated statements of changes in shareholders’ equity 
+(Expressed in Canadian dollars) 
+ 
+
+ 
+
+ 
+
+ 
+
+Subscriptions
+
+ 
+
+Accumulated other
+
+ 
+
+ 
+
+ 
+
+Share Capital
+
+ 
+
+Received
+
+Reserves
+
+comprehensive income
+
+Deficit
+
+Total
+
+ 
+
+ 
+
+ 
+
+ 
+
+Warrant and stock
+
+ 
+
+ 
+
+ 
+
+ 
+
+Number of shares
+
+Amount
+
+Amount
+
+option reserves
+
+ 
+
+ 
+
+ 
+
+Balance at June 30, 2013
+
+48,853,869
+
+$12,954,481
+
+$-
+
+$2,735,553
+
+$145,272
+
+$(7,797,265)
+
+$8,038,041
+
+Shares issued for cash - private placements
+
+2,441,667
+
+293,000
+
+-
+
+-
+
+-
+
+-
+
+293,000
+
+Fair value of share purchase warrants
+
+ 
+
+(24,252)
+
+-
+
+24,252
+
+-
+
+-
+
+-
+
+Shares issued for cash - warrants exercised
+
+1,170,500
+
+140,460
+
+-
+
+-
+
+-
+
+-
+
+140,460
+
+Share issue costs
+
+-
+
+(2,288)
+
+-
+
+-
+
+-
+
+-
+
+(2,288)
+
+Subscriptions received
+
+-
+
+-
+
+54,000
+
+-
+
+-
+
+-
+
+54,000
+
+Fair value of warrants exercised
+
+-
+
+42,717
+
+-
+
+(42,717)
+
+-
+
+-
+
+-
+
+Shares issued non-cash
+
+1,671,000
+
+317,490
+
+-
+
+(317,490)
+
+-
+
+-
+
+-
+
+Currency translation adjustment
+
+-
+
+-
+
+-
+
+-
+
+114,961
+
+-
+
+114,961
+
+Net loss for the year
+
+-
+
+-
+
+-
+
+-
+
+-
+
+(968,838)
+
+(968,838)
+
+Balance at June 30, 2014
+
+54,137,036
+
+$13,721,608
+
+$54,000
+
+$2,399,598
+
+$260,233
+
+$(8,766,103)
+
+$7,669,336
+
+Shares issued for cash - private placements
+
+42,886,665
+
+4,508,000
+
+(54,000)
+
+-
+
+-
+
+-
+
+4,454,000
+
+Fair value of share purchase warrants
+
+ 
+
+(421,197)
+
+-
+
+421,197
+
+-
+
+-
+
+-
+
+Shares issued for debt
+
+2,526,144
+
+303,137
+
+-
+
+-
+
+-
+
+-
+
+303,137
+
+Share issue costs
+
+-
+
+(48,404)
+
+-
+
+(5,799)
+
+-
+
+-
+
+(54,203)
+
+Shares issued non-cash
+
+2,896,000
+
+550,240
+
+-
+
+(550,240)
+
+-
+
+-
+
+-
+
+Share-based payment
+
+-
+
+-
+
+-
+
+198,848
+
+-
+
+-
+
+198,848
+
+Currency translation adjustment
+
+-
+
+-
+
+-
+
+-
+
+1,580,937
+
+-
+
+1,580,937
+
+Net loss for the year
+
+-
+
+-
+
+-
+
+-
+
+-
+
+(810,920)
+
+(810,920)
+
+Balance at June 30, 2015
+
+102,445,845
+
+$18,613,384
+
+$-
+
+$2,463,604
+
+$1,841,170
+
+$(9,577,023)
+
+$13,341,135
+
+See accompanying notes to the consolidated financial statements 
+ 
+7
+ 
+
+ 
+ 
+Calico Resources Corp. 
+Consolidated statements of cash flows 
+(Expressed in Canadian dollars) 
+ 
+
+ 
+
+Year ended June 30,
+
+ 
+
+2015
+
+2014
+
+Operating activities
+
+ 
+
+ 
+
+Net loss for year
+
+$(810,920)
+
+$(968,838)
+
+Adjustments for non-cash items:
+
+ 
+
+ 
+
+ Depreciation
+
+1,349
+
+578
+
+ Share-based payments
+
+198,848
+
+-
+
+Changes in non-cash working capital items:
+
+ 
+
+ 
+
+ Other receivable and prepaid expenses
+
+17,823
+
+8,448
+
+ Trade payables and accrued liabilities
+
+15,743
+
+531,424
+
+Net cash flows used in operating activities
+
+(577,157)
+
+(428,388)
+
+Investing activities
+
+ 
+
+ 
+
+Expenditures on exploration and evaluation assets
+
+ (1,977,514)
+
+ (1,104,473)
+
+Other income
+
+-
+
+388,235
+
+Net cash flows used in investing activities
+
+(1,977,514)
+
+(716,238)
+
+Financing activities
+
+ 
+
+ 
+
+Proceeds on issuance of common shares
+
+4,399,797
+
+431,172
+
+Subscriptions received
+
+-
+
+54,000
+
+Loans payable
+
+(150,000)
+
+250,000
+
+Net cash flows from investing activities
+
+4,249,797
+
+735,172
+
+Currency translation adjustment
+
+88,684
+
+-
+
+Increase / (decrease) in cash and cash equivalents
+
+1,783,810
+
+(409,454)
+
+Cash and cash equivalents, beginning of the year
+
+7,689
+
+417,143
+
+Cash and cash equivalents, end of the year
+
+$1,791,499
+
+$7,689
+
+Note 13 – Non-cash transactions 
+See accompanying notes to the consolidated financial statements 
+ 
+ 
+
+ 
+Calico Resources Corp. 
+Notes to the consolidated financial statements 
+(Expressed in Canadian dollars) 
+For the year ended June 30, 2015 and 2014 
+
+1.
+
+Nature of operations 
+Calico Resources Corp. (the “Company”) and its wholly owned subsidiary, Calico Resources USA Corp. are focused on advancing its 100% owned Grassy Mountain Gold Project (“Grassy Mountain”) located in Oregon, U.S.A. The Company’s shares are traded on the TSX Venture Exchange (“TSX-V”) under the symbol “CKB”. The head office and principal address of the Company is located at Suite 615, 800 West Pender Street, Vancouver, British Columbia, Canada, V6C 2V6. The Company’s registered and records office address is Suite 2600, 1066 West Hastings Street, Vancouver, British Columbia, Canada, V6E 3X1. 
+
+2.
+
+Statement of compliance and basis of preparation 
+These consolidated financial statements were authorized for issue on September 28, 2015 by the directors of the Company. 
+Statement of compliance 
+These consolidated financial statements of the Company have been prepared in accordance with International Financial Reporting Standards (“IFRS”) as issued by the International Accounting Standards Board (“IASB”). 
+Going concern 
+These consolidated financial statements have been prepared on the assumption that the Company will continue as a going concern, meaning it will continue in operation for the foreseeable future and will be able to realize assets and discharge liabilities in the ordinary course of operations. A different basis of measurement may be appropriate if the Company was not expected to continue operations for the foreseeable future. At June 30, 2015, the Company had not achieved profitable operations, had a net loss of $810,920 for the year ended June 30, 2015 and accumulated losses of $9,577,023 since inception, had not advanced its mineral properties to commercial production and expects to incur further losses in the development of its business, all of which indicate a material uncertainty that may cast significant doubt upon the Company’s ability to continue as a going concern. The Company’s continuation as a going concern is dependent upon successful results from its mineral property exploration activities and its ability to attain profitable operations to generate funds and/or its ability to raise equity capital or borrowings sufficient to meet its current and future obligations. Although the Company has been successful in the past in raising funds to continue operations, there is no assurance it will be able to do so in the future. 
+Basis of preparation 
+The consolidated financial statements have been prepared on a historical cost basis. The consolidated financial statements are presented in Canadian dollars. 
+Significant accounting judgments and estimates 
+The preparation of the Company’s consolidated financial statements in conformity with IFRS requires management to make certain judgments and estimates that affect the reported amounts of assets, liabilities and contingent liabilities at the date of the consolidated financial statements and reported amounts of revenues and expenses during the reporting period. Estimates and judgments are 
+ 
+
+ 
+continuously evaluated and are based on management’s experience and other factors, including expectations of future events that are believed to be reasonable under the circumstances. However, actual outcomes may differ. 
+ 
+The effect of a change in an accounting estimate is recognized prospectively by including it in comprehensive income in the period of the change, if the change affects that period only, or in the period of the change and future periods, if the change affects both. 
+Information about critical judgments in applying accounting policies and estimates that have the most significant risk of causing material adjustment to the carrying amounts of assets and liabilities recognized in the consolidated financial statements within the next financial year are discussed below. 
+Exploration and evaluation assets 
+The application of the Company’s accounting policy for exploration and evaluation assets requires judgment in determining whether it is likely that future economic benefits will flow to the Company, which may be based on assumptions about future events or circumstances. Estimates made may change if new information becomes available. If, after an expenditure is capitalized, information becomes available suggesting that the recovery of such expenditure is unlikely, the amount capitalized is written off in the statement of loss and comprehensive loss in the period the new information becomes available. 
+Title to mineral property interests 
+Although the Company has taken steps to verify title to mineral properties in which it has an interest, these procedures do not guarantee the Company’s title. Such properties may be subject to prior agreements or transfers and title may be affected by undetected defects. 
+Share-based payments 
+Estimating fair value for share-based payment transactions requires determining the most appropriate valuation model, which is dependent on the terms and conditions of the grant. This estimate also requires determining the most appropriate inputs to the valuation model including the expected life of the share option, volatility, interest rates and, dividend yield and expected vesting dates and making assumptions about them. The assumptions and models used for estimating fair value for share-based payment transactions are disclosed in Note 8. 
+
+3.
+
+Summary of significant accounting policies 
+Consolidation 
+The consolidated financial statements include the accounts of the Company and its controlled entity. Details of its controlled entity are as follows: 
+ 
+
+ 
+
+ 
+
+Percentage owned
+ 
+
+ 
+
+Country ofincorporation
+
+June 30, 
+2015 
+
+June 30, 
+2014 
+
+ 
+
+Calico Resources USA Corp.
+
+U.S.
+
+100%
+
+100%
+
+ 
+
+*Percentage of voting power is in proportion to ownership. 
+ 
+Inter-company balances and transactions are eliminated on consolidation 
+ 
+
+ 
+Foreign currency translation 
+The functional currency of each of the Company’s entities is measured using the currency of the primary economic environment in which that entity operates. The consolidated financial statements are presented in Canadian dollars which is the parent Company’s functional currency. 
+Transactions and balances: 
+Foreign currency transactions are translated into the functional currency using the exchange rates prevailing at the date of the transaction. Foreign currency monetary items are translated at the period-end exchange rate. Non-monetary items are measured at historical cost and continue to be carried at the exchange rate at the date of the transaction. Non-monetary items are measured at fair value and are reported at the exchange rate at the date when fair values were determined. 
+Exchange differences arising on the translation of monetary items or on settlement of monetary items are recognized in the statement of loss in the period in which they arise. 
+Reporting currency translation: 
+The financial statements of the subsidiary have the US dollar as the functional currency and are translated into Canadian dollars as follows: assets and liabilities – at the closing rate at the date of the statement of financial position, and income and expenses – at the average rate of the period (as this is considered a reasonable approximation to actual rates). All resulting changes are recognized in other comprehensive income as cumulative translation adjustments. 
+Exploration and evaluation assets 
+Exploration and evaluation expenditures relating to mineral properties include the costs of acquiring licenses, costs associated with exploration and evaluation activity, and the fair value (at acquisition date) of exploration and evaluation assets. Exploration and evaluation expenditures are capitalized. Costs incurred before the Company has obtained the legal rights to explore an area are recognized in profit or loss. 
+Exploration and evaluation assets are assessed for impairment when events and circumstances suggest that the carrying amount exceeds the recoverable amount. 
+Once the technical feasibility and commercial viability of the extraction of mineral resources in an area of interest are demonstrable, exploration and evaluation assets attributable to that area of interest are first tested for impairment and then reclassified to mining property and development assets within property, plant and equipment. 
+The Company may occasionally enter into arrangements, whereby the Company may sell all or part of a mineral interest. 
+Any cash consideration received from an agreement is credited against the costs previously capitalized to the mineral interest given up by the Company, with any excess cash accounted for as a gain on disposal. 
+As the Company currently has no operational income, any incidental income earned in connection with the exploration activities are applied as a reduction to capitalized exploration costs. 
+ 
+Share capital 
+ 
+
+ 
+Equity instruments are contracts that give a residual interest in the net assets of the Company. Financial instruments issued by the Company are classified as equity only to the extent that they do not meet the definition of a financial liability or financial asset. The Company’s common shares, share warrants and flow-through shares are classified as equity instruments. Incremental costs directly attributable to the issue of new shares or options are shown in equity as a deduction, net of tax, from the proceeds. 
+Share-based payments 
+Where equity-settled share options are awarded to employees, the fair value of the options at the date of grant is charged to the statement of loss and comprehensive loss over the vesting period. Performance vesting conditions are taken into account by adjusting the number of equity instruments expected to vest at each reporting date so that, ultimately, the cumulative amount recognized over the vesting period is based on the number of options that eventually vest. Non-vesting conditions and market vesting conditions are factored into the fair value of the options granted. As long as all other vesting conditions are satisfied, a charge is made irrespective of whether these vesting conditions are satisfied. The cumulative expense is not adjusted for failure to achieve a market vesting condition or where a non-vesting condition is not satisfied. 
+Where the terms and conditions of options are modified before they vest, the increase in the fair value of the options, as measured immediately before and after the modification, is also charged to the statement of loss and comprehensive income (loss) over the remaining vesting period. 
+Share-based payment arrangements in which the Company receives goods or services as consideration for its own equity instruments are accounted for as equity-settled share-based payment transactions. If the fair value of the goods or services received cannot be estimated reliably, the share-based payment transaction is measured at fair value of the equity instruments granted at the date the Company receives the goods or the services or is measured by use of a valuation model. The expected life used in the model is adjusted, based on management’s best estimate, for effects of non-transferability, exercise restrictions and behavioural considerations. 
+ 
+
+ 
+Financial Assets 
+Financial assets are classified based on the purpose for which the asset was acquired. All transactions related to financial instruments are recorded on a trade date basis. There are no financial assets designated as fair value through profit or loss (“FVTPL”), held to maturity, or available for sale. The Company’s accounting policy for the remaining financial asset category is as follows: 
+Loans and Receivables 
+These assets are non-derivative financial assets resulting from the delivery of cash or other assets by a lender to a borrower in return for a promise to repay on a specified date or dates, or on demand. They are initially recognized at fair value plus transaction costs that are directly attributable to their acquisition or issue and subsequently carried at amortized cost, using the effective interest rate method, less any impairment losses. Amortized cost is calculated taking into account any discount or premium on acquisition and includes fees that are an integral part of the effective interest rate and transaction costs. Gains and losses are recognized in the consolidated statements of loss and comprehensive loss when the loans and receivables are derecognized or impaired, as well as through the amortization process. 
+The Company has classified its cash and cash equivalents as loans and receivables. 
+ 
+Financial Liabilities 
+Financial liabilities are classified as other financial liabilities, based on the purpose for which the liability was incurred, and comprise trade payables and accrued liabilities and loans payable. These liabilities are initially recognized at fair value net of any transaction costs directly attributable to the issuance of the instrument and subsequently carried at amortized cost using the effective interest rate method. This ensures that any interest expense over the period to repayment is at a constant rate on the balance of the liability carried in the statement of financial position. Interest expense in this context includes initial transaction costs and premiums payable on redemption, as well as any interest or coupon payable while the liability is outstanding. The Company has no financial liabilities designated upon initial recognition as fair value through profit and loss (“FVTPL”), or held for trading. 
+Trade and other payables represent liabilities for goods and services provided to the Company prior to the end of the period which are unpaid. Trade payable amounts are unsecured and are usually paid within 30 days of recognition. 
+Trade payables and accrued liabilities and loans payable are classified as other financial liabilities. 
+Impairment of Financial Assets 
+At each reporting date the Company assesses whether there is any objective evidence that a financial asset or a group of financial assets is impaired. A financial asset or group of financial assets is deemed to be impaired, if, and only if, there is objective evidence of impairment as a result of one or more events that has occurred after the initial recognition of the asset and that event has an impact on the estimated future cash flows of the financial asset or the group of financial assets. 
+Impairment of long lived assets 
+Long lived assets are tested for impairment when events or changes in circumstances indicate that the carrying amount may not be recoverable. If such indication exists, the recoverable amount of the asset is estimated in order to determine the extent of the impairment loss. An impairment loss is recognized 
+ 
+
+ 
+whenever the carrying amount of an asset or its cash generating unit exceeds its recoverable amount. Impairment losses are recognized in the statement of loss and comprehensive loss. 
+The recoverable amount is the greater of an asset’s fair value less cost to sell and its value in use. In assessing value in use, the estimated future cash flows are discounted to their present value using a pre-tax discount rate that reflects the current market assessments of the time value of money and the risks specific to the asset. For an asset that does not generate cash inflows largely independent of those from other assets, the recoverable amount is determined for the cash-generating unit to which the asset belongs. 
+An impairment loss is only reversed if there is an indication that the impairment loss may no longer exist and there has been a change in the estimates used to determine the recoverable amount. 
+Cash and cash equivalents 
+Cash and cash equivalents include cash on hand, deposits held at call with banks and, other highly liquid investments with original maturities up to three months that can be redeemed into known amounts at any time without penalty. 
+ 
+Income taxes 
+Current income tax: 
+Current income tax assets and liabilities are measured at the amount expected to be recovered from or paid to the taxation authorities. The tax rates and tax laws used to compute the amount are those that are enacted or substantively enacted, at the reporting date, in the countries where the Company operates and generates taxable income. 
+Current income tax relating to items recognized directly is recorded in other comprehensive income or equity. Management periodically evaluates positions taken in the tax returns with respect to situations in which applicable tax regulations are subject to interpretation and establishes provisions where appropriate. 
+Deferred income tax: 
+Deferred income tax is accounted for by providing for temporary differences between the carrying amounts of assets and liabilities for financial reporting purposes and the amounts used for taxation purposes. Deferred income taxes is not recognized for temporary differences related to the initial recognition of the assets or liabilities that affect neither accounting nor taxable profit nor investments in subsidiaries, associates and interests in joint ventures to the extent it is probable that they will not reverse in the foreseeable future. 
+The amount of deferred income tax provided is based on the expected manner and expected date of realization or settlement of the carrying amount of assets and liabilities, using tax rates enacted or substantively enacted at the balance sheet date. A deferred income tax asset is recognized only to the extent that it is probable that future taxable amounts will be available against which the asset can be utilized. 
+Earnings (loss) per share 
+Basic earnings (loss) per share is computed by dividing net earnings (loss) available to common shareholders by the weighted average number of shares outstanding during the reporting period. Diluted earnings (loss) per share is computed similar to basic earnings (loss) per share except that the weighted number of average shares outstanding are increased to include additional shares for the assumed exercise of stock options and warrants, if dilutive. The number of additional shares is calculated by assuming that outstanding stock options and warrants were exercised and that the proceeds from the 
+ 
+
+ 
+exercise of such instruments were used to acquire common shares at the average market price during the reporting period. 
+Restoration and environmental obligations 
+The Company recognizes liabilities for statutory, contractual, constructive or legal obligations associated with the retirement of long-term assets, when those obligations result from the acquisition, construction development or normal operation of the assets. The net present value of future restoration cost estimates arising from the decommissioning of plant and other site preparation work is capitalized along with a corresponding increase in the restoration provision in the period incurred. Discount rates using a pre-tax rate that reflect the time value of money are used to calculate the net present value. The restoration asset will be depreciated on the same basis as other mining assets. As at June 30, 2015 and 2014, the Company did not have any significant restoration or environmental obligations. 
+Changes in the net present value, excluding changes in the Company’s estimates of reclamation costs, are charged to consolidated statements of loss and comprehensive income (loss) for the period. 
+ 
+Other Provisions 
+Provisions are recognized for liabilities of uncertain timing or amount that have arisen as a result of past transactions, including legal or constructive obligations. The provision is measured at the best estimate of the expenditure required to settle the obligation at the reporting date. 
+ 
+
+ 
+New accounting standards and interpretations adopted 
+Effective July 1, 2014, the Company adopted the following accounting standards issued by IASB. 
+IAS 24— Related Party Disclosures 
+The amendments to IAS 24 clarify that a management entity, or any member of a group of which it is a part, that provides key management services to a reporting entity, or its parent, is a related party of the reporting entity. The amendments also require an entity to disclose amounts incurred for key management personnel services provided by a separate management entity. This replaces the more detailed disclosure by category required for other key management personnel compensation. The application of this IAS did not have a material impact on the amounts reported for the current or prior years but may affect the disclosure for future transactions or arrangements. 
+IFRIC 21 – Levies 
+The IASB issued IFRIC 21 – Levies (“IFRIC 21”), an interpretation of IAS 37 – Provisions, Contingent Liabilities and Contingent Assets (“IAS 37”), on the accounting for levies imposed by governments. IAS 37 sets out criteria for the recognition of a liability, one of which is the requirement for the entity to have a present obligation as a result of a past event (“Obligating Event”). IFRIC 21 clarifies that the Obligating Event that gives rise to a liability to pay a levy is the activity described in the relevant legislation that triggers the payment of the levy. The application of this IFRS did not have a material impact on the amounts reported for the current or prior years but may affect the accounting for future transactions or arrangements. 
+The following standards and interpretations have been issued but are not yet effective: 
+The following standards, interpretations and amendments, which have not been applied to in these consolidated financial statements, will or may have an effect on the Company’s future consolidated financial statements. The Company is in the process of evaluating these new standards. 
+IFRS 9 — Financial instruments, classification and measurement 
+IFRS 9 Financial Instruments is part of the IASB’s wider project to replace IAS 39 Financial Instruments: 
+Recognition and Measurement. IFRS 9 retains but simplifies the mixed measurement model and establishes two primary measurement categories for financial assets: amortized cost and fair value. The basis of classification depends on the entity’s business model and the contractual cash flow characteristics of the financial asset. The standard is effective for annual periods beginning on or after January 1, 2018. The Company is in the process of evaluating the impact of the new standard. 
+
+4.
+
+Cash and cash equivalents 
+Cash and cash equivalents include guaranteed investment certificates with a term to maturity of up to three months from date of acquisition and which can be redeemed at any time without penalty. 
+ 
+ 
+
+ 
+
+5.
+
+Exploration and evaluation assets 
+The following is a description of the Company’s Grassy Mountain exploration and evaluation assets and the related spending commitments. 
+ 
+
+Year ended June 30, 2015 
+
+ 
+
+Property acquisition costs
+
+ 
+
+Balance, June 30, 2014
+
+$3,370,184 
+
+Additions
+
+257,801 
+
+ 
+
+Balance, June 30, 2015
+
+$3,627,985 
+
+ 
+
+Exploration and evaluation costs
+
+ 
+
+Balance, June 30, 2014
+
+$5,407,206 
+
+ 
+
+Costs incurred during year:
+
+ 
+
+Consulting (Note 10)
+
+360,113 
+
+Engineering
+
+585,833 
+
+Environmental
+
+627,328 
+
+Field supplies
+
+225 
+
+Metallurgy
+
+- 
+
+Other costs
+
+51,175 
+
+Permits and fees
+
+249,841 
+
+Travel and accommodations
+
+31,805 
+
+ 
+
+ 
+
+1,906,320 
+
+ 
+
+Balance, June 30, 2015
+
+7,313,526 
+
+ 
+
+Other income
+
+- 
+
+Currency translation adjustment
+
+1,491,998 
+
+ 
+
+Balance, June 30, 2015
+
+$ 12,433,509 
+
+ 
+
+ 
+
+Year ended June 30, 2014 
+
+ 
+
+Property acquisition costs
+
+ 
+
+Balance, June 30, 2013
+
+$3,157,221 
+
+Additions
+
+212,963 
+
+ 
+
+Balance, June 30, 2014
+
+$3,370,184 
+
+ 
+
+Exploration and evaluation costs
+
+ 
+
+Balance, June 30, 2013
+
+$4,784,552 
+
+ 
+
+Costs incurred during year:
+
+ 
+
+Consulting (Note 10)
+
+180,696 
+
+Engineering
+
+128,678 
+
+Environmental
+
+461,864 
+
+Field supplies
+
+473 
+
+Metallurgy
+
+854 
+
+Other costs
+
+52,623 
+
+Permits and fees
+
+49,510 
+
+Travel and accommodations
+
+21,230 
+
+ 
+
+ 
+
+895,928 
+
+ 
+
+Balance, June 30, 2014
+
+5,680,480 
+
+ 
+
+Other income
+
+(388,235)
+
+Currency translation adjustment
+
+114,961 
+
+ 
+
+Balance, June 30, 2014
+
+$ 8,777,390 
+
+ 
+
+ 
+ 
+
+ 
+USA – Oregon 
+On February 5, 2013, the Company exercised its option to acquire a 100% interest in the Grassy Mountain Project from Seabridge Gold Inc. (“Seabridge”) by issuing 6,433,000 common shares (the “Issued Shares”) and 4,567,000 Special Warrants to Seabridge. The shares and Special Warrants were valued at $0.19 each which was based on the trading price of the shares at the date of issuance. Each Special Warrant is exercisable to acquire one additional common share of the Company (a “Special Warrant Share”) for no additional consideration. The Special Warrants can only be exercised to the extent that, after exercise, Seabridge holds less than 20% of the outstanding shares of the Company. Calico has agreed to ask its shareholders to approve the exercise of those outstanding Special Warrants and approve Seabridge then holding more than 20% of the issued shares in Calico. Pursuant to the agreement, the Company agreed to guarantee the obligations of Calico Resources USA Corp., including those guaranteed to Seabridge. 
+On September 26, 2013, Seabridge acquired, on behalf of its wholly owned subsidiary, Seabridge Gold Corp., 1,671,000 common shares upon exercise of 1,671,000 Special Warrants. Including the initial 2,000,000 common shares issued under the original definitive option agreement dated April 18, 2011, at that time, Seabridge then owned and controlled 10,104,000 common shares and 2,896,000 Special Warrants of the Company, representing 19.55% of the outstanding common shares and 100% of the Special Warrants of the Company. 
+On February 19, 2014, the Company held its Annual and Special General Meeting of its shareholders. Shareholders approved the exercise by Seabridge of the balance of its 2,896,000 Special Warrants, then resulting in Seabridge holding 13 million common shares of the Company, representing 23.81% of Calico’s common shares at that time. With subsequent share issuances, this interest has fallen below 20%. 
+There are existing letters of credit posted with the State of Oregon – Department of Geology and Mineral Industries (DOGAMI) in the amount of $146,200 in respect of possible reclamation work required on the property. This existing security has been posted by Seabridge. The Company is required to use reasonable commercial efforts to arrange for the release of the existing security and replace this existing security with new letters of credit or reclamation bonds as soon as possible after registered title to the property has transferred to the Company. The intention of the Company is to replacement of security; however this has not been completed. 
+On November 1, 2014, the Company entered into an amendment of the mining lease and agreement regarding Grassy Mountain with Sherry and Yates Inc., which originally provided the Company with an option to buy down the royalty to 1%, with a cash payment of $2.1 US million at any time up to February 16, 2015. The terms of the agreement as originally entered into on February 16, 2004 provided for production royalty payments to be based on the price of gold. The rates are as follows: 
+ 
+
+ 
+
+ 
+
+Production Royalty Rate on Gross Proceeds
+
+Gold Price Per Ounce ($US)
+
+4.0%
+
+Less than $500
+
+5.0%
+
+$500-800
+
+6.0%
+
+Over $800
+
+In addition, the original agreement provides for a 4% production royalty on any other metals, other than gold. 
+On November 1, 2014, Sherry & Yates Inc. agreed to amend the buy down option as follows: 
+from February 17, 2015 to February 16, 2016 the royalty can be bought down to 1% for $2.2 US million; 
+from February 17, 2016 to February 16, 2017 the royalty can be bought down to 1.25% for $2.3 US million; and 
+from February 17, 2017 to February 16, 2018 the royalty can be bought down to 1.5% for $2.4 US million. 
+ 
+
+ 
+The advance royalty payment remains the same at $100,000 US per year, due on February 15th of each year. 
+
+6.
+
+Trade payables and accrued liabilities 
+ 
+
+ 
+
+ 
+
+June 30, 2015
+
+ 
+
+June 30, 2014
+
+Trade payables * 
+
+$
+
+671,942
+
+$
+
+ 763,705
+
+Amounts due to related parties (Note 10) 
+
+ 
+
+121,217
+
+ 
+
+112,900
+
+Accrued liabilities 
+
+ 
+
+114,404
+
+ 
+
+32,000
+
+ 
+
+$
+
+907,563
+
+$
+
+908,605
+
+ 
+ 
+*Included in trade payables is the amount of $443,246 (2014: $573,725) representing invoiced legal fees from the Company’s previous legal counsel. The Company is contesting the amount of these invoices, and an action has commenced in the Supreme Court of British Columbia for a review of all of these invoices to determine what amount for which the Company would then be liable. The Company is uncertain, at this time, as to how long the review process will take. 
+
+7.
+
+Loans payable 
+At June 30, 2014, the Company had two loans payable as follows: 
+On November 13, 2013, the Company received a loan from Seabridge Gold Inc. and as a result issued a promissory note in the principal amount of $100,000 plus simple interest of 5%. On July 14, 2014, the Company issued 859,477 common shares at a price of $0.12 in settlement of the Seabridge loan of $100,000, plus accrued interest of $3,137. 
+On March 21, 2014, the Company received a loan from an unrelated party and as a result issued a promissory note in the principal amount of $150,000 plus interest accruing at a rate of 5%. On July 17, 2014, the Company repaid the loan plus interest in full settlement. 
+
+8.
+
+Share capital and other components of equity 
+Authorized share capital 
+Unlimited number of common shares without par value. 
+Issued share capital 
+At June 30, 2015, there were 102,445,845 issued and fully paid common shares (June 30, 2014 – 54,137,036). 
+On August 7 and September 26, 2013 1,170,500 warrants with an expiry date of September 26, 2013 were exercised at $0.12 per share for total proceeds of $140,460. 
+On September 26, 2013, Seabridge acquired, on behalf of its wholly owned subsidiary, Seabridge Gold Corp., 1,671,000 common shares upon exercise of 1,671,000 Special Warrants. 
+On April 30, 2014, the Company announced the closing of the first tranche of private placement financing. In the first tranche, Calico issued a total of 2,441,667 units at the price of $0.12 per unit, raising gross proceeds of $293,000. 
+ 
+
+ 
+On July 3, 2014, the Company closed the second tranche of its non-brokered private placement originally announced March 25, 2014. In the second tranche, the Company issued 800,000 units at a price of $0.12 per unit. The total gross proceeds raised in this tranche amounted to $96,000. 
+On July 14, 2014, the TSX Venture Exchange approved the issuance of a total of 2,526,144 shares and 833,333 share purchase warrants in settlement of a total of $303,137 in Company debt. The Company issued 1,666,667 units at a price of $0.12 per unit in settlement of legal fees of $200,000. Each unit is comprised of one common share and one-half of one transferable share purchase warrant. Each warrant is exercisable at a price of $0.15 into one common share until July 14, 2015. Additionally, the Company issued 859,477 common shares at a price of $0.12 in settlement of the Seabridge loan of $100,000, plus accrued interest of $3,137. 
+On July 17 and 25, 2014, the Company closed the third and final tranche of its non-brokered private placement originally announced March 25, 2014. In the third tranche, the Company issued a total of 5,033,334 units at a price of $0.12 per unit. The total gross proceeds raised in this tranche amounted to $604,000. 
+On August 6, 2014, Seabridge Gold Inc., on behalf of its wholly-owned subsidiary, Seabridge Gold Corporation, exercised 2,896,000 special warrants and was issued 2,896,000 common shares. 
+On October 6 and 17, 2014, the Company closed the first and second tranche of a non brokered private placement originally announced September 10, 2014. The Company issued a total of 12,053,331 units at $0.15 per unit, raising total gross proceeds of $1,808,000. Each Unit consists of one common share and one-half of one share purchase warrant. Each full warrant entitles the holder to purchase one additional common share of the Company for a period of 12 months from closing of the private placement, at an exercise price of $0.18 per share for the first six-month period following closing and at an exercise price of $0.21 per share for the second six-month period following closing. The Company paid a 5% cash finder’s fee to certain parties who qualified in accordance with securities legislation and TSX Venture Exchange policies to receive a finders’ fee. 
+On May 28, 2015, the Company closed its non-brokered private placement financing originally announced on May 6, 2015. The Company issued 25,000,000 common shares in the private placement, raising total gross proceeds of $2,000,000. No warrants, commissions or finder’s fees were paid in connection with the financing. 
+Warrants 
+The following table summarizes information about the issued and outstanding warrants for the year ended June 30, 2015 and 2014: 
+ 
+
+ 
+
+June 30, 2015
+ 
+
+June 30, 2014
+ 
+
+ 
+
+Number ofwarrants
+
+Weighted averageexercise price
+
+Number ofwarrants
+
+Weighted average exercise price
+
+ 
+
+ 
+
+Warrants outstanding, beginning of year
+
+5,753,683
+
+$0.29
+
+8,860,350
+
+$0.35
+
+Warrants issued
+
+9,776,663
+
+0.18
+
+1,220,833
+
+0.15
+
+Warrants exercised
+
+-
+
+-
+
+(1,170,500)
+
+0.12
+
+Warrants expired
+
+(5,753,683)
+
+0.29
+
+(3,157,000)
+
+0.46
+
+ 
+
+ 
+
+Warrants outstanding and exercisable, end of year
+
+9,776,663
+
+$0.18
+
+5,753,683
+
+$0.29
+
+ 
+
+Subsequent to June 30, 2015, 3,750,000 warrants with an exercise price of $0.15 expired. 
+ 
+
+ 
+As at June 30, 2015 there were 9,776,663 warrants outstanding and exercisable as follows: 
+ 
+
+Number of warrants outstanding
+
+Exercise price
+
+Expiry date
+
+400,000
+
+$0.15
+
+July 3, 2015
+
+833,333
+
+$0.15
+
+July 14, 2015
+
+1,266,667
+
+$0.15
+
+July 17, 2015
+
+1,250,000
+
+$0.15
+
+July 25, 2015
+
+3,981,663
+
+$0.21
+
+October 6, 2015
+
+2,045,000
+
+$0.21
+
+ October 17, 2015
+
+9,776,663
+
+ 
+
+ 
+
+ 
+Special warrants 
+ 
+
+ 
+
+June 30, 2015
+
+ 
+
+ 
+
+ 
+
+Number of specialwarrants
+
+Weighted average exercise price
+
+ 
+
+Special warrants outstanding, beginning of year
+
+2,896,000
+
+$ -
+
+Special warrants exercised
+
+(2,896,000)
+
+ -
+
+ 
+
+Special warrants outstanding, end of year
+
+-
+
+$ - 
+
+ 
+
+On August 6, 2014, Seabridge Gold Inc., on behalf of its wholly-owned subsidiary, Seabridge Gold Corporation, exercised 2,896,000 special warrants and was issued 2,896,000 common shares. 
+Stock options 
+The Company has adopted an incentive stock option plan, which provides that the Board of Directors of the Company may from time to time, in its discretion, and in accordance with the TSX Venture Exchange requirements, grant to directors, officers, employees and technical consultants of the Company, non-transferable stock options to purchase common shares, provided that the number of common shares reserved for issuance is a rolling plan of 10% of the issued and outstanding common shares. Such options will be exercisable for a period of up to 5 years from the date of grant. Subject to the Board of Directors discretion, options vest on date of grant. 
+ 
+
+ 
+The changes in options during the year ended June 30, 2015 and 2014 are as set out below: 
+ 
+
+ 
+
+June 30, 2015
+
+June 30, 2014
+
+ 
+
+ 
+
+ 
+
+ 
+
+Number ofoptions
+
+Weighted averageexercise price
+
+Number of
+options
+
+Weighted averageexercise price
+
+ 
+
+Options outstanding and exercisable, beginning of year
+
+1,415,000
+
+$0.45
+
+2,195,000
+
+$ 0.46 
+
+Options granted
+
+2,375,000
+
+0.16
+
+-
+
+- 
+
+Options cancelled/expired
+
+(570,000)
+
+0.40
+
+(780,000)
+
+0.47 
+
+ 
+
+Options outstanding and exercisable, end of year
+
+3,220,000
+
+$0.25
+
+1,415,000
+
+$0.45 
+
+ 
+
+As at June 30, 2015 there were 3,220,000 stock options outstanding as follows: 
+ 
+
+Number of stock options outstanding
+
+Exercise price
+
+Expiry date
+
+ 
+
+100,000 
+
+$ 0.40
+
+October 12, 2015
+
+500,000 
+
+$0.35
+
+December 14, 2015
+
+50,000 
+
+$0.40
+
+May 12, 2016
+
+110,000 
+
+$0.60
+
+June 10, 2016
+
+25,000 
+
+$0.60
+
+August 22, 2016
+
+185,000 
+
+$0.60
+
+ December 22, 2016
+
+1,35,0000 
+
+$0.16
+
+August 18, 2019
+
+600,000 
+
+$0.17
+
+August 25, 2019
+
+300,000 
+
+$0.17
+
+January 20, 2020
+
+ 
+
+3,220,000 
+
+ 
+
+ 
+
+ 
+
+The weighted average expected life remaining of stock options outstanding at June 30, 2015 is 3.16 years (June 30, 2014 – 2.40 years). 
+On August 18, 2014, the Company granted 1.35 million incentive stock options to key non-director employees of the Company at an exercise price of $0.16 per share and exercisable for five years. Of these options, 675,000 vest immediately while the remaining 675,000 will vest immediately while the remaining 
+675,000 will vest upon the earlier of: (1) the sale of the Company; (2) sale of the Grassy Mountain asset; (3) completion of a joint venture agreement on Grassy Mountain; or (4) approval of a Plan of Operation by the state of Oregon. 
+On August 25, 2014, the Company granted 725,000 incentive stock options to directors and consultants of the Company pursuant to its stock option plan. These options are exercisable for a period of five years from the grant date at a price of $0.17 per share. Of these options 362,500 will vest immediately while the remaining 362,500 will vest upon the earlier of: (1) the sale of the Company; (2) sale of the Grassy Mountain asset; (3) completion of a joint venture agreement on Grassy Mountain; or (4) approval of a Plan of Operation by the state of Oregon. 
+On January 20, 2015, the Company granted 300,000 incentive stock options to directors of the Company pursuant to its stock option plan. These options are exercisable for a period of five years from the grant date at a price of $0.17 per share. Of these options 150,000 will vest immediately while the remaining 150,000 will vest upon the earlier of: (1) the sale of the Company; (2) sale of the Grassy Mountain asset; (3) completion of a joint venture agreement on Grassy Mountain; or (4) approval of a Plan of Operation by the state of Oregon. 
+ 
+
+ 
+For the year ended June 30, 2015, the Company recorded share-based payments of $198,848 (2014 - $Nil), based on the following weighted average assumptions: 
+ 
+
+ 
+
+June 30, 2015 
+
+June 30, 2014 
+
+ 
+
+Expected life of options
+
+5 years
+
+ - 
+
+Annualized volatility
+
+113%
+
+- 
+
+Risk-free interest rate
+
+1.39%
+
+- 
+
+Dividend rate
+
+0%
+
+- 
+
+ 
+
+9.
+
+Reserves 
+Stock option reserves 
+The stock option reserve records items recognized as share-based payments until such time that the stock options are exercised, at which time the corresponding amount will be transferred to share capital. 
+ 
+Warrant reserves 
+The warrant reserve records items recognized as part of a unit financing, and for special warrants issued, until such time that the warrants are exercised, at which time the corresponding amount will be transferred to share capital. 
+Accumulated other comprehensive income 
+The accumulated other comprehensive income reserve records exchange differences arising on translation of a subsidiary of the Company that has a functional currency other than the Canadian dollar. 
+
+10.
+
+Related party balances and key management personnel 
+The following amounts due to related parties are included in trade payables and accrued liabilities. These amounts are unsecured, non-interest bearing and have no fixed terms of payments. All related party amounts are to key management personnel. 
+ 
+
+ 
+
+June 30,2015
+
+June 30, 2014 
+
+ 
+
+Directors and officers of the Company
+
+$ 121,217
+
+$ 112,900 
+
+ 
+
+ 
+
+ 
+
+ 
+Transactions with related parties are summarized in the table below: 
+
+ 
+
+ 
+
+Year ended
+
+ 
+
+ 
+
+June 30, 2015 
+
+ 
+
+June 30, 2014
+
+Management fees and other (1) 
+
+ 
+
+$400,295
+
+ 
+
+$326,808
+
+Director fees 
+
+ 
+
+- 
+
+ 
+
+24,025
+
+Share-based payment 
+
+ 
+
+175,506
+
+ 
+
+- 
+
+ 
+
+ 
+
+$575,801
+
+ 
+
+$350,833
+
+ 
+ (1) in 2015, $192,863 (2014: $142,295) of management fees were allocated to exploration and evaluation assets as warranted. 
+During the year, the Company issued 859,477 common shares at a price of $0.12 in settlement of a related party loan (Note 8). 
+
+11.
+
+Financial risk management 
+The Company is exposed in varying degrees to a variety of financial instrument related risks. The Board of Directors approves and monitors the risk management processes, inclusive of documented investment policies, counterparty limits, and controlling and reporting structures. The type of risk exposure and the way in which such exposure is managed is provided as follows: 
+ 
+Credit risk 
+Credit risk is the risk that one party to a financial instrument will fail to discharge an obligation and cause the other party to incur a financial loss. The Company’s primary exposure to credit risk is on its cash and cash equivalents held in bank accounts. The majority of cash and cash equivalents are deposited in bank accounts which are held with major banks in Canada and U.S.A. This risk is managed by using major banks that are high credit quality financial institutions as determined by rating agencies. 
+ 
+
+ 
+Liquidity risk 
+Liquidity risk is the risk that the Company will not be able to meet its financial obligations as they fall due. The Company has a planning and budgeting process in place to help determine the funds required to support the Company’s normal operating requirements on an ongoing basis. The Company ensures that there are sufficient funds to meet its short-term business requirements, taking into account its anticipated cash flows from operations and its holdings of cash and cash equivalents. 
+Historically, the Company’s main source of funding has been the issuance of equity securities for cash and cash equivalents, primarily through private placements. The Company’s access to financing is always uncertain. There can be no assurance of continued access to significant equity funding. 
+Foreign exchange risk 
+Foreign currency risk is the risk that the fair values of future cash flows of a financial instrument will fluctuate because they are denominated in currencies that differ from the respective functional currency. The Company does not hedge its exposure to fluctuations in foreign exchange rates. 
+The following is an analysis of the Canadian dollar equivalent of financial assets and liabilities that are denominated in U.S. dollars: 
+ 
+
+ 
+
+June 30, 2015
+ 
+
+June 30, 2014
+ 
+
+ 
+
+Cash and cash equivalents
+
+$5,551 
+
+$3,934 
+
+Accounts payable
+
+(478,185)
+
+ (271,447) 
+
+ 
+
+ 
+
+$ (472,634)
+
+ $ (267,513)
+
+ 
+
+Based on the above net exposures, as at June 30, 2015, a 10% change in the U.S. dollar to Canadian dollar exchange rate would impact the Company’s net loss by $47,263. 
+Interest rate risk 
+Interest rate risk is the risk that the fair value of future cash flows of a financial instrument will fluctuate because of changes in market interest rates. The Company is not exposed to significant interest rate risks. 
+Capital management 
+The Company’s policy is to maintain a strong capital base so as to maintain investor and creditor confidence and to sustain future development of the business. The capital structure of the Company consists of equity, comprising share capital, net of accumulated deficit. 
+There were no changes in the Company’s approach to capital management during the year. The Company is not subject to any externally imposed capital requirements. 
+ 
+Fair value 
+The Company’s financial instruments consist of cash and cash equivalents, trade payables and accrued liabilities and loans payable. The carrying value of these financial instruments approximates their fair values due to the short term nature of these instruments. 
+ 
+
+ 
+
+12.
+
+Segmented information 
+Operating segments 
+The Company operates in a single reportable operating segment – the acquisition and exploration of mineral properties. 
+Geographic segments 
+The Company’s non-current assets are located in the following countries: 
+ 
+
+ 
+
+As at June 30, 2015
+
+ 
+
+ 
+
+ 
+
+Canada
+
+U.S.A.
+
+Total 
+
+ 
+
+Exploration and evaluation assets
+
+-
+
+12,433,509
+
+12,433,509 
+
+ 
+
+ 
+
+$-
+
+$ 12,433,509
+
+$ 12,433,509 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+As at June 30, 2014
+
+ 
+
+ 
+
+ 
+
+Canada
+
+U.S.A.
+
+Total 
+
+ 
+
+Equipment
+
+$ 1,349
+
+$-
+
+$1,349 
+
+Exploration and evaluation assets
+
+-
+
+8,777,390
+
+8,777,390 
+
+ 
+
+ 
+
+$1,349
+
+$8,777,390
+
+$8,778,739 
+
+ 
+
+13.
+
+Supplemental disclosure with respect to cash flows 
+During the year ended June 30, 2015 and 2014, the Company incurred the following non-cash investing and financing activities that are not reflected in the statements of cash flows: 
+ 
+
+ 
+
+Year ended
+
+ 
+
+ 
+
+ 
+
+June 30,
+2015
+
+June 30,
+2014
+
+ 
+
+Exploration and evaluation assets included in trade payables and accrued liabilities
+
+$ 289,104
+
+$ 102,752 
+
+Shares issued for debt
+
+$ 303,137
+
+- 
+
+ 
+
+ 
+
+ 
+
+ 
+
+14.
+
+Income tax 
+The difference between tax expense for the year and the expected income taxes based on the statutory tax rates arises as follows: 
+ 
+
+ 
+
+June 30, 2015 
+
+June 30, 2014 
+
+ 
+
+Loss before tax per the accounts
+
+$ (810,920) 
+
+$ (968,836) 
+
+ 
+
+ 
+
+Income taxed at local statutory rates –26%
+
+ 
+
+ 
+
+(2014 – 26%)
+
+$(211,000) 
+
+$(252,000) 
+
+Foreign income taxed at other rate
+
+- 
+
+(2,000) 
+
+Non-deductible expense
+
+52,000 
+
+ 2,000 
+
+Share issue costs
+
+(13,000) 
+
+(1,000) 
+
+Expiry of loss carryforward
+
+60,000 
+
+ - 
+
+Effect of foreign exchange and other
+
+(104,000) 
+
+ 75,000 
+
+Unrecognized deferred tax assets
+
+216,000 
+
+ 178,000 
+
+ 
+
+ 
+
+$- 
+
+$- 
+
+ 
+
+Effective July 1, 2014, the Canadian Federal corporate tax rate remained at 15% and the British Columbia provincial tax at 11%. The combined US Federal and applicable State tax rate is 38.36%. 
+ 
+
+ 
+The nature and tax effect of the taxable temporary differences giving rise to deferred tax assets and liabilities are summarized as follows: 
+
+ 
+
+June 30, 2015
+
+June 30, 2014
+
+ 
+
+Non-capital losses 
+
+$2,285,000
+
+$ 1,898,000 
+
+Un deducted financing costs 
+
+28,000
+
+37,000 
+
+Cumulative eligible capital 
+
+5,000
+
+5,000 
+
+Deferred Tax Asset 
+
+2,318,000
+
+1,940,000 
+
+Offset deferred tax liabilities 
+
+(832,000)
+
+(670,000) 
+
+ 
+
+1,486,000
+
+1,270,000 
+
+Unrecognized deferred tax liability 
+
+ (1,486,000)
+
+ (1,270,000) 
+
+Net deferred tax assets 
+
+ - 
+
+ - 
+
+ 
+
+ 
+ 
+Deferred Tax Assets and Liabilities 
+As at June 30, 2015, the Company has estimated non-capital losses for income tax purposes that may be carried forward to reduce taxable income derived in future years, as summarized below. 
+Canadian non-capital losses expire as follows: 
+ 
+
+Year of Expiry
+
+ 
+
+2026
+
+$68,000 
+
+2027
+
+29,000 
+
+2028
+
+57,000 
+
+2029
+
+81,000 
+
+2030
+
+179,000 
+
+2031
+
+644,000 
+
+2032
+
+1,117,000 
+
+2033
+
+1,027,000 
+
+2034
+
+1,042,000 
+
+2035
+
+692,000 
+
+ 
+
+ 
+
+Total
+
+$ 4,936,000 
+
+ 
+
+ 
+
+United States operating tax losses expire as follows: 
+ 
+
+Year of Expiry
+
+ 
+
+2031
+
+$8,000 
+
+2032
+
+569,000 
+
+2033
+
+421,000 
+
+2034
+
+501,000 
+
+2035
+
+591,000 
+
+ 
+
+ 
+
+Total
+
+$ 2,090,000 
+
+ 
+
+ 
+
+Prior year comparatives have been reclassified in order to conform to the current year presentation. 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Calico Resources Corp.
+Condensed Consolidated Interim Financial Statements
+Nine Month Period Ended March 31, 2016
+(Unaudited – prepared by Management)
+(Expressed in Canadian Dollars)
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+MANAGEMENT’S RESPONSIBILITY FOR FINANCIAL REPORTING
+ 
+The condensed consolidated interim unaudited financial statements of Calico Resources Corp. (An Exploration Stage Company) are the responsibility of the Company’s management. The financial statements are prepared in accordance with International Financial Reporting Standards as issued by the International Accounting Standards Board and reflect management’s best estimates and judgment based on information currently available.
+ 
+Management has developed and maintains a system of internal controls to ensure that the Company’s assets are safeguarded, transactions are authorized and properly recorded and financial information is reliable. 
+ 
+The Board of Directors is responsible for ensuring management fulfills its responsibilities for financial reporting and internal controls through an audit committee. The Audit Committee reviews the results of the condensed consolidated interim unaudited financial statements prior to their submission to the Board of Directors for approval.
+ 
+ 
+ 
+ 
+“Paul A Parisotto”“Alec Peck”
+Paul A ParisottoAlec Peck
+Chief Executive OfficerChief Financial Officer
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+Condensed Consolidated Unaudited Interim Financial Statements 
+ 
+In accordance with National Instruments 51-102 released by the Canadian Securities Administrators, the Company discloses that its auditors have not reviewed the condensed consolidated interim unaudited financial statements for the nine months ended March 31, 2016.
+ 
+ 
+
+ 
+
+Calico Resources Corp.
+Condensed consolidated interim unaudited statements of financial position
+(Expressed in Canadian dollars)
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+March 31,
+
+June 30,
+
+Notes
+
+2016
+
+2015
+
+ASSETS
+
+ 
+
+ 
+
+ 
+
+ 
+
+Current assets
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cash and cash equivalents
+
+3
+
+ 
+
+$157,655
+
+$1,791,499
+
+Receivables
+
+ 
+
+ 
+
+9,906
+
+11,207
+
+Prepaid expenses
+
+ 
+
+ 
+
+13,800
+
+12,483
+
+ 
+
+ 
+
+ 
+
+181,361
+
+1,815,189
+
+Non-current assets
+
+ 
+
+ 
+
+ 
+
+ 
+
+Exploration and evaluation assets
+
+4, 8
+
+ 
+
+14,351,982
+
+12,433,509
+
+ 
+
+ 
+
+ 
+
+14,351,982
+
+12,433,509
+
+TOTAL ASSETS
+
+ 
+
+ 
+
+$14,533,343
+
+$14,248,698
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+LIABILITIES
+
+ 
+
+ 
+
+ 
+
+ 
+
+Current liabilities
+
+ 
+
+ 
+
+ 
+
+ 
+
+Trade payables and accrued liabilities
+
+5, 8
+
+ 
+
+$1,007,387
+
+$907,563
+
+Loan payable
+
+12
+
+ 
+
+389,670
+
+-
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+TOTAL LIABILIITES
+
+ 
+
+ 
+
+1,397,057
+
+907,563
+
+SHAREHOLDERS’ EQUITY
+
+ 
+
+ 
+
+ 
+
+ 
+
+Share capital
+
+6
+
+ 
+
+18,615,361
+
+18,613,384
+
+Reserves
+
+7
+
+ 
+
+2,500,986
+
+2,463,604
+
+Accumulated other comprehensive income
+
+ 
+
+ 
+
+2,276,622
+
+1,841,170
+
+Deficit
+
+ 
+
+ 
+
+(10,256,683)
+
+(9,577,023)
+
+TOTAL SHAREHOLDERS’ EQUITY
+
+ 
+
+ 
+
+13,136,286
+
+13,341,135
+
+TOTAL LIABILITIES AND SHAREHOLDERS’ EQUITY
+
+ 
+
+ 
+
+$14,533,343
+
+$14,248,698
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Subsequent event Note 13
+ 
+Approved on behalf of the Board by:
+ 
+“John Pollesel”…… Director
+John Pollesel
+ 
+“Kevin Milledge” ….. Director 
+Kevin Milledge
+ 
+ 
+See accompanying notes to the condensed consolidated interim unaudited financial statements33
+
+Calico Resources Corp.
+Condensed consolidated interim unaudited statements of loss and comprehensive income 
+(Expressed in Canadian dollars)
+ 
+
+ 
+
+Three month period ended March 31,
+
+Nine month period ended March 31,
+
+ 
+
+2016
+
+2015
+
+2016
+
+2015
+
+Expenses
+
+ 
+
+ 
+
+ 
+
+ 
+
+Audit and tax services
+
+ $6,250
+
+ $8,000
+
+ $20,400
+
+ $26,468
+
+Administration
+
+ 16,851 
+
+ 23,169 
+
+ 58,157 
+
+ 75,436 
+
+Arrangement agreement 
+
+ 291,471 
+
+ - 
+
+ 291,471 
+
+ - 
+
+Insurance
+
+ 3,375 
+
+ 2,663 
+
+ 9,458 
+
+ 7,988 
+
+Investor relations
+
+ 2,384 
+
+ 3,944 
+
+ 4,893 
+
+ 11,616 
+
+Legal services
+
+ 20,038 
+
+ 41,942 
+
+ 104,203 
+
+ 103,047 
+
+Management fees 
+
+ 52,458 
+
+ 50,270 
+
+ 143,843 
+
+ 141,957 
+
+Share-based payments
+
+ 12,460 
+
+ 33,616 
+
+ 37,382 
+
+ 188,178 
+
+Transfer agent and filing fees
+
+ 2,410 
+
+ 10,101 
+
+ 8,614 
+
+ 41,623 
+
+Travel, promotion and board meetings
+
+ 584 
+
+ 7,780 
+
+ 7,293 
+
+ 17,601 
+
+ 
+
+ (408,281)
+
+ (181,485)
+
+ (685,714)
+
+ (613,914)
+
+Other items
+
+ 
+
+ 
+
+ 
+
+ 
+
+Interest income
+
+ 2,252 
+
+ 1,970 
+
+ 5,914 
+
+ 2,028 
+
+Interest expense
+
+ - 
+
+ - 
+
+ - 
+
+ (4,723)
+
+Foreign exchange gain / (loss)
+
+ (10,026)
+
+ (31,481)
+
+ 140 
+
+ (18,773)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Net loss for period
+
+ (416,055)
+
+ (210,996)
+
+ (679,660)
+
+ (635,382)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Other comprehensive income
+
+ 
+
+ 
+
+ 
+
+ 
+
+Exchange differences on translating foreign operations
+
+ (925,773)
+
+ 965,297 
+
+ 435,452 
+
+ 1,740,534 
+
+Total comprehensive income / (loss)
+
+ $(1,341,828)
+
+ $754,301
+
+ $(244,208)
+
+ $1,105,152
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Loss per share – basic and diluted
+
+ $(0.00)
+
+ $(0.00)
+
+ $(0.01)
+
+ $(0.01)
+
+Weighted average number of common shares outstanding
+
+ 102,445,845 
+
+ 77,445,845 
+
+ 102,445,845 
+
+ 72,132,274 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+See accompanying notes to the condensed consolidated interim unaudited financial statements
+
+Calico Resources Corp.
+Condensed consolidated interim unaudited statements of changes in shareholders’ equity
+(Expressed in Canadian dollars)
+ 
+ 
+
+ 
+
+Share Capital
+
+Subscriptions Received
+
+Reserves
+
+Accumulated other comprehensive income
+
+Deficit
+
+Total
+
+ 
+
+Number of shares
+
+Amount
+
+Amount
+
+Warrant and stock option reserves
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Balance at June 30, 2014
+
+ 54,137,036 
+
+$13,721,608 
+
+ $54,000 
+
+ $2,399,598 
+
+ $260,233 
+
+ $(8,766,103)
+
+ $7,669,336 
+
+Shares issued for cash - private placements
+
+ 17,886,665 
+
+ 2,508,000 
+
+ (54,000)
+
+ - 
+
+ - 
+
+ - 
+
+ 2,454,000 
+
+Fair value of share purchase warrants
+
+-
+
+ (421,197)
+
+ -
+
+ 421,197
+
+ -
+
+ -
+
+ - 
+
+Shares issued for debt
+
+ 2,526,144
+
+ 303,137
+
+ - 
+
+ - 
+
+ - 
+
+ - 
+
+ 303,137 
+
+Share issue costs
+
+ - 
+
+ (30,395)
+
+ - 
+
+ (5,799)
+
+ -
+
+ -
+
+ (36,194)
+
+Shares issued non-cash
+
+2,896,000
+
+ 550,240
+
+ - 
+
+(550,240)
+
+ -
+
+ - 
+
+ - 
+
+Share-based payment
+
+-
+
+-
+
+ 
+
+ 188,178 
+
+-
+
+-
+
+ 188,178 
+
+Currency translation adjustment
+
+ -
+
+ - 
+
+ - 
+
+ - 
+
+ 1,740,534
+
+ -
+
+ 1,740,534 
+
+Net loss for the period
+
+ -
+
+ - 
+
+ - 
+
+ - 
+
+-
+
+ (635,382)
+
+ (635,382)
+
+Balance at March 31, 2015
+
+ 77,445,845 
+
+ $16,631,393 
+
+ $ - 
+
+ $2,452,934 
+
+ $2,000,767 
+
+ $9,401,485)
+
+ $11,683,609 
+
+Balance at June 30, 2015
+
+ 102,445,845 
+
+ $18,613,384 
+
+ $ - 
+
+ $2,463,604 
+
+ $1,841,170 
+
+ $(9,577,023)
+
+ $13,341,135 
+
+Share issue cost recovery
+
+ - 
+
+ 1,977 
+
+ - 
+
+ - 
+
+ - 
+
+ - 
+
+ 1,977 
+
+Share-based payment
+
+ - 
+
+ - 
+
+ - 
+
+ 37,382 
+
+ - 
+
+ - 
+
+ 37,382 
+
+Currency translation adjustment
+
+ - 
+
+ - 
+
+ - 
+
+ - 
+
+ 435,452 
+
+ - 
+
+ 435,452 
+
+Net loss for the period
+
+ - 
+
+ - 
+
+ - 
+
+ - 
+
+ - 
+
+ (679,660)
+
+ (679,660)
+
+Balance at March 31, 2016
+
+ 102,445,845 
+
+ $18,615,361 
+
+ $ -
+
+ $2,500,986 
+
+ $2,276,622 
+
+ $(10,256,683)
+
+ $13,136,286 
+
+ 
+See accompanying notes to the condensed consolidated interim unaudited financial statements35
+
+Calico Resources Corp.
+Condensed consolidated interim unaudited sstatements of cash flows
+(Expressed in Canadian dollars)
+ 
+ 
+
+ 
+
+Three month period ended March 31,
+
+Nine month period ended March 31,
+
+ 
+
+2016
+
+2015
+
+2016
+
+2015
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Operating activities
+
+ 
+
+ 
+
+ 
+
+ 
+
+Net loss for period
+
+ $(416,055)
+
+ $(210,996)
+
+ $(679,660)
+
+ $(635,382)
+
+Adjustments for non-cash items:
+
+ 
+
+ 
+
+ 
+
+ 
+
+Depreciation
+
+ - 
+
+ 1,147 
+
+ - 
+
+ 1,349 
+
+Share-based payments
+
+ 12,460 
+
+ 33,616 
+
+ 37,382 
+
+ 188,178 
+
+Changes in non-cash working capital items:
+
+ 
+
+ 
+
+ 
+
+ 
+
+Other receivable and prepaid expenses
+
+ (3,603)
+
+ (10,287)
+
+ (16)
+
+ 16,021 
+
+Trade payables and accrued liabilities
+
+ 301,935 
+
+ 40,563 
+
+ 285,905 
+
+ (218,425)
+
+Net cash flows used in operating activities
+
+ (105,263)
+
+ (145,957)
+
+ (356,389)
+
+ (648,259)
+
+Investing activities
+
+ 
+
+ 
+
+ 
+
+ 
+
+Expenditures on exploration and evaluation assets
+
+ (543,273)
+
+ (724,454)
+
+ (1,609,802)
+
+ (1,655,713)
+
+Net cash flows used in investing activities
+
+ (543,273)
+
+ (724,454)
+
+ (1,609,802)
+
+ (1,655,713)
+
+Financing activities
+
+ 
+
+ 
+
+ 
+
+ 
+
+Proceeds on issuance of common shares
+
+ - 
+
+ - 
+
+ - 
+
+ 2,417,806 
+
+Loan payable
+
+ 389,670 
+
+ - 
+
+ 389,670 
+
+ - 
+
+Share issue cost recovery
+
+ - 
+
+ - 
+
+ 1,977 
+
+ - 
+
+Net cash flows from investing activities
+
+ 389,670 
+
+ - 
+
+ 391,647 
+
+ 2,417,806 
+
+Currency translation adjustment
+
+ (76,631)
+
+ 89,644 
+
+ (59,300)
+
+ 103,827 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Increase / (decrease) in cash and cash equivalents
+
+ (335,497)
+
+ (780,767)
+
+ (1,633,844)
+
+ 217,661 
+
+Cash and cash equivalents, beginning of the period
+
+493,152
+
+ 1,006,117 
+
+ 1,791,499 
+
+ 7,689 
+
+Cash and cash equivalents, end of the period
+
+ $157,655 
+
+ $225,350 
+
+ $157,655 
+
+ $225,350 
+
+ 
+ 
+Note 11 – Non-cash transactions
+ 
+ 
+See accompanying notes to the condensed consolidated interim unaudited financial statements36
+
+Calico Resources Corp.
+Notes to the condensed consolidated interim unaudited financial statements
+(Expressed in Canadian dollars)
+For the nine month period ended March 31, 2016 and 2015
+ 
+ 
+
+1.
+
+Nature of operations 
+ 
+Calico Resources Corp. (the “Company”) and its wholly owned subsidiary, Calico Resources USA Corp. are focused on advancing its 100% owned Grassy Mountain Gold Project (“Grassy Mountain”) located in Oregon, U.S.A. The Company’s shares are traded on the TSX Venture Exchange (“TSX-V”) under the symbol “CKB”. The head office and principal address of the Company is located at Suite 615, 800 West Pender Street, Vancouver, British Columbia, Canada, V6C 2V6. The Company’s registered and records office address is Suite 300 – 1168 Hamilton Street, Vancouver, British Columbia, Canada, V6B 2S2.
+ 
+
+2.
+
+Statement of compliance and basis of preparation
+ 
+These condensed consolidated interim unaudited financial statements were authorized for issue on May 27, 2016 by the directors of the Company.
+ 
+Statement of compliance 
+ 
+These condensed consolidated interim unaudited financial statements have been prepared in accordance with International Accounting Standard 34, Interim Financial Reporting (“IAS 34”) using accounting policies consistent with International Financial Reporting Standards (“IFRS”) as issued by the International Accounting Standards Board (“IASB”) and interpretations of the International Financial Reporting Interpretations Committee (“IFRIC”). The accounting policies and methods of computation applied by the Company in these condensed consolidated interim unaudited financial statements are the same as those applied in the Company’s annual financial statements as at and for the year ended June 30, 2015.
+ 
+The condensed consolidated interim unaudited financial statements do not include all of the information and note disclosures required for full annual financial statements and should be read in conjunction with the Company’s annual financial statements as at and for the year ended June 30, 2015.
+ 
+Going concern
+ 
+These condensed consolidated interim unaudited financial statements have been prepared on the assumption that the Company will continue as a going concern, meaning it will continue in operation for the foreseeable future and will be able to realize assets and discharge liabilities in the ordinary course of operations. A different basis of measurement may be appropriate if the Company was not expected to continue operations for the foreseeable future. At March 31, 2016, the Company had not achieved profitable operations, had a net loss of $679,660 for the nine month period ended March 31, 2016 and accumulated losses of $10,256,683 since inception, had not advanced its mineral properties to commercial production and expects to incur further losses in the development of its business, all of which indicate a material uncertainty that may cast significant doubt upon the Company’s ability to continue as a going concern. The Company’s continuation as a going concern is dependent upon successful results from its mineral property exploration activities and its ability to attain profitable operations to generate funds and/or its ability to raise equity capital or borrowings sufficient to meet its current and future obligations. Although the Company has been successful in the past in raising funds to continue operations, there is no assurance it will be able to do so in the future. (See also Note 12)
+
+ 
+
+Calico Resources Corp.
+Notes to the condensed consolidated interim unaudited financial statements
+(Expressed in Canadian dollars)
+For the nine month period ended March 31, 2016 and 2015
+ 
+ 
+
+2.
+
+Statement of compliance and basis of preparation (cont’d)
+ 
+Basis of preparation
+ 
+The condensed consolidated interim unaudited financial statements have been prepared on a historical cost basis. The condensed consolidated interim unaudited financial statements are presented in Canadian dollars.
+ 
+Significant accounting judgments and estimates 
+ 
+These condensed consolidated interim unaudited financial statements are unaudited and prepared on a condensed basis in accordance with the International Accounting Standards (“IAS”) 34, Interim Financial Reporting issued by the International Accounting Standard Board (“IASB”). These condensed consolidated interim unaudited financial statements have been prepared in accordance with the accounting policies described in Note 3 of the Company’s Annual Financial Statements as at and for the year ended June 30, 2015. Accordingly, these condensed consolidated interim unaudited financial statements for the nine month period ended March 31, 2016 and 2015 should be read together with the Annual Financial Statements as at, and for the year ended, June 30, 2015.
+ 
+The following standards and interpretations have been issued but are not yet effective:
+The following standards, interpretations and amendments, which have not been applied in these condensed consolidated interim unaudited financial statements, may have an effect on the Company’s future condensed consolidated interim unaudited financial statements. The Company is in the process of evaluating these new standards.
+ 
+IFRS 9 — Financial instruments, classification and measurement 
+IFRS 9 Financial Instruments is part of the IASB's wider project to replace IAS 39 Financial Instruments:
+Recognition and Measurement. IFRS 9 retains but simplifies the mixed measurement model and establishes two primary measurement categories for financial assets: amortized cost and fair value. The basis of classification depends on the entity's business model and the contractual cash flow characteristics of the financial asset. The standard is effective for annual periods beginning on or after January 1, 2018. The Company is in the process of evaluating the impact of the new standard.
+ 
+
+3.
+
+Cash and cash equivalents
+ 
+Cash and cash equivalents include guaranteed investment certificates with a term to maturity of up to three months from date of acquisition and which can be redeemed at any time without penalty. 
+
+ 
+
+Calico Resources Corp.
+Notes to the condensed consolidated interim unaudited financial statements
+(Expressed in Canadian dollars)
+For the nine month period ended March 31, 2016 and 2015
+ 
+ 
+
+4.
+
+Exploration and evaluation assets
+ 
+The following is a description of the Company’s Grassy Mountain exploration and evaluation assets and the related spending commitments.
+ 
+
+ 
+
+ 
+
+Period ended March 31, 2016
+
+Property acquisition costs
+
+ 
+
+Balance, June 30, 2015
+
+ $ 3,627,985 
+
+Additions
+
+ 268,059 
+
+Balance, March 31, 2016
+
+ $ 3,896,044 
+
+Exploration and evaluation costs
+
+ 
+
+Balance, June 30, 2015
+
+ $ 8,805,524 
+
+Costs incurred during period:
+
+ 
+
+Consulting (Note 8)
+
+ 347,376 
+
+Engineering
+
+ 17,393 
+
+Environmental
+
+ 492,764 
+
+Field supplies
+
+ 527 
+
+Other costs
+
+ 72,954 
+
+Permits and fees
+
+ 176,531 
+
+Travel and accommodations
+
+ 48,117 
+
+ 
+
+ 1,155,662 
+
+Balance, March 31, 2016
+
+ 9,961,186 
+
+Currency translation adjustment
+
+ 494,752 
+
+Balance, March 31, 2016
+
+ $ 14,351,982 
+
+ 
+ 
+USA – Oregon
+On February 5, 2013, the Company exercised its option to acquire a 100% interest in the Grassy Mountain Project from Seabridge Gold Inc. (“Seabridge”) by issuing 6,433,000 common shares (the “Issued Shares”) and 4,567,000 Special Warrants to Seabridge. The shares and Special Warrants were valued at $0.19 each which was based on the trading price of the shares at the date of issuance. Each Special Warrant is exercisable to acquire one additional common share of the Company (a “Special Warrant Share”) for no additional consideration. The Special Warrants can only be exercised to the extent that, after exercise, Seabridge holds less than 20% of the outstanding shares of the Company. Calico has agreed to ask its shareholders to approve the exercise of those outstanding Special Warrants and approve Seabridge then holding more than 20% of the issued shares in Calico. Pursuant to the agreement, the Company agreed to guarantee the obligations of Calico Resources USA Corp., including those guaranteed to Seabridge.
+ 
+On September 26, 2013, Seabridge acquired, on behalf of its wholly owned subsidiary, Seabridge Gold Corp., 1,671,000 common shares upon exercise of 1,671,000 Special Warrants. Including the initial 2,000,000 common shares issued under the original definitive option agreement dated April 18, 2011, at that time, Seabridge then owned and controlled 10,104,000 common shares and 2,896,000 Special Warrants of the Company, representing 19.55% of the outstanding common shares and 100% of the Special Warrants of the Company. 
+ 
+ 
+
+Calico Resources Corp.
+Notes to the condensed consolidated interim unaudited financial statements
+(Expressed in Canadian dollars)
+For the nine month period ended March 31, 2016 and 2015
+ 
+ 
+ 
+
+4.
+
+Exploration and evaluation assets (cont’d)
+ 
+On February 19, 2014, the Company held its Annual and Special General Meeting of its shareholders. Shareholders approved the exercise by Seabridge of the balance of its 2,896,000 Special Warrants, then resulting in Seabridge holding 13 million common shares of the Company, representing 23.81% of Calico’s common shares at that time. With subsequent share issuances, this interest has fallen below 20%. 
+ 
+There are existing letters of credit posted with the State of Oregon – Department of Geology and Mineral Industries (DOGAMI) in the amount of $146,200 in respect of possible reclamation work required on the property. This existing security has been posted by Seabridge. The Company is required to use reasonable commercial efforts to arrange for the release of the existing security and replace this existing security with new letters of credit or reclamation bonds as soon as possible after registered title to the property has transferred to the Company. The intention of the Company is to replace the security; however this has not been completed.
+ 
+On November 1, 2014, the Company entered into an amendment of the mining lease and agreement regarding Grassy Mountain with Sherry & Yates Inc., which originally provided the Company with an option to buy down the royalty to 1%, with a cash payment of $2.1 US million at any time up to February 16, 2015. The terms of the agreement as originally entered into on February 16, 2004 provided for production royalty payments to be based on the price of gold. The rates are as follows:
+ 
+Production Royalty Rate on Gross ProceedsGold Price Per Ounce ($US)
+4.0%Less than $500
+5.0%$500-800
+6.0%Over $800
+ 
+In addition, the original agreement provides for a 4% production royalty on any other metals, other than gold.
+ 
+On November 1, 2014, Sherry & Yates Inc. agreed to amend the buy down option as follows: 
+
+ 
+
+·
+
+from February 17, 2015 to February 16, 2016 the royalty can be bought down to 1% for $2.2 US million;
+
+ 
+
+·
+
+from February 17, 2016 to February 16, 2017 the royalty can be bought down to 1.25% for $2.3 US million; and 
+
+ 
+
+·
+
+from February 17, 2017 to February 16, 2018 the royalty can be bought down to 1.5% for $2.4 US million. 
+ 
+The advance royalty payment remains the same at $100,000 US per year, due on February 15th of each year. 
+
+ 
+
+Calico Resources Corp.
+Notes to the condensed consolidated interim unaudited financial statements
+(Expressed in Canadian dollars)
+For the nine month period ended March 31, 2016 and 2015
+ 
+ 
+
+5.
+
+Trade payables and accrued liabilities
+ 
+
+ 
+
+March 31,
+
+June 30,
+
+2016
+
+2015
+
+Trade payables 
+
+ $ 562,927 
+
+ $ 671,942 
+
+Amounts due to related parties (Note 8)
+
+ 126,965 
+
+ 121,217 
+
+Accrued liabilities
+
+ 317,495 
+
+ 114,404 
+
+ 
+
+ $ 1,007,387 
+
+ $ 907,563 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+6.
+
+Share capital and other components of equity 
+ 
+Authorized share capital
+ 
+Unlimited number of common shares without par value. 
+ 
+Issued share capital
+ 
+At March 31, 2016, there were 102,445,845 issued and fully paid common shares (June 30, 2015 – 102,445,845). 
+ 
+Warrants 
+ 
+The following table summarizes information about the issued and outstanding warrants for the period ended March 31, 2016 and the year ended June 30, 2015:
+ 
+
+ 
+
+March 31, 2016
+
+ 
+
+June 30, 2015
+
+ 
+
+Number of warrants
+
+Weighted average exercise price
+
+ 
+
+Number of warrants
+
+Weighted average exercise price
+
+Warrants outstanding, beginning of period
+
+9,776,663
+
+$0.18
+
+ 
+
+5,753,683
+
+$0.29
+
+Warrants issued
+
+-
+
+-
+
+ 
+
+9,776,663
+
+0.18
+
+Warrants exercised
+
+-
+
+-
+
+ 
+
+-
+
+-
+
+Warrants expired
+
+(9,776,663)
+
+0.18
+
+ 
+
+(5,753,683)
+
+0.29
+
+Warrants outstanding and exercisable, end of period
+
+-
+
+$-
+
+ 
+
+9,776,663
+
+$0.18
+
+ 
+ 
+
+ 
+
+Calico Resources Corp.
+Notes to the condensed consolidated interim unaudited financial statements
+(Expressed in Canadian dollars)
+For the nine month period ended March 31, 2016 and 2015
+ 
+ 
+
+6.
+
+Share capital (cont’d)
+ 
+As at March 31, 2016 there were no warrants outstanding.
+ 
+Stock options
+ 
+The Company has adopted an incentive stock option plan, which provides that the Board of Directors of the Company may from time to time, in its discretion, and in accordance with the TSX Venture Exchange requirements, grant to directors, officers, employees and technical consultants of the Company, non-transferable stock options to purchase common shares, provided that the number of common shares reserved for issuance is a rolling plan of 10% of the issued and outstanding common shares. Such options will be exercisable for a period of up to 5 years from the date of grant. Subject to the Board of Directors discretion, options vest on date of grant. (See also Note 12)
+ 
+The changes in options during the period ended March 31, 2016 and the year ended June 30, 2015 are as follows:
+ 
+
+ 
+
+March 31, 2016
+
+ 
+
+June 30, 2015
+
+ 
+
+Number of options
+
+Weighted average exercise price
+
+ 
+
+Number of options
+
+Weighted average exercise price
+
+Options outstanding and exercisable, beginning of period
+
+3,220,000
+
+$0.25
+
+ 
+
+1,415,000
+
+$0.45
+
+Options granted
+
+-
+
+-
+
+ 
+
+2,375,000
+
+0.16
+
+Options cancelled/expired
+
+(600,000)
+
+0.36
+
+ 
+
+(570,000)
+
+0.40
+
+Options outstanding and exercisable, end of period
+
+2,620,000
+
+$0.22
+
+ 
+
+3,220,000
+
+$0.25
+
+ 
+
+Calico Resources Corp.
+Notes to the condensed consolidated interim unaudited financial statements
+(Expressed in Canadian dollars)
+For the nine month period ended March 31, 2016 and 2015
+ 
+ 
+
+6.Share capital (cont’d)
+ 
+As at March 31, 2016 there were 2,620,000 stock options outstanding as follows:
+ 
+
+Number of stock options outstanding
+
+ 
+
+Exercise price
+
+ 
+
+Expiry date
+
+50,000
+
+ 
+
+$0.40
+
+ 
+
+May 12, 2016
+
+110,000
+
+ 
+
+$0.60
+
+ 
+
+June 10, 2016
+
+25,000
+
+ 
+
+$0.60
+
+ 
+
+August 22, 2016
+
+185,000
+
+ 
+
+$0.60
+
+ 
+
+December 22, 2016
+
+1,350,000
+
+ 
+
+$0.16
+
+ 
+
+August 18, 2019
+
+600,000
+
+ 
+
+$0.17
+
+ 
+
+August 25, 2019
+
+300,000
+
+ 
+
+$0.17
+
+ 
+
+January 20, 2020
+
+2,620,000
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+The weighted average expected life remaining of stock options outstanding at March 31, 2016 is 3.03 years (June 30, 2015 – 3.16 years).
+ 
+
+7.
+
+Reserves
+ 
+Stock option reserves
+ 
+The stock option reserve records items recognized as share-based payments until such time that the stock options are exercised, at which time the corresponding amount will be transferred to share capital. 
+ 
+Warrant reserves
+ 
+The warrant reserve records items recognized as part of a unit financing, and for special warrants issued, until such time that the warrants are exercised, at which time the corresponding amount will be transferred to share capital.
+ 
+Accumulated other comprehensive income
+ 
+The accumulated other comprehensive income reserve records exchange differences arising on translation of a subsidiary of the Company that has a functional currency other than the Canadian dollar.
+ 
+
+8.
+
+Related party balances and key management personnel
+ 
+The following amounts due to related parties are included in trade payables and accrued liabilities. These amounts are unsecured, non-interest bearing and have no fixed terms of payments. All related party amounts are to key management personnel.
+ 
+
+ 
+
+Calico Resources Corp.
+Notes to the condensed consolidated interim unaudited financial statements
+(Expressed in Canadian dollars)
+For the nine month period ended March 31, 2016 and 2015
+ 
+ 
+
+8.
+
+Related party balances and key management personnel (cont’d)
+ 
+
+ 
+
+ 
+
+March 31, 2016
+
+June 30, 2015
+
+Directors and officers of the Company
+
+ 
+
+$126,965
+
+$121,2017
+
+ 
+ 
+ 
+Transactions with related parties are summarized in the table below:
+ 
+
+ 
+
+Nine month period ended
+
+ 
+
+March 31, 2016
+
+March 31, 2015
+
+Management fees and other (1)
+
+$288,088
+
+$261,927
+
+Share-based payment
+
+32,845
+
+-
+
+ 
+
+$320,933
+
+$261,927
+
+ 
+
+ 
+
+(1)
+
+In 2016, $145,238 (2015: $142,762) of management fees were allocated to exploration and evaluation assets as warranted.
+ 
+ 
+ 
+9.Financial risk management
+ 
+The Company is exposed in varying degrees to a variety of financial instrument related risks. The Board of Directors approves and monitors the risk management processes, inclusive of documented investment policies, counterparty limits, and controlling and reporting structures. The type of risk exposure and the way in which such exposure is managed is provided as follows: 
+ 
+Credit risk
+ 
+Credit risk is the risk that one party to a financial instrument will fail to discharge an obligation and cause the other party to incur a financial loss. The Company’s primary exposure to credit risk is on its cash and cash equivalents held in bank accounts. The majority of cash and cash equivalents are deposited in bank accounts which are held with major banks in Canada and U.S.A. This risk is managed by using major banks that are high credit quality financial institutions as determined by rating agencies. 
+ 
+Liquidity risk
+ 
+Liquidity risk is the risk that the Company will not be able to meet its financial obligations as they fall due. The Company has a planning and budgeting process in place to help determine the funds required to support the Company’s normal operating requirements on an ongoing basis. The Company ensures that there are sufficient funds to meet its short-term business requirements, taking into account its anticipated cash flows from operations and its holdings of cash and cash equivalents.
+ 
+Historically, the Company’s main source of funding has been the issuance of equity securities for cash and cash equivalents, primarily through private placements. The Company’s access to financing is always uncertain. There can be no assurance of continued access to significant equity funding.
+
+ 
+
+Calico Resources Corp.
+Notes to the condensed consolidated interim unaudited financial statements
+(Expressed in Canadian dollars)
+For the nine month period ended March 31, 2016 and 2015
+ 
+ 
+
+9.Financial risk management (cont’d)
+ 
+Foreign exchange risk 
+ 
+Foreign currency risk is the risk that the fair values of future cash flows of a financial instrument will fluctuate because they are denominated in currencies that differ from the respective functional currency. The Company does not hedge its exposure to fluctuations in foreign exchange rates.
+ 
+The following is an analysis of the Canadian dollar equivalent of financial assets and liabilities that are denominated in U.S. dollars:
+ 
+
+ 
+
+March 31, 
+2016
+
+June 30,
+ 2015
+
+Cash and cash equivalents
+
+$151,645
+
+$5,551
+
+Accounts payable
+
+(224,907)
+
+(478,185)
+
+ 
+
+$(73,262)
+
+$(472,634)
+
+ 
+Based on the above net exposures, as at March 31, 2016, a 10% change in the U.S. dollar to Canadian dollar exchange rate would impact the Company’s net loss by $7,326.
+ 
+Interest rate risk
+ 
+Interest rate risk is the risk that the fair value of future cash flows of a financial instrument will fluctuate because of changes in market interest rates. The Company is not exposed to significant interest rate risks.
+ 
+Capital management
+ 
+The Company’s policy is to maintain a strong capital base so as to maintain investor and creditor confidence and to sustain future development of the business. The capital structure of the Company consists of equity, comprising share capital, net of accumulated deficit. 
+ 
+There were no changes in the Company’s approach to capital management during the period. The Company is not subject to any externally imposed capital requirements.
+ 
+Fair value
+ 
+The Company’s financial instruments consist of cash and cash equivalents, trade payables and accrued liabilities and loans payable. The carrying value of these financial instruments approximates their fair values due to the short term nature of these instruments. 
+ 
+
+10.
+
+Segmented information
+ 
+Operating segments
+ 
+The Company operates in a single reportable operating segment – the acquisition and exploration of mineral properties.
+
+ 
+
+Calico Resources Corp.
+Notes to the condensed consolidated interim unaudited financial statements
+(Expressed in Canadian dollars)
+For the nine month period ended March 31, 2016 and 2015
+ 
+ 
+
+10.
+
+Segmented information (cont’d)
+ 
+Geographic segments
+ 
+The Company’s non-current assets are located in the following countries:
+ 
+
+ 
+
+As at March 31, 2016
+
+ 
+
+Canada
+
+U.S.A
+
+Total
+
+Exploration and evaluation assets
+
+-
+
+$14,351,982
+
+$14,351,982
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+As at June 30, 2015
+
+ 
+
+Canada
+
+U.S.A
+
+Total
+
+Exploration and evaluation assets
+
+-
+
+$12,433,509
+
+$12,433,509
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+11.
+
+Supplemental disclosure with respect to cash flows
+ 
+During the nine month period ended March 31, 2016 and 2015, the Company incurred the following non-cash investing and financing activities that are not reflected in the statements of cash flows:
+ 
+
+ 
+
+Nine month period ended
+
+ 
+
+March 31,
+2016
+
+March 31,
+ 2015
+
+Exploration and evaluation assets included in trade payables and accrued liabilities
+
+$ 103,024
+
+$ 133,886
+
+ 
+12.Arrangement Agreement
+ 
+On March 14, 2016 the Company and Paramount Gold Nevada Corp. (NYSE MKT:PZG) ("Paramount") announced that they entered into an arrangement agreement dated March 14, 2016 (the "Arrangement Agreement") pursuant to which Paramount has agreed to acquire all of the issued and outstanding common shares of Calico ("Calico Shares") by way of a statutory plan of arrangement under the Business Corporations Act (British Columbia) (the "Arrangement").
+ 
+Pursuant to the Arrangement Agreement, holders of Calico Shares ("Calico Shareholders") will be entitled to receive 0.07 of a share of common stock of Paramount ("Paramount Shares") in exchange for each Calico Share held (the "Exchange Ratio"), representing an implied offer price of CDN$0.112 per Calico Share and a premium of 49.2% (based on the Bank of Canada noon exchange rate of US$1.00 to CDN$1.3215 on the last trading day prior to the announcement of the Arrangement) and a premium of 45.5% based on the trailing 30-day volume weighted average trading price of Calico Shares on the TSX Venture Exchange and Paramount Shares on the NYSE MKT as of the date of the Arrangement Agreement. Based on the foregoing, the Arrangement represents total consideration to Calico Shareholders of CDN$11.5 million. All existing Calico stock options will be cancelled in connection with the Arrangement. Approximately 7,171,209 Paramount Shares are expected to be issued to existing Calico Shareholders, which would result in existing Calico Shareholders owning approximately 46% of the combined company on a basic basis and approximately 43% on a fully-diluted basis (based on the Exchange Ratio, the number of issued and outstanding Calico Shares and Paramount Shares, and the number of outstanding options to acquire 
+ 
+
+Calico Resources Corp.
+Notes to the condensed consolidated interim unaudited financial statements
+(Expressed in Canadian dollars)
+For the nine month period ended March 31, 2016 and 2015
+ 
+ 
+Paramount Shares as of the date of the Arrangement Agreement). In addition to shareholder and court approvals, the transaction is subject to applicable regulatory approvals and the satisfaction of certain other closing conditions customary in transactions of this nature. The Company will hold a shareholders meeting on Wednesday June 29,2016 to consider the arrangement.
+ 
+In connection with the Arrangement, Paramount will provide Calico with interim debt financing of up to US$800,000 (the "Interim Loan"), to be repaid 90 days following the termination of the Arrangement Agreement. The loan will be convertible into Calico Shares at a price of CDN$0.10 per share, subject to the approval of the TSX Venture Exchange, and will be secured by all of Calico's assets. The proceeds of the Interim Loan will be used by Calico for general corporate purposes prior to the completion of the Arrangement. In the three months ended March 31, 2016 Paramount advanced $389,670 (US$300,000) of the interim loan. 
+ 
+Costs incurred by the Company to March 31, 2016 directly related to the Arrangement are as follows:
+ 
+
+Fairness opinion
+
+$100,000
+
+Legal counsel
+
+184,638
+
+Tax advisory
+
+6,833
+
+ 
+
+$291,471
+
+ 
+ 
+ 
+ 
+
+13. 
+
+Subsequent events 
+ 
+
+On May 12 2016, 50,000 options that were outstanding at March 31 2016, with an exercise price of $0.40 expired. None of the aforementioned options were exercised.

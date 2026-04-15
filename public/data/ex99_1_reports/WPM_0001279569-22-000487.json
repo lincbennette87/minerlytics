@@ -1,0 +1,112 @@
+{
+  "ticker": "WPM",
+  "cik": "0001323404",
+  "form": "6-K",
+  "filingDate": "2022-04-01",
+  "accessionNumber": "0001279569-22-000487",
+  "primaryDocument": "wheaton6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000127956922000487/0001279569-22-000487-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "NEWS RELEASE DATED MARCH 31, 2022",
+    "filename": "ex991.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1323404/000127956922000487/ex991.htm"
+  },
+  "extractedAt": "2026-04-15T16:43:02.895Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000127956922000487/ex991.htm",
+    "contentType": "html",
+    "title": "",
+    "headings": [
+      "Exhibit 99.1",
+      "Annual and Special Meeting of Shareholders",
+      "Registered shareholders and duly appointed proxyholders\nwho wish to participate in the online virtual Meeting may do so:",
+      "285841977",
+      "For further information:"
+    ],
+    "text": "EX-99.1\n2\nex991.htm\nNEWS RELEASE DATED MARCH 31, 2022\n\n \n\nExhibit 99.1\n\n \n\n \n\nWHEATON PRECIOUS METALS PROVIDES DETAILS OF ANNUAL\nAND SPECIAL MEETING OF SHAREHOLDERS AND FILES FORM 40-F\n\nTSX | NYSE | LSE: WPM\n\nVANCOUVER, BC, March 31, 2022 /CNW/ - Wheaton\nPrecious Metals™ Corp. (\"Wheaton\" or the \"Company\") announces that its Form 40-F report has been filed with\nthe Securities and Exchange Commission and is available on EDGAR. The Company's 2021 audited financial statements, along with its Form\n40-F, are also available on the Company's website at www.wheatonpm.com.\n\nShareholders may also receive a copy of Wheaton's\naudited financial statements, without charge, upon request to Wheaton's Investor Relations Department, Suite 3500, 1021 West Hastings\nSt., Vancouver, British Columbia, Canada V6E 0C3 or to info@wheatonpm.com.\n\nAnnual and Special Meeting of Shareholders\n\nWheaton is scheduled to hold its Annual and Special\nMeeting of Shareholders (the \"Meeting\") at the offices of Cassels, Brock & Blackwell LLP, Suite 2200 HSBC Building, 885\nWest Georgia Street, Vancouver, British Columbia, Canada, on Friday, May 13, 2022, at 10:30 a.m. Pacific Time.\n\nThe Board recognizes the importance of in-person engagement\nwith its shareholders, while also being mindful of the health and safety of Wheaton's shareholders, employees and community. As\na result, for this year's Meeting, Wheaton will once again provide an online virtual Meeting platform and encourages shareholders to participate\nin the Meeting using this online platform.\n\nAll shareholders participating in our online virtual\nMeeting platform will be able to listen to the Meeting live, ask questions online, and for registered shareholders or proxyholders (including\nnon-registered shareholders who have appointed themselves as proxyholder), submit votes in real time.\n\nRegistered shareholders and duly appointed proxyholders\nwho wish to participate in the online virtual Meeting may do so: \n\n1.from their computer, by entering the following URL in their browser: https://web.lumiagm.com/285841977;\n\n2.from their mobile device by either:\n\ni.entering the following URL in their browser: https://web.lumiagm.com/285841977; or\n\nii.or by using the Lumi AGM app, which is available by downloading the app from the Apple App Store or Google Play Store.\n\nIf you choose to participate in the online virtual\nMeeting as a registered shareholder, you can log in to into the Meeting by:\n\n1.Entering the meeting ID for the Meeting, which is: 285841977\n\n2.Selecting \"I am a shareholder/proxy\"\n\n3.Clicking \"I have a control number\" and entering your valid control number\n\n4.Entering the password for the Meeting, which is: wheaton2022 (case sensitive)\n\nGuests, including Beneficial Shareholders who have\nnot duly appointed themselves as a proxyholder, can log in to into the Meeting by clicking \"I am a guest\" and completing the\nonline form. Guests will be able to listen to the Meeting, but will not be able to ask questions or vote.\n\nImportant technical reminders for joining the meeting\nand voting instructions will be made available on the Company's website at www.wheatonpm.com, in the 'investors' section under the 'annual\ngeneral meeting' tab.\n\nWhile Wheaton is encouraging our shareholders to participate\nin our online virtual meeting platform, anyone who nevertheless wishes to attend the Meeting in person must pre-register via email to\nWheatonAGM2022@wheatonpm.com by 10:30am May 11, 2022 (PST) so that the Company can facilitate physical distancing and other\nprecautions to ensure the health and safety of all attendees.\n\nView original content:https://www.prnewswire.com/news-releases/wheaton-precious-metals-provides-details-of-annual-and-special-meeting-of-shareholders-and-files-form-40-f-301515351.html\n\nSOURCE Wheaton Precious Metals Corp.\n\n \n\nView original content: http://www.newswire.ca/en/releases/archive/March2022/31/c7724.html\n\n%CIK: 0001323404\n\nFor further information: Patrick Drouin, Senior Vice President, Investor\nRelations, Wheaton Precious Metals Corp., Tel: 1-844-288-9878, Email: info@wheatonpm.com, Website: www.wheatonpm.com\n\nCO: Wheaton Precious Metals Corp.\n\nCNW 17:06e 31-MAR-22",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 1,
+        "rows": [
+          [
+            "1.",
+            "from their computer, by entering the following URL in their browser: https://web.lumiagm.com/285841977;"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 1,
+        "rows": [
+          [
+            "2.",
+            "from their mobile device by either:"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 1,
+        "rows": [
+          [
+            "i.",
+            "entering the following URL in their browser: https://web.lumiagm.com/285841977; or"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 3,
+        "rowCount": 1,
+        "rows": [
+          [
+            "ii.",
+            "or by using the Lumi AGM app, which is available by downloading the app from the Apple App Store or Google Play Store."
+          ]
+        ]
+      },
+      {
+        "tableIndex": 4,
+        "rowCount": 1,
+        "rows": [
+          [
+            "1.",
+            "Entering the meeting ID for the Meeting, which is: 285841977"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 5,
+        "rowCount": 1,
+        "rows": [
+          [
+            "2.",
+            "Selecting \"I am a shareholder/proxy\""
+          ]
+        ]
+      },
+      {
+        "tableIndex": 6,
+        "rowCount": 1,
+        "rows": [
+          [
+            "3.",
+            "Clicking \"I have a control number\" and entering your valid control number"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 7,
+        "rowCount": 1,
+        "rows": [
+          [
+            "4.",
+            "Entering the password for the Meeting, which is: wheaton2022 (case sensitive)"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>ex991.htm\n<DESCRIPTION>NEWS RELEASE DATED MARCH 31, 2022\n<TEXT>\n<HTML>\n<HEAD>\n     <TITLE></TITLE>\n</HEAD>\n<BODY STYLE=\"font: 10pt Times New Roman, Times, Serif\">\n\n<P STYLE=\"margin: 0; text-align: right\"><FONT STYLE=\"font: 8pt Arial, Helvetica, Sans-Serif\"><B>Exhibit 99.1</B></FONT></P>\n\n<P STYLE=\"margin: 0; text-align: right\">&nbsp;&nbsp;</P>\n\n<P STYLE=\"margin: 0; text-align: right\">&nbsp;</P>\n\n<P STYLE=\"margin: 0; text-align: left\"><IMG SRC=\"logo.jpg\" ALT=\"\"></P>\n\n<P STYLE=\"font: bold 24pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">WHEATON PRECIOUS METALS PROVIDES DETAILS OF ANNUAL\nAND SPECIAL MEETING OF SHAREHOLDERS AND FILES FORM 40-F</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; text-align: right; margin-right: 0; margin-left: 0\">TSX | NYSE | LSE: WPM</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">VANCOUVER, BC, March 31, 2022 /CNW/ -&nbsp;Wheaton\nPrecious Metals&trade; Corp. (&quot;Wheaton&quot; or the &quot;Company&quot;) announces that its Form 40-F report has been filed with\nthe Securities and Exchange Commission and is available on EDGAR. The Company's 2021 audited financial statements, along with its Form\n40-F, are also available on the Company's website at www.wheatonpm.com.</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">Shareholders may also receive a copy of Wheaton's\naudited financial statements, without charge, upon request to Wheaton's Investor Relations Department, Suite 3500, 1021 West Hastings\nSt., Vancouver, British Columbia, Canada V6E 0C3 or to info@wheatonpm.com.</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\"><B>Annual and Special Meeting of Shareholders</B></P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">Wheaton is scheduled to hold its Annual and Special\nMeeting of Shareholders (the &quot;Meeting&quot;) at the offices of Cassels, Brock &amp; Blackwell LLP, Suite 2200 HSBC Building, 885\nWest Georgia Street, Vancouver, British Columbia, Canada, on Friday, May 13, 2022, at 10:30 a.m. Pacific Time.</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">The Board recognizes the importance of in-person engagement\nwith its shareholders, while also being mindful of the health and safety of Wheaton's shareholders, employees and community.&nbsp; As\na result, for this year's Meeting, Wheaton will once again provide an online virtual Meeting platform and encourages shareholders to participate\nin the Meeting using this online platform.</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">All shareholders participating in our online virtual\nMeeting platform will be able to listen to the Meeting live, ask questions online, and for registered shareholders or proxyholders (including\nnon-registered shareholders who have appointed themselves as proxyholder), submit votes in real time.</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\"><B>Registered shareholders and duly appointed proxyholders\nwho wish to participate in the online virtual Meeting may do so: </B></P>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" WIDTH=\"100%\" STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-bottom: 15pt\"><TR STYLE=\"vertical-align: top\">\n<TD STYLE=\"width: 0.25in\"></TD><TD STYLE=\"width: 0.25in\">1.</TD><TD>from their computer, by entering the following URL in their browser: https://web.lumiagm.com/285841977;</TD></TR></TABLE>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" WIDTH=\"100%\" STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-bottom: 15pt\"><TR STYLE=\"vertical-align: top\">\n<TD STYLE=\"width: 0.25in\"></TD><TD STYLE=\"width: 0.25in\">2.</TD><TD>from their mobile device by either:</TD></TR></TABLE>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" WIDTH=\"100%\" STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-bottom: 15pt\"><TR STYLE=\"vertical-align: top\">\n<TD STYLE=\"width: 1.25in\"></TD><TD STYLE=\"width: 0.25in\">i.</TD><TD>entering the following URL in their browser: https://web.lumiagm.com/285841977; or</TD></TR></TABLE>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" WIDTH=\"100%\" STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-top: 0pt; margin-bottom: 12pt\"><TR STYLE=\"vertical-align: top\">\n<TD STYLE=\"width: 1.25in\"></TD><TD STYLE=\"width: 0.25in\">ii.</TD><TD>or by using the Lumi AGM app, which is available by downloading the app from the Apple App Store or Google Play Store.</TD></TR></TABLE>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">If you choose to participate in the online virtual\nMeeting as a registered shareholder, you can log in to into the Meeting by:</P>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" WIDTH=\"100%\" STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-bottom: 15pt\"><TR STYLE=\"vertical-align: top\">\n<TD STYLE=\"width: 0.25in\"></TD><TD STYLE=\"width: 0.25in\">1.</TD><TD>Entering the meeting ID for the Meeting, which is: <B>285841977</B></TD></TR></TABLE>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" WIDTH=\"100%\" STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-bottom: 15pt\"><TR STYLE=\"vertical-align: top\">\n<TD STYLE=\"width: 0.25in\"></TD><TD STYLE=\"width: 0.25in\">2.</TD><TD>Selecting &quot;I am a shareholder/proxy&quot;</TD></TR></TABLE>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" WIDTH=\"100%\" STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-bottom: 15pt\"><TR STYLE=\"vertical-align: top\">\n<TD STYLE=\"width: 0.25in\"></TD><TD STYLE=\"width: 0.25in\">3.</TD><TD>Clicking &quot;I have a control number&quot; and entering your valid control number</TD></TR></TABLE>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" WIDTH=\"100%\" STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-top: 0pt; margin-bottom: 12pt\"><TR STYLE=\"vertical-align: top\">\n<TD STYLE=\"width: 0.25in\"></TD><TD STYLE=\"width: 0.25in\">4.</TD><TD>Entering the password for the Meeting, which is: wheaton2022 (case sensitive)</TD></TR></TABLE>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">Guests, including Beneficial Shareholders who have\nnot duly appointed themselves as a proxyholder, can log in to into the Meeting by clicking &quot;I am a guest&quot; and completing the\nonline form. Guests will be able to listen to the Meeting, but will not be able to ask questions or vote.</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">Important technical reminders for joining the meeting\nand voting instructions will be made available on the Company's website at www.wheatonpm.com, in the 'investors' section under the 'annual\ngeneral meeting' tab.</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">While Wheaton is encouraging our shareholders to participate\nin our online virtual meeting platform, anyone who nevertheless wishes to attend the Meeting in person must pre-register via email to\nWheatonAGM2022@wheatonpm.com&nbsp;by 10:30am May 11, 2022&nbsp;(PST) so that the Company can facilitate physical distancing and other\nprecautions to ensure the health and safety of all attendees.</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">View original content:https://www.prnewswire.com/news-releases/wheaton-precious-metals-provides-details-of-annual-and-special-meeting-of-shareholders-and-files-form-40-f-301515351.html</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">SOURCE Wheaton Precious Metals Corp.</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin: 0\">&nbsp;</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">View original content: http://www.newswire.ca/en/releases/archive/March2022/31/c7724.html</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">%CIK: 0001323404</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin: 0\"><B>For further information: </B>Patrick Drouin, Senior Vice President, Investor\nRelations, Wheaton Precious Metals Corp., Tel: 1-844-288-9878, Email: info@wheatonpm.com, Website: www.wheatonpm.com</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">CO: Wheaton Precious Metals Corp.</P>\n\n<P STYLE=\"font: 15pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\">CNW 17:06e 31-MAR-22</P>\n\n<P STYLE=\"font: bold 24pt Arial, Helvetica, Sans-Serif; margin-right: 0; margin-left: 0\"></P>\n\n</BODY>\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

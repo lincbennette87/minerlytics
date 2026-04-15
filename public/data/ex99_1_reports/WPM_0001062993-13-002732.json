@@ -1,0 +1,118 @@
+{
+  "ticker": "WPM",
+  "cik": "0001323404",
+  "form": "6-K",
+  "filingDate": "2013-05-22",
+  "accessionNumber": "0001062993-13-002732",
+  "primaryDocument": "form6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000106299313002732/0001062993-13-002732-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "exhibit991.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1323404/000106299313002732/exhibit991.htm"
+  },
+  "extractedAt": "2026-04-15T16:44:34.133Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000106299313002732/exhibit991.htm",
+    "contentType": "html",
+    "title": "Silver Wheaton Corp.: Exhibit 99.1 - Filed by newsfilecorp.com",
+    "headings": [
+      "Silver Wheaton Corp.: Exhibit 99.1 - Filed by newsfilecorp.com",
+      "Exhibit 99.1",
+      "SILVER WHEATON ANNOUNCES ELECTION OF DIRECTORS",
+      "Nominee",
+      "Votes For",
+      "% For",
+      "Votes Withheld",
+      "% Withheld"
+    ],
+    "text": "EX-99.1\n2\nexhibit991.htm\nEXHIBIT 99.1\n\n Silver Wheaton Corp.: Exhibit 99.1 - Filed by newsfilecorp.com\n\nExhibit 99.1\n\n \nFOR IMMEDIATE RELEASE\n \n \nTSX:SLW\n \n\n \nMay 21, 2013\n \n \nNYSE:SLW\n \n\nSILVER WHEATON ANNOUNCES ELECTION OF DIRECTORS \n\nVancouver, British Columbia – Silver Wheaton Corp. (“Silver Wheaton” or the “Company”) (TSX:SLW) (NYSE:SLW) announces that the nominees listed in the management proxy circular for the 2013 Annual and Special Meeting of\nShareholders were elected as directors of Silver Wheaton. Detailed results of the vote for directors of the Company held at the Annual and Special Meeting of Shareholders earlier today, are shown below: \n\n \n\nNominee\n \n \nVotes For\n \n \n% For\n \n \nVotes Withheld\n \n \n% Withheld \n \n\n \nLawrence I. Bell\n \n \n163,686,019\n \n \n98.17%\n \n \n3,057,775\n \n \n1.83% \n \n\n \nGeorge L. Brack\n \n \n161,971,403\n \n \n97.14%\n \n \n4,772,391\n \n \n2.86% \n \n\n \nJohn A. Brough\n \n \n164,035,349\n \n \n98.38%\n \n \n2,708,445\n \n \n1.62% \n \n\n \nR. Peter Gillin\n \n \n164,360 973\n \n \n98.57%\n \n \n2,382,821\n \n \n1.43% \n \n\n \nDouglas M. Holtby\n \n \n164,119,792\n \n \n98.43%\n \n \n2,624,002\n \n \n1.57% \n \n\n \nEduardo Luna\n \n \n134,668,080\n \n \n80.76%\n \n \n32,075,714\n \n \n19.24% \n \n\n \nWade D. Nesmith\n \n \n134,708,465\n \n \n80.79%\n \n \n32,035,329\n \n \n19.21% \n \n\n \nRandy V.J. Smallwood\n \n \n164,520,490\n \n \n98.67%\n \n \n2,223,304\n \n \n1.33% \n \n\nIn addition, the non-binding advisory resolution accepting the Company’s approach to executive compensation was carried with 93.87% of the votes cast in favour of such resolution. \n\nFor further information, please contact: \n\nPatrick Drouin \nVice President, Investor Relations\nSilver Wheaton Corp. \nTel: 1-800-380-8687 \nEmail: info@silverwheaton.com \nWebsite: www.silverwheaton.com",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 2,
+        "rows": [
+          [
+            "FOR IMMEDIATE RELEASE",
+            "TSX:SLW"
+          ],
+          [
+            "May 21, 2013",
+            "NYSE:SLW"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 9,
+        "rows": [
+          [
+            "Nominee",
+            "Votes For",
+            "% For",
+            "Votes Withheld",
+            "% Withheld"
+          ],
+          [
+            "Lawrence I. Bell",
+            "163,686,019",
+            "98.17%",
+            "3,057,775",
+            "1.83%"
+          ],
+          [
+            "George L. Brack",
+            "161,971,403",
+            "97.14%",
+            "4,772,391",
+            "2.86%"
+          ],
+          [
+            "John A. Brough",
+            "164,035,349",
+            "98.38%",
+            "2,708,445",
+            "1.62%"
+          ],
+          [
+            "R. Peter Gillin",
+            "164,360 973",
+            "98.57%",
+            "2,382,821",
+            "1.43%"
+          ],
+          [
+            "Douglas M. Holtby",
+            "164,119,792",
+            "98.43%",
+            "2,624,002",
+            "1.57%"
+          ],
+          [
+            "Eduardo Luna",
+            "134,668,080",
+            "80.76%",
+            "32,075,714",
+            "19.24%"
+          ],
+          [
+            "Wade D. Nesmith",
+            "134,708,465",
+            "80.79%",
+            "32,035,329",
+            "19.21%"
+          ],
+          [
+            "Randy V.J. Smallwood",
+            "164,520,490",
+            "98.67%",
+            "2,223,304",
+            "1.33%"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit991.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n\n\n\n<HTML>\n<HEAD>\n   <TITLE>Silver Wheaton Corp.: Exhibit 99.1 - Filed by newsfilecorp.com</TITLE>\n\n</HEAD>\n\n<BODY style=\"font-size:10pt;\">\n\n<HR noshade align=\"center\" width=100% size=3 color=\"black\">\n\n\n<!--$$/page=-->\n<p align=\"right\"><b>Exhibit 99.1</b><A name=\"page_1\"></A></p>\n<p align=\"center\">\n\n<IMG src=\"exhibit991x1x1.jpg\" border=0 width=\"526\" height=\"91\">\n<BR>\n</p>\n<TABLE style=\"font-size:10pt;border-color:black;border-collapse:collapse;\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" border=\"0\"><TR valign=\"top\">\n\t<TD align=left width=\"50%\">\nFOR IMMEDIATE RELEASE\n\t</TD>\n\t<TD width=\"50%\" align=right>\nTSX:SLW\n\t</TD>\n</TR>\n<TR valign=\"top\">\n\t<TD align=left width=\"50%\">\nMay 21, 2013\n\t</TD>\n\t<TD width=\"50%\" align=right>\nNYSE:SLW\n\t</TD>\n</TR>\n</TABLE>\n<P align=\"center\">\n<B>SILVER WHEATON ANNOUNCES ELECTION OF DIRECTORS </B></P>\n<P align=\"justify\">\nVancouver, British Columbia &ndash; Silver Wheaton Corp. (&ldquo;Silver Wheaton&rdquo; or the &ldquo;Company&rdquo;) (TSX:SLW) (NYSE:SLW) announces that the nominees listed in the management proxy circular for the 2013 Annual and Special Meeting of\nShareholders were elected as directors of Silver Wheaton. Detailed results of the vote for directors of the Company held at the Annual and Special Meeting of Shareholders earlier today, are shown below: </P>\n<TABLE style=\"font-size:10pt;border-collapse:collapse; font-family:Times New Roman\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" border=\"1\" bordercolor=\"#000000\"><TR valign=\"top\">\n\t<TD align=left style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n<p style=\"margin-left: 5pt\">\n<B><font size=\"2\">Nominee</font></B><font size=\"2\">\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n<B>Votes For</B>\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n<B>% For</B>\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n<B>Votes Withheld</B>\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n<B>% Withheld</B> </font>\n\t</TD>\n</TR>\n<TR valign=\"top\">\n\t<TD align=left style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n<p style=\"margin-left: 5pt\"><font size=\"2\">Lawrence I. Bell\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n163,686,019\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n98.17%\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n3,057,775\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n1.83% </font>\n\t</TD>\n</TR>\n<TR valign=\"top\">\n\t<TD align=left style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n<p style=\"margin-left: 5pt\"><font size=\"2\">George L. Brack\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n161,971,403\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n97.14%\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n4,772,391\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n2.86% </font>\n\t</TD>\n</TR>\n<TR valign=\"top\">\n\t<TD align=left style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n<p style=\"margin-left: 5pt\"><font size=\"2\">John A. Brough\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n164,035,349\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n98.38%\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n2,708,445\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n1.62% </font>\n\t</TD>\n</TR>\n<TR valign=\"top\">\n\t<TD align=left style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n<p style=\"margin-left: 5pt\"><font size=\"2\">R. Peter Gillin\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n164,360 973\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n98.57%\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n2,382,821\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n1.43% </font>\n\t</TD>\n</TR>\n<TR valign=\"top\">\n\t<TD align=left style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n<p style=\"margin-left: 5pt\"><font size=\"2\">Douglas M. Holtby\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n164,119,792\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n98.43%\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n2,624,002\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n1.57% </font>\n\t</TD>\n</TR>\n<TR valign=\"top\">\n\t<TD align=left style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n<p style=\"margin-left: 5pt\"><font size=\"2\">Eduardo Luna\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n134,668,080\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n80.76%\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n32,075,714\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n19.24% </font>\n\t</TD>\n</TR>\n<TR valign=\"top\">\n\t<TD align=left style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n<p style=\"margin-left: 5pt\"><font size=\"2\">Wade D. Nesmith\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n134,708,465\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n80.79%\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n32,035,329\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\" bgcolor=\"#E6EFFF\">\n19.21% </font>\n\t</TD>\n</TR>\n<TR valign=\"top\">\n\t<TD align=left style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n<p style=\"margin-left: 5pt\"><font size=\"2\">Randy V.J. Smallwood\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n164,520,490\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n98.67%\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n2,223,304\n\t</TD>\n\t<TD width=13% align=center style=\"border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000; border-top-color:#000000\">\n1.33% </font>\n\t</TD>\n</TR>\n</TABLE>\n<P align=\"justify\">\nIn addition, the non-binding advisory resolution accepting the Company&rsquo;s approach to executive compensation was carried with 93.87% of the votes cast in favour of such resolution. </P>\n<P align=\"justify\">\nFor further information, please contact: </P>\n<P align=\"justify\">\nPatrick Drouin <BR>\nVice President, Investor Relations<BR>\nSilver Wheaton Corp. <BR>\nTel: 1-800-380-8687 <BR>\nEmail: <U><FONT color=\"#0000ff\">info@silverwheaton.com</FONT></U> <BR>\nWebsite: <U><FONT color=\"#0000ff\">www.silverwheaton.com</FONT></U> <BR>\n</P>\n\n<HR noshade align=\"center\" width=\"100%\" size=5 color=\"black\">\n\n\n</BODY>\n\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

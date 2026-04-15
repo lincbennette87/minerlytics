@@ -1,0 +1,88 @@
+{
+  "ticker": "WPM",
+  "cik": "0001323404",
+  "form": "6-K",
+  "filingDate": "2012-07-06",
+  "accessionNumber": "0001204459-12-001528",
+  "primaryDocument": "form6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000120445912001528/0001204459-12-001528-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1323404/000120445912001528/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-04-15T16:44:43.747Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1323404/000120445912001528/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Silver Wheaton Corp.: Exhibit 99.1 - Filed by newsfilecorp.com",
+    "headings": [
+      "Silver Wheaton Corp.: Exhibit 99.1 - Filed by newsfilecorp.com",
+      "Exhibit 99.1",
+      "SILVER WHEATON TO RELEASE SECOND QUARTER\n2012 RESULTS ON AUGUST\n9th"
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nEXHIBIT 99.1\n\n Silver Wheaton Corp.: Exhibit 99.1 - Filed by newsfilecorp.com\n\nExhibit 99.1\n\n \n\n \n FOR IMMEDIATE RELEASE \n TSX:SLW \n \n July 5, 2012 \n NYSE:SLW \nSILVER WHEATON TO RELEASE SECOND QUARTER\n2012 RESULTS ON AUGUST\n9th\nVancouver, British Columbia – Silver Wheaton Corp. (TSX:SLW)\n(NYSE:SLW) will release 2012 second quarter results on Thursday, August 9, 2012,\nafter market close.\nA conference call will be held Friday, August 10, 2012,\nstarting at 11:00 am (Eastern Time) to discuss these results. To participate in\nthe live call please use one of the following methods: \n\n \n Dial toll free from Canada or the US: \n 1-888-231-8191 \n \n Dial from outside Canada or the US: \n 1-647-427-7450 \n \n Pass code: \n 98200489 \n \n Live audio webcast: \n www.silverwheaton.com\n \nParticipants should dial in five to ten minutes before the\ncall. \nThe conference call will be recorded and you can listen to an\narchive of the call by one of the following methods: \n\n \n Dial toll free from Canada or the US: \n 1-855-859-2056 \n \n Dial from outside Canada or the US: \n 1-416-849-0833 \n \n Pass code: \n 98200489 \n \n Archived audio webcast: \n www.silverwheaton.com\n \nFor further information, please contact: \nBrad Kopp Senior Vice President, Investor Relations\nSilver Wheaton Corp. Tel: 1-800-380-8687 Email: info@silverwheaton.com\nWebsite: www.silverwheaton.com",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 2,
+        "rows": [
+          [
+            "FOR IMMEDIATE RELEASE",
+            "TSX:SLW"
+          ],
+          [
+            "July 5, 2012",
+            "NYSE:SLW"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 4,
+        "rows": [
+          [
+            "Dial toll free from Canada or the US:",
+            "1-888-231-8191"
+          ],
+          [
+            "Dial from outside Canada or the US:",
+            "1-647-427-7450"
+          ],
+          [
+            "Pass code:",
+            "98200489"
+          ],
+          [
+            "Live audio webcast:",
+            "www.silverwheaton.com"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 4,
+        "rows": [
+          [
+            "Dial toll free from Canada or the US:",
+            "1-855-859-2056"
+          ],
+          [
+            "Dial from outside Canada or the US:",
+            "1-416-849-0833"
+          ],
+          [
+            "Pass code:",
+            "98200489"
+          ],
+          [
+            "Archived audio webcast:",
+            "www.silverwheaton.com"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<HTML>\n<HEAD>\n   <TITLE>Silver Wheaton Corp.: Exhibit 99.1 - Filed by newsfilecorp.com</TITLE>\n</HEAD>\n\n<BODY style=\"font-size:10pt;\">\n\n<HR noshade align=\"center\" width=100% size=3 color=\"black\">\n<A name=page_1></A>\n<P align=right>\n<b>Exhibit 99.1</b></P>\n<P align=center>\n<IMG\nsrc=\"exhibit99-1x1x1.jpg\"\nborder=0 width=\"525\" height=\"107\"> </P>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0>\n\n  <TR vAlign=top>\n    <TD align=left>FOR IMMEDIATE RELEASE </TD>\n    <TD noWrap align=right width=\"15%\">TSX:SLW </TD></TR>\n  <TR vAlign=top>\n    <TD align=left>July 5, 2012 </TD>\n    <TD noWrap align=right width=\"15%\">NYSE:SLW </TD></TR></TABLE>\n<P align=center><B><FONT size=3>SILVER WHEATON TO RELEASE SECOND QUARTER\n</FONT><BR><FONT size=3>2012 RESULTS ON AUGUST\n9<B><SUP>th</SUP></B></FONT></B></P>\n<P align=justify>Vancouver, British Columbia &#150; Silver Wheaton Corp. (TSX:SLW)\n(NYSE:SLW) will release 2012 second quarter results on Thursday, August 9, 2012,\nafter market close.</P>\n<P align=justify>A conference call will be held Friday, August 10, 2012,\nstarting at 11:00 am (Eastern Time) to discuss these results. To participate in\nthe live call please use one of the following methods: </P>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0>\n\n  <TR vAlign=top>\n    <TD noWrap align=left>Dial toll free from Canada or the US: </TD>\n    <TD align=left width=\"50%\">1-888-231-8191 </TD></TR>\n  <TR vAlign=top>\n    <TD noWrap align=left>Dial from outside Canada or the US: </TD>\n    <TD align=left width=\"50%\">1-647-427-7450 </TD></TR>\n  <TR vAlign=top>\n    <TD noWrap align=left>Pass code: </TD>\n    <TD align=left width=\"50%\">98200489 </TD></TR>\n  <TR vAlign=top>\n    <TD noWrap align=left>Live audio webcast: </TD>\n    <TD align=left width=\"50%\"><U><FONT color=#0000ff>www.silverwheaton.com\n      </FONT></U></TD></TR></TABLE>\n<P align=justify>Participants should dial in five to ten minutes before the\ncall. </P>\n<P align=justify>The conference call will be recorded and you can listen to an\narchive of the call by one of the following methods: </P>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0>\n\n  <TR vAlign=top>\n    <TD noWrap align=left>Dial toll free from Canada or the US: </TD>\n    <TD align=left width=\"50%\">1-855-859-2056 </TD></TR>\n  <TR vAlign=top>\n    <TD noWrap align=left>Dial from outside Canada or the US: </TD>\n    <TD align=left width=\"50%\">1-416-849-0833 </TD></TR>\n  <TR vAlign=top>\n    <TD noWrap align=left>Pass code: </TD>\n    <TD align=left width=\"50%\">98200489 </TD></TR>\n  <TR vAlign=top>\n    <TD noWrap align=left>Archived audio webcast: </TD>\n    <TD align=left width=\"50%\"><U><FONT color=#0000ff>www.silverwheaton.com\n      </FONT></U></TD></TR></TABLE>\n<P align=justify>For further information, please contact: </P>\n<P align=justify>Brad Kopp <BR>Senior Vice President, Investor Relations\n<BR>Silver Wheaton Corp. <BR>Tel: 1-800-380-8687 <BR>Email: <U><FONT\ncolor=#0000ff>info@silverwheaton.com\n<BR></FONT></U>Website: <U><FONT color=#0000ff>www.silverwheaton.com\n</FONT></U></P>\n<HR align=center width=\"100%\" color=black noShade SIZE=5>\n\n</BODY>\n\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "ticker": "HL",
+  "cik": "0000719413",
+  "form": "8-K",
+  "filingDate": "2021-03-31",
+  "accessionNumber": "0001157523-21-000406",
+  "primaryDocument": "a52405008.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/719413/000115752321000406/0001157523-21-000406-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "a52405008ex99_1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/719413/000115752321000406/a52405008ex99_1.htm"
+  },
+  "extractedAt": "2026-04-15T16:46:15.232Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/719413/000115752321000406/a52405008ex99_1.htm",
+    "contentType": "html",
+    "title": "",
+    "headings": [
+      "Hecla to Release CEO Webcast",
+      "ABOUT HECLA",
+      "Contacts"
+    ],
+    "text": "EX-99.1\n2\na52405008ex99_1.htm\nEXHIBIT 99.1\n\n \n \n \n \n\n \n \n\n \n \n \n \n \n Exhibit 99.1\n \n \n\n \n \n \n \n \n Hecla to Release CEO Webcast \n \n \n COEUR D'ALENE, Idaho--(BUSINESS WIRE)--March 31, 2021--Hecla Mining Company (NYSE:HL) today announced it will release another CEO webcast, Hecla’s Unique Dividend Policy, from its ongoing series. The webcast will be available on the\n Company’s website on Thursday, April 1. \n This webcast series provides additional information on the Company’s dividend policies. Videos will be available on the Company’s website at www.hecla-mining.com and various social media platforms. \n ABOUT HECLA \n Founded in 1891, Hecla Mining Company (NYSE:HL) is the largest silver producer in the United States. In addition to operating mines in Alaska, Idaho and Quebec, Canada, the Company owns a number of exploration properties and\n pre-development projects in world-class silver and gold mining districts throughout North America. \n Category: Press Release \n \n \n Contacts\n Jeanne DuPont \n Senior Communications Coordinator \n 800-HECLA91 (800-432-5291) \n Investor Relations \n Email: hmc-info@hecla-mining.com\n Website: www.hecla-mining.com",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 1,
+        "rows": [
+          [
+            "Exhibit 99.1"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>a52405008ex99_1.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<html>\n  <head>\n    <title></title>\n    <!-- Licensed to: business wire\n         Document created using EDGARfilings PROfile 7.4.0.0\n         Copyright 1995 - 2021 Broadridge -->\n  </head>\n<body bgcolor=\"#ffffff\" style=\"font-family: 'Times New Roman', Times, serif; font-size: 10pt; text-align: left; color: #000000;\">\n  <div>\n    <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"font-family: 'Times New Roman', Times, serif; font-size: 10pt; color: #000000; width: 100%;\" id=\"zbc24c9557d254cc1abc9a06babe2fda5\">\n\n        <tr>\n          <td style=\"width: 50.00%;\">\n            <div>&#160;</div>\n          </td>\n          <td style=\"width: 50.00%;\">\n            <div style=\"text-align: right;\">&#160;<font style=\"font-weight: bold;\">Exhibit 99.1</font></div>\n          </td>\n        </tr>\n\n    </table>\n    <div> <br>\n    </div>\n    <div>\n      <div class=\"bw-release\">\n        <h1 style=\"text-align: center; list-style-position: inside;FONT-SIZE: 14pt;\"> <b>Hecla to Release CEO Webcast</b> </h1>\n        <div class=\"bw-release-body\">\n          <div class=\"bw-release-table-js bw-release-story\">\n            <p>COEUR D'ALENE, Idaho--(BUSINESS WIRE)--March 31, 2021--Hecla Mining Company (NYSE:HL) today announced it will release another CEO webcast, Hecla&#8217;s Unique Dividend Policy, from its ongoing series. The webcast will be available on the\n              Company&#8217;s website on Thursday, April 1. </p>\n            <p> This webcast series provides additional information on the Company&#8217;s dividend policies. Videos will be available on the Company&#8217;s website at www.hecla-mining.com and various social media platforms. </p>\n            <p> <b>ABOUT HECLA</b> </p>\n            <p> Founded in 1891,<b> </b>Hecla Mining Company (NYSE:HL) is the largest silver producer in the United States. In addition to operating mines in Alaska, Idaho and Quebec, Canada, the Company owns a number of exploration properties and\n              pre-development projects in world-class silver and gold mining districts throughout North America. </p>\n            <p> Category: Press Release </p>\n          </div>\n          <div class=\"bw-release-contact\">\n            <h2 style=\"FONT-SIZE: 14pt;\">Contacts</h2>\n            <p> Jeanne DuPont <br>\n              Senior Communications Coordinator </p>\n            <p> 800-HECLA91 (800-432-5291) <br>\n              Investor Relations <br>\n              Email: hmc-info@hecla-mining.com<br>\n              Website: www.hecla-mining.com </p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</body>\n</html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

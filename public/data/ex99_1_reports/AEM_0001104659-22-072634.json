@@ -1,0 +1,110 @@
+{
+  "ticker": "AEM",
+  "cik": "0000002809",
+  "form": "6-K",
+  "filingDate": "2022-06-21",
+  "accessionNumber": "0001104659-22-072634",
+  "primaryDocument": "tm2218902d1_6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/2809/000110465922072634/0001104659-22-072634-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "tm2218902d1_ex99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/2809/000110465922072634/tm2218902d1_ex99-1.htm"
+  },
+  "extractedAt": "2026-04-15T16:34:35.838Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2809/000110465922072634/tm2218902d1_ex99-1.htm",
+    "contentType": "html",
+    "title": "",
+    "headings": [
+      "Exhibit 99.1",
+      "Stock Symbol:",
+      "AEM (NYSE and TSX)",
+      "For further information:",
+      "Investor Relations",
+      "(416) 947-1212",
+      "(All amounts expressed\nin U.S. dollars unless otherwise noted)",
+      "AGNICO EAGLE PUBLISHES\n2021 SUSTAINABILITY REPORT",
+      "Toronto (June 20, 2022) – Agnico\nEagle Mines Limited (NYSE: AEM, TSX: AEM)",
+      "Highlights from the Report include:",
+      "Integration\n of Legacy Kirkland Lake Gold operations",
+      "Strong\n overall ESG performance",
+      "Continued\n commitment to addressing climate-change and reaching net-zero by 2050",
+      "COVID-19\n Response",
+      "Responsible\n Mining",
+      "About Agnico Eagle"
+    ],
+    "text": "EX-99.1\n2\ntm2218902d1_ex99-1.htm\nEXHIBIT 99.1\n\n \n\n \n\nExhibit 99.1\n\n \n\n \n\n Stock Symbol:\n AEM (NYSE and TSX)\n\n \n \n\n For further information:\n Investor Relations\n\n \n (416) 947-1212\n\n \n\n(All amounts expressed\nin U.S. dollars unless otherwise noted)\n\n \n\nAGNICO EAGLE PUBLISHES\n2021 SUSTAINABILITY REPORT\n\n \n\nToronto (June 20, 2022) – Agnico\nEagle Mines Limited (NYSE: AEM, TSX: AEM) (\"Agnico Eagle\" or the \"Company\") reports that it has released its\n2021 Sustainability Report (the \"Report\"). The Report provides an update on Agnico Eagle's oversight, strategy, practices and\nrisk management approach to key areas of health and safety, environmental, social and governance (\"ESG\") and on the historic\nsustainability performance of all mining operations.\n\n \n\nThe Report marks the 13th year that\nAgnico Eagle has produced a detailed account of the Company's ESG performance. The Report has been prepared in accordance with the Global\nReporting Initiative (\"GRI\") Standards: Core Options, with additional mining industry specific indicators from the Sustainability\nAccounting Standards Board (\"SASB\") Metals and Mining disclosures and metrics. The Report is also aligned with the Task Force\non Climate Related Financial Disclosures (\"TCFD\").\n\n \n\nHighlights from the Report include:\n\n \n\n●Integration\n of Legacy Kirkland Lake Gold operations – On February 8, 2022, Agnico Eagle\n and Kirkland Lake Gold Ltd. (\"Kirkland Lake\") completed a merger of equals. Performance\n data in the Report from both legacy companies is provided separately, and consolidated where\n appropriate, to provide our stakeholders with a complete understanding of Agnico Eagle's\n current business practices\n\n \n\n●Strong\n overall ESG performance – The Company maintained or improved performance across\n many key environmental indicators, including zero significant environmental incidents and\n the efficient use of water (78% of water for operational use recycled and reductions in fresh\n water used per ounce of gold produced). The Company continued to contribute and invest in\n the communities in which it operates with a combined $10.0 million in community investments\n and $1.6 billion in local procurement\n\n \n\n \n \n \n\n \n\n●Continued\n commitment to addressing climate-change and reaching net-zero by 2050 – In 2021,\n Agnico Eagle became a formal supporter of TCFD, expanded its climate-change governance model\n and completed a corporate climate-change related risk assessment. The Company's combined\n greenhouse gas (\"GHG\") profile, with an intensity of 0.4 tonnes of CO2\n equivalent for every ounce of gold produced, continues to position Agnico Eagle as a low\n GHG intensity gold producer. The Report also provides an estimate of Scope 3 emissions for\n legacy Agnico Eagle and legacy Kirkland Lake\n\n \n\n●COVID-19\n Response – In 2021, Agnico Eagle continued to respond to the challenges presented\n by COVID-19. Throughout the pandemic the Company continued to focus on three priorities:\n protecting its employees, protecting its communities and protecting its operations\n\n \n\n●Responsible\n Mining – The Company is committed to being a responsible miner and contributor\n to the sustainable development of the regions where it operates. In 2021, Agnico Eagle completed\n an externally verified audit for six mine sites on Towards Sustainable Mining (\"TSM\"),\n Responsible Gold Mining Principles (\"RGMP\"), and Voluntary Principles on Security\n and Human Rights (\"VPSHRs\")\n\n \n\nThe 2021 Sustainability Report can be accessed\nhere.\n\n \n\nAbout Agnico Eagle\n\n \n\nAgnico Eagle is a senior Canadian gold mining\ncompany, producing precious metals from operations in Canada, Australia, Finland and Mexico. It has a pipeline of high-quality exploration\nand development projects in these countries as well as in the United States and Colombia. Agnico Eagle is a partner of choice within\nthe mining industry, recognized globally for its leading environmental, social and governance practices. The Company was founded in 1957\nand has consistently created value for its shareholders, declaring a cash dividend every year since 1983.\n\n \n\nFor further information regarding Agnico Eagle,\ncontact Investor Relations at investor.relations@agnicoeagle.com or call (416) 947-1212.\n\n \n\n 2",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 3,
+        "rows": [
+          [
+            "Stock Symbol:",
+            "AEM (NYSE and TSX)"
+          ],
+          [
+            "For further information:",
+            "Investor Relations"
+          ],
+          [
+            "(416) 947-1212"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 1,
+        "rows": [
+          [
+            "●",
+            "Integration\n of Legacy Kirkland Lake Gold operations – On February 8, 2022, Agnico Eagle\n and Kirkland Lake Gold Ltd. (\"Kirkland Lake\") completed a merger of equals. Performance\n data in the Report from both legacy companies is provided separately, and consolidated where\n appropriate, to provide our stakeholders with a complete understanding of Agnico Eagle's\n current business practices"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 1,
+        "rows": [
+          [
+            "●",
+            "Strong\n overall ESG performance – The Company maintained or improved performance across\n many key environmental indicators, including zero significant environmental incidents and\n the efficient use of water (78% of water for operational use recycled and reductions in fresh\n water used per ounce of gold produced). The Company continued to contribute and invest in\n the communities in which it operates with a combined $10.0 million in community investments\n and $1.6 billion in local procurement"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 3,
+        "rowCount": 1,
+        "rows": [
+          [
+            "●",
+            "Continued\n commitment to addressing climate-change and reaching net-zero by 2050 – In 2021,\n Agnico Eagle became a formal supporter of TCFD, expanded its climate-change governance model\n and completed a corporate climate-change related risk assessment. The Company's combined\n greenhouse gas (\"GHG\") profile, with an intensity of 0.4 tonnes of CO2\n equivalent for every ounce of gold produced, continues to position Agnico Eagle as a low\n GHG intensity gold producer. The Report also provides an estimate of Scope 3 emissions for\n legacy Agnico Eagle and legacy Kirkland Lake"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 4,
+        "rowCount": 1,
+        "rows": [
+          [
+            "●",
+            "COVID-19\n Response – In 2021, Agnico Eagle continued to respond to the challenges presented\n by COVID-19. Throughout the pandemic the Company continued to focus on three priorities:\n protecting its employees, protecting its communities and protecting its operations"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 5,
+        "rowCount": 1,
+        "rows": [
+          [
+            "●",
+            "Responsible\n Mining – The Company is committed to being a responsible miner and contributor\n to the sustainable development of the regions where it operates. In 2021, Agnico Eagle completed\n an externally verified audit for six mine sites on Towards Sustainable Mining (\"TSM\"),\n Responsible Gold Mining Principles (\"RGMP\"), and Voluntary Principles on Security\n and Human Rights (\"VPSHRs\")"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>tm2218902d1_ex99-1.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<HTML>\n<HEAD>\n     <TITLE></TITLE>\n</HEAD>\n<BODY STYLE=\"font: 10pt Times New Roman, Times, Serif\">\n\n<P STYLE=\"margin: 0\">&nbsp;</P>\n\n<P STYLE=\"margin: 0; text-align: right\"><B>Exhibit 99.1</B></P>\n\n<P STYLE=\"margin: 0\">&nbsp;</P>\n\n<P STYLE=\"margin: 0\"><IMG SRC=\"tm2218902d1_ex99-1img001.jpg\" ALT=\"\">&nbsp;</P>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"font: 10pt Times New Roman, Times, Serif; border-collapse: collapse; width: 100%\">\n<TR STYLE=\"vertical-align: top; text-align: left\">\n  <TD STYLE=\"width: 50%\"><FONT STYLE=\"font-size: 10pt\"><B>Stock Symbol:</B></FONT></TD>\n  <TD STYLE=\"text-align: right; width: 50%\"><FONT STYLE=\"font-size: 10pt\"><B>AEM (NYSE and TSX)</B></FONT></TD></TR>\n<TR STYLE=\"vertical-align: top; text-align: left\">\n  <TD>&nbsp;</TD>\n  <TD STYLE=\"text-align: right\">&nbsp;</TD></TR>\n<TR STYLE=\"vertical-align: top; text-align: left\">\n  <TD><FONT STYLE=\"font-size: 10pt\"><B>For further information:</B></FONT></TD>\n  <TD STYLE=\"text-align: right\"><FONT STYLE=\"font-size: 10pt\"><B>Investor Relations</B></FONT></TD></TR>\n<TR STYLE=\"vertical-align: top; text-align: left\">\n  <TD>&nbsp;</TD>\n  <TD STYLE=\"text-align: right\"><B>(416) 947-1212</B></TD></TR>\n</TABLE>\n\n<P STYLE=\"text-align: center; margin-top: 0; margin-bottom: 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center\"><B>(All amounts expressed\nin U.S. dollars unless otherwise noted)</B></P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center\"><B>AGNICO EAGLE PUBLISHES\n2021 SUSTAINABILITY REPORT</B></P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify\"><B>Toronto (June&nbsp;20, 2022) &#8211; Agnico\nEagle Mines Limited (NYSE: AEM, TSX: AEM)</B> (&quot;Agnico Eagle&quot; or the &quot;Company&quot;) reports that it has released its\n2021 Sustainability Report (the &quot;Report&quot;). The Report provides an update on Agnico Eagle's oversight, strategy, practices and\nrisk management approach to key areas of health and safety, environmental, social and governance (&quot;ESG&quot;) and on the historic\nsustainability performance of all mining operations.</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify\">The Report marks the 13<SUP>th</SUP> year that\nAgnico Eagle has produced a detailed account of the Company's ESG performance. The Report has been prepared in accordance with the Global\nReporting Initiative (&quot;GRI&quot;) Standards: Core Options, with additional mining industry specific indicators from the Sustainability\nAccounting Standards Board (&quot;SASB&quot;) Metals and Mining disclosures and metrics. The Report is also aligned with the Task Force\non Climate Related Financial Disclosures (&quot;TCFD&quot;).</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify\"><B>Highlights from the Report include:</B></P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt\"><TR STYLE=\"vertical-align: top\">\n<TD STYLE=\"width: 0.25in\"></TD><TD STYLE=\"width: 0.25in\"><FONT STYLE=\"font-family: Times New Roman, Times, Serif\">&#9679;</FONT></TD><TD STYLE=\"text-align: justify\"><FONT STYLE=\"font-family: Times New Roman, Times, Serif\"><B>Integration\n                                            of Legacy Kirkland Lake Gold operations</B> &#8211; On February&nbsp;8, 2022, Agnico Eagle\n                                            and Kirkland Lake Gold Ltd. (&quot;Kirkland Lake&quot;) completed a merger of equals. Performance\n                                            data in the Report from both legacy companies is provided separately, and consolidated where\n                                            appropriate, to provide our stakeholders with a complete understanding of Agnico Eagle's\n                                            current business practices</FONT></TD></TR></TABLE>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt\"><TR STYLE=\"vertical-align: top\">\n<TD STYLE=\"width: 0.25in\"></TD><TD STYLE=\"width: 0.25in\"><FONT STYLE=\"font-family: Times New Roman, Times, Serif\">&#9679;</FONT></TD><TD STYLE=\"text-align: justify\"><FONT STYLE=\"font-family: Times New Roman, Times, Serif\"><B>Strong\n                                            overall ESG performance</B> &#8211; The Company maintained or improved performance across\n                                            many key environmental indicators, including zero significant environmental incidents and\n                                            the efficient use of water (78% of water for operational use recycled and reductions in fresh\n                                            water used per ounce of gold produced). The Company continued to contribute and invest in\n                                            the communities in which it operates with a combined $10.0 million in community investments\n                                            and $1.6 billion in local procurement</FONT></TD></TR></TABLE>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\"></P>\n\n<!-- Field: Page; Sequence: 1 -->\n    <DIV STYLE=\"margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1pt solid\"><P STYLE=\"font-size: 10pt; text-align: center; margin-top: 0pt; margin-bottom: 0pt\"></P></DIV>\n    <DIV STYLE=\"break-before: page; margin-top: 6pt; margin-bottom: 12pt\"><P STYLE=\"margin: 0pt\"></P></DIV>\n    <!-- Field: /Page -->\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt\"><TR STYLE=\"vertical-align: top\">\n<TD STYLE=\"width: 0.25in\"></TD><TD STYLE=\"width: 0.25in\"><FONT STYLE=\"font-family: Times New Roman, Times, Serif\">&#9679;</FONT></TD><TD STYLE=\"text-align: justify\"><FONT STYLE=\"font-family: Times New Roman, Times, Serif\"><B>Continued\n                                            commitment to addressing climate-change and reaching net-zero by 2050</B> &#8211; In 2021,\n                                            Agnico Eagle became a formal supporter of TCFD, expanded its climate-change governance model\n                                            and completed a corporate climate-change related risk assessment. The Company's combined\n                                            greenhouse gas (&quot;GHG&quot;) profile, with an intensity of 0.4 tonnes of CO<SUB>2</SUB>\n                                            equivalent for every ounce of gold produced, continues to position Agnico Eagle as a low\n                                            GHG intensity gold producer. The Report also provides an estimate of Scope 3 emissions for\n                                            legacy Agnico Eagle and legacy Kirkland Lake</FONT></TD></TR></TABLE>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt\"><TR STYLE=\"vertical-align: top\">\n<TD STYLE=\"width: 0.25in\"></TD><TD STYLE=\"width: 0.25in\"><FONT STYLE=\"font-family: Times New Roman, Times, Serif\">&#9679;</FONT></TD><TD STYLE=\"text-align: justify\"><FONT STYLE=\"font-family: Times New Roman, Times, Serif\"><B>COVID-19\n                                            Response </B>&#8211; In 2021, Agnico Eagle continued to respond to the challenges presented\n                                            by COVID-19. Throughout the pandemic the Company continued to focus on three priorities:\n                                            protecting its employees, protecting its communities and protecting its operations</FONT></TD></TR></TABLE>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt\"><TR STYLE=\"vertical-align: top\">\n<TD STYLE=\"width: 0.25in\"></TD><TD STYLE=\"width: 0.25in\"><FONT STYLE=\"font-family: Times New Roman, Times, Serif\">&#9679;</FONT></TD><TD STYLE=\"text-align: justify\"><FONT STYLE=\"font-family: Times New Roman, Times, Serif\"><B>Responsible\n                                            Mining</B> &#8211; The Company is committed to being a responsible miner and contributor\n                                            to the sustainable development of the regions where it operates. In 2021, Agnico Eagle completed\n                                            an externally verified audit for six mine sites on Towards Sustainable Mining (&quot;TSM&quot;),\n                                            Responsible Gold Mining Principles (&quot;RGMP&quot;), and Voluntary Principles on Security\n                                            and Human Rights (&quot;VPSHRs&quot;)</FONT></TD></TR></TABLE>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in; text-align: justify\"></P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify\">The 2021 Sustainability Report can be accessed\n<U>here</U>.</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify\"><B>About Agnico Eagle</B></P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify\">Agnico Eagle is a senior Canadian gold mining\ncompany, producing precious metals from operations in Canada, Australia, Finland and Mexico. It has a pipeline of high-quality exploration\nand development projects in these countries as well as in the United States and Colombia. Agnico Eagle is a partner of choice within\nthe mining industry, recognized globally for its leading environmental, social and governance practices. The Company was founded in 1957\nand has consistently created value for its shareholders, declaring a cash dividend every year since 1983.</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify\">For further information regarding Agnico Eagle,\ncontact Investor Relations at <U>investor.relations@agnicoeagle.com</U> or call (416) 947-1212.</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center\"></P>\n\n<!-- Field: Page; Sequence: 2; Options: NewSection Last; Value: 2 -->\n    <DIV STYLE=\"margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1pt solid\"><P STYLE=\"font-size: 10pt; text-align: center; margin-top: 0pt; margin-bottom: 0pt\"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->2<!-- Field: /Sequence --></P></DIV>\n    <!-- Field: /Page -->\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center\">&nbsp;</P>\n\n</BODY>\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

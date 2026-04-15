@@ -1,0 +1,2498 @@
+EX-99.1
+2
+exhibit99-1.htm
+EXHIBIT 99.1
+
+ Wheaton Precious Metals Corp.: Exhibit 99.1 - Filed by newsfilecorp.com
+
+ 
+ WHEATON PRECIOUS METALS CORP.as Borrower
+ - and -
+ THE BANK OF NOVA SCOTIAas Co-Lead Arranger, Joint Bookrunner and Administrative Agent
+ - and -
+ BANK OF MONTREALas Co-Lead Arranger, Joint Bookrunner and Syndication Agent
+ - and -
+ CANADIAN IMPERIAL BANK OF COMMERCE, NATIONAL BANK OF CANADA,ROYAL BANK OF CANADA AND THE TORONTO-DOMINION BANKas Co-Documentation Agents
+ - and -
+ THE BANK OF NOVA SCOTIA, BANK OF MONTREAL, CANADIAN IMPERIAL BANK OF COMMERCE, ROYAL BANK OF CANADA, THE TORONTO-DOMINION BANK, EXPORT DEVELOPMENT CANADA, NATIONAL BANK OF CANADA AND BANK OF AMERICA, N.A., CANADA BRANCH as Lenders
+ 
+ SEVENTH AMENDING AGREEMENT TO THE AMENDED AND RESTATED REVOLVING TERM FACILITY CREDIT AGREEMENT
+ Dated as of June 9, 2021
+ 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ SEVENTH AMENDING AGREEMENT TOAMENDED AND RESTATED REVOLVING TERM FACILITY CREDIT AGREEMENT
+ THIS AGREEMENT dated as of the 9th day of June, 2021.
+ BETWEEN:
+ THE BANK OF NOVA SCOTIA, a Canadian chartered bank
+ (herein, in its capacity as administrative agent for the Lenders, called the "Administrative Agent")
+ - and -
+ WHEATON PRECIOUS METALS CORP. (formerly known as Silver Wheaton Corp.), a corporation continued under the laws of the Province of Ontario
+ (herein called the "Borrower")
+ - and -
+ THE SEVERAL LENDERS FROM TIME TO TIME PARTY TO THE CREDIT AGREEMENT (herein and therein in their capacities as lenders to the Borrower, collectively called the "Lenders" and individually called a "Lender")
+ WHEREAS the Borrower, the Lenders and the Administrative Agent entered into an amended and restated credit agreement dated as of February 27, 2015, as amended by a first amending agreement dated as of November 20, 2015, by a second amending agreement dated as of March 18, 2016, by a third amending agreement dated as of February 27, 2017, a fourth amending agreement dated February 27, 2018, a fifth amending agreement dated February 27, 2019 and a sixth amending agreement dated February 27, 2020 in connection with a certain credit facility in favour of the Borrower (the "Credit Agreement");
+ AND WHEREAS the Borrower, the Lenders and the Administrative Agent hereto wish to amend certain provisions of the Credit Agreement;
+ NOW THEREFORE THIS AGREEMENT WITNESSES that, in consideration of the mutual covenants and agreements contained herein, the parties covenant and agree as follows:
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 2 -
+ 
+ ARTICLE 1DEFINED TERMS
+ 1.1 Capitalized Terms
+ All capitalized terms which are used herein without being specifically defined herein shall have the meanings ascribed thereto in the Credit Agreement.
+ ARTICLE 2AMENDMENTS TO CREDIT AGREEMENT
+ 2.1 General Rule
+ Subject to the terms and conditions herein contained, the Credit Agreement is hereby amended to the extent necessary to give effect to the provisions of this agreement and to incorporate the provisions of this agreement into the Credit Agreement.
+ 2.2 Defined Terms
+ (a) The definition of "Base Rate Canada" is hereby amended by adding the following sentence at the conclusion thereof: "If at any time Base Rate Canada is less than zero, Base Rate Canada shall be deemed to be equal to zero." 
+ (b) The definition of "Benchmark Replacement" in Section 1.1 of the Credit Agreement is hereby deleted in its entirety and replaced by the following:
+ ""Benchmark Replacement" means, for any Available Tenor:
+ (a) For the purposes of Section 3.12(a), the first alternative set forth below that can be determined by the Administrative Agent
+ (i) the sum of (x) Term SOFR and (y) 0.11448% (11.448 basis points) for an Available Tenor of one-month's duration, 0.26161% (26.161 basis points) for an Available Tenor of three months' duration and 0.42826% (42.826 basis points) for an Available Tenor of six months duration; or
+ (ii) the sum of: (x) Daily Simple SOFR and (y) the spread adjustment selected or recommended by the FRBNY for the replacement of the tenor of LIBOR with a SOFR-based rate having approximately the same length as the interest payment period specified in Section 3.12(a); and
+ (b) For purposes of Section 3.12(b), the sum of (i) the alternate benchmark rate and (ii) an adjustment (which may be a positive or negative value or zero), in each case, that has been selected by the Administrative Agent and the Borrower as the replacement for such Available Tenor of such Benchmark giving due consideration to any evolving or then-prevailing market 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 3 -
+ 
+ convention, including any applicable recommendations made by the FRBNY, for U.S. dollar-denominated syndicated credit facilities at such time;
+ provided that if the Benchmark Replacement as determined pursuant to clause (a) or (b) above would be less than the Floor, the Benchmark Replacement will be deemed to be the Floor for the purposes of this Agreement and the other Credit Documents."
+ (c) The definition of "Benchmark Replacement Conforming Changes" in Section 1.1 of the Credit Agreement is hereby deleted in its entirety and replaced by the following:
+ ""Benchmark Replacement Conforming Changes" means, with respect to any Benchmark Replacement, any technical, administrative or operational changes (including changes to the definition of "Base Rate Canada", the definition of "Banking Day", the definition of "Interest Period", timing and frequency of determining rates and making payments of interest, timing of borrowing requests or prepayment, conversion or rollover notices, the applicability and length of lookback periods, the applicability of breakage provisions, and other technical, administrative or operational matters) that the Administrative Agent decides may be appropriate to reflect the adoption and implementation of such Benchmark Replacement and to permit the administration thereof by the Administrative Agent in a manner substantially consistent with market practice (or, if the Administrative Agent decides that adoption of any portion of such market practice is not administratively feasible or if the Administrative Agent determines that no market practice for the administration of such Benchmark Replacement exists, in such other manner of administration as the Administrative Agent decides is reasonably necessary in connection with the administration of this Agreement and the other Credit Documents)."
+ (d) The definition of "Benchmark Transition Event" in Section 1.1 of the Credit Agreement is hereby deleted in its entirety and replaced by the following:
+ ""Benchmark Transition Event" means, with respect to any then-current Benchmark other than LIBOR, the occurrence of a public statement or publication of information by or on behalf of the administrator of the then-current Benchmark, the regulatory supervisor for the administrator of such Benchmark, the Board of Governors of the Federal Reserve System, the Federal Reserve Bank of New York, an insolvency official with jurisdiction over the administrator for such Benchmark, a resolution authority with jurisdiction over the administrator for such Benchmark or a court or an entity with similar insolvency or resolution authority over the administrator for such Benchmark, announcing or stating that (a) such administrator has ceased or will cease on a specified date to provide all Available Tenors of such Benchmark, permanently or indefinitely, provided that, at the time of such statement or publication, there is no successor administrator that will continue to provide any Available Tenor of such Benchmark or (b) all Available Tenors of such Benchmark are or will no longer be representative of the underlying market and economic 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 4 -
+ 
+ reality that such Benchmark is intended to measure and that representativeness will not be restored."
+ (e) The definitions of "Benchmark Replacement Adjustment", "Benchmark Replacement Date", "Benchmark Transition Start Date" and "Benchmark Unavailability Period" in Section 1.1 of the Credit Agreement are hereby deleted in their entirety.
+ (f) The definition of "Early Opt-in Election" in Section 1.1 of the Credit Agreement is hereby deleted in its entirety and replaced by the following:
+ ""Early Opt-in Election" means the occurrence of:
+ (a) a notification by the Administrative Agent to (or the request by the Borrower to the Administrative Agent to notify) each of the other parties hereto that at least five currently outstanding U.S. dollar-denominated syndicated credit facilities at such time provided in Canada by Canadian banks contain (as a result of amendment or as originally executed) a SOFR-based rate (including SOFR, a term SOFR or any other rate based upon SOFR) as a benchmark rate (and such syndicated credit facilities are identified in such notice and are publicly available for review), and
+ (b) the joint election by the Administrative Agent and the Borrower to trigger a fallback from LIBOR and the provision by the Administrative Agent of written notice of such election to the Lenders."
+ (g) The definition of "FRBNY" in Section 1.1 of the Credit Agreement is hereby deleted in its entirety and replaced by the following:
+ ""FRBNY" means the Board of Governors of the Federal Reserve System or the Federal Reserve Bank of New York, or a committee officially endorsed or convened by the Board of Governors of the Federal Reserve System or the Federal Reserve Bank of New York, or any successor thereto."
+ (h) The definition of "FRBNY Website" in Section 1.1 of the Credit Agreement is hereby deleted in its entirety and replaced by the following:
+ ""FRBNY Website" means the website of the Federal Reserve Bank of New York, currently at http://www.newyorkfed.org, or any successor source."
+ (i) The definition of "Guarantees" in Section 1.1 of the Credit Agreement is hereby amended by deleting the reference to "SW Luxembourg" and replacing it with "Wheaton Luxembourg".
+ (j) The definition of "Guarantors" in Section 1.1 of the Credit Agreement is hereby deleted in its entirety and replaced by the following:
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 5 -
+ 
+ ""Guarantors" means each direct or indirect Subsidiary that has provided a Guarantee pursuant to the terms of section 11.1(s), including each Additional Guarantor, with the Guarantors being, as of June 9, 2021, Wheaton International, Wheaton Luxembourg and Wheaton Precious Metals."
+ (k) The definition of "HSBC Payout" in Section 1.1 of the Credit Agreement is hereby deleted in its entirety.
+ (l) The definition of "Individual Commitment" in Section 1.1 of the Credit Agreement is hereby deleted in its entirety and replaced by the following:
+ ""Individual Commitment" " means, with respect to a particular Lender, the amount set forth in Schedule A attached hereto as reduced or amended from time to time pursuant to Sections 2.3, 8.3, 14.14 and 15.5 as the individual commitment of such Lender with respect to the Credit Facility, provided that, upon the termination of the Credit Facility pursuant to Section 2.4, the Individual Commitment of each Lender shall thereafter be equal to the Individual Commitment of such Lender immediately prior to the termination of the Credit Facility."
+ (m) The definition of "LIBOR" in Section 1.1 of the Credit Agreement is hereby deleted in its entirety and replaced by the following:
+ ""LIBOR" means with respect to a particular Interest Period, the rate of interest per annum which appears on LIBOR01 page of the Reuters screen (or, if not available, on any successor or substitute page providing rate quotations comparable to those provided on such page) at approximately 11:55 a.m. (London time) two London Banking Days before the first day of such Interest Period and having a maturity equal to such Interest Period; or if no such rate is available, then the rate of interest per annum equal to the rate per annum at which deposits in U.S. dollars would be offered to the Administrative Agent by leading banks in the London interbank market at approximately 11:00 a.m. (London time), two Banking Days before the first day of such Interest Period, for a period comparable to such Interest Period and in an amount approximately equal to the amount of such LIBOR Loan. If at any time LIBOR is less than zero, LIBOR shall be deemed to be equal to zero. For the purposes of this definition, "London Banking Day" means a day on which dealings are carried on in the London inter-bank market in respect of transactions in U.S. dollars."
+ (n) The definition of "Maturity Date" in Section 1.1 of the Credit Agreement is hereby deleted in its entirety and replaced by the following:
+ ""Maturity Date" means June 9, 2026."
+ (o) The definition of "Non-Guaranteeing Subsidiaries" in Section 1.1 of the Credit Agreement is hereby deleted in its entirety and replaced by the following:
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 6 -
+ 
+ ""Non-Guaranteeing Subsidiaries" means any Subsidiaries of the Borrower which are not Guarantors, provided that where a Holding Company has provided a Guarantee with respect to a Guarantor Exception Subsidiary or the Borrower is the Holding Company for a Guarantor Exception Subsidiary, such Guarantor Exception Subsidiary shall not be a Non-Guaranteeing Subsidiary."
+ (p) Subparagraph (b) in the definition of "Permitted Acquisition" in Section 1.1 of the Credit Agreement is hereby amended by deleting the reference to "total consolidated assets" and replacing it with "Consolidated Total Assets".
+ (q) Subparagraph (b) in the definition of "Permitted Investments" in Section 1.1 of the Credit Agreement is hereby amended by deleting the reference to "total consolidated assets" and replacing it with "Consolidated Total Assets".
+ (r) Subparagraphs (q) and (r) of the definition of "Permitted Liens" in Section 1.1 of the Credit Agreement are hereby deleted in their entirety and replaced with the following:
+ "(q) Liens securing payment obligations of the Obligors relating to Indebtedness in an aggregate outstanding principal amount equal to, at any given time, an amount not exceeding 5% of the value of Consolidated Total Assets at such time as reported in the Borrower's most recent audited financial statements, such amount, for certainty, being exclusive of all other Indebtedness referenced in this definition of "Permitted Liens";
+ (r) Liens on 500,000 Euros deposited by Wheaton International (and accrued interest thereon) as security for Indebtedness of Wheaton International in respect of the guarantee made or arranged by Société Générale in the amount of up to 500,000 Euros in favour of Wheaton International pursuant to a letter agreement dated January 19, 2005; and"
+ (s) The definition of "SOFR" in Section 1.1 of the Credit Agreement is hereby deleted in their entirety and replaced with the following:
+ ""SOFR" means a rate per annum equal to the secured overnight financing rate for such Banking Day published by the Federal Reserve Bank of New York (or a successor administrator of the secured overnight financing rate) on the FRBNY Website for the secured overnight financing rate identified as such by the administrator of the secured overnight financing rate from time to time)."
+ (t) The definitions of "SW Caymans" and "SW Luxembourg" in Section 1.1 of the Credit Agreement are hereby deleted in their entirety.
+ (u) The definition of "Term SOFR" in Section 1.1 of the Credit Agreement is hereby deleted in its entirety and replaced with the following:
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 7 -
+ 
+ ""Term SOFR" means, for the applicable corresponding tenor, the forward-looking term rate based on SOFR that has been selected or recommended by the FRBNY."
+ (v) The definition of "Unadjusted Benchmark Replacement" in Section 1.1 of the Credit Agreement are hereby deleted in its entirety.
+ (w) The following new definitions are hereby added to Section 1.1 of the Credit Agreement in alphabetical order:
+ ""Asset Cover Threshold" means, at any particular time, an amount equal to 85% of the Consolidated Total Assets for the most recently completed Fiscal Quarter as reported by the Borrower pursuant to the Compliance Certificate delivered pursuant to Section 11.1(a)(ii) and (iii) at the time that it delivers its financial statements.
+ "Available Tenor" means, as of any date of determination and with respect to the then-current Benchmark, as applicable, (x) if the then-current Benchmark is a term rate, any tenor for such Benchmark that is or may be used for determining the length of an Interest Period or (y) otherwise, any payment period for interest calculated with reference to such Benchmark, as applicable, pursuant to this Agreement as of such date.
+ "Benchmark" means, initially, LIBOR; provided that if a replacement of the Benchmark has occurred pursuant to Section 3.12, then "Benchmark" means the applicable Benchmark Replacement to the extent that such Benchmark Replacement has replaced such prior benchmark rate. Any reference to "Benchmark" shall include, as applicable, the published component used in the calculation thereof.
+ "Consolidated Total Assets" means, on any particular date, the balance sheet value of the total assets of the Borrower, on a consolidated basis, but excluding, for the avoidance of doubt, goodwill, deferred charges and intercompany balances.
+ "Daily Simple SOFR" means, for any day, SOFR, with the conventions for this rate (which will include a lookback) being established by the Administrative Agent in accordance with the conventions for this rate recommended by the FRBNY for determining "Daily Simple SOFR" for syndicated business loans; provided, that if the Administrative Agent decides that any such convention is not administratively feasible for the Administrative Agent, then the Administrative Agent may establish another convention in its reasonable discretion.
+ "Early Opt-in Effective Date" means, with respect to any Early Opt-in Election, the sixth (6th) Banking Day after the date notice of such Early Opt-in Election is provided to the Lenders, so long as the Administrative Agent has not received, by 5:00 p.m. (Toronto time) on the fifth (5th) Banking Day after the date notice of such Early Opt-in Election is provided to the Lenders, written notice of objection to such Early Opt-in Election from Lenders comprising the Majority Lenders.
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 8 -
+ 
+ "Erroneous Payment" has the meaning assigned to it in Section 14.23(a).
+ "Erroneous Payment Deficiency Assignment" has the meaning assigned to it in Section 14.23(d).
+ "Erroneous Payment Impacted Class" has the meaning assigned to it in Section 14.23(d).
+ "Erroneous Payment Return Deficiency" has the meaning assigned to it in Section 14.23(d).
+ "Erroneous Payment Subrogation Rights" has the meaning assigned to it in Section 14.23(d).
+ "Floor" means the benchmark rate floor, if any, provided in this Agreement initially (as of the execution of this Agreement, the modification, amendment or renewal of this Agreement or otherwise) with respect to LIBOR.
+ "Guarantor Exception Subsidiary" means any Subsidiary that (i) is prohibited by applicable law from providing a Guarantee, (ii) is not a wholly-owned Subsidiary of the Borrower, (iii) is acquired directly or indirectly by the Borrower pursuant to a Permitted Acquisition that is subject to contractual terms which prohibit such Subsidiary from providing a Guarantee (for the avoidance of doubt, such a Subsidiary shall cease to be a Guarantor Exception Subsidiary once the aforesaid contractual provisions cease to prohibit it from providing a Guarantee) or (iv), if it executed and delivered a Guarantee or performed its obligations thereunder, stamp taxes or other like charges in aggregate in excess of $250,000 (or such lesser amount as the Majority Lenders may otherwise agree) would be, or would become, due and payable upon the execution or enforcement thereof. In the event that, subsequent to the execution and delivery of any Guarantees, a Guarantor becomes, or is determined to have been, subject to an exception as set out in clause (iv) above, the aforesaid Guarantees may be released if the relevant Holding Company (A) becomes a Guarantor in accordance with Section 11.1(s) or (B) is the Borrower.
+ "Holding Company" means, in respect of each Guarantor Exception Subsidiary, the Borrower or Subsidiary, as applicable, which (x) holds, directly or indirectly, the entirety of the ownership interest of the Borrower and its Subsidiaries in such Guarantor Exception Subsidiary and (y) which itself is not a Guarantor Exception Subsidiary. For the avoidance of doubt, there shall be only one Holding Company in respect of any Guarantor Exception Subsidiary.
+ "Payment Recipient" has the meaning assigned to it in Section 14.23(a).
+ "Supporting Aggregate Assets" means, at any particular time, the balance sheet value of the total aggregate assets (excluding goodwill, deferred charges and intercompany balances) directly held by either the Borrower or the then current Guarantors for the most recently completed Fiscal Quarter, in each case as reported by the Borrower pursuant to the Compliance Certificate delivered pursuant to 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 9 -
+ 
+ Section 11.1(a)(ii) and (iii) at the time that the Borrower delivers its financial statements. For purposes of this calculation, (a) subject to clause (b) of this sentence, the assets of any Holding Company shall be deemed to include the assets of its corresponding Guarantor Exception Subsidiary and (b) with respect to any Guarantor Exception Subsidiary resulting from clause (ii) of the definition of "Guarantor Exception Subsidiary", the assets of the applicable Holding Company shall be deemed to include a portion of the assets of such Guarantor Exception Subsidiary, such portion being equal to such Holding Company's percentage ownership interest in such Guarantor Exception Subsidiary.
+ "Wheaton International" means Wheaton Precious Metals International Ltd., a company formed under the laws of the Cayman Islands and its successors and assigns.
+ "Wheaton Luxembourg" means Silver Wheaton Luxembourg SARL, a company formed under the laws of the Grand Duchy of Luxembourg and its successors and assigns."
+ 2.3 Notice Periods
+ Subparagraph (b) of Section 3.10 of the Credit Agreement is hereby amended by deleting the first instance of "other".
+ 2.4 Effect of Benchmark Discontinuance Event
+ Section 3.12 of the Credit Agreement is hereby deleted in its entirety and replaced by a new Section 3.12 as follows:
+ "3.12 Benchmark Replacement Setting
+ Notwithstanding anything to the contrary herein or in any other Credit Document:
+ (a) Replacing LIBOR. On March 5, 2021 the Financial Conduct Authority ("FCA"), the regulatory supervisor of LIBOR's administrator ("IBA"), announced in a public statement the future cessation or loss of representativeness of overnight/Spot Next, 1-month, 3-month, 6-month and 12-month LIBOR tenor settings. On the earlier of (i) the date that all Available Tenors of LIBOR have either permanently or indefinitely ceased to be provided by IBA or have been announced by the FCA pursuant to public statement or publication of information to be no longer representative and (ii) the Early Opt-in Effective Date, if the then-current Benchmark is LIBOR, the Benchmark Replacement will replace such Benchmark for all purposes hereunder and under any Credit Document in respect of any setting of such Benchmark on such day and all subsequent settings without any amendment to, or further action or consent of any other party to, this Agreement or any other Credit Document. If the Benchmark Replacement is Daily Simple SOFR, all interest payments will be payable on a monthly basis.
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 10 -
+ 
+ (b) Replacing Future Benchmarks. Upon the occurrence of a Benchmark Transition Event, the Benchmark Replacement will replace the then-current Benchmark for all purposes hereunder and under any Credit Document in respect of any Benchmark setting at or after 5:00 p.m. on the fifth (5th) Banking Day after the date notice of such Benchmark Replacement is provided to the Lenders without any amendment to, or further action or consent of any other party to, this Agreement or any other Credit Document so long as the Administrative Agent has not received, by such time, written notice of objection to such Benchmark Replacement from Lenders comprising the Majority Lenders. At any time that the administrator of the then-current Benchmark has permanently or indefinitely ceased to provide such Benchmark or such Benchmark has been announced by the regulatory supervisor for the administrator of such Benchmark pursuant to public statement or publication of information to be no longer representative of the underlying market and economic reality that such Benchmark is intended to measure and that representativeness will not be restored, the Borrower may revoke any request for a borrowing of, conversion to or rollover of Loans to be made, converted or continued that would bear interest by reference to such Benchmark until the Borrower's receipt of notice from the Administrative Agent that a Benchmark Replacement has replaced such Benchmark, and, failing that, the Borrower will be deemed to have converted any such request into a request for a borrowing of or conversion to Base Rate Canada Loans. During the period referenced in the foregoing sentence, the component of Base Rate Canada based upon the Benchmark will not be used in any determination of Base Rate Canada.
+ (c) Benchmark Replacement Conforming Changes. In connection with the implementation and administration of a Benchmark Replacement, the Administrative Agent will have the right to make Benchmark Replacement Conforming Changes from time to time and, notwithstanding anything to the contrary herein or in any other Credit Document, any amendments implementing such Benchmark Replacement Conforming Changes will become effective without any further action or consent of any other party to this Agreement.
+ (d) Notices; Standards for Decisions and Determinations. The Administrative Agent will promptly notify the Borrower and the Lenders of (i) the implementation of any Benchmark Replacement and (ii) the effectiveness of any Benchmark Replacement Conforming Changes. Any determination, decision, selection or election that may be made by the Administrative Agent or, if applicable, any Lender (or group of Lenders) pursuant to this Section 3.12, including any determination with respect to a tenor, rate or adjustment or of the occurrence or non-occurrence of an event, circumstance or date and any decision to take or refrain from taking any action, will be conclusive and binding absent manifest error and may be made in its or their sole discretion and without consent from any other party 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 11 -
+ 
+ to this Agreement or any other Credit Document, except, in each case, as expressly required pursuant to this Section 3.12.
+ (e) Unavailability of Tenor of Benchmark. At any time (including in connection with the implementation of a Benchmark Replacement), (i) if the then-current Benchmark is a term rate (including Term SOFR or LIBOR), then the Administrative Agent may remove any tenor of such Benchmark that is unavailable or non-representative for Benchmark (including Benchmark Replacement) settings and (ii) the Administrative Agent may reinstate any such previously removed tenor for Benchmark (including Benchmark Replacement) settings.
+ (f) Administrative Agent Disclaimer. The Administrative Agent does not warrant or accept responsibility for, and shall not have any liability with respect to, the administration, submission or any other matter related to the screen rates in the definition of "LIBOR" or with respect to any screen rate that is an alternative or replacement for or successor to any such rate (including any Benchmark Replacement) or the effect of any of the foregoing."
+ 2.5 Selection of Interest Periods. 
+ Subparagraph (a) of Section 7.4 of the Credit Agreement is hereby amended by deleting the reference to "two,".
+ 2.6 Indemnity for Transactional and Environmental Liability
+ Subparagraph (a) of Section 8.5 of the Credit Agreement is hereby deleted in its entirety and replaced with the following:
+ "(a) The Borrower hereby agrees to indemnify and hold the Administrative Agent, each Lender and each of their respective shareholders, officers, directors, employees, and agents (collectively, the "Indemnified Parties") free and harmless from and against any and all claims, demands, actions, causes of action, suits, losses, costs, charges, liabilities and damages, and expenses in connection therewith (irrespective of whether such Indemnified Party is a party to the action for which indemnification hereunder is sought), and including, without limitation, reasonable legal fees and out of pocket disbursements and amounts paid in settlement which are approved by the Borrower (collectively in this Section 8.5(a), the "Indemnified Liabilities"), incurred or suffered by, or asserted against, the Indemnified Parties or any of them as a result of, or arising out of, or relating to (i) the extension of credit contemplated herein, (ii) any transaction financed or to be financed in whole or in part, directly or indirectly, with the proceeds of any credit extended hereunder, (iii) any actual or threatened investigation, litigation or other proceeding relating to any credit extended or proposed to be extended as contemplated herein or (iv) the execution, delivery, performance or enforcement of the Credit Documents and any instrument, document or agreement executed pursuant hereto or thereto, except for 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 12 -
+ 
+ any such Indemnified Liabilities (x) that a court of competent jurisdiction determines arose on account of an Indemnified Party's gross negligence or willful misconduct or (y) arising out of or relating to an Erroneous Payment or otherwise pursuant to Section 14.23."
+ 2.7 Representations and Warranties
+ Subparagraph (m) (Subsidiaries) of Section 10.1 of the Credit Agreement is hereby amended by adding ", any Guarantor Exception Subsidiaries" immediately following the reference to "other than the Guarantors".
+ 2.8 Affirmative Covenants
+ Subparagraph (s) (Additional Guarantors) of Section 11.1 of the Credit Agreement is hereby deleted in its entirety and replaced with the following:
+ "(s) Asset Cover Threshold. If the Supporting Aggregate Assets are less than the Asset Cover Threshold based on the Compliance Certificate delivered to the Administrative Agent in respect of the most recently completed Fiscal Quarter, then the Borrower will promptly cause such additional Guarantees to be given as may be required so that the Supporting Aggregate Assets are equal to or exceeds the Asset Cover Threshold. Any such additional Guarantors shall be comprised, to the extent possible, firstly of Subsidiaries that are not Guarantor Exception Subsidiaries or Holding Companies and secondly, Subsidiaries that are Holding Companies. To the extent additional Guarantees are required in accordance with this Section 11.1(s), the Borrower shall cause the relevant Subsidiary to promptly provide the materials set forth below, with such deliveries being made no later than sixty (60) days after delivery of the applicable Compliance Certificate. Notwithstanding the foregoing, the Borrower may, at its own election, cause additional Guarantees to be given from time to time.
+ The Borrower shall cause any future Subsidiary required to provide a Guarantee in accordance with this section 11.1(s) to deliver the following:
+ (i) the Borrower shall forthwith cause such Subsidiary to duly execute and deliver to the Administrative Agent a Guarantee;
+ (ii) the Borrower shall forthwith deliver, or cause to be delivered to, the Administrative Agent, in form and substance satisfactory to the Administrative Agent:
+ (A) a duly certified copy of the articles of incorporation or similar documents and by-laws of such Subsidiary;
+ (B) a certificate of status or good standing for such Subsidiary (if available under applicable law) issued by the appropriate governmental body or agency of the jurisdiction in which such Subsidiary is incorporated;
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 13 -
+ 
+ (C) a duly certified copy of the resolution of the board of directors of such Subsidiary authorizing it to execute, deliver and perform its obligations under each Credit Document to which such Subsidiary is a signatory;
+ (D) a certificate of an officer of such Subsidiary, in such capacity, setting forth specimen signatures of the individuals authorized to sign the Credit Documents to which such Subsidiary is a signatory;
+ (E) requisite information to identify the Subsidiary under applicable "know your client" legislation; and
+ (F) an opinion of such Subsidiary's counsel addressed to the Credit Parties, relating to the status and capacity of such Subsidiary, the due authorization, execution and delivery and the validity and enforceability of the Credit Documents to which such Subsidiary is a party in the jurisdiction of incorporation of such Subsidiary and in the Province of Ontario and such other matters as the Administrative Agent may reasonably request; and
+ (iii) the Administrative Agent shall be satisfied, acting reasonably, that all necessary approvals, acknowledgements, directions and consents have been given and that all relevant laws have been complied with in respect of all agreements and transactions referred to herein.
+ Upon the delivery of the foregoing such Subsidiary shall become an Additional Guarantor for all purposes of this agreement."
+ 2.9 Restrictive Covenants
+ (a) Subparagraph (c) (Disposition of Metal Purchase Contracts) of Section 11.2 of the Credit Agreement is hereby deleted in its entirety and replaced by the following:
+ "(c) Disposition of Metal Purchase Contracts. Other than in connection with a Permitted Reorganization, the Borrower shall not, and shall not suffer or permit any Guarantor to sell, dispose, assign or transfer any Metal Purchase Contract other than the sale, disposition, assignment or transfer of any such Metal Purchase Contracts the aggregate consideration for which does not exceed, during the period up to and including the Maturity Date, an amount equal to 15% of Consolidated Total Assets as at March 31, 2021, provided in each case no Default or Event of Default exists, or would occur immediately after, any such sale, disposition, assignment or transfer."
+ (b) Subparagraph (k) (Non-Guaranteeing Subsidiaries) of Section 11.2 of the Credit Agreement is hereby deleted in its entirety.
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 14 -
+ 
+ 2.10 Waivers and Amendments
+ Subparagraph (b)(vi) of Section 14.14 of the Credit Agreement is hereby deleted in its entirety and replaced with the following:
+ "(vi) release any of the Guarantees in whole or in part, save and except for in accordance with Section 14.22; or"
+ 2.11 Release of Guarantees and Erroneous Payments
+ The following new Sections 14.22 and 14.23 of the Credit Agreement are hereby added immediately following Section 14.21:
+ 14.22 Release of Guarantees
+ The Borrower may request, at any time that no Default has occurred and is continuing, a release of any Guarantee provided that:
+ (a) the Borrower has provided evidence satisfactory to the Administrative Agent that, upon such release, the Borrower would be in pro forma compliance with the Asset Cover Threshold in accordance with Section 11.1(s) immediately after such release;
+ (b) no Default would occur immediately following such release; and
+ (c) in connection with any release of any Guarantees as contemplated in the last sentence of the definition of "Guarantor Exception Subsidiary", the relevant Holding Company (i) shall become a Guarantor pursuant to Section 11.1(s) contemporaneously with such release or (ii) is the Borrower.
+ Where the Borrower has made a request pursuant to this Section 14.22 and provided evidence satisfactory to the Administrative Agent, acting reasonably, that it has satisfied all conditions of this Section 14.22 in connection with such request, the Administrative Agent shall, for and on behalf of the Lenders and without any further consent or approvals, release and terminate the applicable Guarantee. 
+ 14.23 Erroneous Payments
+ (a) If the Administrative Agent notifies a Lender or Credit Party, or any Person who has received funds on behalf of a Lender or Credit Party (any such Lender, Credit Party or other recipient, a "Payment Recipient") that the Administrative Agent has determined in its sole discretion (whether or not after receipt of any notice under immediately succeeding clause (b)) that any funds received by such Payment Recipient from the Administrative Agent or any of its Affiliates were erroneously transmitted to, or otherwise erroneously or mistakenly received by, such Payment Recipient (whether or not known to such Lender, Credit Party or other Payment Recipient on its behalf) (any such funds, whether received as a payment, prepayment or 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 15 -
+ 
+ repayment of principal, interest, fees, distribution or otherwise, individually and collectively, an "Erroneous Payment") and demands the return of such Erroneous Payment (or a portion thereof), such Erroneous Payment shall at all times remain the property of the Administrative Agent and shall be segregated by the Payment Recipient and held in trust for the benefit of the Administrative Agent, and such Lender or Credit Party shall (or, with respect to any Payment Recipient who received such funds on its behalf, shall cause such Payment Recipient to) promptly, but in no event later than two Banking Days thereafter, return to the Administrative Agent the amount of any such Erroneous Payment (or portion thereof) as to which such a demand was made, in same day funds (in the currency so received), together with interest thereon in respect of each day from and including the date such Erroneous Payment (or portion thereof) was received by such Payment Recipient to the date such amount is repaid to the Administrative Agent in same day funds at the greater of (x) in respect of an Erroneous Payment in U.S. dollars, the Federal Funds Effective Rate (provided, for the purpose of this Section 14.23, if at the relevant time the Federal Funds Effective Rate is less than zero, the Federal Funds Effective Rate at such time shall be deemed to be equal to zero), and in respect of an Erroneous Payment in Canadian Dollars or any other currency at a fluctuating rate per annum equal to the overnight rate at which Canadian Dollars or funds in the currency of such Erroneous Payment, as the case may be, may be borrowed by the Administrative Agent in the interbank market in an amount comparable to such Erroneous Payment (as determined by the Administrative Agent); and (y) a rate determined by the Administrative Agent in accordance with banking industry rules on interbank compensation from time to time in effect. A notice of the Administrative Agent to any Payment Recipient under this clause (a) shall be conclusive, absent manifest error.
+ (b) Without limiting immediately preceding clause (a), each Lender or Credit Party, or any Person who has received funds on behalf of a Lender or Credit Party, hereby further agrees that if it receives a payment, prepayment or repayment (whether received as a payment, prepayment or repayment of principal, interest, fees, distribution or otherwise) from the Administrative Agent (or any of its Affiliates) (x) that is in a different amount than, or on a different date from, that specified in a notice of payment, prepayment or repayment sent by the Administrative Agent (or any of its Affiliates) with respect to such payment, prepayment or repayment, (y) that was not preceded or accompanied by a notice of payment, prepayment or repayment sent by the Administrative Agent (or any of its Affiliates), or (z) that such Lender or Credit Party, or other such recipient, otherwise becomes aware was transmitted, or received, in error or by mistake (in whole or in part) in each case:
+ (i) (A) in the case of immediately preceding clauses (x) or (y), an error shall be presumed to have been made (absent written confirmation from the Administrative Agent to the contrary) or (B) an error has been made (in the case of immediately preceding clause (z)), in each case, with respect to such payment, prepayment or repayment; and
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 16 -
+ 
+ (ii) such Lender or Credit Party shall (and shall cause any other recipient that receives funds on its respective behalf to) promptly (and, in all events, within one Banking Day of its knowledge of such error) notify the Administrative Agent of its receipt of such payment, prepayment or repayment, the details thereof (in reasonable detail) and that it is so notifying the Administrative Agent pursuant to this Section 14.23(b).
+ (c) Each Lender or Credit Party hereby authorizes the Administrative Agent to set off, net and apply any and all amounts at any time owing to such Lender or Credit Party under any Credit Document, or otherwise payable or distributable by the Administrative Agent to such Lender or Credit Party from any source, against any amount due to the Administrative Agent under immediately preceding clause (a) or under the indemnification provisions of this Agreement.
+ (d) In the event that an Erroneous Payment (or portion thereof) is not recovered by the Administrative Agent for any reason, after demand therefor by the Administrative Agent in accordance with immediately preceding clause (a), from any Lender that has received such Erroneous Payment (or portion thereof) (and/or from any Payment Recipient who received such Erroneous Payment (or portion thereof) on its respective behalf) (such unrecovered amount, an "Erroneous Payment Return Deficiency"), upon the Administrative Agent's notice to such Lender at any time, (i) such Lender shall be deemed to have assigned its Loans (but not its Individual Commitment) of the relevant type(s) with respect to which such Erroneous Payment was made (the "Erroneous Payment Impacted Class") in an amount equal to the Erroneous Payment Return Deficiency (or such lesser amount as the Administrative Agent may specify) (such assignment of the Loans (but not Individual Commitment) of the Erroneous Payment Impacted Class, the "Erroneous Payment Deficiency Assignment") at par plus any accrued and unpaid interest (with the assignment fee to be waived by the Administrative Agent in such instance), and is hereby (together with the Borrower) deemed to execute and deliver an instrument substantially in the form of Schedule C (or, to the extent applicable, an agreement incorporating an instrument substantially in the form of Schedule C by reference pursuant to an electronic platform such as SyndTrak or IntraLinks as to which the Administrative Agent and such parties are participants) with respect to such Erroneous Payment Deficiency Assignment, (ii) the Administrative Agent as the assignee Lender shall be deemed to acquire the 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 17 -
+ 
+ Erroneous Payment Deficiency Assignment, (iii) upon such deemed acquisition, the Administrative Agent as the assignee Lender shall become a Lender hereunder with respect to such Erroneous Payment Deficiency Assignment and the assigning Lender shall cease to be a Lender hereunder with respect to such Erroneous Payment Deficiency Assignment, excluding, for the avoidance of doubt, its obligations under the indemnification provisions of this Agreement and its applicable Individual Commitment which shall survive as to such assigning Lender (iv) the Administrative Agent may reflect in the accounts referenced in Section 3.9 its ownership interest in the Loans subject to the Erroneous Payment Deficiency Assignment. Subject to Section 15.5(c), the Administrative Agent may, in its discretion, sell any Loans acquired pursuant to an Erroneous Payment Deficiency Assignment and upon receipt of the proceeds of such sale, the Erroneous Payment Return Deficiency owing by the applicable Lender shall be reduced by the net proceeds of the sale of such Loan (or portion thereof), and the Administrative Agent shall retain all other rights, remedies and claims against such Lender (and/or against any recipient that receives funds on its respective behalf). For the avoidance of doubt, no Erroneous Payment Deficiency Assignment will reduce the Individual Commitment of any Lender and such Individual Commitment shall remain available in accordance with the terms of this Agreement. In addition, each party hereto agrees that, except to the extent that the Administrative Agent has sold a Loan (or portion thereof) acquired pursuant to an Erroneous Payment Deficiency Assignment, and irrespective of whether the Administrative Agent may be equitably subrogated, the Administrative Agent shall be contractually subrogated to all the rights and interests of the applicable Lender or Credit Party under the Credit Documents with respect to each Erroneous Payment Return Deficiency (the "Erroneous Payment Subrogation Rights").
+ (e) The parties hereto agree that an Erroneous Payment shall not pay, prepay, repay, discharge or otherwise satisfy any Obligations owed by the Borrower or any other Obligor, except, in each case, to the extent such Erroneous Payment is, and solely with respect to the amount of such Erroneous Payment that is, comprised of funds received by the Administrative Agent from the Borrower or any other Obligor.
+ (f) To the extent permitted by applicable law, no Payment Recipient shall assert any right or claim to an Erroneous Payment, and hereby waives, and is deemed to waive, any claim, counterclaim, defense or right of set-off or recoupment with respect to any demand, claim or counterclaim by the Administrative Agent for the return of any Erroneous Payment received, including without limitation waiver of any defense based on "discharge for value" or any similar doctrine.
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 18 -
+ 
+ (g) Each party's obligations, agreements and waivers under this Section 14.23 shall survive the resignation or replacement of the Administrative Agent, any transfer of rights or obligations by, or the replacement of, a Lender the termination of the Individual Commitment and/or the repayment, satisfaction or discharge of all Obligations (or any portion thereof) under any Credit Document."
+ 2.12 Schedules A-1, A-2, B and I
+ (a) Schedules A-1 and A-2 are hereby deleted in their entirety and replaced with Schedule A hereto.
+ (b) Schedules B and I to the Credit Agreement are hereby deleted in their entirety and replaced with Schedules B and I hereto.
+ ARTICLE 3REPRESENTATIONS AND WARRANTIES
+ 3.1 Representations and Warranties
+ To induce the Lenders and the Administrative Agent to enter into this agreement, the Borrower hereby represents and warrants to the Lenders and the Administrative Agent that the representations and warranties of the Borrower which are contained in Section 10.1 of the Credit Agreement, as hereby amended, are true and correct on the date hereof as if made on the date hereof.
+ ARTICLE 4CONDITION PRECEDENT
+ 4.1 Conditions Precedent to Effectiveness of this Agreement
+ This agreement shall not become effective until the following conditions precedent are fulfilled:
+ (a) this agreement shall have been executed and delivered by each of the Borrower, the Administrative Agent and the Lenders;
+ (b) the attached acknowledgement and consent shall have been executed and delivered by each Guarantor to the Administrative Agent;
+ (c) the Borrower shall have paid to the Lenders and to The Bank of Nova Scotia and Bank of Montreal, in their respective capacities as co-lead arrangers of the Credit Facility (the "Joint-Lead Arrangers") all fees and expenses required to be paid in connection with the fee letter of even date executed by the Borrower and the Joint-Lead Arrangers.
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 19 -
+ 
+ ARTICLE 5MISCELLANEOUS
+ 5.1 No Default 
+ The Borrower represents and warrants to and in favour of the Administrative Agent and the Lenders that no Default has occurred and is continuing as at the date this agreement becomes effective and no Default would arise immediately thereafter.
+ 5.2 Future References to the Credit Agreement
+ On and after the date of this agreement, each reference in the Credit Agreement to "this agreement", "hereunder", "hereof", or words of like import referring to the Credit Agreement, and each reference in any related document to the "Credit Agreement", "thereunder", "thereof", or words of like import referring to the Credit Agreement, shall mean and be a reference to the Credit Agreement as amended hereby. The Credit Agreement, as amended hereby, is and shall continue to be in full force and effect and is hereby in all respects ratified and confirmed.
+ 5.3 Governing Law
+ This agreement shall be governed by and construed in accordance with the laws of the Province of Ontario.
+ 5.4 Enurement
+ This agreement shall enure to the benefit of and shall be binding upon the parties hereto and their respective successors and permitted assigns.
+ 5.5 Conflict
+ If any provision of this agreement is inconsistent or conflicts with any provision of the Credit Agreement, the relevant provision of this agreement shall prevail and be paramount. This agreement shall not create any novation.
+ 5.6 No Waiver
+ This agreement shall not limit, impair or constitute a waiver of the rights, powers or remedies available to the Administrative Agent or the Lenders under the Credit Agreement or any other Credit Document.
+ 5.7 Credit Document
+ This agreement shall be deemed to be a Credit Document.
+ 5.8 Further Assurances
+ The Borrower shall do, execute and deliver or shall cause to be done, executed and delivered all such further acts, documents and things as the Administrative Agent may reasonably request for the purpose of giving effect to this agreement and to each and every provision hereof.
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ - 20 -
+ 
+ 5.9 Counterparts
+ This agreement may be executed in one or more counterparts, each of which shall be deemed to be an original and all of which taken together shall be deemed to constitute one and the same instrument.
+ [Remainder of page intentionally blank.]
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ IN WITNESS WHEREOF, the parties hereto have executed and delivered this agreement on the date first above written.
+ 
+ 
+ 
+ 
+ 
+ 
+ WHEATON PRECIOUS METALS CORP.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Gary Brown"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Gary Brown
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Senior Vice President & Chief Financial Officer
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ THE BANK OF NOVA SCOTIA, as Administrative Agent
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Clement Yu"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Clement Yu
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Director
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Ryan Moonilal"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Ryan Moonilal
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Analyst
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ THE BANK OF NOVA SCOTIA, as Lender
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Kurt Foellmer"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Kurt Foellmer
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Director
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Agnes Podbielski"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Agnes Podbielski
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Director
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ BANK OF MONTREAL, as Lender 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Ben Rough"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Ben Rough
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Director
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ CANADIAN IMPERIAL BANK OF COMMERCE, as Lender
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Peter Rawlins"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Peter Rawlins
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Managing Director
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Kazim Mehdi"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Kazim Mehdi
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Executive Director
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ROYAL BANK OF CANADA, as Lender
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Stan Fountoulakis"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Stan Fountoulakis
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Authorized Signatory
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ THE TORONTO-DOMINION BANK, as Lender
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Rahim Kabani"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Rahim Kabani
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Managing Director
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Ben Montgomery"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Ben Montgomery
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Director
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ EXPORT DEVELOPMENT CANADA, as Lender 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Adam Smith"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Adam Smith
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Senior Financing Manager
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Sanda Mikulic"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Sanda Mikulic
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Senior Associate
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ NATIONAL BANK OF CANADA, as Lender
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Allan Fordyce"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Allan Fordyce
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Managing Director
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "David Torrey"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: David Torrey
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Managing Director
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ BANK OF AMERICA, N.A., CANADA BRANCH, as Lender
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "David Rafferty"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: David Rafferty
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Senior Vice President
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ ACKNOWLEDGEMENT AND CONSENT
+ The undersigned, each being a guarantor of the Borrower's Obligations under, inter alia, the Credit Agreement, hereby acknowledge, agree to and consent to the foregoing amendments to the Credit Agreement and hereby confirm their obligations under their respective Guarantee.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ WHEATON PRECIOUS METALS INTERNATIONAL LTD.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Nik Tatarkin"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name:
+ 
+ 
+ Nik Tatarkin
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title:
+ 
+ 
+ President
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Ounesh Reebye"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name:
+ 
+ 
+ Ounesh Reebye
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title:
+ 
+ 
+ VP, Streaming Operations & Metal Sales
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ SILVER WHEATON LUXEMBOURG SARL
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Ounesh Reebye"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name:
+ 
+ 
+ Ounesh Reebye
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title:
+ 
+ 
+ Manager A
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "François-Xavier Goossens"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name:
+ 
+ 
+ François-Xavier Goossens
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title:
+ 
+ 
+ Manager B
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ WHEATON PRECIOUS METALS (CAYMAN) CO.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Nik Tatarkin"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name:
+ 
+ 
+ Nik Tatarkin
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title:
+ 
+ 
+ President
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ (Signed) "Ounesh Reebye"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name:
+ 
+ 
+ Ounesh Reebye
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title:
+ 
+ 
+ Director
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ SCHEDULE ALENDER AND INDIVIDUAL COMMITMENTS
+ 
+ 
+ 
+ Lenders
+ 
+ 
+ Individual Commitment
+ 
+ 
+ 
+ 
+ The Bank of Nova Scotia
+ 
+ 
+ $300,000,000
+ 
+ 
+ 
+ 
+ Bank of Montreal
+ 
+ 
+ $300,000,000
+ 
+ 
+ 
+ 
+ Canadian Imperial Bank of Commerce
+ 
+ 
+ $255,000,000
+ 
+ 
+ 
+ 
+ Royal Bank of Canada
+ 
+ 
+ $255,000,000
+ 
+ 
+ 
+ 
+ The Toronto-Dominion Bank
+ 
+ 
+ $255,000,000
+ 
+ 
+ 
+ 
+ National Bank of Canada
+ 
+ 
+ $255,000,000
+ 
+ 
+ 
+ 
+ Bank of America, N.A., Canada Branch
+ 
+ 
+ $255,000,000
+ 
+ 
+ 
+ 
+ Export Development Canada
+ 
+ 
+ $125,000,000
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ SCHEDULE BCOMPLIANCE CERTIFICATE
+ TO: THE BANK OF NOVA SCOTIA, as Administrative Agent
+ I, ____________________, the [senior financial officer] of Wheaton Precious Metals Corp., hereby certify that:
+ 1. I am the duly appointed [senior financial officer] of Wheaton Precious Metals Corp., the Borrower named in the amended and restated credit agreement dated as of February 27, 2015, (as amended, modified or supplemented from time to time, the "Credit Agreement") between Wheaton Precious Metals Corp., the Lenders named therein and The Bank of Nova Scotia, as administrative agent of the Lenders and as such I am providing this Certificate for and on behalf of Wheaton Precious Metals Corp. pursuant to the Credit Agreement.
+ 2. I am familiar with and have examined the provisions of the Credit Agreement including, without limitation, those of Article 10, Article 11 and Article 13 therein.
+ 3. To the best of my knowledge, information and belief and after due inquiry, no Default has occurred and is continuing.
+ As at or for the relevant period ending _______________________, the amounts and financial ratios as contained in Sections 11.1(n), (o), (p) and (s)1 of the Credit Agreement are as follows and detailed calculations thereof are attached hereto:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Actual Amount
+ 
+ 
+ Required Amount
+ 
+ 
+ 
+ 
+ (n)
+ 
+ 
+ Leverage Ratio
+ 
+ 
+ ______:1
+ 
+ 
+ N/A
+ 
+ 
+ 
+ 
+ (o)
+ 
+ 
+ Net Indebtedness to Tangible Net Worth Ratio
+ 
+ 
+ ______:1
+ 
+ 
+ < 0.75:1
+ 
+ 
+ 
+ 
+ (p)
+ 
+ 
+ Interest Coverage Ratio
+ 
+ 
+ ______:1
+ 
+ 
+ > 3.00:1
+ 
+ 
+ 
+ 
+ (s) [Supporting Aggregate Assets (balance sheet value): __________________ (K)
+ Asset Cover Threshold (balance sheet value): M)
+ Required K > M]2 
+ ________________________________
+ 1Only required for Compliance Certificates delivered concurrently with the financial statements pursuant to Section 11.1(a)(i)
+ 2 Only required for Compliance Certificates delivered concurrently with financial statements pursuant to Section 11.1(a)(i). 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ The attached calculation worksheet as at the relevant period ending ________ accurately sets out the information therein contained.
+ 4. As at the last day of the Fiscal Quarter ending <*>, <*>, the Subsidiaries of the Borrower are as follows:
+ <*>
+ 5. Unless the context otherwise requires, capitalized terms in the Credit Agreement which appear herein without definitions shall have the meanings ascribed thereto in the Credit Agreement.
+ DATED this _______ day of _____________, 20____.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (Signature)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (Name - please print)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (Title of Senior Financial Officer)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ CALCULATION WORKSHEET
+ 
+ 
+ 
+ Leverage Ratio
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Total Indebtedness:
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ (B)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (C)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net Indebtedness (B-C):
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ (D)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Rolling EBITDA:
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ (E)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Leverage Ratio (Actual):
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ (D:E)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net Indebtedness to Tangible Net Worth Ratio
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net Indebtedness:
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ (D)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Tangible Net Worth:
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ (F)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net Indebtedness to Tangible Net Worth Ratio (Actual):
+ 
+ 
+ <@>:1
+ 
+ 
+ 
+ 
+ 
+ (D:F)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Maximum Permitted:
+ 
+ 
+ 0.75:1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Compliance [Yes]/[No]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Interest Coverage Ratio
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Rolling EBITDA:
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ (G)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Rolling Interest Expenses:
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ (H)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Interest Coverage Ratio (Actual):
+ 
+ 
+ <@>:1
+ 
+ 
+ 
+ 
+ 
+ (G:H)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Interest Coverage Ratio (Minimum Requirement):
+ 
+ 
+ 3:1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Compliance [Yes]/[No]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Supporting Aggregate Assets3 
+ 
+ 
+ 
+ Guarantor
+ 
+ 
+ Assets (balance sheet value)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Wheaton International
+ 
+ 
+ $●
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Wheaton Luxembourg
+ 
+ 
+ $●
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ________________________________3 Only required for Compliance Certificates delivered concurrently with financial statements pursuant to Section 11.1(a)(i).
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Guarantor
+ 
+ 
+ Assets (balance sheet value)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Wheaton Precious Metals
+ 
+ 
+ $●
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ [other]
+ 
+ 
+ $●
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Aggregate
+ 
+ 
+ 
+ 
+ 
+ $● (I)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Borrower
+ 
+ 
+ $● (J)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Supporting Aggregate Assets (balance sheet value)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (I) + (J) = $● (K)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Consolidated Total Assets
+ 
+ 
+ $● (L)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Asset Cover Threshold
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0.85 x (L) = $● (M)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ K > M
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)
+ 
+ 
+ 
+ 
+ SCHEDULE IGUARANTEES
+ 1. Guarantee dated as of February 28, 2013 by Wheaton International in favour of the Administrative Agent.
+ 2. Guarantee dated as of February 28, 2013 by Wheaton Luxembourg in favour of the Administrative Agent.
+ 3. Guarantee dated as of February 27, 2015 by Wheaton Precious Metals in favour of the Administrative Agent.
+ 
+ 
+ 
+ 
+ 
+ 
+ Seventh Amending Agreement (RT)

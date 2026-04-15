@@ -1,0 +1,25 @@
+{
+  "ticker": "AEM",
+  "cik": "0000002809",
+  "form": "6-K",
+  "filingDate": "2002-08-06",
+  "accessionNumber": "0001010549-02-000449",
+  "primaryDocument": "agnico6k080502.txt",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/2809/000101054902000449/0001010549-02-000449-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "CERTIFICATION OF REPORT",
+    "filename": "agnico6kex9910802.txt",
+    "url": "https://www.sec.gov/Archives/edgar/data/2809/000101054902000449/agnico6kex9910802.txt"
+  },
+  "extractedAt": "2026-04-15T16:37:22.125Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2809/000101054902000449/agnico6kex9910802.txt",
+    "contentType": "text",
+    "title": "",
+    "headings": [],
+    "text": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>3\n<FILENAME>agnico6kex9910802.txt\n<DESCRIPTION>CERTIFICATION OF REPORT\n<TEXT>\n CERTIFICATION OF REPORT\n -----------------------\n\nI, Sean Boyd, President and Chief Executive Officer of Agnico-Eagle Mines\nLimited (the \"Company\"), certify, pursuant to Section 906 of the Sarbanes-Oxley\nAct of 2002, 18 U.S.C. Section 1350, that:\n\n(1) the Report on Form 6-K of the Company for the quarterly period ended June\n 30, 2002 (the \"Report\") fully complies with the requirements of Section\n 13(a) or 15(d) of the Securities Exchange Act of 1934 (15 U.S.C. 78m or\n 78o(d)) applicable to foreign private issuers; and\n\n(2) the information contained in the Report fairly presents, in all material\n respects, the financial condition and results of operations of the Company.\n\nNo purchaser or seller of securities shall be entitled to rely upon the\nforegoing certification for any purpose, and the undersigned expressly disclaims\nany obligation to update the foregoing certification except as may be required\nby law.\n\nDated: August 06, 2002\n\n /s/ Sean Boyd\n ------------------------\n Sean Boyd, President and\n Chief Executive Officer\n\n</TEXT>\n</DOCUMENT>",
+    "tables": [],
+    "raw": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>3\n<FILENAME>agnico6kex9910802.txt\n<DESCRIPTION>CERTIFICATION OF REPORT\n<TEXT>\n                             CERTIFICATION OF REPORT\n                             -----------------------\n\nI, Sean  Boyd,  President  and Chief  Executive  Officer of  Agnico-Eagle  Mines\nLimited (the \"Company\"),  certify, pursuant to Section 906 of the Sarbanes-Oxley\nAct of 2002, 18 U.S.C. Section 1350, that:\n\n(1)  the Report on Form 6-K of the Company for the  quarterly  period ended June\n     30, 2002 (the  \"Report\")  fully complies with the  requirements  of Section\n     13(a) or 15(d) of the  Securities  Exchange  Act of 1934 (15 U.S.C.  78m or\n     78o(d)) applicable to foreign private issuers; and\n\n(2)  the information  contained in the Report fairly  presents,  in all material\n     respects, the financial condition and results of operations of the Company.\n\nNo  purchaser  or  seller  of  securities  shall be  entitled  to rely  upon the\nforegoing certification for any purpose, and the undersigned expressly disclaims\nany obligation to update the foregoing  certification  except as may be required\nby law.\n\nDated:  August 06, 2002\n\n\n\n                                                        /s/ Sean Boyd\n                                                        ------------------------\n                                                        Sean Boyd, President and\n                                                        Chief Executive Officer\n\n\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

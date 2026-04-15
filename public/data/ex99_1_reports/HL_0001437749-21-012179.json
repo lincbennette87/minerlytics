@@ -1,0 +1,145 @@
+{
+  "ticker": "HL",
+  "cik": "0000719413",
+  "form": "8-K",
+  "filingDate": "2021-05-14",
+  "accessionNumber": "0001437749-21-012179",
+  "primaryDocument": "hl20210513_8k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/719413/000143774921012179/0001437749-21-012179-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "ex_250046.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/719413/000143774921012179/ex_250046.htm"
+  },
+  "extractedAt": "2026-04-15T16:46:13.905Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/719413/000143774921012179/ex_250046.htm",
+    "contentType": "html",
+    "title": "ex_250046.htm",
+    "headings": [
+      "ex_250046.htm",
+      "NEWS RELEASE",
+      "Exhibit 99.1",
+      "HECLA MINING COMPANY RELEASES 2020 SUSTAINABILITY REPORT",
+      "Hecla",
+      "s 2020 ESG Highlights:",
+      "Annual Meeting of Shareholders",
+      "ABOUT HECLA"
+    ],
+    "text": "EX-99.1\n2\nex_250046.htm\nEXHIBIT 99.1\n\n ex_250046.htm\n\n \n\n \n \n NEWS RELEASE\n Exhibit 99.1\n \n\n \n\nHECLA MINING COMPANY RELEASES 2020 SUSTAINABILITY REPORT\n\n \n\nFOR IMMEDIATE RELEASE\n\nMay 13, 2021\n\n \n\nCOEUR D'ALENE, IDAHO -- Hecla Mining Company (NYSE:HL) today released its 2020 Sustainability Report, which comprehensively assembles the Company’s environmental, social and governance (ESG) goals, performance, and focus areas.\n\n \n\n“The theme and title of this year’s report are Small Footprint, Large Benefit,” said Hecla President and Chief Executive Officer Phillips S. Baker, Jr. “Because our operations are low tonnage and mostly underground, they directly affect less than 3,900 acres, less than just one operation at many other mining companies. Yet we continually take steps to reduce our environmental footprint while providing long-term economic and social support to the communities where we operate.”\n\n \n\nHecla’s 2020 ESG Highlights:\n\n \n \n \n ●\n \n \n Achieving a 36% reduction in greenhouse gas (GHG) emissions from 2019\n \n \n\n \n \n \n ●\n \n \n Attaining more than our multi-year 5% energy reduction goal--76% of our line power was from hydropower\n \n \n\n \n \n \n ●\n \n \n Mobilizing and organizing operations to protect the health and safety of our workforce even before COVID-19 was deemed a pandemic, and helping address community needs, including food, supplies, and financial assistance\n \n \n\n \n \n \n ●\n \n \n Reducing our 2020 All-Injury Frequency Rate by 24% to 1.22—an 80% reduction since 2012\n \n \n\n \n \n \n ●\n \n \n Completing reclamation of the 300-acre Troy Tailings Storage Facility. As a result, the State of Montana reduced the required financial assurance by nearly $8 million\n \n \n\n \n \n \n ●\n \n \n Approving and publishing a human rights policy statement that codifies our commitment to respecting human rights\n \n \n\n \n \n \n ●\n \n \n Increasing diversity with a new director with risk management, ESG and mining expertise\n \n \n\n \n \n \n ●\n \n \n Signing a Cooperation Agreement between Hecla Quebec and the Council of the Abitibiwinni First Nation (CAFN) that ensures employment and business opportunities for CAFN\n \n \n\n \n\nFor the third year, Hecla benchmarked its performance against the Sustainability Accounting Standards Board (SASB) Metals and Mining framework. The SASB metrics are included in our sustainability report and on www.hecla-mining.com. This is also the first year that Hecla reported against relevant aspects of the Task Force on Climate-Related Financial Disclosures (TCFD).\n\n \n\nAnnual Meeting of Shareholders\n\n \n\nFor health and safety reasons due to COVID-19, Hecla’s Annual Meeting of Shareholders will be a virtual meeting and conducted via live webcast on Wednesday, May 19, 2021, at 1:00 p.m. ET. Shareholders and guests may access the webcast on Hecla’s website at www.virtualshareholdersmeeting.com/HL2021. During the meeting, Mr. Baker will highlight the Company’s Sustainability report and answer questions.\n\n \n\n \n\n \n\n \n \n Hecla Mining Company ● 1-800-432-5291 ● hmc-info@hecla-mining.com \n 1\n \n\n \n\n \n\n \n\n \n\nABOUT HECLA\n\n \n\nFounded in 1891, Hecla Mining Company (NYSE:HL) is the largest silver producer in the United States. In addition to operating mines in Alaska, Idaho and Quebec, Canada, the Company owns a number of exploration properties and pre-development projects in world-class silver and gold mining districts throughout North America.\n\n \n\n \n\nFor further information, please contact:\n\n \n\nJeanne DuPont\n\nSenior Communications Coordinator\n\n \n\n800-HECLA91 (800-432-5291)\n\nInvestor Relations\n\nEmail: hmc-info@hecla-mining.com\n\nWebsite: www.hecla-mining.com\n\n \n\n \n\n \n\n \n \n Hecla Mining Company ● 1-800-432-5291 ● hmc-info@hecla-mining.com \n 2",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 1,
+        "rows": [
+          [
+            "NEWS RELEASE",
+            "Exhibit 99.1"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 1,
+        "rows": [
+          [
+            "●",
+            "Achieving a 36% reduction in greenhouse gas (GHG) emissions from 2019"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 1,
+        "rows": [
+          [
+            "●",
+            "Attaining more than our multi-year 5% energy reduction goal--76% of our line power was from hydropower"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 3,
+        "rowCount": 1,
+        "rows": [
+          [
+            "●",
+            "Mobilizing and organizing operations to protect the health and safety of our workforce even before COVID-19 was deemed a pandemic, and helping address community needs, including food, supplies, and financial assistance"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 4,
+        "rowCount": 1,
+        "rows": [
+          [
+            "●",
+            "Reducing our 2020 All-Injury Frequency Rate by 24% to 1.22—an 80% reduction since 2012"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 5,
+        "rowCount": 1,
+        "rows": [
+          [
+            "●",
+            "Completing reclamation of the 300-acre Troy Tailings Storage Facility. As a result, the State of Montana reduced the required financial assurance by nearly $8 million"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 6,
+        "rowCount": 1,
+        "rows": [
+          [
+            "●",
+            "Approving and publishing a human rights policy statement that codifies our commitment to respecting human rights"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 7,
+        "rowCount": 1,
+        "rows": [
+          [
+            "●",
+            "Increasing diversity with a new director with risk management, ESG and mining expertise"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 8,
+        "rowCount": 1,
+        "rows": [
+          [
+            "●",
+            "Signing a Cooperation Agreement between Hecla Quebec and the Council of the Abitibiwinni First Nation (CAFN) that ensures employment and business opportunities for CAFN"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 9,
+        "rowCount": 1,
+        "rows": [
+          [
+            "Hecla Mining Company ● 1-800-432-5291 ● hmc-info@hecla-mining.com",
+            "1"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 10,
+        "rowCount": 1,
+        "rows": [
+          [
+            "Hecla Mining Company ● 1-800-432-5291 ● hmc-info@hecla-mining.com",
+            "2"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>ex_250046.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<html><head><meta charset=\"utf-8\"><meta name=\"format-detection\" content=\"telephone=no\"><!--Created on 5/13/2021 3:38:39 PM --><meta name=\"generator\" content=\"RDG HTML Converter 3.4.3.0\">\n\t<title>ex_250046.htm</title>\n\n\n</head>\n<body style=\"font-size: 10pt; font-family: &quot;Times New Roman&quot;; padding: 0in 0.1in; cursor: auto;\">\n<p style=\"margin-bottom: 0; text-align: left; margin-top: 0; font-family: &quot;Times New Roman&quot;; font-size: 10pt\"><font style=\"font-family: 'Times New Roman', Times, serif; font-size: 10pt\">&nbsp;</font></p>\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"font-size: 10pt; font-family: &quot;Times New Roman&quot;, Times, serif; width: 100%;\">\n\n\t\t<tr>\n\t\t\t<td style=\"width: 33%;\"><img alt=\"ex_250046img001.jpg\" src=\"ex_250046img001.jpg\" style=\"width:143;height:85;\"></td>\n\t\t\t<td style=\"width: 33%; text-align: center; font-family: Times New Roman; font-size: 12pt;\"><b>NEWS RELEASE</b></td>\n\t\t\t<td style=\"width: 33%; vertical-align: top; text-align: right;\"><font style=\"font-family:'Times New Roman', Times, serif; font-size:10pt\"><b>Exhibit 99.1</b></font></td>\n\t\t</tr>\n\n</table>\n\n<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:Times New Roman;font-size:12pt;font-variant:normal;text-align:center;margin:0pt;\"><b>HECLA MINING COMPANY RELEASES 2020 SUSTAINABILITY REPORT</b></p>\n\n<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;text-align:center;margin:0pt;\">FOR IMMEDIATE RELEASE</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;text-align:center;margin:0pt;\">May 13, 2021</p>\n\n<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;text-align:justify;margin:0pt;\">COEUR D'ALENE, IDAHO -- Hecla Mining Company (<u>NYSE:HL</u>) today released its 2020 Sustainability Report, which comprehensively assembles the Company&#8217;s environmental, social and governance (ESG) goals, performance, and focus areas.</p>\n\n<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;text-align:justify;margin:0pt;\">&#8220;The theme and title of this year&#8217;s report are <i>Small Footprint, Large Benefit</i>,&#8221; said Hecla President and Chief Executive Officer Phillips S. Baker, Jr. &#8220;Because our operations are low tonnage and mostly underground, they directly affect less than 3,900 acres, less than just one operation at many other mining companies. Yet we continually take steps to reduce our environmental footprint while providing long-term economic and social support to the communities where we operate.&#8221;</p>\n\n<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\"><b>Hecla</b>&#8217;<b>s 2020 ESG Highlights:</b></p>\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%;font-family:Times New Roman;font-size:10pt;\">\n\n\t\t<tr>\n\t\t\t<td style=\"width:18pt;\">&nbsp;</td>\n\t\t\t<td style=\"vertical-align:top;width:18pt;\">\n\t\t\t<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&#9679;</p>\n\t\t\t</td>\n\t\t\t<td style=\"vertical-align:top;\">\n\t\t\t<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">Achieving a 36% reduction in greenhouse gas (GHG) emissions from 2019</p>\n\t\t\t</td>\n\t\t</tr>\n\n</table>\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%;font-family:Times New Roman;font-size:10pt;\">\n\n\t\t<tr>\n\t\t\t<td style=\"width:18pt;\">&nbsp;</td>\n\t\t\t<td style=\"vertical-align:top;width:18pt;\">\n\t\t\t<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&#9679;</p>\n\t\t\t</td>\n\t\t\t<td style=\"vertical-align:top;\">\n\t\t\t<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">Attaining more than our multi-year 5% energy reduction goal--76% of our line power was from hydropower</p>\n\t\t\t</td>\n\t\t</tr>\n\n</table>\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%;font-family:Times New Roman;font-size:10pt;\">\n\n\t\t<tr>\n\t\t\t<td style=\"width:18pt;\">&nbsp;</td>\n\t\t\t<td style=\"vertical-align:top;width:18pt;\">\n\t\t\t<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&#9679;</p>\n\t\t\t</td>\n\t\t\t<td style=\"vertical-align:top;\">\n\t\t\t<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">Mobilizing and organizing operations to protect the health and safety of our workforce even before COVID-19 was deemed a pandemic, and helping address community needs, including food, supplies, and financial assistance</p>\n\t\t\t</td>\n\t\t</tr>\n\n</table>\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%;font-family:Times New Roman;font-size:10pt;\">\n\n\t\t<tr>\n\t\t\t<td style=\"width:18pt;\">&nbsp;</td>\n\t\t\t<td style=\"vertical-align:top;width:18pt;\">\n\t\t\t<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&#9679;</p>\n\t\t\t</td>\n\t\t\t<td style=\"vertical-align:top;\">\n\t\t\t<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">Reducing our 2020 All-Injury Frequency Rate by 24% to 1.22&#8212;an 80% reduction since 2012</p>\n\t\t\t</td>\n\t\t</tr>\n\n</table>\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%;font-family:Times New Roman;font-size:10pt;\">\n\n\t\t<tr>\n\t\t\t<td style=\"width:18pt;\">&nbsp;</td>\n\t\t\t<td style=\"vertical-align:top;width:18pt;\">\n\t\t\t<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&#9679;</p>\n\t\t\t</td>\n\t\t\t<td style=\"vertical-align:top;\">\n\t\t\t<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">Completing reclamation of the 300-acre Troy Tailings Storage Facility. As a result, the State of Montana reduced the required financial assurance by nearly $8 million</p>\n\t\t\t</td>\n\t\t</tr>\n\n</table>\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%;font-family:Times New Roman;font-size:10pt;\">\n\n\t\t<tr>\n\t\t\t<td style=\"width:18pt;\">&nbsp;</td>\n\t\t\t<td style=\"vertical-align:top;width:18pt;\">\n\t\t\t<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&#9679;</p>\n\t\t\t</td>\n\t\t\t<td style=\"vertical-align:top;\">\n\t\t\t<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">Approving and publishing a human rights policy statement that codifies our commitment to respecting human rights</p>\n\t\t\t</td>\n\t\t</tr>\n\n</table>\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%;font-family:Times New Roman;font-size:10pt;\">\n\n\t\t<tr>\n\t\t\t<td style=\"width:18pt;\">&nbsp;</td>\n\t\t\t<td style=\"vertical-align:top;width:18pt;\">\n\t\t\t<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&#9679;</p>\n\t\t\t</td>\n\t\t\t<td style=\"vertical-align:top;\">\n\t\t\t<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">Increasing diversity with a new director with risk management, ESG and mining expertise</p>\n\t\t\t</td>\n\t\t</tr>\n\n</table>\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%;font-family:Times New Roman;font-size:10pt;\">\n\n\t\t<tr>\n\t\t\t<td style=\"width:18pt;\">&nbsp;</td>\n\t\t\t<td style=\"vertical-align:top;width:18pt;\">\n\t\t\t<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&#9679;</p>\n\t\t\t</td>\n\t\t\t<td style=\"vertical-align:top;\">\n\t\t\t<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">Signing a Cooperation Agreement between Hecla Quebec and the Council of the Abitibiwinni First Nation (CAFN) that ensures employment and business opportunities for CAFN</p>\n\t\t\t</td>\n\t\t</tr>\n\n</table>\n\n<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;text-align:justify;margin:0pt;\">For the third year, Hecla benchmarked its performance against the Sustainability Accounting Standards Board (SASB) Metals and Mining framework. The SASB metrics are included in our sustainability report and on <u>www.hecla-mining.com</u>. This is also the first year that Hecla reported against relevant aspects of the Task Force on Climate-Related Financial Disclosures (TCFD).</p>\n\n<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;text-align:justify;margin:0pt;\"><b>Annual Meeting of Shareholders</b></p>\n\n<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;text-align:justify;margin:0pt;\">For health and safety reasons due to COVID-19, Hecla&#8217;s Annual Meeting of Shareholders will be a virtual meeting and conducted via live webcast on Wednesday, May 19, 2021, at 1:00 p.m. ET. Shareholders and guests may access the webcast on Hecla&#8217;s website at <u>www.virtualshareholdersmeeting.com/HL2021</u>. During the meeting, Mr. Baker will highlight the Company&#8217;s Sustainability report and answer questions.</p>\n\n<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"font-size: 8pt; font-family: Times New Roman; width: 100%;\">\n\n\t\t<tr style=\"font-family: Times New Roman; font-size: 8pt;\">\n\t\t\t<td style=\"width: 5%; font-family: Times New Roman; font-size: 8pt;\">&nbsp;</td>\n\t\t\t<td style=\"width: 90%; text-align: center; font-family: Times New Roman; font-size: 8pt;\">Hecla Mining Company &#9679; 1-800-432-5291 &#9679; <u>hmc-info@hecla-mining.com</u>&nbsp;</td>\n\t\t\t<td style=\"width: 5%; text-align: right; font-family: Times New Roman; font-size: 8pt;\">1</td>\n\t\t</tr>\n\n</table>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;text-align:center;margin:0pt 0pt 0pt 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>\n\n<div class=\"PGBK\" style=\"width: 100%; margin-left: 0pt; margin-right: 0pt\">\n<div class=\"PGNUM\" style=\"text-align: center; width: 100%\">&nbsp;</div>\n\n<hr style=\"PAGE-BREAK-AFTER: always; border: none; width: 100%; height: 2px; color: #000000; background-color: #000000\">\n<div class=\"PGHDR\" style=\"text-align: left; width: 100%\">&nbsp;</div>\n</div>\n\n<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;text-align:justify;margin:0pt;\"><b>ABOUT HECLA</b></p>\n\n<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;text-align:justify;margin:0pt;\">Founded in 1891, Hecla Mining Company (<u>NYSE:HL</u>) is the largest silver producer in the United States. In addition to operating mines in Alaska, Idaho and Quebec, Canada, the Company owns a number of exploration properties and pre-development projects in world-class silver and gold mining districts throughout North America.</p>\n\n<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;text-align:justify;margin:0pt;\">For further information, please contact:</p>\n\n<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">Jeanne DuPont</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">Senior Communications Coordinator</p>\n\n<p style=\"font-family:'Times New Roman';font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">800-HECLA91 (800-432-5291)</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">Investor Relations</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">Email: hmc-info@hecla-mining.com</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">Website: <u>www.hecla-mining.com</u></p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"font-size: 8pt; font-family: Times New Roman; width: 100%;\">\n\n\t\t<tr style=\"font-family: Times New Roman; font-size: 8pt;\">\n\t\t\t<td style=\"width: 5%; font-family: Times New Roman; font-size: 8pt;\">&nbsp;</td>\n\t\t\t<td style=\"width: 90%; text-align: center; font-family: Times New Roman; font-size: 8pt;\">Hecla Mining Company &#9679; 1-800-432-5291 &#9679; <u>hmc-info@hecla-mining.com</u>&nbsp;</td>\n\t\t\t<td style=\"width: 5%; text-align: right; font-family: Times New Roman; font-size: 8pt;\">2</td>\n\t\t</tr>\n\n</table>\n\n<p style=\"font-family:Times New Roman;font-size:10pt;font-variant:normal;margin:0pt;\">&nbsp;</p>\n\n<div class=\"LAST-PAGE-BREAK\">\n<div class=\"PGFTR\">\n<div class=\"hf-row\">\n<div class=\"hf-cell PGNUM\">&nbsp;</div>\n</div>\n</div>\n</div>\n\n\n</body></html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}
