@@ -11,7 +11,8 @@
     "edgar:trs-extract": "node src/edgar/trs_extract.js",
     "edgar:mining-extract": "node src/edgar/extractMiningDisclosure.js",
     "edgar:balance-sheet": "node src/edgar/extractBalanceSheet.js",
-    "edgar:detailed-balance-sheet": "node src/edgar/extractDetailedBalanceSheet.js"
+    "edgar:detailed-balance-sheet": "node src/edgar/extractDetailedBalanceSheet.js",
+    "edgar:ex99-1": "node src/edgar/extractEx991.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0"
