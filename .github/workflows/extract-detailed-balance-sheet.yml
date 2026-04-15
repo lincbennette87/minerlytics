@@ -3,6 +3,9 @@ name: Extract Detailed Balance Sheets
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   extract-detailed-balance-sheet:
     runs-on: ubuntu-latest
