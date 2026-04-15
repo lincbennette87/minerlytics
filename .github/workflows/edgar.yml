@@ -49,6 +49,11 @@ jobs:
       - name: Pull Facts
         run: npm run edgar:facts
 
+      - name: Extract Balance Sheet
+        env:
+          SEC_USER_AGENT: "Minerlytics your-email@example.com"
+        run: npm run edgar:balance-sheet
+
       - name: Find TRS
         run: npm run edgar:trs
         
