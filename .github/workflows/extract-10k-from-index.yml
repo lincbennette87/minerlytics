@@ -1,12 +1,12 @@
-name: Extract 10K From SEC HTML
+name: Extract 10K From Disclosure Index
 
 on:
   workflow_dispatch:
   push:
     paths:
-      - "public/data/mining_disclosure_reports/*.json"
-      - "scripts/extract_10k_from_sec_html.py"
-      - ".github/workflows/extract-10k-from-sec-html.yml"
+      - "public/data/mining_disclosure_index.json"
+      - "scripts/extract_10k_from_index.py"
+      - ".github/workflows/extract-10k-from-index.yml"
 
 concurrency:
   group: extract-10k-develop
@@ -30,14 +30,15 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Debug input files
+      - name: Debug index file
         run: |
           pwd
-          find public/data/mining_disclosure_reports -maxdepth 1 -type f | sort || true
+          ls -la public/data || true
+          test -f public/data/mining_disclosure_index.json && echo "Index found"
 
       - name: Run extractor
         run: |
-          python scripts/extract_10k_from_sec_html.py
+          python scripts/extract_10k_from_index.py
 
       - name: Commit output
         run: |
@@ -51,7 +52,6 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Extract: properties and ounces produced from SEC HTML filings"
-
+          git commit -m "Extract: properties and ounces produced from disclosure index"
           git pull --rebase origin develop
           git push origin HEAD:develop
