@@ -1,12 +1,12 @@
-name: Extract 10K Metrics
+name: Extract 10K From SEC HTML
 
 on:
   workflow_dispatch:
   push:
     paths:
       - "public/data/mining_disclosure_reports/*.json"
-      - "scripts/extract_10k_metrics.py"
-      - ".github/workflows/extract-10k-metrics.yml"
+      - "scripts/extract_10k_from_sec_html.py"
+      - ".github/workflows/extract-10k-from-sec-html.yml"
 
 permissions:
   contents: write
@@ -24,17 +24,16 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Debug repo files
+      - name: Debug input files
         run: |
           pwd
-          ls -la
           find public/data/mining_disclosure_reports -maxdepth 1 -type f | sort || true
 
       - name: Run extractor
         run: |
-          python scripts/extract_10k_metrics.py
+          python scripts/extract_10k_from_sec_html.py
 
-      - name: Commit extracted JSON
+      - name: Commit output
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
@@ -46,5 +45,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Extract: 10-K page 28 properties and page 44 production metrics"
+          git commit -m "Extract: properties and ounces produced from SEC HTML filings"
           git push
