@@ -32,7 +32,7 @@ jobs:
 
       - name: Run extractor
         run: |
-          python script/extract_10k_metrics.py
+          python scripts/extract_10k_metrics.py
 
       - name: Commit extracted JSON
         run: |
