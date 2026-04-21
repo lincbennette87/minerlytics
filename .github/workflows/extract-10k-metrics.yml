@@ -4,10 +4,9 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "reports/*.pdf"
+      - "public/data/mining_disclosure_reports/*.json"
       - "scripts/extract_10k_metrics.py"
       - ".github/workflows/extract-10k-metrics.yml"
-      - "requirements.txt"
 
 permissions:
   contents: write
@@ -25,14 +24,15 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Debug repo files
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pwd
+          ls -la
+          find public/data/mining_disclosure_reports -maxdepth 1 -type f | sort || true
 
       - name: Run extractor
         run: |
-          python script/extract_10k_metrics.py
+          python scripts/extract_10k_metrics.py
 
       - name: Commit extracted JSON
         run: |
