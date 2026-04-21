@@ -8,6 +8,10 @@ on:
       - "scripts/extract_10k_from_sec_html.py"
       - ".github/workflows/extract-10k-from-sec-html.yml"
 
+concurrency:
+  group: extract-10k-develop
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -18,6 +22,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -46,4 +52,6 @@ jobs:
           fi
 
           git commit -m "Extract: properties and ounces produced from SEC HTML filings"
-          git push
+
+          git pull --rebase origin develop
+          git push origin HEAD:develop
