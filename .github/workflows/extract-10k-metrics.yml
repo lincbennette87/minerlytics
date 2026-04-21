@@ -5,7 +5,7 @@ on:
   push:
     paths:
       - "reports/*.pdf"
-      - "script/extract_10k_metrics.py"
+      - "scripts/extract_10k_metrics.py"
       - ".github/workflows/extract-10k-metrics.yml"
       - "requirements.txt"
 
