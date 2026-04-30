@@ -31,7 +31,7 @@
         <input id="globalSearch" type="search" placeholder="Search tickers, commodities, companies, and more…" />
       </div>
 
-      <div id="authBox" class="authBox">
+      <div id="authBox" class="authBox" style="display:flex;align-items:center;gap:10px;">
       <a class="btn btnGhost" href="./login.html">Sign In</a>
       <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
     </div>
@@ -711,6 +711,43 @@ async function loadMinerlyticsAccount() {
 
 async function logoutMinerlytics() {
   await fetch("/api/logout", { method: "POST" });
+  window.location.reload();
+}
+
+loadMinerlyticsAccount();
+</script>
+
+<script>
+const MINERLYTICS_API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+
+async function loadMinerlyticsAccount() {
+  const authBox = document.getElementById("authBox");
+  if (!authBox) return;
+
+  try {
+    const res = await fetch(MINERLYTICS_API_BASE + "/api/me");
+    const data = await res.json();
+
+    if (data.loggedIn) {
+      authBox.innerHTML = `
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span style="font-size:13px;color:#eaf0ff;max-width:190px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+            👋 ${data.user.email}
+          </span>
+          <button class="btn btnGhost" type="button" onclick="logoutMinerlytics()">Logout</button>
+        </div>
+      `;
+    }
+  } catch (e) {
+    console.log("Auth check failed", e);
+  }
+}
+
+async function logoutMinerlytics() {
+  await fetch(MINERLYTICS_API_BASE + "/api/logout", {
+    method: "POST"
+  });
+
   window.location.reload();
 }
 
