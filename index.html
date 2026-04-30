@@ -31,8 +31,8 @@
         <input id="globalSearch" type="search" placeholder="Search tickers, commodities, companies, and more…" />
       </div>
 
-      <a class="btn btnGhost" href="#signin">Sign In</a>
-      <a class="btn btnPrimary" href="#signup">Join Minerlytics</a>
+      <a class="btn btnGhost" href="./login.html">Sign In</a>
+      <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
     </div>
   </header>
 
@@ -655,6 +655,32 @@ function clearChat(){
 
   onSlider();
 })();
+</script>
+
+<script>
+async function checkMinerlyticsUser() {
+  const res = await fetch("/api/me");
+  const data = await res.json();
+
+  const navRight = document.querySelector(".navRight");
+  if (!navRight) return;
+
+  if (data.loggedIn) {
+    navRight.innerHTML += `
+      <span style="margin-left:10px;font-size:13px;color:#eaf0ff;">
+        👋 ${data.user.email}
+      </span>
+      <button class="btn btnGhost" onclick="logoutMinerlytics()">Logout</button>
+    `;
+  }
+}
+
+async function logoutMinerlytics() {
+  await fetch("/api/logout", { method: "POST" });
+  window.location.reload();
+}
+
+checkMinerlyticsUser();
 </script>
 </body>
 </html>
