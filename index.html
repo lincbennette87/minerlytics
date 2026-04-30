@@ -686,38 +686,6 @@ checkMinerlyticsUser();
 </script>
 
 <script>
-async function loadMinerlyticsAccount() {
-  const authBox = document.getElementById("authBox");
-  if (!authBox) return;
-
-  try {
-    const res = await fetch("/api/me");
-    const data = await res.json();
-
-    if (data.loggedIn) {
-      authBox.innerHTML = `
-        <div style="display:flex;align-items:center;gap:10px;">
-          <span style="font-size:13px;color:#eaf0ff;">
-            👋 ${data.user.email}
-          </span>
-          <button class="btn btnGhost" onclick="logoutMinerlytics()">Logout</button>
-        </div>
-      `;
-    }
-  } catch (e) {
-    console.log("Auth check failed", e);
-  }
-}
-
-async function logoutMinerlytics() {
-  await fetch("/api/logout", { method: "POST" });
-  window.location.reload();
-}
-
-loadMinerlyticsAccount();
-</script>
-
-<script>
 const MINERLYTICS_API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 
 async function loadMinerlyticsAccount() {
