@@ -31,7 +31,7 @@
         <input id="globalSearch" type="search" placeholder="Search tickers, commodities, companies, and more…" />
       </div>
 
-      <div id="authBox" class="authBox" style="display:flex;align-items:center;gap:10px;">
+      <div id="authNav" style="display:flex;align-items:center;gap:10px;">
       <a class="btn btnGhost" href="./login.html">Sign In</a>
       <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
       </div>
@@ -63,6 +63,20 @@
         </p>
 
         <div class="heroSearch">
+          <section id="personalDashboard" class="trendChart" style="display:none;margin-top:18px;">
+  <div class="trendChartHead">
+    <div class="trendChartTitle">Your Minerlytics Dashboard</div>
+    <div class="trendChartMeta" id="personalEmail"></div>
+  </div>
+
+  <div style="display:flex;gap:10px;margin-bottom:12px;">
+    <input id="watchSymbol" placeholder="Add ticker e.g. AEM"
+      style="flex:1;padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;" />
+    <button class="btn btnPrimary btnTight" type="button" onclick="addWatchTicker()">Add</button>
+  </div>
+
+  <div id="watchlistBox" style="display:flex;flex-wrap:wrap;gap:8px;"></div>
+</section>
           <div class="heroSearchBox">
             <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
               <path fill="currentColor" d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
@@ -724,6 +738,162 @@ checkMinerlyticsUser();
   }
 
   loadMinerlyticsAccount();
+</script>
+<script>
+const MINERLYTICS_API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+
+async function loadMinerlyticsAccount() {
+  const authNav = document.getElementById("authNav");
+
+  try {
+    const res = await fetch(MINERLYTICS_API_BASE + "/api/me", {
+      credentials: "include"
+    });
+
+    const data = await res.json();
+
+    if (!data.loggedIn) return;
+
+    if (authNav) {
+      authNav.innerHTML = `
+        <div style="position:relative;">
+          <button id="accountBtn" class="btn btnGhost" type="button">
+            👤 ${data.user.email}
+          </button>
+
+          <div id="accountMenu" style="
+            display:none;
+            position:absolute;
+            right:0;
+            top:44px;
+            background:rgba(11,19,42,.96);
+            border:1px solid rgba(255,255,255,.14);
+            border-radius:14px;
+            padding:12px;
+            min-width:220px;
+            z-index:999;
+            box-shadow:0 20px 60px rgba(0,0,0,.45);
+          ">
+            <div style="font-size:12px;color:rgba(234,240,255,.65);margin-bottom:6px;">
+              Signed in as
+            </div>
+            <div style="font-size:13px;color:#eaf0ff;margin-bottom:12px;word-break:break-all;">
+              ${data.user.email}
+            </div>
+            <button class="btn btnGhost" type="button" onclick="logoutMinerlytics()" style="width:100%;">
+              Logout
+            </button>
+          </div>
+        </div>
+      `;
+
+      const btn = document.getElementById("accountBtn");
+      const menu = document.getElementById("accountMenu");
+
+      btn.onclick = function(e) {
+        e.stopPropagation();
+        menu.style.display = menu.style.display === "block" ? "none" : "block";
+      };
+
+      document.addEventListener("click", function() {
+        menu.style.display = "none";
+      });
+    }
+
+    loadPersonalDashboard(data.user.email);
+
+  } catch (e) {
+    console.log("Account load failed", e);
+  }
+}
+
+async function logoutMinerlytics() {
+  await fetch(MINERLYTICS_API_BASE + "/api/logout", {
+    method: "POST",
+    credentials: "include"
+  });
+
+  window.location.href = "./login.html";
+}
+
+async function loadPersonalDashboard(email) {
+  const box = document.getElementById("personalDashboard");
+  const emailEl = document.getElementById("personalEmail");
+  const watchlistBox = document.getElementById("watchlistBox");
+
+  if (!box || !watchlistBox) return;
+
+  box.style.display = "block";
+  if (emailEl) emailEl.textContent = email;
+
+  const res = await fetch(MINERLYTICS_API_BASE + "/api/watchlist", {
+    credentials: "include"
+  });
+
+  const data = await res.json();
+  const items = data.watchlist || [];
+
+  if (!items.length) {
+    watchlistBox.innerHTML = `
+      <span style="color:rgba(234,240,255,.7);font-size:13px;">
+        No saved tickers yet. Add your first ticker.
+      </span>
+    `;
+    return;
+  }
+
+  watchlistBox.innerHTML = items.map(item => `
+    <div style="
+      display:flex;
+      align-items:center;
+      gap:8px;
+      padding:8px 12px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(255,255,255,.05);
+      color:#eaf0ff;
+    ">
+      <strong>${item.symbol}</strong>
+      <button onclick="removeWatchTicker('${item.symbol}')" style="
+        border:0;
+        background:transparent;
+        color:#ffcc66;
+        cursor:pointer;
+        font-size:16px;
+      ">×</button>
+    </div>
+  `).join("");
+}
+
+async function addWatchTicker() {
+  const input = document.getElementById("watchSymbol");
+  const symbol = input.value.trim().toUpperCase();
+
+  if (!symbol) return;
+
+  await fetch(MINERLYTICS_API_BASE + "/api/watchlist/add", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    credentials: "include",
+    body: JSON.stringify({ symbol })
+  });
+
+  input.value = "";
+  loadMinerlyticsAccount();
+}
+
+async function removeWatchTicker(symbol) {
+  await fetch(MINERLYTICS_API_BASE + "/api/watchlist/remove", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    credentials: "include",
+    body: JSON.stringify({ symbol })
+  });
+
+  loadMinerlyticsAccount();
+}
+
+loadMinerlyticsAccount();
 </script>
 </body>
 </html>
