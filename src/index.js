@@ -22,7 +22,7 @@ function getCookie(request, name) {
 }
 
 function makeSessionCookie(sessionId) {
-  return `minerlytics_session=${sessionId}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${60 * 60 * 24 * 30}`;
+  return `minerlytics_session=${sessionId}; Path=/; Secure; SameSite=None; HttpOnly; Max-Age=${60 * 60 * 24 * 30}`;
 }
 
 
@@ -55,15 +55,19 @@ const DAILY_CRON = "30 3 * * *";
 const MONTHLY_YT_CRON = "0 4 1 * *";
 
 const CORS = {
-  "access-control-allow-origin": "*",
+  "access-control-allow-origin": "https://minerlytics.pages.dev",
   "access-control-allow-methods": "GET,POST,OPTIONS",
-  "access-control-allow-headers": "content-type,x-api-key",
+  "access-control-allow-headers": "content-type",
+  "access-control-allow-credentials": "true"
 };
 
 function json(data, status = 200) {
   return new Response(JSON.stringify(data), {
     status,
-    headers: { "content-type": "application/json; charset=utf-8", ...CORS },
+    headers: {
+      "content-type": "application/json",
+      ...CORS
+    }
   });
 }
 
