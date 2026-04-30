@@ -3,6 +3,30 @@ import { TICKERS } from "./tickers.js";
 import { googleRssUrl, parseRssItems } from "./rss.js";
 import { handleEducationPortalChat, educationOptions } from "./educationPortalChat.js";
 
+// =========================
+// 🔐 SIMPLE AUTH HELPERS
+// =========================
+
+async function sha256(text) {
+  const data = new TextEncoder().encode(text);
+  const hash = await crypto.subtle.digest("SHA-256", data);
+  return [...new Uint8Array(hash)]
+    .map(b => b.toString(16).padStart(2, "0"))
+    .join("");
+}
+
+function getCookie(request, name) {
+  const cookie = request.headers.get("cookie") || "";
+  const match = cookie.match(new RegExp(`${name}=([^;]+)`));
+  return match ? decodeURIComponent(match[1]) : null;
+}
+
+function makeSessionCookie(sessionId) {
+  return `minerlytics_session=${sessionId}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${60 * 60 * 24 * 30}`;
+}
+
+
+
 /* ============================
    YouTube Configuration
    ============================ */
@@ -1003,6 +1027,117 @@ export default {
     try {
       const url = new URL(request.url);
       const path = url.pathname;
+
+      // =========================
+// 🔐 AUTH ROUTES
+// =========================
+
+// SIGNUP
+if (url.pathname === "/api/signup" && request.method === "POST") {
+  const { email, password } = await request.json();
+
+  if (!email || !password)
+    return json({ ok: false, error: "Email and password required" }, 400);
+
+  if (password.length < 6)
+    return json({ ok: false, error: "Password must be at least 6 characters" }, 400);
+
+  const existing = await env.DB.prepare(
+    "SELECT id FROM users WHERE email = ?"
+  ).bind(email.toLowerCase()).first();
+
+  if (existing)
+    return json({ ok: false, error: "Email already exists" }, 409);
+
+  const userId = crypto.randomUUID();
+  const passwordHash = await sha256(password + env.AUTH_SECRET);
+  const now = new Date().toISOString();
+
+  await env.DB.prepare(
+    "INSERT INTO users (id, email, password_hash, created_at) VALUES (?, ?, ?, ?)"
+  ).bind(userId, email.toLowerCase(), passwordHash, now).run();
+
+  const sessionId = crypto.randomUUID();
+  const expiresAt = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString();
+
+  await env.DB.prepare(
+    "INSERT INTO sessions (id, user_id, created_at, expires_at) VALUES (?, ?, ?, ?)"
+  ).bind(sessionId, userId, now, expiresAt).run();
+
+  return json({ ok: true, email }, 200, {
+    "Set-Cookie": makeSessionCookie(sessionId)
+  });
+}
+
+// LOGIN
+if (url.pathname === "/api/login" && request.method === "POST") {
+  const { email, password } = await request.json();
+
+  const user = await env.DB.prepare(
+    "SELECT * FROM users WHERE email = ?"
+  ).bind(email.toLowerCase()).first();
+
+  if (!user)
+    return json({ ok: false, error: "Invalid login" }, 401);
+
+  const passwordHash = await sha256(password + env.AUTH_SECRET);
+
+  if (passwordHash !== user.password_hash)
+    return json({ ok: false, error: "Invalid login" }, 401);
+
+  const sessionId = crypto.randomUUID();
+  const now = new Date().toISOString();
+  const expiresAt = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString();
+
+  await env.DB.prepare(
+    "INSERT INTO sessions (id, user_id, created_at, expires_at) VALUES (?, ?, ?, ?)"
+  ).bind(sessionId, user.id, now, expiresAt).run();
+
+  return json({ ok: true, email: user.email }, 200, {
+    "Set-Cookie": makeSessionCookie(sessionId)
+  });
+}
+
+// CHECK USER
+if (url.pathname === "/api/me" && request.method === "GET") {
+  const sessionId = getCookie(request, "minerlytics_session");
+
+  if (!sessionId)
+    return json({ loggedIn: false });
+
+  const user = await env.DB.prepare(`
+    SELECT users.id, users.email
+    FROM sessions
+    JOIN users ON users.id = sessions.user_id
+    WHERE sessions.id = ? AND sessions.expires_at > ?
+  `).bind(sessionId, new Date().toISOString()).first();
+
+  if (!user)
+    return json({ loggedIn: false });
+
+  return json({
+    loggedIn: true,
+    user: {
+      id: user.id,
+      email: user.email
+    }
+  });
+}
+
+// LOGOUT
+if (url.pathname === "/api/logout" && request.method === "POST") {
+  const sessionId = getCookie(request, "minerlytics_session");
+
+  if (sessionId) {
+    await env.DB.prepare(
+      "DELETE FROM sessions WHERE id = ?"
+    ).bind(sessionId).run();
+  }
+
+  return json({ ok: true }, 200, {
+    "Set-Cookie": "minerlytics_session=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0"
+  });
+}
 
       if (request.method === "OPTIONS" && url.pathname === "/api/education-portal-chat") {
         return educationOptions();
