@@ -31,8 +31,10 @@
         <input id="globalSearch" type="search" placeholder="Search tickers, commodities, companies, and more…" />
       </div>
 
+      <div id="authBox" class="authBox">
       <a class="btn btnGhost" href="./login.html">Sign In</a>
       <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
+    </div>
     </div>
   </header>
 
@@ -681,6 +683,38 @@ async function logoutMinerlytics() {
 }
 
 checkMinerlyticsUser();
+</script>
+
+<script>
+async function loadMinerlyticsAccount() {
+  const authBox = document.getElementById("authBox");
+  if (!authBox) return;
+
+  try {
+    const res = await fetch("/api/me");
+    const data = await res.json();
+
+    if (data.loggedIn) {
+      authBox.innerHTML = `
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span style="font-size:13px;color:#eaf0ff;">
+            👋 ${data.user.email}
+          </span>
+          <button class="btn btnGhost" onclick="logoutMinerlytics()">Logout</button>
+        </div>
+      `;
+    }
+  } catch (e) {
+    console.log("Auth check failed", e);
+  }
+}
+
+async function logoutMinerlytics() {
+  await fetch("/api/logout", { method: "POST" });
+  window.location.reload();
+}
+
+loadMinerlyticsAccount();
 </script>
 </body>
 </html>
