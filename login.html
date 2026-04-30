@@ -90,6 +90,7 @@
         }
 
         msg.textContent = "Logged in!";
+        localStorage.setItem("minerlytics_user_email", email);
         window.location.href = "./index.html";
       } catch (err) {
         console.error("LOGIN ERROR:", err);
