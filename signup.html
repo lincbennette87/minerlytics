@@ -1,25 +1,78 @@
-<h1>Create Minerlytics Account</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Join Minerlytics</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logoMark" aria-hidden="true"></div>
+      <span class="brandName">MINERLYTICS</span>
+    </div>
 
-<input id="email" type="email" placeholder="Email">
-<input id="password" type="password" placeholder="Password">
-<button onclick="signup()">Sign Up</button>
+    <nav class="navLinks">
+      <a class="navLink" href="./index.html">Home</a>
+      <a class="navLink" href="./analysis.html">Analysis</a>
+      <a class="navLink" href="./educationportal.html">Education Portal</a>
+      <a class="navLink" href="./subscription.html">Subscriptions</a>
+      <a class="navLink" href="./about.html">About</a>
+    </nav>
+  </header>
 
-<p id="msg"></p>
+  <main class="shell">
+    <section class="hero" style="min-height:70vh;display:grid;place-items:center;">
+      <div class="artCard" style="max-width:460px;width:100%;padding:28px;">
+        <h1 style="font-size:34px;margin-bottom:10px;">Join Minerlytics</h1>
+        <p class="subhead" style="font-size:15px;margin-bottom:22px;">
+          Create your account to save watchlists, research prompts, and AI insights.
+        </p>
 
-<script>
-async function signup() {
-  const res = await fetch("/api/signup", {
-    method: "POST",
-    headers: {"content-type": "application/json"},
-    body: JSON.stringify({
-      email: email.value,
-      password: password.value
-    })
-  });
+        <div style="display:grid;gap:14px;">
+          <input id="email" type="email" placeholder="Email"
+            style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;" />
 
-  const data = await res.json();
-  msg.textContent = data.ok ? "Account created!" : data.error;
+          <input id="password" type="password" placeholder="Password"
+            style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;" />
 
-  if (data.ok) location.href = "/";
-}
-</script>
+          <button class="btn btnPrimary" onclick="signup()">Create Account</button>
+
+          <p id="msg" style="color:#ffcc66;font-size:13px;"></p>
+
+          <p style="font-size:13px;color:rgba(234,240,255,.7);">
+            Already have an account?
+            <a href="./login.html" style="color:#39e6c8;">Sign in</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+  async function signup() {
+    const msg = document.getElementById("msg");
+    msg.textContent = "Creating account...";
+
+    const res = await fetch("/api/signup", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        email: document.getElementById("email").value,
+        password: document.getElementById("password").value
+      })
+    });
+
+    const data = await res.json();
+
+    if (!data.ok) {
+      msg.textContent = data.error || "Signup failed";
+      return;
+    }
+
+    window.location.href = "./index.html";
+  }
+  </script>
+</body>
+</html>
