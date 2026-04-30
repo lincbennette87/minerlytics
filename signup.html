@@ -1,0 +1,25 @@
+<h1>Create Minerlytics Account</h1>
+
+<input id="email" type="email" placeholder="Email">
+<input id="password" type="password" placeholder="Password">
+<button onclick="signup()">Sign Up</button>
+
+<p id="msg"></p>
+
+<script>
+async function signup() {
+  const res = await fetch("/api/signup", {
+    method: "POST",
+    headers: {"content-type": "application/json"},
+    body: JSON.stringify({
+      email: email.value,
+      password: password.value
+    })
+  });
+
+  const data = await res.json();
+  msg.textContent = data.ok ? "Account created!" : data.error;
+
+  if (data.ok) location.href = "/";
+}
+</script>
