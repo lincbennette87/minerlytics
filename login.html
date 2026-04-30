@@ -1,0 +1,25 @@
+<h1>Sign In to Minerlytics</h1>
+
+<input id="email" type="email" placeholder="Email">
+<input id="password" type="password" placeholder="Password">
+<button onclick="login()">Login</button>
+
+<p id="msg"></p>
+
+<script>
+async function login() {
+  const res = await fetch("/api/login", {
+    method: "POST",
+    headers: {"content-type": "application/json"},
+    body: JSON.stringify({
+      email: email.value,
+      password: password.value
+    })
+  });
+
+  const data = await res.json();
+  msg.textContent = data.ok ? "Logged in!" : data.error;
+
+  if (data.ok) location.href = "/";
+}
+</script>
