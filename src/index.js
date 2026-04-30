@@ -1128,6 +1128,102 @@ if (url.pathname === "/api/me" && request.method === "GET") {
   });
 }
 
+if (url.pathname === "/api/watchlist" && request.method === "GET") {
+  const sessionId = getCookie(request, "minerlytics_session");
+
+  if (!sessionId) {
+    return json({ ok: false, error: "Not logged in" }, 401);
+  }
+
+  const user = await env.DB.prepare(`
+    SELECT users.id, users.email
+    FROM sessions
+    JOIN users ON users.id = sessions.user_id
+    WHERE sessions.id = ? AND sessions.expires_at > ?
+  `).bind(sessionId, new Date().toISOString()).first();
+
+  if (!user) {
+    return json({ ok: false, error: "Invalid session" }, 401);
+  }
+
+  const rows = await env.DB.prepare(`
+    SELECT symbol, created_at
+    FROM user_watchlist
+    WHERE user_id = ?
+    ORDER BY created_at DESC
+  `).bind(user.id).all();
+
+  return json({
+    ok: true,
+    user,
+    watchlist: rows.results || []
+  });
+}
+
+// watchlist
+
+if (url.pathname === "/api/watchlist/add" && request.method === "POST") {
+  const sessionId = getCookie(request, "minerlytics_session");
+
+  if (!sessionId) {
+    return json({ ok: false, error: "Not logged in" }, 401);
+  }
+
+  const user = await env.DB.prepare(`
+    SELECT users.id, users.email
+    FROM sessions
+    JOIN users ON users.id = sessions.user_id
+    WHERE sessions.id = ? AND sessions.expires_at > ?
+  `).bind(sessionId, new Date().toISOString()).first();
+
+  if (!user) {
+    return json({ ok: false, error: "Invalid session" }, 401);
+  }
+
+  const body = await request.json().catch(() => ({}));
+  const symbol = String(body.symbol || "").trim().toUpperCase();
+
+  if (!symbol) {
+    return json({ ok: false, error: "Symbol required" }, 400);
+  }
+
+  await env.DB.prepare(`
+    INSERT OR IGNORE INTO user_watchlist (id, user_id, symbol, created_at)
+    VALUES (?, ?, ?, ?)
+  `).bind(crypto.randomUUID(), user.id, symbol, new Date().toISOString()).run();
+
+  return json({ ok: true, symbol });
+}
+
+if (url.pathname === "/api/watchlist/remove" && request.method === "POST") {
+  const sessionId = getCookie(request, "minerlytics_session");
+
+  if (!sessionId) {
+    return json({ ok: false, error: "Not logged in" }, 401);
+  }
+
+  const user = await env.DB.prepare(`
+    SELECT users.id
+    FROM sessions
+    JOIN users ON users.id = sessions.user_id
+    WHERE sessions.id = ? AND sessions.expires_at > ?
+  `).bind(sessionId, new Date().toISOString()).first();
+
+  if (!user) {
+    return json({ ok: false, error: "Invalid session" }, 401);
+  }
+
+  const body = await request.json().catch(() => ({}));
+  const symbol = String(body.symbol || "").trim().toUpperCase();
+
+  await env.DB.prepare(`
+    DELETE FROM user_watchlist
+    WHERE user_id = ? AND symbol = ?
+  `).bind(user.id, symbol).run();
+
+  return json({ ok: true, symbol });
+}
+
 // LOGOUT
 if (url.pathname === "/api/logout" && request.method === "POST") {
   const sessionId = getCookie(request, "minerlytics_session");
