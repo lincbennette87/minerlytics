@@ -6,6 +6,7 @@
   <title>Sign In — Minerlytics</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
+
 <body>
   <header class="topbar">
     <div class="brand">
@@ -35,6 +36,72 @@
 
         <div style="display:grid;gap:14px;">
           <input id="email" type="email" placeholder="Email"
+            style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;outline:none;" />
+
+          <input id="password" type="password" placeholder="Password"
+            style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;outline:none;" />
+
+          <button id="loginBtn" class="btn btnPrimary" type="button">Sign In</button>
+
+          <p id="msg" style="color:#ffcc66;font-size:13px;min-height:18px;"></p>
+
+          <p style="font-size:13px;color:rgba(234,240,255,.7);">
+            New to Minerlytics?
+            <a href="./signup.html" style="color:#39e6c8;">Create an account</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+
+    async function login() {
+      const msg = document.getElementById("msg");
+      const btn = document.getElementById("loginBtn");
+      const email = document.getElementById("email").value.trim();
+      const password = document.getElementById("password").value;
+
+      msg.textContent = "Signing in...";
+      btn.disabled = true;
+
+      try {
+        const res = await fetch(API_BASE + "/api/login", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ email, password }),
+          credentials: "include"
+        });
+
+        const raw = await res.text();
+        console.log("LOGIN STATUS:", res.status);
+        console.log("LOGIN RESPONSE:", raw);
+
+        let data = null;
+        try {
+          data = JSON.parse(raw);
+        } catch {}
+
+        if (!res.ok || !data?.ok) {
+          msg.textContent = data?.error || raw || "Login failed.";
+          btn.disabled = false;
+          return;
+        }
+
+        msg.textContent = "Logged in!";
+        window.location.href = "./index.html";
+      } catch (err) {
+        console.error("LOGIN ERROR:", err);
+        msg.textContent = "Network/API error. Open console and check red error.";
+        btn.disabled = false;
+      }
+    }
+
+    document.getElementById("loginBtn").addEventListener("click", login);
+  </script>
+</body>
+</html>          <input id="email" type="email" placeholder="Email"
             style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;outline:none;" />
 
           <input id="password" type="password" placeholder="Password"
