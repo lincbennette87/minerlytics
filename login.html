@@ -23,18 +23,70 @@
   </header>
 
   <main class="shell">
-    <section class="hero" style="min-height:70vh;display:grid;place-items:center;">
-      <div class="artCard" style="max-width:460px;width:100%;padding:28px;">
-        <h1 style="font-size:34px;margin-bottom:10px;">Welcome Back</h1>
-        <p class="subhead" style="font-size:15px;margin-bottom:22px;">
-          Sign in to your Minerlytics account for your personalized mining research dashboard.
-        </p>
+    <section class="hero" style="min-height:75vh;display:grid;place-items:center;">
+      <div class="artCard" style="max-width:480px;width:100%;padding:32px;">
+        <div style="margin-bottom:22px;">
+          <div class="brandName" style="font-size:13px;color:#39e6c8;margin-bottom:8px;">MINERLYTICS ACCOUNT</div>
+          <h1 style="font-size:36px;margin:0 0 10px;">Welcome Back</h1>
+          <p class="subhead" style="font-size:15px;margin:0;">
+            Sign in to access your personalized Minerlytics dashboard.
+          </p>
+        </div>
 
         <div style="display:grid;gap:14px;">
           <input id="email" type="email" placeholder="Email"
-            style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;" />
+            style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;outline:none;" />
 
           <input id="password" type="password" placeholder="Password"
+            style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;outline:none;" />
+
+          <button class="btn btnPrimary" onclick="login()">Sign In</button>
+
+          <p id="msg" style="color:#ffcc66;font-size:13px;min-height:18px;"></p>
+
+          <p style="font-size:13px;color:rgba(234,240,255,.7);">
+            New to Minerlytics?
+            <a href="./signup.html" style="color:#39e6c8;">Create an account</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+  const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+
+  async function login() {
+    const msg = document.getElementById("msg");
+    const email = document.getElementById("email").value.trim();
+    const password = document.getElementById("password").value;
+
+    msg.textContent = "Signing in...";
+
+    try {
+      const res = await fetch(API_BASE + "/api/login", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ email, password })
+      });
+
+      const data = await res.json().catch(() => null);
+
+      if (!res.ok || !data?.ok) {
+        msg.textContent = data?.error || "Login failed. Check credentials.";
+        return;
+      }
+
+      msg.textContent = "Logged in!";
+      window.location.href = "./index.html";
+    } catch (err) {
+      msg.textContent = "Network/API error. Check Worker URL or CORS.";
+      console.error(err);
+    }
+  }
+  </script>
+</body>
+</html>          <input id="password" type="password" placeholder="Password"
             style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;" />
 
           <button class="btn btnPrimary" onclick="login()">Sign In</button>
