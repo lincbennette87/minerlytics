@@ -6,6 +6,7 @@
   <title>Join Minerlytics</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
+
 <body>
   <header class="topbar">
     <div class="brand">
@@ -40,7 +41,7 @@
           <input id="password" type="password" placeholder="Password"
             style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;outline:none;" />
 
-          <button class="btn btnPrimary" onclick="signup()">Create Account</button>
+          <button id="signupBtn" class="btn btnPrimary" type="button">Create Account</button>
 
           <p id="msg" style="color:#ffcc66;font-size:13px;min-height:18px;"></p>
 
@@ -54,77 +55,50 @@
   </main>
 
   <script>
-  const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+    const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 
-  async function signup() {
-    const msg = document.getElementById("msg");
-    const email = document.getElementById("email").value.trim();
-    const password = document.getElementById("password").value;
+    async function signup() {
+      const msg = document.getElementById("msg");
+      const btn = document.getElementById("signupBtn");
+      const email = document.getElementById("email").value.trim();
+      const password = document.getElementById("password").value;
 
-    msg.textContent = "Creating account...";
+      msg.textContent = "Creating account...";
+      btn.disabled = true;
 
-    try {
-      const res = await fetch(API_BASE + "/api/signup", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ email, password })
-      });
+      try {
+        const res = await fetch(API_BASE + "/api/signup", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ email, password }),
+          credentials: "include"
+        });
 
-      const data = await res.json().catch(() => null);
+        const raw = await res.text();
+        console.log("SIGNUP STATUS:", res.status);
+        console.log("SIGNUP RESPONSE:", raw);
 
-      if (!res.ok || !data?.ok) {
-        msg.textContent = data?.error || "Signup failed. Check Worker logs.";
-        return;
+        let data = null;
+        try {
+          data = JSON.parse(raw);
+        } catch {}
+
+        if (!res.ok || !data?.ok) {
+          msg.textContent = data?.error || raw || "Signup failed. Check Worker logs.";
+          btn.disabled = false;
+          return;
+        }
+
+        msg.textContent = "Account created!";
+        window.location.href = "./index.html";
+      } catch (err) {
+        console.error("SIGNUP ERROR:", err);
+        msg.textContent = "Network/API error. Open console and check red error.";
+        btn.disabled = false;
       }
-
-      msg.textContent = "Account created!";
-      window.location.href = "./index.html";
-    } catch (err) {
-      msg.textContent = "Network/API error. Check Worker URL or CORS.";
-      console.error(err);
-    }
-  }
-  </script>
-</body>
-</html>          <input id="password" type="password" placeholder="Password"
-            style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;" />
-
-          <button class="btn btnPrimary" onclick="signup()">Create Account</button>
-
-          <p id="msg" style="color:#ffcc66;font-size:13px;"></p>
-
-          <p style="font-size:13px;color:rgba(234,240,255,.7);">
-            Already have an account?
-            <a href="./login.html" style="color:#39e6c8;">Sign in</a>
-          </p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <script>
-  async function signup() {
-    const msg = document.getElementById("msg");
-    msg.textContent = "Creating account...";
-
-    const res = await fetch("/api/signup", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({
-        email: document.getElementById("email").value,
-        password: document.getElementById("password").value
-      })
-    });
-
-    const data = await res.json();
-
-    if (!data.ok) {
-      msg.textContent = data.error || "Signup failed";
-      return;
     }
 
-    window.location.href = "./index.html";
-  }
+    document.getElementById("signupBtn").addEventListener("click", signup);
   </script>
 </body>
 </html>
