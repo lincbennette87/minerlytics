@@ -402,7 +402,7 @@ async function getMiningDisclosureMatches(env, ticker, q, limit = 20) {
           LOWER(COALESCE(b.text_content, '')) LIKE '%' || LOWER(?) || '%'
           OR LOWER(COALESCE(b.heading, '')) LIKE '%' || LOWER(?) || '%'
           OR LOWER(COALESCE(r.form, '')) LIKE '%' || LOWER(?) || '%'
-          OR LOWER(COALESCE(r.source_url AS primary_document, '')) LIKE '%' || LOWER(?) || '%'
+          OR LOWER(COALESCE(r.source_url, '')) LIKE '%' || LOWER(?) || '%'
           OR LOWER(COALESCE(r.source_url, '')) LIKE '%' || LOWER(?) || '%'
         )
       `);
@@ -455,7 +455,7 @@ async function getMiningDisclosureMatches(env, ticker, q, limit = 20) {
       WHERE r.ticker = ?
         AND (
           LOWER(COALESCE(r.form, '')) IN ('40-f', '40f')
-          OR LOWER(COALESCE(r.source_url AS primary_document, '')) LIKE '%40-f%'
+          OR LOWER(COALESCE(r.source_url, '')) LIKE '%40-f%'
           OR LOWER(COALESCE(r.source_url, '')) LIKE '%40-f%'
           OR LOWER(COALESCE(b.heading, '')) LIKE '%40-f%'
           OR LOWER(COALESCE(b.text_content, '')) LIKE '%40-f%'
@@ -474,7 +474,7 @@ async function getMiningDisclosureMatches(env, ticker, q, limit = 20) {
           LOWER(COALESCE(b.text_content, '')) LIKE '%' || LOWER(?) || '%'
           OR LOWER(COALESCE(b.heading, '')) LIKE '%' || LOWER(?) || '%'
           OR LOWER(COALESCE(r.form, '')) LIKE '%' || LOWER(?) || '%'
-          OR LOWER(COALESCE(r.source_url AS primary_document, '')) LIKE '%' || LOWER(?) || '%'
+          OR LOWER(COALESCE(r.source_url, '')) LIKE '%' || LOWER(?) || '%'
           OR LOWER(COALESCE(r.source_url, '')) LIKE '%' || LOWER(?) || '%'
         )
       `);
@@ -793,9 +793,10 @@ function buildUnifiedAssistantContext({
   filingMatches,
   transcriptMatches,
 }) {
-  const marketData = summarizeMarketData(latest, previous, series);
-  const rssNews = summarizeRssNews(rssItems);
-  const items = pickTopItems(secFilings, 5);
+const marketData = summarizeMarketData(latest, previous, series);
+const rssNews = summarizeRssNews(rssItems);
+const secFilings = summarizeSecFilings(filingMatches);
+const youtubeTranscripts = summarizeYoutubeTranscripts(transcriptMatches);
 
   const context = {
     question: q,
