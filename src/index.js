@@ -742,7 +742,7 @@ function summarizeSecFilings(secFilings) {
       primary_document: x.primary_document || "",
       heading: x.heading,
       url: x.url,
-      text: String(x.text || "").slice(0, 1400),
+      text: String(x.text || "").slice(0, 600),
     })),
   };
 }
@@ -757,7 +757,7 @@ function summarizeYoutubeTranscripts(transcripts) {
       channel: x.channel,
       published_at: x.published_at,
       url: x.url,
-      text: String(x.text || "").slice(0, 1000),
+      text: String(x.text || "").slice(0, 500),
     })),
   };
 }
@@ -795,8 +795,7 @@ function buildUnifiedAssistantContext({
 }) {
   const marketData = summarizeMarketData(latest, previous, series);
   const rssNews = summarizeRssNews(rssItems);
-  const secFilings = summarizeSecFilings(filingMatches);
-  const youtubeTranscripts = summarizeYoutubeTranscripts(transcriptMatches);
+  const items = pickTopItems(secFilings, 5);
 
   const context = {
     question: q,
@@ -1004,7 +1003,7 @@ async function runAssistant(env, question, context) {
 
   const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
     prompt: system + "\n\n" + userPrompt,
-    max_tokens: 2200,
+    max_tokens: 1000,
     temperature: 0,
     top_p: 1,
     frequency_penalty: 0,
