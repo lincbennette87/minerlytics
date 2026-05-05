@@ -6,54 +6,16 @@
   <title>Minerlytics AI — Research like an Pro using AI Powered Analysis</title>
   <link rel="stylesheet" href="./styles.css" />
   <style>
-  .aiLockedWrap {
-    position: relative;
-  }
+<script>
+function applyMinerlyticsAiGate() {
+  const email = localStorage.getItem("minerlytics_user_email");
+  document.querySelectorAll("[data-ai-auth-gate]").forEach(gate => {
+    gate.classList.toggle("is-locked", !email);
+  });
+}
 
-  .aiLockedWrap.is-locked .aiHud {
-    filter: blur(6px);
-    pointer-events: none;
-    user-select: none;
-  }
-
-  .aiLockOverlay {
-    display: none;
-    position: absolute;
-    inset: 0;
-    z-index: 50;
-    border-radius: 18px;
-    background: rgba(5, 10, 25, 0.55);
-    backdrop-filter: blur(2px);
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 22px;
-  }
-
-  .aiLockedWrap.is-locked .aiLockOverlay {
-    display: flex;
-  }
-
-  .aiLockBox {
-    max-width: 320px;
-    border: 1px solid rgba(255,255,255,.16);
-    background: rgba(11,19,42,.88);
-    border-radius: 18px;
-    padding: 18px;
-    box-shadow: 0 20px 70px rgba(0,0,0,.45);
-  }
-
-  .aiLockBox h3 {
-    margin: 0 0 8px;
-    color: #eaf0ff;
-  }
-
-  .aiLockBox p {
-    margin: 0 0 14px;
-    color: rgba(234,240,255,.72);
-    font-size: 13px;
-    line-height: 1.4;
-  }
+applyMinerlyticsAiGate();
+</script>
 </style>
 </head>
 <body>
@@ -276,7 +238,17 @@
       </div>
 
       <div class="heroRight">
-        <div class="artCard">
+        <div class="aiLockedWrap is-locked" data-ai-auth-gate>
+  <div class="aiLockOverlay">
+    <div class="aiLockBox">
+      <h3>Sign in to use Minerlytics AI</h3>
+      <p>Create an account or sign in to unlock the AI assistant.</p>
+      <a class="btn btnPrimary" href="./login.html">Sign In</a>
+      <a class="btn btnGhost" href="./signup.html">Join</a>
+    </div>
+  </div>
+ </div>
+  <div class="artCard">
           <div class="artGrid"></div>
           <div class="artGlow"></div>
 
