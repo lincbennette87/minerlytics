@@ -266,7 +266,7 @@ function buildDisclosureContext(results) {
       accession_number: r.accession_number || "",
       filing_date: r.filing_date || "",
       form: r.form || "",
-      primary_document: r.primaryDocument || "",
+      primary_document: r.primary_document || r.source_url || "",
       heading: r.heading || "",
       url: r.source_url || "",
       text: String(r.text_content || "").replace(/\s+/g, " ").trim(),
@@ -368,7 +368,7 @@ async function getLatestDisclosureBlocksForTicker(env, ticker, limit = 12) {
       r.filing_date,
       r.source_url,
       r.form,
-      r.primaryDocument,
+      r.source_url AS primary_document,
       b.heading,
       b.text_content
     FROM mining_report_blocks b
@@ -402,7 +402,7 @@ async function getMiningDisclosureMatches(env, ticker, q, limit = 20) {
           LOWER(COALESCE(b.text_content, '')) LIKE '%' || LOWER(?) || '%'
           OR LOWER(COALESCE(b.heading, '')) LIKE '%' || LOWER(?) || '%'
           OR LOWER(COALESCE(r.form, '')) LIKE '%' || LOWER(?) || '%'
-          OR LOWER(COALESCE(r.primaryDocument, '')) LIKE '%' || LOWER(?) || '%'
+          OR LOWER(COALESCE(r.source_url AS primary_document, '')) LIKE '%' || LOWER(?) || '%'
           OR LOWER(COALESCE(r.source_url, '')) LIKE '%' || LOWER(?) || '%'
         )
       `);
@@ -419,7 +419,7 @@ async function getMiningDisclosureMatches(env, ticker, q, limit = 20) {
         r.filing_date,
         r.source_url,
         r.form,
-        r.primaryDocument,
+        r.source_url AS primary_document,
         b.heading,
         b.text_content
       FROM mining_report_blocks b
@@ -446,7 +446,7 @@ async function getMiningDisclosureMatches(env, ticker, q, limit = 20) {
         r.filing_date,
         r.source_url,
         r.form,
-        r.primaryDocument,
+        r.source_url AS primary_document,
         b.heading,
         b.text_content
       FROM mining_report_blocks b
@@ -455,7 +455,7 @@ async function getMiningDisclosureMatches(env, ticker, q, limit = 20) {
       WHERE r.ticker = ?
         AND (
           LOWER(COALESCE(r.form, '')) IN ('40-f', '40f')
-          OR LOWER(COALESCE(r.primaryDocument, '')) LIKE '%40-f%'
+          OR LOWER(COALESCE(r.source_url AS primary_document, '')) LIKE '%40-f%'
           OR LOWER(COALESCE(r.source_url, '')) LIKE '%40-f%'
           OR LOWER(COALESCE(b.heading, '')) LIKE '%40-f%'
           OR LOWER(COALESCE(b.text_content, '')) LIKE '%40-f%'
@@ -474,7 +474,7 @@ async function getMiningDisclosureMatches(env, ticker, q, limit = 20) {
           LOWER(COALESCE(b.text_content, '')) LIKE '%' || LOWER(?) || '%'
           OR LOWER(COALESCE(b.heading, '')) LIKE '%' || LOWER(?) || '%'
           OR LOWER(COALESCE(r.form, '')) LIKE '%' || LOWER(?) || '%'
-          OR LOWER(COALESCE(r.primaryDocument, '')) LIKE '%' || LOWER(?) || '%'
+          OR LOWER(COALESCE(r.source_url AS primary_document, '')) LIKE '%' || LOWER(?) || '%'
           OR LOWER(COALESCE(r.source_url, '')) LIKE '%' || LOWER(?) || '%'
         )
       `);
@@ -491,7 +491,7 @@ async function getMiningDisclosureMatches(env, ticker, q, limit = 20) {
         r.filing_date,
         r.source_url,
         r.form,
-        r.primaryDocument,
+        r.source_url AS primary_document,
         b.heading,
         b.text_content
       FROM mining_report_blocks b
