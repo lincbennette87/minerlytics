@@ -464,11 +464,19 @@
   </main>
 
   <script>
-    function startPlan(plan){
-      localStorage.setItem("minerlytics_subscription_access", plan);
-      alert("Selected plan: " + plan);
+  function startPlan(plan) {
+    localStorage.setItem("minerlytics_selected_plan", plan);
+
+    // Free trial goes directly to sign up
+    if (plan === "free-trial-7-day") {
+      window.location.href = "./signup.html?plan=" + encodeURIComponent(plan);
+      return;
     }
-  </script>
+
+    // Paid plans go to credit card / payment page first
+    window.location.href = "./payment.html?plan=" + encodeURIComponent(plan);
+  }
+</script>
 
 </body>
 </html>
