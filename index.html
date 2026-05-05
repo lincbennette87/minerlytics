@@ -5,18 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Minerlytics AI — Research like an Pro using AI Powered Analysis</title>
   <link rel="stylesheet" href="./styles.css" />
-  <style>
-<script>
-function applyMinerlyticsAiGate() {
-  const email = localStorage.getItem("minerlytics_user_email");
-  document.querySelectorAll("[data-ai-auth-gate]").forEach(gate => {
-    gate.classList.toggle("is-locked", !email);
-  });
-}
-
-applyMinerlyticsAiGate();
-</script>
-</style>
 </head>
 <body>
   <!-- Top Nav -->
@@ -238,33 +226,12 @@ applyMinerlyticsAiGate();
       </div>
 
       <div class="heroRight">
-        <div class="aiLockedWrap is-locked" data-ai-auth-gate>
-  <div class="aiLockOverlay">
-    <div class="aiLockBox">
-      <h3>Sign in to use Minerlytics AI</h3>
-      <p>Create an account or sign in to unlock the AI assistant.</p>
-      <a class="btn btnPrimary" href="./login.html">Sign In</a>
-      <a class="btn btnGhost" href="./signup.html">Join</a>
-    </div>
-  </div>
- </div>
-  <div class="artCard">
+        <div class="artCard">
           <div class="artGrid"></div>
           <div class="artGlow"></div>
 
           <!-- ✅ Chat-style AI Assistant -->
-          <div class="aiLockedWrap is-locked" data-ai-auth-gate>
-  <div class="aiLockOverlay">
-    <div class="aiLockBox">
-      <h3>Sign in to use Minerlytics AI</h3>
-      <p>Create an account or sign in to unlock the AI assistant.</p>
-      <a class="btn btnPrimary" href="./login.html">Sign In</a>
-      <a class="btn btnGhost" href="./signup.html">Join</a>
-    </div>
-  </div>
-            </div>
-
-  <div class="aiHud">
+          <div class="aiHud">
             <div class="aiTop">
             <div class="aiTitle">Minerlytics AI Assistant</div>
           </div>
@@ -788,20 +755,7 @@ checkMinerlyticsUser();
 </script>
 <script>
 function loadLocalMinerlyticsAccount() {
-  async function send(){
   const email = localStorage.getItem("minerlytics_user_email");
-  if (!email) {
-    window.location.href = "./login.html";
-    return;
-  }
-
-  if (!isAccepted()){
-    showOverlay();
-    return;
-  }
-
-  // rest of your existing send function...
-}
   const authNav = document.getElementById("authNav");
 
   if (!email || !authNav) return;
@@ -927,22 +881,6 @@ async function removeWatchTicker(symbol) {
 }
 
 loadPersonalDashboard();
-</script>
-<script>
-function applyMinerlyticsAiGate() {
-  const email = localStorage.getItem("minerlytics_user_email");
-  const gates = document.querySelectorAll("[data-ai-auth-gate]");
-
-  gates.forEach(gate => {
-    if (email) {
-      gate.classList.remove("is-locked");
-    } else {
-      gate.classList.add("is-locked");
-    }
-  });
-}
-
-applyMinerlyticsAiGate();
 </script>
 </body>
 </html>
