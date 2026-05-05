@@ -5,6 +5,90 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Minerlytics AI — Research like an Pro using AI Powered Analysis</title>
   <link rel="stylesheet" href="./styles.css" />
+  <style>
+    .aiLockedWrap {
+  position: relative;
+}
+
+.aiLockedWrap.is-locked .artCard {
+  filter: blur(9px) brightness(.55);
+  pointer-events: none;
+  user-select: none;
+}
+
+.aiLockOverlay {
+  display: none;
+  position: absolute;
+  inset: 0;
+  z-index: 9999;
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 50% 35%, rgba(124,92,255,.28), transparent 38%),
+    rgba(5,10,25,.58);
+  backdrop-filter: blur(5px);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+}
+
+.aiLockedWrap.is-locked .aiLockOverlay {
+  display: flex;
+}
+
+.aiLockBox {
+  max-width: 430px;
+  padding: 28px;
+  border-radius: 24px;
+  background: rgba(11,19,42,.88);
+  border: 1px solid rgba(255,255,255,.18);
+  box-shadow: 0 30px 100px rgba(0,0,0,.65);
+  animation: aiLockFloat 3.5s ease-in-out infinite;
+}
+
+.aiLockIcon {
+  width: 58px;
+  height: 58px;
+  margin: 0 auto 14px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 26px;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  box-shadow: 0 0 35px rgba(124,92,255,.55);
+  animation: aiLockPulse 1.8s ease-in-out infinite;
+}
+
+.aiLockBox h2 {
+  margin: 0 0 10px;
+  font-size: 22px;
+  color: #eaf0ff;
+}
+
+.aiLockBox p {
+  margin: 0 0 18px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(234,240,255,.76);
+}
+
+.aiLockActions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+@keyframes aiLockPulse {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 28px rgba(124,92,255,.45); }
+  50% { transform: scale(1.08); box-shadow: 0 0 48px rgba(57,230,200,.65); }
+}
+
+@keyframes aiLockFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+  </style>
 </head>
 <body>
   <!-- Top Nav -->
@@ -225,8 +309,24 @@
         </div>
       </div>
 
-      <div class="heroRight">
-        <div class="artCard">
+      <div class="heroRight aiLockedWrap is-locked" data-ai-auth-gate>
+        <div class="aiLockOverlay">
+  <div class="aiLockBox">
+    <div class="aiLockIcon">🔒</div>
+
+    <h2>Sign in to access the power of AI Assistant</h2>
+
+    <p>
+      Unlock Minerlytics AI insights, transcripts, market signals,
+      and deep mining analysis.
+    </p>
+
+    <div class="aiLockActions">
+      <a class="btn btnPrimary" href="./login.html">Sign In</a>
+      <a class="btn btnGhost" href="./signup.html">Join Minerlytics</a>
+    </div>
+  </div>
+</div>
           <div class="artGrid"></div>
           <div class="artGlow"></div>
 
@@ -881,6 +981,17 @@ async function removeWatchTicker(symbol) {
 }
 
 loadPersonalDashboard();
+</script>
+<script>
+function applyMinerlyticsAiGate() {
+  const email = localStorage.getItem("minerlytics_user_email");
+
+  document.querySelectorAll("[data-ai-auth-gate]").forEach(gate => {
+    gate.classList.toggle("is-locked", !email);
+  });
+}
+
+applyMinerlyticsAiGate();
 </script>
 </body>
 </html>
