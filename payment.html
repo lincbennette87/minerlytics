@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <title>Minerlytics Payment</title>
+</head>
+<body style="background:#07102a;color:white;font-family:Arial;padding:40px;">
+  <h1>Payment Details</h1>
+  <p id="planText"></p>
+
+  <form onsubmit="continueToSignup(event)">
+    <input placeholder="Card Number" required style="display:block;margin:10px 0;padding:12px;width:280px;">
+    <input placeholder="MM/YY" required style="display:block;margin:10px 0;padding:12px;width:280px;">
+    <input placeholder="CVC" required style="display:block;margin:10px 0;padding:12px;width:280px;">
+    <button style="padding:12px 20px;">Continue to Sign Up</button>
+  </form>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const plan = params.get("plan") || "";
+    document.getElementById("planText").textContent = "Selected plan: " + plan;
+
+    function continueToSignup(e) {
+      e.preventDefault();
+      localStorage.setItem("minerlytics_payment_started", "true");
+      window.location.href = "./signup.html?plan=" + encodeURIComponent(plan);
+    }
+  </script>
+</body>
+</html>
