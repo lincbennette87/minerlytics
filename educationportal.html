@@ -209,6 +209,88 @@
 
     strong{ color:#fff; }
 
+    /* 🔒 Premium AI Lock */
+.aiLockedWrap{
+  position: relative;
+}
+
+.aiLockedWrap.is-locked .assistantInner{
+  filter: blur(9px) brightness(.55);
+  pointer-events: none;
+  user-select: none;
+}
+
+.aiLockOverlay{
+  display: none;
+  position: absolute;
+  inset: 0;
+  z-index: 9999;
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at 50% 35%, rgba(124,92,255,.28), transparent 38%),
+    rgba(5,10,25,.58);
+  backdrop-filter: blur(5px);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+}
+
+.aiLockedWrap.is-locked .aiLockOverlay{
+  display: flex;
+}
+
+.aiLockBox{
+  max-width: 340px;
+  padding: 24px;
+  border-radius: 22px;
+  background: rgba(11,19,42,.92);
+  border: 1px solid rgba(255,255,255,.18);
+  box-shadow: 0 30px 100px rgba(0,0,0,.65);
+  animation: aiLockFloat 3.5s ease-in-out infinite;
+}
+
+.aiLockIcon{
+  width: 58px;
+  height: 58px;
+  margin: 0 auto 14px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 26px;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  box-shadow: 0 0 35px rgba(124,92,255,.55);
+  animation: aiLockPulse 1.8s ease-in-out infinite;
+}
+
+.aiLockBox h2{
+  margin: 0 0 10px;
+  font-size: 19px;
+}
+
+.aiLockBox p{
+  margin: 0 0 18px;
+  font-size: 13px;
+  color: rgba(234,240,255,.76);
+}
+
+.aiLockActions{
+  display:flex;
+  gap:10px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+@keyframes aiLockPulse{
+  0%,100%{transform:scale(1);}
+  50%{transform:scale(1.08);}
+}
+
+@keyframes aiLockFloat{
+  0%,100%{transform:translateY(0);}
+  50%{transform:translateY(-6px);}
+}
+
     /* Assistant */
     .assistantCard{
       position: sticky;
@@ -746,7 +828,26 @@
         </p>
       </div>
 
-      <aside class="card assistantCard">
+      <aside class="card assistantCard aiLockedWrap is-locked" data-ai-auth-gate>
+        <div class="aiLockOverlay">
+  <div class="aiLockBox">
+    <div class="aiLockIcon">🔒</div>
+
+    <h2>Sign in to access the power of AI Assistant</h2>
+
+    <p>
+      Unlock Minerlytics Education AI insights, transcript search,
+      mining lessons, and personalized research tools.
+    </p>
+
+    <div class="aiLockActions">
+      <a class="btn btnPrimary" href="./login.html">Sign In</a>
+      <a class="btn btnGhost" href="./signup.html">Join Minerlytics</a>
+    </div>
+  </div>
+</div>
+
+<div class="assistantInner">
         <div class="assistantHeader">
           <div class="assistantTitleWrap">
             <div class="thinkingOrb" id="thinkingOrb" aria-hidden="true">
@@ -806,10 +907,23 @@ Examples:
             Follow-ups stay in context automatically.
           </div>
         </form>
+</div>
       </aside>
     </section>
   </main>
 
-  <script type="module" src="./js/education-portal-ai.js"></script>
+  <script>
+function applyMinerlyticsAiGate() {
+  const email = localStorage.getItem("minerlytics_user_email");
+
+  document.querySelectorAll("[data-ai-auth-gate]").forEach(gate => {
+    gate.classList.toggle("is-locked", !email);
+  });
+}
+
+applyMinerlyticsAiGate();
+</script>
+
+<script type="module" src="./js/education-portal-ai.js"></script>
 </body>
 </html>
