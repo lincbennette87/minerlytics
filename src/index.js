@@ -22,7 +22,7 @@ function getCookie(request, name) {
 }
 
 function makeSessionCookie(sessionId) {
-  return `minerlytics_session=${sessionId}; Path=/; Secure; SameSite=None; HttpOnly; Max-Age=${60 * 60 * 24 * 30}`;
+  return `minerlytics_session=${sessionId}; Path=/; Secure; SameSite=None; HttpOnly; Max-Age=${60 * 60 * 24 * 30}; Domain=.minerlyticsai.com`;
 }
 
 
@@ -54,32 +54,49 @@ const YOUTUBE = {
 const DAILY_CRON = "30 3 * * *";
 const MONTHLY_YT_CRON = "0 4 1 * *";
 
-const CORS = {
-  "access-control-allow-origin": "https://minerlytics.pages.dev",
-  "access-control-allow-methods": "GET,POST,OPTIONS",
-  "access-control-allow-headers": "content-type",
-  "access-control-allow-credentials": "true"
-};
+const ALLOWED_ORIGINS = [
+  "https://minerlytics.pages.dev",
+  "https://minerlyticsai.com"
+];
 
-function json(data, status = 200) {
+function getCorsHeaders(request) {
+  const origin = request.headers.get("Origin") || "";
+  return {
+    "access-control-allow-origin": ALLOWED_ORIGINS.includes(origin)
+      ? origin
+      : "https://minerlyticsai.com",
+    "access-control-allow-methods": "GET,POST,OPTIONS",
+    "access-control-allow-headers": "content-type",
+    "access-control-allow-credentials": "true"
+  };
+}
+
+function json(data, status = 200, extraHeaders = {}, request) {
   return new Response(JSON.stringify(data), {
     status,
     headers: {
       "content-type": "application/json",
-      ...CORS
+      ...getCorsHeaders(request),
+      ...extraHeaders
     }
   });
 }
 
-function text(data, status = 200) {
+function text(data, status = 200, request) {
   return new Response(data, {
     status,
-    headers: { "content-type": "text/plain; charset=utf-8", ...CORS },
+    headers: {
+      "content-type": "text/plain; charset=utf-8",
+      ...getCorsHeaders(request)
+    },
   });
 }
 
-function options() {
-  return new Response(null, { status: 204, headers: { ...CORS } });
+function options(request) {
+  return new Response(null, {
+    status: 204,
+    headers: getCorsHeaders(request)
+  });
 }
 
 function clamp(n, min, max) {
@@ -1068,10 +1085,12 @@ if (url.pathname === "/api/signup" && request.method === "POST") {
     "INSERT INTO sessions (id, user_id, created_at, expires_at) VALUES (?, ?, ?, ?)"
   ).bind(sessionId, userId, now, expiresAt).run();
 
-  return json({ ok: true, email }, 200, {
-    "Set-Cookie": makeSessionCookie(sessionId)
-  });
-}
+  return json(
+  { ok: true, email },
+  200,
+  { "Set-Cookie": makeSessionCookie(sessionId) },
+  request
+);
 
 // LOGIN
 if (url.pathname === "/api/login" && request.method === "POST") {
@@ -1097,10 +1116,12 @@ if (url.pathname === "/api/login" && request.method === "POST") {
     "INSERT INTO sessions (id, user_id, created_at, expires_at) VALUES (?, ?, ?, ?)"
   ).bind(sessionId, user.id, now, expiresAt).run();
 
-  return json({ ok: true, email: user.email }, 200, {
-    "Set-Cookie": makeSessionCookie(sessionId)
-  });
-}
+  return json(
+  { ok: true, email: user.email },
+  200,
+  { "Set-Cookie": makeSessionCookie(sessionId) },
+  request
+);
 
 // CHECK USER
 if (url.pathname === "/api/me" && request.method === "GET") {
@@ -1293,7 +1314,7 @@ if (url.pathname === "/api/logout" && request.method === "POST") {
         return educationOptions();
       }
 
-      if (request.method === "OPTIONS") return options();
+      if (request.method === "OPTIONS") return options(request);
 
       if (url.pathname === "/api/education-portal-chat" && request.method === "POST") {
         return handleEducationPortalChat(request, env);
