@@ -1123,6 +1123,7 @@ if (url.pathname === "/api/login" && request.method === "POST") {
   { "Set-Cookie": makeSessionCookie(sessionId) },
   request
 );
+}
 
 // CHECK USER
 if (url.pathname === "/api/me" && request.method === "GET") {
