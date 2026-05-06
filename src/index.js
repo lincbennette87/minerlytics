@@ -72,26 +72,43 @@ function getCorsHeaders(request) {
 }
 
 function json(data, status = 200, extraHeaders = {}, request) {
+  const corsHeaders = request && request.headers
+    ? getCorsHeaders(request)
+    : {
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET,POST,OPTIONS",
+        "access-control-allow-headers": "content-type",
+        "access-control-allow-credentials": "true"
+      };
+
   return new Response(JSON.stringify(data), {
     status,
     headers: {
       "content-type": "application/json",
-      ...getCorsHeaders(request),
+      ...corsHeaders,
       ...extraHeaders
     }
   });
 }
 
 function text(data, status = 200, request) {
+  const corsHeaders = request && request.headers
+    ? getCorsHeaders(request)
+    : {
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET,POST,OPTIONS",
+        "access-control-allow-headers": "content-type",
+        "access-control-allow-credentials": "true"
+      };
+
   return new Response(data, {
     status,
     headers: {
       "content-type": "text/plain; charset=utf-8",
-      ...getCorsHeaders(request)
+      ...corsHeaders
     },
   });
 }
-
 function options(request) {
   return new Response(null, {
     status: 204,
