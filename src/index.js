@@ -1091,6 +1091,7 @@ if (url.pathname === "/api/signup" && request.method === "POST") {
   { "Set-Cookie": makeSessionCookie(sessionId) },
   request
 );
+}
 
 // LOGIN
 if (url.pathname === "/api/login" && request.method === "POST") {
@@ -1811,11 +1812,17 @@ VALUES (?, ?, ?, ?)`
         });
       }
 
-      return new Response("Not found", { status: 404, headers: CORS });
+      return new Response("Not found", {
+  status: 404,
+  headers: getCorsHeaders(request)
+});
     } catch (err) {
       return new Response(
         "Worker error:\n" + (err && (err.stack || err.message)) + "\n" + String(err),
-        { status: 500, headers: { "content-type": "text/plain; charset=utf-8", ...CORS } }
+        { status: 500, headers: {
+  "content-type": "text/plain; charset=utf-8",
+  ...getCorsHeaders(request)
+} }
       );
     }
   },
