@@ -22,7 +22,7 @@ function getCookie(request, name) {
 }
 
 function makeSessionCookie(sessionId) {
-  return `minerlytics_session=${sessionId}; Path=/; Secure; SameSite=Lax; HttpOnly; Max-Age=${60 * 60 * 24 * 30}`;
+  return `minerlytics_session=${sessionId}; Path=/; Secure; SameSite=None; HttpOnly; Max-Age=${60 * 60 * 24 * 30}`;
 }
 
 
@@ -1464,7 +1464,7 @@ if (url.pathname === "/api/logout" && request.method === "POST") {
   }
 
   return json({ ok: true }, 200, {
-    "Set-Cookie": "minerlytics_session=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0"
+    "Set-Cookie": "minerlytics_session=; Path=/; HttpOnly; Secure; SameSite=None; Max-Age=0"
   });
 }
 

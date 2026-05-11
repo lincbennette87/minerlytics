@@ -58,6 +58,8 @@
   </main>
 
   <script>
+    const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+
     async function signup() {
       const msg = document.getElementById("msg");
       const btn = document.getElementById("signupBtn");
@@ -74,7 +76,7 @@
       btn.disabled = true;
 
       try {
-        const res = await fetch("/api/signup", {
+        const res = await fetch(API_BASE + "/api/signup", {
           method: "POST",
           headers: { "content-type": "application/json" },
           body: JSON.stringify({ email, password }),
