@@ -1468,6 +1468,57 @@ if (url.pathname === "/api/logout" && request.method === "POST") {
   });
 }
 
+if (url.pathname === "/api/contact" && request.method === "POST") {
+  const body = await request.json().catch(() => ({}));
+  const name = String(body.name || "").trim();
+  const email = String(body.email || "").trim();
+  const subject = String(body.subject || "").trim();
+  const message = String(body.message || "").trim();
+
+  if (!name || !email || !subject || !message) {
+    return json({ ok: false, error: "Name, email, subject, and message are required." }, 400, {}, request);
+  }
+
+  const emailLooksValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  if (!emailLooksValid) {
+    return json({ ok: false, error: "Please enter a valid email address." }, 400, {}, request);
+  }
+
+  const submission = {
+    name,
+    email,
+    subject,
+    message,
+    submitted_at: new Date().toISOString(),
+  };
+
+  if (env.CONTACT_WEBHOOK_URL) {
+    try {
+      await fetch(env.CONTACT_WEBHOOK_URL, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify(submission),
+      });
+    } catch (err) {
+      return json(
+        { ok: false, error: "Feedback could not be delivered right now.", detail: String(err) },
+        502,
+        {},
+        request
+      );
+    }
+  } else {
+    console.log("Contact form submission", JSON.stringify(submission));
+  }
+
+  return json(
+    { ok: true, message: "Thank you. Your feedback has been received." },
+    200,
+    {},
+    request
+  );
+}
+
       if (request.method === "OPTIONS" && url.pathname === "/api/education-portal-chat") {
         return educationOptions();
       }

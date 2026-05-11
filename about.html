@@ -224,6 +224,88 @@
       color: rgba(234,240,255,.78);
     }
 
+    .contactGrid{
+      display:grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap:16px;
+      margin-top:12px;
+    }
+
+    .contactForm{
+      display:grid;
+      gap:12px;
+    }
+
+    .field{
+      display:grid;
+      gap:6px;
+    }
+
+    .field label{
+      font-size:12px;
+      font-weight:700;
+      letter-spacing:.03em;
+      color: rgba(234,240,255,.72);
+      text-transform: uppercase;
+    }
+
+    .field input,
+    .field textarea{
+      width:100%;
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:14px;
+      background: rgba(255,255,255,.05);
+      color:#eaf0ff;
+      padding:14px;
+      outline:none;
+      font: inherit;
+    }
+
+    .field textarea{
+      min-height:160px;
+      resize:vertical;
+    }
+
+    .field input:focus,
+    .field textarea:focus{
+      border-color: rgba(124,92,255,.55);
+      box-shadow: 0 0 0 3px rgba(124,92,255,.14);
+    }
+
+    .btnPrimary{
+      border:0;
+      border-radius:999px;
+      padding:13px 18px;
+      font-weight:800;
+      color:#07102a;
+      background: linear-gradient(135deg, var(--accent2), #8ff3e1);
+      cursor:pointer;
+      transition: transform .18s ease, box-shadow .18s ease;
+      box-shadow: 0 14px 34px rgba(57,230,200,.18);
+    }
+
+    .btnPrimary:hover{
+      transform: translateY(-1px);
+    }
+
+    .formNote{
+      margin-top:8px;
+      min-height:20px;
+      font-size:13px;
+      color:#9ff4d7;
+    }
+
+    .welcomeBox{
+      display:grid;
+      gap:12px;
+    }
+
+    .anchorLink{
+      color: #8ff3e1;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
     strong{ color:#fff; }
 
     p{
@@ -252,6 +334,10 @@
       .col-span-8,
       .col-span-4{
         grid-column: span 12;
+      }
+
+      .contactGrid{
+        grid-template-columns: 1fr;
       }
 
       .pageWrap{
@@ -354,7 +440,133 @@
       </div>
     </section>
 
+    <section class="shell" id="contact-us" aria-label="Contact Minerlytics">
+      <div class="sectionTitleRow">
+        <span class="sectionTitle">Contact Us</span>
+      </div>
+
+      <div class="card">
+        <div class="contactGrid">
+          <div class="welcomeBox">
+            <div class="infoBox">
+              <div style="font-weight:800; font-size:12px; letter-spacing:.02em;">Welcome Message</div>
+              <p style="margin-top:10px;"><strong>Subject:</strong> Welcome to Minerlytics AI!</p>
+              <p>
+                Welcome and thank you for subscribing! We're excited to have you join the MinerlyticsAI community.
+              </p>
+              <p>
+                We are committed to providing retail investors with an accessible, research-grade AI platform that empowers deep, data-driven
+                analysis of miners and commodities so they can make informed investment decisions with confidence.
+              </p>
+              <p>
+                We enable retail investors of mining and precious-metals who want faster signal discovery and cleaner decision support.
+                We bring together market data, thematic watchlists, and structured workflows so you can track what’s moving miners
+                without juggling ten different tabs.
+              </p>
+              <p style="margin-bottom:0;">
+                Please use the web form on this <a class="anchorLink" href="./about.html#contact-us">About page</a> to provide feedback.
+              </p>
+            </div>
+
+            <div class="infoBox">
+              <div style="font-weight:800; font-size:12px; letter-spacing:.02em;">Why reach out</div>
+              <ul style="margin:8px 0 0; padding-left:18px;">
+                <li>Share product feedback and research workflow ideas.</li>
+                <li>Report bugs or confusing AI answers.</li>
+                <li>Request mining datasets, screens, or watchlist features.</li>
+              </ul>
+            </div>
+          </div>
+
+          <form class="contactForm infoBox" id="contactForm">
+            <div style="font-weight:800; font-size:12px; letter-spacing:.02em;">Feedback Form</div>
+
+            <div class="field">
+              <label for="contactName">Name</label>
+              <input id="contactName" name="name" type="text" placeholder="Your name" required />
+            </div>
+
+            <div class="field">
+              <label for="contactEmail">Email</label>
+              <input id="contactEmail" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+
+            <div class="field">
+              <label for="contactSubject">Subject</label>
+              <input id="contactSubject" name="subject" type="text" value="Welcome to Minerlytics AI!" required />
+            </div>
+
+            <div class="field">
+              <label for="contactMessage">Message</label>
+              <textarea id="contactMessage" name="message" required>Welcome and thank you for subscribing! We're excited to have you join the MinerlyticsAI community.
+
+We are committed to providing retail investors with an accessible, research-grade AI platform that empowers deep, data-driven analysis of miners and commodities so they can make informed investment decisions with confidence. We enable retail investors of mining and precious-metals who want faster signal discovery and cleaner decision support. We bring together market data, thematic watchlists, and structured workflows so you can track what’s moving miners without juggling ten different tabs.
+
+Please use this form to provide feedback.</textarea>
+            </div>
+
+            <button class="btnPrimary" id="contactSubmitBtn" type="submit">Send Feedback</button>
+            <div class="formNote" id="contactFormNote"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
   </main>
+
+  <script>
+    (function () {
+      const form = document.getElementById("contactForm");
+      const note = document.getElementById("contactFormNote");
+      const submitBtn = document.getElementById("contactSubmitBtn");
+      const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+
+      if (!form || !note || !submitBtn) return;
+
+      form.addEventListener("submit", async function (event) {
+        event.preventDefault();
+
+        const payload = {
+          name: document.getElementById("contactName").value.trim(),
+          email: document.getElementById("contactEmail").value.trim(),
+          subject: document.getElementById("contactSubject").value.trim(),
+          message: document.getElementById("contactMessage").value.trim(),
+        };
+
+        note.textContent = "Sending feedback...";
+        submitBtn.disabled = true;
+
+        try {
+          const res = await fetch(API_BASE + "/api/contact", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify(payload),
+          });
+
+          const data = await res.json().catch(() => null);
+
+          if (!res.ok || !data?.ok) {
+            note.textContent = data?.error || "Feedback could not be sent right now.";
+            submitBtn.disabled = false;
+            return;
+          }
+
+          note.textContent = data.message || "Thank you. Your feedback has been received.";
+          form.reset();
+          document.getElementById("contactSubject").value = "Welcome to Minerlytics AI!";
+          document.getElementById("contactMessage").value =
+            "Welcome and thank you for subscribing! We're excited to have you join the MinerlyticsAI community.\n\n" +
+            "We are committed to providing retail investors with an accessible, research-grade AI platform that empowers deep, data-driven analysis of miners and commodities so they can make informed investment decisions with confidence. We enable retail investors of mining and precious-metals who want faster signal discovery and cleaner decision support. We bring together market data, thematic watchlists, and structured workflows so you can track what’s moving miners without juggling ten different tabs.\n\n" +
+            "Please use this form to provide feedback.";
+          submitBtn.disabled = false;
+        } catch (err) {
+          console.error("CONTACT FORM ERROR:", err);
+          note.textContent = "Network/API error. Please try again.";
+          submitBtn.disabled = false;
+        }
+      });
+    })();
+  </script>
 
 </body>
 </html>   
