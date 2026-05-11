@@ -192,12 +192,13 @@
   <div class="trendChartHead">
     <div class="trendChartTitle">Top 5 Tickers — 6M Trend</div>
     <div class="trendChartMeta">
-      Window: <span id="trendWindowLabel">30D</span>
+      Window: <span id="trendWindowLabel">30D</span> • <span id="trendChartStatus">Loading latest market data…</span>
     </div>
   </div>
 
-  <div class="trendChartCanvasWrap">
+  <div class="trendChartCanvasWrap" id="trendChartWrap">
     <canvas id="top5LineChart" class="trendChartCanvas"></canvas>
+    <div id="trendTooltip" style="display:none;position:absolute;pointer-events:none;z-index:3;background:rgba(7,10,18,.96);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:10px 12px;box-shadow:0 18px 40px rgba(0,0,0,.35);min-width:180px;"></div>
   </div>
 
   <div class="trendChartControls">
@@ -246,6 +247,7 @@
       white-space: nowrap;
     }
     .trendChartCanvasWrap{
+      position: relative;
       border: 1px solid rgba(255,255,255,.08);
       background: rgba(0,0,0,.10);
       border-radius: 14px;
@@ -278,7 +280,8 @@
       gap: 8px;
     }
     .trendLegendItem{
-      display:flex;
+      display:grid;
+      grid-template-columns: auto 1fr auto;
       align-items:center;
       gap: 8px;
       padding: 6px 10px;
@@ -294,6 +297,15 @@
       border-radius: 4px;
       background: var(--accent2);
       box-shadow: 0 0 14px rgba(57,230,200,.25);
+    }
+    .trendLegendMeta{
+      font-size: 11px;
+      color: rgba(234,240,255,.60);
+    }
+    .trendLegendPrice{
+      font-variant-numeric: tabular-nums;
+      font-weight: 700;
+      color: #fff;
     }
   </style>
 </section>
@@ -648,37 +660,77 @@ function clearChat(){
   </script>
 
   <script src="./app.js"></script>
-  <script>
+<script>
 (function(){
   const canvas = document.getElementById("top5LineChart");
   const slider = document.getElementById("trendWindow");
   const label  = document.getElementById("trendWindowLabel");
   const legend = document.getElementById("trendLegend");
-  if(!canvas || !slider || !label || !legend) return;
+  const tooltip = document.getElementById("trendTooltip");
+  const chartWrap = document.getElementById("trendChartWrap");
+  const statusEl = document.getElementById("trendChartStatus");
+  if(!canvas || !slider || !label || !legend || !tooltip || !chartWrap || !statusEl) return;
 
-  // Sample “Top 5” tickers (swap later with your computed momentum list)
-  const tickers = ["AEM","WPM","NEM","CDE","HYMC"];
+  const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+  const colors = [
+    "rgba(57,230,200,0.95)",
+    "rgba(124,92,255,0.95)",
+    "rgba(255,204,102,0.95)",
+    "rgba(234,240,255,0.88)",
+    "rgba(255,107,139,0.88)"
+  ];
 
-  // Create 180 days of random-walk close prices per ticker
-  const DAYS = 180;
-  const series = tickers.map((t, idx) => {
-    const base = 10 + idx * 8 + Math.random() * 8;
-    const arr = [];
-    let v = base;
-    for(let i=0;i<DAYS;i++){
-      // random walk with slight drift
-      const drift = (Math.random() - 0.48) * 0.6;
-      v = Math.max(0.5, v + drift);
-      arr.push(v);
-    }
-    return { t, closes: arr };
-  });
+  let series = [];
+  let currentDays = Number(slider.value || 30);
+  let hoverPoints = [];
 
   function resizeCanvas(){
     const dpr = window.devicePixelRatio || 1;
     const rect = canvas.getBoundingClientRect();
     canvas.width  = Math.max(1, Math.floor(rect.width * dpr));
     canvas.height = Math.max(1, Math.floor(rect.height * dpr));
+  }
+
+  function formatPrice(value){
+    return Number.isFinite(value) ? `$${value.toFixed(2)}` : "N/A";
+  }
+
+  function formatPct(value){
+    if(!Number.isFinite(value)) return "N/A";
+    const sign = value > 0 ? "+" : "";
+    return `${sign}${value.toFixed(2)}%`;
+  }
+
+  function renderLegend(items){
+    legend.innerHTML = "";
+    items.forEach((item, i) => {
+      const card = document.createElement("div");
+      card.className = "trendLegendItem";
+
+      const sw = document.createElement("span");
+      sw.className = "trendLegendSwatch";
+      sw.style.background = colors[i % colors.length];
+      sw.style.boxShadow = `0 0 14px ${colors[i % colors.length].replace("0.95","0.20").replace("0.88","0.20")}`;
+
+      const textWrap = document.createElement("div");
+      const ticker = document.createElement("div");
+      ticker.textContent = item.ticker;
+      const meta = document.createElement("div");
+      meta.className = "trendLegendMeta";
+      meta.textContent = formatPct(item.day_change_pct);
+      meta.style.color = Number(item.day_change_pct) >= 0 ? "#7ef0a8" : "#ff8ea8";
+      textWrap.appendChild(ticker);
+      textWrap.appendChild(meta);
+
+      const price = document.createElement("div");
+      price.className = "trendLegendPrice";
+      price.textContent = formatPrice(item.latest_close);
+
+      card.appendChild(sw);
+      card.appendChild(textWrap);
+      card.appendChild(price);
+      legend.appendChild(card);
+    });
   }
 
   function draw(windowDays){
@@ -695,14 +747,26 @@ function clearChat(){
     const pw = w - padL - padR;
     const ph = h - padT - padB;
 
-    // Slice last N days
-    const start = Math.max(0, DAYS - windowDays);
-    const sliced = series.map(s => ({ t:s.t, closes: s.closes.slice(start) }));
+    const sliced = series.map(item => {
+      const points = item.points.slice(-windowDays);
+      return {
+        ...item,
+        points
+      };
+    }).filter(item => item.points.length > 1);
 
-    // global min/max for scaling
+    if(!sliced.length){
+      ctx.fillStyle = "rgba(234,240,255,.7)";
+      ctx.font = `${12 * dpr}px sans-serif`;
+      ctx.fillText("No market data available yet.", padL, padT + 20 * dpr);
+      hoverPoints = [];
+      return;
+    }
+
     let mn = Infinity, mx = -Infinity;
     for(const s of sliced){
-      for(const v of s.closes){
+      for(const point of s.points){
+        const v = Number(point.close);
         if(v < mn) mn = v;
         if(v > mx) mx = v;
       }
@@ -725,25 +789,26 @@ function clearChat(){
     }
     ctx.restore();
 
-    // Color palette derived from your theme but distinct
-    const colors = [
-      "rgba(57,230,200,0.95)",     // accent2
-      "rgba(124,92,255,0.95)",     // accent
-      "rgba(255,204,102,0.95)",    // warn
-      "rgba(234,240,255,0.80)",    // text-ish
-      "rgba(255,107,139,0.85)"     // pink-ish
-    ];
+    hoverPoints = [];
 
-    // Draw lines
     sliced.forEach((s, i) => {
-      const arr = s.closes;
+      const arr = s.points;
       ctx.save();
       ctx.strokeStyle = colors[i % colors.length];
       ctx.lineWidth = 2*dpr;
       ctx.beginPath();
-      arr.forEach((v, idx) => {
+      arr.forEach((point, idx) => {
+        const v = Number(point.close);
         const x = padL + (idx * pw) / (arr.length - 1 || 1);
         const y = padT + (1 - (v - mn) / span) * ph;
+        hoverPoints.push({
+          ticker: s.ticker,
+          color: colors[i % colors.length],
+          x,
+          y,
+          date: point.date,
+          close: v
+        });
         if(idx === 0) ctx.moveTo(x,y);
         else ctx.lineTo(x,y);
       });
@@ -756,33 +821,83 @@ function clearChat(){
       ctx.restore();
     });
 
-    // Legend
-    legend.innerHTML = "";
-    tickers.forEach((t, i) => {
-      const item = document.createElement("div");
-      item.className = "trendLegendItem";
-      const sw = document.createElement("span");
-      sw.className = "trendLegendSwatch";
-      sw.style.background = colors[i % colors.length];
-      sw.style.boxShadow = `0 0 14px ${colors[i % colors.length].replace("0.95","0.20")}`;
-      const txt = document.createElement("span");
-      txt.textContent = t;
-      item.appendChild(sw);
-      item.appendChild(txt);
-      legend.appendChild(item);
-    });
+    renderLegend(series);
+  }
+
+  function handleMove(event){
+    if(!hoverPoints.length) return;
+    const rect = canvas.getBoundingClientRect();
+    const dpr = window.devicePixelRatio || 1;
+    const mx = (event.clientX - rect.left) * dpr;
+
+    let nearest = null;
+    for(const point of hoverPoints){
+      const dx = Math.abs(point.x - mx);
+      if(!nearest || dx < nearest.dx){
+        nearest = { ...point, dx };
+      }
+    }
+
+    if(!nearest) return;
+
+    const aligned = hoverPoints
+      .filter((point) => point.date === nearest.date)
+      .sort((a, b) => a.ticker.localeCompare(b.ticker));
+
+    tooltip.innerHTML = `
+      <div style="font-size:11px;color:rgba(234,240,255,.62);margin-bottom:6px;">${nearest.date}</div>
+      ${aligned.map((point) => `
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:14px;font-size:12px;margin:4px 0;">
+          <div style="display:flex;align-items:center;gap:8px;">
+            <span style="width:8px;height:8px;border-radius:50%;background:${point.color};display:inline-block;"></span>
+            <span>${point.ticker}</span>
+          </div>
+          <strong style="font-variant-numeric:tabular-nums;">${formatPrice(point.close)}</strong>
+        </div>
+      `).join("")}
+    `;
+
+    tooltip.style.display = "block";
+    tooltip.style.left = `${Math.min(rect.width - 190, Math.max(8, event.clientX - rect.left + 12))}px`;
+    tooltip.style.top = `${Math.max(8, event.clientY - rect.top - 12)}px`;
+  }
+
+  function hideTooltip(){
+    tooltip.style.display = "none";
+  }
+
+  async function loadTrendData(){
+    statusEl.textContent = "Loading latest market data…";
+    try{
+      const res = await fetch(API_BASE + "/api/market/top-trends?days=180", {
+        headers: { accept: "application/json" },
+        cache: "no-store"
+      });
+      const data = await res.json();
+      const items = Array.isArray(data.tickers) ? data.tickers : [];
+      series = items;
+      statusEl.textContent = items.length ? "Latest available closes" : "No market data found";
+      draw(currentDays);
+    } catch (err){
+      console.error("TREND CHART ERROR:", err);
+      statusEl.textContent = "Could not load market data";
+      series = [];
+      draw(currentDays);
+    }
   }
 
   function onSlider(){
-    const days = Number(slider.value || 30);
-    label.textContent = days + "D";
-    draw(days);
+    currentDays = Number(slider.value || 30);
+    label.textContent = currentDays + "D";
+    draw(currentDays);
   }
 
   slider.addEventListener("input", onSlider);
-  window.addEventListener("resize", () => draw(Number(slider.value || 30)));
+  canvas.addEventListener("mousemove", handleMove);
+  canvas.addEventListener("mouseleave", hideTooltip);
+  window.addEventListener("resize", () => draw(currentDays));
 
-  onSlider();
+  loadTrendData();
 })();
 </script>
 

@@ -790,6 +790,58 @@ async function getStooqSeriesForTicker(env, ticker, limit = 60) {
   return (rows && rows.results) || [];
 }
 
+async function getTrendSeriesForTickers(env, tickers, limit = 180) {
+  const safeLimit = Math.min(Math.max(Number(limit || 180), 30), 365);
+  const out = [];
+
+  for (const ticker of tickers) {
+    const symbol = normalizeSymbolToStooqUS(ticker);
+    const rows = await env.DB.prepare(
+      `
+      SELECT symbol, date, open, high, low, close, volume
+      FROM daily_ohlcv
+      WHERE symbol = ?
+      ORDER BY date DESC
+      LIMIT ?
+      `
+    ).bind(symbol, safeLimit).all();
+
+    const results = ((rows && rows.results) || []).slice().reverse();
+    if (!results.length) continue;
+
+    const latest = results[results.length - 1] || null;
+    const previous = results.length > 1 ? results[results.length - 2] : null;
+    const latestClose = Number(latest?.close);
+    const previousClose = Number(previous?.close);
+    const change = Number.isFinite(latestClose) && Number.isFinite(previousClose)
+      ? latestClose - previousClose
+      : null;
+    const changePct = change !== null && previousClose
+      ? (change / previousClose) * 100
+      : null;
+
+    out.push({
+      ticker,
+      symbol,
+      name: TICKERS[ticker]?.name || ticker,
+      latest_close: Number.isFinite(latestClose) ? latestClose : null,
+      previous_close: Number.isFinite(previousClose) ? previousClose : null,
+      day_change: change !== null ? Number(change.toFixed(4)) : null,
+      day_change_pct: changePct !== null ? Number(changePct.toFixed(2)) : null,
+      points: results.map((row) => ({
+        date: row.date,
+        close: Number(row.close),
+        open: Number(row.open),
+        high: Number(row.high),
+        low: Number(row.low),
+        volume: Number(row.volume),
+      })).filter((row) => Number.isFinite(row.close)),
+    });
+  }
+
+  return out;
+}
+
 function pickTopItems(arr, max = 8) {
   return Array.isArray(arr) ? arr.slice(0, max) : [];
 }
@@ -1611,6 +1663,25 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
         }
 
         return json({ cards }, 200);
+      }
+
+      if (url.pathname === "/api/market/top-trends" && request.method === "GET") {
+        const requested = parseSymbolsParam(url.searchParams.get("symbols") || "");
+        const defaultTickers = ["AEM", "WPM", "CDE", "HYMC", "GFI"];
+        const limitDays = clamp(parseInt(url.searchParams.get("days") || "180", 10), 30, 365);
+
+        const tickers = (requested.length ? requested : defaultTickers)
+          .map((t) => String(t || "").toUpperCase().trim())
+          .filter(Boolean)
+          .slice(0, 5);
+
+        const series = await getTrendSeriesForTickers(env, tickers, limitDays);
+
+        return json({
+          ok: true,
+          window_days: limitDays,
+          tickers: series
+        }, 200);
       }
 
       if (url.pathname === "/api/youtube/seen" && request.method === "GET") {
