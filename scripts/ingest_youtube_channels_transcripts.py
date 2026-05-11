@@ -19,7 +19,6 @@ CHANNELS = [
     {
         "name": "Kitco News",
         "handle_url": "https://www.youtube.com/@kitco",
-        "channel_id": "UCzH5n3I2P5J8R9H0pE0hL5A",
     },
     {"name": "Kitco Mining", "query": "Kitco Mining"},
     {"name": "Metals Investor Forum", "query": "Metals Investor Forum"},
@@ -238,8 +237,13 @@ def ingest_one(channel_id: str, channel_title: str, video: dict):
 
 
 def resolve_channel(channel: dict):
-    if channel.get("channel_id"):
-        return channel["channel_id"]
+    channel_id = channel.get("channel_id")
+    if channel_id:
+        try:
+            get_channel_meta(channel_id)
+            return channel_id
+        except Exception:
+            pass
     if channel.get("handle_url"):
         return resolve_channel_id_from_handle(channel["handle_url"])
     if channel.get("query"):
