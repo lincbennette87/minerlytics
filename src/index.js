@@ -276,6 +276,32 @@ function resolveTicker({ explicitSymbol, explicitTicker, question }) {
   return resolveTickerFromQuestion(question);
 }
 
+function resolveTickerFromMessages(messages = []) {
+  const items = Array.isArray(messages) ? messages.slice().reverse() : [];
+  for (const item of items) {
+    const content = String(item?.content || "").trim();
+    if (!content) continue;
+    const resolved = resolveTickerFromQuestion(content);
+    if (resolved) return resolved;
+  }
+  return null;
+}
+
+function resolveAssistantTicker({ explicitSymbol, explicitTicker, question, messages, favoriteTickers }) {
+  const direct = resolveTicker({ explicitSymbol, explicitTicker, question });
+  if (direct) return direct;
+
+  const fromMessages = resolveTickerFromMessages(messages);
+  if (fromMessages) return fromMessages;
+
+  const favorites = Array.isArray(favoriteTickers)
+    ? favoriteTickers.map((item) => String(item || "").toUpperCase().trim()).filter(Boolean)
+    : [];
+
+  if (favorites.length === 1) return favorites[0];
+  return null;
+}
+
 function requireApiKey(request, env) {
   const key = request.headers.get("x-api-key") || "";
   if (!env.WORKER_API_KEY) {
@@ -2418,18 +2444,25 @@ VALUES (?, ?, ?, ?)`
 
         const question = String(body.question || "").trim();
         const providedSymbol = String(body.symbol || "").trim().toUpperCase();
+        const messages = Array.isArray(body.messages) ? body.messages : [];
+        const favoriteTickers = Array.isArray(body.favoriteTickers) ? body.favoriteTickers : [];
 
-        const resolvedTicker = resolveTicker({
+        const resolvedTicker = resolveAssistantTicker({
           explicitTicker: providedSymbol,
           explicitSymbol: providedSymbol,
           question,
+          messages,
+          favoriteTickers,
         });
         const filingQuestion = isFilingQuestion(question);
 
         if (!resolvedTicker) {
+          const favoriteHint = favoriteTickers.length
+            ? ` Your saved tickers are: ${favoriteTickers.join(", ")}.`
+            : "";
           return json({
             error:
-              "I could not identify the company or ticker from your question. Please mention either a ticker or company name, for example: AEM, Agnico Eagle, HYMC, or Coeur Mining.",
+              "I could not identify the company or ticker from your question. Please mention either a ticker or company name, for example: AEM, Agnico Eagle, HYMC, or Coeur Mining." + favoriteHint,
           }, 400);
         }
 

@@ -429,9 +429,14 @@
     <div class="aiMessages" id="aiMessages"></div>
   </div>
 
-       <div class="aiComposer">
+  <div class="aiComposer">
     <textarea id="aiQuestion" rows="2" placeholder="Ask a question… (Enter to send, Shift+Enter for new line)"></textarea>
     <button id="aiRun" class="btn btnPrimary btnTight" type="button">Send</button>
+  </div>
+  <div id="aiQuickPrompts" style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;">
+    <button class="btn btnGhost btnTight" type="button" data-prompt="Summarize the latest outlook for AEM.">AEM outlook</button>
+    <button class="btn btnGhost btnTight" type="button" data-prompt="What technical reports are associated with AEM?">AEM technical reports</button>
+    <button class="btn btnGhost btnTight" type="button" data-prompt="Compare WPM and CDE on momentum and sentiment.">Compare WPM vs CDE</button>
   </div>
 </div>
         </div>
@@ -475,6 +480,7 @@
     const qEl      = document.getElementById("aiQuestion");
     const sendBtn  = document.getElementById("aiRun");
     const clearBtn = document.getElementById("aiClear");
+    const quickPrompts = document.getElementById("aiQuickPrompts");
 
     // Disclaimer elements
     const overlay  = document.getElementById("aiDisclaimerOverlay");
@@ -484,6 +490,7 @@
     const KEY = "minerlytics_ai_disclaimer_accepted";
 
     let messages = [];
+    let lastResolvedTicker = null;
 
     function esc(s){
       return String(s ?? "")
@@ -568,7 +575,7 @@ function render(){
     node.className = `aiMsg ${who}`;
     node.innerHTML = `
       <div>
-        <div class="aiBubble">${esc(m.content)}</div>
+        <div class="aiBubble">${esc(m.content).replace(/\n/g, "<br>")}</div>
         <div class="aiMeta">${esc(label)}</div>
       </div>
     `;
@@ -578,14 +585,24 @@ function render(){
   scrollToBottom();
 }
 
+function getFavoriteTickers(){
+  return Array.from(document.querySelectorAll("#watchlistBox strong"))
+    .map((node) => String(node.textContent || "").trim().toUpperCase())
+    .filter(Boolean)
+    .slice(0, 5);
+}
+
 function pushSystemPrimer(){
+  const favorites = getFavoriteTickers();
   messages = messages.filter(m => m.role !== "system");
   messages.unshift({
     role: "system",
     content:
-      `You are Minerlytics AI Assistant. The user may mention one or more stock tickers directly in their question. ` +
-      `Infer the ticker from the user's message context. Answer using the Minerlytics D1 data available to you. ` +
-      `If no ticker is mentioned and the request truly needs one, ask a short follow-up question asking which ticker they mean.`
+      `You are Minerlytics AI Assistant. Infer the relevant ticker from the user's question, recent chat context, and saved favorites when possible. ` +
+      `Saved favorites: ${favorites.join(", ") || "none"}. ` +
+      `If the user asks a follow-up question like "what about reserves" or "and filings", carry forward the last relevant ticker when it is clear. ` +
+      `Answer using Minerlytics market, news, filing, and transcript data. Keep answers concise, specific, and decision-useful. ` +
+      `When the request is ambiguous, ask one short follow-up question.`
   });
 }
 
@@ -633,18 +650,8 @@ async function send(){
     return;
   }
 
-  const symbol = extractTicker(question);
-
-  if(!symbol){
-    messages.push({
-      role:"assistant",
-      content:"Please mention a ticker symbol (e.g., AEM, HYMC, CDE)."
-    });
-    render();
-    return;
-  }
-
-  pushSystemPrimer(symbol);
+  const symbol = extractTicker(question) || lastResolvedTicker || null;
+  pushSystemPrimer();
   messages.push({ role:"user", content: question });
 
   qEl.value = "";
@@ -660,9 +667,10 @@ async function send(){
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({
-        symbol,          // ✅ backend still gets symbol
+        symbol,
         question,
-        messages: context
+        messages: context,
+        favoriteTickers: getFavoriteTickers()
       })
     });
   } catch (e){
@@ -681,14 +689,21 @@ async function send(){
   }
 
   const data = await res.json().catch(()=> null);
+  if(data?.ticker) {
+    lastResolvedTicker = String(data.ticker || "").toUpperCase();
+  }
   const answer = data?.answer ? String(data.answer) : "No answer returned.";
   typingOff();
+  if(centerStatus && data?.ticker) {
+    centerStatus.textContent = `Answering with ${data.ticker} context`;
+  }
   messages.push({ role:"assistant", content: answer });
   render();
 }
 
 function clearChat(){
   messages = [];
+  lastResolvedTicker = null;
   chatEl.classList.remove("has-messages", "is-thinking");
   if(centerStatus) centerStatus.textContent = "Ready for your next mining question";
   render();
@@ -702,6 +717,15 @@ function clearChat(){
         send();
       }
     });
+
+    if(quickPrompts){
+      quickPrompts.querySelectorAll("[data-prompt]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          qEl.value = btn.getAttribute("data-prompt") || "";
+          send();
+        });
+      });
+    }
 
     render();
   })();
