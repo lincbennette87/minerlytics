@@ -1778,6 +1778,19 @@ if (url.pathname === "/api/watchlist/add" && request.method === "POST") {
     return json({ ok: false, error: "Symbol required" }, 400);
   }
 
+  const existingRows = await env.DB.prepare(`
+    SELECT symbol
+    FROM user_watchlist
+    WHERE user_id = ?
+    ORDER BY created_at DESC
+  `).bind(user.id).all().catch(() => ({ results: [] }));
+
+  const existingItems = (existingRows && existingRows.results) || [];
+  const alreadySaved = existingItems.some((item) => item.symbol === symbol);
+  if (!alreadySaved && existingItems.length >= 5) {
+    return json({ ok: false, error: "You can save up to 5 favorite tickers." }, 400);
+  }
+
   await env.DB.prepare(`
     INSERT OR IGNORE INTO user_watchlist (id, user_id, symbol, created_at)
     VALUES (?, ?, ?, ?)
@@ -1838,6 +1851,19 @@ if (url.pathname === "/api/watchlist/add" && request.method === "POST") {
 
   if (!email || !symbol) {
     return json({ ok: false, error: "email and symbol required" }, 400);
+  }
+
+  const existingRows = await env.DB.prepare(`
+    SELECT symbol
+    FROM user_watchlist
+    WHERE email = ?
+    ORDER BY created_at DESC
+  `).bind(email).all().catch(() => ({ results: [] }));
+
+  const existingItems = (existingRows && existingRows.results) || [];
+  const alreadySaved = existingItems.some((item) => item.symbol === symbol);
+  if (!alreadySaved && existingItems.length >= 5) {
+    return json({ ok: false, error: "You can save up to 5 favorite tickers." }, 400);
   }
 
   await env.DB.prepare(`

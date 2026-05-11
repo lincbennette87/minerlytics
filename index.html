@@ -157,20 +157,7 @@
       style="flex:1;padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;" />
     <button class="btn btnPrimary btnTight" type="button" onclick="addWatchTicker()">Add</button>
   </div>
-
-  <div id="watchlistBox" style="display:flex;flex-wrap:wrap;gap:8px;"></div>
-</section>
-          <section id="personalDashboard" class="trendChart" style="display:none;margin-top:18px;">
-  <div class="trendChartHead">
-    <div class="trendChartTitle">Your Minerlytics Dashboard</div>
-    <div class="trendChartMeta" id="personalEmail"></div>
-  </div>
-
-  <div style="display:flex;gap:10px;margin-bottom:12px;">
-    <input id="watchSymbol" placeholder="Add ticker e.g. AEM"
-      style="flex:1;padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;" />
-    <button class="btn btnPrimary btnTight" type="button" onclick="addWatchTicker()">Add</button>
-  </div>
+  <div id="watchHelp" style="margin-bottom:12px;color:rgba(234,240,255,.62);font-size:12px;">Save up to 5 favorite tickers. Your chart updates from this list.</div>
 
   <div id="watchlistBox" style="display:flex;flex-wrap:wrap;gap:8px;"></div>
 </section>
@@ -748,6 +735,7 @@ function clearChat(){
   let sourceLabel = "";
   let focusTicker = null;
   const hiddenTickers = new Set();
+  let activeSymbols = ["AEM", "WPM", "CDE", "HYMC", "GFI"];
 
   function resizeCanvas(){
     const dpr = window.devicePixelRatio || 1;
@@ -1076,10 +1064,23 @@ function clearChat(){
     tooltip.style.display = "none";
   }
 
-  async function loadTrendData(){
+  function parseTickerInput(value){
+    return String(value || "")
+      .split(/[,\s]+/)
+      .map((item) => String(item || "").trim().toUpperCase())
+      .filter(Boolean)
+      .slice(0, 5);
+  }
+
+  async function loadTrendData(symbols = activeSymbols){
+    activeSymbols = Array.isArray(symbols) && symbols.length ? symbols : activeSymbols;
     statusEl.textContent = "Loading latest market data…";
     try{
-      const res = await fetch(API_BASE + "/api/market/top-trends?days=180", {
+      const query = new URLSearchParams({
+        days: "180",
+        symbols: activeSymbols.join(",")
+      });
+      const res = await fetch(API_BASE + "/api/market/top-trends?" + query.toString(), {
         headers: { accept: "application/json" },
         cache: "no-store"
       });
@@ -1120,33 +1121,73 @@ function clearChat(){
   window.addEventListener("resize", () => draw(currentDays));
 
   loadTrendData();
+  window.MinerlyticsHomeTrend = {
+    loadSymbols(symbols) {
+      const parsed = Array.isArray(symbols) ? symbols : parseTickerInput(symbols);
+      if (!parsed.length) return;
+      hiddenTickers.clear();
+      focusTicker = null;
+      loadTrendData(parsed);
+    },
+    getActiveSymbols() {
+      return activeSymbols.slice();
+    }
+  };
 })();
 </script>
 
 <script src="./js/auth-ui.js"></script>
 <script>
 const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+const MAX_FAVORITE_TICKERS = 5;
+
+function getCachedDisplayName() {
+  const displayName = localStorage.getItem("minerlytics_user_name") || "";
+  const firstName = localStorage.getItem("minerlytics_user_first_name") || "";
+  const lastName = localStorage.getItem("minerlytics_user_last_name") || "";
+  const fullName = [firstName, lastName].filter(Boolean).join(" ").trim();
+  const email = localStorage.getItem("minerlytics_user_email") || "";
+  return displayName || fullName || email || "Minerlytics User";
+}
+
+function parseTickerList(value) {
+  return String(value || "")
+    .split(/[,\s]+/)
+    .map((item) => String(item || "").trim().toUpperCase())
+    .filter(Boolean)
+    .slice(0, MAX_FAVORITE_TICKERS);
+}
 
 async function loadPersonalDashboard() {
   const email = localStorage.getItem("minerlytics_user_email");
   const box = document.getElementById("personalDashboard");
   const emailEl = document.getElementById("personalEmail");
   const watchlistBox = document.getElementById("watchlistBox");
+  const watchHelp = document.getElementById("watchHelp");
 
   if (!email || !box || !watchlistBox) return;
 
   box.style.display = "block";
-  emailEl.textContent = email;
+  emailEl.textContent = getCachedDisplayName();
 
-  const res = await fetch(API_BASE + "/api/watchlist?email=" + encodeURIComponent(email));
+  const res = await fetch(API_BASE + "/api/watchlist", {
+    credentials: "include"
+  });
   const data = await res.json();
 
   const items = data.watchlist || [];
+  if (watchHelp) {
+    watchHelp.textContent = `${items.length}/${MAX_FAVORITE_TICKERS} favorite tickers saved. Your chart updates from this list.`;
+  }
+
+  if (items.length) {
+    window.MinerlyticsHomeTrend?.loadSymbols(items.map((item) => item.symbol));
+  }
 
   if (!items.length) {
     watchlistBox.innerHTML = `
       <span style="color:rgba(234,240,255,.7);font-size:13px;">
-        No saved tickers yet. Add your first ticker.
+        No saved tickers yet. Add up to 5 favorites.
       </span>
     `;
     return;
@@ -1161,16 +1202,30 @@ async function loadPersonalDashboard() {
 }
 
 async function addWatchTicker() {
-  const email = localStorage.getItem("minerlytics_user_email");
   const input = document.getElementById("watchSymbol");
   const symbol = input.value.trim().toUpperCase();
+  const watchHelp = document.getElementById("watchHelp");
 
-  if (!email || !symbol) return;
+  if (!symbol) return;
+
+  const currentRes = await fetch(API_BASE + "/api/watchlist", {
+    credentials: "include"
+  });
+  const currentData = await currentRes.json().catch(() => ({ watchlist: [] }));
+  const currentItems = Array.isArray(currentData.watchlist) ? currentData.watchlist : [];
+
+  if (currentItems.length >= MAX_FAVORITE_TICKERS && !currentItems.some((item) => item.symbol === symbol)) {
+    if (watchHelp) {
+      watchHelp.textContent = `You can save up to ${MAX_FAVORITE_TICKERS} favorite tickers. Remove one to add another.`;
+    }
+    return;
+  }
 
   await fetch(API_BASE + "/api/watchlist/add", {
     method: "POST",
+    credentials: "include",
     headers: { "content-type": "application/json" },
-    body: JSON.stringify({ email, symbol })
+    body: JSON.stringify({ symbol })
   });
 
   input.value = "";
@@ -1178,19 +1233,44 @@ async function addWatchTicker() {
 }
 
 async function removeWatchTicker(symbol) {
-  const email = localStorage.getItem("minerlytics_user_email");
-  if (!email) return;
-
   await fetch(API_BASE + "/api/watchlist/remove", {
     method: "POST",
+    credentials: "include",
     headers: { "content-type": "application/json" },
-    body: JSON.stringify({ email, symbol })
+    body: JSON.stringify({ symbol })
   });
 
   loadPersonalDashboard();
 }
 
 loadPersonalDashboard();
+</script>
+<script>
+(function () {
+  const searchInput = document.getElementById("heroSearch");
+  const searchBtn = document.getElementById("searchBtn");
+  if (!searchInput || !searchBtn) return;
+
+  function runSearch() {
+    const tickers = parseTickerList(searchInput.value);
+    if (!tickers.length) {
+      const currentFavorites = window.MinerlyticsHomeTrend?.getActiveSymbols?.() || [];
+      if (currentFavorites.length) {
+        window.MinerlyticsHomeTrend?.loadSymbols(currentFavorites);
+      }
+      return;
+    }
+    window.MinerlyticsHomeTrend?.loadSymbols(tickers);
+  }
+
+  searchBtn.addEventListener("click", runSearch);
+  searchInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      runSearch();
+    }
+  });
+})();
 </script>
 <script>
 function applyMinerlyticsAiGate() {
