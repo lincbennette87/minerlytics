@@ -1484,35 +1484,43 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
     return json({ ok: false, error: "Please enter a valid email address." }, 400, {}, request);
   }
 
-  const submission = {
-    name,
-    email,
-    subject,
-    message,
-    submitted_at: new Date().toISOString(),
-  };
+  if (!env.DB) {
+    return json({ ok: false, error: "Missing D1 binding 'DB'." }, 500, {}, request);
+  }
 
-  if (env.CONTACT_WEBHOOK_URL) {
-    try {
-      await fetch(env.CONTACT_WEBHOOK_URL, {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify(submission),
-      });
-    } catch (err) {
-      return json(
-        { ok: false, error: "Feedback could not be delivered right now.", detail: String(err) },
-        502,
-        {},
-        request
-      );
-    }
-  } else {
-    console.log("Contact form submission", JSON.stringify(submission));
+  const feedbackId = crypto.randomUUID();
+  const submittedAt = new Date().toISOString();
+
+  try {
+    await env.DB.prepare(`
+      INSERT INTO contact_feedback (
+        id,
+        name,
+        email,
+        subject,
+        message,
+        submitted_at
+      )
+      VALUES (?, ?, ?, ?, ?, ?)
+    `).bind(
+      feedbackId,
+      name,
+      email.toLowerCase(),
+      subject,
+      message,
+      submittedAt
+    ).run();
+  } catch (err) {
+    return json(
+      { ok: false, error: "Feedback could not be saved right now.", detail: String(err) },
+      500,
+      {},
+      request
+    );
   }
 
   return json(
-    { ok: true, message: "Thank you. Your feedback has been received." },
+    { ok: true, id: feedbackId, message: "Thank you. Your feedback has been received." },
     200,
     {},
     request
