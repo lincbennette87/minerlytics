@@ -59,13 +59,11 @@
   </main>
 
   <script>
-    const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
-
     async function loadSignedInState() {
       const msg = document.getElementById("msg");
 
       try {
-        const res = await fetch(API_BASE + "/api/me", {
+        const res = await fetch("/api/me", {
           credentials: "include"
         });
         const data = await res.json();
@@ -89,7 +87,7 @@
       btn.disabled = true;
 
       try {
-        const res = await fetch(API_BASE + "/api/login", {
+        const res = await fetch("/api/login", {
           method: "POST",
           headers: { "content-type": "application/json" },
           body: JSON.stringify({ email, password }),
