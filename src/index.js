@@ -790,23 +790,75 @@ async function getStooqSeriesForTicker(env, ticker, limit = 60) {
   return (rows && rows.results) || [];
 }
 
+async function fetchStooqHistoryForSymbol(symbol, limit = 180) {
+  try {
+    const url = `https://stooq.com/q/d/l/?s=${encodeURIComponent(symbol)}&i=d`;
+    const res = await fetch(url, {
+      headers: { "user-agent": "Minerlytics/1.0" }
+    });
+    if (!res.ok) return [];
+
+    const text = await res.text();
+    const lines = String(text || "").trim().split(/\r?\n/);
+    if (lines.length < 2) return [];
+
+    return lines
+      .slice(1)
+      .map((line) => {
+        const [date, open, high, low, close, volume] = String(line || "").split(",");
+        return {
+          date: String(date || "").trim(),
+          open: Number(open),
+          high: Number(high),
+          low: Number(low),
+          close: Number(close),
+          volume: Number(volume),
+        };
+      })
+      .filter((row) => row.date && Number.isFinite(row.close))
+      .slice(-limit);
+  } catch {
+    return [];
+  }
+}
+
 async function getTrendSeriesForTickers(env, tickers, limit = 180) {
   const safeLimit = Math.min(Math.max(Number(limit || 180), 30), 365);
   const out = [];
 
   for (const ticker of tickers) {
     const symbol = normalizeSymbolToStooqUS(ticker);
-    const rows = await env.DB.prepare(
-      `
-      SELECT symbol, date, open, high, low, close, volume
-      FROM daily_ohlcv
-      WHERE symbol = ?
-      ORDER BY date DESC
-      LIMIT ?
-      `
-    ).bind(symbol, safeLimit).all();
 
-    const results = ((rows && rows.results) || []).slice().reverse();
+    let results = await fetchStooqHistoryForSymbol(symbol, safeLimit);
+    let source = "stooq_history";
+
+    if (!results.length) {
+      const rows = await env.DB.prepare(
+        `
+        SELECT symbol, date, open, high, low, close, volume
+        FROM daily_ohlcv
+        WHERE symbol = ?
+        ORDER BY date DESC
+        LIMIT ?
+        `
+      ).bind(symbol, safeLimit).all();
+
+      results = ((rows && rows.results) || [])
+        .slice()
+        .reverse()
+        .map((row) => ({
+          date: row.date,
+          open: Number(row.open),
+          high: Number(row.high),
+          low: Number(row.low),
+          close: Number(row.close),
+          volume: Number(row.volume),
+        }))
+        .filter((row) => row.date && Number.isFinite(row.close));
+
+      source = "d1_history";
+    }
+
     if (!results.length) continue;
 
     const latest = results[results.length - 1] || null;
@@ -823,23 +875,124 @@ async function getTrendSeriesForTickers(env, tickers, limit = 180) {
     out.push({
       ticker,
       symbol,
+      source,
       name: TICKERS[ticker]?.name || ticker,
       latest_close: Number.isFinite(latestClose) ? latestClose : null,
       previous_close: Number.isFinite(previousClose) ? previousClose : null,
       day_change: change !== null ? Number(change.toFixed(4)) : null,
       day_change_pct: changePct !== null ? Number(changePct.toFixed(2)) : null,
-      points: results.map((row) => ({
-        date: row.date,
-        close: Number(row.close),
-        open: Number(row.open),
-        high: Number(row.high),
-        low: Number(row.low),
-        volume: Number(row.volume),
-      })).filter((row) => Number.isFinite(row.close)),
+      points: results,
     });
   }
 
   return out;
+}
+
+async function fetchLatestQuoteForSymbol(symbol) {
+  try {
+    const url = `https://stooq.com/q/l/?s=${encodeURIComponent(symbol)}&f=sd2t2ohlcvn&e=csv`;
+    const res = await fetch(url, {
+      headers: { "user-agent": "Minerlytics/1.0" }
+    });
+    if (!res.ok) return null;
+
+    const text = await res.text();
+    const lines = String(text || "").trim().split(/\r?\n/);
+    if (lines.length < 2) return null;
+
+    const cols = lines[1].split(",");
+    if (cols.length < 8) return null;
+
+    const [
+      rawSymbol,
+      date,
+      time,
+      open,
+      high,
+      low,
+      close,
+      volume
+    ] = cols.map((v) => String(v || "").trim());
+
+    const parsedClose = Number(close);
+    if (!rawSymbol || !date || !Number.isFinite(parsedClose)) return null;
+
+    return {
+      symbol: rawSymbol.toUpperCase(),
+      date,
+      time,
+      open: Number(open),
+      high: Number(high),
+      low: Number(low),
+      close: parsedClose,
+      volume: Number(volume),
+    };
+  } catch {
+    return null;
+  }
+}
+
+async function enrichTrendSeriesWithLatestQuotes(series) {
+  const enriched = [];
+
+  for (const item of series) {
+    const latestQuote = await fetchLatestQuoteForSymbol(item.symbol);
+    if (!latestQuote) {
+      enriched.push({ ...item, live_quote: null });
+      continue;
+    }
+
+    const points = Array.isArray(item.points) ? item.points.slice() : [];
+    const lastPoint = points.length ? points[points.length - 1] : null;
+    const sameDay = lastPoint && lastPoint.date === latestQuote.date;
+
+    if (sameDay) {
+      points[points.length - 1] = {
+        ...points[points.length - 1],
+        close: latestQuote.close,
+        open: Number.isFinite(latestQuote.open) ? latestQuote.open : points[points.length - 1].open,
+        high: Number.isFinite(latestQuote.high) ? latestQuote.high : points[points.length - 1].high,
+        low: Number.isFinite(latestQuote.low) ? latestQuote.low : points[points.length - 1].low,
+        volume: Number.isFinite(latestQuote.volume) ? latestQuote.volume : points[points.length - 1].volume,
+        time: latestQuote.time || null,
+        is_live: true,
+      };
+    } else {
+      points.push({
+        date: latestQuote.date,
+        time: latestQuote.time || null,
+        close: latestQuote.close,
+        open: Number.isFinite(latestQuote.open) ? latestQuote.open : latestQuote.close,
+        high: Number.isFinite(latestQuote.high) ? latestQuote.high : latestQuote.close,
+        low: Number.isFinite(latestQuote.low) ? latestQuote.low : latestQuote.close,
+        volume: Number.isFinite(latestQuote.volume) ? latestQuote.volume : 0,
+        is_live: true,
+      });
+    }
+
+    const latest = points[points.length - 1] || null;
+    const previous = points.length > 1 ? points[points.length - 2] : null;
+    const latestClose = Number(latest?.close);
+    const previousClose = Number(previous?.close);
+    const change = Number.isFinite(latestClose) && Number.isFinite(previousClose)
+      ? latestClose - previousClose
+      : null;
+    const changePct = change !== null && previousClose
+      ? (change / previousClose) * 100
+      : null;
+
+    enriched.push({
+      ...item,
+      latest_close: Number.isFinite(latestClose) ? latestClose : item.latest_close,
+      previous_close: Number.isFinite(previousClose) ? previousClose : item.previous_close,
+      day_change: change !== null ? Number(change.toFixed(4)) : item.day_change,
+      day_change_pct: changePct !== null ? Number(changePct.toFixed(2)) : item.day_change_pct,
+      live_quote: latestQuote,
+      points,
+    });
+  }
+
+  return enriched;
 }
 
 function pickTopItems(arr, max = 8) {
@@ -1675,11 +1828,14 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
           .filter(Boolean)
           .slice(0, 5);
 
-        const series = await getTrendSeriesForTickers(env, tickers, limitDays);
+        const historicalSeries = await getTrendSeriesForTickers(env, tickers, limitDays);
+        const series = await enrichTrendSeriesWithLatestQuotes(historicalSeries);
+        const usedFallback = series.some((item) => item.source === "d1_history");
 
         return json({
           ok: true,
           window_days: limitDays,
+          source: usedFallback ? "live_history_with_d1_fallback" : "live_history_plus_live_quote",
           tickers: series
         }, 200);
       }

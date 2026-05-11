@@ -196,6 +196,8 @@
     </div>
   </div>
 
+  <div id="trendSummaryRow" style="display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-bottom:10px;"></div>
+
   <div class="trendChartCanvasWrap" id="trendChartWrap">
     <canvas id="top5LineChart" class="trendChartCanvas"></canvas>
     <div id="trendTooltip" style="display:none;position:absolute;pointer-events:none;z-index:3;background:rgba(7,10,18,.96);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:10px 12px;box-shadow:0 18px 40px rgba(0,0,0,.35);min-width:180px;"></div>
@@ -217,6 +219,7 @@
   </div>
 
   <div class="trendChartLegend" id="trendLegend"></div>
+  <div class="trendChartHint">Click a ticker chip to isolate its line. Move across the chart to inspect each date.</div>
 
   <!-- Minimal styles for this block only (doesn't touch your existing CSS) -->
   <style>
@@ -255,9 +258,37 @@
     }
     .trendChartCanvas{
       width: 100%;
-      height: 150px;
+      height: 220px;
       display:block;
     }
+    .trendSummaryCard{
+      border:1px solid rgba(255,255,255,.10);
+      border-radius:14px;
+      background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
+      padding:10px 12px;
+      min-height:72px;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.03);
+    }
+    .trendSummaryTicker{
+      font-size:11px;
+      color:rgba(234,240,255,.62);
+      letter-spacing:.08em;
+      text-transform:uppercase;
+    }
+    .trendSummaryPrice{
+      margin-top:6px;
+      font-size:20px;
+      font-weight:800;
+      font-variant-numeric: tabular-nums;
+      color:#fff;
+    }
+    .trendSummaryDelta{
+      margin-top:4px;
+      font-size:12px;
+      font-weight:700;
+    }
+    .trendSummaryDelta.up{ color:#7ef0a8; }
+    .trendSummaryDelta.down{ color:#ff8ea8; }
     .trendChartControls{
       margin-top: 10px;
       display:grid;
@@ -290,6 +321,21 @@
       background: rgba(255,255,255,.03);
       font-size: 12px;
       color: rgba(234,240,255,.82);
+      cursor: pointer;
+      transition: transform .18s ease, border-color .18s ease, background .18s ease, opacity .18s ease;
+    }
+    .trendLegendItem:hover{
+      transform: translateY(-1px);
+      border-color: rgba(255,255,255,.22);
+      background: rgba(255,255,255,.06);
+    }
+    .trendLegendItem.is-dimmed{
+      opacity: .45;
+    }
+    .trendLegendItem.is-focused{
+      border-color: rgba(255,255,255,.28);
+      background: rgba(255,255,255,.08);
+      box-shadow: 0 10px 28px rgba(0,0,0,.20);
     }
     .trendLegendSwatch{
       width: 10px;
@@ -306,6 +352,21 @@
       font-variant-numeric: tabular-nums;
       font-weight: 700;
       color: #fff;
+    }
+    .trendChartHint{
+      margin-top: 8px;
+      font-size: 11px;
+      color: rgba(234,240,255,.50);
+    }
+    @media (max-width: 980px){
+      #trendSummaryRow{
+        grid-template-columns: repeat(2, minmax(0,1fr)) !important;
+      }
+    }
+    @media (max-width: 640px){
+      #trendSummaryRow{
+        grid-template-columns: 1fr !important;
+      }
     }
   </style>
 </section>
@@ -669,7 +730,8 @@ function clearChat(){
   const tooltip = document.getElementById("trendTooltip");
   const chartWrap = document.getElementById("trendChartWrap");
   const statusEl = document.getElementById("trendChartStatus");
-  if(!canvas || !slider || !label || !legend || !tooltip || !chartWrap || !statusEl) return;
+  const summaryRow = document.getElementById("trendSummaryRow");
+  if(!canvas || !slider || !label || !legend || !tooltip || !chartWrap || !statusEl || !summaryRow) return;
 
   const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
   const colors = [
@@ -683,6 +745,9 @@ function clearChat(){
   let series = [];
   let currentDays = Number(slider.value || 30);
   let hoverPoints = [];
+  let sourceLabel = "";
+  let focusTicker = null;
+  const hiddenTickers = new Set();
 
   function resizeCanvas(){
     const dpr = window.devicePixelRatio || 1;
@@ -701,16 +766,71 @@ function clearChat(){
     return `${sign}${value.toFixed(2)}%`;
   }
 
+  function formatDateLabel(value){
+    const d = new Date(value + "T00:00:00");
+    if(Number.isNaN(d.getTime())) return value;
+    return d.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+  }
+
+  function getSeriesColor(ticker){
+    const idx = Math.max(0, series.findIndex((item) => item.ticker === ticker));
+    return colors[idx % colors.length];
+  }
+
+  function getVisibleSeries(){
+    let items = series.filter((item) => !hiddenTickers.has(item.ticker));
+    if(focusTicker){
+      items = items.filter((item) => item.ticker === focusTicker);
+    }
+    return items;
+  }
+
+  function wireTickerControls(){
+    legend.querySelectorAll("[data-ticker]").forEach((node) => {
+      node.addEventListener("click", () => toggleFocus(node.dataset.ticker));
+      node.addEventListener("contextmenu", (event) => {
+        event.preventDefault();
+        toggleHidden(node.dataset.ticker);
+      });
+    });
+
+    summaryRow.querySelectorAll("[data-ticker]").forEach((node) => {
+      node.addEventListener("click", () => toggleFocus(node.dataset.ticker));
+    });
+  }
+
+  function toggleFocus(ticker){
+    focusTicker = focusTicker === ticker ? null : ticker;
+    draw(currentDays);
+  }
+
+  function toggleHidden(ticker){
+    if(hiddenTickers.has(ticker)) hiddenTickers.delete(ticker);
+    else hiddenTickers.add(ticker);
+
+    if(focusTicker && hiddenTickers.has(focusTicker)) {
+      focusTicker = null;
+    }
+    draw(currentDays);
+  }
+
   function renderLegend(items){
     legend.innerHTML = "";
     items.forEach((item, i) => {
-      const card = document.createElement("div");
+      const card = document.createElement("button");
+      const dimmed = hiddenTickers.has(item.ticker) || (focusTicker && focusTicker !== item.ticker);
       card.className = "trendLegendItem";
+      if(dimmed) card.classList.add("is-dimmed");
+      if(focusTicker === item.ticker) card.classList.add("is-focused");
+      card.type = "button";
+      card.dataset.ticker = item.ticker;
+      card.title = "Click to isolate ticker. Right-click to hide or restore it.";
 
       const sw = document.createElement("span");
       sw.className = "trendLegendSwatch";
-      sw.style.background = colors[i % colors.length];
-      sw.style.boxShadow = `0 0 14px ${colors[i % colors.length].replace("0.95","0.20").replace("0.88","0.20")}`;
+      const color = getSeriesColor(item.ticker);
+      sw.style.background = color;
+      sw.style.boxShadow = `0 0 14px ${color.replace("0.95","0.20").replace("0.88","0.20")}`;
 
       const textWrap = document.createElement("div");
       const ticker = document.createElement("div");
@@ -731,9 +851,28 @@ function clearChat(){
       card.appendChild(price);
       legend.appendChild(card);
     });
+    wireTickerControls();
   }
 
-  function draw(windowDays){
+  function renderSummary(items){
+    summaryRow.innerHTML = items.map((item) => {
+      const pct = Number(item.day_change_pct);
+      const deltaClass = Number.isFinite(pct) && pct < 0 ? "down" : "up";
+      const dimmed = hiddenTickers.has(item.ticker) || (focusTicker && focusTicker !== item.ticker);
+      const focusedClass = focusTicker === item.ticker ? " is-focused" : "";
+      return `
+        <div class="trendSummaryCard${focusedClass}" data-ticker="${item.ticker}" style="cursor:pointer;opacity:${dimmed ? ".48" : "1"};border-color:${focusTicker === item.ticker ? "rgba(255,255,255,.28)" : "rgba(255,255,255,.10)"};">
+          <div class="trendSummaryTicker">${item.ticker}</div>
+          <div class="trendSummaryPrice">${formatPrice(item.latest_close)}</div>
+          <div class="trendSummaryDelta ${deltaClass}">${formatPct(item.day_change_pct)}</div>
+        </div>
+      `;
+    }).join("");
+    wireTickerControls();
+  }
+
+  function draw(windowDays, options = {}){
+    const shouldRenderUi = options.renderUi !== false;
     resizeCanvas();
     const ctx = canvas.getContext("2d");
     const w = canvas.width;
@@ -743,11 +882,11 @@ function clearChat(){
 
     // Plot area
     const dpr = window.devicePixelRatio || 1;
-    const padL = 12*dpr, padR = 10*dpr, padT = 10*dpr, padB = 14*dpr;
+    const padL = 44*dpr, padR = 18*dpr, padT = 14*dpr, padB = 28*dpr;
     const pw = w - padL - padR;
     const ph = h - padT - padB;
 
-    const sliced = series.map(item => {
+    const sliced = getVisibleSeries().map(item => {
       const points = item.points.slice(-windowDays);
       return {
         ...item,
@@ -763,6 +902,12 @@ function clearChat(){
       return;
     }
 
+    const bg = ctx.createLinearGradient(0, padT, 0, padT + ph);
+    bg.addColorStop(0, "rgba(19, 33, 72, 0.42)");
+    bg.addColorStop(1, "rgba(6, 10, 22, 0.10)");
+    ctx.fillStyle = bg;
+    ctx.fillRect(padL, padT, pw, ph);
+
     let mn = Infinity, mx = -Infinity;
     for(const s of sliced){
       for(const point of s.points){
@@ -774,7 +919,10 @@ function clearChat(){
     if(!isFinite(mn) || !isFinite(mx) || mn === mx){
       mn = 0; mx = 1;
     }
-    const span = mx - mn;
+    const span = (mx - mn) || 1;
+    const paddedMin = Math.max(0, mn - span * 0.08);
+    const paddedMax = mx + span * 0.08;
+    const paddedSpan = (paddedMax - paddedMin) || 1;
 
     // grid lines
     ctx.save();
@@ -786,24 +934,53 @@ function clearChat(){
       ctx.moveTo(padL, y);
       ctx.lineTo(padL+pw, y);
       ctx.stroke();
+
+      const axisValue = paddedMax - (paddedSpan * i / 4);
+      ctx.fillStyle = "rgba(234,240,255,0.54)";
+      ctx.font = `${10 * dpr}px system-ui`;
+      ctx.textAlign = "left";
+      ctx.fillText(formatPrice(axisValue), 4 * dpr, y + 3 * dpr);
     }
     ctx.restore();
 
     hoverPoints = [];
+    const xLabelDates = [];
+    const samplePoints = sliced[0]?.points || [];
+    if(samplePoints.length){
+      xLabelDates.push(samplePoints[0]?.date);
+      xLabelDates.push(samplePoints[Math.floor((samplePoints.length - 1) / 2)]?.date);
+      xLabelDates.push(samplePoints[samplePoints.length - 1]?.date);
+    }
 
-    sliced.forEach((s, i) => {
+    ctx.save();
+    ctx.fillStyle = "rgba(234,240,255,0.54)";
+    ctx.font = `${10 * dpr}px system-ui`;
+    ctx.textAlign = "center";
+    xLabelDates.filter(Boolean).forEach((date, idx) => {
+      const x = idx === 0 ? padL : idx === 1 ? padL + pw / 2 : padL + pw;
+      ctx.fillText(formatDateLabel(date), x, padT + ph + 18 * dpr);
+    });
+    ctx.restore();
+
+    sliced.forEach((s) => {
       const arr = s.points;
+      const color = getSeriesColor(s.ticker);
+      const colorSoft = color.replace("0.95", "0.25").replace("0.88", "0.25");
+      const area = ctx.createLinearGradient(0, padT, 0, padT + ph);
+      area.addColorStop(0, colorSoft);
+      area.addColorStop(1, "rgba(255,255,255,0)");
+
       ctx.save();
-      ctx.strokeStyle = colors[i % colors.length];
+      ctx.strokeStyle = color;
       ctx.lineWidth = 2*dpr;
       ctx.beginPath();
       arr.forEach((point, idx) => {
         const v = Number(point.close);
         const x = padL + (idx * pw) / (arr.length - 1 || 1);
-        const y = padT + (1 - (v - mn) / span) * ph;
+        const y = padT + (1 - (v - paddedMin) / paddedSpan) * ph;
         hoverPoints.push({
           ticker: s.ticker,
-          color: colors[i % colors.length],
+          color,
           x,
           y,
           date: point.date,
@@ -818,10 +995,32 @@ function clearChat(){
       ctx.globalAlpha = 0.25;
       ctx.lineWidth = 6*dpr;
       ctx.stroke();
+
+      ctx.globalAlpha = 1;
+      ctx.lineWidth = 0;
+      ctx.lineTo(padL + pw, padT + ph);
+      ctx.lineTo(padL, padT + ph);
+      ctx.closePath();
+      ctx.fillStyle = area;
+      ctx.fill();
+
+      const last = hoverPoints.filter((point) => point.ticker === s.ticker).slice(-1)[0];
+      if(last){
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(last.x, last.y, 4 * dpr, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.strokeStyle = "rgba(7,10,18,0.96)";
+        ctx.lineWidth = 2 * dpr;
+        ctx.stroke();
+      }
       ctx.restore();
     });
 
-    renderLegend(series);
+    if(shouldRenderUi){
+      renderLegend(series);
+      renderSummary(series);
+    }
   }
 
   function handleMove(event){
@@ -844,8 +1043,19 @@ function clearChat(){
       .filter((point) => point.date === nearest.date)
       .sort((a, b) => a.ticker.localeCompare(b.ticker));
 
+    draw(currentDays, { renderUi: false });
+    const ctx = canvas.getContext("2d");
+    ctx.save();
+    ctx.strokeStyle = "rgba(255,255,255,0.16)";
+    ctx.setLineDash([4 * dpr, 5 * dpr]);
+    ctx.beginPath();
+    ctx.moveTo(nearest.x, 0);
+    ctx.lineTo(nearest.x, canvas.height);
+    ctx.stroke();
+    ctx.restore();
+
     tooltip.innerHTML = `
-      <div style="font-size:11px;color:rgba(234,240,255,.62);margin-bottom:6px;">${nearest.date}</div>
+      <div style="font-size:11px;color:rgba(234,240,255,.62);margin-bottom:6px;">${formatDateLabel(nearest.date)}</div>
       ${aligned.map((point) => `
         <div style="display:flex;align-items:center;justify-content:space-between;gap:14px;font-size:12px;margin:4px 0;">
           <div style="display:flex;align-items:center;gap:8px;">
@@ -876,7 +1086,10 @@ function clearChat(){
       const data = await res.json();
       const items = Array.isArray(data.tickers) ? data.tickers : [];
       series = items;
-      statusEl.textContent = items.length ? "Latest available closes" : "No market data found";
+      sourceLabel = String(data?.source || "");
+      statusEl.textContent = items.length
+        ? (sourceLabel === "live_history_plus_live_quote" ? "Real-time quote + live 6M history" : "Real-time quote + D1 fallback history")
+        : "No market data found";
       draw(currentDays);
     } catch (err){
       console.error("TREND CHART ERROR:", err);
@@ -894,7 +1107,10 @@ function clearChat(){
 
   slider.addEventListener("input", onSlider);
   canvas.addEventListener("mousemove", handleMove);
-  canvas.addEventListener("mouseleave", hideTooltip);
+  canvas.addEventListener("mouseleave", () => {
+    hideTooltip();
+    draw(currentDays, { renderUi: false });
+  });
   window.addEventListener("resize", () => draw(currentDays));
 
   loadTrendData();
