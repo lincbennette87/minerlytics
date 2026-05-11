@@ -18,6 +18,22 @@
     localStorage.setItem("minerlytics_user_last_name", user.last_name || "");
   }
 
+  function getCachedUser() {
+    const email = localStorage.getItem("minerlytics_user_email") || "";
+    const displayName = localStorage.getItem("minerlytics_user_name") || "";
+    const firstName = localStorage.getItem("minerlytics_user_first_name") || "";
+    const lastName = localStorage.getItem("minerlytics_user_last_name") || "";
+
+    if (!email && !displayName) return null;
+
+    return {
+      email,
+      first_name: firstName,
+      last_name: lastName,
+      display_name: displayName || [firstName, lastName].filter(Boolean).join(" ").trim() || email
+    };
+  }
+
   function clearUserCache() {
     localStorage.removeItem("minerlytics_user_email");
     localStorage.removeItem("minerlytics_user_name");
@@ -106,6 +122,11 @@
   async function init() {
     const authNav = document.getElementById("authNav");
     if (!authNav) return;
+
+    const cachedUser = getCachedUser();
+    if (cachedUser) {
+      renderLoggedIn(authNav, cachedUser);
+    }
 
     try {
       const res = await fetch(API_BASE + "/api/me", {
