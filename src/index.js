@@ -478,6 +478,21 @@ function isFilingQuestion(question = "") {
   );
 }
 
+function isCapabilityQuestion(question = "") {
+  const q = String(question || "").toLowerCase().trim();
+  if (!q) return false;
+  return (
+    q.includes("what can i ask") ||
+    q.includes("what should i ask") ||
+    q.includes("what are good questions") ||
+    q.includes("what questions can i ask") ||
+    q.includes("how can you help") ||
+    q.includes("what can you help with") ||
+    q.includes("what can i ask about") ||
+    q.includes("what should i ask about")
+  );
+}
+
 async function getLatestDisclosureBlocksForTicker(env, ticker, limit = 12) {
   const safeLimit = Math.min(Math.max(Number(limit || 12), 1), 50);
   if (!ticker) return [];
@@ -1428,6 +1443,7 @@ async function runAssistant(env, question, context) {
 
   const filingQuestion = isFilingQuestion(question);
   const technicalReportQuestion = isTechnicalReportQuestion(question);
+  const capabilityQuestion = isCapabilityQuestion(question);
 
   const normalizedContext = stableSortValue(context || {});
   const normalizedDataString = stableStringify(normalizedContext);
@@ -1453,6 +1469,12 @@ async function runAssistant(env, question, context) {
     "- Prefer short factual sentences over paraphrased summaries.\n" +
     "- When the same question and same DATA are provided, keep the same structure and phrasing as much as possible.\n\n" +
 
+    "CAPABILITY QUESTION RULES:\n" +
+    "- If the user asks what they can ask about a company or how you can help, do not generate a research summary.\n" +
+    "- Instead, return a short capability-oriented answer with concrete example questions tailored to the resolved ticker.\n" +
+    "- In capability answers, do not include market/news/transcript/disclosure sections unless the user explicitly asked for analysis.\n" +
+    "- Capability answers should help the user continue the conversation with better prompts.\n\n" +
+
     "MANDATORY SOURCE COVERAGE RULE:\n" +
     "- Inspect the source groups present in DATA and use only the ones needed to answer the exact question.\n" +
     "- Do not add unrelated sections just because extra data is available.\n" +
@@ -1476,7 +1498,12 @@ async function runAssistant(env, question, context) {
     "- DATA.source_coverage\n\n" +
 
     "OUTPUT FORMAT:\n" +
-    (technicalReportQuestion
+    (capabilityQuestion
+      ? "1. ✅ What You Can Ask\n" +
+        "2. 💡 Good Questions to Try\n" +
+        "3. 🏷️ Sources Available\n" +
+        "4. 🧾 Disclaimer\n\n"
+      : technicalReportQuestion
       ? "1. 📄 Direct Answer\n" +
         "2. 📚 Technical Reports Found\n" +
         "3. 🏷️ Sources Used\n" +
@@ -1499,6 +1526,8 @@ async function runAssistant(env, question, context) {
     "SECTION RULES:\n" +
     "- Include only sections needed for the question.\n" +
     "- If a section has no available data, omit it.\n" +
+    "- In capability answers, list the types of analysis available and 6-10 example user questions tailored to RESOLVED_TICKER.\n" +
+    "- In capability answers, prefer question examples over narrative explanation.\n" +
     "- In Executive Summary, summarize only the most explicit points across available source groups.\n" +
     "- In Technical Reports / Mining Disclosure, use only DATA.sec_filings.\n" +
     "- In Market Data, use only DATA.market_data.\n" +
@@ -1526,6 +1555,9 @@ async function runAssistant(env, question, context) {
     "- Do not ask for ticker if RESOLVED_TICKER is present.\n" +
     "- Keep the response deterministic and consistent for the same question and same DATA.\n" +
     "- Prefer extractive, factual wording over creative paraphrasing.\n" +
+    (capabilityQuestion
+      ? "- This is a capability question. Do not give a company memo. Provide example questions the user can ask next about the resolved ticker.\n"
+      : "") +
     (technicalReportQuestion
       ? "- This is a technical-report lookup. Focus on identifying technical reports or explicitly state that none were found in the provided filing data.\n"
       : "") +
