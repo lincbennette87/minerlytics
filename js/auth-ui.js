@@ -135,8 +135,10 @@
       const data = await res.json();
 
       if (!data.loggedIn || !data.user) {
-        clearUserCache();
-        renderLoggedOut(authNav);
+        if (!cachedUser) {
+          clearUserCache();
+          renderLoggedOut(authNav);
+        }
         return;
       }
 
@@ -144,7 +146,9 @@
       renderLoggedIn(authNav, data.user);
     } catch (err) {
       console.error("AUTH NAV ERROR:", err);
-      renderLoggedOut(authNav);
+      if (!cachedUser) {
+        renderLoggedOut(authNav);
+      }
     }
   }
 
