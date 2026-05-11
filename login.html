@@ -6,7 +6,6 @@
   <title>Sign In — Minerlytics</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
-
 <body>
   <header class="topbar">
     <div class="brand">
@@ -49,6 +48,11 @@
             New to Minerlytics?
             <a href="./signup.html" style="color:#39e6c8;">Create an account</a>
           </p>
+
+          <p style="font-size:13px;color:rgba(234,240,255,.7);margin-top:-4px;">
+            Already signed in?
+            <a href="./change-password.html" style="color:#39e6c8;">Change your password</a>
+          </p>
         </div>
       </div>
     </section>
@@ -56,6 +60,24 @@
 
   <script>
     const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+
+    async function loadSignedInState() {
+      const msg = document.getElementById("msg");
+
+      try {
+        const res = await fetch(API_BASE + "/api/me", {
+          credentials: "include"
+        });
+        const data = await res.json();
+
+        if (data.loggedIn) {
+          localStorage.setItem("minerlytics_user_email", data.user.email);
+          msg.innerHTML = 'You are already signed in. <a href="./change-password.html" style="color:#39e6c8;">Change password</a> or return to <a href="./index.html" style="color:#39e6c8;">home</a>.';
+        }
+      } catch (err) {
+        console.error("SESSION CHECK ERROR:", err);
+      }
+    }
 
     async function login() {
       const msg = document.getElementById("msg");
@@ -74,105 +96,30 @@
           credentials: "include"
         });
 
-        const raw = await res.text();
-        console.log("LOGIN STATUS:", res.status);
-        console.log("LOGIN RESPONSE:", raw);
-
-        let data = null;
-        try {
-          data = JSON.parse(raw);
-        } catch {}
+        const data = await res.json().catch(() => null);
 
         if (!res.ok || !data?.ok) {
-          msg.textContent = data?.error || raw || "Login failed.";
+          msg.textContent = data?.error || "Login failed.";
           btn.disabled = false;
           return;
         }
 
+        localStorage.setItem("minerlytics_user_email", data.email || email);
         msg.textContent = "Logged in!";
-        localStorage.setItem("minerlytics_user_email", email);
         window.location.href = "./index.html";
       } catch (err) {
         console.error("LOGIN ERROR:", err);
-        msg.textContent = "Network/API error. Open console and check red error.";
+        msg.textContent = "Network/API error. Please try again.";
         btn.disabled = false;
       }
     }
 
     document.getElementById("loginBtn").addEventListener("click", login);
-  </script>
-</body>
-</html>
-
-          <p id="msg" style="color:#ffcc66;font-size:13px;min-height:18px;"></p>
-
-          <p style="font-size:13px;color:rgba(234,240,255,.7);">
-            New to Minerlytics?
-            <a href="./signup.html" style="color:#39e6c8;">Create an account</a>
-          </p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <script>
-  const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
-
-  async function login() {
-    const msg = document.getElementById("msg");
-    const email = document.getElementById("email").value.trim();
-    const password = document.getElementById("password").value;
-
-    msg.textContent = "Signing in...";
-
-    try {
-      const res = await fetch(API_BASE + "/api/login", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ email, password })
-      });
-
-      const data = await res.json().catch(() => null);
-
-      if (!res.ok || !data?.ok) {
-        msg.textContent = data?.error || "Login failed. Check credentials.";
-        return;
-      }
-
-      msg.textContent = "Logged in!";
-      window.location.href = "./index.html";
-    } catch (err) {
-      msg.textContent = "Network/API error. Check Worker URL or CORS.";
-      console.error(err);
-    }
-  }
-  </script>
-</body>
-</html>         
-
-  <script>
-  async function login() {
-    const msg = document.getElementById("msg");
-    msg.textContent = "Signing in...";
-
-    const res = await fetch("/api/login", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({
-        email: document.getElementById("email").value,
-        password: document.getElementById("password").value
-      })
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") login();
     });
 
-    const data = await res.json();
-
-    if (!data.ok) {
-      msg.textContent = data.error || "Login failed";
-      return;
-    }
-
-    window.location.href = "./index.html";
-  }
+    loadSignedInState();
   </script>
 </body>
 </html>

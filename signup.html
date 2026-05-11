@@ -41,6 +41,9 @@
           <input id="password" type="password" placeholder="Password"
             style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;outline:none;" />
 
+          <input id="confirmPassword" type="password" placeholder="Confirm password"
+            style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;outline:none;" />
+
           <button id="signupBtn" class="btn btnPrimary" type="button">Create Account</button>
 
           <p id="msg" style="color:#ffcc66;font-size:13px;min-height:18px;"></p>
@@ -62,6 +65,12 @@
       const btn = document.getElementById("signupBtn");
       const email = document.getElementById("email").value.trim();
       const password = document.getElementById("password").value;
+      const confirmPassword = document.getElementById("confirmPassword").value;
+
+      if (password !== confirmPassword) {
+        msg.textContent = "Passwords do not match.";
+        return;
+      }
 
       msg.textContent = "Creating account...";
       btn.disabled = true;
@@ -100,6 +109,9 @@
     }
 
     document.getElementById("signupBtn").addEventListener("click", signup);
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") signup();
+    });
   </script>
 </body>
 </html>

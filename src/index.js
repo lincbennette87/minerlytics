@@ -1142,6 +1142,61 @@ if (url.pathname === "/api/login" && request.method === "POST") {
 );
 }
 
+// CHANGE PASSWORD
+if (url.pathname === "/api/change-password" && request.method === "POST") {
+  const sessionId = getCookie(request, "minerlytics_session");
+
+  if (!sessionId) {
+    return json({ ok: false, error: "Not logged in" }, 401);
+  }
+
+  const sessionUser = await env.DB.prepare(`
+    SELECT users.id, users.email, users.password_hash
+    FROM sessions
+    JOIN users ON users.id = sessions.user_id
+    WHERE sessions.id = ? AND sessions.expires_at > ?
+  `).bind(sessionId, new Date().toISOString()).first();
+
+  if (!sessionUser) {
+    return json({ ok: false, error: "Invalid session" }, 401);
+  }
+
+  const body = await request.json().catch(() => ({}));
+  const currentPassword = String(body.currentPassword || "");
+  const newPassword = String(body.newPassword || "");
+  const confirmPassword = String(body.confirmPassword || "");
+
+  if (!currentPassword || !newPassword || !confirmPassword) {
+    return json({ ok: false, error: "All password fields are required" }, 400);
+  }
+
+  if (newPassword.length < 6) {
+    return json({ ok: false, error: "New password must be at least 6 characters" }, 400);
+  }
+
+  if (newPassword !== confirmPassword) {
+    return json({ ok: false, error: "New passwords do not match" }, 400);
+  }
+
+  const currentHash = await sha256(currentPassword + env.AUTH_SECRET);
+  if (currentHash !== sessionUser.password_hash) {
+    return json({ ok: false, error: "Current password is incorrect" }, 401);
+  }
+
+  const newHash = await sha256(newPassword + env.AUTH_SECRET);
+  if (newHash === sessionUser.password_hash) {
+    return json({ ok: false, error: "New password must be different from current password" }, 400);
+  }
+
+  await env.DB.prepare(`
+    UPDATE users
+    SET password_hash = ?
+    WHERE id = ?
+  `).bind(newHash, sessionUser.id).run();
+
+  return json({ ok: true, email: sessionUser.email, message: "Password updated successfully" }, 200, {}, request);
+}
+
 // CHECK USER
 if (url.pathname === "/api/me" && request.method === "GET") {
   const sessionId = getCookie(request, "minerlytics_session");
