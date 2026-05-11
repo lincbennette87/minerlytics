@@ -899,8 +899,14 @@
           headers: { accept: "application/json" },
           cache: "no-store",
         });
+        if (!res.ok) {
+          throw new Error(`Analysis API failed (${res.status})`);
+        }
         const payload = await res.json();
         const items = Array.isArray(payload.items) ? payload.items : [];
+        if (!items.length) {
+          throw new Error("Analysis API returned no company data");
+        }
         ANALYSIS_DATA = items.map(enrichItem);
         applyFilters();
       } catch (err) {

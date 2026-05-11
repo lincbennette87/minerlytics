@@ -146,6 +146,17 @@ function normalizeSymbolToStooqUS(raw) {
   return symbol;
 }
 
+function getSymbolCandidates(raw) {
+  const ticker = symbolToTicker(raw) || String(raw || "").toUpperCase().trim();
+  const lowerTicker = ticker.toLowerCase();
+  const normalized = normalizeSymbolToStooqUS(ticker);
+  return Array.from(new Set([
+    normalized,
+    lowerTicker,
+    ticker,
+  ].filter(Boolean)));
+}
+
 function symbolToTicker(symbol) {
   return String(symbol || "").replace(/\.us$/i, "").toUpperCase().trim();
 }
@@ -787,19 +798,24 @@ async function getLatestNewsCardForTicker(env, ticker) {
 async function getStooqSeriesForTicker(env, ticker, limit = 60) {
   if (!ticker) return [];
   const safeLimit = Math.min(Math.max(Number(limit || 60), 1), 120);
-  const stooqSymbol = normalizeSymbolToStooqUS(ticker);
+  const candidates = getSymbolCandidates(ticker);
 
-  const rows = await env.DB.prepare(
-    `
-    SELECT symbol, category, date, open, high, low, close, volume, source
-    FROM daily_ohlcv
-    WHERE symbol = ?
-    ORDER BY date DESC
-    LIMIT ?
-    `
-  ).bind(stooqSymbol, safeLimit).all();
+  for (const candidate of candidates) {
+    const rows = await env.DB.prepare(
+      `
+      SELECT symbol, category, date, open, high, low, close, volume, source
+      FROM daily_ohlcv
+      WHERE symbol = ?
+      ORDER BY date DESC
+      LIMIT ?
+      `
+    ).bind(candidate, safeLimit).all().catch(() => null);
 
-  return (rows && rows.results) || [];
+    const results = (rows && rows.results) || [];
+    if (results.length) return results;
+  }
+
+  return [];
 }
 
 async function fetchStooqHistoryForSymbol(symbol, limit = 180) {
@@ -834,41 +850,59 @@ async function fetchStooqHistoryForSymbol(symbol, limit = 180) {
   }
 }
 
+async function fetchLiveHistoryForTicker(ticker, limit = 180) {
+  const candidates = getSymbolCandidates(ticker);
+  for (const candidate of candidates) {
+    const results = await fetchStooqHistoryForSymbol(candidate, limit);
+    if (results.length) {
+      return { results, symbol: candidate };
+    }
+  }
+  return { results: [], symbol: normalizeSymbolToStooqUS(ticker) };
+}
+
 async function getTrendSeriesForTickers(env, tickers, limit = 180) {
   const safeLimit = Math.min(Math.max(Number(limit || 180), 30), 365);
   const out = [];
 
   for (const ticker of tickers) {
-    const symbol = normalizeSymbolToStooqUS(ticker);
-
-    let results = await fetchStooqHistoryForSymbol(symbol, safeLimit);
+    const liveHistory = await fetchLiveHistoryForTicker(ticker, safeLimit);
+    let symbol = liveHistory.symbol;
+    let results = liveHistory.results;
     let source = "stooq_history";
 
     if (!results.length) {
-      const rows = await env.DB.prepare(
-        `
-        SELECT symbol, date, open, high, low, close, volume
-        FROM daily_ohlcv
-        WHERE symbol = ?
-        ORDER BY date DESC
-        LIMIT ?
-        `
-      ).bind(symbol, safeLimit).all();
+      for (const candidate of getSymbolCandidates(ticker)) {
+        const rows = await env.DB.prepare(
+          `
+          SELECT symbol, date, open, high, low, close, volume
+          FROM daily_ohlcv
+          WHERE symbol = ?
+          ORDER BY date DESC
+          LIMIT ?
+          `
+        ).bind(candidate, safeLimit).all().catch(() => null);
 
-      results = ((rows && rows.results) || [])
-        .slice()
-        .reverse()
-        .map((row) => ({
-          date: row.date,
-          open: Number(row.open),
-          high: Number(row.high),
-          low: Number(row.low),
-          close: Number(row.close),
-          volume: Number(row.volume),
-        }))
-        .filter((row) => row.date && Number.isFinite(row.close));
+        const candidateResults = ((rows && rows.results) || [])
+          .slice()
+          .reverse()
+          .map((row) => ({
+            date: row.date,
+            open: Number(row.open),
+            high: Number(row.high),
+            low: Number(row.low),
+            close: Number(row.close),
+            volume: Number(row.volume),
+          }))
+          .filter((row) => row.date && Number.isFinite(row.close));
 
-      source = "d1_history";
+        if (candidateResults.length) {
+          results = candidateResults;
+          symbol = candidate;
+          source = "d1_history";
+          break;
+        }
+      }
     }
 
     if (!results.length) continue;
@@ -944,11 +978,19 @@ async function fetchLatestQuoteForSymbol(symbol) {
   }
 }
 
+async function fetchLatestQuoteForTicker(ticker) {
+  for (const candidate of getSymbolCandidates(ticker)) {
+    const quote = await fetchLatestQuoteForSymbol(candidate);
+    if (quote) return quote;
+  }
+  return null;
+}
+
 async function enrichTrendSeriesWithLatestQuotes(series) {
   const enriched = [];
 
   for (const item of series) {
-    const latestQuote = await fetchLatestQuoteForSymbol(item.symbol);
+    const latestQuote = await fetchLatestQuoteForTicker(item.ticker || item.symbol);
     if (!latestQuote) {
       enriched.push({ ...item, live_quote: null });
       continue;
@@ -1089,8 +1131,8 @@ async function getAnalysisUniverse(env) {
     const ticker = String(meta.ticker || "").toUpperCase().trim();
     if (!ticker) continue;
 
-    const seriesBase = await getTrendSeriesForTickers(env, [ticker], 180);
-    const seriesItem = seriesBase[0] ? await enrichTrendSeriesWithLatestQuotes(seriesBase) : [];
+    const seriesBase = await getTrendSeriesForTickers(env, [ticker], 180).catch(() => []);
+    const seriesItem = seriesBase[0] ? await enrichTrendSeriesWithLatestQuotes(seriesBase).catch(() => []) : [];
     const market = Array.isArray(seriesItem) && seriesItem[0] ? seriesItem[0] : null;
     const points = market?.points || [];
 
@@ -1099,7 +1141,7 @@ async function getAnalysisUniverse(env) {
 
     const sentimentRow = await env.DB.prepare(
       "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
-    ).bind(ticker).first();
+    ).bind(ticker).first().catch(() => null);
     const news = buildNewsDetailFromSummary(sentimentRow);
 
     const latestHeadline = await env.DB.prepare(
@@ -1114,7 +1156,7 @@ async function getAnalysisUniverse(env) {
         END DESC
       LIMIT 1
       `
-    ).bind(ticker).first();
+    ).bind(ticker).first().catch(() => null);
 
     const filingStats = await env.DB.prepare(
       `

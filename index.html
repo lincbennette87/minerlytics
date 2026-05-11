@@ -1083,8 +1083,14 @@ function clearChat(){
         headers: { accept: "application/json" },
         cache: "no-store"
       });
+      if(!res.ok){
+        throw new Error(`Trend API failed (${res.status})`);
+      }
       const data = await res.json();
       const items = Array.isArray(data.tickers) ? data.tickers : [];
+      if(!items.length){
+        throw new Error("Trend API returned no market series");
+      }
       series = items;
       sourceLabel = String(data?.source || "");
       statusEl.textContent = items.length
