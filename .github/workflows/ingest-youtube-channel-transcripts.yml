@@ -11,19 +11,28 @@ on:
         description: "How many recent videos per channel to check"
         required: false
         default: "3"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/ingest-youtube-channel-transcripts.yml"
+      - "scripts/ingest_youtube_channels_transcripts.py"
+      - "src/index.js"
   schedule:
     - cron: "0 12 * * *"
 
 jobs:
   ingest:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
