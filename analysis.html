@@ -613,9 +613,8 @@
         <div class="eyebrow">Minerlytics Analysis</div>
         <h1>Compare Mining Companies With Faster, Cleaner Filters</h1>
         <p>
-          Explore miners by metal, stage, production tier, and jurisdiction risk in one unified analysis workspace.
-          This page is designed to make switching between names and narrowing the universe feel quick, consistent,
-          and decision-oriented.
+          Explore miners by metal, stage, momentum, news sentiment, and disclosure activity in one unified analysis workspace.
+          This page now pulls live market and platform data so the screen reflects what is actually moving the names in view.
         </p>
       </div>
 
@@ -623,8 +622,8 @@
         <div class="legend-box">
           <h3>Quick Filter Ideas</h3>
           <div class="legend-item"><span>Stage</span><strong>Producer / Developer / Exploration</strong></div>
-          <div class="legend-item"><span>Tier</span><strong>Super Major → Exploration</strong></div>
-          <div class="legend-item"><span>Risk</span><strong>Low / Moderate / High</strong></div>
+          <div class="legend-item"><span>Momentum</span><strong>Strong / Neutral / Weak</strong></div>
+          <div class="legend-item"><span>Sentiment</span><strong>Bullish / Mixed / Bearish</strong></div>
           <div class="legend-item"><span>Metal</span><strong>Gold / Silver</strong></div>
         </div>
       </div>
@@ -638,21 +637,21 @@
       </div>
 
       <div class="stat-card">
-        <div class="stat-label">Gold Names</div>
+        <div class="stat-label">Positive 30D</div>
         <div class="stat-value" id="goldCount">0</div>
-        <div class="stat-sub">Filtered gold companies in view.</div>
+        <div class="stat-sub">Companies with positive 30-day price performance.</div>
       </div>
 
       <div class="stat-card">
-        <div class="stat-label">Silver Names</div>
+        <div class="stat-label">Bullish News</div>
         <div class="stat-value" id="silverCount">0</div>
-        <div class="stat-sub">Filtered silver companies in view.</div>
+        <div class="stat-sub">Names showing bullish news sentiment bias.</div>
       </div>
 
       <div class="stat-card">
-        <div class="stat-label">High Risk</div>
+        <div class="stat-label">With Filings</div>
         <div class="stat-value" id="highRiskCount">0</div>
-        <div class="stat-sub">Filtered companies tagged high jurisdiction risk.</div>
+        <div class="stat-sub">Companies with mining disclosure records in the platform.</div>
       </div>
     </section>
 
@@ -660,8 +659,8 @@
       <aside class="sidebar">
         <h2 class="section-title">Filters</h2>
         <p class="section-sub">
-          Demo filter logic for your combined analysis page. User can select any combination and
-          all ticker cards update instantly.
+          Live analysis filters across Minerlytics market, news, and disclosure data. Select any combination and
+          the company cards will update instantly.
         </p>
 
         <div class="filter-group">
@@ -689,34 +688,32 @@
         </div>
 
         <div class="filter-group">
-          <label for="tierFilter">Production Tier</label>
+          <label for="tierFilter">Momentum</label>
           <select id="tierFilter">
-            <option value="">All Tiers</option>
-            <option value="Super Major">Super Major</option>
-            <option value="Major">Major</option>
-            <option value="Mid-Tier">Mid-Tier</option>
-            <option value="Junior">Junior</option>
-            <option value="Exploration">Exploration</option>
+            <option value="">All Momentum</option>
+            <option value="Strong">Strong</option>
+            <option value="Neutral">Neutral</option>
+            <option value="Weak">Weak</option>
           </select>
         </div>
 
         <div class="filter-group">
-          <label for="riskFilter">Jurisdiction Risk</label>
+          <label for="riskFilter">News Sentiment</label>
           <select id="riskFilter">
-            <option value="">All Risk Levels</option>
-            <option value="Low">Low</option>
-            <option value="Moderate">Moderate</option>
-            <option value="High">High</option>
+            <option value="">All Sentiment</option>
+            <option value="Bullish">Bullish</option>
+            <option value="Mixed">Mixed</option>
+            <option value="Bearish">Bearish</option>
           </select>
         </div>
 
         <div class="filter-group">
-          <label>Quick Risk Chips</label>
+          <label>Quick Sentiment Chips</label>
           <div class="chip-row" id="riskChips">
             <div class="chip" data-risk="">All</div>
-            <div class="chip" data-risk="Low">Low</div>
-            <div class="chip" data-risk="Moderate">Moderate</div>
-            <div class="chip" data-risk="High">High</div>
+            <div class="chip" data-risk="Bullish">Bullish</div>
+            <div class="chip" data-risk="Mixed">Mixed</div>
+            <div class="chip" data-risk="Bearish">Bearish</div>
           </div>
         </div>
 
@@ -727,47 +724,38 @@
 
         <div class="classification-section">
           <div class="info-card">
-            <h3>Gold Production Tiers</h3>
+            <h3>Momentum Buckets</h3>
             <ul>
-              <li>Super Major: ≥ 2M oz</li>
-              <li>Major: ≥ 1M and &lt; 2M oz</li>
-              <li>Mid-Tier: ≥ 300k and &lt; 1M oz</li>
-              <li>Junior: &lt; 300k oz</li>
-              <li>Exploration: no production</li>
+              <li>Strong: 30-day change above 8%</li>
+              <li>Neutral: between -8% and +8%</li>
+              <li>Weak: 30-day change below -8%</li>
             </ul>
           </div>
 
           <div class="info-card">
-            <h3>Silver Production Tiers</h3>
+            <h3>Sentiment Buckets</h3>
             <ul>
-              <li>Super Major: ≥ 40M oz</li>
-              <li>Major: ≥ 15M and &lt; 40M oz</li>
-              <li>Mid-Tier: ≥ 2M and &lt; 15M oz</li>
-              <li>Junior: &lt; 2M oz</li>
-              <li>Exploration: no production</li>
+              <li>Bullish: bullish news share above bearish share</li>
+              <li>Mixed: balanced or limited signal</li>
+              <li>Bearish: bearish news share above bullish share</li>
             </ul>
           </div>
 
           <div class="info-card">
-            <h3>Low Risk Countries</h3>
+            <h3>Live Market Metrics</h3>
             <ul>
-              <li>Canada</li>
-              <li>Australia</li>
-              <li>United States / USA</li>
+              <li>Last price and daily change</li>
+              <li>30-day performance</li>
+              <li>6-month performance</li>
             </ul>
           </div>
 
           <div class="info-card">
-            <h3>Moderate Risk Countries</h3>
+            <h3>Platform Coverage Signals</h3>
             <ul>
-              <li>Mexico</li>
-              <li>Chile</li>
-              <li>Peru</li>
-              <li>Brazil</li>
-              <li>Botswana</li>
-              <li>Ghana</li>
-              <li>South Africa</li>
-              <li>All others: High Risk</li>
+              <li>News sentiment summary</li>
+              <li>Latest headline stored in Minerlytics</li>
+              <li>Mining filings and transcript coverage counts</li>
             </ul>
           </div>
         </div>
@@ -777,7 +765,7 @@
         <div class="toolbar">
           <div class="toolbar-left">
             <h2>Analysis Results</h2>
-            <p>Merged analysis view with demo mining classifications and live filtering.</p>
+            <p>Live Minerlytics market, news, and disclosure view with filterable company cards.</p>
           </div>
 
           <div class="toolbar-right">
@@ -792,158 +780,15 @@
         </div>
 
         <div class="footer-note">
-          Demo values only for UI testing. Replace the sample dataset with your Minerlytics API or D1-backed data later.
+          Market values use live quote and history feeds with Minerlytics news and disclosure data layered on top.
         </div>
       </main>
     </section>
   </div>
 
   <script>
-    const TICKER_DATA = [
-      {
-        symbol: "AEM",
-        name: "Agnico Eagle Mines",
-        metal: "gold",
-        production: 3200000,
-        stage: "producer",
-        country: "Canada",
-        mines: 11,
-        notes: "Low-risk senior gold producer"
-      },
-      {
-        symbol: "NEM",
-        name: "Newmont",
-        metal: "gold",
-        production: 5500000,
-        stage: "producer",
-        country: "USA",
-        mines: 12,
-        notes: "Global super major gold company"
-      },
-      {
-        symbol: "GFI",
-        name: "Gold Fields",
-        metal: "gold",
-        production: 2300000,
-        stage: "producer",
-        country: "South Africa",
-        mines: 9,
-        notes: "Large producer with moderate risk jurisdiction exposure"
-      },
-      {
-        symbol: "WPM",
-        name: "Wheaton Precious Metals",
-        metal: "silver",
-        production: 18000000,
-        stage: "producer",
-        country: "Canada",
-        mines: 8,
-        notes: "Silver major demo classification"
-      },
-      {
-        symbol: "HL",
-        name: "Hecla Mining",
-        metal: "silver",
-        production: 17000000,
-        stage: "producer",
-        country: "USA",
-        mines: 5,
-        notes: "US-focused silver major"
-      },
-      {
-        symbol: "CDE",
-        name: "Coeur Mining",
-        metal: "silver",
-        production: 14000000,
-        stage: "producer",
-        country: "Mexico",
-        mines: 4,
-        notes: "Silver mid-tier near major threshold"
-      },
-      {
-        symbol: "EXK",
-        name: "Endeavour Silver",
-        metal: "silver",
-        production: 7000000,
-        stage: "producer",
-        country: "Mexico",
-        mines: 3,
-        notes: "Silver mid-tier with moderate risk"
-      },
-      {
-        symbol: "PAAS",
-        name: "Pan American Silver",
-        metal: "silver",
-        production: 21000000,
-        stage: "producer",
-        country: "Peru",
-        mines: 7,
-        notes: "Silver major demo example"
-      },
-      {
-        symbol: "PZG",
-        name: "Paramount Gold Nevada",
-        metal: "gold",
-        production: 0,
-        stage: "developer",
-        country: "USA",
-        mines: 1,
-        notes: "Gold developer with no production"
-      },
-      {
-        symbol: "HYMC",
-        name: "Hycroft Mining",
-        metal: "gold",
-        production: 0,
-        stage: "exploration",
-        country: "USA",
-        mines: 1,
-        notes: "Exploration-stage demo name"
-      },
-      {
-        symbol: "DSVSF",
-        name: "Discovery Silver",
-        metal: "silver",
-        production: 0,
-        stage: "developer",
-        country: "Mexico",
-        mines: 1,
-        notes: "Developer silver name"
-      },
-      {
-        symbol: "GAYMF",
-        name: "Galane Gold",
-        metal: "gold",
-        production: 145000,
-        stage: "producer",
-        country: "Botswana",
-        mines: 2,
-        notes: "Gold junior producer"
-      },
-      {
-        symbol: "PZGX",
-        name: "Andean Gold Demo",
-        metal: "gold",
-        production: 620000,
-        stage: "producer",
-        country: "Chile",
-        mines: 2,
-        notes: "Gold mid-tier demo name"
-      },
-      {
-        symbol: "SVJR",
-        name: "Sierra Plata Demo",
-        metal: "silver",
-        production: 900000,
-        stage: "producer",
-        country: "Argentina",
-        mines: 1,
-        notes: "Silver junior high-risk demo"
-      }
-    ];
-
-    const LOW_RISK = ["Canada", "Australia", "United States", "USA"];
-    const MODERATE_RISK = ["Mexico", "Chile", "Peru", "Brazil", "Botswana", "Ghana", "South Africa"];
+    const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+    let ANALYSIS_DATA = [];
 
     const searchInput = document.getElementById("searchInput");
     const metalFilter = document.getElementById("metalFilter");
@@ -965,45 +810,54 @@
       return new Intl.NumberFormat("en-US").format(num);
     }
 
-    function getGoldTier(prod) {
-      if (prod >= 2000000) return "Super Major";
-      if (prod >= 1000000) return "Major";
-      if (prod >= 300000) return "Mid-Tier";
-      if (prod > 0) return "Junior";
-      return "Exploration";
+    function formatPrice(value) {
+      return Number.isFinite(Number(value)) ? `$${Number(value).toFixed(2)}` : "N/A";
     }
 
-    function getSilverTier(prod) {
-      if (prod >= 40000000) return "Super Major";
-      if (prod >= 15000000) return "Major";
-      if (prod >= 2000000) return "Mid-Tier";
-      if (prod > 0) return "Junior";
-      return "Exploration";
+    function formatPct(value) {
+      const num = Number(value);
+      if (!Number.isFinite(num)) return "N/A";
+      const sign = num > 0 ? "+" : "";
+      return `${sign}${num.toFixed(2)}%`;
     }
 
-    function getRisk(country) {
-      if (LOW_RISK.includes(country)) return "Low";
-      if (MODERATE_RISK.includes(country)) return "Moderate";
-      return "High";
+    function formatDate(value) {
+      if (!value) return "N/A";
+      const d = new Date(value);
+      if (Number.isNaN(d.getTime())) return String(value);
+      return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
     }
 
-    function enrichTicker(ticker) {
-      const tier = ticker.metal === "gold"
-        ? getGoldTier(ticker.production)
-        : getSilverTier(ticker.production);
+    function getMomentumBucket(perf30) {
+      const pct = Number(perf30?.change_pct);
+      if (!Number.isFinite(pct)) return "Neutral";
+      if (pct > 8) return "Strong";
+      if (pct < -8) return "Weak";
+      return "Neutral";
+    }
 
+    function getSentimentBucket(item) {
+      const bullish = Number(item.bullish_pct);
+      const bearish = Number(item.bearish_pct);
+      const mentions = Number(item.news_mentions || 0);
+      if (!mentions || (!Number.isFinite(bullish) && !Number.isFinite(bearish))) return "Mixed";
+      if (bullish > bearish) return "Bullish";
+      if (bearish > bullish) return "Bearish";
+      return "Mixed";
+    }
+
+    function enrichItem(item) {
       return {
-        ...ticker,
-        tier,
-        risk: getRisk(ticker.country)
+        ...item,
+        symbol: item.ticker,
+        momentum: getMomentumBucket(item.perf_30d),
+        sentiment: getSentimentBucket(item),
       };
     }
 
-    const ENRICHED_DATA = TICKER_DATA.map(enrichTicker);
-
-    function getRiskClass(risk) {
-      if (risk === "Low") return "risk-low";
-      if (risk === "Moderate") return "risk-moderate";
+    function getRiskClass(sentiment) {
+      if (sentiment === "Bullish") return "risk-low";
+      if (sentiment === "Mixed") return "risk-moderate";
       return "risk-high";
     }
 
@@ -1030,31 +884,55 @@
           </div>
 
           <div class="badges">
-            <span class="badge tier-badge">${t.tier}</span>
-            <span class="badge ${getRiskClass(t.risk)}">${t.risk} Risk</span>
+            <span class="badge tier-badge">${t.momentum} Momentum</span>
+            <span class="badge ${getRiskClass(t.sentiment)}">${t.sentiment} Sentiment</span>
             <span class="badge stage-badge">${capitalize(t.stage)}</span>
           </div>
 
           <div class="card-stats">
             <div class="mini-stat">
-              <div class="mini-stat-label">Production</div>
-              <div class="mini-stat-value">${t.production > 0 ? formatNumber(t.production) + " oz" : "No production"}</div>
+              <div class="mini-stat-label">Last Price</div>
+              <div class="mini-stat-value">${formatPrice(t.latest_close)}</div>
             </div>
 
             <div class="mini-stat">
-              <div class="mini-stat-label">Country</div>
-              <div class="mini-stat-value">${t.country}</div>
+              <div class="mini-stat-label">1D Change</div>
+              <div class="mini-stat-value">${formatPct(t.day_change_pct)}</div>
             </div>
 
             <div class="mini-stat">
-              <div class="mini-stat-label">Operating Mines</div>
-              <div class="mini-stat-value">${t.mines}</div>
+              <div class="mini-stat-label">30D Perf</div>
+              <div class="mini-stat-value">${formatPct(t.perf_30d?.change_pct)}</div>
             </div>
 
             <div class="mini-stat">
-              <div class="mini-stat-label">Category</div>
-              <div class="mini-stat-value">${t.notes}</div>
+              <div class="mini-stat-label">6M Perf</div>
+              <div class="mini-stat-value">${formatPct(t.perf_180d?.change_pct)}</div>
             </div>
+
+            <div class="mini-stat">
+              <div class="mini-stat-label">News Mentions</div>
+              <div class="mini-stat-value">${formatNumber(t.news_mentions || 0)}</div>
+            </div>
+
+            <div class="mini-stat">
+              <div class="mini-stat-label">Bullish / Bearish</div>
+              <div class="mini-stat-value">${formatPct(t.bullish_pct)} / ${formatPct(t.bearish_pct)}</div>
+            </div>
+
+            <div class="mini-stat">
+              <div class="mini-stat-label">Filings / Transcripts</div>
+              <div class="mini-stat-value">${formatNumber(t.filing_count || 0)} / ${formatNumber(t.transcript_count || 0)}</div>
+            </div>
+
+            <div class="mini-stat">
+              <div class="mini-stat-label">Latest Filing</div>
+              <div class="mini-stat-value">${formatDate(t.latest_filing_date)}</div>
+            </div>
+          </div>
+          <div style="margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.06);color:var(--muted);font-size:13px;line-height:1.5;">
+            <strong style="color:var(--text);display:block;margin-bottom:6px;">Latest headline</strong>
+            ${t.latest_news_title || "No recent Minerlytics news item stored yet."}
           </div>
         `;
         cardsEl.appendChild(card);
@@ -1068,9 +946,9 @@
 
     function updateSummary(data) {
       visibleCount.textContent = data.length;
-      goldCount.textContent = data.filter(d => d.metal === "gold").length;
-      silverCount.textContent = data.filter(d => d.metal === "silver").length;
-      highRiskCount.textContent = data.filter(d => d.risk === "High").length;
+      goldCount.textContent = data.filter(d => Number(d?.perf_30d?.change_pct) > 0).length;
+      silverCount.textContent = data.filter(d => d.sentiment === "Bullish").length;
+      highRiskCount.textContent = data.filter(d => Number(d.filing_count || 0) > 0).length;
       resultMeta.textContent = `Showing ${data.length} result${data.length === 1 ? "" : "s"}`;
     }
 
@@ -1087,17 +965,18 @@
     function applyFilters() {
       const { search, metal, stage, tier, risk } = getFilters();
 
-      const filtered = ENRICHED_DATA.filter((t) => {
+      const filtered = ANALYSIS_DATA.filter((t) => {
         const matchesSearch =
           !search ||
           t.symbol.toLowerCase().includes(search) ||
           t.name.toLowerCase().includes(search) ||
-          t.country.toLowerCase().includes(search);
+          t.country.toLowerCase().includes(search) ||
+          String(t.latest_news_title || "").toLowerCase().includes(search);
 
         const matchesMetal = !metal || t.metal === metal;
         const matchesStage = !stage || t.stage === stage;
-        const matchesTier = !tier || t.tier === tier;
-        const matchesRisk = !risk || t.risk === risk;
+        const matchesTier = !tier || t.momentum === tier;
+        const matchesRisk = !risk || t.sentiment === risk;
 
         return matchesSearch && matchesMetal && matchesStage && matchesTier && matchesRisk;
       });
@@ -1122,6 +1001,30 @@
       if (allChip) allChip.classList.add("active");
     }
 
+    async function loadAnalysisData() {
+      resultMeta.textContent = "Loading live analysis data...";
+      cardsEl.innerHTML = "";
+      emptyState.style.display = "none";
+
+      try {
+        const res = await fetch(API_BASE + "/api/analysis/overview", {
+          headers: { accept: "application/json" },
+          cache: "no-store",
+        });
+        const payload = await res.json();
+        const items = Array.isArray(payload.items) ? payload.items : [];
+        ANALYSIS_DATA = items.map(enrichItem);
+        applyFilters();
+      } catch (err) {
+        console.error("ANALYSIS LOAD ERROR:", err);
+        ANALYSIS_DATA = [];
+        cardsEl.innerHTML = "";
+        emptyState.style.display = "block";
+        emptyState.textContent = "Could not load live analysis data right now. Please try again shortly.";
+        updateSummary([]);
+      }
+    }
+
     applyBtn.addEventListener("click", applyFilters);
     resetBtn.addEventListener("click", resetFilters);
 
@@ -1140,7 +1043,7 @@
     });
 
     clearActiveChips();
-    applyFilters();
+    loadAnalysisData();
   </script>
   <script src="./js/auth-ui.js"></script>
 </body>

@@ -221,6 +221,18 @@ function buildTickerAliasMap() {
 
 const TICKER_ALIAS_MAP = buildTickerAliasMap();
 
+const ANALYSIS_UNIVERSE = [
+  { ticker: "AEM", metal: "gold", stage: "producer", country: "Canada" },
+  { ticker: "GFI", metal: "gold", stage: "producer", country: "South Africa" },
+  { ticker: "PZG", metal: "gold", stage: "developer", country: "USA" },
+  { ticker: "GAYMF", metal: "gold", stage: "producer", country: "Botswana" },
+  { ticker: "HYMC", metal: "gold", stage: "exploration", country: "USA" },
+  { ticker: "WPM", metal: "silver", stage: "producer", country: "Canada" },
+  { ticker: "HL", metal: "silver", stage: "producer", country: "USA" },
+  { ticker: "CDE", metal: "silver", stage: "producer", country: "Mexico" },
+  { ticker: "DSVSF", metal: "silver", stage: "developer", country: "Mexico" },
+];
+
 function resolveTickerFromQuestion(question) {
   const raw = String(question || "").trim();
   if (!raw) return null;
@@ -1045,6 +1057,121 @@ function summarizeMarketData(latest, previous, series) {
   return out;
 }
 
+function computeWindowPerformance(points, lookbackDays) {
+  const arr = Array.isArray(points) ? points : [];
+  if (arr.length < 2) return null;
+
+  const safeLookback = Math.min(Math.max(Number(lookbackDays || 30), 1), arr.length - 1);
+  const latest = arr[arr.length - 1];
+  const base = arr[Math.max(0, arr.length - 1 - safeLookback)];
+  const latestClose = Number(latest?.close);
+  const baseClose = Number(base?.close);
+
+  if (!Number.isFinite(latestClose) || !Number.isFinite(baseClose) || baseClose === 0) {
+    return null;
+  }
+
+  const change = latestClose - baseClose;
+  const pct = (change / baseClose) * 100;
+  return {
+    days: safeLookback,
+    base_date: base?.date || null,
+    latest_date: latest?.date || null,
+    change: Number(change.toFixed(4)),
+    change_pct: Number(pct.toFixed(2)),
+  };
+}
+
+async function getAnalysisUniverse(env) {
+  const items = [];
+
+  for (const meta of ANALYSIS_UNIVERSE) {
+    const ticker = String(meta.ticker || "").toUpperCase().trim();
+    if (!ticker) continue;
+
+    const seriesBase = await getTrendSeriesForTickers(env, [ticker], 180);
+    const seriesItem = seriesBase[0] ? await enrichTrendSeriesWithLatestQuotes(seriesBase) : [];
+    const market = Array.isArray(seriesItem) && seriesItem[0] ? seriesItem[0] : null;
+    const points = market?.points || [];
+
+    const perf30 = computeWindowPerformance(points, 30);
+    const perf180 = computeWindowPerformance(points, 180);
+
+    const sentimentRow = await env.DB.prepare(
+      "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
+    ).bind(ticker).first();
+    const news = buildNewsDetailFromSummary(sentimentRow);
+
+    const latestHeadline = await env.DB.prepare(
+      `
+      SELECT title, source, published_at, fetched_at, link
+      FROM news_items
+      WHERE ticker = ?
+      ORDER BY
+        CASE
+          WHEN published_at IS NOT NULL AND published_at != '' THEN published_at
+          ELSE fetched_at
+        END DESC
+      LIMIT 1
+      `
+    ).bind(ticker).first();
+
+    const filingStats = await env.DB.prepare(
+      `
+      SELECT
+        COUNT(*) AS filing_count,
+        MAX(filing_date) AS latest_filing_date
+      FROM mining_reports
+      WHERE ticker = ?
+      `
+    ).bind(ticker).first().catch(() => null);
+
+    const transcriptStats = await env.DB.prepare(
+      `
+      SELECT COUNT(DISTINCT ys.video_id) AS transcript_count
+      FROM youtube_video_symbols ys
+      WHERE ys.symbol = ?
+      `
+    ).bind(ticker).first().catch(() => null);
+
+    items.push({
+      ticker,
+      name: TICKERS[ticker]?.name || ticker,
+      metal: meta.metal,
+      stage: meta.stage,
+      country: meta.country,
+      latest_close: market?.latest_close ?? null,
+      previous_close: market?.previous_close ?? null,
+      day_change: market?.day_change ?? null,
+      day_change_pct: market?.day_change_pct ?? null,
+      perf_30d: perf30,
+      perf_180d: perf180,
+      point_count: points.length,
+      market_source: market?.source || null,
+      live_quote_time: market?.live_quote?.time || null,
+      news_mentions: news?.total || 0,
+      bullish_pct: news?.bullish_pct ?? null,
+      bearish_pct: news?.bearish_pct ?? null,
+      latest_news_title: latestHeadline?.title || "",
+      latest_news_source: latestHeadline?.source || "",
+      latest_news_at: latestHeadline?.published_at || latestHeadline?.fetched_at || null,
+      latest_news_link: latestHeadline?.link || "",
+      filing_count: Number(filingStats?.filing_count || 0),
+      latest_filing_date: filingStats?.latest_filing_date || null,
+      transcript_count: Number(transcriptStats?.transcript_count || 0),
+    });
+  }
+
+  return items.sort((a, b) => {
+    const aPerf = Number(a?.perf_30d?.change_pct);
+    const bPerf = Number(b?.perf_30d?.change_pct);
+    if (Number.isFinite(aPerf) && Number.isFinite(bPerf) && aPerf !== bPerf) {
+      return bPerf - aPerf;
+    }
+    return String(a.ticker).localeCompare(String(b.ticker));
+  });
+}
+
 function summarizeRssNews(rssItems) {
   const items = pickTopItems(rssItems, 8);
   return {
@@ -1837,6 +1964,15 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
           window_days: limitDays,
           source: usedFallback ? "live_history_with_d1_fallback" : "live_history_plus_live_quote",
           tickers: series
+        }, 200);
+      }
+
+      if (url.pathname === "/api/analysis/overview" && request.method === "GET") {
+        const items = await getAnalysisUniverse(env);
+        return json({
+          ok: true,
+          as_of: new Date().toISOString(),
+          items,
         }, 200);
       }
 
