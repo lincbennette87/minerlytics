@@ -323,6 +323,17 @@ function buildRssContext(results) {
   });
 }
 
+function isTechnicalReportQuestion(question = "") {
+  const q = String(question || "").toLowerCase();
+  return (
+    q.includes("technical report") ||
+    q.includes("technical reports") ||
+    q.includes("technical report summary") ||
+    /\btrs\b/.test(q) ||
+    q.includes("exhibit 96")
+  );
+}
+
 function extractSearchTerms(q, ticker) {
   const stopwords = new Set([
     "what", "which", "who", "when", "where", "why", "how",
@@ -338,6 +349,7 @@ function extractSearchTerms(q, ticker) {
 
   const upperTicker = String(ticker || "").toUpperCase().trim();
   const raw = String(q || "").toLowerCase();
+  const technicalReportQuestion = isTechnicalReportQuestion(raw);
 
   const words = raw
     .replace(/[^a-z0-9\s-]/g, " ")
@@ -346,6 +358,7 @@ function extractSearchTerms(q, ticker) {
     .filter(Boolean)
     .filter((s) => s.length >= 2)
     .filter((s) => !stopwords.has(s))
+    .filter((s) => !(technicalReportQuestion && ["technical", "report", "reports", "summary", "associated"].includes(s)))
     .filter((s) => s.toUpperCase() !== upperTicker);
 
   const terms = new Set(words);
@@ -369,6 +382,13 @@ function extractSearchTerms(q, ticker) {
     terms.add("10q");
     terms.add("form 10-q");
     terms.add("quarterly report");
+  }
+
+  if (technicalReportQuestion) {
+    terms.add("technical report");
+    terms.add("technical report summary");
+    terms.add("exhibit 96");
+    terms.add("trs");
   }
 
   return Array.from(terms).slice(0, 12);
@@ -417,14 +437,64 @@ async function getLatestDisclosureBlocksForTicker(env, ticker, limit = 12) {
   return buildDisclosureContext((rows && rows.results) || []);
 }
 
+async function getTechnicalReportMatches(env, ticker, limit = 12) {
+  const safeLimit = Math.min(Math.max(Number(limit || 12), 1), 50);
+  if (!ticker) return [];
+
+  const rows = await env.DB.prepare(
+    `
+    SELECT
+      r.ticker,
+      r.accession_number,
+      r.filing_date,
+      r.source_url,
+      r.form,
+      r.source_url AS primary_document,
+      COALESCE(b.heading, 'Technical Report Reference') AS heading,
+      b.text_content
+    FROM mining_report_blocks b
+    JOIN mining_reports r
+      ON r.id = b.report_id
+    WHERE r.ticker = ?
+      AND (
+        LOWER(COALESCE(b.heading, '')) LIKE '%technical report%'
+        OR LOWER(COALESCE(b.text_content, '')) LIKE '%technical report%'
+        OR LOWER(COALESCE(b.text_content, '')) LIKE '%technical report summary%'
+        OR LOWER(COALESCE(b.text_content, '')) LIKE '%exhibit 96%'
+        OR LOWER(COALESCE(b.text_content, '')) LIKE '%96.1%'
+        OR LOWER(COALESCE(b.text_content, '')) LIKE '%96.2%'
+        OR LOWER(COALESCE(b.text_content, '')) LIKE '%96.3%'
+        OR LOWER(COALESCE(b.text_content, '')) LIKE '%96.4%'
+        OR LOWER(COALESCE(b.text_content, '')) LIKE '%96.5%'
+        OR LOWER(COALESCE(b.text_content, '')) LIKE '%96.6%'
+        OR LOWER(COALESCE(b.text_content, '')) LIKE '%96.7%'
+        OR LOWER(COALESCE(b.text_content, '')) LIKE '%96.8%'
+        OR LOWER(COALESCE(b.text_content, '')) LIKE '%96.9%'
+      )
+    ORDER BY r.filing_date DESC, b.block_index ASC
+    LIMIT ?
+    `
+  ).bind(ticker, safeLimit).all();
+
+  return buildDisclosureContext((rows && rows.results) || []);
+}
+
 async function getMiningDisclosureMatches(env, ticker, q, limit = 20) {
   const safeLimit = Math.min(Math.max(Number(limit || 20), 1), 50);
   const terms = extractSearchTerms(q, ticker);
   const rawQ = String(q || "").trim().toLowerCase();
+  const technicalReportQuestion = isTechnicalReportQuestion(rawQ);
 
   let rows = { results: [] };
 
   const is40FQuery = /\b40\s*-?\s*f\b/i.test(rawQ) || /\b40f\b/i.test(rawQ);
+
+  if (ticker && technicalReportQuestion) {
+    const technicalMatches = await getTechnicalReportMatches(env, ticker, safeLimit);
+    if (technicalMatches.length > 0) {
+      return technicalMatches;
+    }
+  }
 
   if (ticker && terms.length) {
     const likeClauses = [];
@@ -938,6 +1008,7 @@ async function runAssistant(env, question, context) {
       .trim() || null;
 
   const filingQuestion = isFilingQuestion(question);
+  const technicalReportQuestion = isTechnicalReportQuestion(question);
 
   const normalizedContext = stableSortValue(context || {});
   const normalizedDataString = stableStringify(normalizedContext);
@@ -946,7 +1017,7 @@ async function runAssistant(env, question, context) {
     "You are Minerlytics AI.\n" +
     "You are an expert mining-sector research assistant.\n" +
     "You must answer ONLY from the provided DATA.\n" +
-    "You must produce a source-aware research memo that covers ALL relevant source categories available in DATA.\n\n" +
+    "Answer the user's exact question directly instead of expanding into a broad company memo unless the question explicitly asks for a broad summary.\n\n" +
 
     "CRITICAL RULES:\n" +
     "- If RESOLVED_TICKER exists, do not ask for a ticker.\n" +
@@ -964,9 +1035,8 @@ async function runAssistant(env, question, context) {
     "- When the same question and same DATA are provided, keep the same structure and phrasing as much as possible.\n\n" +
 
     "MANDATORY SOURCE COVERAGE RULE:\n" +
-    "- Inspect ALL source groups present in DATA.\n" +
-    "- If a source group is present and relevant, include it in the answer.\n" +
-    "- Never ignore an available source group just because another source is richer.\n" +
+    "- Inspect the source groups present in DATA and use only the ones needed to answer the exact question.\n" +
+    "- Do not add unrelated sections just because extra data is available.\n" +
     "- Keep source categories separate.\n" +
     "- Do not mix transcript commentary into SEC filing facts.\n" +
     "- Do not mix market data into disclosure facts.\n\n" +
@@ -987,18 +1057,28 @@ async function runAssistant(env, question, context) {
     "- DATA.source_coverage\n\n" +
 
     "OUTPUT FORMAT:\n" +
-    "1. 📌 Executive Summary\n" +
-    "2. 📄 Technical Reports / Mining Disclosure\n" +
-    "3. 📈 Market Data\n" +
-    "4. 📰 News / RSS\n" +
-    "5. 🎥 YouTube Transcripts\n" +
-    "6. 🔗 Cross-Source Takeaways\n" +
-    "7. ⚠️ Risks & Opportunities\n" +
-    "8. 🏷️ Sources Used\n" +
-    "9. 🧾 Disclaimer\n\n" +
+    (technicalReportQuestion
+      ? "1. 📄 Direct Answer\n" +
+        "2. 📚 Technical Reports Found\n" +
+        "3. 🏷️ Sources Used\n" +
+        "4. 🧾 Disclaimer\n\n"
+      : filingQuestion
+        ? "1. 📄 Direct Answer\n" +
+          "2. 📄 Filing / Disclosure Details\n" +
+          "3. 🏷️ Sources Used\n" +
+          "4. 🧾 Disclaimer\n\n"
+        : "1. 📌 Executive Summary\n" +
+          "2. 📄 Technical Reports / Mining Disclosure\n" +
+          "3. 📈 Market Data\n" +
+          "4. 📰 News / RSS\n" +
+          "5. 🎥 YouTube Transcripts\n" +
+          "6. 🔗 Cross-Source Takeaways\n" +
+          "7. ⚠️ Risks & Opportunities\n" +
+          "8. 🏷️ Sources Used\n" +
+          "9. 🧾 Disclaimer\n\n") +
 
     "SECTION RULES:\n" +
-    "- Include every relevant section supported by DATA.\n" +
+    "- Include only sections needed for the question.\n" +
     "- If a section has no available data, omit it.\n" +
     "- In Executive Summary, summarize only the most explicit points across available source groups.\n" +
     "- In Technical Reports / Mining Disclosure, use only DATA.sec_filings.\n" +
@@ -1021,11 +1101,15 @@ async function runAssistant(env, question, context) {
 
   const userPrompt =
     "IMPORTANT:\n" +
-    "- Cover all relevant source categories available in DATA.\n" +
-    "- Do not skip source groups that exist.\n" +
+    "- Answer the exact question asked.\n" +
+    "- Do not broaden the answer into unrelated company context.\n" +
+    "- Use only the minimum relevant source categories needed for the question.\n" +
     "- Do not ask for ticker if RESOLVED_TICKER is present.\n" +
     "- Keep the response deterministic and consistent for the same question and same DATA.\n" +
     "- Prefer extractive, factual wording over creative paraphrasing.\n" +
+    (technicalReportQuestion
+      ? "- This is a technical-report lookup. Focus on identifying technical reports or explicitly state that none were found in the provided filing data.\n"
+      : "") +
     (filingQuestion
       ? "- This is a filing-focused question. Prioritize DATA.sec_filings and explain the relevant filing/disclosure details first.\n"
       : "") +
@@ -1664,6 +1748,7 @@ VALUES (?, ?, ?, ?)`
           explicitTicker: providedSymbol,
           question: q,
         });
+        const filingQuestion = isFilingQuestion(q);
 
         const transcriptMatches = await getTranscriptMatches(env, resolvedTicker, q, limit);
         const filingMatches = await getMiningDisclosureMatches(env, resolvedTicker || null, q, limit);
@@ -1674,7 +1759,7 @@ VALUES (?, ?, ?, ?)`
         let stooqPrevious = null;
         let stooqSeries = [];
 
-        if (resolvedTicker) {
+        if (resolvedTicker && !filingQuestion) {
           rssItems = await getLatestRssItemsForTicker(env, resolvedTicker, 8);
 
           const sentimentRow = await env.DB.prepare(
@@ -1811,6 +1896,7 @@ VALUES (?, ?, ?, ?)`
           explicitSymbol: providedSymbol,
           question,
         });
+        const filingQuestion = isFilingQuestion(question);
 
         if (!resolvedTicker) {
           return json({
@@ -1821,16 +1907,25 @@ VALUES (?, ?, ?, ?)`
 
         const symbol = normalizeSymbolToStooqUS(resolvedTicker);
 
-        const stooqSeries = await getStooqSeriesForTicker(env, resolvedTicker, 60);
-        const latest = stooqSeries[0] || null;
-        const previous = stooqSeries.length > 1 ? stooqSeries[1] : null;
+        let stooqSeries = [];
+        let latest = null;
+        let previous = null;
+        let newsDetail = null;
+        let rssItems = [];
 
-        const sentimentRow = await env.DB.prepare(
-          "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
-        ).bind(resolvedTicker).first();
+        if (!filingQuestion) {
+          stooqSeries = await getStooqSeriesForTicker(env, resolvedTicker, 60);
+          latest = stooqSeries[0] || null;
+          previous = stooqSeries.length > 1 ? stooqSeries[1] : null;
 
-        const newsDetail = buildNewsDetailFromSummary(sentimentRow);
-        const rssItems = await getLatestRssItemsForTicker(env, resolvedTicker, 8);
+          const sentimentRow = await env.DB.prepare(
+            "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
+          ).bind(resolvedTicker).first();
+
+          newsDetail = buildNewsDetailFromSummary(sentimentRow);
+          rssItems = await getLatestRssItemsForTicker(env, resolvedTicker, 8);
+        }
+
         const transcriptMatches = await getTranscriptMatches(env, resolvedTicker, question || resolvedTicker, 25);
         const filingMatches = await getMiningDisclosureMatches(env, resolvedTicker, question || resolvedTicker, 25);
 
