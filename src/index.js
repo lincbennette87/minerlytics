@@ -44,6 +44,29 @@ function makeSessionCookie(sessionId) {
   return `minerlytics_session=${sessionId}; Path=/; Secure; SameSite=None; HttpOnly; Max-Age=${60 * 60 * 24 * 30}`;
 }
 
+async function sendSignupNotification(env, payload) {
+  const webhookUrl = String(env.SIGNUP_NOTIFICATION_WEBHOOK_URL || "").trim();
+  if (!webhookUrl) return { ok: false, skipped: true, reason: "missing_webhook" };
+
+  try {
+    const res = await fetch(webhookUrl, {
+      method: "POST",
+      headers: {
+        "content-type": "application/json"
+      },
+      body: JSON.stringify(payload)
+    });
+
+    if (!res.ok) {
+      return { ok: false, skipped: false, status: res.status };
+    }
+
+    return { ok: true };
+  } catch (err) {
+    return { ok: false, skipped: false, error: String(err) };
+  }
+}
+
 
 
 /* ============================
@@ -1681,6 +1704,26 @@ if (url.pathname === "/api/signup" && request.method === "POST") {
   await env.DB.prepare(
     "INSERT INTO sessions (id, user_id, created_at, expires_at) VALUES (?, ?, ?, ?)"
   ).bind(sessionId, userId, now, expiresAt).run();
+
+  const notificationPayload = {
+    event: "user_signup",
+    occurred_at: now,
+    app: "Minerlytics",
+    user: {
+      id: userId,
+      first_name: first,
+      last_name: last,
+      email: email.toLowerCase(),
+      display_name: `${first} ${last}`.trim()
+    }
+  };
+
+  // Keep signup reliable even if the notification destination is down.
+  try {
+    await sendSignupNotification(env, notificationPayload);
+  } catch {
+    // ignore notification failures
+  }
 
   return json(
   {
