@@ -23,8 +23,10 @@
     </nav>
 
     <div class="navRight">
-      <a class="btn btnGhost" href="./login.html">Sign In</a>
-      <a class="btn btnPrimary isActive" href="./signup.html">Join Minerlytics</a>
+      <div id="authNav" style="display:flex;align-items:center;gap:10px;">
+        <a class="btn btnGhost" href="./login.html">Sign In</a>
+        <a class="btn btnPrimary isActive" href="./signup.html">Join Minerlytics</a>
+      </div>
     </div>
   </header>
 
@@ -40,6 +42,12 @@
         </div>
 
         <div style="display:grid;gap:14px;">
+          <input id="firstName" type="text" placeholder="First name"
+            style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;outline:none;" />
+
+          <input id="lastName" type="text" placeholder="Last name"
+            style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;outline:none;" />
+
           <input id="email" type="email" placeholder="Email"
             style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;outline:none;" />
 
@@ -68,9 +76,16 @@
     async function signup() {
       const msg = document.getElementById("msg");
       const btn = document.getElementById("signupBtn");
+      const firstName = document.getElementById("firstName").value.trim();
+      const lastName = document.getElementById("lastName").value.trim();
       const email = document.getElementById("email").value.trim();
       const password = document.getElementById("password").value;
       const confirmPassword = document.getElementById("confirmPassword").value;
+
+      if (!firstName || !lastName) {
+        msg.textContent = "First and last name are required.";
+        return;
+      }
 
       if (password !== confirmPassword) {
         msg.textContent = "Passwords do not match.";
@@ -84,7 +99,7 @@
         const res = await fetch(API_BASE + "/api/signup", {
           method: "POST",
           headers: { "content-type": "application/json" },
-          body: JSON.stringify({ email, password }),
+          body: JSON.stringify({ firstName, lastName, email, password }),
           credentials: "include"
         });
 
@@ -104,7 +119,12 @@
         }
 
         msg.textContent = "Account created!";
-        localStorage.setItem("minerlytics_user_email", email);
+        window.MinerlyticsAuthUI?.setUserCache({
+          email,
+          first_name: data.first_name || firstName,
+          last_name: data.last_name || lastName,
+          display_name: data.display_name || `${firstName} ${lastName}`.trim()
+        });
         window.location.href = "./index.html";
       } catch (err) {
         console.error("SIGNUP ERROR:", err);
@@ -118,5 +138,6 @@
       if (event.key === "Enter") signup();
     });
   </script>
+  <script src="./js/auth-ui.js"></script>
 </body>
 </html>

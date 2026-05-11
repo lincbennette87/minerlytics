@@ -21,6 +21,25 @@ function getCookie(request, name) {
   return match ? decodeURIComponent(match[1]) : null;
 }
 
+function formatEmailName(email = "") {
+  const local = String(email || "").split("@")[0] || "";
+  return local
+    .replace(/[._-]+/g, " ")
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase())
+    .join(" ")
+    .trim();
+}
+
+function buildUserDisplayName(user = {}) {
+  const firstName = String(user.first_name || "").trim();
+  const lastName = String(user.last_name || "").trim();
+  const fullName = `${firstName} ${lastName}`.trim();
+  if (fullName) return fullName;
+  return formatEmailName(user.email || "") || "Minerlytics User";
+}
+
 function makeSessionCookie(sessionId) {
   return `minerlytics_session=${sessionId}; Path=/; Secure; SameSite=None; HttpOnly; Max-Age=${60 * 60 * 24 * 30}`;
 }
@@ -1156,10 +1175,12 @@ export default {
 
 // SIGNUP
 if (url.pathname === "/api/signup" && request.method === "POST") {
-  const { email, password } = await request.json();
+  const { firstName, lastName, email, password } = await request.json();
+  const first = String(firstName || "").trim();
+  const last = String(lastName || "").trim();
 
-  if (!email || !password)
-    return json({ ok: false, error: "Email and password required" }, 400);
+  if (!first || !last || !email || !password)
+    return json({ ok: false, error: "First name, last name, email, and password are required" }, 400);
 
   if (password.length < 6)
     return json({ ok: false, error: "Password must be at least 6 characters" }, 400);
@@ -1176,8 +1197,8 @@ if (url.pathname === "/api/signup" && request.method === "POST") {
   const now = new Date().toISOString();
 
   await env.DB.prepare(
-    "INSERT INTO users (id, email, password_hash, created_at) VALUES (?, ?, ?, ?)"
-  ).bind(userId, email.toLowerCase(), passwordHash, now).run();
+    "INSERT INTO users (id, first_name, last_name, email, password_hash, created_at) VALUES (?, ?, ?, ?, ?, ?)"
+  ).bind(userId, first, last, email.toLowerCase(), passwordHash, now).run();
 
   const sessionId = crypto.randomUUID();
   const expiresAt = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString();
@@ -1187,7 +1208,13 @@ if (url.pathname === "/api/signup" && request.method === "POST") {
   ).bind(sessionId, userId, now, expiresAt).run();
 
   return json(
-  { ok: true, email },
+  {
+    ok: true,
+    email,
+    first_name: first,
+    last_name: last,
+    display_name: `${first} ${last}`.trim()
+  },
   200,
   { "Set-Cookie": makeSessionCookie(sessionId) },
   request
@@ -1218,8 +1245,16 @@ if (url.pathname === "/api/login" && request.method === "POST") {
     "INSERT INTO sessions (id, user_id, created_at, expires_at) VALUES (?, ?, ?, ?)"
   ).bind(sessionId, user.id, now, expiresAt).run();
 
+  const displayName = buildUserDisplayName(user);
+
   return json(
-  { ok: true, email: user.email },
+  {
+    ok: true,
+    email: user.email,
+    first_name: user.first_name || "",
+    last_name: user.last_name || "",
+    display_name: displayName
+  },
   200,
   { "Set-Cookie": makeSessionCookie(sessionId) },
   request
@@ -1235,7 +1270,7 @@ if (url.pathname === "/api/change-password" && request.method === "POST") {
   }
 
   const sessionUser = await env.DB.prepare(`
-    SELECT users.id, users.email, users.password_hash
+    SELECT users.id, users.first_name, users.last_name, users.email, users.password_hash
     FROM sessions
     JOIN users ON users.id = sessions.user_id
     WHERE sessions.id = ? AND sessions.expires_at > ?
@@ -1289,7 +1324,7 @@ if (url.pathname === "/api/me" && request.method === "GET") {
     return json({ loggedIn: false });
 
   const user = await env.DB.prepare(`
-    SELECT users.id, users.email
+    SELECT users.id, users.first_name, users.last_name, users.email
     FROM sessions
     JOIN users ON users.id = sessions.user_id
     WHERE sessions.id = ? AND sessions.expires_at > ?
@@ -1302,7 +1337,10 @@ if (url.pathname === "/api/me" && request.method === "GET") {
     loggedIn: true,
     user: {
       id: user.id,
-      email: user.email
+      email: user.email,
+      first_name: user.first_name || "",
+      last_name: user.last_name || "",
+      display_name: buildUserDisplayName(user)
     }
   });
 }

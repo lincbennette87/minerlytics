@@ -22,8 +22,10 @@
     </nav>
 
     <div class="navRight">
-      <a class="btn btnGhost" href="./login.html">Sign In</a>
-      <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
+      <div id="authNav" style="display:flex;align-items:center;gap:10px;">
+        <a class="btn btnGhost" href="./login.html">Sign In</a>
+        <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
+      </div>
     </div>
   </header>
 
@@ -50,5 +52,6 @@
       window.location.href = "./signup.html?plan=" + encodeURIComponent(plan);
     }
   </script>
+  <script src="./js/auth-ui.js"></script>
 </body>
 </html>

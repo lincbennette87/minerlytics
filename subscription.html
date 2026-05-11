@@ -363,8 +363,10 @@
     </nav>
 
     <div class="navRight">
-      <a class="btn btnGhost" href="./login.html">Sign In</a>
-      <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
+      <div id="authNav" style="display:flex;align-items:center;gap:10px;">
+        <a class="btn btnGhost" href="./login.html">Sign In</a>
+        <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
+      </div>
     </div>
   </header>
 
@@ -492,7 +494,7 @@
     </section>
   </main>
 
-  <script>
+<script>
   function startPlan(plan) {
     localStorage.setItem("minerlytics_selected_plan", plan);
 
@@ -506,6 +508,7 @@
     window.location.href = "./payment.html?plan=" + encodeURIComponent(plan);
   }
 </script>
+<script src="./js/auth-ui.js"></script>
 
 </body>
 </html>
