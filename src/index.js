@@ -493,6 +493,49 @@ function isCapabilityQuestion(question = "") {
   );
 }
 
+function buildCapabilityAnswer(context = {}) {
+  const ticker = String(context?.resolved_ticker || context?.ticker || "")
+    .replace(/\.us$/i, "")
+    .toUpperCase()
+    .trim() || "this company";
+
+  const marketAvailable = !!context?.market_data?.latest || (context?.market_data?.observations || []).length > 0;
+  const newsAvailable = !!context?.news_sentiment || (context?.rss_news?.item_count || 0) > 0;
+  const filingsAvailable = (context?.sec_filings?.item_count || 0) > 0;
+  const transcriptsAvailable = (context?.youtube_transcripts?.item_count || 0) > 0;
+
+  const sourceLabels = [];
+  if (marketAvailable) sourceLabels.push("market data");
+  if (newsAvailable) sourceLabels.push("news sentiment and RSS");
+  if (filingsAvailable) sourceLabels.push("filings / mining disclosure");
+  if (transcriptsAvailable) sourceLabels.push("YouTube transcripts");
+
+  const prompts = [
+    `What does recent market performance look like for ${ticker}?`,
+    `How has ${ticker} performed over the last 30 days and 6 months?`,
+    `What does recent news sentiment say about ${ticker}?`,
+    `What are the latest headlines associated with ${ticker}?`,
+    `What filings or mining disclosures mention ${ticker}?`,
+    `What technical reports are associated with ${ticker}?`,
+    `What do recent transcript discussions say about ${ticker}?`,
+    `What are the main risks and opportunities for ${ticker} based on the available data?`,
+  ];
+
+  return [
+    "✅ What You Can Ask",
+    `You can ask about ${ticker}'s market performance, news sentiment, filings / technical reports, and transcript commentary using the data currently available in Minerlytics.`,
+    "",
+    "💡 Good Questions to Try",
+    ...prompts.map((prompt) => `- ${prompt}`),
+    "",
+    "🏷️ Sources Available",
+    sourceLabels.length ? `- ${sourceLabels.join("\n- ")}` : "- Not available",
+    "",
+    "🧾 Disclaimer",
+    "this information is for research purposes only and does not constitute investment advice.",
+  ].join("\n");
+}
+
 async function getLatestDisclosureBlocksForTicker(env, ticker, limit = 12) {
   const safeLimit = Math.min(Math.max(Number(limit || 12), 1), 50);
   if (!ticker) return [];
@@ -2487,6 +2530,7 @@ VALUES (?, ?, ?, ?)`
           favoriteTickers,
         });
         const filingQuestion = isFilingQuestion(question);
+        const capabilityQuestion = isCapabilityQuestion(question);
 
         if (!resolvedTicker) {
           const favoriteHint = favoriteTickers.length
@@ -2533,6 +2577,28 @@ VALUES (?, ?, ?, ?)`
           filingMatches,
           transcriptMatches,
         });
+
+        if (capabilityQuestion) {
+          return json({
+            symbol,
+            ticker: resolvedTicker,
+            answer: buildCapabilityAnswer(context),
+            context,
+            youtube_matches: transcriptMatches,
+            sec_filing_matches: filingMatches,
+            rss_items: rssItems,
+            stooq_latest: latest,
+            stooq_series: stooqSeries,
+            source_sections: buildSourceSections({
+              latest,
+              series: stooqSeries,
+              news: newsDetail,
+              rss_items: rssItems,
+              sec_filings: filingMatches,
+              youtube_transcripts: transcriptMatches,
+            }),
+          });
+        }
 
         const answer = await runAssistant(env, question, context);
 
