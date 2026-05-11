@@ -69,12 +69,9 @@
     }
 
     .hero {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 20px;
-      margin-bottom: 22px;
-      padding: 28px;
+      display: block;
+      margin-bottom: 18px;
+      padding: 24px;
       background: linear-gradient(135deg, rgba(11,19,42,.56), rgba(10,18,39,.82));
       border: 1px solid var(--border);
       border-radius: 24px;
@@ -129,54 +126,20 @@
       max-width: 760px;
     }
 
-    .hero-right {
-      min-width: 250px;
-      z-index: 1;
-    }
-
-    .legend-box {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 16px;
-      backdrop-filter: blur(8px);
-    }
-
-    .legend-box h3 {
-      margin: 0 0 12px;
-      font-size: 14px;
-      color: var(--text);
-    }
-
-    .legend-item {
-      display: flex;
-      justify-content: space-between;
-      gap: 12px;
-      font-size: 13px;
-      color: var(--muted);
-      padding: 7px 0;
-      border-bottom: 1px dashed rgba(255,255,255,0.06);
-    }
-
-    .legend-item:last-child {
-      border-bottom: none;
-      padding-bottom: 0;
-    }
-
     .grid-stats {
       display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 16px;
-      margin-bottom: 20px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
     }
 
     .stat-card {
       background: linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.025));
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 18px;
+      padding: 16px;
       box-shadow: var(--shadow);
-      min-height: 112px;
+      min-height: 96px;
     }
 
     .stat-label {
@@ -202,8 +165,8 @@
 
     .layout {
       display: grid;
-      grid-template-columns: 320px 1fr;
-      gap: 20px;
+      grid-template-columns: 280px 1fr;
+      gap: 16px;
       align-items: start;
     }
 
@@ -216,7 +179,7 @@
     }
 
     .sidebar {
-      padding: 20px;
+      padding: 18px;
       position: sticky;
       top: 16px;
     }
@@ -357,17 +320,17 @@
 
     .cards {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 16px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
     }
 
     .ticker-card {
       background: linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.02));
       border: 1px solid var(--border);
       border-radius: 18px;
-      padding: 18px;
+      padding: 16px;
       transition: transform 0.18s ease, border-color 0.18s ease;
-      min-height: 220px;
+      min-height: 0;
     }
 
     .ticker-card:hover {
@@ -420,7 +383,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
-      margin: 14px 0;
+      margin: 12px 0 14px;
     }
 
     .badge {
@@ -462,9 +425,37 @@
       border-color: rgba(124,92,255,.28);
     }
 
+    .price-row {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .price-value {
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 1;
+      color: #fff;
+    }
+
+    .price-delta {
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .price-delta.up {
+      color: var(--green);
+    }
+
+    .price-delta.down {
+      color: var(--red);
+    }
+
     .card-stats {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 10px;
       margin-top: 8px;
     }
@@ -473,7 +464,7 @@
       background: rgba(255,255,255,0.035);
       border: 1px solid rgba(255,255,255,0.06);
       border-radius: 12px;
-      padding: 12px;
+      padding: 10px 12px;
     }
 
     .mini-stat-label {
@@ -500,35 +491,8 @@
       margin-top: 10px;
     }
 
-    .classification-section {
-      margin-top: 20px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-    }
-
-    .info-card {
-      background: rgba(255,255,255,0.03);
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 18px;
-    }
-
-    .info-card h3 {
-      margin: 0 0 10px;
-      font-size: 16px;
-    }
-
-    .info-card ul {
-      margin: 0;
-      padding-left: 18px;
-      color: var(--muted);
-      line-height: 1.8;
-      font-size: 14px;
-    }
-
     .footer-note {
-      margin-top: 20px;
+      margin-top: 18px;
       font-size: 12px;
       color: var(--muted);
       line-height: 1.6;
@@ -537,10 +501,6 @@
     }
 
     @media (max-width: 1180px) {
-      .cards {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-
       .grid-stats {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
@@ -555,10 +515,6 @@
         position: static;
       }
 
-      .classification-section {
-        grid-template-columns: 1fr;
-      }
-
       .hero {
         flex-direction: column;
       }
@@ -566,7 +522,8 @@
 
     @media (max-width: 680px) {
       .cards,
-      .grid-stats {
+      .grid-stats,
+      .card-stats {
         grid-template-columns: 1fr;
       }
 
@@ -613,19 +570,8 @@
         <div class="eyebrow">Minerlytics Analysis</div>
         <h1>Compare Mining Companies With Faster, Cleaner Filters</h1>
         <p>
-          Explore miners by metal, stage, momentum, news sentiment, and disclosure activity in one unified analysis workspace.
-          This page now pulls live market and platform data so the screen reflects what is actually moving the names in view.
+          Filter miners by metal, stage, momentum, and sentiment using live Minerlytics market and platform data.
         </p>
-      </div>
-
-      <div class="hero-right">
-        <div class="legend-box">
-          <h3>Quick Filter Ideas</h3>
-          <div class="legend-item"><span>Stage</span><strong>Producer / Developer / Exploration</strong></div>
-          <div class="legend-item"><span>Momentum</span><strong>Strong / Neutral / Weak</strong></div>
-          <div class="legend-item"><span>Sentiment</span><strong>Bullish / Mixed / Bearish</strong></div>
-          <div class="legend-item"><span>Metal</span><strong>Gold / Silver</strong></div>
-        </div>
       </div>
     </section>
 
@@ -659,8 +605,7 @@
       <aside class="sidebar">
         <h2 class="section-title">Filters</h2>
         <p class="section-sub">
-          Live analysis filters across Minerlytics market, news, and disclosure data. Select any combination and
-          the company cards will update instantly.
+          Live filters across market, sentiment, and disclosure data.
         </p>
 
         <div class="filter-group">
@@ -721,51 +666,13 @@
           <button class="btn-primary" id="applyBtn">Apply Filters</button>
           <button class="btn-secondary" id="resetBtn">Reset</button>
         </div>
-
-        <div class="classification-section">
-          <div class="info-card">
-            <h3>Momentum Buckets</h3>
-            <ul>
-              <li>Strong: 30-day change above 8%</li>
-              <li>Neutral: between -8% and +8%</li>
-              <li>Weak: 30-day change below -8%</li>
-            </ul>
-          </div>
-
-          <div class="info-card">
-            <h3>Sentiment Buckets</h3>
-            <ul>
-              <li>Bullish: bullish news share above bearish share</li>
-              <li>Mixed: balanced or limited signal</li>
-              <li>Bearish: bearish news share above bullish share</li>
-            </ul>
-          </div>
-
-          <div class="info-card">
-            <h3>Live Market Metrics</h3>
-            <ul>
-              <li>Last price and daily change</li>
-              <li>30-day performance</li>
-              <li>6-month performance</li>
-            </ul>
-          </div>
-
-          <div class="info-card">
-            <h3>Platform Coverage Signals</h3>
-            <ul>
-              <li>News sentiment summary</li>
-              <li>Latest headline stored in Minerlytics</li>
-              <li>Mining filings and transcript coverage counts</li>
-            </ul>
-          </div>
-        </div>
       </aside>
 
       <main class="main-panel">
         <div class="toolbar">
           <div class="toolbar-left">
             <h2>Analysis Results</h2>
-            <p>Live Minerlytics market, news, and disclosure view with filterable company cards.</p>
+            <p>Live market and platform signals for the current miner set.</p>
           </div>
 
           <div class="toolbar-right">
@@ -780,7 +687,7 @@
         </div>
 
         <div class="footer-note">
-          Market values use live quote and history feeds with Minerlytics news and disclosure data layered on top.
+          Live market values are combined with Minerlytics news and disclosure coverage.
         </div>
       </main>
     </section>
@@ -874,6 +781,8 @@
       data.forEach((t) => {
         const card = document.createElement("div");
         card.className = "ticker-card";
+        const dayPct = Number(t.day_change_pct);
+        const deltaClass = Number.isFinite(dayPct) && dayPct < 0 ? "down" : "up";
         card.innerHTML = `
           <div class="ticker-top">
             <div>
@@ -889,49 +798,28 @@
             <span class="badge stage-badge">${capitalize(t.stage)}</span>
           </div>
 
+          <div class="price-row">
+            <div class="price-value">${formatPrice(t.latest_close)}</div>
+            <div class="price-delta ${deltaClass}">${formatPct(t.day_change_pct)}</div>
+          </div>
+
           <div class="card-stats">
             <div class="mini-stat">
-              <div class="mini-stat-label">Last Price</div>
-              <div class="mini-stat-value">${formatPrice(t.latest_close)}</div>
-            </div>
-
-            <div class="mini-stat">
-              <div class="mini-stat-label">1D Change</div>
-              <div class="mini-stat-value">${formatPct(t.day_change_pct)}</div>
-            </div>
-
-            <div class="mini-stat">
-              <div class="mini-stat-label">30D Perf</div>
+              <div class="mini-stat-label">30D</div>
               <div class="mini-stat-value">${formatPct(t.perf_30d?.change_pct)}</div>
             </div>
 
             <div class="mini-stat">
-              <div class="mini-stat-label">6M Perf</div>
+              <div class="mini-stat-label">6M</div>
               <div class="mini-stat-value">${formatPct(t.perf_180d?.change_pct)}</div>
             </div>
 
             <div class="mini-stat">
-              <div class="mini-stat-label">News Mentions</div>
-              <div class="mini-stat-value">${formatNumber(t.news_mentions || 0)}</div>
-            </div>
-
-            <div class="mini-stat">
-              <div class="mini-stat-label">Bullish / Bearish</div>
-              <div class="mini-stat-value">${formatPct(t.bullish_pct)} / ${formatPct(t.bearish_pct)}</div>
-            </div>
-
-            <div class="mini-stat">
-              <div class="mini-stat-label">Filings / Transcripts</div>
+              <div class="mini-stat-label">Coverage</div>
               <div class="mini-stat-value">${formatNumber(t.filing_count || 0)} / ${formatNumber(t.transcript_count || 0)}</div>
-            </div>
-
-            <div class="mini-stat">
-              <div class="mini-stat-label">Latest Filing</div>
-              <div class="mini-stat-value">${formatDate(t.latest_filing_date)}</div>
             </div>
           </div>
           <div style="margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.06);color:var(--muted);font-size:13px;line-height:1.5;">
-            <strong style="color:var(--text);display:block;margin-bottom:6px;">Latest headline</strong>
             ${t.latest_news_title || "No recent Minerlytics news item stored yet."}
           </div>
         `;
