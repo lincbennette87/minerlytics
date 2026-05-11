@@ -1,0 +1,42 @@
+name: Ingest YouTube Channel Transcripts
+
+on:
+  workflow_dispatch:
+    inputs:
+      channel_filter:
+        description: "Optional comma-separated channel names to run, e.g. Kitco News,Crux Investor"
+        required: false
+        default: ""
+      max_videos_per_channel:
+        description: "How many recent videos per channel to check"
+        required: false
+        default: "3"
+  schedule:
+    - cron: "0 12 * * *"
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests youtube-transcript-api
+
+      - name: Run multi-channel transcript ingest
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          WORKER_BASE_URL: ${{ secrets.WORKER_BASE_URL }}
+          WORKER_API_KEY: ${{ secrets.WORKER_API_KEY }}
+          YT_CHANNEL_FILTER: ${{ inputs.channel_filter }}
+          YT_MAX_VIDEOS_PER_CHANNEL: ${{ inputs.max_videos_per_channel }}
+        run: python scripts/ingest_youtube_channels_transcripts.py
