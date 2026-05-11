@@ -107,6 +107,32 @@
       box-shadow: inset 0 0 0 1px rgba(255,255,255,.03);
     }
 
+    .navRight{
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+
+    .btn{
+      border:1px solid var(--line);
+      border-radius:999px;
+      padding:9px 14px;
+      font-size:13px;
+      cursor:pointer;
+      background:rgba(255,255,255,.04);
+      color:var(--text);
+    }
+
+    .btn:hover{ border-color: rgba(255,255,255,.18); }
+
+    .btnPrimary{
+      border:1px solid rgba(124,92,255,.5);
+      background: linear-gradient(135deg, rgba(124,92,255,.90), rgba(57,230,200,.55));
+      box-shadow: 0 12px 40px rgba(124,92,255,.22);
+    }
+
+    .btnGhost{ background: transparent; }
+
     .pageWrap{
       max-width: 1400px;
       margin: 0 auto;
@@ -648,14 +674,17 @@
     </div>
 
     <nav class="navLinks" aria-label="Primary navigation">
-      <a class="navLink" href="./index.html#home">Home</a>
-      <a class="navLink" href="./index.html#analysis">Analysis</a>
-      <a class="navLink" href="./index.html#trends">Trends</a>
+      <a class="navLink" href="./index.html">Home</a>
+      <a class="navLink" href="./analysis.html">Analysis</a>
       <a class="navLink isActive" href="./educationportal.html">Education Portal</a>
-      <a class="navLink" href="./index.html#company">Company Profile</a>
-      <a class="navLink" href="./subscription">Subscriptions</a>
+      <a class="navLink" href="./subscription.html">Subscriptions</a>
       <a class="navLink" href="./about.html">About</a>
     </nav>
+
+    <div class="navRight">
+      <a class="btn btnGhost" href="./login.html">Sign In</a>
+      <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
+    </div>
   </header>
 
   <main class="pageWrap">

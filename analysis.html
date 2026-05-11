@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Minerlytics Analysis</title>
+  <link rel="stylesheet" href="./styles.css" />
   <style>
     :root {
       --bg: #07111f;
@@ -35,6 +36,16 @@
         linear-gradient(180deg, #06101d 0%, #081423 100%);
       color: var(--text);
       min-height: 100vh;
+    }
+
+    .topbar{
+      z-index: 1000;
+    }
+
+    .navRight{
+      display:flex;
+      align-items:center;
+      gap:10px;
     }
 
     .page {
@@ -555,30 +566,37 @@
   </style>
 </head>
 <body>
-<!-- 🔥 TOP NAVBAR -->
-<div style="
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:16px 24px;
-  border-bottom:1px solid rgba(255,255,255,0.08);
-  background:rgba(7,17,31,0.95);
-  position:sticky;
-  top:0;
-  z-index:1000;
-  backdrop-filter: blur(10px);
-">
-  <div style="font-weight:800; font-size:18px; color:#d4af37;">
-    MINERLYTICS
+<header class="topbar">
+  <div class="brand">
+    <div class="logoMark" aria-hidden="true"></div>
+    <span class="brandName">MINERLYTICS</span>
   </div>
 
-  <div style="display:flex; gap:20px; font-size:14px;">
-    <a href="index.html" style="color:#e8eef6; text-decoration:none;">Home</a>
-    <a href="analysis.html" style="color:#e8eef6; text-decoration:none;">Analysis</a>
-    <a href="about.html" style="color:#e8eef6; text-decoration:none;">About</a>
-    <a href="education.html" style="color:#e8eef6; text-decoration:none;">Education</a>
+  <nav class="navLinks" aria-label="Primary navigation">
+    <a class="navLink" href="./index.html">Home</a>
+    <a class="navLink isActive" href="./analysis.html">Analysis</a>
+    <a class="navLink" href="./educationportal.html">Education Portal</a>
+    <a class="navLink" href="./subscription.html">Subscriptions</a>
+    <a class="navLink" href="./about.html">About</a>
+  </nav>
+
+  <div class="navRight">
+    <a class="btn btnGhost" href="./login.html">Sign In</a>
+    <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
   </div>
-</div>
+</header>
+  <div class="page">
+    <section class="hero">
+      <div class="hero-left">
+        <div class="eyebrow">Minerlytics Analysis</div>
+        <h1>Compare Mining Companies With Faster, Cleaner Filters</h1>
+        <p>
+          Explore miners by metal, stage, production tier, and jurisdiction risk in one unified analysis workspace.
+          This page is designed to make switching between names and narrowing the universe feel quick, consistent,
+          and decision-oriented.
+        </p>
+      </div>
+
       <div class="hero-right">
         <div class="legend-box">
           <h3>Quick Filter Ideas</h3>

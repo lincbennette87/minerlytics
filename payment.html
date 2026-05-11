@@ -2,8 +2,32 @@
 <html>
 <head>
   <title>Minerlytics Payment</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
-<body style="background:#07102a;color:white;font-family:Arial;padding:40px;">
+<body style="background:#07102a;color:white;font-family:Arial;">
+  <header class="topbar">
+    <div class="brand">
+      <div class="logoMark" aria-hidden="true"></div>
+      <span class="brandName">MINERLYTICS</span>
+    </div>
+
+    <nav class="navLinks" aria-label="Primary navigation">
+      <a class="navLink" href="./index.html">Home</a>
+      <a class="navLink" href="./analysis.html">Analysis</a>
+      <a class="navLink" href="./educationportal.html">Education Portal</a>
+      <a class="navLink" href="./subscription.html">Subscriptions</a>
+      <a class="navLink" href="./about.html">About</a>
+    </nav>
+
+    <div class="navRight">
+      <a class="btn btnGhost" href="./login.html">Sign In</a>
+      <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
+    </div>
+  </header>
+
+  <main class="shell">
   <h1>Payment Details</h1>
   <p id="planText"></p>
 
@@ -13,6 +37,7 @@
     <input placeholder="CVC" required style="display:block;margin:10px 0;padding:12px;width:280px;">
     <button style="padding:12px 20px;">Continue to Sign Up</button>
   </form>
+  </main>
 
   <script>
     const params = new URLSearchParams(window.location.search);
