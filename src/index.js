@@ -73,17 +73,82 @@ async function sendSignupNotification(env, payload) {
    YouTube Configuration
    ============================ */
 const YOUTUBE = {
-  KITCO: {
-    handleUrl: "https://www.youtube.com/@kitco",
-    channelId: "UCzH5n3I2P5J8R9H0pE0hL5A",
-    name: "Kitco News",
-  },
   CHANNELS: [
     {
       handleUrl: "https://www.youtube.com/@kitco",
       channelId: "UCzH5n3I2P5J8R9H0pE0hL5A",
       name: "Kitco News",
       symbols: ["GOLD", "SILVER"],
+    },
+    {
+      name: "Kitco Mining",
+      query: "Kitco Mining",
+      symbols: ["GOLD", "SILVER", "MINERS"],
+    },
+    {
+      name: "Metals Investor Forum",
+      query: "Metals Investor Forum",
+      symbols: ["GOLD", "SILVER", "MINERS"],
+    },
+    {
+      name: "Commodity Culture",
+      query: "Commodity Culture",
+      symbols: ["GOLD", "SILVER", "MACRO"],
+    },
+    {
+      name: "Sprott Money",
+      query: "Sprott Money",
+      symbols: ["GOLD", "SILVER", "MACRO"],
+    },
+    {
+      name: "Mining Stocks Today",
+      query: "Mining Stocks Today",
+      symbols: ["MINERS"],
+    },
+    {
+      name: "Sprott",
+      query: "Sprott",
+      symbols: ["GOLD", "SILVER", "MINERS"],
+    },
+    {
+      name: "Rule Investment Media",
+      query: "Rule Investment Media",
+      symbols: ["GOLD", "SILVER", "MINERS"],
+    },
+    {
+      name: "Don Durrett",
+      query: "Don Durrett",
+      symbols: ["GOLD", "SILVER", "MINERS"],
+    },
+    {
+      name: "Mining Stock Education",
+      query: "Mining Stock Education",
+      symbols: ["GOLD", "SILVER", "MINERS"],
+    },
+    {
+      name: "Mining Stock Monkey",
+      query: "Mining Stock Monkey",
+      symbols: ["GOLD", "SILVER", "MINERS"],
+    },
+    {
+      name: "Crux Investor",
+      query: "Crux Investor",
+      symbols: ["GOLD", "SILVER", "MINERS"],
+    },
+    {
+      name: "Jay Martin Show",
+      query: "Jay Martin Show",
+      symbols: ["GOLD", "SILVER", "MACRO"],
+    },
+    {
+      name: "Liberty and Finance",
+      query: "Liberty and Finance",
+      symbols: ["GOLD", "SILVER", "MACRO"],
+    },
+    {
+      name: "Wealtheon",
+      query: "Wealtheon",
+      symbols: ["GOLD", "SILVER", "MACRO"],
     },
   ],
   MAX_VIDEOS_PER_RUN: 200,

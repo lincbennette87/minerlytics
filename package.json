@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "youtube:transcripts:help": "echo 'Run: YOUTUBE_API_KEY=... WORKER_BASE_URL=... WORKER_API_KEY=... python3 scripts/ingest_youtube_channels_transcripts.py'",
     "edgar:resolve": "node src/edgar/resolveCik.js",
     "edgar:submissions": "node src/edgar/pullSubmissions.js",
     "edgar:facts": "node src/edgar/pullCompanyFacts.js",
