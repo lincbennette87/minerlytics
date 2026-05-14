@@ -168,6 +168,9 @@
             <input id="heroSearch" type="search" placeholder="Search stocks, commodities, and more…" />
             <button id="searchBtn" class="btn btnPrimary btnTight" type="button">Search</button>
           </div>
+          <div class="hintRow" style="margin-top:12px;">
+            <a id="companyDetailBtn" class="pill" href="./company.html?ticker=AEM">Open AEM company details</a>
+          </div>
         </div>
 
         <!-- “Trending now” row -->
@@ -349,6 +352,9 @@
       #trendSummaryRow{
         grid-template-columns: repeat(2, minmax(0,1fr)) !important;
       }
+      .homeIntelGrid{
+        grid-template-columns: 1fr !important;
+      }
     }
     @media (max-width: 640px){
       #trendSummaryRow{
@@ -441,6 +447,24 @@
   </div>
 </div>
         </div>
+      </div>
+    </section>
+
+    <section class="homeIntelGrid" style="margin-top:28px;display:grid;grid-template-columns:1.05fr .95fr;gap:16px;">
+      <div class="trendChart">
+        <div class="trendChartHead">
+          <div class="trendChartTitle">RSS Feed</div>
+          <div class="trendChartMeta" id="rssFeedMeta">Tracking the active ticker feed</div>
+        </div>
+        <div id="rssFeedList" style="display:grid;gap:10px;"></div>
+      </div>
+
+      <div class="trendChart">
+        <div class="trendChartHead">
+          <div class="trendChartTitle">YouTube Coverage</div>
+          <div class="trendChartMeta" id="videoFeedMeta">Recent videos for active chart tickers</div>
+        </div>
+        <div id="videoFeedList" style="display:grid;gap:10px;"></div>
       </div>
     </section>
   </main>
@@ -1131,6 +1155,13 @@ function clearChat(){
         ? (sourceLabel === "live_history_plus_live_quote" ? "Real-time quote + live 6M history" : "Real-time quote + D1 fallback history")
         : "No market data found";
       draw(currentDays);
+      window.dispatchEvent(new CustomEvent("minerlytics:trend-symbols", {
+        detail: {
+          symbols: activeSymbols.slice(),
+          source: sourceLabel,
+          tickers: items.map((item) => item.ticker)
+        }
+      }));
     } catch (err){
       console.error("TREND CHART ERROR:", err);
       statusEl.textContent = "Could not load market data";
@@ -1173,6 +1204,7 @@ function clearChat(){
 <script>
 const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 const MAX_FAVORITE_TICKERS = 5;
+const DEFAULT_HOME_SYMBOLS = ["AEM", "WPM", "CDE", "HYMC", "GFI"];
 
 function getCachedDisplayName() {
   const displayName = localStorage.getItem("minerlytics_user_name") || "";
@@ -1189,6 +1221,25 @@ function parseTickerList(value) {
     .map((item) => String(item || "").trim().toUpperCase())
     .filter(Boolean)
     .slice(0, MAX_FAVORITE_TICKERS);
+}
+
+function mergeChartSymbols(primary = []) {
+  return Array.from(new Set([...(primary || []), ...DEFAULT_HOME_SYMBOLS])).slice(0, 5);
+}
+
+function resolveDetailTicker(value) {
+  const parsed = parseTickerList(value);
+  if (parsed.length) return parsed[0];
+  const active = window.MinerlyticsHomeTrend?.getActiveSymbols?.() || [];
+  return active[0] || DEFAULT_HOME_SYMBOLS[0];
+}
+
+function updateCompanyDetailLink(value = "") {
+  const link = document.getElementById("companyDetailBtn");
+  if (!link) return;
+  const ticker = resolveDetailTicker(value);
+  link.href = `./company.html?ticker=${encodeURIComponent(ticker)}`;
+  link.textContent = `Open ${ticker} company details`;
 }
 
 async function loadPersonalDashboard() {
@@ -1214,7 +1265,7 @@ async function loadPersonalDashboard() {
   }
 
   if (items.length) {
-    window.MinerlyticsHomeTrend?.loadSymbols(items.map((item) => item.symbol));
+    window.MinerlyticsHomeTrend?.loadSymbols(mergeChartSymbols(items.map((item) => item.symbol)));
   }
 
   if (!items.length) {
@@ -1228,7 +1279,7 @@ async function loadPersonalDashboard() {
 
   watchlistBox.innerHTML = items.map(item => `
     <div style="display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.05);color:#eaf0ff;">
-      <strong>${item.symbol}</strong>
+      <a href="./company.html?ticker=${encodeURIComponent(item.symbol)}" style="font-weight:700;text-decoration:none;color:#eaf0ff;">${item.symbol}</a>
       <button onclick="removeWatchTicker('${item.symbol}')" style="border:0;background:transparent;color:#ffcc66;cursor:pointer;font-size:16px;">×</button>
     </div>
   `).join("");
@@ -1277,6 +1328,7 @@ async function removeWatchTicker(symbol) {
 }
 
 loadPersonalDashboard();
+updateCompanyDetailLink();
 </script>
 <script>
 (function () {
@@ -1286,6 +1338,7 @@ loadPersonalDashboard();
 
   function runSearch() {
     const tickers = parseTickerList(searchInput.value);
+    updateCompanyDetailLink(searchInput.value);
     if (!tickers.length) {
       const currentFavorites = window.MinerlyticsHomeTrend?.getActiveSymbols?.() || [];
       if (currentFavorites.length) {
@@ -1297,12 +1350,98 @@ loadPersonalDashboard();
   }
 
   searchBtn.addEventListener("click", runSearch);
+  searchInput.addEventListener("input", () => updateCompanyDetailLink(searchInput.value));
   searchInput.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
       event.preventDefault();
       runSearch();
     }
   });
+})();
+</script>
+<script>
+(function () {
+  const rssList = document.getElementById("rssFeedList");
+  const rssMeta = document.getElementById("rssFeedMeta");
+  const videoList = document.getElementById("videoFeedList");
+  const videoMeta = document.getElementById("videoFeedMeta");
+  if (!rssList || !rssMeta || !videoList || !videoMeta) return;
+
+  function relTime(value) {
+    if (!value) return "recent";
+    const date = new Date(value);
+    const diffMs = Date.now() - date.getTime();
+    const diffHrs = Math.round(diffMs / 36e5);
+    if (!Number.isFinite(diffHrs)) return "recent";
+    if (Math.abs(diffHrs) < 24) return `${Math.max(1, Math.abs(diffHrs))}h ago`;
+    const diffDays = Math.round(diffHrs / 24);
+    return `${Math.max(1, Math.abs(diffDays))}d ago`;
+  }
+
+  function renderRss(items) {
+    if (!items.length) {
+      rssList.innerHTML = `<div style="color:rgba(234,240,255,.62);font-size:13px;">No recent RSS items found for this ticker yet.</div>`;
+      return;
+    }
+    rssList.innerHTML = items.map((item) => `
+      <a href="${item.link || "#"}" target="_blank" rel="noreferrer" style="display:block;padding:12px 14px;border-radius:14px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03);text-decoration:none;">
+        <div style="font-size:14px;font-weight:700;line-height:1.45;">${item.title || "Untitled item"}</div>
+        <div style="margin-top:6px;font-size:12px;color:rgba(234,240,255,.62);">${item.source || "RSS"} • ${relTime(item.published_at || item.fetched_at)}</div>
+      </a>
+    `).join("");
+  }
+
+  function renderVideos(items) {
+    if (!items.length) {
+      videoList.innerHTML = `<div style="color:rgba(234,240,255,.62);font-size:13px;">No recent Minerlytics-linked YouTube videos found for these tickers yet.</div>`;
+      return;
+    }
+    videoList.innerHTML = items.map((item) => `
+      <a href="${item.url || "#"}" target="_blank" rel="noreferrer" style="display:block;padding:12px 14px;border-radius:14px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03);text-decoration:none;">
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;">
+          <div style="font-size:14px;font-weight:700;line-height:1.45;">${item.title || "Untitled video"}</div>
+          <span style="font-size:11px;color:#ffcc66;white-space:nowrap;">Watch</span>
+        </div>
+        <div style="margin-top:6px;font-size:12px;color:rgba(234,240,255,.62);">${item.channel || "YouTube"} • ${relTime(item.published_at)}</div>
+        ${item.transcript_snippet ? `<div style="margin-top:8px;font-size:12px;color:rgba(234,240,255,.74);line-height:1.5;">${item.transcript_snippet}</div>` : ""}
+      </a>
+    `).join("");
+  }
+
+  async function refreshIntel(symbols = []) {
+    const tickers = Array.isArray(symbols) && symbols.length ? symbols : (window.MinerlyticsHomeTrend?.getActiveSymbols?.() || DEFAULT_HOME_SYMBOLS);
+    const primary = tickers[0] || DEFAULT_HOME_SYMBOLS[0];
+    rssMeta.textContent = `Latest RSS headlines for ${primary}`;
+    videoMeta.textContent = `Recent videos for ${tickers.join(", ")}`;
+
+    try {
+      const [rssRes, videoRes] = await Promise.all([
+        fetch(`${API_BASE}/api/news-detail?ticker=${encodeURIComponent(primary)}&limit=6`, {
+          headers: { accept: "application/json" },
+          cache: "no-store"
+        }),
+        fetch(`${API_BASE}/api/youtube/recent?symbols=${encodeURIComponent(tickers.join(","))}&limit=6`, {
+          headers: { accept: "application/json" },
+          cache: "no-store"
+        })
+      ]);
+
+      const rssData = await rssRes.json().catch(() => ({ items: [] }));
+      const videoData = await videoRes.json().catch(() => ({ videos: [] }));
+      renderRss(Array.isArray(rssData.items) ? rssData.items : []);
+      renderVideos(Array.isArray(videoData.videos) ? videoData.videos : []);
+    } catch (error) {
+      console.error("HOME INTEL ERROR:", error);
+      renderRss([]);
+      renderVideos([]);
+    }
+  }
+
+  window.addEventListener("minerlytics:trend-symbols", (event) => {
+    refreshIntel(event?.detail?.symbols || []);
+  });
+
+  refreshIntel();
 })();
 </script>
 <script>

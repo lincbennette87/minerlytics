@@ -130,14 +130,14 @@ function renderQuotes() {
       const cls = up ? "up" : "down";
       const sign = up ? "+" : "";
       return `
-      <div class="quoteCard">
+      <a class="quoteCard" href="./company.html?ticker=${encodeURIComponent(q.sym)}">
         <div class="quoteTop">
           <div class="sym">${escapeHtml(q.sym)}</div>
           <div class="price">${Number(q.price).toFixed(2)}</div>
           <div class="chg ${cls}">${sign}${Number(q.chg).toFixed(2)}%</div>
         </div>
         <div class="company">${escapeHtml(q.company)}</div>
-      </div>
+      </a>
     `;
     })
     .join("");
@@ -166,17 +166,14 @@ function wireSearch() {
   function go(q) {
     const query = (q || "").trim();
     if (!query) return;
-    // Placeholder: later route to Company Profile / Analysis page
-    alert(
-      `Search: ${query}\n\nNext: connect to ticker/company lookup + mining-only filter.`
-    );
+    const ticker = query.split(/[,\s]+/).map((item) => item.trim().toUpperCase()).filter(Boolean)[0];
+    if (ticker) {
+      window.location.href = `./company.html?ticker=${encodeURIComponent(ticker)}`;
+    }
   }
 
-  if (btn && hero) btn.addEventListener("click", () => go(hero.value));
-  if (hero)
-    hero.addEventListener("keydown", (e) => {
-      if (e.key === "Enter") go(hero.value);
-    });
+  // The homepage hero search has dedicated chart/search wiring inline in index.html.
+  // Keep app.js focused on auxiliary/global search entry points so we do not double-handle clicks.
   if (global)
     global.addEventListener("keydown", (e) => {
       if (e.key === "Enter") go(global.value);

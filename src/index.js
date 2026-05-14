@@ -424,6 +424,197 @@ function buildNewsDetailFromSummary(row) {
   };
 }
 
+function buildSentimentExplanation(ticker, detail) {
+  if (!detail || !detail.total) return "Not available.";
+
+  const titles = Array.isArray(detail.top_titles)
+    ? detail.top_titles
+        .map((item) => {
+          if (typeof item === "string") return item;
+          return item?.title || item?.headline || "";
+        })
+        .filter(Boolean)
+        .slice(0, 3)
+    : [];
+
+  let stance = "mixed";
+  if (detail.bullish > detail.bearish && detail.bullish >= detail.neutral) stance = "bullish";
+  if (detail.bearish > detail.bullish && detail.bearish >= detail.neutral) stance = "bearish";
+  if (detail.neutral >= detail.bullish && detail.neutral >= detail.bearish) stance = "neutral";
+
+  const sentences = [
+    `${ticker} news sentiment is currently ${stance}, based on ${detail.total} tracked headline${detail.total === 1 ? "" : "s"} over the last ${detail.window_hours || 24} hour${detail.window_hours === 1 ? "" : "s"}.`,
+    `Distribution: ${detail.bullish_pct}% bullish, ${detail.neutral_pct}% neutral, ${detail.bearish_pct}% bearish.`,
+  ];
+
+  if (titles.length) {
+    sentences.push(`Recent drivers include: ${titles.join("; ")}.`);
+  }
+
+  return sentences.join(" ");
+}
+
+function truncateText(value, max = 420) {
+  const textValue = String(value || "").replace(/\s+/g, " ").trim();
+  if (textValue.length <= max) return textValue;
+  return textValue.slice(0, max).trimEnd() + "…";
+}
+
+function firstMeaningfulText(items = [], fallback = "Not available.") {
+  for (const item of items) {
+    const textValue = truncateText(item?.text || "");
+    if (textValue) return textValue;
+  }
+  return fallback;
+}
+
+function extractJsonObject(textValue) {
+  const raw = String(textValue || "").trim();
+  if (!raw) return null;
+
+  try {
+    return JSON.parse(raw);
+  } catch {}
+
+  const start = raw.indexOf("{");
+  const end = raw.lastIndexOf("}");
+  if (start >= 0 && end > start) {
+    try {
+      return JSON.parse(raw.slice(start, end + 1));
+    } catch {}
+  }
+
+  return null;
+}
+
+async function getRecentYoutubeVideosForTickers(env, tickers = [], limit = 8) {
+  const safeLimit = Math.min(Math.max(Number(limit || 8), 1), 20);
+  const cleanTickers = Array.from(
+    new Set(
+      (Array.isArray(tickers) ? tickers : [])
+        .map((item) => String(item || "").toUpperCase().trim())
+        .filter(Boolean)
+    )
+  );
+
+  let rows = { results: [] };
+
+  if (cleanTickers.length) {
+    const placeholders = cleanTickers.map(() => "?").join(", ");
+    rows = await env.DB.prepare(
+      `
+      SELECT
+        v.video_id,
+        v.title,
+        v.channel,
+        v.published_at,
+        v.url,
+        GROUP_CONCAT(DISTINCT ys.symbol) AS symbols,
+        MIN(s.start) AS first_start,
+        MIN(COALESCE(s.text, '')) AS transcript_snippet
+      FROM youtube_videos v
+      JOIN youtube_video_symbols ys ON ys.video_id = v.video_id
+      LEFT JOIN youtube_segments s ON s.video_id = v.video_id
+      WHERE ys.symbol IN (${placeholders})
+      GROUP BY v.video_id, v.title, v.channel, v.published_at, v.url
+      ORDER BY v.published_at DESC
+      LIMIT ?
+      `
+    ).bind(...cleanTickers, safeLimit).all().catch(() => ({ results: [] }));
+  } else {
+    rows = await env.DB.prepare(
+      `
+      SELECT
+        v.video_id,
+        v.title,
+        v.channel,
+        v.published_at,
+        v.url,
+        GROUP_CONCAT(DISTINCT ys.symbol) AS symbols,
+        MIN(s.start) AS first_start,
+        MIN(COALESCE(s.text, '')) AS transcript_snippet
+      FROM youtube_videos v
+      LEFT JOIN youtube_video_symbols ys ON ys.video_id = v.video_id
+      LEFT JOIN youtube_segments s ON s.video_id = v.video_id
+      GROUP BY v.video_id, v.title, v.channel, v.published_at, v.url
+      ORDER BY v.published_at DESC
+      LIMIT ?
+      `
+    ).bind(safeLimit).all().catch(() => ({ results: [] }));
+  }
+
+  return ((rows && rows.results) || []).map((row) => ({
+    video_id: row.video_id,
+    title: row.title || "",
+    channel: row.channel || "",
+    published_at: row.published_at || null,
+    url: row.url || ytSourceUrl(row.video_id, row.first_start || 0),
+    symbols: String(row.symbols || "")
+      .split(",")
+      .map((item) => String(item || "").trim())
+      .filter(Boolean),
+    transcript_snippet: truncateText(row.transcript_snippet || "", 220),
+  }));
+}
+
+async function buildCompanyAiSections(env, payload) {
+  const fallback = {
+    description: `${payload.name || payload.ticker} is tracked in Minerlytics with market, news, filing, and transcript coverage where available.`,
+    ounces_produced_past_quarter: firstMeaningfulText(payload.production_excerpts),
+    mine_details: firstMeaningfulText(payload.mine_excerpts),
+    management_summary: firstMeaningfulText(payload.management_excerpts),
+    risks: firstMeaningfulText(payload.risk_excerpts),
+    forward_looking_statement: firstMeaningfulText(payload.forward_looking_excerpts),
+  };
+
+  if (!env.AI) return fallback;
+
+  const prompt =
+    "You are Minerlytics AI. Return strict JSON only.\n" +
+    "Use only the provided DATA. Do not invent facts.\n" +
+    "Each field must be plain text under 120 words.\n" +
+    "If a field is not explicitly supported by DATA, return exactly 'Not available.' for that field.\n" +
+    "Required JSON keys:\n" +
+    "- description\n" +
+    "- ounces_produced_past_quarter\n" +
+    "- mine_details\n" +
+    "- management_summary\n" +
+    "- risks\n" +
+    "- forward_looking_statement\n\n" +
+    "DATA:\n" +
+    stableStringify(payload);
+
+  try {
+    const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
+      prompt,
+      max_tokens: 700,
+      temperature: 0,
+      top_p: 1,
+      frequency_penalty: 0,
+      presence_penalty: 0,
+    });
+
+    const raw =
+      (typeof result === "string" && result) ||
+      (result && (result.response || result.result || result.output_text)) ||
+      "";
+
+    const parsed = extractJsonObject(raw);
+    if (!parsed || typeof parsed !== "object") return fallback;
+
+    return {
+      description: String(parsed.description || fallback.description).trim(),
+      ounces_produced_past_quarter: String(parsed.ounces_produced_past_quarter || fallback.ounces_produced_past_quarter).trim(),
+      mine_details: String(parsed.mine_details || fallback.mine_details).trim(),
+      management_summary: String(parsed.management_summary || fallback.management_summary).trim(),
+      risks: String(parsed.risks || fallback.risks).trim(),
+      forward_looking_statement: String(parsed.forward_looking_statement || fallback.forward_looking_statement).trim(),
+    };
+  } catch {
+    return fallback;
+  }
+}
+
 function ytSourceUrl(video_id, start) {
   const t = Math.max(0, Math.floor(Number(start || 0)));
   return `https://www.youtube.com/watch?v=${video_id}&t=${t}s`;
@@ -2241,6 +2432,101 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
           window_days: limitDays,
           source: usedFallback ? "live_history_with_d1_fallback" : "live_history_plus_live_quote",
           tickers: series
+        }, 200);
+      }
+
+      if (url.pathname === "/api/youtube/recent" && request.method === "GET") {
+        const symbols = parseSymbolsParam(url.searchParams.get("symbols") || "");
+        const limit = clamp(parseInt(url.searchParams.get("limit") || "8", 10), 1, 20);
+        const videos = await getRecentYoutubeVideosForTickers(env, symbols, limit);
+
+        return json({
+          ok: true,
+          symbols,
+          videos,
+        }, 200);
+      }
+
+      if (url.pathname === "/api/company-detail" && request.method === "GET") {
+        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        if (!ticker || !TICKERS[ticker]) {
+          return json({ ok: false, error: "unknown ticker" }, 400);
+        }
+
+        const marketBase = await getTrendSeriesForTickers(env, [ticker], 180).catch(() => []);
+        const marketSeries = marketBase.length
+          ? await enrichTrendSeriesWithLatestQuotes(marketBase).catch(() => marketBase)
+          : [];
+        const market = marketSeries[0] || null;
+        const points = Array.isArray(market?.points) ? market.points : [];
+
+        const sentimentRow = await env.DB.prepare(
+          "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
+        ).bind(ticker).first().catch(() => null);
+        const newsDetail = buildNewsDetailFromSummary(sentimentRow);
+        const rssItems = await getLatestRssItemsForTicker(env, ticker, 8).catch(() => []);
+        const videos = await getRecentYoutubeVideosForTickers(env, [ticker], 8).catch(() => []);
+
+        const productionExcerpts = await getMiningDisclosureMatches(env, ticker, `${ticker} production ounces produced ounce ounces quarter quarterly`, 6).catch(() => []);
+        const mineExcerpts = await getMiningDisclosureMatches(env, ticker, `${ticker} mine project operation location grade ounces produced`, 8).catch(() => []);
+        const managementExcerpts = await getMiningDisclosureMatches(env, ticker, `${ticker} management discussion strategy operations capital allocation quarterly results`, 6).catch(() => []);
+        const riskExcerpts = await getMiningDisclosureMatches(env, ticker, `${ticker} risk risks uncertainty inflation permitting environmental`, 6).catch(() => []);
+        const forwardLookingExcerpts = await getTranscriptMatches(env, ticker, `${ticker} outlook guidance forward looking expect anticipate plan`, 8).catch(() => []);
+        const latestFilings = await getLatestDisclosureBlocksForTicker(env, ticker, 8).catch(() => []);
+
+        const aiSections = await buildCompanyAiSections(env, {
+          ticker,
+          name: TICKERS[ticker]?.name || ticker,
+          market_summary: {
+            latest_close: market?.latest_close ?? null,
+            day_change_pct: market?.day_change_pct ?? null,
+            perf_30d: computeWindowPerformance(points, 30),
+            perf_180d: computeWindowPerformance(points, 180),
+          },
+          sentiment_summary: newsDetail,
+          rss_items: rssItems.slice(0, 5),
+          production_excerpts: productionExcerpts.slice(0, 4),
+          mine_excerpts: mineExcerpts.slice(0, 4),
+          management_excerpts: managementExcerpts.slice(0, 4),
+          risk_excerpts: riskExcerpts.slice(0, 4),
+          forward_looking_excerpts: forwardLookingExcerpts.slice(0, 4),
+          latest_filings: latestFilings.slice(0, 4),
+        });
+
+        return json({
+          ok: true,
+          ticker,
+          name: TICKERS[ticker]?.name || ticker,
+          market: market
+            ? {
+                ticker: market.ticker,
+                symbol: market.symbol,
+                source: market.source,
+                latest_close: market.latest_close,
+                previous_close: market.previous_close,
+                day_change: market.day_change,
+                day_change_pct: market.day_change_pct,
+                live_quote: market.live_quote || null,
+                points,
+                perf_30d: computeWindowPerformance(points, 30),
+                perf_180d: computeWindowPerformance(points, 180),
+              }
+            : null,
+          sentiment: newsDetail,
+          sentiment_explanation: buildSentimentExplanation(ticker, newsDetail),
+          rss_items: rssItems,
+          videos,
+          filing_excerpts: {
+            latest: latestFilings,
+            production: productionExcerpts,
+            mines: mineExcerpts,
+            management: managementExcerpts,
+            risks: riskExcerpts,
+          },
+          transcript_excerpts: {
+            forward_looking: forwardLookingExcerpts,
+          },
+          ai_sections: aiSections,
         }, 200);
       }
 
