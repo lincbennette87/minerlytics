@@ -34,7 +34,7 @@
     <section class="hero" style="min-height:75vh;display:grid;place-items:center;">
       <div class="artCard" style="max-width:480px;width:100%;padding:32px;">
         <div style="margin-bottom:22px;">
-          <div class="brandName" style="font-size:13px;color:#39e6c8;margin-bottom:8px;">MINERLYTICS ACCOUNT</div>
+          <div class="brandName" style="font-size:13px;color:#d7c09a;margin-bottom:8px;">MINERLYTICS ACCOUNT</div>
           <h1 style="font-size:36px;margin:0 0 10px;">Welcome Back</h1>
           <p class="subhead" style="font-size:15px;margin:0;">
             Sign in to access your personalized Minerlytics dashboard.
@@ -43,23 +43,23 @@
 
         <div style="display:grid;gap:14px;">
           <input id="email" type="email" placeholder="Email"
-            style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;outline:none;" />
+            style="padding:14px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);outline:none;" />
 
           <input id="password" type="password" placeholder="Password"
-            style="padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;outline:none;" />
+            style="padding:14px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);outline:none;" />
 
           <button id="loginBtn" class="btn btnPrimary" type="button">Sign In</button>
 
-          <p id="msg" style="color:#ffcc66;font-size:13px;min-height:18px;"></p>
+          <p id="msg" style="color:#d7c09a;font-size:13px;min-height:18px;"></p>
 
-          <p style="font-size:13px;color:rgba(234,240,255,.7);">
+          <p style="font-size:13px;color:var(--muted);">
             New to Minerlytics?
-            <a href="./signup.html" style="color:#39e6c8;">Create an account</a>
+            <a href="./signup.html" style="color:#d7c09a;">Create an account</a>
           </p>
 
-          <p style="font-size:13px;color:rgba(234,240,255,.7);margin-top:-4px;">
+          <p style="font-size:13px;color:var(--muted);margin-top:-4px;">
             Already signed in?
-            <a href="./change-password.html" style="color:#39e6c8;">Change your password</a>
+            <a href="./change-password.html" style="color:#d7c09a;">Change your password</a>
           </p>
         </div>
       </div>
@@ -81,7 +81,7 @@
 
         if (data.loggedIn) {
           window.MinerlyticsAuthUI?.setUserCache(data.user);
-          msg.innerHTML = 'You are already signed in. <a href="./change-password.html" style="color:#39e6c8;">Change password</a> or return to <a href="./index.html" style="color:#39e6c8;">home</a>.';
+          msg.innerHTML = 'You are already signed in. <a href="./change-password.html" style="color:#d7c09a;">Change password</a> or return to <a href="./index.html" style="color:#d7c09a;">home</a>.';
         }
       } catch (err) {
         console.error("SESSION CHECK ERROR:", err);

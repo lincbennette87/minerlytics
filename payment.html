@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
-<body style="background:#07102a;color:white;font-family:Arial;">
+<body>
   <header class="topbar">
     <div class="brand">
       <div class="logoMark" aria-hidden="true"></div>
@@ -31,15 +31,22 @@
   </header>
 
   <main class="shell">
-  <h1>Payment Details</h1>
-  <p id="planText"></p>
+    <section class="hero" style="min-height:75vh;display:grid;place-items:center;">
+      <div class="artCard" style="max-width:480px;width:100%;padding:32px;">
+        <div style="margin-bottom:22px;">
+          <div class="brandName" style="font-size:13px;color:#d7c09a;margin-bottom:8px;">MINERLYTICS CHECKOUT</div>
+          <h1 style="font-size:36px;margin:0 0 10px;">Payment Details</h1>
+          <p id="planText" class="subhead" style="font-size:15px;margin:0;"></p>
+        </div>
 
-  <form onsubmit="continueToSignup(event)">
-    <input placeholder="Card Number" required style="display:block;margin:10px 0;padding:12px;width:280px;">
-    <input placeholder="MM/YY" required style="display:block;margin:10px 0;padding:12px;width:280px;">
-    <input placeholder="CVC" required style="display:block;margin:10px 0;padding:12px;width:280px;">
-    <button style="padding:12px 20px;">Continue to Sign Up</button>
-  </form>
+        <form onsubmit="continueToSignup(event)" style="display:grid;gap:14px;">
+          <input placeholder="Card Number" required style="padding:14px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);outline:none;">
+          <input placeholder="MM/YY" required style="padding:14px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);outline:none;">
+          <input placeholder="CVC" required style="padding:14px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);outline:none;">
+          <button class="btn btnPrimary" type="submit">Continue to Sign Up</button>
+        </form>
+      </div>
+    </section>
   </main>
 
   <script>
