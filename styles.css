@@ -117,19 +117,41 @@ input,button{font:inherit}
 .heroSignalTitle{
   position:relative;
   max-width:700px;
-  padding:18px 0 6px;
+  margin:0 auto;
+  padding:20px 0 10px;
+  text-align:center;
 }
 
 .heroSignalTitle::before{
   content:"";
   position:absolute;
-  inset:4px auto auto -18px;
-  width:180px;
-  height:110px;
+  inset:-8px auto auto 50%;
+  width:280px;
+  height:180px;
+  transform:translateX(-50%);
   background:
-    radial-gradient(closest-side, rgba(154,122,74,.18), transparent 78%),
+    radial-gradient(closest-side, rgba(154,122,74,.18), transparent 74%),
     radial-gradient(closest-side, rgba(110,122,113,.10), transparent 82%);
-  filter: blur(8px);
+  filter: blur(12px);
+  pointer-events:none;
+}
+
+.heroSignalTitle::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  top:8px;
+  transform:translateX(-50%);
+  width:min(520px, 92%);
+  height:132px;
+  border-radius:24px;
+  border:1px solid rgba(255,255,255,.05);
+  background:
+    linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+  background-size: 100% 18px, 18px 100%;
+  opacity:.32;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,.85), transparent 92%);
   pointer-events:none;
 }
 
@@ -146,10 +168,14 @@ input,button{font:inherit}
   text-transform:uppercase;
   font-size:11px;
   font-weight:700;
+  position:relative;
+  z-index:1;
 }
 
 .heroSignalTitle h1{
-  margin:12px 0 0;
+  margin:14px 0 0;
+  position:relative;
+  z-index:1;
 }
 
 .heroSignalTitle h1 span{
@@ -158,18 +184,22 @@ input,button{font:inherit}
 
 .heroSignalLine1{
   color:var(--text);
+  letter-spacing:-.035em;
 }
 
 .heroSignalLine2{
   color:#d7c09a;
   text-shadow: 0 0 18px rgba(154,122,74,.16);
+  letter-spacing:-.03em;
 }
 
 .heroSignalLine3{
   display:inline-flex !important;
   align-items:center;
+  justify-content:center;
   gap:12px;
   color:rgba(243,239,230,.86);
+  letter-spacing:-.025em;
 }
 
 .heroSignalLine3::after{
@@ -202,9 +232,12 @@ input,button{font:inherit}
 
 .heroSignalChips{
   display:flex;
+  justify-content:center;
   gap:8px;
   flex-wrap:wrap;
   margin-top:16px;
+  position:relative;
+  z-index:1;
 }
 
 .heroSignalChips span{
@@ -218,6 +251,11 @@ input,button{font:inherit}
   letter-spacing:.08em;
   text-transform:uppercase;
   animation: heroChipPulse 3.6s ease-in-out infinite;
+}
+
+.heroLeft .subhead{
+  margin:6px auto 18px;
+  text-align:center;
 }
 
 .heroSignalChips span:nth-child(2){ animation-delay:.22s; }
