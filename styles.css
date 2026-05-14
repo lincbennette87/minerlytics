@@ -1,15 +1,15 @@
 :root{
-  --bg0:#070A12;
-  --bg1:#0B1020;
-  --card:#0E1630;
-  --card2:#0B132A;
-  --line:rgba(255,255,255,.08);
-  --text:#EAF0FF;
-  --muted:rgba(234,240,255,.72);
-  --muted2:rgba(234,240,255,.52);
-  --accent:#7C5CFF;
-  --accent2:#39E6C8;
-  --warn:#FFCC66;
+  --bg0:#08090a;
+  --bg1:#111315;
+  --card:#15181a;
+  --card2:#101315;
+  --line:rgba(243,239,230,.10);
+  --text:#F3EFE6;
+  --muted:rgba(243,239,230,.74);
+  --muted2:rgba(243,239,230,.52);
+  --accent:#9A7A4A;
+  --accent2:#6E7A71;
+  --warn:#C69A54;
   --shadow: 0 18px 60px rgba(0,0,0,.45);
   --r:16px;
   --r2:22px;
@@ -23,9 +23,9 @@ body{
   font-family:var(--font);
   color:var(--text);
   background:
-    radial-gradient(1000px 600px at 20% 20%, rgba(124,92,255,.20), transparent 60%),
-    radial-gradient(900px 520px at 80% 30%, rgba(57,230,200,.14), transparent 55%),
-    radial-gradient(900px 520px at 70% 90%, rgba(255,204,102,.07), transparent 55%),
+    radial-gradient(1000px 600px at 16% 18%, rgba(154,122,74,.14), transparent 60%),
+    radial-gradient(900px 520px at 82% 28%, rgba(110,122,113,.10), transparent 55%),
+    radial-gradient(900px 520px at 68% 88%, rgba(243,239,230,.04), transparent 55%),
     linear-gradient(180deg, var(--bg0), var(--bg1));
 }
 
@@ -47,9 +47,9 @@ input,button{font:inherit}
 .logoMark{
   width:26px;height:26px;border-radius:8px;
   background:
-    radial-gradient(circle at 35% 35%, rgba(255,255,255,.16), transparent 60%),
-    linear-gradient(135deg, var(--accent), rgba(57,230,200,.85));
-  box-shadow: 0 0 0 1px rgba(255,255,255,.08), 0 12px 30px rgba(124,92,255,.25);
+    radial-gradient(circle at 35% 35%, rgba(255,255,255,.12), transparent 60%),
+    linear-gradient(135deg, var(--accent), rgba(110,122,113,.9));
+  box-shadow: 0 0 0 1px rgba(255,255,255,.08), 0 12px 30px rgba(154,122,74,.18);
 }
 .brandName{letter-spacing:.16em;font-weight:700;font-size:12px;opacity:.95}
 
@@ -59,7 +59,7 @@ input,button{font:inherit}
   padding:8px 10px;border-radius:10px;
 }
 .navLink:hover{background:rgba(255,255,255,.04);color:var(--text)}
-.navLink.isActive{color:var(--text); background:rgba(124,92,255,.12); border:1px solid rgba(124,92,255,.25)}
+.navLink.isActive{color:var(--text); background:rgba(154,122,74,.12); border:1px solid rgba(154,122,74,.24)}
 
 .navRight{display:flex;align-items:center;gap:10px}
 .navSearch{
@@ -86,9 +86,9 @@ input,button{font:inherit}
 }
 .btn:hover{border-color:rgba(255,255,255,.18)}
 .btnPrimary{
-  border:1px solid rgba(124,92,255,.5);
-  background: linear-gradient(135deg, rgba(124,92,255,.90), rgba(57,230,200,.55));
-  box-shadow: 0 12px 40px rgba(124,92,255,.22);
+  border:1px solid rgba(154,122,74,.44);
+  background: linear-gradient(135deg, rgba(154,122,74,.92), rgba(110,122,113,.72));
+  box-shadow: 0 12px 40px rgba(154,122,74,.18);
 }
 .btnGhost{background:transparent}
 .btnTight{padding:9px 12px}
