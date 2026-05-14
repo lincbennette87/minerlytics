@@ -637,6 +637,191 @@ input,button{font:inherit}
   padding:18px;
 }
 
+.miniMineCard{
+  position:relative;
+  border-radius:18px;
+  border:1px solid var(--line);
+  background:
+    radial-gradient(360px 180px at 18% 0%, rgba(154,122,74,.14), transparent 60%),
+    radial-gradient(280px 160px at 88% 100%, rgba(110,122,113,.10), transparent 60%),
+    rgba(14,18,20,.92);
+  overflow:hidden;
+  box-shadow: var(--shadow);
+}
+
+.miniMineCard::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.02) 1px, transparent 1px);
+  background-size: 100% 20px, 20px 100%;
+  opacity:.18;
+  pointer-events:none;
+}
+
+.miniMineInner{
+  position:relative;
+  z-index:1;
+  padding:14px;
+}
+
+.miniMineHead{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:10px;
+}
+
+.miniMineTitle{
+  font-size:13px;
+  font-weight:800;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.miniMineSub{
+  margin-top:4px;
+  font-size:12px;
+  color:var(--muted2);
+  line-height:1.5;
+}
+
+.miniMineReset{
+  padding:8px 10px;
+}
+
+.miniMineScoreRow{
+  display:grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap:8px;
+  margin-bottom:10px;
+}
+
+.miniMineScore{
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:14px;
+  background:rgba(255,255,255,.03);
+  padding:10px;
+}
+
+.miniMineScoreLabel{
+  font-size:10px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--muted2);
+}
+
+.miniMineScoreValue{
+  margin-top:6px;
+  font-size:18px;
+  font-weight:800;
+  font-variant-numeric: tabular-nums;
+}
+
+.miniMineScoreValue.gold{ color:#e0bf77; }
+.miniMineScoreValue.silver{ color:#d9e0e6; }
+.miniMineScoreValue.copper{ color:#cf8b63; }
+
+.miniMineArena{
+  position:relative;
+  height:198px;
+  border-radius:16px;
+  border:1px solid rgba(255,255,255,.08);
+  background:
+    linear-gradient(180deg, rgba(20,24,26,.18), rgba(9,11,13,.84)),
+    radial-gradient(circle at 50% 0%, rgba(154,122,74,.10), transparent 54%);
+  overflow:hidden;
+}
+
+.miniMineLane{
+  position:absolute;
+  top:0;
+  bottom:0;
+  width:33.333%;
+  border-left:1px dashed rgba(255,255,255,.06);
+}
+
+.miniMineLane.l1{ left:0; border-left:none; }
+.miniMineLane.l2{ left:33.333%; }
+.miniMineLane.l3{ left:66.666%; }
+
+.miniMineStrata{
+  position:absolute;
+  inset:auto 0 0 0;
+  height:54px;
+  background:
+    linear-gradient(180deg, rgba(0,0,0,0), rgba(0,0,0,.14)),
+    radial-gradient(120px 28px at 14% 100%, rgba(154,122,74,.72), transparent 70%),
+    radial-gradient(130px 30px at 46% 100%, rgba(110,122,113,.58), transparent 72%),
+    radial-gradient(110px 26px at 80% 100%, rgba(154,122,74,.55), transparent 70%);
+}
+
+.miniMineDrill{
+  position:absolute;
+  top:12px;
+  left:50%;
+  width:74px;
+  height:8px;
+  transform:translateX(-50%);
+  border-radius:999px;
+  background: linear-gradient(90deg, rgba(243,239,230,.22), rgba(154,122,74,.88), rgba(110,122,113,.72));
+  box-shadow: 0 0 12px rgba(154,122,74,.16);
+}
+
+.miniMineDrill::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  top:8px;
+  width:2px;
+  height:28px;
+  transform:translateX(-50%);
+  background: linear-gradient(180deg, rgba(243,239,230,.8), rgba(154,122,74,.24));
+}
+
+.miniMineOre{
+  position:absolute;
+  width:26px;
+  height:26px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  font-size:12px;
+  font-weight:800;
+  color:#0f1113;
+  box-shadow: 0 10px 20px rgba(0,0,0,.24);
+  cursor:pointer;
+  user-select:none;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+
+.miniMineOre:hover{
+  transform: scale(1.08);
+  box-shadow: 0 14px 24px rgba(0,0,0,.28);
+}
+
+.miniMineOre.gold{
+  background: radial-gradient(circle at 35% 35%, #f5d792, #c6973a);
+}
+
+.miniMineOre.silver{
+  background: radial-gradient(circle at 35% 35%, #eef2f5, #9ca7b0);
+}
+
+.miniMineOre.copper{
+  background: radial-gradient(circle at 35% 35%, #e9ae8b, #b66c43);
+}
+
+.miniMineHint{
+  margin-top:10px;
+  font-size:11px;
+  color:var(--muted2);
+  text-align:center;
+}
+
 .aiTop{
   display:flex;
   align-items:center;

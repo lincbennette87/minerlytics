@@ -530,6 +530,47 @@
   </div>
 </div>
         </div>
+
+        <aside class="miniMineCard" aria-label="Mini mining game">
+          <div class="miniMineInner">
+            <div class="miniMineHead">
+              <div>
+                <div class="miniMineTitle">Mine Sprint</div>
+                <div class="miniMineSub">Collect falling ore and stack points in gold, silver, and copper.</div>
+              </div>
+              <button id="miniMineReset" class="btn btnGhost btnTight miniMineReset" type="button">Reset</button>
+            </div>
+
+            <div class="miniMineScoreRow">
+              <div class="miniMineScore">
+                <div class="miniMineScoreLabel">Gold</div>
+                <div id="miniMineGold" class="miniMineScoreValue gold">0</div>
+              </div>
+              <div class="miniMineScore">
+                <div class="miniMineScoreLabel">Silver</div>
+                <div id="miniMineSilver" class="miniMineScoreValue silver">0</div>
+              </div>
+              <div class="miniMineScore">
+                <div class="miniMineScoreLabel">Copper</div>
+                <div id="miniMineCopper" class="miniMineScoreValue copper">0</div>
+              </div>
+              <div class="miniMineScore">
+                <div class="miniMineScoreLabel">Total</div>
+                <div id="miniMineTotal" class="miniMineScoreValue">0</div>
+              </div>
+            </div>
+
+            <div id="miniMineArena" class="miniMineArena">
+              <div class="miniMineLane l1"></div>
+              <div class="miniMineLane l2"></div>
+              <div class="miniMineLane l3"></div>
+              <div class="miniMineDrill" aria-hidden="true"></div>
+              <div class="miniMineStrata" aria-hidden="true"></div>
+            </div>
+
+            <div class="miniMineHint">Tap the ore before it disappears into the shaft floor.</div>
+          </div>
+        </aside>
       </div>
     </section>
 
@@ -1533,6 +1574,98 @@ updateCompanyDetailLink();
   });
 
   refreshIntel();
+})();
+</script>
+<script>
+(function () {
+  const arena = document.getElementById("miniMineArena");
+  const resetBtn = document.getElementById("miniMineReset");
+  const goldEl = document.getElementById("miniMineGold");
+  const silverEl = document.getElementById("miniMineSilver");
+  const copperEl = document.getElementById("miniMineCopper");
+  const totalEl = document.getElementById("miniMineTotal");
+  if (!arena || !goldEl || !silverEl || !copperEl || !totalEl) return;
+
+  const laneLeft = [16, 50, 84];
+  const oreTypes = [
+    { kind: "gold", label: "Au", points: 5 },
+    { kind: "silver", label: "Ag", points: 3 },
+    { kind: "copper", label: "Cu", points: 2 }
+  ];
+
+  let scores = { gold: 0, silver: 0, copper: 0 };
+  let spawnTimer = null;
+  const activeOres = new Set();
+
+  function renderScores() {
+    goldEl.textContent = String(scores.gold);
+    silverEl.textContent = String(scores.silver);
+    copperEl.textContent = String(scores.copper);
+    totalEl.textContent = String(scores.gold * 5 + scores.silver * 3 + scores.copper * 2);
+  }
+
+  function clearOres() {
+    activeOres.forEach((ore) => ore.remove());
+    activeOres.clear();
+  }
+
+  function removeOre(ore) {
+    if (!activeOres.has(ore)) return;
+    activeOres.delete(ore);
+    ore.remove();
+  }
+
+  function spawnOre() {
+    const oreMeta = oreTypes[Math.floor(Math.random() * oreTypes.length)];
+    const lane = Math.floor(Math.random() * laneLeft.length);
+    const duration = 2800 + Math.floor(Math.random() * 1200);
+    const ore = document.createElement("button");
+    ore.type = "button";
+    ore.className = `miniMineOre ${oreMeta.kind}`;
+    ore.textContent = oreMeta.label;
+    ore.style.left = `calc(${laneLeft[lane]}% - 13px)`;
+    ore.style.top = "-28px";
+
+    const start = performance.now();
+    activeOres.add(ore);
+    arena.appendChild(ore);
+
+    ore.addEventListener("click", () => {
+      scores[oreMeta.kind] += 1;
+      renderScores();
+      removeOre(ore);
+    });
+
+    function tick(now) {
+      if (!activeOres.has(ore)) return;
+      const progress = (now - start) / duration;
+      if (progress >= 1) {
+        removeOre(ore);
+        return;
+      }
+      ore.style.top = `${progress * 164}px`;
+      requestAnimationFrame(tick);
+    }
+
+    requestAnimationFrame(tick);
+  }
+
+  function startGame() {
+    clearInterval(spawnTimer);
+    clearOres();
+    spawnTimer = window.setInterval(spawnOre, 950);
+    spawnOre();
+  }
+
+  function resetGame() {
+    scores = { gold: 0, silver: 0, copper: 0 };
+    renderScores();
+    startGame();
+  }
+
+  resetBtn?.addEventListener("click", resetGame);
+  renderScores();
+  startGame();
 })();
 </script>
 <script>
