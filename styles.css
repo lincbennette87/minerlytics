@@ -103,11 +103,171 @@ input,button{font:inherit}
   padding:26px 0 16px;
 }
 
+.heroTitleRow{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:18px;
+}
+
 .heroLeft h1{
   margin:10px 0 10px;
   font-size:54px;
   line-height:1.03;
   letter-spacing:-.02em;
+}
+
+.miningSignalGif{
+  position:relative;
+  width:132px;
+  height:92px;
+  flex:0 0 auto;
+  border-radius:18px;
+  border:1px solid rgba(255,255,255,.10);
+  background:
+    radial-gradient(120px 80px at 25% 18%, rgba(154,122,74,.18), transparent 65%),
+    linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+  overflow:hidden;
+  box-shadow: var(--shadow);
+}
+
+.miningSignalGif::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
+  background-size: 100% 18px, 18px 100%;
+  opacity:.28;
+}
+
+.miningSignalHills{
+  position:absolute;
+  inset:auto 0 0 0;
+  height:54px;
+  background:
+    radial-gradient(80px 36px at 18% 100%, rgba(154,122,74,.94), transparent 71%),
+    radial-gradient(90px 42px at 48% 100%, rgba(110,122,113,.82), transparent 72%),
+    radial-gradient(80px 34px at 78% 100%, rgba(154,122,74,.78), transparent 70%);
+}
+
+.miningSignalShaft{
+  position:absolute;
+  left:30px;
+  bottom:26px;
+  width:16px;
+  height:30px;
+  border-radius:8px 8px 3px 3px;
+  background: linear-gradient(180deg, rgba(243,239,230,.28), rgba(154,122,74,.88));
+  box-shadow: 0 0 0 1px rgba(255,255,255,.07);
+}
+
+.miningSignalRig{
+  position:absolute;
+  left:26px;
+  bottom:52px;
+  width:26px;
+  height:3px;
+  border-radius:999px;
+  background: rgba(243,239,230,.74);
+  transform-origin:left center;
+  animation: rigSweep 3.8s ease-in-out infinite;
+}
+
+.miningSignalRig::after{
+  content:"";
+  position:absolute;
+  right:-5px;
+  top:-3px;
+  width:9px;
+  height:9px;
+  border-radius:50%;
+  background: rgba(215,192,154,.95);
+  box-shadow: 0 0 12px rgba(215,192,154,.38);
+}
+
+.miningSignalBars{
+  position:absolute;
+  right:16px;
+  bottom:18px;
+  display:flex;
+  align-items:flex-end;
+  gap:5px;
+  height:46px;
+}
+
+.miningSignalBars span{
+  width:9px;
+  border-radius:999px 999px 3px 3px;
+  background: linear-gradient(180deg, rgba(215,192,154,.96), rgba(110,122,113,.72));
+  box-shadow: 0 0 0 1px rgba(255,255,255,.05);
+  animation: miningBars 1.9s ease-in-out infinite;
+}
+
+.miningSignalBars span:nth-child(1){ height:18px; animation-delay:0s; }
+.miningSignalBars span:nth-child(2){ height:29px; animation-delay:.18s; }
+.miningSignalBars span:nth-child(3){ height:40px; animation-delay:.36s; }
+.miningSignalBars span:nth-child(4){ height:24px; animation-delay:.54s; }
+
+.miningSignalLine{
+  position:absolute;
+  left:52px;
+  right:12px;
+  top:16px;
+  height:32px;
+}
+
+.miningSignalLine svg{
+  width:100%;
+  height:100%;
+  overflow:visible;
+}
+
+.miningSignalLine path{
+  stroke: rgba(215,192,154,.94);
+  stroke-width:2.2;
+  fill:none;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-dasharray: 80;
+  stroke-dashoffset: 80;
+  animation: signalTrace 3.6s linear infinite;
+  filter: drop-shadow(0 0 6px rgba(154,122,74,.28));
+}
+
+.miningSignalPulse{
+  position:absolute;
+  top:22px;
+  left:54px;
+  width:7px;
+  height:7px;
+  border-radius:50%;
+  background: rgba(215,192,154,.98);
+  box-shadow: 0 0 0 0 rgba(215,192,154,.30);
+  animation: signalPulse 2.2s ease-out infinite;
+}
+
+@keyframes rigSweep{
+  0%, 100%{ transform: rotate(-12deg); }
+  50%{ transform: rotate(18deg); }
+}
+
+@keyframes miningBars{
+  0%, 100%{ transform: scaleY(.84); opacity:.78; }
+  50%{ transform: scaleY(1.08); opacity:1; }
+}
+
+@keyframes signalTrace{
+  0%{ stroke-dashoffset: 80; opacity:.25; }
+  20%{ opacity:1; }
+  100%{ stroke-dashoffset: 0; opacity:1; }
+}
+
+@keyframes signalPulse{
+  0%{ transform: scale(.9); box-shadow: 0 0 0 0 rgba(215,192,154,.28); }
+  70%{ transform: scale(1.1); box-shadow: 0 0 0 12px rgba(215,192,154,0); }
+  100%{ transform: scale(.9); box-shadow: 0 0 0 0 rgba(215,192,154,0); }
 }
 .subhead{margin:0 0 18px;color:var(--muted);max-width:560px}
 
@@ -369,6 +529,8 @@ input,button{font:inherit}
   .trendRow,.tileGrid,.quoteRow{grid-template-columns:1fr}
   .authRow{grid-template-columns:1fr}
   .heroLeft h1{font-size:42px}
+  .heroTitleRow{flex-direction:column}
+  .miningSignalGif{width:100%;max-width:220px;height:88px}
 }
 
 /* =========================
