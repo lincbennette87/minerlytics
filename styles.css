@@ -104,10 +104,7 @@ input,button{font:inherit}
 }
 
 .heroTitleRow{
-  display:flex;
-  align-items:flex-start;
-  justify-content:space-between;
-  gap:18px;
+  display:block;
 }
 
 .heroLeft h1{
@@ -117,202 +114,123 @@ input,button{font:inherit}
   letter-spacing:-.02em;
 }
 
-.miningSignalGif{
+.heroSignalTitle{
   position:relative;
-  width:112px;
-  height:76px;
-  flex:0 0 auto;
-  border-radius:16px;
-  border:1px solid rgba(255,255,255,.10);
-  background:
-    radial-gradient(100px 62px at 24% 18%, rgba(154,122,74,.16), transparent 65%),
-    linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.02));
-  overflow:hidden;
-  box-shadow: var(--shadow);
+  max-width:700px;
+  padding:18px 0 6px;
 }
 
-.miningSignalGif::before{
+.heroSignalTitle::before{
   content:"";
   position:absolute;
-  inset:0;
+  inset:4px auto auto -18px;
+  width:180px;
+  height:110px;
   background:
-    linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
-  background-size: 100% 16px, 16px 100%;
-  opacity:.22;
+    radial-gradient(closest-side, rgba(154,122,74,.18), transparent 78%),
+    radial-gradient(closest-side, rgba(110,122,113,.10), transparent 82%);
+  filter: blur(8px);
+  pointer-events:none;
 }
 
-.miningSignalHills{
-  position:absolute;
-  inset:auto 0 0 0;
-  height:32px;
-  background:
-    radial-gradient(52px 18px at 16% 100%, rgba(154,122,74,.92), transparent 72%),
-    radial-gradient(64px 22px at 48% 100%, rgba(110,122,113,.84), transparent 73%),
-    radial-gradient(54px 18px at 80% 100%, rgba(154,122,74,.72), transparent 72%);
-}
-
-.miningSignalShaft{
-  position:absolute;
-  left:18px;
-  bottom:18px;
-  width:12px;
-  height:18px;
-  border-radius:7px 7px 3px 3px;
-  background: linear-gradient(180deg, rgba(243,239,230,.28), rgba(154,122,74,.88));
-  box-shadow: 0 0 0 1px rgba(255,255,255,.07);
-}
-
-.miningSignalRig{
-  position:absolute;
-  left:15px;
-  bottom:35px;
-  width:20px;
-  height:2px;
+.heroSignalEyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:7px 12px;
   border-radius:999px;
-  background: rgba(243,239,230,.74);
-  transform-origin:left center;
-  animation: rigSweep 3.8s ease-in-out infinite;
+  border:1px solid rgba(154,122,74,.22);
+  background:rgba(255,255,255,.03);
+  color:var(--muted);
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  font-size:11px;
+  font-weight:700;
 }
 
-.miningSignalRig::after{
+.heroSignalTitle h1{
+  margin:12px 0 0;
+}
+
+.heroSignalTitle h1 span{
+  display:block;
+}
+
+.heroSignalLine1{
+  color:var(--text);
+}
+
+.heroSignalLine2{
+  color:#d7c09a;
+  text-shadow: 0 0 18px rgba(154,122,74,.16);
+}
+
+.heroSignalLine3{
+  display:inline-flex !important;
+  align-items:center;
+  gap:12px;
+  color:rgba(243,239,230,.86);
+}
+
+.heroSignalLine3::after{
   content:"";
-  position:absolute;
-  right:-4px;
-  top:-3px;
-  width:7px;
-  height:7px;
-  border-radius:50%;
-  background: rgba(215,192,154,.95);
-  box-shadow: 0 0 10px rgba(215,192,154,.32);
+  display:inline-block;
+  width:108px;
+  height:18px;
+  border-radius:999px;
+  background:
+    linear-gradient(90deg, rgba(154,122,74,.18), rgba(110,122,113,.12)),
+    linear-gradient(transparent 7px, rgba(243,239,230,.06) 7px, rgba(243,239,230,.06) 9px, transparent 9px);
+  border:1px solid rgba(255,255,255,.08);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.02);
+  position:relative;
+  overflow:hidden;
 }
 
-.miningSignalBars{
-  position:absolute;
-  right:12px;
-  bottom:13px;
+.heroSignalLine3::before{
+  content:"";
+  display:inline-block;
+  width:10px;
+  height:10px;
+  margin-right:-118px;
+  border-radius:50%;
+  background:linear-gradient(135deg, rgba(215,192,154,.98), rgba(110,122,113,.92));
+  box-shadow: 0 0 14px rgba(154,122,74,.28);
+  animation: heroSignalTravel 3.4s ease-in-out infinite;
+  z-index:2;
+}
+
+.heroSignalChips{
   display:flex;
-  align-items:flex-end;
-  gap:4px;
-  height:34px;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:16px;
 }
 
-.miningSignalBars span{
-  width:7px;
-  border-radius:999px 999px 3px 3px;
-  background: linear-gradient(180deg, rgba(215,192,154,.96), rgba(110,122,113,.72));
-  box-shadow: 0 0 0 1px rgba(255,255,255,.05);
-  animation: miningBars 1.9s ease-in-out infinite;
+.heroSignalChips span{
+  padding:7px 11px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.03);
+  color:var(--muted);
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  animation: heroChipPulse 3.6s ease-in-out infinite;
 }
 
-.miningSignalBars span:nth-child(1){ height:12px; animation-delay:0s; }
-.miningSignalBars span:nth-child(2){ height:20px; animation-delay:.18s; }
-.miningSignalBars span:nth-child(3){ height:30px; animation-delay:.36s; }
-.miningSignalBars span:nth-child(4){ height:16px; animation-delay:.54s; }
+.heroSignalChips span:nth-child(2){ animation-delay:.22s; }
+.heroSignalChips span:nth-child(3){ animation-delay:.44s; }
 
-.miningSignalLine{
-  position:absolute;
-  left:36px;
-  right:8px;
-  top:10px;
-  height:24px;
+@keyframes heroSignalTravel{
+  0%, 100%{ transform: translateX(0); opacity:.9; }
+  50%{ transform: translateX(96px); opacity:1; }
 }
 
-.miningSignalLine svg{
-  width:100%;
-  height:100%;
-  overflow:visible;
-}
-
-.miningSignalLine path{
-  stroke: rgba(215,192,154,.92);
-  stroke-width:2;
-  fill:none;
-  stroke-linecap:round;
-  stroke-linejoin:round;
-  stroke-dasharray: 72;
-  stroke-dashoffset: 72;
-  animation: signalTrace 3.6s linear infinite;
-  filter: drop-shadow(0 0 6px rgba(154,122,74,.28));
-}
-
-.miningSignalPulse{
-  position:absolute;
-  top:16px;
-  left:39px;
-  width:6px;
-  height:6px;
-  border-radius:50%;
-  background: rgba(215,192,154,.98);
-  box-shadow: 0 0 0 0 rgba(215,192,154,.30);
-  animation: signalPulse 2.2s ease-out infinite;
-}
-
-.miningSignalNodes{
-  position:absolute;
-  inset:8px 10px auto auto;
-  width:40px;
-  height:26px;
-}
-
-.miningSignalNodes::before,
-.miningSignalNodes::after,
-.miningSignalNode{
-  content:"";
-  position:absolute;
-  width:5px;
-  height:5px;
-  border-radius:50%;
-  background: rgba(243,239,230,.92);
-  box-shadow: 0 0 10px rgba(243,239,230,.18);
-}
-
-.miningSignalNodes::before{ top:1px; left:4px; }
-.miningSignalNodes::after{ top:14px; right:2px; }
-.miningSignalNode{ bottom:1px; left:16px; }
-
-.miningSignalNodes svg{
-  position:absolute;
-  inset:0;
-  width:100%;
-  height:100%;
-}
-
-.miningSignalNodes path{
-  stroke: rgba(110,122,113,.68);
-  stroke-width:1.1;
-  fill:none;
-  stroke-dasharray: 32;
-  stroke-dashoffset: 32;
-  animation: nodeMesh 3.2s linear infinite;
-}
-
-@keyframes rigSweep{
-  0%, 100%{ transform: rotate(-12deg); }
-  50%{ transform: rotate(18deg); }
-}
-
-@keyframes miningBars{
-  0%, 100%{ transform: scaleY(.84); opacity:.78; }
-  50%{ transform: scaleY(1.08); opacity:1; }
-}
-
-@keyframes signalTrace{
-  0%{ stroke-dashoffset: 72; opacity:.25; }
-  20%{ opacity:1; }
-  100%{ stroke-dashoffset: 0; opacity:1; }
-}
-
-@keyframes signalPulse{
-  0%{ transform: scale(.9); box-shadow: 0 0 0 0 rgba(215,192,154,.28); }
-  70%{ transform: scale(1.1); box-shadow: 0 0 0 12px rgba(215,192,154,0); }
-  100%{ transform: scale(.9); box-shadow: 0 0 0 0 rgba(215,192,154,0); }
-}
-
-@keyframes nodeMesh{
-  0%{ stroke-dashoffset: 32; opacity:.35; }
-  40%{ opacity:1; }
-  100%{ stroke-dashoffset: 0; opacity:.8; }
+@keyframes heroChipPulse{
+  0%, 100%{ border-color: rgba(255,255,255,.08); color: var(--muted); }
+  50%{ border-color: rgba(154,122,74,.24); color: rgba(243,239,230,.92); }
 }
 .subhead{margin:0 0 18px;color:var(--muted);max-width:560px}
 
@@ -574,8 +492,13 @@ input,button{font:inherit}
   .trendRow,.tileGrid,.quoteRow{grid-template-columns:1fr}
   .authRow{grid-template-columns:1fr}
   .heroLeft h1{font-size:42px}
-  .heroTitleRow{flex-direction:column}
-  .miningSignalGif{width:100%;max-width:180px;height:74px}
+  .heroSignalLine3{
+    display:block !important;
+  }
+  .heroSignalLine3::before,
+  .heroSignalLine3::after{
+    margin-top:12px;
+  }
 }
 
 /* =========================
