@@ -558,15 +558,19 @@
               </div>
             </div>
 
-            <div id="miniMineArena" class="miniMineArena">
+            <div id="miniMineArena" class="miniMineArena" tabindex="0" aria-label="Mini mining catch game">
               <div class="miniMineLane l1"></div>
               <div class="miniMineLane l2"></div>
               <div class="miniMineLane l3"></div>
-              <div class="miniMineDrill" aria-hidden="true"></div>
+              <div id="miniMineBasket" class="miniMineBasket" aria-hidden="true">
+                <span class="miniMineBag gold"></span>
+                <span class="miniMineBag silver"></span>
+                <span class="miniMineBag copper"></span>
+              </div>
               <div class="miniMineStrata" aria-hidden="true"></div>
             </div>
 
-            <div class="miniMineHint">Tap the ore before it disappears into the shaft floor.</div>
+            <div class="miniMineHint">Move the basket left and right to catch the ore before it hits the mine floor.</div>
           </div>
         </aside>
       </div>
@@ -1577,12 +1581,13 @@ updateCompanyDetailLink();
 <script>
 (function () {
   const arena = document.getElementById("miniMineArena");
+  const basket = document.getElementById("miniMineBasket");
   const resetBtn = document.getElementById("miniMineReset");
   const goldEl = document.getElementById("miniMineGold");
   const silverEl = document.getElementById("miniMineSilver");
   const copperEl = document.getElementById("miniMineCopper");
   const totalEl = document.getElementById("miniMineTotal");
-  if (!arena || !goldEl || !silverEl || !copperEl || !totalEl) return;
+  if (!arena || !basket || !goldEl || !silverEl || !copperEl || !totalEl) return;
 
   const laneLeft = [16, 50, 84];
   const oreTypes = [
@@ -1594,6 +1599,24 @@ updateCompanyDetailLink();
   let scores = { gold: 0, silver: 0, copper: 0 };
   let spawnTimer = null;
   const activeOres = new Set();
+  let basketX = 0;
+
+  function clamp(value, min, max) {
+    return Math.min(Math.max(value, min), max);
+  }
+
+  function syncBasket() {
+    const maxX = arena.clientWidth - basket.offsetWidth;
+    basketX = clamp(basketX, 0, maxX);
+    basket.style.left = `${basketX}px`;
+    basket.style.transform = "none";
+  }
+
+  function moveBasketTo(clientX) {
+    const rect = arena.getBoundingClientRect();
+    basketX = clientX - rect.left - basket.offsetWidth / 2;
+    syncBasket();
+  }
 
   function renderScores() {
     goldEl.textContent = String(scores.gold);
@@ -1628,12 +1651,6 @@ updateCompanyDetailLink();
     activeOres.add(ore);
     arena.appendChild(ore);
 
-    ore.addEventListener("click", () => {
-      scores[oreMeta.kind] += 1;
-      renderScores();
-      removeOre(ore);
-    });
-
     function tick(now) {
       if (!activeOres.has(ore)) return;
       const progress = (now - start) / duration;
@@ -1642,6 +1659,22 @@ updateCompanyDetailLink();
         return;
       }
       ore.style.top = `${progress * 164}px`;
+
+      const oreRect = ore.getBoundingClientRect();
+      const basketRect = basket.getBoundingClientRect();
+      const intersects =
+        oreRect.bottom >= basketRect.top &&
+        oreRect.top <= basketRect.bottom &&
+        oreRect.right >= basketRect.left &&
+        oreRect.left <= basketRect.right;
+
+      if (intersects) {
+        scores[oreMeta.kind] += 1;
+        renderScores();
+        removeOre(ore);
+        return;
+      }
+
       requestAnimationFrame(tick);
     }
 
@@ -1658,11 +1691,28 @@ updateCompanyDetailLink();
   function resetGame() {
     scores = { gold: 0, silver: 0, copper: 0 };
     renderScores();
+    basketX = (arena.clientWidth - basket.offsetWidth) / 2;
+    syncBasket();
     startGame();
   }
 
   resetBtn?.addEventListener("click", resetGame);
+  arena.addEventListener("mousemove", (event) => moveBasketTo(event.clientX));
+  arena.addEventListener("touchmove", (event) => {
+    const touch = event.touches && event.touches[0];
+    if (!touch) return;
+    moveBasketTo(touch.clientX);
+  }, { passive: true });
+  arena.addEventListener("keydown", (event) => {
+    if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
+    basketX += event.key === "ArrowLeft" ? -28 : 28;
+    syncBasket();
+  });
+  window.addEventListener("resize", syncBasket);
+
   renderScores();
+  basketX = (arena.clientWidth - basket.offsetWidth) / 2;
+  syncBasket();
   startGame();
 })();
 </script>
