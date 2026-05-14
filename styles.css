@@ -116,9 +116,9 @@ input,button{font:inherit}
 
 .heroSignalTitle{
   position:relative;
-  max-width:620px;
+  max-width:860px;
   margin:0 auto;
-  padding:12px 0 8px;
+  padding:14px 0 10px;
   text-align:center;
 }
 
@@ -126,8 +126,8 @@ input,button{font:inherit}
   content:"";
   position:absolute;
   inset:-8px auto auto 50%;
-  width:220px;
-  height:140px;
+  width:260px;
+  height:150px;
   transform:translateX(-50%);
   background:
     radial-gradient(closest-side, rgba(154,122,74,.18), transparent 74%),
@@ -142,8 +142,8 @@ input,button{font:inherit}
   left:50%;
   top:2px;
   transform:translateX(-50%);
-  width:min(460px, 88%);
-  height:112px;
+  width:min(720px, 94%);
+  height:118px;
   border-radius:20px;
   border:1px solid rgba(255,255,255,.04);
   background:
@@ -176,64 +176,122 @@ input,button{font:inherit}
   margin:10px 0 0;
   position:relative;
   z-index:1;
-  font-size:48px;
-  line-height:.98;
+  font-size:46px;
+  line-height:1.02;
 }
 
-.heroSignalTitle h1 span{
-  display:block;
-}
-
-.heroSignalLine1{
+.heroSignalHeadline{
   color:var(--text);
-  letter-spacing:-.04em;
+  letter-spacing:-.045em;
+  text-wrap:balance;
+  text-shadow: 0 0 24px rgba(154,122,74,.08);
 }
 
-.heroSignalLine2{
-  color:#d7c09a;
-  text-shadow: 0 0 14px rgba(154,122,74,.14);
-  letter-spacing:-.04em;
-}
-
-.heroSignalLine3{
-  display:inline-flex !important;
-  align-items:center;
-  justify-content:center;
-  gap:10px;
-  margin-top:4px;
-  color:rgba(243,239,230,.78);
-  letter-spacing:-.01em;
-  font-size:18px;
-  font-weight:600;
-  text-transform:uppercase;
-}
-
-.heroSignalLine3::after{
+.heroSignalHeadline::after{
   content:"";
-  display:inline-block;
-  width:90px;
-  height:14px;
+  display:block;
+  width:220px;
+  height:2px;
+  margin:14px auto 0;
   border-radius:999px;
-  background:
-    linear-gradient(90deg, rgba(154,122,74,.18), rgba(110,122,113,.12)),
-    linear-gradient(transparent 5px, rgba(243,239,230,.06) 5px, rgba(243,239,230,.06) 7px, transparent 7px);
-  border:1px solid rgba(255,255,255,.08);
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,.02);
-  position:relative;
-  overflow:hidden;
+  background: linear-gradient(90deg, rgba(154,122,74,0), rgba(154,122,74,.66), rgba(110,122,113,.58), rgba(154,122,74,0));
+  opacity:.9;
 }
 
-.heroSignalLine3::before{
-  content:"";
-  display:inline-block;
+.heroSignalOrb{
+  position:absolute;
+  border-radius:50%;
+  pointer-events:none;
+  z-index:0;
+}
+
+.heroSignalOrbA{
+  left:88px;
+  top:46px;
+  width:12px;
+  height:12px;
+  background: radial-gradient(circle at 35% 35%, rgba(243,239,230,.95), rgba(154,122,74,.62));
+  box-shadow: 0 0 18px rgba(154,122,74,.34);
+  animation: heroOrbFloatA 4.6s ease-in-out infinite;
+}
+
+.heroSignalOrbB{
+  right:102px;
+  top:82px;
+  width:9px;
+  height:9px;
+  background: radial-gradient(circle at 35% 35%, rgba(243,239,230,.92), rgba(110,122,113,.66));
+  box-shadow: 0 0 16px rgba(110,122,113,.26);
+  animation: heroOrbFloatB 5.2s ease-in-out infinite;
+}
+
+.heroSignalBeam{
+  position:absolute;
+  left:50%;
+  top:86px;
+  width:min(420px, 68%);
+  height:16px;
+  transform:translateX(-50%);
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.07);
+  background:
+    linear-gradient(90deg, rgba(154,122,74,.06), rgba(110,122,113,.08), rgba(154,122,74,.05)),
+    linear-gradient(transparent 6px, rgba(243,239,230,.06) 6px, rgba(243,239,230,.06) 8px, transparent 8px);
+  overflow:hidden;
+  opacity:.92;
+}
+
+.heroSignalBeamDot{
+  position:absolute;
+  left:12px;
+  top:3px;
   width:8px;
   height:8px;
-  margin-right:-100px;
   border-radius:50%;
-  background:linear-gradient(135deg, rgba(215,192,154,.98), rgba(110,122,113,.92));
-  box-shadow: 0 0 12px rgba(154,122,74,.24);
-  animation: heroSignalTravel 3.4s ease-in-out infinite;
-  z-index:2;
+  background: linear-gradient(135deg, rgba(215,192,154,.98), rgba(110,122,113,.9));
+  box-shadow: 0 0 12px rgba(154,122,74,.28);
+  animation: heroSignalTravel 3.6s ease-in-out infinite;
+}
+
+.heroSignalNodes{
+  position:absolute;
+  left:50%;
+  top:28px;
+  width:min(520px, 76%);
+  height:42px;
+  transform:translateX(-50%);
+  pointer-events:none;
+}
+
+.heroSignalNodes span{
+  position:absolute;
+  width:6px;
+  height:6px;
+  border-radius:50%;
+  background: rgba(243,239,230,.9);
+  box-shadow: 0 0 12px rgba(243,239,230,.14);
+}
+
+.heroSignalNodes span:nth-child(1){ left:4%; top:18px; animation: heroNodePulse 3.1s ease-in-out infinite; }
+.heroSignalNodes span:nth-child(2){ left:46%; top:5px; animation: heroNodePulse 3.1s ease-in-out .35s infinite; }
+.heroSignalNodes span:nth-child(3){ right:6%; top:16px; animation: heroNodePulse 3.1s ease-in-out .7s infinite; }
+
+.heroSignalNodes svg{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  overflow:visible;
+}
+
+.heroSignalNodes path{
+  stroke: rgba(110,122,113,.54);
+  stroke-width:1.2;
+  fill:none;
+  stroke-linecap:round;
+  stroke-dasharray: 150;
+  stroke-dashoffset: 150;
+  animation: heroNodeTrace 4.2s linear infinite;
 }
 
 .heroSignalChips{
@@ -241,7 +299,7 @@ input,button{font:inherit}
   justify-content:center;
   gap:7px;
   flex-wrap:wrap;
-  margin-top:14px;
+  margin-top:18px;
   position:relative;
   z-index:1;
 }
@@ -260,7 +318,7 @@ input,button{font:inherit}
 }
 
 .heroLeft .subhead{
-  margin:4px auto 18px;
+  margin:8px auto 18px;
   text-align:center;
   max-width:640px;
 }
@@ -270,12 +328,33 @@ input,button{font:inherit}
 
 @keyframes heroSignalTravel{
   0%, 100%{ transform: translateX(0); opacity:.9; }
-  50%{ transform: translateX(80px); opacity:1; }
+  50%{ transform: translateX(388px); opacity:1; }
 }
 
 @keyframes heroChipPulse{
   0%, 100%{ border-color: rgba(255,255,255,.08); color: var(--muted); }
   50%{ border-color: rgba(154,122,74,.24); color: rgba(243,239,230,.92); }
+}
+
+@keyframes heroOrbFloatA{
+  0%, 100%{ transform: translateY(0) scale(1); opacity:.9; }
+  50%{ transform: translateY(-8px) scale(1.08); opacity:1; }
+}
+
+@keyframes heroOrbFloatB{
+  0%, 100%{ transform: translateY(0) scale(1); opacity:.78; }
+  50%{ transform: translateY(7px) scale(1.06); opacity:1; }
+}
+
+@keyframes heroNodePulse{
+  0%, 100%{ transform: scale(.85); opacity:.7; }
+  50%{ transform: scale(1.18); opacity:1; }
+}
+
+@keyframes heroNodeTrace{
+  0%{ stroke-dashoffset: 150; opacity:.28; }
+  20%{ opacity:.95; }
+  100%{ stroke-dashoffset: 0; opacity:.78; }
 }
 .subhead{margin:0 0 18px;color:var(--muted);max-width:560px}
 
@@ -537,15 +616,11 @@ input,button{font:inherit}
   .trendRow,.tileGrid,.quoteRow{grid-template-columns:1fr}
   .authRow{grid-template-columns:1fr}
   .heroLeft h1{font-size:42px}
-  .heroSignalTitle h1{font-size:38px}
-  .heroSignalLine3{
-    display:block !important;
-    font-size:14px;
-  }
-  .heroSignalLine3::before,
-  .heroSignalLine3::after{
-    margin-top:12px;
-  }
+  .heroSignalTitle h1{font-size:34px}
+  .heroSignalBeam{top:74px;width:min(270px, 78%)}
+  .heroSignalNodes{width:min(280px, 82%)}
+  .heroSignalOrbA{left:18px}
+  .heroSignalOrbB{right:22px}
 }
 
 /* =========================
