@@ -23,8 +23,8 @@
   z-index: 9999;
   border-radius: 28px;
   background:
-    radial-gradient(circle at 50% 35%, rgba(124,92,255,.28), transparent 38%),
-    rgba(5,10,25,.58);
+    radial-gradient(circle at 50% 35%, rgba(154,122,74,.22), transparent 38%),
+    rgba(8,10,12,.62);
   backdrop-filter: blur(5px);
   align-items: center;
   justify-content: center;
@@ -40,7 +40,7 @@
   max-width: 430px;
   padding: 28px;
   border-radius: 24px;
-  background: rgba(11,19,42,.88);
+  background: rgba(17,19,21,.94);
   border: 1px solid rgba(255,255,255,.18);
   box-shadow: 0 30px 100px rgba(0,0,0,.65);
   animation: aiLockFloat 3.5s ease-in-out infinite;
@@ -55,14 +55,14 @@
   place-items: center;
   font-size: 26px;
   background: linear-gradient(135deg, var(--accent), var(--accent2));
-  box-shadow: 0 0 35px rgba(124,92,255,.55);
+  box-shadow: 0 0 35px rgba(154,122,74,.28);
   animation: aiLockPulse 1.8s ease-in-out infinite;
 }
 
 .aiLockBox h2 {
   margin: 0 0 10px;
   font-size: 22px;
-  color: #eaf0ff;
+  color: var(--text);
 }
 
 .aiLockBox p {
@@ -80,8 +80,8 @@
 }
 
 @keyframes aiLockPulse {
-  0%, 100% { transform: scale(1); box-shadow: 0 0 28px rgba(124,92,255,.45); }
-  50% { transform: scale(1.08); box-shadow: 0 0 48px rgba(57,230,200,.65); }
+  0%, 100% { transform: scale(1); box-shadow: 0 0 28px rgba(154,122,74,.24); }
+  50% { transform: scale(1.08); box-shadow: 0 0 48px rgba(110,122,113,.30); }
 }
 
 @keyframes aiLockFloat {
@@ -155,7 +155,7 @@
 
   <div style="display:flex;gap:10px;margin-bottom:12px;">
     <input id="watchSymbol" placeholder="Add ticker e.g. AEM"
-      style="flex:1;padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#eaf0ff;" />
+      style="flex:1;padding:12px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);" />
     <button class="btn btnPrimary btnTight" type="button" onclick="addWatchTicker()">Add</button>
   </div>
   <div id="watchHelp" style="margin-bottom:12px;color:rgba(234,240,255,.62);font-size:12px;">Save up to 5 favorite tickers. Your chart updates from this list.</div>
@@ -224,7 +224,7 @@
     .trendChart{
       margin-top: 10px;
       border: 1px solid var(--line);
-      background: rgba(11,19,42,.40);
+      background: rgba(21,24,26,.52);
       border-radius: 18px;
       padding: 12px;
       box-shadow: 0 16px 50px rgba(0,0,0,.18);
@@ -244,7 +244,7 @@
     }
     .trendChartMeta{
       font-size: 12px;
-      color: rgba(234,240,255,.70);
+      color: var(--muted);
       white-space: nowrap;
     }
     .trendChartCanvasWrap{
@@ -262,8 +262,8 @@
       justify-content:center;
       border-radius:12px;
       background:
-        radial-gradient(420px 220px at 20% 20%, rgba(124,92,255,.18), transparent 60%),
-        radial-gradient(380px 200px at 80% 30%, rgba(57,230,200,.12), transparent 60%),
+        radial-gradient(420px 220px at 20% 20%, rgba(154,122,74,.16), transparent 60%),
+        radial-gradient(380px 200px at 80% 30%, rgba(110,122,113,.12), transparent 60%),
         rgba(7,10,18,.82);
       border:1px solid rgba(255,255,255,.06);
       z-index:2;
@@ -287,8 +287,8 @@
       height:26px;
       border-radius:50%;
       border:2px solid rgba(255,255,255,.14);
-      border-top-color: rgba(57,230,200,.95);
-      border-right-color: rgba(124,92,255,.9);
+      border-top-color: rgba(110,122,113,.95);
+      border-right-color: rgba(154,122,74,.9);
       animation: trendSpin 0.9s linear infinite;
     }
     .trendChartLoaderTitle{
@@ -391,7 +391,7 @@
       height: 10px;
       border-radius: 4px;
       background: var(--accent2);
-      box-shadow: 0 0 14px rgba(57,230,200,.25);
+      box-shadow: 0 0 14px rgba(110,122,113,.24);
     }
     .trendLegendMeta{
       font-size: 11px;
@@ -839,9 +839,9 @@ function clearChat(){
 
   const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
   const colors = [
-    "rgba(57,230,200,0.95)",
-    "rgba(124,92,255,0.95)",
-    "rgba(255,204,102,0.95)",
+    "rgba(154,122,74,0.95)",
+    "rgba(110,122,113,0.95)",
+    "rgba(215,192,154,0.95)",
     "rgba(234,240,255,0.88)",
     "rgba(255,107,139,0.88)"
   ];
@@ -1345,9 +1345,9 @@ async function loadPersonalDashboard() {
   }
 
   watchlistBox.innerHTML = items.map(item => `
-    <div style="display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.05);color:#eaf0ff;">
-      <a href="./company.html?ticker=${encodeURIComponent(item.symbol)}" style="font-weight:700;text-decoration:none;color:#eaf0ff;">${item.symbol}</a>
-      <button onclick="removeWatchTicker('${item.symbol}')" style="border:0;background:transparent;color:#ffcc66;cursor:pointer;font-size:16px;">×</button>
+    <div style="display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);">
+      <a href="./company.html?ticker=${encodeURIComponent(item.symbol)}" style="font-weight:700;text-decoration:none;color:var(--text);">${item.symbol}</a>
+      <button onclick="removeWatchTicker('${item.symbol}')" style="border:0;background:transparent;color:#d7c09a;cursor:pointer;font-size:16px;">×</button>
     </div>
   `).join("");
 }
@@ -1467,7 +1467,7 @@ updateCompanyDetailLink();
       <a href="${item.url || "#"}" target="_blank" rel="noreferrer" style="display:block;padding:12px 14px;border-radius:14px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03);text-decoration:none;">
         <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;">
           <div style="font-size:14px;font-weight:700;line-height:1.45;">${item.title || "Untitled video"}</div>
-          <span style="font-size:11px;color:#ffcc66;white-space:nowrap;">Watch</span>
+          <span style="font-size:11px;color:#d7c09a;white-space:nowrap;">Watch</span>
         </div>
         <div style="margin-top:6px;font-size:12px;color:rgba(234,240,255,.62);">${item.channel || "YouTube"} • ${relTime(item.published_at)}</div>
         ${item.transcript_snippet ? `<div style="margin-top:8px;font-size:12px;color:rgba(234,240,255,.74);line-height:1.5;">${item.transcript_snippet}</div>` : ""}
