@@ -20,6 +20,7 @@ let trending = [
 
 // fallback until universe.json loads
 let NEWS_TICKERS = ["AEM", "WPM", "NEM"];
+const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 
 /* ---------- Quotes (still mocked) ---------- */
 const quotes = [
@@ -78,7 +79,7 @@ async function loadUniverseTickers(limit = 12) {
 async function refreshTrendingNews() {
   try {
     const res = await fetch(
-      `/api/news/trending?symbols=${encodeURIComponent(NEWS_TICKERS.join(","))}`,
+      `${API_BASE}/api/news/trending?symbols=${encodeURIComponent(NEWS_TICKERS.join(","))}`,
       {
         headers: { accept: "application/json" },
         cache: "no-store",
@@ -159,7 +160,7 @@ function renderTicker() {
 async function refreshLatestTickerFeed() {
   try {
     const res = await fetch(
-      `/api/news/latest-feed?symbols=${encodeURIComponent(NEWS_TICKERS.join(","))}&limit=12`,
+      `${API_BASE}/api/news/latest-feed?symbols=${encodeURIComponent(NEWS_TICKERS.join(","))}&limit=12`,
       {
         headers: { accept: "application/json" },
         cache: "no-store",
