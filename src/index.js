@@ -1230,6 +1230,52 @@ async function getLatestNewsCardForTicker(env, ticker) {
   }
 }
 
+function summarizeHeadlineOneLiner(title = "", ticker = "") {
+  const cleaned = String(title || "")
+    .replace(/\s+/g, " ")
+    .replace(new RegExp(`^${String(ticker || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*[:\\-]\\s*`, "i"), "")
+    .trim();
+
+  if (!cleaned) return "Latest sector update available.";
+  if (cleaned.length <= 118) return cleaned;
+  return `${cleaned.slice(0, 115).trimEnd()}...`;
+}
+
+async function getLatestUniverseNewsItems(env, symbols = [], limit = 12) {
+  const tickers = (symbols.length ? symbols : Object.keys(TICKERS))
+    .map((t) => String(t || "").toUpperCase().trim())
+    .filter((t) => !!TICKERS[t])
+    .slice(0, 40);
+
+  if (!tickers.length) return [];
+
+  const placeholders = tickers.map(() => "?").join(",");
+  const rows = await env.DB.prepare(
+    `
+    SELECT id, ticker, title, link, source, published_at, fetched_at
+    FROM news_items
+    WHERE ticker IN (${placeholders})
+    ORDER BY
+      CASE WHEN published_at IS NOT NULL AND published_at != '' THEN published_at ELSE fetched_at END DESC
+    LIMIT ?
+    `
+  ).bind(...tickers, clamp(Number(limit || 12), 1, 24)).all();
+
+  return ((rows && rows.results) || []).map((row) => {
+    const when = row.published_at || row.fetched_at || null;
+    return {
+      ticker: row.ticker,
+      title: row.title,
+      link: row.link,
+      source: row.source || "RSS",
+      published_at: row.published_at || null,
+      fetched_at: row.fetched_at || null,
+      meta: `${row.ticker} • ${row.source || "RSS"} • ${when ? relTime(when) : "recent"}`,
+      one_liner: summarizeHeadlineOneLiner(row.title, row.ticker)
+    };
+  });
+}
+
 async function getStooqSeriesForTicker(env, ticker, limit = 60) {
   if (!ticker) return [];
   const safeLimit = Math.min(Math.max(Number(limit || 60), 1), 120);
@@ -2420,6 +2466,18 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
         }
 
         return json({ cards }, 200);
+      }
+
+      if (url.pathname === "/api/news/latest-feed" && request.method === "GET") {
+        const symbols = parseSymbolsParam(url.searchParams.get("symbols") || "");
+        const limit = clamp(parseInt(url.searchParams.get("limit") || "12", 10), 1, 24);
+        const items = await getLatestUniverseNewsItems(env, symbols, limit).catch(() => []);
+
+        return json({
+          ok: true,
+          symbols: symbols.length ? symbols : Object.keys(TICKERS),
+          items
+        }, 200);
       }
 
       if (url.pathname === "/api/market/top-trends" && request.method === "GET") {

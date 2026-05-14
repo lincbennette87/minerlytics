@@ -28,13 +28,10 @@ const quotes = [
   { sym: "NEM", company: "Newmont", price: 39.14, chg: +0.41 },
 ];
 
-/* ---------- Running ticker strip (still mocked) ---------- */
-const tickerItems = [
-  "Gold breaks above key resistance as USD weakens",
-  "Interview: permitting timelines and risk factors (new video)",
-  "Copper demand outlook strengthens on electrification news",
-  "Junior miner announces new drill results; sentiment spikes",
-  "Regulatory update: project approval milestone reached",
+/* ---------- Running ticker strip (latest RSS across universe) ---------- */
+let tickerItems = [
+  { text: "Loading latest RSS headlines across your miner universe...", href: "#" },
+  { text: "Loading latest RSS headlines across your miner universe...", href: "#" },
 ];
 
 /* ============ Universe Loader ============ */
@@ -149,12 +146,39 @@ function renderTicker() {
   // Duplicate so it loops cleanly
   const combined = [...tickerItems, ...tickerItems]
     .map(
-      (t) => `
-    <span class="tickerItem"><span class="badge"></span>${escapeHtml(t)}</span>
+      (item) => `
+    <a class="tickerItem" href="${escapeHtml(item.href || "#")}" ${item.href ? 'target="_blank" rel="noreferrer"' : ""}>
+      <span class="badge"></span>${escapeHtml(item.text || "")}
+    </a>
   `
     )
     .join("");
   el.innerHTML = combined;
+}
+
+async function refreshLatestTickerFeed() {
+  try {
+    const res = await fetch(
+      `/api/news/latest-feed?symbols=${encodeURIComponent(NEWS_TICKERS.join(","))}&limit=12`,
+      {
+        headers: { accept: "application/json" },
+        cache: "no-store",
+      }
+    );
+    if (!res.ok) throw new Error(`latest-feed status ${res.status}`);
+
+    const data = await res.json();
+    const items = Array.isArray(data.items) ? data.items : [];
+    if (!items.length) return;
+
+    tickerItems = items.map((item) => ({
+      href: item.link || "#",
+      text: `${item.meta || "Latest RSS"} — ${item.one_liner || item.title || "Headline available"}`
+    }));
+    renderTicker();
+  } catch (e) {
+    console.warn("refreshLatestTickerFeed failed:", e);
+  }
 }
 
 /* ============ Search wiring ============ */
@@ -274,7 +298,9 @@ spark("copperChart");
   }
 
   refreshTrendingNews(); // immediate
+  refreshLatestTickerFeed(); // immediate
   setInterval(refreshTrendingNews, 60000); // every 60s
+  setInterval(refreshLatestTickerFeed, 60000); // every 60s
 })();
 
 window.addEventListener("resize", () => {

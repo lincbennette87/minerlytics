@@ -290,7 +290,7 @@ input,button{font:inherit}
   display:flex;align-items:center;gap:12px;
 }
 .bottomLeft{display:flex;align-items:center;gap:8px;min-width:110px}
-.dot{width:8px;height:8px;border-radius:50%;background:var(--accent2);box-shadow:0 0 14px rgba(57,230,200,.45)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--accent2);box-shadow:0 0 14px rgba(110,122,113,.38)}
 .bottomLabel{font-size:12px;color:rgba(234,240,255,.70);letter-spacing:.06em}
 
 .ticker{
@@ -311,21 +311,24 @@ input,button{font:inherit}
   display:flex;align-items:center;gap:8px;
   color:rgba(234,240,255,.70);
   font-size:12px;
+  text-decoration:none;
+  min-width:max-content;
 }
+.tickerItem:hover{color:var(--text)}
 .badge{
   width:10px;height:10px;border-radius:4px;
-  background:rgba(124,92,255,.75);
+  background:rgba(154,122,74,.76);
   box-shadow:0 0 0 1px rgba(255,255,255,.10);
 }
 .newsBtn{
-  border:1px solid rgba(57,230,200,.35);
-  background: rgba(57,230,200,.10);
+  border:1px solid rgba(154,122,74,.28);
+  background: rgba(154,122,74,.10);
   color:rgba(234,240,255,.92);
   padding:8px 12px;
   border-radius: 14px;
   cursor:pointer;
 }
-.newsBtn:hover{border-color:rgba(57,230,200,.55)}
+.newsBtn:hover{border-color:rgba(154,122,74,.44)}
 
 @keyframes scroll{
   0%{transform: translateX(0)}
