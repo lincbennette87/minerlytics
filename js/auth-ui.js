@@ -51,7 +51,7 @@
   function renderLoggedIn(authNav, user) {
     const displayName = user.display_name || user.email || "Minerlytics User";
     authNav.innerHTML = `
-      <div style="position:relative;">
+      <div id="accountMenuWrap" style="position:relative;">
         <button id="accountBtn" class="btn btnGhost" type="button">
           👤 ${esc(displayName)}
         </button>
@@ -95,26 +95,43 @@
     const btn = document.getElementById("accountBtn");
     const menu = document.getElementById("accountMenu");
     const logoutBtn = document.getElementById("logoutBtn");
+    const menuWrap = document.getElementById("accountMenuWrap");
 
-    if (btn && menu) {
+    if (btn && menu && menuWrap) {
       btn.onclick = function (event) {
         event.stopPropagation();
         menu.style.display = menu.style.display === "block" ? "none" : "block";
       };
 
-      document.addEventListener("click", function () {
+      menu.addEventListener("click", function (event) {
+        event.stopPropagation();
+      });
+
+      document.addEventListener("click", function (event) {
+        if (menuWrap.contains(event.target)) return;
         menu.style.display = "none";
       });
     }
 
     if (logoutBtn) {
-      logoutBtn.onclick = async function () {
-        await fetch(API_BASE + "/api/logout", {
-          method: "POST",
-          credentials: "include"
-        });
-        clearUserCache();
-        window.location.reload();
+      logoutBtn.onclick = async function (event) {
+        event.preventDefault();
+        event.stopPropagation();
+        logoutBtn.disabled = true;
+        logoutBtn.textContent = "Logging out...";
+
+        try {
+          await fetch(API_BASE + "/api/logout", {
+            method: "POST",
+            credentials: "include"
+          });
+        } catch (err) {
+          console.error("LOGOUT ERROR:", err);
+        } finally {
+          clearUserCache();
+          renderLoggedOut(authNav);
+          window.location.href = "./index.html";
+        }
       };
     }
   }

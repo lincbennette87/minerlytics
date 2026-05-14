@@ -2312,7 +2312,7 @@ if (url.pathname === "/api/logout" && request.method === "POST") {
 
   return json({ ok: true }, 200, {
     "Set-Cookie": "minerlytics_session=; Path=/; HttpOnly; Secure; SameSite=None; Max-Age=0"
-  });
+  }, request);
 }
 
 if (url.pathname === "/api/contact" && request.method === "POST") {
