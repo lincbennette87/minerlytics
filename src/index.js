@@ -2228,69 +2228,6 @@ if (url.pathname === "/api/watchlist/remove" && request.method === "POST") {
   return json({ ok: true, symbol });
 }
 
-// watchlist new
-if (url.pathname === "/api/watchlist" && request.method === "GET") {
-  const email = String(url.searchParams.get("email") || "").toLowerCase().trim();
-
-  if (!email) return json({ ok: false, error: "email required" }, 400);
-
-  const rows = await env.DB.prepare(`
-    SELECT symbol, created_at
-    FROM user_watchlist
-    WHERE email = ?
-    ORDER BY created_at DESC
-  `).bind(email).all();
-
-  return json({ ok: true, watchlist: rows.results || [] });
-}
-
-if (url.pathname === "/api/watchlist/add" && request.method === "POST") {
-  const body = await request.json().catch(() => ({}));
-  const email = String(body.email || "").toLowerCase().trim();
-  const symbol = String(body.symbol || "").toUpperCase().trim();
-
-  if (!email || !symbol) {
-    return json({ ok: false, error: "email and symbol required" }, 400);
-  }
-
-  const existingRows = await env.DB.prepare(`
-    SELECT symbol
-    FROM user_watchlist
-    WHERE email = ?
-    ORDER BY created_at DESC
-  `).bind(email).all().catch(() => ({ results: [] }));
-
-  const existingItems = (existingRows && existingRows.results) || [];
-  const alreadySaved = existingItems.some((item) => item.symbol === symbol);
-  if (!alreadySaved && existingItems.length >= 5) {
-    return json({ ok: false, error: "You can save up to 5 favorite tickers." }, 400);
-  }
-
-  await env.DB.prepare(`
-    INSERT OR IGNORE INTO user_watchlist (id, email, symbol, created_at)
-    VALUES (?, ?, ?, ?)
-  `).bind(crypto.randomUUID(), email, symbol, new Date().toISOString()).run();
-
-  return json({ ok: true, symbol });
-}
-
-if (url.pathname === "/api/watchlist/remove" && request.method === "POST") {
-  const body = await request.json().catch(() => ({}));
-  const email = String(body.email || "").toLowerCase().trim();
-  const symbol = String(body.symbol || "").toUpperCase().trim();
-
-  if (!email || !symbol) {
-    return json({ ok: false, error: "email and symbol required" }, 400);
-  }
-
-  await env.DB.prepare(`
-    DELETE FROM user_watchlist
-    WHERE email = ? AND symbol = ?
-  `).bind(email, symbol).run();
-
-  return json({ ok: true, symbol });
-}
-
 // LOGOUT
 if (url.pathname === "/api/logout" && request.method === "POST") {
   const sessionId = getCookie(request, "minerlytics_session");

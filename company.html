@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minerlytics AI — Company Details</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <style>
+    .page-shell { max-width: 1200px; margin: 0 auto; padding: 28px 18px 48px; }
+    .hero-grid { display:grid; grid-template-columns: 1.05fr .95fr; gap:18px; }
+    .panel {
+      border:1px solid var(--line);
+      background:rgba(11,19,42,.46);
+      border-radius:20px;
+      padding:18px;
+      box-shadow:0 18px 50px rgba(0,0,0,.22);
+    }
+    .eyebrow {
+      font-size:12px;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+      color:rgba(234,240,255,.56);
+      margin-bottom:10px;
+    }
+    .title-row { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; }
+    .title-row h1 { margin:0; font-size:40px; line-height:1.05; }
+    .symbol-badge {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:8px 12px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(255,255,255,.04);
+      font-size:12px;
+      font-weight:700;
+      letter-spacing:.08em;
+    }
+    .subtitle { margin:10px 0 0; color:var(--muted); max-width:700px; line-height:1.6; }
+    .meta-row, .metric-grid, .section-grid { display:grid; gap:14px; }
+    .meta-row { grid-template-columns: repeat(4, minmax(0,1fr)); margin-top:18px; }
+    .metric-grid { grid-template-columns: repeat(4, minmax(0,1fr)); margin-top:18px; }
+    .section-grid { grid-template-columns: repeat(2, minmax(0,1fr)); margin-top:18px; }
+    .mini-card {
+      border:1px solid rgba(255,255,255,.08);
+      background:rgba(255,255,255,.03);
+      border-radius:16px;
+      padding:14px;
+    }
+    .mini-label {
+      font-size:11px;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+      color:rgba(234,240,255,.56);
+      margin-bottom:8px;
+    }
+    .mini-value {
+      font-size:24px;
+      font-weight:800;
+      font-variant-numeric:tabular-nums;
+    }
+    .mini-sub { margin-top:6px; color:var(--muted); font-size:13px; line-height:1.5; }
+    .up { color:#7ef0a8; }
+    .down { color:#ff8ea8; }
+    .detail-list { display:grid; gap:10px; margin-top:12px; }
+    .detail-item {
+      border:1px solid rgba(255,255,255,.08);
+      background:rgba(255,255,255,.03);
+      border-radius:14px;
+      padding:12px 14px;
+    }
+    .detail-item a { color:inherit; text-decoration:none; }
+    .detail-title { font-weight:700; line-height:1.45; }
+    .detail-meta { margin-top:6px; font-size:12px; color:rgba(234,240,255,.6); }
+    .detail-text { margin-top:8px; color:var(--muted); line-height:1.6; font-size:13px; }
+    .chart-wrap {
+      position:relative;
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:16px;
+      background:rgba(0,0,0,.12);
+      padding:12px;
+      margin-top:16px;
+    }
+    .chart-canvas { width:100%; height:300px; display:block; }
+    .chart-meta {
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      margin-top:12px;
+      font-size:12px;
+      color:rgba(234,240,255,.62);
+    }
+    .section-title {
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      margin-bottom:10px;
+    }
+    .section-title h2 {
+      margin:0;
+      font-size:16px;
+      letter-spacing:.02em;
+    }
+    .body-copy { color:var(--muted); line-height:1.7; font-size:14px; }
+    .source-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      margin-top:12px;
+      color:#ffcc66;
+      font-size:13px;
+      text-decoration:none;
+    }
+    .loading { color:var(--muted); }
+    @media (max-width: 980px) {
+      .hero-grid, .section-grid, .metric-grid, .meta-row { grid-template-columns: 1fr; }
+      .title-row h1 { font-size:32px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logoMark"></div>
+      <div class="brandName">MINERLYTICS</div>
+    </div>
+
+    <nav class="navLinks">
+      <a class="navLink" href="./index.html">Home</a>
+      <a class="navLink" href="./analysis.html">Analysis</a>
+      <a class="navLink" href="./educationportal.html">Education Portal</a>
+      <a class="navLink" href="./subscription.html">Subscription</a>
+      <a class="navLink" href="./about.html">About</a>
+    </nav>
+
+    <div class="navRight">
+      <div id="authButtons" style="display:flex;gap:10px;">
+        <a class="btn btnGhost" href="./login.html">Sign In</a>
+        <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero-grid">
+      <div class="panel">
+        <div class="eyebrow">Company Details</div>
+        <div class="title-row">
+          <div>
+            <div class="symbol-badge" id="companyTicker">Ticker</div>
+            <h1 id="companyName">Loading company…</h1>
+            <p class="subtitle" id="companyDescription">Loading company description…</p>
+          </div>
+        </div>
+
+        <div class="meta-row">
+          <div class="mini-card">
+            <div class="mini-label">Company Ticker</div>
+            <div class="mini-value" id="metaTicker">—</div>
+            <div class="mini-sub" id="metaExchange">—</div>
+          </div>
+          <div class="mini-card">
+            <div class="mini-label">Company Name</div>
+            <div class="mini-value" style="font-size:20px;" id="metaCompanyName">—</div>
+            <div class="mini-sub" id="metaIndustry">—</div>
+          </div>
+          <div class="mini-card">
+            <div class="mini-label">Latest Close</div>
+            <div class="mini-value" id="metaPrice">—</div>
+            <div class="mini-sub" id="metaPriceDelta">—</div>
+          </div>
+          <div class="mini-card">
+            <div class="mini-label">News Sentiment</div>
+            <div class="mini-value" style="font-size:20px;" id="metaSentiment">—</div>
+            <div class="mini-sub" id="metaSentimentWhy">—</div>
+          </div>
+        </div>
+
+        <div class="chart-wrap">
+          <canvas id="companyChart" class="chart-canvas"></canvas>
+          <div class="chart-meta">
+            <span id="chartStatus">Loading 6M price trend…</span>
+            <span id="chartPerf">—</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="section-title">
+          <h2>Financial Snapshot</h2>
+          <span class="eyebrow" style="margin:0;">Balance Sheet</span>
+        </div>
+        <div class="metric-grid">
+          <div class="mini-card">
+            <div class="mini-label">Revenue</div>
+            <div class="mini-value" style="font-size:20px;" id="finRevenue">—</div>
+            <div class="mini-sub" id="finRevenueMeta">—</div>
+          </div>
+          <div class="mini-card">
+            <div class="mini-label">Net Income</div>
+            <div class="mini-value" style="font-size:20px;" id="finNetIncome">—</div>
+            <div class="mini-sub" id="finNetIncomeMeta">—</div>
+          </div>
+          <div class="mini-card">
+            <div class="mini-label">Total Assets</div>
+            <div class="mini-value" style="font-size:20px;" id="finAssets">—</div>
+            <div class="mini-sub" id="finAssetsMeta">—</div>
+          </div>
+          <div class="mini-card">
+            <div class="mini-label">Total Liabilities</div>
+            <div class="mini-value" style="font-size:20px;" id="finLiabilities">—</div>
+            <div class="mini-sub" id="finLiabilitiesMeta">—</div>
+          </div>
+          <div class="mini-card">
+            <div class="mini-label">Cash & Equivalents</div>
+            <div class="mini-value" style="font-size:20px;" id="finCash">—</div>
+            <div class="mini-sub" id="finCashMeta">—</div>
+          </div>
+          <div class="mini-card">
+            <div class="mini-label">Stockholders Equity</div>
+            <div class="mini-value" style="font-size:20px;" id="finEquity">—</div>
+            <div class="mini-sub" id="finEquityMeta">—</div>
+          </div>
+          <div class="mini-card">
+            <div class="mini-label">EPS Diluted</div>
+            <div class="mini-value" style="font-size:20px;" id="finEps">—</div>
+            <div class="mini-sub" id="finEpsMeta">—</div>
+          </div>
+          <div class="mini-card">
+            <div class="mini-label">Shares Outstanding</div>
+            <div class="mini-value" style="font-size:20px;" id="finShares">—</div>
+            <div class="mini-sub" id="finSharesMeta">—</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-grid">
+      <div class="panel">
+        <div class="section-title"><h2>Ounces Produced Past Quarter</h2></div>
+        <div class="body-copy" id="productionSummary">Loading production summary…</div>
+      </div>
+      <div class="panel">
+        <div class="section-title"><h2>Mine Details</h2></div>
+        <div class="body-copy" id="mineDetails">Loading mine details…</div>
+      </div>
+      <div class="panel">
+        <div class="section-title"><h2>Management Summary</h2></div>
+        <div class="body-copy" id="managementSummary">Loading management summary…</div>
+      </div>
+      <div class="panel">
+        <div class="section-title"><h2>Risks</h2></div>
+        <div class="body-copy" id="riskSummary">Loading risks…</div>
+      </div>
+      <div class="panel">
+        <div class="section-title"><h2>Forward Looking Statement</h2></div>
+        <div class="body-copy" id="forwardLooking">Loading forward-looking commentary…</div>
+      </div>
+      <div class="panel">
+        <div class="section-title"><h2>Latest Filing Source</h2></div>
+        <div class="body-copy" id="filingLead">Loading filing coverage…</div>
+        <a id="filingLink" class="source-link" href="#" target="_blank" rel="noreferrer" style="display:none;">Open latest SEC filing</a>
+      </div>
+    </section>
+
+    <section class="section-grid">
+      <div class="panel">
+        <div class="section-title"><h2>Recent RSS Headlines</h2></div>
+        <div class="detail-list" id="rssList"><div class="loading">Loading RSS items…</div></div>
+      </div>
+      <div class="panel">
+        <div class="section-title"><h2>Recent YouTube Videos</h2></div>
+        <div class="detail-list" id="videoList"><div class="loading">Loading YouTube coverage…</div></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/auth-ui.js"></script>
+  <script>
+  (function () {
+    const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+    const ticker = (new URLSearchParams(window.location.search).get("ticker") || "AEM").toUpperCase().trim();
+    const chartCanvas = document.getElementById("companyChart");
+    let cachedPoints = [];
+
+    const $ = (id) => document.getElementById(id);
+
+    function fmtCurrency(value) {
+      const num = Number(value);
+      if (!Number.isFinite(num)) return "Not available";
+      const abs = Math.abs(num);
+      if (abs >= 1e9) return `$${(num / 1e9).toFixed(2)}B`;
+      if (abs >= 1e6) return `$${(num / 1e6).toFixed(2)}M`;
+      if (abs >= 1e3) return `$${(num / 1e3).toFixed(1)}K`;
+      return `$${num.toFixed(2)}`;
+    }
+
+    function fmtNumber(value) {
+      const num = Number(value);
+      if (!Number.isFinite(num)) return "Not available";
+      return new Intl.NumberFormat("en-US").format(num);
+    }
+
+    function fmtPct(value) {
+      const num = Number(value);
+      if (!Number.isFinite(num)) return "Not available";
+      return `${num >= 0 ? "+" : ""}${num.toFixed(2)}%`;
+    }
+
+    function relTime(value) {
+      if (!value) return "recent";
+      const date = new Date(value);
+      const diffMs = Date.now() - date.getTime();
+      const diffHrs = Math.round(diffMs / 36e5);
+      if (!Number.isFinite(diffHrs)) return "recent";
+      if (Math.abs(diffHrs) < 24) return `${Math.max(1, Math.abs(diffHrs))}h ago`;
+      const diffDays = Math.round(diffHrs / 24);
+      return `${Math.max(1, Math.abs(diffDays))}d ago`;
+    }
+
+    async function fetchJson(url) {
+      const res = await fetch(url, { headers: { accept: "application/json" }, cache: "no-store" });
+      if (!res.ok) throw new Error(`${url} (${res.status})`);
+      return res.json();
+    }
+
+    function findByTicker(items, key = "ticker") {
+      return Array.isArray(items)
+        ? items.find((item) => String(item?.[key] || "").toUpperCase() === ticker)
+        : null;
+    }
+
+    function setText(id, value) {
+      const el = $(id);
+      if (el) el.textContent = value;
+    }
+
+    function setHtml(id, value) {
+      const el = $(id);
+      if (el) el.innerHTML = value;
+    }
+
+    function drawChart(points = []) {
+      if (!chartCanvas) return;
+      const rect = chartCanvas.getBoundingClientRect();
+      const dpr = window.devicePixelRatio || 1;
+      chartCanvas.width = Math.max(300, Math.floor(rect.width * dpr));
+      chartCanvas.height = Math.floor(300 * dpr);
+      const ctx = chartCanvas.getContext("2d");
+      ctx.setTransform(1, 0, 0, 1, 0, 0);
+      ctx.scale(dpr, dpr);
+      ctx.clearRect(0, 0, rect.width, 300);
+
+      if (!points.length) {
+        ctx.fillStyle = "rgba(234,240,255,.62)";
+        ctx.font = "14px system-ui";
+        ctx.fillText("No market data available yet.", 18, 30);
+        return;
+      }
+
+      const closes = points.map((point) => Number(point.close)).filter(Number.isFinite);
+      const min = Math.min(...closes);
+      const max = Math.max(...closes);
+      const pad = Math.max((max - min) * 0.12, 0.5);
+      const low = min - pad;
+      const high = max + pad;
+      const width = rect.width;
+      const height = 300;
+
+      ctx.strokeStyle = "rgba(255,255,255,.08)";
+      for (let i = 1; i < 4; i += 1) {
+        const y = (height / 4) * i;
+        ctx.beginPath();
+        ctx.moveTo(0, y);
+        ctx.lineTo(width, y);
+        ctx.stroke();
+      }
+
+      const coords = points.map((point, index) => {
+        const x = (width * index) / Math.max(points.length - 1, 1);
+        const y = height - ((Number(point.close) - low) / (high - low || 1)) * (height - 16) - 8;
+        return { x, y };
+      });
+
+      const grad = ctx.createLinearGradient(0, 0, 0, height);
+      grad.addColorStop(0, "rgba(57,230,200,.28)");
+      grad.addColorStop(1, "rgba(57,230,200,0)");
+      ctx.beginPath();
+      coords.forEach((point, index) => {
+        if (index === 0) ctx.moveTo(point.x, point.y);
+        else ctx.lineTo(point.x, point.y);
+      });
+      ctx.lineTo(width, height);
+      ctx.lineTo(0, height);
+      ctx.closePath();
+      ctx.fillStyle = grad;
+      ctx.fill();
+
+      ctx.beginPath();
+      coords.forEach((point, index) => {
+        if (index === 0) ctx.moveTo(point.x, point.y);
+        else ctx.lineTo(point.x, point.y);
+      });
+      ctx.strokeStyle = "rgba(57,230,200,.95)";
+      ctx.lineWidth = 2.5;
+      ctx.stroke();
+
+      const last = coords[coords.length - 1];
+      ctx.beginPath();
+      ctx.arc(last.x, last.y, 4.5, 0, Math.PI * 2);
+      ctx.fillStyle = "#fff";
+      ctx.fill();
+      ctx.beginPath();
+      ctx.arc(last.x, last.y, 7.5, 0, Math.PI * 2);
+      ctx.strokeStyle = "rgba(57,230,200,.7)";
+      ctx.lineWidth = 2;
+      ctx.stroke();
+    }
+
+    function renderFeed(listId, items, type) {
+      const target = $(listId);
+      if (!target) return;
+      if (!Array.isArray(items) || !items.length) {
+        target.innerHTML = `<div class="loading">No ${type === "video" ? "video" : "RSS"} items available yet.</div>`;
+        return;
+      }
+
+      target.innerHTML = items.map((item) => `
+        <div class="detail-item">
+          <a href="${item.link || item.url || "#"}" target="_blank" rel="noreferrer">
+            <div class="detail-title">${item.title || "Untitled"}</div>
+            <div class="detail-meta">${item.source || item.channel || type} • ${relTime(item.published_at || item.fetched_at)}</div>
+            ${item.transcript_snippet ? `<div class="detail-text">${item.transcript_snippet}</div>` : ""}
+          </a>
+        </div>
+      `).join("");
+    }
+
+    function fillFinancialCard(value, metaValueId, valueId) {
+      setText(valueId, value?.val !== undefined ? fmtCurrency(value.val) : "Not available");
+      setText(metaValueId, value?.filed ? `${value.form || "Filed"} • ${value.filed}` : "Not available");
+    }
+
+    async function loadPage() {
+      try {
+        const [detail, companyMeta, fundamentals, balanceSheets] = await Promise.all([
+          fetchJson(`${API_BASE}/api/company-detail?ticker=${encodeURIComponent(ticker)}`),
+          fetchJson(`/data/company_meta.json`).catch(() => []),
+          fetchJson(`/data/fundamentals_latest.json`).catch(() => []),
+          fetchJson(`/data/detailed_balance_sheets.json`).catch(() => []),
+        ]);
+
+        const meta = findByTicker(companyMeta) || {};
+        const fundamental = findByTicker(fundamentals) || {};
+        const balance = findByTicker(balanceSheets) || {};
+        const market = detail.market || {};
+        const latestPoint = Array.isArray(market.points) && market.points.length ? market.points[market.points.length - 1] : null;
+
+        document.title = `Minerlytics AI — ${detail.ticker} Company Details`;
+        setText("companyTicker", detail.ticker);
+        setText("companyName", detail.name || meta.name || detail.ticker);
+        setText("companyDescription", detail.ai_sections?.description || "Not available.");
+        setText("metaTicker", detail.ticker);
+        setText("metaExchange", (meta.exchanges || []).join(", ") || "Exchange not available");
+        setText("metaCompanyName", meta.name || detail.name || detail.ticker);
+        setText("metaIndustry", meta.sicDescription || "Mining company");
+        setText("metaPrice", latestPoint ? fmtCurrency(latestPoint.close) : "Not available");
+        setText("metaPriceDelta", Number.isFinite(market.day_change_pct) ? fmtPct(market.day_change_pct) : "Not available");
+        $("metaPriceDelta").className = `mini-sub ${Number(market.day_change_pct) < 0 ? "down" : "up"}`;
+        setText("metaSentiment", detail.sentiment ? `${detail.sentiment.bullish_pct}% Bullish` : "Not available");
+        setText("metaSentimentWhy", detail.sentiment_explanation || "Not available.");
+
+        cachedPoints = Array.isArray(market.points) ? market.points : [];
+        drawChart(cachedPoints);
+        setText("chartStatus", latestPoint ? `Latest data point: ${latestPoint.date || "recent"}` : "No market history available");
+        setText("chartPerf", Number.isFinite(market.perf_180d?.change_pct) ? `6M: ${fmtPct(market.perf_180d.change_pct)} • 30D: ${fmtPct(market.perf_30d?.change_pct)}` : "Trend performance not available");
+
+        fillFinancialCard(fundamental.revenue, "finRevenueMeta", "finRevenue");
+        fillFinancialCard(fundamental.netIncome, "finNetIncomeMeta", "finNetIncome");
+        fillFinancialCard(fundamental.assets, "finAssetsMeta", "finAssets");
+        fillFinancialCard(fundamental.liabilities, "finLiabilitiesMeta", "finLiabilities");
+        setText("finEps", fundamental.epsDiluted?.val !== undefined ? String(fundamental.epsDiluted.val) : "Not available");
+        setText("finEpsMeta", fundamental.epsDiluted?.filed ? `${fundamental.epsDiluted.form || "Filed"} • ${fundamental.epsDiluted.filed}` : "Not available");
+        setText("finShares", fundamental.sharesOutstanding?.val !== undefined ? fmtNumber(fundamental.sharesOutstanding.val) : "Not available");
+        setText("finSharesMeta", fundamental.sharesOutstanding?.filed ? `${fundamental.sharesOutstanding.form || "Filed"} • ${fundamental.sharesOutstanding.filed}` : "Not available");
+        setText("finCash", balance.balanceSheet?.cash_and_cash_equivalents?.value !== undefined ? fmtCurrency(balance.balanceSheet.cash_and_cash_equivalents.value) : "Not available");
+        setText("finCashMeta", balance.balanceSheet?.cash_and_cash_equivalents?.filed ? `${balance.balanceSheet.cash_and_cash_equivalents.form || "Filed"} • ${balance.balanceSheet.cash_and_cash_equivalents.filed}` : "Not available");
+        setText("finEquity", balance.balanceSheet?.total_stockholders_equity?.value !== undefined ? fmtCurrency(balance.balanceSheet.total_stockholders_equity.value) : "Not available");
+        setText("finEquityMeta", balance.balanceSheet?.total_stockholders_equity?.filed ? `${balance.balanceSheet.total_stockholders_equity.form || "Filed"} • ${balance.balanceSheet.total_stockholders_equity.filed}` : "Not available");
+
+        setText("productionSummary", detail.ai_sections?.ounces_produced_past_quarter || "Not available.");
+        setText("mineDetails", detail.ai_sections?.mine_details || "Not available.");
+        setText("managementSummary", detail.ai_sections?.management_summary || "Not available.");
+        setText("riskSummary", detail.ai_sections?.risks || "Not available.");
+        setText("forwardLooking", detail.ai_sections?.forward_looking_statement || "Not available.");
+
+        const filingLead = detail.filing_excerpts?.latest?.[0] || detail.filing_excerpts?.production?.[0] || null;
+        setText("filingLead", filingLead?.text || "No recent filing excerpt is available yet.");
+        if (filingLead?.url) {
+          const link = $("filingLink");
+          link.href = filingLead.url;
+          link.style.display = "inline-flex";
+        }
+
+        renderFeed("rssList", detail.rss_items || [], "rss");
+        renderFeed("videoList", detail.videos || [], "video");
+      } catch (error) {
+        console.error("COMPANY DETAIL PAGE ERROR:", error);
+        setText("companyName", `${ticker} could not be loaded`);
+        setText("companyDescription", "The company detail page could not load its current data. Please try again after the latest deployment finishes.");
+        setText("chartStatus", "Could not load market data");
+        setText("chartPerf", "—");
+      }
+    }
+
+    window.addEventListener("resize", () => drawChart(cachedPoints));
+    loadPage();
+  })();
+  </script>
+</body>
+</html>
