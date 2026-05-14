@@ -136,7 +136,7 @@
     </nav>
 
     <div class="navRight">
-      <div id="authButtons" style="display:flex;gap:10px;">
+      <div id="authNav" style="display:flex;gap:10px;">
         <a class="btn btnGhost" href="./login.html">Sign In</a>
         <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
       </div>
@@ -342,6 +342,14 @@
       if (el) el.innerHTML = value;
     }
 
+    function formatSectionText(value) {
+      const text = String(value || "Not available.").trim();
+      return text
+        .split(/\n{2,}/)
+        .map((part) => `<p style="margin:0 0 12px;">${part}</p>`)
+        .join("");
+    }
+
     function drawChart(points = []) {
       if (!chartCanvas) return;
       const rect = chartCanvas.getBoundingClientRect();
@@ -490,14 +498,17 @@
         setText("finEquity", balance.balanceSheet?.total_stockholders_equity?.value !== undefined ? fmtCurrency(balance.balanceSheet.total_stockholders_equity.value) : "Not available");
         setText("finEquityMeta", balance.balanceSheet?.total_stockholders_equity?.filed ? `${balance.balanceSheet.total_stockholders_equity.form || "Filed"} • ${balance.balanceSheet.total_stockholders_equity.filed}` : "Not available");
 
-        setText("productionSummary", detail.ai_sections?.ounces_produced_past_quarter || "Not available.");
-        setText("mineDetails", detail.ai_sections?.mine_details || "Not available.");
-        setText("managementSummary", detail.ai_sections?.management_summary || "Not available.");
-        setText("riskSummary", detail.ai_sections?.risks || "Not available.");
-        setText("forwardLooking", detail.ai_sections?.forward_looking_statement || "Not available.");
+        setHtml("productionSummary", formatSectionText(detail.ai_sections?.ounces_produced_past_quarter || "Not available."));
+        setHtml("mineDetails", formatSectionText(detail.ai_sections?.mine_details || "Not available."));
+        setHtml("managementSummary", formatSectionText(detail.ai_sections?.management_summary || "Not available."));
+        setHtml("riskSummary", formatSectionText(detail.ai_sections?.risks || "Not available."));
+        setHtml("forwardLooking", formatSectionText(detail.ai_sections?.forward_looking_statement || "Not available."));
 
         const filingLead = detail.filing_excerpts?.latest?.[0] || detail.filing_excerpts?.production?.[0] || null;
-        setText("filingLead", filingLead?.text || "No recent filing excerpt is available yet.");
+        const filingSummary = filingLead
+          ? `${filingLead.form || "Filing"} • ${filingLead.filing_date || "Date unavailable"}${filingLead.heading ? `\n\n${filingLead.heading}` : ""}${filingLead.text ? `\n\n${filingLead.text}` : ""}`
+          : "No recent filing excerpt is available yet.";
+        setHtml("filingLead", formatSectionText(filingSummary));
         if (filingLead?.url) {
           const link = $("filingLink");
           link.href = filingLead.url;

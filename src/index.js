@@ -557,37 +557,118 @@ async function getRecentYoutubeVideosForTickers(env, tickers = [], limit = 8) {
   }));
 }
 
-async function buildCompanyAiSections(env, payload) {
-  const fallback = {
-    description: `${payload.name || payload.ticker} is tracked in Minerlytics with market, news, filing, and transcript coverage where available.`,
-    ounces_produced_past_quarter: firstMeaningfulText(payload.production_excerpts),
-    mine_details: firstMeaningfulText(payload.mine_excerpts),
-    management_summary: firstMeaningfulText(payload.management_excerpts),
-    risks: firstMeaningfulText(payload.risk_excerpts),
-    forward_looking_statement: firstMeaningfulText(payload.forward_looking_excerpts),
-  };
+function isBoilerplateDisclosureText(textValue) {
+  const text = String(textValue || "").toLowerCase();
+  if (!text) return true;
+
+  const phrases = [
+    "consent to service of process",
+    "incorporation by reference",
+    "exhibit index",
+    "signatures",
+    "recovery of erroneously awarded compensation",
+    "code of ethics",
+    "principal accountant fees",
+    "off-balance sheet arrangements",
+    "the company undertakes to make available",
+    "the obligation to file this annual report on form 40-f arises",
+    "cover page interactive data file",
+    "certification of the chief executive officer",
+    "certification of the chief financial officer",
+  ];
+
+  return phrases.some((phrase) => text.includes(phrase));
+}
+
+function excerptKindKeywords(kind) {
+  switch (kind) {
+    case "production":
+      return ["production", "produced", "ounces", "ounce", "gold equivalent", "silver equivalent", "payable"];
+    case "mine":
+      return ["mine", "project", "complex", "operation", "grade", "location", "mill", "pit", "underground"];
+    case "management":
+      return ["management", "operations", "strategy", "capital", "guidance", "cost", "quarter", "results"];
+    case "risk":
+      return ["risk", "uncertaint", "inflation", "permitting", "environment", "liquidity", "cost", "adverse"];
+    case "forward":
+      return ["guidance", "outlook", "expect", "plan", "anticipate", "forward", "margin", "cost", "production"];
+    default:
+      return [];
+  }
+}
+
+function scoreCompanyExcerpt(item, kind) {
+  const text = [
+    item?.heading || "",
+    item?.text || "",
+    item?.form || "",
+    item?.primary_document || "",
+    item?.title || "",
+    item?.channel || "",
+  ].join(" ").toLowerCase();
+
+  if (!text) return -1000;
+  if (kind !== "forward" && isBoilerplateDisclosureText(text)) return -1000;
+
+  let score = 0;
+  for (const keyword of excerptKindKeywords(kind)) {
+    if (text.includes(keyword)) score += 2;
+  }
+  if (item?.heading) score += 1;
+  if (/\b202[3-6]\b/.test(text)) score += 1;
+  if (/\b(q1|q2|q3|q4|quarter)\b/.test(text)) score += 1;
+  if ((/\boz\b|\bounces\b/.test(text)) && kind === "production") score += 2;
+
+  return score;
+}
+
+function selectRelevantCompanyExcerpts(items = [], kind, max = 2) {
+  return (Array.isArray(items) ? items : [])
+    .map((item) => ({ ...item, _score: scoreCompanyExcerpt(item, kind) }))
+    .filter((item) => item._score > 0)
+    .sort((a, b) => b._score - a._score)
+    .slice(0, max);
+}
+
+function cleanExcerptText(textValue, max = 420) {
+  const cleaned = String(textValue || "")
+    .replace(/\s+/g, " ")
+    .replace(/\bPage \d+ of \d+\b/gi, "")
+    .trim();
+
+  if (cleaned.length <= max) return cleaned;
+  return cleaned.slice(0, max).trimEnd() + "…";
+}
+
+function buildUserFriendlySection(items = [], kind, fallback = "Not available.") {
+  const selected = selectRelevantCompanyExcerpts(items, kind, 2);
+  if (!selected.length) return fallback;
+
+  return selected.map((item) => {
+    const label = kind === "forward"
+      ? [item.title, item.channel].filter(Boolean).join(" — ")
+      : item.heading || `${item.form || "Filing"} ${item.filing_date || ""}`.trim();
+    const body = cleanExcerptText(item.text || "", kind === "forward" ? 280 : 360);
+    return label ? `${label}: ${body}` : body;
+  }).join("\n\n");
+}
+
+async function buildCompanyDescription(env, payload) {
+  const fallback = `${payload.name || payload.ticker} is tracked in Minerlytics with market, news, filing, and transcript coverage where available.`;
 
   if (!env.AI) return fallback;
 
   const prompt =
-    "You are Minerlytics AI. Return strict JSON only.\n" +
-    "Use only the provided DATA. Do not invent facts.\n" +
-    "Each field must be plain text under 120 words.\n" +
-    "If a field is not explicitly supported by DATA, return exactly 'Not available.' for that field.\n" +
-    "Required JSON keys:\n" +
-    "- description\n" +
-    "- ounces_produced_past_quarter\n" +
-    "- mine_details\n" +
-    "- management_summary\n" +
-    "- risks\n" +
-    "- forward_looking_statement\n\n" +
-    "DATA:\n" +
+    "You are Minerlytics AI. Return one short paragraph only.\n" +
+    "Describe the company in plain English using only the provided DATA.\n" +
+    "Do not invent mines, production, or financial facts not supported by DATA.\n" +
+    "Keep it under 90 words.\n\nDATA:\n" +
     stableStringify(payload);
 
   try {
     const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
       prompt,
-      max_tokens: 700,
+      max_tokens: 180,
       temperature: 0,
       top_p: 1,
       frequency_penalty: 0,
@@ -599,17 +680,8 @@ async function buildCompanyAiSections(env, payload) {
       (result && (result.response || result.result || result.output_text)) ||
       "";
 
-    const parsed = extractJsonObject(raw);
-    if (!parsed || typeof parsed !== "object") return fallback;
-
-    return {
-      description: String(parsed.description || fallback.description).trim(),
-      ounces_produced_past_quarter: String(parsed.ounces_produced_past_quarter || fallback.ounces_produced_past_quarter).trim(),
-      mine_details: String(parsed.mine_details || fallback.mine_details).trim(),
-      management_summary: String(parsed.management_summary || fallback.management_summary).trim(),
-      risks: String(parsed.risks || fallback.risks).trim(),
-      forward_looking_statement: String(parsed.forward_looking_statement || fallback.forward_looking_statement).trim(),
-    };
+    const cleaned = String(raw || "").replace(/\s+/g, " ").trim();
+    return cleaned || fallback;
   } catch {
     return fallback;
   }
@@ -2411,7 +2483,7 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
         const forwardLookingExcerpts = await getTranscriptMatches(env, ticker, `${ticker} outlook guidance forward looking expect anticipate plan`, 8).catch(() => []);
         const latestFilings = await getLatestDisclosureBlocksForTicker(env, ticker, 8).catch(() => []);
 
-        const aiSections = await buildCompanyAiSections(env, {
+        const description = await buildCompanyDescription(env, {
           ticker,
           name: TICKERS[ticker]?.name || ticker,
           market_summary: {
@@ -2429,6 +2501,15 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
           forward_looking_excerpts: forwardLookingExcerpts.slice(0, 4),
           latest_filings: latestFilings.slice(0, 4),
         });
+
+        const aiSections = {
+          description,
+          ounces_produced_past_quarter: buildUserFriendlySection(productionExcerpts, "production", "Not available."),
+          mine_details: buildUserFriendlySection(mineExcerpts, "mine", "Not available."),
+          management_summary: buildUserFriendlySection(managementExcerpts, "management", "Not available."),
+          risks: buildUserFriendlySection(riskExcerpts, "risk", "Not available."),
+          forward_looking_statement: buildUserFriendlySection(forwardLookingExcerpts, "forward", "Not available."),
+        };
 
         return json({
           ok: true,
