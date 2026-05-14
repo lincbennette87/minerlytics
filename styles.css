@@ -761,25 +761,77 @@ input,button{font:inherit}
 
 .miniMineDrill{
   position:absolute;
-  top:12px;
+  bottom:34px;
   left:50%;
-  width:74px;
-  height:8px;
+  width:34px;
+  height:30px;
   transform:translateX(-50%);
-  border-radius:999px;
-  background: linear-gradient(90deg, rgba(243,239,230,.22), rgba(154,122,74,.88), rgba(110,122,113,.72));
-  box-shadow: 0 0 12px rgba(154,122,74,.16);
+  border-radius: 42% 42% 46% 46% / 30% 30% 62% 62%;
+  background:
+    radial-gradient(circle at 35% 30%, rgba(255,255,255,.18), transparent 26%),
+    linear-gradient(180deg, #d3b277, #9a7a4a 68%, #6f5937);
+  box-shadow:
+    0 10px 20px rgba(0,0,0,.22),
+    inset 0 1px 0 rgba(255,255,255,.10);
 }
 
 .miniMineDrill::after{
-  content:"";
+  content:"$";
   position:absolute;
   left:50%;
   top:8px;
-  width:2px;
-  height:28px;
   transform:translateX(-50%);
-  background: linear-gradient(180deg, rgba(243,239,230,.8), rgba(154,122,74,.24));
+  color:#16181a;
+  font-size:13px;
+  font-weight:900;
+  letter-spacing:-.04em;
+}
+
+.miniMineDrill::before{
+  content:"";
+  position:absolute;
+  left:50%;
+  top:-6px;
+  width:22px;
+  height:8px;
+  transform:translateX(-50%);
+  border-radius:999px;
+  background: linear-gradient(180deg, rgba(243,239,230,.74), rgba(215,192,154,.44));
+  box-shadow: 0 0 0 1px rgba(255,255,255,.06);
+}
+
+.miniMineArena::after{
+  content:"";
+  position:absolute;
+  left:calc(50% - 56px);
+  bottom:28px;
+  width:30px;
+  height:24px;
+  border-radius: 42% 42% 46% 46% / 30% 30% 62% 62%;
+  background:
+    radial-gradient(circle at 35% 30%, rgba(255,255,255,.14), transparent 26%),
+    linear-gradient(180deg, #c8d0d6, #909ba4 68%, #6c757d);
+  box-shadow:
+    0 8px 18px rgba(0,0,0,.16),
+    inset 0 1px 0 rgba(255,255,255,.08);
+}
+
+.miniMineInner::after{
+  content:"";
+  position:absolute;
+  right:18px;
+  bottom:40px;
+  width:28px;
+  height:22px;
+  border-radius: 42% 42% 46% 46% / 30% 30% 62% 62%;
+  background:
+    radial-gradient(circle at 35% 30%, rgba(255,255,255,.14), transparent 26%),
+    linear-gradient(180deg, #dfad87, #b66c43 68%, #8b5435);
+  box-shadow:
+    0 8px 18px rgba(0,0,0,.16),
+    inset 0 1px 0 rgba(255,255,255,.08);
+  z-index:1;
+  pointer-events:none;
 }
 
 .miniMineOre{
