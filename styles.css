@@ -637,7 +637,7 @@ input,button{font:inherit}
   padding:18px;
 }
 
-.miniMineCard{
+.questionVaultCard{
   position:relative;
   border-radius:18px;
   border:1px solid var(--line);
@@ -649,7 +649,7 @@ input,button{font:inherit}
   box-shadow: var(--shadow);
 }
 
-.miniMineCard::before{
+.questionVaultCard::before{
   content:"";
   position:absolute;
   inset:0;
@@ -661,13 +661,13 @@ input,button{font:inherit}
   pointer-events:none;
 }
 
-.miniMineInner{
+.questionVaultInner{
   position:relative;
   z-index:1;
   padding:14px;
 }
 
-.miniMineHead{
+.questionVaultHead{
   display:flex;
   align-items:flex-start;
   justify-content:space-between;
@@ -675,203 +675,107 @@ input,button{font:inherit}
   margin-bottom:10px;
 }
 
-.miniMineTitle{
+.questionVaultTitle{
   font-size:13px;
   font-weight:800;
   letter-spacing:.08em;
   text-transform:uppercase;
 }
 
-.miniMineSub{
+.questionVaultSub{
   margin-top:4px;
   font-size:12px;
   color:var(--muted2);
   line-height:1.5;
 }
 
-.miniMineReset{
-  padding:8px 10px;
-}
-
-.miniMineScoreRow{
-  display:grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+.questionVaultFilters{
+  display:flex;
+  flex-wrap:wrap;
   gap:8px;
   margin-bottom:10px;
 }
 
-.miniMineScore{
+.questionVaultFilter{
   border:1px solid rgba(255,255,255,.08);
-  border-radius:14px;
+  border-radius:999px;
   background:rgba(255,255,255,.03);
-  padding:10px;
-}
-
-.miniMineScoreLabel{
-  font-size:10px;
+  padding:8px 11px;
+  font-size:11px;
+  font-weight:800;
   letter-spacing:.08em;
   text-transform:uppercase;
+  color:var(--muted);
+  cursor:pointer;
+  transition: .18s ease;
+}
+
+.questionVaultFilter:hover,
+.questionVaultFilter.is-active{
+  border-color: rgba(154,122,74,.24);
+  background: rgba(154,122,74,.10);
+  color:var(--text);
+}
+
+.questionVaultList{
+  display:grid;
+  gap:10px;
+}
+
+.questionVaultItem{
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:16px;
+  background:rgba(255,255,255,.03);
+  padding:12px;
+}
+
+.questionVaultMeta{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  margin-bottom:8px;
+}
+
+.questionVaultBadge{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:5px 8px;
+  border-radius:999px;
+  background:rgba(154,122,74,.10);
+  border:1px solid rgba(154,122,74,.18);
+  color:#d7c09a;
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.questionVaultPopularity{
+  font-size:11px;
   color:var(--muted2);
 }
 
-.miniMineScoreValue{
-  margin-top:6px;
-  font-size:18px;
-  font-weight:800;
-  font-variant-numeric: tabular-nums;
+.questionVaultQuestion{
+  font-size:14px;
+  line-height:1.5;
+  color:var(--text);
+  font-weight:700;
 }
 
-.miniMineScoreValue.gold{ color:#e0bf77; }
-.miniMineScoreValue.silver{ color:#d9e0e6; }
-.miniMineScoreValue.copper{ color:#cf8b63; }
-
-.miniMineArena{
-  position:relative;
-  height:198px;
-  border-radius:16px;
-  border:1px solid rgba(255,255,255,.08);
-  background:
-    linear-gradient(180deg, rgba(20,24,26,.18), rgba(9,11,13,.84)),
-    radial-gradient(circle at 50% 0%, rgba(154,122,74,.10), transparent 54%);
-  overflow:hidden;
+.questionVaultActions{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:10px;
 }
 
-.miniMineLane{
-  position:absolute;
-  top:0;
-  bottom:0;
-  width:33.333%;
-  border-left:1px dashed rgba(255,255,255,.06);
+.questionVaultAction{
+  padding:8px 10px;
 }
 
-.miniMineLane.l1{ left:0; border-left:none; }
-.miniMineLane.l2{ left:33.333%; }
-.miniMineLane.l3{ left:66.666%; }
-
-.miniMineStrata{
-  position:absolute;
-  inset:auto 0 0 0;
-  height:54px;
-  background:
-    linear-gradient(180deg, rgba(0,0,0,0), rgba(0,0,0,.14)),
-    radial-gradient(120px 28px at 14% 100%, rgba(154,122,74,.72), transparent 70%),
-    radial-gradient(130px 30px at 46% 100%, rgba(110,122,113,.58), transparent 72%),
-    radial-gradient(110px 26px at 80% 100%, rgba(154,122,74,.55), transparent 70%);
-}
-
-.miniMineBasket{
-  position:absolute;
-  bottom:18px;
-  left:50%;
-  width:96px;
-  height:34px;
-  transform:translateX(-50%);
-  border-radius: 0 0 22px 22px;
-  background:
-    linear-gradient(180deg, rgba(243,239,230,.10), rgba(243,239,230,.02)),
-    linear-gradient(180deg, #8f6738, #654626 68%, #4f351d);
-  box-shadow:
-    0 10px 20px rgba(0,0,0,.22),
-    inset 0 1px 0 rgba(255,255,255,.10);
-  border:1px solid rgba(255,255,255,.08);
-  transition: left .08s linear;
-}
-
-.miniMineBasket::before{
-  content:"";
-  position:absolute;
-  left:50%;
-  top:-14px;
-  width:58px;
-  height:26px;
-  transform:translateX(-50%);
-  border:3px solid rgba(215,192,154,.82);
-  border-bottom:none;
-  border-radius:30px 30px 0 0;
-  opacity:.9;
-}
-
-.miniMineBasket::after{
-  content:"";
-  position:absolute;
-  left:8px;
-  right:8px;
-  top:7px;
-  height:2px;
-  background: rgba(243,239,230,.18);
-  pointer-events:none;
-}
-
-.miniMineBag{
-  position:absolute;
-  bottom:5px;
-  width:24px;
-  height:20px;
-  border-radius: 42% 42% 46% 46% / 30% 30% 62% 62%;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.08);
-}
-
-.miniMineBag::before{
-  content:"";
-  position:absolute;
-  left:50%;
-  top:-4px;
-  width:14px;
-  height:5px;
-  transform:translateX(-50%);
-  border-radius:999px;
-  background: rgba(243,239,230,.45);
-}
-
-.miniMineBag.gold{
-  left:8px;
-  background: linear-gradient(180deg, #d3b277, #9a7a4a 70%, #70552f);
-}
-
-.miniMineBag.silver{
-  left:36px;
-  background: linear-gradient(180deg, #c8d0d6, #909ba4 70%, #69727a);
-}
-
-.miniMineBag.copper{
-  right:8px;
-  background: linear-gradient(180deg, #dfad87, #b66c43 70%, #8b5435);
-}
-
-.miniMineOre{
-  position:absolute;
-  width:26px;
-  height:26px;
-  border-radius:50%;
-  display:grid;
-  place-items:center;
-  font-size:12px;
-  font-weight:800;
-  color:#0f1113;
-  box-shadow: 0 10px 20px rgba(0,0,0,.24);
-  cursor:pointer;
-  user-select:none;
-  transition: transform .12s ease, box-shadow .12s ease;
-}
-
-.miniMineOre:hover{
-  transform: scale(1.08);
-  box-shadow: 0 14px 24px rgba(0,0,0,.28);
-}
-
-.miniMineOre.gold{
-  background: radial-gradient(circle at 35% 35%, #f5d792, #c6973a);
-}
-
-.miniMineOre.silver{
-  background: radial-gradient(circle at 35% 35%, #eef2f5, #9ca7b0);
-}
-
-.miniMineOre.copper{
-  background: radial-gradient(circle at 35% 35%, #e9ae8b, #b66c43);
-}
-
-.miniMineHint{
+.questionVaultHint{
   margin-top:10px;
   font-size:11px;
   color:var(--muted2);

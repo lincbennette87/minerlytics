@@ -529,52 +529,25 @@
     <button class="btn btnGhost btnTight" type="button" data-prompt="Compare HYMC and GFI on momentum and sentiment.">Compare HYMC vs GFI</button>
   </div>
 </div>
-        <aside class="miniMineCard" aria-label="Mini mining game">
-          <div class="miniMineInner">
-            <div class="miniMineHead">
+        <aside class="questionVaultCard" aria-label="Popular Minerlytics questions">
+          <div class="questionVaultInner">
+            <div class="questionVaultHead">
               <div>
-                <div class="miniMineTitle">Mine Sprint</div>
-                <div class="miniMineSub">Collect falling ore and stack points in gold, silver, and copper.</div>
-              </div>
-              <div style="display:flex;gap:8px;align-items:center;">
-                <button id="miniMineStart" class="btn btnPrimary btnTight miniMineReset" type="button">Start</button>
-                <button id="miniMineStop" class="btn btnGhost btnTight miniMineReset" type="button">Stop</button>
-                <button id="miniMineReset" class="btn btnGhost btnTight miniMineReset" type="button">Reset</button>
+                <div class="questionVaultTitle">Popular Questions</div>
+                <div class="questionVaultSub">Browse common research prompts people ask Minerlytics AI, then copy or insert them into the assistant.</div>
               </div>
             </div>
 
-            <div class="miniMineScoreRow">
-              <div class="miniMineScore">
-                <div class="miniMineScoreLabel">Gold</div>
-                <div id="miniMineGold" class="miniMineScoreValue gold">0</div>
-              </div>
-              <div class="miniMineScore">
-                <div class="miniMineScoreLabel">Silver</div>
-                <div id="miniMineSilver" class="miniMineScoreValue silver">0</div>
-              </div>
-              <div class="miniMineScore">
-                <div class="miniMineScoreLabel">Copper</div>
-                <div id="miniMineCopper" class="miniMineScoreValue copper">0</div>
-              </div>
-              <div class="miniMineScore">
-                <div class="miniMineScoreLabel">Total</div>
-                <div id="miniMineTotal" class="miniMineScoreValue">0</div>
-              </div>
+            <div class="questionVaultFilters" id="questionVaultFilters">
+              <button class="questionVaultFilter is-active" type="button" data-group="all">All</button>
+              <button class="questionVaultFilter" type="button" data-group="market">Market</button>
+              <button class="questionVaultFilter" type="button" data-group="filings">Filings</button>
+              <button class="questionVaultFilter" type="button" data-group="sentiment">Sentiment</button>
+              <button class="questionVaultFilter" type="button" data-group="compare">Compare</button>
             </div>
 
-            <div id="miniMineArena" class="miniMineArena" tabindex="0" aria-label="Mini mining catch game">
-              <div class="miniMineLane l1"></div>
-              <div class="miniMineLane l2"></div>
-              <div class="miniMineLane l3"></div>
-              <div id="miniMineBasket" class="miniMineBasket" aria-hidden="true">
-                <span class="miniMineBag gold"></span>
-                <span class="miniMineBag silver"></span>
-                <span class="miniMineBag copper"></span>
-              </div>
-              <div class="miniMineStrata" aria-hidden="true"></div>
-            </div>
-
-            <div id="miniMineHint" class="miniMineHint">Press Start to begin, then move the basket left and right to catch the ore.</div>
+            <div class="questionVaultList" id="questionVaultList"></div>
+            <div class="questionVaultHint" id="questionVaultHint">Tip: use “Ask” to drop a question into the AI box instantly, or “Copy” to paste it anywhere.</div>
           </div>
         </aside>
       </div>
@@ -1584,166 +1557,98 @@ updateCompanyDetailLink();
 </script>
 <script>
 (function () {
-  const arena = document.getElementById("miniMineArena");
-  const basket = document.getElementById("miniMineBasket");
-  const startBtn = document.getElementById("miniMineStart");
-  const stopBtn = document.getElementById("miniMineStop");
-  const resetBtn = document.getElementById("miniMineReset");
-  const hintEl = document.getElementById("miniMineHint");
-  const goldEl = document.getElementById("miniMineGold");
-  const silverEl = document.getElementById("miniMineSilver");
-  const copperEl = document.getElementById("miniMineCopper");
-  const totalEl = document.getElementById("miniMineTotal");
-  if (!arena || !basket || !startBtn || !stopBtn || !resetBtn || !hintEl || !goldEl || !silverEl || !copperEl || !totalEl) return;
+  const listEl = document.getElementById("questionVaultList");
+  const filtersEl = document.getElementById("questionVaultFilters");
+  const hintEl = document.getElementById("questionVaultHint");
+  const aiQuestion = document.getElementById("aiQuestion");
+  if (!listEl || !filtersEl || !hintEl) return;
 
-  const laneLeft = [16, 50, 84];
-  const oreTypes = [
-    { kind: "gold", label: "Au", points: 5 },
-    { kind: "silver", label: "Ag", points: 3 },
-    { kind: "copper", label: "Cu", points: 2 }
+  const questions = [
+    { group: "market", popularity: "Most asked", text: "How has WPM performed over the last 30 days and 6 months, and what does that imply about momentum?" },
+    { group: "filings", popularity: "Frequent", text: "What technical reports, reserve updates, or mine disclosures are associated with CDE?" },
+    { group: "sentiment", popularity: "Trending", text: "What is recent news sentiment for HYMC, and what are the main reasons behind it?" },
+    { group: "compare", popularity: "Popular", text: "Compare AEM, WPM, and GFI on price action, sentiment, and filing activity." },
+    { group: "filings", popularity: "Popular", text: "What mine-level production details were disclosed in the latest filing for HL?" },
+    { group: "market", popularity: "Trending", text: "Which miner in my watchlist is showing the strongest setup right now based on price trend and recent coverage?" },
+    { group: "sentiment", popularity: "Most asked", text: "What do recent YouTube transcripts and RSS headlines suggest about sentiment for silver miners?" },
+    { group: "compare", popularity: "Frequent", text: "Compare HYMC vs CDE on momentum, sentiment, and balance-sheet risk." }
   ];
 
-  let scores = { gold: 0, silver: 0, copper: 0 };
-  let spawnTimer = null;
-  const activeOres = new Set();
-  let basketX = 0;
-  let isRunning = false;
-  function clamp(value, min, max) {
-    return Math.min(Math.max(value, min), max);
+  let currentGroup = "all";
+
+  function esc(value) {
+    return String(value || "")
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
   }
 
-  function syncBasket() {
-    const maxX = arena.clientWidth - basket.offsetWidth;
-    basketX = clamp(basketX, 0, maxX);
-    basket.style.left = `${basketX}px`;
-    basket.style.transform = "none";
+  function getVisibleQuestions() {
+    return currentGroup === "all"
+      ? questions
+      : questions.filter((question) => question.group === currentGroup);
   }
 
-  function moveBasketTo(clientX) {
-    const rect = arena.getBoundingClientRect();
-    basketX = clientX - rect.left - basket.offsetWidth / 2;
-    syncBasket();
+  function insertQuestion(text) {
+    if (!aiQuestion) return;
+    aiQuestion.value = text;
+    aiQuestion.focus();
+    aiQuestion.setSelectionRange(aiQuestion.value.length, aiQuestion.value.length);
+    hintEl.textContent = "Question added to the Minerlytics AI box below. Press Send when ready.";
   }
 
-  function renderScores() {
-    goldEl.textContent = String(scores.gold);
-    silverEl.textContent = String(scores.silver);
-    copperEl.textContent = String(scores.copper);
-    totalEl.textContent = String(scores.gold * 5 + scores.silver * 3 + scores.copper * 2);
-  }
-
-  function clearOres() {
-    clearInterval(spawnTimer);
-    spawnTimer = null;
-    activeOres.forEach((ore) => ore.remove());
-    activeOres.clear();
-  }
-
-  function removeOre(ore) {
-    if (!activeOres.has(ore)) return;
-    activeOres.delete(ore);
-    ore.remove();
-  }
-
-  function spawnOre() {
-    const oreMeta = oreTypes[Math.floor(Math.random() * oreTypes.length)];
-    const lane = Math.floor(Math.random() * laneLeft.length);
-    const duration = 2800 + Math.floor(Math.random() * 1200);
-    const ore = document.createElement("button");
-    ore.type = "button";
-    ore.className = `miniMineOre ${oreMeta.kind}`;
-    ore.textContent = oreMeta.label;
-    ore.style.left = `calc(${laneLeft[lane]}% - 13px)`;
-    ore.style.top = "-28px";
-
-    const start = performance.now();
-    activeOres.add(ore);
-    arena.appendChild(ore);
-
-    function tick(now) {
-      if (!activeOres.has(ore)) return;
-      const progress = (now - start) / duration;
-      if (progress >= 1) {
-        removeOre(ore);
-        return;
-      }
-      ore.style.top = `${progress * 164}px`;
-
-      const oreRect = ore.getBoundingClientRect();
-      const basketRect = basket.getBoundingClientRect();
-      const intersects =
-        oreRect.bottom >= basketRect.top &&
-        oreRect.top <= basketRect.bottom &&
-        oreRect.right >= basketRect.left &&
-        oreRect.left <= basketRect.right;
-
-      if (intersects) {
-        scores[oreMeta.kind] += 1;
-        renderScores();
-        removeOre(ore);
-        return;
-      }
-
-      requestAnimationFrame(tick);
+  async function copyQuestion(text) {
+    try {
+      await navigator.clipboard.writeText(text);
+      hintEl.textContent = "Question copied. Paste it anywhere or drop it into the AI assistant.";
+    } catch {
+      hintEl.textContent = "Copy wasn’t available in this browser. You can still use Ask to place it in the AI box.";
     }
-
-    requestAnimationFrame(tick);
   }
 
-  function startGame() {
-    if (isRunning) return;
-    clearOres();
-    isRunning = true;
-    startBtn.disabled = true;
-    stopBtn.disabled = false;
-    hintEl.textContent = "Catch the falling ore in the basket before it hits the mine floor.";
-    spawnTimer = window.setInterval(spawnOre, 950);
-    spawnOre();
+  function renderQuestions() {
+    const visible = getVisibleQuestions();
+    listEl.innerHTML = visible.map((question, index) => `
+      <div class="questionVaultItem">
+        <div class="questionVaultMeta">
+          <span class="questionVaultBadge">${esc(question.group)}</span>
+          <span class="questionVaultPopularity">${esc(question.popularity)}</span>
+        </div>
+        <div class="questionVaultQuestion">${esc(question.text)}</div>
+        <div class="questionVaultActions">
+          <button class="btn btnPrimary btnTight questionVaultAction" type="button" data-action="ask" data-index="${index}">Ask</button>
+          <button class="btn btnGhost btnTight questionVaultAction" type="button" data-action="copy" data-index="${index}">Copy</button>
+        </div>
+      </div>
+    `).join("");
+
+    listEl.querySelectorAll("[data-action]").forEach((button) => {
+      const index = Number(button.getAttribute("data-index") || "0");
+      const question = visible[index];
+      if (!question) return;
+      button.addEventListener("click", () => {
+        if (button.getAttribute("data-action") === "ask") {
+          insertQuestion(question.text);
+        } else {
+          copyQuestion(question.text);
+        }
+      });
+    });
   }
 
-  function stopGame() {
-    clearInterval(spawnTimer);
-    spawnTimer = null;
-    isRunning = false;
-    startBtn.disabled = false;
-    stopBtn.disabled = true;
-    hintEl.textContent = "Game paused. Press Start to continue catching ore.";
-  }
-
-  function resetGame() {
-    clearOres();
-    isRunning = false;
-    scores = { gold: 0, silver: 0, copper: 0 };
-    renderScores();
-    basketX = (arena.clientWidth - basket.offsetWidth) / 2;
-    syncBasket();
-    startBtn.disabled = true;
-    stopBtn.disabled = false;
-    startGame();
-  }
-
-  startBtn?.addEventListener("click", startGame);
-  stopBtn?.addEventListener("click", stopGame);
-  resetBtn?.addEventListener("click", resetGame);
-  arena.addEventListener("mousemove", (event) => moveBasketTo(event.clientX));
-  arena.addEventListener("touchmove", (event) => {
-    const touch = event.touches && event.touches[0];
-    if (!touch) return;
-    moveBasketTo(touch.clientX);
-  }, { passive: true });
-  arena.addEventListener("keydown", (event) => {
-    if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
-    basketX += event.key === "ArrowLeft" ? -28 : 28;
-    syncBasket();
+  filtersEl.querySelectorAll("[data-group]").forEach((button) => {
+    button.addEventListener("click", () => {
+      currentGroup = button.getAttribute("data-group") || "all";
+      filtersEl.querySelectorAll("[data-group]").forEach((item) => item.classList.remove("is-active"));
+      button.classList.add("is-active");
+      hintEl.textContent = "Tip: use “Ask” to drop a question into the AI box instantly, or “Copy” to paste it anywhere.";
+      renderQuestions();
+    });
   });
-  window.addEventListener("resize", syncBasket);
 
-  renderScores();
-  basketX = (arena.clientWidth - basket.offsetWidth) / 2;
-  syncBasket();
-  startBtn.disabled = false;
-  stopBtn.disabled = true;
-  hintEl.textContent = "Press Start to begin, then move the basket left and right to catch the ore.";
+  renderQuestions();
 })();
 </script>
 <script>
