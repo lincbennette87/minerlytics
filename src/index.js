@@ -1299,6 +1299,119 @@ async function getStooqSeriesForTicker(env, ticker, limit = 60) {
   return [];
 }
 
+function inferTickerCategory(ticker) {
+  const upper = String(ticker || "").toUpperCase().trim();
+  if (["SLV", "SIVR", "PSLV"].includes(upper)) return "Silver";
+  if (["SIL", "SILJ"].includes(upper)) return "Silver miners ETF";
+  if (["AEM", "GFI", "WPM", "CDE", "HL", "HYMC", "PZG", "GAYMF", "DSVSF", "SLVR"].includes(upper)) {
+    return "Mining";
+  }
+  return "Market";
+}
+
+function getYahooSymbolCandidates(raw) {
+  const ticker = symbolToTicker(raw) || String(raw || "").toUpperCase().trim();
+  return Array.from(new Set([
+    ticker,
+    ticker.replace(/\./g, "-"),
+  ].filter(Boolean)));
+}
+
+function formatYahooDate(ts) {
+  const ms = Number(ts) * 1000;
+  if (!Number.isFinite(ms)) return "";
+  return new Date(ms).toISOString().slice(0, 10);
+}
+
+function formatYahooTime(ts) {
+  const ms = Number(ts) * 1000;
+  if (!Number.isFinite(ms)) return null;
+  return new Date(ms).toISOString().slice(11, 19);
+}
+
+async function fetchYahooChartForSymbol(symbol, range = "6mo", interval = "1d") {
+  try {
+    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?range=${encodeURIComponent(range)}&interval=${encodeURIComponent(interval)}&includePrePost=false`;
+    const res = await fetch(url, {
+      headers: {
+        "accept": "application/json,text/plain,*/*",
+        "user-agent": "Mozilla/5.0 Minerlytics/1.0"
+      }
+    });
+    if (!res.ok) return null;
+
+    const payload = await res.json().catch(() => null);
+    return payload?.chart?.result?.[0] || null;
+  } catch {
+    return null;
+  }
+}
+
+function buildYahooHistoryPayload(chart, limit = 180) {
+  const timestamps = Array.isArray(chart?.timestamp) ? chart.timestamp : [];
+  const quote = chart?.indicators?.quote?.[0] || {};
+  const rows = [];
+
+  for (let i = 0; i < timestamps.length; i++) {
+    const date = formatYahooDate(timestamps[i]);
+    const close = Number(quote?.close?.[i]);
+    if (!date || !Number.isFinite(close)) continue;
+
+    rows.push({
+      date,
+      open: Number(quote?.open?.[i]),
+      high: Number(quote?.high?.[i]),
+      low: Number(quote?.low?.[i]),
+      close,
+      volume: Number(quote?.volume?.[i]),
+    });
+  }
+
+  const results = rows.slice(-limit);
+  const meta = chart?.meta || {};
+  const last = results[results.length - 1] || null;
+  const liveTimestamp = Number(meta.regularMarketTime || timestamps[timestamps.length - 1] || 0);
+  const liveDate = formatYahooDate(liveTimestamp) || last?.date || null;
+
+  const liveQuote = last
+    ? {
+        symbol: String(meta.symbol || "").toUpperCase() || null,
+        date: liveDate,
+        time: formatYahooTime(liveTimestamp),
+        open: Number.isFinite(Number(meta.regularMarketOpen)) ? Number(meta.regularMarketOpen) : last.open,
+        high: Number.isFinite(Number(meta.regularMarketDayHigh)) ? Number(meta.regularMarketDayHigh) : last.high,
+        low: Number.isFinite(Number(meta.regularMarketDayLow)) ? Number(meta.regularMarketDayLow) : last.low,
+        close: Number.isFinite(Number(meta.regularMarketPrice)) ? Number(meta.regularMarketPrice) : last.close,
+        volume: Number.isFinite(Number(meta.regularMarketVolume)) ? Number(meta.regularMarketVolume) : last.volume,
+      }
+    : null;
+
+  return {
+    symbol: String(meta.symbol || "").toUpperCase() || null,
+    results,
+    liveQuote,
+  };
+}
+
+async function fetchYahooHistoryForTicker(ticker, limit = 180) {
+  for (const candidate of getYahooSymbolCandidates(ticker)) {
+    const chart = await fetchYahooChartForSymbol(candidate, "6mo", "1d");
+    if (!chart) continue;
+
+    const payload = buildYahooHistoryPayload(chart, limit);
+    if (payload.results.length) {
+      return {
+        results: payload.results,
+        symbol: payload.symbol || candidate,
+        liveQuote: payload.liveQuote,
+        source: "yahoo_history",
+      };
+    }
+  }
+
+  return { results: [], symbol: String(ticker || "").toUpperCase().trim(), liveQuote: null, source: "yahoo_history" };
+}
+
 async function fetchStooqHistoryForSymbol(symbol, limit = 180) {
   try {
     const url = `https://stooq.com/q/d/l/?s=${encodeURIComponent(symbol)}&i=d`;
@@ -1332,14 +1445,98 @@ async function fetchStooqHistoryForSymbol(symbol, limit = 180) {
 }
 
 async function fetchLiveHistoryForTicker(ticker, limit = 180) {
+  const yahooHistory = await fetchYahooHistoryForTicker(ticker, limit);
+  if (yahooHistory.results.length) return yahooHistory;
+
   const candidates = getSymbolCandidates(ticker);
   for (const candidate of candidates) {
     const results = await fetchStooqHistoryForSymbol(candidate, limit);
     if (results.length) {
-      return { results, symbol: candidate };
+      return { results, symbol: candidate, liveQuote: null, source: "stooq_history" };
     }
   }
-  return { results: [], symbol: normalizeSymbolToStooqUS(ticker) };
+  return {
+    results: [],
+    symbol: normalizeSymbolToStooqUS(ticker),
+    liveQuote: null,
+    source: "stooq_history",
+  };
+}
+
+async function persistDailyOhlcvRows(env, ticker, symbol, rows, source = "live_history_sync") {
+  if (!env?.DB || !Array.isArray(rows) || !rows.length) return 0;
+
+  const category = inferTickerCategory(ticker);
+  const statements = rows
+    .filter((row) => row?.date && Number.isFinite(Number(row.close)))
+    .map((row) =>
+      env.DB.prepare(
+        `
+        INSERT OR REPLACE INTO daily_ohlcv
+          (symbol, category, date, open, high, low, close, volume, source)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        `
+      ).bind(
+        String(symbol || "").toLowerCase(),
+        category,
+        row.date,
+        Number.isFinite(Number(row.open)) ? Number(row.open) : null,
+        Number.isFinite(Number(row.high)) ? Number(row.high) : null,
+        Number.isFinite(Number(row.low)) ? Number(row.low) : null,
+        Number(row.close),
+        Number.isFinite(Number(row.volume)) ? Number(row.volume) : 0,
+        source
+      )
+    );
+
+  if (!statements.length) return 0;
+
+  try {
+    if (typeof env.DB.batch === "function") {
+      await env.DB.batch(statements);
+    } else {
+      for (const stmt of statements) {
+        await stmt.run();
+      }
+    }
+    return statements.length;
+  } catch {
+    return 0;
+  }
+}
+
+async function refreshMarketHistoryForUniverse(env, tickers = Object.keys(TICKERS), limit = 180) {
+  const safeLimit = Math.min(Math.max(Number(limit || 180), 30), 365);
+  const out = [];
+
+  for (const ticker of (Array.isArray(tickers) ? tickers : [])) {
+    const cleanTicker = String(ticker || "").toUpperCase().trim();
+    if (!cleanTicker || !TICKERS[cleanTicker]) continue;
+
+    const liveHistory = await fetchLiveHistoryForTicker(cleanTicker, safeLimit);
+    if (!liveHistory.results.length) {
+      out.push({ ticker: cleanTicker, ok: false, rows: 0, source: liveHistory.source || "live_history" });
+      continue;
+    }
+
+    const saved = await persistDailyOhlcvRows(
+      env,
+      cleanTicker,
+      liveHistory.symbol || normalizeSymbolToStooqUS(cleanTicker),
+      liveHistory.results,
+      liveHistory.source || "live_history"
+    );
+
+    out.push({
+      ticker: cleanTicker,
+      ok: true,
+      rows: saved,
+      symbol: liveHistory.symbol || null,
+      source: liveHistory.source || "live_history",
+    });
+  }
+
+  return out;
 }
 
 async function getTrendSeriesForTickers(env, tickers, limit = 180) {
@@ -1350,7 +1547,12 @@ async function getTrendSeriesForTickers(env, tickers, limit = 180) {
     const liveHistory = await fetchLiveHistoryForTicker(ticker, safeLimit);
     let symbol = liveHistory.symbol;
     let results = liveHistory.results;
-    let source = "stooq_history";
+    let source = liveHistory.source || "live_history";
+    let liveQuote = liveHistory.liveQuote || null;
+
+    if (results.length) {
+      await persistDailyOhlcvRows(env, ticker, symbol || normalizeSymbolToStooqUS(ticker), results, source);
+    }
 
     if (!results.length) {
       for (const candidate of getSymbolCandidates(ticker)) {
@@ -1408,6 +1610,7 @@ async function getTrendSeriesForTickers(env, tickers, limit = 180) {
       previous_close: Number.isFinite(previousClose) ? previousClose : null,
       day_change: change !== null ? Number(change.toFixed(4)) : null,
       day_change_pct: changePct !== null ? Number(changePct.toFixed(2)) : null,
+      live_quote: liveQuote,
       points: results,
     });
   }
@@ -1460,6 +1663,9 @@ async function fetchLatestQuoteForSymbol(symbol) {
 }
 
 async function fetchLatestQuoteForTicker(ticker) {
+  const yahooHistory = await fetchYahooHistoryForTicker(ticker, 5);
+  if (yahooHistory.liveQuote) return yahooHistory.liveQuote;
+
   for (const candidate of getSymbolCandidates(ticker)) {
     const quote = await fetchLatestQuoteForSymbol(candidate);
     if (quote) return quote;
@@ -1471,7 +1677,7 @@ async function enrichTrendSeriesWithLatestQuotes(series) {
   const enriched = [];
 
   for (const item of series) {
-    const latestQuote = await fetchLatestQuoteForTicker(item.ticker || item.symbol);
+    const latestQuote = item?.live_quote || await fetchLatestQuoteForTicker(item.ticker || item.symbol);
     if (!latestQuote) {
       enriched.push({ ...item, live_quote: null });
       continue;
@@ -2480,6 +2686,28 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
         }, 200);
       }
 
+      if (url.pathname === "/api/market/sync" && request.method === "POST") {
+        const auth = requireApiKey(request, env);
+        if (!auth.ok) return auth.res;
+
+        const body = await request.json().catch(() => ({}));
+        const requested = Array.isArray(body.symbols)
+          ? body.symbols
+          : parseSymbolsParam(body.symbols || "");
+        const tickers = (requested.length ? requested : Object.keys(TICKERS))
+          .map((t) => String(t || "").toUpperCase().trim())
+          .filter((t) => !!TICKERS[t]);
+        const limitDays = clamp(parseInt(body.days || "180", 10), 30, 365);
+
+        const results = await refreshMarketHistoryForUniverse(env, tickers, limitDays);
+        return json({
+          ok: true,
+          tickers,
+          days: limitDays,
+          results,
+        }, 200);
+      }
+
       if (url.pathname === "/api/market/top-trends" && request.method === "GET") {
         const requested = parseSymbolsParam(url.searchParams.get("symbols") || "");
         const defaultTickers = ["AEM", "WPM", "CDE", "HYMC", "GFI"];
@@ -3125,7 +3353,10 @@ VALUES (?, ?, ?, ?)`
   },
 
   async scheduled(event, env) {
-    await refreshNewsForAll(env);
+    await Promise.allSettled([
+      refreshNewsForAll(env),
+      refreshMarketHistoryForUniverse(env, Object.keys(TICKERS), 180),
+    ]);
 
     // Placeholder for future YouTube cron handling
     // You can later branch on event.cron === MONTHLY_YT_CRON

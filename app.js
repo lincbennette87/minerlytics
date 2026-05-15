@@ -19,14 +19,14 @@ let trending = [
 ];
 
 // fallback until universe.json loads
-let NEWS_TICKERS = ["AEM", "WPM", "NEM"];
+let NEWS_TICKERS = ["WPM", "CDE", "HYMC", "GFI", "AEM"];
 const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 
-/* ---------- Quotes (still mocked) ---------- */
-const quotes = [
-  { sym: "AEM", company: "Agnico Eagle Mines", price: 54.21, chg: +1.28 },
-  { sym: "WPM", company: "Wheaton Precious Metals", price: 45.88, chg: -0.62 },
-  { sym: "NEM", company: "Newmont", price: 39.14, chg: +0.41 },
+/* ---------- Quotes ---------- */
+let quotes = [
+  { sym: "WPM", company: "Wheaton Precious Metals", price: 0, chg: 0 },
+  { sym: "CDE", company: "Coeur Mining", price: 0, chg: 0 },
+  { sym: "HYMC", company: "Hycroft Mining", price: 0, chg: 0 },
 ];
 
 /* ---------- Running ticker strip (latest RSS across universe) ---------- */
@@ -182,6 +182,33 @@ async function refreshLatestTickerFeed() {
   }
 }
 
+async function refreshQuoteCards(symbols = NEWS_TICKERS.slice(0, 5)) {
+  try {
+    const res = await fetch(
+      `${API_BASE}/api/market/top-trends?symbols=${encodeURIComponent(symbols.join(","))}&days=180`,
+      {
+        headers: { accept: "application/json" },
+        cache: "no-store",
+      }
+    );
+    if (!res.ok) throw new Error(`quote status ${res.status}`);
+
+    const data = await res.json();
+    const items = Array.isArray(data.tickers) ? data.tickers : [];
+    if (!items.length) return;
+
+    quotes = items.slice(0, 5).map((item) => ({
+      sym: item.ticker,
+      company: item.name || item.ticker,
+      price: Number(item.latest_close || 0),
+      chg: Number(item.day_change_pct || 0),
+    }));
+    renderQuotes();
+  } catch (e) {
+    console.warn("refreshQuoteCards failed:", e);
+  }
+}
+
 /* ============ Search wiring ============ */
 function wireSearch() {
   const hero = document.getElementById("heroSearch");
@@ -300,9 +327,20 @@ spark("copperChart");
 
   refreshTrendingNews(); // immediate
   refreshLatestTickerFeed(); // immediate
+  refreshQuoteCards(NEWS_TICKERS.slice(0, 5)); // immediate
   setInterval(refreshTrendingNews, 60000); // every 60s
   setInterval(refreshLatestTickerFeed, 60000); // every 60s
+  setInterval(() => refreshQuoteCards(NEWS_TICKERS.slice(0, 5)), 60000); // every 60s
 })();
+
+window.addEventListener("minerlytics:trend-symbols", (event) => {
+  const symbols = Array.isArray(event?.detail?.symbols) ? event.detail.symbols : [];
+  if (!symbols.length) return;
+  NEWS_TICKERS = symbols.slice(0, 12);
+  refreshTrendingNews();
+  refreshLatestTickerFeed();
+  refreshQuoteCards(symbols.slice(0, 5));
+});
 
 window.addEventListener("resize", () => {
   spark("goldChart");
