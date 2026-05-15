@@ -101,7 +101,7 @@
 
     <nav class="navLinks" aria-label="Primary navigation">
       <a class="navLink isActive" href="./index.html">Home</a>
-      <a class="navLink" href="./company.html?ticker=AEM">Company Details</a>
+      <a class="navLink" href="./company.html">Company Details</a>
       <a class="navLink" href="./analysis.html">Analysis</a>
       <a class="navLink" href="./educationportal.html">Education Portal</a>
       <a class="navLink" href="./subscription.html">Subscriptions</a>
@@ -178,7 +178,7 @@
   </div>
 
   <div style="display:flex;gap:10px;margin-bottom:12px;">
-    <input id="watchSymbol" placeholder="Add ticker e.g. AEM"
+    <input id="watchSymbol" placeholder="Add ticker e.g. WPM, CDE, HYMC"
       style="flex:1;padding:12px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);" />
     <button class="btn btnPrimary btnTight" type="button" onclick="addWatchTicker()">Add</button>
   </div>
@@ -194,7 +194,7 @@
             <button id="searchBtn" class="btn btnPrimary btnTight" type="button">Search</button>
           </div>
           <div class="hintRow" style="margin-top:12px;">
-            <a id="companyDetailBtn" class="pill" href="./company.html?ticker=AEM">Open AEM company details</a>
+            <a id="companyDetailBtn" class="pill" href="./company.html">Open company details</a>
           </div>
         </div>
 
@@ -524,9 +524,9 @@
   </div>
   <div id="aiQuickPrompts" style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;">
     <button class="btn btnGhost btnTight" type="button" data-prompt-template="What can I ask about {ticker}?">What can I ask?</button>
-    <button class="btn btnGhost btnTight" type="button" data-prompt="Summarize the latest outlook for AEM.">AEM outlook</button>
-    <button class="btn btnGhost btnTight" type="button" data-prompt="What technical reports are associated with AEM?">AEM technical reports</button>
-    <button class="btn btnGhost btnTight" type="button" data-prompt="Compare WPM and CDE on momentum and sentiment.">Compare WPM vs CDE</button>
+    <button class="btn btnGhost btnTight" type="button" data-prompt="Summarize the latest outlook for WPM.">WPM outlook</button>
+    <button class="btn btnGhost btnTight" type="button" data-prompt="What technical reports are associated with CDE?">CDE technical reports</button>
+    <button class="btn btnGhost btnTight" type="button" data-prompt="Compare HYMC and GFI on momentum and sentiment.">Compare HYMC vs GFI</button>
   </div>
 </div>
         <aside class="miniMineCard" aria-label="Mini mining game">
@@ -923,7 +923,7 @@ function clearChat(){
   let sourceLabel = "";
   let focusTicker = null;
   const hiddenTickers = new Set();
-  let activeSymbols = ["AEM", "WPM", "CDE", "HYMC", "GFI"];
+  let activeSymbols = ["WPM", "CDE", "HYMC", "GFI", "AEM"];
 
   function setLoaderVisible(visible){
     loaderEl.classList.toggle("is-hidden", !visible);
@@ -1342,7 +1342,7 @@ function clearChat(){
 <script>
 const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 const MAX_FAVORITE_TICKERS = 5;
-const DEFAULT_HOME_SYMBOLS = ["AEM", "WPM", "CDE", "HYMC", "GFI"];
+const DEFAULT_HOME_SYMBOLS = ["WPM", "CDE", "HYMC", "GFI", "AEM"];
 
 function getCachedDisplayName() {
   const displayName = localStorage.getItem("minerlytics_user_name") || "";

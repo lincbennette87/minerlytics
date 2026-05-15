@@ -128,7 +128,7 @@
 
     <nav class="navLinks">
       <a class="navLink" href="./index.html">Home</a>
-      <a class="navLink isActive" href="./company.html?ticker=AEM">Company Details</a>
+      <a class="navLink isActive" href="./company.html">Company Details</a>
       <a class="navLink" href="./analysis.html">Analysis</a>
       <a class="navLink" href="./educationportal.html">Education Portal</a>
       <a class="navLink" href="./subscription.html">Subscriptions</a>
@@ -281,7 +281,26 @@
   <script>
   (function () {
     const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
-    const ticker = (new URLSearchParams(window.location.search).get("ticker") || "AEM").toUpperCase().trim();
+    const FEATURED_COMPANY_TICKERS = ["WPM", "CDE", "HYMC", "GFI", "AEM", "HL", "PZG"];
+
+    function pickFeaturedTicker() {
+      try {
+        const cachedWatch = JSON.parse(localStorage.getItem("minerlytics_watchlist") || "[]");
+        const watchTicker = Array.isArray(cachedWatch)
+          ? cachedWatch.map((item) => String(item?.symbol || item || "").toUpperCase().trim()).find(Boolean)
+          : "";
+        if (watchTicker) return watchTicker;
+      } catch {}
+
+      const cachedTicker = String(localStorage.getItem("minerlytics_last_company_ticker") || "").toUpperCase().trim();
+      if (cachedTicker) return cachedTicker;
+
+      const dayIndex = Math.abs(Math.floor(Date.now() / 86400000)) % FEATURED_COMPANY_TICKERS.length;
+      return FEATURED_COMPANY_TICKERS[dayIndex];
+    }
+
+    const ticker = (new URLSearchParams(window.location.search).get("ticker") || pickFeaturedTicker()).toUpperCase().trim();
+    localStorage.setItem("minerlytics_last_company_ticker", ticker);
     const chartCanvas = document.getElementById("companyChart");
     let cachedPoints = [];
 
