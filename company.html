@@ -24,6 +24,28 @@
     }
     .title-row { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; }
     .title-row h1 { margin:0; font-size:40px; line-height:1.05; }
+    .company-search-wrap {
+      margin-top:16px;
+      display:flex;
+      gap:10px;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+    .company-search-input {
+      flex:1;
+      min-width:240px;
+      border:1px solid var(--line);
+      border-radius:14px;
+      background:rgba(255,255,255,.05);
+      color:var(--text);
+      padding:12px 14px;
+      outline:none;
+    }
+    .company-search-note {
+      margin-top:8px;
+      font-size:12px;
+      color:var(--muted2);
+    }
     .symbol-badge {
       display:inline-flex;
       align-items:center;
@@ -152,6 +174,11 @@
             <div class="symbol-badge" id="companyTicker">Ticker</div>
             <h1 id="companyName">Loading company…</h1>
             <p class="subtitle" id="companyDescription">Loading company description…</p>
+            <div class="company-search-wrap">
+              <input id="companySearchInput" class="company-search-input" type="search" placeholder="Search company or ticker e.g. WPM, CDE, HYMC" />
+              <button id="companySearchBtn" class="btn btnPrimary" type="button">Search</button>
+            </div>
+            <div class="company-search-note">Try: WPM, CDE, HYMC, GFI, HL, AEM, PZG</div>
           </div>
         </div>
 
@@ -302,6 +329,8 @@
     const ticker = (new URLSearchParams(window.location.search).get("ticker") || pickFeaturedTicker()).toUpperCase().trim();
     localStorage.setItem("minerlytics_last_company_ticker", ticker);
     const chartCanvas = document.getElementById("companyChart");
+    const companySearchInput = document.getElementById("companySearchInput");
+    const companySearchBtn = document.getElementById("companySearchBtn");
     let cachedPoints = [];
 
     const $ = (id) => document.getElementById(id);
@@ -359,6 +388,19 @@
     function setHtml(id, value) {
       const el = $(id);
       if (el) el.innerHTML = value;
+    }
+
+    function parseSearchTicker(value) {
+      return String(value || "")
+        .split(/[,\s]+/)
+        .map((item) => String(item || "").trim().toUpperCase())
+        .filter(Boolean)[0] || "";
+    }
+
+    function runCompanySearch() {
+      const nextTicker = parseSearchTicker(companySearchInput?.value || "");
+      if (!nextTicker) return;
+      window.location.href = `./company.html?ticker=${encodeURIComponent(nextTicker)}`;
     }
 
     function formatSectionText(value) {
@@ -545,6 +587,14 @@
       }
     }
 
+    companySearchBtn?.addEventListener("click", runCompanySearch);
+    companySearchInput?.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        runCompanySearch();
+      }
+    });
+    if (companySearchInput) companySearchInput.value = ticker;
     window.addEventListener("resize", () => drawChart(cachedPoints));
     loadPage();
   })();
