@@ -635,6 +635,68 @@ input,button{font:inherit}
   position:relative;
   z-index:2;
   padding:18px;
+  border-radius:24px;
+  transition:
+    width .22s ease,
+    max-width .22s ease,
+    transform .22s ease,
+    box-shadow .22s ease,
+    background .22s ease;
+}
+
+.aiHud.is-expanded{
+  width:min(100%, 760px);
+  max-width:760px;
+  margin-inline:auto;
+}
+
+.aiHud.is-expanded .aiChat{
+  height:380px;
+}
+
+.aiHud.is-expanded .aiComposer textarea{
+  min-height:74px;
+}
+
+.aiHud.is-modal{
+  position:fixed;
+  top:50%;
+  left:50%;
+  width:min(92vw, 920px);
+  max-width:920px;
+  transform:translate(-50%, -50%);
+  z-index:1300;
+  padding:20px;
+  border:1px solid rgba(255,255,255,.10);
+  background:
+    radial-gradient(460px 220px at 15% 0%, rgba(154,122,74,.16), transparent 65%),
+    radial-gradient(420px 240px at 88% 100%, rgba(110,122,113,.12), transparent 65%),
+    rgba(12,16,19,.96);
+  box-shadow:
+    0 40px 120px rgba(0,0,0,.48),
+    inset 0 1px 0 rgba(255,255,255,.04);
+  backdrop-filter: blur(18px);
+}
+
+.aiHud.is-modal .aiChat{
+  height:min(58vh, 520px);
+}
+
+.aiHud.is-modal .aiComposer textarea{
+  min-height:82px;
+}
+
+.aiModalBackdrop{
+  position:fixed;
+  inset:0;
+  z-index:1200;
+  background:rgba(5,8,11,.42);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+body.ai-modal-open{
+  overflow:hidden;
 }
 
 .questionVaultCard{
@@ -808,6 +870,7 @@ input,button{font:inherit}
   gap:10px;
   align-items:center;
   margin:12px 0 10px;
+  flex-wrap:wrap;
 }
 
 .aiControls input{
@@ -1152,6 +1215,18 @@ input,button{font:inherit}
 .pillBtn:hover{
   border-color:rgba(255,255,255,.22);
   transform:translateY(-1px);
+}
+
+@media (max-width: 980px){
+  .aiHud.is-expanded,
+  .aiHud.is-modal{
+    width:min(94vw, 94vw);
+    max-width:94vw;
+  }
+
+  .aiHud.is-modal .aiChat{
+    height:min(54vh, 460px);
+  }
 }
 
 /* =========================

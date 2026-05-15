@@ -485,7 +485,9 @@
           </div>
 
           <div class="aiControls aiControlsSimple">
-  <button id="aiClear" class="btn btnGhost btnTight" type="button">Beta Version</button>
+  <button id="aiExpandToggle" class="btn btnGhost btnTight" type="button" aria-pressed="false">Expand</button>
+  <button id="aiPopoutToggle" class="btn btnGhost btnTight" type="button" aria-pressed="false">Pop Out</button>
+  <button id="aiClear" class="btn btnGhost btnTight" type="button">Clear</button>
 </div>
   <div class="aiChat" id="aiChat" aria-label="AI chat transcript">
     <div class="aiCenterVisual" id="aiCenterVisual" aria-hidden="true">
@@ -529,6 +531,7 @@
     <button class="btn btnGhost btnTight" type="button" data-prompt="Compare HYMC and GFI on momentum and sentiment.">Compare HYMC vs GFI</button>
   </div>
 </div>
+          <div class="aiModalBackdrop" id="aiModalBackdrop" hidden></div>
         <aside class="questionVaultCard" aria-label="Popular Minerlytics questions">
           <div class="questionVaultInner">
             <div class="questionVaultHead">
@@ -609,6 +612,9 @@
     const sendBtn  = document.getElementById("aiRun");
     const clearBtn = document.getElementById("aiClear");
     const quickPrompts = document.getElementById("aiQuickPrompts");
+    const expandBtn = document.getElementById("aiExpandToggle");
+    const popoutBtn = document.getElementById("aiPopoutToggle");
+    const modalBackdrop = document.getElementById("aiModalBackdrop");
 
     // Disclaimer elements
     const overlay  = document.getElementById("aiDisclaimerOverlay");
@@ -619,6 +625,8 @@
 
     let messages = [];
     let lastResolvedTicker = null;
+    let isExpanded = false;
+    let isModalOpen = false;
 
     function esc(s){
       return String(s ?? "")
@@ -649,8 +657,40 @@
       aiHud.style.opacity = ".45";
     }
 
+    function syncAssistantLayoutUi(){
+      if (!aiHud) return;
+      aiHud.classList.toggle("is-expanded", isExpanded && !isModalOpen);
+      aiHud.classList.toggle("is-modal", isModalOpen);
+      document.body.classList.toggle("ai-modal-open", isModalOpen);
+      if (modalBackdrop) modalBackdrop.hidden = !isModalOpen;
+      if (expandBtn) {
+        expandBtn.textContent = isExpanded ? "Normal Size" : "Expand";
+        expandBtn.setAttribute("aria-pressed", String(isExpanded));
+      }
+      if (popoutBtn) {
+        popoutBtn.textContent = isModalOpen ? "Close Pop Out" : "Pop Out";
+        popoutBtn.setAttribute("aria-pressed", String(isModalOpen));
+      }
+    }
+
+    function toggleExpanded(){
+      isExpanded = !isExpanded;
+      if (isModalOpen) isModalOpen = false;
+      syncAssistantLayoutUi();
+    }
+
+    function toggleModal(){
+      isModalOpen = !isModalOpen;
+      if (isModalOpen) isExpanded = true;
+      syncAssistantLayoutUi();
+      if (isModalOpen) {
+        setTimeout(() => qEl?.focus(), 30);
+      }
+    }
+
     // Start overlay hidden
     hideOverlay();
+    syncAssistantLayoutUi();
 
     // Show disclaimer when user tries to use AI
     if(aiHud){
@@ -850,11 +890,25 @@ function clearChat(){
 }
     sendBtn.addEventListener("click", send);
     clearBtn.addEventListener("click", clearChat);
+    expandBtn?.addEventListener("click", toggleExpanded);
+    popoutBtn?.addEventListener("click", toggleModal);
+    modalBackdrop?.addEventListener("click", () => {
+      if (!isModalOpen) return;
+      isModalOpen = false;
+      syncAssistantLayoutUi();
+    });
 
     qEl.addEventListener("keydown", (e)=>{
       if(e.key === "Enter" && !e.shiftKey){
         e.preventDefault();
         send();
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && isModalOpen) {
+        isModalOpen = false;
+        syncAssistantLayoutUi();
       }
     });
 
