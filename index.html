@@ -536,7 +536,10 @@
                 <div class="miniMineTitle">Mine Sprint</div>
                 <div class="miniMineSub">Collect falling ore and stack points in gold, silver, and copper.</div>
               </div>
-              <button id="miniMineReset" class="btn btnGhost btnTight miniMineReset" type="button">Reset</button>
+              <div style="display:flex;gap:8px;align-items:center;">
+                <button id="miniMineStart" class="btn btnPrimary btnTight miniMineReset" type="button">Start</button>
+                <button id="miniMineReset" class="btn btnGhost btnTight miniMineReset" type="button">Reset</button>
+              </div>
             </div>
 
             <div class="miniMineScoreRow">
@@ -570,7 +573,7 @@
               <div class="miniMineStrata" aria-hidden="true"></div>
             </div>
 
-            <div class="miniMineHint">Move the basket left and right to catch the ore before it hits the mine floor.</div>
+            <div id="miniMineHint" class="miniMineHint">Press Start to begin, then move the basket left and right to catch the ore.</div>
           </div>
         </aside>
       </div>
@@ -1582,12 +1585,14 @@ updateCompanyDetailLink();
 (function () {
   const arena = document.getElementById("miniMineArena");
   const basket = document.getElementById("miniMineBasket");
+  const startBtn = document.getElementById("miniMineStart");
   const resetBtn = document.getElementById("miniMineReset");
+  const hintEl = document.getElementById("miniMineHint");
   const goldEl = document.getElementById("miniMineGold");
   const silverEl = document.getElementById("miniMineSilver");
   const copperEl = document.getElementById("miniMineCopper");
   const totalEl = document.getElementById("miniMineTotal");
-  if (!arena || !basket || !goldEl || !silverEl || !copperEl || !totalEl) return;
+  if (!arena || !basket || !startBtn || !resetBtn || !hintEl || !goldEl || !silverEl || !copperEl || !totalEl) return;
 
   const laneLeft = [16, 50, 84];
   const oreTypes = [
@@ -1600,7 +1605,6 @@ updateCompanyDetailLink();
   let spawnTimer = null;
   const activeOres = new Set();
   let basketX = 0;
-
   function clamp(value, min, max) {
     return Math.min(Math.max(value, min), max);
   }
@@ -1626,6 +1630,8 @@ updateCompanyDetailLink();
   }
 
   function clearOres() {
+    clearInterval(spawnTimer);
+    spawnTimer = null;
     activeOres.forEach((ore) => ore.remove());
     activeOres.clear();
   }
@@ -1682,13 +1688,15 @@ updateCompanyDetailLink();
   }
 
   function startGame() {
-    clearInterval(spawnTimer);
     clearOres();
+    startBtn.disabled = true;
+    hintEl.textContent = "Catch the falling ore in the basket before it hits the mine floor.";
     spawnTimer = window.setInterval(spawnOre, 950);
     spawnOre();
   }
 
   function resetGame() {
+    clearOres();
     scores = { gold: 0, silver: 0, copper: 0 };
     renderScores();
     basketX = (arena.clientWidth - basket.offsetWidth) / 2;
@@ -1696,6 +1704,7 @@ updateCompanyDetailLink();
     startGame();
   }
 
+  startBtn?.addEventListener("click", startGame);
   resetBtn?.addEventListener("click", resetGame);
   arena.addEventListener("mousemove", (event) => moveBasketTo(event.clientX));
   arena.addEventListener("touchmove", (event) => {
@@ -1713,7 +1722,8 @@ updateCompanyDetailLink();
   renderScores();
   basketX = (arena.clientWidth - basket.offsetWidth) / 2;
   syncBasket();
-  startGame();
+  startBtn.disabled = false;
+  hintEl.textContent = "Press Start to begin, then move the basket left and right to catch the ore.";
 })();
 </script>
 <script>
