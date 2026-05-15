@@ -538,6 +538,7 @@
               </div>
               <div style="display:flex;gap:8px;align-items:center;">
                 <button id="miniMineStart" class="btn btnPrimary btnTight miniMineReset" type="button">Start</button>
+                <button id="miniMineStop" class="btn btnGhost btnTight miniMineReset" type="button">Stop</button>
                 <button id="miniMineReset" class="btn btnGhost btnTight miniMineReset" type="button">Reset</button>
               </div>
             </div>
@@ -1586,13 +1587,14 @@ updateCompanyDetailLink();
   const arena = document.getElementById("miniMineArena");
   const basket = document.getElementById("miniMineBasket");
   const startBtn = document.getElementById("miniMineStart");
+  const stopBtn = document.getElementById("miniMineStop");
   const resetBtn = document.getElementById("miniMineReset");
   const hintEl = document.getElementById("miniMineHint");
   const goldEl = document.getElementById("miniMineGold");
   const silverEl = document.getElementById("miniMineSilver");
   const copperEl = document.getElementById("miniMineCopper");
   const totalEl = document.getElementById("miniMineTotal");
-  if (!arena || !basket || !startBtn || !resetBtn || !hintEl || !goldEl || !silverEl || !copperEl || !totalEl) return;
+  if (!arena || !basket || !startBtn || !stopBtn || !resetBtn || !hintEl || !goldEl || !silverEl || !copperEl || !totalEl) return;
 
   const laneLeft = [16, 50, 84];
   const oreTypes = [
@@ -1605,6 +1607,7 @@ updateCompanyDetailLink();
   let spawnTimer = null;
   const activeOres = new Set();
   let basketX = 0;
+  let isRunning = false;
   function clamp(value, min, max) {
     return Math.min(Math.max(value, min), max);
   }
@@ -1688,23 +1691,39 @@ updateCompanyDetailLink();
   }
 
   function startGame() {
+    if (isRunning) return;
     clearOres();
+    isRunning = true;
     startBtn.disabled = true;
+    stopBtn.disabled = false;
     hintEl.textContent = "Catch the falling ore in the basket before it hits the mine floor.";
     spawnTimer = window.setInterval(spawnOre, 950);
     spawnOre();
   }
 
+  function stopGame() {
+    clearInterval(spawnTimer);
+    spawnTimer = null;
+    isRunning = false;
+    startBtn.disabled = false;
+    stopBtn.disabled = true;
+    hintEl.textContent = "Game paused. Press Start to continue catching ore.";
+  }
+
   function resetGame() {
     clearOres();
+    isRunning = false;
     scores = { gold: 0, silver: 0, copper: 0 };
     renderScores();
     basketX = (arena.clientWidth - basket.offsetWidth) / 2;
     syncBasket();
+    startBtn.disabled = true;
+    stopBtn.disabled = false;
     startGame();
   }
 
   startBtn?.addEventListener("click", startGame);
+  stopBtn?.addEventListener("click", stopGame);
   resetBtn?.addEventListener("click", resetGame);
   arena.addEventListener("mousemove", (event) => moveBasketTo(event.clientX));
   arena.addEventListener("touchmove", (event) => {
@@ -1723,6 +1742,7 @@ updateCompanyDetailLink();
   basketX = (arena.clientWidth - basket.offsetWidth) / 2;
   syncBasket();
   startBtn.disabled = false;
+  stopBtn.disabled = true;
   hintEl.textContent = "Press Start to begin, then move the basket left and right to catch the ore.";
 })();
 </script>
