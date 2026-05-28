@@ -359,7 +359,13 @@ input,button{font:inherit}
 .subhead{margin:0 0 18px;color:var(--muted);max-width:560px}
 
 .heroSearch{margin:14px 0 18px}
+.heroSearchAssist{
+  margin-top:10px;
+  display:grid;
+  gap:10px;
+}
 .heroSearchBox{
+  position:relative;
   display:flex;align-items:center;gap:10px;
   background: rgba(255,255,255,.04);
   border:1px solid rgba(255,255,255,.10);
@@ -373,6 +379,87 @@ input,button{font:inherit}
   padding:8px 0;
 }
 .heroSearchBox input::placeholder{color:rgba(234,240,255,.45)}
+.heroSearchMeta{
+  font-size:12px;
+  color:rgba(234,240,255,.62);
+}
+.heroSearchSuggestions{
+  position:absolute;
+  top:calc(100% + 10px);
+  left:0;
+  right:0;
+  z-index:15;
+  display:none;
+  flex-direction:column;
+  gap:8px;
+  padding:10px;
+  border-radius:18px;
+  border:1px solid rgba(255,255,255,.10);
+  background:
+    radial-gradient(280px 140px at 10% 0%, rgba(154,122,74,.14), transparent 60%),
+    rgba(12,16,19,.96);
+  box-shadow: 0 28px 60px rgba(0,0,0,.34);
+}
+.heroSearchSuggestions.is-open{display:flex}
+.heroSuggestion{
+  width:100%;
+  text-align:left;
+  border:1px solid rgba(255,255,255,.07);
+  background:rgba(255,255,255,.03);
+  color:var(--text);
+  border-radius:14px;
+  padding:10px 12px;
+  cursor:pointer;
+}
+.heroSuggestion:hover{
+  border-color: rgba(154,122,74,.26);
+  background: rgba(154,122,74,.08);
+}
+.heroSuggestionTop{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+}
+.heroSuggestionTicker{
+  font-size:13px;
+  font-weight:800;
+  letter-spacing:.08em;
+}
+.heroSuggestionMetal{
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:#d7c09a;
+}
+.heroSuggestionName{
+  margin-top:4px;
+  font-size:12px;
+  color:rgba(234,240,255,.72);
+}
+.heroCommodityRow{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.heroCommodityChip{
+  border:1px solid rgba(255,255,255,.08);
+  background:rgba(255,255,255,.03);
+  color:rgba(234,240,255,.78);
+  border-radius:999px;
+  padding:8px 11px;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  cursor:pointer;
+}
+.heroCommodityChip:hover{
+  border-color: rgba(154,122,74,.24);
+  background: rgba(154,122,74,.10);
+  color:var(--text);
+}
 .hintRow{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
 .pill{
   font-size:12px;color:rgba(234,240,255,.78);

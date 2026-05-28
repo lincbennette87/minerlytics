@@ -1,126 +1,231 @@
 {
   "AEM": {
-    "name": "Agnico Eagle",
-    "queries": [
-      "Agnico Eagle",
-      "AEM stock",
-      "AEM earnings",
-      "AEM conference call"
-    ],
+    "name": "Agnico Eagle Mines",
+    "metal": "gold",
+    "queries": ["Agnico Eagle", "AEM stock", "AEM earnings", "AEM production"],
     "cik": "0000002809"
+  },
+  "NEM": {
+    "name": "Newmont",
+    "metal": "gold",
+    "queries": ["Newmont", "NEM stock", "Newmont earnings", "Newmont production"],
+    "cik": "0001164727"
+  },
+  "GOLD": {
+    "name": "Barrick Gold",
+    "metal": "gold",
+    "queries": ["Barrick Gold", "Barrick earnings", "GOLD stock", "Barrick production"],
+    "cik": "0000756894"
+  },
+  "KGC": {
+    "name": "Kinross Gold",
+    "metal": "gold",
+    "queries": ["Kinross Gold", "KGC stock", "Kinross earnings", "Kinross production"],
+    "cik": "0000701818"
+  },
+  "AU": {
+    "name": "AngloGold Ashanti",
+    "metal": "gold",
+    "queries": ["AngloGold Ashanti", "AU stock", "AngloGold earnings"]
+  },
+  "BTG": {
+    "name": "B2Gold",
+    "metal": "gold",
+    "queries": ["B2Gold", "BTG stock", "B2Gold earnings"],
+    "cik": "0001172724"
+  },
+  "AGI": {
+    "name": "Alamos Gold",
+    "metal": "gold",
+    "queries": ["Alamos Gold", "AGI stock", "Alamos earnings"],
+    "cik": "0001178819"
+  },
+  "GFI": {
+    "name": "Gold Fields",
+    "metal": "gold",
+    "queries": ["Gold Fields", "GFI stock", "Gold Fields earnings"],
+    "cik": "0001172724"
+  },
+  "HMY": {
+    "name": "Harmony Gold",
+    "metal": "gold",
+    "queries": ["Harmony Gold", "HMY stock", "Harmony earnings"],
+    "cik": "0001023514"
+  },
+  "OR": {
+    "name": "Osisko Gold Royalties",
+    "metal": "gold",
+    "queries": ["Osisko Gold Royalties", "OR stock", "Osisko royalty"]
+  },
+  "FNV": {
+    "name": "Franco-Nevada",
+    "metal": "gold",
+    "queries": ["Franco Nevada", "FNV stock", "Franco-Nevada royalty"],
+    "cik": "0001452575"
+  },
+  "RGLD": {
+    "name": "Royal Gold",
+    "metal": "gold",
+    "queries": ["Royal Gold", "RGLD stock", "Royal Gold royalty"],
+    "cik": "0000854606"
   },
   "PZG": {
     "name": "Paramount Gold Nevada",
-    "queries": [
-      "Paramount Gold Nevada",
-      "PZG stock",
-      "PZG interview"
-    ],
+    "metal": "gold",
+    "queries": ["Paramount Gold Nevada", "PZG stock", "PZG interview"],
     "cik": "0001629210"
   },
   "GAYMF": {
     "name": "Galiano Gold",
-    "queries": [
-      "Galiano Gold",
-      "GAYMF stock",
-      "Galiano earnings"
-    ]
-  },
-  "GFI": {
-    "name": "Gold Fields",
-    "queries": [
-      "Gold Fields",
-      "GFI stock",
-      "Gold Fields earnings"
-    ],
-    "cik": "0001172724"
-  },
-  "DSVSF": {
-    "name": "Discovery Silver",
-    "queries": [
-      "Discovery Silver",
-      "DSVSF stock",
-      "Discovery Silver interview"
-    ]
+    "metal": "gold",
+    "queries": ["Galiano Gold", "GAYMF stock", "Galiano earnings"]
   },
   "HYMC": {
     "name": "Hycroft Mining",
-    "queries": [
-      "Hycroft",
-      "HYMC stock",
-      "HYMC interview",
-      "HYMC earnings"
-    ],
+    "metal": "gold",
+    "queries": ["Hycroft", "HYMC stock", "HYMC interview", "HYMC earnings"],
     "cik": "0001718405"
+  },
+
+  "WPM": {
+    "name": "Wheaton Precious Metals",
+    "metal": "silver",
+    "queries": ["Wheaton", "WPM stock", "Wheaton earnings"],
+    "cik": "0001323404"
+  },
+  "PAAS": {
+    "name": "Pan American Silver",
+    "metal": "silver",
+    "queries": ["Pan American Silver", "PAAS stock", "Pan American earnings"],
+    "cik": "0001162194"
+  },
+  "AG": {
+    "name": "First Majestic Silver",
+    "metal": "silver",
+    "queries": ["First Majestic Silver", "AG stock", "First Majestic earnings"]
+  },
+  "MAG": {
+    "name": "MAG Silver",
+    "metal": "silver",
+    "queries": ["MAG Silver", "MAG stock", "MAG Silver earnings"]
   },
   "CDE": {
     "name": "Coeur Mining",
-    "queries": [
-      "Coeur Mining",
-      "CDE stock",
-      "Coeur earnings"
-    ],
+    "metal": "silver",
+    "queries": ["Coeur Mining", "CDE stock", "Coeur earnings"],
     "cik": "0000215466"
-  },
-  "WPM": {
-    "name": "Wheaton Precious Metals",
-    "queries": [
-      "Wheaton",
-      "WPM stock",
-      "Wheaton earnings"
-    ],
-    "cik": "0001323404"
   },
   "HL": {
     "name": "Hecla Mining",
-    "queries": [
-      "Hecla",
-      "HL stock",
-      "Hecla earnings"
-    ],
+    "metal": "silver",
+    "queries": ["Hecla", "HL stock", "Hecla earnings"],
     "cik": "0000719413"
   },
+  "EXK": {
+    "name": "Endeavour Silver",
+    "metal": "silver",
+    "queries": ["Endeavour Silver", "EXK stock", "Endeavour earnings"],
+    "cik": "0001271554"
+  },
+  "SVM": {
+    "name": "Silvercorp Metals",
+    "metal": "silver",
+    "queries": ["Silvercorp Metals", "SVM stock", "Silvercorp earnings"],
+    "cik": "0001427362"
+  },
+  "SILV": {
+    "name": "SilverCrest Metals",
+    "metal": "silver",
+    "queries": ["SilverCrest Metals", "SILV stock", "SilverCrest earnings"]
+  },
+  "DSVSF": {
+    "name": "Discovery Silver",
+    "metal": "silver",
+    "queries": ["Discovery Silver", "DSVSF stock", "Discovery Silver interview"]
+  },
+
+  "FCX": {
+    "name": "Freeport-McMoRan",
+    "metal": "copper",
+    "queries": ["Freeport-McMoRan", "FCX stock", "Freeport earnings"],
+    "cik": "0000831259"
+  },
+  "SCCO": {
+    "name": "Southern Copper",
+    "metal": "copper",
+    "queries": ["Southern Copper", "SCCO stock", "Southern Copper earnings"],
+    "cik": "0001001838"
+  },
+  "TECK": {
+    "name": "Teck Resources",
+    "metal": "copper",
+    "queries": ["Teck Resources", "TECK stock", "Teck copper earnings"]
+  },
+  "HBM": {
+    "name": "Hudbay Minerals",
+    "metal": "copper",
+    "queries": ["Hudbay Minerals", "HBM stock", "Hudbay earnings"]
+  },
+  "TRQ": {
+    "name": "Turquoise Hill",
+    "metal": "copper",
+    "queries": ["Turquoise Hill", "TRQ stock", "Oyu Tolgoi copper"]
+  },
+  "TGB": {
+    "name": "Taseko Mines",
+    "metal": "copper",
+    "queries": ["Taseko Mines", "TGB stock", "Taseko copper earnings"],
+    "cik": "0000886668"
+  },
+
+  "LUCRF": {
+    "name": "Lucara Diamond",
+    "metal": "diamond",
+    "queries": ["Lucara Diamond", "Lucara diamonds", "LUCRF stock"]
+  },
+  "MPVDF": {
+    "name": "Mountain Province Diamonds",
+    "metal": "diamond",
+    "queries": ["Mountain Province Diamonds", "MPVDF stock", "Mountain Province diamond"]
+  },
+  "NGLOY": {
+    "name": "Anglo American",
+    "metal": "diamond",
+    "queries": ["Anglo American diamonds", "De Beers", "NGLOY stock"]
+  },
+  "RIO": {
+    "name": "Rio Tinto",
+    "metal": "diamond",
+    "queries": ["Rio Tinto diamonds", "Diavik diamond mine", "RIO stock"],
+    "cik": "0000764180"
+  },
+
   "PSLV": {
     "name": "Sprott Physical Silver Trust",
-    "queries": [
-      "PSLV",
-      "Sprott Physical Silver Trust",
-      "Sprott silver"
-    ],
+    "metal": "silver",
+    "queries": ["PSLV", "Sprott Physical Silver Trust", "Sprott silver"],
     "cik": "0001494728"
   },
   "SLV": {
     "name": "iShares Silver Trust",
-    "queries": [
-      "SLV ETF",
-      "iShares Silver Trust",
-      "silver ETF SLV"
-    ],
+    "metal": "silver",
+    "queries": ["SLV ETF", "iShares Silver Trust", "silver ETF SLV"],
     "cik": "0001330568"
   },
   "SIVR": {
     "name": "abrdn Physical Silver Shares",
-    "queries": [
-      "SIVR",
-      "abrdn physical silver shares",
-      "SIVR ETF"
-    ],
+    "metal": "silver",
+    "queries": ["SIVR", "abrdn physical silver shares", "SIVR ETF"],
     "cik": "0001450922"
   },
   "SIL": {
     "name": "Global X Silver Miners ETF",
-    "queries": [
-      "SIL ETF",
-      "Global X Silver Miners",
-      "silver miners ETF"
-    ]
+    "metal": "silver",
+    "queries": ["SIL ETF", "Global X Silver Miners", "silver miners ETF"]
   },
   "SILJ": {
     "name": "Amplify Junior Silver Miners ETF",
-    "queries": [
-      "SILJ",
-      "junior silver miners ETF",
-      "SILJ ETF"
-    ]
+    "metal": "silver",
+    "queries": ["SILJ", "junior silver miners ETF", "SILJ ETF"]
   }
 }

@@ -1,0 +1,48 @@
+{
+  "items": [
+    { "symbol": "AEM", "name": "Agnico Eagle Mines", "metal": "gold", "aliases": ["Agnico Eagle"] },
+    { "symbol": "NEM", "name": "Newmont", "metal": "gold", "aliases": ["Newmont Corporation"] },
+    { "symbol": "GOLD", "name": "Barrick Gold", "metal": "gold", "aliases": ["Barrick", "Barrick Gold Corporation"] },
+    { "symbol": "KGC", "name": "Kinross Gold", "metal": "gold", "aliases": ["Kinross"] },
+    { "symbol": "AU", "name": "AngloGold Ashanti", "metal": "gold", "aliases": ["AngloGold"] },
+    { "symbol": "BTG", "name": "B2Gold", "metal": "gold", "aliases": ["B2 Gold"] },
+    { "symbol": "AGI", "name": "Alamos Gold", "metal": "gold", "aliases": ["Alamos"] },
+    { "symbol": "GFI", "name": "Gold Fields", "metal": "gold", "aliases": ["Gold Fields Limited"] },
+    { "symbol": "HMY", "name": "Harmony Gold", "metal": "gold", "aliases": ["Harmony Gold Mining"] },
+    { "symbol": "OR", "name": "Osisko Gold Royalties", "metal": "gold", "aliases": ["Osisko"] },
+    { "symbol": "FNV", "name": "Franco-Nevada", "metal": "gold", "aliases": ["Franco Nevada"] },
+    { "symbol": "RGLD", "name": "Royal Gold", "metal": "gold", "aliases": ["Royal Gold Inc"] },
+    { "symbol": "PZG", "name": "Paramount Gold Nevada", "metal": "gold", "aliases": ["Paramount Gold"] },
+    { "symbol": "GAYMF", "name": "Galiano Gold", "metal": "gold", "aliases": ["Galiano"] },
+    { "symbol": "HYMC", "name": "Hycroft Mining", "metal": "gold", "aliases": ["Hycroft"] },
+
+    { "symbol": "WPM", "name": "Wheaton Precious Metals", "metal": "silver", "aliases": ["Wheaton"] },
+    { "symbol": "PAAS", "name": "Pan American Silver", "metal": "silver", "aliases": ["Pan American"] },
+    { "symbol": "AG", "name": "First Majestic Silver", "metal": "silver", "aliases": ["First Majestic"] },
+    { "symbol": "MAG", "name": "MAG Silver", "metal": "silver", "aliases": ["MAG Silver Corp"] },
+    { "symbol": "CDE", "name": "Coeur Mining", "metal": "silver", "aliases": ["Coeur"] },
+    { "symbol": "HL", "name": "Hecla Mining", "metal": "silver", "aliases": ["Hecla"] },
+    { "symbol": "EXK", "name": "Endeavour Silver", "metal": "silver", "aliases": ["Endeavour"] },
+    { "symbol": "SVM", "name": "Silvercorp Metals", "metal": "silver", "aliases": ["Silvercorp"] },
+    { "symbol": "SILV", "name": "SilverCrest Metals", "metal": "silver", "aliases": ["SilverCrest"] },
+    { "symbol": "DSVSF", "name": "Discovery Silver", "metal": "silver", "aliases": ["Discovery"] },
+
+    { "symbol": "FCX", "name": "Freeport-McMoRan", "metal": "copper", "aliases": ["Freeport", "Freeport McMoRan"] },
+    { "symbol": "SCCO", "name": "Southern Copper", "metal": "copper", "aliases": ["Southern Copper Corporation"] },
+    { "symbol": "TECK", "name": "Teck Resources", "metal": "copper", "aliases": ["Teck"] },
+    { "symbol": "HBM", "name": "Hudbay Minerals", "metal": "copper", "aliases": ["Hudbay"] },
+    { "symbol": "TRQ", "name": "Turquoise Hill", "metal": "copper", "aliases": ["Oyu Tolgoi"] },
+    { "symbol": "TGB", "name": "Taseko Mines", "metal": "copper", "aliases": ["Taseko"] },
+
+    { "symbol": "LUCRF", "name": "Lucara Diamond", "metal": "diamond", "aliases": ["Lucara"] },
+    { "symbol": "MPVDF", "name": "Mountain Province Diamonds", "metal": "diamond", "aliases": ["Mountain Province"] },
+    { "symbol": "NGLOY", "name": "Anglo American", "metal": "diamond", "aliases": ["De Beers"] },
+    { "symbol": "RIO", "name": "Rio Tinto", "metal": "diamond", "aliases": ["Diavik"] },
+
+    { "symbol": "PSLV", "name": "Sprott Physical Silver Trust", "metal": "silver", "aliases": ["Sprott silver"] },
+    { "symbol": "SLV", "name": "iShares Silver Trust", "metal": "silver", "aliases": ["SLV ETF"] },
+    { "symbol": "SIVR", "name": "abrdn Physical Silver Shares", "metal": "silver", "aliases": ["SIVR ETF"] },
+    { "symbol": "SIL", "name": "Global X Silver Miners ETF", "metal": "silver", "aliases": ["silver miners ETF"] },
+    { "symbol": "SILJ", "name": "Amplify Junior Silver Miners ETF", "metal": "silver", "aliases": ["junior silver miners ETF"] }
+  ]
+}

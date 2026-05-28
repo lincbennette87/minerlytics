@@ -175,10 +175,10 @@
             <h1 id="companyName">Loading company…</h1>
             <p class="subtitle" id="companyDescription">Loading company description…</p>
             <div class="company-search-wrap">
-              <input id="companySearchInput" class="company-search-input" type="search" placeholder="Search company or ticker e.g. WPM, CDE, HYMC" />
+              <input id="companySearchInput" class="company-search-input" type="search" placeholder="Search company or ticker e.g. WPM, Barrick Gold, SCCO, Lucara Diamond" />
               <button id="companySearchBtn" class="btn btnPrimary" type="button">Search</button>
             </div>
-            <div class="company-search-note">Try: WPM, CDE, HYMC, GFI, HL, AEM, PZG</div>
+            <div class="company-search-note">Try: WPM, Barrick Gold, CDE, SCCO, Lucara Diamond, AEM, FCX</div>
           </div>
         </div>
 
@@ -308,7 +308,7 @@
   <script>
   (function () {
     const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
-    const FEATURED_COMPANY_TICKERS = ["WPM", "CDE", "HYMC", "GFI", "AEM", "HL", "PZG"];
+    const FEATURED_COMPANY_TICKERS = ["WPM", "CDE", "AEM", "GOLD", "FCX", "SCCO", "LUCRF", "HYMC", "GFI", "PAAS"];
 
     function pickFeaturedTicker() {
       try {

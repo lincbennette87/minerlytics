@@ -178,7 +178,7 @@
   </div>
 
   <div style="display:flex;gap:10px;margin-bottom:12px;">
-    <input id="watchSymbol" placeholder="Add ticker e.g. WPM, CDE, HYMC"
+    <input id="watchSymbol" placeholder="Add ticker or company e.g. WPM, Barrick Gold, SCCO"
       style="flex:1;padding:12px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);" />
     <button class="btn btnPrimary btnTight" type="button" onclick="addWatchTicker()">Add</button>
   </div>
@@ -192,6 +192,16 @@
             </svg>
             <input id="heroSearch" type="search" placeholder="Search stocks, commodities, and more…" />
             <button id="searchBtn" class="btn btnPrimary btnTight" type="button">Search</button>
+            <div id="heroSearchSuggestions" class="heroSearchSuggestions" aria-live="polite"></div>
+          </div>
+          <div class="heroSearchAssist">
+            <div class="heroSearchMeta">Search miners and related funds across gold, silver, copper, and diamond-related names by ticker or company name.</div>
+            <div class="heroCommodityRow" id="heroCommodityRow">
+              <button class="heroCommodityChip" type="button" data-query="gold miners">Gold</button>
+              <button class="heroCommodityChip" type="button" data-query="silver miners">Silver</button>
+              <button class="heroCommodityChip" type="button" data-query="copper miners">Copper</button>
+              <button class="heroCommodityChip" type="button" data-query="diamond miners">Diamond</button>
+            </div>
           </div>
           <div class="hintRow" style="margin-top:12px;">
             <a id="companyDetailBtn" class="pill" href="./company.html">Open company details</a>
@@ -1378,6 +1388,80 @@ function clearChat(){
 const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 const MAX_FAVORITE_TICKERS = 5;
 const DEFAULT_HOME_SYMBOLS = ["WPM", "CDE", "HYMC", "GFI", "AEM"];
+let HOME_SEARCH_UNIVERSE = [];
+
+async function ensureHomeSearchUniverse() {
+  if (HOME_SEARCH_UNIVERSE.length) return HOME_SEARCH_UNIVERSE;
+  try {
+    const res = await fetch("./universe.json", {
+      headers: { accept: "application/json" },
+      cache: "no-store"
+    });
+    if (!res.ok) throw new Error(`universe.json (${res.status})`);
+    const data = await res.json();
+    const items = Array.isArray(data?.items) ? data.items : [];
+    HOME_SEARCH_UNIVERSE = items.map((item) => ({
+      symbol: String(item?.symbol || item?.sym || item?.ticker || "").toUpperCase().trim(),
+      name: String(item?.name || "").trim(),
+      metal: String(item?.metal || "").trim().toLowerCase(),
+      aliases: Array.isArray(item?.aliases) ? item.aliases.map((alias) => String(alias || "").trim()).filter(Boolean) : []
+    })).filter((item) => item.symbol);
+  } catch (error) {
+    console.warn("HOME SEARCH UNIVERSE ERROR:", error);
+    HOME_SEARCH_UNIVERSE = [];
+  }
+  return HOME_SEARCH_UNIVERSE;
+}
+
+function normalizeSearchText(value = "") {
+  return String(value || "")
+    .toUpperCase()
+    .replace(/[^A-Z0-9\s&.-]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function resolveUniverseEntry(term = "") {
+  const raw = String(term || "").trim();
+  if (!raw) return null;
+  const normalized = normalizeSearchText(raw);
+  const direct = HOME_SEARCH_UNIVERSE.find((item) => item.symbol === normalized);
+  if (direct) return direct;
+
+  return HOME_SEARCH_UNIVERSE.find((item) => {
+    const haystack = [
+      item.symbol,
+      item.name,
+      ...(item.aliases || []),
+      item.metal
+    ].map(normalizeSearchText).filter(Boolean);
+    return haystack.some((entry) => entry === normalized || entry.includes(normalized) || normalized.includes(entry));
+  }) || null;
+}
+
+function parseSearchTickers(value, max = MAX_FAVORITE_TICKERS) {
+  const terms = String(value || "")
+    .split(/[,\n]+/)
+    .map((item) => item.trim())
+    .filter(Boolean);
+
+  const resolved = [];
+  for (const term of terms) {
+    const entry = resolveUniverseEntry(term);
+    if (entry?.symbol) {
+      resolved.push(entry.symbol);
+      continue;
+    }
+
+    const fallbackTicker = term
+      .split(/\s+/)
+      .map((item) => item.trim().toUpperCase())
+      .find((item) => /^[A-Z]{1,6}$/.test(item));
+    if (fallbackTicker) resolved.push(fallbackTicker);
+  }
+
+  return Array.from(new Set(resolved)).slice(0, max);
+}
 
 function getCachedDisplayName() {
   const displayName = localStorage.getItem("minerlytics_user_name") || "";
@@ -1389,11 +1473,7 @@ function getCachedDisplayName() {
 }
 
 function parseTickerList(value) {
-  return String(value || "")
-    .split(/[,\s]+/)
-    .map((item) => String(item || "").trim().toUpperCase())
-    .filter(Boolean)
-    .slice(0, MAX_FAVORITE_TICKERS);
+  return parseSearchTickers(value, MAX_FAVORITE_TICKERS);
 }
 
 function mergeChartSymbols(primary = []) {
@@ -1461,7 +1541,7 @@ async function loadPersonalDashboard() {
 
 async function addWatchTicker() {
   const input = document.getElementById("watchSymbol");
-  const symbol = input.value.trim().toUpperCase();
+  const symbol = parseSearchTickers(input.value, 1)[0] || "";
   const watchHelp = document.getElementById("watchHelp");
 
   if (!symbol) return;
@@ -1501,17 +1581,58 @@ async function removeWatchTicker(symbol) {
   loadPersonalDashboard();
 }
 
+ensureHomeSearchUniverse().then(() => updateCompanyDetailLink());
 loadPersonalDashboard();
-updateCompanyDetailLink();
 </script>
 <script>
 (function () {
   const searchInput = document.getElementById("heroSearch");
   const searchBtn = document.getElementById("searchBtn");
-  if (!searchInput || !searchBtn) return;
+  const suggestionsEl = document.getElementById("heroSearchSuggestions");
+  const commodityRow = document.getElementById("heroCommodityRow");
+  if (!searchInput || !searchBtn || !suggestionsEl) return;
+
+  function getSuggestions(value) {
+    const query = normalizeSearchText(value);
+    if (!query || !HOME_SEARCH_UNIVERSE.length) return [];
+    return HOME_SEARCH_UNIVERSE
+      .filter((item) => {
+        const haystack = [
+          item.symbol,
+          item.name,
+          ...(item.aliases || []),
+          item.metal
+        ].map(normalizeSearchText);
+        return haystack.some((entry) => entry.includes(query));
+      })
+      .slice(0, 7);
+  }
+
+  function closeSuggestions() {
+    suggestionsEl.classList.remove("is-open");
+    suggestionsEl.innerHTML = "";
+  }
+
+  function openSuggestions(items) {
+    if (!items.length) {
+      closeSuggestions();
+      return;
+    }
+
+    suggestionsEl.innerHTML = items.map((item) => `
+      <button class="heroSuggestion" type="button" data-symbol="${item.symbol}">
+        <div class="heroSuggestionTop">
+          <span class="heroSuggestionTicker">${item.symbol}</span>
+          <span class="heroSuggestionMetal">${item.metal || "miner"}</span>
+        </div>
+        <div class="heroSuggestionName">${item.name}</div>
+      </button>
+    `).join("");
+    suggestionsEl.classList.add("is-open");
+  }
 
   function runSearch() {
-    const tickers = parseTickerList(searchInput.value);
+    const tickers = parseSearchTickers(searchInput.value);
     updateCompanyDetailLink(searchInput.value);
     if (!tickers.length) {
       const currentFavorites = window.MinerlyticsHomeTrend?.getActiveSymbols?.() || [];
@@ -1521,15 +1642,53 @@ updateCompanyDetailLink();
       return;
     }
     window.MinerlyticsHomeTrend?.loadSymbols(tickers);
+    closeSuggestions();
   }
 
+  suggestionsEl.addEventListener("click", (event) => {
+    const btn = event.target.closest("[data-symbol]");
+    if (!btn) return;
+    const symbol = String(btn.getAttribute("data-symbol") || "").trim().toUpperCase();
+    const match = HOME_SEARCH_UNIVERSE.find((item) => item.symbol === symbol);
+    searchInput.value = match ? `${match.symbol} — ${match.name}` : symbol;
+    updateCompanyDetailLink(symbol);
+    window.MinerlyticsHomeTrend?.loadSymbols([symbol]);
+    closeSuggestions();
+  });
+
   searchBtn.addEventListener("click", runSearch);
-  searchInput.addEventListener("input", () => updateCompanyDetailLink(searchInput.value));
+  searchInput.addEventListener("input", async () => {
+    await ensureHomeSearchUniverse();
+    updateCompanyDetailLink(searchInput.value);
+    openSuggestions(getSuggestions(searchInput.value));
+  });
   searchInput.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
       event.preventDefault();
       runSearch();
     }
+    if (event.key === "Escape") {
+      closeSuggestions();
+    }
+  });
+
+  document.addEventListener("click", (event) => {
+    if (event.target === searchInput || suggestionsEl.contains(event.target) || searchBtn.contains(event.target)) return;
+    closeSuggestions();
+  });
+
+  commodityRow?.addEventListener("click", async (event) => {
+    const chip = event.target.closest("[data-query]");
+    if (!chip) return;
+    await ensureHomeSearchUniverse();
+    const query = String(chip.getAttribute("data-query") || "").toLowerCase();
+    const metal = query.split(" ")[0];
+    const matches = HOME_SEARCH_UNIVERSE.filter((item) => item.metal === metal).slice(0, 5);
+    if (!matches.length) return;
+    searchInput.value = matches.map((item) => item.symbol).join(", ");
+    updateCompanyDetailLink(searchInput.value);
+    window.MinerlyticsHomeTrend?.loadSymbols(matches.map((item) => item.symbol));
+    openSuggestions(matches);
   });
 })();
 </script>
