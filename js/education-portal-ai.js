@@ -1,4 +1,4 @@
-const API_URL = "/api/education-portal-chat";
+const API_URL = "https://minerlytics-dev.lincbennette87.workers.dev/api/education-portal-chat";
 
 const chatWindow = document.getElementById("chatWindow");
 const chatForm = document.getElementById("chatForm");
