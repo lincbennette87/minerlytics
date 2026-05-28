@@ -55,11 +55,25 @@ input,button{font:inherit}
 
 .navLinks{display:flex;gap:16px;align-items:center}
 .navLink{
-  font-size:13px;color:var(--muted);
-  padding:8px 10px;border-radius:10px;
+  font-size:13px;
+  font-weight:800;
+  letter-spacing:.02em;
+  color:var(--muted);
+  padding:8px 10px;
+  border-radius:10px;
+  transition: color .2s ease, background .2s ease, border-color .2s ease, transform .2s ease;
 }
-.navLink:hover{background:rgba(255,255,255,.04);color:var(--text)}
-.navLink.isActive{color:var(--text); background:rgba(154,122,74,.12); border:1px solid rgba(154,122,74,.24)}
+.navLink:hover{
+  background:rgba(154,122,74,.08);
+  color:var(--warn);
+  border-color:rgba(154,122,74,.20);
+  transform:translateY(-1px);
+}
+.navLink.isActive{
+  color:#f1d7a7;
+  background:rgba(154,122,74,.12);
+  border:1px solid rgba(154,122,74,.24);
+}
 
 .navRight{display:flex;align-items:center;gap:10px}
 .navSearch{
