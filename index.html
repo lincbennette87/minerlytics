@@ -192,12 +192,12 @@
             </svg>
             <input id="heroSearch" type="search" placeholder="Search stocks, commodities, and more…" />
             <button id="searchBtn" class="btn btnPrimary btnTight" type="button">Search</button>
-            <button id="saveFavoriteBtn" class="btn btnGhost btnTight" type="button" style="display:none;">Save to Favorites</button>
+            <button id="saveFavoriteBtn" class="btn btnGhost btnTight" type="button">Save to Favorites</button>
             <div id="heroSearchSuggestions" class="heroSearchSuggestions" aria-live="polite"></div>
           </div>
           <div class="heroSearchAssist">
             <div class="heroSearchMeta">Search miners and related funds across gold, silver, copper, and diamond-related names by ticker or company name.</div>
-            <div id="favoriteSearchHint" class="heroSearchMeta" style="display:none;">Signed in users can save up to 5 favorite tickers from this search. The trend chart and research panels below will follow that list.</div>
+            <div id="favoriteSearchHint" class="heroSearchMeta">Sign in to save up to 5 favorite tickers from this search. Your trend chart and research panels below will follow that list.</div>
             <div class="heroCommodityRow" id="heroCommodityRow">
               <button class="heroCommodityChip" type="button" data-query="gold miners">Gold</button>
               <button class="heroCommodityChip" type="button" data-query="silver miners">Silver</button>
@@ -1498,17 +1498,29 @@ function updateCompanyDetailLink(value = "") {
   link.textContent = `Open ${ticker} company details`;
 }
 
+function updateFavoriteCtaState(savedCount = 0) {
+  const email = localStorage.getItem("minerlytics_user_email");
+  const saveFavoriteBtn = document.getElementById("saveFavoriteBtn");
+  const favoriteSearchHint = document.getElementById("favoriteSearchHint");
+  if (saveFavoriteBtn) {
+    saveFavoriteBtn.style.display = "inline-flex";
+    saveFavoriteBtn.textContent = email ? `Save to Favorites${savedCount ? ` (${savedCount}/${MAX_FAVORITE_TICKERS})` : ""}` : "Sign In to Save";
+  }
+  if (favoriteSearchHint) {
+    favoriteSearchHint.textContent = email
+      ? `${savedCount}/${MAX_FAVORITE_TICKERS} favorites saved. Search a ticker here, save it, and the chart and research panels below will follow your list.`
+      : "Sign in to save up to 5 favorite tickers from this search. Your trend chart and research panels below will follow that list.";
+  }
+}
+
 async function loadPersonalDashboard() {
   const email = localStorage.getItem("minerlytics_user_email");
   const box = document.getElementById("personalDashboard");
   const emailEl = document.getElementById("personalEmail");
   const watchlistBox = document.getElementById("watchlistBox");
   const watchHelp = document.getElementById("watchHelp");
-  const saveFavoriteBtn = document.getElementById("saveFavoriteBtn");
-  const favoriteSearchHint = document.getElementById("favoriteSearchHint");
 
-  if (saveFavoriteBtn) saveFavoriteBtn.style.display = email ? "inline-flex" : "none";
-  if (favoriteSearchHint) favoriteSearchHint.style.display = email ? "block" : "none";
+  updateFavoriteCtaState(0);
 
   if (!email || !box || !watchlistBox) return;
 
@@ -1522,6 +1534,7 @@ async function loadPersonalDashboard() {
 
   const items = data.watchlist || [];
   localStorage.setItem("minerlytics_watchlist", JSON.stringify(items));
+  updateFavoriteCtaState(items.length);
   if (watchHelp) {
     watchHelp.textContent = `${items.length}/${MAX_FAVORITE_TICKERS} favorite tickers saved. Your chart updates from this list.`;
   }
@@ -1582,6 +1595,8 @@ async function addFavoriteTickerBySymbol(symbol, watchHelpEl) {
   });
 
   await loadPersonalDashboard();
+  const items = JSON.parse(localStorage.getItem("minerlytics_watchlist") || "[]");
+  updateFavoriteCtaState(Array.isArray(items) ? items.length : 0);
   return true;
 }
 
@@ -1597,6 +1612,12 @@ async function removeWatchTicker(symbol) {
 }
 
 ensureHomeSearchUniverse().then(() => updateCompanyDetailLink());
+try {
+  const cachedWatchlist = JSON.parse(localStorage.getItem("minerlytics_watchlist") || "[]");
+  updateFavoriteCtaState(Array.isArray(cachedWatchlist) ? cachedWatchlist.length : 0);
+} catch {
+  updateFavoriteCtaState(0);
+}
 loadPersonalDashboard();
 </script>
 <script>
