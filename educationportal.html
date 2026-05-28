@@ -331,6 +331,24 @@
       justify-self: end;
     }
 
+    .assistantCard.is-expanded{
+      max-width: 560px;
+      width: 100%;
+    }
+
+    .assistantCard.is-modal{
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 12001;
+      width: min(92vw, 780px);
+      max-width: 780px;
+      max-height: min(88vh, 920px);
+      margin: 0;
+      box-shadow: 0 35px 120px rgba(0,0,0,.55);
+    }
+
     .assistantHeader{
       display:flex;
       align-items:flex-start;
@@ -359,6 +377,21 @@
       font-size: 12px;
       color: var(--muted);
       line-height: 1.45;
+    }
+
+    .assistantControls{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+      margin-bottom: 10px;
+    }
+
+    .btnTight{
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      line-height: 1;
     }
 
     .thinkingOrb{
@@ -502,6 +535,16 @@
       margin-top: 10px;
     }
 
+    .assistantCard.is-expanded .chatWindow{
+      min-height: 340px;
+      max-height: 460px;
+    }
+
+    .assistantCard.is-modal .chatWindow{
+      min-height: 360px;
+      max-height: min(50vh, 520px);
+    }
+
     .msg{
       max-width: 92%;
       padding: 10px 12px;
@@ -614,6 +657,18 @@
 
     .typing.show{ display:flex; }
 
+    body.ai-modal-open{
+      overflow: hidden;
+    }
+
+    .assistantModalBackdrop{
+      position: fixed;
+      inset: 0;
+      z-index: 12000;
+      background: rgba(6,8,10,.52);
+      backdrop-filter: blur(12px);
+    }
+
     .typingDots{
       display:flex;
       gap:5px;
@@ -645,6 +700,11 @@
         top: 0;
         max-width: 100%;
         justify-self: stretch;
+      }
+
+      .assistantCard.is-modal{
+        width: calc(100vw - 20px);
+        max-width: none;
       }
     }
 
@@ -899,6 +959,12 @@
           </div>
         </div>
 
+        <div class="assistantControls">
+          <button type="button" class="btn btnGhost btnTight" id="assistantExpandToggle" aria-pressed="false">Expand</button>
+          <button type="button" class="btn btnGhost btnTight" id="assistantPopoutToggle" aria-pressed="false">Pop Out</button>
+          <button type="button" class="btn btnGhost btnTight" id="clearBtnTop">Clear</button>
+        </div>
+
         <div class="chips">
           <button class="chip" type="button" data-prompt="Summarize the main lessons across the education transcripts.">Summarize lessons</button>
           <button class="chip" type="button" data-prompt="What are the biggest risks mining investors should watch for?">Mining risks</button>
@@ -946,6 +1012,8 @@ Examples:
       </aside>
     </section>
   </main>
+
+  <div id="assistantModalBackdrop" class="assistantModalBackdrop" hidden></div>
 
   <script>
 function applyMinerlyticsAiGate() {

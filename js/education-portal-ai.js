@@ -6,6 +6,11 @@ const chatInput = document.getElementById("chatInput");
 const sendBtn = document.getElementById("sendBtn");
 const followUpBtn = document.getElementById("followUpBtn");
 const clearBtn = document.getElementById("clearBtn");
+const clearBtnTop = document.getElementById("clearBtnTop");
+const expandBtn = document.getElementById("assistantExpandToggle");
+const popoutBtn = document.getElementById("assistantPopoutToggle");
+const modalBackdrop = document.getElementById("assistantModalBackdrop");
+const assistantCard = document.querySelector(".assistantCard");
 const typingIndicator = document.getElementById("typingIndicator");
 const thinkingOrb = document.getElementById("thinkingOrb");
 const assistantStateText = document.getElementById("assistantStateText");
@@ -13,9 +18,39 @@ const chips = document.querySelectorAll(".chip");
 
 let history = [];
 let lastUserQuestion = "";
+let isExpanded = false;
+let isModalOpen = false;
 
 function scrollToBottom() {
   chatWindow.scrollTop = chatWindow.scrollHeight;
+}
+
+function syncAssistantLayout() {
+  if (!assistantCard) return;
+  assistantCard.classList.toggle("is-expanded", isExpanded && !isModalOpen);
+  assistantCard.classList.toggle("is-modal", isModalOpen);
+  document.body.classList.toggle("ai-modal-open", isModalOpen);
+  if (modalBackdrop) modalBackdrop.hidden = !isModalOpen;
+  if (expandBtn) {
+    expandBtn.textContent = isExpanded ? "Normal Size" : "Expand";
+    expandBtn.setAttribute("aria-pressed", String(isExpanded));
+  }
+  if (popoutBtn) {
+    popoutBtn.textContent = isModalOpen ? "Close Pop Out" : "Pop Out";
+    popoutBtn.setAttribute("aria-pressed", String(isModalOpen));
+  }
+  requestAnimationFrame(scrollToBottom);
+}
+
+function toggleExpanded() {
+  isExpanded = !isExpanded;
+  syncAssistantLayout();
+}
+
+function togglePopout(forceValue) {
+  isModalOpen = typeof forceValue === "boolean" ? forceValue : !isModalOpen;
+  if (isModalOpen) isExpanded = true;
+  syncAssistantLayout();
 }
 
 function setThinking(isThinking) {
@@ -116,7 +151,7 @@ followUpBtn.addEventListener("click", async () => {
   await askAssistant(value, true);
 });
 
-clearBtn.addEventListener("click", () => {
+function clearAssistantChat() {
   history = [];
   lastUserQuestion = "";
   const messages = chatWindow.querySelectorAll(".msg");
@@ -128,7 +163,13 @@ clearBtn.addEventListener("click", () => {
   assistantStateText.textContent = "Ready";
   chatInput.value = "";
   scrollToBottom();
-});
+}
+
+clearBtn.addEventListener("click", clearAssistantChat);
+clearBtnTop?.addEventListener("click", clearAssistantChat);
+expandBtn?.addEventListener("click", toggleExpanded);
+popoutBtn?.addEventListener("click", () => togglePopout());
+modalBackdrop?.addEventListener("click", () => togglePopout(false));
 
 chips.forEach((chip) => {
   chip.addEventListener("click", async () => {
@@ -145,4 +186,11 @@ chatInput.addEventListener("keydown", async (e) => {
   }
 });
 
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && isModalOpen) {
+    togglePopout(false);
+  }
+});
+
+syncAssistantLayout();
 scrollToBottom();
