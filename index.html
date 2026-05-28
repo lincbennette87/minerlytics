@@ -1514,51 +1514,79 @@ function updateFavoriteCtaState(savedCount = 0) {
   }
 }
 
+function readCachedWatchlist() {
+  try {
+    const cached = JSON.parse(localStorage.getItem("minerlytics_watchlist") || "[]");
+    return Array.isArray(cached) ? cached : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeCachedWatchlist(items = []) {
+  localStorage.setItem("minerlytics_watchlist", JSON.stringify(Array.isArray(items) ? items : []));
+}
+
+function renderPersonalDashboardItems(items = []) {
+  const watchlistBox = document.getElementById("watchlistBox");
+  const watchHelp = document.getElementById("watchHelp");
+  if (!watchlistBox) return;
+
+  const normalizedItems = (Array.isArray(items) ? items : [])
+    .map((item) => {
+      const symbol = String(item?.symbol || item || "").toUpperCase().trim();
+      return symbol ? { symbol } : null;
+    })
+    .filter(Boolean)
+    .slice(0, MAX_FAVORITE_TICKERS);
+
+  updateFavoriteCtaState(normalizedItems.length);
+  if (watchHelp) {
+    watchHelp.textContent = `${normalizedItems.length}/${MAX_FAVORITE_TICKERS} favorite tickers saved. Your chart updates from this list.`;
+  }
+
+  if (normalizedItems.length) {
+    watchlistBox.innerHTML = normalizedItems.map(item => `
+      <div data-symbol="${item.symbol}" style="display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);">
+        <a href="./company.html?ticker=${encodeURIComponent(item.symbol)}" style="font-weight:700;text-decoration:none;color:var(--text);">${item.symbol}</a>
+        <button onclick="removeWatchTicker('${item.symbol}')" style="border:0;background:transparent;color:#d7c09a;cursor:pointer;font-size:16px;">×</button>
+      </div>
+    `).join("");
+    window.MinerlyticsHomeTrend?.loadSymbols(mergeChartSymbols(normalizedItems.map((item) => item.symbol)));
+    return;
+  }
+
+  watchlistBox.innerHTML = `
+    <span style="color:rgba(234,240,255,.7);font-size:13px;">
+      No saved tickers yet. Add up to 5 favorites.
+    </span>
+  `;
+}
+
 async function loadPersonalDashboard() {
   const email = localStorage.getItem("minerlytics_user_email");
   const box = document.getElementById("personalDashboard");
   const emailEl = document.getElementById("personalEmail");
-  const watchlistBox = document.getElementById("watchlistBox");
-  const watchHelp = document.getElementById("watchHelp");
 
   updateFavoriteCtaState(0);
 
-  if (!email || !box || !watchlistBox) return;
+  if (!email || !box) return;
 
   box.style.display = "block";
   emailEl.textContent = getCachedDisplayName();
+  renderPersonalDashboardItems(readCachedWatchlist());
 
-  const res = await fetch(API_BASE + "/api/watchlist", {
-    credentials: "include"
-  });
-  const data = await res.json();
-
-  const items = data.watchlist || [];
-  localStorage.setItem("minerlytics_watchlist", JSON.stringify(items));
-  updateFavoriteCtaState(items.length);
-  if (watchHelp) {
-    watchHelp.textContent = `${items.length}/${MAX_FAVORITE_TICKERS} favorite tickers saved. Your chart updates from this list.`;
+  try {
+    const res = await fetch(API_BASE + "/api/watchlist", {
+      credentials: "include"
+    });
+    const data = await res.json().catch(() => ({ watchlist: [] }));
+    const items = Array.isArray(data.watchlist) ? data.watchlist : [];
+    writeCachedWatchlist(items);
+    renderPersonalDashboardItems(items);
+  } catch (error) {
+    console.warn("PERSONAL DASHBOARD LOAD ERROR:", error);
   }
-
-  if (items.length) {
-    window.MinerlyticsHomeTrend?.loadSymbols(mergeChartSymbols(items.map((item) => item.symbol)));
-  }
-
-  if (!items.length) {
-    watchlistBox.innerHTML = `
-      <span style="color:rgba(234,240,255,.7);font-size:13px;">
-        No saved tickers yet. Add up to 5 favorites.
-      </span>
-    `;
-    return;
-  }
-
-  watchlistBox.innerHTML = items.map(item => `
-    <div data-symbol="${item.symbol}" style="display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);">
-      <a href="./company.html?ticker=${encodeURIComponent(item.symbol)}" style="font-weight:700;text-decoration:none;color:var(--text);">${item.symbol}</a>
-      <button onclick="removeWatchTicker('${item.symbol}')" style="border:0;background:transparent;color:#d7c09a;cursor:pointer;font-size:16px;">×</button>
-    </div>
-  `).join("");
 }
 
 async function addWatchTicker() {
@@ -1575,11 +1603,9 @@ async function addFavoriteTickerBySymbol(symbol, watchHelpEl) {
   const normalized = String(symbol || "").toUpperCase().trim();
   if (!normalized) return false;
 
-  const currentRes = await fetch(API_BASE + "/api/watchlist", {
-    credentials: "include"
-  });
-  const currentData = await currentRes.json().catch(() => ({ watchlist: [] }));
-  const currentItems = Array.isArray(currentData.watchlist) ? currentData.watchlist : [];
+  const currentItems = readCachedWatchlist().map((item) => ({
+    symbol: String(item?.symbol || item || "").toUpperCase().trim()
+  })).filter((item) => item.symbol);
 
   if (currentItems.length >= MAX_FAVORITE_TICKERS && !currentItems.some((item) => item.symbol === normalized)) {
     if (watchHelpEl) {
@@ -1588,28 +1614,41 @@ async function addFavoriteTickerBySymbol(symbol, watchHelpEl) {
     return false;
   }
 
-  await fetch(API_BASE + "/api/watchlist/add", {
+  const nextItems = currentItems.some((item) => item.symbol === normalized)
+    ? currentItems
+    : [...currentItems, { symbol: normalized }].slice(0, MAX_FAVORITE_TICKERS);
+
+  writeCachedWatchlist(nextItems);
+  const box = document.getElementById("personalDashboard");
+  if (box) box.style.display = "block";
+  renderPersonalDashboardItems(nextItems);
+
+  fetch(API_BASE + "/api/watchlist/add", {
     method: "POST",
     credentials: "include",
     headers: { "content-type": "application/json" },
     body: JSON.stringify({ symbol: normalized })
-  });
+  })
+    .then(() => loadPersonalDashboard())
+    .catch((error) => console.warn("WATCHLIST ADD ERROR:", error));
 
-  await loadPersonalDashboard();
-  const items = JSON.parse(localStorage.getItem("minerlytics_watchlist") || "[]");
-  updateFavoriteCtaState(Array.isArray(items) ? items.length : 0);
   return true;
 }
 
 async function removeWatchTicker(symbol) {
-  await fetch(API_BASE + "/api/watchlist/remove", {
+  const normalized = String(symbol || "").toUpperCase().trim();
+  const nextItems = readCachedWatchlist().filter((item) => String(item?.symbol || item || "").toUpperCase().trim() !== normalized);
+  writeCachedWatchlist(nextItems);
+  renderPersonalDashboardItems(nextItems);
+
+  fetch(API_BASE + "/api/watchlist/remove", {
     method: "POST",
     credentials: "include",
     headers: { "content-type": "application/json" },
-    body: JSON.stringify({ symbol })
-  });
-
-  loadPersonalDashboard();
+    body: JSON.stringify({ symbol: normalized })
+  })
+    .then(() => loadPersonalDashboard())
+    .catch((error) => console.warn("WATCHLIST REMOVE ERROR:", error));
 }
 
 ensureHomeSearchUniverse().then(() => updateCompanyDetailLink());
