@@ -183,6 +183,7 @@
           <div class="heroSearchAssist">
             <div class="heroSearchMeta">Search miners and related funds across gold, silver, copper, and diamond-related names by ticker or company name.</div>
             <div id="favoriteSearchHint" class="heroSearchMeta">Sign in to save up to 5 favorite tickers from this search. Your trend chart and research panels below will follow that list.</div>
+            <div id="favoriteActionStatus" class="heroSearchStatus"></div>
             <div class="heroCommodityRow" id="heroCommodityRow">
               <button class="heroCommodityChip" type="button" data-query="gold miners">Gold</button>
               <button class="heroCommodityChip" type="button" data-query="silver miners">Silver</button>
@@ -1514,6 +1515,17 @@ function updateFavoriteCtaState(savedCount = 0) {
   }
 }
 
+function setFavoriteActionStatus(message = "", tone = "info") {
+  const el = document.getElementById("favoriteActionStatus");
+  if (!el) return;
+  el.textContent = message;
+  el.style.color = tone === "error"
+    ? "#ffb3be"
+    : tone === "success"
+      ? "#9ed9af"
+      : "#d7c09a";
+}
+
 function readCachedWatchlist() {
   try {
     const cached = JSON.parse(localStorage.getItem("minerlytics_watchlist") || "[]");
@@ -1611,6 +1623,7 @@ async function addFavoriteTickerBySymbol(symbol, watchHelpEl) {
     if (watchHelpEl) {
       watchHelpEl.textContent = `You can save up to ${MAX_FAVORITE_TICKERS} favorite tickers. Remove one to add another.`;
     }
+    setFavoriteActionStatus(`You already have ${MAX_FAVORITE_TICKERS} favorites saved. Remove one to add ${normalized}.`, "error");
     return false;
   }
 
@@ -1622,6 +1635,7 @@ async function addFavoriteTickerBySymbol(symbol, watchHelpEl) {
   const box = document.getElementById("personalDashboard");
   if (box) box.style.display = "block";
   renderPersonalDashboardItems(nextItems);
+  setFavoriteActionStatus(`${normalized} was added to your favorites.`, "success");
 
   fetch(API_BASE + "/api/watchlist/add", {
     method: "POST",
@@ -1725,11 +1739,15 @@ loadPersonalDashboard();
   async function saveCurrentSearchToFavorites() {
     const email = localStorage.getItem("minerlytics_user_email");
     if (!email) {
+      setFavoriteActionStatus("Sign in first to save favorite tickers.", "error");
       window.location.href = "./login.html";
       return;
     }
     const symbol = parseSearchTickers(searchInput.value, 1)[0] || "";
-    if (!symbol) return;
+    if (!symbol) {
+      setFavoriteActionStatus("Search or select a ticker first, then save it to favorites.", "error");
+      return;
+    }
     const saved = await addFavoriteTickerBySymbol(symbol, document.getElementById("watchHelp"));
     if (saved) {
       searchInput.value = symbol;
@@ -1752,6 +1770,7 @@ loadPersonalDashboard();
   searchBtn.addEventListener("click", runSearch);
   saveFavoriteBtn?.addEventListener("click", saveCurrentSearchToFavorites);
   searchInput.addEventListener("input", async () => {
+    setFavoriteActionStatus("");
     await ensureHomeSearchUniverse();
     updateCompanyDetailLink(searchInput.value);
     openSuggestions(getSuggestions(searchInput.value));
