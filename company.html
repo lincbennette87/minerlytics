@@ -310,7 +310,7 @@
   <script>
   (function () {
     const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
-    const FEATURED_COMPANY_TICKERS = ["WPM", "CDE", "AEM", "GOLD", "FCX", "SCCO", "LUCRF", "HYMC", "GFI", "PAAS"];
+    const FEATURED_COMPANY_TICKERS = ["WPM", "CDE", "AEM", "GFI", "HL", "HYMC", "PZG", "PSLV", "SIVR", "SLV"];
 
     function pickFeaturedTicker() {
       try {
@@ -336,6 +336,12 @@
     let cachedPoints = [];
 
     const $ = (id) => document.getElementById(id);
+    const isLocalFile = window.location.protocol === "file:";
+
+    function dataUrl(path) {
+      const clean = String(path || "").replace(/^\/+/, "");
+      return isLocalFile ? `./public/${clean}` : `/${clean}`;
+    }
 
     function fmtCurrency(value) {
       const num = Number(value);
@@ -584,10 +590,10 @@
       try {
         const [detail, companyMeta, fundamentals, balanceSheets, legacyBalanceSheets] = await Promise.all([
           fetchJson(`${API_BASE}/api/company-detail?ticker=${encodeURIComponent(ticker)}`),
-          fetchJson(`/data/company_meta.json`).catch(() => []),
-          fetchJson(`/data/fundamentals_latest.json`).catch(() => []),
-          fetchJson(`/data/detailed_balance_sheets.json`).catch(() => []),
-          fetchJson(`/data/balance_sheets.json`).catch(() => []),
+          fetchJson(dataUrl("data/company_meta.json")).catch(() => []),
+          fetchJson(dataUrl("data/fundamentals_latest.json")).catch(() => []),
+          fetchJson(dataUrl("data/detailed_balance_sheets.json")).catch(() => []),
+          fetchJson(dataUrl("data/balance_sheets.json")).catch(() => []),
         ]);
 
         const meta = findByTicker(companyMeta) || {};
@@ -683,7 +689,7 @@
           "finSnapshotNote",
           latestSnapshotFact
             ? `Snapshot reflects the latest filed values we have for ${detail.ticker}. Most recent financial point: ${fmtFactMeta(latestSnapshotFact)}.`
-            : `No structured financial snapshot is available for ${detail.ticker} yet.`
+            : `No structured financial snapshot is available for ${detail.ticker} yet in the current local dataset. Covered names right now include WPM, CDE, AEM, GFI, HL, HYMC, PZG, PSLV, SIVR, and SLV.`
         );
         renderFinancialHighlights([
           {
@@ -738,7 +744,7 @@
         setText("companyDescription", "The company detail page could not load its current data. Please try again after the latest deployment finishes.");
         setText("chartStatus", "Could not load market data");
         setText("chartPerf", "—");
-        setText("finSnapshotNote", "Could not load ticker financials.");
+        setText("finSnapshotNote", isLocalFile ? "Could not load local ticker financial files. Open the site through your deployed Cloudflare domain or keep the page in local mode with the repo's /public/data files present." : "Could not load ticker financials.");
       }
     }
 
