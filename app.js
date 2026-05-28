@@ -35,6 +35,11 @@ let tickerItems = [
   { text: "Loading latest RSS headlines across your miner universe...", href: "#" },
 ];
 
+function setActiveUniverseSymbols(symbols = []) {
+  const next = Array.from(new Set((symbols || []).map((item) => String(item || "").toUpperCase().trim()).filter(Boolean))).slice(0, 5);
+  NEWS_TICKERS = next.length ? next : ["WPM", "CDE", "HYMC", "GFI", "AEM"];
+}
+
 /* ============ Universe Loader ============ */
 /**
  * Make sure universe.json is served from /public/universe.json
@@ -316,6 +321,14 @@ wireSegButtons();
 spark("goldChart");
 spark("silverChart");
 spark("copperChart");
+
+window.addEventListener("minerlytics:trend-symbols", (event) => {
+  const symbols = Array.isArray(event?.detail?.symbols) ? event.detail.symbols : [];
+  setActiveUniverseSymbols(symbols);
+  refreshQuoteCards(NEWS_TICKERS);
+  refreshLatestTickerFeed();
+  refreshTrendingNews();
+});
 
 // Load tickers from universe.json, then start real-time trending refresh
 (async () => {

@@ -192,10 +192,12 @@
             </svg>
             <input id="heroSearch" type="search" placeholder="Search stocks, commodities, and more…" />
             <button id="searchBtn" class="btn btnPrimary btnTight" type="button">Search</button>
+            <button id="saveFavoriteBtn" class="btn btnGhost btnTight" type="button" style="display:none;">Save to Favorites</button>
             <div id="heroSearchSuggestions" class="heroSearchSuggestions" aria-live="polite"></div>
           </div>
           <div class="heroSearchAssist">
             <div class="heroSearchMeta">Search miners and related funds across gold, silver, copper, and diamond-related names by ticker or company name.</div>
+            <div id="favoriteSearchHint" class="heroSearchMeta" style="display:none;">Signed in users can save up to 5 favorite tickers from this search. The trend chart and research panels below will follow that list.</div>
             <div class="heroCommodityRow" id="heroCommodityRow">
               <button class="heroCommodityChip" type="button" data-query="gold miners">Gold</button>
               <button class="heroCommodityChip" type="button" data-query="silver miners">Silver</button>
@@ -1477,7 +1479,8 @@ function parseTickerList(value) {
 }
 
 function mergeChartSymbols(primary = []) {
-  return Array.from(new Set([...(primary || []), ...DEFAULT_HOME_SYMBOLS])).slice(0, 5);
+  const cleanPrimary = Array.from(new Set((primary || []).map((item) => String(item || "").toUpperCase().trim()).filter(Boolean))).slice(0, MAX_FAVORITE_TICKERS);
+  return cleanPrimary.length ? cleanPrimary : DEFAULT_HOME_SYMBOLS.slice(0, MAX_FAVORITE_TICKERS);
 }
 
 function resolveDetailTicker(value) {
@@ -1501,6 +1504,11 @@ async function loadPersonalDashboard() {
   const emailEl = document.getElementById("personalEmail");
   const watchlistBox = document.getElementById("watchlistBox");
   const watchHelp = document.getElementById("watchHelp");
+  const saveFavoriteBtn = document.getElementById("saveFavoriteBtn");
+  const favoriteSearchHint = document.getElementById("favoriteSearchHint");
+
+  if (saveFavoriteBtn) saveFavoriteBtn.style.display = email ? "inline-flex" : "none";
+  if (favoriteSearchHint) favoriteSearchHint.style.display = email ? "block" : "none";
 
   if (!email || !box || !watchlistBox) return;
 
@@ -1545,6 +1553,13 @@ async function addWatchTicker() {
   const watchHelp = document.getElementById("watchHelp");
 
   if (!symbol) return;
+  await addFavoriteTickerBySymbol(symbol, watchHelp);
+  input.value = "";
+}
+
+async function addFavoriteTickerBySymbol(symbol, watchHelpEl) {
+  const normalized = String(symbol || "").toUpperCase().trim();
+  if (!normalized) return false;
 
   const currentRes = await fetch(API_BASE + "/api/watchlist", {
     credentials: "include"
@@ -1552,22 +1567,22 @@ async function addWatchTicker() {
   const currentData = await currentRes.json().catch(() => ({ watchlist: [] }));
   const currentItems = Array.isArray(currentData.watchlist) ? currentData.watchlist : [];
 
-  if (currentItems.length >= MAX_FAVORITE_TICKERS && !currentItems.some((item) => item.symbol === symbol)) {
-    if (watchHelp) {
-      watchHelp.textContent = `You can save up to ${MAX_FAVORITE_TICKERS} favorite tickers. Remove one to add another.`;
+  if (currentItems.length >= MAX_FAVORITE_TICKERS && !currentItems.some((item) => item.symbol === normalized)) {
+    if (watchHelpEl) {
+      watchHelpEl.textContent = `You can save up to ${MAX_FAVORITE_TICKERS} favorite tickers. Remove one to add another.`;
     }
-    return;
+    return false;
   }
 
   await fetch(API_BASE + "/api/watchlist/add", {
     method: "POST",
     credentials: "include",
     headers: { "content-type": "application/json" },
-    body: JSON.stringify({ symbol })
+    body: JSON.stringify({ symbol: normalized })
   });
 
-  input.value = "";
-  loadPersonalDashboard();
+  await loadPersonalDashboard();
+  return true;
 }
 
 async function removeWatchTicker(symbol) {
@@ -1588,6 +1603,7 @@ loadPersonalDashboard();
 (function () {
   const searchInput = document.getElementById("heroSearch");
   const searchBtn = document.getElementById("searchBtn");
+  const saveFavoriteBtn = document.getElementById("saveFavoriteBtn");
   const suggestionsEl = document.getElementById("heroSearchSuggestions");
   const commodityRow = document.getElementById("heroCommodityRow");
   if (!searchInput || !searchBtn || !suggestionsEl) return;
@@ -1645,6 +1661,22 @@ loadPersonalDashboard();
     closeSuggestions();
   }
 
+  async function saveCurrentSearchToFavorites() {
+    const email = localStorage.getItem("minerlytics_user_email");
+    if (!email) {
+      window.location.href = "./login.html";
+      return;
+    }
+    const symbol = parseSearchTickers(searchInput.value, 1)[0] || "";
+    if (!symbol) return;
+    const saved = await addFavoriteTickerBySymbol(symbol, document.getElementById("watchHelp"));
+    if (saved) {
+      searchInput.value = symbol;
+      updateCompanyDetailLink(symbol);
+      window.MinerlyticsHomeTrend?.loadSymbols(getFavoriteTickers());
+    }
+  }
+
   suggestionsEl.addEventListener("click", (event) => {
     const btn = event.target.closest("[data-symbol]");
     if (!btn) return;
@@ -1657,6 +1689,7 @@ loadPersonalDashboard();
   });
 
   searchBtn.addEventListener("click", runSearch);
+  saveFavoriteBtn?.addEventListener("click", saveCurrentSearchToFavorites);
   searchInput.addEventListener("input", async () => {
     await ensureHomeSearchUniverse();
     updateCompanyDetailLink(searchInput.value);
