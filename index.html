@@ -1440,24 +1440,10 @@ function resolveUniverseEntry(term = "") {
 }
 
 function parseSearchTickers(value, max = MAX_FAVORITE_TICKERS) {
-  const raw = String(value || "").trim();
-  if (!raw) return [];
-  const lowered = raw.toLowerCase();
-  const commodityMap = ["gold", "silver", "copper", "diamond"];
-  const commodityMatch = commodityMap.find((metal) => lowered === metal || lowered === `${metal} miners` || lowered === `${metal} mining`);
-  if (commodityMatch) {
-    return HOME_SEARCH_UNIVERSE
-      .filter((item) => item.metal === commodityMatch)
-      .slice(0, max)
-      .map((item) => item.symbol);
-  }
-
-  const exactEntry = resolveUniverseEntry(raw);
-  if (exactEntry?.symbol) return [exactEntry.symbol].slice(0, max);
-
-  const terms = raw.includes(",") || raw.includes("\n")
-    ? raw.split(/[,\n]+/).map((item) => item.trim()).filter(Boolean)
-    : [raw];
+  const terms = String(value || "")
+    .split(/[,\n]+/)
+    .map((item) => item.trim())
+    .filter(Boolean);
 
   const resolved = [];
   for (const term of terms) {
@@ -1467,11 +1453,11 @@ function parseSearchTickers(value, max = MAX_FAVORITE_TICKERS) {
       continue;
     }
 
-    const fallbackTickers = term
+    const fallbackTicker = term
       .split(/\s+/)
       .map((item) => item.trim().toUpperCase())
-      .filter((item) => /^[A-Z]{1,6}$/.test(item));
-    if (fallbackTickers.length) resolved.push(...fallbackTickers);
+      .find((item) => /^[A-Z]{1,6}$/.test(item));
+    if (fallbackTicker) resolved.push(fallbackTicker);
   }
 
   return Array.from(new Set(resolved)).slice(0, max);
@@ -1605,7 +1591,6 @@ loadPersonalDashboard();
   const suggestionsEl = document.getElementById("heroSearchSuggestions");
   const commodityRow = document.getElementById("heroCommodityRow");
   if (!searchInput || !searchBtn || !suggestionsEl) return;
-  let liveSearchTimer = null;
 
   function getSuggestions(value) {
     const query = normalizeSearchText(value);
@@ -1675,15 +1660,7 @@ loadPersonalDashboard();
   searchInput.addEventListener("input", async () => {
     await ensureHomeSearchUniverse();
     updateCompanyDetailLink(searchInput.value);
-    const suggestions = getSuggestions(searchInput.value);
-    openSuggestions(suggestions);
-
-    if (liveSearchTimer) window.clearTimeout(liveSearchTimer);
-    liveSearchTimer = window.setTimeout(() => {
-      const tickers = parseSearchTickers(searchInput.value);
-      if (!tickers.length) return;
-      window.MinerlyticsHomeTrend?.loadSymbols(tickers);
-    }, 180);
+    openSuggestions(getSuggestions(searchInput.value));
   });
   searchInput.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
