@@ -261,6 +261,8 @@
             <div class="mini-sub" id="finSharesMeta">—</div>
           </div>
         </div>
+        <div class="mini-sub" id="finSnapshotNote" style="margin-top:14px;">Loading ticker financials…</div>
+        <div class="detail-list" id="finDetailList" style="margin-top:14px;"></div>
       </div>
     </section>
 
@@ -378,6 +380,13 @@
       return Array.isArray(items)
         ? items.find((item) => String(item?.[key] || "").toUpperCase() === ticker)
         : null;
+    }
+
+    function firstDefined(...values) {
+      for (const value of values) {
+        if (value !== undefined && value !== null && value !== "") return value;
+      }
+      return null;
     }
 
     function setText(id, value) {
@@ -512,20 +521,133 @@
       setText(metaValueId, value?.filed ? `${value.form || "Filed"} • ${value.filed}` : "Not available");
     }
 
+    function getFactDate(fact = {}) {
+      return firstDefined(fact.filed, fact.end, fact.asOf, fact.extractedAt, "");
+    }
+
+    function factRank(fact = {}) {
+      const stamp = Date.parse(getFactDate(fact)) || 0;
+      const year = Number(fact.fy) || 0;
+      return stamp || year;
+    }
+
+    function chooseLatestFact(...facts) {
+      return facts
+        .flat()
+        .filter((fact) => fact && Number.isFinite(Number(firstDefined(fact.val, fact.value))))
+        .sort((a, b) => factRank(b) - factRank(a))[0] || null;
+    }
+
+    function getBalanceFact(balanceSheet, legacyBalanceSheet, keys = [], legacyKeys = []) {
+      const modernMatches = keys.map((key) => balanceSheet?.[key]).filter(Boolean);
+      const legacyMatches = legacyKeys.map((key) => legacyBalanceSheet?.[key]).filter(Boolean);
+      return chooseLatestFact(modernMatches, legacyMatches);
+    }
+
+    function fmtFactMeta(fact) {
+      if (!fact) return "Not available";
+      const form = firstDefined(fact.form, "Filed");
+      const period = firstDefined(fact.fp, fact.end);
+      const filed = firstDefined(fact.filed, fact.end);
+      return [form, period, filed].filter(Boolean).join(" • ");
+    }
+
+    function renderFinancialFact(valueId, metaValueId, fact, formatter = fmtCurrency) {
+      const raw = firstDefined(fact?.val, fact?.value);
+      setText(valueId, raw !== null ? formatter(raw) : "Not available");
+      setText(metaValueId, fmtFactMeta(fact));
+    }
+
+    function renderFinancialHighlights(items = []) {
+      const target = $("finDetailList");
+      if (!target) return;
+      const usable = items.filter((item) => Number.isFinite(Number(firstDefined(item?.fact?.val, item?.fact?.value))));
+      if (!usable.length) {
+        target.innerHTML = `<div class="detail-item"><div class="detail-title">No additional filed financial details are available for this ticker yet.</div><div class="detail-meta">Try another covered miner like WPM, CDE, AEM, GFI, HL, or HYMC.</div></div>`;
+        return;
+      }
+
+      target.innerHTML = usable.map((item) => {
+        const value = firstDefined(item.fact?.val, item.fact?.value);
+        const pretty = item.formatter === fmtNumber ? fmtNumber(value) : item.formatter === String ? String(value) : fmtCurrency(value);
+        return `
+          <div class="detail-item">
+            <div class="detail-title">${item.label}: ${pretty}</div>
+            <div class="detail-meta">${fmtFactMeta(item.fact)}</div>
+            <div class="detail-text">${item.description}</div>
+          </div>
+        `;
+      }).join("");
+    }
+
     async function loadPage() {
       try {
-        const [detail, companyMeta, fundamentals, balanceSheets] = await Promise.all([
+        const [detail, companyMeta, fundamentals, balanceSheets, legacyBalanceSheets] = await Promise.all([
           fetchJson(`${API_BASE}/api/company-detail?ticker=${encodeURIComponent(ticker)}`),
           fetchJson(`/data/company_meta.json`).catch(() => []),
           fetchJson(`/data/fundamentals_latest.json`).catch(() => []),
           fetchJson(`/data/detailed_balance_sheets.json`).catch(() => []),
+          fetchJson(`/data/balance_sheets.json`).catch(() => []),
         ]);
 
         const meta = findByTicker(companyMeta) || {};
         const fundamental = findByTicker(fundamentals) || {};
         const balance = findByTicker(balanceSheets) || {};
+        const legacyBalance = findByTicker(legacyBalanceSheets) || {};
+        const balanceSheet = balance.balanceSheet || {};
+        const legacySheet = legacyBalance.balanceSheet || {};
         const market = detail.market || {};
         const latestPoint = Array.isArray(market.points) && market.points.length ? market.points[market.points.length - 1] : null;
+
+        const revenueFact = chooseLatestFact(fundamental.revenue);
+        const netIncomeFact = chooseLatestFact(fundamental.netIncome);
+        const assetsFact = chooseLatestFact(
+          fundamental.assets,
+          getBalanceFact(balanceSheet, legacySheet, ["assets", "total_assets"], ["Total Assets"])
+        );
+        const liabilitiesFact = chooseLatestFact(
+          fundamental.liabilities,
+          getBalanceFact(balanceSheet, legacySheet, ["liabilities", "total_liabilities"], ["Total Liabilities"])
+        );
+        const cashFact = getBalanceFact(
+          balanceSheet,
+          legacySheet,
+          ["cash_and_cash_equivalents"],
+          ["Cash & Equivalents"]
+        );
+        const equityFact = getBalanceFact(
+          balanceSheet,
+          legacySheet,
+          ["total_stockholders_equity", "stockholders_equity", "equity"],
+          ["Stockholders Equity"]
+        );
+        const epsFact = chooseLatestFact(fundamental.epsDiluted, fundamental.epsBasic);
+        const sharesFact = chooseLatestFact(fundamental.sharesOutstanding);
+        const currentAssetsFact = getBalanceFact(
+          balanceSheet,
+          legacySheet,
+          ["current_assets", "total_current_assets"],
+          ["Current Assets"]
+        );
+        const currentLiabilitiesFact = getBalanceFact(
+          balanceSheet,
+          legacySheet,
+          ["current_liabilities", "total_current_liabilities"],
+          ["Current Liabilities"]
+        );
+        const propertyFact = getBalanceFact(
+          balanceSheet,
+          legacySheet,
+          ["property_and_equipment"],
+          []
+        );
+        const retainedFact = getBalanceFact(
+          balanceSheet,
+          legacySheet,
+          ["retained_earnings", "retained_earnings_accumulated_deficit"],
+          ["Retained Earnings / Deficit"]
+        );
+        const cashFlowOpsFact = chooseLatestFact(fundamental.cashFlowOps);
 
         document.title = `Minerlytics AI — ${detail.ticker} Company Details`;
         setText("companyTicker", detail.ticker);
@@ -546,18 +668,50 @@
         setText("chartStatus", latestPoint ? `Latest data point: ${latestPoint.date || "recent"}` : "No market history available");
         setText("chartPerf", Number.isFinite(market.perf_180d?.change_pct) ? `6M: ${fmtPct(market.perf_180d.change_pct)} • 30D: ${fmtPct(market.perf_30d?.change_pct)}` : "Trend performance not available");
 
-        fillFinancialCard(fundamental.revenue, "finRevenueMeta", "finRevenue");
-        fillFinancialCard(fundamental.netIncome, "finNetIncomeMeta", "finNetIncome");
-        fillFinancialCard(fundamental.assets, "finAssetsMeta", "finAssets");
-        fillFinancialCard(fundamental.liabilities, "finLiabilitiesMeta", "finLiabilities");
-        setText("finEps", fundamental.epsDiluted?.val !== undefined ? String(fundamental.epsDiluted.val) : "Not available");
-        setText("finEpsMeta", fundamental.epsDiluted?.filed ? `${fundamental.epsDiluted.form || "Filed"} • ${fundamental.epsDiluted.filed}` : "Not available");
-        setText("finShares", fundamental.sharesOutstanding?.val !== undefined ? fmtNumber(fundamental.sharesOutstanding.val) : "Not available");
-        setText("finSharesMeta", fundamental.sharesOutstanding?.filed ? `${fundamental.sharesOutstanding.form || "Filed"} • ${fundamental.sharesOutstanding.filed}` : "Not available");
-        setText("finCash", balance.balanceSheet?.cash_and_cash_equivalents?.value !== undefined ? fmtCurrency(balance.balanceSheet.cash_and_cash_equivalents.value) : "Not available");
-        setText("finCashMeta", balance.balanceSheet?.cash_and_cash_equivalents?.filed ? `${balance.balanceSheet.cash_and_cash_equivalents.form || "Filed"} • ${balance.balanceSheet.cash_and_cash_equivalents.filed}` : "Not available");
-        setText("finEquity", balance.balanceSheet?.total_stockholders_equity?.value !== undefined ? fmtCurrency(balance.balanceSheet.total_stockholders_equity.value) : "Not available");
-        setText("finEquityMeta", balance.balanceSheet?.total_stockholders_equity?.filed ? `${balance.balanceSheet.total_stockholders_equity.form || "Filed"} • ${balance.balanceSheet.total_stockholders_equity.filed}` : "Not available");
+        renderFinancialFact("finRevenue", "finRevenueMeta", revenueFact);
+        renderFinancialFact("finNetIncome", "finNetIncomeMeta", netIncomeFact);
+        renderFinancialFact("finAssets", "finAssetsMeta", assetsFact);
+        renderFinancialFact("finLiabilities", "finLiabilitiesMeta", liabilitiesFact);
+        renderFinancialFact("finCash", "finCashMeta", cashFact);
+        renderFinancialFact("finEquity", "finEquityMeta", equityFact);
+        renderFinancialFact("finEps", "finEpsMeta", epsFact, (value) => String(Number(value)));
+        renderFinancialFact("finShares", "finSharesMeta", sharesFact, fmtNumber);
+
+        const snapshotFacts = [revenueFact, netIncomeFact, assetsFact, liabilitiesFact, cashFact, equityFact, epsFact, sharesFact].filter(Boolean);
+        const latestSnapshotFact = snapshotFacts.sort((a, b) => factRank(b) - factRank(a))[0] || null;
+        setText(
+          "finSnapshotNote",
+          latestSnapshotFact
+            ? `Snapshot reflects the latest filed values we have for ${detail.ticker}. Most recent financial point: ${fmtFactMeta(latestSnapshotFact)}.`
+            : `No structured financial snapshot is available for ${detail.ticker} yet.`
+        );
+        renderFinancialHighlights([
+          {
+            label: "Current Assets",
+            fact: currentAssetsFact,
+            description: "Short-term assets available to support operations, working capital, and near-term mine development."
+          },
+          {
+            label: "Current Liabilities",
+            fact: currentLiabilitiesFact,
+            description: "Near-term obligations that can pressure liquidity if they rise faster than current assets."
+          },
+          {
+            label: "Operating Cash Flow",
+            fact: cashFlowOpsFact,
+            description: "Cash generated from core operations, useful for judging whether the mine base is funding itself."
+          },
+          {
+            label: "Property & Equipment",
+            fact: propertyFact,
+            description: "A proxy for the carrying value of mines, plants, and related infrastructure on the balance sheet."
+          },
+          {
+            label: "Retained Earnings / Deficit",
+            fact: retainedFact,
+            description: "Shows how much profit has accumulated over time, or whether losses have built into a deficit."
+          }
+        ]);
 
         setHtml("productionSummary", formatSectionText(detail.ai_sections?.ounces_produced_past_quarter || "Not available."));
         setHtml("mineDetails", formatSectionText(detail.ai_sections?.mine_details || "Not available."));
@@ -584,6 +738,7 @@
         setText("companyDescription", "The company detail page could not load its current data. Please try again after the latest deployment finishes.");
         setText("chartStatus", "Could not load market data");
         setText("chartPerf", "—");
+        setText("finSnapshotNote", "Could not load ticker financials.");
       }
     }
 
