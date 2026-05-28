@@ -307,6 +307,7 @@
   </main>
 
   <script src="./js/auth-ui.js"></script>
+  <script src="./js/company-financial-fallback-data.js"></script>
   <script>
   (function () {
     const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
@@ -337,10 +338,15 @@
 
     const $ = (id) => document.getElementById(id);
     const isLocalFile = window.location.protocol === "file:";
+    const localFinancialFallback = window.MINERLYTICS_COMPANY_FINANCIAL_FALLBACK || {};
 
     function dataUrl(path) {
       const clean = String(path || "").replace(/^\/+/, "");
       return isLocalFile ? `./public/${clean}` : `/${clean}`;
+    }
+
+    function getLocalFallbackTickerData(symbol) {
+      return localFinancialFallback[String(symbol || "").toUpperCase().trim()] || {};
     }
 
     function fmtCurrency(value) {
@@ -588,7 +594,7 @@
 
     async function loadPage() {
       try {
-        const [detail, companyMeta, fundamentals, balanceSheets, legacyBalanceSheets] = await Promise.all([
+        const [detail, companyMetaRaw, fundamentalsRaw, balanceSheetsRaw, legacyBalanceSheetsRaw] = await Promise.all([
           fetchJson(`${API_BASE}/api/company-detail?ticker=${encodeURIComponent(ticker)}`),
           fetchJson(dataUrl("data/company_meta.json")).catch(() => []),
           fetchJson(dataUrl("data/fundamentals_latest.json")).catch(() => []),
@@ -596,11 +602,25 @@
           fetchJson(dataUrl("data/balance_sheets.json")).catch(() => []),
         ]);
 
-        const meta = findByTicker(companyMeta) || {};
-        const fundamental = findByTicker(fundamentals) || {};
-        const balance = findByTicker(balanceSheets) || {};
+        const fallbackTickerData = getLocalFallbackTickerData(ticker);
+        const companyMeta = Array.isArray(companyMetaRaw) && companyMetaRaw.length
+          ? companyMetaRaw
+          : Object.values(localFinancialFallback).map((item) => item.meta).filter(Boolean);
+        const fundamentals = Array.isArray(fundamentalsRaw) && fundamentalsRaw.length
+          ? fundamentalsRaw
+          : Object.entries(localFinancialFallback).map(([symbol, item]) => ({ ticker: symbol, ...(item.fundamental || {}) }));
+        const balanceSheets = Array.isArray(balanceSheetsRaw) && balanceSheetsRaw.length
+          ? balanceSheetsRaw
+          : Object.entries(localFinancialFallback).map(([symbol, item]) => ({ ticker: symbol, balanceSheet: item.balanceSheet || {} }));
+        const legacyBalanceSheets = Array.isArray(legacyBalanceSheetsRaw) && legacyBalanceSheetsRaw.length
+          ? legacyBalanceSheetsRaw
+          : [];
+
+        const meta = findByTicker(companyMeta) || fallbackTickerData.meta || {};
+        const fundamental = findByTicker(fundamentals) || fallbackTickerData.fundamental || {};
+        const balance = findByTicker(balanceSheets) || { balanceSheet: fallbackTickerData.balanceSheet || {} };
         const legacyBalance = findByTicker(legacyBalanceSheets) || {};
-        const balanceSheet = balance.balanceSheet || {};
+        const balanceSheet = balance.balanceSheet || fallbackTickerData.balanceSheet || {};
         const legacySheet = legacyBalance.balanceSheet || {};
         const market = detail.market || {};
         const latestPoint = Array.isArray(market.points) && market.points.length ? market.points[market.points.length - 1] : null;
@@ -689,7 +709,7 @@
           "finSnapshotNote",
           latestSnapshotFact
             ? `Snapshot reflects the latest filed values we have for ${detail.ticker}. Most recent financial point: ${fmtFactMeta(latestSnapshotFact)}.`
-            : `No structured financial snapshot is available for ${detail.ticker} yet in the current local dataset. Covered names right now include WPM, CDE, AEM, GFI, HL, HYMC, PZG, PSLV, SIVR, and SLV.`
+            : `No structured financial snapshot is available for ${detail.ticker} yet in the current dataset. Covered names right now include WPM, CDE, AEM, GFI, HL, HYMC, PZG, PSLV, SIVR, and SLV.`
         );
         renderFinancialHighlights([
           {
@@ -726,13 +746,12 @@
         setHtml("forwardLooking", formatSectionText(detail.ai_sections?.forward_looking_statement || "Not available."));
 
         const filingLead = detail.filing_excerpts?.latest?.[0] || detail.filing_excerpts?.production?.[0] || null;
-        const filingSummary = filingLead
-          ? `${filingLead.form || "Filing"} • ${filingLead.filing_date || "Date unavailable"}${filingLead.heading ? `\n\n${filingLead.heading}` : ""}${filingLead.text ? `\n\n${filingLead.text}` : ""}`
-          : "No recent filing excerpt is available yet.";
-        setHtml("filingLead", formatSectionText(filingSummary));
+        const filingTitle = filingLead?.heading || filingLead?.title || `${filingLead?.form || "Latest filing"} • ${filingLead?.filing_date || "Date unavailable"}`;
+        setHtml("filingLead", filingLead ? `<p style="margin:0;"><a class="source-link" href="${filingLead.url || "#"}" target="_blank" rel="noreferrer">${filingTitle}</a></p>` : formatSectionText("No recent filing source is available yet."));
         if (filingLead?.url) {
           const link = $("filingLink");
           link.href = filingLead.url;
+          link.textContent = "Open filing source";
           link.style.display = "inline-flex";
         }
 
