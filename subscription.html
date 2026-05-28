@@ -306,6 +306,56 @@
       opacity: .96;
     }
 
+    .plansNotice{
+      margin: 14px 0 4px;
+      padding: 14px 16px;
+      border-radius: 16px;
+      border: 1px solid rgba(154,122,74,.24);
+      background: linear-gradient(135deg, rgba(154,122,74,.12), rgba(110,122,113,.10));
+      color: var(--text);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.02);
+    }
+
+    .plansNotice strong{
+      display:block;
+      margin-bottom: 4px;
+      font-size: 14px;
+      letter-spacing: .02em;
+    }
+
+    .comingSoonPlan{
+      position: relative;
+      filter: blur(1.8px) saturate(.72);
+      opacity: .62;
+      pointer-events: none;
+      user-select: none;
+    }
+
+    .comingSoonPlan::after{
+      content: "Customized plans currently in the works";
+      position: absolute;
+      inset: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 18px;
+      border-radius: 16px;
+      border: 1px solid rgba(243,239,230,.12);
+      background: rgba(8,10,12,.44);
+      backdrop-filter: blur(10px);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      text-shadow: 0 2px 16px rgba(0,0,0,.45);
+    }
+
+    .comingSoonPlan .planBtn{
+      opacity: .4;
+    }
+
     .topbar #authNav .btn,
     .topbar #authNav .btnGhost,
     .topbar #authNav .btnPrimary{
@@ -431,7 +481,7 @@
             </div>
           </div>
 
-          <div class="col-span-6 infoBox">
+          <div class="col-span-6 infoBox comingSoonPlan" aria-disabled="true">
             <div class="planBadge">Flexible</div>
             <h2 class="planName">30 Day Plan</h2>
             <div class="planPrice">$29</div>
@@ -450,8 +500,13 @@
           </div>
         </div>
 
+        <div class="plansNotice">
+          <strong>Customized Plans Currently In The Works</strong>
+          We’re refining longer-duration Minerlytics access tiers so they launch with clearer value, cleaner onboarding, and plan options better matched to different research workflows.
+        </div>
+
         <div class="grid-12" style="margin-top:12px;">
-          <div class="col-span-6 infoBox">
+          <div class="col-span-6 infoBox comingSoonPlan" aria-disabled="true">
             <div class="planBadge">Popular</div>
             <h2 class="planName">6 Month Plan</h2>
             <div class="planPrice">$149</div>
@@ -469,7 +524,7 @@
             </div>
           </div>
 
-          <div class="col-span-6 infoBox">
+          <div class="col-span-6 infoBox comingSoonPlan" aria-disabled="true">
             <div class="planBadge">Best Value</div>
             <h2 class="planName">1 Year Plan</h2>
             <div class="planPrice">$249</div>
