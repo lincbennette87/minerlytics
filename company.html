@@ -6,6 +6,71 @@
   <title>Minerlytics AI — Company Details</title>
   <link rel="stylesheet" href="./styles.css" />
   <style>
+    .page-loader {
+      position: fixed;
+      inset: 0;
+      z-index: 20000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background:
+        radial-gradient(circle at 30% 20%, rgba(154,122,74,.18), transparent 36%),
+        radial-gradient(circle at 70% 30%, rgba(110,122,113,.14), transparent 34%),
+        rgba(8,10,12,.68);
+      backdrop-filter: blur(14px);
+      transition: opacity .28s ease, visibility .28s ease;
+    }
+    .page-loader.is-hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+    .page-loader-box {
+      width: min(92vw, 360px);
+      padding: 28px 26px;
+      border-radius: 24px;
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(17,19,21,.92);
+      box-shadow: 0 30px 90px rgba(0,0,0,.42);
+      text-align: center;
+    }
+    .page-loader-mark {
+      width: 74px;
+      height: 74px;
+      margin: 0 auto 16px;
+      border-radius: 22px;
+      background:
+        radial-gradient(circle at 35% 35%, rgba(255,255,255,.14), transparent 60%),
+        linear-gradient(135deg, var(--accent), rgba(110,122,113,.92));
+      box-shadow: 0 0 0 1px rgba(255,255,255,.08), 0 18px 40px rgba(154,122,74,.24);
+      position: relative;
+      overflow: hidden;
+    }
+    .page-loader-mark::after {
+      content: "";
+      position: absolute;
+      inset: 18px;
+      border-radius: 50%;
+      border: 2px solid rgba(243,239,230,.72);
+      border-top-color: transparent;
+      animation: pageLoaderSpin 1s linear infinite;
+    }
+    .page-loader-title {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+    }
+    .page-loader-copy {
+      margin: 10px 0 0;
+      font-size: 13px;
+      line-height: 1.6;
+      color: rgba(243,239,230,.72);
+    }
+    @keyframes pageLoaderSpin {
+      to { transform: rotate(360deg); }
+    }
     .page-shell { max-width: 1200px; margin: 0 auto; padding: 28px 18px 48px; }
     .hero-grid { display:grid; grid-template-columns: 1.05fr .95fr; gap:18px; }
     .panel {
@@ -191,6 +256,13 @@
   </style>
 </head>
 <body>
+  <div id="pageLoader" class="page-loader" aria-live="polite">
+    <div class="page-loader-box">
+      <div class="page-loader-mark" aria-hidden="true"></div>
+      <p class="page-loader-title">Loading Minerlytics</p>
+      <p class="page-loader-copy">Mining signals, filings, and company intelligence are being prepared for this page.</p>
+    </div>
+  </div>
   <header class="topbar">
     <div class="brand">
       <div class="logoMark"></div>
@@ -383,6 +455,7 @@
     const chartCanvas = document.getElementById("companyChart");
     const companySearchInput = document.getElementById("companySearchInput");
     const companySearchBtn = document.getElementById("companySearchBtn");
+    const pageLoader = document.getElementById("pageLoader");
     let cachedPoints = [];
 
     const $ = (id) => document.getElementById(id);
@@ -458,6 +531,10 @@
     function setHtml(id, value) {
       const el = $(id);
       if (el) el.innerHTML = value;
+    }
+
+    function hidePageLoader() {
+      pageLoader?.classList.add("is-hidden");
     }
 
     function parseSearchTicker(value) {
@@ -813,6 +890,8 @@
         setText("chartStatus", "Could not load market data");
         setText("chartPerf", "—");
         setText("finSnapshotNote", isLocalFile ? "Could not load local ticker financial files. Open the site through your deployed Cloudflare domain or keep the page in local mode with the repo's /public/data files present." : "Could not load ticker financials.");
+      } finally {
+        hidePageLoader();
       }
     }
 
