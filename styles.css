@@ -723,15 +723,98 @@ input,button{font:inherit}
   .navSearch{min-width:220px}
 }
 @media (max-width: 760px){
-  .navLinks{display:none}
+  .topbar{
+    flex-direction:column;
+    align-items:stretch;
+    gap:12px;
+    padding:12px 14px;
+  }
+  .navLinks{
+    display:flex;
+    width:100%;
+    overflow-x:auto;
+    flex-wrap:nowrap;
+    gap:10px;
+    padding-bottom:2px;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+  }
+  .navLinks::-webkit-scrollbar{display:none}
+  .navLink{
+    white-space:nowrap;
+    flex:0 0 auto;
+  }
+  .navRight{
+    width:100%;
+    flex-direction:column;
+    align-items:stretch;
+  }
+  .navSearch{
+    width:100%;
+    min-width:0;
+  }
+  #authNav{
+    width:100%;
+    display:grid !important;
+    grid-template-columns:1fr 1fr;
+    gap:10px !important;
+  }
+  #authNav .btn{
+    width:100%;
+    text-align:center;
+    justify-content:center;
+  }
+  .bottomBar{
+    grid-template-columns:1fr;
+    gap:10px;
+    padding:10px 12px;
+  }
+  .heroSearchBox{
+    display:grid;
+    grid-template-columns:18px 1fr;
+    align-items:center;
+  }
+  .heroSearchBox input{
+    min-width:0;
+  }
+  .heroSearchBox .btn{
+    grid-column:1 / -1;
+    width:100%;
+    justify-content:center;
+  }
+  .heroSearchSuggestions{
+    left:0;
+    right:0;
+  }
+  #personalDashboard .trendChartHead,
+  .trendChartHead{
+    align-items:flex-start;
+    flex-direction:column;
+  }
+  #personalDashboard > div[style*="display:flex;gap:10px"]{
+    flex-direction:column;
+  }
+  #trendSummaryRow{
+    grid-template-columns:1fr !important;
+  }
   .trendRow,.tileGrid,.quoteRow{grid-template-columns:1fr}
   .authRow{grid-template-columns:1fr}
+  .heroSignalTitle{
+    padding-top:8px;
+  }
   .heroLeft h1{font-size:42px}
   .heroSignalTitle h1{font-size:34px}
   .heroSignalBeam{top:74px;width:min(270px, 78%)}
   .heroSignalNodes{width:min(280px, 82%)}
   .heroSignalOrbA{left:18px}
   .heroSignalOrbB{right:22px}
+  .aiHud{
+    padding:14px;
+  }
+  .aiHud.is-modal{
+    width:calc(100vw - 20px);
+    max-width:none;
+  }
 }
 
 /* =========================

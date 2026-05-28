@@ -139,6 +139,55 @@
       .hero-grid, .section-grid, .metric-grid, .meta-row { grid-template-columns: 1fr; }
       .title-row h1 { font-size:32px; }
     }
+    @media (max-width: 760px) {
+      .topbar{
+        flex-direction:column;
+        align-items:stretch;
+        gap:12px;
+        padding:12px 14px;
+      }
+      .navLinks{
+        width:100%;
+        overflow-x:auto;
+        flex-wrap:nowrap;
+        gap:10px;
+        -webkit-overflow-scrolling:touch;
+        scrollbar-width:none;
+      }
+      .navLinks::-webkit-scrollbar{display:none}
+      .navLink{white-space:nowrap;flex:0 0 auto}
+      .navRight,
+      #authNav{
+        width:100%;
+      }
+      #authNav{
+        display:grid !important;
+        grid-template-columns:1fr 1fr;
+        gap:10px;
+      }
+      #authNav .btn{
+        width:100%;
+        text-align:center;
+      }
+      .page-shell{
+        padding:20px 14px 34px;
+      }
+      .title-row{
+        flex-direction:column;
+      }
+      .company-search-wrap{
+        flex-direction:column;
+        align-items:stretch;
+      }
+      .company-search-input,
+      #companySearchBtn{
+        width:100%;
+      }
+      .chart-meta{
+        flex-direction:column;
+        align-items:flex-start;
+      }
+    }
   </style>
 </head>
 <body>

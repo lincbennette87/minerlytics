@@ -400,11 +400,31 @@
       .topbar{
         align-items:flex-start;
         flex-direction: column;
+        gap:12px;
       }
 
       .navLinks{
         width:100%;
         justify-content:flex-start;
+        overflow-x:auto;
+        flex-wrap:nowrap;
+        -webkit-overflow-scrolling:touch;
+        scrollbar-width:none;
+      }
+      .navLinks::-webkit-scrollbar{display:none}
+      .navLink{white-space:nowrap;flex:0 0 auto}
+      .navRight,
+      #authNav{
+        width:100%;
+      }
+      #authNav{
+        display:grid !important;
+        grid-template-columns:1fr 1fr;
+        gap:10px !important;
+      }
+      #authNav .btn{
+        width:100%;
+        text-align:center;
       }
 
       .col-span-6,
