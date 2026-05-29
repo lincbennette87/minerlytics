@@ -320,38 +320,63 @@ function buildTickerAliasMap() {
 
 const TICKER_ALIAS_MAP = buildTickerAliasMap();
 
-const ANALYSIS_UNIVERSE = [
-  { ticker: "AEM", metal: "gold", stage: "producer", country: "Canada" },
-  { ticker: "NEM", metal: "gold", stage: "producer", country: "USA" },
-  { ticker: "GOLD", metal: "gold", stage: "producer", country: "Canada" },
-  { ticker: "KGC", metal: "gold", stage: "producer", country: "Canada" },
-  { ticker: "GFI", metal: "gold", stage: "producer", country: "South Africa" },
-  { ticker: "AU", metal: "gold", stage: "producer", country: "UK" },
-  { ticker: "BTG", metal: "gold", stage: "producer", country: "Canada" },
-  { ticker: "AGI", metal: "gold", stage: "producer", country: "Canada" },
-  { ticker: "PZG", metal: "gold", stage: "developer", country: "USA" },
-  { ticker: "GAYMF", metal: "gold", stage: "producer", country: "Botswana" },
-  { ticker: "HYMC", metal: "gold", stage: "developer", country: "USA" },
-  { ticker: "WPM", metal: "silver", stage: "producer", country: "Canada" },
-  { ticker: "PAAS", metal: "silver", stage: "producer", country: "Canada" },
-  { ticker: "AG", metal: "silver", stage: "producer", country: "Mexico" },
-  { ticker: "MAG", metal: "silver", stage: "developer", country: "Mexico" },
-  { ticker: "HL", metal: "silver", stage: "producer", country: "USA" },
-  { ticker: "CDE", metal: "silver", stage: "producer", country: "Mexico" },
-  { ticker: "EXK", metal: "silver", stage: "producer", country: "Mexico" },
-  { ticker: "SILV", metal: "silver", stage: "developer", country: "Mexico" },
-  { ticker: "DSVSF", metal: "silver", stage: "developer", country: "Mexico" },
-  { ticker: "FCX", metal: "copper", stage: "producer", country: "USA" },
-  { ticker: "SCCO", metal: "copper", stage: "producer", country: "Peru" },
-  { ticker: "HBM", metal: "copper", stage: "producer", country: "Canada" },
-  { ticker: "TECK", metal: "copper", stage: "producer", country: "Canada" },
-  { ticker: "TRQ", metal: "copper", stage: "developer", country: "Mongolia" },
-  { ticker: "TGB", metal: "copper", stage: "producer", country: "Canada" },
-  { ticker: "LUCRF", metal: "diamond", stage: "producer", country: "Botswana" },
-  { ticker: "MPVDF", metal: "diamond", stage: "producer", country: "Canada" },
-  { ticker: "NGLOY", metal: "diamond", stage: "producer", country: "UK" },
-  { ticker: "RIO", metal: "diamond", stage: "producer", country: "Australia" },
-];
+const ANALYSIS_META_OVERRIDES = {
+  AEM: { country: "Canada", stage: "producer" },
+  NEM: { country: "USA", stage: "producer" },
+  GOLD: { country: "Canada", stage: "producer" },
+  KGC: { country: "Canada", stage: "producer" },
+  GFI: { country: "South Africa", stage: "producer" },
+  AU: { country: "UK", stage: "producer" },
+  BTG: { country: "Canada", stage: "producer" },
+  AGI: { country: "Canada", stage: "producer" },
+  PZG: { country: "USA", stage: "developer" },
+  GAYMF: { country: "Botswana", stage: "producer" },
+  HYMC: { country: "USA", stage: "developer" },
+  WPM: { country: "Canada", stage: "royalty" },
+  PAAS: { country: "Canada", stage: "producer" },
+  AG: { country: "Mexico", stage: "producer" },
+  MAG: { country: "Mexico", stage: "developer" },
+  HL: { country: "USA", stage: "producer" },
+  CDE: { country: "Mexico", stage: "producer" },
+  EXK: { country: "Mexico", stage: "producer" },
+  SVM: { country: "China", stage: "producer" },
+  SILV: { country: "Mexico", stage: "developer" },
+  DSVSF: { country: "Mexico", stage: "developer" },
+  FCX: { country: "USA", stage: "producer" },
+  SCCO: { country: "Peru", stage: "producer" },
+  HBM: { country: "Canada", stage: "producer" },
+  TECK: { country: "Canada", stage: "producer" },
+  TRQ: { country: "Mongolia", stage: "developer" },
+  TGB: { country: "Canada", stage: "producer" },
+  LUCRF: { country: "Botswana", stage: "producer" },
+  MPVDF: { country: "Canada", stage: "producer" },
+  NGLOY: { country: "UK", stage: "producer" },
+  RIO: { country: "Australia", stage: "producer" },
+  OR: { country: "Canada", stage: "royalty" },
+  FNV: { country: "Canada", stage: "royalty" },
+  RGLD: { country: "USA", stage: "royalty" },
+  PSLV: { country: "Canada", stage: "trust" },
+  SLV: { country: "USA", stage: "etf" },
+  SIVR: { country: "USA", stage: "etf" },
+};
+
+function buildAnalysisUniverse() {
+  return Object.entries(TICKERS).map(([ticker, meta]) => {
+    const override = ANALYSIS_META_OVERRIDES[ticker] || {};
+    const metal = String(override.metal || meta?.metal || "other").toLowerCase().trim();
+    const stage = String(override.stage || meta?.type || "company").toLowerCase().trim();
+    const country = String(override.country || meta?.country || "Unknown").trim();
+
+    return {
+      ticker,
+      metal,
+      stage,
+      country,
+    };
+  });
+}
+
+const ANALYSIS_UNIVERSE = buildAnalysisUniverse();
 
 function resolveTickerFromQuestion(question) {
   const raw = String(question || "").trim();
