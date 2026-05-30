@@ -1,0 +1,100 @@
+from __future__ import annotations
+
+import re
+from dataclasses import dataclass
+from datetime import UTC, datetime
+from pathlib import Path
+from typing import Any
+
+from minerlytics.connectors.production_parser import fetch_sec_document_text, html_to_text
+from minerlytics.database import connect, ensure_schema
+
+
+PARSER_VERSION = "aisc-v1"
+DEFAULT_FORMS = {"10-K", "10-Q"}
+AISC_SIGNAL_RE = re.compile(
+    r"\b(?:aisc|all[\s-]?in\s+sustaining\s+costs?|all[\s-]?in\s+costs?)\b",
+    re.IGNORECASE,
+)
+COST_SIGNAL_RE = re.compile(
+    r"\b(?:costs?\s+applicable\s+to\s+sales|cash\s+costs?|cas)\b",
+    re.IGNORECASE,
+)
+PER_OUNCE_ROW_RE = re.compile(r"\b(?P<metal>gold|silver)\s*\(\s*\$?\s*/\s*oz\s*\)", re.IGNORECASE)
+NUMBER_RE = re.compile(r"(?<![\w.])\$?\s*\(?(-?\d{1,3}(?:,\d{3})+|-?\d+(?:\.\d+)?)\)?")
+YEAR_RE = re.compile(r"^(?:19|20)\d{2}$")
+VALUE_MAX = 10000
+
+
+@dataclass(frozen=True)
+class AiscMetric:
+    symbol: str
+    cik: str
+    accession_number: str
+    form: str
+    filing_date: str | None
+    report_date: str | None
+    metric_label: str
+    metal: str
+    mine_name: str | None
+    value: float
+    value_sequence: int
+    source_url: str | None
+    source_text: str
+    confidence: float
+
+
+def parse_aisc_metrics_to_sqlite(
+    *,
+    db_path: str | Path,
+    symbol: str | None = None,
+    accession_number: str | None = None,
+    forms: set[str] | None = None,
+    latest_per_form: bool = False,
+    user_agent: str | None = None,
+) -> int:
+    db = connect(db_path)
+    try:
+        ensure_schema(db)
+        filings = _select_filings(
+            db,
+            symbol=symbol,
+            accession_number=accession_number,
+            forms=forms or DEFAULT_FORMS,
+            latest_per_form=latest_per_form,
+        )
+    finally:
+        db.close()
+
+    total = 0
+    for filing in filings:
+        if not filing["sec_primary_document_url"]:
+            continue
+        try:
+            text = html_to_text(fetch_sec_document_text(filing["sec_primary_document_url"], user_agent=user_agent))
+        except Exception:
+            continue
+        records = extract_aisc_metrics(filing, text)
+        total += store_aisc_metrics(db_path=db_path, records=records)
+    return total
+
+
+def extract_aisc_metrics(filing: Any, text: str) -> list[AiscMetric]:
+    lines = text.splitlines()
+    records: list[AiscMetric] = []
+    for index, line in enumerate(lines):
+        signal_type = _signal_type(lines, index)
+        if not signal_type:
+            continue
+        if _looks_like_toc_line(line):
+            continue
+
+        context_lines = lines[max(0, index - 5) : index + 7]
+        context_text = " | ".join(context_lines)
+        metal = _metal_from_context(context_text)
+        numbers = _candidate_values(_value_text(lines, index), metal=metal)
+        if not numbers:
+            continue
+
+        metric_label = _metric_label(line, prior_lines=lines[max(0, index - 4) : index], signal_type=signal_type)
+        mine_name = _mine_name_from_context(context_lines)
