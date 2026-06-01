@@ -1,0 +1,100 @@
+from __future__ import annotations
+
+import html
+import os
+import re
+import urllib.request
+from dataclasses import dataclass
+from datetime import UTC, datetime
+from html.parser import HTMLParser
+from pathlib import Path
+from typing import Any
+
+from minerlytics.database import connect, ensure_schema
+
+
+PARSER_VERSION = "production-v2"
+DEFAULT_FORMS = {"10-Q", "10-K", "20-F", "40-F", "6-K"}
+DEFAULT_USER_AGENT = "Minerlytics/0.1 contact@example.com"
+PRODUCTION_LINE_RE = re.compile(
+    r"\b(?P<metal>gold|silver)\s+(?:equivalent\s+)?(?:ounces?|ozs?)\s+(?:produced|production|payable\s+production)\b(?P<tail>.*)",
+    re.IGNORECASE,
+)
+PRODUCTION_TABLE_LABEL_RE = re.compile(
+    r"^(?P<metal>gold|silver)\s*\(\s*(?P<unit>ounces|ozs?|koz|000\s*oz|thousand\s+ounces|million\s+ounces)\s*\)\s*$",
+    re.IGNORECASE,
+)
+SCALED_PRODUCTION_LABEL_RE = re.compile(
+    r"^(?P<label>.*?\b(?P<metal>gold|silver)\s+(?:ounces?|ozs?|production)\s*\((?P<scale>koz|000\s*oz|thousands?|thousand ounces|millions?|million ounces)\).*):?$",
+    re.IGNORECASE,
+)
+PRODUCED_SCALED_RE = re.compile(
+    r"^(?:produced\s+)?(?P<metal>gold|silver)\s*(?:produced|production)?\s*\((?P<scale>koz|000\s*oz|million ounces|millions?|thousand ounces|thousands?)\)\s*$",
+    re.IGNORECASE,
+)
+PRODUCED_VALUE_RE = re.compile(r"^produced\b(?P<tail>.*)", re.IGNORECASE)
+FOREIGN_PRODUCTION_LABEL_RE = re.compile(
+    r"^(?P<label>.*?\b(?P<metal>gold|silver)\b.*?\b(?:production|produced|payable\s+production|ounces?\s+produced|ozs?\s+produced)\b.*?)(?P<tail>(?:\s+[-—$()0-9,.]+)+)$",
+    re.IGNORECASE,
+)
+SIMPLE_PRODUCTION_LABEL_RE = re.compile(
+    r"^(?P<label>(?:attributable\s+|payable\s+)?(?P<metal>gold|silver)(?:\s+equivalent)?\s+(?:production|produced|ounces?\s+produced|ozs?\s+produced))$",
+    re.IGNORECASE,
+)
+NUMBER_RE = re.compile(r"(?<![\w.])\(?-?\$?\s*(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)\)?")
+QUARTER_BY_MONTH = {3: "Q1", 6: "Q2", 9: "Q3", 12: "FY"}
+
+
+@dataclass(frozen=True)
+class ProductionRecord:
+    symbol: str
+    cik: str
+    accession_number: str
+    form: str
+    filing_date: str | None
+    report_date: str | None
+    fiscal_year: int | None
+    fiscal_period: str | None
+    period_type: str
+    mine_name: str
+    metal: str
+    ounces_produced: float
+    source_url: str | None
+    source_text: str
+    confidence: float
+
+
+class _TextExtractor(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.parts: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.lower() in {"br", "p", "div", "tr", "td", "th", "li", "table", "h1", "h2", "h3", "h4"}:
+            self.parts.append("\n")
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag.lower() in {"p", "div", "tr", "td", "th", "li", "table", "h1", "h2", "h3", "h4"}:
+            self.parts.append("\n")
+
+    def handle_data(self, data: str) -> None:
+        cleaned = html.unescape(data)
+        if cleaned.strip():
+            self.parts.append(cleaned)
+
+    def text(self) -> str:
+        return "\n".join(self.parts)
+
+
+def parse_10q_production_to_sqlite(
+    *,
+    db_path: str | Path,
+    symbol: str | None = None,
+    accession_number: str | None = None,
+    latest_only: bool = False,
+    user_agent: str | None = None,
+) -> int:
+    return parse_production_to_sqlite(
+        db_path=db_path,
+        symbol=symbol,
+        accession_number=accession_number,
