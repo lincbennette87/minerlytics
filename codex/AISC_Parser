@@ -11,7 +11,7 @@ from minerlytics.database import connect, ensure_schema
 
 
 PARSER_VERSION = "aisc-v1"
-DEFAULT_FORMS = {"10-K", "10-Q"}
+DEFAULT_FORMS = {"10-K", "10-Q", "20-F", "40-F", "6-K"}
 AISC_SIGNAL_RE = re.compile(
     r"\b(?:aisc|all[\s-]?in\s+sustaining\s+costs?|all[\s-]?in\s+costs?)\b",
     re.IGNORECASE,
