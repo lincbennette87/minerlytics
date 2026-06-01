@@ -1,0 +1,100 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import argparse
+import re
+import sys
+from datetime import UTC, datetime
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from minerlytics.database import DEFAULT_DB_PATH, connect, ensure_schema
+
+
+SKIP_SCOPES = {"consolidated", "total", "company-wide"}
+SKIP_LABEL_PATTERNS = [
+    "income (loss)",
+    "results of operations",
+    "capital expenditures",
+    "underground mine development",
+    "continues to develop",
+    "life of mine reserves",
+    "attributable",
+]
+COUNTRY_ALIASES = {
+    "usa": "United States",
+    "u.s.a": "United States",
+    "u.s.": "United States",
+    "united states": "United States",
+}
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Ensure production-reporting mines exist in project_locations.")
+    parser.add_argument("--db-path", default=str(DEFAULT_DB_PATH), help="SQLite database path")
+    args = parser.parse_args()
+
+    db = connect(args.db_path)
+    try:
+        ensure_schema(db)
+        count = reconcile(db)
+    finally:
+        db.close()
+
+    print(f"Inserted or updated {count} production-derived project location rows")
+    return 0
+
+
+def reconcile(db) -> int:
+    run_at = datetime.now(UTC).isoformat()
+    production_rows = db.execute(
+        """
+        select
+            p.symbol,
+            p.cik,
+            p.mine_name,
+            p.accession_number,
+            p.form,
+            p.filing_date,
+            p.report_date,
+            p.source_url,
+            p.source_text
+        from production p
+        where lower(p.mine_name) not in ({})
+        group by p.symbol, p.mine_name
+        order by p.symbol, p.mine_name
+        """.format(",".join("?" for _ in SKIP_SCOPES)),
+        tuple(SKIP_SCOPES),
+    ).fetchall()
+
+    records = []
+    for row in production_rows:
+        project_name, location, region, country = parse_mine_name(row["mine_name"])
+        if not project_name or should_skip_project(project_name):
+            continue
+        records.append(
+            (
+                row["symbol"],
+                row["cik"],
+                project_name,
+                location,
+                region,
+                country,
+                "production",
+                row["form"],
+                row["accession_number"],
+                row["filing_date"],
+                row["report_date"],
+                row["source_url"],
+                row["source_text"],
+                "production-reconcile-v1",
+                0.9 if country else 0.75,
+                run_at,
+                run_at,
+            )
+        )
+
+    with db:
