@@ -2035,7 +2035,7 @@ window.addEventListener("minerlytics-auth-state", () => {
 
   function renderVideos(items) {
     if (!items.length) {
-      videoList.innerHTML = `<div style="color:rgba(234,240,255,.62);font-size:13px;">No recent Minerlytics-linked YouTube videos found for these tickers yet.</div>`;
+      videoList.innerHTML = `<div style="color:rgba(234,240,255,.62);font-size:13px;">No recent Minerlytics-linked YouTube videos were found across the Minerlytics universe in the last 60 days yet.</div>`;
       return;
     }
     videoList.innerHTML = items.map((item) => `
@@ -2045,6 +2045,7 @@ window.addEventListener("minerlytics-auth-state", () => {
           <span style="font-size:11px;color:#d7c09a;white-space:nowrap;">Watch</span>
         </div>
         <div style="margin-top:6px;font-size:12px;color:rgba(234,240,255,.62);">${item.channel || "YouTube"} • ${relTime(item.published_at)}</div>
+        ${Array.isArray(item.symbols) && item.symbols.length ? `<div style="margin-top:6px;font-size:11px;color:#d7c09a;">${item.symbols.slice(0, 6).join(", ")}</div>` : ""}
         ${item.transcript_snippet ? `<div style="margin-top:8px;font-size:12px;color:rgba(234,240,255,.74);line-height:1.5;">${item.transcript_snippet}</div>` : ""}
       </a>
     `).join("");
@@ -2053,7 +2054,7 @@ window.addEventListener("minerlytics-auth-state", () => {
   async function refreshIntel(symbols = []) {
     const tickers = Array.isArray(symbols) && symbols.length ? symbols : (window.MinerlyticsHomeTrend?.getActiveSymbols?.() || DEFAULT_HOME_SYMBOLS);
     rssMeta.textContent = `Latest RSS headlines from the last 60 days across ${tickers.join(", ")}`;
-    videoMeta.textContent = `Recent YouTube coverage from the last 60 days for ${tickers.join(", ")}`;
+    videoMeta.textContent = `Recent YouTube coverage from the last 60 days across the Minerlytics universe`;
 
     try {
       const [rssRes, videoRes] = await Promise.all([
@@ -2061,7 +2062,7 @@ window.addEventListener("minerlytics-auth-state", () => {
           headers: { accept: "application/json" },
           cache: "no-store"
         }),
-        fetch(`${API_BASE}/api/youtube/recent?symbols=${encodeURIComponent(tickers.join(","))}&limit=6&days=60`, {
+        fetch(`${API_BASE}/api/youtube/recent?limit=10&days=60`, {
           headers: { accept: "application/json" },
           cache: "no-store"
         })
