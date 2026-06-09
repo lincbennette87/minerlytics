@@ -1476,6 +1476,26 @@ function getCachedDisplayName() {
   return displayName || fullName || email || "Minerlytics User";
 }
 
+async function resolveSignedInEmail() {
+  const cachedEmail = localStorage.getItem("minerlytics_user_email") || "";
+  if (cachedEmail) return cachedEmail;
+
+  try {
+    const res = await fetch(API_BASE + "/api/me", {
+      credentials: "include"
+    });
+    const data = await res.json().catch(() => null);
+    if (data?.loggedIn && data?.user) {
+      window.MinerlyticsAuthUI?.setUserCache(data.user);
+      return String(data.user.email || "").trim();
+    }
+  } catch (error) {
+    console.warn("RESOLVE SIGNED IN EMAIL ERROR:", error);
+  }
+
+  return "";
+}
+
 function parseTickerList(value) {
   return parseSearchTickers(value, MAX_FAVORITE_TICKERS);
 }
@@ -1577,7 +1597,7 @@ function renderPersonalDashboardItems(items = []) {
 }
 
 async function loadPersonalDashboard() {
-  const email = localStorage.getItem("minerlytics_user_email");
+  const email = await resolveSignedInEmail();
   const box = document.getElementById("personalDashboard");
   const emailEl = document.getElementById("personalEmail");
 
@@ -1685,7 +1705,7 @@ try {
 }
 loadPersonalDashboard();
 window.addEventListener("minerlytics-auth-state", () => {
-  loadPersonalDashboard();
+  void loadPersonalDashboard();
 });
 </script>
 <script>
@@ -1695,6 +1715,7 @@ window.addEventListener("minerlytics-auth-state", () => {
   const saveFavoriteBtn = document.getElementById("saveFavoriteBtn");
   const suggestionsEl = document.getElementById("heroSearchSuggestions");
   const commodityRow = document.getElementById("heroCommodityRow");
+  let favoriteSaveInFlight = false;
   if (!searchInput || !searchBtn || !suggestionsEl) return;
 
   function getSuggestions(value) {
@@ -1754,24 +1775,31 @@ window.addEventListener("minerlytics-auth-state", () => {
   }
 
   async function saveCurrentSearchToFavorites() {
-    const email = localStorage.getItem("minerlytics_user_email");
-    if (!email) {
-      setFavoriteActionStatus("Sign in first to save favorite tickers.", "error");
-      window.location.href = "./login.html";
-      return;
-    }
-    await ensureHomeSearchUniverse();
-    const symbol = parseSearchTickers(searchInput.value, 1)[0] || "";
-    if (!symbol) {
-      setFavoriteActionStatus("Search or select a ticker first, then save it to favorites.", "error");
-      return;
-    }
-    const saved = await addFavoriteTickerBySymbol(symbol, document.getElementById("watchHelp"));
-    if (saved) {
-      searchInput.value = symbol;
-      updateCompanyDetailLink(symbol);
-      window.MinerlyticsHomeTrend?.loadSymbols(getFavoriteTickers());
-      closeSuggestions();
+    if (favoriteSaveInFlight) return;
+    favoriteSaveInFlight = true;
+    setFavoriteActionStatus("Saving favorite ticker...", "info");
+    try {
+      const email = await resolveSignedInEmail();
+      if (!email) {
+        setFavoriteActionStatus("Sign in first to save favorite tickers.", "error");
+        window.location.href = "./login.html";
+        return;
+      }
+      await ensureHomeSearchUniverse();
+      const symbol = parseSearchTickers(searchInput.value, 1)[0] || "";
+      if (!symbol) {
+        setFavoriteActionStatus("Search or select a ticker first, then save it to favorites.", "error");
+        return;
+      }
+      const saved = await addFavoriteTickerBySymbol(symbol, document.getElementById("watchHelp"));
+      if (saved) {
+        searchInput.value = symbol;
+        updateCompanyDetailLink(symbol);
+        window.MinerlyticsHomeTrend?.loadSymbols(getFavoriteTickers());
+        closeSuggestions();
+      }
+    } finally {
+      favoriteSaveInFlight = false;
     }
   }
 
@@ -1787,7 +1815,11 @@ window.addEventListener("minerlytics-auth-state", () => {
   });
 
   searchBtn.addEventListener("click", () => { void runSearch(); });
-  saveFavoriteBtn?.addEventListener("click", saveCurrentSearchToFavorites);
+  saveFavoriteBtn?.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    void saveCurrentSearchToFavorites();
+  });
   searchInput.addEventListener("input", async () => {
     setFavoriteActionStatus("");
     await ensureHomeSearchUniverse();
