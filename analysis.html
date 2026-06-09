@@ -245,6 +245,64 @@
       padding: 28px 20px 44px;
     }
 
+    .pageAuthGate {
+      position: relative;
+    }
+
+    .pageAuthGate.is-locked .gateContent {
+      filter: blur(10px) brightness(.55);
+      pointer-events: none;
+      user-select: none;
+    }
+
+    .pageAuthGate.is-locked .pageAuthOverlay {
+      display: flex;
+    }
+
+    .pageAuthOverlay {
+      position: absolute;
+      inset: 0;
+      z-index: 30;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      border-radius: 28px;
+      background: linear-gradient(180deg, rgba(8,10,12,.18), rgba(8,10,12,.42));
+      backdrop-filter: blur(6px);
+    }
+
+    .pageAuthOverlayCard {
+      width: min(92vw, 540px);
+      padding: 28px 24px;
+      text-align: center;
+      border-radius: 24px;
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(17,19,21,.92);
+      box-shadow: 0 28px 80px rgba(0,0,0,.35);
+    }
+
+    .pageAuthOverlayCard h2 {
+      margin: 0 0 10px;
+      font-size: clamp(24px, 4vw, 32px);
+      line-height: 1.1;
+    }
+
+    .pageAuthOverlayCard p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.65;
+      font-size: 14px;
+    }
+
+    .pageAuthActions {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
     .shell {
       display: grid;
       grid-template-columns: 320px minmax(0, 1fr);
@@ -903,7 +961,8 @@
     </div>
   </header>
 
-  <div class="page">
+  <div class="page pageAuthGate is-locked" data-protected-page-gate>
+    <div class="gateContent">
     <section class="shell">
       <aside class="sidebar">
         <div class="sidebar-head">
@@ -999,6 +1058,18 @@
         </section>
       </main>
     </section>
+    </div>
+    <div class="pageAuthOverlay" aria-live="polite">
+      <div class="pageAuthOverlayCard">
+        <div class="eyebrow">Protected Access</div>
+        <h2>Sign in to unlock Analysis</h2>
+        <p>Compare your Minerlytics universe, live market trends, filings, transcript coverage, and sentiment only after signing in.</p>
+        <div class="pageAuthActions">
+          <a class="btn btnGhost" href="./login.html">Sign In</a>
+          <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script>
@@ -1024,6 +1095,13 @@
 
     function hidePageLoader() {
       pageLoader?.classList.add("is-hidden");
+    }
+
+    function applyProtectedGate() {
+      const email = localStorage.getItem("minerlytics_user_email");
+      document.querySelectorAll("[data-protected-page-gate]").forEach((gate) => {
+        gate.classList.toggle("is-locked", !email);
+      });
     }
 
     function formatNumber(num) {
@@ -1441,6 +1519,8 @@
       });
     });
 
+    window.addEventListener("minerlytics-auth-state", applyProtectedGate);
+    applyProtectedGate();
     loadAnalysisData();
   </script>
   <script src="./js/auth-ui.js"></script>

@@ -16,6 +16,7 @@
     localStorage.setItem("minerlytics_user_name", user.display_name || "");
     localStorage.setItem("minerlytics_user_first_name", user.first_name || "");
     localStorage.setItem("minerlytics_user_last_name", user.last_name || "");
+    broadcastAuthState(user);
   }
 
   function getCachedUser() {
@@ -39,6 +40,18 @@
     localStorage.removeItem("minerlytics_user_name");
     localStorage.removeItem("minerlytics_user_first_name");
     localStorage.removeItem("minerlytics_user_last_name");
+    broadcastAuthState(null);
+  }
+
+  function broadcastAuthState(user) {
+    window.dispatchEvent(
+      new CustomEvent("minerlytics-auth-state", {
+        detail: {
+          loggedIn: !!(user && (user.email || user.display_name)),
+          user: user || null
+        }
+      })
+    );
   }
 
   function renderLoggedOut(authNav) {

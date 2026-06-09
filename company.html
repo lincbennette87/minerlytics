@@ -91,6 +91,56 @@
       50% { transform: translateX(-50%) rotate(-20deg); }
     }
     .page-shell { max-width: 1200px; margin: 0 auto; padding: 28px 18px 48px; }
+    .pageAuthGate {
+      position: relative;
+    }
+    .pageAuthGate.is-locked .gateContent {
+      filter: blur(10px) brightness(.55);
+      pointer-events: none;
+      user-select: none;
+    }
+    .pageAuthGate.is-locked .pageAuthOverlay {
+      display: flex;
+    }
+    .pageAuthOverlay {
+      position: absolute;
+      inset: 0;
+      z-index: 30;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      border-radius: 28px;
+      background: linear-gradient(180deg, rgba(8,10,12,.18), rgba(8,10,12,.42));
+      backdrop-filter: blur(6px);
+    }
+    .pageAuthOverlayCard {
+      width: min(92vw, 520px);
+      padding: 28px 24px;
+      text-align: center;
+      border-radius: 24px;
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(17,19,21,.92);
+      box-shadow: 0 28px 80px rgba(0,0,0,.35);
+    }
+    .pageAuthOverlayCard h2 {
+      margin: 0 0 10px;
+      font-size: clamp(24px, 4vw, 32px);
+      line-height: 1.1;
+    }
+    .pageAuthOverlayCard p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.65;
+      font-size: 14px;
+    }
+    .pageAuthActions {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
     .hero-grid { display:grid; grid-template-columns: 1.05fr .95fr; gap:18px; }
     .panel {
       border:1px solid var(--line);
@@ -305,7 +355,8 @@
     </div>
   </header>
 
-  <main class="page-shell">
+  <main class="page-shell pageAuthGate is-locked" data-protected-page-gate>
+    <div class="gateContent">
     <section class="hero-grid">
       <div class="panel">
         <div class="eyebrow">Company Details</div>
@@ -444,6 +495,18 @@
         <div class="detail-list" id="videoList"><div class="loading">Loading YouTube coverage…</div></div>
       </div>
     </section>
+    </div>
+    <div class="pageAuthOverlay" aria-live="polite">
+      <div class="pageAuthOverlayCard">
+        <div class="eyebrow">Protected Access</div>
+        <h2>Sign in to unlock Company Details</h2>
+        <p>View Minerlytics company intelligence, financial snapshot data, filings, sentiment, and market detail after you sign in.</p>
+        <div class="pageAuthActions">
+          <a class="btn btnGhost" href="./login.html">Sign In</a>
+          <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
+        </div>
+      </div>
+    </div>
   </main>
 
   <script src="./js/auth-ui.js"></script>
@@ -554,6 +617,13 @@
 
     function hidePageLoader() {
       pageLoader?.classList.add("is-hidden");
+    }
+
+    function applyProtectedGate() {
+      const email = localStorage.getItem("minerlytics_user_email");
+      document.querySelectorAll("[data-protected-page-gate]").forEach((gate) => {
+        gate.classList.toggle("is-locked", !email);
+      });
     }
 
     function parseSearchTicker(value) {
@@ -923,6 +993,8 @@
     });
     if (companySearchInput) companySearchInput.value = ticker;
     window.addEventListener("resize", () => drawChart(cachedPoints));
+    window.addEventListener("minerlytics-auth-state", applyProtectedGate);
+    applyProtectedGate();
     loadPage();
   })();
   </script>
