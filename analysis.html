@@ -1074,6 +1074,8 @@
 
   <script>
     const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+    const ANALYSIS_CACHE_KEY = "minerlytics_analysis_cache_v1";
+    const ANALYSIS_CACHE_TTL_MS = 1000 * 60 * 10;
     let ANALYSIS_DATA = [];
     let selectedMetal = "";
     let selectedTickers = [];
@@ -1095,6 +1097,28 @@
 
     function hidePageLoader() {
       pageLoader?.classList.add("is-hidden");
+    }
+
+    function readAnalysisCache() {
+      try {
+        const raw = localStorage.getItem(ANALYSIS_CACHE_KEY);
+        if (!raw) return null;
+        const parsed = JSON.parse(raw);
+        if (!parsed || !Array.isArray(parsed.items) || !parsed.saved_at) return null;
+        if (Date.now() - Number(parsed.saved_at) > ANALYSIS_CACHE_TTL_MS) return null;
+        return parsed.items;
+      } catch {
+        return null;
+      }
+    }
+
+    function writeAnalysisCache(items) {
+      try {
+        localStorage.setItem(ANALYSIS_CACHE_KEY, JSON.stringify({
+          saved_at: Date.now(),
+          items,
+        }));
+      } catch {}
     }
 
     function applyProtectedGate() {
@@ -1469,9 +1493,32 @@
       syncView();
     }
 
+    function applyLoadedAnalysis(items, sourceLabel = "") {
+      ANALYSIS_DATA = items.map(enrichItem);
+      if (!selectedTickers.length) {
+        selectedTickers = ANALYSIS_DATA.slice(0, 3).map((item) => item.symbol);
+      } else {
+        selectedTickers = selectedTickers.filter((ticker) => ANALYSIS_DATA.some((item) => item.symbol === ticker)).slice(0, 5);
+        if (!selectedTickers.length) {
+          selectedTickers = ANALYSIS_DATA.slice(0, 3).map((item) => item.symbol);
+        }
+      }
+      syncView();
+      if (sourceLabel) {
+        resultMeta.textContent = sourceLabel;
+      }
+    }
+
     async function loadAnalysisData() {
-      resultMeta.textContent = "Loading live analysis data...";
+      const cachedItems = readAnalysisCache();
       emptyState.style.display = "none";
+
+      if (cachedItems?.length) {
+        applyLoadedAnalysis(cachedItems, `Comparing ${Math.min(3, cachedItems.length)} miners`);
+        hidePageLoader();
+      } else {
+        resultMeta.textContent = "Loading live analysis data...";
+      }
 
       try {
         const res = await fetch(API_BASE + "/api/analysis/overview", {
@@ -1486,18 +1533,19 @@
         if (!items.length) {
           throw new Error("Analysis API returned no company data");
         }
-        ANALYSIS_DATA = items.map(enrichItem);
-        selectedTickers = ANALYSIS_DATA.slice(0, 3).map((item) => item.symbol);
-        syncView();
+        writeAnalysisCache(items);
+        applyLoadedAnalysis(items, `Loaded ${items.length} miners`);
       } catch (err) {
         console.error("ANALYSIS LOAD ERROR:", err);
-        ANALYSIS_DATA = [];
-        selectedTickers = [];
-        universeList.innerHTML = `<div class="empty-picker">Could not load live analysis data right now. Please try again shortly.</div>`;
-        compareTableWrap.style.display = "none";
-        emptyState.style.display = "block";
-        emptyState.textContent = "Could not load live analysis data right now. Please try again shortly.";
-        updateSummary();
+        if (!ANALYSIS_DATA.length) {
+          ANALYSIS_DATA = [];
+          selectedTickers = [];
+          universeList.innerHTML = `<div class="empty-picker">Could not load live analysis data right now. Please try again shortly.</div>`;
+          compareTableWrap.style.display = "none";
+          emptyState.style.display = "block";
+          emptyState.textContent = "Could not load live analysis data right now. Please try again shortly.";
+          updateSummary();
+        }
       } finally {
         hidePageLoader();
       }

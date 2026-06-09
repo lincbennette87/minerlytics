@@ -1664,6 +1664,78 @@ async function getTrendSeriesForTickers(env, tickers, limit = 180) {
   return out;
 }
 
+async function getStoredTrendSeriesForTickers(env, tickers, limit = 180) {
+  const safeLimit = Math.min(Math.max(Number(limit || 180), 30), 365);
+  const out = [];
+
+  for (const ticker of tickers) {
+    const cleanTicker = String(ticker || "").toUpperCase().trim();
+    if (!cleanTicker) continue;
+
+    let symbol = null;
+    let results = [];
+
+    for (const candidate of getSymbolCandidates(cleanTicker)) {
+      const rows = await env.DB.prepare(
+        `
+        SELECT symbol, date, open, high, low, close, volume
+        FROM daily_ohlcv
+        WHERE symbol = ?
+        ORDER BY date DESC
+        LIMIT ?
+        `
+      ).bind(candidate, safeLimit).all().catch(() => null);
+
+      const candidateResults = ((rows && rows.results) || [])
+        .slice()
+        .reverse()
+        .map((row) => ({
+          date: row.date,
+          open: Number(row.open),
+          high: Number(row.high),
+          low: Number(row.low),
+          close: Number(row.close),
+          volume: Number(row.volume),
+        }))
+        .filter((row) => row.date && Number.isFinite(row.close));
+
+      if (candidateResults.length) {
+        symbol = candidate;
+        results = candidateResults;
+        break;
+      }
+    }
+
+    if (!results.length) continue;
+
+    const latest = results[results.length - 1] || null;
+    const previous = results.length > 1 ? results[results.length - 2] : null;
+    const latestClose = Number(latest?.close);
+    const previousClose = Number(previous?.close);
+    const change = Number.isFinite(latestClose) && Number.isFinite(previousClose)
+      ? latestClose - previousClose
+      : null;
+    const changePct = change !== null && previousClose
+      ? (change / previousClose) * 100
+      : null;
+
+    out.push({
+      ticker: cleanTicker,
+      symbol,
+      source: "d1_history",
+      name: TICKERS[cleanTicker]?.name || cleanTicker,
+      latest_close: Number.isFinite(latestClose) ? latestClose : null,
+      previous_close: Number.isFinite(previousClose) ? previousClose : null,
+      day_change: change !== null ? Number(change.toFixed(4)) : null,
+      day_change_pct: changePct !== null ? Number(changePct.toFixed(2)) : null,
+      live_quote: null,
+      points: results,
+    });
+  }
+
+  return out;
+}
+
 async function fetchLatestQuoteForSymbol(symbol) {
   try {
     const url = `https://stooq.com/q/l/?s=${encodeURIComponent(symbol)}&f=sd2t2ohlcvn&e=csv`;
@@ -1858,56 +1930,89 @@ function computeWindowPerformance(points, lookbackDays) {
 }
 
 async function getAnalysisUniverse(env) {
+  const tickers = ANALYSIS_UNIVERSE
+    .map((meta) => String(meta.ticker || "").toUpperCase().trim())
+    .filter(Boolean);
+  const metaByTicker = new Map(ANALYSIS_UNIVERSE.map((meta) => [String(meta.ticker || "").toUpperCase().trim(), meta]));
   const items = [];
 
-  for (const meta of ANALYSIS_UNIVERSE) {
-    const ticker = String(meta.ticker || "").toUpperCase().trim();
-    if (!ticker) continue;
+  const series = await getStoredTrendSeriesForTickers(env, tickers, 180).catch(() => []);
+  const marketByTicker = new Map(series.map((item) => [item.ticker, item]));
 
-    const seriesBase = await getTrendSeriesForTickers(env, [ticker], 180).catch(() => []);
-    const seriesItem = seriesBase[0] ? await enrichTrendSeriesWithLatestQuotes(seriesBase).catch(() => []) : [];
-    const market = Array.isArray(seriesItem) && seriesItem[0] ? seriesItem[0] : null;
+  const placeholders = tickers.map(() => "?").join(", ");
+  const bindTickers = tickers.slice();
+
+  const sentimentRows = placeholders
+    ? await env.DB.prepare(
+        `SELECT * FROM news_sentiment_summary WHERE ticker IN (${placeholders})`
+      ).bind(...bindTickers).all().catch(() => ({ results: [] }))
+    : { results: [] };
+  const sentimentByTicker = new Map(((sentimentRows && sentimentRows.results) || []).map((row) => [String(row.ticker || "").toUpperCase(), row]));
+
+  const headlineRows = placeholders
+    ? await env.DB.prepare(
+        `
+        SELECT ticker, title, source, published_at, fetched_at, link
+        FROM news_items
+        WHERE ticker IN (${placeholders})
+        ORDER BY
+          CASE
+            WHEN published_at IS NOT NULL AND published_at != '' THEN published_at
+            ELSE fetched_at
+          END DESC
+        `
+      ).bind(...bindTickers).all().catch(() => ({ results: [] }))
+    : { results: [] };
+  const latestHeadlineByTicker = new Map();
+  for (const row of ((headlineRows && headlineRows.results) || [])) {
+    const ticker = String(row.ticker || "").toUpperCase().trim();
+    if (ticker && !latestHeadlineByTicker.has(ticker)) {
+      latestHeadlineByTicker.set(ticker, row);
+    }
+  }
+
+  const filingRows = placeholders
+    ? await env.DB.prepare(
+        `
+        SELECT
+          ticker,
+          COUNT(*) AS filing_count,
+          MAX(filing_date) AS latest_filing_date
+        FROM mining_reports
+        WHERE ticker IN (${placeholders})
+        GROUP BY ticker
+        `
+      ).bind(...bindTickers).all().catch(() => ({ results: [] }))
+    : { results: [] };
+  const filingByTicker = new Map(((filingRows && filingRows.results) || []).map((row) => [String(row.ticker || "").toUpperCase(), row]));
+
+  const transcriptRows = placeholders
+    ? await env.DB.prepare(
+        `
+        SELECT symbol, COUNT(DISTINCT video_id) AS transcript_count
+        FROM youtube_video_symbols
+        WHERE symbol IN (${placeholders})
+        GROUP BY symbol
+        `
+      ).bind(...bindTickers).all().catch(() => ({ results: [] }))
+    : { results: [] };
+  const transcriptByTicker = new Map(((transcriptRows && transcriptRows.results) || []).map((row) => [String(row.symbol || "").toUpperCase(), row]));
+
+  for (const ticker of tickers) {
+    const meta = metaByTicker.get(ticker);
+    if (!meta) continue;
+    const market = marketByTicker.get(ticker) || null;
     const points = market?.points || [];
 
     const perf30 = computeWindowPerformance(points, 30);
     const perf180 = computeWindowPerformance(points, 180);
 
-    const sentimentRow = await env.DB.prepare(
-      "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
-    ).bind(ticker).first().catch(() => null);
+    const sentimentRow = sentimentByTicker.get(ticker) || null;
     const news = buildNewsDetailFromSummary(sentimentRow);
 
-    const latestHeadline = await env.DB.prepare(
-      `
-      SELECT title, source, published_at, fetched_at, link
-      FROM news_items
-      WHERE ticker = ?
-      ORDER BY
-        CASE
-          WHEN published_at IS NOT NULL AND published_at != '' THEN published_at
-          ELSE fetched_at
-        END DESC
-      LIMIT 1
-      `
-    ).bind(ticker).first().catch(() => null);
-
-    const filingStats = await env.DB.prepare(
-      `
-      SELECT
-        COUNT(*) AS filing_count,
-        MAX(filing_date) AS latest_filing_date
-      FROM mining_reports
-      WHERE ticker = ?
-      `
-    ).bind(ticker).first().catch(() => null);
-
-    const transcriptStats = await env.DB.prepare(
-      `
-      SELECT COUNT(DISTINCT ys.video_id) AS transcript_count
-      FROM youtube_video_symbols ys
-      WHERE ys.symbol = ?
-      `
-    ).bind(ticker).first().catch(() => null);
+    const latestHeadline = latestHeadlineByTicker.get(ticker) || null;
+    const filingStats = filingByTicker.get(ticker) || null;
+    const transcriptStats = transcriptByTicker.get(ticker) || null;
 
     items.push({
       ticker,
