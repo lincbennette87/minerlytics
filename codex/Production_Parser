@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import argparse
+import os
+import sys
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from minerlytics.connectors.production_parser import DEFAULT_FORMS, parse_production_to_sqlite
+from minerlytics.database import DEFAULT_DB_PATH, active_miner_symbols, connect
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Parse gold and silver production ounces into the production table.")
+    parser.add_argument("symbols", nargs="*", help="Ticker symbols to parse, for example CDE HL NEM")
+    parser.add_argument("--all-miners", action="store_true", help="Parse filings for all active miners")
+    parser.add_argument("--forms", nargs="*", default=sorted(DEFAULT_FORMS), help="SEC forms to parse")
+    parser.add_argument("--latest-per-form", action="store_true", help="Only parse the latest filing per symbol/form")
+    parser.add_argument("--latest-only", action="store_true", help="Alias for --latest-per-form")
+    parser.add_argument("--accession-number", help="Parse one specific SEC accession number")
+    parser.add_argument("--db-path", default=str(DEFAULT_DB_PATH), help="SQLite database path")
+    parser.add_argument(
+        "--user-agent",
+        default=os.environ.get("SEC_USER_AGENT"),
+        help="SEC-required User-Agent, for example 'Minerlytics admin@example.com'",
+    )
+    args = parser.parse_args()
+
+    if args.accession_number:
+        symbols = [args.symbols[0].upper()] if args.symbols else [None]
+    elif args.all_miners:
+        db = connect(args.db_path)
+        try:
+            symbols = active_miner_symbols(db)
+        finally:
+            db.close()
+    else:
+        symbols = [symbol.upper() for symbol in args.symbols]
+
+    if not symbols:
+        parser.error("provide one or more symbols, --accession-number, or --all-miners")
+
+    total = 0
+    forms = {form.upper() for form in args.forms}
+    for symbol in symbols:
+        count = parse_production_to_sqlite(
+            db_path=args.db_path,
+            symbol=symbol,
+            accession_number=args.accession_number,
+            forms=forms,
+            latest_per_form=args.latest_per_form or args.latest_only,
+            user_agent=args.user_agent,
+        )
+        total += count
+        label = symbol or args.accession_number
+        print(f"{label}: parsed {count} production rows")
+
+    print(f"Total parsed: {total}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
