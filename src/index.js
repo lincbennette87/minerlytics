@@ -702,6 +702,113 @@ function buildUserFriendlySection(items = [], kind, fallback = "Not available.")
   }).join("\n\n");
 }
 
+const MAP_LOCATION_CATALOG = [
+  { key: "canada", label: "Canada", x: 198, y: 128, aliases: ["canada", "ontario", "quebec", "nunavut", "yukon", "british columbia", "manitoba", "saskatchewan"] },
+  { key: "usa", label: "USA", x: 176, y: 180, aliases: ["united states", "usa", "nevada", "alaska", "idaho", "montana", "arizona"] },
+  { key: "mexico", label: "Mexico", x: 144, y: 215, aliases: ["mexico", "sonora", "durango", "zacatecas", "chihuahua", "sinaloa"] },
+  { key: "peru", label: "Peru", x: 289, y: 336, aliases: ["peru", "lima", "arequipa", "cajamarca", "andes"] },
+  { key: "chile", label: "Chile", x: 300, y: 372, aliases: ["chile", "atacama", "antofagasta"] },
+  { key: "argentina", label: "Argentina", x: 334, y: 382, aliases: ["argentina", "san juan", "salta", "patagonia"] },
+  { key: "uk", label: "UK", x: 484, y: 110, aliases: ["united kingdom", "uk", "england", "london"] },
+  { key: "south_africa", label: "South Africa", x: 540, y: 345, aliases: ["south africa", "johannesburg", "gauteng"] },
+  { key: "botswana", label: "Botswana", x: 573, y: 322, aliases: ["botswana", "gaborone", "karowe"] },
+  { key: "mongolia", label: "Mongolia", x: 737, y: 178, aliases: ["mongolia", "oyu tolgoi", "ulan bator", "ulaanbaatar"] },
+  { key: "china", label: "China", x: 788, y: 188, aliases: ["china", "henan", "guangdong", "beijing"] },
+  { key: "australia", label: "Australia", x: 835, y: 356, aliases: ["australia", "western australia", "queensland", "new south wales", "northern territory"] },
+  { key: "brazil", label: "Brazil", x: 360, y: 320, aliases: ["brazil", "minas gerais", "para"] },
+];
+
+function detectMapLocationFromText(textValue = "") {
+  const text = String(textValue || "").toLowerCase();
+  if (!text) return null;
+
+  let best = null;
+  for (const location of MAP_LOCATION_CATALOG) {
+    let score = 0;
+    for (const alias of location.aliases) {
+      if (text.includes(alias)) score += alias.length > 6 ? 2 : 1;
+    }
+    if (score > 0 && (!best || score > best.score)) {
+      best = { ...location, score };
+    }
+  }
+
+  return best;
+}
+
+async function getUniverseMapMarkers(env, tickers = Object.keys(TICKERS), limit = 18) {
+  const safeTickers = (Array.isArray(tickers) ? tickers : Object.keys(TICKERS))
+    .map((item) => String(item || "").toUpperCase().trim())
+    .filter((item) => !!TICKERS[item])
+    .slice(0, 80);
+
+  const markersByKey = new Map();
+
+  for (const ticker of safeTickers) {
+    const rows = await env.DB.prepare(
+      `
+      SELECT
+        r.ticker,
+        r.form,
+        r.filing_date,
+        r.source_url,
+        b.heading,
+        b.text_content
+      FROM mining_report_blocks b
+      JOIN mining_reports r
+        ON r.id = b.report_id
+      WHERE r.ticker = ?
+        AND LOWER(COALESCE(r.form, '')) IN ('40-f', '40-f/a', '40f', '40f/a')
+        AND (
+          LOWER(COALESCE(b.heading, '')) LIKE '%location%'
+          OR LOWER(COALESCE(b.heading, '')) LIKE '%mine%'
+          OR LOWER(COALESCE(b.heading, '')) LIKE '%project%'
+          OR LOWER(COALESCE(b.text_content, '')) LIKE '%location%'
+          OR LOWER(COALESCE(b.text_content, '')) LIKE '%mine%'
+          OR LOWER(COALESCE(b.text_content, '')) LIKE '%project%'
+        )
+      ORDER BY r.filing_date DESC, b.block_index ASC
+      LIMIT 10
+      `
+    ).bind(ticker).all().catch(() => ({ results: [] }));
+
+    const blocks = buildDisclosureContext((rows && rows.results) || []);
+    const selected = selectRelevantCompanyExcerpts(blocks, "mine", 3);
+    const sourceText = selected.map((item) => `${item.heading || ""} ${item.text || ""}`).join(" ");
+    const location = detectMapLocationFromText(sourceText);
+    if (!location) continue;
+
+    const key = location.key;
+    const existing = markersByKey.get(key) || {
+      key,
+      label: location.label,
+      x: location.x,
+      y: location.y,
+      metal: String(TICKERS[ticker]?.metal || "gold").toLowerCase(),
+      tickers: [],
+      excerpts: [],
+      latest_filing_date: null,
+    };
+
+    existing.tickers.push(ticker);
+    existing.excerpts.push(cleanExcerptText(sourceText, 180));
+    if (!existing.latest_filing_date || String(selected[0]?.filing_date || "") > String(existing.latest_filing_date || "")) {
+      existing.latest_filing_date = selected[0]?.filing_date || existing.latest_filing_date;
+    }
+    markersByKey.set(key, existing);
+  }
+
+  return Array.from(markersByKey.values())
+    .map((item) => ({
+      ...item,
+      tickers: Array.from(new Set(item.tickers)).slice(0, 8),
+      detail: Array.from(new Set(item.tickers)).slice(0, 8).join(", "),
+      source_excerpt: item.excerpts.find(Boolean) || "",
+    }))
+    .sort((a, b) => b.tickers.length - a.tickers.length)
+    .slice(0, Math.max(1, Number(limit || 18)));
+}
+
 async function buildCompanyDescription(env, payload) {
   const fallback = `${payload.name || payload.ticker} is tracked in Minerlytics with market, news, filing, and transcript coverage where available.`;
 
@@ -2899,6 +3006,19 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
           days: 60,
           symbols,
           videos,
+        }, 200);
+      }
+
+      if (url.pathname === "/api/universe/map" && request.method === "GET") {
+        const symbols = parseSymbolsParam(url.searchParams.get("symbols") || "");
+        const limit = clamp(parseInt(url.searchParams.get("limit") || "18", 10), 1, 30);
+        const markers = await getUniverseMapMarkers(env, symbols.length ? symbols : Object.keys(TICKERS), limit).catch(() => []);
+
+        return json({
+          ok: true,
+          source: "40-f mining disclosure",
+          symbols: symbols.length ? symbols : Object.keys(TICKERS),
+          markers,
         }, 200);
       }
 

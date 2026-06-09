@@ -1758,6 +1758,7 @@ window.addEventListener("minerlytics-auth-state", () => {
   const legendWrap = document.getElementById("universeMapLegend");
   const sidebarWrap = document.getElementById("universeMapSidebar");
   if (!markerWrap || !legendWrap || !sidebarWrap) return;
+  const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 
   const METAL_META = {
     gold: { label: "Gold", className: "metal-gold", color: "#d7c09a" },
@@ -1778,58 +1779,78 @@ window.addEventListener("minerlytics-auth-state", () => {
     `;
   }).join("");
 
-  sidebarWrap.innerHTML = `
-    <div class="universeMapSidebarHead">Regional ticker clusters</div>
-    ${UNIVERSE_MAP_MARKERS.map((marker) => {
-      const meta = METAL_META[marker.metal] || METAL_META.gold;
-      return `
-        <div class="universeMapSidebarItem ${meta.className}" data-map-card="${marker.key}">
-          <div class="universeMapSidebarTitle">${marker.label}</div>
-          <div class="universeMapSidebarMeta">${marker.detail}</div>
-        </div>
-      `;
-    }).join("")}
-  `;
-
-  markerWrap.innerHTML = UNIVERSE_MAP_MARKERS.map((marker, index) => {
-    const meta = METAL_META[marker.metal] || METAL_META.gold;
-    const pulseDelay = `${(index % 5) * 0.28}s`;
-    const beamX = Math.max(42, marker.x - 18);
-    const beamY = Math.max(32, marker.y - 26);
-    return `
-      <g class="mapMarker ${meta.className}" data-map-marker="${marker.key}" style="color:${meta.color};">
-        <line class="mapMarkerBeam" x1="${marker.x}" y1="${marker.y}" x2="${beamX}" y2="${beamY}" stroke="${meta.color}"></line>
-        <circle class="mapMarkerPulse" cx="${marker.x}" cy="${marker.y}" r="10" stroke="${meta.color}" style="animation-delay:${pulseDelay};"></circle>
-        <circle class="mapMarkerCore" cx="${marker.x}" cy="${marker.y}" r="5.5" fill="${meta.color}"></circle>
-        <text x="${beamX - 2}" y="${beamY - 4}">${marker.label}</text>
-      </g>
+  function renderMap(markers) {
+    sidebarWrap.innerHTML = `
+      <div class="universeMapSidebarHead">Regional ticker clusters</div>
+      ${markers.map((marker) => {
+        const meta = METAL_META[marker.metal] || METAL_META.gold;
+        return `
+          <div class="universeMapSidebarItem ${meta.className}" data-map-card="${marker.key}">
+            <div class="universeMapSidebarTitle">${marker.label}</div>
+            <div class="universeMapSidebarMeta">${marker.detail}${marker.latest_filing_date ? ` • 40-F ${marker.latest_filing_date}` : ""}</div>
+            ${marker.source_excerpt ? `<div class="universeMapSidebarMeta" style="margin-top:6px;">${marker.source_excerpt}</div>` : ""}
+          </div>
+        `;
+      }).join("")}
     `;
-  }).join("");
 
-  function activateMarker(key = "") {
+    markerWrap.innerHTML = markers.map((marker, index) => {
+      const meta = METAL_META[marker.metal] || METAL_META.gold;
+      const pulseDelay = `${(index % 5) * 0.28}s`;
+      const beamX = Math.max(42, marker.x - 18);
+      const beamY = Math.max(32, marker.y - 26);
+      return `
+        <g class="mapMarker ${meta.className}" data-map-marker="${marker.key}" style="color:${meta.color};">
+          <line class="mapMarkerBeam" x1="${marker.x}" y1="${marker.y}" x2="${beamX}" y2="${beamY}" stroke="${meta.color}"></line>
+          <circle class="mapMarkerPulse" cx="${marker.x}" cy="${marker.y}" r="10" stroke="${meta.color}" style="animation-delay:${pulseDelay};"></circle>
+          <circle class="mapMarkerCore" cx="${marker.x}" cy="${marker.y}" r="5.5" fill="${meta.color}"></circle>
+          <text x="${beamX - 2}" y="${beamY - 4}">${marker.label}</text>
+        </g>
+      `;
+    }).join("");
+
+    function activateMarker(key = "") {
+      document.querySelectorAll("[data-map-marker]").forEach((node) => {
+        node.classList.toggle("is-active", node.getAttribute("data-map-marker") === key);
+      });
+      document.querySelectorAll("[data-map-card]").forEach((node) => {
+        node.classList.toggle("is-active", node.getAttribute("data-map-card") === key);
+      });
+    }
+
     document.querySelectorAll("[data-map-marker]").forEach((node) => {
-      node.classList.toggle("is-active", node.getAttribute("data-map-marker") === key);
+      const key = node.getAttribute("data-map-marker") || "";
+      node.addEventListener("mouseenter", () => activateMarker(key));
+      node.addEventListener("click", () => activateMarker(key));
     });
+
     document.querySelectorAll("[data-map-card]").forEach((node) => {
-      node.classList.toggle("is-active", node.getAttribute("data-map-card") === key);
+      const key = node.getAttribute("data-map-card") || "";
+      node.addEventListener("mouseenter", () => activateMarker(key));
+      node.addEventListener("click", () => activateMarker(key));
     });
+
+    if (markers.length) {
+      activateMarker(markers[0].key);
+    }
   }
 
-  document.querySelectorAll("[data-map-marker]").forEach((node) => {
-    const key = node.getAttribute("data-map-marker") || "";
-    node.addEventListener("mouseenter", () => activateMarker(key));
-    node.addEventListener("click", () => activateMarker(key));
-  });
-
-  document.querySelectorAll("[data-map-card]").forEach((node) => {
-    const key = node.getAttribute("data-map-card") || "";
-    node.addEventListener("mouseenter", () => activateMarker(key));
-    node.addEventListener("click", () => activateMarker(key));
-  });
-
-  if (UNIVERSE_MAP_MARKERS.length) {
-    activateMarker(UNIVERSE_MAP_MARKERS[0].key);
+  async function loadUniverseMap() {
+    try {
+      const res = await fetch(`${API_BASE}/api/universe/map?limit=18`, {
+        headers: { accept: "application/json" },
+        cache: "no-store"
+      });
+      const data = await res.json().catch(() => ({}));
+      const markers = Array.isArray(data.markers) && data.markers.length ? data.markers : UNIVERSE_MAP_MARKERS;
+      renderMap(markers);
+    } catch (error) {
+      console.warn("UNIVERSE MAP LOAD ERROR:", error);
+      renderMap(UNIVERSE_MAP_MARKERS);
+    }
   }
+
+  loadUniverseMap();
 })();
 </script>
 <script>
