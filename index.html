@@ -571,6 +571,38 @@
     </section>
 
     <section class="homeIntelGrid" style="margin-top:28px;display:grid;grid-template-columns:1.05fr .95fr;gap:16px;">
+      <div class="universeMapCard" style="grid-column:1 / -1;">
+        <div class="trendChartHead">
+          <div class="trendChartTitle">Minerlytics Universe Map</div>
+          <div class="trendChartMeta">Blinking coverage markers for key mining regions across your tracked ticker universe</div>
+        </div>
+        <div class="universeMapFrame">
+          <div class="universeMapLegend" id="universeMapLegend"></div>
+          <div class="universeMapSvgWrap">
+            <svg class="universeMapSvg" viewBox="0 0 1000 460" role="img" aria-label="World map of Minerlytics ticker coverage">
+              <defs>
+                <linearGradient id="mapGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="rgba(154,122,74,.22)"></stop>
+                  <stop offset="100%" stop-color="rgba(110,122,113,.08)"></stop>
+                </linearGradient>
+              </defs>
+              <rect x="0" y="0" width="1000" height="460" rx="26" fill="url(#mapGlow)"></rect>
+              <g class="mapLandmass" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.06)" stroke-width="1.2">
+                <path d="M112 135l30-28 46-8 45 22 25 33 10 49-24 34-39 7-26-15-29 14-35-22-16-43 13-43z"></path>
+                <path d="M253 81l43-21 71 7 47 32 11 30-21 25-42-1-23-22-40-4-32 17-23-22 9-41z"></path>
+                <path d="M405 110l49-10 50 16 14 35-20 26-43 4-46 18-25 37 12 32 30 22-7 34-35 12-31-14-12-43 19-54 14-65z"></path>
+                <path d="M520 106l70-10 74 7 48 21 35-4 38 17-2 31-39 21-55 2-38 23-37 2-28 24-44-8-7-30 25-48-15-48z"></path>
+                <path d="M744 208l40-21 36 16 48 7 28 23-11 25-53 15-34 29-40 8-34-26-4-43 24-33z"></path>
+                <path d="M763 331l35-14 46 12 16 35-28 22-44-6-28-26z"></path>
+                <path d="M304 300l24-11 17 10 9 35-14 37-24 13-21-12-2-33z"></path>
+              </g>
+              <g id="universeMapMarkers"></g>
+            </svg>
+          </div>
+          <div class="universeMapSidebar" id="universeMapSidebar"></div>
+        </div>
+      </div>
+
       <div class="trendChart">
         <div class="trendChartHead">
           <div class="trendChartTitle">RSS Feed</div>
@@ -1393,6 +1425,18 @@ const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 const MAX_FAVORITE_TICKERS = 5;
 const DEFAULT_HOME_SYMBOLS = ["WPM", "CDE", "HYMC", "GFI", "AEM"];
 let HOME_SEARCH_UNIVERSE = [];
+const UNIVERSE_MAP_MARKERS = [
+  { key: "canada", label: "Canada", metal: "gold", x: 198, y: 128, detail: "AEM, WPM, PAAS, AGI, TECK, TGB", tickers: ["AEM", "WPM", "PAAS", "AGI", "TECK", "TGB"] },
+  { key: "usa", label: "USA", metal: "copper", x: 176, y: 180, detail: "NEM, HL, FCX, HYMC, KGC", tickers: ["NEM", "HL", "FCX", "HYMC", "KGC"] },
+  { key: "mexico", label: "Mexico", metal: "silver", x: 144, y: 215, detail: "CDE, AG, MAG, EXK, SILV", tickers: ["CDE", "AG", "MAG", "EXK", "SILV"] },
+  { key: "peru", label: "Peru", metal: "copper", x: 289, y: 336, detail: "SCCO and Andes copper/silver coverage", tickers: ["SCCO"] },
+  { key: "uk", label: "UK", metal: "diamond", x: 484, y: 110, detail: "AU, NGLOY, diamond coverage", tickers: ["AU", "NGLOY"] },
+  { key: "south_africa", label: "South Africa", metal: "gold", x: 540, y: 345, detail: "GFI, HMY and South African gold belts", tickers: ["GFI", "HMY"] },
+  { key: "botswana", label: "Botswana", metal: "diamond", x: 573, y: 322, detail: "LUCRF, GAYMF and diamond/gold exposure", tickers: ["LUCRF", "GAYMF"] },
+  { key: "mongolia", label: "Mongolia", metal: "copper", x: 737, y: 178, detail: "TRQ and Oyu Tolgoi-linked copper coverage", tickers: ["TRQ"] },
+  { key: "china", label: "China", metal: "silver", x: 788, y: 188, detail: "SVM and Asia-linked silver coverage", tickers: ["SVM"] },
+  { key: "australia", label: "Australia", metal: "diamond", x: 835, y: 356, detail: "RIO and global diamond/mining operations", tickers: ["RIO"] }
+];
 
 async function ensureHomeSearchUniverse() {
   if (HOME_SEARCH_UNIVERSE.length) return HOME_SEARCH_UNIVERSE;
@@ -1707,6 +1751,86 @@ loadPersonalDashboard();
 window.addEventListener("minerlytics-auth-state", () => {
   void loadPersonalDashboard();
 });
+</script>
+<script>
+(function () {
+  const markerWrap = document.getElementById("universeMapMarkers");
+  const legendWrap = document.getElementById("universeMapLegend");
+  const sidebarWrap = document.getElementById("universeMapSidebar");
+  if (!markerWrap || !legendWrap || !sidebarWrap) return;
+
+  const METAL_META = {
+    gold: { label: "Gold", className: "metal-gold", color: "#d7c09a" },
+    silver: { label: "Silver", className: "metal-silver", color: "#b6c4cf" },
+    copper: { label: "Copper", className: "metal-copper", color: "#d69d76" },
+    diamond: { label: "Diamond", className: "metal-diamond", color: "#9dc8e4" }
+  };
+
+  const metals = ["gold", "silver", "copper", "diamond"];
+
+  legendWrap.innerHTML = metals.map((metal) => {
+    const meta = METAL_META[metal];
+    return `
+      <div class="universeMapLegendItem ${meta.className}">
+        <span class="universeMapLegendDot" style="background:${meta.color};"></span>
+        <span>${meta.label}</span>
+      </div>
+    `;
+  }).join("");
+
+  sidebarWrap.innerHTML = `
+    <div class="universeMapSidebarHead">Regional ticker clusters</div>
+    ${UNIVERSE_MAP_MARKERS.map((marker) => {
+      const meta = METAL_META[marker.metal] || METAL_META.gold;
+      return `
+        <div class="universeMapSidebarItem ${meta.className}" data-map-card="${marker.key}">
+          <div class="universeMapSidebarTitle">${marker.label}</div>
+          <div class="universeMapSidebarMeta">${marker.detail}</div>
+        </div>
+      `;
+    }).join("")}
+  `;
+
+  markerWrap.innerHTML = UNIVERSE_MAP_MARKERS.map((marker, index) => {
+    const meta = METAL_META[marker.metal] || METAL_META.gold;
+    const pulseDelay = `${(index % 5) * 0.28}s`;
+    const beamX = Math.max(42, marker.x - 18);
+    const beamY = Math.max(32, marker.y - 26);
+    return `
+      <g class="mapMarker ${meta.className}" data-map-marker="${marker.key}" style="color:${meta.color};">
+        <line class="mapMarkerBeam" x1="${marker.x}" y1="${marker.y}" x2="${beamX}" y2="${beamY}" stroke="${meta.color}"></line>
+        <circle class="mapMarkerPulse" cx="${marker.x}" cy="${marker.y}" r="10" stroke="${meta.color}" style="animation-delay:${pulseDelay};"></circle>
+        <circle class="mapMarkerCore" cx="${marker.x}" cy="${marker.y}" r="5.5" fill="${meta.color}"></circle>
+        <text x="${beamX - 2}" y="${beamY - 4}">${marker.label}</text>
+      </g>
+    `;
+  }).join("");
+
+  function activateMarker(key = "") {
+    document.querySelectorAll("[data-map-marker]").forEach((node) => {
+      node.classList.toggle("is-active", node.getAttribute("data-map-marker") === key);
+    });
+    document.querySelectorAll("[data-map-card]").forEach((node) => {
+      node.classList.toggle("is-active", node.getAttribute("data-map-card") === key);
+    });
+  }
+
+  document.querySelectorAll("[data-map-marker]").forEach((node) => {
+    const key = node.getAttribute("data-map-marker") || "";
+    node.addEventListener("mouseenter", () => activateMarker(key));
+    node.addEventListener("click", () => activateMarker(key));
+  });
+
+  document.querySelectorAll("[data-map-card]").forEach((node) => {
+    const key = node.getAttribute("data-map-card") || "";
+    node.addEventListener("mouseenter", () => activateMarker(key));
+    node.addEventListener("click", () => activateMarker(key));
+  });
+
+  if (UNIVERSE_MAP_MARKERS.length) {
+    activateMarker(UNIVERSE_MAP_MARKERS[0].key);
+  }
+})();
 </script>
 <script>
 (function () {
