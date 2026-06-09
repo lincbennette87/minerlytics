@@ -1907,16 +1907,16 @@ window.addEventListener("minerlytics-auth-state", () => {
 
   async function refreshIntel(symbols = []) {
     const tickers = Array.isArray(symbols) && symbols.length ? symbols : (window.MinerlyticsHomeTrend?.getActiveSymbols?.() || DEFAULT_HOME_SYMBOLS);
-    rssMeta.textContent = `Latest RSS headlines across ${tickers.join(", ")}`;
-    videoMeta.textContent = `Recent videos for ${tickers.join(", ")}`;
+    rssMeta.textContent = `Latest RSS headlines from the last 60 days across ${tickers.join(", ")}`;
+    videoMeta.textContent = `Recent YouTube coverage from the last 60 days for ${tickers.join(", ")}`;
 
     try {
       const [rssRes, videoRes] = await Promise.all([
-        fetch(`${API_BASE}/api/news/latest-feed?symbols=${encodeURIComponent(tickers.join(","))}&limit=8`, {
+        fetch(`${API_BASE}/api/news/latest-feed?symbols=${encodeURIComponent(tickers.join(","))}&limit=8&days=60`, {
           headers: { accept: "application/json" },
           cache: "no-store"
         }),
-        fetch(`${API_BASE}/api/youtube/recent?symbols=${encodeURIComponent(tickers.join(","))}&limit=6`, {
+        fetch(`${API_BASE}/api/youtube/recent?symbols=${encodeURIComponent(tickers.join(","))}&limit=6&days=60`, {
           headers: { accept: "application/json" },
           cache: "no-store"
         })

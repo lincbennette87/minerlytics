@@ -535,6 +535,7 @@ function extractJsonObject(textValue) {
 
 async function getRecentYoutubeVideosForTickers(env, tickers = [], limit = 8) {
   const safeLimit = Math.min(Math.max(Number(limit || 8), 1), 20);
+  const recentCutoffIso = new Date(Date.now() - 60 * 24 * 60 * 60 * 1000).toISOString();
   const cleanTickers = Array.from(
     new Set(
       (Array.isArray(tickers) ? tickers : [])
@@ -562,11 +563,12 @@ async function getRecentYoutubeVideosForTickers(env, tickers = [], limit = 8) {
       JOIN youtube_video_symbols ys ON ys.video_id = v.video_id
       LEFT JOIN youtube_segments s ON s.video_id = v.video_id
       WHERE ys.symbol IN (${placeholders})
+        AND COALESCE(v.published_at, '') >= ?
       GROUP BY v.video_id, v.title, v.channel, v.published_at, v.url
       ORDER BY v.published_at DESC
       LIMIT ?
       `
-    ).bind(...cleanTickers, safeLimit).all().catch(() => ({ results: [] }));
+    ).bind(...cleanTickers, recentCutoffIso, safeLimit).all().catch(() => ({ results: [] }));
   } else {
     rows = await env.DB.prepare(
       `
@@ -582,11 +584,12 @@ async function getRecentYoutubeVideosForTickers(env, tickers = [], limit = 8) {
       FROM youtube_videos v
       LEFT JOIN youtube_video_symbols ys ON ys.video_id = v.video_id
       LEFT JOIN youtube_segments s ON s.video_id = v.video_id
+      WHERE COALESCE(v.published_at, '') >= ?
       GROUP BY v.video_id, v.title, v.channel, v.published_at, v.url
       ORDER BY v.published_at DESC
       LIMIT ?
       `
-    ).bind(safeLimit).all().catch(() => ({ results: [] }));
+    ).bind(recentCutoffIso, safeLimit).all().catch(() => ({ results: [] }));
   }
 
   return ((rows && rows.results) || []).map((row) => ({
@@ -1287,7 +1290,7 @@ function summarizeHeadlineOneLiner(title = "", ticker = "") {
   return `${cleaned.slice(0, 115).trimEnd()}...`;
 }
 
-async function getLatestUniverseNewsItems(env, symbols = [], limit = 12) {
+async function getLatestUniverseNewsItems(env, symbols = [], limit = 12, days = 60) {
   const tickers = (symbols.length ? symbols : Object.keys(TICKERS))
     .map((t) => String(t || "").toUpperCase().trim())
     .filter((t) => !!TICKERS[t])
@@ -1296,16 +1299,19 @@ async function getLatestUniverseNewsItems(env, symbols = [], limit = 12) {
   if (!tickers.length) return [];
 
   const placeholders = tickers.map(() => "?").join(",");
+  const safeDays = clamp(Number(days || 60), 1, 365);
+  const recentCutoffIso = new Date(Date.now() - safeDays * 24 * 60 * 60 * 1000).toISOString();
   const rows = await env.DB.prepare(
     `
     SELECT id, ticker, title, link, source, published_at, fetched_at
     FROM news_items
     WHERE ticker IN (${placeholders})
+      AND COALESCE(NULLIF(published_at, ''), fetched_at, '') >= ?
     ORDER BY
       CASE WHEN published_at IS NOT NULL AND published_at != '' THEN published_at ELSE fetched_at END DESC
     LIMIT ?
     `
-  ).bind(...tickers, clamp(Number(limit || 12), 1, 24)).all();
+  ).bind(...tickers, recentCutoffIso, clamp(Number(limit || 12), 1, 24)).all();
 
   return ((rows && rows.results) || []).map((row) => {
     const when = row.published_at || row.fetched_at || null;
@@ -2828,10 +2834,12 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
       if (url.pathname === "/api/news/latest-feed" && request.method === "GET") {
         const symbols = parseSymbolsParam(url.searchParams.get("symbols") || "");
         const limit = clamp(parseInt(url.searchParams.get("limit") || "12", 10), 1, 24);
-        const items = await getLatestUniverseNewsItems(env, symbols, limit).catch(() => []);
+        const days = clamp(parseInt(url.searchParams.get("days") || "60", 10), 1, 365);
+        const items = await getLatestUniverseNewsItems(env, symbols, limit, days).catch(() => []);
 
         return json({
           ok: true,
+          days,
           symbols: symbols.length ? symbols : Object.keys(TICKERS),
           items
         }, 200);
@@ -2888,6 +2896,7 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
 
         return json({
           ok: true,
+          days: 60,
           symbols,
           videos,
         }, 200);

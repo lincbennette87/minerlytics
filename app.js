@@ -165,7 +165,7 @@ function renderTicker() {
 async function refreshLatestTickerFeed() {
   try {
     const res = await fetch(
-      `${API_BASE}/api/news/latest-feed?symbols=${encodeURIComponent(NEWS_TICKERS.join(","))}&limit=12`,
+      `${API_BASE}/api/news/latest-feed?symbols=${encodeURIComponent(NEWS_TICKERS.join(","))}&limit=12&days=60`,
       {
         headers: { accept: "application/json" },
         cache: "no-store",
