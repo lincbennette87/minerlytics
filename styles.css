@@ -380,6 +380,7 @@ input,button{font:inherit}
 }
 .heroSearchBox{
   position:relative;
+  isolation:isolate;
   display:flex;align-items:center;gap:10px;
   background: rgba(255,255,255,.04);
   border:1px solid rgba(255,255,255,.10);
@@ -389,7 +390,7 @@ input,button{font:inherit}
 }
 .heroSearchBox .btn{
   position:relative;
-  z-index:2;
+  z-index:20;
   flex:0 0 auto;
 }
 .heroSearchBox input{

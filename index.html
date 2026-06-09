@@ -1564,6 +1564,7 @@ function renderPersonalDashboardItems(items = []) {
         <button onclick="removeWatchTicker('${item.symbol}')" style="border:0;background:transparent;color:#d7c09a;cursor:pointer;font-size:16px;">×</button>
       </div>
     `).join("");
+    updateCompanyDetailLink(normalizedItems.map((item) => item.symbol).join(", "));
     window.MinerlyticsHomeTrend?.loadSymbols(mergeChartSymbols(normalizedItems.map((item) => item.symbol)));
     return;
   }
@@ -1582,7 +1583,11 @@ async function loadPersonalDashboard() {
 
   updateFavoriteCtaState(0);
 
-  if (!email || !box) return;
+  if (!box) return;
+  if (!email) {
+    box.style.display = "none";
+    return;
+  }
 
   box.style.display = "block";
   emailEl.textContent = getCachedDisplayName();
@@ -1603,10 +1608,14 @@ async function loadPersonalDashboard() {
 
 async function addWatchTicker() {
   const input = document.getElementById("watchSymbol");
+  await ensureHomeSearchUniverse();
   const symbol = parseSearchTickers(input.value, 1)[0] || "";
   const watchHelp = document.getElementById("watchHelp");
 
-  if (!symbol) return;
+  if (!symbol) {
+    setFavoriteActionStatus("Enter a valid ticker or company name first.", "error");
+    return;
+  }
   await addFavoriteTickerBySymbol(symbol, watchHelp);
   input.value = "";
 }
@@ -1634,6 +1643,8 @@ async function addFavoriteTickerBySymbol(symbol, watchHelpEl) {
   writeCachedWatchlist(nextItems);
   const box = document.getElementById("personalDashboard");
   if (box) box.style.display = "block";
+  const emailEl = document.getElementById("personalEmail");
+  if (emailEl) emailEl.textContent = getCachedDisplayName();
   renderPersonalDashboardItems(nextItems);
   setFavoriteActionStatus(`${normalized} was added to your favorites.`, "success");
 
@@ -1673,6 +1684,9 @@ try {
   updateFavoriteCtaState(0);
 }
 loadPersonalDashboard();
+window.addEventListener("minerlytics-auth-state", () => {
+  loadPersonalDashboard();
+});
 </script>
 <script>
 (function () {
@@ -1722,16 +1736,19 @@ loadPersonalDashboard();
     suggestionsEl.classList.add("is-open");
   }
 
-  function runSearch() {
+  async function runSearch() {
+    await ensureHomeSearchUniverse();
     const tickers = parseSearchTickers(searchInput.value);
     updateCompanyDetailLink(searchInput.value);
     if (!tickers.length) {
+      setFavoriteActionStatus("Search a valid ticker or company name from the Minerlytics universe.", "error");
       const currentFavorites = window.MinerlyticsHomeTrend?.getActiveSymbols?.() || [];
       if (currentFavorites.length) {
         window.MinerlyticsHomeTrend?.loadSymbols(currentFavorites);
       }
       return;
     }
+    setFavoriteActionStatus("");
     window.MinerlyticsHomeTrend?.loadSymbols(tickers);
     closeSuggestions();
   }
@@ -1743,6 +1760,7 @@ loadPersonalDashboard();
       window.location.href = "./login.html";
       return;
     }
+    await ensureHomeSearchUniverse();
     const symbol = parseSearchTickers(searchInput.value, 1)[0] || "";
     if (!symbol) {
       setFavoriteActionStatus("Search or select a ticker first, then save it to favorites.", "error");
@@ -1753,6 +1771,7 @@ loadPersonalDashboard();
       searchInput.value = symbol;
       updateCompanyDetailLink(symbol);
       window.MinerlyticsHomeTrend?.loadSymbols(getFavoriteTickers());
+      closeSuggestions();
     }
   }
 
@@ -1767,7 +1786,7 @@ loadPersonalDashboard();
     closeSuggestions();
   });
 
-  searchBtn.addEventListener("click", runSearch);
+  searchBtn.addEventListener("click", () => { void runSearch(); });
   saveFavoriteBtn?.addEventListener("click", saveCurrentSearchToFavorites);
   searchInput.addEventListener("input", async () => {
     setFavoriteActionStatus("");
@@ -1778,7 +1797,7 @@ loadPersonalDashboard();
   searchInput.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
       event.preventDefault();
-      runSearch();
+      void runSearch();
     }
     if (event.key === "Escape") {
       closeSuggestions();
