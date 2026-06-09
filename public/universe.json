@@ -1,48 +1,779 @@
 {
   "items": [
-    { "symbol": "AEM", "name": "Agnico Eagle Mines", "metal": "gold", "aliases": ["Agnico Eagle"] },
-    { "symbol": "NEM", "name": "Newmont", "metal": "gold", "aliases": ["Newmont Corporation"] },
-    { "symbol": "GOLD", "name": "Barrick Gold", "metal": "gold", "aliases": ["Barrick", "Barrick Gold Corporation"] },
-    { "symbol": "KGC", "name": "Kinross Gold", "metal": "gold", "aliases": ["Kinross"] },
-    { "symbol": "AU", "name": "AngloGold Ashanti", "metal": "gold", "aliases": ["AngloGold"] },
-    { "symbol": "BTG", "name": "B2Gold", "metal": "gold", "aliases": ["B2 Gold"] },
-    { "symbol": "AGI", "name": "Alamos Gold", "metal": "gold", "aliases": ["Alamos"] },
-    { "symbol": "GFI", "name": "Gold Fields", "metal": "gold", "aliases": ["Gold Fields Limited"] },
-    { "symbol": "HMY", "name": "Harmony Gold", "metal": "gold", "aliases": ["Harmony Gold Mining"] },
-    { "symbol": "OR", "name": "Osisko Gold Royalties", "metal": "gold", "aliases": ["Osisko"] },
-    { "symbol": "FNV", "name": "Franco-Nevada", "metal": "gold", "aliases": ["Franco Nevada"] },
-    { "symbol": "RGLD", "name": "Royal Gold", "metal": "gold", "aliases": ["Royal Gold Inc"] },
-    { "symbol": "PZG", "name": "Paramount Gold Nevada", "metal": "gold", "aliases": ["Paramount Gold"] },
-    { "symbol": "GAYMF", "name": "Galiano Gold", "metal": "gold", "aliases": ["Galiano"] },
-    { "symbol": "HYMC", "name": "Hycroft Mining", "metal": "gold", "aliases": ["Hycroft"] },
-
-    { "symbol": "WPM", "name": "Wheaton Precious Metals", "metal": "silver", "aliases": ["Wheaton"] },
-    { "symbol": "PAAS", "name": "Pan American Silver", "metal": "silver", "aliases": ["Pan American"] },
-    { "symbol": "AG", "name": "First Majestic Silver", "metal": "silver", "aliases": ["First Majestic"] },
-    { "symbol": "MAG", "name": "MAG Silver", "metal": "silver", "aliases": ["MAG Silver Corp"] },
-    { "symbol": "CDE", "name": "Coeur Mining", "metal": "silver", "aliases": ["Coeur"] },
-    { "symbol": "HL", "name": "Hecla Mining", "metal": "silver", "aliases": ["Hecla"] },
-    { "symbol": "EXK", "name": "Endeavour Silver", "metal": "silver", "aliases": ["Endeavour"] },
-    { "symbol": "SVM", "name": "Silvercorp Metals", "metal": "silver", "aliases": ["Silvercorp"] },
-    { "symbol": "SILV", "name": "SilverCrest Metals", "metal": "silver", "aliases": ["SilverCrest"] },
-    { "symbol": "DSVSF", "name": "Discovery Silver", "metal": "silver", "aliases": ["Discovery"] },
-
-    { "symbol": "FCX", "name": "Freeport-McMoRan", "metal": "copper", "aliases": ["Freeport", "Freeport McMoRan"] },
-    { "symbol": "SCCO", "name": "Southern Copper", "metal": "copper", "aliases": ["Southern Copper Corporation"] },
-    { "symbol": "TECK", "name": "Teck Resources", "metal": "copper", "aliases": ["Teck"] },
-    { "symbol": "HBM", "name": "Hudbay Minerals", "metal": "copper", "aliases": ["Hudbay"] },
-    { "symbol": "TRQ", "name": "Turquoise Hill", "metal": "copper", "aliases": ["Oyu Tolgoi"] },
-    { "symbol": "TGB", "name": "Taseko Mines", "metal": "copper", "aliases": ["Taseko"] },
-
-    { "symbol": "LUCRF", "name": "Lucara Diamond", "metal": "diamond", "aliases": ["Lucara"] },
-    { "symbol": "MPVDF", "name": "Mountain Province Diamonds", "metal": "diamond", "aliases": ["Mountain Province"] },
-    { "symbol": "NGLOY", "name": "Anglo American", "metal": "diamond", "aliases": ["De Beers"] },
-    { "symbol": "RIO", "name": "Rio Tinto", "metal": "diamond", "aliases": ["Diavik"] },
-
-    { "symbol": "PSLV", "name": "Sprott Physical Silver Trust", "metal": "silver", "aliases": ["Sprott silver"] },
-    { "symbol": "SLV", "name": "iShares Silver Trust", "metal": "silver", "aliases": ["SLV ETF"] },
-    { "symbol": "SIVR", "name": "abrdn Physical Silver Shares", "metal": "silver", "aliases": ["SIVR ETF"] },
-    { "symbol": "SIL", "name": "Global X Silver Miners ETF", "metal": "silver", "aliases": ["silver miners ETF"] },
-    { "symbol": "SILJ", "name": "Amplify Junior Silver Miners ETF", "metal": "silver", "aliases": ["junior silver miners ETF"] }
+    {
+      "symbol": "AEM",
+      "name": "Agnico Eagle Mines",
+      "metal": "gold",
+      "aliases": [
+        "Agnico Eagle"
+      ]
+    },
+    {
+      "symbol": "AG",
+      "name": "First Majestic Silver",
+      "metal": "silver",
+      "aliases": [
+        "First Majestic"
+      ]
+    },
+    {
+      "symbol": "AGI",
+      "name": "Alamos Gold",
+      "metal": "gold",
+      "aliases": [
+        "Alamos"
+      ]
+    },
+    {
+      "symbol": "ALB",
+      "name": "Albemarle",
+      "metal": "lithium",
+      "aliases": [
+        "Albemarle",
+        "Albemarle Corporation"
+      ]
+    },
+    {
+      "symbol": "ANFGF",
+      "name": "Antofagasta",
+      "metal": "copper",
+      "aliases": [
+        "Antofagasta",
+        "Antofagasta plc"
+      ]
+    },
+    {
+      "symbol": "AU",
+      "name": "AngloGold Ashanti",
+      "metal": "gold",
+      "aliases": [
+        "AngloGold"
+      ]
+    },
+    {
+      "symbol": "AYASF",
+      "name": "Aya Gold & Silver",
+      "metal": "silver",
+      "aliases": [
+        "Aya Gold",
+        "Aya Gold and Silver",
+        "Aya Gold & Silver Inc."
+      ]
+    },
+    {
+      "symbol": "BHP",
+      "name": "BHP Group",
+      "metal": "copper",
+      "aliases": [
+        "BHP",
+        "BHP Group",
+        "BHP Group Limited"
+      ]
+    },
+    {
+      "symbol": "BTG",
+      "name": "B2Gold",
+      "metal": "gold",
+      "aliases": [
+        "B2 Gold"
+      ]
+    },
+    {
+      "symbol": "CCJ",
+      "name": "Cameco",
+      "metal": "uranium",
+      "aliases": [
+        "Cameco",
+        "Cameco Corporation"
+      ]
+    },
+    {
+      "symbol": "CDE",
+      "name": "Coeur Mining",
+      "metal": "silver",
+      "aliases": [
+        "Coeur"
+      ]
+    },
+    {
+      "symbol": "CGAU",
+      "name": "Centerra Gold",
+      "metal": "gold",
+      "aliases": [
+        "Centerra",
+        "Centerra Gold",
+        "Centerra Gold Inc."
+      ]
+    },
+    {
+      "symbol": "COPX",
+      "name": "Global X Copper Miners ETF",
+      "metal": "copper",
+      "aliases": [
+        "COPX ETF",
+        "Copper Miners ETF",
+        "Global X Copper Miners ETF"
+      ]
+    },
+    {
+      "symbol": "CPG",
+      "name": "Centamin",
+      "metal": "gold",
+      "aliases": [
+        "Centamin",
+        "Centamin plc"
+      ]
+    },
+    {
+      "symbol": "CSFFF",
+      "name": "Capstone Copper",
+      "metal": "copper",
+      "aliases": [
+        "Capstone",
+        "Capstone Copper",
+        "Capstone Copper Corp."
+      ]
+    },
+    {
+      "symbol": "DNN",
+      "name": "Denison Mines",
+      "metal": "uranium",
+      "aliases": [
+        "Denison",
+        "Denison Mines",
+        "Denison Mines Corp."
+      ]
+    },
+    {
+      "symbol": "DRD",
+      "name": "DRDGOLD",
+      "metal": "gold",
+      "aliases": [
+        "DRDGOLD",
+        "DRDGold",
+        "DRDGOLD Limited"
+      ]
+    },
+    {
+      "symbol": "DSVSF",
+      "name": "Discovery Silver",
+      "metal": "silver",
+      "aliases": [
+        "Discovery"
+      ]
+    },
+    {
+      "symbol": "EDVMF",
+      "name": "Endeavour Mining",
+      "metal": "gold",
+      "aliases": [
+        "Endeavour Mining",
+        "Endeavour Mining plc"
+      ]
+    },
+    {
+      "symbol": "EGO",
+      "name": "Eldorado Gold",
+      "metal": "gold",
+      "aliases": [
+        "Eldorado",
+        "Eldorado Gold",
+        "Eldorado Gold Corporation"
+      ]
+    },
+    {
+      "symbol": "EQX",
+      "name": "Equinox Gold",
+      "metal": "gold",
+      "aliases": [
+        "Equinox Gold",
+        "Equinox Gold Corp."
+      ]
+    },
+    {
+      "symbol": "EXK",
+      "name": "Endeavour Silver",
+      "metal": "silver",
+      "aliases": [
+        "Endeavour"
+      ]
+    },
+    {
+      "symbol": "FCX",
+      "name": "Freeport-McMoRan",
+      "metal": "copper",
+      "aliases": [
+        "Freeport",
+        "Freeport McMoRan"
+      ]
+    },
+    {
+      "symbol": "FNV",
+      "name": "Franco-Nevada",
+      "metal": "gold",
+      "aliases": [
+        "Franco Nevada"
+      ]
+    },
+    {
+      "symbol": "FQVLF",
+      "name": "First Quantum Minerals",
+      "metal": "copper",
+      "aliases": [
+        "First Quantum",
+        "First Quantum Minerals",
+        "First Quantum Minerals Ltd."
+      ]
+    },
+    {
+      "symbol": "FSM",
+      "name": "Fortuna Mining",
+      "metal": "silver",
+      "aliases": [
+        "Fortuna",
+        "Fortuna Mining",
+        "Fortuna Mining Corp."
+      ]
+    },
+    {
+      "symbol": "GATO",
+      "name": "Gatos Silver",
+      "metal": "silver",
+      "aliases": [
+        "Gatos Silver",
+        "Gatos Silver, Inc."
+      ]
+    },
+    {
+      "symbol": "GAYMF",
+      "name": "Galiano Gold",
+      "metal": "gold",
+      "aliases": [
+        "Galiano"
+      ]
+    },
+    {
+      "symbol": "GDX",
+      "name": "VanEck Gold Miners ETF",
+      "metal": "gold",
+      "aliases": [
+        "GDX ETF",
+        "VanEck Gold Miners",
+        "VanEck Gold Miners ETF"
+      ]
+    },
+    {
+      "symbol": "GDXJ",
+      "name": "VanEck Junior Gold Miners ETF",
+      "metal": "gold",
+      "aliases": [
+        "GDXJ ETF",
+        "Junior Gold Miners ETF",
+        "VanEck Junior Gold Miners ETF"
+      ]
+    },
+    {
+      "symbol": "GFI",
+      "name": "Gold Fields",
+      "metal": "gold",
+      "aliases": [
+        "Gold Fields Limited"
+      ]
+    },
+    {
+      "symbol": "GLNCY",
+      "name": "Glencore",
+      "metal": "copper",
+      "aliases": [
+        "Glencore",
+        "Glencore plc"
+      ]
+    },
+    {
+      "symbol": "GOLD",
+      "name": "Barrick Gold",
+      "metal": "gold",
+      "aliases": [
+        "Barrick",
+        "Barrick Gold Corporation"
+      ]
+    },
+    {
+      "symbol": "HBM",
+      "name": "Hudbay Minerals",
+      "metal": "copper",
+      "aliases": [
+        "Hudbay"
+      ]
+    },
+    {
+      "symbol": "HL",
+      "name": "Hecla Mining",
+      "metal": "silver",
+      "aliases": [
+        "Hecla"
+      ]
+    },
+    {
+      "symbol": "HMY",
+      "name": "Harmony Gold",
+      "metal": "gold",
+      "aliases": [
+        "Harmony Gold Mining"
+      ]
+    },
+    {
+      "symbol": "HYMC",
+      "name": "Hycroft Mining",
+      "metal": "gold",
+      "aliases": [
+        "Hycroft"
+      ]
+    },
+    {
+      "symbol": "IAG",
+      "name": "IAMGOLD",
+      "metal": "gold",
+      "aliases": [
+        "IAMGOLD",
+        "Iamgold",
+        "IAMGOLD Corporation"
+      ]
+    },
+    {
+      "symbol": "IMPUY",
+      "name": "Impala Platinum",
+      "metal": "pgm",
+      "aliases": [
+        "Impala Platinum",
+        "Implats",
+        "Impala Platinum Holdings Limited"
+      ]
+    },
+    {
+      "symbol": "IVPAF",
+      "name": "Ivanhoe Mines",
+      "metal": "copper",
+      "aliases": [
+        "Ivanhoe",
+        "Ivanhoe Mines",
+        "Ivanhoe Mines Ltd."
+      ]
+    },
+    {
+      "symbol": "KGC",
+      "name": "Kinross Gold",
+      "metal": "gold",
+      "aliases": [
+        "Kinross"
+      ]
+    },
+    {
+      "symbol": "LAAC",
+      "name": "Lithium Argentina",
+      "metal": "lithium",
+      "aliases": [
+        "Lithium Argentina",
+        "Lithium Argentina AG"
+      ]
+    },
+    {
+      "symbol": "LAC",
+      "name": "Lithium Americas",
+      "metal": "lithium",
+      "aliases": [
+        "Lithium Americas",
+        "Lithium Americas Corp."
+      ]
+    },
+    {
+      "symbol": "LUCRF",
+      "name": "Lucara Diamond",
+      "metal": "diamond",
+      "aliases": [
+        "Lucara"
+      ]
+    },
+    {
+      "symbol": "LUG",
+      "name": "Lundin Gold",
+      "metal": "gold",
+      "aliases": [
+        "Lundin Gold",
+        "Lundin Gold Inc."
+      ]
+    },
+    {
+      "symbol": "LUNMF",
+      "name": "Lundin Mining",
+      "metal": "copper",
+      "aliases": [
+        "Lundin Mining",
+        "Lundin Mining Corporation"
+      ]
+    },
+    {
+      "symbol": "LYSCF",
+      "name": "Lynas Rare Earths",
+      "metal": "rare-earth",
+      "aliases": [
+        "Lynas",
+        "Lynas Rare Earths",
+        "Lynas Rare Earths Limited"
+      ]
+    },
+    {
+      "symbol": "MAG",
+      "name": "MAG Silver",
+      "metal": "silver",
+      "aliases": [
+        "MAG Silver Corp"
+      ]
+    },
+    {
+      "symbol": "MP",
+      "name": "MP Materials",
+      "metal": "rare-earth",
+      "aliases": [
+        "MP Materials",
+        "MP Materials Corp."
+      ]
+    },
+    {
+      "symbol": "MPVDF",
+      "name": "Mountain Province Diamonds",
+      "metal": "diamond",
+      "aliases": [
+        "Mountain Province"
+      ]
+    },
+    {
+      "symbol": "MUX",
+      "name": "McEwen Mining",
+      "metal": "silver",
+      "aliases": [
+        "McEwen",
+        "McEwen Mining",
+        "McEwen Mining Inc."
+      ]
+    },
+    {
+      "symbol": "NEM",
+      "name": "Newmont",
+      "metal": "gold",
+      "aliases": [
+        "Newmont Corporation"
+      ]
+    },
+    {
+      "symbol": "NGD",
+      "name": "New Gold",
+      "metal": "gold",
+      "aliases": [
+        "New Gold",
+        "New Gold Inc."
+      ]
+    },
+    {
+      "symbol": "NGLOY",
+      "name": "Anglo American",
+      "metal": "diamond",
+      "aliases": [
+        "De Beers"
+      ]
+    },
+    {
+      "symbol": "NXE",
+      "name": "NexGen Energy",
+      "metal": "uranium",
+      "aliases": [
+        "NexGen",
+        "NexGen Energy",
+        "NexGen Energy Ltd."
+      ]
+    },
+    {
+      "symbol": "OR",
+      "name": "Osisko Gold Royalties",
+      "metal": "gold",
+      "aliases": [
+        "Osisko"
+      ]
+    },
+    {
+      "symbol": "ORLA",
+      "name": "Orla Mining",
+      "metal": "gold",
+      "aliases": [
+        "Orla",
+        "Orla Mining",
+        "Orla Mining Ltd."
+      ]
+    },
+    {
+      "symbol": "PAAS",
+      "name": "Pan American Silver",
+      "metal": "silver",
+      "aliases": [
+        "Pan American"
+      ]
+    },
+    {
+      "symbol": "PALAF",
+      "name": "Paladin Energy",
+      "metal": "uranium",
+      "aliases": [
+        "Paladin",
+        "Paladin Energy",
+        "Paladin Energy Ltd."
+      ]
+    },
+    {
+      "symbol": "PICK",
+      "name": "iShares MSCI Global Metals & Mining Producers ETF",
+      "metal": "diversified",
+      "aliases": [
+        "PICK ETF",
+        "Global Metals and Mining Producers ETF",
+        "iShares MSCI Global Metals & Mining Producers ETF"
+      ]
+    },
+    {
+      "symbol": "PILBF",
+      "name": "Pilbara Minerals",
+      "metal": "lithium",
+      "aliases": [
+        "Pilbara",
+        "Pilbara Minerals",
+        "Pilbara Minerals Limited"
+      ]
+    },
+    {
+      "symbol": "PSLV",
+      "name": "Sprott Physical Silver Trust",
+      "metal": "silver",
+      "aliases": [
+        "Sprott silver"
+      ]
+    },
+    {
+      "symbol": "PZG",
+      "name": "Paramount Gold Nevada",
+      "metal": "gold",
+      "aliases": [
+        "Paramount Gold"
+      ]
+    },
+    {
+      "symbol": "RGLD",
+      "name": "Royal Gold",
+      "metal": "gold",
+      "aliases": [
+        "Royal Gold Inc"
+      ]
+    },
+    {
+      "symbol": "RIO",
+      "name": "Rio Tinto",
+      "metal": "diamond",
+      "aliases": [
+        "Diavik"
+      ]
+    },
+    {
+      "symbol": "SAND",
+      "name": "Sandstorm Gold",
+      "metal": "silver",
+      "aliases": [
+        "Sandstorm",
+        "Sandstorm Gold",
+        "Sandstorm Gold Ltd."
+      ]
+    },
+    {
+      "symbol": "SBSW",
+      "name": "Sibanye Stillwater",
+      "metal": "pgm",
+      "aliases": [
+        "Sibanye",
+        "Sibanye Stillwater",
+        "Sibanye Stillwater Limited"
+      ]
+    },
+    {
+      "symbol": "SCCO",
+      "name": "Southern Copper",
+      "metal": "copper",
+      "aliases": [
+        "Southern Copper Corporation"
+      ]
+    },
+    {
+      "symbol": "SGML",
+      "name": "Sigma Lithium",
+      "metal": "lithium",
+      "aliases": [
+        "Sigma Lithium",
+        "Sigma Lithium Corporation"
+      ]
+    },
+    {
+      "symbol": "SIL",
+      "name": "Global X Silver Miners ETF",
+      "metal": "silver",
+      "aliases": [
+        "silver miners ETF"
+      ]
+    },
+    {
+      "symbol": "SILJ",
+      "name": "Amplify Junior Silver Miners ETF",
+      "metal": "silver",
+      "aliases": [
+        "junior silver miners ETF"
+      ]
+    },
+    {
+      "symbol": "SILV",
+      "name": "SilverCrest Metals",
+      "metal": "silver",
+      "aliases": [
+        "SilverCrest"
+      ]
+    },
+    {
+      "symbol": "SIVR",
+      "name": "abrdn Physical Silver Shares",
+      "metal": "silver",
+      "aliases": [
+        "SIVR ETF"
+      ]
+    },
+    {
+      "symbol": "SKE",
+      "name": "Skeena Resources",
+      "metal": "silver",
+      "aliases": [
+        "Skeena",
+        "Skeena Resources",
+        "Skeena Resources Limited"
+      ]
+    },
+    {
+      "symbol": "SLV",
+      "name": "iShares Silver Trust",
+      "metal": "silver",
+      "aliases": [
+        "SLV ETF"
+      ]
+    },
+    {
+      "symbol": "SQM",
+      "name": "SQM",
+      "metal": "lithium",
+      "aliases": [
+        "SQM",
+        "Sociedad Quimica y Minera",
+        "Sociedad Quimica y Minera de Chile S.A."
+      ]
+    },
+    {
+      "symbol": "SSRM",
+      "name": "SSR Mining",
+      "metal": "gold",
+      "aliases": [
+        "SSR Mining",
+        "SSR",
+        "SSR Mining Inc."
+      ]
+    },
+    {
+      "symbol": "SVM",
+      "name": "Silvercorp Metals",
+      "metal": "silver",
+      "aliases": [
+        "Silvercorp"
+      ]
+    },
+    {
+      "symbol": "TECK",
+      "name": "Teck Resources",
+      "metal": "copper",
+      "aliases": [
+        "Teck"
+      ]
+    },
+    {
+      "symbol": "TGB",
+      "name": "Taseko Mines",
+      "metal": "copper",
+      "aliases": [
+        "Taseko"
+      ]
+    },
+    {
+      "symbol": "TMQ",
+      "name": "Trilogy Metals",
+      "metal": "copper",
+      "aliases": [
+        "Trilogy Metals",
+        "Trilogy Metals Inc."
+      ]
+    },
+    {
+      "symbol": "TRQ",
+      "name": "Turquoise Hill",
+      "metal": "copper",
+      "aliases": [
+        "Oyu Tolgoi"
+      ]
+    },
+    {
+      "symbol": "UEC",
+      "name": "Uranium Energy",
+      "metal": "uranium",
+      "aliases": [
+        "Uranium Energy",
+        "UEC",
+        "Uranium Energy Corp."
+      ]
+    },
+    {
+      "symbol": "URNM",
+      "name": "Sprott Uranium Miners ETF",
+      "metal": "uranium",
+      "aliases": [
+        "URNM ETF",
+        "Sprott Uranium Miners",
+        "Sprott Uranium Miners ETF"
+      ]
+    },
+    {
+      "symbol": "UUUU",
+      "name": "Energy Fuels",
+      "metal": "uranium",
+      "aliases": [
+        "Energy Fuels",
+        "Energy Fuels Inc."
+      ]
+    },
+    {
+      "symbol": "VALE",
+      "name": "Vale",
+      "metal": "copper",
+      "aliases": [
+        "Vale",
+        "Vale SA",
+        "Vale S.A."
+      ]
+    },
+    {
+      "symbol": "WPM",
+      "name": "Wheaton Precious Metals",
+      "metal": "silver",
+      "aliases": [
+        "Wheaton"
+      ]
+    }
   ]
 }
