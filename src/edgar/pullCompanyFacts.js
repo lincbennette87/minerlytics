@@ -22,16 +22,41 @@ if (!userAgent) {
 const rps = rules.edgar?.rps ?? 1;
 const throttle = createThrottle(rps);
 
-// Metrics mapping: metricKey -> possible US-GAAP tags (we try in order)
+// Metrics mapping: metricKey -> taxonomy/tag pairs tried in order.
 const METRICS = {
-  revenue: ["Revenues", "SalesRevenueNet"],
-  netIncome: ["NetIncomeLoss", "ProfitLoss"],
-  assets: ["Assets"],
-  liabilities: ["Liabilities"],
-  cashFlowOps: ["NetCashProvidedByUsedInOperatingActivities"],
-  epsBasic: ["EarningsPerShareBasic"],
-  epsDiluted: ["EarningsPerShareDiluted"],
-  sharesOutstanding: ["CommonStockSharesOutstanding"]
+  revenue: [
+    { taxonomy: "us-gaap", tag: "Revenues" },
+    { taxonomy: "us-gaap", tag: "SalesRevenueNet" }
+  ],
+  netIncome: [
+    { taxonomy: "us-gaap", tag: "NetIncomeLoss" },
+    { taxonomy: "us-gaap", tag: "ProfitLoss" }
+  ],
+  assets: [
+    { taxonomy: "us-gaap", tag: "Assets" },
+    { taxonomy: "ifrs-full", tag: "Assets" }
+  ],
+  liabilities: [
+    { taxonomy: "us-gaap", tag: "Liabilities" },
+    { taxonomy: "ifrs-full", tag: "Liabilities" }
+  ],
+  cashFlowOps: [
+    { taxonomy: "us-gaap", tag: "NetCashProvidedByUsedInOperatingActivities" },
+    { taxonomy: "ifrs-full", tag: "CashFlowsFromUsedInOperatingActivities" }
+  ],
+  epsBasic: [
+    { taxonomy: "us-gaap", tag: "EarningsPerShareBasic" },
+    { taxonomy: "ifrs-full", tag: "BasicEarningsLossPerShareFromContinuingOperations" }
+  ],
+  epsDiluted: [
+    { taxonomy: "us-gaap", tag: "EarningsPerShareDiluted" },
+    { taxonomy: "ifrs-full", tag: "DilutedEarningsLossPerShareFromContinuingOperations" }
+  ],
+  sharesOutstanding: [
+    { taxonomy: "us-gaap", tag: "CommonStockSharesOutstanding" },
+    { taxonomy: "dei", tag: "EntityCommonStockSharesOutstanding" },
+    { taxonomy: "dei", tag: "EntityPublicFloatShares" }
+  ]
 };
 
 function pickLatestFact(factsArr) {
@@ -59,9 +84,13 @@ function chooseUnit(unitsObj, localTagName) {
   return unitKeys[0];
 }
 
-function extractLatest(usgaap, tagList) {
-  for (const tag of tagList) {
-    const node = usgaap?.[tag];
+function extractLatest(factsByTaxonomy, refs) {
+  for (const ref of refs) {
+    const taxonomy = ref?.taxonomy;
+    const tag = ref?.tag;
+    if (!taxonomy || !tag) continue;
+
+    const node = factsByTaxonomy?.[taxonomy]?.[tag];
     if (!node?.units) continue;
 
     const unit = chooseUnit(node.units, tag);
@@ -75,6 +104,7 @@ function extractLatest(usgaap, tagList) {
     const latest = pickLatestFact(arr);
 
     return {
+      taxonomy,
       tag,
       unit,
       end: latest.end || null,
@@ -117,9 +147,9 @@ async function main() {
       continue;
     }
 
-    const usgaap = data?.facts?.["us-gaap"];
-    if (!usgaap) {
-      console.log(`Skip ${ticker}: no us-gaap facts`);
+    const factsByTaxonomy = data?.facts || {};
+    if (!Object.keys(factsByTaxonomy).length) {
+      console.log(`Skip ${ticker}: no company facts taxonomy data`);
       skipped++;
       continue;
     }
@@ -131,8 +161,8 @@ async function main() {
       asOf: new Date().toISOString()
     };
 
-    for (const [metric, tags] of Object.entries(METRICS)) {
-      row[metric] = extractLatest(usgaap, tags);
+    for (const [metric, refs] of Object.entries(METRICS)) {
+      row[metric] = extractLatest(factsByTaxonomy, refs);
     }
 
     fundamentals.push(row);

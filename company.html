@@ -412,6 +412,11 @@
         </div>
         <div class="metric-grid">
           <div class="mini-card">
+            <div class="mini-label">Market Cap</div>
+            <div class="mini-value" style="font-size:20px;" id="finMarketCap">—</div>
+            <div class="mini-sub" id="finMarketCapMeta">—</div>
+          </div>
+          <div class="mini-card">
             <div class="mini-label">Revenue</div>
             <div class="mini-value" style="font-size:20px;" id="finRevenue">—</div>
             <div class="mini-sub" id="finRevenueMeta">—</div>
@@ -573,6 +578,10 @@
       const num = Number(value);
       if (!Number.isFinite(num)) return "Not available";
       return `${num >= 0 ? "+" : ""}${num.toFixed(2)}%`;
+    }
+
+    function fmtMarketCap(value) {
+      return fmtCurrency(value);
     }
 
     function relTime(value) {
@@ -864,6 +873,11 @@
         );
         const epsFact = chooseLatestFact(fundamental.epsDiluted, fundamental.epsBasic);
         const sharesFact = chooseLatestFact(fundamental.sharesOutstanding);
+        const sharesValue = Number(firstDefined(sharesFact?.val, sharesFact?.value));
+        const latestCloseValue = Number(latestPoint?.close);
+        const marketCapValue = Number.isFinite(sharesValue) && Number.isFinite(latestCloseValue)
+          ? sharesValue * latestCloseValue
+          : null;
         const currentAssetsFact = getBalanceFact(
           balanceSheet,
           legacySheet,
@@ -917,6 +931,13 @@
         renderFinancialFact("finEquity", "finEquityMeta", equityFact);
         renderFinancialFact("finEps", "finEpsMeta", epsFact, (value) => String(Number(value)));
         renderFinancialFact("finShares", "finSharesMeta", sharesFact, fmtNumber);
+        setText("finMarketCap", marketCapValue !== null ? fmtMarketCap(marketCapValue) : "Not available");
+        setText(
+          "finMarketCapMeta",
+          marketCapValue !== null
+            ? `Computed from latest close ${formatDateLabelSafe(latestPoint?.date)} × ${fmtFactMeta(sharesFact)}`
+            : "Needs both latest close and shares outstanding"
+        );
 
         const snapshotFacts = [revenueFact, netIncomeFact, assetsFact, liabilitiesFact, cashFact, equityFact, epsFact, sharesFact].filter(Boolean);
         const latestSnapshotFact = snapshotFacts.sort((a, b) => factRank(b) - factRank(a))[0] || null;
@@ -982,6 +1003,13 @@
       } finally {
         hidePageLoader();
       }
+    }
+
+    function formatDateLabelSafe(value) {
+      if (!value) return "recent price";
+      const date = new Date(`${value}T00:00:00`);
+      if (Number.isNaN(date.getTime())) return String(value);
+      return date.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
     }
 
     companySearchBtn?.addEventListener("click", runCompanySearch);
