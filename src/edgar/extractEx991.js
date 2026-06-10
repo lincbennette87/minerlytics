@@ -295,7 +295,16 @@ async function processCompany(item) {
     };
   }
 
-  const recentFilings = await fetchRecentFilings(cik);
+  let recentFilings = [];
+  try {
+    recentFilings = await fetchRecentFilings(cik);
+  } catch (err) {
+    return [{
+      ticker,
+      cik: zeroPadCik(cik),
+      error: `Could not load SEC submissions feed: ${err.message}`,
+    }];
+  }
 
   const outputs = [];
 
@@ -344,6 +353,7 @@ async function processCompany(item) {
 async function run() {
   const universe = await loadUniverse();
   const manifest = [];
+  let companyFailures = 0;
 
   await fs.mkdir(OUTPUT_DIR, { recursive: true });
 
@@ -376,11 +386,14 @@ async function run() {
         outputText: record?.report?.text ? `${base}.txt` : null,
         error: record.error || null,
       });
+
+      if (record.error) companyFailures++;
     }
   }
 
   await writeJson(path.join(OUTPUT_DIR, "_manifest.json"), manifest);
   console.log(`Wrote ${manifest.length} records to ${OUTPUT_DIR}`);
+  console.log(`Companies/records with errors: ${companyFailures}`);
 }
 
 run().catch((err) => {
