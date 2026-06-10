@@ -215,6 +215,365 @@
       border-radius: 1px;
     }
 
+    .trainingHero{
+      position: relative;
+      overflow: hidden;
+      padding: 22px;
+      border-radius: 22px;
+      border: 1px solid rgba(255,255,255,.08);
+      background:
+        radial-gradient(circle at top right, rgba(154,122,74,.16), transparent 34%),
+        linear-gradient(135deg, rgba(154,122,74,.10), rgba(110,122,113,.08)),
+        rgba(255,255,255,.025);
+      margin-bottom: 18px;
+    }
+
+    .trainingHero h2{
+      margin: 0 0 10px;
+      font-size: clamp(28px, 4vw, 44px);
+      line-height: 1.05;
+      color: #fff;
+    }
+
+    .trainingHero p{
+      margin: 0;
+      max-width: 860px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .progression{
+      display:grid;
+      grid-template-columns: 1fr auto 1fr auto 1fr;
+      gap: 14px;
+      align-items: stretch;
+      margin: 20px 0 26px;
+    }
+
+    .stageCard{
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 22px;
+      background: rgba(255,255,255,.03);
+      overflow: hidden;
+      box-shadow: 0 10px 26px rgba(0,0,0,.22);
+    }
+
+    .stageHead{
+      padding: 18px 18px 16px;
+      display:flex;
+      align-items:center;
+      gap:14px;
+      color:#fff;
+    }
+
+    .stageCard.explorer .stageHead{
+      background: linear-gradient(135deg, rgba(110,122,113,.92), rgba(83,107,92,.88));
+    }
+
+    .stageCard.developer .stageHead{
+      background: linear-gradient(135deg, rgba(90,105,124,.92), rgba(61,78,97,.88));
+    }
+
+    .stageCard.producer .stageHead{
+      background: linear-gradient(135deg, rgba(154,122,74,.96), rgba(119,95,59,.90));
+    }
+
+    .stageIcon{
+      width: 52px;
+      height: 52px;
+      flex: 0 0 auto;
+      border-radius: 50%;
+      display:grid;
+      place-items:center;
+      font-size: 26px;
+      background: rgba(255,255,255,.14);
+      border: 1px solid rgba(255,255,255,.24);
+    }
+
+    .stageHead h3{
+      margin: 0;
+      font-size: 24px;
+      line-height: 1;
+      color:#fff;
+    }
+
+    .stageHead span{
+      display:block;
+      margin-top: 6px;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.78);
+    }
+
+    .stageBody{
+      padding: 18px;
+    }
+
+    .stageBody h4{
+      margin: 0 0 10px;
+      font-size: 16px;
+      color:#fff;
+    }
+
+    .stageBody ul{
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .stageBody li{
+      margin: 6px 0;
+      color: rgba(234,240,255,.82);
+    }
+
+    .riskPill{
+      margin-top: 16px;
+      padding: 12px 14px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.08);
+      background: rgba(255,255,255,.03);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .stageArrow{
+      align-self:center;
+      color: rgba(243,239,230,.42);
+      font-size: 34px;
+      font-weight: 900;
+    }
+
+    .info-trigger {
+      appearance: none;
+      border: 0;
+      background: transparent;
+      color: inherit;
+      cursor: pointer;
+      font: inherit;
+      line-height: inherit;
+      padding: 2px 4px;
+      margin: -2px -4px;
+      text-align: left;
+      border-radius: 8px;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+      text-decoration-color: rgba(154,122,74,.38);
+    }
+
+    .info-trigger:hover,
+    .info-trigger:focus-visible {
+      background: rgba(154,122,74,.10);
+      color: #f1d7a7;
+      outline: none;
+    }
+
+    .timeline{
+      display:grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+      margin: 0 0 24px;
+    }
+
+    .milestone{
+      min-height: 96px;
+      padding: 14px;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,.08);
+      background: rgba(255,255,255,.028);
+    }
+
+    .milestone strong{
+      display:block;
+      margin-bottom: 6px;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color:#fff;
+    }
+
+    .milestone p{
+      margin: 0;
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .matrix{
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 22px;
+      background: rgba(255,255,255,.03);
+      overflow: hidden;
+      margin-bottom: 22px;
+    }
+
+    .matrixTitle{
+      padding: 18px 20px;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+
+    .matrixTitle h2{
+      margin: 0;
+      font-size: 24px;
+      color:#fff;
+    }
+
+    .matrixTitle p{
+      margin: 5px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .trainingTable{
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    .trainingTable th,
+    .trainingTable td{
+      padding: 16px;
+      vertical-align: top;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      border-right: 1px solid rgba(255,255,255,.08);
+    }
+
+    .trainingTable th:last-child,
+    .trainingTable td:last-child{
+      border-right: 0;
+    }
+
+    .trainingTable tr:last-child td{
+      border-bottom: 0;
+    }
+
+    .trainingTable th{
+      text-align: left;
+      font-size: 15px;
+      color:#fff;
+    }
+
+    .thFocus{ background: rgba(255,255,255,.05); }
+    .thExplorer{ background: rgba(110,122,113,.84); }
+    .thDeveloper{ background: rgba(73,90,110,.92); }
+    .thProducer{ background: rgba(154,122,74,.92); }
+    .focusCell{
+      width: 17%;
+      background: rgba(255,255,255,.03);
+      color:#fff;
+      font-weight: 800;
+    }
+
+    .kpi-list{
+      margin: 0;
+      padding-left: 18px;
+      line-height: 1.55;
+    }
+
+    .healthy{ color: #a9d2b3; font-weight: 800; }
+    .warning{ color: #f0b0a2; font-weight: 800; }
+    .mutedInline{ color: var(--muted); }
+
+    .takeaway{
+      display:grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    .takeawayCard{
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 18px;
+      background: rgba(255,255,255,.03);
+      padding: 18px;
+    }
+
+    .takeawayCard h3{
+      margin: 0 0 8px;
+      font-size: 18px;
+      color:#fff;
+    }
+
+    .takeawayCard p{
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .footerNote{
+      padding: 16px 18px;
+      border-radius: 18px;
+      border: 1px solid rgba(255,255,255,.08);
+      background: linear-gradient(135deg, rgba(154,122,74,.10), rgba(110,122,113,.08));
+      color:#fff;
+      text-align:center;
+      font-weight:800;
+      font-size: 14px;
+    }
+
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 22px;
+      background: rgba(6,8,10,.62);
+      backdrop-filter: blur(10px);
+      z-index: 12010;
+    }
+
+    .modal-backdrop.open {
+      display: flex;
+    }
+
+    .modal {
+      width: min(560px, 100%);
+      background: rgba(17,19,21,.98);
+      border-radius: 18px;
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.46);
+      border: 1px solid rgba(255,255,255,.10);
+      overflow: hidden;
+    }
+
+    .modal-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 18px 20px;
+      color: white;
+      background: linear-gradient(135deg, rgba(154,122,74,.94), rgba(110,122,113,.72));
+    }
+
+    .modal-head h2 {
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.1;
+      color:#fff;
+    }
+
+    .modal-close {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,.28);
+      background: rgba(255,255,255,.12);
+      color: white;
+      font-size: 24px;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .modal-body {
+      padding: 20px;
+      color: rgba(234,240,255,.88);
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
     .quick-list{
       list-style: disc;
       padding-left: 18px;
@@ -697,6 +1056,20 @@
         grid-template-columns: 1fr;
       }
 
+      .progression{
+        grid-template-columns: 1fr;
+      }
+
+      .stageArrow{
+        transform: rotate(90deg);
+        text-align: center;
+      }
+
+      .timeline,
+      .takeaway{
+        grid-template-columns: 1fr;
+      }
+
       .assistantCard{
         position: relative;
         top: 0;
@@ -745,6 +1118,44 @@
         padding: 22px 14px 40px;
       }
 
+      .trainingTable,
+      .trainingTable thead,
+      .trainingTable tbody,
+      .trainingTable th,
+      .trainingTable td,
+      .trainingTable tr{
+        display:block;
+      }
+
+      .trainingTable thead{
+        display:none;
+      }
+
+      .trainingTable tr{
+        border-bottom: 1px solid rgba(255,255,255,.08);
+      }
+
+      .trainingTable td{
+        border-right: 0;
+      }
+
+      .trainingTable td::before{
+        content: attr(data-label);
+        display:block;
+        margin-bottom: 8px;
+        font-weight: 900;
+        color:#fff;
+      }
+
+      .focusCell{
+        width:auto;
+        background: rgba(255,255,255,.06);
+      }
+
+      .focusCell::before{
+        display:none;
+      }
+
       .chatWindow{
         max-height: 420px;
       }
@@ -784,171 +1195,155 @@
   <main class="pageWrap">
     <section class="pageIntro">
       <div class="eyebrow">Research Framework + AI Q&A</div>
-      <h1 class="pageTitle">Education Portal</h1>
+      <h1 class="pageTitle">Mining Company Progression</h1>
       <p class="pageSubtitle">
-        Learn how to evaluate miners and commodities — and ask the Minerlytics Education Portal AI Assistant questions based on the transcript library stored in Cloudflare D1.
+        Learn how miners move from discovery to cash flow, what metrics matter at each stage, and how to connect that framework to Minerlytics research.
       </p>
     </section>
 
     <section class="layout">
       <div class="card">
         <div class="sectionTitleRow">
-          <span class="sectionTitle">Education Portal</span>
+          <span class="sectionTitle">Training Framework</span>
+        </div>
+        <div class="trainingHero">
+          <h2>Mining Company Progression: From Discovery to Cash Flow</h2>
+          <p>A practical framework for classifying miners by stage, risk, valuation focus, and the KPIs that matter most.</p>
         </div>
 
-        <p>
-          <strong>Minerlytics AI</strong> provides retail investors with an accessible, research-grade AI platform that empowers deep, data-driven
-          analysis of miners and commodities so they can make informed investment decisions with confidence. We enable retail investors of mining and precious-metals who
-          want faster signal discovery and cleaner decision support. We bring together market data, thematic watchlists, and structured workflows so you can track what’s moving miners —
-          without juggling ten different tabs.
-        </p>
+        <section class="progression" aria-label="Mining company progression stages">
+          <article class="stageCard explorer">
+            <div class="stageHead"><div class="stageIcon">🔎</div><div><h3>1. Explorer</h3><span>Find it</span></div></div>
+            <div class="stageBody">
+              <h4>Discover and define an economic deposit</h4>
+              <ul>
+                <li><button class="info-trigger" type="button" data-title="Explore and identify targets" data-summary="This is the work of narrowing a broad land package into specific areas with the best chance of hosting mineralization. It matters because good targets focus scarce exploration dollars on the places most likely to create a discovery.">Explore and identify targets</button></li>
+                <li><button class="info-trigger" type="button" data-title="Drilling, sampling, and assays" data-summary="Sampling and drilling test whether the geology actually contains meaningful gold, silver, or other minerals, while assays measure grade. These results are often the first hard evidence that separates a credible explorer from a promotional story.">Drilling, sampling, and assays</button></li>
+                <li><button class="info-trigger" type="button" data-title="Define mineral resources" data-summary="A mineral resource estimate turns drill results into quantified tonnage, grade, and contained ounces. It is important because investors can begin comparing scale, quality, and confidence instead of relying only on isolated drill intercepts.">Define mineral resources</button></li>
+                <li><button class="info-trigger" type="button" data-title="Build early economic potential" data-summary="Early economic potential means connecting the geology to possible mining, processing, costs, recoveries, and metal prices. It matters because ounces only become valuable if they have a plausible path to profitable extraction.">Build early economic potential</button></li>
+              </ul>
+              <div class="riskPill">High risk · high reward · little to no revenue</div>
+            </div>
+          </article>
 
-        <h2>High level industry overview</h2>
-        <ul>
-          <li>The mining sector is cyclical, capital intensive and asset depleting: producers exhaust resources and must continually replace reserves through exploration, development or M&amp;A.</li>
-          <li>Key participant types:
-            <ul>
-              <li><strong>Majors:</strong> large, diversified producers with scale, FCF generation and balance sheet access.</li>
-              <li><strong>Developers / Juniors:</strong> discovery → de risk → finance → construct; high optionality, long timelines and dilution risk.</li>
-              <li><strong>Royalties/Streams:</strong> asset light, low sustaining capex, stable cash yields and different risk/return profile.</li>
-            </ul>
-          </li>
-          <li>Cycles and macro forces dominate returns; successful investors often buy when assets are out of favor and sell when future upside is already fully priced in.</li>
-        </ul>
+          <div class="stageArrow">→</div>
 
-        <div class="separator"></div>
+          <article class="stageCard developer">
+            <div class="stageHead"><div class="stageIcon">📋</div><div><h3>2. Developer</h3><span>Build it</span></div></div>
+            <div class="stageBody">
+              <h4>De-risk and finance a mine</h4>
+              <ul>
+                <li><button class="info-trigger" type="button" data-title="PEA, PFS, and feasibility studies" data-summary="These studies estimate project economics at increasing levels of engineering confidence, including NPV, IRR, capex, operating costs, and mine plan assumptions. They matter because they are the bridge between a mineral deposit and a financeable mine.">PEA, PFS, and feasibility studies</button></li>
+                <li><button class="info-trigger" type="button" data-title="Permitting and environmental approvals" data-summary="Permitting confirms whether the project can legally proceed under environmental, water, land, and community requirements. It is important because even strong economics can stall if approvals are delayed or denied.">Permitting and environmental approvals</button></li>
+                <li><button class="info-trigger" type="button" data-title="Project financing" data-summary="Project financing is the capital package used to build the mine, often combining equity, debt, streams, royalties, or strategic investments. It matters because financing terms can determine how much value existing shareholders keep.">Project financing</button></li>
+                <li><button class="info-trigger" type="button" data-title="Construction planning and execution" data-summary="Construction planning turns the study into a schedule, budget, procurement plan, and build sequence. Execution matters because overruns and delays can quickly weaken a project's original economics.">Construction planning and execution</button></li>
+              </ul>
+              <div class="riskPill">Moderate risk · de-risking · usually no revenue</div>
+            </div>
+          </article>
 
-        <h2>Core variables to review</h2>
-        <ol>
-          <li><strong>Balance sheet flexibility and cost of capital</strong></li>
-          <li><strong>Free cash flow profile and capital allocation</strong></li>
-          <li><strong>Management quality and technical franchise</strong></li>
-          <li><strong>Project economics and study credibility</strong></li>
-          <li><strong>Funding path and dilution risk</strong></li>
-          <li><strong>Execution capability and governance discipline</strong></li>
-          <li><strong>Jurisdictional and political risk</strong></li>
-          <li><strong>Valuation relative to cycle posture</strong></li>
-        </ol>
+          <div class="stageArrow">→</div>
 
-        <div class="separator"></div>
+          <article class="stageCard producer">
+            <div class="stageHead"><div class="stageIcon">🚚</div><div><h3>3. Producer</h3><span>Mine it &amp; profit</span></div></div>
+            <div class="stageBody">
+              <h4>Generate sustainable production and cash flow</h4>
+              <ul>
+                <li><button class="info-trigger" type="button" data-title="Mine operations and processing" data-summary="Operations include extracting ore, moving material, processing it, and recovering payable metal. This matters because consistent throughput, grade, and recovery drive whether a mine can meet production guidance.">Mine operations and processing</button></li>
+                <li><button class="info-trigger" type="button" data-title="Sell gold or silver" data-summary="Selling metal converts production into revenue and cash flow, usually tied to realized gold or silver prices after refining and selling costs. It matters because revenue is where the producer's operating model becomes measurable.">Sell gold or silver</button></li>
+                <li><button class="info-trigger" type="button" data-title="Control costs and margins" data-summary="Cost control tracks metrics such as cash costs and all-in sustaining costs against realized metal prices. It is important because producers create value when margins stay healthy through price cycles and operating disruptions.">Control costs and margins</button></li>
+                <li><button class="info-trigger" type="button" data-title="Replace reserves and extend mine life" data-summary="Reserve replacement means adding enough economically mineable ounces to offset what was produced. It matters because a producer with shrinking reserves may generate cash today while losing long-term value.">Replace reserves and extend mine life</button></li>
+              </ul>
+              <div class="riskPill">Lower risk · cash generative · revenue from metal sales</div>
+            </div>
+          </article>
+        </section>
 
- <h2>Core variables to review (and why they matter)</h2>
+        <section class="timeline" aria-label="Mining lifecycle timeline">
+          <div class="milestone"><strong>Discovery</strong><p>Concept, target generation, and first drill results.</p></div>
+          <div class="milestone"><strong>Resource Definition</strong><p>Inferred to indicated to measured resources.</p></div>
+          <div class="milestone"><strong>Development</strong><p>Studies, permits, financing, and construction.</p></div>
+          <div class="milestone"><strong>Production</strong><p>Operations, metal sales, margins, and cash flow.</p></div>
+          <div class="milestone"><strong>Mine Life Extension</strong><p>Expansion, reserve replacement, and new projects.</p></div>
+        </section>
 
-        <ol>
-          <li>
-            <strong>Balance sheet flexibility and capital cost</strong>
-            <ul class="indent">
-              <li><strong>What to check:</strong> leverage ratios (debt/asset; debt/funded capital), debt tenor and structure, cash on hand, undrawn lines, cost of debt/equity.</li>
-              <li><strong>Why it matters:</strong> access and cost of capital determine whether the company can fund sustaining capex, growth or survive downturns.
-                Long maturities and low leverage reduce refinancing and revocation risk.</li>
-            </ul>
-          </li>
+        <section class="matrix">
+          <div class="matrixTitle">
+            <h2>Stage-Specific KPI Dashboard</h2>
+            <p>Different goals require different metrics.</p>
+          </div>
+          <table class="trainingTable">
+            <thead>
+              <tr>
+                <th class="thFocus">Focus</th>
+                <th class="thExplorer">Explorer</th>
+                <th class="thDeveloper">Developer</th>
+                <th class="thProducer">Producer</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="focusCell">Primary Objective</td>
+                <td data-label="Explorer">Discover and define an economic deposit.</td>
+                <td data-label="Developer">Advance a deposit into a financeable mine.</td>
+                <td data-label="Producer">Generate profitable production and cash flow.</td>
+              </tr>
+              <tr>
+                <td class="focusCell">Key KPIs</td>
+                <td data-label="Explorer"><ul class="kpi-list">
+                  <li><button class="info-trigger" type="button" data-title="Resource growth" data-summary="Resource growth measures whether drilling is adding more contained ounces or improving confidence in existing ounces. It matters because explorers create value by proving that a discovery is larger, better defined, or more economic than before.">Resource growth</button></li>
+                  <li><button class="info-trigger" type="button" data-title="Drill success rate and grade" data-summary="Drill success rate tracks how often holes hit meaningful mineralization, while grade shows the concentration of metal in the rock. Together they help investors judge whether exploration results are repeatable and potentially economic.">Drill success rate and grade</button></li>
+                  <li><button class="info-trigger" type="button" data-title="Discovery cost per ounce" data-summary="Discovery cost per ounce estimates how much exploration spending is required to add each ounce of resource. It matters because efficient explorers can create more value with less shareholder dilution.">Discovery cost per ounce</button></li>
+                  <li><button class="info-trigger" type="button" data-title="Cash balance and runway" data-summary="Cash balance and runway show how long the company can keep exploring before it needs more capital. This is important because explorers usually have no revenue and often depend on equity financing.">Cash balance and runway</button></li>
+                </ul></td>
+                <td data-label="Developer"><ul class="kpi-list">
+                  <li><button class="info-trigger" type="button" data-title="NPV and IRR" data-summary="Net present value estimates the project's value today, while internal rate of return measures expected return on invested capital. These are central developer KPIs because they show whether the project economics justify financing and construction risk.">NPV and IRR</button></li>
+                  <li><button class="info-trigger" type="button" data-title="Payback period" data-summary="Payback period estimates how quickly initial capital is recovered after production begins. It matters because shorter payback can reduce financing risk and improve resilience if metal prices weaken.">Payback period</button></li>
+                  <li><button class="info-trigger" type="button" data-title="CapEx and capital intensity" data-summary="CapEx is the upfront capital needed to build the mine, while capital intensity compares that spend to output or resource scale. These metrics matter because large or rising capital needs can dilute shareholders or make financing harder.">CapEx and capital intensity</button></li>
+                  <li><button class="info-trigger" type="button" data-title="Permitting and financing progress" data-summary="Permitting and financing progress tracks whether the project is moving from study-stage concept toward a buildable mine. It matters because a strong technical study still has limited value if approvals or funding remain uncertain.">Permitting and financing progress</button></li>
+                </ul></td>
+                <td data-label="Producer"><ul class="kpi-list">
+                  <li><button class="info-trigger" type="button" data-title="Production ounces" data-summary="Production ounces measure how much gold or silver the company actually produces during a period. This matters because production is the operating base for revenue, cost absorption, cash flow, and guidance credibility.">Production ounces</button></li>
+                  <li><button class="info-trigger" type="button" data-title="AISC and margins" data-summary="All-in sustaining cost estimates the cost to produce and sustain each ounce, while margin compares that cost against realized metal prices. It is important because producers with lower AISC and wider margins are better positioned through commodity cycles.">AISC and margins</button></li>
+                  <li><button class="info-trigger" type="button" data-title="Free cash flow" data-summary="Free cash flow shows cash generated after operating needs and capital spending. It matters because it indicates whether a producer can fund growth, reduce debt, pay dividends, or withstand downturns.">Free cash flow</button></li>
+                  <li><button class="info-trigger" type="button" data-title="Reserve replacement and mine life" data-summary="Reserve replacement measures whether the company is adding mineable ounces to offset depletion, while mine life shows how long current reserves can support production. These matter because a producer's long-term value depends on replacing what it mines.">Reserve replacement and mine life</button></li>
+                </ul></td>
+              </tr>
+              <tr>
+                <td class="focusCell">Healthy Signs</td>
+                <td data-label="Explorer"><span class="healthy">✓</span> Growing resources, strong assays, and 12 to 24 months of funding.</td>
+                <td data-label="Developer"><span class="healthy">✓</span> Strong economics, advancing permits, and clear financing path.</td>
+                <td data-label="Producer"><span class="healthy">✓</span> Positive FCF, low AISC, reserve replacement, and guidance discipline.</td>
+              </tr>
+              <tr>
+                <td class="focusCell">Warning Signs</td>
+                <td data-label="Explorer"><span class="warning">▲</span> Dilution, weak drill results, stagnant resources, or low cash.</td>
+                <td data-label="Developer"><span class="warning">▲</span> CapEx inflation, delays, weak economics, or financing uncertainty.</td>
+                <td data-label="Producer"><span class="warning">▲</span> Rising AISC, shrinking reserves, missed guidance, or negative FCF.</td>
+              </tr>
+              <tr>
+                <td class="focusCell">Valuation Focus</td>
+                <td data-label="Explorer">Discovery potential and ounces found.</td>
+                <td data-label="Developer">Project economics and de-risking progress.</td>
+                <td data-label="Producer">Cash flow, earnings, FCF, and shareholder returns.</td>
+              </tr>
+              <tr>
+                <td class="focusCell">Revenue / Cash Flow</td>
+                <td data-label="Explorer"><span class="mutedInline">Revenue not expected; negative cash flow.</span></td>
+                <td data-label="Developer"><span class="mutedInline">Usually little to no revenue; negative cash flow.</span></td>
+                <td data-label="Producer"><span class="mutedInline">Revenue required; positive cash flow expected.</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
 
-          <li>
-            <strong>Free cash flow (FCF) profile and uses</strong>
-            <ul class="indent">
-              <li><strong>What to check:</strong> normalized trailing FCF, sustaining vs growth capex, peer FCF ranking, planned returns to shareholders (buybacks/dividends).</li>
-              <li><strong>Why it matters:</strong> FCF is the ultimate source of shareholder returns and optionality for M&amp;A or buffering downturns.
-                Relative FCF shows competitive financial flexibility.</li>
-            </ul>
-          </li>
+        <section class="takeaway">
+          <div class="takeawayCard"><h3>Explorer = Ounces Found</h3><p>Value comes from discovery potential, drill success, resource growth, and funding runway.</p></div>
+          <div class="takeawayCard"><h3>Developer = Project Economics</h3><p>Value comes from de-risking the project through studies, permits, financing, and construction readiness.</p></div>
+          <div class="takeawayCard"><h3>Producer = Cash Flow Generated</h3><p>Value comes from production, cost control, free cash flow, reserves, and shareholder returns.</p></div>
+        </section>
 
-          <li>
-            <strong>Management quality, continuity and capital allocation discipline</strong>
-            <ul class="indent">
-              <li><strong>What to check:</strong> track record (deposit type and jurisdiction specific), board composition and role fit, history of capital allocation
-                (IRR thresholds, buybacks vs growth).</li>
-              <li><strong>Why it matters:</strong> in capital intensive cyclical businesses, management decisions (M&amp;A, project selection, capex discipline)
-                materially affect long term returns and cost of equity.</li>
-            </ul>
-          </li>
-
-          <li>
-            <strong>Technical franchise and competitive advantages</strong>
-            <ul class="indent">
-              <li><strong>What to check:</strong> deposit type expertise, geographic strengths, recycle ratio (incremental reserves per unit produced), low cost positions.</li>
-              <li><strong>Why it matters:</strong> domain specialization and repeatable technical skills produce durable margins and superior reserve replacement/returns.</li>
-            </ul>
-          </li>
-
-          <li>
-            <strong>Project economics and study integrity (developers)</strong>
-            <ul class="indent">
-              <li><strong>What to check:</strong> stage (PEA → PFS → FS), NPV of in situ recoverable reserves, IRR / RoCE (target &gt; ~25% for developers), payback,
-                AISC quartile, life of mine, after tax cashflows.</li>
-              <li><strong>Why it matters:</strong> studies are catalytic de risking events. Conservative, transparent assumptions (commodity price sensitivity, capex
-                inflations, taxes/royalties) and credible personnel signal bankability and lower execution risk.</li>
-            </ul>
-          </li>
-
-          <li>
-            <strong>Capital raising plan and dilution risk</strong>
-            <ul class="indent">
-              <li><strong>What to check:</strong> cash runway to next catalyst, explicit financing route (equity, project debt, JV, streaming, EPC finance),
-                target investor audience (US vs Canada; institutional vs retail), likely pricing.</li>
-              <li><strong>Why it matters:</strong> developers typically require staged funding; a clear plan reduces surprise dilution and execution delays.</li>
-            </ul>
-          </li>
-
-          <li>
-            <strong>Execution capability and governance</strong>
-            <ul class="indent">
-              <li><strong>What to check:</strong> EPC selection, contractor independence from feasibility authors, specific experienced personnel,
-                well constructed governance and failure/kill criteria.</li>
-              <li><strong>Why it matters:</strong> execution overruns and poor governance are top sources of value destruction in builds and expansions.</li>
-            </ul>
-          </li>
-
-          <li>
-            <strong>Valuation mechanics and cycle posture</strong>
-            <ul class="indent">
-              <li><strong>What to check:</strong> NPV matrix (low / forward strip / expected), enterprise value vs NPV gap, discount rate adjusted for
-                sovereign/credit risk, and where the company sits in the commodity cycle.</li>
-              <li><strong>Why it matters:</strong> valuation must reflect normalized economics and political/taxation risks; buying during liquidation provides asymmetric upside.</li>
-            </ul>
-          </li>
-
-          <li>
-            <strong>Jurisdictional &amp; political risk (social rents)</strong>
-            <ul class="indent">
-              <li><strong>What to check:</strong> permitting pathway, expected royalties/taxes, community relations, sovereign risk, and likely changes in social rents.</li>
-              <li><strong>Why it matters:</strong> fixed assets attract political attention and can be subject to increased taxes or expropriation;
-                incorporating post tax scenarios is essential.</li>
-            </ul>
-          </li>
-
-          <li>
-            <strong>Transparency, responsiveness and investor engagement</strong>
-            <ul class="indent">
-              <li><strong>What to check:</strong> management responsiveness, named investor “quarterback,” willingness to confirm investor notes,
-                clarity in public filings and risk disclosure.</li>
-              <li><strong>Why it matters:</strong> transparency reduces information asymmetry and improves the investor’s ability to monitor milestones
-                and act in a timely fashion.</li>
-            </ul>
-          </li>
-
-          <li>
-            <strong>Human capital and talent aggregation</strong>
-            <ul class="indent">
-              <li><strong>What to check:</strong> domain specific CVs for geologists, engineers, EPC, permitting and on the ground operators; ability to
-                hire or attract specialists (talent aggregators).</li>
-              <li><strong>Why it matters:</strong> execution is people driven—teams that repeatedly hire the right specialists or have repeatable track records
-                materially increase probability of success.</li>
-            </ul>
-          </li>
-
-          <li>
-            <strong>Failure criteria and staged decision logic</strong>
-            <ul class="indent">
-              <li><strong>What to check:</strong> defined “kill” rules, stop points for programs, sequence of unanswered questions and how each will be tested/paid for.</li>
-              <li><strong>Why it matters:</strong> disciplined capital stewardship preserves optionality and avoids value destruction from “drill until cash runs out.”</li>
-            </ul>
-          </li>
-        </ol>
-
-        <p style="margin-top:16px; color: rgba(234,240,255,.62); font-size:12px;">
-          <strong>Disclaimer:</strong> Informational and educational use only. Not investment advice.
-        </p>
+        <div class="footerNote">Risk generally decreases as a project advances, while valuation shifts from discovery potential to sustainable cash flow.</div>
       </div>
 
       <aside class="card assistantCard aiLockedWrap is-locked" data-ai-auth-gate>
@@ -1042,6 +1437,17 @@ Examples:
   </main>
 
   <div id="assistantModalBackdrop" class="assistantModalBackdrop" hidden></div>
+  <div class="modal-backdrop" id="infoModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <article class="modal">
+      <div class="modal-head">
+        <h2 id="modalTitle">Stage Detail</h2>
+        <button class="modal-close" type="button" id="modalClose" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p id="modalSummary"></p>
+      </div>
+    </article>
+  </div>
 
   <script>
 function applyMinerlyticsAiGate() {
@@ -1053,6 +1459,41 @@ function applyMinerlyticsAiGate() {
 }
 
 applyMinerlyticsAiGate();
+</script>
+
+<script>
+  const modal = document.getElementById("infoModal");
+  const modalTitle = document.getElementById("modalTitle");
+  const modalSummary = document.getElementById("modalSummary");
+  const modalClose = document.getElementById("modalClose");
+  let activeTrigger = null;
+
+  function openModal(trigger) {
+    activeTrigger = trigger;
+    modalTitle.textContent = trigger.dataset.title || "Stage Detail";
+    modalSummary.textContent = trigger.dataset.summary || "";
+    modal.classList.add("open");
+    modal.setAttribute("aria-hidden", "false");
+    modalClose.focus();
+  }
+
+  function closeModal() {
+    modal.classList.remove("open");
+    modal.setAttribute("aria-hidden", "true");
+    if (activeTrigger) activeTrigger.focus();
+  }
+
+  document.querySelectorAll(".info-trigger").forEach((trigger) => {
+    trigger.addEventListener("click", () => openModal(trigger));
+  });
+
+  modalClose?.addEventListener("click", closeModal);
+  modal?.addEventListener("click", (event) => {
+    if (event.target === modal) closeModal();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && modal?.classList.contains("open")) closeModal();
+  });
 </script>
 
 <script type="module" src="./js/education-portal-ai.js"></script>
