@@ -2,6 +2,12 @@ name: EDGAR (Dev)
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 9 1 */2 *"
+
+concurrency:
+  group: edgar-refresh-develop
+  cancel-in-progress: false
 
 permissions:
   contents: write   # needed only if you want the workflow to commit/push results
@@ -9,17 +15,19 @@ permissions:
 jobs:
   run-edgar:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          
-      - name: Install deps
-        run: npm install
 
       - name: Install deps
         run: npm ci || npm install
@@ -50,9 +58,13 @@ jobs:
         run: npm run edgar:facts
 
       - name: Extract Balance Sheet
-        env:
-          SEC_USER_AGENT: "Minerlytics vishakhedu@gmail.com"
         run: npm run edgar:balance-sheet
+
+      - name: Extract Detailed Balance Sheet
+        run: npm run edgar:detailed-balance-sheet
+
+      - name: Extract EX-99.1 reports
+        run: npm run edgar:ex99-1
 
       - name: Find TRS
         run: npm run edgar:trs
@@ -60,15 +72,76 @@ jobs:
       - name: Extract TRS Reports
         run: npm run edgar:trs-extract
 
-      # Optional: only keep this if your scripts write output files you want in the repo
       - name: Commit outputs
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          # Stage the files your pipeline actually generates
           git add public/data data/universe.json package-lock.json
 
-          git status
-          git commit -m "Dev: refresh EDGAR data" || echo "No changes to commit"
-          git push
+          if git diff --cached --quiet; then
+            echo "No EDGAR output changes to commit"
+          else
+            git commit -m "Refresh EDGAR data for Minerlytics universe"
+            git pull --rebase origin develop
+            git push origin HEAD:develop
+          fi
+
+      - name: Import mining disclosures to Cloudflare D1
+        env:
+          IMPORT_URL: ${{ secrets.CF_IMPORT_URL }}
+          IMPORT_KEY: ${{ secrets.CF_IMPORT_KEY }}
+        run: |
+          if [ -z "$IMPORT_URL" ] || [ -z "$IMPORT_KEY" ]; then
+            echo "Skipping Cloudflare import because CF_IMPORT_URL or CF_IMPORT_KEY is missing."
+            exit 0
+          fi
+
+          python3 - <<'PY'
+          import os
+          import json
+          import glob
+          import urllib.request
+          import urllib.error
+
+          files = sorted(glob.glob("public/data/mining_disclosure_reports/*.json"))
+          print("Found", len(files), "disclosure files to import")
+
+          if not files:
+              raise SystemExit("No mining disclosure JSON files found.")
+
+          failed = []
+
+          for path in files:
+              with open(path, "r", encoding="utf-8") as f:
+                  data = json.load(f)
+
+              req = urllib.request.Request(
+                  os.environ["IMPORT_URL"],
+                  data=json.dumps(data).encode("utf-8"),
+                  headers={
+                      "Content-Type": "application/json",
+                      "x-import-key": os.environ["IMPORT_KEY"],
+                      "User-Agent": "GitHub-Minerlytics-EDGAR-Importer"
+                  },
+                  method="POST"
+              )
+
+              try:
+                  with urllib.request.urlopen(req) as resp:
+                      print("IMPORTED", path, resp.status)
+              except urllib.error.HTTPError as e:
+                  body = e.read().decode("utf-8", errors="replace")
+                  print("FAILED", path, e.code, body)
+                  failed.append(path)
+              except Exception as e:
+                  print("FAILED", path, str(e))
+                  failed.append(path)
+
+          print("----- IMPORT SUMMARY -----")
+          print("Total files:", len(files))
+          print("Failed files:", len(failed))
+
+          if failed:
+              raise SystemExit("Some disclosure imports failed.")
+          PY
