@@ -358,6 +358,53 @@ const ANALYSIS_META_OVERRIDES = {
   PSLV: { country: "Canada", stage: "trust" },
   SLV: { country: "USA", stage: "etf" },
   SIVR: { country: "USA", stage: "etf" },
+  EGO: { country: "Canada", stage: "producer" },
+  IAG: { country: "Canada", stage: "producer" },
+  SSRM: { country: "Canada", stage: "producer" },
+  CPG: { country: "UK", stage: "producer" },
+  DRD: { country: "South Africa", stage: "producer" },
+  LUG: { country: "Canada", stage: "producer" },
+  EQX: { country: "Canada", stage: "producer" },
+  NGD: { country: "Canada", stage: "producer" },
+  CGAU: { country: "Canada", stage: "producer" },
+  ORLA: { country: "Canada", stage: "developer" },
+  EDVMF: { country: "UK", stage: "producer" },
+  FSM: { country: "Canada", stage: "producer" },
+  SAND: { country: "Canada", stage: "royalty" },
+  GATO: { country: "USA", stage: "producer" },
+  MUX: { country: "USA", stage: "producer" },
+  AYASF: { country: "Canada", stage: "developer" },
+  SKE: { country: "Canada", stage: "developer" },
+  BHP: { country: "Australia", stage: "producer" },
+  GLNCY: { country: "UK", stage: "producer" },
+  VALE: { country: "Brazil", stage: "producer" },
+  FQVLF: { country: "Canada", stage: "producer" },
+  IVPAF: { country: "Canada", stage: "developer" },
+  CSFFF: { country: "Canada", stage: "producer" },
+  LUNMF: { country: "Canada", stage: "producer" },
+  ANFGF: { country: "Chile", stage: "producer" },
+  TMQ: { country: "USA", stage: "developer" },
+  CCJ: { country: "Canada", stage: "producer" },
+  NXE: { country: "Canada", stage: "developer" },
+  UEC: { country: "USA", stage: "producer" },
+  DNN: { country: "Canada", stage: "developer" },
+  UUUU: { country: "USA", stage: "producer" },
+  PALAF: { country: "Australia", stage: "producer" },
+  SQM: { country: "Chile", stage: "producer" },
+  LAC: { country: "Canada", stage: "developer" },
+  LAAC: { country: "Canada", stage: "developer" },
+  SGML: { country: "Canada", stage: "developer" },
+  PILBF: { country: "Australia", stage: "developer" },
+  ALB: { country: "USA", stage: "producer" },
+  MP: { country: "USA", stage: "producer" },
+  LYSCF: { country: "Australia", stage: "producer" },
+  SBSW: { country: "South Africa", stage: "producer" },
+  IMPUY: { country: "South Africa", stage: "producer" },
+  GDX: { country: "USA", stage: "etf" },
+  GDXJ: { country: "USA", stage: "etf" },
+  COPX: { country: "USA", stage: "etf" },
+  PICK: { country: "USA", stage: "etf" },
+  URNM: { country: "USA", stage: "etf" },
 };
 
 function buildAnalysisUniverse() {
@@ -736,6 +783,27 @@ function detectMapLocationFromText(textValue = "") {
   return best;
 }
 
+function resolveMapLocationForTicker(ticker = "", sourceText = "") {
+  const fromSource = detectMapLocationFromText(sourceText);
+  if (fromSource) return fromSource;
+
+  const override = ANALYSIS_META_OVERRIDES[String(ticker || "").toUpperCase().trim()] || {};
+  const country = String(override.country || "").trim();
+  if (country) {
+    const fromCountry = detectMapLocationFromText(country);
+    if (fromCountry) return fromCountry;
+  }
+
+  const meta = TICKERS[String(ticker || "").toUpperCase().trim()] || {};
+  const fallbackText = [
+    meta.company,
+    meta.name,
+    ...(Array.isArray(meta.aliases) ? meta.aliases : []),
+  ].filter(Boolean).join(" ");
+
+  return detectMapLocationFromText(fallbackText);
+}
+
 async function getUniverseMapMarkers(env, tickers = Object.keys(TICKERS), limit = 18) {
   const safeTickers = (Array.isArray(tickers) ? tickers : Object.keys(TICKERS))
     .map((item) => String(item || "").toUpperCase().trim())
@@ -775,7 +843,7 @@ async function getUniverseMapMarkers(env, tickers = Object.keys(TICKERS), limit 
     const blocks = buildDisclosureContext((rows && rows.results) || []);
     const selected = selectRelevantCompanyExcerpts(blocks, "mine", 3);
     const sourceText = selected.map((item) => `${item.heading || ""} ${item.text || ""}`).join(" ");
-    const location = detectMapLocationFromText(sourceText);
+    const location = resolveMapLocationForTicker(ticker, sourceText);
     if (!location) continue;
 
     const key = location.key;
@@ -791,7 +859,15 @@ async function getUniverseMapMarkers(env, tickers = Object.keys(TICKERS), limit 
     };
 
     existing.tickers.push(ticker);
-    existing.excerpts.push(cleanExcerptText(sourceText, 180));
+    const cleanedExcerpt = cleanExcerptText(sourceText, 180);
+    if (cleanedExcerpt) {
+      existing.excerpts.push(cleanedExcerpt);
+    } else {
+      const fallbackCountry = String(ANALYSIS_META_OVERRIDES[ticker]?.country || "").trim();
+      if (fallbackCountry) {
+        existing.excerpts.push(`Primary operating region mapped from Minerlytics universe metadata: ${fallbackCountry}.`);
+      }
+    }
     if (!existing.latest_filing_date || String(selected[0]?.filing_date || "") > String(existing.latest_filing_date || "")) {
       existing.latest_filing_date = selected[0]?.filing_date || existing.latest_filing_date;
     }
