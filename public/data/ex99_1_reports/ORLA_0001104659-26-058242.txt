@@ -1,0 +1,5127 @@
+EX-99.1
+2
+tm2613565d1_ex99-1.htm
+EXHIBIT 99.1
+
+ 
+
+ 
+
+Exhibit 99.1
+
+ 
+
+ 
+
+Condensed Interim Consolidated Financial Statements
+
+ 
+
+Three months ended March 31, 2026 and 2025
+
+ 
+
+Presented in United States dollars
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Condensed Interim Consolidated Balance Sheets
+
+(Unaudited - thousands of United
+States dollars)
+
+ 
+
+ 
+ 
+ March 31, 2026 
+ December 31, 2025 
+ 
+ ASSETS 
+ 
+ 
+ 
+ Current assets 
+ 
+ 
+ 
+ Cash 
+ $427,349 
+ $420,776 
+ 
+ Trade and other receivables 
+ 6,351 
+ 9,906 
+ 
+ Derivative assets (note 13) 
+ 33,000 
+ 32,000 
+ 
+ Value added taxes recoverable (note 9) 
+ 22,884 
+ 16,684 
+ 
+ Inventory (note 8) 
+ 96,926 
+ 85,718 
+ 
+ Prepaid expenses 
+ 6,954 
+ 6,036 
+ 
+ 
+ 593,464 
+ 571,120 
+ 
+ Property, plant and equipment (note 12) 
+ 1,325,921 
+ 1,320,739 
+ 
+ Exploration and evaluation properties (note 11) 
+ 181,948 
+ 181,948 
+ 
+ Other non-current assets 
+ 6,110 
+ 4,526 
+ 
+ TOTAL ASSETS 
+ $2,107,443 
+ $2,078,333 
+ 
+ 
+ 
+ 
+ 
+ LIABILITIES 
+ 
+ 
+ 
+ Current liabilities 
+ 
+ 
+ 
+ Trade payables and accrued liabilities (note 14) 
+ $143,563 
+ $111,924 
+ 
+ Derivative liabilities (note 13) 
+ 228,843 
+ 181,877 
+ 
+ Current portion of long term debt (note 15) 
+ 20,000 
+ 20,000 
+ 
+ Deferred revenue (note 16) 
+ 129,215 
+ 125,354 
+ 
+ Income taxes payable 
+ 40,677 
+ 90,686 
+ 
+ 
+ 562,298 
+ 529,841 
+ 
+ Derivative liabilities (note 13) 
+ — 
+ 18,260 
+ 
+ Long term debt (note 15) 
+ 286,073 
+ 335,735 
+ 
+ Lease obligations (note 17) 
+ 9,134 
+ 6,347 
+ 
+ Deferred revenue (note 16) 
+ 141,932 
+ 175,647 
+ 
+ Site closure provisions (note 18) 
+ 106,169 
+ 106,848 
+ 
+ Other long term liabilities 
+ 1,547 
+ 4,614 
+ 
+ Deferred tax liabilities 
+ 243,862 
+ 244,887 
+ 
+ TOTAL LIABILITIES 
+ 1,351,015 
+ 1,422,179 
+ 
+ 
+ 
+ 
+ 
+ SHAREHOLDERS' EQUITY 
+ 
+ 
+ 
+ Share capital (note 19) 
+ 570,765 
+ 544,398 
+ 
+ Reserves 
+ 21,103 
+ 22,590 
+ 
+ Accumulated other comprehensive loss 
+ (3,830) 
+ (3,840)
+ 
+ Retained earnings 
+ 168,390 
+ 93,006 
+ 
+ TOTAL SHAREHOLDERS’ EQUITY 
+ 756,428 
+ 656,154 
+ 
+ 
+ 
+ 
+ 
+ TOTAL LIABILITIES AND SHAREHOLDERS’ EQUITY 
+ $2,107,443 
+ $2,078,333 
+ 
+
+ 
+
+ 
+ /s/
+ Jason Simpson
+ 
+ /s/
+ Elizabeth McGregor
+ 
+ Jason
+ Simpson, Director
+ 
+ Elizabeth
+ McGregor, Director
+ 
+ 
+
+The accompanying notes are an integral part of
+these condensed interim consolidated financial statements.
+
+ 
+
+ Page 2
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Condensed Interim Consolidated Statements of Income (Loss) and Comprehensive Income (Loss)
+
+(Unaudited - thousands of
+United States dollars, except per-share amounts)
+
+ 
+
+ 
+ 
+ Three months ended March 31 
+ 
+ 
+ 2026 
+ 2025 
+ 
+ REVENUE (note
+ 3) 
+ $378,880 
+ $140,670 
+ 
+ 
+ 
+ 
+ 
+ COST OF SALES 
+ 
+ 
+ 
+ Operating costs (note 4(a)) 
+ (95,407) 
+ (48,272)
+ 
+ Depletion and depreciation 
+ (47,728) 
+ (16,799)
+ 
+ Royalties (note 4(b)) 
+ (12,447) 
+ (3,345)
+ 
+ 
+ (155,582) 
+ (68,416)
+ 
+ 
+ 
+ 
+ 
+ EARNINGS FROM MINING OPERATIONS 
+ 223,298 
+ 72,254 
+ 
+ 
+ 
+ 
+ 
+ EXPLORATION AND EVALUATION (note
+ 5) 
+ (6,032) 
+ (8,879)
+ 
+ 
+ 
+ 
+ 
+ GENERAL AND ADMINISTRATIVE EXPENSES (note
+ 6) 
+ (11,481) 
+ (15,802)
+ 
+ 
+ 
+ 
+ 
+ OTHER 
+ 
+ 
+ 
+ Interest income 
+ 3,834 
+ 1,825 
+ 
+ Depreciation 
+ (174) 
+ (120)
+ 
+ Share based payments (note 21) 
+ (4,386) 
+ (3,318)
+ 
+ Interest and accretion expense (note 7) 
+ (13,714) 
+ (6,799)
+ 
+ Fair value adjustments on financial instruments (note 13) 
+ (46,650) 
+ (80,725)
+ 
+ Foreign exchange gain (loss) 
+ 134 
+ (2,427)
+ 
+ Other gains (losses) 
+ (1,214) 
+ (16)
+ 
+ 
+ (62,170) 
+ (91,580)
+ 
+ 
+ 
+ 
+ 
+ INCOME (LOSS) BEFORE TAXES 
+ 143,615 
+ (44,007)
+ 
+ 
+ 
+ 
+ 
+ Income taxes (note 28) 
+ (68,210) 
+ (25,825)
+ 
+ 
+ 
+ 
+ 
+ INCOME (LOSS) FOR THE PERIOD 
+ $75,405 
+ $(69,832)
+ 
+ 
+ 
+ 
+ 
+ Items that may in future be reclassified to profit or loss: 
+ 
+ 
+ 
+ Fair value loss on cash flow hedging instruments 
+ (1,436) 
+ — 
+ 
+ Other 
+ 10 
+ (16)
+ 
+ TOTAL COMPREHENSIVE INCOME (LOSS) 
+ $73,979 
+ $(69,848)
+ 
+ 
+ 
+ 
+ 
+ WEIGHTED AVERAGE NUMBER OF COMMON SHARES OUTSTANDING (note
+ 20) 
+ 
+ 
+ 
+ Basic (millions) 
+ 344.2 
+ 322.4 
+ 
+ Diluted (millions) 
+ 399.5 
+ 322.4 
+ 
+ 
+ 
+ 
+ 
+ EARNINGS (LOSS) PER SHARE (note
+ 20) 
+ 
+ 
+ 
+ Basic 
+ $0.22 
+ $(0.22)
+ 
+ Diluted 
+ $0.20 
+ $(0.22)
+ 
+
+ 
+
+The accompanying notes are an integral part of
+these condensed interim consolidated financial statements.
+
+ 
+
+ Page 3
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Condensed Interim Consolidated Statements of Cash Flows
+
+(Unaudited - thousands of United
+States dollars)
+
+ 
+
+ 
+ 
+ Three months ended March 31 
+ 
+ 
+ 2026 
+ 2025 
+ 
+ OPERATING ACTIVITIES 
+ 
+ 
+ 
+ Income (loss) for the period 
+ $75,405 
+ $(69,832)
+ 
+ Adjustments for items not affecting cash: 
+ 
+ 
+ 
+ Depreciation and depletion 
+ 47,902 
+ 16,919 
+ 
+ Share based payments expense (note 21) 
+ 4,386 
+ 3,318 
+ 
+ Fair value adjustments on financial instruments (note 13) 
+ 46,650 
+ 80,725 
+ 
+ Deliveries of metal under the gold prepay (note 16) 
+ (35,834) 
+ (11,535)
+ 
+ Unrealized foreign exchange loss 
+ 291 
+ 2,565 
+ 
+ Other 
+ 1,318 
+ 43 
+ 
+ Adjustments for: 
+ 
+ 
+ 
+ Advance received under the gold prepay (note 16) 
+ — 
+ 384,402 
+ 
+ Interest and accretion expense (note 7) 
+ 13,714 
+ 6,799 
+ 
+ Income tax expense 
+ 68,210 
+ 25,825 
+ 
+ Income taxes paid 
+ (92,980) 
+ (32,979)
+ 
+ Income tax instalments paid 
+ (25,575) 
+ (5,020)
+ 
+ Cash provided by operating activities before changes in non-cash working capital 
+ 103,487 
+ 401,230 
+ 
+ Changes in non-cash working capital (note 23(b)) 
+ 8,901 
+ 10,235 
+ 
+ Cash provided by operating activities 
+ 112,388 
+ 411,465 
+ 
+ 
+ 
+ 
+ 
+ INVESTING ACTIVITIES 
+ 
+ 
+ 
+ Cash paid for acquisition of Musselwhite Mine Ltd. 
+ — 
+ (798,504)
+ 
+ Contingent consideration payment 
+ (9,000) 
+ — 
+ 
+ Purchase of plant and equipment 
+ (19,398) 
+ (10,731)
+ 
+ Expenditures on mineral properties 
+ (30,122) 
+ (6,932)
+ 
+ Deposits and payments on long term assets 
+ (1,584) 
+ 618 
+ 
+ Cash used in investing activities 
+ (60,104) 
+ (815,549)
+ 
+ 
+ 
+ 
+ 
+ FINANCING ACTIVITIES 
+ 
+ 
+ 
+ Contingent consideration payment 
+ (11,000) 
+ — 
+ 
+ Repayments of Credit Facility (note 15) 
+ (35,000) 
+ — 
+ 
+ Proceeds from Credit Facility (note 15) 
+ — 
+ 250,000 
+ 
+ Convertible notes issued (note 15) 
+ — 
+ 200,000 
+ 
+ Transaction costs related to the Credit Facility (note 15) 
+ — 
+ (1,186)
+ 
+ Settlement of gold forward contracts 
+ — 
+ (23,587)
+ 
+ Proceeds from exercise of stock options and warrants 
+ 7,996 
+ 5,286 
+ 
+ Interest paid 
+ (5,240) 
+ (2,822)
+ 
+ Lease payments 
+ (1,187) 
+ (212)
+ 
+ Cash provided by (used in) financing activities 
+ (44,431) 
+ 427,479 
+ 
+ 
+ 
+ 
+ 
+ Effects of exchange rate changes on cash 
+ (1,280) 
+ (13)
+ 
+ 
+ 
+ 
+ 
+ Net increase in cash 
+ 6,573 
+ 23,382 
+ 
+ Cash, beginning of period 
+ 420,776 
+ 160,849 
+ 
+ CASH, END OF PERIOD 
+ $427,349 
+ $184,231 
+
+ 
+
+Supplemental cash flow information (note 23)
+
+ 
+
+The accompanying notes are an integral part of
+these condensed interim consolidated financial statements.
+
+ 
+
+ Page 4
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Condensed Interim Consolidated Statements of Changes in Equity
+
+(Unaudited - thousands of United
+States dollars)
+
+ 
+
+ 
+ 
+ Common shares 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number of shares
+ (thousands) 
+ Amount 
+ Share based
+ payments
+ reserve 
+ Hedge
+ reserve 
+ Warrants
+ reserve 
+ Equity
+ component
+ of 
+convertible
+ notes 
+issued 
+ Total 
+ Accumulated Other
+ Comprehensive
+ Income (loss) 
+ Accumulated
+ deficit 
+ Total 
+ 
+ Balance at January 1, 2025 
+ 321,678 
+ $494,833 
+ $12,131 
+ $— 
+ $13,051 
+ $— 
+ $25,182 
+ $(3,783) 
+ $(8,787) 
+ $507,445 
+ 
+ Equity component of convertible notes 
+ — 
+ — 
+ — 
+ — 
+ — 
+ 1,000 
+ 1,000 
+ — 
+ — 
+ 1,000 
+ 
+ Warrants exercised (note 19) 
+ 461 
+ 1,304 
+ — 
+ — 
+ (98) 
+ — 
+ (98) 
+ — 
+ — 
+ 1,206 
+ 
+ Options exercised (note 21) 
+ 1,436 
+ 5,814 
+ (1,734) 
+ — 
+ — 
+ — 
+ (1,734) 
+ — 
+ — 
+ 4,080 
+ 
+ RSUs issued upon vesting (note 21) 
+ 98 
+ 440 
+ (440) 
+ — 
+ — 
+ — 
+ (440) 
+ — 
+ — 
+ — 
+ 
+ Share based payments (note 21) 
+ — 
+ — 
+ 1,222 
+ — 
+ — 
+ — 
+ 1,222 
+ — 
+ — 
+ 1,222 
+ 
+ Loss for the period 
+ — 
+ — 
+ — 
+ — 
+ — 
+ — 
+ — 
+ — 
+ (69,832) 
+ (69,832)
+ 
+ Other comprehensive loss 
+ — 
+ — 
+ — 
+ — 
+ — 
+ — 
+ — 
+ (16) 
+ — 
+ (16)
+ 
+ Balance at March 31, 2025 
+ 323,673 
+ $502,391 
+ $11,179 
+ — 
+ $12,953 
+ $1,000 
+ $25,132 
+ $(3,799) 
+ $(78,619) 
+ $445,105 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance at January 1, 2026 
+ 340,137 
+ $544,398 
+ $12,845 
+ $(127) 
+ $8,872 
+ $1,000 
+ $22,590 
+ $(3,840) 
+ $93,006 
+ $656,154 
+ 
+ Conversion of convertible notes 
+ 3,314 
+ 13,093 
+ — 
+ — 
+ — 
+ — 
+ — 
+ — 
+ — 
+ 13,093 
+ 
+ Hedging loss transferred to inventory 
+ — 
+ — 
+ — 
+ 250 
+ — 
+ — 
+ 250 
+ — 
+ — 
+ 250 
+ 
+ Warrants exercised (note 19) 
+ 2,188 
+ 11,435 
+ — 
+ — 
+ (422) 
+ — 
+ (422) 
+ — 
+ — 
+ 11,013 
+ 
+ Options exercised (note 21) 
+ 26 
+ 146 
+ (41) 
+ — 
+ — 
+ — 
+ (41) 
+ — 
+ — 
+ 105 
+ 
+ RSUs issued upon vesting (note 21) 
+ 262 
+ 1,693 
+ (1,693) 
+ — 
+ — 
+ — 
+ (1,693) 
+ — 
+ — 
+ — 
+ 
+ Share based payments (note 21) 
+ — 
+ — 
+ 1,855 
+ — 
+ — 
+ — 
+ 1,855 
+ — 
+ — 
+ 1,855 
+ 
+ Income for the period 
+ — 
+ — 
+ — 
+ — 
+ — 
+ — 
+ — 
+ — 
+ 75,405 
+ 75,405 
+ 
+ Dividends declared 
+ — 
+ — 
+ — 
+ — 
+ — 
+ — 
+ — 
+ — 
+ (21) 
+ (21)
+ 
+ Other comprehensive income (loss) 
+ — 
+ — 
+ — 
+ (1,436) 
+ — 
+ — 
+ (1,436) 
+ 10 
+ — 
+ (1,426)
+ 
+ Balance at March 31, 2026 
+ 345,927 
+ $570,765 
+ $12,966 
+ $(1,313) 
+ $8,450 
+ $1,000 
+ $21,103 
+ $(3,830) 
+ $168,390 
+ $756,428 
+ 
+
+ 
+
+The accompanying notes are an integral part of
+these condensed interim consolidated financial statements.
+
+ 
+
+ Page 5
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+1.CORPORATE INFORMATION AND NATURE OF OPERATIONS
+
+ 
+
+Orla Mining Ltd. was incorporated in Alberta in 2007 and was continued
+into British Columbia in 2010 and subsequently into Ontario under the Business Corporations Act (Ontario) in 2014. In 2016, the Company
+was continued as a federal company under the Canada Business Corporations Act. The “Company”, “Orla”, “we”,
+and “our” refer to Orla Mining Ltd. and its subsidiaries. The registered office of the Company is located at Suite 2020,
+666 Burrard Street, Vancouver, Canada.
+
+ 
+
+The Company is engaged in the acquisition, exploration, development,
+and exploitation of mineral properties, and holds the Musselwhite Mine in Ontario, Canada, the Camino Rojo gold and silver mine in Zacatecas
+State, Mexico, the South Carlin Complex in Nevada, USA, and the Cerro Quema gold project in Panama.
+
+ 
+
+2.BASIS OF PREPARATION
+
+ 
+
+(a)Statement of compliance and basis of presentation
+
+ 
+
+We have prepared these condensed interim consolidated financial statements
+of the Company in accordance with IAS 34 «Interim Financial Reporting» as issued by the International Accounting Standards
+Board, and do not include all the information required for full annual financial statements.
+
+ 
+
+The preparation of these condensed interim consolidated financial
+statements requires management to make judgements, estimates and assumptions that affect the application of accounting policies and the
+reported amounts of assets, liabilities, income and expenses. Actual results may differ from these estimates.
+
+ 
+
+These condensed interim consolidated financial statements are presented
+in United States dollars and include the accounts of the Company and its wholly owned subsidiaries. Intercompany transactions and balances
+have been eliminated upon consolidation. In these financial statements, $ means United States dollars and C$ means Canadian
+dollars.
+
+ 
+
+On May 8, 2026, the Board of Directors approved these condensed
+interim consolidated financial statements for issuance.
+
+ 
+
+(b)Going concern
+
+ 
+
+These condensed interim consolidated financial statements have been
+prepared on a going concern basis, meaning it will continue in operation for the foreseeable future and will be able to realize assets
+and discharge liabilities in the ordinary course of operations. Different bases of measurement may be appropriate if the Company is not
+expected to continue operations for the foreseeable future.
+
+ 
+
+ Page 6
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+(c)Basis of consolidation
+
+ 
+
+These condensed interim consolidated financial
+statements include the accounts of the Company and its subsidiaries, all of which are wholly owned. Where necessary, we have made adjustments
+to the financial statements of subsidiaries to bring their accounting policies in line with the accounting policies of the consolidated
+group.
+
+ 
+
+Subsidiaries are included in the consolidated
+financial results of the Company from the effective date of acquisition or control and up to the effective date of disposition or loss
+of control. Control is achieved when the Company has power over the investee, is exposed to or has rights to variable returns from its
+involvement with an investee and has the ability to affect those returns through its power over the investee.
+
+ 
+
+Orla Mining Ltd. is the ultimate parent entity
+of the group. At March 31, 2026, the main operating subsidiaries of the Company, their geographic locations, and the ownership interests
+held by the Company, were as follows:
+
+ 
+
+ 
+ Name 
+ Principal activity 
+ Ownership 
+ Location
+ 
+ Musselwhite Mine Ltd. 
+ Production 
+ 100% 
+ Canada
+ 
+ Minera Camino Rojo SA de CV 
+ Production 
+ 100% 
+ Mexico
+ 
+ Gold Standard Ventures (US) Inc. 
+ Exploration 
+ 100% 
+ USA
+ 
+ Minera Cerro Quema SA 
+ Exploration 
+ 100% 
+ Panama
+ 
+
+ 
+
+(d)Material accounting policy information
+
+ 
+
+These condensed interim consolidated financial statements should be
+read in conjunction with the Company’s audited consolidated financial statements as at and for the years ended December 31,
+2025 and 2024.
+
+ 
+
+We applied the same accounting policies in these condensed interim
+consolidated financial statements as those applied in the Company’s audited consolidated financial statements as at and for the
+year ended December 31, 2025.
+
+ 
+
+(e)Significant judgements and estimates
+
+ 
+
+In preparing these condensed interim consolidated financial statements,
+the significant judgements we made in applying the Company’s accounting policies and the key sources of estimation uncertainty
+were the same as those that applied to the audited consolidated financial statements as at and for the year ended December 31, 2025.
+
+ 
+
+ Page 7
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+3.REVENUE
+
+ 
+
+ 
+ 
+ Three months ended March 31 
+ 
+ 
+ 2026 
+ 2025 
+ 
+ Gold 
+ $373,034 
+ $135,137 
+ 
+ Silver 
+ 5,846 
+ 5,533 
+ 
+ Revenue 
+ $378,880 
+ $140,670 
+ 
+ 
+ 
+ 
+ 
+ Customer A 
+ $176,922 
+ $39,633 
+ 
+ Customer B 
+ 146,864 
+ 64,078 
+ 
+ Customer C 
+ 26,629 
+ 25,914 
+ 
+ Others 
+ 28,465 
+ 11,045 
+ 
+ Revenue 
+ $378,880 
+ $140,670 
+ 
+
+ 
+
+During the three months ended March 31,
+2026, two customers each contributed more than 10% of total revenues for a combined total of approximately 85% of revenues. The Company
+is not economically dependent on any specific customers for the sale of its product because gold can be sold through numerous gold traders
+worldwide.
+
+ 
+
+4.COST OF SALES
+
+ 
+
+(a)Operating costs
+
+ 
+
+ 
+ 
+ Three months ended March 31 
+ 
+ 
+ 2026 
+ 2025 
+ 
+ Mining and processing costs 
+ $94,991 
+ $47,253 
+ 
+ Refining and transportation costs 
+ 416 
+ 1,019 
+ 
+ 
+ $95,407 
+ $48,272 
+ 
+
+ 
+
+(b)Royalties
+
+ 
+
+ 
+ 
+ Three months ended March 31 
+ 
+ 
+ 2026 
+ 2025 
+ 
+ Camino Rojo Oxide NSR royalty 
+ $1,746 
+ $1,835 
+ 
+ Mexican Extraordinary Mining Duty 
+ 884 
+ 930 
+ 
+ Musselwhite royalty 
+ 9,817 
+ 580 
+ 
+ 
+ $12,447 
+ $3,345 
+ 
+
+ 
+
+ Page 8
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+5.EXPLORATION AND EVALUATION EXPENSES
+
+ 
+
+ 
+ 
+ Three months ended March 31 
+ 
+ 
+ 2026 
+ 2025 
+ 
+ Camino Rojo 
+ $907 
+ $1,534 
+ 
+ Musselwhite 
+ 1,076 
+ 225 
+ 
+ South Railroad 
+ 2,757 
+ 3,542 
+ 
+ Cerro Quema 
+ 1,181 
+ 3,443 
+ 
+ Other 
+ 111 
+ 135 
+ 
+ 
+ $6,032 
+ $8,879 
+ 
+
+ 
+
+6.GENERAL AND ADMINISTRATIVE EXPENSES
+
+ 
+
+ 
+ 
+ Three months ended March 31 
+ 
+ 
+ 2026 
+ 2025 
+ 
+ Office and administrative 
+ $1,267 
+ $1,231 
+ 
+ Professional fees 
+ 7,034 
+ 11,355 
+ 
+ Regulatory and transfer agent 
+ 350 
+ 475 
+ 
+ Salaries and benefits 
+ 2,830 
+ 2,741 
+ 
+ 
+ $11,481 
+ $15,802 
+ 
+
+ 
+
+ Page 9
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+7.INTEREST AND ACCRETION EXPENSE
+
+ 
+
+ 
+ 
+ Three months ended March 31 
+ 
+ 
+ 2026 
+ 2025 
+ 
+ Interest expense 
+ 
+ 
+ 
+ Amended Credit Facility (note 15) 
+ $2,800 
+ $1,650 
+ 
+ Convertible notes (note 15) 
+ 2,078 
+ 764 
+ 
+ Interest expense on lease liabilities (note 17) 
+ 214 
+ 49 
+ 
+ Other 
+ 148 
+ 430 
+ 
+ Interest expense 
+ 5,240 
+ 2,893 
+ 
+ 
+ 
+ 
+ 
+ Accretion expense 
+ 
+ 
+ 
+ Accretion of site closure provisions (note 18) 
+ 1,071 
+ 378 
+ 
+ Deferred revenue (note 16) 
+ 5,980 
+ 3,050 
+ 
+ Convertible notes (note 15) 
+ 1,324 
+ 445 
+ 
+ Credit Facility inception costs (note 15) 
+ 99 
+ 33 
+ 
+ Accretion expense 
+ 8,474 
+ 3,906 
+ 
+ 
+ 
+ 
+ 
+ Interest and accretion expense 
+ $13,714 
+ $6,799 
+ 
+
+ 
+
+8.INVENTORY
+
+ 
+
+ 
+ 
+ March 31, 2026 
+ December 31, 2025 
+ 
+ Stockpiled ore 
+ $8,844 
+ $6,422 
+ 
+ In-process inventory 
+ 44,594 
+ 38,687 
+ 
+ Finished goods inventory 
+ 10,718 
+ 11,289 
+ 
+ Materials and supplies 
+ 32,770 
+ 29,320 
+ 
+ 
+ $96,926 
+ $85,718 
+ 
+
+ 
+
+Included within inventory at March 31, 2026
+is $16.7 million of depreciation and depletion (December 31, 2025 — $17.3 million).
+
+ 
+
+During the three months ended March 31,
+2026, inventories recognized as an expense totaled $137.3 million (three months ended March 31, 2025 — $63.9 million) and
+are included within cost of sales.
+
+ 
+
+ Page 10
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+9.VALUE ADDED TAXES RECOVERABLE
+
+ 
+
+ 
+ 
+ March 31, 2026 
+ December 31, 2025 
+ 
+ Canada 
+ $15,923 
+ $7,991 
+ 
+ Mexico 
+ 6,961 
+ 8,693 
+ 
+ 
+ $22,884 
+ $16,684 
+ 
+
+ 
+
+10.ACQUISITION OF MUSSELWHITE MINE
+
+ 
+
+On February 28, 2025, the Company acquired
+all the outstanding shares of a wholly-owned subsidiary ("Musselwhite Mine Ltd.") of Newmont Corporation that owned a 100%
+interest in the Musselwhite Mine in northern Ontario (the "Transaction"). We accounted this acquisition as a business combination
+under IFRS 3 «Business Combinations».
+
+ 
+
+Consideration for the purchase consisted of an
+upfront payment of $810 million (subject to customary adjustments for working capital and timing of closing) and up to $40 million in
+contingent consideration. The upfront payment was financed through the following sources:
+
+ 
+
+·$250
+ million from a syndicate of lenders comprised of the Bank of Nova Scotia, the Bank of Montreal,
+ the Canadian Imperial Bank of Commerce and ING Capital LLC, (consisting of $150 million from
+ the Amended Revolving Facility and $100 million from the Term Facility) (note 15(a)),
+
+ 
+
+·$360
+ million gold prepayment (the “Gold Prepayment”) from a syndicate of lenders (note
+ 16), and
+
+ 
+
+·$200
+ million in senior unsecured convertible notes (the “Convertible Notes”) (note
+ 15(b)).
+
+ 
+
+The contingent consideration consists of:
+
+ 
+
+·$20
+ million to be paid if the average spot price of gold exceeds $2,900/oz for the one-year period
+ ending February 28, 2026, and
+
+ 
+
+·$20
+ million to be paid if the average spot price of gold exceeds $3,000/oz for the one-year period
+ ending February 28, 2027.
+
+ 
+
+The purchase consideration was calculated as
+follows:
+
+ 
+
+ 
+ Upfront cash payments made by the Company 
+ $794,130 
+ 
+ Fair value of contingent consideration (note 13(a)) 
+ 17,000 
+ 
+ Total purchase consideration 
+ $811,130 
+ 
+
+ 
+
+ Page 11
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+The following table sets out the allocation of
+the purchase consideration to the assets acquired and liabilities assumed based on estimated fair values:
+
+ 
+
+ 
+ Trade and other receivables 
+ $4,636 
+ 
+ Value added taxes recoverable 
+ 15 
+ 
+ Inventory 
+ 38,847 
+ 
+ Prepaid expenses 
+ 84 
+ 
+ Property, plant and equipment 
+ 1,097,442 
+ 
+ Trade payables and accrued liabilities 
+ (42,280)
+ 
+ Site closure provision 
+ (49,709)
+ 
+ Deferred tax liabilities 
+ (237,905)
+ 
+ Total assets acquired and liabilities assumed, net 
+ $811,130 
+ 
+
+ 
+
+11.EXPLORATION AND EVALUATION PROPERTIES
+
+ 
+
+Our exploration and evaluation properties consist
+of the South Carlin Complex in Nevada, United States, and the Cerro Quema Project in Panama.
+
+ 
+
+ 
+ 
+ South Railroad 
+ Cerro Quema 
+ Total 
+ 
+ At December 31, 2025 and March 31, 2026 
+ $171,948 
+ $10,000 
+ $181,948 
+ 
+
+ 
+
+ Page 12
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+12.PROPERTY, PLANT AND EQUIPMENT
+
+ 
+
+ 
+ 
+ Producing
+ mineral 
+ property 
+ Deferred
+ stripping 
+ Buildings 
+ Machinery
+ and 
+ equipment 
+ Other
+ assets 
+ Other right
+
+ of use 
+assets 
+ CIP 1 
+ Total 
+ 
+ Cost 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ At January 1, 2025 
+ $142,461 
+ $— 
+ $83,477 
+ $56,943 
+ $3,535 
+ $3,235 
+ $5,341 
+ $294,992 
+ 
+ Additions 
+ 82,409 
+ 5,025 
+ 1,845 
+ 13,583 
+ 6,896 
+ 10,782 
+ 12,748 
+ 133,288 
+ 
+ Transfers 
+ 1,306 
+ — 
+ 1,224 
+ 2,202 
+ 216 
+ — 
+ (4,948) 
+ — 
+ 
+ Acquisition of Musselwhite Mine 
+ 883,296 
+ — 
+ 50,691 
+ 155,483 
+ 4,506 
+ — 
+ 3,466 
+ 1,097,442 
+ 
+ Change in site closure provision (note 18) 
+ 43,838 
+ — 
+ — 
+ — 
+ — 
+ — 
+ — 
+ 43,838 
+ 
+ Due to changes in exchange rates 
+ — 
+ — 
+ — 
+ — 
+ (1) 
+ (3) 
+ — 
+ (4)
+ 
+ Disposals 
+ — 
+ — 
+ (571) 
+ (2,514) 
+ (137) 
+ (517) 
+ — 
+ (3,739)
+ 
+ At December 31, 2025 
+ 1,153,310 
+ 5,025 
+ 136,666 
+ 225,697 
+ 15,015 
+ 13,497 
+ 16,607 
+ 1,565,817 
+ 
+ Additions 
+ 30,122 
+ — 
+ — 
+ 1,325 
+ 8 
+ 6,186 
+ 18,065 
+ 55,706 
+ 
+ Transfers 
+ 317 
+ — 
+ 225 
+ 1,852 
+ 245 
+ — 
+ (2,639) 
+ — 
+ 
+ Change in site closure provision (note 18) 
+ (1,750) 
+ — 
+ — 
+ — 
+ — 
+ — 
+ — 
+ (1,750)
+ 
+ Derecognition 
+ — 
+ — 
+ — 
+ — 
+ — 
+ (60) 
+ — 
+ (60)
+ 
+ Disposals 
+ — 
+ — 
+ (12) 
+ (1,206) 
+ (472) 
+ (78) 
+ — 
+ (1,768)
+ 
+ At March 31, 2026 
+ $1,181,999 
+ $5,025 
+ $136,879 
+ $227,668 
+ $14,796 
+ $19,545 
+ $32,033 
+ $1,617,945 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Accumulated depreciation 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ At December 31, 2024 
+ $43,823 
+ $— 
+ $26,595 
+ $19,139 
+ $1,786 
+ $1,064 
+ $— 
+ $92,407 
+ 
+ Disposals 
+ — 
+ — 
+ (79) 
+ (2,183) 
+ (74) 
+ (309) 
+ — 
+ (2,645)
+ 
+ Depletion and depreciation 
+ 114,636 
+ 205 
+ 14,577 
+ 22,316 
+ 1,666 
+ 1,916 
+ — 
+ 155,316 
+ 
+ At December 31, 2025 
+ 158,459 
+ 205 
+ 41,093 
+ 39,272 
+ 3,378 
+ 2,671 
+ — 
+ 245,078 
+ 
+ Disposals 
+ — 
+ — 
+ — 
+ (300) 
+ (60) 
+ (78) 
+ — 
+ (438)
+ 
+ Depletion and depreciation 
+ 35,896 
+ 149 
+ 3,408 
+ 6,597 
+ 512 
+ 822 
+ — 
+ 47,384 
+ 
+ At March 31, 2026 
+ $194,355 
+ $354 
+ $44,501 
+ $45,569 
+ $3,830 
+ $3,415 
+ $— 
+ $292,024 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net book value 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ At December 31, 2025 
+ $994,851 
+ $4,820 
+ $95,573 
+ $186,425 
+ $11,637 
+ $10,826 
+ $16,607 
+ $1,320,739 
+ 
+ At March 31, 2026 
+ $987,644 
+ $4,671 
+ $92,378 
+ $182,099 
+ $10,966 
+ $16,130 
+ $32,033 
+ $1,325,921 
+ 
+
+ 
+
+ 
+
+1 CIP = Construction in progress
+
+ 
+
+ Page 13
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+13.DERIVATIVE CONTRACTS
+
+ 
+
+ 
+ 
+ Gold forward
+ contracts 
+ Currency
+ contracts 
+ Redemption
+ right asset 
+ Contingent
+ consideration
+ liability 
+ Warrants
+ liability 
+ Total 
+ 
+ 
+ 
+ 
+ note 13(c) 
+ note 13(a) 
+ note 13(b) 
+ 
+ 
+ At January 1, 2025 
+ $3,138 
+ $— 
+ $— 
+ $— 
+ $— 
+ $3,138 
+ 
+ Recognized at February 28, 2025 (note 15(b)) 
+ — 
+ — 
+ 18,000 
+ (17,000) 
+ (50,000) 
+ (49,000)
+ 
+ Change in fair value during the year 
+ (26,725) 
+ — 
+ 14,000 
+ (21,010) 
+ (112,000) 
+ (145,735)
+ 
+ Settled during the year 
+ 23,587 
+ — 
+ — 
+ — 
+ — 
+ 23,587 
+ 
+ Changes in fair value of hedging instruments 
+ — 
+ (889) 
+ — 
+ — 
+ — 
+ (889)
+ 
+ Hedging gains and losses transferred to inventory 
+ — 
+ 762 
+ — 
+ — 
+ — 
+ 762 
+ 
+ At December 31, 2025 
+ — 
+ (127) 
+ 32,000 
+ (38,010) 
+ (162,000) 
+ (168,137)
+ 
+ Settled during the period 
+ — 
+ — 
+ (2,992) 
+ 20,000 
+ 3,122 
+ 20,130 
+ 
+ Changes in fair value of hedging instruments 
+ — 
+ (1,436) 
+ — 
+ — 
+ — 
+ (1,436)
+ 
+ Hedging gains and losses transferred to inventory 
+ — 
+ 250 
+ — 
+ — 
+ — 
+ 250 
+ 
+ Change in fair value during the period 
+ — 
+ — 
+ 3,992 
+ (520) 
+ (50,122) 
+ (46,650)
+ 
+ At March 31, 2026 
+ $— 
+ $(1,313) 
+ $33,000 
+ $(18,530) 
+ $(209,000) 
+ $(195,843)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Presented as: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current assets 
+ $— 
+ $— 
+ $33,000 
+ $— 
+ $— 
+ $33,000 
+ 
+ Current liabilities 
+ — 
+ (1,313) 
+ — 
+ (18,530) 
+ (209,000) 
+ (228,843)
+ 
+ At March 31, 2026 
+ $— 
+ $(1,313) 
+ $33,000 
+ $(18,530) 
+ $(209,000) 
+ $(195,843)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+(a)Contingent consideration
+
+ 
+
+The consideration for the purchase of Musselwhite
+Mine Ltd. includes contingent consideration comprising (i) a payment of $20 million if the average spot price of gold exceeds $2,900
+per ounce during the one-year period ending February 28, 2026, and (ii) an additional $20 million if the average spot price
+of gold exceeds $3,000 per ounce during the one-year period ending February 28, 2027. Accordingly, the maximum payment possible
+under this contingent consideration is $40 million.
+
+ 
+
+During the three months ended March 31,
+2026, the condition associated with the first contingent payment was met, and the Company paid $20 million on March 12, 2026. As
+a result, the liability associated with this portion of the contingent consideration has been extinguished.
+
+ 
+
+The remaining contingent consideration of up
+to $20 million continues to be recognized as a financial liability and is measured at fair value at each reporting date.
+
+ 
+
+ Page 14
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+In accordance with IFRS 3 «Business Combinations»,
+contingent consideration is recognized at its acquisition date fair value. Subsequent changes in the fair value of contingent consideration
+that are within the scope of IFRS 9 «Financial Instruments» and do not relate to information existing at the acquisition
+date are recognized in profit or loss.
+
+ 
+
+The fair value of the remaining contingent consideration
+is estimated using a Monte Carlo simulation model, which simulates future gold prices under the assumption that gold prices follow a
+Geometric Brownian Motion in a risk-neutral framework.
+
+ 
+
+(b)Warrants liability
+
+ 
+
+Pursuant to the issuance of the convertible notes
+(note 15), the Company issued 23,392,397 common share purchase warrants on February 28, 2025. Each warrant entitles the holder to
+purchase one common share of the Company at an exercise price of C$11.50 per common share. The warrants will expire on February 28,
+2030.
+
+ 
+
+Under IAS 32 «Financial Instruments: Presentation»,
+the warrants do not meet the criteria for classification as equity because they are denominated in a currency other than the Company’s
+functional currency. As a result, we account for these warrants as derivative financial liabilities in accordance with IFRS 9 «Financial
+Instruments» and measure them at fair value through profit or loss at each reporting date. We present the warrant liability as
+a current liability on our balance sheet.
+
+ 
+
+ 
+ 
+ Number 
+ Fair value 
+ 
+ At January 1, 2025 
+ — 
+ $— 
+ 
+ Issued 
+ 23,392,397 
+ 50,000 
+ 
+ Change in fair values during the year 
+ — 
+ 112,000 
+ 
+ At December 31, 2025 
+ 23,392,397 
+ 162,000 
+ 
+ Exercised 
+ (396,202) 
+ (3,122)
+ 
+ Change in fair values during the period 
+ — 
+ 50,122 
+ 
+ At March 31, 2026 
+ 22,996,195 
+ $209,000 
+ 
+
+ 
+
+The fair value of the warrant liability was estimated
+using the binomial tree method, using the following key assumptions:
+
+ 
+
+ 
+ 
+ March 31, 2026 
+ December 31,
+ 2025 
+ 
+ Volume weighted average price 
+ C$22.05 
+ C$18.50 
+ 
+ Exercise price 
+ C$11.50 
+ C$11.50 
+ 
+ Implied volatility 
+ 50.0% 
+ 45.0%
+ 
+ Risk-free interest rate 
+ 3.0% 
+ 2.9%
+ 
+ Term to maturity (years) 
+ 3.9 
+ 4.2 
+ 
+
+ 
+
+ Page 15
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+(c)Redemption Right
+
+ 
+
+As part of the issuance of the convertible notes on February 28,
+2025 (note 15(b)), the Company retained a contractual redemption right, under which it may prepay the convertible notes at its discretion
+after the 18-month anniversary of issuance, provided that the 20-day volume-weighted average price (“VWAP”) of the Company’s
+common shares is at least 130% of the conversion price in effect at the time of redemption.
+
+ 
+
+This embedded redemption feature is considered
+a derivative instrument that is not closely related to the host debt contract and is accounted for separately under IFRS 9 «Financial
+Instruments». Accordingly, the redemption right is recognized as a derivative financial asset and measured at fair value through
+profit or loss.
+
+ 
+
+The fair value of the redemption right considers
+factors such as the prevailing market price of the Company’s shares, share price volatility, time to maturity, credit risk, and
+the likelihood of meeting the VWAP redemption condition.
+
+ 
+
+14.TRADE PAYABLES AND ACCRUED LIABILITIES
+
+ 
+
+ 
+ 
+ March 31, 2026 
+ December 31, 2025 
+ 
+ Trade payables and accrued trade liabilities 
+ $72,354 
+ $54,424 
+ 
+ Royalties payable 
+ 33,526 
+ 26,936 
+ 
+ Payroll related 
+ 30,255 
+ 19,527 
+ 
+ Current portion of lease obligations (note 17) 
+ 6,082 
+ 4,173 
+ 
+ Dividends payable 
+ — 
+ 5,102 
+ 
+ Other 
+ 1,346 
+ 1,762 
+ 
+ 
+ $143,563 
+ $111,924 
+ 
+
+ 
+
+ Page 16
+ 
+ 
+
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+15.LONG TERM DEBT
+ 
+
+ 
+ 
+ Revolving
+ facility 
+ Term facility 
+ Convertible
+ notes 
+ Total 
+ 
+ 
+ note 15(a) 
+ note 15(a) 
+ note 15(b) 
+ 
+ 
+ At January 1, 2025 
+ — 
+ — 
+ — 
+ — 
+ 
+ Advances 
+ 150,000 
+ 100,000 
+ — 
+ 250,000 
+ 
+ Proceeds for liability component of convertible notes issued 
+ — 
+ — 
+ 167,000 
+ 167,000 
+ 
+ Loan repayments 
+ (60,000) 
+ (5,000) 
+ — 
+ (65,000)
+ 
+ Transaction costs paid 
+ (1,186) 
+ — 
+ — 
+ (1,186)
+ 
+ Accretion expense 
+ 330 
+ — 
+ 4,591 
+ 4,921 
+ 
+ Interest expense 
+ 7,534 
+ 6,233 
+ 7,545 
+ 21,312 
+ 
+ Interest paid 
+ (7,534) 
+ (6,233) 
+ (7,545) 
+ (21,312)
+ 
+ At December 31, 2025 
+ $89,144 
+ $95,000 
+ $171,591 
+ $355,735 
+ 
+ Conversion 
+ — 
+ — 
+ (16,085) 
+ (16,085)
+ 
+ Loan repayments 
+ (30,000) 
+ (5,000) 
+ — 
+ (35,000)
+ 
+ Accretion expense 
+ 99 
+ — 
+ 1,324 
+ 1,423 
+ 
+ Interest expense 
+ 1,188 
+ 1,612 
+ 2,078 
+ 4,878 
+ 
+ Interest paid 
+ (1,188) 
+ (1,612) 
+ (2,078) 
+ (4,878)
+ 
+ At March 31, 2026 
+ $59,243 
+ $90,000 
+ $156,830 
+ $306,073 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current 
+ $— 
+ $20,000 
+ $— 
+ $20,000 
+ 
+ Non-current 
+ 59,243 
+ 70,000 
+ 156,830 
+ 286,073 
+ 
+ 
+ $59,243 
+ $90,000 
+ $156,830 
+ $306,073 
+ 
+
+ 
+
+(a)Credit Facility
+
+ 
+
+The Company has a senior secured credit
+facility (the “Credit Facility”) with a syndicate of lenders, comprised of a $100 million term facility (the “Term
+Facility”) and a $150 million revolving facility (the “Revolving Facility”). The Term Facility became available on
+February 28, 2025, and has a three-year term. The Company is required to make quarterly principal repayments of $5 million commencing
+on December 31, 2025, with the remaining balance due at maturity.
+
+ 
+
+The Revolving Facility matures on August 27,
+2027. Borrowings under the Revolving Facility bear interest at a rate based on term Secured Overnight Financing Rate (“SOFR”)
+plus an applicable margin ranging from 2.50% to 3.75%, depending on the Company’s leverage ratio at the end of each fiscal quarter.
+For the three months ended March 31, 2026, the average interest rate on the Revolving Facility was 6.8% per annum (three months
+ended March 31, 2025 – 7.9%).
+
+ 
+
+The Company also pays a standby fee
+on the undrawn portion of the Revolving Facility at a rate ranging from 0.56% to 0.84%, depending on the leverage ratio. At March 31,
+2026, there was an undrawn amount of $90 million under the Revolving Facility.
+
+ 
+
+ Page 17
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+The Credit Facility is secured by the
+Company’s present and future assets, property and proceeds thereof, other than the present and future assets of Minera Cerro Quema,
+which are excluded from the collateral package. Under the terms of the Credit Facility, the Company may not declare, pay or set aside
+dividends unless specified financial covenants and ratios are satisfied.
+
+ 
+
+The Credit Facility contains customary
+affirmative and negative covenants, including the following financial covenants, each as defined in the related agreements:
+
+ 
+
+·leverage
+ ratio of not more than 3.5;
+
+·interest
+ service coverage ratio of not less than 4.0;
+
+·tangible
+ net worth of not less than $278.6 million; and
+
+·minimum
+ liquidity of not less than $15.0 million.
+
+ 
+
+As at March 31, 2026, the Company
+was in compliance with these covenants.
+
+ 
+
+(b)Convertible notes
+
+ 
+
+On February 28, 2025, the Company
+issued $200 million of unsecured senior convertible notes on a private placement basis. The convertible notes mature on March 1,
+2030, and bear interest at 4.5% per annum, payable quarterly in arrears on March 31, June 30, September 30 and December 31
+of each year. The convertible notes are convertible at the holder’s option into common shares of the Company at any time prior
+to maturity at a conversion price of C$7.90 per share at a fixed exchange rate of 1.40 C$/US$ (=US$5.64) per share, subject to certain
+anti-dilution adjustments.
+
+ 
+
+After August 28, 2026, the Company
+may redeem the convertible notes at par together with accrued interest, provided that the 20-day volume weighted average price of the
+Company’s common shares is not less than 130% of the conversion price.
+
+ 
+
+In the event of a change of control,
+the holders have the right to require the Company to purchase its outstanding convertible notes at a cash purchase price equal to the
+lesser of (a) all remaining interest payable from the date of redemption up to and including the maturity date plus 100% of the
+principal amount, and (b) all accrued and unpaid interest on the principal amount up to and including the redemption date plus 104.5%
+of the principal amount.
+
+ 
+
+ Page 18
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+16.DEFERRED REVENUE
+ 
+
+ 
+ 
+ Gold
+ prepay
+ arrangements 
+ Silver
+ stream
+ arrangement 
+ Total 
+ 
+ At January 1, 2025 
+ $— 
+ $8,665 
+ $8,665 
+ 
+ Prepayments received 
+ 384,402 
+ — 
+ 384,402 
+ 
+ Gold delivered 
+ (117,013) 
+ — 
+ (117,013)
+ 
+ Accretion expense 
+ 24,460 
+ 487 
+ 24,947 
+ 
+ At December 31, 2025 
+ 291,849 
+ 9,152 
+ 301,001 
+ 
+ Gold delivered 
+ (35,834) 
+ — 
+ (35,834)
+ 
+ Accretion expense 
+ 5,860 
+ 120 
+ 5,980 
+ 
+ At March 31, 2026 
+ $261,875 
+ $9,272 
+ $271,147 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current 
+ $129,215 
+ $— 
+ $129,215 
+ 
+ Non-current 
+ 132,660 
+ 9,272 
+ 141,932 
+ 
+ 
+ $261,875 
+ $9,272 
+ $271,147 
+ 
+
+ 
+
+Gold prepay arrangements
+
+ 
+
+On February 26, 2025, the Company entered into gold prepay agreements
+with a syndicate of lenders.
+
+ 
+
+The gold prepay arrangements are accounted for
+as contracts with customers in accordance with IFRS 15 «Revenue from Contracts with Customers» because these contracts will
+be fulfilled by the Company, over time, by delivering its own production to the counterparties as per the gold prepay arrangement.
+
+ 
+
+The carrying amount of the deferred revenue is
+accreted to the estimated transaction price using an average effective interest rate of 8.4%. The estimated transaction price is determined
+based on the gold forward prices from accepted market resources. As gold is delivered to the lenders each month, revenue is credited
+to profit or loss, and the offsetting amount is charged to deferred revenue.
+
+ 
+
+Deliveries during the period
+
+ 
+
+ 
+ 
+ Three
+ months ended March 31 
+ 
+ 
+ 2026 
+ 2025 
+ 
+ Ounces delivered into the prepay agreements 
+ 12,074 
+ 4,025 
+ 
+ Revenue recognized 
+ $35,834 
+ $11,535 
+ 
+
+ 
+
+As at March 31, 2026, there were a total of 92,567 ounces of
+gold remaining to be delivered to the lenders at a rate of approximately 4,025 ounces per month until February 2028.
+
+ 
+
+ Page 19
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+17.LEASE OBLIGATIONS
+ 
+
+The Company has lease contracts for mining equipment,
+vehicles, and buildings. Leases of mining equipment generally have lease terms of three years, while vehicles and buildings generally
+have lease terms between three and five years.
+
+ 
+
+(a)Lease obligations
+
+ 
+
+ 
+ At January 1, 2025 
+ $2,179 
+ 
+ Additions 
+ 10,780 
+ 
+ Interest expense (note 7) 
+ 529 
+ 
+ Lease payments 
+ (3,018)
+ 
+ Derecognition 
+ (64)
+ 
+ Due to changes in exchange rates 
+ 114 
+ 
+ At December 31, 2025 
+ 10,520 
+ 
+ Additions 
+ 6,186 
+ 
+ Interest expense (note 7) 
+ 214 
+ 
+ Lease payments 
+ (1,401)
+ 
+ Derecognition 
+ (60)
+ 
+ Due to changes in exchange rates 
+ (243)
+ 
+ At March 31, 2026 
+ $15,216 
+ 
+ 
+ 
+ 
+ Current 
+ $6,082 
+ 
+ Non-current 
+ 9,134 
+ 
+ 
+ $15,216 
+ 
+
+ 
+
+(b)Lease expenses recognized
+
+ 
+
+ 
+ 
+ Three
+ months ended March 31 
+ 
+ 
+ 2026 
+ 2025 
+ 
+ Interest
+ on lease liabilities 
+ $214 
+ $49 
+ 
+ Variable lease
+ payments not included in the measurement of lease liabilities 
+ 5,707 
+ 5,778 
+ 
+ Expenses relating
+ to short-term leases 
+ 398 
+ 202 
+ 
+ Expenses
+ relating to leases of low-value assets, excluding short-term leases 
+ 14 
+ 13 
+ 
+ 
+ $6,333 
+ $6,042 
+ 
+
+ 
+
+ Page 20
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+18.SITE CLOSURE PROVISIONS
+
+ 
+
+ 
+ 
+ Musselwhite
+ Mine 
+ Camino
+ Rojo 
+ Nevada
+ projects 
+ Cerro
+ Quema Project 
+ Total 
+ 
+ At January 1, 2025 
+ $— 
+ $6,553 
+ $2,708 
+ $500 
+ $9,761 
+ 
+ Acquisition of Musselwhite Mine 
+ 49,709 
+ — 
+ — 
+ — 
+ 49,709 
+ 
+ Required remeasurement under IAS 37 
+ 46,462 
+ — 
+ — 
+ — 
+ 46,462 
+ 
+ Changes in cost estimates 
+ (3,197) 
+ 573 
+ 474 
+ — 
+ (2,150)
+ 
+ Accretion during
+ the year (note 7) 
+ 2,416 
+ 534 
+ 116 
+ — 
+ 3,066 
+ 
+ At December 31, 2025 
+ 95,390 
+ 7,660 
+ 3,298 
+ 500 
+ 106,848 
+ 
+ Changes in cost estimates 
+ (1,609) 
+ (141) 
+ — 
+ — 
+ (1,750)
+ 
+ Accretion during
+ the period (note 7) 
+ 839 
+ 190 
+ 42 
+ — 
+ 1,071 
+ 
+ At March 31, 2026 
+ $94,620 
+ $7,709 
+ $3,340 
+ $500 
+ $106,169 
+ 
+
+ 
+
+ 
+ 
+ 
+ Estimated 
+ settlement dates 
+ Undiscounted
+ risk-adjusted
+ cash flows 
+ Inflation rate 
+ Discount rate 
+ 
+ March 31,
+ 2026 
+ Musselwhite Mine 
+ 2029 to 2074 
+ $119,282 
+ 2.0% 
+ 3.6%
+ 
+ 
+ Camino Rojo 
+ 2033 to 2047 
+ $13,617 
+ 4.0% 
+ 9.5%
+ 
+ 
+ Nevada projects 
+ 2037 to 2039 
+ $3,435 
+ 2.4% 
+ 4.1%
+ 
+ 
+ Cerro Quema 
+ 
+ $500 
+ — 
+ — 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ December 31,
+ 2025 
+ Musselwhite Mine 
+ 2029 to 2074 
+ $121,310 
+ 2.0% 
+ 3.6%
+ 
+ 
+ Camino Rojo 
+ 2033 to 2047 
+ $13,072 
+ 3.7% 
+ 8.5%
+ 
+ 
+ Nevada projects 
+ 2037 to 2039 
+ $3,349 
+ 2.4% 
+ 4.0%
+ 
+ 
+ Cerro Quema 
+ 
+ $500 
+ — 
+ — 
+
+ 
+
+ Page 21
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+19.SHARE CAPITAL
+
+ 
+
+(a)Authorized share capital
+
+ 
+
+The Company’s authorized share capital
+consists of an unlimited number of common shares without par value and an unlimited number of preferred shares without par value.
+
+ 
+
+(b)Warrants
+
+ 
+
+The following summarizes information about shares
+issuable upon the exercise of warrants outstanding during the period.
+
+ 
+
+Warrants classified as equity
+
+ 
+
+ 
+ 
+ Shares
+ issuable upon exercise 
+ Weighted
+ average
+ exercise price 
+ 
+ Expiry date 
+ 18-Dec-26 
+ 23-Feb-26 
+ Total 
+ 
+ 
+ Exercise price 
+ C$
+ 3.00 
+ C$
+ 7.94 
+ 
+ 
+ 
+ At January 1, 2025 
+ 25,540,000 
+ 315,000 
+ 25,855,000 
+ C$3.06 
+ 
+ Issued 
+ — 
+ — 
+ — 
+ C$— 
+ 
+ Exercised 
+ (16,012,500) 
+ (133,875) 
+ (16,146,375) 
+ C$3.04 
+ 
+ At December 31 2025 
+ 9,527,500 
+ 181,125 
+ 9,708,625 
+ C$3.09 
+ 
+ Expired 
+ — 
+ (3,150) 
+ (3,150) 
+ C$7.94 
+ 
+ Exercised 
+ (1,614,167) 
+ (177,975) 
+ (1,792,142) 
+ C$3.49 
+ 
+ At March 31, 2026 
+ 7,913,333 
+ — 
+ 7,913,333 
+ C$3.00 
+ 
+
+ 
+
+ Page 22
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+Warrants classified as financial liabilities
+
+ 
+
+ 
+ 
+ 
+ Shares
+ 
+ issuable upon
+ exercise 
+ Weighted
+ average
+ exercise price 
+ 
+ Expiry date
+ 
+ 28-Feb-2030
+ (note 13(b)) 
+ 
+ 
+ Exercise price
+ 
+ C$
+ 11.50 
+ 
+ 
+ At January 1, 2025
+ 
+ — 
+ C$— 
+ 
+ Issued
+ 
+ 23,392,397 
+ C$11.50 
+ 
+ At December 31 2025
+ 
+ 23,392,397 
+ C$11.50 
+ 
+ Exercised
+ 
+ (396,202) 
+ C$11.50 
+ 
+ At March 31, 2026
+ 
+ 22,996,195 
+ C$11.50 
+ 
+
+ 
+
+Because the parent entity’s functional
+currency was US dollars when these warrants were issued and these warrants are exercisable in Canadian dollars, we concluded these were
+financial liabilities.
+
+ 
+
+20.EARNINGS (LOSS) PER SHARE
+
+ 
+
+Earnings (loss) per share has been calculated
+using the weighted average number of common shares outstanding for the three months ended March 31, 2026 and 2025 as follows:
+
+ 
+
+(a)Basic
+
+ 
+
+ 
+ 
+ Three
+ months ended March 31 
+ 
+ 
+ 2026 
+ 2025 
+ 
+ Income
+ (loss) for the period 
+ $75,405 
+ $(69,832)
+ 
+ Weighted average
+ number of common shares (thousands) 
+ 344,190 
+ 322,350 
+ 
+ Basic earnings
+ (loss) per share 
+ $0.22 
+ $(0.22)
+ 
+
+ 
+
+ Page 23
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+(b)Diluted
+
+ 
+
+ 
+ 
+ Three
+ months ended March 31 
+ 
+ 
+ 2026 
+ 2025 
+ 
+ Income
+ (loss) for the period 
+ $75,405 
+ $(69,832)
+ 
+ Interest
+ and accretion expense on convertible notes (note 7) 
+ 3,402 
+ — 
+ 
+ Income (loss)
+ for the period - diluted 
+ $78,807 
+ $(69,832)
+ 
+ 
+ 
+ 
+ 
+ Weighted average number of common
+ shares (thousands) 
+ 344,190 
+ 322,350 
+ 
+ Dilutive potential
+ ordinary shares: 
+ 
+ 
+ 
+ Warrants 
+ 18,551 
+ — 
+ 
+ Options 
+ 1,321 
+ — 
+ 
+ Convertible notes 
+ 33,215 
+ — 
+ 
+ RSUs 
+ 865 
+ — 
+ 
+ DSUs 
+ 828 
+ — 
+ 
+ Bonus shares 
+ 500 
+ — 
+ 
+ Weighted average number of ordinary
+ shares 
+ 399,470 
+ 322,350 
+ 
+ 
+ 
+ 
+ 
+ Diluted earnings
+ (loss) per share 
+ $0.20 
+ $(0.22)
+ 
+
+ 
+
+Potential ordinary shares arising from conversion
+of convertible notes (12,602,000), warrants (17,838,000), stock options (1,587,000), RSUs (724,000), DSUs (898,000) and 500,000 bonus
+shares are not included in the calculation of diluted loss per share for the three months ended March 31, 2025, because their effect
+would have been anti-dilutive.
+
+ 
+
+21.SHARE-BASED PAYMENTS
+
+ 
+
+The Company has five different forms of share-based
+payments for eligible recipients – stock options, restricted share units (“RSUs”), deferred share units (“DSUs”),
+performance share units (“PSUs”), and bonus shares. The bonus shares have fully vested but have not yet been issued.
+
+ 
+
+ 
+ 
+ Three
+ months ended March 31 
+ 
+ Share-based payments expense 
+ 2026 
+ 2025 
+ 
+ Stock options (note 21(a)) 
+ $434 
+ $227 
+ 
+ Restricted share units (note 21(b)) 
+ 662 
+ 306 
+ 
+ Deferred share units (note 21(c)) 
+ 760 
+ 689 
+ 
+ Performance share units (note 21(d)) 
+ 2,530 
+ 2,096 
+ 
+ Share based payments expense 
+ $4,386 
+ $3,318 
+ 
+
+ 
+
+ Page 24
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+(a)Stock options
+
+ 
+
+Stock options granted by the Company have a five-year
+life, with one third each vesting one, two, and three years after grant date.
+
+ 
+
+ 
+ 
+ Three
+ months ended March 31 
+ 
+ 
+ 2026 
+ 2025 
+ 
+ Stock
+ options outstanding 
+ Number 
+ Weighted
+ average
+ exercise price 
+ Number 
+ Weighted
+ 
+ average
+ exercise price 
+ 
+ Outstanding, January 1 
+ 2,079,955 
+ C$7.55 
+ 3,570,471 
+ C$4.95 
+ 
+ Granted 
+ 333,940 
+ 19.17 
+ 361,355 
+ 13.10 
+ 
+ Exercised 
+ (25,837) 
+ 5.62 
+ (1,436,533) 
+ 4.07 
+ 
+ Expired, forfeited or cancelled 
+ (10,098) 
+ 8.22 
+ — 
+ — 
+ 
+ Outstanding, March 31 
+ 2,377,960 
+ C$9.20 
+ 2,495,293 
+ C$6.64 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Vested, March 31 
+ 1,471,698 
+ C$6.22 
+ 1,473,942 
+ C$5.62 
+ 
+
+ 
+
+The stock options granted during the three months
+ended March 31, 2026 had a grant date fair value of C$2.8 million ($2.0 million) using the Black Scholes option pricing model with
+the following weighted average assumptions:
+
+ 
+
+·Share
+ price at grant date ranging from C$19.13 to $22.37, expected volatility 48%, expected life
+ - 5 years, risk free interest rates ranging from 3.0% to 3.2% and expected dividends –
+ 0.4%.
+
+ 
+
+Subsequent to the reporting period, 62,749 stock
+options were exercised, for gross proceeds to the Company of $0.3 million.
+
+ 
+
+(b)Restricted share units (“RSUs”)
+
+ 
+
+RSUs awarded by the Company typically vest one-third
+each one, two, and three years after award date.
+
+ 
+
+ 
+ 
+ Three
+ months ended March 31 
+ 
+ Number of RSUs outstanding: 
+ 2026 
+ 2025 
+ 
+ Outstanding, January 1 
+ 954,866 
+ 821,040 
+ 
+ Awarded 
+ 222,350 
+ 383,066 
+ 
+ Vested and settled 
+ (261,785) 
+ (98,271)
+ 
+ Forfeitures 
+ (46) 
+ (12,849)
+ 
+ Outstanding, March 31 
+ 915,385 
+ 1,092,986 
+ 
+
+ 
+
+ Page 25
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+ 
+ 
+ 
+ Number vesting in the year 
+ 
+ Number of RSUs outstanding: 
+ Total 
+ Vested
+ but 
+ not issued 
+ 2025 
+ 2026 
+ 2027 
+ 2028 
+ 2029 
+ 
+ Outstanding, March 31,
+ 2025 
+ 1,092,986 
+ 
+ 376,470 
+ 352,266 
+ 254,228 
+ 110,022 
+ — 
+ 
+ Outstanding, March 31, 2026 
+ 915,385 
+ 261,216 
+ — 
+ 77,385 
+ 319,213 
+ 183,731 
+ 73,840 
+ 
+
+ 
+
+Restricted Share Units (“RSUs”) are
+valued based on the closing price of the Company’s common shares on the trading day immediately prior to award. All RSU’s
+outstanding were accounted for as equity-settled, as none were settled in cash.
+
+ 
+
+We measured the fair value of our RSUs awarded
+during the year using the observable market price of our common shares on the measurement date. The weighted average price of RSUs awarded
+during the three months ended March 31, 2026 was C$19.14 (three months ended March 31, 2025 – C$13.11).
+
+ 
+
+(c)Deferred share units (“DSUs”)
+
+ 
+
+DSUs are awarded by the Company to directors.
+These DSUs vest immediately but are not settled until the end of the director’s tenure. They may be settled in cash or common shares
+at the option of the Company. DSUs are valued using the closing price of the Company’s common shares immediately prior to award.
+
+ 
+
+ 
+ 
+ Three
+ months ended March 31 
+ 
+ Number of DSUs outstanding: 
+ 2026 
+ 2025 
+ 
+ Outstanding, January 1 
+ 824,477 
+ 894,903 
+ 
+ Awarded and vested immediately 
+ 54,287 
+ 75,570 
+ 
+ Outstanding, March 31 
+ 878,764 
+ 970,473 
+ 
+ 
+ 
+ 
+ 
+ Vested, March 31 
+ 878,764 
+ 970,473 
+ 
+
+ 
+
+(d)Performance share units (“PSUs”)
+
+ 
+
+In March 2023, the Board of Directors approved
+a PSU plan for certain officers of the Company. The PSUs cliff vest after three years and are settled in cash. The cash payment upon
+vesting will be based on the number of PSUs, multiplied by the five-day volume weighted average price of the Company’s shares upon
+vesting, which is then multiplied by a “performance percentage”. The performance percentage ranges from 0% to 200% based
+on the Company’s total shareholder return compared to a peer group, consisting of the constituents of the S&P/TSX Global Gold
+Index.
+
+ 
+
+We recognize share-based compensation expense
+related to these PSUs over the vesting period. We charge or credit to earnings at each reporting period the change in fair value of the
+PSU liability. This fair value is generally dependent on quoted market values of the Company and the peer group, the lapsed portion of
+the vesting period, the number of PSUs expected to vest, and the expected performance percentage.
+
+ 
+
+We valued our PSU liabilities using a Monte Carlo
+model leading to a standard error of less than 1%. As at March 31, 2026, the PSU liability totaled $9.0 million of which $7.9 million
+was included in trade payables and accrued liabilities and $1.1 million was included in other long term liabilities (December 31,
+2025 – $2.3 million included in trade payables and accrued liabilities and $4.2 million included in other long term liabilities).
+
+ 
+
+ Page 26
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+During the three months ended March 31,
+2026, the Company awarded a total of 123,313 PSUs.
+
+ 
+
+ 
+ 
+ Three months
+ ended March 31 
+ 
+ Number of PSUs outstanding: 
+ 2026 
+ 2025 
+ 
+ Outstanding, January 1 
+ 683,513 
+ 522,876 
+ 
+ Awarded during the period 
+ 123,313 
+ 160,637 
+ 
+ Paid in cash during the period 
+ — 
+ — 
+ 
+ Outstanding, March 31 
+ 806,826 
+ 683,513 
+ 
+ 
+ 
+ 
+ 
+ Vested, March 31 
+ 198,920 
+ — 
+ 
+
+ 
+
+Subsequent to the reporting period, 198,920 of
+PSUs were settled in cash, for a payment of $2.6 million.
+
+ 
+
+(e)Bonus shares
+
+ 
+
+There are 500,000 common shares which were awarded
+to the non-executive Chairman of the Company as bonus shares, which vested on June 18, 2020. Although the bonus shares have vested,
+they will become issuable (1) when the non-executive Chairman ceases to act as a director of the Company, or (2) upon a change
+of control of the Company.
+
+ 
+
+22.RELATED PARTY TRANSACTIONS
+
+ 
+
+The Company’s related parties comprise
+key management personnel and, until December 5, 2025, Fairfax Financial Holdings Limited and its subsidiaries.
+
+ 
+
+·Key
+ management personnel consist of the Chief Executive Officer, the Chief Operating Officer,
+ the Chief Financial Officer, the Chief Sustainability Officer, the Senior Vice President,
+ Exploration, and the members of the Company’s Board of Directors.
+
+ 
+
+·Fairfax
+ Financial Holdings Limited, together with its subsidiaries (“Fairfax”), became
+ a related party of the Company on February 28, 2025, when Fairfax acquired a portion
+ of the Company’s convertible notes (note 15(b)) and related warrants (note 13(b)).
+ Fairfax was considered to have significant influence over the Company from that date until
+ December 5, 2025 as a result of its existing and exercisable potential voting rights.
+ On December 5, 2025, Fairfax disposed of a number of shares such that its existing and
+ exercisable potential voting rights no longer conferred significant influence over the Company.
+ Accordingly, Fairfax ceased to be a related party from that date.
+
+ 
+
+ Page 27
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+(a)Key management personnel
+
+ 
+
+Compensation to key management personnel was
+as follows:
+
+ 
+
+ 
+ 
+ Three
+ months ended March 31 
+ 
+ 
+ 2026 
+ 2025 
+ 
+ Salaries and short-term incentives 
+ $491 
+ $2,276 
+ 
+ Directors’ fees 
+ 169 
+ 142 
+ 
+ Share based payments 
+ 1,123 
+ 944 
+ 
+ 
+ $1,783 
+ $3,362 
+ 
+
+ 
+
+(b)Transactions
+
+ 
+
+During the three months ended March 31,
+2025, the Company paid $0.6 million in interest on the convertible notes to Fairfax Financial Holdings Limited and its subsidiaries.
+
+ 
+
+The Company had no other material transactions
+with related parties other than key management personnel during the three months ended March 31, 2026, and 2025.
+
+ 
+
+(c)Outstanding balances at the reporting date
+
+ 
+
+Key management personnel estimated accrued short
+term incentive compensation totaled $2.6 million and is included in accrued liabilities (December 31, 2025 – $1.9 million).
+In addition, the Company has recognized an estimated long-term incentive compensation liability related to PSUs of $9.0 million (note
+21(d)), of which $2.6 million was paid subsequent to the reporting period on April 15, 2026.
+
+ 
+
+23.SUPPLEMENTAL CASH FLOW INFORMATION
+
+ 
+
+(a)Cash
+
+ 
+
+Cash consists of bank current accounts and cash
+on hand.
+
+ 
+
+(b)Changes in non-cash working capital
+
+ 
+
+ 
+ 
+ Three
+ months ended March 31 
+ 
+ 
+ 2026 
+ 2025 
+ 
+ Accounts receivable and prepaid expenses 
+ $2,647 
+ $(2,939)
+ 
+ Inventory 
+ (11,727) 
+ 6,824 
+ 
+ Value added taxes recoverable 
+ (6,141) 
+ (1,171)
+ 
+ Trade payables and accrued liabilities 
+ 24,122 
+ 7,521 
+ 
+ Changes in non-cash working capital 
+ $8,901 
+ $10,235 
+ 
+
+ 
+
+ Page 28
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+(c)Non-cash investing and financing activities
+
+ 
+
+ 
+ 
+ Three
+ months ended March 31 
+ 
+ 
+ 2026 
+ 2025 
+ 
+ Financing activities 
+ 
+ 
+ 
+ Stock options exercised, credited to share capital
+ with an offset to reserves 
+ $41 
+ $1,734 
+ 
+ Warrants exercised, credited to share capital with an offset
+ to reserves and warrants liability 
+ 3,544 
+ 98 
+ 
+ Common shares issued on maturity of RSUs, credited to share
+ capital with an offset to reserves 
+ 1,693 
+ 440 
+ 
+ 
+ 
+ 
+ 
+ Investing activities 
+ 
+ 
+ 
+ Initial recognition of right of use assets, with an offset
+ to lease obligation 
+ 6,186 
+ 197 
+ 
+
+ 
+
+ Page 29
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+24.SEGMENT INFORMATION
+
+ 
+
+(a)Geographic segments
+
+ 
+
+We conduct our activities in four geographic areas: Canada, Mexico,
+USA, Panama, and our corporate offices are in Canada.
+
+ 
+
+(b)Reportable segments
+
+ 
+
+The operating and reportable segments of the
+Company are based on the reports which are reviewed by the chief operating decision maker (“CODM”) in making strategic resource
+allocation decisions and assessing their performance.
+
+ 
+
+The Company has five operating segments: (1) Musselwhite
+Mine, (2) the Camino Rojo Mine, (3) the Nevada projects, (4) the Cerro Quema project, and (5) the corporate office.
+
+ 
+
+The operating segments other than corporate office
+are each managed by a dedicated General Manager and management team. The corporate office oversees the plans and activities of early-stage
+exploration projects.
+
+ 
+
+Income (loss) for the period by segment
+
+ 
+
+ 
+ Three
+ months ended March 31, 2026 
+ Mussel-
+ white Mine 
+ Camino
+ 
+ Rojo 
+ South
+ Carlin 
+ Cerro
+ 
+ Quema 
+ Corporate 
+ Total 
+ 
+ Provided to the CODM on a per-segment basis 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ External revenue 
+ $254,657 
+ $88,390 
+ $— 
+ $— 
+ $35,833 
+ $378,880 
+ 
+ Intersegment revenue 
+ 58,928 
+ — 
+ — 
+ — 
+ (58,928) 
+ — 
+ 
+ Operating costs 
+ (73,417) 
+ (21,990) 
+ — 
+ — 
+ — 
+ (95,407)
+ 
+ Royalties 
+ (9,817) 
+ (2,630) 
+ — 
+ — 
+ — 
+ (12,447)
+ 
+ Exploration and evaluation expenses 
+ (1,076) 
+ (907) 
+ (2,757) 
+ (1,181) 
+ (111) 
+ (6,032)
+ 
+ General and administrative
+ expenses 
+ — 
+ — 
+ — 
+ — 
+ (11,481) 
+ (11,481)
+ 
+ Segment profit (loss) as provided to the CODM 
+ 229,275 
+ 62,863 
+ (2,757) 
+ (1,181) 
+ (34,687) 
+ 253,513 
+ 
+ Reconciling items to net income before tax expense 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Depletion and depreciation 
+ 
+ 
+ 
+ 
+ 
+ (47,728)
+ 
+ Interest income 
+ 
+ 
+ 
+ 
+ 
+ 3,834 
+ 
+ Depreciation 
+ 
+ 
+ 
+ 
+ 
+ (174)
+ 
+ Share based payments 
+ 
+ 
+ 
+ 
+ 
+ (4,386)
+ 
+ Interest and accretion expense 
+ 
+ 
+ 
+ 
+ 
+ (13,714)
+ 
+ Fair value adjustments on financial instruments 
+ 
+ 
+ 
+ 
+ 
+ (46,650)
+ 
+ Foreign exchange
+ and other gain (loss) 
+ 
+ 
+ 
+ 
+ 
+ (1,080)
+ 
+ Income before tax expense, for the period 
+ 
+ 
+ 
+ 
+ 
+ $143,615 
+ 
+
+ 
+
+ Page 30
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+ 
+ Three months ended
+ March 31, 2025 
+ Mussel-
+ white Mine 
+ Camino
+ Rojo 
+ South
+ 
+ Carlin 
+ Cerro
+ Quema 
+ Corporate 
+ Total 
+ 
+ Provided to the CODM on a per-segment basis 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ External revenue 
+ $— 
+ $93,054 
+ $— 
+ $— 
+ $47,616 
+ $140,670 
+ 
+ Intersegment revenue 
+ 48,257 
+ — 
+ — 
+ — 
+ (48,257) 
+ — 
+ 
+ Operating costs 
+ (27,289) 
+ (20,983) 
+ — 
+ — 
+ — 
+ (48,272)
+ 
+ Royalties 
+ (580) 
+ (2,765) 
+ — 
+ — 
+ — 
+ (3,345)
+ 
+ Exploration and evaluation expenses 
+ (225) 
+ (1,534) 
+ (3,542) 
+ (3,443) 
+ (135) 
+ (8,879)
+ 
+ General and administrative
+ expenses 
+ — 
+ — 
+ — 
+ — 
+ (15,802) 
+ (15,802)
+ 
+ Segment profit (loss) as provided to the CODM 
+ 20,163 
+ 67,772 
+ (3,542) 
+ (3,443) 
+ (16,578) 
+ 64,372 
+ 
+ Reconciling items to net income before tax expense 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Depletion and depreciation 
+ 
+ 
+ 
+ 
+ 
+ (16,799)
+ 
+ Interest income 
+ 
+ 
+ 
+ 
+ 
+ 1,825 
+ 
+ Depreciation 
+ 
+ 
+ 
+ 
+ 
+ (120)
+ 
+ Share based payments 
+ 
+ 
+ 
+ 
+ 
+ (3,318)
+ 
+ Interest and accretion expense 
+ 
+ 
+ 
+ 
+ 
+ (6,799)
+ 
+ Fair value adjustments on financial instruments 
+ 
+ 
+ 
+ 
+ 
+ (80,725)
+ 
+ Foreign exchange
+ and other gain (loss) 
+ 
+ 
+ 
+ 
+ 
+ (2,443)
+ 
+ Loss before tax expense, for the period 
+ 
+ 
+ 
+ 
+ 
+ $(44,007)
+ 
+
+ 
+
+Assets by geographic segment
+
+ 
+
+ 
+ At March 31, 2026 
+ Canada 
+ Mexico 
+ USA 
+ Panama 
+ Corporate 
+ Total 
+ 
+ Property, plant and equipment 
+ $1,119,626 
+ $180,096 
+ $24,693 
+ $— 
+ $1,506 
+ $1,325,921 
+ 
+ Exploration and evaluation properties 
+ — 
+ — 
+ 171,948 
+ 10,000 
+ — 
+ 181,948 
+ 
+ Additions to non-current assets 
+ 38,112 
+ 1,646 
+ 14,190 
+ — 
+ 8 
+ 53,956 
+ 
+ Inventories 
+ 51,845 
+ 45,081 
+ — 
+ — 
+ — 
+ 96,926 
+ 
+ Total assets 
+ 1,389,512 
+ 422,389 
+ 198,448 
+ 10,851 
+ 86,243 
+ 2,107,443 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ At December 31, 2025 
+ Canada 
+ Mexico 
+ USA 
+ Panama 
+ Corporate 
+ Total 
+ 
+ Property, plant and equipment 
+ $1,123,187 
+ $185,365 
+ $10,594 
+ $— 
+ $1,593 
+ $1,320,739 
+ 
+ Exploration and evaluation properties 
+ — 
+ — 
+ 171,948 
+ 10,000 
+ — 
+ 181,948 
+ 
+ Additions to non-current assets 
+ 147,919 
+ 17,493 
+ 10,239 
+ — 
+ 1,475 
+ 177,126 
+ 
+ Inventories 
+ 43,482 
+ 42,236 
+ — 
+ — 
+ — 
+ 85,718 
+ 
+ Total assets 
+ 1,409,519 
+ 401,944 
+ 185,135 
+ 10,826 
+ 70,909 
+ 2,078,333 
+ 
+
+ 
+
+ Page 31
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+25.CAPITAL MANAGEMENT
+
+ 
+
+(a)Objectives
+
+ 
+
+Our objectives when managing capital are to safeguard
+the Company’s ability to continue as a going concern to pursue the exploration, evaluation, development, and exploitation of our
+mineral properties and to maintain a flexible capital structure.
+
+ 
+
+We manage our capital structure and adjust it
+considering changes in economic conditions and the risk characteristics of the underlying assets. To maintain or adjust the Company’s
+capital structure, we may issue new shares, take on additional debt or repay outstanding debt, or acquire or dispose of assets.
+
+ 
+
+To support its capital management objectives,
+the Company has a planning, budgeting and forecasting process in place to ensure necessary liquidity to meet its operating and growth
+plans.
+
+ 
+
+Our ability to carry out our long-range strategic
+objectives in future periods depends on our ability to generate positive cash flows from our mining operations and to raise financing
+from lenders, shareholders, and new investors. We regularly review and consider financing alternatives to fund the Company’s ongoing
+operational, exploration, and development activities.
+
+ 
+
+(b)Investment policy
+
+ 
+
+Our investment policy is to invest the Company’s
+excess cash in low-risk financial instruments such as demand deposits and savings accounts with major Canadian banks. By using this strategy,
+the Company preserves its cash resources and can marginally increase these resources with low risk through the yields on these investments.
+Our financial instruments are exposed to certain financial risks, which include currency risk, credit risk, and liquidity risk.
+
+ 
+
+26.FINANCIAL INSTRUMENTS
+
+ 
+
+(a)Fair value hierarchy
+
+ 
+
+To provide an indication of the reliability of
+the inputs used in determining fair value, we classify our financial instruments into the three levels prescribed by the accounting standards.
+
+ 
+
+Level 1. The fair value of financial instruments
+traded in active markets (such as publicly traded equity securities) is based on quoted (unadjusted) market prices as at the reporting
+date. The quoted market price used for financial assets held by the Company is the closing trading price on the reporting date. Such
+instruments are included in Level 1.
+
+ 
+
+Level 2. The fair value of financial instruments
+that are not traded in an active market is determined using valuation techniques. These valuation techniques maximize the use of observable
+market data where it is available and rely as little as possible on entity specific estimates. If all significant inputs required to
+fair value an instrument are observable, we include that instrument in Level 2.
+
+ 
+
+Level 3. If one or more of the significant inputs is not based on
+observable market data, the instrument is included in Level 3.
+
+ 
+
+ Page 32
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+The carrying values of cash, accounts receivable,
+trade payables and accrued liabilities, and restricted cash approximate their fair values due to the short-term nature of the instruments.
+
+ 
+
+At March 31, 2026, the carrying values and
+fair values of our financial instruments by category were as follows:
+
+ 
+
+ 
+ 
+ 
+ 
+ Fair value 
+ 
+ 
+ Classification 
+ Carrying
+
+ value 
+ Level 1 
+ Level 2 
+ Level 3 
+ 
+ Financial assets 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash 
+ Amortized cost 
+ $427,349 
+ — 
+ — 
+ — 
+ 
+ Accounts receivable 
+ FVPTL 
+ 5,474 
+ 68 
+ 5,406 
+ — 
+ 
+ Restricted cash 
+ Amortized cost 
+ 2,290 
+ — 
+ — 
+ — 
+ 
+ Derivative assets 
+ FVTPL 
+ 33,000 
+ — 
+ 33,000 
+ — 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Financial liabilities 
+ 
+ 
+ 
+ 
+ 
+ 
+ Trade payables and accrued liabilities 
+ Amortized cost 
+ 136,779 
+ — 
+ — 
+ — 
+ 
+ Credit facility 
+ Amortized cost 
+ 149,243 
+ — 
+ 150,000 
+ — 
+ 
+ Convertible notes 
+ Amortized cost 
+ 156,830 
+ — 
+ 157,000 
+ — 
+ 
+ Derivative liabilities (note 13) 
+ FVTPL 
+ 228,843 
+ — 
+ 228,843 
+ — 
+ 
+
+ 
+
+At December 31, 2025, the carrying values and fair values of
+our financial instruments by category were as follows:
+
+ 
+
+ 
+ 
+ 
+ 
+ Fair value 
+ 
+ 
+ Classification 
+ Carrying
+
+ value 
+ Level 1 
+ Level 2 
+ Level 3 
+ 
+ Financial assets 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash 
+ Amortized cost 
+ $420,776 
+ — 
+ — 
+ — 
+ 
+ Accounts receivable 
+ FVPTL 
+ 6,251 
+ 58 
+ 6,193 
+ — 
+ 
+ Restricted cash 
+ Amortized cost 
+ 2,305 
+ — 
+ — 
+ — 
+ 
+ Derivative assets 
+ FVTPL 
+ 32,000 
+ — 
+ 32,000 
+ — 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Financial liabilities 
+ 
+ 
+ 
+ 
+ 
+ 
+ Trade payables and accrued liabilities 
+ Amortized cost 
+ 101,618 
+ — 
+ — 
+ — 
+ 
+ Credit facility 
+ Amortized cost 
+ 184,144 
+ — 
+ 185,000 
+ — 
+ 
+ Convertible notes 
+ Amortized cost 
+ 171,591 
+ — 
+ 175,000 
+ — 
+ 
+ Derivative liabilities (note 13) 
+ FVTPL 
+ 200,137 
+ — 
+ 200,137 
+ — 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+The fair values of the Credit Facility and the
+convertible notes were determined using discounted cash flows based on the expected amounts and timing of the cash flows discounted using
+a market rate of interest adjusted for appropriate credit risk. The fair value of trade receivables from provisional invoices for concentrate
+sales is determined using quoted forward rates derived from observable market data based on the month of expected settlement.
+
+ 
+
+The fair value of the Credit Facility at March 31,
+2026 was estimated at $150.0 million using a discount rate of 7.5% (December 31, 2025 — $185.0 million using a discount rate
+of 7.4%).
+
+ 
+
+ Page 33
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial
+Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+The fair value of the convertible notes at March 31,
+2026, was estimated at $157.0 million using a discount rate of 8.9% (December 31, 2025 —$175.0 million using a discount rate
+of 8.3%).
+
+ 
+
+We determined that no transfers occurred between
+levels in the hierarchy by re-assessing categorization at the end of each reporting period.
+
+ 
+
+27.COMMITMENTS AND CONTINGENCIES
+
+ 
+
+(a)Commitments
+
+ 
+
+The Company has issued purchase orders for construction,
+equipment purchases, materials and supplies, and other services at Musselwhite Mine, Camino Rojo and South Railroad. At March 31,
+2026, these outstanding purchase orders and contracts totaled approximately $105.7 million (December 31, 2025 – $11.2 million).
+
+ 
+
+The Company is committed to making severance
+payments totaling approximately $8.4 million (December 31, 2025 – $9.7 million) to certain officers and management in the
+event of a change in control. As the likelihood of these events occurring is not determinable, this amount is not reflected in these
+consolidated financial statements.
+
+ 
+
+(b)Discretionary mineral property-related commitments
+
+ 
+
+As is customary in mineral exploration, some
+of the mineral properties held by the Company as exploration and evaluation assets have annual minimum work commitments and lease payments
+required to maintain these properties in good standing pursuant to their underlying agreements.
+
+ 
+
+(c)Contingencies
+
+ 
+
+An ecological tax implemented by the state legislature
+of Zacatecas could have a significant impact on the economics of the Camino Rojo Project. This tax is applied to tonnes of waste material
+extracted during mining, square metres of material impacted by dangerous substances, tonnes of carbon dioxide produced during mining
+processes, and tonnes of waste stored in landfills. The Company has received assessments related to previous periods in respect of this
+tax; however, the Company’s view is that the sections of the law pursuant to which these assessments have been issued do not apply
+to the Company at this time and, accordingly, we have filed the appropriate appeals. We expect this matter will be resolved by judicial
+process. As the outcome of these events is not determinable, no amounts have been accrued in respect of this tax.
+
+ 
+
+We may, from time to time, be a party to legal
+proceedings, which arise in the ordinary course of our business. We are not aware of any pending or threatened litigation that, if resolved
+against us, would have a material effect on our consolidated financial position, results of operations or cash flows.
+
+ 
+
+ Page 34
+ 
+ 
+
+ 
+
+ORLA MINING LTD.
+
+Notes to the Condensed Interim Consolidated Financial Statements
+
+Three months ended March 31, 2026 and 2025
+
+(United States dollars, unless
+otherwise stated. All currency figures in tables are in thousands, except per-share amounts)
+
+ 
+
+28.INCOME TAXES
+
+ 
+
+Tax expense consists of (i) current income
+tax on taxable income, (ii) Ontario mining tax, (iii) special mining duty ("SMD") on income subject to SMD, and (iv) withholding
+taxes attributable to interest charged on intercompany loans to the Mexican operating company, as well as (v) deferred income tax,
+(vi) deferred Ontario mining tax and (vii) deferred special mining duty.
+
+ 
+
+ 
+ 
+ Three
+ months ended March 31 
+ 
+ 
+ 2026 
+ 2025 
+ 
+ Current income tax 
+ $55,263 
+ $18,000 
+ 
+ Mexican Special Mining Duty 
+ 5,358 
+ 5,405 
+ 
+ Ontario Mining Tax 
+ 8,613 
+ 1,091 
+ 
+ Withholding tax 
+ — 
+ 1,513 
+ 
+ Deferred income tax expense (recovery) 
+ (345) 
+ (618)
+ 
+ Deferred Mexican Special Mining Duty 
+ (210) 
+ (86)
+ 
+ Deferred Ontario Mining Tax 
+ (469) 
+ 520 
+ 
+ Tax expense 
+ $68,210 
+ $25,825 
+ 
+
+ 
+
+29.EVENTS AFTER THE REPORTING PERIOD
+
+ 
+
+(a)Exercise of stock options
+
+ 
+
+Subsequent to the reporting period,
+the Company issued common shares pursuant to the exercise of options (note 21(a)).
+
+ 
+
+(b)Settlement of PSUs
+
+ 
+
+Subsequent to the reporting period,
+198,920 of PSUs were settled in cash, for a payment of $2.6 million (note 21(d)).
+
+ 
+
+(c)Revolving facility principal payment
+
+ 
+
+Subsequent to the reporting period, the Company made a principal
+repayment of $30 million on the Revolving Facility (note 15(a)).
+
+ 
+
+ Page 35

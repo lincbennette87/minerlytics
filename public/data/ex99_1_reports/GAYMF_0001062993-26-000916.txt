@@ -1,0 +1,8188 @@
+EX-99.1
+2
+exhibit99-1.htm
+EXHIBIT 99.1
+
+ Galiano Gold Inc.: Exhibit 99.1 - Filed by newsfilecorp.com
+
+ 
+ 
+ 
+ GALIANO GOLD INC.
+ CONSOLIDATED FINANCIAL STATEMENTSYears ended December 31, 2025 and 2024(Expressed in United States dollars, unless otherwise noted)
+ 
+ 
+ 
+ TABLE OF CONTENTS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Management's Responsibility for Financial Reporting
+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+ Report of Independent Registered Public Accounting Firm
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ Consolidated Statements of Financial Position
+ 3
+ 
+ 
+ 
+ 
+ 
+ 
+ Consolidated Statements of Operations and Comprehensive Income (Loss)
+ 4
+ 
+ 
+ 
+ 
+ 
+ 
+ Consolidated Statements of Changes in Equity
+ 5
+ 
+ 
+ 
+ 
+ 
+ 
+ Consolidated Statements of Cash Flow
+ 6
+ 
+ 
+ 
+ 
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 7 - 52
+ 
+ 
+ 
+ 
+ MANAGEMENT'S RESPONSIBILITY FOR FINANCIAL REPORTING
+ Management's Report on Financial Statements
+ The consolidated financial statements of Galiano Gold Inc. have been prepared by, and are the responsibility of, the Company's management. The consolidated financial statements have been prepared by management on a going concern basis in accordance with International Financial Reporting Standards as issued by the International Accounting Standards Board. When alternative accounting methods exist, management has chosen those it deems most appropriate in the circumstances. Financial statements are not exact since they include certain amounts based on estimates and judgements. Management has determined such amounts on a reasonable basis in order to ensure that the financial statements are presented fairly, in all material respects.
+ The Board of Directors is responsible for ensuring management fulfills its financial reporting responsibilities. The Audit Committee meets with the Company's management and external auditors to discuss the results of the audits and to review the consolidated financial statements prior to the Audit Committee's submission to the Board of Directors for approval. The Audit Committee also reviews the quarterly financial statements and recommends them for approval to the Board of Directors, reviews with management the Company's systems of internal control, and reviews the scope of the external auditors' audit and non-audit work. The Audit Committee is appointed by the Board, and all of its members are independent directors.
+ The consolidated financial statements have been audited by Ernst & Young LLP, Chartered Professional Accountants, in accordance with the standards of the Public Company Accounting Oversight Board (United States) on behalf of the shareholders.
+ Management's Report on Internal Controls over Financial Reporting
+ Management has developed and maintains systems of internal accounting and administrative controls in order to provide, on a reasonable basis, assurance that the financial information is relevant, reliable and accurate and that the Company's assets are appropriately accounted for and adequately safeguarded. All internal control systems have inherent limitations, including the possibility of circumvention and overriding of controls, and therefore, may not prevent or detect misstatements. Management has assessed the effectiveness of the Company's internal control over financial reporting based on the framework in Internal Control - Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO). Based on management's assessment, the Company's internal control over financial reporting is effective as at December 31, 2025.
+ 
+ 
+ 
+ "Matt Badylak"
+ 
+ "Matthew Freeman"
+ 
+ 
+ Matt Badylak
+ 
+ Matthew Freeman
+ 
+ 
+ Director, President & Chief Executive Officer
+ 
+ Executive Vice President & Chief Financial Officer
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ Report of Independent Registered Public Accounting Firm
+ To the Shareholders and the Board of Directors of
+ Galiano Gold Inc.
+ Opinion on the consolidated financial statements
+ We have audited the accompanying consolidated statements of financial position of Galiano Gold Inc. (the "Company") as of December 31, 2025 and 2024, the related consolidated statements of operations and comprehensive income (loss), changes in equity and cash flows for the years then ended, and the related notes (collectively referred to as the "consolidated financial statements"). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of the Company at December 31, 2025 and 2024, and its financial performance and its cash flows for the years then ended, in conformity with International Financial Reporting Standards ("IFRS") as issued by the International Accounting Standards Board.
+ Basis for opinion
+ These consolidated financial statements are the responsibility of the Company's management. Our responsibility is to express an opinion on the Company's consolidated financial statements based on our audits. We are a public accounting firm registered with the Public Company Accounting Oversight Board (United States) ("PCAOB") and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.
+ We conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audit to obtain reasonable assurance about whether the consolidated financial statements are free of material misstatement, whether due to error or fraud. The Company is not required to have, nor were we engaged to perform, an audit of its internal control over financial reporting. As part of our audits, we are required to obtain an understanding of internal control over financial reporting but not for the purpose of expressing an opinion on the effectiveness of the Company's internal control over financial reporting. Accordingly, we express no such opinion.
+ Our audits included performing procedures to assess the risks of material misstatement of the consolidated financial statements, whether due to error or fraud, and performing procedures that respond to those risks. Such procedures included examining, on a test basis, evidence regarding the amounts and disclosures in the consolidated financial statements. Our audits also included evaluating the accounting principles used and significant estimates made by management, as well as evaluating the overall presentation of the consolidated financial statements. We believe that our audits provide a reasonable basis for our opinion.
+ /s/ Ernst & Young LLP
+ Chartered Professional Accountants
+ We have served as the Company's auditor since 2023.
+ Vancouver, CanadaFebruary 12, 2026
+ 
+ 2
+ 
+ 
+ GALIANO GOLD INC.CONSOLIDATED STATEMENTS OF FINANCIAL POSITION AS AT DECEMBER 31, 2025 AND DECEMBER 31, 2024(In thousands of United States dollars)
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025
+ 
+ 
+ December 31, 2024
+ 
+ 
+ 
+ 
+ Note
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash and cash equivalents
+ 7
+ 
+ 108,327
+ 
+ 
+ 105,775
+ 
+ 
+ 
+ Accounts receivable
+ 
+ 
+ 71
+ 
+ 
+ 104
+ 
+ 
+ 
+ Inventories
+ 8
+ 
+ 70,802
+ 
+ 
+ 42,830
+ 
+ 
+ 
+ Value added tax receivables
+ 
+ 
+ 10,808
+ 
+ 
+ 8,328
+ 
+ 
+ 
+ Prepaid expenses and other
+ 9
+ 
+ 12,175
+ 
+ 
+ 8,548
+ 
+ 
+ 
+ 
+ 
+ 
+ 202,183
+ 
+ 
+ 165,585
+ 
+ 
+ 
+ Non-current assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Mineral properties, plant and equipment
+ 10
+ 
+ 388,609
+ 
+ 
+ 329,429
+ 
+ 
+ 
+ Other non-current assets
+ 12,15(b)
+ 
+ 8,259
+ 
+ 
+ 5,339
+ 
+ 
+ 
+ 
+ 
+ 
+ 396,868
+ 
+ 
+ 334,768
+ 
+ 
+ 
+ Total assets
+ 
+ 
+ 599,051
+ 
+ 
+ 500,353
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Accounts payable and accrued liabilities
+ 11
+ 
+ 87,053
+ 
+ 
+ 55,064
+ 
+ 
+ 
+ Income taxes payable
+ 24
+ 
+ 4,167
+ 
+ 
+ -
+ 
+ 
+ 
+ Financial liabilities
+ 26
+ 
+ 77,317
+ 
+ 
+ 9,284
+ 
+ 
+ 
+ Lease liabilities
+ 13
+ 
+ 16,806
+ 
+ 
+ 15,937
+ 
+ 
+ 
+ Deferred consideration
+ 14
+ 
+ 28,242
+ 
+ 
+ 23,535
+ 
+ 
+ 
+ Provisions
+ 15(a)
+ 
+ 6,995
+ 
+ 
+ 6,995
+ 
+ 
+ 
+ 
+ 
+ 
+ 220,580
+ 
+ 
+ 110,815
+ 
+ 
+ 
+ Non-current liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lease liabilities
+ 13
+ 
+ 20,269
+ 
+ 
+ 22,935
+ 
+ 
+ 
+ Deferred and contingent consideration
+ 14
+ 
+ 26,308
+ 
+ 
+ 47,835
+ 
+ 
+ 
+ Asset retirement provisions
+ 15(b)
+ 
+ 75,732
+ 
+ 
+ 66,060
+ 
+ 
+ 
+ Deferred tax liabilities
+ 24
+ 
+ 23,024
+ 
+ 
+ -
+ 
+ 
+ 
+ Other non-current liabilities
+ 26
+ 
+ 11,480
+ 
+ 
+ 4,939
+ 
+ 
+ 
+ 
+ 
+ 
+ 156,813
+ 
+ 
+ 141,769
+ 
+ 
+ 
+ Total liabilities
+ 
+ 
+ 377,393
+ 
+ 
+ 252,584
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Equity
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Common shareholders' equity
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Share capital
+ 16
+ 
+ 619,311
+ 
+ 
+ 616,203
+ 
+ 
+ 
+ Equity reserves
+ 
+ 
+ 54,530
+ 
+ 
+ 52,948
+ 
+ 
+ 
+ Accumulated deficit
+ 
+ 
+ (454,985
+ ) 
+ 
+ (425,695
+ )
+ 
+ 
+ Total common shareholders' equity
+ 
+ 
+ 218,856
+ 
+ 
+ 243,456
+ 
+ 
+ 
+ Non-controlling interest
+ 18
+ 
+ 2,802
+ 
+ 
+ 4,313
+ 
+ 
+ 
+ Total equity
+ 
+ 
+ 221,658
+ 
+ 
+ 247,769
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Total liabilities and equity
+ 
+ 
+ 599,051
+ 
+ 
+ 500,353
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Commitments and contingencies
+ 26
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The accompanying notes form an integral part of these consolidated financial statements.
+ Approved on behalf of the Board of Directors:
+ 
+ 
+ "Matt Badylak" 
+ "Greg Martin" 
+ 
+ 
+ Director
+ Director
+ 
+ 
+ 
+ 
+ 3
+ 
+ 
+ GALIANO GOLD INC.CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE (LOSS) INCOME FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States dollars, except share and per share a mounts)
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025
+ 
+ 
+ December 31, 2024
+ 
+ 
+ 
+ 
+ Note
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Revenue
+ 19
+ 
+ 447,767
+ 
+ 
+ 231,339
+ 
+ 
+ 
+ Realized and unrealized losses on gold hedges (1)
+ 19,26
+ 
+ (119,324
+ )
+ 
+ (23,121
+ )
+ 
+ 
+ Net revenue
+ 
+ 
+ 328,443
+ 
+ 
+ 208,218
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cost of sales:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Production costs
+ 20
+ 
+ (166,665
+ )
+ 
+ (115,769
+ )
+ 
+ 
+ Depreciation and depletion
+ 10
+ 
+ (62,761
+ )
+ 
+ (23,603
+ )
+ 
+ 
+ Royalties
+ 21
+ 
+ (33,004
+ )
+ 
+ (13,957
+ )
+ 
+ 
+ Total cost of sales
+ 
+ 
+ (262,430
+ )
+ 
+ (153,329
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Income from mine operations
+ 
+ 
+ 66,013
+ 
+ 
+ 54,889
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ General and administrative expenses
+ 22
+ 
+ (25,264
+ )
+ 
+ (20,022
+ )
+ 
+ 
+ Exploration and evaluation expenditures
+ 
+ 
+ (4,206
+ )
+ 
+ (6,142
+ )
+ 
+ 
+ Termination of offtake agreement
+ 
+ 
+ -
+ 
+ 
+ (13,063
+ )
+ 
+ 
+ Share of net income related to joint venture
+ 
+ 
+ -
+ 
+ 
+ 2,432
+ 
+ 
+ 
+ Service fee earned as operators of joint venture
+ 
+ 
+ -
+ 
+ 
+ 976
+ 
+ 
+ 
+ Gain on derecognition of equity investment in joint venture
+ 
+ 
+ -
+ 
+ 
+ 1,416
+ 
+ 
+ 
+ Income from operations and joint venture
+ 
+ 
+ 36,543
+ 
+ 
+ 20,486
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Transaction costs
+ 6
+ 
+ -
+ 
+ 
+ (2,492
+ )
+ 
+ 
+ Finance income
+ 23(a)
+ 
+ 6,056
+ 
+ 
+ 5,853
+ 
+ 
+ 
+ Finance expense(1)
+ 23(b)
+ 
+ (17,786
+ )
+ 
+ (15,183
+ )
+ 
+ 
+ Foreign exchange gain (loss)
+ 
+ 
+ 5,669
+ 
+ 
+ (123
+ )
+ 
+ 
+ Income before taxes
+ 
+ 
+ 30,482
+ 
+ 
+ 8,541
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current income tax expense
+ 24
+ 
+ (38,259
+ )
+ 
+ -
+ 
+ 
+ 
+ Deferred income tax expense
+ 24
+ 
+ (23,024
+ )
+ 
+ -
+ 
+ 
+ 
+ Net (loss) income and comprehensive (loss) income for the year
+ 
+ 
+ (30,801
+ )
+ 
+ 8,541
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net (loss) income attributable to:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Common shareholders of the Company
+ 
+ 
+ (29,290
+ )
+ 
+ 6,118
+ 
+ 
+ 
+ Non-controlling interest
+ 18
+ 
+ (1,511
+ )
+ 
+ 2,423
+ 
+ 
+ 
+ Net (loss) income for the year
+ 
+ 
+ (30,801
+ )
+ 
+ 8,541
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Weighted average number of shares outstanding:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Basic
+ 
+ 
+ 258,375,097
+ 
+ 
+ 250,651,506
+ 
+ 
+ 
+ Diluted
+ 25
+ 
+ 258,375,097
+ 
+ 
+ 255,772,078
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net (loss) income per share attributable to common shareholders:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Basic
+ 
+ 
+ (0.11
+ )
+ 
+ 0.02
+ 
+ 
+ 
+ Diluted
+ 
+ 
+ (0.11
+ )
+ 
+ 0.02
+ 
+ 
+ 
+ (1) December 31, 2024 figures have been restated as a result of changes to the presentation of realized and unrealized losses on gold hedge derivative instruments . For more information, refer to Note 3(n).
+ The accompanying notes form an integral part of these consolidated financial statements.
+ 
+ 4
+ 
+ 
+ GALIANO GOLD INC.CONSOLIDATED STATEMENTS OF CHANGES IN EQUITY FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States dollars , except for number of common shares)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Non-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number of
+ 
+ 
+ Share 
+ 
+ 
+ Equity
+ 
+ 
+ Accumulated
+ 
+ 
+ controlling
+ 
+ 
+ Total 
+ 
+ 
+ 
+ 
+ 
+ 
+ shares
+ 
+ 
+ capital
+ 
+ 
+ reserves
+ 
+ 
+ deficit
+ 
+ 
+ interest
+ 
+ 
+ equity
+ 
+ 
+ 
+ 
+ Note
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance as at January 1, 2024
+ 
+ 
+ 224,972,786
+ 
+ 
+ 579,619
+ 
+ 
+ 53,112
+ 
+ 
+ (431,813
+ )
+ 
+ -
+ 
+ 
+ 200,918
+ 
+ 
+ 
+ Issuance of common shares:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Business combination, net of share issuance costs
+ 6
+ 
+ 28,500,000
+ 
+ 
+ 32,449
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 1,890
+ 
+ 
+ 34,339
+ 
+ 
+ 
+ Exercise of stock options
+ 17(a)
+ 
+ 3,605,160
+ 
+ 
+ 4,135
+ 
+ 
+ (1,292
+ )
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 2,843
+ 
+ 
+ 
+ Share-based compensation expense
+ 17(e)
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 1,128
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 1,128
+ 
+ 
+ 
+ Net income and comprehensive income for the year
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 6,118
+ 
+ 
+ 2,423
+ 
+ 
+ 8,541
+ 
+ 
+ 
+ Balance as at December 31, 2024
+ 
+ 
+ 257,077,946
+ 
+ 
+ 616,203
+ 
+ 
+ 52,948
+ 
+ 
+ (425,695
+ )
+ 
+ 4,313
+ 
+ 
+ 247,769
+ 
+ 
+ 
+ Issuance of common shares:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Exercise of stock options
+ 17(a)
+ 
+ 2,634,495
+ 
+ 
+ 3,011
+ 
+ 
+ (953
+ )
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 2,058
+ 
+ 
+ 
+ Equity-settled long-term incentive planawards
+ 17(b)
+ 
+ 77,996
+ 
+ 
+ 97
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 97
+ 
+ 
+ 
+ Share-based compensation expense
+ 17(e)
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 2,535
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 2,535
+ 
+ 
+ 
+ Net loss and comprehensive loss for the year
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ (29,290
+ )
+ 
+ (1,511
+ )
+ 
+ (30,801
+ )
+ 
+ 
+ Balance as at December 31, 2025
+ 
+ 
+ 259,790,437
+ 
+ 
+ 619,311
+ 
+ 
+ 54,530
+ 
+ 
+ (454,985
+ )
+ 
+ 2,802
+ 
+ 
+ 221,658
+ 
+ 
+ 
+ The accompanying notes form an integral part of these consolidated financial statements.
+ 
+ 5
+ 
+ 
+ GALIANO GOLD INC.CONSOLIDATED STATEMENTS OF CASH FLOWFOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States dollars)
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025
+ 
+ 
+ December 31, 2024
+ 
+ 
+ 
+ 
+ Note
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Operating activities:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net (loss) income for the year
+ 
+ 
+ (30,801
+ )
+ 
+ 8,541
+ 
+ 
+ 
+ Adjustments for:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Depreciation and depletion
+ 10,22
+ 
+ 62,880
+ 
+ 
+ 23,737
+ 
+ 
+ 
+ Share-based compensation
+ 17(e)
+ 
+ 10,306
+ 
+ 
+ 6,874
+ 
+ 
+ 
+ Share of net income related to joint venture
+ 
+ 
+ -
+ 
+ 
+ (2,432
+ )
+ 
+ 
+ Gain on derecognition of equity investment in joint venture
+ 
+ 
+ -
+ 
+ 
+ (1,416
+ )
+ 
+ 
+ Transaction costs
+ 6
+ 
+ -
+ 
+ 
+ 2,492
+ 
+ 
+ 
+ Finance income
+ 23(a)
+ 
+ (6,056
+ )
+ 
+ (5,853
+ )
+ 
+ 
+ Finance expense
+ 23(b)
+ 
+ 17,786
+ 
+ 
+ 15,183
+ 
+ 
+ 
+ Unrealized loss on gold hedge derivative instruments
+ 19,28(b)
+ 
+ 74,553
+ 
+ 
+ 13,606
+ 
+ 
+ 
+ Unrealized foreign exchange gain
+ 
+ 
+ (2,850
+ )
+ 
+ (686
+ )
+ 
+ 
+ Income tax expense
+ 24
+ 
+ 38,259
+ 
+ 
+ -
+ 
+ 
+ 
+ Income taxes paid
+ 24
+ 
+ (34,092
+ )
+ 
+ -
+ 
+ 
+ 
+ Deferred income tax expense
+ 24
+ 
+ 23,024
+ 
+ 
+ -
+ 
+ 
+ 
+ Operating cash flow before working capital changes
+ 
+ 
+ 153,009
+ 
+ 
+ 60,046
+ 
+ 
+ 
+ Change in working capital
+ 27
+ 
+ 4,985
+ 
+ 
+ (4,300
+ )
+ 
+ 
+ Cash provided by operating activities
+ 
+ 
+ 157,994
+ 
+ 
+ 55,746
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Investing activities:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Expenditures on mineral properties, plant and equipment
+ 10
+ 
+ (114,923
+ )
+ 
+ (66,901
+ )
+ 
+ 
+ Deferred consideration paid
+ 6,14
+ 
+ (25,000
+ )
+ 
+ -
+ 
+ 
+ 
+ Net cash and cash equivalents assumed on acquisition
+ 
+ 
+ -
+ 
+ 
+ 47,502
+ 
+ 
+ 
+ Transaction costs paid
+ 6
+ 
+ -
+ 
+ 
+ (2,492
+ )
+ 
+ 
+ Redemption of preferred shares in joint venture
+ 
+ 
+ -
+ 
+ 
+ 25,000
+ 
+ 
+ 
+ Interest received
+ 23(a)
+ 
+ 3,412
+ 
+ 
+ 4,707
+ 
+ 
+ 
+ Purchase of other assets
+ 
+ 
+ (460
+ )
+ 
+ (2,027
+ )
+ 
+ 
+ Cash (used in) provided by investing activities
+ 
+ 
+ (136,971
+ )
+ 
+ 5,789
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Financing activities:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lease liability payments
+ 13
+ 
+ (19,265
+ )
+ 
+ (13,400
+ )
+ 
+ 
+ Revolving credit facility related costs
+ 12
+ 
+ (3,483
+ )
+ 
+ -
+ 
+ 
+ 
+ Shares issued for cash on exercise of stock options
+ 17(a)
+ 
+ 2,058
+ 
+ 
+ 2,843
+ 
+ 
+ 
+ Share issuance costs
+ 
+ 
+ -
+ 
+ 
+ (41
+ )
+ 
+ 
+ Cash used in financing activities
+ 
+ 
+ (20,690
+ )
+ 
+ (10,598
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Impact of foreign exchange on cash and cash equivalents
+ 
+ 
+ 2,219
+ 
+ 
+ (432
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net increase in cash and cash equivalents during the year
+ 
+ 
+ 2,552
+ 
+ 
+ 50,505
+ 
+ 
+ 
+ Cash and cash equivalents, beginning of year
+ 
+ 
+ 105,775
+ 
+ 
+ 55,270
+ 
+ 
+ 
+ Cash and cash equivalents, end of year
+ 
+ 
+ 108,327
+ 
+ 
+ 105,775
+ 
+ 
+ 
+ Supplemental cash flow information
+ 27
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The accompanying notes form an integral part of these consolidated financial statements.
+ 
+ 6
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 1. Nature of operations
+ Galiano Gold Inc. ("Galiano" or the "Company") was incorporated on September 23, 1999 under the Business Corporations Act of British Columbia, Canada. The Company's head office and principal address is located at 1640 - 1066 West Hastings Street, Vancouver, British Columbia, V6E 3X1, Canada. The Company's registered and records office is located at Suite 3500, 1133 Melville Street, Vancouver, V6E 4E5. The Company's common shares trade on the Toronto Stock Exchange and NYSE American Exchange under the ticker symbol "GAU".
+ Until March 4, 2024, the Company's principal business activity was the operation of the Asanko Gold Mine ("AGM") through a joint venture arrangement (the "JV") associated with the Company's then 45% equity interest in the entity that held the AGM mining licenses and gold exploration tenements (see note 6).
+ On March 4, 2024 (the "Acquisition Date"), the Company acquired Gold Fields Limited's ("Gold Fields") 45% interest in the AGM (the "Acquisition"). As of the Acquisition Date, the Company owns a 90% interest in the AGM with the Government of Ghana continuing to hold a 10% free-carried interest (non-controlling interest). Refer to note 6 for further details on the Acquisition.
+ The AGM consists of four main open-pit mining areas: Nkran, Esaase, Abore and Miradani North, multiple satellite deposits and exploration projects located on the Asankrangwa Gold Belt in the Amansie West District of the Republic of Ghana ("Ghana"), West Africa.
+ 2. Basis of presentation
+ (a) Statement of compliance
+ These consolidated financial statements have been prepared on a going concern basis using accounting policies in accordance with International Financial Reporting Standards ("IFRS") as issued by the International Accounting Standards Board ("IASB") and Interpretations issued by the International Financial Reporting Interpretations Committee.
+ These consolidated financial statements were authorized for issue and approved by the Board of Directors on February 12, 2026.
+ (b) Basis of presentation and consolidation
+ These consolidated financial statements have been prepared on a historical cost basis, except for financial instruments carried at fair value.
+ All amounts are expressed in thousands of United States ("US") dollars, unless otherwise stated, and the United States dollar is the functional currency of the Company and each of its subsidiaries. References to C$ are to Canadian dollars.
+ Certain comparative period financial information has been restated to conform to the current year presentation.
+ These consolidated financial statements incorporate the financial information of the Company and its subsidiaries as at December 31, 2025. Subsidiaries are entities controlled by the Company. Control exists when the Company has power, directly or indirectly, to govern the financial and operating policies of an entity so as to obtain benefits from its activities.
+ Subsidiaries are included in the consolidated financial statements of the Company from the effective date of acquisition up to the effective date of disposition or loss of control. The results of operations and cash flows of Asanko Gold Ghana Ltd. ("AGGL"), Adansi Gold Company (GH) Ltd. and Shika Group Finance Limited were consolidated commencing on March 4, 2024 (refer to note 6).
+ All significant intercompany amounts and transactions between the Company and its subsidiaries have been eliminated on consolidation.
+ 
+ 7
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 2. Basis of presentation (continued)
+ The principal subsidiaries to which the Company is a party, as well as their geographic locations, were as follows as at December 31, 2025:
+ 
+ 
+ 
+ Affiliate name
+ Location
+ Interest
+ Classification and accounting method
+ 
+ 
+ Galiano International (Isle of Man) Ltd.
+ Isle of Man
+ 100%
+ Consolidated
+ 
+ 
+ Galiano Gold (Isle of Man) Ltd.
+ Isle of Man
+ 100%
+ Consolidated
+ 
+ 
+ Asanko Gold Ghana Ltd.1
+ Ghana
+ 90%
+ Consolidated
+ 
+ 
+ Adansi Gold Company (GH) Ltd. 1
+ Ghana
+ 100%
+ Consolidated
+ 
+ 
+ Shika Group Finance Limited1
+ Isle of Man
+ 100%
+ Consolidated
+ 
+ 
+ 13579 Holding Limited2
+ Malta
+ 100%
+ Consolidated
+ 
+ 
+ 
+ 1 From January 1, 2024 to March 3, 2024, the Company equity accounted for its then 45% interest in AGGL and 50% interest in each of Adansi Gold Company (GH) Ltd. and Shika Group Finance Limited.
+ 2 Galiano Gold Netherlands B.V., a Netherlands domiciled company, was migrated to Malta during the fourth quarter of 2025 and the business name was changed to 13579 Holding Limited.
+ 3. Material accounting policy information
+ The accounting policies described in this section were those applied by the Company during the years ended December 31, 2025 and 2024.
+ (a) Business combinations
+ Upon the acquisition of a business, the acquisition method of accounting is applied, whereby the purchase consideration is allocated to the identifiable assets, liabilities and contingent liabilities (identifiable net assets) acquired on the basis of fair value at the date of acquisition.
+ Acquisition related costs, other than costs to issue equity securities of the Company, including investment banking fees, legal fees, accounting fees, valuation fees, and other professional or consulting fees, are expensed as incurred. The cost to issue equity securities of the Company as consideration for the acquisition are reduced from share capital as share issuance costs.
+ Non-controlling interests are measured at fair value as at the date of acquisition.
+ Upon the acquisition of control, any previously held interest is re-measured to fair value at the date control is obtained resulting in a gain or loss upon the acquisition of control.
+ If the initial accounting for a business combination is incomplete by the end of the reporting period in which the business combination occurs, the Company reports provisional amounts for the items for which the accounting is incomplete. These provisional amounts are adjusted during the measurement period (up to 12 months from the acquisition date) to reflect new information obtained about facts and circumstances that existed at the acquisition date that, if known, would have affected the amounts recognized at that date. Revisions to provisional amounts are accounted for retrospectively.
+ 
+ 8
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 3. Material accounting policy information (continued)
+ (b) Foreign currency translation
+ Transactions in foreign currencies are initially recorded at the functional currency rate of exchange at the date of the transaction.
+ Monetary assets and liabilities denominated in foreign currencies (i.e. those currencies other than the functional currency) are translated at the functional currency rate of exchange at the date of the statement of financial position. Foreign exchange gains (losses) are recorded in the consolidated statement of operations and comprehensive income (loss) for the year.
+ Non-monetary items that are measured in terms of historical cost in a foreign currency are translated using the exchange rates as at the dates of the initial transactions. Non-monetary items measured at fair value in a foreign currency are translated using the exchange rates at the date when the fair value is determined.
+ (c) Cash and cash equivalents
+ Cash and cash equivalents consist of cash on hand and short-term investments with remaining maturities at initial recognition of ninety days or less, or that are fully redeemable without penalty or loss of interest.
+ (d) Inventories
+ Gold on hand, gold-in-process, and stockpiled ore inventories are recorded at the lower of weighted average production cost and net realizable value. The cost of inventories includes the cost of mining contractors, direct labour, raw materials and consumables, mine site overhead expenses and applicable depreciation and depletion. Net realizable value is calculated as the estimated price at the time of sale based on prevailing metal prices less estimated future costs to convert the inventories from their respective states into saleable form less estimated costs to sell.
+ Production costs are included in gold-in-process inventory based on current costs incurred up to the point of dore production. The cost of gold on hand represents the cost of gold-in-process inventories plus applicable treatment costs. The costs of inventories sold during the period are presented as production costs and depreciation and depletion, as applicable, in the statement of operations and comprehensive income (loss) for the year.
+ Additions to the cost of ore stockpiles are based on the related current cost of production for the year, while reductions in the cost of ore stockpiles are based on the weighted-average cost per tonne of ore in the stockpile.
+ Supplies and spare parts are valued at the lower of weighted-average cost and net realizable value. Replacement costs of materials and spare parts are generally used as the best estimate of net realizable value. Provisions are recorded to reduce the carrying amount of materials and spare parts inventory to net realizable value to reflect current intentions for the use of redundant or slow-moving items, or for physically obsolete items. Provisions for redundant and slow-moving items are made by reference to specific items of inventory. The Company reverses write-downs where there is a subsequent increase in net realizable value and the inventory is still on hand.
+ 
+ 9
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 3. Material accounting policy information (continued)
+ (e) Mineral properties, plant and equipment ("MPP&E")
+ (i) Mineral properties
+ Recognition
+ Capitalized costs of mineral properties include the following:
+ - costs assigned to mineral properties acquired in business combinations;
+ - expenditures incurred to develop mineral properties including pre-production stripping costs;
+ - stripping costs in the production phase of a mine if certain criteria have been met (see below);
+ - costs to define and delineate known economic resources and develop the project;
+ - borrowing costs attributable to qualifying mining properties, if any; and
+ - estimates of associated reclamation and closure costs.
+ 
+ 10
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 3. Material accounting policy information (continued)
+ (e) MPP&E (continued)
+ (i) Mineral properties (continued)
+ Stripping costs
+ In open pit mining operations, it is necessary to incur costs to remove overburden and other mine waste materials in order to access the ore from which minerals can be extracted economically. Stripping costs incurred in order to provide initial access to the ore body (referred to as pre-production stripping) are capitalized as incurred. The pre-production stripping period is deemed to end when an open pit achieves steady state production in line with the Company's mine plan. Stripping costs incurred during the production stage of an open pit mine are accounted for as production costs in the consolidated statement of operations and comprehensive income (loss) during the period that the stripping costs were incurred, unless these costs provide a future economic benefit. Production phase stripping costs are considered to generate a future economic benefit when (i) it is probable that future economic benefit associated with the stripping activity will flow to the entity; (ii) the entity can identify the component of the ore body for which access has been improved; and (iii) the costs relating to the stripping activity associated with that component can be measured reliably. These costs are capitalized as mineral properties, plant and equipment.
+ Production costs are allocated between inventory produced and deferred stripping assets based on the volume of waste extracted compared with the expected waste volume for a given volume of ore production, the latter is known as a 'strip ratio'. The strip ratio is derived from the Company's estimated mineral reserves on a pit-by-pit basis.
+ Management reviews estimates of waste and ore tonnes in each identified component of operating open pit mines at the end of each financial year, and when events and circumstances indicate that such a review should be made. Changes to the estimated identification of components and the associated waste and ore within each component are accounted for prospectively.
+ Depletion
+ The Company uses a number of criteria to assess whether a mine is in the condition necessary for it to be capable of operating in a manner intended by management which if met, will determine if a mineral property should be depleted. These criteria include, but are not limited to:
+ - completion of operational commissioning of each major mine and plant component;
+ - demonstrated ability to mine and mill consistently and without significant interruption at a pre-determined average rate of designed capacity;
+ - the passage of a reasonable period of time for testing of all major mine and plant components;
+ - gold recoveries at or near expected production levels; and
+ - a significant portion of available funding is directed towards operating activities.
+ Mineral properties that are operating as intended by management are depleted on a deposit-by-deposit basis using the units-of-production method over the mine's estimated proven and probable mineral reserves and will commence when the open pit is capable of operating in the manner intended by management. Mineral properties that do not meet these criteria are not depleted.
+ Deferred stripping assets are depleted using the units-of-production method over the specific open pit mineral reserves that directly benefit from the specific stripping activity. 
+ 
+ 11
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 3. Material accounting policy information (continued)
+ (e) MPP&E (continued)
+ (ii) Exploration and evaluation assets and expenditures
+ Exploration and evaluation expenditures include the costs of acquiring rights to explore, exploratory drilling and related exploration costs incurred on tenements without an existing mine and on areas outside the boundary of a known mineral deposit that contains proven and probable reserves. Exploration and evaluation expenditures incurred on a tenement, with the exception of property acquisition costs that are capitalized to exploration and evaluation assets, are expensed as incurred up to the date of establishing that the tenement has defined mineral resources and demonstrated technical feasibility and commercial viability.
+ Expenditures incurred on a tenement subsequent to the establishment of its technical feasibility and commercial viability are capitalized and included in the carrying amount of the related mining property.
+ The technical feasibility and commercial viability of a mineral deposit is assessed based on a combination of factors, such as, but not limited to:
+ - the extent to which mineral reserves or mineral resources have been identified through a feasibility study or similar level document;
+ - the results of optimization studies and further technical evaluation carried out to mitigate project risks identified in the feasibility study;
+ - the status of environmental permits, and
+ - the status of mining leases or permits.
+ (iii) Plant and equipment
+ Recognition
+ The cost of plant and equipment consists of the purchase price, costs directly attributable to the delivery of the asset to the location and the condition necessary for it to be capable of operating in the manner intended by management, including the cost of testing whether the asset is operating in the manner intended by management, and estimates of associated reclamation and closure costs. Subsequent costs are included in the asset's carrying amount or recognized as a separate asset, as appropriate, only when it is probable that future economic benefits associated with the item will flow to the Company and the cost can be measured reliably. Where significant components of an asset have differing useful lives, depreciation is calculated on each separate component.
+ Depreciation
+ Depreciation of an asset begins when it is available for use (i.e. when it is in the location and condition necessary for it to be capable of operating in the manner intended by management).
+ The carrying amounts of plant and equipment are depreciated using either the straight-line or units-of-production method over the shorter of the estimated useful life of the asset or the estimate life of mine. The significant classes of depreciable plant and equipment and their estimated useful lives are as follows:
+ 
+ 
+ 
+ Asset Class
+ Estimated Useful Life
+ 
+ 
+ Processing plant & related components and infrastructure
+ Units of production over life of mine
+ 
+ 
+ Mobile and other mine equipment components
+ 3 to 10 years
+ 
+ 
+ Computer equipment and software
+ 3 years
+ 
+ 
+ Right-of-use assets
+ Straight-line over lease term
+ 
+ 
+ 
+ Management reviews the estimated useful lives, residual values and depreciation methods of the Company's plant and equipment at the end of each financial year, and when events and circumstances indicate that such a review should be made. Changes to estimated useful lives, residual values or depreciation methods resulting from such review are accounted for prospectively.
+ Major maintenance and repairs
+ Expenditure on major maintenance and repairs includes the cost of replacement parts of assets and overhaul costs. Where an asset or part of an asset is replaced and it is probable that future economic benefits associated with the item will be available to the Company, that expenditure is capitalized and the carrying amount of the item replaced is derecognized. Similarly, overhaul costs associated with major maintenance are capitalized when it is probable that future economic benefits will be available and any remaining carrying amounts of the cost of previous overhauls are derecognized. All other maintenance and repair costs are expensed as incurred.
+ 
+ 12
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 3. Material accounting policy information (continued)
+ (e) MPP&E (continued)
+ (iv) Impairment of non-financial assets
+ The carrying amounts of assets included in MPP&E are reviewed for impairment when events and changes in circumstances indicate that the related carrying amounts may not be recoverable. If any such indication exists, the recoverable amount of the relevant cash-generating unit ("CGU") is estimated in order to determine the extent of impairment. A CGU is the smallest identifiable group of assets that generates cash inflows that are largely independent of the cash inflows from other assets or groups of assets.
+ The carrying amounts of the CGUs are compared to their recoverable amounts where the recoverable amount is the higher of value-in-use ("VIU") and fair value less costs of disposal ("FVLCD"). FVLCD is defined as the amount that would be obtained from the sale of the asset in an orderly transaction between market participants at the measurement date. VIU is determined as the present value of the estimated future cash flows expected to arise from the continued use of the asset in its present form and from its ultimate disposal. The fair value of mine sites is generally determined as the present value of the estimated future cash flows expected to arise from the continued use of the asset, including any expansion prospects. If a reliable estimate of future cash flows cannot be made, then fair value is determined by reference to market prices for comparable assets. If the recoverable amount of an asset (or CGU) is estimated to be less than its carrying amount, the carrying amount is reduced to its recoverable amount. An impairment is recognized immediately in the consolidated statement of operations and comprehensive income (loss).
+ Mineral properties, plant and equipment that have been impaired are tested for possible reversal of the impairment whenever events or changes in circumstances indicate that the impairment may have reversed. When an impairment loss reverses in a subsequent period, the revised carrying amount shall not exceed the carrying amount that would have been determined had no impairment loss been recognized for the asset previously, less subsequent depletion and depreciation expense. Reversals of impairment losses are recognized in the consolidated statement of operations and comprehensive income (loss) in the period in which the reversals occur.
+ (v) Derecognition
+ Upon disposal or abandonment, the carrying amounts of MPP&E are derecognized and any associated gains or losses are recognized in the consolidated statement of operations and comprehensive income (loss).
+ 
+ 13
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 3. Material accounting policy information (continued)
+ (f) Leases
+ At inception of a contract, the Company assesses whether a contract is or contains a lease. A contract is or contains a lease if the contract conveys the right to control the use of an identified asset for a period of time in exchange for consideration. To assess whether a contract conveys the right to control the use of an identified asset, the Company assesses whether it has the right to obtain substantially all of the economic benefits from and to direct the use of the identified asset.
+ At commencement or on modification of a contract that contains a lease component, the Company allocates the consideration in the contract to each lease component on the basis of its relatively standalone prices.
+ The Company recognizes a right-of-use asset and a lease liability at the lease commencement date. The right-of-use asset is initially measured at cost, which comprises the initial amount of the lease liability adjusted for any lease payments made at or before the commencement date, plus any initial direct costs incurred and an estimate of costs to dismantle and remove the underlying asset or to restore the underlying asset, or the site on which it is located, less any lease incentives received.
+ The right-of-use asset is subsequently depreciated using the straight-line method from the commencement date to the end of the lease term, unless the lease transfers ownership of the underlying asset to the Company by the end of the lease term or the cost of the right-of-use asset reflects that the Company will exercise a purchase option. In that case, the right-of-use asset will be depreciated over the useful life of the underlying asset, which is determined on the same basis as those of plant and equipment. In addition, the right-of-use asset is periodically reduced by impairment losses, if any, and adjusted for certain remeasurements of the lease liability.
+ The lease liability is initially measured at the present value of the lease payments that are not paid at the commencement date, discounted using the interest rate implicit in the lease or, if that rate cannot be readily determined, the Company's incremental borrowing rate. Generally, the Company uses its incremental borrowing rate as the discount rate. The Company determines its incremental borrowing rate by obtaining interest rates from various external financing sources and makes certain adjustments to reflect the terms of the lease and type of the asset leased.
+ Lease payments included in the measurement of the lease liability comprise the following:
+ - fixed payments, including in-substance fixed payments;
+ - variable lease payments that depend on an index or a rate, initially measured using the index or rate as at the commencement date;
+ - amounts expected to be payable under a residual value guarantee; and
+ - the exercise price under a purchase option that the Company is reasonably certain to exercise, lease payments in an optional renewal period if the Company is reasonably certain to exercise an extension option, and penalties for early termination of a lease, unless the Company is reasonably certain not to terminate early.
+ 
+ 14
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 3. Material accounting policy information (continued)
+ (f) Leases (continued)
+ The lease liability is measured at amortized cost using the effective interest method. It is remeasured when there is a change in future lease payments arising from a change in an index or rate, if there is a change in the Company's estimate of the amount expected to be payable under a residual value guarantee, if the Company changes its assessment of whether it will exercise a purchase, extension or termination option, or if there is a revised in-substance fixed lease payment. When the lease liability is remeasured in this way, a corresponding adjustment is made to the carrying amount of the right-of-use asset or is recorded in the consolidated statement of operations and comprehensive income (loss) if the carrying amount of the right-of-use asset has been reduced to zero.
+ The Company has elected to apply the practical expedient under IFRS 16 to account for certain lease arrangements that include both lease and non-lease components as a single lease component.
+ Short-term leases and leases of low-value assets
+ The Company has elected not to recognize right-of-use assets and lease liabilities for leases of low-value assets and short-term leases, including office equipment. The Company recognizes the lease payments associated with these leases as an expense on a straight- line basis over the lease term.
+ (g) Provisions
+ General
+ Provisions are recognized when the Company has a present obligation (legal or constructive) as a result of a past event, it is probable that an outflow of resources embodying economic benefits will be required to settle the obligation, and a reliable estimate can be made of the amount of the obligation. Where the Company expects some or all of a provision to be reimbursed, for example under an insurance contract, the reimbursement is recognized as a separate asset, but only when the reimbursement is virtually certain. The expense relating to any provision is presented in the consolidated statement of operations and comprehensive income (loss), net of any reimbursement. If the effect of the time value of money is material, provisions are discounted using a current pre-tax rate that reflects, where appropriate, the risks specific to the liability. Where discounting is used, the increase in the provision due to the passage of time is recognized as finance expense in the consolidated statement of operations and comprehensive income (loss).
+ Asset retirement provisions
+ An obligation to incur restoration, rehabilitation and environmental costs arises when environmental disturbance is caused by the exploration, development or ongoing production of a mineral property interest. The Company records the estimated present value of future cash flows associated with mine site reclamation as a liability when the liability is incurred with a corresponding increase in the carrying value of the related reclamation asset. A pre-tax, risk-free rate discount rate that reflects the time value of money is used to calculate the net present value. The liability is accreted over time to reflect the unwinding of the discount with accretion expense included in finance expense in the consolidated statement of operations and comprehensive income (loss). Changes in estimates or circumstances include changes in legal or regulatory requirements, increased obligations arising from exploration activities or additional mining, changes to reclamation cost estimates, changes to inflation rates and changes to risk-free discount rates. Changes in estimates that result in a change to the carrying value of the asset retirement provision have a corresponding change in the carrying amount of the related asset.
+ 
+ 15
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 3. Material accounting policy information (continued)
+ (h) Revenue from contracts with customers
+ Revenue is derived from the sale of gold and by-products. Revenue is recognized for contracts with customers when there is persuasive evidence that all of the following criteria are met:
+ - the parties to the contract have approved the contract (in writing, orally or in accordance with other customary business practices) and are committed to perform their respective obligations;
+ - the Company can identify each party's rights regarding the goods to be transferred;
+ - the Company can identify the payment terms for the goods to be transferred;
+ - the contract has commercial substance (i.e. the risk, timing or amount of the Company's future cash flows is expected to change as a result of the contract); and
+ - it is probable that the Company will collect the consideration to which it will be entitled in exchange for the goods that will be transferred to the customer.
+ Realized and unrealized losses on gold hedge derivative financial instruments are presented within net revenue in the Statement of Operations and Comprehensive Income (Loss). Revenues resulting from settlement of gold hedges via physical delivery of gold ounces are recorded as revenue using the spot gold price on the settlement date. Any corresponding realized gain or loss on settlement of the gold hedge is recorded within net revenue.
+ Revenue from gold and any by-product metals is generally recorded at the time of physical delivery of the refined gold (i.e. when gold is credited to the counterparty's gold account), which is also the date when control of the gold passes to the customer.
+ (i) Government royalties
+ Royalty payments to governments which are based on gross revenue are not considered income taxes and are recognized as an expense in the statement of operations and comprehensive income (loss).
+ (j) Financial instruments
+ (i) Financial assets
+ Recognition and measurement
+ The Company recognizes a financial asset in its statement of financial position when the Company becomes party to the contractual provisions of the instrument. All financial assets are initially recorded at fair value plus directly attributable transaction costs and classified as either (i) financial assets subsequently measured at amortized cost, (ii) financial assets subsequently measured at fair value through other comprehensive income (loss) or (iii) financial assets subsequently measured at fair value through profit or loss. The basis of classification takes into consideration both the Company's business model for managing and the contractual cash flow characteristics of the financial assets.
+ A financial asset is measured at amortized cost if the financial asset is held within a business model whose objective is to hold financial assets in order to collect contractual cash flows, and the contractual terms of the financial asset give rise on specified dates to cash flows that are solely payments of principal and interest on the principal amount outstanding.
+ A financial asset is measured at fair value through other comprehensive income (loss) if the financial asset is held within a business model whose objective is achieved by both collecting contractual cash flows and selling financial assets, and the contractual terms of the financial asset give rise on specified dates to cash flows that are solely payments of principal and interest on the principal amount outstanding.
+ 
+ 16
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 3. Material accounting policy information (continued)
+ (j) Financial instruments (continued)
+ (i) Financial assets (continued)
+ Recognition and measurement (continued)
+ A financial asset is measured at fair value through profit or loss unless it is measured at amortised cost or at fair value through other comprehensive income. Fair value changes in financial assets classified as fair value through profit or loss, if any, are recognized in the consolidated Statement of Operations and Comprehensive Income (Loss).
+ Derecognition
+ A financial asset is derecognized when the contractual rights to receive cash flows from the asset have expired.
+ (ii) Financial liabilities
+ Recognition and measurement
+ All financial liabilities are initially recorded at fair value less transaction costs. All financial liabilities are subsequently measured at amortized cost using the effective interest method, except for:
+ - financial liabilities at fair value through profit or loss;
+ - financial liabilities that arise when a transfer of a financial asset does not qualify for derecognition or when the continuing involvement approach applies;
+ - financial guarantee contracts;
+ - commitments to provide a loan at a below-market interest rate; and
+ - contingent consideration recognized by an acquirer in a business combination to which IFRS 3, Business combinations, applies.
+ An entity may, at initial recognition, irrevocably designate a financial liability as measured at fair value through profit or loss when a contract contains one or more embedded derivatives, or when doing so results in more relevant information, because either (a) it eliminates or significantly reduces a measurement or recognition inconsistency (i.e. an accounting mismatch); or (b) a group of financial liabilities or financial assets and financial liabilities is managed, and its performance is evaluated on a fair value basis.
+ Fair value changes of financial liabilities classified as fair value through profit or loss, if any, are recognized in the consolidated Statement of Operations and Comprehensive Income (Loss).
+ 
+ 17
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 3. Material accounting policy information (continued)
+ (k) Share-based compensation
+ The Company has a share option plan and share unit plan which are described in note 17. The Company records equity-settled share-based compensation for options and share units using the fair value method with graded vesting or cliff vesting, as appropriate. Under the fair value method, share-based payments are measured at the fair value of the consideration received or the fair value of the equity instruments issued or liabilities incurred, whichever is more reliably measurable, and are charged over the vesting period to the consolidated statement of operations and comprehensive income (loss). The offset is credited to equity reserves ratably over the vesting period, after adjusting for the number of awards that are expected to vest. For share options, the fair value of share-based compensation awards is determined at the date of grant using the Black-Scholes option pricing model.
+ Expenses recognized for unvested forfeited awards are reversed. For awards that are cancelled, any expense not yet recognized is recognized immediately in the statement of operations and comprehensive income (loss).
+ Where the terms of an equity-settled award are modified, as a minimum an expense is recognized as if the terms had not been modified over the original vesting period. In addition, an expense is recognized for any modification which increases the total fair value of the share-based payment arrangement as measured at the date of modification, over the remainder of the vesting period.
+ For cash-settled share-based payments, the Company measures the goods or services acquired and the liability incurred at the fair value of the liability. Cash-settled awards are fair valued using the number of estimated vested awards multiplied by the share price of the Company's common shares, and including an estimate of relevant performance factors, if applicable. The corresponding share-based compensation expense is recognized over the vesting period of the award. As these awards will be settled in cash, the liability is remeasured at fair value at each reporting period and at the date of settlement, with changes in fair value recognized as share-based compensation expense in the consolidated statement of operations and comprehensive income (loss) in the period incurred.
+ (l) Income taxes
+ Income tax on the profit or loss for the years presented comprises current and deferred income tax. Income tax is recognized in the consolidated statement of operations and comprehensive income (loss), except to the extent that it relates to items recognized directly in equity, in which case it is recognized in equity.
+ Current income tax expense is the expected tax payable on the taxable income for the year, using tax rates enacted or substantively enacted at period end, adjusted for amendments to tax payable with regards to previous years.
+ Deferred income tax is recognized in respect of unused tax losses, tax credits and temporary differences between the carrying amounts of assets and liabilities for financial reporting purposes and the amounts used for taxation purposes. Deferred tax is measured at the tax rates that are expected to be applied to temporary differences when they reverse, based on the tax rates that have been substantively enacted at the reporting date.
+ A deferred income tax asset is recognized only to the extent that it is probable that future taxable profits will be available against which the asset can be utilized. To the extent that the Company does not consider it probable that a future income tax asset will be recovered, it does not recognize the asset.
+ Deferred income tax assets and liabilities are offset when there is a legally enforceable right to set off current tax assets against current tax liabilities and when they relate to income taxes levied by the same taxation authority and the Company intends to settle its tax assets and liabilities on a net basis.
+ 
+ 18
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 3. Material accounting policy information (continued)
+ (l) Income taxes (continued)
+ The Company records foreign exchange gains and losses representing the impacts of movements in foreign exchange rates on the tax bases of non-monetary assets and liabilities which are denominated in foreign currencies. Foreign exchange gains and losses relating to the translation of the deferred income tax balance from local statutory accounts to functional currency accounts are included in deferred income tax expense or recovery in the consolidated statement of operations and comprehensive income (loss).
+ (m) Income (loss) per share
+ Basic income (loss) per share is computed by dividing net income (loss) for the year by the weighted-average number of common shares outstanding during the year. The computation of diluted income (loss) per share assumes the conversion, exercise or contingent issuance of securities only when such conversion, exercise or issuance would have a dilutive effect on income (loss) per share. For this purpose, the treasury stock method is used for the assumed proceeds upon the exercise of stock options that are used to purchase common shares at the average market price during the year.
+ (n) Voluntary change in accounting policy - presentation of losses on gold hedge derivative instruments
+ The Company periodically enters into gold price hedge instruments that are settled in either cash or physical delivery of gold ounces and meet the definition of a derivative financial instrument. These contracts are within the scope of IFRS 9 and as such, prior to settlement, changes in fair value of these derivative instruments are presented as unrealized gains or losses in the Statement of Comprehensive Income (Loss). The Company previously presented these gains or losses within finance expense in the Statement of Comprehensive Income (Loss).
+ During the year ended December 31, 2025, the Company physically settled a portion of its gold hedge contracts and determined that losses on gold hedge contracts would result in improved information for users if presented within net revenue, to better reflect the Company's intended physical settlement of these contracts. Unrealized gains or losses on gold hedge contracts are also presented within net revenue. Under this new accounting policy, gold ounces physically delivered to a customer to settle gold hedge contracts are recognized on a gross basis in revenue using the spot price of gold on the settlement date, thus reflecting cash received under the contract and settlement of the related derivative instrument. This new presentation provides reliable and more relevant information for users of the financial statements reflecting the Company's intended physical delivery of gold under these contracts, and aligns with how the Company monitors and manages performance of gold hedge contracts. Comparative year information for net revenue and finance expense have been restated to conform with this voluntary accounting policy change, which resulted in finance expense being reduced by $23.1 million and net revenue decreasing by the same amount. There is no impact on comparative year net income or earnings per share resulting from this accounting policy change.
+ 
+ 19
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 4. Changes in accounting standards
+ (a) Accounting standards adopted during the year
+ There were no new accounting standards effective January 1, 2025 that impacted these consolidated financial statements.
+ (b) Accounting standards and amendments issued but not yet adopted
+ The following standards and interpretations, which may be applicable to the Company, have been issued but are not yet effective as of December 31, 2025:
+ IFRS 18
+ On April 9, 2024, the IASB issued IFRS 18, Presentation and Disclosure in Financial Statements, a new standard on presentation and disclosure in financial statements with a focus on updates to the statement of profit or loss. The key new concepts introduced in IFRS 18 relate to: the structure of the statement of profit or loss; required disclosures in the financial statements for certain profit or loss performance measures that are reported outside an entity's financial statements; and enhanced principles on aggregation and disaggregation which apply to the primary financial statements and notes in general. IFRS 18 will not impact the recognition or measurement of items in the financial statements, but may change what an entity reports as its 'operating profit or loss'. IFRS 18 will apply for reporting periods beginning on or after January 1, 2027 and also applies to comparative information. The Company is evaluating how IFRS 18 will impact the presentation and disclosures in its consolidated financial statements in future periods.
+ IFRS 7 and 9
+ In May 2024, the IASB issued amendments to the classification and measurement of financial instruments (IFRS 7 and IFRS 9), which included clarification that a financial liability is derecognized on the 'settlement date'; an accounting policy option to derecognize financial liabilities that are settled through an electronic payment system before settlement date if certain conditions are met; clarification on how to assess the contractual cash flow characteristics of financial assets that include environmental, social and governance-linked features; and requires additional disclosures under IFRS 7 for financial assets and liabilities with contractual terms that reference a contingent event. The amendments to IFRS 7 and IFRS 9 will be effective for annual reporting periods beginning on or after January 1, 2026. The Company is currently analysing how the amendments to IFRS 7 and IFRS 9 may impact the Company's consolidated financial statements.
+ 
+ 20
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 5. Significant accounting judgements and estimates
+ The preparation of financial statements in conformity with IFRS requires management to make judgements, estimates and assumptions that affect amounts reported in the financial statements and accompanying notes. Management believes the judgements, estimates and assumptions used in these consolidated financial statements are reasonable; however, actual results could differ from those estimates and could impact future results of operations and cash flows.
+ The accounting judgements and estimates which have the most significant effect on these financial statements are as follows:
+ Judgements
+ Assessment of indicators of impairment of MPP&E
+ The Company considers both external and internal sources of information in assessing whether there are any indications that the value of its MPP&E is impaired. External sources of information the Company considers include changes in the market, economic and legal environment in which it operates that are not within its control and affect the recoverable amount of the Company's MPP&E. Internal sources of information the Company considers include the manner in which MPP&E is being used or is expected to be used and indications of economic performance of the assets. The judgements are subject to risk and uncertainty; hence, there is the possibility that changes in circumstances will alter these assumptions, which may impact the recoverable amount of the assets. In such circumstances, the carrying value of the Company's MPP&E may be impaired with the impact recorded in the consolidated statement of operations and comprehensive income (loss).
+ Estimates
+ Purchase price accounting
+ The measurement of consideration transferred and fair value of assets acquired and liabilities assumed required the Company to make certain judgements and estimates taking into account information available at the time of acquisition about future events, including but not limited to: estimates of mineral reserves and resources acquired, exploration potential, future operating costs and capital expenditures, reclamation and closure costs, timing of development of the Nkran pit, future gold prices, discount rates and tax rates.
+ Deferred and contingent consideration
+ The Company has made estimates in determining the fair value as of the reporting date of contingent consideration payable to Gold Fields associated with the Acquisition. Estimates include the timing of production from the Nkran pit, future gold prices and selection of discount rates. Changes to these estimates may result in actual payments in the future differing from the amounts currently recorded in these financial statements.
+ Mineral reserves
+ Estimates of the quantities of proven and probable mineral reserves form the basis for the Company's life-of-mine plans, which are used for accounting purposes, including: the calculation of depletion expense, the capitalization of stripping costs, and the forecasting and timing of cash flows related to the asset retirement provisions and impairment assessments, if any. To the extent that these estimates of proven and probable mineral reserves vary, there could be changes in depletion expense, stripping assets, asset retirement provisions and impairment charges) recorded.
+ 
+ 21
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 5. Significant accounting judgements and estimates (continued)
+ Estimates (continued)
+ Depletion of MPP&E
+ Estimates are made of recoverable ounces in the Company's mining properties, which are depleted based on ore tonnes contained in proven and probable mineral reserves. To the extent that changes are made to the estimate of proven and probable mineral reserves, the depletion charge may change.
+ Estimates are also made of the waste and ore tonnes in each identified component or phase of operating open pit mines, as capitalized stripping costs are depleted based on ore tonnes contained. The estimated ratio of waste to ore is also the basis on which the Company determines the amount of stripping costs to capitalize. Changes in the estimate of waste and ore tonnes may change the related depletion charge of capitalized stripping costs or the rate at which future costs are capitalized.
+ Plant and equipment are depreciated to their estimated residual value over the estimated useful life of the asset. Should the actual useful life of the plant or equipment vary, future depreciation charges may change.
+ Measurement of inventory costs
+ The Company estimates quantities of ore in stockpiles and recoverable gold contained in gold-in-process and gold on hand in order to determine the cost of inventories and the weighted average costs of gold sold during the year. To the extent that these estimates vary, production costs of gold may change.
+ Net realizable value of inventories
+ Estimates of net realizable value are based on the most reliable evidence available, at the time that the estimates are made, of the amount that the inventories are expected to realize. In order to determine the net realizable value of gold on hand, gold-in-process and stockpiled ore, the Company estimates future metal selling prices, production forecasts, realized grades and recoveries, timing of processing, and future costs to convert the respective inventories into saleable form, if applicable. Reductions in metal price forecasts, increases in estimated future costs to convert, reductions in the number of recoverable ounces, and a delay in timing of processing can result in a write-down of the carrying amounts of the Company's stockpiled ore inventory.
+ Materials and supplies held for use in the production of inventories are not written down below cost if the finished products in which they will be incorporated are expected to be sold at or above cost. However, to the extent net realizable value of materials and spares must be estimated, replacement costs of the materials and spare parts are generally used as the best estimate of net realizable value.
+ Current and deferred Income taxes
+ In assessing the probability of realizing income tax assets recognized, management makes estimates related to expectations of future taxable income, applicable tax opportunities, expected timing of reversals of existing temporary differences and the likelihood that tax positions taken will be sustained upon examination by applicable tax authorities. Levels of future taxable income are affected by, among other things, the price of gold, quantities of proven and probable mineral reserves, production costs, and foreign currency exchange rates.
+ Where tax laws and regulations are either unclear or subject to varying interpretations, it is possible that changes in these estimates could occur that materially affect the amounts of current income taxes and deferred income tax assets and liabilities recorded in these financial statements. Changes in deferred tax assets and liabilities generally have a direct impact on earnings in the period that the changes occur.
+ 
+ 22
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 5. Significant accounting judgements and estimates (continued)
+ Estimates (continued)
+ Asset retirement provisions
+ Provisions for reclamation and closure cost obligations represent management's best estimate of the present value of the future cash outflows required to settle closure cost liabilities. Significant judgements and estimates are required in forming assumptions of future activities, future cash outflows, the timing of those cash outflows and selection and application of discount and inflation rates. These assumptions are formed based on environmental and regulatory requirements or the Company's environmental policies which may give rise to constructive obligations. The Company's assumptions are reviewed at the end of each reporting period and adjusted to reflect management's current best estimates, and changes in any of the above factors may result in a change to the provision recognized by the Company. Changes to these estimates and judgements may result in actual expenditures in the future differing from the amounts currently recorded in these financial statements.
+ 6. Acquisition of control of the AGM
+ On March 4, 2024, the Company completed the acquisition of Gold Fields' 45% interest in the AGM JV. Following the closing of the Acquisition, the Company owns a 90% interest in AGGL, the entity which holds the AGM's mining concessions and licenses, a 100% interest in Adansi Gold Company (GH) Ltd., an entity which holds exploration licenses in Ghana, and a 100% interest in Shika Group Finance Limited. The Company also acquired a 100% interest in GFI Netherlands B.V. (subsequently renamed to 13579 Holding Limited), the entity through which Gold Fields held its former 45% interest in the JV.
+ The Company began consolidating the operating results, cash flows and net assets of the AGM commencing on March 4, 2024.
+ The total consideration payable to Gold Fields comprised the following:
+ 
+ $65.0 million in cash on closing;
+ issuance of 28.5 million common shares of the Company on closing;
+ $55.0 million of deferred consideration (note 14) comprised of a:
+ 
+ $25.0 million cash payment on or before December 31, 2025 (paid); and
+ $30.0 million cash payment on or before December 31, 2026 (collectively "Deferred Consideration")
+ 
+ 
+ 
+ The Deferred Consideration is to be paid in cash subject to the Company's right to satisfy up to 20% of each payment with common shares of the Company, subject to Gold Fields not owning more than 19.9% of the Company's issued and outstanding common shares at that time; and
+ 
+ $30.0 million cash payment contingently payable upon production of 100,000 gold ounces from the Nkran deposit ("Contingent Consideration").
+ 
+ Gold Fields also received a 1% net smelter return royalty on production from the Nkran deposit beginning upon 100,000 gold ounces being produced, and subject to a maximum of 447,000 gold ounces of production ("Nkran Royalty"). Galiano has a right of first refusal on any full or partial disposition of the Nkran Royalty by Gold Fields.
+ During the year ended December 31, 2024, the Company incurred $2.5 million of acquisition-related costs, which were presented as transaction costs in the Statements of Operations and Comprehensive Income (Loss).
+ 
+ 23
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 6. Acquisition of control of the AGM (continued)
+ The following table highlights the final allocation, as at December 31, 2024, of the purchase price to the assets acquired and liabilities assumed based on the Company's estimates of fair value.
+ 
+ 
+ 
+ 
+ 
+ Final$
+ 
+ 
+ 
+ Assets acquired
+ 
+ 
+ 
+ 
+ 
+ Cash and cash equivalents
+ 
+ 112,502
+ 
+ 
+ 
+ Accounts receivable
+ 
+ 102
+ 
+ 
+ 
+ Inventories
+ 
+ 41,158
+ 
+ 
+ 
+ Value added tax receivables
+ 
+ 7,885
+ 
+ 
+ 
+ Prepaid expenses and other
+ 
+ 5,509
+ 
+ 
+ 
+ Reclamation deposits
+ 
+ 5,308
+ 
+ 
+ 
+ Mineral properties, plant and equipment
+ 
+ 244,584
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Liabilities assumed
+ 
+ 
+ 
+ 
+ 
+ Accounts payable and accrued liabilities
+ 
+ (44,475
+ )
+ 
+ 
+ Lease liabilities
+ 
+ (19,176
+ )
+ 
+ 
+ Asset retirement provisions
+ 
+ (53,537
+ )
+ 
+ 
+ Net assets acquired
+ 
+ 299,860
+ 
+ 
+ 
+ Non-controlling interest
+ 
+ (1,890
+ )
+ 
+ 
+ Net assets attributable to Galiano
+ 
+ 297,970
+ 
+ 
+ 
+ 
+ 7. Cash and cash equivalents
+ 
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025
+ 
+ 
+ December 31, 2024
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Cash held in banks
+ 
+ 98,799
+ 
+ 
+ 23,454
+ 
+ 
+ 
+ Short-term investments
+ 
+ 9,528
+ 
+ 
+ 82,321
+ 
+ 
+ 
+ Cash and cash equivalents
+ 
+ 108,327
+ 
+ 
+ 105,775
+ 
+ 
+ 
+ 
+ The Company's short-term investments are held with highly-rated financial institutions. The weighted-average interest rate on short-term investments at December 31, 2025 was approximately 3.9% (as at December 31, 2024 - 4.0%).
+ 8. Inventories
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025
+ 
+ 
+ December 31, 2024
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Gold dore on hand
+ 
+ 469
+ 
+ 
+ 10,216
+ 
+ 
+ 
+ Gold-in-process
+ 
+ 3,880
+ 
+ 
+ 2,229
+ 
+ 
+ 
+ Ore stockpiles
+ 
+ 49,361
+ 
+ 
+ 12,117
+ 
+ 
+ 
+ Supplies
+ 
+ 17,092
+ 
+ 
+ 18,268
+ 
+ 
+ 
+ Total inventories
+ 
+ 70,802
+ 
+ 
+ 42,830
+ 
+ 
+ 
+ 
+ 
+ 
+ 24
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 9. Prepaid expenses and other
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025
+ 
+ 
+ December 31, 2024
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Prepaid expenses
+ 
+ 7,649
+ 
+ 
+ 7,039
+ 
+ 
+ 
+ Marketable securities
+ 
+ 4,526
+ 
+ 
+ 1,509
+ 
+ 
+ 
+ Total prepaid expenses and other
+ 
+ 12,175
+ 
+ 
+ 8,548
+ 
+ 
+ 
+ 
+ 10. Mineral properties, plant and equipment
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Exploration
+ 
+ 
+ Plant,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ and
+ 
+ 
+ buildings
+ 
+ 
+ Right-of-
+ 
+ 
+ Assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Mineral
+ 
+ 
+ evaluation
+ 
+ 
+ and
+ 
+ 
+ use
+ 
+ 
+ under
+ 
+ 
+ Corporate
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ properties
+ 
+ 
+ assets
+ 
+ 
+ equipment
+ 
+ 
+ assets
+ 
+ 
+ construction
+ 
+ 
+ assets
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Cost
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ As at January 1, 2024
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 623
+ 
+ 
+ -
+ 
+ 
+ 496
+ 
+ 
+ 1,119
+ 
+ 
+ 
+ Acquired under the Acquisition (note 6)
+ 
+ 12,421
+ 
+ 
+ 3,964
+ 
+ 
+ 180,817
+ 
+ 
+ 19,176
+ 
+ 
+ 28,206
+ 
+ 
+ -
+ 
+ 
+ 244,584
+ 
+ 
+ 
+ Additions
+ 
+ 67,060
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 27,816
+ 
+ 
+ 5,658
+ 
+ 
+ 19
+ 
+ 
+ 100,553
+ 
+ 
+ 
+ Change in asset retirement provisions (note 15(b))
+ 
+ 10,628
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 10,628
+ 
+ 
+ 
+ Transfers
+ 
+ 17,895
+ 
+ 
+ -
+ 
+ 
+ 14,185
+ 
+ 
+ -
+ 
+ 
+ (32,080
+ )
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ As at December 31, 2024
+ 
+ 108,004
+ 
+ 
+ 3,964
+ 
+ 
+ 195,002
+ 
+ 
+ 47,615
+ 
+ 
+ 1,784
+ 
+ 
+ 515
+ 
+ 
+ 356,884
+ 
+ 
+ 
+ Additions
+ 
+ 106,197
+ 
+ 
+ -
+ 
+ 
+ 1,260
+ 
+ 
+ 11,157
+ 
+ 
+ 8,818
+ 
+ 
+ 76
+ 
+ 
+ 127,508
+ 
+ 
+ 
+ Change in asset retirement provisions (note 15(b))
+ 
+ 6,992
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 6,992
+ 
+ 
+ 
+ Transfers
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 8,677
+ 
+ 
+ -
+ 
+ 
+ (8,677
+ )
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ As at December 31, 2025
+ 
+ 221,193
+ 
+ 
+ 3,964
+ 
+ 
+ 204,939
+ 
+ 
+ 58,772
+ 
+ 
+ 1,925
+ 
+ 
+ 591
+ 
+ 
+ 491,384
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Accumulated depreciation and depletion
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ As at January 1, 2024
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ (450
+ )
+ 
+ -
+ 
+ 
+ (444
+ )
+ 
+ (894
+ )
+ 
+ 
+ Depreciation and depletion expense
+ 
+ (9,970
+ )
+ 
+ -
+ 
+ 
+ (5,672
+ )
+ 
+ (10,889
+ )
+ 
+ -
+ 
+ 
+ (30
+ )
+ 
+ (26,561
+ )
+ 
+ 
+ As at December 31, 2024
+ 
+ (9,970
+ )
+ 
+ -
+ 
+ 
+ (5,672
+ )
+ 
+ (11,339
+ )
+ 
+ -
+ 
+ 
+ (474
+ )
+ 
+ (27,455
+ )
+ 
+ 
+ Depreciation and depletion expense
+ 
+ (50,099
+ )
+ 
+ -
+ 
+ 
+ (9,281
+ )
+ 
+ (15,915
+ )
+ 
+ -
+ 
+ 
+ (25
+ )
+ 
+ (75,320
+ )
+ 
+ 
+ As at December 31, 2025
+ 
+ (53,436
+ )
+ 
+ -
+ 
+ 
+ (14,953
+ )
+ 
+ (27,254
+ )
+ 
+ -
+ 
+ 
+ (499
+ )
+ 
+ (96,142
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net book value:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ As at December 31, 2024
+ 
+ 98,034
+ 
+ 
+ 3,964
+ 
+ 
+ 189,330
+ 
+ 
+ 36,276
+ 
+ 
+ 1,784
+ 
+ 
+ 41
+ 
+ 
+ 329,429
+ 
+ 
+ 
+ As at December 31, 2025
+ 
+ 161,124
+ 
+ 
+ 3,964
+ 
+ 
+ 189,986
+ 
+ 
+ 31,518
+ 
+ 
+ 1,925
+ 
+ 
+ 92
+ 
+ 
+ 388,609
+ 
+ 
+ 
+ 
+ Additions to mineral interests include capitalized stripping costs at the Abore and Esaase deposits of $50.7 million and $33.2 million of pre-stripping costs at the Nkran deposit during the year ended December 31, 2025 (year ended December 31, 2024 - $58.9 million of capitalized stripping costs at Abore).
+ 
+ 25
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 10. Mineral properties, plant and equipment (continued)
+ Depreciation and depletion expense included $62.9 million recognized in the Statement of Operations and Comprehensive (Loss) Income for the year ended December 31, 2025, and included a credit of $12.4 million to depreciation expense, which was capitalized to inventories (year ended December 31, 2024 - credit of $2.8 million to depreciation expense, which was capitalized to inventories).
+ Refer to note 22 for depreciation expense on corporate fixed assets, which is recorded within general and administrative expenses.
+ Refer to note 12 for details of the revolving credit facility, which is secured by a first priority charge against AGGL's assets, including mineral properties, plant and equipment.
+ 11. Accounts payable and accrued liabilities
+ The Company's accounts payable and accrued liabilities are primarily comprised of amounts outstanding for purchases relating to mining operations, exploration and evaluation activities and corporate expenses. The normal credit period for supplier payables is typically between 30 to 90 days. Accounts payable and accrued liabilities are comprised of the following items:
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025$
+ 
+ 
+ December 31, 2024$
+ 
+ 
+ 
+ Supplier payables
+ 
+ 22,226
+ 
+ 
+ 10,570
+ 
+ 
+ 
+ Accrued liabilities
+ 
+ 36,737
+ 
+ 
+ 24,366
+ 
+ 
+ 
+ Royalties, mineral rights fees and withholding taxes
+ 
+ 14,510
+ 
+ 
+ 13,189
+ 
+ 
+ 
+ Current portion of long-term incentive plan liabilities (note 17)
+ 
+ 13,580
+ 
+ 
+ 6,939
+ 
+ 
+ 
+ Total accounts payable and accrued liabilities
+ 
+ 87,053
+ 
+ 
+ 55,064
+ 
+ 
+ 
+ 
+ 12. Revolving credit facility
+ On December 19, 2025, the Company's subsidiary AGGL entered into a revolving credit facility (the "RCF") with FirstRand Bank Limited, acting through its Rand Merchant Bank division. The RCF has a 4-year term and floating interest rate based on the Secured Overnight Financing Rate (SOFR) plus a margin of 3.95% per annum, while the undrawn portion of the RCF is subject to a standby fee of 1.38% per annum.
+ The RCF is guaranteed by certain subsidiaries of the Company and is also secured by a first priority charge against AGGL's assets, and a first priority share pledge of certain of the Company's subsidiaries.
+ The RCF includes financial covenants, to be tested semi-annually, requiring AGGL to maintain the following: (a) gearing ratio of net indebtedness to net worth not less than 0.25:1; (b) net leverage ratio based on net indebtedness to rolling four quarters earnings before interest, taxes and depreciation ("EBITDA") not less than 2.50:1; and (c) an interest coverage ratio, based on rolling four quarters EBITDA divided by net finance costs, greater than 4.00:1. As of December 31, 2025, the Company had not drawn on the RCF and was in full compliance with all covenants.
+ During the year ended December 31, 2025, the Company incurred $2.6 million of costs associated with finalizing the RCF agreement. These costs have been presented within prepaid expenses and other non-current assets in the Statement of Financial Position.
+ Additionally, the Company was required to deposit $0.9 million of cash into a reserve account in connection with closing the RCF. This cash is restricted until the term of the RCF expires and has been presented within other non-current assets in the Statement of Financial Position.
+ 
+ 26
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 13. Lease liabilities
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025$
+ 
+ 
+ December 31, 2024$
+ 
+ 
+ 
+ Balance, beginning of year
+ 
+ 38,872
+ 
+ 
+ 203
+ 
+ 
+ 
+ Leases assumed in Acquisition (note 6)
+ 
+ -
+ 
+ 
+ 19,176
+ 
+ 
+ 
+ Leases entered into during the year (note 10)
+ 
+ 11,157
+ 
+ 
+ 27,816
+ 
+ 
+ 
+ Lease payments
+ 
+ (19,265
+ )
+ 
+ (13,400
+ )
+ 
+ 
+ Interest expense (note 23(b))
+ 
+ 6,311
+ 
+ 
+ 5,077
+ 
+ 
+ 
+ Total lease liabilities, end of year
+ 
+ 37,075
+ 
+ 
+ 38,872
+ 
+ 
+ 
+ Less: current portion of lease liabilities
+ 
+ (16,806
+ )
+ 
+ (15,937
+ )
+ 
+ 
+ Total non-current portion of lease liabilities
+ 
+ 20,269
+ 
+ 
+ 22,935
+ 
+ 
+ 
+ 
+ During the year ended December 31, 2025, the Company incurred $129.5 million relating to variable lease payments under mining services and other mining related contracts, which have not been included in the measurement of lease liabilities (year ended December 31, 2024 - $71.7 million of variable lease payments).
+ 14. Deferred and contingent consideration
+ In accordance with the Acquisition agreement, certain consideration payable to Gold Fields is deferred in time or contingent upon certain future events. The Company recognized the following financial liabilities at fair value as of the acquisition date, which were subsequently remeasured as of December 31, 2025 in accordance with IFRS 9, Financial Instruments ("IFRS 9").
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025$
+ 
+ 
+ December 31, 2024$
+ 
+ 
+ 
+ Deferred Consideration
+ 
+ 28,242
+ 
+ 
+ 50,109
+ 
+ 
+ 
+ Contingent Consideration
+ 
+ 19,320
+ 
+ 
+ 16,873
+ 
+ 
+ 
+ Nkran Royalty
+ 
+ 6,988
+ 
+ 
+ 4,388
+ 
+ 
+ 
+ Total deferred and contingent consideration
+ 
+ 54,550
+ 
+ 
+ 71,370
+ 
+ 
+ 
+ Less: current portion of Deferred Consideration
+ 
+ (28,242
+ )
+ 
+ (23,535
+ )
+ 
+ 
+ Total non-current portion of deferred and contingent consideration
+ 
+ 26,308
+ 
+ 
+ 47,835
+ 
+ 
+ 
+ 
+ (a) Deferred consideration
+ $55.0 million of the aggregate consideration payable to Gold Fields was deferred with $25.0 million due on or before December 31, 2025 (paid) and $30.0 million due on or before December 31, 2026. The Company estimated the fair value of the Deferred Consideration at initial recognition by discounting the contractual future cash flows at a discount rate of 6.3%. After initial recognition, the Deferred Consideration was measured at amortized cost.
+ During the year ended December 31, 2025, the Company recognized accretion expense of $3.1 million on the Deferred Consideration liability in finance expense in the Statement of Operations and Comprehensive (Loss) Income (year ended December 31, 2024 - $2.5 million of accretion expense). Additionally, the Company paid to Gold Fields the first deferred payment of $25.0 million in the fourth quarter of 2025. The $30.0 million payment due to Gold Fields on or before December 31, 2026 has been presented as a current liability in the Statement of Financial Position. 
+ 
+ 27
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 14. Deferred and contingent consideration (continued)
+ (a) Deferred consideration (continued)
+ The following table summarizes the change in the carrying amount of the Deferred Consideration for the years ended December 31, 2025 and 2024:
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025$
+ 
+ 
+ December 31, 2024$
+ 
+ 
+ 
+ Balance, beginning of year
+ 
+ 50,109
+ 
+ 
+ -
+ 
+ 
+ 
+ Initial recognition at fair value
+ 
+ -
+ 
+ 
+ 47,628
+ 
+ 
+ 
+ Payments
+ 
+ (25,000
+ )
+ 
+ -
+ 
+ 
+ 
+ Accretion expense (note 23)
+ 
+ 3,133
+ 
+ 
+ 2,481
+ 
+ 
+ 
+ Balance, end of year
+ 
+ 28,242
+ 
+ 
+ 50,109
+ 
+ 
+ 
+ 
+ (b) Contingent consideration
+ $30.0 million of the aggregate consideration payable to Gold Fields is contingent upon 100,000 gold ounces being produced from the Nkran deposit. In accordance with IFRS 3 and IFRS 9, contingent consideration payable by an acquirer in a business combination shall be subsequently measured at fair value through profit or loss. The Company remeasured the fair value of the Contingent Consideration to $19.3 million at December 31, 2025 and recognized a $2.4 million fair value adjustment in finance expense in the Statement of Operations and Comprehensive (Loss) Income for the year ended December 31, 2025 (year ended December 31, 2024 - fair value adjustment of $3.5 million recognized in finance expense).
+ The following table summarizes the change in the carrying amount of the Contingent Consideration for the years ended December 31, 2025 and 2024:
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025
+ 
+ 
+ December 31, 2024
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of year
+ 
+ 16,873
+ 
+ 
+ -
+ 
+ 
+ 
+ Initial recognition at fair value
+ 
+ -
+ 
+ 
+ 13,337
+ 
+ 
+ 
+ Change in fair value during the year
+ 
+ 2,447
+ 
+ 
+ 3,536
+ 
+ 
+ 
+ Balance, end of year
+ 
+ 19,320
+ 
+ 
+ 16,873
+ 
+ 
+ 
+ 
+ The Company estimated the fair value of the Contingent Consideration at December 31, 2025 by discounting forecast future cash flows based upon the expected payment date from the current life of mine plan at a discount rate of 14.5% (December 31, 2024 - 14.5% discount rate). The Contingent Consideration falls within level 3 of the fair value hierarchy.
+ (c) Nkran royalty
+ Gold Fields is entitled to a 1% net smelter return royalty on gold revenue generated from the Nkran deposit beginning upon 100,000 gold ounces being produced, and subject to a maximum of 447,000 gold ounces of production. In accordance with IFRS 3 and IFRS 9, contingent consideration payable by an acquirer in a business combination shall be subsequently measured at fair value through profit or loss. 
+ 
+ 28
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 14. Deferred and contingent consideration (continued)
+ (c) Nkran royalty (continued)
+ The Company estimated the fair value of the Nkran Royalty by discounting forecast future cash flows at a discount rate of 14.5% (December 31, 2024 - 14.5% discount rate). The gold price assumption applied in estimating future royalty payments as of December 31, 2025 was based on a long-term consensus gold price of $2,950 per ounce. The Company remeasured the fair value of the Nkran Royalty to $7.0 million as of December 31, 2025, and recognized a $2.6 million fair value adjustment in finance expense in the Statements of Operations and Comprehensive (Loss) Income for the year ended December 31, 2025 (year ended December 31, 2024 - fair value adjustment of $1.4 million recognized in finance expense). The Nkran Royalty falls within level 3 of the fair value hierarchy.
+ The following table summarizes the change in the carrying amount of the Nkran Royalty for the year ended December 31, 2025 and 2024:
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025
+ 
+ 
+ December 31, 2024
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of year
+ 
+ 4,388
+ 
+ 
+ -
+ 
+ 
+ 
+ Initial recognition at fair value
+ 
+ -
+ 
+ 
+ 3,030
+ 
+ 
+ 
+ Change in fair value during the year
+ 
+ 2,600
+ 
+ 
+ 1,358
+ 
+ 
+ 
+ Balance, end of year
+ 
+ 6,988
+ 
+ 
+ 4,388
+ 
+ 
+ 
+ 
+ 15. Provisions
+ (a) Legal provision
+ In 2019, a services provider of the AGM filed a dispute with an arbitration tribunal alleging the AGM breached the terms of a services agreement and claimed approximately $25.0 million in damages. The arbitrator ruled in favour of the AGM that there had not been a breach of any terms of the contract yet made an award to the counterparty of approximately $13.0 million plus interest for services rendered. The AGM, consistent with the arbitration ruling, maintains the view that there was no breach of contract, and all contractual amounts were paid as due. The AGM therefore is undertaking an appeals process in the Court of Appeal in Ghana. A provision of $7.0 million has been recorded as of December 31, 2025 (December 31, 2024 - $7.0 million), which represents management's best estimate to settle the claim. While the Company cannot reasonably predict the ultimate outcome of these actions, and inherent uncertainties exist in predicting such outcomes, the Company believes the estimated provision is reasonable based on the information currently available.
+ 
+ 29
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 15. Provisions (continued)
+ (b) Asset retirement provisions
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025$
+ 
+ 
+ December 31, 2024$
+ 
+ 
+ 
+ Balance, beginning of year
+ 
+ 66,060
+ 
+ 
+ -
+ 
+ 
+ 
+ Assumed in Acquisition (note 6)
+ 
+ -
+ 
+ 
+ 53,537
+ 
+ 
+ 
+ Accretion expense (note 23(b))
+ 
+ 2,889
+ 
+ 
+ 2,246
+ 
+ 
+ 
+ Change in estimate (note 10)
+ 
+ 6,992
+ 
+ 
+ 10,628
+ 
+ 
+ 
+ Reclamation undertaken during the year
+ 
+ (209
+ )
+ 
+ (351
+ )
+ 
+ 
+ Total asset retirement provisions, end of year
+ 
+ 75,732
+ 
+ 
+ 66,060
+ 
+ 
+ 
+ 
+ The asset retirement provisions consist of reclamation and closure costs for the AGM's mining properties. Reclamation and closure activities include land rehabilitation, dismantling of buildings and mine facilities, ongoing care and maintenance and other costs. As at December 31, 2025, the Company's reclamation cost estimates were discounted using a long-term risk-free discount rate of 4.1% (December 31, 2024 - 4.5%).
+ The Company is required to provide security to the Environmental Protection Agency of Ghana ("EPA") for the performance by the Company of its reclamation obligations in respect of its mining leases at the AGM. The Company deposits a reclamation deposit in a Ghanaian bank, and the reclamation deposit is required to be held until receiving a final reclamation completion certificate from the EPA. The Company is expected to be released from this requirement 45 days following the third anniversary of the date that the Company receives a final completion certificate. As of December 31, 2025, the Company had provided reclamation deposits totaling $5.4 million (December 31, 2024 - $5.3 million). Additionally, the Company has provided bank guarantees to the EPA in the amount of $16.2 million (December 31, 2024 - $16.5 million). The reclamation deposits have been presented within other non-current assets in the Statement of Financial Position.
+ 16. Share capital
+ 
+ (a) Authorized:
+ 
+ Unlimited common shares without par value or restrictions.
+ 
+ (b) Issued and outstanding common shares
+ 
+ 
+ 
+ 
+ 
+ 
+ Number of shares$
+ 
+ 
+ Amount$
+ 
+ 
+ 
+ Balance, January 1, 2024
+ 
+ 224,972,786
+ 
+ 
+ 579,619
+ 
+ 
+ 
+ Issued on closing of Acquisition (note 6), net of issuance costs
+ 
+ 28,500,000
+ 
+ 
+ 32,449
+ 
+ 
+ 
+ Issued pursuant to exercise of stock options (note 17(a))
+ 
+ 3,605,160
+ 
+ 
+ 4,135
+ 
+ 
+ 
+ Balance, December 31, 2024
+ 
+ 257,077,946
+ 
+ 
+ 616,203
+ 
+ 
+ 
+ Issued pursuant to exercise of stock options (note 17(a))
+ 
+ 2,634,495
+ 
+ 
+ 3,011
+ 
+ 
+ 
+ Equity-settled restricted s hare units (note 17(b))
+ 
+ 77,996
+ 
+ 
+ 97
+ 
+ 
+ 
+ Balance, December 31, 2025
+ 
+ 259,790,437
+ 
+ 
+ 619,311
+ 
+ 
+ 
+ 
+ 
+ 
+ 30
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 16. Share capital (continued)
+ (c) Base shelf prospectus
+ On July 8, 2025, the Company filed a final short form base shelf prospectus (the "Prospectus"), under which the Company may sell from time-to-time common shares, warrants, subscription receipts, units, debt securities and/or share purchase contracts of the Company, up to an aggregate of $500 million. The Prospectus has a term of 25-months from the filing date. As of the date of these financial statements, no securities have been issued under the Prospectus.
+ 17. Equity reserves and long-term incentive plan awards
+ The Company has a stock option plan and a share unit plan under which restricted share units ("RSUs"), performance share units ("PSUs"), deferred share units ("DSUs") and phantom share units may be awarded to directors, officers, employees and other service providers. All awards under the share unit plan may be designated by the Company's Board of Directors to be settled in either cash, shares or a combination thereof.
+ Under the two plans, when combined, the number of shares issuable cannot exceed 9% of the issued and outstanding common shares of the Company. Specifically, shares reserved for issuance under the share unit plan, when designated as equity-settled, may not exceed 5% of the issued and outstanding common shares of the Company. Share units designated as cash-settled units at the grant date are not considered in computing the limits of the share unit plan. Share units designated at the time of grant as being settled in either cash or shares, at the Board's discretion, are considered in computing limits under the share unit plan as they may be dilutive upon vesting.
+ RSUs, PSUs and DSUs granted prior to 2025 may be settled in cash or equity at the discretion of the Board. Given the Company's past practice of settling in cash, these awards have been designated as cash-settled awards at the time of grant, and therefore represent financial liabilities, which are recorded at fair value at each reporting date and adjusted for the completed proportion of the vesting period, with any changes recorded as shared-based compensation expense in the Statements of Operations and Comprehensive Income (Loss). The financial liability associated with these cash-settled awards is recorded in accounts payable and accrued liabilities for amounts expected to be settled within one year of the balance sheet date. A separate long-term incentive plan liability is presented within other non-current liabilities for amounts to be settled more than one year as of the balance sheet date.
+ The long-term incentive plan awards granted in 2025 were designated by the Board to be settled in shares upon vesting.
+ 
+ 31
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 17. Equity reserves and long-term incentive plan awards (continued)
+ (a) Stock options
+ Options granted typically vest in one-third increments every twelve months following the grant date for a total vesting period of three years. Stock options have a maximum term of five years following the grant date. The fair value of stock options granted is determined using the Black Scholes option pricing model. Expected volatility was determined based on the historical volatility of the Company's share price over a period consistent with the expected life of the stock options.
+ The following table is a reconciliation of the movement in the number of stock options outstanding for the years ended December 31, 2025 and 2024:
+ 
+ 
+ 
+ 
+ 
+ Number of Options
+ 
+ 
+ Weighted averageexercise priceC$
+ 
+ 
+ 
+ Balance, January 1, 2024
+ 
+ 12,575,335
+ 
+ 
+ 0.97
+ 
+ 
+ 
+ Granted
+ 
+ 3,534,000
+ 
+ 
+ 1.31
+ 
+ 
+ 
+ Exercised
+ 
+ (3,605,160
+ )
+ 
+ 1.08
+ 
+ 
+ 
+ Expired/Forfeited
+ 
+ (1,454,336
+ )
+ 
+ 0.98
+ 
+ 
+ 
+ Balance, December 31, 2024
+ 
+ 11,049,839
+ 
+ 
+ 1.04
+ 
+ 
+ 
+ Granted
+ 
+ 2,494,000
+ 
+ 
+ 1.81
+ 
+ 
+ 
+ Exercised
+ 
+ (2,634,495
+ )
+ 
+ 1.08
+ 
+ 
+ 
+ Forfeited
+ 
+ (855,669
+ )
+ 
+ 1.07
+ 
+ 
+ 
+ Balance, December 31, 2025
+ 
+ 10,053,675
+ 
+ 
+ 1.21
+ 
+ 
+ 
+ 
+ For stock options granted during the years ended December 31, 2025 and 2024, the following assumptions were applied in the Black Scholes option pricing model:
+ 
+ 
+ 
+ 
+ 
+ Year ended December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 
+ 2024
+ 
+ 
+ 
+ Expected life of option (years)
+ 
+ 3.6
+ 
+ 
+ 3.7
+ 
+ 
+ 
+ Forfeiture rate
+ 
+ 17.6%
+ 
+ 
+ 17.9%
+ 
+ 
+ 
+ Dividend yield
+ 
+ 0.0%
+ 
+ 
+ 0.0%
+ 
+ 
+ 
+ Risk-free rate
+ 
+ 4.0%
+ 
+ 
+ 4.3%
+ 
+ 
+ 
+ Volatility
+ 
+ 56.0%
+ 
+ 
+ 57.6%
+ 
+ 
+ 
+ Black Scholes fair value per option (in US dollars)
+ $
+ 0.55
+ 
+ $
+ 0.44
+ 
+ 
+ 
+ 
+ The following table summarizes stock options outstanding and exercisable as at December 31, 2025:
+ 
+ 
+ 
+ 
+ 
+ Total options outstanding
+ 
+ 
+ Total options exercisable
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Weighted
+ 
+ 
+ Weighted
+ 
+ 
+ 
+ 
+ 
+ Weighted
+ 
+ 
+ Weighted
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ average
+ 
+ 
+ average
+ 
+ 
+ 
+ 
+ 
+ average
+ 
+ 
+ average
+ 
+ 
+ 
+ Range of
+ 
+ Number of
+ 
+ 
+ contractual life
+ 
+ 
+ exercise price
+ 
+ 
+ Number of
+ 
+ 
+ contractual life
+ 
+ 
+ exercise price
+ 
+ 
+ 
+ exercise price
+ 
+ options
+ 
+ 
+ (years)
+ 
+ 
+ C$
+ 
+ 
+ options
+ 
+ 
+ (years)
+ 
+ 
+ C$
+ 
+ 
+ 
+ C$0.00-C$1.00
+ 
+ 4,317,004
+ 
+ 
+ 1.77
+ 
+ 
+ 0.76
+ 
+ 
+ 3,302,999
+ 
+ 
+ 1.62
+ 
+ 
+ 0.72
+ 
+ 
+ 
+ C$1.01-C$2.00
+ 
+ 5,693,337
+ 
+ 
+ 3.04
+ 
+ 
+ 1.55
+ 
+ 
+ 1,695,332
+ 
+ 
+ 1.16
+ 
+ 
+ 1.42
+ 
+ 
+ 
+ C$2.01-C$3.00
+ 
+ 43,334
+ 
+ 
+ 3.37
+ 
+ 
+ 2.37
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 10,053,675
+ 
+ 
+ 2.50
+ 
+ 
+ 1.21
+ 
+ 
+ 4,998,331
+ 
+ 
+ 1.46
+ 
+ 
+ 0.96
+ 
+ 
+ 
+ 
+ 
+ 
+ 32
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 17. Equity reserves and long-term incentive plan awards (continued)
+ (a) Stock options (continued)
+ The following table summarizes share-based compensation expense recognized on stock options and aggregate gross proceeds received by the Company on stock option exercises for the years ended December 31, 2025 and 2024:
+ 
+ 
+ 
+ 
+ 
+ Year ended December 31, 
+ 
+ 
+ 
+ 
+ 
+ 2025$
+ 
+ 
+ 2024$
+ 
+ 
+ 
+ Share-based compensation expense
+ 
+ 1,049
+ 
+ 
+ 1,128
+ 
+ 
+ 
+ Gross proceeds from stock option exercises
+ 
+ 2,058
+ 
+ 
+ 2,843
+ 
+ 
+ 
+ 
+ (b) Restricted share units
+ RSUs granted vest in one-third increments every twelve months following the grant date for a total vesting period of three years. The following table is a reconciliation of the movement in the number of RSUs outstanding for the years ended December 31, 2025 and 2024:
+ 
+ 
+ 
+ 
+ 
+ 
+ Number of RSUs
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025
+ 
+ 
+ December 31, 2024
+ 
+ 
+ 
+ Balance, beginning of year
+ 
+ 548,284
+ 
+ 
+ 564,237
+ 
+ 
+ 
+ Assumed in Acquisition
+ 
+ -
+ 
+ 
+ 75,760
+ 
+ 
+ 
+ Granted
+ 
+ 223,000
+ 
+ 
+ 270,000
+ 
+ 
+ 
+ Settled in cash
+ 
+ (204,581
+ )
+ 
+ (302,046
+ )
+ 
+ 
+ Settled in common shares
+ 
+ (77,996
+ )
+ 
+ -
+ 
+ 
+ 
+ Forfeited
+ 
+ (49,267
+ )
+ 
+ (59,667
+ )
+ 
+ 
+ Balance, end of year
+ 
+ 439,440
+ 
+ 
+ 548,284
+ 
+ 
+ 
+ 
+ For all RSUs granted during the year ended December 31, 2025, the awards vest in three equal tranches over a service period of three years and had an estimated weighted average forfeiture rate of 8.8% (year ended December 31, 2024 - awards granted vest over a service period of three years and had an estimated forfeiture rate of 23.9%). RSU awards granted in 2025 have been classified as equity-settled awards, and therefore the fair value determined on the grant date is amortized over the vesting period of three years.
+ 
+ 33
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 17. Equity reserves and long-term incentive plan awards (continued)
+ (b) Restricted share units (continued)
+ The following table is a reconciliation of the movement in the RSU liability for the years ended December 31, 2025 and 2024:
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025$
+ 
+ 
+ December 31, 2024$
+ 
+ 
+ 
+ Balance, beginning of year
+ 
+ 380
+ 
+ 
+ 265
+ 
+ 
+ 
+ Assumed in Acquisition
+ 
+ -
+ 
+ 
+ 30
+ 
+ 
+ 
+ Awards vested and change in fair value, net of forfeited awards
+ 
+ 439
+ 
+ 
+ 494
+ 
+ 
+ 
+ Settled in cash
+ 
+ (281
+ )
+ 
+ (409
+ )
+ 
+ 
+ Equity-settled units transferred to share capital
+ 
+ (97
+ )
+ 
+ -
+ 
+ 
+ 
+ Total RSU liability, end of year
+ 
+ 441
+ 
+ 
+ 380
+ 
+ 
+ 
+ Less: current portion of RSU liability
+ 
+ (357
+ )
+ 
+ (281
+ )
+ 
+ 
+ Total non-current RSU liability, end of year
+ 
+ 84
+ 
+ 
+ 99
+ 
+ 
+ 
+ 
+ (c) Performance share units
+ PSUs granted prior to December 31, 2023 vest in either one-half or one-third increments every twelve months following the grant date for a total vesting period of three years. PSUs granted from January 1, 2024 onwards have a cliff vesting feature and vest after a service period of three years.
+ All PSUs contain a performance criterion applied to the number of units that vest. The number of units that vest will be determined by the Company's relative share price performance in comparison to a peer group of companies or upon achievement of certain Company strategic objectives. The PSU performance multiplier ranges from 0% to 150%.
+ The following table is a reconciliation of the movement in the number of PSUs outstanding for the years ended December 31, 2025 and 2024:
+ 
+ 
+ 
+ 
+ 
+ Number of PSUs
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025
+ 
+ 
+ December 31, 2024
+ 
+ 
+ 
+ Balance, beginning of year
+ 
+ 1,476,487
+ 
+ 
+ 2,501,482
+ 
+ 
+ 
+ Granted
+ 
+ 612,000
+ 
+ 
+ 884,000
+ 
+ 
+ 
+ Settled in cash
+ 
+ (592,750
+ )
+ 
+ (1,709,427
+ )
+ 
+ 
+ Added due to performance condition
+ 
+ 154,498
+ 
+ 
+ 191,383
+ 
+ 
+ 
+ Forfeited
+ 
+ (58,267
+ )
+ 
+ (390,951
+ )
+ 
+ 
+ Balance, end of year
+ 
+ 1,591,968
+ 
+ 
+ 1,476,487
+ 
+ 
+ 
+ 
+ For all PSUs granted during the year ended December 31, 2025, the awards cliff vest after a service period of three years, had an estimated forfeiture rate of 7.0% and a fair value per award of C$1.76 (year ended December 31, 2024 - awards cliff vest over a service period of three years and had an estimated forfeiture rate of 20.8%). PSUs granted in 2025 have been designated as equity-settled awards, and therefore the fair value determined on the grant date is amortized equally over the vesting period of three years.
+ 
+ 34
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 17. Equity reserves and long-term incentive plan awards (continued)
+ (c) Performance share units (continued)
+ The following table is a reconciliation of the movement in the PSU liability for the years ended December 31, 2025 and 2024:
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025$
+ 
+ 
+ December 31, 2024$
+ 
+ 
+ 
+ Balance, beginning of year
+ 
+ 927
+ 
+ 
+ 1,497
+ 
+ 
+ 
+ Awards vested and change in fair value, net of forfeited awards 
+ 
+ 1,112
+ 
+ 
+ 1,909
+ 
+ 
+ 
+ Settled in cash
+ 
+ (719
+ )
+ 
+ (2,479
+ )
+ 
+ 
+ Total PSU liability, end of year
+ 
+ 1,320
+ 
+ 
+ 927
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Less: current portion of PSU liability
+ 
+ (918
+ )
+ 
+ (560
+ )
+ 
+ 
+ Total non-current PSU liability, end of year
+ 
+ 402
+ 
+ 
+ 367
+ 
+ 
+ 
+ 
+ (d) Deferred share units
+ DSUs granted vest over a period of one year and will be paid to directors upon their retirement from the Board of Directors of the Company or upon a change of control.
+ The following table is a reconciliation of the movement in the number of DSUs outstanding for the years ended December 31, 2025 and 2024: 
+ 
+ 
+ 
+ 
+ 
+ Number of DSUs 
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025
+ 
+ 
+ December 31, 2024
+ 
+ 
+ 
+ Balance, beginning of year
+ 
+ 4,830,900
+ 
+ 
+ 5,068,275
+ 
+ 
+ 
+ Granted
+ 
+ 962,900
+ 
+ 
+ 1,045,200
+ 
+ 
+ 
+ Settled in cash
+ 
+ -
+ 
+ 
+ (1,194,975
+ )
+ 
+ 
+ Forfeited
+ 
+ -
+ 
+ 
+ (87,600
+ )
+ 
+ 
+ Balance, end of year
+ 
+ 5,793,800
+ 
+ 
+ 4,830,900
+ 
+ 
+ 
+ 
+ For all DSUs granted during the year ended December 31, 2025 and 2024, the awards vest quarterly over a service period of one year and had an estimated weighted-average forfeiture rate of 0.0%. All DSUs granted during the year ended December 31, 2025 had a fair value per award of C$1.76. DSU awards granted in 2025 have been classified as equity-settled awards, and therefore the fair value determined on the grant date is amortized over the vesting period of one year. During the year ended December 31, 2025, the Company recognized $1.2 million of share-based compensation expense related to equity-settled DSU awards (year ended December 31, 2024 - nil as DSU awards granted were designated as cash-settled).
+ 
+ 35
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 17. Equity reserves and long-term incentive plan awards (continued)
+ (d) Deferred share units
+ The following table is a reconciliation of the movement in the DSU liability for the years ended December 31, 2025 and 2024:
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025$
+ 
+ 
+ December 31, 2025$
+ 
+ 
+ 
+ Balance, beginning of year
+ 
+ 6,098
+ 
+ 
+ 4,695
+ 
+ 
+ 
+ Awards vested and change in fair value, net of forfeited awards
+ 
+ 6,219
+ 
+ 
+ 3,343
+ 
+ 
+ 
+ Effect of foreign exchange on DSU liability
+ 
+ (12
+ )
+ 
+ -
+ 
+ 
+ 
+ Settled in cash
+ 
+ -
+ 
+ 
+ (1,940
+ )
+ 
+ 
+ Total DSU liability, end of year
+ 
+ 12,305
+ 
+ 
+ 6,098
+ 
+ 
+ 
+ 
+ The financial liability associated with cash-settled DSU awards is presented in accounts payable and accrued liabilities in the Statement of Financial Position.
+ (e) Share-based compensation expense
+ The following table is a summary of share-based compensation expense for the years ended December 31, 2025 and 2024:
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025$
+ 
+ 
+ December 31, 2024$
+ 
+ 
+ 
+ Equity-settled awards:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Stock options (note 17(a))
+ 
+ 1,049
+ 
+ 
+ 1,128
+ 
+ 
+ 
+ Share units
+ 
+ 1,486
+ 
+ 
+ -
+ 
+ 
+ 
+ Share-based compensation expense, equity-settled awards
+ 
+ 2,535
+ 
+ 
+ 1,128
+ 
+ 
+ 
+ Share-based compensation expense, cash-settled awards
+ 
+ 7,771
+ 
+ 
+ 5,746
+ 
+ 
+ 
+ Total share-based compensation expense (note 22)
+ 
+ 10,306
+ 
+ 
+ 6,874
+ 
+ 
+ 
+ 
+ 18. Non-controlling interest ("NCI")
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025
+ 
+ 
+ December 31, 2024
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of year
+ 
+ 4,313
+ 
+ 
+ -
+ 
+ 
+ 
+ NCI assumed in Acquisition (note 6)
+ 
+ -
+ 
+ 
+ 1,890
+ 
+ 
+ 
+ Net (loss) earnings attributable to NCI
+ 
+ (1,511
+ )
+ 
+ 2,423
+ 
+ 
+ 
+ Balance, end of year
+ 
+ 2,802
+ 
+ 
+ 4,313
+ 
+ 
+ 
+ 
+ The Government of Ghana's 10% free-carried interest in AGGL is considered to be an NCI. The Government has a nominee on the board of directors of AGGL and is entitled to 10% of declared dividends paid out of the subsidiary; however, the Government does not have to contribute to the subsidiary's capital investment. No dividends shall be paid to the NCI until such time that AGGL has retained earnings, which is expected to occur in the latter half of the life of mine.
+ 
+ 36
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 19. Revenue
+ During the year ended December 31, 2025, the Company physically settled a portion of its gold hedges (note 26) and delivered 10,000 gold ounces to the customer. The sale of these gold ounces was recorded as revenue based on the London Bullion Market Association PM spot gold price on the date of delivery. Separately, the corresponding realized loss on the gold hedge derivative instrument was recorded within net revenue in the Statement of Operations and Comprehensive Income (Loss). The following table outlines the components of the Company's revenue and net revenue for the years ended December 31, 2025 and December 31, 2024. Note that the Company has restated its comparative year presentation of realized and unrealized losses gold hedge derivative instruments such that they are presented within net revenue, rather than as a finance expense in the Statement of Operations and Comprehensive Income (Loss). Refer to note 3(n) for a discussion on how the Company accounts for realized and unrealized losses on gold hedge contracts.
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025$
+ 
+ 
+ December 31, 2024$
+ 
+ 
+ 
+ Gold revenue at spot prices
+ 
+ 447,030
+ 
+ 
+ 230,808
+ 
+ 
+ 
+ By-product silver revenue
+ 
+ 737
+ 
+ 
+ 531
+ 
+ 
+ 
+ Revenue
+ 
+ 447,767
+ 
+ 
+ 231,339
+ 
+ 
+ 
+ Realized loss on gold hedges (note 28(b))
+ 
+ (44,771
+ )
+ 
+ (9,515
+ )
+ 
+ 
+ Realized revenue
+ 
+ 402,996
+ 
+ 
+ 221,824
+ 
+ 
+ 
+ Unrealized loss on gold hedges (notes 26 & 28(b))
+ 
+ (74,553
+ )
+ 
+ (13,606
+ )
+ 
+ 
+ Net revenue
+ 
+ 328,443
+ 
+ 
+ 208,218
+ 
+ 
+ 
+ 
+ During the year ended December 31, 2024, for the period until December 4, 2024, AGGL had an offtake agreement (the "Offtake Agreement") with a special purpose vehicle of RK Mine Finance Master Fund I Limited ("Red Kite") under which the AGM would sell 100% of future gold production from the AGM up to a maximum of 2.2 million ounces. The realized gold sale price was a spot price selected by Red Kite during a nine-day quotational period following shipment of gold from the mine. The Offtake Agreement was terminated on December 4, 2024 for total cash consideration of $13.1 million, which was presented as an expense in the Statement of Operations and Comprehensive Income for the year ended December 31, 2024.
+ Subsequent to the termination of the Offtake Agreement, the Company sold its gold to London Bullion Market Association registered banks at spot gold prices. During the years ended December 31, 2025 and 2024, the AGM also sold a portion of its production to the Bank of Ghana under the country's gold buying program.
+ During the year ended December 31, 2025, revenue from three customers accounted for approximately 50%, 26%, and 17% of the Company's total revenue, respectively (year ended December 31, 2024 - one customer accounted for 90%).
+ 
+ 37
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 20. Production costs
+ The following is a summary of production costs by nature recorded by the Company during the years ended December 31, 2025 and 2024. Production costs of the AGM in the comparative period were consolidated by the Company from March 4, 2024 onwards.
+ 
+ 
+ 
+ 
+ 
+ Year ended December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025$
+ 
+ 
+ 2024$
+ 
+ 
+ 
+ Raw materials and consumables
+ 
+ 52,680
+ 
+ 
+ 47,609
+ 
+ 
+ 
+ Salaries and employee benefits
+ 
+ 26,663
+ 
+ 
+ 19,957
+ 
+ 
+ 
+ Contractors and consultants
+ 
+ 79,210
+ 
+ 
+ 28,722
+ 
+ 
+ 
+ Change in ore stockpiles, gold-in-process and gold dore inventories
+ 
+ (16,708
+ )
+ 
+ 2,266
+ 
+ 
+ 
+ Insurance, government fees, permits and other
+ 
+ 24,820
+ 
+ 
+ 17,215
+ 
+ 
+ 
+ Total production costs
+ 
+ 166,665
+ 
+ 
+ 115,769
+ 
+ 
+ 
+ 
+ 21. Royalties
+ All of the AGM's concessions are subject to a 5% gross revenue royalty payable to the Government of Ghana. Furthermore, the Nkran deposit is subject to an additional 1% royalty on a portion of production as described in note 14(c) and the Esaase deposit is subject to an additional 0.5% net smelter return royalty payable to the Bonte Liquidation Committee.
+ For mining companies in Ghana, the Growth and Sustainability Levy ("GSL") was levied at a rate of 1% of revenues until March 31, 2025. Effective April 1, 2025, the Government of Ghana passed a bill to increase the GSL on gold mining companies from 1% to 3% until December 31, 2028. The Company has presented the GSL within royalties expense in the Statements of Operations and Comprehensive Income (Loss).
+ 22. General and administrative ("G&A") expenses
+ The following is a summary of G&A expenses incurred during the years ended December 31, 2025 and 2024. G&A expenses of the AGM in the comparative period were consolidated by the Company from March 4, 2024 onwards.
+ 
+ 
+ 
+ 
+ 
+ Year ended December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025$
+ 
+ 
+ 2024$
+ 
+ 
+ 
+ Wages, benefits and consulting
+ 
+ (9,064
+ )
+ 
+ (8,004
+ )
+ 
+ 
+ Office, rent and administration
+ 
+ (1,583
+ )
+ 
+ (1,431
+ )
+ 
+ 
+ Professional and legal
+ 
+ (1,256
+ )
+ 
+ (1,325
+ )
+ 
+ 
+ Share-based compensation (note 17 (e))
+ 
+ (10,306
+ )
+ 
+ (6,874
+ )
+ 
+ 
+ Travel, marketing, investor relations and regulatory
+ 
+ (1,417
+ )
+ 
+ (944
+ )
+ 
+ 
+ Withholding taxes
+ 
+ (1,519
+ )
+ 
+ (1,310
+ )
+ 
+ 
+ Depreciation
+ 
+ (119
+ )
+ 
+ (134
+ )
+ 
+ 
+ Total G&A expense
+ 
+ (25,264
+ )
+ 
+ (20,022
+ )
+ 
+ 
+ 
+ 
+ 
+ 38
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 23. Finance income and expense
+ (a) Finance income
+ The following is a summary of finance income recorded by the Company during the years ended December 31, 2025 and 2024. Finance income earned by the AGM in the comparative period was consolidated by the Company from March 4, 2024 onwards.
+ 
+ 
+ 
+ 
+ 
+ Year ended December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025$
+ 
+ 
+ 2024$
+ 
+ 
+ 
+ Interest income
+ 
+ 3,412
+ 
+ 
+ 4,707
+ 
+ 
+ 
+ Fair value adjustment on marketable securities
+ 
+ 2,557
+ 
+ 
+ (518
+ )
+ 
+ 
+ Fair value adjustment on preferred shares
+ 
+ -
+ 
+ 
+ 1,654
+ 
+ 
+ 
+ Other
+ 
+ 87
+ 
+ 
+ 10
+ 
+ 
+ 
+ Total finance income
+ 
+ 6,056
+ 
+ 
+ 5,853
+ 
+ 
+ 
+ 
+ (b) Finance expense
+ The following is a summary of finance expense recorded by the Company during the years ended December 31, 2025 and 2024. Finance expense incurred by the AGM in the comparative period was consolidated by the Company from March 4, 2024 onwards.
+ 
+ 
+ 
+ 
+ 
+ Year ended December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025$
+ 
+ 
+ 2024$
+ 
+ 
+ 
+ Interest on lease liabilities (note 13)
+ 
+ (6,311
+ )
+ 
+ (5,077
+ )
+ 
+ 
+ Accretion expense on as set retirement provisions (note 15(b))
+ 
+ (2,889
+ )
+ 
+ (2,246
+ )
+ 
+ 
+ Accretion expense on deferred consideration (note 14(a))
+ 
+ (3,133
+ )
+ 
+ (2,481
+ )
+ 
+ 
+ Change in fair value of contingent consideration (notes 14(b) and (c))
+ 
+ (5,047
+ )
+ 
+ (4,894
+ )
+ 
+ 
+ Other
+ 
+ (406
+ )
+ 
+ (485
+ )
+ 
+ 
+ Total finance expense
+ 
+ (17,786
+ )
+ 
+ (15,183
+ )
+ 
+ 
+ 
+ 
+ 
+ 39
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 24. Income taxes
+ (a) Current income tax
+ Income tax expense differs from the amount that would result from applying Canadian federal and provincial income tax rates to earnings from continuing operations before taxes. These differences result from the following items:
+ 
+ 
+ 
+ 
+ 
+ Year ended December 31, 
+ 
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Average statutory tax rate
+ 
+ 27%
+ 
+ 
+ 27%
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Income before income taxes
+ 
+ 30,482
+ 
+ 
+ 8,541
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Expected income tax expense
+ 
+ 8,230
+ 
+ 
+ 2,306
+ 
+ 
+ 
+ Effect of differences in tax rates in foreign jurisdictions
+ 
+ 3,309
+ 
+ 
+ 1,168
+ 
+ 
+ 
+ Unrealized loss on gold hedges
+ 
+ 30,569
+ 
+ 
+ -
+ 
+ 
+ 
+ Change in unrecognized deferred tax assets
+ 
+ 11,327
+ 
+ 
+ (5,651
+ )
+ 
+ 
+ Non-deductible expenses
+ 
+ 7,271
+ 
+ 
+ 4,576
+ 
+ 
+ 
+ Share of net income related to joint venture
+ 
+ -
+ 
+ 
+ (657
+ )
+ 
+ 
+ Fair value adjustment on redeemable preferences shares
+ 
+ -
+ 
+ 
+ (447
+ )
+ 
+ 
+ Gain on derecognition of equity investment in joint venture
+ 
+ -
+ 
+ 
+ (382
+ )
+ 
+ 
+ Deferred tax assets acquired
+ 
+ -
+ 
+ 
+ (1,867
+ )
+ 
+ 
+ Foreign accrual property income
+ 
+ 577
+ 
+ 
+ 954
+ 
+ 
+ 
+ Income tax expense
+ 
+ 61,283
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Total income tax represented by:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current tax expense
+ 
+ (38,259
+ )
+ 
+ -
+ 
+ 
+ 
+ Deferred tax expense
+ 
+ (23,024
+ )
+ 
+ -
+ 
+ 
+ 
+ Total income tax expense
+ 
+ (61,283
+ )
+ 
+ -
+ 
+ 
+ 
+ 
+ During the year ended December 31, 2025, the Company recognized current income tax expense of $38.3 million (year ended December 31, 2024 - nil) and paid income tax installments totaling $34.1 million. In Ghana, income tax installments are paid quarterly, with 90% of estimated taxes due by December 31st of the current tax year. Any remaining tax payments are made upon filing of the annual tax return.
+ 
+ 40
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 24. Income taxes (continued)
+ (b) Deferred income tax ("DIT")
+ The significant components of the Company's deferred tax assets and liabilities as at December 31, 2025 and 2024 were as follows:
+ 
+ 
+ 
+ 
+ 
+ Year ended December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025$
+ 
+ 
+ 2024$
+ 
+ 
+ 
+ Deferred tax assets:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Deferred financing costs
+ 
+ -
+ 
+ 
+ 12,952
+ 
+ 
+ 
+ Provisions
+ 
+ 3,958
+ 
+ 
+ 3,963
+ 
+ 
+ 
+ Right-of-use asset
+ 
+ 1,951
+ 
+ 
+ 22
+ 
+ 
+ 
+ Operating losses
+ 
+ -
+ 
+ 
+ 2,462
+ 
+ 
+ 
+ Non-capital losses
+ 
+ 247
+ 
+ 
+ 12
+ 
+ 
+ 
+ Deferred tax liabilities:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Mineral properties, plant and equipment
+ 
+ (28,933
+ )
+ 
+ (17,330
+ )
+ 
+ 
+ Asset retirement provisions
+ 
+ -
+ 
+ 
+ (2,046
+ )
+ 
+ 
+ Lease liabilities
+ 
+ -
+ 
+ 
+ (19
+ )
+ 
+ 
+ Other
+ 
+ (247
+ )
+ 
+ (16
+ )
+ 
+ 
+ Net deferred tax assets (liabilities)
+ 
+ (23,024
+ )
+ 
+ -
+ 
+ 
+ 
+ 
+ During the year ended December 31, 2025, the Company recognized DIT expense of $23.0 million (year ended December 31, 2024 - nil). The DIT expense arises due to the initial recognition of deferred taxes on certain liabilities of the AGM that may not have tax basis at the time those liabilities are expected to be incurred.
+ As at December 31, 2025, the Company has tax losses of $81.8 million (December 31, 2024 - $80.0 million) in Canada, which expire between 2029 and 2045. The Company has no unutilized tax losses in Ghana (December 31, 2024 - $7.0 million).
+ Unrecognized deferred tax assets are comprised of the following:
+ 
+ 
+ 
+ 
+ 
+ Year ended December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025$
+ 
+ 
+ 2024$
+ 
+ 
+ 
+ Non-capital losses carried forward
+ 
+ 21,844
+ 
+ 
+ 21,590
+ 
+ 
+ 
+ Mineral properties, plant and equipment
+ 
+ 1,064
+ 
+ 
+ 1,034
+ 
+ 
+ 
+ Financial liabilities
+ 
+ 30,570
+ 
+ 
+ -
+ 
+ 
+ 
+ Accounts payable and accrued liabilities
+ 
+ 3,843
+ 
+ 
+ 2,036
+ 
+ 
+ 
+ Deferred financing costs
+ 
+ 13,374
+ 
+ 
+ -
+ 
+ 
+ 
+ Lease liabilities
+ 
+ -
+ 
+ 
+ 2,105
+ 
+ 
+ 
+ Asset retirement provisions
+ 
+ 20,976
+ 
+ 
+ 22,880
+ 
+ 
+ 
+ Capital losses
+ 
+ 2,475
+ 
+ 
+ 2,476
+ 
+ 
+ 
+ Other
+ 
+ 225
+ 
+ 
+ 354
+ 
+ 
+ 
+ Total
+ 
+ 94,371
+ 
+ 
+ 52,475
+ 
+ 
+ 
+ 
+ The aggregate amount of deductible temporary differences associated with investments in subsidiaries for which deferred taxes have not been recognized as at December 31, 2025 was $2.0 million (December 31, 2024 - deductible temporary differences of $2.0 million).
+ 
+ 41
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 25. (Loss) income per share
+ For the year ended December 31, 2025 and 2024, the calculation of basic and diluted (loss) income per share is based on the following data:
+ 
+ 
+ 
+ 
+ 
+ Year ended December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 
+ 2024
+ 
+ 
+ 
+ Net (loss) income for the year attributable to common shareholders
+ $
+ (29,290
+ )
+ $
+ 6,118
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number of shares
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Weighted average number of ordinary shares - basic 
+ 
+ 258,375,097
+ 
+ 
+ 250,651,506
+ 
+ 
+ 
+ Effect of dilutive stock options
+ 
+ -
+ 
+ 
+ 5,120,572
+ 
+ 
+ 
+ Weighted average number of ordinary shares - diluted
+ 
+ 258,375,097
+ 
+ 
+ 255,772,078
+ 
+ 
+ 
+ 
+ For the year ended December 31, 2025, the effect of all potentially dilutive securities was anti-dilutive given that the Company reported a net loss for the year.
+ For the year ended December 31, 2024, excluded from the calculation of diluted weighted average shares were 558,000 stock options that were determined to be anti-dilutive.
+ 26. Commitments and contingencies
+ Commitments
+ The following table reflects the Company's contractual obligations as they fall due as at December 31, 2025 and 2024.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Over
+ 
+ 
+ December 31,
+ 
+ 
+ December 31,
+ 
+ 
+ 
+ 
+ 
+ Within 1 year
+ 
+ 
+ 1 - 5 years
+ 
+ 
+ 5 years
+ 
+ 
+ 2025
+ 
+ 
+ 2024
+ 
+ 
+ 
+ Accounts payable and accrued liabilities
+ 
+ 73,473
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 73,473
+ 
+ 
+ 48,125
+ 
+ 
+ 
+ Income taxes payable
+ 
+ 4,167
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 4,167
+ 
+ 
+ -
+ 
+ 
+ 
+ ZCC gold hedges
+ 
+ 77,317
+ 
+ 
+ 10,994
+ 
+ 
+ -
+ 
+ 
+ 88,311
+ 
+ 
+ 13,758
+ 
+ 
+ 
+ Long-term incentive plan (cash-settled awards)
+ 
+ 13,580
+ 
+ 
+ 486
+ 
+ 
+ -
+ 
+ 
+ 14,066
+ 
+ 
+ 7,405
+ 
+ 
+ 
+ Mining and other services contracts
+ 
+ 21,991
+ 
+ 
+ 40,427
+ 
+ 
+ 1,483
+ 
+ 
+ 63,901
+ 
+ 
+ 44,590
+ 
+ 
+ 
+ Asset retirement provisions (undiscounted)
+ 
+ -
+ 
+ 
+ 11,063
+ 
+ 
+ 70,490
+ 
+ 
+ 81,553
+ 
+ 
+ 75,770
+ 
+ 
+ 
+ Deferred and contingent consideration (undiscounted)
+ 
+ 30,000
+ 
+ 
+ 41,595
+ 
+ 
+ 1,409
+ 
+ 
+ 73,004
+ 
+ 
+ 94,237
+ 
+ 
+ 
+ Corporate office lease
+ 
+ 115
+ 
+ 
+ 446
+ 
+ 
+ -
+ 
+ 
+ 561
+ 
+ 
+ 83
+ 
+ 
+ 
+ Total commitments
+ 
+ 220,643
+ 
+ 
+ 105,011
+ 
+ 
+ 73,382
+ 
+ 
+ 399,036
+ 
+ 
+ 283,968
+ 
+ 
+ 
+ 
+ The zero cost collar ("ZCC") gold hedges commitment represents the mark-to-market fair value of the AGM's current gold hedging program. The settlement amount of these hedges will be dependent on the price of gold at the settlement date. The portion of the ZCC gold hedge liability that is expected to be settled in greater than one year from the balance sheet date has been presented within other non-current liabilities in the Statement of Financial Position. The Company does not apply hedge accounting to the ZCC hedges. The ZCC hedges are for 57,500 gold ounces of production in 2026 and 7,500 gold ounces in 2027. The ZCC hedges have a weighted-average put strike of $2,277 per ounce and a weighted-average call strike of $3,025 per ounce. ZCC hedges can be settled in either cash or by physical delivery of gold.
+ 
+ 42
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 26. Commitments and contingencies (continued)
+ Long-term incentive plan commitments due within one year include all cash settled DSU awards to directors of the Company, as they are considered to be current liabilities as the timing of those payments is beyond the control of the Company in the event that a director is to retire or there is a change of control.
+ The Company has a number of mining and other service contracts. These contracts include monthly fixed fees as well as variable cost measures. The contractual obligations disclosed in the preceding table relate only to the fixed fees payable to the contractors.
+ The timing of contingent payments to Gold Fields, totaling $43.0 million, is based upon management's best estimate of when payments would be required to be made based upon the current life of mine plan.
+ Contingencies
+ Due to the nature of its business, the Company and its subsidiaries may be subject to regulatory investigations, claims, lawsuits and other proceedings in the ordinary course of its business. While the Company cannot reasonably predict the ultimate outcome of these actions, and inherent uncertainties exist in predicting such outcomes, the Company believes that the ultimate resolution of these actions is not reasonably likely to have a material adverse effect on the Company's financial condition or future results of operations.
+ 27. Supplemental cash flow information
+ The following table discloses non-cash transactions impacting the Statements of Cash Flow for the years presented:
+ 
+ 
+ 
+ 
+ 
+ Year ended December 31, 
+ 
+ 
+ 
+ 
+ 
+ 2025$
+ 
+ 
+ 2024$
+ 
+ 
+ 
+ Change in asset retirement provisions included in MPP&E
+ 
+ 6,992
+ 
+ 
+ 10,628
+ 
+ 
+ 
+ Capitalized leases included in MPP&E
+ 
+ 11,157
+ 
+ 
+ 27,826
+ 
+ 
+ 
+ 
+ The following table summarizes the change in working capital for the years ended December 31, 2025 and 2024:
+ 
+ 
+ 
+ 
+ 
+ Year ended December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025$
+ 
+ 
+ 2024$
+ 
+ 
+ 
+ Accounts receivable
+ 
+ 43
+ 
+ 
+ 1,027
+ 
+ 
+ 
+ Inventories
+ 
+ (15,457
+ )
+ 
+ 1,170
+ 
+ 
+ 
+ Value added tax receivables
+ 
+ 719
+ 
+ 
+ (721
+ )
+ 
+ 
+ Prepaid expenses and other
+ 
+ 34
+ 
+ 
+ (765
+ )
+ 
+ 
+ Accounts payable and accrued liabilities
+ 
+ 19,646
+ 
+ 
+ (5,011
+ )
+ 
+ 
+ Change in non-cash working capital
+ 
+ 4,985
+ 
+ 
+ (4,300
+ )
+ 
+ 
+ 
+ 
+ 
+ 43
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 28. Financial instruments
+ (a) Financial assets and liabilities by categories
+ 
+ 
+ 
+ 
+ 
+ Fair value through
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ profit or loss
+ 
+ 
+ Amortized cost
+ 
+ 
+ Carrying value
+ 
+ 
+ Fair value
+ 
+ 
+ 
+ As at December 31, 2025
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Financial assets:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash and cash equivalents (note 7)
+ 
+ -
+ 
+ 
+ 108,327
+ 
+ 
+ 108,327
+ 
+ 
+ 108,327
+ 
+ 
+ 
+ Accounts receivable
+ 
+ -
+ 
+ 
+ 71
+ 
+ 
+ 71
+ 
+ 
+ 71
+ 
+ 
+ 
+ Marketable securities (note 9)(1)
+ 
+ 4,526
+ 
+ 
+ -
+ 
+ 
+ 4,526
+ 
+ 
+ 4,526
+ 
+ 
+ 
+ Total financial assets
+ 
+ 4,526
+ 
+ 
+ 108,398
+ 
+ 
+ 112,924
+ 
+ 
+ 112,924
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Financial liabilities:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Accounts payable and accrued liabilities(2)
+ 
+ 13,580
+ 
+ 
+ 73,473
+ 
+ 
+ 87,053
+ 
+ 
+ 87,053
+ 
+ 
+ 
+ Financial liabilities(2)
+ 
+ 77,317
+ 
+ 
+ -
+ 
+ 
+ 77,317
+ 
+ 
+ 77,317
+ 
+ 
+ 
+ Lease liabilities (note 13)
+ 
+ -
+ 
+ 
+ 37,075
+ 
+ 
+ 37,075
+ 
+ 
+ 37,075
+ 
+ 
+ 
+ Deferred consideration (note 14(a))
+ 
+ -
+ 
+ 
+ 28,242
+ 
+ 
+ 28,242
+ 
+ 
+ 28,242
+ 
+ 
+ 
+ Contingent consideration (note 14(b))
+ 
+ 19,320
+ 
+ 
+ -
+ 
+ 
+ 19,320
+ 
+ 
+ 19,320
+ 
+ 
+ 
+ Nkran royalty (note 14(c))
+ 
+ 6,988
+ 
+ 
+ -
+ 
+ 
+ 6,988
+ 
+ 
+ 6,988
+ 
+ 
+ 
+ Other non-current liabilities(2)
+ 
+ 11,480
+ 
+ 
+ -
+ 
+ 
+ 11,480
+ 
+ 
+ 11,480
+ 
+ 
+ 
+ Total financial liabilities
+ 
+ 128,685
+ 
+ 
+ 138,790
+ 
+ 
+ 267,475
+ 
+ 
+ 267,475
+ 
+ 
+ 
+ 
+ (1) Marketable securities are presented within prepaid expenses and other in the Statement of Financial Position.
+ (2) Accounts payable, financial liabilities, and other non-current liabilities include long-term incentive plan and gold hedge instrument liabilities, which are measured at fair value through profit or loss. Long-term incentive plan liabilities relate to cash settled share-based payments accounted for under IFRS 2 and are measured at fair value at each reporting date, with changes recognized in profit or loss.Accounts payable, financial liabilities, and other non-current liabilities include long-term incentive plan and gold hedge instrument liabilities, which are measured at fair value through profit or loss. Long-term incentive plan liabilities relate to cash settled share-based payments accounted for under IFRS 2 and are measured at fair value at each reporting date, with changes recognized in profit or loss.
+ 
+ 44
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 28. Financial instruments (continued)
+ (a) Financial assets and liabilities by categories (continued)
+ 
+ 
+ 
+ 
+ 
+ Fair value through
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ profit or loss
+ 
+ 
+ Amortized cost
+ 
+ 
+ Carrying value
+ 
+ 
+ Fair value
+ 
+ 
+ 
+ As at December 31, 2024
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Financial assets:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash and cash equivalents
+ 
+ -
+ 
+ 
+ 105,775
+ 
+ 
+ 105,775
+ 
+ 
+ 105,775
+ 
+ 
+ 
+ Accounts receivable
+ 
+ -
+ 
+ 
+ 104
+ 
+ 
+ 104
+ 
+ 
+ 104
+ 
+ 
+ 
+ Marketable securities(1)
+ 
+ 1,509
+ 
+ 
+ -
+ 
+ 
+ 1,509
+ 
+ 
+ 1,509
+ 
+ 
+ 
+ Total financial assets
+ 
+ 1,509
+ 
+ 
+ 105,879
+ 
+ 
+ 107,388
+ 
+ 
+ 107,388
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Financial liabilities:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Accounts payable and accrued liabilities(2)
+ 
+ 6,939
+ 
+ 
+ 48,125
+ 
+ 
+ 55,064
+ 
+ 
+ 55,064
+ 
+ 
+ 
+ Financial liabilities(2)
+ 
+ 9,284
+ 
+ 
+ -
+ 
+ 
+ 9,284
+ 
+ 
+ 9,284
+ 
+ 
+ 
+ Lease liabilities
+ 
+ -
+ 
+ 
+ 38,872
+ 
+ 
+ 38,872
+ 
+ 
+ 38,872
+ 
+ 
+ 
+ Deferred consideration
+ 
+ -
+ 
+ 
+ 50,109
+ 
+ 
+ 50,109
+ 
+ 
+ 50,109
+ 
+ 
+ 
+ Contingent consideration
+ 
+ 16,873
+ 
+ 
+ -
+ 
+ 
+ 16,873
+ 
+ 
+ 16,873
+ 
+ 
+ 
+ Nkran royalty
+ 
+ 4,388
+ 
+ 
+ -
+ 
+ 
+ 4,388
+ 
+ 
+ 4,388
+ 
+ 
+ 
+ Other non-current liabilities(2)
+ 
+ 4,939
+ 
+ 
+ -
+ 
+ 
+ 4,939
+ 
+ 
+ 4,939
+ 
+ 
+ 
+ Total financial liabilities
+ 
+ 42,423
+ 
+ 
+ 137,106
+ 
+ 
+ 179,529
+ 
+ 
+ 179,529
+ 
+ 
+ 
+ 
+ (1) Marketable securities are presented within prepaid expenses and other in the Statement of Financial Position.
+ (2) Accounts payable, financial liabilities, and other non-current liabilities include long-term incentive plan and gold hedge instrument liabilities, which are measured at fair value through profit or loss.
+ (b) Derivative instruments
+ The Company's derivatives are comprised of ZCC gold hedging instruments. The losses on derivatives for the years ended December 31, 2025 and 2024 are presented in the table below. Realized and unrealized losses on gold hedge derivative instruments are presented within net revenue in the Statement of Operations and Comprehensive Income (Loss).
+ 
+ 
+ 
+ 
+ 
+ Year ended December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025$
+ 
+ 
+ 2024$
+ 
+ 
+ 
+ Realized losses on ZCC gold hedges (note 19)
+ 
+ 44,771
+ 
+ 
+ 9,515
+ 
+ 
+ 
+ Unrealized losses on ZCC gold hedges (note 19)
+ 
+ 74,553
+ 
+ 
+ 13,606
+ 
+ 
+ 
+ 
+ (c) Fair value hierarchy
+ The categories of the fair value hierarchy that reflect the inputs to valuation techniques used to measure fair value are as follows:
+ Level 1: fair values based on unadjusted quoted prices in active markets for identical assets or liabilities;
+ Level 2: inputs other than quoted prices included within Level 1 that are observable for the asset or liability, either directly or indirectly; and
+ 
+ 45
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 28. Financial instruments (continued)
+ (c) Fair value hierarchy (continued)
+ Level 3: fair values based on inputs for the asset or liability based on unobservable market data.
+ Long-term incentive plan liabilities, Contingent Consideration and the Nkran Royalty are recorded at fair value at the reporting date and fall within Level 3 of the fair value hierarchy. The ZCC gold hedging instruments and marketable securities are also recorded at fair value at the reporting date and fall within Level 1 of the fair value hierarchy.
+ There were no transfers between the fair value levels during the years ended December 31, 2025 or 2024.
+ Refer to note 14 for a discussion on the valuation techniques applied to the Contingent Consideration and Nkran Royalty. Long-term incentive plan liabilities are valued based on the estimated number of outstanding vested awards multiplied by the Company's share price as of the reporting date. ZCC gold hedging instruments and marketable securities are valued using observable market prices.
+ (d) Financial instrument risks
+ The Company has exposure to risks of varying degrees of significance which could affect its ability to achieve its strategic objectives for growth and shareholder returns. The principal financial risks to which the Company is exposed are described as follows.
+ Credit risk
+ Credit risk is the risk of an unexpected loss if a customer or the issuer of a financial instrument fails to meet its contractual obligations. The Company is subject to credit risk on cash and cash equivalent balances held at banks in Canada, Isle of Man, and Ghana. The Company invests its cash and cash equivalents with the objective of maintaining safety of principal and providing adequate liquidity to meet all current obligations. In making allocation decisions, management attempts to avoid unacceptable concentration of credit risk to any single counterparty. The risk of loss associated with cash investments is considered to be low as the majority of the Company's cash and cash equivalents are held with highly-rated financial institutions.
+ As at December 31, 2025, the Company had a $10.8 million value added tax receivable due from the Government of Ghana (December 31, 2024 - $8.3 million). The credit risk associated with value added tax receivables is considered to be low based on historical collection experience. However, should the Government of Ghana not honour its commitments or default on its obligations, the Company may incur losses.
+ Liquidity risk
+ Liquidity risk encompasses the risk that the Company cannot meet its financial obligations as they fall due. The Company manages liquidity risk through a rigorous planning and budgeting process, which is reviewed and updated on a regular basis, to help determine the funding requirements to support current operations, expansion and development plans, and by managing the Company's capital structure. By managing liquidity risk, the Company aims to ensure that it will have sufficient liquidity to settle obligations and liabilities as they fall due.
+ 
+ 46
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 28. Financial instruments (continued)
+ (d) Financial Instrument risks (continued)
+ Liquidity risk (continued)
+ Through a combination of the Company's cash balance, and interest earned thereon, cash flows generated by the AGM and funds available to be drawn under the RCF, the Company believes it is in a position to meet all working capital requirements, contractual obligations, and commitments as they fall due. However, the Company's cash flows and its ability to meet working capital requirements and contractual obligations are significantly influenced by the price of gold and the performance of the AGM. The Company manages its liquidity by ensuring that it can manage spending and provide adequate cash flow to meet all commitments.
+ As at December 31, 2025, the Company continues to maintain its ability to meet its financial obligations as they come due.
+ Market Risk
+ (i) Interest rate risk
+ Interest rate risk is the risk that the fair value or future cash flows of a financial instrument will fluctuate because of changes in market interest rates. The average interest rate earned by the Company on its cash and cash equivalents during the year ended December 31, 2025 was 3.5% (year ended December 31, 2024 - 4.6%). A +/-1% change in short-term interest rates during the year would have resulted in a $1.1 million increase or decrease to the Company's interest income for the year ended December 31, 2025 (year ended December 31, 2024 - $1.2 million increase or decrease).
+ The Contingent Consideration and Nkran Royalty are financial liabilities measured at fair value through profit or loss with fair value determined by reference to a discounted cash flow model. Changes in interest rates would impact the discount rate applied to forecast future cash flows and accordingly the fair value of these financial liabilities. Any change in interest rates would therefore impact the Company's earnings, but would not impact cash payments required to be paid under the terms of the Acquisition agreement. The following table highlights the sensitivity of the fair values related to these financial liabilities for a 1% decrease (increase) in the underlying discount rate.
+ 
+ 
+ 
+ 
+ 
+ Change in fair value 
+ 
+ 
+ 
+ 
+ 
+ Year ended December 31, 2025
+ 
+ 
+ Year ended December 31, 2024 
+ 
+ 
+ 
+ 
+ 
+ 1% increase todiscount rate$ 
+ 
+ 
+ 1% decrease todiscount rate$
+ 
+ 
+ 1% increase todiscount rate$ 
+ 
+ 
+ 1% decrease todiscount rate$ 
+ 
+ 
+ 
+ Contingent consideration
+ 
+ (539
+ )
+ 
+ 559
+ 
+ 
+ (612
+ )
+ 
+ 641
+ 
+ 
+ 
+ Nkran royalty
+ 
+ (289
+ )
+ 
+ 303
+ 
+ 
+ (218
+ )
+ 
+ 229
+ 
+ 
+ 
+ 
+ The Company's RCF is also subject to interest rate risk as the facility has a floating interest rate. Changes in interest rates would impact interest payments on funds drawn under the RCF. As of December 31, 2025, the Company had not drawn on the RCF.
+ (ii) Foreign currency risk
+ The Company reports its financial statements in US dollars; however, the Company operates in Canada and Ghana where the primary currencies are the Canadian dollar and Ghanaian Cedi ("GHS"), respectively. As a result, the financial results of the Company's operations as reported in US dollars are subject to changes in the value of the US dollar relative to local currencies. Since the Company's gold sales are denominated in US dollars and a portion of the Company's operating and capital costs are in local currencies, the Company may be negatively impacted by strengthening local currencies relative to the US dollar and positively impacted by the inverse.
+ 
+ 47
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 28. Financial instruments (continued)
+ (d) Financial Instrument risks (continued)
+ Market Risk (continued)
+ (ii) Foreign currency risk (continued)
+ As at December 31, 2025 and 2024, the Company's exposure to foreign currency risk was limited to the balances presented below.
+ 
+ 
+ 
+ 
+ 
+ Foreign currency amount 
+ 
+ 
+ USD Equivalent
+ 
+ 
+ 
+ December 31, 2025
+ 
+ C$
+ 
+ 
+ GHS
+ 
+ 
+ $
+ 
+ 
+ 
+ Cash and cash equivalents
+ 
+ 715
+ 
+ 
+ 41,910
+ 
+ 
+ 4,511
+ 
+ 
+ 
+ Receivables
+ 
+ 30
+ 
+ 
+ 513
+ 
+ 
+ 70
+ 
+ 
+ 
+ Value added tax receivables
+ 
+ -
+ 
+ 
+ 113,557
+ 
+ 
+ 10,808
+ 
+ 
+ 
+ Accounts payable and accrued liabilities
+ 
+ (1,938
+ )
+ 
+ (56,575
+ )
+ 
+ (6,799
+ )
+ 
+ 
+ Long-term incentive plan liabilities
+ 
+ (19,280
+ )
+ 
+ -
+ 
+ 
+ (14,066
+ )
+ 
+ 
+ Lease liabilities
+ 
+ (592
+ )
+ 
+ -
+ 
+ 
+ (432
+ )
+ 
+ 
+ Net exposure to foreign currency
+ 
+ (21,065
+ )
+ 
+ 99,405
+ 
+ 
+ (5,908
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Foreign currency amount
+ 
+ 
+ USD Equivalent
+ 
+ 
+ 
+ December 31, 2024
+ 
+ C$
+ 
+ 
+ GHS
+ 
+ 
+ $
+ 
+ 
+ 
+ Cash and cash equivalents
+ 
+ 220
+ 
+ 
+ 118,772
+ 
+ 
+ 8,232
+ 
+ 
+ 
+ Receivables
+ 
+ 53
+ 
+ 
+ 941
+ 
+ 
+ 101
+ 
+ 
+ 
+ Value added tax receivables
+ 
+ -
+ 
+ 
+ 122,325
+ 
+ 
+ 8,328
+ 
+ 
+ 
+ Accounts payable and accrued liabilities
+ 
+ (1,901
+ )
+ 
+ (121,094
+ )
+ 
+ (9,529
+ )
+ 
+ 
+ Long-term incentive plan liabilities
+ 
+ (10,640
+ )
+ 
+ -
+ 
+ 
+ (7,405
+ )
+ 
+ 
+ Lease liabilities
+ 
+ (117
+ )
+ 
+ -
+ 
+ 
+ (83
+ )
+ 
+ 
+ Net exposure to foreign currency
+ 
+ (12,385
+ 
+ 
+ 120,944
+ 
+ 
+ (356
+ )
+ 
+ 
+ 
+ A +/-10% change in the prevailing exchange rates as at December 31, 2025, with all other variables held constant, would have resulted in a $0.7 million decrease (increase) to the Company's net loss for the year ended December 31, 2025 (year ended December 31, 2024 - $0.1 million decrease (increase) to net income).
+ (ii) Price risk
+ Price risk is the risk that future cash flows of a financial instrument will fluctuate because of changes in market prices, other than those arising from currency risk or interest rate risk. The Company is exposed to gold price risk as changes in the gold price may affect the Company's earnings or the value of its financial instruments. The Company's revenue is directly dependent on gold prices, which have demonstrated significant volatility and are beyond the Company's control.
+ From time to time, the Company enters into hedging programs to manage its exposure to gold price risk with an objective of margin protection, specifically during periods of forecast elevated capital spend. The Board of Directors continually assess the Company's strategy towards its gold hedging program. The effectiveness of gold hedging programs is directly dependent on the price of gold and can impact the Company's earnings and cash flows, as the Company remeasures hedging instruments to fair value at each reporting date and may incur realized gains or losses at maturity. Refer to notes 19 and 28(b) for disclosure of realized losses recorded on the Company's gold hedging instruments during the year.
+ 
+ 48
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 29. Segmented information
+ Geographic Information
+ As at December 31, 2025, the Company has one reportable segment, being the AGM, and has provided segmented information based on geographic location.
+ Geographic allocation of total assets and liabilities
+ 
+ 
+ 
+ 
+ 
+ Canada$
+ 
+ 
+ Ghana$
+ 
+ 
+ Total$
+ 
+ 
+ 
+ Current assets
+ 
+ 47,307
+ 
+ 
+ 154,876
+ 
+ 
+ 202,183
+ 
+ 
+ 
+ Mineral properties, plant and equipment and right-of-use assets
+ 
+ 514
+ 
+ 
+ 388,095
+ 
+ 
+ 388,609
+ 
+ 
+ 
+ Other non-current assets
+ 
+ -
+ 
+ 
+ 8,259
+ 
+ 
+ 8,259
+ 
+ 
+ 
+ Total assets
+ 
+ 47,821
+ 
+ 
+ 551,230
+ 
+ 
+ 599,051
+ 
+ 
+ 
+ Current liabilities
+ 
+ 43,712
+ 
+ 
+ 176,868
+ 
+ 
+ 220,580
+ 
+ 
+ 
+ Non-current liabilities
+ 
+ 27,148
+ 
+ 
+ 129,665
+ 
+ 
+ 156,813
+ 
+ 
+ 
+ Total liabilities
+ 
+ 70,860
+ 
+ 
+ 306,533
+ 
+ 
+ 377,393
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Canada
+ 
+ 
+ Ghana
+ 
+ 
+ Total
+ 
+ 
+ 
+ December 31, 2024
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Current assets
+ 
+ 88,190
+ 
+ 
+ 77,395
+ 
+ 
+ 165,585
+ 
+ 
+ 
+ Mineral properties, plant and equipment
+ 
+ 111
+ 
+ 
+ 329,318
+ 
+ 
+ 329,429
+ 
+ 
+ 
+ Other non-current assets
+ 
+ -
+ 
+ 
+ 5,339
+ 
+ 
+ 5,339
+ 
+ 
+ 
+ Total assets
+ 
+ 88,301
+ 
+ 
+ 412,052
+ 
+ 
+ 500,353
+ 
+ 
+ 
+ Current liabilities
+ 
+ 33,255
+ 
+ 
+ 77,560
+ 
+ 
+ 110,815
+ 
+ 
+ 
+ Non-current liabilities
+ 
+ 48,300
+ 
+ 
+ 93,469
+ 
+ 
+ 141,769
+ 
+ 
+ 
+ Total liabilities
+ 
+ 81,555
+ 
+ 
+ 171,029
+ 
+ 
+ 252,584
+ 
+ 
+ 
+ 
+ 
+ 
+ 49
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 29. Segmented information (continued)
+ Geographic Information (continued)
+ Geographic allocation of the Statement of Operations and Comprehensive Income (Loss)
+ For the year ended December 31, 2025:
+ 
+ 
+ 
+ 
+ 
+ Canada
+ 
+ 
+ Ghana
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Revenue
+ 
+ -
+ 
+ 
+ 447,767
+ 
+ 
+ 447,767
+ 
+ 
+ 
+ Realized and unrealized losses on gold hedge
+ 
+ -
+ 
+ 
+ (119,324
+ )
+ 
+ (119,324
+ )
+ 
+ 
+ Net revenue
+ 
+ -
+ 
+ 
+ 328,443
+ 
+ 
+ 328,443
+ 
+ 
+ 
+ Cost of sales:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Production costs
+ 
+ -
+ 
+ 
+ (166,665
+ )
+ 
+ (166,665
+ )
+ 
+ 
+ Depreciation and depletion
+ 
+ -
+ 
+ 
+ (62,761
+ )
+ 
+ (62,761
+ )
+ 
+ 
+ Royalties
+ 
+ -
+ 
+ 
+ (33,004
+ )
+ 
+ (33,004
+ )
+ 
+ 
+ Income from mine operations
+ 
+ -
+ 
+ 
+ 66,013
+ 
+ 
+ 66,013
+ 
+ 
+ 
+ General and administrative expenses
+ 
+ (22,158
+ )
+ 
+ (3,106
+ )
+ 
+ (25,264
+ )
+ 
+ 
+ Exploration and evaluation expenditures
+ 
+ -
+ 
+ 
+ (4,206
+ )
+ 
+ (4,206
+ )
+ 
+ 
+ (Loss) income from operations and joint venture
+ 
+ (22,158
+ )
+ 
+ 58,701
+ 
+ 
+ 36,543
+ 
+ 
+ 
+ Finance income
+ 
+ 5,490
+ 
+ 
+ 566
+ 
+ 
+ 6,056
+ 
+ 
+ 
+ Finance expense
+ 
+ (8,214
+ )
+ 
+ (9,572
+ )
+ 
+ (17,786
+ )
+ 
+ 
+ Foreign exchange gain
+ 
+ 76
+ 
+ 
+ 5,593
+ 
+ 
+ 5,669
+ 
+ 
+ 
+ (Loss) income before income taxes
+ 
+ (24,806
+ )
+ 
+ 55,288
+ 
+ 
+ 30,482
+ 
+ 
+ 
+ Current income tax expense
+ 
+ -
+ 
+ 
+ (38,259
+ )
+ 
+ (38,259
+ )
+ 
+ 
+ Deferred income tax expense
+ 
+ -
+ 
+ 
+ (23,024
+ )
+ 
+ (23,024
+ )
+ 
+ 
+ Net (loss) income and comprehensive (loss) income for the year
+ 
+ (24,806
+ )
+ 
+ (5,995
+ )
+ 
+ (30,801
+ )
+ 
+ 
+ 
+ 
+ 
+ 50
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 29. Segmented information (continued)
+ Geographic Information (continued)
+ Geographic allocation of the Statement of Operations and Comprehensive Income (Loss)
+ For the year ended December 31, 2024:
+ 
+ 
+ 
+ 
+ 
+ Canada
+ 
+ 
+ Ghana
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Revenue
+ 
+ -
+ 
+ 
+ 231,339
+ 
+ 
+ 231,339
+ 
+ 
+ 
+ Realized and unrealized losses on gold hedge derivative instruments
+ 
+ -
+ 
+ 
+ (23,121
+ )
+ 
+ (23,121
+ )
+ 
+ 
+ Net revenue
+ 
+ -
+ 
+ 
+ 208,218
+ 
+ 
+ 208,218
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cost of sales
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Production costs
+ 
+ -
+ 
+ 
+ (115,769
+ )
+ 
+ (115,769
+ )
+ 
+ 
+ Depreciation and depletion
+ 
+ -
+ 
+ 
+ (23,603
+ )
+ 
+ (23,603
+ )
+ 
+ 
+ Royalties
+ 
+ -
+ 
+ 
+ (13,957
+ )
+ 
+ (13,957
+ )
+ 
+ 
+ Income from mine operations
+ 
+ -
+ 
+ 
+ 54,889
+ 
+ 
+ 54,889
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ General and administrative expenses
+ 
+ (17,984
+ )
+ 
+ (2,038
+ )
+ 
+ (20,022
+ )
+ 
+ 
+ Exploration and evaluation expenditures
+ 
+ -
+ 
+ 
+ (6,142
+ )
+ 
+ (6,142
+ )
+ 
+ 
+ Termination of offtake agreement
+ 
+ -
+ 
+ 
+ (13,063
+ )
+ 
+ (13,063
+ )
+ 
+ 
+ Share of net income related to joint venture
+ 
+ -
+ 
+ 
+ 2,432
+ 
+ 
+ 2,432
+ 
+ 
+ 
+ Service fee earned as operators of joint venture
+ 
+ 976
+ 
+ 
+ -
+ 
+ 
+ 976
+ 
+ 
+ 
+ Gain on derecognition of equity investment in joint venture
+ 
+ 1,416
+ 
+ 
+ -
+ 
+ 
+ 1,416
+ 
+ 
+ 
+ (Loss) income from operations and joint venture
+ 
+ (15,592
+ )
+ 
+ 36,078
+ 
+ 
+ 20,486
+ 
+ 
+ 
+ Transaction costs
+ 
+ (2,492
+ )
+ 
+ -
+ 
+ 
+ (2,492
+ )
+ 
+ 
+ Finance income
+ 
+ 3,926
+ 
+ 
+ 1,927
+ 
+ 
+ 5,853
+ 
+ 
+ 
+ Finance expense
+ 
+ (7,394
+ )
+ 
+ (7,789
+ )
+ 
+ (15,183
+ )
+ 
+ 
+ Foreign exchange loss
+ 
+ (87
+ )
+ 
+ (36
+ )
+ 
+ (123
+ )
+ 
+ 
+ Net (loss) income and comprehensive (loss) income for the year
+ 
+ (21,639
+ )
+ 
+ 30,180
+ 
+ 
+ 8,541
+ 
+ 
+ 
+ 
+ 30. Capital management
+ The Company's objectives in managing capital are to ensure that the Company has the financial capacity to support its operations with sufficient capability to manage unforeseen operational, economic and/or industry developments, such that the Company has the capital and capacity to support its long-term growth strategies, and to provide returns for shareholders and benefits for other stakeholders. The Company defines capital that it manages as total shareholders' equity, being a total of $218.9 million as at December 31, 2025 (December 31, 2024 - $243.5 million).
+ The Company is subject to financial covenants under the RCF (note 12). Although the Company had not drawn on the RCF as of December 31, 2025, the Company was in compliance with the financial covenants.
+ 
+ 51
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEARS ENDED DECEMBER 31, 2025 AND 2024(In thousands of United States Dollars, unless otherwise noted
+ 
+ 
+ 
+ 30. Capital management (continued)
+ The Company manages its capital structure and makes adjustments considering general economic conditions, the risk characteristics of the underlying assets and the Company's working capital requirements associated with ongoing operations and corporate development plans. The Company does not currently pay dividends. The Board of Directors reviews and approves any material transactions out of the ordinary course of business, including proposals on acquisitions or other major investments or divestitures, as well as capital and operating budgets. The Company's investment policy is to invest its cash in highly liquid short-term interest-bearing investments with maturities of 180 days or less from the original date of acquisition.
+ The Company has not made any changes to its policies and processes for managing capital during the year.
+ 31. Related Parties
+ The Company's related party transactions included compensation made to key management personnel, being the directors and executive officers of the Company, which was as follows for the years ended December 31, 2025 and 2024:
+ 
+ 
+ 
+ 
+ 
+ Year ended December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025$
+ 
+ 
+ 2024$
+ 
+ 
+ 
+ Salaries and benefits
+ 
+ 1,914
+ 
+ 
+ 1,621
+ 
+ 
+ 
+ Share-based compensation
+ 
+ 8,957
+ 
+ 
+ 5,092
+ 
+ 
+ 
+ Total compensation paid to related parties
+ 
+ 10,871
+ 
+ 
+ 6,713
+ 
+ 
+ 
+ 
+ During the year ended December 31, 2024, prior to the closing of the Acquisition, the Company was the manager and operator of the AGM JV and earned a gross service fee of $1.2 million, less withholding taxes payable in Ghana of $0.2 million, for a net service fee of $1.0 million, which was recognized in the Statement of Operations and Comprehensive Income.
+ 
+ 52

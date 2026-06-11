@@ -3,7 +3,7 @@
     "ticker": "AEM",
     "cik": "0000002809",
     "entityName": "AGNICO EAGLE MINES LIMITED",
-    "extractedAt": "2026-04-15T07:04:53.553Z",
+    "extractedAt": "2026-06-11T16:48:20.406Z",
     "balanceSheet": {
       "Total Assets": {
         "value": 4959359000,
@@ -92,16 +92,176 @@
     }
   },
   {
-    "ticker": "PZG",
-    "cik": "0001629210",
-    "entityName": "PARAMOUNT GOLD NEVADA CORP.",
-    "extractedAt": "2026-04-15T07:04:53.769Z",
+    "ticker": "AG",
+    "cik": "0001308648",
+    "entityName": "FIRST MAJESTIC SILVER CORP.",
+    "extractedAt": "2026-06-11T16:48:20.553Z",
     "balanceSheet": {
       "Total Assets": {
-        "value": 52403032,
-        "end": "2025-06-30",
+        "value": 4694915000,
+        "end": "2025-12-31",
         "start": null,
-        "filed": "2025-09-25",
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 1192701000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 793435000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 1521949000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 459139000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 3172966000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "AGI",
+    "cik": "0001178819",
+    "entityName": "ALAMOS GOLD INC.",
+    "extractedAt": "2026-06-11T16:48:20.677Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 6384600000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "6-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 1135500000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "6-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 623100000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "6-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 1938800000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "6-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 567600000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "6-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 4445800000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "6-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "ALB",
+    "cik": "0000915913",
+    "entityName": "Albemarle Corporation",
+    "extractedAt": "2026-06-11T16:48:20.957Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 16374211000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-11",
         "form": "10-K",
         "fy": 2025,
         "fp": "FY",
@@ -110,10 +270,10 @@
         "tag": "Assets"
       },
       "Current Assets": {
-        "value": 2707350,
-        "end": "2025-06-30",
+        "value": 4008139000,
+        "end": "2025-12-31",
         "start": null,
-        "filed": "2025-09-25",
+        "filed": "2026-02-11",
         "form": "10-K",
         "fy": 2025,
         "fp": "FY",
@@ -122,34 +282,22 @@
         "tag": "AssetsCurrent"
       },
       "Cash & Equivalents": {
-        "value": 1351001,
-        "end": "2025-06-30",
+        "value": 613110000,
+        "end": "2019-12-31",
         "start": null,
-        "filed": "2025-09-25",
+        "filed": "2020-02-26",
         "form": "10-K",
-        "fy": 2025,
+        "fy": 2019,
         "fp": "FY",
         "unit": "USD",
         "taxonomy": "us-gaap",
         "tag": "CashAndCashEquivalentsAtCarryingValue"
       },
-      "Total Liabilities": {
-        "value": 18834909,
-        "end": "2025-06-30",
-        "start": null,
-        "filed": "2025-09-25",
-        "form": "10-K",
-        "fy": 2025,
-        "fp": "FY",
-        "unit": "USD",
-        "taxonomy": "us-gaap",
-        "tag": "Liabilities"
-      },
       "Current Liabilities": {
-        "value": 659971,
-        "end": "2025-06-30",
+        "value": 1798044000,
+        "end": "2025-12-31",
         "start": null,
-        "filed": "2025-09-25",
+        "filed": "2026-02-11",
         "form": "10-K",
         "fy": 2025,
         "fp": "FY",
@@ -158,10 +306,10 @@
         "tag": "LiabilitiesCurrent"
       },
       "Stockholders Equity": {
-        "value": 33568123,
-        "end": "2025-06-30",
+        "value": 9533365000,
+        "end": "2025-12-31",
         "start": null,
-        "filed": "2025-09-25",
+        "filed": "2026-02-11",
         "form": "10-K",
         "fy": 2025,
         "fp": "FY",
@@ -170,10 +318,10 @@
         "tag": "StockholdersEquity"
       },
       "Retained Earnings / Deficit": {
-        "value": -91428662,
-        "end": "2025-06-30",
+        "value": 4613676000,
+        "end": "2025-12-31",
         "start": null,
-        "filed": "2025-09-25",
+        "filed": "2026-02-11",
         "form": "10-K",
         "fy": 2025,
         "fp": "FY",
@@ -184,10 +332,175 @@
     }
   },
   {
-    "ticker": "GFI",
+    "ticker": "AU",
+    "cik": "0001973832",
+    "entityName": "AngloGold Ashanti plc",
+    "extractedAt": "2026-06-11T16:48:21.073Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 15078000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 4647000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 2905000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 5162000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 1620000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 9916000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "AYASF",
+    "cik": "0001826836",
+    "error": "HTTP 404 for https://data.sec.gov/api/xbrl/companyfacts/CIK0001826836.json\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>api/xbrl/companyfacts/CIK0001826836.json</Key><RequestId>2W4V7BWMFHREQBPN</RequestId><HostId>gvGEfyn1idN7BukeHM5YDBKu63xMDyjNAdrGyMjCE3vFYkwQ5t5FU4Ajrm6qmCh/VLi/bT+C3yU=</HostId></Error>"
+  },
+  {
+    "ticker": "BHP",
+    "cik": "0000811809",
+    "entityName": "BHP GROUP LIMITED",
+    "extractedAt": "2026-06-11T16:48:21.584Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 108790000000,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-08-22",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 22830000000,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-08-22",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 11894000000,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-08-22",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 56572000000,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-08-22",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 15639000000,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-08-22",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 52218000000,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-08-22",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "BTG",
     "cik": "0001172724",
     "entityName": "Gold Fields Limited",
-    "extractedAt": "2026-04-15T07:04:53.957Z",
+    "extractedAt": "2026-06-11T16:48:21.886Z",
     "balanceSheet": {
       "Total Assets": {
         "value": 5513800000,
@@ -276,102 +589,78 @@
     }
   },
   {
-    "ticker": "HYMC",
-    "cik": "0001718405",
-    "entityName": "HYCROFT MINING HOLDING CORPORATION",
-    "extractedAt": "2026-04-15T07:04:54.108Z",
+    "ticker": "CCJ",
+    "cik": "0001009001",
+    "entityName": "CAMECO CORPORATION",
+    "extractedAt": "2026-06-11T16:48:22.035Z",
     "balanceSheet": {
       "Total Assets": {
-        "value": 263027000,
+        "value": 10301282000,
         "end": "2025-12-31",
         "start": null,
-        "filed": "2026-03-03",
-        "form": "10-K",
+        "filed": "2026-03-19",
+        "form": "40-F",
         "fy": 2025,
         "fp": "FY",
-        "unit": "USD",
-        "taxonomy": "us-gaap",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
         "tag": "Assets"
       },
       "Current Assets": {
-        "value": 187492000,
+        "value": 2639215000,
         "end": "2025-12-31",
         "start": null,
-        "filed": "2026-03-03",
-        "form": "10-K",
+        "filed": "2026-03-19",
+        "form": "40-F",
         "fy": 2025,
         "fp": "FY",
-        "unit": "USD",
-        "taxonomy": "us-gaap",
-        "tag": "AssetsCurrent"
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
       },
       "Cash & Equivalents": {
-        "value": 181738000,
+        "value": 1114860000,
         "end": "2025-12-31",
         "start": null,
-        "filed": "2026-03-03",
-        "form": "10-K",
+        "filed": "2026-03-19",
+        "form": "40-F",
         "fy": 2025,
         "fp": "FY",
-        "unit": "USD",
-        "taxonomy": "us-gaap",
-        "tag": "CashAndCashEquivalentsAtCarryingValue"
-      },
-      "Total Liabilities": {
-        "value": 49332000,
-        "end": "2025-12-31",
-        "start": null,
-        "filed": "2026-03-03",
-        "form": "10-K",
-        "fy": 2025,
-        "fp": "FY",
-        "unit": "USD",
-        "taxonomy": "us-gaap",
-        "tag": "Liabilities"
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
       },
       "Current Liabilities": {
-        "value": 7734000,
+        "value": 1070186000,
         "end": "2025-12-31",
         "start": null,
-        "filed": "2026-03-03",
-        "form": "10-K",
+        "filed": "2026-03-19",
+        "form": "40-F",
         "fy": 2025,
         "fp": "FY",
-        "unit": "USD",
-        "taxonomy": "us-gaap",
-        "tag": "LiabilitiesCurrent"
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
       },
       "Stockholders Equity": {
-        "value": 213695000,
+        "value": 6903378000,
         "end": "2025-12-31",
         "start": null,
-        "filed": "2026-03-03",
-        "form": "10-K",
+        "filed": "2026-03-19",
+        "form": "40-F",
         "fy": 2025,
         "fp": "FY",
-        "unit": "USD",
-        "taxonomy": "us-gaap",
-        "tag": "StockholdersEquity"
-      },
-      "Retained Earnings / Deficit": {
-        "value": -826730000,
-        "end": "2025-12-31",
-        "start": null,
-        "filed": "2026-03-03",
-        "form": "10-K",
-        "fy": 2025,
-        "fp": "FY",
-        "unit": "USD",
-        "taxonomy": "us-gaap",
-        "tag": "RetainedEarningsAccumulatedDeficit"
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
       }
     }
   },
   {
     "ticker": "CDE",
     "cik": "0000215466",
-    "entityName": "Coeur Mining, Inc.",
-    "extractedAt": "2026-04-15T07:04:54.577Z",
+    "entityName": "COEUR MINING, INC.",
+    "extractedAt": "2026-06-11T16:48:22.258Z",
     "balanceSheet": {
       "Total Assets": {
         "value": 4695682000,
@@ -448,13 +737,413 @@
     }
   },
   {
-    "ticker": "WPM",
-    "cik": "0001323404",
-    "entityName": "WHEATON PRECIOUS METALS CORP.",
-    "extractedAt": "2026-04-15T07:04:54.737Z",
+    "ticker": "CGAU",
+    "cik": "0001854640",
+    "entityName": "CENTERRA GOLD INC.",
+    "extractedAt": "2026-06-11T16:48:22.347Z",
     "balanceSheet": {
       "Total Assets": {
-        "value": 9125781000,
+        "value": 2280766000,
+        "end": "2023-12-31",
+        "start": null,
+        "filed": "2024-03-28",
+        "form": "40-F",
+        "fy": 2023,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 966027000,
+        "end": "2023-12-31",
+        "start": null,
+        "filed": "2024-03-28",
+        "form": "40-F",
+        "fy": 2023,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 612941000,
+        "end": "2023-12-31",
+        "start": null,
+        "filed": "2024-03-28",
+        "form": "40-F",
+        "fy": 2023,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Current Liabilities": {
+        "value": 297437000,
+        "end": "2023-12-31",
+        "start": null,
+        "filed": "2024-03-28",
+        "form": "40-F",
+        "fy": 2023,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 1674242000,
+        "end": "2023-12-31",
+        "start": null,
+        "filed": "2024-03-28",
+        "form": "40-F",
+        "fy": 2023,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "CSFFF",
+    "cik": "0000887151",
+    "entityName": "Capstone Holding Corp.",
+    "extractedAt": "2026-06-11T16:48:22.522Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 51378000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-04-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 23002000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-04-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 727000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-04-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 38925000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-04-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 22924000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-04-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 12453000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-04-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": -218037000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-04-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "DNN",
+    "cik": "0001063259",
+    "entityName": "DENISON MINES CORP.",
+    "extractedAt": "2026-06-11T16:48:22.737Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 260068000,
+        "end": "2017-12-31",
+        "start": null,
+        "filed": "2018-03-09",
+        "form": "6-K",
+        "fy": 2017,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 40135000,
+        "end": "2017-12-31",
+        "start": null,
+        "filed": "2018-03-09",
+        "form": "6-K",
+        "fy": 2017,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 2898000,
+        "end": "2017-12-31",
+        "start": null,
+        "filed": "2018-03-09",
+        "form": "6-K",
+        "fy": 2017,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 76116000,
+        "end": "2017-12-31",
+        "start": null,
+        "filed": "2018-03-09",
+        "form": "6-K",
+        "fy": 2017,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 10995000,
+        "end": "2017-12-31",
+        "start": null,
+        "filed": "2018-03-09",
+        "form": "6-K",
+        "fy": 2017,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 183952000,
+        "end": "2017-12-31",
+        "start": null,
+        "filed": "2018-03-09",
+        "form": "6-K",
+        "fy": 2017,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "DRD",
+    "cik": "0001023512",
+    "entityName": "DRDGOLD LIMITED",
+    "extractedAt": "2026-06-11T16:48:22.866Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 12246000000,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-10-30",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "ZAR",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 2283500000,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-10-30",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "ZAR",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 1306200000,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-10-30",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "ZAR",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 3363000000,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-10-30",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "ZAR",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 1001200000,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-10-30",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "ZAR",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 8883000000,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-10-30",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "ZAR",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "EGO",
+    "cik": "0000918608",
+    "entityName": "ELDORADO GOLD CORP /FI",
+    "extractedAt": "2026-06-11T16:48:23.099Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 6727297000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-27",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 1447784000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-27",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 869356000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-27",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 2444218000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-27",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 789067000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-27",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 4283079000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-27",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "EQX",
+    "cik": "0001756607",
+    "entityName": "EQUINOX GOLD CORP.",
+    "extractedAt": "2026-06-11T16:48:23.239Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 10535395000,
         "end": "2025-12-31",
         "start": null,
         "filed": "2026-03-31",
@@ -466,19 +1155,19 @@
         "tag": "Assets"
       },
       "Current Assets": {
-        "value": 1204169000,
-        "end": "2025-12-31",
+        "value": 646024000,
+        "end": "2020-12-31",
         "start": null,
-        "filed": "2026-03-31",
+        "filed": "2021-03-24",
         "form": "40-F",
-        "fy": 2025,
+        "fy": 2020,
         "fp": "FY",
         "unit": "USD",
         "taxonomy": "ifrs-full",
         "tag": "CurrentAssets"
       },
       "Cash & Equivalents": {
-        "value": 1153593000,
+        "value": 430004000,
         "end": "2025-12-31",
         "start": null,
         "filed": "2026-03-31",
@@ -490,7 +1179,7 @@
         "tag": "CashAndCashEquivalents"
       },
       "Total Liabilities": {
-        "value": 435273000,
+        "value": 4740088000,
         "end": "2025-12-31",
         "start": null,
         "filed": "2026-03-31",
@@ -502,7 +1191,7 @@
         "tag": "Liabilities"
       },
       "Current Liabilities": {
-        "value": 154687000,
+        "value": 1261974000,
         "end": "2025-12-31",
         "start": null,
         "filed": "2026-03-31",
@@ -514,7 +1203,7 @@
         "tag": "CurrentLiabilities"
       },
       "Stockholders Equity": {
-        "value": 8690508000,
+        "value": 5795307000,
         "end": "2025-12-31",
         "start": null,
         "filed": "2026-03-31",
@@ -528,10 +1217,710 @@
     }
   },
   {
+    "ticker": "EXK",
+    "cik": "0001271554",
+    "entityName": "ENTREE RESOURCES LTD.",
+    "extractedAt": "2026-06-11T16:48:23.446Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 8257000,
+        "end": "2017-12-31",
+        "start": null,
+        "filed": "2018-03-09",
+        "form": "40-F",
+        "fy": 2017,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 7450000,
+        "end": "2017-12-31",
+        "start": null,
+        "filed": "2018-03-09",
+        "form": "40-F",
+        "fy": 2017,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 7068000,
+        "end": "2017-12-31",
+        "start": null,
+        "filed": "2018-03-09",
+        "form": "40-F",
+        "fy": 2017,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 32746000,
+        "end": "2017-12-31",
+        "start": null,
+        "filed": "2018-03-09",
+        "form": "40-F",
+        "fy": 2017,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 247000,
+        "end": "2017-12-31",
+        "start": null,
+        "filed": "2018-03-09",
+        "form": "40-F",
+        "fy": 2017,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": -24489000,
+        "end": "2017-12-31",
+        "start": null,
+        "filed": "2018-03-09",
+        "form": "40-F",
+        "fy": 2017,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": -191583000,
+        "end": "2017-12-31",
+        "start": null,
+        "filed": "2018-03-09",
+        "form": "40-F",
+        "fy": 2017,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "FCX",
+    "cik": "0000831259",
+    "entityName": "Freeport-McMoRan Inc.",
+    "extractedAt": "2026-06-11T16:48:23.754Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 58167000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-13",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 13790000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-13",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 3824000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-13",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 27401000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-13",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 6019000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-13",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 18899000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-13",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": 1385000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-13",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "FNV",
+    "cik": "0001452575",
+    "entityName": "Mead Johnson Nutrition Co",
+    "extractedAt": "2026-06-11T16:48:24.010Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 4087700000,
+        "end": "2016-12-31",
+        "start": null,
+        "filed": "2017-02-27",
+        "form": "10-K",
+        "fy": 2016,
+        "fp": "Q4",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 2706600000,
+        "end": "2016-12-31",
+        "start": null,
+        "filed": "2017-02-27",
+        "form": "10-K",
+        "fy": 2016,
+        "fp": "Q4",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 1795400000,
+        "end": "2016-12-31",
+        "start": null,
+        "filed": "2017-02-27",
+        "form": "10-K",
+        "fy": 2016,
+        "fp": "Q4",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 4559800000,
+        "end": "2016-12-31",
+        "start": null,
+        "filed": "2017-02-27",
+        "form": "10-K",
+        "fy": 2016,
+        "fp": "Q4",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 1244200000,
+        "end": "2016-12-31",
+        "start": null,
+        "filed": "2017-02-27",
+        "form": "10-K",
+        "fy": 2016,
+        "fp": "Q4",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": -512700000,
+        "end": "2016-12-31",
+        "start": null,
+        "filed": "2017-02-27",
+        "form": "10-K",
+        "fy": 2016,
+        "fp": "Q4",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": 773400000,
+        "end": "2016-12-31",
+        "start": null,
+        "filed": "2017-02-27",
+        "form": "10-K",
+        "fy": 2016,
+        "fp": "Q4",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "FSM",
+    "cik": "0001341335",
+    "entityName": "FORTUNA MINING CORP.",
+    "extractedAt": "2026-06-11T16:48:24.112Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 2360641000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 764534000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 553985000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 625323000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 256376000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 1735318000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "GAYMF",
+    "cik": "0001377757",
+    "entityName": "GALIANO GOLD INC.",
+    "extractedAt": "2026-06-11T16:48:24.220Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 599051000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-12",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 202183000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-12",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 108327000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-12",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 377393000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-12",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 220580000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-12",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 221658000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-12",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "GFI",
+    "cik": "0001172724",
+    "entityName": "Gold Fields Limited",
+    "extractedAt": "2026-06-11T16:48:24.365Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 5513800000,
+        "end": "2015-12-31",
+        "start": null,
+        "filed": "2016-04-13",
+        "form": "20-F",
+        "fy": 2015,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 904300000,
+        "end": "2015-12-31",
+        "start": null,
+        "filed": "2016-04-13",
+        "form": "20-F",
+        "fy": 2015,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 440000000,
+        "end": "2015-12-31",
+        "start": null,
+        "filed": "2016-04-13",
+        "form": "20-F",
+        "fy": 2015,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 2876800000,
+        "end": "2015-12-31",
+        "start": null,
+        "filed": "2016-04-13",
+        "form": "20-F",
+        "fy": 2015,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 522100000,
+        "end": "2015-12-31",
+        "start": null,
+        "filed": "2016-04-13",
+        "form": "20-F",
+        "fy": 2015,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 2554900000,
+        "end": "2015-12-31",
+        "start": null,
+        "filed": "2016-04-13",
+        "form": "20-F",
+        "fy": 2015,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": 324000000,
+        "end": "2015-12-31",
+        "start": null,
+        "filed": "2016-04-13",
+        "form": "20-F",
+        "fy": 2015,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "GOLD",
+    "cik": "0000756894",
+    "entityName": "BARRICK MINING CORP",
+    "extractedAt": "2026-06-11T16:48:24.540Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 33322000000,
+        "end": "2010-12-31",
+        "start": null,
+        "filed": "2011-03-31",
+        "form": "40-F",
+        "fy": 2010,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 7113000000,
+        "end": "2010-12-31",
+        "start": null,
+        "filed": "2011-04-05",
+        "form": "40-F/A",
+        "fy": 2010,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 3968000000,
+        "end": "2010-12-31",
+        "start": null,
+        "filed": "2011-04-05",
+        "form": "40-F/A",
+        "fy": 2010,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 12588000000,
+        "end": "2010-12-31",
+        "start": null,
+        "filed": "2011-03-31",
+        "form": "40-F",
+        "fy": 2010,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 2489000000,
+        "end": "2010-12-31",
+        "start": null,
+        "filed": "2011-04-05",
+        "form": "40-F/A",
+        "fy": 2010,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 19065000000,
+        "end": "2010-12-31",
+        "start": null,
+        "filed": "2011-04-05",
+        "form": "40-F/A",
+        "fy": 2010,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": 456000000,
+        "end": "2010-12-31",
+        "start": null,
+        "filed": "2011-04-05",
+        "form": "40-F/A",
+        "fy": 2010,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "HBM",
+    "cik": "0001322422",
+    "entityName": "Hudbay Minerals Inc.",
+    "extractedAt": "2026-06-11T16:48:24.642Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 6223300000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-27",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 1163100000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-27",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 568900000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-27",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 2992300000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-27",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 1228700000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-27",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 3231000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-27",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
     "ticker": "HL",
     "cik": "0000719413",
-    "entityName": "HECLA MINING CO/DE/",
-    "extractedAt": "2026-04-15T07:04:55.170Z",
+    "entityName": "HECLA MINING COMPANY",
+    "extractedAt": "2026-06-11T16:48:24.961Z",
     "balanceSheet": {
       "Total Assets": {
         "value": 3560645000,
@@ -620,10 +2009,1110 @@
     }
   },
   {
+    "ticker": "HMY",
+    "cik": "0001023514",
+    "entityName": "HARMONY GOLD MINING COMPANY LIMITED",
+    "extractedAt": "2026-06-11T16:48:25.046Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 2862000000,
+        "end": "2018-06-30",
+        "start": null,
+        "filed": "2018-11-23",
+        "form": "20-F/A",
+        "fy": 2018,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 303000000,
+        "end": "2018-06-30",
+        "start": null,
+        "filed": "2018-11-23",
+        "form": "20-F/A",
+        "fy": 2018,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 51000000,
+        "end": "2018-06-30",
+        "start": null,
+        "filed": "2018-11-23",
+        "form": "20-F/A",
+        "fy": 2018,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Current Liabilities": {
+        "value": 263000000,
+        "end": "2018-06-30",
+        "start": null,
+        "filed": "2018-11-23",
+        "form": "20-F/A",
+        "fy": 2018,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 48512000000,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-10-31",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "ZAR",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "HYMC",
+    "cik": "0001718405",
+    "entityName": "HYCROFT MINING HOLDING CORPORATION",
+    "extractedAt": "2026-06-11T16:48:25.199Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 263027000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-03",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 187492000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-03",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 181738000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-03",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 49332000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-03",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 7734000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-03",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 213695000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-03",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": -826730000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-03",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "IAG",
+    "cik": "0001203464",
+    "entityName": "IAMGOLD Corporation",
+    "extractedAt": "2026-06-11T16:48:25.327Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 5852500000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 903700000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 421900000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 1606600000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 517100000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 4245900000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-18",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "KGC",
+    "cik": "0000701818",
+    "entityName": "KINROSS GOLD CORP",
+    "extractedAt": "2026-06-11T16:48:25.510Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 12411100000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 3288500000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 1742300000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 3717000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 1399600000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 8694100000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-26",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "LAAC",
+    "cik": "0001440972",
+    "entityName": "LITHIUM ARGENTINA AG",
+    "extractedAt": "2026-06-11T16:48:25.592Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 1099780000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-23",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 84712000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-23",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 61134000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-23",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 282847000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-23",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 280955000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-23",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 816933000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-23",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "LAC",
+    "cik": "0001966983",
+    "entityName": "LITHIUM AMERICAS CORP.",
+    "extractedAt": "2026-06-11T16:48:25.701Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 2579048000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-19",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 911639000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-19",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 568226000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-19",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 992399000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-19",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 176819000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-19",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 1058754000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-19",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": -221148000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-19",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "MP",
+    "cik": "0001801368",
+    "entityName": "MP Materials Corp. / DE",
+    "extractedAt": "2026-06-11T16:48:25.844Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 3864160000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-26",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 2165801000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-26",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 1166011000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-26",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 1471792000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-26",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 299049000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-26",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 1978757000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-26",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": 234428000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-26",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "MUX",
+    "cik": "0000314203",
+    "entityName": "McEWEN INC.",
+    "extractedAt": "2026-06-11T16:48:26.149Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 820218000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 107886000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 51015000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 273981000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 63809000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 365328000,
+        "end": "2020-12-31",
+        "start": null,
+        "filed": "2021-03-10",
+        "form": "10-K",
+        "fy": 2020,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": -1275293000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "NEM",
+    "cik": "0001164727",
+    "entityName": "NEWMONT CORPORATION",
+    "extractedAt": "2026-06-11T16:48:26.812Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 57121000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-19",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 13066000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-19",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 7647000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-19",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 23079000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-19",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 5712000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-19",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 33867000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-19",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": 3431000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-19",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "NXE",
+    "cik": "0001698535",
+    "entityName": "NexGen Energy Ltd.",
+    "extractedAt": "2026-06-11T16:48:26.921Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 2472933000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-04",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 1147626000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-04",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 290743000,
+        "end": "2023-12-31",
+        "start": null,
+        "filed": "2024-03-07",
+        "form": "40-F",
+        "fy": 2023,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 640825000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-04",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 630376000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-04",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 1832108000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-04",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "OR",
+    "cik": "0001627272",
+    "entityName": "OR ROYALTIES INC.",
+    "extractedAt": "2026-06-11T16:48:27.108Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 1566479000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-30",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 147684000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-30",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 174265000,
+        "end": "2018-12-31",
+        "start": null,
+        "filed": "2019-03-29",
+        "form": "40-F",
+        "fy": 2018,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 134438000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-30",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 32632000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-30",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 1432041000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-30",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "ORLA",
+    "cik": "0001680056",
+    "entityName": "ORLA MINING LTD.",
+    "extractedAt": "2026-06-11T16:48:27.388Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 2078333000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-20",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 571120000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-20",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 420776000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-20",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 1422179000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-20",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 529841000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-20",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 656154000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-20",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "PAAS",
+    "cik": "0001162194",
+    "entityName": "STANDARD BIOTOOLS INC.",
+    "extractedAt": "2026-06-11T16:48:27.751Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 567754000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 454264000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 120863000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 143463000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 108308000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 424291000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": -1260547000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
     "ticker": "PSLV",
     "cik": "0001494728",
     "entityName": "SPROTT PHYSICAL SILVER TRUST",
-    "extractedAt": "2026-04-15T07:04:55.258Z",
+    "extractedAt": "2026-06-11T16:48:27.844Z",
     "balanceSheet": {
       "Total Assets": {
         "value": 15298827000,
@@ -676,58 +3165,419 @@
     }
   },
   {
-    "ticker": "SLV",
-    "cik": "0001330568",
-    "entityName": "iShares® Silver Trust",
-    "extractedAt": "2026-04-15T07:04:55.441Z",
+    "ticker": "PZG",
+    "cik": "0001629210",
+    "entityName": "PARAMOUNT GOLD NEVADA CORP.",
+    "extractedAt": "2026-06-11T16:48:27.967Z",
     "balanceSheet": {
       "Total Assets": {
-        "value": 5263140000,
-        "end": "2014-12-31",
+        "value": 52403032,
+        "end": "2025-06-30",
         "start": null,
-        "filed": "2015-02-27",
+        "filed": "2025-09-25",
         "form": "10-K",
-        "fy": 2014,
+        "fy": 2025,
         "fp": "FY",
         "unit": "USD",
         "taxonomy": "us-gaap",
         "tag": "Assets"
       },
-      "Cash & Equivalents": {
-        "value": 0,
-        "end": "2022-12-31",
+      "Current Assets": {
+        "value": 2707350,
+        "end": "2025-06-30",
         "start": null,
-        "filed": "2023-02-23",
+        "filed": "2025-09-25",
         "form": "10-K",
-        "fy": 2022,
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 1351001,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-09-25",
+        "form": "10-K",
+        "fy": 2025,
         "fp": "FY",
         "unit": "USD",
         "taxonomy": "us-gaap",
         "tag": "CashAndCashEquivalentsAtCarryingValue"
       },
       "Total Liabilities": {
-        "value": 2338000,
-        "end": "2014-12-31",
+        "value": 18834909,
+        "end": "2025-06-30",
         "start": null,
-        "filed": "2015-02-27",
+        "filed": "2025-09-25",
         "form": "10-K",
-        "fy": 2014,
+        "fy": 2025,
         "fp": "FY",
         "unit": "USD",
         "taxonomy": "us-gaap",
         "tag": "Liabilities"
       },
-      "Stockholders Equity": {
-        "value": 4391944000,
-        "end": "2015-12-31",
+      "Current Liabilities": {
+        "value": 659971,
+        "end": "2025-06-30",
         "start": null,
-        "filed": "2016-02-29",
+        "filed": "2025-09-25",
         "form": "10-K",
-        "fy": 2015,
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 33568123,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-09-25",
+        "form": "10-K",
+        "fy": 2025,
         "fp": "FY",
         "unit": "USD",
         "taxonomy": "us-gaap",
         "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": -91428662,
+        "end": "2025-06-30",
+        "start": null,
+        "filed": "2025-09-25",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "RGLD",
+    "cik": "0000854606",
+    "error": "HTTP 404 for https://data.sec.gov/api/xbrl/companyfacts/CIK0000854606.json\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>api/xbrl/companyfacts/CIK0000854606.json</Key><RequestId>CMERHY60B2YV3FVC</RequestId><HostId>qiLBCvlESiNVUfWMbANnJ+bRFq533a3j7OrjnYLXb/E02H0WXnH0UEop0gNdmHfLNp5G2I2yIYA=</HostId></Error>"
+  },
+  {
+    "ticker": "RIO",
+    "cik": "0000764180",
+    "entityName": "ALTRIA GROUP, INC.",
+    "extractedAt": "2026-06-11T16:48:28.447Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 35017000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 5932000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 4474000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 38469000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 9154000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": -3502000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": 35452000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "SBSW",
+    "cik": "0001786909",
+    "entityName": "Sibanye Stillwater Limited",
+    "extractedAt": "2026-06-11T16:48:28.569Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 137992000000,
+        "end": "2024-12-31",
+        "start": null,
+        "filed": "2025-04-25",
+        "form": "20-F",
+        "fy": 2024,
+        "fp": "FY",
+        "unit": "ZAR",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 48409000000,
+        "end": "2024-12-31",
+        "start": null,
+        "filed": "2025-04-25",
+        "form": "20-F",
+        "fy": 2024,
+        "fp": "FY",
+        "unit": "ZAR",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 16049000000,
+        "end": "2024-12-31",
+        "start": null,
+        "filed": "2025-04-25",
+        "form": "20-F",
+        "fy": 2024,
+        "fp": "FY",
+        "unit": "ZAR",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Current Liabilities": {
+        "value": 20855000000,
+        "end": "2024-12-31",
+        "start": null,
+        "filed": "2025-04-25",
+        "form": "20-F",
+        "fy": 2024,
+        "fp": "FY",
+        "unit": "ZAR",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 48289000000,
+        "end": "2024-12-31",
+        "start": null,
+        "filed": "2025-04-25",
+        "form": "20-F",
+        "fy": 2024,
+        "fp": "FY",
+        "unit": "ZAR",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "SCCO",
+    "cik": "0001001838",
+    "entityName": "SOUTHERN COPPER CORP/",
+    "extractedAt": "2026-06-11T16:48:28.900Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 21381400000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-27",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 8352500000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-27",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 4304600000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-27",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Current Liabilities": {
+        "value": 2145100000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-27",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 11038100000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-27",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": 5797200000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-27",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "SGML",
+    "cik": "0001848309",
+    "entityName": "SIGMA LITHIUM CORPORATION",
+    "extractedAt": "2026-06-11T16:48:29.235Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 293748000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-30",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 49249000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-30",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 6214000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-30",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 125802000,
+        "end": "2022-12-31",
+        "start": null,
+        "filed": "2023-06-13",
+        "form": "40-F",
+        "fy": 2022,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 200471000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-30",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 56630000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-30",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
       }
     }
   },
@@ -735,7 +3585,7 @@
     "ticker": "SIVR",
     "cik": "0001450922",
     "entityName": "abrdn Silver ETF Trust",
-    "extractedAt": "2026-04-15T07:04:55.552Z",
+    "extractedAt": "2026-06-11T16:48:29.376Z",
     "balanceSheet": {
       "Total Assets": {
         "value": 5431606000,
@@ -796,6 +3646,840 @@
         "unit": "USD",
         "taxonomy": "us-gaap",
         "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "SKE",
+    "cik": "0001713748",
+    "entityName": "Skeena Resources Limited",
+    "extractedAt": "2026-06-11T16:48:29.536Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 770191000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-24",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 158992000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-24",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 121889000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-24",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 611067000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-24",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 87470000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-24",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 159124000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-24",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "SLV",
+    "cik": "0001330568",
+    "entityName": "iShares Silver Trust",
+    "extractedAt": "2026-06-11T16:48:29.709Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 5263140000,
+        "end": "2014-12-31",
+        "start": null,
+        "filed": "2015-02-27",
+        "form": "10-K",
+        "fy": 2014,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Cash & Equivalents": {
+        "value": 0,
+        "end": "2022-12-31",
+        "start": null,
+        "filed": "2023-02-23",
+        "form": "10-K",
+        "fy": 2022,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 2338000,
+        "end": "2014-12-31",
+        "start": null,
+        "filed": "2015-02-27",
+        "form": "10-K",
+        "fy": 2014,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Stockholders Equity": {
+        "value": 4391944000,
+        "end": "2015-12-31",
+        "start": null,
+        "filed": "2016-02-29",
+        "form": "10-K",
+        "fy": 2015,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      }
+    }
+  },
+  {
+    "ticker": "SQM",
+    "cik": "0000909037",
+    "entityName": "CHEMICAL & MINING CO OF CHILE INC",
+    "extractedAt": "2026-06-11T16:48:29.834Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 11495569000,
+        "end": "2024-12-31",
+        "start": null,
+        "filed": "2025-04-24",
+        "form": "20-F",
+        "fy": 2024,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 5578440000,
+        "end": "2024-12-31",
+        "start": null,
+        "filed": "2025-04-24",
+        "form": "20-F",
+        "fy": 2024,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 1377851000,
+        "end": "2024-12-31",
+        "start": null,
+        "filed": "2025-04-24",
+        "form": "20-F",
+        "fy": 2024,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 6297502000,
+        "end": "2024-12-31",
+        "start": null,
+        "filed": "2025-04-24",
+        "form": "20-F",
+        "fy": 2024,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 2218816000,
+        "end": "2024-12-31",
+        "start": null,
+        "filed": "2025-04-24",
+        "form": "20-F",
+        "fy": 2024,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 5198067000,
+        "end": "2024-12-31",
+        "start": null,
+        "filed": "2025-04-24",
+        "form": "20-F",
+        "fy": 2024,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "SSRM",
+    "cik": "0000921638",
+    "entityName": "SSR MINING INC.",
+    "extractedAt": "2026-06-11T16:48:29.966Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 6093898000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 1287121000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 534834000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 1779644000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 618357000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 3507773000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": 509119000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "SVM",
+    "cik": "0001427362",
+    "error": "HTTP 404 for https://data.sec.gov/api/xbrl/companyfacts/CIK0001427362.json\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>api/xbrl/companyfacts/CIK0001427362.json</Key><RequestId>3GT8YAQKS1YWK2M8</RequestId><HostId>frk80+5NPKpPYEWkVLtv17Fu2u4inCZKZq+qZbAhTBxZbIY6e24xyRUaX40vMo+AyxiCocjYQsY=</HostId></Error>"
+  },
+  {
+    "ticker": "TECK",
+    "cik": "0000886986",
+    "entityName": "TECK RESOURCES LIMITED",
+    "extractedAt": "2026-06-11T16:48:30.247Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 45436000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-19",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 11164000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-19",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 5012000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-19",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 19429000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-19",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 4403000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-19",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 26007000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-19",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "CAD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
+      }
+    }
+  },
+  {
+    "ticker": "TGB",
+    "cik": "0000886668",
+    "error": "HTTP 404 for https://data.sec.gov/api/xbrl/companyfacts/CIK0000886668.json\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>api/xbrl/companyfacts/CIK0000886668.json</Key><RequestId>M44E44SDYC39G0FY</RequestId><HostId>E3t5TJpf1tNXt7fN7ETKp4ZiBkpfKv+LsjBpNCDWR0aA3NfVdJJ0QubQUr9oCeuPlXO7Lzwe6/M=</HostId></Error>"
+  },
+  {
+    "ticker": "TMQ",
+    "cik": "0001543418",
+    "entityName": "Trilogy Metals Inc.",
+    "extractedAt": "2026-06-11T16:48:30.510Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 157304000,
+        "end": "2025-11-30",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 51924000,
+        "end": "2025-11-30",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 51613000,
+        "end": "2025-11-30",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 33183000,
+        "end": "2025-11-30",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 33113000,
+        "end": "2025-11-30",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 124121000,
+        "end": "2025-11-30",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": -132641000,
+        "end": "2025-11-30",
+        "start": null,
+        "filed": "2026-02-17",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "UEC",
+    "cik": "0001334933",
+    "entityName": "URANIUM ENERGY CORP.",
+    "extractedAt": "2026-06-11T16:48:30.784Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 1107653000,
+        "end": "2025-07-31",
+        "start": null,
+        "filed": "2025-09-24",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 234016000,
+        "end": "2025-07-31",
+        "start": null,
+        "filed": "2025-09-24",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 148930000,
+        "end": "2025-07-31",
+        "start": null,
+        "filed": "2025-09-24",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 123753000,
+        "end": "2025-07-31",
+        "start": null,
+        "filed": "2025-09-24",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 26433000,
+        "end": "2025-07-31",
+        "start": null,
+        "filed": "2025-09-24",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 983900000,
+        "end": "2025-07-31",
+        "start": null,
+        "filed": "2025-09-24",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": -406557000,
+        "end": "2025-07-31",
+        "start": null,
+        "filed": "2025-09-24",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "UUUU",
+    "cik": "0001385849",
+    "entityName": "ENERGY FUELS INC.",
+    "extractedAt": "2026-06-11T16:48:31.162Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 1411852000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-26",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 958671000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-26",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 64736000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-26",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Total Liabilities": {
+        "value": 729282000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-26",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 31233000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-26",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 678405000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-26",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Retained Earnings / Deficit": {
+        "value": -489657000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-02-26",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "RetainedEarningsAccumulatedDeficit"
+      }
+    }
+  },
+  {
+    "ticker": "VALE",
+    "cik": "0000917851",
+    "entityName": "VALE S.A.",
+    "extractedAt": "2026-06-11T16:48:31.325Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 131478000000,
+        "end": "2012-12-31",
+        "start": null,
+        "filed": "2013-04-02",
+        "form": "20-F",
+        "fy": 2012,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 22897000000,
+        "end": "2012-12-31",
+        "start": null,
+        "filed": "2013-04-02",
+        "form": "20-F",
+        "fy": 2012,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent"
+      },
+      "Cash & Equivalents": {
+        "value": 5832000000,
+        "end": "2012-12-31",
+        "start": null,
+        "filed": "2013-04-02",
+        "form": "20-F",
+        "fy": 2012,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue"
+      },
+      "Current Liabilities": {
+        "value": 12585000000,
+        "end": "2012-12-31",
+        "start": null,
+        "filed": "2013-04-02",
+        "form": "20-F",
+        "fy": 2012,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent"
+      },
+      "Stockholders Equity": {
+        "value": 74241000000,
+        "end": "2012-12-31",
+        "start": null,
+        "filed": "2013-04-02",
+        "form": "20-F",
+        "fy": 2012,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity"
+      },
+      "Total Liabilities": {
+        "value": 52175000000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-27",
+        "form": "20-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      }
+    }
+  },
+  {
+    "ticker": "WPM",
+    "cik": "0001323404",
+    "entityName": "WHEATON PRECIOUS METALS CORP.",
+    "extractedAt": "2026-06-11T16:48:31.465Z",
+    "balanceSheet": {
+      "Total Assets": {
+        "value": 9125781000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Assets"
+      },
+      "Current Assets": {
+        "value": 1204169000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentAssets"
+      },
+      "Cash & Equivalents": {
+        "value": 1153593000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CashAndCashEquivalents"
+      },
+      "Total Liabilities": {
+        "value": 435273000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Liabilities"
+      },
+      "Current Liabilities": {
+        "value": 154687000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "CurrentLiabilities"
+      },
+      "Stockholders Equity": {
+        "value": 8690508000,
+        "end": "2025-12-31",
+        "start": null,
+        "filed": "2026-03-31",
+        "form": "40-F",
+        "fy": 2025,
+        "fp": "FY",
+        "unit": "USD",
+        "taxonomy": "ifrs-full",
+        "tag": "Equity"
       }
     }
   }

@@ -1,0 +1,3467 @@
+EX-99.1
+2
+fortunafsmarch312012.htm
+INTERIM FINANCIAL STATEMENTS FOR THE PERIOD ENDED MARCH 31, 2012
+
+Fortuna Interim Financial Statements
+
+Fortuna Silver Mines Inc.
+March 31, 2012
+Condensed Interim Consolidated Financial Statements
+
+May 9, 2012
+(Unaudited - All amounts in US$’000’s unless otherwise stated)
+
+________________________________________________________________________________
+Page 1
+
+FORTUNA SILVER MINES INC.
+
+CONDENSED INTERIM CONSOLIDATED STATEMENTS OF INCOME
+
+(Unaudited - Expressed in thousands of US Dollars, except for share and per share amounts)
+
+ 
+ 
+ Three Months ended March 31,
+
+ Notes
+ 2012
+ 2011
+
+Sales
+17
+$
+40,601
+$
+21,886
+
+Cost of sales
+ 19,520
+ 8,834
+
+Mine operating income
+ 21,081
+ 13,052
+
+ 
+ 
+Other expenses
+ 
+Selling, general and administrative expenses
+10a)b)
+ 3,890
+ 3,632
+
+Exploration and evaluation costs
+ 313
+ 355
+
+Net loss on commodity contracts
+ 339
+ 1,011
+
+Loss (gain) on disposal of mineral properties, property, plant and
+equipment
+ 
+6
+ 
+(22)
+
+Operating income 
+ 16,533
+ 8,076
+
+ 
+ 
+Finance items
+ 
+Interest income
+ 155
+ 250
+
+Interest expense
+ (144)
+ (137)
+
+Net finance income
+ 11
+ 113
+
+ 
+Income before tax
+ 16,544
+ 8,189
+
+ 
+Income taxes
+ 5,433
+ 3,408
+
+Income for the period
+ $
+11,111
+$
+4,781
+
+ 
+Earnings per Share - Basic 
+13 e)i
+$
+0.09
+$
+0.04
+
+Earnings per Share - Diluted
+13 e)ii
+$
+0.09
+$
+0.04
+
+Weighted average number of shares outstanding - Basic
+13 e)i
+ 123,484,033
+ 122,609,332
+
+Weighted average number of shares outstanding - Diluted
+13 e)ii
+ 125,462,390
+ 123,998,696
+
+________________________________________________________________________________
+The accompanying notes are an integral part of these unaudited condensed interim consolidated financial statements
+Page 2
+
+FORTUNA SILVER MINES INC.
+
+CONDENSED INTERIM CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+
+(Unaudited - Expressed in thousands of US Dollars)
+
+ 
+ 
+ Three months ended March 31,
+
+ Notes
+ 2012
+ 2011
+
+Income for the period
+ $
+11,111
+$
+4,781
+
+Other comprehensive income
+ 
+Unrealized gain on translation of net investment
+ 752
+ -
+
+Unrealized gain on translation to presentation
+currency on foreign operations
+ 
+78
+ 
+1,913
+
+Other comprehensive income
+ 830
+ 1,913
+
+Total comprehensive income for the period
+ $
+11,941
+$
+6,694
+
+ 
+
+________________________________________________________________________________
+The accompanying notes are an integral part of these unaudited condensed interim consolidated financial statements
+Page 3
+
+FORTUNA SILVER MINES INC.
+
+CONDENSED INTERIM CONSOLIDATED STATEMENTS OF CASH FLOWS
+
+(Unaudited - Expressed in thousands of US Dollars)
+
+ 
+ Three months ended March 31,
+
+ Notes
+ 2012
+ 2011
+
+OPERATING ACTIVITIES
+ 
+Net income for the period
+ $
+11,111
+$
+4,781
+
+Items not involving cash
+ 
+Depletion and depreciation
+ 4,609
+ 1,823
+
+Accretion of provisions
+ 59
+ 39
+
+Income taxes
+ 5,433
+ 3,408
+
+Share-based (recovery) payments
+ (285)
+ 451
+
+Unrealized (gain) loss on commodity contracts
+ (621)
+ 612
+
+Loss (gain) on disposal of mineral properties, property, plant and
+equipment
+ 
+6
+ 
+(22)
+
+Accrued interest on long term loans receivable and payable
+ 8
+ 15
+
+ 20,320
+ 11,107
+
+Changes in non-cash working capital items
+ 
+Accounts receivable and other assets
+ (5,937)
+ 145
+
+Prepaid expenses
+ (341)
+ 49
+
+Due from related parties
+ (2)
+ (1)
+
+Inventories
+ (1,269)
+ (1,137)
+
+Trade and other payables
+ (2,943)
+ 2,417
+
+Due to related parties
+ (28)
+ 37
+
+Cash provided by operating activities before interest and income taxes
+ 9,800
+ 12,617
+
+Income taxes paid
+ (5,765)
+ (5,279)
+
+Interest income paid
+ (11)
+ (25)
+
+Interest income received
+ 148
+ 230
+
+Net cash provided by operating activities
+ 4,172
+ 7,543
+
+ 
+INVESTING ACTIVITIES
+ 
+Purchase of short term investments
+ -
+ (20,333)
+
+Redemptions in short term investments
+ 17,000
+ 20,331
+
+Expenditures on mineral properties, property, plant and equipment
+ (7,589)
+ (12,330)
+
+Advances of deposits on long term assets
+ (424)
+ (13,097)
+
+Receipts of deposits on long term assets
+ 935
+ 7,565
+
+Proceeds on disposal of mineral properties, property, plant and
+equipment
+ 
+26
+ 
+-
+
+Net cash provided by (used in) investing activities
+ 9,948
+ (17,864)
+
+ 
+FINANCING ACTIVITIES
+ 
+Proceeds from long term debt
+ -
+ 18
+
+Net proceeds on issuance of common shares
+ 738
+ 328
+
+Repayment of finance lease obligations
+ (279)
+ (270)
+
+Net cash provided by financing activities
+ 459
+ 76
+
+ 
+Effect of exchange rate changes on cash and cash equivalents
+ 543
+ 1,420
+
+ 
+INCREASE (DECREASE) IN CASH AND CASH EQUIVALENTS
+ 14,579
+ (10,245)
+
+ 
+Cash and cash equivalents - beginning of year
+3
+ 38,730
+ 70,298
+
+ 
+CASH AND CASH EQUIVALENTS - END OF PERIOD
+3
+$
+53,852
+$
+61,473
+
+ 
+Supplemental cash flow information
+14
+ 
+ 
+
+________________________________________________________________________________
+The accompanying notes are an integral part of these unaudited condensed interim consolidated financial statements
+Page 4
+
+FORTUNA SILVER MINES INC.
+
+CONDENSED INTERIM CONSOLIDATED STATEMENTS OF FINANCIAL POSITION
+
+(Unaudited - Expressed in thousands of US Dollars)
+
+ 
+ 
+ 
+Notes
+ March 31,
+2012
+ December 31,
+2011
+
+ASSETS
+ 
+CURRENT ASSETS
+ 
+Cash and cash equivalents
+3
+$
+53,852
+$
+38,730
+
+Short term investments
+4
+ -
+ 17,000
+
+Derivative assets
+5
+ 604
+ 70
+
+Accounts receivable and other assets
+6
+ 24,966
+ 19,167
+
+Prepaid expenses
+ 1,566
+ 1,218
+
+Due from related parties
+10 c)
+ 37
+ 36
+
+Inventories
+7
+ 12,560
+ 11,291
+
+Total current assets
+ 93,585
+ 87,512
+
+NON-CURRENT ASSETS
+ 
+Deposits on long-term assets
+6
+ 1,759
+ 2,260
+
+Deferred income tax assets
+ 18
+ 36
+
+Mineral properties, property, plant and equipment
+8
+ 185,463
+ 181,833
+
+Total assets
+ $
+280,825
+$
+271,641
+
+ 
+LIABILITIES AND EQUITY
+ 
+CURRENT LIABILITIES
+ 
+Trade and other payables
+9
+$
+14,088
+$
+17,155
+
+Due to related parties
+10 c)
+ 181
+ 205
+
+Derivative liabilities
+5
+ -
+ 87
+
+Provisions
+12
+ 845
+ 727
+
+Income tax payable
+ 74
+ 3,923
+
+Current portion of long term liabilities
+11
+ 1,337
+ 1,512
+
+Total current liabilities
+ 16,525
+ 23,609
+
+NON-CURRENT LIABILITIES
+ 
+Leases and long term liabilities
+11
+ 2,237
+ 2,764
+
+Provisions
+12
+ 4,399
+ 4,247
+
+Deferred income tax liabilities
+ 16,207
+ 12,710
+
+Total liabilities
+ 39,368
+ 43,330
+
+EQUITY
+ 
+Share capital
+ 187,807
+ 186,540
+
+Share option and warrant reserve
+ 10,433
+ 10,495
+
+Retained earnings
+ 38,992
+ 27,881
+
+Accumulated other comprehensive income
+ 4,225
+ 3,395
+
+Total retained earnings and accumulated other
+comprehensive income
+ 
+43,217
+ 
+31,276
+
+Total equity
+ 241,457
+ 228,311
+
+Total liabilities and equity
+ $
+280,825
+$
+271,641
+
+Contingencies and capital commitments
+18
+ 
+
+APPROVED BY THE DIRECTORS:
+"Jorge Ganoza Durant", Director 
+________”Robert R. Gilmore" , Director
+Jorge Ganoza Durant
+Robert R. Gilmore
+
+________________________________________________________________________________
+The accompanying notes are an integral part of these unaudited condensed interim consolidated financial statements
+Page 5
+
+FORTUNA SILVER MINES INC.
+
+CONDENSED INTERIM CONSOLIDATED STATEMENTS OF CHANGES IN EQUITY
+
+(Unaudited - Expressed in thousands of US Dollars, except for share amounts)
+
+ 
+ Attributable to equity holders of the Company
+
+ Share Capital
+ 
+ 
+
+Notes
+
+Shares
+
+Amount
+
+Share 
+Option and Warrant
+Reserve
+
+Retained
+Earnings
+Accumulated
+Other
+Comprehensive
+Income
+("AOCI")
+
+Total
+Retained
+Earnings
+and AOCI
+
+Total Equity
+
+Balance - December 31, 2011
+ 124,945,921
+$ 186,540
+$ 10,495
+$ 27,881
+$ 3.395
+$ 31,276
+$ 228,311
+
+Exercise of options
+ 314,225
+738
+-
+-
+-
+-
+738
+
+Issuance of shares for property
+13 a)
+8,605
+51
+-
+-
+-
+-
+51
+
+Transfer of share option and warrant reserve on exercise of options
+ -
+478
+(478)
+-
+-
+-
+-
+
+Share-based payments on option grants
+ -
+-
+416
+-
+-
+-
+416
+
+ 
+ 
+Income for the period
+ -
+-
+-
+11,111
+-
+11,111
+11,111
+
+Unrealized gain on translation of net investment
+ -
+-
+-
+-
+752
+752
+752
+
+Unrealized gain on translation to presentation currency on foreign
+operations
+ -
+-
+-
+-
+78
+78
+78
+
+Total comprehensive income for the period
+ 11,111
+830
+11,941
+11,941
+
+Balance – March 31, 2012
+ 125,268,751
+$187,807
+$ 10,433
+$ 38,992
+$ 4,225
+$ 43,217
+$ 241,457
+
+ 
+Balance - December 31, 2010
+ 122,497,465
+$ 180,403
+$ 11,116
+$ 8,348
+$ 2,723
+$ 11,071
+$ 202,590
+
+Issuance of shares under bought deal financing, net of issuance costs
+ -
+(43)
+-
+-
+-
+-
+(43)
+
+Exercise of options
+ 395,000
+371
+-
+-
+-
+-
+371
+
+Issuance of shares for property
+13 a)
+6,756
+30
+-
+-
+-
+-
+30
+
+Transfer of share option and warrant reserve on exercise of option
+ -
+278
+(278)
+-
+-
+-
+-
+
+ 
+ 
+Income for the period
+ -
+-
+-
+4,781
+-
+4,781
+4,781
+
+Unrealized gain on translation to presentation currency on foreign
+operations
+
+-
+
+-
+
+-
+
+-
+
+1,913
+
+1,913
+1,913
+
+Total comprehensive income for the period
+ 4,781
+1,913
+6,694
+6,694
+
+Balance – March 31, 2011
+ 122,899,221
+$ 181,039
+$ 10,838
+$ 13,130
+$ 4,636
+$ 17,766
+$ 209,643
+
+________________________________________________________________________________
+The accompanying notes are an integral part of these unaudited condensed interim consolidated financial statements
+Page 6
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+1.
+Corporate Information
+
+Fortuna Silver Mines Inc. (“Fortuna” or the “Company”) is engaged in silver mining and related activities, in Latin America, including exploration, extraction, and processing. The Company operates the Caylloma silver/lead/zinc mine in southern Peru and the San Jose silver/gold mine in Mexico. 
+
+Fortuna is a publicly traded company incorporated and domiciled in Canada and is listed on the New York Stock Exchange under the trading ticker symbol “FSM”, and on the Toronto Stock Exchange and Lima Stock Exchange under the trading ticker symbol “FVI”.
+
+The Company’s registered office is at Suite 650, 200 Burrard Street, Vancouver, British Columbia, Canada, V6C 3L6.
+
+2.
+Basis of Consolidation and Summary of Significant Accounting Policies
+
+a)
+Statement of Compliance 
+
+These condensed interim consolidated financial statements have been prepared in accordance with International Accounting Standard 34 Interim Financial Reporting (“IAS 34”) as issued by the International Accounting Standards Board (“IASB”). The policies applied in these condensed interim consolidated financial statements are based on IFRS issued and effective as at March 31, 2012. The Board of Directors approved these financial statements for issue on May 9, 2012. 
+
+The unaudited condensed interim consolidated financial statements of Fortuna Silver Mines Inc. (the “Company”) for the three month period ended March 31, 2012 (“Financial Statements”) have been prepared by management. The condensed interim consolidated financial statements do not include all of the information required for full annual financial statements. The Financial Statements should be read in conjunction with the Company’s audited consolidated financial statements for the year ended December 31, 2011 which is available at the SEDAR website at www.sedar.com. 
+
+b)
+Basis of Consolidation 
+
+These condensed interim consolidated financial statements include the accounts of the Company and wholly owned subsidiaries: Minera Bateas S.A.C. (“Bateas”); Fortuna Silver (Barbados) Inc.; Compania Minera Cuzcatlan SA (“Cuzcatlan”); Continuum Resources Ltd. (“Continuum”); Fortuna Silver Mines Peru S.A.C. (“FSM Peru”); and Fortuna Silver Mexico, S.A. de CV. (“FS Mexico”). 
+
+All significant inter-company transactions, balances, revenues, and expenses have been eliminated upon consolidation.
+
+________________________________________________________________________________
+Page 7
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+2.
+Basis of Consolidation and Summary of Significant Accounting Policies (continued)
+
+c)
+Revenue Recognition
+
+Revenue arising from the sale of metal concentrates is recognized when title or the significant risks and rewards of ownership of the concentrates have been transferred to the buyer. The passing of title to the customer is based on the terms of the sales contract. Final commodity prices are set in a period subsequent to the date of sale based on a specified quotational period, either one, two, or three months after delivery. The Company’s metal concentrates are provisionally priced at the time of sale based on the prevailing market price. 
+
+Variations between the price recorded at the delivery date and the final price set under the sales contracts are caused by changes in market prices, and result in an embedded derivative in accounts receivable. The embedded derivative is recorded at fair value each period until final settlement occurs, with changes in fair value classified as provisional price adjustments and included in sales in the consolidated statement of income. Sales of metal concentrates are net of refining and treatment charges.
+
+Revenues from metal concentrate sales are subject to adjustment upon final settlement of metals prices, weights, and assays as of a date that is typically one, two, or three months after the delivery date. Typically, the adjustment is based on an inspection of the concentrate by the customer and in certain cases an inspection by a third party. The Company records adjustments to revenues monthly based on quoted forward prices for the expected settlement period. Adjustments for weights and assays are recorded when results are determinable or on final settlement.
+
+d)
+Significant Changes in Accounting Policies including Initial Adoption
+
+IFRS 7 Financial Instruments: Disclosures (Amendment)
+The amendment, effective for annual periods beginning on or after July 1, 2011, with early application permitted, requires additional quantitative and qualitative disclosures relating to transfers of financial assets, where: financial assets are derecognized in their entirety, but where the entity has a continuing involvement in them; financial assets that are not derecognized in their entirety. The Company has evaluated the amendment to IFRS 7 and the amendment does not have a material impact on the Company’s condensed interim consolidated financial statements. 
+
+IAS 12 Income Taxes (Amendment)
+IAS 12 Income Taxes, amendments regarding Deferred Tax: Recovery of Underlying Assets introduces an exception to the existing principle for the measurement of deferred tax assets and liabilities arising on investment property measured at fair value, and the requirement that deferred tax on non-depreciable assets measured using the revaluation model in IAS 16 should always be measured on a sale basis. The amendment is effective for annual periods beginning on or after January 1, 2012. The Company has evaluated the amendment to IAS 12 and the amendment does not have a material impact on the Company’s condensed interim consolidated financial statements. 
+
+________________________________________________________________________________
+Page 8
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+2.
+Basis of Consolidation and Summary of Significant Accounting Policies (continued)
+
+e)
+New Accounting Standards
+
+i)
+New Accounting Standards Impacting on or after July 1, 2012
+
+IAS 1 Presentation of Financial Statements (Amendment)
+The amendments to IAS 1 Presentation of Financial Statements require companies preparing financial statements in accordance with IFRSs to group together items within OCI that may be reclassified to the profit or loss section of the income statement. The amendments retain the 'one or two statement' approach at the option of the entity and only revise the way other comprehensive income is presented: requiring separate subtotals for those elements which may be 'recycled' (e.g. cash-flow hedging, foreign currency translation), and those elements that will not (e.g. fair value through OCI items under IFRS 9). In addition, the tax associated with items presented before tax to be shown separately for each of the two groups of OCI items (without changing the option to present items of OCI either before tax or net of tax).
+ 
+The amendment is effective for annual periods beginning on or after July 1, 2012.
+
+ii)
+New Accounting Standards Impacting on or after January 1, 2013
+
+IFRS 7 Financial Instruments: Disclosures in Respect of Offsetting (Amendment)
+At its meeting on December 13-15, 2011, the IASB approved amendments to IFRS 7, Financial Instruments: Disclosures, with respect to offsetting financial assets and financial liabilities. The common disclosure requirements issued by the IASB and the FASB in December 2011 are intended to help investors and other users to better assess the effect or potential effect of offsetting arrangements on a company's financial position. Companies and other entities are required to apply the amendments for annual reporting periods beginning on or after January 1, 2013, and interim periods within those annual periods. The required disclosures should be provided retrospectively.
+
+IFRS 10 Consolidated Financial Statements
+IFRS 10 Consolidated Financial Statements replaces the portion of IAS 27 Consolidated and Separate Financial Statements that addresses the accounting for consolidated financial statements, and SIC12 Consolidation - Special Purpose Entities. IFRS 10 establishes principles for the presentation and preparation of consolidated financial statements when an entity controls one or more entities. This standard (i) requires a parent entity (an entity that controls one or more other entities) to present consolidated financial statements; (ii) defines the principle of control, and establishes control as a basis for consolidation; (iii) sets out how to apply the principle of control whether an investor controls an investee and therefore must consolidate the investee; and (iv) sets out the accounting requirements for the preparation of consolidated financial statements. 
+
+IFRS 10 is effective for annual periods beginning on or after January 1, 2013, with early adoption permitted. IFRS 10 may be adopted to an earlier accounting period, but in doing so, an entity must disclose the fact that it has early adopted the standard and apply IFRS 11 Joint Arrangements, IFRS 12 Disclosure of Interests in Other Entities, IAS 27 Separate Financial Statements (as amended in 2011), IAS 28 Investments in Associates and Joint Ventures (as amended in 2011).
+
+________________________________________________________________________________
+Page 9
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+2.
+Basis of Consolidation and Summary of Significant Accounting Policies (continued)
+
+e)
+New Accounting Standards (continued)
+
+ii)
+New Accounting Standards Impacting on or after January 1, 2013 (continued)
+
+IFRS 11 Joint Arrangements
+IFRS 11 replaces IAS 31 Interest in Joint Ventures and SIC-13 Jointly-Controlled Entities-Non-Monetary Contributions by Venturers. This standard establishes the core principle that a party to a joint arrangement determines the type of joint arrangement in which it is involved by assessing its rights and obligations and accounts for those rights and obligations in accordance with that type of joint arrangement (joint operations or joint ventures). This standard is effective for annual periods on or after January 1, 2013, with early adoption permitted.
+
+IFRS 12 Disclosure of Interests in Other Entities
+IFRS 12 combines the disclosure requirements for an entity’s interest in subsidiaries, joint arrangements, associates and structured entities into one comprehensive disclosure standard. This standard requires the disclosure of information that enable users of financial statements to evaluate the nature of, and risks associated with, its interest in other entities and the effects of those interests on its financial position, financial performance and cash flows. This standard is effective for annual periods beginning on or after January 1, 2013, with early adoption permitted, and entities are permitted to incorporate any of the new disclosures into their financial statements before that date. 
+
+IFRS 13 Fair Value Measurement
+IFRS 13 Fair Value Measurement provides guidance on how to measure fair value, but does not change when fair value is required or permitted under IFRS. IFRS 13 defines fair value, sets out a single IFRS framework for measuring fair value and requires disclosures about fair value measurements. IFRS 13 applies when another IFRS requires or permits fair value measurements or disclosures about fair value measurements (and measurements, such as fair value less costs to sell, based on fair value or disclosures about those measurements), except for: share-based payment transactions within the scope of IFRS 2 Share-based Payment; leasing transactions with the scope of IAS 17 Leases; measurements that have some similarities to fair value that are not fair value, such as net realizable value in IAS 2 Inventories; or value in use IAS 36 Impairment of Assets. This standard is effective for annual periods beginning on or after January 1, 2013, with early adoption permitted.
+
+________________________________________________________________________________
+Page 10
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+2.
+Basis of Consolidation and Summary of Significant Accounting Policies (continued)
+
+e)
+New Accounting Standards (continued)
+
+ii)
+New Accounting Standards Impacting on or after January 1, 2013 (continued)
+
+IAS 19 Post-employment Benefits
+On June 16, 2011 the IASB issued amendments to IAS 19, Employee Benefit, in order to improve the accounting for pensions and other post-employment benefits. 
+The amendments make important improvements by:
+-
+eliminating the option to defer the recognition of gains and losses, known as the ‘corridor method’ or the “deferral and amortization approach”;
+-
+streamlining the presentation of changes in assets and liabilities arising from defined benefit plans, including requiring re-measurements to be presented in OCI, thereby separating those changes from changes that many perceive to be the result of an entity’s day-to-day operations;
+-
+enhancing the disclosure requirements for defined benefit plans, providing better information about the characteristics of defined benefit plans and the risks that entities are exposed to through participation in those plans. 
+The amendments are effective for financial years beginning on or after January 1, 2013. Earlier application is permitted.
+
+IAS 27 Separate Financial Statements
+IAS 27 has the objective of setting standards to be applied in accounting for investments in subsidiaries, jointly controlled entities, and associates when an entity elects, or is required by local regulations, to present separate (non-consolidated) financial statements. This standard is effective for annual periods beginning on or after January 1, 2013, with early adoption permitted. This standard will not have an impact on the consolidated financial statements.
+
+IAS 28 Investments in Associates and Joint Ventures
+IAS 28 prescribes the accounting for investments in associates and to set the requirements for the application of the equity method when accounting for investments in associates and joint ventures. This standard is effective for annual periods beginning on or after January 1, 2013, with early adoption permitted.
+
+iii)
+New Accounting Standards Impacting on or after January 1, 2014
+
+IAS 32 Financial Instruments - Presentation in Respect of Offsetting (Amendment)
+At its meeting on December 13-15, 2011, the IASB approved amendments to IFRS 7, Financial Instruments: Disclosures, with respect to offsetting financial assets and financial liabilities. As part of this project the IASB also clarified aspects of IAS 32, Financial Instruments: Presentation. The amendments to IAS 32 address inconsistencies in current practice when applying the requirements. The amendments are effective for annual periods beginning on or after January 1, 2014 and are required to be applied retrospectively.
+
+________________________________________________________________________________
+Page 11
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+2.
+Basis of Consolidation and Summary of Significant Accounting Policies (continued)
+
+e)
+New Accounting Standards (continued)
+
+iv)
+New Accounting Standards Impacting on or after January 1, 2015
+
+IFRS 9 Financial Instruments - Classification and Measurement
+IFRS 9, Financial Instruments: IFRS 9 introduces the new requirements for the classification, measurement and de-recognition of financial assets and financial liabilities. Specifically, IFRS 9 requires all recognized financial assets that are within the scope of IAS 39 Financial Instruments: Recognition and Measurement to be subsequently measured at amortized cost or fair value, and all financial liabilities classified as subsequently measured at amortized cost except for financial liabilities as at FVTPL. The amendments are effective for annual periods beginning on or after January 1, 2015, with earlier application permitted.
+
+f)
+Comparative figures
+
+Certain comparative figures have been reclassified to conform to the presentation adopted for the current period. In particular, prepaid expenses are now reported separate from accounts receivable and other assets, due from related parties are included separate from due to related parties, and GST/HST and value added tax receivable are included with accounts receivable and other assets.
+
+3.
+Cash and Cash Equivalents
+
+ 
+March 31, 2012
+December 31, 2011
+
+Cash
+$ 29,782
+$ 25,652
+
+Cash equivalents
+24,070
+13,078
+
+ $ 53,852
+$ 38,730
+
+Cash and cash equivalents include cash on hand, demand deposits, and money market instruments, with maturities from the date of acquisition of 90 days or less.
+
+4.
+Short Term Investments
+
+ March 31, 2012
+December 31, 2011
+
+Held for trading short term investments
+$ -
+$ 17,000
+
+Short term investments include deposits with maturities from the date of acquisition of more than 90 days.
+
+________________________________________________________________________________
+Page 12
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+5.
+Derivative Assets and Derivative Liabilities
+
+ March 31, 2012
+December 31, 2011
+
+ Assets
+Liabilities
+Assets
+Liabilities
+
+Lead forward contracts
+$ 95
+$ -
+$ -
+$ 53
+
+Zinc forward contacts
+58
+-
+70
+-
+
+Silver forward contracts
+451
+-
+-
+34
+
+Total
+$ 604
+$ -
+$ 70
+$ 87
+
+The Company occasionally enters into forward commodity contracts as well as put and call option commodity arrangements to secure a minimum price level on part of its zinc and lead metal production. For all reporting periods, there were no such contracts outstanding. 
+
+Additionally, the Company enters regularly into short term forward and option contracts to fix the final settlement price of metal delivered in concentrates, where the final settlement price is yet to be set at a future quotational period according to contract terms. The forward sale and option contracts are settled against the arithmetic average of metal spot prices over the month in which the contract matures. No initial premium associated with these trades has been paid. 
+
+6.
+Accounts Receivable and Other Assets and Deposits on Long Term Assets
+
+The current accounts receivables and other assets are comprised of the following:
+
+ 
+March 31, 2012
+December 31, 2011
+
+Current
+ 
+Trade receivables from concentrate sales
+$ 16,393
+$ 11,287
+
+Current portion of long term receivables - net
+946
+891
+
+Advances and other receivables
+1,903
+2,213
+
+GST/HST and value added tax receivable
+5,724
+$ 4,776
+
+Accounts receivable and other assets
+$ 24,966
+$ 19,167
+
+Deposits on long term assets includes the non-current accounts receivable and other assets comprised of the following: 
+
+ 
+March 31, 2012
+December 31, 2011
+
+Non-Current
+ 
+Long term receivables
+$ 1,255
+$ 1,415
+
+Less: current portion of long term receivables
+(946)
+(891)
+
+Non-current portion of long term receivables - net
+309
+524
+
+Deposits on equipment
+807
+1,167
+
+Deposits paid to contractors
+477
+448
+
+Other
+166
+121
+
+Deposits on long term assets
+$ 1,759
+$ 2,260
+
+________________________________________________________________________________
+Page 13
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+6.
+Accounts Receivable and Other Assets and Deposits on Long Term Assets (continued)
+
+As at March 31, 2012, the Company had $529 trade receivables (2011: $100) which were past due with no impairment. The Company’s allowance for doubtful accounts is $nil for all reporting periods. 
+
+The aging analysis of these trade receivables from concentrate sales is as follows:
+
+ 
+March 31, 2012
+December 31, 2011
+
+0-30 days
+$ 14,780
+$ 9,518
+
+31-60 days
+654
+911
+
+61-90 days
+430
+758
+
+over 90 days
+529
+100
+
+ $ 16,393
+$ 11,287
+
+7.
+Inventories
+
+ 
+March 31, 2012
+December 31, 2011
+
+Concentrate stock piles
+$ 3,717
+$ 2,488
+
+Ore stock piles
+4,072
+4,008
+
+Materials and supplies
+4,771
+4,795
+
+Total inventories
+$ 12,560
+$ 11,291
+
+For the three months ended March 31, 2012, $12,656 (2011: $8,505) of inventory was expensed in cost of sales and there has been no impairment during 2012 (2011: $nil).
+
+________________________________________________________________________________
+Page 14
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+8.
+Mineral Properties, Property, Plant and Equipment
+
+ Mineral Properties
+Non-Depletable
+(Mario, Don Mario,
+Tlacolula)
+Mineral Properties
+Depletable
+(Caylloma, San
+Jose, Taviche)
+
+Machinery
+and
+Equipment
+Land,
+Buildings, and
+Leasehold
+Improvements
+
+Furniture
+and Other
+Equipment
+
+Transport
+Units
+Equipment
+under
+Finance
+Lease
+
+Capital
+Work in
+Progress
+
+Total
+
+Period ended March 31, 2012
+ 
+Opening carrying amount
+$ 7,311
+$ 105,668
+$ 17,316
+$ 37,452
+$ 3,185
+$ 135
+$ 2,520
+$ 8,246
+$ 181,833
+
+Additions
+1,409
+4,517
+280
+50
+191
+90
+25
+1,795
+8,357
+
+Disposals
+-
+ (16)
+-
+(16)
+-
+-
+-
+(32)
+
+Depreciation charge
+- 
+(2,808)
+(692)
+(1,262)
+(133)
+(20)
+(176)
+-
+(5,091)
+
+Reclassification
+(5,030)
+5,030
+15
+439
+(13)
+-
+-
+(441)
+-
+
+Adjustment on currency translation
+-
+394
+-
+2
+-
+-
+-
+-
+396
+
+Closing carrying amount
+$ 3,690
+$ 112,801
+$ 16,903
+$ 36,681
+$ 3,214
+$ 205
+$ 2,369
+$ 9,600
+$ 185,463
+
+ 
+As at March 31, 2012
+ 
+Cost
+3,690
+135,683
+$ 23,137
+$ 41,700
+$ 4,455
+$ 585
+$ 4,698
+$ 9,600
+$ 223,548
+
+Accumulated depreciation and impairment
+-
+(22,882)
+(6,234)
+(5,019)
+(1,241)
+(380)
+(2,329)
+-
+(38,085)
+
+Closing carrying amount
+$ 3,690
+$ 112,801
+$ 16,903
+$ 36,681
+$ 3,214
+$ 205
+$ 2,369
+$ 9,600
+$ 185,463
+
+ Mineral Properties
+Non-Depletable
+(Mario, Don Mario,
+Taviche, Tlacolula)
+Mineral Properties
+Depletable
+(Caylloma, San 
+Jose*)
+
+Machinery
+and
+Equipment
+Land, 
+Buildings, and
+Leasehold
+Improvements
+
+Furniture
+and Other
+Equipment
+
+Transport
+Units
+Equipment
+under
+Finance
+Lease
+
+Capital
+Work in
+Progress
+
+Total
+
+Year ended December 31, 2011
+ 
+Opening carrying amount
+$ 49,129
+$ 33,608
+$ 6.897
+$ 7,013
+$ 3,177
+$ 112
+$ 2,893
+$ 14,534
+$ 117,363
+
+Additions
+6,258
+30,091
+5,429
+729
+2,032
+131
+500
+33,837
+79,007
+
+Disposals
+-
+ (1,532)
+-
+(33)
+-
+-
+-
+(1,565)
+
+Depreciation charge
+- 
+(6,107)
+(1,847)
+(1,820)
+(334)
+(97)
+(873)
+-
+(11,078)
+
+Impairment charge
+-
+ (1,688)
+(195)
+-
+(11)
+-
+-
+(1,894)
+
+Reclassification
+(48,076)
+48,076
+10,057
+31,725
+(1,657)
+-
+-
+(40,125)
+-
+
+Closing carrying amount
+$ 7,311
+$ 105,668
+$ 17,316
+$ 37,452
+$ 3,185
+$ 135
+$ 2,520
+$ 8,246
+$ 181,833
+
+ 
+As at December 31, 2011
+ 
+Cost
+7,311
+125,667
+$ 22,870
+$ 41,212
+$ 4,296
+$ 520
+$ 4,674
+$ 8,246
+$ 214,796
+
+Accumulated depreciation and impairment
+-
+(19,999)
+(5,554)
+(3,760)
+(1,111)
+(385)
+(2,154)
+-
+(32,963)
+
+Closing carrying amount
+$ 7,311
+$ 105,668
+$ 17,316
+$ 37,452
+$ 3,185
+$ 135
+$ 2,520
+$ 8,246
+$ 181,833
+
+*Commercial production began on September 1, 2011 for San Jose.
+
+As at March 31, 2012, the non-depletable mineral properties includes the following properties: Mario, Don Mario, and Tlacolula (2011: Mario, Don Mario, Tlacolula, and Taviche). 
+
+Mineral properties includes bonuses paid of $nil (2011: $1,350) which were paid upon commissioning of the San Jose mine. The bonus paid in 2011 comprises of $1,113 paid to key management and $237 paid to a company controlled by a director. 
+
+________________________________________________________________________________
+Page 15
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+8.
+Mineral Properties, Property, Plant and Equipment (continued)
+
+a)
+Mario Property 
+
+In May 2011, the Company entered into an agreement to acquire a 100% interest in the Mario Property, located in the Department of Junin in central Peru. Under the terms of the agreement, the Company is granted the exclusive right and option to purchase an undivided 100% interest in the Mario Property subject to the following payments:
+
+1.
+$500 on signing of agreement;
+2.
+$500 on or before six months from the signing of the agreement;
+3.
+$500 on or before 12 months from the signing of the agreement; and,
+4.
+$2,500 on or before 24 months from the signing of the agreement.
+
+The transfer of the property to the Company is subject to a 1% net smelter return (“NSR”) royalty on production from the property payable to Crocodile Gold (“Crocodile”). The Company shall have the right to purchase the NSR royalty from Crocodile at any time during the five-year period following the final option payment for the sum of $3,000. The property is also subject to a 2% NSR royalty on production payable to Teck Cominco and a 0.5% NSR royalty on production payable to Socrate Capital Inc., with each royalty in turn subject to certain buy-back provisions. As at March 31, 2012, $1,000 has been paid under the agreement. 
+
+b)
+Don Mario Property 
+
+The Company entered into an option agreement, effective July 20, 2011, to acquire 100% interest in the Don Mario property, with Consorcio Empresarial Agmin S.A.C.(“AGMIN”). Under the terms of the mining assignment and option to purchase mineral rights agreement (“agreement”), the Company is required to make the following payments:
+
+1.
+$200 on signing the agreement;
+2.
+$300 after 12 months from signing the agreement;
+3.
+$500 after 24 months from signing the agreement; and,
+4.
+$2,000 after 36 months from signing the agreement.
+
+Under the terms of the agreement, once the option is exercised and the technical report is prepared under National Instrument 43-101 and published, if the pre-feasibility study indicates that the property contains more than five million silver equivalent ounces, the Company would further pay AGMIN, one dollar for each additional resource and reserves indicated in the pre-feasibility report. 
+
+________________________________________________________________________________
+Page 16
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+8.
+Mineral Properties, Property, Plant and Equipment (continued)
+
+c)
+Tlacolula Property 
+
+The Company has the option to buy-out the additional pay-out for a further $3,000, subject to certain conditions. As at March 31, 2012, $200 has been paid under the agreement. 
+
+In September 2009, the Company, through its wholly owned subsidiary, Cuzcatlan, was granted an option (the “Option”) to acquire a 60% interest (the “Interest”) in the Tlacolula silver project (“property”) located in the State of Oaxaca, Mexico from Radius Gold Inc.’s wholly owned subsidiary, Radius (Cayman) Inc. (“Radius”) (a related party by way of directors in common with the Company described further in Note 10). 
+
+The Company can earn the Interest by spending $2,000, which includes a commitment to drill 1,500 meters within three years, and making staged annual payments of $250 cash and $250 in common stock of the Company to Radius according to the following schedule:
+
+Ø
+$20 cash and $20 cash equivalent in shares upon stock exchange approval;
+Ø
+$30 cash and $30 cash equivalent in shares by the first year anniversary;
+Ø
+$50 cash and $50 cash equivalent in shares by the second year anniversary;
+Ø
+$50 cash and $50 cash equivalent in shares by the third year anniversary; and,
+Ø
+$100 cash and $100 cash equivalent in shares by the fourth year anniversary.
+
+Upon completion of the cash payments and share issuances, and incurring the exploration expenditures as set forth above, the Company will be deemed to have exercised the Option and acquired a 60% interest in the property, whereupon a joint venture will be formed to further develop the property on the basis of the Company owning 60% and Radius 40%.
+
+On January 15, 2010, the transaction was approved by the TSX Venture Exchange, The Company has issued 7,813 common shares at a fair market value of $2.56 per share and paid $20 cash according to the terms of the option agreement. 
+
+On January 14, 2011, the Company issued 6,756 common shares of the Company, at a fair market value of $4.44 per share and paid $30 cash according to the terms of the option agreement.
+
+On January 13, 2012, the Company issued 8,605 common shares of the Company, at a fair market value of $5.81 per share and paid $50 cash according to the terms of the option agreement.
+
+As at March 31, 2012, the Company had issued a total of 23,174 common shares of the Company, with a fair market value of $100 and paid $100 cash according to the terms of the option agreement.
+
+________________________________________________________________________________
+Page 17
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+9.
+Trade and Other Payables
+
+ 
+March 31, 2012
+December 31, 2011
+
+Trade accounts payable
+$ 8,323
+$ 8,799
+
+Payroll and other payables
+4,712
+7,152
+
+Restricted share unit payable
+1,053
+1,204
+
+ $ 14,088
+$ 17,155
+
+10.
+Related Party Transactions
+
+The condensed interim consolidated financial statements include the financial statements of Fortuna Silver Mines Inc. and it subsidiaries listed in the following table:
+
+ Place of
+ Equity Interest as at
+
+ Incorporation and
+ March 31,
+December 31,
+
+Name
+Operation
+Principal Activity
+2012
+2011
+
+Minera Bateas S.A.C.
+Peru
+Caylloma Mine
+100%
+100%
+
+Fortuna Silver Mines Peru S.A.C.
+Peru
+Service company
+100%
+100%
+
+Compania Minera Cuzcatlan SA
+Mexico
+San Jose Mine
+100%
+100%
+
+Fortuna Silver Mexico, S.A. de CV.
+Mexico
+Exploration company
+100%
+100%
+
+Fortuna Silver (Barbados) Inc.
+Barbados
+Holding company
+100%
+100%
+
+Continuum Resources Ltd.
+Canada
+Holding company
+100%
+100%
+
+a)
+Purchase of Goods and Services
+
+The Company entered into the following related party transactions:
+
+ Three months ended March 31,
+
+Transactions with related parties
+2012
+2011
+
+Salaries and wages 1,2
+$ 18
+$ 27
+
+Other general and administrative expenses 2
+147
+47
+
+Leasehold improvements 2
+4
+-
+
+ $ 169
+$ 74
+
+1 Salaries and wages includes employees' salaries and benefits charged to the Company based on a percentage of the
+estimated hours worked for the Company
+2Radius Gold Inc. ("Radius") has directors in common with the Company and shares office space, and is reimbursed for
+salaries and wages, general and administrative costs, and leasehold improvements incurred on behalf of the Company.
+
+________________________________________________________________________________
+Page 18
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+10.
+Related Party Transactions (continued)
+
+a)
+Purchase of Goods and Services (continued)
+
+During the three months ended March 31, 2012, the Company issued 8,605 (2011: 6,756) common shares, at a fair market value of $5.81 (2011: $4.44) per share and paid $50 (2011: $30) cash to Radius, under the option to acquire a 60% interest in Tlacolula silver project located in the State of Oaxaca, Mexico. 
+
+b)
+Key Management Compensation
+
+Key management includes all persons named or performing the duties of Vice-President, Chief Financial Officer, President, Chief Executive Officer, and non-executive Directors of the Company. The compensation paid and payable to key management for services is shown below:
+
+ Three months ended March 31,
+
+ 2012
+2011
+
+Salaries and other short term employee benefits
+$ 550
+$ 789
+
+Directors fees
+90
+61
+
+Consulting fees
+45
+46
+
+Share-based payments
+(343)
+439
+
+ $ 342
+$ 1,335
+
+The share-based payments includes the change in the DSU and RSU fair value over each reporting period and payments made under the DSU and RSU plans and the non-cancellation of share options.
+
+Consulting fees includes fees paid to two non-executive directors in both 2012 and 2011.
+
+c)
+Period-end Balances arising from Purchases of Goods/Services
+
+ Amounts due from related parties
+March 31, 2012
+December 31, 2011
+
+Owing from a director and officer3
+$ 37
+$ 36
+
+3 Owing from a director includes non-interest bearing advances to a director and officers at March 31, 2012 and December 31, 2011.
+
+Subsequent to March 31, 2012 and to May 9, 2012, the amounts owing from a director and officer have been collected and no balances remain outstanding.
+
+ Amounts due to related parties
+March 31, 2012
+December 31, 2011
+
+Owing to a company with common directors 2
+$ 181
+$ 205
+
+________________________________________________________________________________
+Page 19
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+11.
+Leases and Long Term Liabilities
+
+Leases and long term liabilities are comprised of the following:
+
+ 
+March 31,
+2012
+December 31,
+2011
+
+Obligations under finance lease (a)
+$ 614
+$ 866
+
+Long term liability (b)
+788
+771
+
+Deferred share units (Note 13 c))
+2,172
+2,639
+
+ 3,574
+4,276
+
+Less: current portion
+ 
+Obligations under finance lease
+549
+741
+
+Long term liability
+788
+771
+
+Current portion of long term liabilities
+1,337
+1,512
+
+Leases and long term liabilities, non-current
+$ 2,237
+$ 2,764
+
+a)
+Obligations under Finance Lease
+
+The following is a schedule of the Company’s future minimum lease payments. These are related to the acquisition of mining equipment, vehicles, and buildings. 
+
+ Obligations under Finance Lease
+March 31,
+2011
+December 31,
+2010
+
+Not later than 1 year
+$ 562
+$ 763
+
+Less: future finance charges on finance lease
+(13)
+(22)
+
+ 549
+741
+
+Later than 1 year but less than 5 years
+65
+126
+
+Less: future finance charges on finance lease
+-
+(1)
+
+ 65
+125
+
+Present value of finance lease payments
+$ 614
+$ 866
+
+b)
+Long Term Liabilities
+
+In May 2008, the Company acquired the Monte Alban II concession for which a payment of $800 is due May 2012. This payment is non-interest bearing. 
+
+________________________________________________________________________________
+Page 20
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+12.
+Provisions
+
+A summary of the Company’s provisions for other liabilities and charges is presented below:
+
+ 
+Decommissioning
+and Restoration
+Liability
+
+Total provisions - December 31, 2010
+$ 4,881
+
+Increase to existing provisions
+126
+
+Accretion of provisions
+173
+
+Foreign exchange differences
+(5)
+
+Cash payments
+(201)
+
+Total provisions – December 31, 2011
+$ 4,974
+
+Less: current portion
+(727)
+
+Non current – December 31, 2011
+$ 4,247
+
+Total provisions – December 31, 2011
+$ 4,974
+
+Increase to existing provisions
+45
+
+Accretion of provisions
+59
+
+Used during year
+-
+
+Foreign exchange differences
+166
+
+Cash payments
+-
+
+Total provisions – March 31, 2012
+$ 5,244
+
+Less: current portion
+(845)
+
+Non current – March 31, 2012
+$ 4,399
+
+In view of the uncertainties concerning environmental reclamation, the ultimate cost of reclamation activities could differ materially from the estimated amount recorded. The estimate of the Company’s decommissioning and restoration liability relating to the Caylloma and San Jose mine is subject to change based on amendments to laws and regulations and as new information regarding the Company’s operations becomes available.
+
+Future changes, if any, to the estimated liability as a result of amended requirements, laws, regulations, operating assumptions, estimated timing and amount of obligations may be significant and would be recognized prospectively as a change in accounting estimate. Any such change would result in an increase or decrease to the liability and a corresponding increase or decrease to the mineral properties, property, plant and equipment balance. 
+
+________________________________________________________________________________
+Page 21
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+13.
+Share Capital
+
+a)
+Unlimited Common Shares Without Par Value
+
+During the three months ended March 31, 2012, the Company issued 8,605 (2011: 6,756) common shares, at a fair market value of $5.81 (2011: $4.44) per share to Radius Gold, under the option to acquire a 60% interest in Tlacolula silver project located in the State of Oaxaca, Mexico. (Refer to Note 8. c)).
+
+b)
+Share Options
+
+Shareholder approval of the Company’s Stock Option Plan (the “Plan”), dated April 11, 2011, was obtained at the Company’s annual general meeting held on May 26, 2011. The Plan provides that the number of common shares of the Company issuable under the Plan, together with all of the Company’s other previously established or proposed share compensation arrangements, may not exceed 12,200,000 shares, which equals 9.92% of the current total number of issued and outstanding common shares of the Company, as at April 11, 2011. 
+
+Option pricing models require the input of highly subjective assumptions including the estimate of the share price volatility, risk-free interest rate and expected life of the options. Changes in the subjective input assumptions can materially affect the fair value estimate.
+
+The following is a summary of option transactions: 
+
+ March 31, 2012
+December 31, 2011
+
+ Shares
+(in 000’s)
+Weighted
+average
+exercise price
+(CAD$)
+
+Shares
+(in 000's)
+Weighted
+average
+exercise price
+(CAD$)
+
+Outstanding at beginning of the period
+3,876
+$ 2.83
+4,551
+$ 1.51
+
+Granted
+184
+6.67
+1,792
+4.46
+
+Exercised
+(314)
+2.35
+(2,442)
+1.55
+
+Forfeited
+(50)
+4.46
+(25)
+4.46
+
+Expired
+(8)
+4.46
+-
+-
+
+Outstanding at end of the period
+3,688
+3.04
+3,876
+$ 2.83
+
+Vested and exercisable at end of the period
+2,234
+$ 1.93
+2,557
+$ 1.99
+
+During the three months ended March 31, 2012, 184,138 share purchase options were granted with an exercise price of CAD$6.67 per share with a term of five years and vesting 33.33% within twelve months of grant date, a further 33.33% within twenty four months of grant date, and a further 33.34% within thirty six months of grant date. As at March 31, 2012, 49,628 share purchase options were forfeited, 41,542 share purchase options were accelerated to expire March 30, 2012, and 8,271 share purchase options expired unexercised.
+
+________________________________________________________________________________
+Page 22
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+13.
+Share Capital (continued)
+
+b)
+Share Options (continued)
+
+The share-based payment charge of $416 covering option grants, forfeitures, and accelerated vesting recognized for the three months ended March 31, 2012 has been determined under the fair value method using the Black-Scholes option pricing model with the following assumptions:
+
+ Three months ended March 31,
+
+ 2012
+2011
+
+Risk-free interest rate
+1.06%
+n/a
+
+Expected stock price volatility
+55.93%
+n/a
+
+Expected term in years
+3
+n/a
+
+Expected dividend yield
+0%
+n/a
+
+Expected forfeiture rate
+4.15%
+n/a
+
+The expected volatility assumption is based on the historical volatility of the Company’s Canadian dollar common share price on the Toronto Stock Exchange.
+
+The following table summarizes information related to stock options outstanding and exercisable at March 31, 2012:
+
+Exercise price
+in CAD$
+
+Number of
+outstanding
+share purchase
+options (in 000's)
+Weighted
+average
+remaining
+contractual life
+of outstanding
+share purchase
+options (years)
+
+Weighted average
+exercise price on
+outstanding share
+purchase options
+CAD$
+
+Exercisable
+share purchase
+options
+(in 000's)
+
+Weighted average
+exercise price on
+exercisable share
+purchase options
+CAD$
+
+$0.80 to $0.99
+781
+6.6
+$ 0.84
+781
+$ 0.84
+
+$1.00 to $1.99
+660
+4.1
+1.53
+660
+1.53
+
+$2.00 to $6.67
+2,247
+2.9
+4.24
+793
+3.34
+
+$0.80 to $6.67
+3,688
+3.9
+$ 3.04
+2,234
+$ 1.93
+
+________________________________________________________________________________
+Page 23
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+13.
+Share Capital (continued)
+
+c)
+Deferred Share Units (“DSU”) Cost
+
+During 2010, the Company implemented a DSU plan which allows for up to 1% of the number of shares outstanding from time to time to be granted to eligible directors. All grants under the plan are fully vested upon credit to an eligible directors’ account. 
+
+During the three months ended March 31, 2012, there were no DSU grants or settlements in cash. As at March 31, 2012, there are 481,465 (2011: 481,465) DSU outstanding with a fair value of $2,172 (2011: $2,639).
+
+d)
+Restricted Share Units (“RSU”) Cost
+
+During 2010, the Company implemented a RSU plan for certain employees or officers. The RSU entitle employees or officers to a cash payment after the end of a performance period of up to two years following the date of the award. The RSU payment will be an amount equal to the fair market value of the Company’s common share on the five trading days immediately prior to the end of the performance period multiplied by the number of RSU held by the employee.
+
+During the three months ended March 31, 2012, there were no RSU grants or settlements in cash. As at March 31, 2012, there are 265,231 (2011: 265,231) RSU outstanding with a fair value of $1,053 (2011: $1,204). Refer to Note 9.
+
+e)
+Earnings per Share
+
+i.
+Basic
+
+Basic earnings per share is calculated by dividing the income for the period by the weighted average number of shares outstanding during the period.
+
+The following table sets forth the computation of basic earnings per share:
+
+ Three months ended March 31, 
+
+ 2012
+2011
+
+Income available to equity owners
+$ 11,111
+$ 4,781
+
+Weighted average number of shares (in '000's)
+123,484
+122,609
+
+Earnings per share - basic
+$ 0.09
+$ 0.04
+
+________________________________________________________________________________
+Page 24
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+13.
+Share Capital (continued)
+
+e)
+Earnings per Share (continued)
+
+ii.
+Diluted
+
+Diluted earnings per share is calculated by adjusting the weighted average number of shares outstanding to assume conversion of all potentially dilutive shares. The following table sets forth the computation of diluted earnings per share:
+
+ Three months ended March 31, 
+
+ 2012
+2011
+
+Income available to equity owners
+$ 11,111
+$ 4,781
+
+Weighted average number of shares ('000's)
+123,484
+122,609
+
+Incremental shares from share options
+1,978
+1,390
+
+Weighted average diluted shares outstanding
+125,462
+123,999
+
+Earnings per share - diluted
+$ 0.09
+$ 0.04
+
+Excluded from the calculation were 184,138 (2011: nil) anti-dilutive options with an exercise price of CAD$6.67 (2011: nil).
+
+14.
+Supplemental Cash Flow Information
+
+ Three months ended March 31,
+
+ Note
+2012
+2011
+
+Non-cash Investing and Financing Activities:
+ 
+Issuance of shares on purchase of mineral properties, property,
+plant and equipment
+
+8 c)
+
+$ 50
+
+$ 30
+
+15.
+Capital Disclosure
+
+The Company’s objectives when managing capital are to provide shareholder returns through maximization of the profitable growth of the business and to maintain a degree of financial flexibility relevant to the underlying operating and metal price risks while safeguarding the Company’s ability to continue as a going concern. 
+
+The capital of the Company consists of equity and available credit facility, net of cash. The Board of Directors does not establish a quantitative return on capital criteria for management. The Company manages the capital structure and makes adjustments to it in light of changes in economic conditions and the risk characteristics of the underlying assets. 
+
+The management of the Company believes that the capital resources of the Company as at March 31, 2012, are sufficient for its present needs for at least the next 12 months. The Company is not subject to externally imposed capital requirements.
+
+The Company’s overall strategy with respect to capital risk management remained unchanged during the year.
+
+________________________________________________________________________________
+Page 25
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+16.
+Management of Financial Risk
+
+The Company’s financial instruments are exposed to certain financial risks, including currency risk, credit risk, liquidity risk, interest risk, and price risk. The Company’s Board of Directors has overall responsibility for the establishment and oversight of the Company’s risk management framework and reviews the Company’s policies on an ongoing basis.
+
+a)
+Fair Value of Financial Instruments
+
+The carrying value of cash and cash equivalents, short term investments, derivative assets, trade receivable from concentrate sales, other accounts receivables, due from related parties, trade and other payables, due to related parties, and derivative liabilities approximate their fair value due to the relatively short periods to maturity and the terms of these financial instruments. Fair value estimates are made at a specific point in time, based on relevant market information and information about the financial instrument. 
+
+The amortized value of long term receivables approximates their fair value as these are measured at the amortized cost using the effective interest method. The fair value of the lease and long term liabilities is $4,652 as at March 31, 2012.
+
+The analysis of financial instruments that are measured subsequent to initial recognition at fair value can be categorized into Levels 1 to 3 based upon the degree to which the fair value is observable.
+
+·
+Level 1 - inputs to the valuation methodology are quoted (unadjusted) for identical assets or liabilities in active markets.
+·
+Level 2 - inputs to valuation methodology include quoted market prices for similar assets and liabilities in active markets, and inputs that are observable for the asset or liability, either directly or indirectly, for substantially the full term of the financial instrument.
+·
+Level 3 - inputs to the valuation methodology are unobservable and significant to the fair value of measurement.
+
+The Company has classified the determination of fair value of trade receivable from concentrate sales, and derivatives as level 2, as the valuation method used by the Company includes an assessment of assets in quoted markets with significant observable inputs.
+
+ Financial assets (liabilities) at fair value as at March 31, 2012
+
+ Level 1
+Level 2
+Level 3
+Total
+
+Cash and cash equivalents
+$ 53,852
+$ -
+$ -
+$ 53,852
+
+Trade receivable from concentrate sales
+-
+16,393
+-
+16,393
+
+Derivatives assets
+-
+604
+-
+604
+
+ $ 53,852
+$ 16,997
+$ -
+$ 70.849
+
+There were no changes in the levels during the three months ended March 31, 2012.
+
+________________________________________________________________________________
+Page 26
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+16.
+Management of Financial Risk (continued)
+
+a)
+Fair Value of Financial Instruments (continued)
+
+ Financial assets (liabilities) at fair value as at December 31, 2011
+
+ Level 1
+Level 2
+Level 3
+Total
+
+Cash and cash equivalents
+$ 38,730
+$ -
+$ -
+$ 38,730
+
+Short term investments
+17,000
+-
+-
+17,000
+
+Trade receivable from concentrate sales
+-
+11,287
+-
+11,287
+
+Derivatives assets
+-
+70
+-
+70
+
+Derivatives liabilities
+-
+(87)
+-
+(87)
+
+ $ 55,730
+$ 11,270
+$ -
+$ 67,000
+
+There were no changes in the levels during the year ended December 31, 2011.
+
+Accounts receivable includes trade receivable from concentrate sales, provisional price adjustments, and final price adjustments. The fair value of accounts receivable resulting from provisional pricing reflect observable market commodity prices. Resulting fair value changes to accounts receivable are through sales. Transactions involving accounts receivable are with counterparties the Company believes are creditworthy. As such, these accounts receivable are classified within level 2 of the fair value hierarchy.
+
+Derivatives are carried at their fair value, which is determined based on internal valuation models that reflect observable forward market commodity prices. Resulting fair value changes to derivatives are through net gain (loss) on commodity contracts. Transactions involving derivatives are with counterparties the Company believes to be creditworthy.
+
+During the three months ended March 31, 2012, there have been no changes in the classification of financial assets and liabilities in levels 1, 2, and 3 of the hierarchy.
+
+b)
+Currency Risk
+
+The Company is exposed to the financial risk related to the fluctuation of foreign exchange rates. The Company operates in Canada, Peru and Mexico and a portion of its expenses are incurred in Canadian dollars, Nuevo Soles, and Mexican Pesos. A significant change in the currency exchange rates between the United States dollar relative to the other currencies could have a material effect on the Company’s income, financial position, or cash flows. The Company has not hedged its exposure to currency fluctuations. 
+
+As at March 31, 2012, the Company is exposed to currency risk through the following assets and liabilities denominated in Canadian dollars, Nuevo Soles and Mexican Pesos (all amounts are expressed in thousands of Canadian dollars, thousands of Nuevo Soles or thousands of Mexican Pesos):
+
+________________________________________________________________________________
+Page 27
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+16.
+Management of Financial Risk (continued)
+
+b)
+Currency Risk (continued)
+
+ March 31, 2012
+December 31, 2011
+
+ Canadian
+Dollars
+Nuevo
+Soles
+Mexican
+Pesos
+Canadian
+Dollars
+Nuevo
+Soles
+Mexican
+Pesos
+
+Cash and cash equivalents
+$ 14,499
+S/. 707
+$ 4,364
+$ 18,457
+S/. 1,396
+$ 1,758
+
+Accounts receivable and other assets
+42
+2,714
+74,452
+42
+5,657
+58,939
+
+Due from related parties
+-
+10
+-
+-
+4,434
+-
+
+Trade and other payables
+(1,613)
+(9,644)
+(23,751)
+(1,580)
+(17,993)
+(24,310)
+
+Due to related parties
+(180)
+-
+-
+(209)
+-
+-
+
+Provisions, current
+-
+(1,539)
+(3,439)
+-
+(1,351)
+(3,163)
+
+Income tax payable
+-
+(197)
+-
+-
+(10,581)
+-
+
+Leases and long term liabilities
+(2,167)
+-
+-
+(2,691)
+-
+-
+
+Provisions
+-
+(8,100)
+(17,519)
+-
+(8,079)
+(17,494)
+
+Total
+10,581
+(16,049)
+34,107
+14,019
+(26,517)
+15,730
+
+Total US$ equivalent
+10,610
+(6,015)
+2,654
+13,745
+(9,832)
+1,125
+
+Based on the above net exposure as at March 31, 2012, and assuming that all other variables remain constant, a 10% depreciation or appreciation of the US dollar against the above currencies would result in an increase or decrease, as follows: impact to other comprehensive income of $1,179 (2011: $1,527) and a net loss of $373 (2011: net loss $967).
+
+c)
+Credit Risk
+
+Credit risk is the risk of an unexpected loss if a customer or third party to a financial instrument fails to meet its contractual obligations. The Company’s cash and cash equivalents and short term investments are held through large Canadian, international and foreign national financial institutions. These investments mature at various dates within one year. All of the Company’s trade accounts receivables from concentrate sales are held with large international metals trading companies.
+
+The Company holds derivative contracts with financial institutions and in this regard is exposed to counterparty risk. The Company mitigates this risk by transacting only with reputable financial institutions to minimize credit risk. 
+
+The Company’s maximum exposure to credit risk as at March 31, 2012 is as follows:
+
+________________________________________________________________________________
+Page 28
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+16.
+Management of Financial Risk (continued)
+
+c)
+Credit Risk (continued)
+
+ March 31, 2012
+December 31, 2011
+
+Cash and cash equivalents
+$ 53,852
+$ 38,730
+
+Short term investments
+-
+17,000
+
+Accounts receivable and other assets
+24,966
+19,167
+
+Derivative assets
+604
+70
+
+Due from related parties
+37
+36
+
+ $ 79,459
+$ 75,003
+
+The carrying amount of financial assets recorded in the financial statements represents the Company’s maximum exposure to credit risk. The Company believes it is not exposed to significant credit risk and overall, the Company’s credit risk has not declined significantly from the prior year.
+
+d)
+Liquidity Risk
+
+Liquidity risk is the risk that the Company will not be able to meet its financial obligations as they fall due. The Company manages liquidity risk by continuing to monitor forecasted and actual cash flows. The Company has in place a planning and budgeting process to help determine the funds required to support the Company’s normal operating requirements on an ongoing basis and its development plans. The Company strives to maintain sufficient liquidity to meet its short term business requirements, taking into account its anticipated cash flows from operations, its holdings of cash, short term investments, and its committed liabilities.
+
+The Company expects the following maturities of its financial liabilities (including interest), finance leases, and other contractual commitments:
+
+ Expected payments due by period as at March 31, 2012
+
+ Less than
+1 year
+
+1 - 3 years
+
+4 - 5 years
+After
+5 years
+
+Total
+
+Trade and other payables
+$ 14,088
+$ -
+$ -
+$ -
+$ 14,088
+
+Due to related parties
+181
+-
+-
+-
+181
+
+Income tax payable
+74
+-
+-
+-
+74
+
+Long term liabilities
+1,350
+2,237
+-
+-
+3,587
+
+Operating leases
+711
+1,387
+1,185
+404
+3,687
+
+Provisions
+863
+760
+941
+3,556
+6,120
+
+ $ 17,267
+$ 4,384
+$ 2,126
+$ 3,960
+$ 27,737
+
+________________________________________________________________________________
+Page 29
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+16.
+Management of Financial Risk (continued)
+
+d)
+Liquidity Risk (continued)
+
+Operating leases includes leases for office premises, computer and other equipment used in the normal course of business. Refer to Note 18 c) for details of operating leases. 
+
+In 2010, the Company entered into a credit agreement with the Bank of Nova Scotia for a $20 million senior secured revolving credit facility (“credit facility”) to be refinanced or repaid on or within two and one-half years or before December 2012. The credit facility is secured by a first ranking lien on Bateas and its assets and bears interest and fees at prevailing market rates. In the event that utilization under the credit facility is less than $10 million, a commitment fee of 1.50% per annum is payable quarterly on the unutilized portion of the available credit facility. No funds were drawn from this credit facility.
+
+e)
+Interest Rate Risk
+
+Interest rate risk is the risk that the fair value or future cash flows of a financial instrument will fluctuate because of changes in market interest rates. The risk that the Company will realize a loss as a result of a decline in the fair value is limited because the balances are generally held with major financial institutions in demand deposit accounts. 
+
+A 10% change in interest rates would cause a $nil change in income on an annualized basis.
+
+f)
+Metal Price Risk
+
+The Company is exposed to metals price risk with respect to silver, gold, zinc, lead, and copper sold through its mineral concentrate products. The Company mitigates this risk by implementing price protection programs for some of its zinc and lead production through the use of derivative instruments. As a matter of policy, the Company does not hedge its silver production.
+
+17.
+Segmented Information
+
+All of the Company’s operations are within the mining sector, conducted through operations in three countries. Due to geographic and political diversity, the Company’s mining operations are decentralized whereby management are responsible for achieving specified business results within a framework of global policies and standards. Country corporate offices provide support infrastructure to the mine in addressing local and country issues including financial, human resources, and exploration support. 
+
+Products are silver, gold, lead, zinc and copper produced from mines in Peru and Mexico. Segments have been aggregated where operations in specific regions have similar products, production processes, types of customers and economic environment.
+
+The Company’s operating segments are based on the reports reviewed by the senior management group that are used to make strategic decisions. The Chief Executive Officer considers the business from a geographic perspective considering the performance of the Company’s business units.
+
+________________________________________________________________________________
+Page 30
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+17.
+Segmented Information (continued)
+
+The segment information provided to the Board of Directors for the reportable segments for the three months ended March 31, 2012 and 2011 are as follows: 
+
+Reportable Segments
+ Corporate
+ Bateas
+ Cuzcatlan
+ Total
+
+Three months ended March 31, 2012
+ 
+Sales to external customers by product
+$
+-
+$
+21,365
+$
+19,236
+$
+40,601
+
+Silver-gold concentrates
+$
+-
+$
+-
+$
+19,236
+$
+19,236
+
+Silver-lead concentrates
+$
+-
+$
+17,616
+$
+-
+$
+17,616
+
+Zinc concentrates
+$
+-
+$
+3,749
+$
+-
+$
+3,749
+
+Sales to internal customers
+$
+2,698
+$
+-
+$
+-
+$
+2,698
+
+Cost of sales*
+$
+-
+$
+11,815
+$
+7,705
+$
+19,520
+
+Depreciation, depletion and amortization**
+$
+53
+$
+1,831
+$
+2,725
+$
+4,609
+
+Selling, general and administrative expenses*
+$
+2,246
+$
+964
+$
+680
+$
+3,890
+
+Exploration and evaluation costs
+$
+313
+$
+-
+$
+-
+$
+313
+
+Interest income
+$
+45
+$
+100
+$
+10
+$
+155
+
+Interest expense
+$
+75
+$
+42
+$
+27
+$
+144
+
+Income (loss) before tax
+$
+(2,588)
+$
+8,543
+$
+10,589
+$
+16,544
+
+Income taxes
+$
+46
+$
+2,642
+$
+2,745
+$
+5,433
+
+Income (loss) for the period
+$
+(2,634)
+$
+5,901
+$
+7,844
+$
+11,111
+
+Capital expenditures
+$
+70
+$
+6,258
+$
+2,029
+$
+8,357
+
+Three months ended March 31, 2011
+ 
+Sales to external customers by product
+$
+-
+$
+21,886
+$
+-
+$
+21,886
+
+Silver-lead concentrates
+$
+-
+$
+16,225
+$
+-
+$
+16,225
+
+Zinc concentrates
+$
+-
+$
+3,908
+$
+-
+$
+3,908
+
+Copper concentrates
+$
+-
+$
+1,753
+$
+-
+$
+1,753
+
+Sales to internal customers
+$
+1,135
+$
+-
+$
+-
+$
+1,135
+
+Cost of sales*
+$
+-
+$
+8,834
+$
+-
+$
+8,834
+
+Depreciation, depletion and amortization**
+$
+28
+$
+1,795
+$
+-
+$
+1,823
+
+Selling, general and administrative expenses*
+$
+2,717
+$
+943
+$
+(28)
+$
+3,632
+
+Exploration and evaluation costs
+$
+355
+$
+-
+$
+-
+$
+355
+
+Interest income
+$
+199
+$
+51
+$
+-
+$
+250
+
+Interest expense
+$
+73
+$
+64
+$
+-
+$
+137
+
+Income (loss) before tax
+$
+(2,946)
+$
+11,085
+$
+50
+$
+8,189
+
+Income taxes
+$
+30
+$
+3,378
+$
+-
+$
+3,408
+
+Income (loss) for the period
+$
+(2,976)
+$
+7,707
+$
+50
+$
+4,781
+
+Capital expenditures
+$
+110
+$
+2,677
+$
+10,013
+$
+12,800
+
+* Cost of sales includes depreciation and depletion; selling, general and administrative expenses includes depreciation and amortization
+** included in cost of sales or selling, general and administrative expenses
+
+________________________________________________________________________________
+Page 31
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+
+17.
+Segmented Information (continued)
+
+Reportable Segments
+ Corporate
+ Bateas
+ Cuzcatlan
+ Total
+
+As at March 31, 2012
+ 
+Total assets
+$
+27,645
+$
+111,615
+$
+141,565
+$
+280,825
+
+Total liabilities
+$
+5,391
+$
+23,351
+$
+10,626
+$
+39,368
+
+As at December 31, 2011
+ 
+Total assets
+$
+27,878
+$
+112,746
+$
+131,017
+$
+271,641
+
+Total liabilities
+$
+5,729
+$
+29,793
+$
+7,808
+$
+43,330
+
+The segment information by geographical region for the three months ended March 31, 2012 and 2011 are as follows:
+
+Reportable Segments
+ Canada
+ Peru
+ Mexico
+ Other
+ Total
+
+Three months ended March 31, 2012
+ 
+Sales to external customers by product
+$
+-
+$
+21,365
+$
+19,236
+$
+-
+$
+40,601
+
+Silver-gold concentrates
+$
+-
+$
+-
+$
+19,236
+$
+-
+$
+19,236
+
+Silver-lead concentrates
+$
+-
+$
+17,616
+$
+-
+$
+-
+$
+17,616
+
+Zinc concentrates
+$
+-
+$
+3,749
+$
+-
+$
+-
+$
+3,749
+
+Three months ended March 31, 2011
+ 
+Sales to external customers by product
+$
+-
+$
+21,886
+$
+-
+$
+-
+$
+21,886
+
+Silver-lead concentrates
+$
+-
+$
+16,225
+$
+-
+$
+-
+$
+16,225
+
+Zinc concentrates
+$
+-
+$
+3,908
+$
+-
+$
+-
+$
+3,908
+
+Copper concentrates
+$
+-
+$
+1,753
+$
+-
+4
+-
+$
+1,753
+
+Reportable Segments
+ Canada
+ Peru
+ Mexico
+ Other
+ Total
+
+As at March 31, 2012
+ 
+Non current assets
+$
+3,308
+$
+72,093
+$
+111,839
+$
+-
+$
+187,240
+
+As at December 31, 2011
+ 
+Non current assets
+$
+3,004
+$
+68,105
+$
+113,020
+$
+-
+$
+184,129
+
+________________________________________________________________________________
+Page 32
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+17.
+Segmented Information (continued)
+
+External Sales
+by Customer
+Three months ended March 31,
+
+and Region
+2012
+2011
+
+Customer 1
+$
+1,391
+7%
+$
+20,133
+92%
+
+Customer 2
+ 18,448
+86%
+ 1,753
+8%
+
+Customer 3
+ 1,526
+7%
+ -
+0%
+
+Bateas/Peru
+$
+21,365
+100%
+$
+21,886
+100%
+
+% of total sales
+ 53%
+ 100%
+ 
+Customer 1
+$
+1,958
+10%
+$
+-
+0%
+
+Customer 2
+ 17,278
+90%
+ -
+0%
+
+Cuzcatlan/Mexico
+$
+19,236
+100%
+$
+-
+0%
+
+% of total sales
+ 47%
+ 0%
+ 
+Consolidated
+$
+40,601
+100%
+$
+21,886
+100%
+
+% of total sales
+ 100%
+ 100%
+ 
+
+For the three months ended March 31, 2012, five (2011: two) customers, respectively, represented 100% of total sales to external customers.
+
+18.
+Contingencies and Capital Commitments
+
+a)
+Bank Letter of Guarantee 
+
+The Caylloma mine closure plan was approved in November 2009 with total closure costs of $3,587 of which $1,756 is subject to annual collateral in the form of a letter of guarantee, to be awarded each year in increments of $146 over 12 years based on the estimated life of the mine. 
+
+Banco Bilbao Vizcaya Argentaria, S.A., a third party, has established a bank letter of guarantee on behalf of Bateas in favor of the Peruvian mining regulatory agency in compliance with local regulation associated with the approved Bateas’ mine closure plan, for the sum of $439. This bank letter of guarantee expires 360 days from December 2011. 
+
+Banco Bilbao Vizcaya Argentaria, S.A. has also established bank letters of guarantee totalling $54 to provide an annual guarantee associated with an office lease contract and truck rentals. These bank letters of guarantee were renewed in June 2011 with expiry 360 days to June 2012.
+
+b)
+Capital Commitments 
+
+As at March 31, 2012, $7,395 of capital commitments not disclosed elsewhere in the condensed interim consolidated financial statements, and forecasted to be expended within one year, includes the following: $5,100 for the ramp development at the San Jose property located in Mexico; $560 for local community infrastructure in Mexico; $1,722 for the tailing dam transport system, concentrator plant and electrical infrastructure renewal, and mine camp development at the Caylloma Property; and $13 for software development. 
+
+________________________________________________________________________________
+Page 33
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+18.
+Contingencies and Capital Commitments (continued)
+
+c)
+Other Commitments 
+
+The Company has a contract to guarantee power supply at its Caylloma mine. Under the contract, the seller is obligated to deliver a "maximum committed demand" (for the present term this stands at 3,500 Kw) and the Company is obligated to purchase subject to exemptions under provisions of "Force Majeure". The contract is automatically renewed every two years for a period of 10 years and expiring in 2017. Renewal can be avoided without penalties by notifying 10 months in advance of renewal date. 
+
+Tariffs are established annually by the energy market regulator in accordance with applicable regulations in Peru.
+
+The Company acts as guarantor to finance lease obligations held by two of its mining contractors. These finance lease contracts are related to the acquisition of mining equipment deployed at the Caylloma mine. As at March 31, 2012, these obligations amounted to $165 with $43 maturing in 2012 and $122 maturing in 2013.
+
+The Company, jointly with Radius Gold Inc., has entered into an office premise lease located in Canada, effective on November 28, 2011, the date the Company commenced carrying on business in the premises. The shared office with Radius has been finalized with the Company obligated to pay 50% of the total rent payable. The lease term is eight years with the Company’s annual net rent payable, on 3,195 rentable square feet, as follows: 
+
+·
+years one to two $111; 
+·
+years three to five $115; and,
+·
+years six to eight $118. 
+
+In addition, estimated operating costs, utilities, and realty taxes is $71 in the first year of occupancy. During 2011, the Company has advanced 50% of the three month security deposit in the amount of $47. 
+
+On May 24, 2010, the Company entered into a seven year office premise lease located Peru. The annual rent payable on 1,717 rentable square meters for office space, is as follows:
+
+·
+year one $289;
+·
+year two $297;
+·
+year three $306; and,
+·
+years four through seven the lease is subject a minimum annual increase of 3% or the Consumer Price Index published by Bureau of Labor Statistics of the United States Department of Labor, whichever is higher.
+
+The lease also includes the use of additional space for mini-warehouse and parking spots, the obligation for which is $58 per annum for the first year and is subject to an annual increase of 3% as stated above until the end of the lease. During 2011, the Company provided a security deposit of $44.
+
+________________________________________________________________________________
+Page 34
+
+FORTUNA SILVER MINES INC.
+NOTES TO THE CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE MONTH PERIODS ENDED MARCH 31, 2012 AND 2011
+(All amounts in US$’000’s unless otherwise stated)
+_______________________________________________________________________________
+
+18.
+Contingencies and Capital Commitments (continued)
+
+c)
+Other Commitments (continued)
+
+On March 15, 2011, the Company entered into a one year office premise lease located in Mexico with an annual lease obligation of $37 and has expired in March 14, 2012. On February 17, 2012, the Company entered into a one year office premise lease, effective March 1, 2012, located in Mexico with an annual lease obligation of $18.
+
+ Expected payments due by period as at March 31, 2012
+
+ Less than
+1 year
+
+1 – 3 years
+
+4 – 5 years
+After
+5 years
+
+Total
+
+Office premises – Canada
+186
+553
+374
+335
+1,448
+
+Office premises – Peru
+365
+764
+811
+69
+2,009
+
+Office premises – Mexico
+18
+-
+-
+-
+18
+
+Total office premises
+$ 569
+$ 1,317
+$ 1,185
+$ 404
+$ 3,475
+
+Computer equipment – Peru
+125
+46
+-
+-
+171
+
+Computer equipment – Mexico
+17
+24
+-
+-
+41
+
+Total computer equipment
+$ 142
+$ 70
+$ -
+$ -
+$ 212
+
+Total operating leases
+$ 711
+$ 1,387
+$ 1,185
+$ 404
+$ 3,687
+
+d)
+Other Contingencies 
+
+In February 2009, the Environmental Assessment and Oversight Agency (“OEFA”) in Peru, alleged the Company had five violations: two were for breaches of recommendations; two for excess of total suspended solids in water over the maximum allowable; and an alleged unauthorized discharge of effluent. The Ministry of Energy and Mines in Peru (“OSINERGMIN”) decided to close the two alleged violations for failure to adopt recommendations and punish the Company for the three alleged violations and imposed a fine of $200 in 2010. The Company appealed on June 23, 2010. 
+
+On February 22, 2012, the alleged unauthorized discharge of effluent was dismissed and confirmed a fine of $133 for the two alleged violations of excess of total suspended solids in water over the maximum allowable. The Company is proceeding with an administrative appeal to the Ministry of Energy and Mines in Peru (“OSINERGMIN”) for the remaining two alleged offenses. The Company believes it is more likely than not that it will defend itself successfully in the claims and therefore has not recorded a provision for the potential exposure relating to these alleged violations.
+
+________________________________________________________________________________
+Page 35

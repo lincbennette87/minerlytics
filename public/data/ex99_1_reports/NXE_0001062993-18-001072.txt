@@ -1,0 +1,4072 @@
+EX-99.1
+2
+exhibit99-1.htm
+EXHIBIT 99.1
+
+ NexGen Energy Ltd.: Exhibit 99.1 - Filed by newsfilecorp.com
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ANNUAL INFORMATION FORM FOR THE FINANCIAL YEAR
+ENDED DECEMBER 31, 2017 
+ 
+ 
+ 
+
+MARCH 2, 2018 
+
+TABLE OF CONTENTS
+
+ 
+ INTRODUCTORY NOTES
+
+ 1 
+ 
+ CORPORATE STRUCTURE 
+ 2 
+ 
+ GENERAL DEVELOPMENT OF
+ THE BUSINESS 
+ 2 
+ 
+ DESCRIPTION OF THE BUSINESS 
+ 9 
+ 
+ DETAILS OF THE ROOK I
+ PROJECT 
+ 10
+ 
+ 
+ RISK FACTORS 
+ 27 
+ 
+ DIVIDENDS 
+ 32
+ 
+ 
+ DESCRIPTION OF CAPITAL STRUCTURE 
+ 33 
+ 
+ TRADING PRICE AND VOLUME
+ 
+ 33
+ 
+ 
+ PRIOR SALES 
+ 34 
+ 
+ DIRECTORS AND OFFICERS
+ 
+ 34
+ 
+ 
+ AUDIT COMMITTEE DISCLOSURE 
+ 39 
+ 
+ LEGAL PROCEEDINGS AND
+ REGULATORY ACTIONS 
+ 40
+ 
+ 
+ INTEREST OF MANAGEMENT AND OTHERS IN
+ MATERIAL TRANSACTIONS 
+ 40 
+ 
+ TRANSFER AGENT AND
+ REGISTRAR 
+ 41
+ 
+ 
+ MATERIAL CONTRACTS 
+ 41 
+ 
+ INTERESTS OF EXPERTS
+ 
+ 41
+ 
+ 
+ ADDITIONAL INFORMATION 
+ 41 
+ 
+ SCHEDULE "A" – AUDIT
+ COMMITTEE CHARTER 
+ A-1
+ 
+ 
+
+INTRODUCTORY NOTES 
+Date of Information and Currency 
+In this annual information form (“AIF”), NexGen Energy
+Ltd., together with its current subsidiaries (other than IsoEnergy Ltd.), as the
+context requires, is referred to as the “Corporation” and
+“NexGen”. All information contained in this AIF is at December 31, 2017,
+being the date of the Corporation’s most recently completed financial year,
+unless otherwise stated. 
+Unless otherwise specified in this AIF, all references to
+“dollars” or to “$” or to “C$” are to Canadian dollars and all references to “US
+dollars” or to “US$” are to United States of America dollars. 
+Cautionary Note Regarding Forward-Looking Information and
+Statements 
+This AIF contains “forward-looking statements” within
+the meaning of the United States Private Securities Litigation Reform Act of
+1995 and “forward-looking information” within the meaning of applicable
+Canadian securities legislation. Forward-looking information and statements
+include, but are not limited to, statements with respect to planned exploration
+activities, the future interpretation of geological information, the cost and
+results of exploration activities, future financings, the future price of
+uranium and requirements for additional capital. Generally, forward-looking
+information and statements can be identified by the use of forward-looking
+terminology such as “plans”, “expects”, “is expected”, “budget”, “scheduled”,
+“estimates”, “forecasts”, “intends”, “anticipates”, or “believes”, or the
+negative connotation thereof or variations of such words and phrases or state
+that certain actions, events or results “may”, “could”, “would”, “might” or
+“will be taken”, “occur” or “be achieved” or the negative connotation thereof.
+
+Forward-looking information and statements are based on the
+then current expectations, beliefs, assumptions, estimates and forecasts about
+NexGen’s business and the industry and markets in which it operates.
+Forward-looking information and statements are made based upon numerous
+assumptions, including among others, that the results of planned exploration
+activities and economic studies are as anticipated, the price of uranium, the
+cost of planned exploration activities, that financing will be available if and
+when needed and on reasonable terms, that third party contractors, equipment,
+supplies and governmental and other approvals required to conduct NexGen’s
+planned exploration activities will be available on reasonable terms and in a
+timely manner and that general business and economic conditions will not change
+in a material adverse manner. Although the assumptions made by the Corporation
+in providing forward-looking information or making forward-looking statements
+are considered reasonable by management at the time, there can be no assurance
+that such assumptions will prove to be accurate. 
+Forward-looking information and statements also involve known
+and unknown risks and uncertainties and other factors, which may cause actual
+results, performances and achievements of NexGen to differ materially from any
+projections of results, performances and achievements of NexGen expressed or
+implied by such forward-looking information or statements, including, among
+others, negative operating cash flow and dependence on third party financing,
+uncertainty of additional financing, price of uranium the appeal of alternate
+sources of energy, exploration risks, uninsurable risks, reliance upon key
+management and other personnel, imprecision of mineral resource estimates, the
+risk that pending assay results will not confirm previously announced
+preliminary results, aboriginal title and consultation issues, deficiencies in
+the Corporation’s title to its properties, information security and cyber
+threats, failure to manage conflicts of interest, failure to obtain or maintain
+required permits and licenses, changes in laws, regulations and policy,
+competition for resources and financing, and other factors discussed or referred
+to in this AIF under “Risk Factors”.
+Although NexGen has attempted to identify important factors
+that could cause actual actions, events or results to differ materially from
+those described in forward-looking information or statements, there may be other
+factors that cause actions, events or results not to be as anticipated,
+estimated or intended. 
+
+- 2 - 
+There can be no assurance that such information or statements
+will prove to be accurate, as actual results and future events could differ
+materially from those anticipated, estimated or intended. Accordingly, readers
+should not place undue reliance on forward-looking information or statements.
+The forward-looking information and statements contained in this AIF are made as
+of the date of this AIF and, accordingly, are subject to change after such date.
+NexGen does not undertake to update or reissue forward-looking information as a
+result of new information or events except as required by applicable securities
+laws. 
+Technical Disclosure 
+Unless otherwise indicated, scientific and technical
+information in this AIF has been reviewed and approved by Garrett Ainsworth,
+NexGen’s Vice-President, Exploration and Development, B.Sc., P. Eng., a
+“qualified person” for the purposes of National Instrument 43-101 – Standards
+of Disclosure for Mineral Projects (“NI 43-101”). Mr. Ainsworth has
+verified the sampling, analytical and test data underlying the information or
+opinions contained herein by reviewing original data certificates and monitoring
+all of the data collection protocols. Mr. Ainsworth is not independent for the
+purposes of NI 43-101. 
+Natural gamma radiation in drill core reported in this AIF was
+measured in counts per second (cps) using a Radiation Solutions Inc. RS-120
+gamma-ray scintillometer. The reader is cautioned that total count gamma
+readings may not be directly or uniformly related to uranium grades of the rock
+sample measured; they should be used only as a preliminary indication of the
+presence of radioactive minerals. 
+CORPORATE STRUCTURE 
+NexGen was incorporated on March 8, 2011 under the Business
+Corporations Act (British Columbia) (the “BCBCA”) as “Clermont
+Capital Inc.”, a “capital pool company” within the meaning of Policy 2.4 –
+Capital Pool Companies (the “CPC Policy”) of the TSX Venture
+Exchange (the “TSXV”). On August 29, 2012, the Corporation’s common
+shares commenced trading on the TSXV under the symbol “XYZ.P”. 
+On April 19, 2013, the Corporation completed its “qualifying
+transaction” and in connection therewith consolidated its common shares on a
+2.35:1 basis and changed its name to “NexGen Energy Ltd.” On April 22, 2013, the
+Corporation’s common shares commenced trading on the TSXV under the symbol
+“NXE”. See “General Development of the Business – History”. 
+The Corporation’s head office is located at Suite 3150-1021
+West Hastings Street, Vancouver, British Columbia, V6E 0C3 and its registered
+office is located at 25th Floor, 700 West Georgia Street, Vancouver, British
+Columbia, V7Y 1B3. 
+Effective May 21, 2015, the Corporation amended its articles to
+implement a requirement for advance notice in connection with the election of
+directors of the Corporation. 
+The Corporation has three wholly-owned subsidiaries: NXE Energy
+Royalty Ltd., NXE Energy SW1 Ltd. and NXE Energy SW3 Ltd. (collectively, the
+“Subsidiaries”). The Corporation also holds 63.9% of the outstanding
+common shares of IsoEnergy Ltd. (“IsoEnergy”) as at December 31, 2017 and
+as of the date hereof. Each of the Subsidiaries and IsoEnergy were incorporated
+(and continue to exist) under the BCBCA. 
+GENERAL DEVELOPMENT OF THE BUSINESS 
+Overview 
+NexGen’s principal asset is currently its 100% interest in the
+Rook I project, an exploration project in the Athabasca Basin, Saskatchewan (the
+“Rook I Project”), which includes the Arrow discovery in February 2014,
+the Bow discovery in March 2015, the Harpoon discovery in August 2016 and the
+South Arrow discovery in July 2017. 
+
+- 3 - 
+The Rook I Project is located in the Southwest Athabasca Basin,
+Saskatchewan, Canada. The Rook I Project consists of 32 contiguous mineral
+claims totalling 35,065 hectares. 
+History 
+Year Ended December 31, 2015 
+Financings 
+On May 26 and 28, 2015, the Corporation completed a bought deal
+short form prospectus offering, including exercise of the over-allotment option
+granted in connection therewith, and issued an aggregate of 54,602,000 common
+shares at a price of $0.50 per share for gross proceeds of $27,301,000. The
+offering was co-led by Cormark Securities Inc. and Cantor Fitzgerald Canada
+Corporation and included Dundee Securities Ltd. and Haywood Securities Inc. 
+On December 9, 2015, the Corporation completed another bought
+deal short form prospectus offering, including partial exercise of the
+over-allotment option granted in connection therewith, and issued an aggregate
+of 32,812,500 common shares at a price of $0.64 per share for gross proceeds of
+$21,000,000. The offering was co-led by Cormark Securities Inc. and TD
+Securities Inc. and included Cantor Fitzgerald Canada Corporation, Raymond James
+Ltd., Haywood Securities Inc. and BMO Nesbitt Burns Inc. 
+Corporate 
+On May 21, 2015, the Corporation’s shareholders approved an
+advance notice policy. The advance notice policy requires that: (i) in the case
+of an annual meeting of shareholders, nominations for the election of directors
+must be submitted not less than 30 days and not more than 65 days prior to the
+date of the annual meeting; and (ii) in the case of a special meeting of
+shareholders, nominations must be made not later than the close of business on
+the fifteenth day following the day on which the first public announcement of
+the date of the meeting was made. 
+On June 26, 2015, the Corporation entered into a debt
+settlement agreement with Tigers Realm, pursuant to which the Corporation issued
+1,652,029 common shares to Tigers Realm in full and final satisfaction of
+$1,354,664 then owing by the Corporation to Tigers Realm. The common shares
+issued to Tigers Realm were subject to a hold period of four months plus a day
+and were issued at a fair value of $0.76 per share. 
+On August 7, 2015, the Corporation began trading as a Tier 1
+Issuer on the TSXV. On August 25, 2015, the Corporation commenced trading on the
+OTCQX Best Market under the symbol “NXGEF”. 
+Exploration 
+In January 2015, the Corporation completed a radon-in-water
+geochemical survey and a ground gravity survey, both at the Rook I Project. 
+Also in January 2015, the Corporation commenced a 18,000 metre
+winter drill program at the Rook I Project, which was ultimately expanded to
+21,715 metres over 54 holes. The highlight of the 2015 winter drill program was
+the Bow discovery under the northeast arm of Patterson lake represented by hole
+BO-15-10 which intersected 20% U3O8 over 9.5 metres.
+
+In June 2015, NexGen commenced its third summer drill program,
+which concluded at 33,010 actual metres drilled over 60 holes. This summer drill
+program included, for the first time, the use of directional core drilling
+technology. Directional drilling allows for precise, controlled deviation of
+drill holes and for multiple branches to be drilled from one pilot hole. 
+The highlights of the 2015 summer drill programs were: (i) hole
+AR-15-49c2 which intersected 12.01% U3O8 over 50 metres including 18
+metres at 20.55% U3O8 ; (ii) the identification of the A4
+shear zone; and (iii) hole AR-15-62 which intersected 6.35%
+U3O8 over 124 metres including 10%
+U3O8 over 78 metres.
+
+- 4 - 
+Year Ended December 31, 2016 
+Financings 
+On June 10, 2016, the Corporation completed a private placement
+of US$60 million in aggregate principal amount of unsecured convertible
+debentures (the “2016 Debentures”) to shareholders or affiliates of
+shareholders of CEF Holdings Limited (collectively, the “Investors”). The
+2016 Debentures were issued pursuant to a trust indenture between the
+Corporation and Computershare Trust Company of Canada dated June 10, 2016. 
+In connection with a financing completed in July 2017, which
+included the issue of US$60 million in aggregate principal amount of 7.5%
+unsecured convertible debentures (the “2017 Debentures” and
+together with the 2016 Debentures the “Convertible Debentures”) to the
+Investors, the maturity date of the 2016 Debentures was changed from June 11,
+2021 to July 22, 2022 to coincide with the maturity date of the 2017 Debentures
+and certain non-financial terms of the 2016 Debentures were revised and
+consolidated, including the strategic alignment provisions, into an investor
+rights agreement, described in detail below. 
+A description of the 2016 Debentures, as amended in July 2017,
+and the 2017 Debentures is set forth below under “Year Ended December 31,
+2017 – Financings”. 
+Corporate 
+As of July 15, 2016, the Corporation’s common shares were
+delisted from the TSXV and commenced trading on the Toronto Stock Exchange (the
+“TSX”). 
+Effective June 17, 2016, NexGen transferred certain of its
+exploration assets to the Subsidiaries (other than NXE Energy Royalty Ltd.) in
+exchange for common shares in the capital of those Subsidiaries. In addition,
+pursuant to a transfer agreement (the “Transfer Agreement”) between
+IsoEnergy and NexGen, NexGen transferred to IsoEnergy all of its interest in the
+Radio Project (by way of an assignment of the Radio option agreement), the
+Thorburn Lake Project and each of the Madison, 2Z and Carlson Creek properties,
+all early stage exploration properties located in the Athabasca Basin,
+Saskatchewan (collectively, the “Acquired Properties”) on a tax deferred
+basis. As consideration for the Acquired Properties, IsoEnergy issued 29 million
+common shares to NexGen at a price of $1.00 per common share. Pursuant to the
+Transfer Agreement, each of IsoEnergy and NexGen agreed to elect that, for tax
+purposes, the transfer price of the Acquired Properties be equal to the book
+value thereof. 
+As of August 15, 2016, IsoEnergy had accrued a liability of
+approximately $450,000 owing to NexGen, representing operational expenses
+financed by NexGen on behalf of IsoEnergy which was converted into 450,000
+common shares at a price of $1.00 per share.
+The common shares of IsoEnergy commenced trading on the TSXV on
+October 19, 2016 and, as of the date hereof, NexGen holds 29,450,002 common
+shares of IsoEnergy (representing approximately 63.9% of the outstanding common
+shares of IsoEnergy), of which 26,505,002 are subject to the terms of a Tier 2
+value escrow agreement imposed by the TSXV and will be released in equal
+instalments over the ensuing 36 months. 
+Exploration 
+In January 2016, the Corporation commenced a 30,000 metre
+winter drill program at the Rook I Project, which was ultimately expanded by an
+additional 7,500 metre spring drill program. The spring drill program completed
+on June 25, 2016 with a total of 45,163 metres drilled and 90 completed holes
+having been drilled as part of the combined 2016 winter and spring drill
+program. 
+
+- 5 - 
+Results from the Arrow deposit for the winter/spring 2016
+program are highlighted by AR-16-63c2 which intersected 15.20%U3O8over 42 m and
+12.99% U3O8 over 46.5 m. In addition, AR-16-76c1
+intersected 11.29% U3O8 over 67.5 m including 9.0 m
+at 51.35% U3O8 .
+Step-out drilling during the program was successful and two
+significant new areas of mineralization were discovered. Firstly, high-grade
+uranium mineralization was identified in the A1 shear for the first time where
+scissor hole AR-16-84c1 intersected 2.13% U3O8 over
+28.5 m including 3.99%U3O8over 11.0 m. Secondly, uranium mineralization was
+intersected 180 m southwest of the Arrow deposit where drill hole AR-16-90c3
+intersected 8.09% U3O8 over 13.0 m including 10.33%
+U3O8 over 10.0 m. 
+The highlight of regional drilling during the winter/spring
+2016 drilling program was the discovery the Cannon occurrence. It was tested
+with eleven drill holes, three of which intersected narrow zones of low grade
+uranium mineralization. 
+In July 2016, the Corporation commenced a 35,000 metre summer
+drill program at the Rook I Project, which was expanded by an additional 11,500
+metres. The summer drill program completed on November 8, 2016 with a total of
+51,829.5 metres drilled and 85 completed holes. 
+Results from the Arrow deposit for the summer 2016 program are
+highlighted by scissor hole AR-16-98c2 which intersected 7.59%
+U3O8 over 73.5 m including 51.40%
+U3O8 over 10.0 m. In addition, scissor hole
+AR-16-91c2 intersected 12.69% U3O8 over 40.5 m including
+25.0 m at 19.97% U3O8 .
+During the summer 2016 program, the highlight of regional
+exploration drilling was the discovery of the Harpoon occurrence with drill hole
+HP-16-08 which intersected 17.0 m of continuous mineralization including 4.5 m
+of composite off-scale radioactivity (>10,000 to >61,000 cps via handheld
+RS-120 model scintillometer). Regional exploration drilling was also conducted
+at three other target areas during the summer 2016 program. 
+Year Ended December 31, 2017 
+Financings 
+On July 21, 2017, the Corporation completed a financing raising
+aggregate gross proceeds of US$110 million (the “Financing”) consisting
+of a private placement of: (a) 24,146,424 common shares at a price of US$2.0707
+per share, for gross proceeds of US$50 million (the “Placement Shares”);
+and (b) the 2017 Debentures (having an aggregate principal amount of US$60
+million) with the Investors and in connection therewith extended the maturity
+date of the 2016 Debentures from June 11, 2021 to July 22, 2022 to match the
+maturity date of the 2017 Debentures. In addition, certain non-financial
+provisions of the 2016 Debentures, including in particular the strategic
+alignment provisions, were revised and consolidated into the investor rights
+agreement described below. 
+An establishment fee consisting of 869,271 common shares,
+calculated as 3% of the aggregate principal amount of the 2017 Debentures at a
+deemed price of US$2.0707 per share, was paid to the Investors in connection
+with the Financing. 
+The Convertible Debentures mature on July 22, 2022 (the
+“Maturity Date”) and bear interest at a rate of 7.5% per annum, payable
+semi-annually in arrears, with 5.0% of such interest payable in cash and the
+remaining 2.5% payable in common shares of the Corporation, issuable at a price
+equal to the volume-weighted average trading price of the common shares
+calculated in US dollars on the exchange or market which has the greatest
+trading volume in the Corporation’s common shares for the 20 consecutive trading
+days (the “20-day VWAP”) ending three trading days preceding the date
+such interest payment is due. 
+
+- 6 - 
+The 2017 Debentures are convertible at the holders’ option, in
+whole or in part, into common shares at a conversion price (the “2017
+Conversion Price”) of US$2.6919 per share, subject to adjustment. The
+Corporation may redeem the 2017 Debentures, in whole or in part, from July 21,
+2020 and prior to the Maturity Date at a price equal to the outstanding
+principal amount plus accrued and unpaid interest up to the redemption date,
+provided the 20-day VWAP of the common shares for the period ending three
+trading days preceding the date immediately prior to the date the redemption
+notice is given exceeds 130% of the 2017 Conversion Price. 
+The 2016 Debentures are convertible at the holder’s option, in
+whole or in part, into common shares of the Corporation at a conversion price
+(the “2016 Conversion Price”) of US$2.3261 per common share, subject to
+adjustment. The Corporation may redeem the 2016 Debentures in whole or in part
+from June 10, 2019 and prior to the Maturity Date at a price equal to the
+outstanding principal amount plus accrued and unpaid interest up to the
+redemption date, provided the 20-day VWAP of the common shares for the period
+ending three trading days preceding the date immediately prior to the date the
+redemption notice is given exceeds 130% of the 2016 Conversion Price. 
+Upon completion, of a change of control (which includes in the
+case of the Investors’ right to require the Corporation to redeem the
+Convertible Debentures, a change in the Chief Executive Officer of the
+Corporation), the Investors may require the Corporation to redeem, or the
+Corporation has the right to redeem, any outstanding Convertible Debentures in
+cash at: (i) on or prior to July 21, 2020 for the 2017 Debenture and on or prior
+to June 10, 2019 for the 2016 Debentures, 130% of the principal amount; and (ii)
+at any time thereafter, 115% of the principal amount, in each case plus accrued
+but unpaid interest, if any. In addition, upon the public announcement of a
+change of control that is supported by the Board, the Corporation may require
+the Investors to convert the Convertible Debentures into common shares of the
+Corporation at the 2017 Conversion Price or 2016 Conversion Price, as
+applicable, provided the consideration payable upon the change of control
+exceeds the 2017 Conversion Price or 2016 Conversion Price, respectively, and is
+either payable in cash or is payable in property or securities which the holders
+of the 2017 Debentures or 2016 Debentures, as applicable, in their sole
+discretion, wish to receive. 
+A “change of control” of the Corporation is defined as: (i) the
+acquisition by any transaction, directly or indirectly, by a person or group of
+persons acting jointly or in concert of voting control or direction over 50% or
+more of the Corporation’s outstanding common shares; (ii) the amalgamation,
+consolidation or merger of the Corporation with or into another entity as a
+result of which the holders of the common shares immediately prior to such
+transaction, directly or indirectly, hold less than 50% of voting control or
+direction over the entity carrying on the business of the Corporation following
+such transaction; (iii) the sale, assignment, transfer or other disposition of
+all or substantially all of the property or assets of the Corporation to another
+entity in which the holders of the common shares immediately prior to such
+transaction, directly or indirectly, hold less than 50% of voting control or
+direction following such transaction; or (iv) the removal by resolution of the
+shareholders of the Corporation, of more than 51% of the then incumbent
+directors of the Corporation which removal has not been recommended in the
+Corporation’s management information circular, or the failure to elect to the
+Board a majority of the directors proposed for election by management in the
+Corporation’s management information circular. 
+In consideration for the increased investment in the
+Corporation pursuant to the Financing, the Corporation, CEF Holdings Limited
+(“CEF”) and the Investors entered into an investor rights agreement (the
+“Investor Rights Agreement”) dated July 21, 2017 replaced those similar
+provisions contained in the 2016 Debentures and provides as follows: 
+
+- 7 - 
+
+ 
+ (a) 
+ 
+ for so long as the Investors hold at least 10% of the
+ common shares (on a partially diluted basis), the Investors agreed: (i)
+ not to tender or agree to tender (or convert) the Convertible Debentures
+ or any common shares then held to an unsolicited takeover bid that
+ constitutes a change of control, (ii) to exercise the votes attached to
+ all common shares then held in respect of any change of control
+ transaction, and deposit or tender such common shares, in accordance with
+ the recommendation of the Board, (iii) to abstain or withhold votes in
+ respect of any common shares they hold in respect of the election of
+ individuals to the Board who are not nominees of management, and (iv) in
+ respect of non-change of control matters, not to exercise the votes
+ attached to any common shares they hold contrary to the recommendation of
+ the Board;
+ 
+ 
+ 
+ 
+ (b) 
+ 
+ for so long as the Investors hold at least 10% of the
+ common shares (on a partially diluted basis), the Investors agreed to a
+ standstill whereby they will, among other things, not acquire any
+ securities of the Corporation or solicit proxies or otherwise attempt to
+ influence the conduct of security holders of the Corporation;
+ 
+ 
+ 
+ 
+ (c) 
+ 
+ for so long as the Investors hold at least 10% of the
+ common shares (on a partially diluted basis), the Investors are subject to
+ restrictions on disposition applicable to any common shares they hold,
+ consisting of giving prior notice to the Corporation of any proposed
+ disposition (within a 30 day period) of more than 0.5% of the number of
+ common shares then outstanding and either: (i) disposing of such common
+ shares to specific willing investors identified by the Corporation within
+ a seven-day period; or (ii) thereafter, disposing of such common shares
+ either through a broad distribution on the public markets or in a private
+ transaction or block trade to anyone other than specific investors
+ identified by the Corporation within the seven-day period; and
+ 
+ 
+ 
+ 
+ (d) 
+ 
+ for so long as the Investors hold at least 15% of the
+ common shares (on a partially diluted basis), CEF has the right to
+ nominate one director to the Board.
+Each of the foregoing covenants other than (d) shall terminate
+upon completion of a Fundamental Change. A Fundamental Change means the
+occurrence of any of the transactions referred to as items (i), (ii) or (iii) of
+the definition of Change of Control set out above and a change in the
+Corporation’s Chief Executive Officer. 
+Corporate 
+On May 17, 2017, the Corporation commenced trading on the NYSE
+American under the symbol “NXE”, and its common shares ceased trading on the
+OTCQX as of the close of trading on May 16, 2017. 
+On September 18, 2017, the Corporation issued 111,110 common
+shares for the acquisition of the remaining 40% interest in the Dufferin Lake
+property. The Dufferin property comprises five contiguous mineral dispositions
+covering an area of 10,910 hectares and is located approximately 360 kilometres
+northwest of La Ronge, Saskatchewan. 
+Exploration 
+On January 23, 2017, the Corporation commenced a 35,000 metre
+winter drill program, using seven rigs. The winter drill program was completed
+on May 2, 2017 with a total of 40,768.5 metres drilled and 64 completed holes.
+
+Highlights of the 2017 winter drill program included the (i)
+continued confirmation of grade continuity in the A1, A2 and A3 shears with
+in-fill drilling; (ii) intersection of high-grade uranium mineralization in a
+step-out hole in the A3 shear akin to the mineralization intersected in the
+higher grade A2 sub-zone; (iii) intersection of broad zones of uranium
+mineralization including narrow zones of high grade mineralization in the A1
+through A4 shears in widely spaced step-out holes both northeast and southwest
+of the Arrow deposit; and (iv) discovery of narrow zones of mineralization in
+the “gap area” southwest of the Arrow deposit. 
+
+- 8 - 
+On March 6, 2017, the Corporation announced the following
+updated mineral resource estimate on the Rook I Project having an effective date
+of December 20, 2016: 
+
+ 
+ Structure 
+ Tonnage (tonnes) 
+ Grade (U308%) 
+ Metal U308 (U308 lbs) 
+ 
+ Indicated Mineral Resources 
+ 
+ 
+ A2 High Grade 
+ 400,000 
+ 18.84 
+ 164,900,000 
+ 
+ A2 
+ 790,000 
+ 0.84 
+ 14,500,000 
+ 
+ Total 
+ 1,180,000 
+ 6.88 
+ 179,500,000 
+ 
+ Inferred Mineral Resources 
+ 
+ 
+ A1 
+ 860,000 
+ 0.76 
+ 14,300,000 
+ 
+ A2 High Grade 
+ 30,000 
+ 12.72 
+ 8,600,000 
+ 
+ A2 
+ 1,100,000 
+ 0.76 
+ 18,500,000 
+ 
+ A3 High Grade 
+ 150,000 
+ 8.74 
+ 28,200,000 
+ 
+ A3 
+ 1,460,000 
+ 1.16 
+ 37,300,000 
+ 
+ A4 
+ 550,000 
+ 1.07 
+ 12,900,000 
+ 
+ 180 m SW 
+ 110,000 
+ 0.94 
+ 2,300,000 
+ 
+ Total 
+ 4,250,000 
+ 1.30 
+ 122,100,000 
+
+Notes: 
+
+ 
+ 1. 
+ 
+ CIM Definition Standards were followed for mineral
+ resources.
+ 
+ 2. 
+ 
+ Mineral resources are reported at a cut-off grade of
+ 0.25% U308 based on a long-term price of US$65 per
+ lb U308 and estimated costs.
+ 
+ 3. 
+ 
+ A minimum mining width of 1.0 m was used.
+ 
+ 4. 
+ 
+ Numbers may not add due to
+rounding.
+On July 12, 2017, the Corporation commenced a 25,000 metre
+summer drill program using seven rigs which was subsequently expanded to 40,000
+metres using eight rigs. 
+On July 31, 2017, the Corporation announced the results of a
+preliminary economic assessment (“PEA”) in respect of the Arrow deposit
+which was based on the updated mineral resource estimate set forth above. 
+
+ 
+ PEA Financial Highlights 
+ 
+ 
+ After-Tax Net Present Value (NPV8%) 
+ CAD $3.49 Billion 
+ 
+ After-Tax Internal Rate of Return (IRR) 
+ 56.7% 
+ 
+ After-Tax Cash Payback 
+ 1.1 Years 
+ 
+ Pre-production Capital Costs (CAPEX) 
+ CAD $1.19 Billion 
+ 
+ Average Annual Production (Years 1-5) 
+ 27.6 M lbs
+ U308 
+ 
+ Average Annual Production (Life of Mine) 
+ 18.5 M lbs
+ U308 
+ 
+ Mine Life 
+ 14.4 Years 
+ 
+ Average Unit Operating Cost (Years 1-5) 
+ CAD $5.53 (US $4.42)/lb
+ U308 
+ 
+ Average Unit Operating Cost (Life of Mine) 
+ CAD $8.37 (US $6.70)/lb
+ U308 
+ 
+ Uranium Price Assumption 
+ USD $50/lb
+ U308 
+ 
+ Saskatchewan Royalties (Life of Mine) 
+ CAD $2.98 Billion 
+
+Note: Exchange rate CAD$1 = USD$0.80. 
+The PEA is preliminary in nature and includes inferred mineral
+resources that are too speculative geologically to have economic considerations
+applied to them that would enable them to be categorized as mineral reserves.
+There is no certainty that PEA results will be realized. Mineral resources that
+are not mineral reserves do not have demonstrated economic viability. 
+The summer drill program was completed on November 6, 2017 with
+a total of 44,780.9 metres drilled and 82 completed holes. Highlights of the
+2017 summer drill program included the (i) continued confirmation of grade
+continuity in the A1, A2 and A3 shears with in-fill drilling; (ii) intersection
+of mineralization in step-out drilling immediately adjacent to the Arrow
+deposit; (iii) discovery off a new zone of “off-scale” radioactivity at South
+Arrow defined by the occurrence of narrow massive pitchblende veining; and (iv)
+the execution of a pre-feasibility level geotechnical drilling program. 
+
+- 9 - 
+Recent Developments 
+On January 29, 2018, the Corporation commenced a 25,000 metre
+winter drill program using eight drill rigs. The objectives of this drill
+program are to (i) expand the A3 high grade zone definition, targeting the large
+untested areas surrounding the A1 to A5 shears and potential extensions of the
+shears particularly to the north east, and further define the newly discovered
+high grade mineralization northwest of the A1 shear at the Arrow deposit; and
+(ii) define the extent of uranium mineralization in all directions at South
+Arrow. 
+DESCRIPTION OF THE BUSINESS 
+General 
+The principal business activity of the Corporation has been,
+and continues to be, the exploration of its portfolio of early stage uranium
+properties, principally the Rook I Project, located in the Athabasca Basin of
+Saskatchewan. 
+The Corporation’s strategic objective is to continue
+exploration of its Rook I Project and complete a pre-feasibility study thereon
+in 2018. 
+Principal Products 
+The Corporation is in the mineral exploration business, does
+not have any marketable products at this time and is not distributing any
+products at this time. In addition, the Corporation does not know when or if the
+properties will reach the development stage and if so, what the estimated costs
+would be to reach commercial production. 
+Competitive Conditions 
+The mineral exploration business is a competitive business. The
+Corporation competes with numerous other companies and individuals who may have
+greater financial resources in the search for and the acquisition of personnel,
+contractors, funding and attractive mineral properties. As a result of this
+competition, the Corporation may be unable to obtain additional capital or other
+types of financing on acceptable terms or at all, acquire properties of interest
+or retain qualified personnel and/or contractors. See “Risk Factors –
+Competition”. 
+Environmental Protection 
+The Corporation’s exploration activities are subject to various
+levels of federal and provincial laws and regulations relating to the protection
+of the environment. Due to the early stage of the Corporation’s activities,
+environmental protection requirements have had a minimal impact on the
+Corporation’s capital expenditures and competitive position. If needed, the
+Corporation will make and will continue to make expenditures to ensure
+compliance with applicable laws and regulations. New environmental laws and
+regulations, amendments to existing laws and regulations, or more stringent
+implementations of existing laws and regulations could have a material adverse
+effect on the Corporation by potentially increasing capital and/or operating
+costs. See “Risk Factors – Environmental and Other Regulatory
+Requirements”. 
+Employees 
+As at December 31, 2017, the Corporation had 24 employees. The
+operations of the Corporation are managed by its directors and officers. NexGen
+engages consultants from time to time in the areas of mineral exploration,
+geology and business negotiations and management. See “Risk Factors –
+Reliance upon Key Management and Other Personnel”. 
+Specialized Skill and Knowledge 
+The Corporation’s business requires specialized skill and
+knowledge in the areas of geology, mineral 
+
+- 10 - 
+exploration, business negotiations, accounting and management.
+To date, the Corporation has been able to locate and retain such employees and
+consultants and believes it will continue to be able to do so. See “Risk
+Factors – Reliance upon Key Management and Other Personnel” below. 
+Foreign Operations 
+The Corporation is incorporated pursuant to the laws of British
+Columbia and is a reporting issuer in each of the provinces of Canada, except
+Quebec. The Corporation’s principal assets are located in the Province of
+Saskatchewan. The Corporation is not dependent on any foreign operations. 
+DETAILS OF THE ROOK I PROJECT 
+The following disclosure relating to the Rook I Project is
+based on information derived from the technical report entitled “Technical
+Report on the Preliminary Economic Assessment of the Arrow Deposit, Rook I
+Property, Province of Saskatchewan, Canada” dated effective July 31, 2017 (the
+“Rook I Technical Report”) prepared by Jason J. Cox P.Eng, David M.
+Robson (P.Eng., M.B.A.), Mark B. Mathisen (C.P.G.), David A. Ross (P.Geo of
+Roscoe Postle Associates Inc.), Val Coetzee (M.Eng. and Pr.Eng of DRA Americas
+Inc.) and Mark Wittrup (M.Sc., P.Eng. and P.Geo. of Clifton Associates Ltd.),
+each of whom is a “qualified person” under NI 43-101. The Rook I Technical
+Report is available for review under the Corporation’s profile on SEDAR at
+www.sedar.com. All scientific and technical information in this summary has been
+reviewed and approved by Messrs. Cox, Robson, Mathisen, Ross, Coetzee and
+Wittrup. 
+Project Description, Location and Access 
+The Rook I Project is located in northern Saskatchewan,
+approximately 40 kilometres (km) east of the Saskatchewan – Alberta border,
+approximately 150 km north of the town of La Loche and 640 km northwest of the
+City of Saskatoon. The Rook I Project covers parts of National Topographic
+System map sheets 74F/07, 74F/10 and 74F/11. 
+Rook I Project is best accessed by all-weather gravel Highway
+955, which travels north-south approximately eight (8) kilometres west of the
+Arrow deposit and which is maintained year round. From Highway 955 a 13
+kilometre long all-weather, single lane road provides access to the western
+portion of the Rook I Project. There are also several passable four-wheel drive
+roads and trails that provide access to much of the Rook I Project. Fixed wing
+aircraft on floats can land on lakes on and near the Rook I Project. Remote
+parts of the Rook I Project can be accessed by helicopter. 
+The Rook I Project consists of 32 contiguous mineral
+dispositions (claims) totalling 35,065 hectares. The Arrow deposit is situated
+on claim S-113927. The mineral dispositions that make up the Rook I Project are
+in good standing until between May 13, 2019 and June 13, 2038. In order to keep
+the dispositions in good standing, the claim holder must undertake prescribed
+minimum exploration work on a yearly basis. The current requirement for the Rook
+I dispositions is either $15 or $25 per hectare per year, with the higher amount
+owing in respect of claims that have been in existence in excess of 10 years.
+
+NexGen acquired the Rook I Project in December 2012 and has a
+100% interest in the claims subject only to: (i) a 2% net smelter return royalty
+(“NSR”); and (ii) a 10% production carried interest, in each case, only
+on claims S-113928 through S113933. The NSR may be reduced to 1% upon payment of
+$1 million. The 10% production carried interest provides for the owner to be
+carried to the date of commercial production. There are no other underlying
+interests, payments, back-in rights or other agreements on the Rook I Project,
+other than those on claims S-113928 to S-113933 (formerly claim S-108095). 
+In order to carry out exploration on the ground, the following
+permits are required: (i) a surface exploration permit; (ii) a forest product
+permit; and (iii) an aquatic habitat protection permit. Drill programs also
+require a term water rights permit from the Saskatchewan Watershed Authority and
+notice must be given to Saskatchewan Environment, the Heritage Resource Branch
+and the Water Security Agency. NexGen has all required permits to conduct its
+proposed exploration program, however additional permits will be required for development. 
+
+- 11 - 
+The authors of the Rook I Technical Report are not aware of any
+significant factors or risks which might affect access, title, or the right or
+ability to perform work on the Rook I Project including environmental
+liabilities. 
+History 
+Pursuant to an agreement to purchase mineral claims dated June
+20, 2005 (as amended) Titan Uranium Inc. (“Titan”) purchased disposition
+S-108095 (now S-113928 through S-113933) from 455702 B.C. Ltd. and 643990 B.C.
+Ltd. The remainder of the claims comprising the Rook I Project were subsequently
+ground staked by Titan in 2007 and 2008. In 2012, pursuant to a mineral property
+acquisition agreement between Titan and Mega Uranium Ltd. (“Mega”), Titan
+sold the Rook I Project to Mega. NexGen acquired the Rook I Project from Mega
+pursuant to an asset purchase agreement dated November 14, 2012. 
+Recorded exploration in and around the dispositions comprising
+the Rook I Project commenced in 1968. From 1968 to 1970, each of Bow Valley
+Corporation Ltd., Wainoco Oil and Chemicals Ltd. and Canada Southern Petroleum
+and Gas Ltd. flew airborne magnetic and radiometric surveys and carried out
+prospecting and geochemical sampling. They found little to warrant continued
+work and relinquished their permits in the early 1970’s. The next recorded work
+was by Uranerz Exploration and Mining Ltd. which completed geological mapping,
+prospecting, lake sediment sampling and a helicopter borne radiometric survey in
+1974 but found nothing to warrant further work. 
+From 1976 to 1982, Canadian Occidental Petroleum Ltd.
+(“Canoxy”), Houston Oil and Gas Ltd., Hudson Bay Exploration and
+Development Company Ltd. (“HBED”), Kerr Addison Mines Ltd.
+(“Kerr”) and Saskatchewan Mining and Development Corp. (“SMDC”,
+now Cameco) completed airborne INPUT EM surveys which detected numerous
+conductors, many of which were subject to ground surveys prior to drilling.
+Airborne magnetic-radiometric surveys were also done and followed up by
+prospecting, geological mapping, lake sediment surveys and some soil and rock
+geochemical sampling. Few anomalies were found other than those located by the
+airborne and ground EM surveys. 
+Also, from 1980 to 1982, SMDC drilled 13 holes, on what is now
+S-113933. PAT-04 intersected weak uranium mineralization (171 parts per million
+of uranium (ppm U) over 1 metre) in highly altered basement rocks just below the
+unconformity at 97 metres. Drill hole PAT-13 intersected 64 ppm U3O8 over a nine
+(9) metre interval just below the unconformity from 110 metres to 119 metres.
+The mineralization and alteration were reported to be similar to that seen at
+unconformity associated uranium deposits in the Athabasca Basin. 
+To the east, Kerr drilled 24 holes from 1977 to 1979. No
+significant alteration or mineralization was intersected. HBED drilled two holes
+in 1982 on claims which cover part of what is now S-113920. The holes hit
+graphitic gneisses but no radioactivity. Canoxy reported drilling 41 holes from
+1978 to 1980 but only 20 of these are on current dispositions comprising the
+Rook I Project. Drilling did not intersect any uranium mineralization but did
+intersect thick glacial till deposits, basement regolith and geological
+structures. 
+In 1982, exploration waned in the western part of the Athabasca
+Basin and companies allowed their claims to lapse as they came due. There is
+little work recorded in the assessment files from 1982 to 2006. 
+In 2006, Titan carried out airborne Mega TEM and EM VTEM
+airborne surveys, which detected and/or confirmed numerous strong EM anomalies.
+A ground MaxMin II horizontal loop EM survey in 2008 confirmed the presence of
+many of the airborne anomalies. 
+In 2012 Mega completed a ground gravity survey over parts of
+claims S-113921 through S-113933, which identified a number of anomalies. At the
+same time Mega undertook a soil geochemical survey and prospecting program. No
+soil geochemical anomalies or radioactive boulders were identified. 
+
+- 12 - 
+Geological Setting, Mineralization and Deposit Types
+
+Regional Geological Setting 
+The Rook I Property is located along the southwestern rim of
+the Athabasca Basin, a large Paleoproterozoic-aged, flat-lying,
+intracontinental, fluvial, redbed sedimentary basin which covers much of
+northern Saskatchewan and part of northern Alberta. It consists principally of
+unmetamorphosed sandstones with local conglomerate beds that are collectively
+known as the Athabasca Group. 
+The base of the Athabasca Group is marked by an unconformity
+with the underlying crystalline basement rocks of the Archean to
+Paleoproterozoic-aged Hearne and Rae provinces to the east and west,
+respectively, and the Proterozoic Talston Magmatic Zone (“TMZ”) to the
+west. The basement immediately below the unconformity typically has a
+paleoweathered profile ranging from a few centimetres to up to 220 m thick where
+fluid migration was aided by fault zones. Paleoweathered profiles usually
+consist of a thin bleached zone at the unconformity which grades into a hematite
+altered zone and then a chlorite altered zone before alteration features
+dissipate. 
+The southwest part of the Athabasca Group is overlain by flat
+lying Phanerozoic rocks of the Western Canada Sedimentary Basin comprised of
+mudstones, siltstones and sandstones. 
+Local and Property Geology 
+The oldest rocks in the area of the Property occur in the TMZ.
+Within the area of the Rook I Project, the TMZ consists chiefly of granitic,
+granodioritic, tonalitic, dioritic, and locally gabbroic gneisses. There are
+also local bodies of graphitic and chloritic semipelitic to pelitic gneisses
+that typically occur as discontinuous, elongate, north-northeast trending lenses
+and schlieren ranging from less than one kilometre to greater than 10 km in
+length. These paragneiss bodies are the chief host rock of uranium
+mineralization in basement settings in the area including the Arrow deposit.
+
+The Rook I Project straddles the Athabasca Group basal
+unconformity. Overlying the basement rocks in the area are the flat lying
+sandstones of the Athabasca Group. Where intersected in drilling, the Athabasca
+Group rocks are likely part of the Smart and Manitou Falls formations. These
+formations are both characterized by uniform quartz arenite beds and rare pebble
+conglomerate beds. 
+Phanerozoic rocks of the Cretaceous Manville Group and Devonian
+La Loche Formation overlie the Athabasca Group and basement rocks on portions of
+the western side of the Property and above the Arrow deposit. The Manville Group
+is characterized by non-marine to marine shales and sandstones. A coal bed
+marker horizon at the bottom of the Manville Group is often observed in drill
+core. The La Loche Formation consists of arenitic to arkosic sandstones and
+conglomerates. 
+The Rook I Project and surrounding area are covered by
+Pleistocene glacial deposits composed of sand, Athabasca Group sandstone
+boulders, and rare basement and Manville Group boulders. Glacial
+geomorphological topographic features are common and include northeast to
+east-northeast trending drumlins, outwashes, hummocky terrain, and kettle lakes.
+
+Mineralization 
+Mineralization is known to occur at seven locations on the Rook
+I Project: the Arrow deposit, the Harpoon occurrence, the Bow occurrence, the
+Cannon occurrence, the Camp East occurrence, the Area A occurrence and the South
+Arrow occurrence, the most significant of which is the Arrow deposit. All
+uranium mineralization discovered on the Rook I Project to date is hosted
+exclusively in basement lithologies below the unconformity. 
+
+- 13 - 
+Arrow Deposit 
+Two key but contrasting types of uranium mineralization occur
+at Arrow: open space fillings and chemical replacement styles. Open-space
+fillings include massive uraninite bodies interpreted to be uranium veins, and
+breccia bodies where the matrix is comprised nearly exclusively of massive
+uraninite. Chemical replacement type mineralization includes disseminated,
+worm-rock and near complete to complete replacement styles. 
+Uranium mineralization at Arrow is closely associated with
+narrow, strongly graphitic pelitic and graphitic semipelitic gneiss lithologies
+thought to represent discrete shear zones. High grade uranium zones often occur
+immediately adjacent to heavily sheared and strongly graphitic zones, but never
+within them. The main foliation present in the Arrow area trends towards the
+northeast and dips sub-vertically to vertically. Currently, mineralization
+occurs within four discrete, parallel shear panels referred to as the A1 though
+A5 shears. 
+The mineralization in the Arrow deposit is sub-vertical and
+true width is estimated to be between 30% and 50% of reported core lengths based
+on currently available information. 
+Harpoon Occurrence 
+The Harpoon occurrence is located 4.7 km northeast of the Arrow
+deposit. The Harpoon occurrence is currently exclusively basement hosted and
+occurs within a chloritic and graphitic shear zone that is heavily clay altered.
+Basement lithologies observed in the area of mineralization include both
+orthogneiss and paragneiss of varying composition. 
+Mineralization at the Harpoon occurrence is foliation-parallel.
+It strikes towards the northeast at approximately 035° to 045° and dips towards
+the southeast at approximately 60° to 70°. The mineralized footprint at Harpoon
+has been traced over a strike length of 340 m on the Rook I Property. 
+Bow Occurrence 
+The Bow occurrence is located 3.5 km northeast of the Arrow
+deposit. The uranium values occurred at or just below the unconformity in
+fractured, slickensided, and sometimes brecciated sandstone and basement
+quartz-feldspar-biotite +/- graphite paragneisses with compositions ranging from
+psammitic to pelitic. Quartzite was also noted in several holes. Basement rocks
+are described as strongly bleached and clay altered. 
+Cannon Occurrence 
+The Cannon occurrence is located 1.3 km northeast of the Arrow
+deposit. Three of eleven holes drilled in the area encountered low-grade uranium
+mineralization over narrow intervals in basement lithologies. The best hole,
+CN-16-06, intersected 0.06% U3O8 over 1.0 m beginning 256.0 m down hole.
+Basement lithologies present at the Cannon occurrence area largely consist of
+semi-pelitic gneiss, pelitic gneiss, quartzite and orthogneiss, with relatively
+narrow intervals of chloritic and graphitic mylonite, the latter of which host
+the low-grade uranium mineralization discovered to date. 
+Strong hydrothermal alteration, which typically includes
+illite-sudoite-hematite mineral assemblages, was commonly intersected in the
+basement in the area of the Cannon occurrence. The alteration zones remain open
+in all directions, and at the unconformity. 
+
+- 14 - 
+Camp East Occurrence 
+The Camp East occurrence is located approximately 2.3 km
+south-southwest of the Arrow deposit. Two of the six holes drilled intersected
+weakly anomalous radioactivity over narrow core lengths of one metre or less in
+basement lithologies which in the area include semi-pelitic to pelitic gneiss
+and orthogneiss. Chloritic and locally graphitic shear zones with widths ranging
+from one to tens of metres were intersected in each hole. The relationship
+between geological structures and anomalous radioactivity at Camp East has not
+yet been determined. 
+In addition, both drill holes that intersected anomalous
+radioactivity also intersected very strong hydrothermal alteration over
+extensive core lengths intermittently over hundreds of metres. Two distinctive
+alteration styles are generally present in the area including (1) near complete
+to complete silica replacement with accessory clay and hematite and (2) moderate
+to intense white clay and dravite alteration where near complete to complete
+clay replacement is observed over core lengths up to 12 m. 
+Area A Occurrence 
+In 2013, drill hole RK-13-05 intersected 330 ppm U3O8 over 4.0
+m approximately 3.5 km southwest from where the Arrow deposit would later be
+discovered. In this Area A, visible pitchblende was identified within a strongly
+hematite altered breccia. The mineralization occurs within a 29 m wide shear
+zone marked by faults, fractures, a variety of veins, and breccias. The host
+rocks are garnetiferous quartz-plagioclase-biotite gneiss with minor graphite.
+
+South Arrow Occurrence 
+In July 2017, drill hole AR-17-151c1 intersected strong visible
+pitchblende mineralization on an Arrow-parallel structure located approximately
+400 m south of the Arrow deposit Mineral Resource domains. Mineralization at
+South Arrow occurs mainly as disseminated and narrow veins of massive
+pitchblende. It is hosted in heavily silicified intrusive and semi-pelitic
+gneissic lithologies. In addition, the mineralization occurs in close
+association with a graphitic-chloritic mylonite and hydrothermal quartz breccia,
+both of which represent distinct marker horizons. 
+This new resistivity anomaly, named the South Arrow anomaly,
+has strikingly similar characteristics to the Arrow deposit anomaly. It has now
+been tested in four holes, two of which have intersected narrow zones of strong
+visible pitchblende mineralization, and all of which intersected extensive zones
+of hydrothermal alteration. Preliminary interpretations from structural
+measurements collected from oriented drill core suggest that the South Arrow
+mineralized bodies dip steeply towards the southeast. 
+Deposit Types 
+The Arrow deposit and other exploration targets at the Rook I
+Project belong to unconformity-associated classes of uranium occurrences. This
+type of mineralization is spatially associated with unconformities that separate
+Paleo- to Mesoproterozoic conglomeratic sandstone basins and metamorphosed
+basement rocks. 
+Unconformity-associated uranium deposits of the Athabasca Basin
+typically display extensive hydrothermal alteration halos, especially in the
+sandstones above major deposits where relatively higher porosity/permeability
+allowed for increased fluid flux. Where mineralization is basement hosted,
+alteration is typically confined to structures in the basement. Chlorite,
+hematite, dravite, sudoite, illite, kaolinite, and dickite are often, but not
+always, key alteration phases associated with mineralization. Silicification and
+desilicification of sandstones is also empirically associated with
+mineralization at many deposits, especially those located at the unconformity
+and in the sandstone. 
+
+- 15 - 
+Exploration 
+After acquiring the Rook I Project in December 2012, NexGen
+carried out exploration consisting of ground gravity surveys, ground DCIP
+surveys, an airborne magnetic-radiometric VLF survey, an airborne VTEM survey,
+an airborne ZTEM survey, an airborne gravity survey and a radon-in-water
+geochemical survey, and a ground radiometric and boulder prospecting program.
+
+Ground Geophysical Surveys 
+The ground gravity survey was completed over the western half
+of the Rook I Project. The gravity survey was completed on NexGen’s behalf by
+Discovery Geophysics International Inc. and MWH Geo-Surveys Ltd. from the fall
+of 2013 to the winter of 2015 and resulted in 12,867 gravity measurements. The
+readings have a spacing of 50 metres along lines 200 metres apart and were
+located by differential GPS. Features identified from the gravity survey results
+are interpreted to be larger regional trends upon which smaller, more localized
+features occur. These smaller features, showing both relatively high and low
+gravity responses, can be the result of hydrothermal alteration in both
+sandstones and basement rocks. 
+A ground DC Resistivity survey was completed on NexGen’s behalf
+by Discovery Geophysics International Inc. in 2013 over a small area on the
+western most portion of the Rook I Project area. The survey was completed on 200
+metre spaced grid lines, using a pole-dipole array with stations spaced at 50
+metres along lines. The estimated depth of penetration was approximately 225
+metres. This resistivity survey identified several prospective basement hosted
+EM anomalies and identified a near surface, flat lying conductive horizon
+interpreted to be carbonaceous Manville group rocks overlying the basement.
+In 2016, NexGen completed a high resolution 3D DCIP survey over
+the Arrow deposit and immediate surrounding area. This survey was completed by
+Dias Geophysical Ltd. using the proprietary DIAS32 system. A total receiver area
+of 2.07 km2 of 3D resistivity and chargeability data were acquired in
+a 1.44 km by 1.44 km grid. The survey showed a resistivity anomaly highly
+coincident with and immediately flanking the Arrow deposit. The survey also
+identified an un-drilled additional anomaly coincident with an Arrow parallel
+deformation zone. 
+Airborne Geophysical Surveys 
+In 2013, Goldak Airborne Surveys was contracted by NexGen to
+fly a high resolution magnetic gradiometer – radiometric – VLF EM survey over
+the entire Rook I Project area. The survey included 3,491 line-km flown on lines
+spaced 200 metres apart. VLF data acquired as part of the survey has confirmed
+the widespread presence of basement structures on the Rook I Project. Magnetic
+data acquired suggest highly variable geology and a complex geological history.
+Radiometric data acquired shows a number of surficial radiometric anomalies.
+
+In 2014, Aeroquest Airborne (Geotech) was contracted by NexGen
+to fly a VTEM survey over a portion of the Rook I Project. The survey was
+completed with 793 line-km spaced 100 m apart. Magnetic data was collected
+concurrently with EM data. The results showed a number of northeast trending EM
+conductors, most of which remain untested by drilling. Additionally, the
+acquired EM data allowed for more precise interpretation of the conductors that
+host the Arrow deposit as this survey was both higher powered, and flown at
+closer line spacing than any previous airborne EM survey completed in the area
+by past operators. 
+In 2016, Geotech was contracted by NexGen to carry out a ZTEM
+survey over a portion of the Rook I Property. The survey was flown parallel to
+the Patterson conductive corridor and included 584 line-km on lines spaced 100 m
+apart. Due to the position of the area of interest along the corridor, a
+non-standard flight orientation parallel to the primary geological strike was
+chosen. The results showed that a broad corridor of low resistivity traverses
+the property from southwest to northeast. The Arrow deposit occurs within this
+corridor. 
+
+- 16 - 
+Also, in 2016, CGG Canada Services Ltd. was contracted to
+acquire HeliFalcon gravity data along the Patterson conductive trend. The survey
+included 255 line-km on lines spaced 200 m apart and oriented in a
+northeast-southwest direction. Like the ground gravity survey, features
+identified from the survey results are interpreted to be larger regional trends
+upon which smaller, more localized features occur. These smaller features,
+showing both relatively high and low gravity responses, can be the result of
+hydrothermal alteration in both sandstones and basement rocks. 
+Ground Radiometric/Boulder Prospecting 
+In 2014, NexGen carried out a ground radiometric and boulder
+prospecting program. Radioactivity was measured at 698 stations, mostly on
+boulders which were chiefly Athabasca Group sandstones. Only two outcrops were
+observed. Where boulders were not present, background radioactivity was measured
+every 50 m along survey lines spaced 200 m apart. Several anomalously
+radioactive boulders were discovered, however, in each case, spectrometer
+analyses showed the radioactivity to be sourced from thorium. No samples were
+assayed. 
+Radon-In Water 
+In 2015, RadonEx Exploration Management Ltd. was contracted by
+NexGen to complete a radon-in-water survey over parts of Patterson, Beet and
+Naomi lakes. The surveys consisted of the collection of 1,942 near bottom water
+samples. Radon was measured using electret ionization chamber technology after
+water samples were collected and stored in glass jars. Samples were spaced 25
+metres on lines generally, but not always, spaced 200 metres apart. The results
+showed a multiple areas with anomalous radon gas concentrations. 
+Drilling 
+As of July 31, 2017, the effective date of the Rook I Technical
+Report, NexGen and its predecessors have completed 456 holes totalling 227,184 m
+of drilling on the Rook I Property. From 2013, NexGen has completed 418 of those
+holes totalling 221,845 m. However, the preliminary economic assessment set
+forth below is based upon drilling completed to November 2016. 
+Fall 2013 Drilling 
+From August to October of 2013 NexGen completed 3,029 metres of
+diamond drilling over 13 holes. The contractor was Guardian Drilling Corp. who
+utilized two rigs, supported by helicopter for most of the drill campaign. All
+holes tested targets identified by the 2013 ground DC Resistivity survey.
+Anomalous radioactivity was intersected in RK-13-05 which returned 330 ppm U3O8
+over four metres. Visible pitchblende was identified within a strongly
+hematite-altered breccia. The mineralization occurs within a 29 m wide shear
+zone marked by faults, fractures, a variety of veins, and breccias. The host
+rocks are garnetiferous quartz-plagioclase-biotite gneiss with minor graphite.
+
+Winter 2014 Drilling 
+From January to March 2014, NexGen completed 7,442.2 metres of
+diamond drilling over 17 drill holes. All drilling was completed by Aggressive
+Drilling Ltd. (“Aggressive”). The purpose of the drill program was to
+follow-up previously intersected uranium mineralization in RK-13-05, as well as
+test a combination of airborne magnetic and EM, and ground gravity geophysical
+anomalies that were considered as priority targets for uranium mineralization.
+
+Three areas were targeted during the winter 2014 exploration
+drill season; Area A, Dagger (Area D), and Arrow. Anomalous radioactivity was
+intersected in drill holes AR-14-01 through AR-14-08 at Arrow. Subsequent assay
+results confirmed the presence of significant uranium concentrations. These
+drill holes represent the first discovery of significant mineralization at the
+Arrow deposit. 
+
+- 17 - 
+Summer 2014 Drilling 
+A total of 35 diamond drill holes were drilled for 18,886
+metres on the Rook I Project from May to September 2014 using three diamond
+drill rigs. All diamond drilling was performed by Aggressive. The drill holes
+were primarily collared to follow up on uranium mineralization intersected at
+the Arrow zone in the winter of 2014. In addition, Regional holes tested a
+combination of magnetic, electromagnetic, and gravity geophysical features at
+four target areas on Rook I that included Area A, Area B, Area D (Dagger) and
+Area K. 
+The program was successful and extensive uranium mineralization
+was intersected at the Arrow deposit in several holes including AR-14-15 (3.42%
+U3O8 over 22.35 m and 1.52% U3O8 over 32.0 m) and AR-14-30 (10.17% U3O8 over
+20.0 m and 7.54% U3O8 over 63.5 m). A reinterpretation of the structural setting
+also resulted in the identification of three main mineralized shear zones, the
+A1 through A3 shears. Both AR-14-15 and AR-14-30 represent the first holes
+drilled through what would become known as the high grade domain of the A2
+shear. 
+Winter 2015 Drilling 
+A total of 54 diamond drill holes were drilled for 21,715
+metres on the Rook I Project area from January to April 2015 with four drill
+rigs. All drilling was performed by Aggressive. The drill holes were primarily
+designed to expand the mineralization at the Arrow deposit. Regional holes
+continued to test a combination of magnetic, EM, and gravity targets at the Bow
+and Fury areas. Results are highlighted by AR-15-44b, which intersected 11.55%
+U3O8 over 56.5 metres including 20.0 metres at 20.68% U3O8 and 1.0 metres at
+70.0% U3O8 in the high grade domain of the A2 shear. 
+A new zone of uranium mineralization was also discovered in the
+Bow area. Now referred to as the Bow occurrence, the best hole in this area to
+date has been BO-15-10. This hole intersected 0.20% U3O8 over 9.5 m. To date, 14
+holes have been drilled at Bow.
+Summer 2015 Drilling 
+Between June and October 2015, 33,010 metres of drilling was
+completed in 60 drill holes. All diamond drilling was performed by Aggressive.
+For the first time at the Rook I Project, directional core drilling technology
+was utilized which allows for precise controlled deviation of drill holes and
+multiple branches drilled from one pilot hole. Directional drilling is being
+completed by Tech Directional Services Ltd. (“Tech”) of Millertown,
+Newfoundland. 
+The drill holes were primarily designed to follow up on uranium
+mineralization intersected at the Arrow zone in consecutive seasons since the
+winter of 2014. All holes at Arrow intersected significant and often intense
+uranium mineralization. Results are highlighted by AR-15-62 which intersected
+6.35% U3O8 over 124.0 metres including 78.0 metres at 10% U3O8 and AR-15-49c2
+which intersected 12.01% U3O8 over 50.0 metres including 18.0 metres at 20.55%
+U3O8. 
+Winter and Spring 2016 Drilling 
+From January to June, 2016, 45,613 metres of drilling was
+completed in 90 drill holes on the Rook I Property. All diamond drilling was
+performed by Aggressive with up to six diamond drill rigs. Directional core
+drilling technology continued to be used to delineate and expand the Arrow
+deposit. During the winter/spring 2016 drill program a maiden Inferred Mineral
+Resource estimate for the Arrow Deposit was announced. 
+
+- 18 - 
+Drill holes of the winter/spring 2016 program were primarily
+designed to both in-fill the Arrow deposit in support of an Indicated resource
+classification in the A2 high grade domain as well materially expand the
+footprint of mineralization in support of an expanded Inferred Mineral Resource.
+Before the winter/spring 2016 program, drilling at Arrow was largely completed
+from northwest to southeast. During this program, and in order to verify the
+near vertical dip of the mineralization, seven in-fill holes were drilled in a
+scissor direction from southeast to northwest. Scissor oriented drilling has
+verified both the near vertical dip of the mineralization and the thicknesses of
+the Arrow deposit resource domains. Results from the Arrow deposit for the
+winter/spring 2016 program are highlighted by AR-16-63c2 which intersected
+15.20% U3O8 over 42 m and 12.99% U3O8 over 46.5 m. In addition, AR-16-76c1
+intersected 11.29% U3O8 over 67.5 m including 9.0 m at 51.35% U3O8. 
+Step-out drilling at the Arrow Deposit during the program was
+successful and two significant new areas of mineralization were discovered.
+Firstly, high-grade uranium mineralization was identified in the A1 shear for
+the first time where scissor hole AR-16-84c1 intersected 2.13% U3O8 over 28.5 m
+including 3.99% U3O8 over 11.0 m. Secondly, uranium mineralization was
+intersected 180 m southwest of the Arrow Deposit where drill hole AR-16-90c3
+intersected 8.09% U3O8 over 13.0 m including 10.33% U3O8 over 10.0 m.
+Mineralization in this area occurs in the likely extensions of the Arrow shears.
+
+The highlight of regional drilling during the winter/spring
+2016 drilling program was the discovery the Cannon occurrence. It was tested
+with eleven drill holes, three of which intersected narrow zones of low grade
+uranium mineralization. The best hole, CN-16-06 intersected 0.06% U3O8 over 1.0
+m. 
+Continued regional drilling during the winter/spring 2016
+program largely tested the interpreted extensions of the conductor hosting Arrow
+to the northeast. Firstly, a four-hole fence tested the Arrow conductor 200 m
+northeast of the Arrow deposit. Although no mineralization was intersected,
+prospective hydrothermal alteration and geological structures were encountered.
+A three-hole fence was subsequently drilled 750 m northeast of the Arrow deposit
+targeting a break in the Arrow conductor. Again, no mineralization was
+intersected, however, prospective hydrothermal alteration and geological
+structures were identified. Additionally, one hole was drilled 2.5 km northeast
+of the Arrow deposit to test another interpreted break in the Arrow conductor.
+No mineralization was intersected. Two more holes were drilled 650 m southwest
+of the Arrow deposit to test a subtle gravity anomaly that is coincident with
+the Arrow conductor. Both holes intersected Arrow-like semi-pelitic gneisses and
+prospected graphitic shear zones, but no mineralization was intersected.
+Summer 2016 Drilling 
+From June to November, 2016, 51,830 m of drilling were
+completed in 85 drill holes on the Rook I property. All diamond drilling was
+performed by Aggressive with seven diamond drill rigs. Directional core drilling
+technology continued to be used to delineate and expand the Arrow deposit. 
+Drill holes of the summer 2016 program were primarily designed
+to both in-fill the Arrow deposit in support of an Indicated resource
+classification in the A2 high grade domain as well as materially expand the
+footprint of mineralization in support of an expanded Inferred Mineral Resource.
+During the program, 35 of the 53 holes drilled at the Arrow deposit were drilled
+in a scissor orientation from southeast to northwest. Scissor oriented drilling
+again verified both the near vertical dip of the mineralization and the
+thicknesses of the Arrow deposit resource domains. Results from the Arrow
+deposit for the summer 2016 program are highlighted by scissor hole AR-16-98c2
+which intersected 7.59% U3O8 over 73.5 m including 51.40% U3O8 over 10.0 m. In
+addition, scissor hole AR-16-91c2 intersected 12.69% U3O8 over 40.5 m including
+25.0 m at 19.97% U3O8. 
+During the summer 2016 program, the highlight of regional
+exploration drilling was the discovery of the Harpoon occurrence with drill hole
+HP-16-08. The hole intersected 17.0 m of continuous mineralization including 4.5
+m of composite off-scale radioactivity (>10,000 to >61,000 cps via
+handheld RS-120 model scintillometer). 
+
+- 19 - 
+Regional exploration drilling was also conducted at three other
+target areas during the summer 2016 program. Firstly, a large airborne ZTEM
+resistivity anomaly 1.1 km southwest of the Arrow deposit was tested with a
+four-hole fence where encouraging clay alteration and graphitic shear zones were
+intersected. Secondly, coincident gravity and VTEM anomalies were tested with
+two holes approximately 3 km southwest of the Arrow deposit. Finally, coincident
+gravity and VTEM anomalies were tested with six holes approximately 2.3 km
+south-southwest of the Arrow deposit. In this area, informally referred to as
+the Camp East area due to the close proximity to the Rook I camp, narrow
+intersections of weakly anomalous radioactivity were intersected in two drill
+holes. In addition, all six drill holes intersected extensive sections of
+hydrothermal alteration. 
+Sampling, Analysis and Data Verification 
+Sample Preparation and Quality Control Measures Before
+Dispatch 
+At each drill site, core is removed from the core tube by the
+drill contractors and placed directly into three row NQ wooden core boxes with
+standard 1.5 m length (4.5 m total). Individual drill runs are identified with
+small wooden blocks, onto which the depth in metres is recorded. Diamond drill
+core is transported at the end of each drill shift to an enclosed core handling
+facility at NexGen’s camp where the box is initially surveyed with a Radiation
+Solutions RS-120 scintillometer to determine if any boxes contain
+mineralization. A threshold of 500 counts per second (cps) is used for Arrow
+core, and 300 cps for core from elsewhere on the Rook I Project property. All
+mineralized core boxes above the threshold, plus a box before and after, is
+taken to the “hot” shacks for logging and sampling. All other core is moved to
+be processed in the “cold” logging shacks. 
+Before the core is split for sampling, depth markers are
+checked, core is carefully reconstructed, washed, geotechnically logged for
+lithologies, alteration, structures, and mineralization, measured for rock mass
+rating, resurveyed in detail with scintillometer, photographed (wet), and marked
+for sampling. 
+Logging and sampling information is entered into a Microsoft
+Access database template on a laptop computer which is integrated into the
+master digital database for the Rook I Project on a daily basis. 
+On site sample preparation consists of core splitting by
+geological technicians under the supervision of geologists. One half of the core
+is placed in plastic sample bags pre-marked with the sample number along with a
+sample number tag. The other half is returned to the core box and stored at the
+core storage area located near the logging facility at the project site. The
+bags containing the split samples are then placed in buckets with lids for
+transport to Saskatchewan Research Council Geoanalytical Laboratories
+(“SRC”) (an independent laboratory) in Saskatoon, Saskatchewan, by NexGen
+personnel. 
+Three types of samples are collected for geochemical analysis:
+(i) point samples taken at nominal spacing of five metres and meant to be
+representative of the interval or of a particular rock unit; (ii) composite
+samples in Athabasca sandstone where one centimetre long pieces are taken at the
+end of each core box row over 10 m intervals (five to seven pieces normally for
+a sample); and (iii) 0.5 m and 1.0 m samples taken over intervals of elevated
+radioactivity and one or two metres beyond the radioactivity. 
+Security 
+As each hole is being drilled, drilling contractor personnel
+place the core in wooden boxes at the drill site and seal core boxes with
+screwed on wooden lids. Core is then delivered to the Rook I core processing
+facility by the contractor twice daily. Only the contractor and NexGen
+geological staff are authorized to be at drill sites and in the core processing
+facility. After logging, sampling and shipment preparation, samples are
+transported directly from the project site to SRC by NexGen staff. 
+Appropriate steps are taken to protect the integrity of samples
+at all processing stages. Access to the SRC premises is restricted by an
+electronic security system and patrolled by security guards 24 hours a day. 
+
+- 20 - 
+Assaying and Analytical Procedures 
+SRC crushes each sample to 60% -10 mesh and then riffle split
+to a 200 gram (g) sample with the remainder retained as coarse reject. The 200 g
+sample is then milled to 90% passing -140 mesh. 
+All samples are analyzed at SRC by inductively coupled plasma
+optical emission spectroscopy (ICP-OES) or inductively coupled plasma mass
+spectroscopy (ICP-MS) for 64 elements including uranium. Samples with low
+radioactivity are analyzed using ICP-MS. Samples with anomalous radioactivity
+are analyzed using ICP-OES. 
+Selected samples are also analyzed for gold, platinum, and
+palladium using traditional fire assay methods. 
+Samples are also collected for clay mineral identification
+using infrared spectroscopy regularly in areas of clay alteration. Samples are
+typically collected at five metre intervals and consist of centimetre sized
+pieces of core selected by a geologist. These samples are transported to Rekasa
+Rocks Inc. (Rekasa) of Saskatoon, Saskatchewan, by NexGen staff for analysis.
+Rekasa performs clay analyses using a portable infrared mineral analyzer. 
+NexGen personnel perform bulk density measurements on full core
+on site using standard laboratory techniques. In mineralized zones, bulk density
+is measured from samples at 2.5 m intervals, where possible (i.e., approximately
+20% of all mineralized samples). Pieces of core are sealed in cellophane wrap
+and are then weighed in air and weighed submerged in water. Bulk density is then
+calculated from the resulting data. In order for density to be correlated with
+uranium grades across the data set, each density sample directly correlates with
+a sample sent to SRC for assay (i.e., downhole intervals are the same for
+density samples and assay samples). 
+Quality Control Measures 
+NexGen’s quality assurance and quality control program
+includes: (a) duplicate samples; (b) standard reference materials
+(“SRM”); and (c) blank samples. 
+Field duplicates, pulp duplicates or crush duplicates are
+submitted to SRC at every 50th even numbered mineralized sample sent for
+analysis with the original sample on XX48 or XX98, the field duplicate on XX49
+or XX99 and crush lab duplicates with pulp duplicates with pulp duplicates on
+XX50 and crush duplicates on XX00. These samples are split into quarter cores at
+the Corporation’s core processing facility. A minimum of one field duplicate is
+submitted for each mineralized hole. 
+SRMs are also regularly inserted into the sample stream. All
+SRMs were obtained from the Canadian Centre for Mineral and Energy Technology
+and include BL2-A (0.502 +/- 0.002 % U3O8), BL-4a (0.1472 +/- 0.008 % U3O8), and
+BL-5 (8.36 +/- 0.04 % U3O8). The SRM selected is based on scintillometer
+measurements. SRMs are inserted into the sample every 50 mineralized samples and
+at least one SRM is inserted for each mineralized drill hole. 
+Blank samples are inserted into the sample stream for every 50
+mineralized samples. At least one blank sample is inserted into the sample
+stream for each mineralized drill hole. In many cases, and at the discretion of
+the geologist logging the hole, blanks are also inserted immediately above,
+randomly within, and below zones of significant mineralization. Blank material
+samples consist of pieces of rose quartz obtained from Deptuck’s Landscaping
+& Supplies of Saskatoon, Saskatchewan. 
+Quality control was also maintained for all analytical
+apparatus at SRC with certified reference material used to track analytical
+drift, and data accuracy and precision. Standards were inserted into sample
+batches at regular intervals by SRC. In addition, samples were regularly
+analysed in duplicate. 
+
+- 21 - 
+Data Verification 
+The authors of the Rook I Technical Report reviewed and
+verified the resource database used to prepare the mineral resource estimate
+described below. The verification included a review of the QA/QC methods and
+results, verifying the database assay table against assay certificates,
+performing standard database validation tests, and a site visit including drill
+core review. No limitations were placed on the authors’ data verification
+process. 
+Mineral Processing and Metallurgical Testing 
+A test work campaign was conducted in 2016 by the Saskatchewan
+Research Council. A total of 131 samples were equally split into subsamples and
+composited to produce a single 55 kg sample with a measured head grade of 4.5%
+U3O8, 0.21% Mo, and 0.81 g/t Au. The sample was
+then split into one kilogram subsample required for the respective tests which
+formed part of the campaign. Uraninite is the primary uranium mineral. 
+The scope of the campaign encompassed the following high level
+test work: 
+
+ 
+ • 
+ Comminution: Sample
+ characterization, bond ball mill index tests 
+ 
+ 
+ • 
+ 
+ Acidic leach: Diagnostic tests considering grind size,
+ lixiviant addition rate, temperature, residence time, pH and oxidant type
+ 
+ 
+ • 
+ Solid-liquid separation: Settling
+ tests including flocculant screening 
+ 
+ • 
+ Solvent extraction: Bulk loading
+ 
+ 
+ • 
+ Product precipitation: Ammonium
+ diuranate precipitation 
+ 
+ • 
+ Mo/Cu flotation: Sulphide float
+ 
+Based on the preliminary test work completed on a high grade
+sample, a 96% overall recovery of uranium was selected as being similar to
+benchmark recoveries of similar operations in the region. Further, based on
+preliminary results, deleterious element concentrations appear to be low, and
+the resulting small yellowcake sample prepared during the test work met ASTM
+C967-132 (international standard for uranium concentrate) criteria.
+
+Mineral Resource Estimate 
+The mineral resource estimate for the Arrow deposit is based on
+results of surface diamond drilling campaigns from 2014 to 2016. The effective
+date of the mineral resource estimate is December 20, 2016. Of the 220 holes
+completed, 13 drill holes were abandoned before reaching their target depth, are
+considered restarts, and were not used in the mineral resource estimate. 
+
+ 
+ Structure 
+ Tonnage (tonnes) 
+ Grade (U308%) 
+ Metal (U3O8 lbs) 
+ 
+ Indicated Mineral Resources 
+ 
+ 
+ A2 High Grade 
+ 400,000 
+ 18.84 
+ 164,900,000 
+ 
+ A2 
+ 790,000 
+ 0.84 
+ 14,500,000 
+ 
+ Indicated Total 
+ 1,180,000 
+ 6.88 
+ 179,500,000 
+ 
+ Inferred Mineral Resources 
+ 
+ 
+ A1 
+ 860,000 
+ 0.76 
+ 14,300,000 
+ 
+ A2 High Grade 
+ 30,000 
+ 12.72 
+ 8,600,000 
+ 
+ A2 
+ 1,100,000 
+ 0.76 
+ 18,500,000 
+ 
+ A3 High Grade 
+ 150,000 
+ 8.74 
+ 28,200,000 
+ 
+ A3 
+ 1,460,000 
+ 1.16 
+ 37,300,000 
+ 
+ A4 
+ 550,000 
+ 1.07 
+ 12,900,000 
+ 
+ 180 m. SW 
+ 110,000 
+ 0.94 
+ 2,300,000 
+ 
+ Inferred Total 
+ 4,250,000 
+ 1.30 
+ 122,100,000
+
+- 22 - 
+Notes: 
+
+ 
+ 
+ 1. 
+ 
+ CIM Definition Standards were followed for mineral
+ resources.
+ 
+ 
+ 2. 
+ 
+ Mineral resources are reported at a cut-off grade of
+ 0.25% U3O8 based on a long-term price of US$65 per
+ lb U3O8 and estimated costs.
+ 
+ 
+ 3. 
+ 
+ A minimum mining width of 1.0 m was used.
+ 
+ 
+ 4. 
+ 
+ Numbers may not add due to
+rounding.
+Uranium mineralization at Arrow occurs within and proximal to
+structural basement rocks (graphitic mylonites) that show varying degrees of
+clay, chlorite, and hematite alteration. Structures have been reactivated, and
+five main parallel structural shear zones (namely the A1, A2, A3, A4 and A5
+shears) have been identified, with the A2 and A3 shears hosting higher grade,
+thicker and more continuous mineralization than the others, as defined by
+current drilling. Mineralization consists predominantly of uraninite/pitchblende
+that occurs as massive to semi-massive accumulations, foliation controlled,
+mineral replacements, and disseminations. A continuous zone of higher grade
+mineralization in the A2 and A3 shear zones is known as the higher grade A2
+sub-zone (A2 HG) and A3 sub-zone (A3-HG). 
+The key assumptions, parameters and methods used to complete
+the mineral estimate set forth above are summarized as follows: 
+
+ Topographical surfaces, solids and mineralized wireframes were modelled in
+ Leapfrog Geo version 4.0 then refined in Vulcan software.
+ Extension distance for the mineralized wireframes was half-way to the next
+ hole, or approximately 25 m vertically and horizontally past the last drill
+ intercept.
+ Non-high grade (“LG”) domain models were created using a lower
+ grade intercept limit equal to or greater than one metre with a minimum
+ grade-thickness product of 0.1%m, or 2 m at 0.05%.
+ High grade (“HG”) domain models were created using a grade
+ intercepts limit equal to or greater than one metre with a minimum grade of 5%
+ U3O8.
+ Sample intervals with assay results less than the nominated cut-off grade
+ (internal dilution) were included within the mineralized wireframes if the
+ core length was less than two metres or allowed for modelling of grade
+ continuity.
+ In total 102 wireframes, of which seven high-grade wireframes were
+ contained within four enveloping wireframes, were constructed within the A1,
+ A2, A3, A4 shear zones and were used in the resource estimate.
+ The deposit as defined in the mineral resource estimate is comprised of
+ several stacked lenses within a 290 m wide zone with an overall strike length
+ of 885 m. The individual domains or lenses vary in thickness from 4 m to 25 m.
+
+ The mineralization wireframe models were used to code the drill hole
+ database and to identify samples within the mineralized wireframes. These
+ samples were extracted from the database on a group-by-group basis, subjected
+ to statistical analyses for their respective domains, and then analyzed by
+ means of histograms and probability plots. A total of 18,681 samples were
+ contained within the mineralized wireframes.
+ Very high grade outliers were capped at 40% U3O8
+ within the A3 HG domain and 6%, 8%, 10%, 20%, and 25%
+ U3O8 in the other domains, resulting in a total of 154
+ capped assay values. No capping was applied to assays in the A2-HG domain.
+ Composites were created from the capped, raw assay values using the
+ downhole compositing function of the Vulcan modelling software package. The
+ composite lengths used during interpolation were chosen considering the
+ predominant sampling length, the minimum mining width, style of
+ mineralization, and continuity of grade.
+ Sample lengths range from 15 cm to 3.0 m within the wireframe models, with
+ 83% of the samples taken at 0.5 m intervals.
+ Given this distribution, and considering the width of the mineralization,
+ it was decided to composite to one metre lengths.
+ Assays within the wireframe domains were composited starting at the first
+ mineralized wireframe boundary from the collar and resetting at each new
+ wireframe boundary. Assays were capped prior to compositing. Composites less
+ than 0.5 m, located at the bottom of the mineralized intercept, were excluded
+ from the composite database. 
+
+- 23 - 
+
+ Downhole, omni-directional, and directional correlograms were generated
+ using the one-metre U3O8 composite values located within
+ the A2-HG mineralized domains.
+ The correlograms were used to support search ellipsoid anisotropy, linear
+ trends observed in the data, and Mineral Resource classification decisions.
+ The downhole correlogram suggests a relative nugget effect of approximately
+ 10%.
+ Long range directional correlograms were focused in the primary plane of
+ mineralization, which commonly strikes northeast and dips steeply to the
+ southeast. Most ranges were interpreted to be 20 m to 40 m. Ranges for the HG
+ domain also varied from 15 m to 30 m.
+ To aid in the evaluation of grade continuity, trend analysis, and
+ classification, a series of total grade x thickness contours for selected
+ individual wireframe were generated.
+ Bulk density was determined with specific gravity measurements on drill
+ core using the water immersion method according to the Archimedes principle,
+ after the core has been sealed and shrink wrapped in cellophane.
+ A total of 5,344 bulk density measurements have been collected on drill
+ core samples from the main mineralized zones to represent local major
+ lithologic units, mineralization styles, and alteration types.
+ Densities were interpolated into the block model to convert mineralized
+ volumes to tonnage, and were also used to weight the uranium grades
+ interpolated into each block.
+ Leapfrog wireframes were imported into Vulcan modelling software version
+ 10.1 to estimate resources.
+ A sub-block block model was created using a parent block size of 4 m
+ (along strike) by 4 m (across strike) by 4 m (bench height) and sub-blocks
+ that measured 1 m (along strike) by 1 m (across strike) by 1 m (bench height)
+ resulting in a total of 10,808,766 blocks.
+ The interpolation strategy involved setting up search parameters in a
+ series of three estimation runs for each individual domain. Search ellipse
+ dimensions were chosen following a review of drill hole spacing and
+ interpolation efficiency.
+ First, second, and third pass search ellipses maintained a 5:5:1
+ anisotropic ratio. Search ellipses were oriented with the major axis oriented
+ at parallel to the dominant northeasterly trend of the domains. The semi-major
+ axis was oriented horizontally, normal to the major axis (across strike), and
+ the minor axis was oriented with a plunge range of 0° to -53° and dip ranging
+ from -76° to - 90°.
+ In order to reduce the influence of very high grade composites, grades
+ greater than a designated threshold level for the A3-HG and other domains were
+ restricted to a search ellipse dimension of 25 m by 25 m by 5 m (high yield
+ restriction). The threshold grade levels of 15% for the A3-HG domains (8 and
+ 9) and 5% and 10% for the other domains were chosen from the basic statistics
+ and from visual inspection of the apparent continuity of very high grades
+ within each domain, which indicated the need to limit their influence to
+ approximately half the distance of the main search.
+ A potential underground mining cut-off grade was determined using
+ assumptions based on historical and known operating costs for mines operating
+ in the Athabasca Basin and based on assumptions for process plant recovery,
+ total operating cost, and incremental component of operating cost.
+ The estimated cut-off grade of 0.25% U3O8 is in line
+ with the cut-off grade of 0.25% at Cameco’s Rabbit Lake mine, which is
+ basement hosted mineralization similar geologically to Arrow. 
+The authors of the Rook I Technical Report are not aware of any
+known environmental, permitting, legal, title, taxation, socioeconomic,
+marketing, political, or other relevant factors that could materially affect the
+current mineral resource estimate. 
+
+- 24 - 
+Mining Operations 
+As set forth in the Rook I Technical Report, the PEA
+contemplates primarily underground mining. Access to the underground will be via
+a main shaft, with a second shaft, developed to approximately the same depth and
+used for return air. A third shaft will be excavated for the delivery of fresh
+air and to act as an alternate egress. It is assumed that artificial ground
+freezing would be implemented prior to any excavation below the groundwater
+table. A mine life of 15 years (“LOM”) is estimated. 
+The mining method for the underground will be a combination of
+transverse and longitudinal longhole open stoping with paste backfill.
+Transverse mining will be used in areas where the thickness of mineralization
+from footwall to hanging wall exceeds geotechnical stope dimension guidance or
+where stopes are in higher grade mineralization and developing the stope
+perpendicular to the vein will reduce radiation exposure. Underground stopes are
+planned on 30 m sub-levels. Stope lengths are 15 m in strike and have a variable
+width (hangingwall to footwall), typically from two to ten metres, with a
+maximum width of 20 m and an average width of approximately four to five metres.
+
+In general, mining will target high grade horizons early in the
+mine life, with separate access for the footwall and hanging wall zones to allow
+flexibility in sequencing. 
+The amenability of the mineral resource to the proposed mining
+method was based on geotechnical analysis (including rock quality designation,
+intact rock strength and geotechnical domains) and available information
+regarding the hydrogeology of the project. Stope dimensions were analyzed using
+the stability graph method. 
+Processing and Recovery Operations 
+The process plant is envisaged as a conventional uranium
+processing facility. The conceptual mill design will have a nominal feed rate of
+511,000 tonnes per annum and will have the capacity to produce approximately 29
+million pounds per year of U3O8. The mill will have an
+estimated U3O8 recovery of 96%.
+The major components of the process plant are the following:
+
+ Crushing, Milling and Classification
+ Acidic Leaching
+ Counter Current Decantation
+ Tailings Neutralization, Filtration, and Disposal
+ Pregnant Leach Solution Clarification
+ Solvent Extraction
+ Molybdenum Removal
+ Ammonium Diuranate Precipitation
+ Product Drying and Packaging 
+A preliminary plant arrangement has been prepared, however,
+some modifications, revisions and optimizations to the process plant layout are
+possible. 
+Infrastructure, Permitting, and Compliance Activities
+
+Project Infrastructure 
+Rook I Project infrastructure will consist of: 
+
+ Access Road: The Rook I Project is accessible from Highway 955 via a 15 km
+ road. This road can be utilized for both construction and operation of the
+ mine, with minimal improvements. In addition, a series of roads will be
+ constructed to connect various aspects of the operation together. 
+
+- 25 - 
+
+ Power Supply: A 14 MW diesel power generating station is planned for the
+ property, designed for an “n+2” redundancy configuration. A power grid will be
+ established on site to distribute the power to the underground mine, process
+ plant, camp, and ancillary buildings.
+ Propane: Liquefied propane gas (“LPG”) will primarily be used in
+ the process plant.
+ Fuel Storage: In addition to LPG, the site will require diesel for several
+ applications, as well as small amounts of gasoline for light-duty vehicles on
+ surface.
+ Explosives: An explosives storage area is planned for the Rook I Project,
+ and will be located in an area that is a suitable distance away from other
+ buildings and offices.
+ Surface Buildings: Multiple surface buildings will be constructed
+ including a maintenance shop primarily for surface support equipment, with a
+ separate underground maintenance shop to service underground mobile equipment,
+ a permanent camp to house 290 people on a fly-in, fly- out rotation; a process
+ building to house the grinding, leaching, CCD, SX, and drying and packaging
+ areas; and a dry facility, warehousing, and administration building.
+ Airstrip: An airstrip will be constructed at the Rook I Project, and will
+ function as the primary mechanism for moving people to and from the work site.
+
+ Water Systems: The Rook I Project will have several water service systems,
+ including a potable water plant, fire water system, fresh water system,
+ catchment and pumping systems, a central water storage system and an effluent
+ discharge treatment system.
+ Miscellaneous Services: Allowances were made for a site-wide
+ communications system, domestic waste disposal system, security system and
+ other ancillary services.
+ Waste Rock and Overburden Dumps and Stockpiles. A waste rock pad will be
+ constructed in the vicinity of the production shaft.
+ UGTMF: All of the tailings generated from the process plant will be
+ filtered in preparation for use as cemented paste fill, with the excess stored
+ underground. Purpose-built underground excavation chambers are planned to
+ store the excess cemented paste generated from tailings. 
+Environmental, Permitting and Social or Community Factors
+
+The authors of the Rook I Technical Report conducted a review
+of the Corporation’s licensing, permitting and environmental requirements and
+practices for conceptual development of the Rook I Project and made the
+following recommendations and conclusions: 
+
+ The use of underground tailings disposal will help create a relatively
+ small surface footprint and will make decommissioning and abandonment
+ relatively straightforward, thereby minimizing long term environmental
+ liabilities.
+ The mine should be designed to maximize water re-use, minimize the need
+ for freshwater, and discharge treated water of high quality.
+ The rate limiting step to production is the Canadian Nuclear Safety
+ Commission’s licensing processes in order to gain a Licence to Operate.
+ Additional local community engagement with La Loche, Buffalo Narrows, the
+ Clearwater River Dene Nation, the Meadow Lake Tribal Council, and other west
+ side impact communities, will be required to support the Environmental Impact
+ Assessment and other licensing processes.
+ Continue to maintain its fire readiness per the Corporation’s emergency
+ response plan.
+ Continue to maintain a radiation protection program with proper core and
+ cuttings handling, zone control and monitoring.
+ Additional safety, environmental, and social governance will be required
+ to support regulatory requirements for management systems.
+ Continue to demonstrate a commitment to occupational health and safety and
+ environmental protection with effective programs at site. 
+
+- 26 - 
+Capital and Operating Costs 
+The estimated capital costs for the Rook I Project are based on
+comparable projects, first-principles, subscription-based cost services,
+budgetary quotes from vendors and contractors, and information within the
+authors’ of the Rook I Technical Report respective project databases. The
+capital cost estimate for the Rook I Project is set out below: 
+
+ 
+ Description 
+ Cost 
+ 
+ 
+ C$millions 
+ 
+ Underground Mining 
+ 324.1 
+ 
+ Processing 
+ 243.9 
+ 
+ Infrastructure 
+ 143.1 
+ 
+ Subtotal Pre-Production Direct Costs 
+ 711.1 
+ 
+ Pre-Production Indirect Costs 
+ 241.0 
+ 
+ Subtotal Direct and Indirect 
+ 952.1 
+ 
+ Contingency 
+ 237.1 
+ 
+ Total Initial Capital Cost 
+ 1,189.2 
+ 
+ 
+ 
+ 
+ Sustaining 
+ 403.6 
+ 
+ Closure 
+ 64.0 
+ 
+ Total 
+ 1,656.8
+
+Operating costs were estimated for the Rook I Project and
+allocated to one of mining, processing, or general and administration and are
+summarized below: 
+
+ 
+ Description 
+ LOM Cost 
+ Average 
+ Unit Cost 
+ Unit Cost 
+ 
+ 
+ (C$ millions) 
+ Annual 
+ (C$/t processed) 
+ (C$/lb
+ U3O8) 
+ 
+ 
+ 
+ 
+ (C$ millions) 
+ 
+ 
+ 
+ 
+ 
+ Mining 
+ 963.9 
+ 66.7 
+ 132 
+ 3.61 
+ 
+ Processing 
+ 810.8 
+ 56.3 
+ 111 
+ 3.03 
+ 
+ General and Administration 
+ 462.0 
+ 32.0 
+ 63 
+ 1.73 
+ 
+ Total 
+ 2,236.7 
+ 154.9 
+ 306 
+ 8.37 
+A summary of the economic analysis, including cash flow, net
+present value, internal rate of return and payback period of the LOM of 15 years
+is set forth below: 
+
+ 
+ Pre-Tax 
+ 
+ 
+ Net Present Value at 8% 
+ C$5,781.0 million 
+ 
+ Net Present Value at10% 
+ C$4,933.7
+ million 
+ 
+ Net Present Value at 12% 
+ C$4,229.4 million 
+ 
+ Internal Rate of Return 
+ 74.9% 
+ 
+ Payback Period 
+ 0.9 years 
+ 
+ Cash Flow 
+ C$11,512.7
+ million 
+ 
+ 
+ 
+ 
+ After-Tax 
+ 
+ 
+ Net Present Value at 8% 
+ C$3,486.3 million 
+ 
+ Net Present Value at10% 
+ C$2,951.7
+ million 
+ 
+ Net Present Value at 12% 
+ C$2,507.7 million 
+ 
+ Internal Rate of Return 
+ 56.7 % 
+ 
+ Payback Period 
+ 1.1 years 
+ 
+ Cash Flow 
+ C$7,107.0
+ million 
+Notes: 
+
+ 
+ 
+ (1) 
+ 
+ No allowance has been made for cost inflation or
+ escalation or corporate costs.
+ 
+ 
+ (2) 
+ 
+ The capital structure is assumed to be 100% equity,
+ unleveraged.
+ 
+ 
+ (3) 
+ 
+ No allowance for working capital has been made in the
+ financial analysis.
+ 
+ 
+ (4) 
+ 
+ Assumes the Rook I Project has no salvage value at the
+ end of the mine life and excludes the recovery and sale of
+ by-products.
+ 
+ 
+ (5) 
+ 
+ Assumes a long-term price of uranium of US$50 per pound
+ U3O8, based on long-term forecasts and that 100% of
+ uranium sold at the long-term price.
+ 
+ 
+ (6) 
+ 
+ Using an exchange rate of C$1.00 = US$0.80.
+ 
+ 
+ (7) 
+ 
+ Life of mine processing of 7,310 kt grading 1.73%
+ U3O8.
+ 
+ 
+ (8) 
+ 
+ Assumes a nominal 511 kt of processed material per year
+ during steady state operations and total recovered yellowcake of 267.2
+ million pounds.
+ 
+ 
+ (9) 
+ 
+ Assumes transportation costs of C$740 per tonne
+ yellowcake, with presumed destination of Port Hope,
+ Ontario.
+
+- 27 - 
+
+ 
+ 
+ (10) 
+ 
+ Royalties calculated in accordance with “Guideline:
+ Uranium Royalty System, Government of Saskatchewan, June 2014”.
+ 
+ 
+ (11) 
+ 
+ Uses unit operating costs of C$306 per tonne of processed
+ material, or C$8.37 per pound of U3O8.
+ 
+ 
+ (12) 
+ 
+ Based on pre-production capital costs of C$1,189 million,
+ spread over three years.
+ 
+ 
+ (13) 
+ 
+ Based on sustaining capital costs (including reclamation)
+ of C$468 million, spread over the mine life.
+Exploration, Development, and Production 
+For a description of the Corporation’s proposed exploration and
+pre-development activities, see “Description of the Business” above. 
+RISK FACTORS 
+The operations of the Corporation are speculative due to the
+high-risk nature of its business which is the exploration of mining properties.
+These are not the only risks and uncertainties that NexGen faces. Additional
+risks and uncertainties not presently known to the Corporation or that the
+Corporation currently considers immaterial may also impair its business
+operations. These risk factors could materially affect the Corporation’s future
+operating results and could cause actual events to differ materially from those
+described in forward-looking statements relating to the Corporation. 
+Negative Operating Cash Flow and Dependence on Third Party
+Financing 
+The Corporation has no source of operating cash flow and there
+can be no assurance that the Corporation will ever achieve profitability.
+Accordingly, the Corporation is dependent on third party financing to continue
+exploration activities on the Corporation’s properties, maintain capacity and
+satisfy contractual obligations. Accordingly, the amount and timing of
+expenditures depends on the Corporation’s cash reserves and access to third
+party financing. Failure to obtain such additional financing could result in
+delay or indefinite postponement of further exploration and development of the
+Corporation’s properties, including the Rook 1 Project, or require the
+Corporation to sell one or more of its properties (or an interest therein). In
+particular, there can be no assurance that the Corporation will have achieved
+profitability prior to the Maturity Date and may be required to finance the
+repayment of all or a part of the principal amount of the Convertible
+Debentures. Failure to repay the Convertible Debentures in accordance with the
+terms thereof would have a material adverse effect on the Corporation’s
+financial position. 
+Uncertainty of Additional Financing 
+As stated above, the Corporation is dependent on third party
+financing, whether through debt, equity, or other means. Although the
+Corporation has been successful in raising funds to date, there is no assurance
+that the Corporation will be successful in obtaining required financing in the
+future or that such financing will be available on terms acceptable to the
+Corporation. The Corporation’s access to third party financing depends on a
+number factors including the price of uranium, the results of ongoing
+exploration, the results of the PFS and any other economic or other analysis,
+the Corporation’s obligations under the Convertible Debentures, a claim against
+the Corporation, a significant event disrupting the Corporation’s business or
+uranium industry generally, or other factors may make it difficult or impossible
+to obtain financing through debt, equity, or other means on favourable terms, or
+at all. As previously stated, failure to obtain such additional financing could
+result in delay or indefinite postponement of further exploration and
+development of the Corporation’s properties, including the Rook 1 Project, or
+require the Corporation to sell one or more of its properties (or an interest
+therein). 
+The Price of Uranium and Alternate Sources of Energy
+
+The price of uranium is at historically low levels and the
+price of the Corporation’s securities is highly sensitive to fluctuations in the
+price of uranium. Historically, the fluctuations in these prices have been, and
+are expected to continue to be, affected by numerous factors beyond the
+Corporation’s control. Such factors include, among others: demand for nuclear
+power; political and economic conditions in uranium producing and consuming
+countries; public and political response to a nuclear accident; improvements in
+nuclear reactor efficiencies; reprocessing of used reactor fuel
+and the re-enrichment of depleted uranium tails; sales of excess inventories by
+governments and industry participants; and production levels and production
+costs in key uranium producing countries. 
+
+- 28 - 
+In addition, nuclear energy competes with other sources of
+energy like oil, natural gas, coal and hydroelectricity. These sources are
+somewhat interchangeable with nuclear energy, particularly over the longer term.
+If lower prices of oil, natural gas, coal and hydro-electricity are sustained
+over time, it may result in lower demand for uranium concentrates and uranium
+conversion services, which, among other things, could lead to lower uranium
+prices. Growth of the uranium and nuclear power industry will also depend on
+continuing and growing public support for nuclear technology to generate
+electricity. Unique political, technological and environmental factors affect
+the nuclear industry, exposing it to the risk of public opinion, which could
+have a negative effect on the demand for nuclear power and increase the
+regulation of the nuclear power industry. An accident at a nuclear reactor
+anywhere in the world could affect acceptance of nuclear energy and the future
+prospects for nuclear generation. 
+All of the above factors could have a material and adverse
+effect on the Corporation’s ability to obtain the required financing in the
+future or to obtain such financing on terms acceptable to the Corporation,
+resulting in material and adverse effects on its exploration and development
+programs, cash flow and financial condition. 
+Exploration Risks 
+Exploration for mineral resources involves a high degree of
+risk and few properties that are explored are ultimately developed into
+producing mines. The risks and uncertainties inherent in exploration activities
+include but are not limited to: general economic, market and business
+conditions, the regulatory process and actions, failure to obtain necessary
+permits and approvals, technical issues, new legislation, competitive and
+general economic factors and conditions, the uncertainties resulting from
+potential delays or changes in plans, the occurrence of unexpected events and
+management’s capacity to execute and implement its future plans. There is also
+no assurance that even if commercial quantities of ore are discovered that it
+will be developed and brought into commercial production. The commercial
+viability of a mineral deposit once discovered is also dependent upon a number
+of factors, most of which factors are beyond the control of the Corporation and
+may result in the Corporation not receiving adequate return on investment
+capital. 
+Uninsurable Risks 
+Mining operations generally involve a high degree of risk.
+Exploration, development and production operations on mineral properties involve
+numerous risks, including but not limited to unexpected or unusual geological
+operating conditions, seismic activity, rock bursts, cave-ins, fires, floods,
+landslides, earthquakes and other environmental occurrences, and political and
+social instability, any of which could result in damage to, or destruction of,
+life or property, environmental damage and possible legal liability. Although
+the Corporation believes that appropriate precautions to mitigate these risks
+are being taken, operations are subject to hazards such as equipment failure or
+failure of structures, which may result in environmental pollution and
+consequent liability. It is not always possible to obtain insurance against all
+such risks and the Corporation may decide not to insure against certain risks
+because of high premiums or other reasons. Should such liabilities arise, they
+could reduce or eliminate the Corporation's future profitability and result in
+increasing costs and a decline in the value of the Common Shares. While the
+Corporation may obtain insurance against certain risks in such amounts as it
+considers adequate, the nature of these risks is such that liabilities could
+exceed policy limits or be excluded from coverage. The potential costs that
+could be associated with any liabilities not covered by insurance or in excess
+of insurance coverage may cause substantial delays and require significant
+capital outlays, thereby adversely affecting the Corporation's business and
+financial condition. 
+
+- 29 - 
+Reliance upon Key Management and Other Personnel 
+The Corporation relies on the specialized skills of management
+in the areas of mineral exploration, geology and business negotiations and
+management. The loss of any of these individuals could have an adverse affect on
+the Corporation. The Corporation does not currently maintain key-man life
+insurance on any of its key employees. In addition, as the Corporation’s
+business activity continues to grow, it will require additional key financial,
+administrative and qualified technical personnel. Although the Corporation
+believes that it will be successful in attracting, retaining and training
+qualified personnel, there can be no assurance of such success. If it is not
+successful in attracting, retaining and training qualified personnel, the
+efficiency of the Corporation’s business could be affected, which could have an
+adverse impact on its future cash flows, earnings, results of operation and
+financial condition. 
+Imprecision of Mineral Resource Estimates 
+Mineral resource figures are estimates, and no assurances can
+be given that the estimated levels of uranium will be produced. Such estimates
+are expressions of judgment based on knowledge, mining experience, analysis of
+drilling results and industry practices. Valid estimates made at a given time
+may significantly change when new information becomes available. While the
+Corporation believes that its mineral resource estimate is well established and
+reflects management’s best estimates, by their nature, mineral resource
+estimates are imprecise and depend, to a certain extent, upon statistical
+inferences which may ultimately prove unreliable. Should the Corporation
+encounter mineralization or formations different from those predicted by past
+sampling and drilling, resource estimates may have to be adjusted. 
+These are not the only risks and uncertainties that NexGen
+faces. Additional risks and uncertainties not presently known to the Corporation
+or that the Corporation currently considers immaterial may also impair its
+business operations. These risk factors could materially affect the
+Corporation’s future operating results and could cause actual events to differ
+materially from those described in forward-looking statements relating to the
+Corporation. 
+Pending Assay Results 
+Due to the nature of uranium and immediate visibility of
+radioactive content, in the interest of good disclosure practices it is the
+Corporation’s practice to measure the natural gamma radiation of all core using
+a Radiation Solutions Inc. RS-120 gamma-ray handheld scintillometer as soon as
+practicable and immediately announce the results thereof by news release. After
+core has been appropriately handled and logged, samples are dispatched for
+testing. Assay results historically are generally received between 30 and 120
+days after receipt of samples by the laboratory. The total count gamma readings
+using the scintillometer may not be directly or uniformly related to uranium
+grades of the sample measured and are only a preliminary indication of the
+presence of radioactive minerals. Core interval measurements and true
+thicknesses are not determined until assay results are received. There can be no
+assurance that assay results, once received, will confirm the previously
+announced scintillometer readings. 
+Aboriginal Title and Consultation Issues 
+First Nations and Métis claims to aboriginal title, as well as
+related consultation issues, may impact NexGen’s ability to conduct exploration,
+development and mining activities at its mineral properties in Saskatchewan.
+Pursuant to historical treaties, First Nations bands in northern Saskatchewan
+ceded title to most traditional lands, but continue to assert title to the
+minerals within those lands. Managing relations with First Nations bands is a
+matter of paramount importance to NexGen. However, there can be no assurance
+that aboriginal title claims and related consultation issues will not arise on
+or with respect to the Corporation’s mineral properties. NexGen’s properties are
+located in Northern Saskatchewan in areas which are covered by treaty and not
+subject to current Aboriginal title claims. 
+
+- 30 - 
+Title to Properties 
+NexGen has diligently investigated all title matters concerning
+the ownership of all mineral claims and plans to do so for all new claims and
+rights to be acquired. While to the best of its knowledge, title to NexGen’s
+mineral properties are in good standing, this should not be construed as a
+guarantee of title. NexGen’s mineral properties may be affected by undetected
+defects in title, such as the reduction in size of the mineral titles and other
+third party claims affecting NexGen’s interests. Maintenance of such interests
+is subject to ongoing compliance with the terms governing such mineral titles.
+Mineral properties sometimes contain claims or transfer histories that examiners
+cannot verify. A successful claim that NexGen does not have title to any of its
+mineral properties could cause NexGen to lose any rights to explore, develop and
+mine any minerals on that property, without compensation for its prior
+expenditures relating to such property. 
+Information Systems and Cyber Security 
+The Corporation’s information systems are vulnerable to an
+increasing threat of continually evolving cybersecurity risks. Unauthorized
+parties may attempt to gain access to these systems or the Corporation’s
+information through fraud or other means of deception. The Corporation’s
+operations depend, in part, on how well the Corporation and those entities with
+which it does business, protect networks, equipment, information technology
+systems and software against damage from a number of threats. The failure of
+information systems or a component of information systems could, depending on
+the nature of any such failure, adversely impact the Corporations reputation and
+results of operations. 
+Although to date the Corporation has not experienced any
+material losses relating cyber-attacks or other information security breaches,
+there can be no assurance that the Corporation will not incur such losses in the
+future. The Corporation’s risk and exposure to these matters cannot be fully
+mitigated because of, among other things, the evolving nature of these threats.
+As a result, cyber security and the continued development and enhancement of
+controls, processes and practices designed to protect systems, computers,
+software, data and networks from attack, damage or unauthorized access remain a
+priority. 
+Conflicts of Interest 
+Directors of NexGen are or may become directors of other
+reporting companies or have significant shareholdings in other mineral resource
+companies and, to the extent that such other companies may participate in
+ventures in which NexGen may participate, the directors of NexGen may have a
+conflict of interest in negotiating and concluding terms respecting the extent
+of such participation. NexGen and its directors will attempt to minimize such
+conflicts. 
+Permits and Licences 
+NexGen’s operations will require licences and permits from
+various governmental and non-governmental authorities. NexGen has obtained, or
+will obtain, all necessary licences and permits required to carry on with
+activities which it is currently conducting or which it proposes to conduct
+under applicable laws and regulations. However, such licences and permits are
+subject to changes in regulations and in various operating circumstances. There
+can be no assurance that NexGen will be able to obtain all necessary licences
+and permits required to carry out planned exploration, development and mining
+operations at any of its projects. 
+
+- 31 - 
+Environmental and Other Regulatory Requirements 
+Environmental and other regulatory requirements affect the
+current and future operations of NexGen, including exploration and development
+activities, require permits from various federal and local governmental
+authorities and such operations are and will be governed by laws and regulations
+governing prospecting, development, mining, production, exports, taxes, labour
+standards, occupational health, waste disposal, toxic substances, land use,
+environmental protection, mine safety and other matters. NexGen believes it is
+in substantial compliance with all material laws and regulations which currently
+apply to its activities. Companies engaged in the development and operation of
+mines and related facilities often experience increased costs, along with delays
+in production and other schedules, as a result of the need to comply with
+applicable laws, regulations and permits. 
+Additional permits and studies, which may include environmental
+impact studies conducted before permits can be obtained, may be necessary prior
+to operation of NexGen’s mineral properties. There can be no assurance that
+NexGen will be able to obtain or maintain all necessary permits that may be
+required to commence construction, development or operation of mining facilities
+at NexGen’s mineral properties on terms which enable operations to be conducted
+at economically justifiable costs. 
+Failure to comply with applicable laws, regulations, and
+permitting requirements may result in enforcement actions, including orders
+issued by regulatory or judicial authorities causing operations to cease or be
+curtailed, and may include corrective measures requiring capital expenditures,
+installation of additional equipment, or remedial actions. Parties engaged in
+mining operations may be required to compensate those suffering loss or damage
+by reason of the mining activities and may have civil or criminal fines or
+penalties imposed for violations of applicable laws or regulations and, in
+particular, environmental laws. 
+Amendments to current laws, regulations and permits governing
+operations and activities of mining companies, or more stringent implementation
+thereof, could have a material adverse impact on NexGen and cause increases in
+capital expenditures or production costs or reductions in levels of production
+at producing properties or require abandonment or delays in development of new
+mining properties. 
+Political Regulatory Risks 
+Any changes in government policy may result in changes to laws
+affecting ownership of assets, mining policies, monetary policies, taxation,
+rates of exchange, environmental regulations, labour relations and return of
+capital. Any such changes may affect both NexGen’s ability to undertake
+exploration and development activities in respect of present and future
+properties in the manner currently contemplated, and its ability to continue to
+explore, develop and operate those properties in which it has an interest or in
+respect of which it has obtained exploration and development rights to date. The
+possibility that future governments may adopt substantially different policies,
+which might extend to expropriation of assets, cannot be ruled out. 
+Competition 
+The mineral exploration business is a competitive business. The
+Corporation competes with numerous other companies and individuals who may have
+greater financial resources in the search for and the acquisition of personnel,
+funding and attractive mineral properties. As a result of this competition, the
+Corporation may be unable to obtain additional capital or other types of
+financing on acceptable terms or at all, acquire properties of interest or
+retain qualified personnel. 
+
+- 32 - 
+Trading Price of Common Shares 
+The trading price of the Common Shares may be subject to large
+fluctuations. The trading price of the Common Shares may increase or decrease in
+response to a number of events and factors, including: the price of metals and
+minerals including the price of uranium; the Corporation’s operating performance
+and the performance of competitors and other similar companies; exploration and
+development of the Corporation’s properties; the public’s reaction to the
+Corporation’s press releases, other public announcements and the Corporation’s
+filings with the various securities regulatory authorities; changes in earnings
+estimates or recommendations by research analysts who track the Common Shares or
+the shares of other companies in the resource sector; changes in general
+economic conditions; the number of Common Shares to be publicly traded after the
+Offering; the arrival or departure of key personnel; and acquisitions, strategic
+alliances or joint ventures involving the Corporation or its competitors. 
+In addition, the market price of the Common Shares is affected
+by many variables not directly related to the Corporation’s success and not
+within the Corporation’s control, including: developments that affect the market
+for all resource sector shares; the breadth of the public market for the
+Corporation’s common shares; and the attractiveness of alternative investments.
+In addition, securities markets have recently experienced an extreme level of
+price and volume volatility, and the market price of securities of many
+companies has experienced wide fluctuations which have not necessarily been
+related to the operating performance, underlying asset values or prospects of
+such companies. As a result of these and other factors, the Corporation’s share
+price may be volatile in the future and may decline below the price at which an
+investor acquired its shares. Accordingly, investors may not be able to sell
+their securities at or above their acquisition cost. 
+Potential Dilution from Future Financings 
+Additional financing needed to continue funding the
+exploration, development and operation of the Corporation’s properties may
+require the issuance of additional securities of the Corporation. The issuance
+of additional securities and the exercise of Common Share purchase warrants,
+stock options and other convertible securities will result in dilution of the
+equity interests of any persons who are or may become holders of Common Shares.
+
+Volatility of Share Price 
+In recent years, the securities markets in the United States
+and Canada, have experienced a high level of price and volume volatility, and
+the market prices of securities of many companies have experienced wide
+fluctuations in price that have not necessarily been related to the operating
+performance, underlying asset values or prospects of such companies. There can
+be no assurance that continual fluctuations in price will not occur. It may be
+anticipated that any quoted market for the shares will be subject to market
+trends and conditions generally, notwithstanding any potential success of NexGen
+in creating revenues, cash flows or earnings. 
+No Dividends Paid to Date 
+No dividends on the Common Shares have been paid by NexGen to
+date. NexGen anticipates that, for the foreseeable future, it will retain future
+earnings and other cash resources for the operation and development of its
+business. Payment of any future dividends will be at the discretion of the Board
+after taking into account many factors, including NexGen’s financial condition
+and current and anticipated cash needs. 
+DIVIDENDS 
+Although not restricted from doing so, the Corporation has not
+paid any dividends since incorporation and the Corporation does not expect to pay dividends in the
+foreseeable future. Payment of dividends in the future will be made at the
+discretion of the Corporation’s board of directors based upon, among other
+things, cash flow, the results of operations and financial condition of the
+Corporation, the need for funds to finance ongoing operations and such other
+considerations as the board of directors considers relevant. 
+
+- 33 - 
+DESCRIPTION OF CAPITAL STRUCTURE 
+The authorized capital of NexGen consists of an unlimited
+number of Common Shares and an unlimited number of preferred shares. As at
+December 31, 2017, there were 339,339,356 Common Shares and no preferred shares
+issued and outstanding. As of the date hereof, there are 343,322,690 Common
+Shares and no preferred shares issued and outstanding. 
+Holders of Common Shares are entitled to receive notice of
+meetings of shareholders of the Corporation, to attend and to cast one vote per
+Common Share at all such meetings. Holders of the Common Shares are entitled to
+receive, on a pro rata basis, such dividends if, as and when declared by
+the Corporation’s board of directors. In the event of any liquidation,
+dissolution or winding-up of the Corporation or other distribution of the assets
+of the Corporation among holders of Common Shares for the purposes of winding-up
+its affairs, the holders of Common Shares will be entitled, subject to the
+rights of the holders of any other class or series of shares ranking senior to
+the Common Shares, to receive on a pro rata basis the remaining property or
+assets of the Corporation available for distribution, after the payment of debts
+and other liabilities. The Common Shares do not have attached to them any
+conversion, exchange rights, exercise, redemption or retraction provisions. 
+TRADING PRICE AND VOLUME 
+The Common Shares are listed and posted for trading on the TSX
+and the NYSE American LLC under the symbol “NXE”. The following table sets forth
+the high and low trading prices and trading volumes of the Common Shares on the
+TSX on a monthly basis for the financial year ended December 31, 2017: 
+
+ 
+ Month 
+ 
+ High ($) 
+ 
+ Low ($) 
+ 
+ Volume 
+ 
+ January 
+ 
+ 3.75 
+ 
+ 2.31 
+ 
+ 47,850,450 
+ 
+ February 
+ 
+ 4.45 
+ 
+ 3.28 
+ 
+ 38,833,651 
+ 
+ March 
+ 
+ 3.95 
+ 
+ 2.95 
+ 
+ 44,448,361 
+ 
+ April 
+ 
+ 3.53 
+ 
+ 2.88 
+ 
+ 15,337,152 
+ 
+ May 
+ 
+ 3.38 
+ 
+ 2.85 
+ 
+ 24,469,044 
+ 
+ June 
+ 
+ 3.14 
+ 
+ 2.43 
+ 
+ 15,237,768 
+ 
+ July 
+ 
+ 3.28 
+ 
+ 2.78 
+ 
+ 12,731,926 
+ 
+ August 
+ 
+ 3.33 
+ 
+ 2.67 
+ 
+ 10,999,084 
+ 
+ September 
+ 
+ 3.09 
+ 
+ 2.69 
+ 
+ 12,428,447 
+ 
+ October 
+ 
+ 2.88 
+ 
+ 2.40 
+ 
+ 10,160,779 
+ 
+ November 
+ 
+ 3.41 
+ 
+ 2.40 
+ 
+ 38,066,380 
+ 
+ December 
+ 
+ 3.58 
+ 
+ 2.96 
+ 
+ 21,368,174 
+The price of the Common Shares as quoted by the TSX at the
+close of business on December 29, 2017 (being the last trading day in 2017) was
+$3.21 and at the close of business on March 1, 2018 was $2.72. 
+
+- 34 - 
+PRIOR SALES 
+The following table sets forth the securities of the
+Corporation that were issued during the financial year ended December 31, 2017,
+but not listed or quoted on a marketplace: 
+
+ 
+ 
+ 
+ Price
+ per 
+ 
+ 
+ 
+ Issue or 
+ 
+ Security 
+ 
+ 
+ 
+ Grant Date 
+ Type of Security 
+ ($) 
+ Number of Securities 
+ Expiry Date 
+ 
+ January 19, 2017 
+ Stock Options 
+ 3.30 
+ 150,000 
+ July 22, 2018 
+ 
+ April 22, 2017 
+ Stock Options 
+ 3.11 
+ 250,000 
+ April 22, 2022 
+ 
+ July 21, 2017 
+ Convertible Debentures 
+ US$2.6919 
+ US$60 million 
+ July 22, 2022 
+ 
+ November 13, 2017 
+ Stock Options 
+ 2.93 
+ 1,475,000 
+ November 13, 2022 
+ 
+ December 14, 2017 
+ Stock Options 
+ 3.39 
+ 4,325,000 
+ December 14, 2022
+ 
+Notes: 
+
+ 
+ 
+ (1) 
+ 
+ All stock options have a term of three years and vest
+ one-third annually, commencing on the grant date.
+DIRECTORS AND OFFICERS 
+The following table sets forth the name, province/state and
+country of residence, position(s) held with the Corporation and principal
+occupation during the five preceding years of each person who is a director
+and/or an executive officer of the Corporation as at the date hereof. 
+
+ 
+ Name and 
+ Province/State and
+ Country of Residence(1) 
+ 
+ Position(s) with the
+ Corporation 
+ 
+ Principal
+ Occupation(1) 
+ 
+ Leigh Curyer, British Columbia, Canada 
+ CEO and Director (since April 19, 2013) 
+ 
+ President, CEO and Director of NexGen (April 2013 to
+ present); CEO and Director of NexGen’s predecessor (2011 to April 2013);
+ and Partner, Head of Corporate Development of Accord Nuclear Resources
+ Management (2008 to 2011) 
+ 
+ Chris McFadden(2) ,Brighton,
+ Australia 
+ Director (since April 19, 2013) Chairman of the
+ Board (since May 22, 2014) 
+ 
+ President and CEO of NxGold Ltd. (February 2017 to
+ present); Business Development Manager, Newcrest Mining Limited (August
+ 2015 to January 2017); Head of Commercial, Strategy and Corporate
+ Development Tigers Realm Coal Limited (2013 to July 2015); General
+ Manager, Business Development of Tigers Realm Minerals Pty Ltd. (2010 to
+ 2013) 
+ 
+ Warren Gilman,(4) Hong Kong 
+ Director (since July 21, 2017) 
+ 
+ Chairman and CEO of CEF Holdings Limited (May 2011 to
+ present); Managing Director and Head of Asia Pacific Region for Canadian
+ Imperial Bank of Commerce (February 2002 to May 2011) 
+ 
+ Craig Parry, British Columbia, Canada 
+ Director (since May 22, 2014) 
+ 
+ President and CEO of IsoEnergy Ltd. (April 2016 to
+ present); CEO of Tigers Realm Coal (2012 to 2015) 
+ 
+ Richard Patricio(2)(3) ,
+ Mississauga, Canada 
+ Director (since April 19, 2013) 
+ 
+ President and CEO of Mega Uranium Ltd. (March 2015 to
+ present) and Executive Vice President (2005 to 2015); CEO of Pinetree
+ Capital Ltd. (February 2015 to April 2016); Vice- President, Legal and
+ Corporate Affairs, Pinetree Capital Ltd. (investment firm) (2005 to
+ February 2015) 
+
+- 35 - 
+
+ 
+ Name and 
+ Province/State and
+ Country of Residence(1) 
+ 
+ Position(s) with the
+ Corporation 
+ 
+ Principal
+ Occupation(1) 
+ 
+ Trevor Thiele(2)(3) ,
+ Tennyson, Australia 
+ Director (since April 19, 2013) 
+ 
+ Director of NexGen (April 2013 to present); Director of
+ NexGen’s predecessor (2011 to April 2013) 
+ 
+ Joanna Cameron, British Columbia, Canada 
+ Vice President Legal and General Counsel,
+ Corporate Secretary 
+ 
+ Partner at Cassels Brock & Blackwell LLP (2012 to
+ 2015) and Partner at Lawson Lundell LLP (2006 to 2012) 
+ 
+ Bruce Sprague, British Columbia, Canada 
+ Chief Financial Officer 
+ 
+ Chief Financial Officer of NexGen (November 2017 to
+ present); Senior Partner, EY (July 2003 to November 2017); EY Canadian
+ Mining and Metals Sector Leader (July 2012 to September 2016) 
+ 
+ Garrett Ainsworth, British Columbia, Canada 
+ Vice President, Exploration & Development
+ 
+ 
+ Vice President, Exploration & Development of NexGen
+ (June 2014 to present); Vice President Exploration of Alpha Exploration
+ (2013 to 2014); Vice President Exploration of Alpha Minerals (2012 to
+ 2013); Vice President Exploration of Alpha Exploration Inc., Project
+ Manager of the Patterson Lake South (PLS) Project (2007 to 2013)
+ 
+Notes: 
+
+ 
+ (1) 
+ 
+ The information as to place of residence and principal
+ occupation is not within the knowledge of the management of NexGen and has
+ been furnished by the respective directors and officers of
+ NexGen.
+ 
+ 
+ 
+ 
+ (2) 
+ 
+ Member of the Audit Committee.
+ 
+ 
+ 
+ 
+ (3) 
+ 
+ Member of the Compensation and Governance
+ Committee.
+ 
+ 
+ 
+ 
+ (4) 
+ 
+ Mr. Gilman is a nominee of CEF Holdings Limited,
+ appointed pursuant to the terms of the Investor Rights Agreement described
+ above.
+Directors are elected at each annual meeting of NexGen’s
+shareholders and serve as such until the next annual meeting or until their
+successors are elected or appointed. 
+As at the date hereof, the directors and executive officers of
+NexGen, as a group, beneficially owned, directly or indirectly, or exercised
+control or direction over 3,560,965 common shares, representing approximately
+1.04% of the total number of common shares outstanding before giving effect to
+the exercise of options or warrants to purchase common shares held by such
+directors and executive officers. The statement as to the number of common
+shares beneficially owned, directly or indirectly, or over which control or
+direction is exercised by the directors and executive officers of NexGen as a
+group is based upon information furnished by the directors and executive
+officers.
+The principal occupations of each of the Corporation’s
+directors and executive officers within the past five years are disclosed in the
+brief biographies set forth below. 
+Leigh Curyer, President, Chief Executive Officer and
+Director 
+Mr. Curyer has over 20 years’ experience in the resources and
+corporate sector. Mr. Curyer was previously the Chief Financial Officer and head
+of corporate development of Southern Cross Resources Inc. (now Uranium One
+Inc.). In addition, from 2008 to 2011, Mr. Curyer was Head of Corporate
+Development for Accord Nuclear Resource Management assessing uranium projects
+worldwide for First Reserve Corporation, a global energy-focused private equity
+and infrastructure investment firm. 
+Mr. Curyer’s uranium project assessment experience has been
+focused on assets located in Canada, Australia, USA, Africa, Central Asia and
+Europe, incorporating operating mines, advanced development projects and
+exploration prospects. Mr. Curyer is a member of the Institute of Chartered
+Accountants in Australia. 
+
+- 36 - 
+Christopher McFadden, Chairman of the Board of Directors
+
+Mr. McFadden is a lawyer with 21 years’ experience in
+exploration and mining and is currently the President and Chief Executive
+Officer of NxGold Ltd. Mr. McFadden was previously the Manager, Business
+Development at Newcrest Mining Limited and the Head of Commercial, Strategy and
+Corporate Development for Tigers Realm Coal Limited, which is listed on the ASX.
+Additionally, Mr. McFadden was General Manager, Business Development of Tigers
+Realm Minerals Pty Ltd. Prior to commencing with the Tigers Realm Group of
+companies in 2010 he was a Commercial General Manager with Rio Tinto’s
+exploration division with responsibility for gaining entry into new projects
+either by negotiation with government or joint venture partners or through
+acquisition. 
+Mr. McFadden has extensive international experience in managing
+large and complex transactions and has a broad knowledge of all aspects of
+project evaluation and negotiating project entry in challenging and varied
+environments. Mr. McFadden holds a combined law/commerce degree from Melbourne
+University and an MBA from Monash University. 
+Warren Gilman, Director 
+Mr. Gilman was appointed as a Director of NexGen on July 21,
+2017. He was appointed Chairman and CEO of CEF Holdings Limited in 2011. Prior
+to that he was Vice Chairman of CIBC World Markets. He was previously Managing
+Director and Head of Asia Pacific Region for CIBC for 10 years where he was
+responsible for all of CIBC's activities across Asia. Mr Gilman is a mining
+engineer who co-founded CIBC's Global Mining Group in 1988. During his 26 years
+with CIBC he ran the mining team in Canada, Australia and Asia and worked in the
+Toronto, Sydney, Perth, Shanghai and Hong Kong offices of CIBC. He has acted as
+advisor to the largest mining companies in the world including BHP, Rio Tinto,
+Anglo American, Noranda, Falconbridge, Meridian Gold, China Minmetals, Jinchuan
+and Zijin and has been responsible for some of the largest equity capital
+markets financings in Canadian mining history. 
+Mr. Gilman is a regular contributor to mining industry forums
+and discussions. In addition to bi-weekly commentary on commodity and mining
+issues for the CNBC Asia Network, he has annually co-chaired Diggers and Dealers
+in Kalgoorlie and the China Nickel Conference in Shanghai. He has presented
+annually to the Asia Mining Congress in Singapore and Mines and Money Hong Kong
+as well as various CIM events in Canada. 
+Mr. Gilman obtained his B.Sc. in Mining Engineering at Queen's
+University and his MBA from the Ivey Business School at Western University. He
+is Chairman of the International Advisory Board of Western University and a
+member of the Dean's Advisory board of Laurentian University. 
+Craig Parry, Director 
+Mr. Parry is a founding member of the Tigers Realm Group and
+was appointed to the board of directors of each of Tigers Realm Minerals, Tigers
+Realm Metals and NexGen Energy Ltd. (as it then was prior to the Qualifying
+Transaction) in 2011. Mr. Parry was appointed to the role of Chief Executive
+Officer of Tigers Realm Coal in 2012 and acted in that capacity until 2015. As
+of April 1, 2016, Mr Parry was appointed as Chief Executive Officer of IsoEnergy
+Ltd., currently a 63.9% owned subsidiary of the Corporation. 
+Mr. Parry is an exploration and business development geologist
+and has been responsible for the business development activities of the Tigers
+Realm Group since inception in 2008. Prior to joining Tigers Realm, Mr. Parry
+was the Business Development Manager for G-Resources Limited responsible for
+mergers and acquisitions and Principal Geologist – New Business at Oxiana
+Limited responsible for strategy and business development initiatives in bulk
+and energy commodities. At Rio Tinto he led exploration programs for iron ore,
+copper, diamonds, coal and bauxite in Australia, Asia and South America and was Principal Geologist for the Kintyre Uranium
+project pre-feasibility study. Mr Parry holds an Honours Degree in Geology and
+is a Member of the AusIMM. 
+
+- 37 - 
+Richard Patricio, Director 
+In March 2015, Mr. Patricio was appointed Chief Executive
+Officer and President of Mega Uranium Ltd., having been its Executive
+Vice-President since 2005. From February 2015 to April 2016, Mr. Patricio was
+the Chief Executive Officer of Pinetree Capital Ltd., having been its
+Vice-President, Corporate and Legal Affairs since 2005. 
+Previously, Mr. Patricio worked as in-house General Counsel for
+a senior TSX-listed manufacturing company. Prior to that, Mr. Patricio practiced
+law at Osler LLP in Toronto where he focused on mergers and acquisitions,
+securities law and general corporate matters. 
+Mr. Patricio has built a number of mining companies with global
+operations and holds senior officer and director positions in several companies
+listed on stock exchanges in Toronto, Australia, London and New York. Mr.
+Patricio received his law degree from Osgoode Hall and was called to the Ontario
+bar in 2000. 
+Trevor Thiele, Director 
+Mr. Thiele has over 30 years’ experience in senior finance
+roles in medium to large Australian ASX listed companies. He has been Chief
+Financial Officer for companies involved in the Agribusiness sector (Elders and
+ABB Grain Ltd, Rural Services Division) and the Biotechnology sector (Bionomics
+Limited). In these roles he combined his technical accounting and financial
+skills with commercial expertise thereby substantially contributing to the
+growth of each of these businesses. During this time, Mr. Thiele was actively
+involved in IPO’s, capital raisings, corporate restructures, mergers and
+acquisitions, refinancing and joint ventures. 
+Mr. Thiele is currently a non-executive director of a number of
+non-listed Australian entities, including acting as Chairman of two of these
+entities. 
+Mr. Thiele holds a Bachelor of Arts in Accountancy from the
+University of South Australia and he is a member of the Institute of Chartered
+Accountants in Australia. 
+Joanna Cameron, Vice President Legal and General Counsel,
+Corporate Secretary 
+Ms. Cameron is Vice President Legal, General Counsel and
+Corporate Secretary of the Corporation and has 20 years experience as a lawyer.
+Prior to joining NexGen, Ms. Cameron was a partner at Cassels Brock &
+Blackwell LLP providing corporate, governance and securities and corporate
+advice to clients, particularly those in the mining sector. Ms. Cameron was also
+previously a partner at Lawson Lundell LLP and BHT LLP. Ms. Cameron obtained her
+Bachelor of Laws from the University of Saskatchewan and a Bachelor of Arts,
+Honours (Economics and History) from Queen’s University. 
+Ms. Cameron was named in the Canadian Legal Lexpert Directory
+(Mining) for 2015, achieved the Martindale-Hubbell, BV Distinguished rating,
+named in Best Lawyers in Canada (2013 to 2016) and was a finalist in the Lexpert
+“Top 40 Under 40” (2009) and the Western Canada General Counsel Awards (2017).
+
+Bruce Sprague, Chief Financial Officer 
+Mr. Sprague has been the Chief Financial Officer of NexGen
+since November 2017. He was most recently Partner, Canadian Mining and Metals
+Sector for Ernst & Young and has over 25 years of experience advising
+multinational and emerging corporations on business issues in a broad range of
+countries. Mr. Sprague led key client teams for some of the largest Canada-based
+mining companies on strategic business initiatives and growth platforms. He is
+also a frequent lecturer at numerous mining industry forums on a broad range of topics and an author for
+several publications on taxation and mining issues. 
+
+- 38 - 
+Mr. Sprague is currently a member of the Industry Advisory
+Committee for the UBC Norman B. Keevil Institute of Mining Engineering, a member
+of the Advisory Council of the Canadian International Resources and Development
+Institute (CIRDI), and a former member of the Board of Directors for the
+Prospectors and Developers Association of Canada (PDAC) and a former member of
+the Board of Directors of the Association for Mineral Exploration of British
+Columbia (AMEBC). 
+Mr. Sprague is a Chartered Accountant, Certified Public
+Accountant (U.S.), Chartered Financial Planner and holds a Bachelor of Commerce
+Degree from Carleton University. 
+Garrett Ainsworth, Vice President, Exploration and
+Development 
+Mr. Ainsworth is a professional geologist and the Vice
+President Exploration and Development for NexGen. Mr. Ainsworth has a Diploma of
+Technology in Mining and Bachelor of Technology in Environmental Engineering
+with honours from BCIT, as well as a Bachelor of Science in Geology with honours
+from Birkbeck, University of London. 
+Mr. Ainsworth was instrumental in the successful progress of
+the Patterson Lake South (PLS) project, where he was the Project Manager for the
+Alpha-Fission Joint Venture from 2007 to 2013. During his tenure as Project
+Manager of PLS he oversaw the staking of new claims, the discovery of the
+boulder field, the initial high-grade uranium drill hole discovery (R00E zone),
+and the discovery of the high grade, near surface, uranium zones R390E and R780E
+during the winter 2013 drill program. 
+Mr. Ainsworth was the Vice President Exploration of Alpha
+Minerals from 2012 to 2013 and the Vice President Exploration of Alpha
+Exploration from 2013 to 2014. 
+In 2013, Mr. Ainsworth was the AMEBC recipient of the Colin
+Spence Award (For Excellence in Global Mineral Exploration) in recognition of
+his efforts which led to the discovery of the high-grade uranium mineralized
+system at the Patterson Lake South project in the Athabasca Basin, Saskatchewan.
+
+Apart from being involved with numerous uranium projects in the
+Athabasca Basin, Saskatchewan, Mr. Ainsworth also obtained experience as a field
+geologist on gold projects in British Columbia, Nevada, and Mexico; and a
+diamond project in West Africa. Mr. Ainsworth worked as an environmental
+consultant on a variety of industrial and mining projects from 2002 to 2007.
+
+Cease Trade Orders, Bankruptcies, Penalties and Sanctions
+
+To the knowledge of the Corporation, no director, executive
+officer or promoter of the Corporation is, or within ten years prior to the date
+hereof has been, a director, chief executive officer or chief financial officer
+of any company (including the Corporation) that, (i) was subject to a cease
+trade order, an order similar to a cease trade order or an order that denied the
+relevant company access to any exemption under securities legislation, that was
+in effect for a period of more than 30 consecutive days, that was issued while
+the director or executive officer was acting in the capacity as director, chief
+executive officer or chief financial officer; or (ii) was subject to a cease
+trade order, an order similar to a cease trade order or an order that denied the
+relevant Corporation access to any exemption under securities legislation, that
+was in effect for a period of more than 30 consecutive days, that was issued
+after the director or executive officer ceased to be a director, chief executive
+officer or chief financial officer and which resulted from an event that
+occurred while that person was acting in the capacity as director, chief
+executive officer or chief financial officer. 
+
+- 39 - 
+To the knowledge of the Corporation, no director, executive
+officer or promoter of the Corporation, or a shareholder holding a sufficient
+number of securities of the Corporation to affect materially control of the
+Corporation, (i) is, or within ten years prior to the date hereof has been, a
+director or executive officer of any company (including the Corporation) that,
+while that person was acting in that capacity, or within a year of that person
+ceasing to act in that capacity, became bankrupt, made a proposal under any
+legislation relating to bankruptcy or insolvency or was subject to or instituted
+any proceedings, arrangement or compromise with creditors or had a receiver,
+receiver manager or trustee appointed to hold its assets, or (ii) has, within
+ten years prior to the date hereof, become bankrupt, made a proposal under any
+legislation relating to bankruptcy or insolvency, or become subject to or
+instituted any proceedings, arrangement or compromise with creditors, or had a
+receiver, receiver manager or trustee appointed to hold the assets of the
+director, executive officer or shareholder. 
+To the knowledge of the Corporation, no director, executive
+officer or promoter of the Corporation, or a shareholder holding a sufficient
+number of securities of the Corporation to affect materially the control of the
+Corporation, has been subject to (i) any penalties or sanctions imposed by a
+court relating to securities legislation or by a securities regulatory authority
+or has entered into a settlement agreement with a securities regulatory
+authority; or (ii) any other penalties or sanctions imposed by a court or
+regulatory body that would likely be considered important to a reasonable
+investor in making an investment decision. 
+Conflicts of Interest 
+To the best of the Corporation’s knowledge, and other than as
+disclosed in this AIF, there are no known existing or potential conflicts of
+interest between NexGen and any director or officer of NexGen, except that
+certain of the directors and officers serve as directors and officers of other
+public companies, and therefore it is possible that a conflict may arise between
+their duties as a director or officer of NexGen and their duties as a director
+or officer of such other companies. See “Risk Factors — Conflicts of
+Interest”. 
+AUDIT COMMITTEE DISCLOSURE 
+The Audit Committee has the responsibility of, among other
+things: recommending the Corporation’s independent auditor to the Board of
+Directors, determining the extent of involvement of the independent auditor in
+reviewing unaudited quarter financial results, evaluating the qualifications,
+performance and independence of the independent auditor; reviewing and
+recommending approval of the Board of Directors of the Corporation’s annual and
+quarter financial results and management’s discussion and analysis and
+overseeing the establishment of “whistle-blower” and related procedures. A copy
+of the Audit Committee Charter is attached hereto as Schedule “A”. 
+Composition of the Audit Committee 
+The Audit Committee is currently comprised of Messrs. Thiele
+(Chair), McFadden and Patricio. All of the members of the Audit Committee are
+independent and financially literate, in each case, as defined under National
+Instrument 52-110 – Audit Committees (“NI 52-110”). A general
+description of the education and experience of each Audit Committee member which
+is relevant to the performance of his responsibilities as an Audit Committee
+member is contained in their respective biographies set out under “Directors and
+Officers”. 
+Audit Committee Oversight 
+At no time since the commencement of NexGen’s most recently
+completed financial year have any recommendations by the Audit Committee
+respecting the appointment and/or compensation of NexGen’s external auditors not
+been adopted by the Board. 
+
+- 40 - 
+Reliance on Certain Exemptions 
+At no time since the commencement of the Corporation’s most
+recently completed financial year has the Corporation relied on the exemption in
+Section 2.4 of NI 52-110 (De Minimis Non-Audit Services); Section 3.2
+(Initial Public Offerings); Section 3.4 (Events Outside Control of
+Member); Section 3.5( Death, 
+Disability or Resignation of Audit Committee Member); an
+exemption from NI 52-110, in whole or in part, granted under Part 8
+(Exemptions) of NI 52-110; the exemption in subsection 3.3(2)
+(Controlled Companies) or section 3.6 (Temporary Exemption for Limited
+and Exceptional Circumstances); or section 3.8 (Acquisition of Financial
+Literacy). 
+Pre-Approval Policies and Procedures 
+Pursuant to the terms of the Audit Committee Charter, the Audit
+Committee shall pre-approve all non-audit services to be provided to NexGen by
+the external auditor. 
+External Auditor Service Fees (By Category)
+The aggregate fees billed by our external auditors, KPMG LLP,
+in each of the last two financial years are as follows: 
+
+ 
+ Financial 
+ 
+ Audit- 
+ 
+ 
+ 
+ Year Ending 
+ Audit
+ Fees(1) 
+ Related
+ Fees(2) 
+ Tax
+ Fees(3) 
+ All Other
+ Fees(4) 
+ 
+ 2017 
+ $70,000(5)
+ 
+ $39,500 
+ Nil 
+ 6,500 
+ 
+ 2016 
+ $53,500 
+ $47,865 
+ Nil 
+ Nil 
+Notes: 
+
+ 
+ 
+ (1) 
+ 
+ The aggregate audit fees billed (and to be billed but
+ which have been agreed to) in respect of the financial year.
+ 
+ 
+ (2) 
+ 
+ The aggregate fees billed for assurance and related
+ services that are reasonably related to the performance of the audit or
+ review of the Corporation’s financial statements which are not included
+ under the heading “Audit Fees” and which relate to reviews of the
+ Corporations’ interim financial statements..
+ 
+ 
+ (3) 
+ 
+ The aggregate fees billed for professional services
+ rendered for tax compliance, tax advice and tax planning.
+ 
+ 
+ (4) 
+ 
+ The aggregate fees billed for products and services other
+ than as set forth under the headings “Audit Fees”, “Audit Related Fees”
+ and “Tax Fees” and which relate to the review of the Corporation’s 40-F
+ and delivery of the related consents.
+ 
+ 
+ (5) 
+ 
+ This represents the amount that has been billed to date
+ in respect of the financial year.
+LEGAL PROCEEDINGS AND REGULATORY ACTIONS 
+Neither during the financial year ended December 31, 2017, nor
+as of the date hereof, is or has the Corporation been party to, nor is or has
+its property been the subject of, any legal proceeding, nor does the Corporation
+know of any such legal proceedings to be contemplated. 
+Neither during the financial year ended December 31, 2017, nor
+as of the date hereof, has the Corporation: (i) been subject to any penalties or
+sanctions imposed against the Corporation by a court relating to securities
+legislation or by a securities regulatory authority or any penalty or sanction
+imposed by a court or regulatory body against the Corporation that would likely
+to be considered important to a reasonable investor in making an investment
+decision; or (iii) entered into any settlement agreement relating to securities
+legislation or with a securities regulatory authority. 
+INTEREST OF MANAGEMENT AND OTHERS IN MATERIAL TRANSACTIONS
+
+Other than as described below and elsewhere in this AIF, no
+director, executive officer or person or company that beneficially owns, or
+controls or directs, directly or indirectly, more than 10% of the common shares
+of the Corporation or any associate or affiliate of any such person or company,
+has or had any material interest, direct or indirect, in any transaction either
+within the three most recently completed financial years or during the current
+financial year that has materially affected or is reasonably expected to
+materially affect the Corporation.
+
+- 41 - 
+TRANSFER AGENT AND REGISTRAR 
+The transfer agent and registrar for the Common Shares in
+Canada is Computershare Investor Services Inc. at its principal offices in
+Vancouver, British Columbia and Toronto, Ontario. The co-transfer agent and
+registrar for the Common Shares in the United States of America is Computershare
+Trust Company, N.A. in Denver, Colorado. 
+MATERIAL CONTRACTS 
+The only material contracts entered into by the Corporation
+within the financial year ended December 31, 2017, or before such time that are
+still in effect, other than in the ordinary course of business, are as follows:
+
+ 
+ The Shareholder Rights Plan Agreement dated April 22, 2017 between the
+ Corporation and Computershare Investor Services Inc. 
+ 
+ The Amended and Restated Trust Indenture dated June 10, 2016, as amended
+ and restated as of July 21, 2017, between the Corporation and Computershare
+ Trust Company of Canada with respect to the issuance of the 2016 Debentures.
+ 
+ 
+ The Trust Indenture dated July 21, 2017, between the Corporation and
+ Computershare Trust Company of Canada with respect to the issuance of the 2017
+ Debentures. 
+ 
+ The Investor Rights Agreement dated July 21, 2017 among the Corporation,
+ CEF Holdings Limited, CEF (Capital Markets) Limited, Next Global Holdings
+ Limited and Sprinkle Ring Investment Limited. 
+Copies of the above material contracts are available under the
+Corporation’s profile on SEDAR at www.sedar.com. 
+INTERESTS OF EXPERTS 
+The following persons have been named in this AIF as having
+prepared the Rook I Technical Report, filed on September 14, 2017: Jason J. Cox,
+David M. Robson, Mark B. Mathisen, David A. Ross, Val Coetzee and Mark Wittrup,
+each of whom holds less than 1% of the Corporation’s securities. 
+KPMG LLP, chartered accountants, provided an auditors report
+dated March 2, 2018 in respect of the Corporation’s financial statements for the
+year ended December 31, 2017. KPMG LLP has advised the Corporation that they are
+independent of NexGen in accordance with the Code of Professional Conduct of the
+Chartered Professional Accountants of British Columbia and within the meaning of
+PCAOB Rule 3520, Auditor Independence. 
+ADDITIONAL INFORMATION 
+Additional information relating to the Corporation can be found
+on SEDAR at www.sedar.com; or on NexGen’s
+website at www.nexgenenergy.ca. Additional
+information, including directors’ and officers’ remuneration and indebtedness,
+principal holders of the Corporation’s securities and securities authorized for
+issuance under equity compensation plans is contained in the management
+information circular of the Corporation dated April 27, 2017, which is available
+on SEDAR at www.sedar.com. Additional
+financial information is provided in the Corporation’s audited consolidated
+financial statements and management’s discussion and analysis for the financial
+year ended December 31, 2017. 
+
+SCHEDULE "A" 
+ 
+AUDIT COMMITTEE CHARTER 
+I. ROLE
+AND OBJECTIVES 
+The Audit Committee is a committee of the Board of Directors
+(the “Board”) of NexGen Energy Ltd. (the “Corporation”) to which
+the Board has delegated certain oversight responsibilities relating to the
+Corporation’s financial statements, external auditors, risk management,
+compliance with legal and regulatory requirements and management information
+technology. In this Charter, the Corporation and all entities controlled by the
+Corporation are collectively referred to as “NexGen”. 
+The objectives of the Audit Committee are to maintain oversight
+of: 
+
+ 
+ (a) 
+ 
+ the Corporation’s accounting and financial reporting
+ processes;
+ 
+ 
+ 
+ 
+ (b) 
+ 
+ the audits of the Corporation’s financial
+ statements;
+ 
+ 
+ 
+ 
+ (c) 
+ 
+ the integrity of the Corporation’s financial statements,
+ the reporting process and its internal control over financial
+ reporting;
+ 
+ 
+ 
+ 
+ (d) 
+ 
+ the reports, qualifications, independence and performance
+ of the Corporation’s external auditor;
+ 
+ 
+ 
+ 
+ (e) 
+ 
+ the Corporation’s risk identification, assessment and
+ management program;
+ 
+ 
+ 
+ 
+ (f) 
+ 
+ the Corporation’s compliance with applicable legal and
+ regulatory requirements;
+ 
+ 
+ 
+ 
+ (g) 
+ 
+ the Corporation’s management of information technology
+ related to financial reporting and financial controls; and
+ 
+ 
+ 
+ 
+ (h) 
+ 
+ the maintenance of open channels of communication among
+ management of the Corporation, the external auditors and the
+ Board.
+II. MEMBERSHIP
+AND POLICIES 
+The Board, based on recommendation from the Nomination and
+Governance Committee, will appoint or reappoint members of the Audit Committee.
+Each member shall serve until his or her successor is appointed unless the
+member resigns, is removed or ceases to be a director. The Board of Directors
+may fill a vacancy that occurs in the Committee at any time. 
+The Audit Committee must be composed of not less than three (3)
+members of the Board, each of whom must be independent pursuant to the rules and
+regulations of all applicable stock exchanges and United States and Canadian
+securities laws and regulations. 
+No member of the Audit Committee may have participated in the
+preparation of the financial statements of the Corporation or any of its
+then-current subsidiaries at any time during the immediately prior three years.
+
+Each member of the Audit Committee must be able to read and
+understand fundamental financial statements, including the Corporation’s balance sheet, income
+statement, and cash flow statement. Additionally, at least one member of the
+Audit Committee must be either (i) “financially sophisticated” within the
+meaning of such term in the NYSE MKT LLC Company Guide or (ii) an “audit
+committee financial expert” within the meaning of that term under the United
+States Securities Exchange Act of 1934, as amended, and the rules adopted by the
+United States Securities and Exchange Commission thereunder. 
+
+The Board, in consultation with the Nomination and Governance
+Committee, will appoint or reappoint the Chair of the Audit Committee from
+amongst its members. 
+The Audit Committee may at any time retain outside financial,
+legal or other advisors as it determines necessary to carry out its duties, at
+the expense of the Corporation. The Corporation shall provide for appropriate
+funding, as determined by the Audit Committee in its capacity as a committee of
+the Board, for payment of: (i) compensation to the external auditor for the
+purpose of preparing or issuing an audit report or performing other audit,
+review or attestation services for the Corporation, (ii) compensation to any
+advisors employed by the Audit Committee, and (iii) ordinary administrative
+expenses of the Audit Committee that are necessary or appropriate in carrying
+out its duties. 
+In discharging its duties under this Charter, the Audit
+Committee may investigate any matter brought to its attention and will have
+access to all books, records, facilities and personnel, may conduct meetings or
+interview any officer or employee, the Corporation’s legal counsel, external
+auditors and consultants, and may invite any such persons to attend any part of
+any meeting of the Audit Committee. 
+The Audit Committee has neither the duty nor the responsibility
+to conduct audit, accounting or legal reviews, or to ensure that the
+Corporation’s financial statements are complete, accurate and in accordance with
+International Financial Reporting Standards (“IFRS”) as issued by the
+International Accounting Standards Board (“IASB”); rather, management is
+responsible for the financial reporting process, internal review process, and
+the preparation of the Corporation’s financial statements in accordance with
+IFRS, and the Corporation’s external auditor is responsible for auditing those
+financial statements. 
+III. FUNCTIONS
+
+ 
+ A. 
+ 
+ Financial Statements, the Reporting Process and
+ Internal Controls over Financial Reporting
+The Audit Committee will meet with management and the external
+auditor to review and discuss annual and quarterly financial statements,
+management’s discussion and analyses (“MD&A”), any earnings press
+releases, and other financial disclosures and determine whether to recommend the
+approval of such documents to the Board. 
+
+ 
+ (a) 
+ 
+ In connection with these procedures, the Audit Committee
+ will, as applicable and without limitation review and discuss with
+ management and the external auditor:
+ 
+ 
+ 
+ 
+ 
+ 
+ i. 
+ 
+ the information to be included in the Corporation’s
+ financial statements and other financial disclosures which require
+ approval by the Board including the Corporation’s annual and quarterly
+ financial statements, notes thereto, MD&A and any earnings press
+ releases paying particular attention to any use of “pro forma”, “adjusted”
+ and “non-GAAP” information, and ensuring that adequate procedures are in
+ place for the review of the Corporation’s public disclosure of financial
+ information extracted or derived from the financial statements;
+ 
+ 
+ 
+ 
+ 
+ 
+ ii. 
+ 
+ any significant financial reporting issues identified
+ during the reporting period;
+ 
+ 
+ 
+ 
+ 
+ 
+ iii. 
+ 
+ any change in accounting policies, or selection or
+ application of accounting principles, and their impact on the
+ Corporation’s financial results and disclosure;
+A-2 
+
+ 
+ 
+ iv. 
+ 
+ all significant estimates and judgments, significant
+ risks and uncertainties made in connection with the preparation of the
+ Corporation’s financial statements that may have a material impact to the
+ financial statements;
+ 
+ 
+ 
+ 
+ 
+ 
+ v. 
+ 
+ any significant deficiencies or material weaknesses
+ identified by management or the external auditor, compensating or
+ mitigating controls and the final assessment and impact of such
+ deficiencies or material weaknesses on disclosure;
+ 
+ 
+ 
+ 
+ 
+ 
+ vi. 
+ 
+ any major issues as to the adequacy of the internal
+ controls and any special audit steps adopted in light of material internal
+ control deficiencies;
+ 
+ 
+ 
+ 
+ 
+ 
+ vii. 
+ 
+ significant adjustments identified by management or the
+ external auditor and the assessment of associated internal control
+ deficiencies, as applicable;
+ 
+ 
+ 
+ 
+ 
+ 
+ viii. 
+ 
+ any unresolved issues between management and the external
+ auditor that could materially impact the financial statements and other
+ financial disclosures;
+ 
+ 
+ 
+ 
+ 
+ 
+ ix. 
+ 
+ any material correspondence with regulators, government
+ agencies, any employee or whistleblower complaints and other reports of
+ non-compliance which raise issues regarding the Corporation’s financial
+ statements or accounting policies and significant changes in regulations
+ which may have a material impact on the Corporation’s financial
+ statements;
+ 
+ 
+ 
+ 
+ 
+ 
+ x. 
+ 
+ the effect of regulatory and accounting initiatives, as
+ well as any off-balance sheet structures;
+ 
+ 
+ 
+ 
+ 
+ 
+ xi. 
+ 
+ significant matters of concern respecting audits and
+ financial reporting processes, including any illegal acts, that have been
+ identified in the course of the preparation or audit of the Corporation’s
+ financial statements; and
+ 
+ 
+ 
+ 
+ 
+ 
+ xii. 
+ 
+ any analyses prepared by management and/or the external
+ auditor setting forth significant financial reporting issues and judgments
+ made in connection with the preparation of financial statements including
+ analyses of the effects of IFRS on the financial
+ statements.
+
+ 
+ (b) 
+ 
+ In connection with the annual audit of the Corporation’s
+ financial statements, the Audit Committee will review with the external
+ auditor:
+
+ 
+ 
+ i. 
+ 
+ prior to commencement of the annual audit, plans, scope,
+ staffing, engagement terms and proposed fees;
+ 
+ 
+ 
+ 
+ 
+ 
+ ii. 
+ 
+ reports or opinions to be rendered in connection with the
+ audit including the external auditor’s review or audit findings report
+ including alternative treatment of significant financial information
+ within IFRS that have been discussed with management and the associated
+ impact on disclosure; and
+ 
+ 
+ 
+ 
+ 
+ 
+ iii. 
+ 
+ the adequacy of internal controls, any audit problems or
+ difficulties, including:
+
+ 
+ 
+ a) 
+ 
+ any restrictions on the scope of the external auditor’s
+ activities or on access to requested information;
+ 
+ 
+ 
+ 
+ 
+ 
+ b) 
+ 
+ any significant disagreements with management, and
+ management’s response (including discussion among management, the external
+ auditor and, as necessary, internal and external legal
+ counsel);
+A-3 
+
+ 
+ 
+ c) 
+ 
+ any litigation, claim or contingency, including tax
+ assessments and claims, that could have a material impact on the financial
+ position of the Corporation; and
+ 
+ 
+ 
+ 
+ 
+ 
+ d) 
+ 
+ the impact on current or potential future
+ disclosures.
+In connection with its review of the annual audited financial
+statements and quarterly financial statements, the Audit Committee will also
+review any significant concerns raised during the Chief Executive Officer
+(“CEO”) and Chief Financial Officer (“CFO”) certifications with
+respect to the financial statements and NexGen’s disclosure controls and
+internal controls. In particular, the Audit Committee will review with the CEO,
+CFO and external auditor: (i) all significant deficiencies, material weaknesses
+or significant changes in the design or operation of NexGen’s internal control
+over financial reporting that could adversely affect the Corporation’s ability
+to record, process, summarize and report financial information required to be
+disclosed by the Corporation in the reports that it files or submits under
+applicable securities laws, within the required time periods; and (ii) any
+fraud, whether or not material, that involves management of NexGen or other
+employees who have a significant role in NexGen’s internal control over
+financial reporting. In addition, the Audit Committee will review with the CEO
+and CFO, NexGen’s disclosure controls and procedures and at least annually will
+review management’s conclusions about the efficacy of disclosure controls and
+procedures, including any significant deficiencies, material weaknesses or
+material non-compliance with disclosure controls and procedures. 
+The Audit Committee will also maintain a Whistleblower Policy,
+including procedures for the: 
+
+ 
+ (a) 
+ 
+ receipt retention and treatment of complaints received
+ regarding accounting, internal accounting controls or auditing matters;
+ and
+ 
+ 
+ 
+ 
+ (b) 
+ 
+ confidential, anonymous submissions of concerns regarding
+ questionable accounting or auditing matters.
+B. The
+External Auditor 
+The Audit Committee, in its capacity as a committee of the
+Board, is directly responsible for overseeing the relationship, reports,
+qualifications, independence and performance of the external auditor and audit
+services by other registered public accounting firms engaged by the Corporation.
+The Audit Committee has responsibility to take, or recommend that the Board
+take, appropriate action to oversee the independence of the external auditor.
+The Audit Committee shall have the authority and responsibility to recommend the
+appointment and the revocation of the appointment of the external auditors
+engaged for the purpose of preparing or issuing an audit report or performing
+other audit, review or attest services, and to fix their remuneration. 
+The external auditor will report directly to the Audit
+Committee. The Audit Committee’s appointment of the external auditor is subject
+to annual approval by the shareholders. 
+With respect to the external auditor, the Audit Committee is
+responsible for: 
+
+ 
+ (a) 
+ 
+ the appointment, termination, compensation, retention and
+ oversight of the work of the external auditor engaged by the Corporation
+ including the review and approval of the terms of the external auditors
+ annual engagement letter and the proposed fees;
+ 
+ 
+ 
+ 
+ (b) 
+ 
+ resolution of disagreements or disputes between
+ management and the external auditor regarding financial reporting for
+ audit, review or attestation services;
+ 
+ 
+ 
+ 
+ (c) 
+ 
+ pre-approval of all legally permissible non-audit
+ services to be provided by the external auditors considering the potential
+ impact of such services on the independence of external auditors and,
+ subject to any de minimis exemption available under applicable
+ laws. Such approval can be given either specifically or pursuant to
+ pre-approval policies and procedures adopted by the committee including
+ the delegation of this ability to one or more members of the Audit
+ Committee to the extent permitted by applicable law, provided that any
+ pre-approvals granted pursuant to any such delegation may not delegate
+ Audit Committee responsibilities to management of the Corporation, and
+ must be reported to the full Audit Committee at the first scheduled
+ meeting of the Audit Committee following such pre-approval;
+A-4 
+
+ 
+ (d) 
+ 
+ obtaining and reviewing, at least annually, a written
+ report by the external auditor describing the external auditor’s internal
+ quality-control procedures, any material issues raised by the most recent
+ internal quality-control review, or peer review, of the firm, or by any
+ inquiry or investigation by governmental or professional authorities,
+ within the preceding five years, respecting one or more independent audits
+ carried out by the firm, and any steps taken to deal with any such issues
+ and all relationships between the external auditors and the
+ Corporation;
+ 
+ 
+ 
+ 
+ (e) 
+ 
+ obtaining a formal written statement delineating all
+ relationships between the auditor and the Corporation, consistent with The
+ Public Company Accounting Oversight Board Rule 3526, and discussing any
+ disclosed relationships or services with the auditor and how they may
+ impact the objectivity and independence of the auditor;
+ 
+ 
+ 
+ 
+ (f) 
+ 
+ review of the external auditor which assesses three key
+ factors of audit quality for the Audit Committee to consider and assess
+ including: independence, objectivity and professional skepticism; quality
+ of the engagement team; and quality of communications and interactions
+ with the external auditor. A written comprehensive review of the external
+ auditor to be considered if required each year and completed at least
+ every five (5) years which will include an:
+
+ 
+ 
+ i. 
+ 
+ assessment of quality of services and sufficiency of
+ resources provided by the external auditor;
+ 
+ 
+ 
+ 
+ 
+ 
+ ii. 
+ 
+ assessment of auditor independence, objectivity and
+ professional skepticism;
+ 
+ 
+ 
+ 
+ 
+ 
+ iii. 
+ 
+ assessment of value of services provided by the external
+ auditor;
+ 
+ 
+ 
+ 
+ 
+ 
+ iv. 
+ 
+ assessment of written input from external auditor
+ summarizing:
+
+ 
+ 
+ a) 
+ 
+ background of firm, size, resources, geographical
+ coverage, relevant industry experience, including reputational challenges,
+ systemic audit quality issues identified by Canadian Public Accountability
+ Board (“CPAB”) and Public Company Accounting Oversight Board
+ (“PCAOB”) in public reports;
+ 
+ 
+ 
+ 
+ 
+ 
+ b) 
+ 
+ industry experience of the audit team and plans for
+ training and development of the team;
+ 
+ 
+ 
+ 
+ 
+ 
+ c) 
+ 
+ how the external auditor demonstrated objectivity and
+ professional skepticism during the audit;
+ 
+ 
+ 
+ 
+ 
+ 
+ d) 
+ 
+ how the firm and team met all criteria for independence
+ including identification of all relationships that the external auditor
+ has with the Corporation and its affiliates and steps taken to address
+ possible institutional threats;
+ 
+ 
+ 
+ 
+ 
+ 
+ e) 
+ 
+ involvement of engagement quality control review
+ (“EQCR”) partner and significant concerns raised by the EQCR
+ partner;
+ 
+ 
+ 
+ 
+ 
+ 
+ f) 
+ 
+ matters raised to national office or specialists during
+ the review;
+ 
+ 
+ 
+ 
+ 
+ 
+ g) 
+ 
+ significant disagreements between management and the
+ external auditors and steps taken to resolve such disagreements;
+ 
+ 
+ 
+ 
+ 
+ 
+ h) 
+ 
+ satisfaction with communication and cooperation with
+ management and the Audit
+A-5 
+
+ 
+ 
+ 
+ 
+ Committee; and
+ 
+ 
+ 
+ 
+ 
+ 
+ i) 
+ 
+ findings and firm responses to reviews of the Corporation
+ by CPAB and PCAOB;
+
+ 
+ 
+ v. 
+ 
+ communication of the results of the comprehensive review
+ of the external auditor to the Board and recommending that the Board take
+ appropriate action, in response to the review, as required. It is
+ understood that the Audit Committee may recommend tendering the external
+ auditor engagement at their discretion. In addition to rotation of the
+ EQCR partner as required by law, the Audit Committee, together with the
+ Board, will also consider whether it is necessary to periodically rotate
+ the external audit firm itself. It will be at the discretion of the Audit
+ Committee if the incumbent external auditor is invited to participate in
+ the tendering process; and
+ 
+ 
+ 
+ 
+ 
+ 
+ vi. 
+ 
+ setting clear hiring policies for the Corporation
+ regarding partners and employees and former partners and employees of the
+ present and former external auditor of the Corporation. Before any such
+ partner or employee is offered employment by the Corporation, prior
+ approval from the Chair of the Audit Committee must be received and a one
+ year grace period must pass from the date any work was last completed on
+ an audit engagement before an external auditor employee can be considered
+ for contract or employment by the Corporation.
+C. Risk
+Management 
+The Audit Committee, in its capacity as a committee of the
+Board, is directly responsible for overseeing the risk identification,
+assessment and management program of the Corporation by discussing guidelines
+and policies to govern the process by which risk is identified, assessed and
+managed. At least annually, in conjunction with senior management, internal
+counsel and, as necessary, external counsel and the Corporation’s external
+auditors, the Audit Committee will review the following: 
+
+ 
+ (a) 
+ 
+ the Corporation’s method of reviewing significant risks
+ inherent in NexGen’s business, assets, facilities, and strategic
+ directions, including the Corporation’s risk management and evaluation
+ process;
+ 
+ 
+ 
+ 
+ (b) 
+ 
+ discuss guidelines and policies with respect to risk
+ assessment and risk management, including the Corporation’s major
+ financial risk exposures and the steps management has taken to monitor and
+ control such exposures. The Audit Committee is not required to be the sole
+ body responsible for risk assessment and management, but, as stated above,
+ the committee must discuss guidelines and policies to govern the process
+ by which risk assessment and management is undertaken;
+ 
+ 
+ 
+ 
+ (c) 
+ 
+ the major financial risk exposures and steps management
+ has taken to monitor and manage such exposures;
+ 
+ 
+ 
+ 
+ (d) 
+ 
+ the Corporation’s annual insurance report including its
+ risk retention philosophy and resulting uninsured exposure, if any,
+ including corporate liability protection programs for directors and
+ officers;
+ 
+ 
+ 
+ 
+ (e) 
+ 
+ the Corporation’s loss prevention policies, risk
+ management programs, disaster response and recovery programs in the
+ context of operational considerations; and
+ 
+ 
+ 
+ 
+ (f) 
+ 
+ other risk management matters from time to time as the
+ Audit Committee may consider appropriate or the Board may specifically
+ direct.
+D. 
+Additional Duties and Responsibilities 
+The Audit Committee will also: 
+A-6 
+
+ 
+ (a) 
+ 
+ meet separately with management, the external auditor
+ and, as is appropriate, internal and external legal counsel and
+ independent advisors in respect of issues not elsewhere listed concerning
+ any other audit, finance or risk matter;
+ 
+ 
+ 
+ 
+ (b) 
+ 
+ review the appointment of the CFO and any other key
+ financial executives who are involved in the financial reporting
+ process;
+ 
+ 
+ 
+ 
+ (c) 
+ 
+ review the Corporation’s information technology practices
+ as they relate to financial reporting;
+ 
+ 
+ 
+ 
+ (d) 
+ 
+ annually review Directors’ and Officers’ Liability
+ Insurance Coverage;
+ 
+ 
+ 
+ 
+ (e) 
+ 
+ from time to time, discuss staffing levels and
+ competencies of the finance team with the external auditor;
+ 
+ 
+ 
+ 
+ (f) 
+ 
+ review incidents, alleged or otherwise, as reported by
+ whistleblowers, management, the external auditor, internal or external
+ counsel or otherwise, of fraud, illegal acts or conflicts of interest and
+ establish procedures for receipt, treatment and retention of records of
+ incident investigations;
+ 
+ 
+ 
+ 
+ (g) 
+ 
+ facilitate information sharing with other committees of
+ the Board as required to address matters of mutual interest or concern in
+ respect of the Corporation’s financial reporting;
+ 
+ 
+ 
+ 
+ (h) 
+ 
+ assist Board oversight in respect of issues not elsewhere
+ listed concerning the integrity of the Corporation’s financial statements,
+ the Corporation’s compliance with legal and regulatory requirements, the
+ independent auditor’s qualifications and independence, and the performance
+ of the external auditors;
+ 
+ 
+ 
+ 
+ (i) 
+ 
+ have the authority and responsibility to recommend the
+ appointment and the revocation of the appointment of registered public
+ accounting firms (in addition to the external auditors) engaged for the
+ purpose of preparing or issuing an audit report or performing other audit,
+ review or attest services, and to fix their
+remuneration.
+In addition, the Audit Committee will perform such other
+functions as are assigned by law and on the instructions of the Board. 
+IV. MEETINGS
+
+The Audit Committee will meet quarterly, or more frequently at
+the discretion of the members of the Audit Committee, as circumstances require.
+
+Notice of each meeting of the Audit Committee will be given to
+each member and, if applicable, to the external auditors. The notice will: 
+
+ 
+ (a) 
+ 
+ be in writing (which may be communicated by fax or
+ email);
+ 
+ 
+ 
+ 
+ (b) 
+ 
+ be accompanied by an agenda that states the nature of the
+ business to be transacted at the meeting in reasonable detail;
+ 
+ 
+ 
+ 
+ (c) 
+ 
+ include copies of documentation to be considered at the
+ meeting and reasonably sufficient time to review documentation;
+ and
+ 
+ 
+ 
+ 
+ (d) 
+ 
+ be given at least 48 hours preceding the time stipulated
+ for the meeting, unless notice is waived by the Audit Committee
+ members.
+A quorum for a meeting of the Audit Committee is a majority of
+the members present in person, by video conference, webcast or telephone. 
+A-7 
+
+If the Chair is not present at a meeting of the Audit
+Committee, a Chair will be selected from among the members present. The Chair
+will not have a second or deciding vote in the event of an equality of votes.
+
+At each meeting, the Audit Committee will meet “in-camera”,
+without management or external auditors present, and will meet in separate
+sessions with the lead partner of the external auditor at least annually. 
+The Audit Committee may invite others to attend any part of any
+meeting of the Audit Committee as it deems appropriate. This includes other
+directors, members of management, any employee, the Corporation’s internal or
+external legal counsel, external auditors, advisors and consultants. 
+Minutes will be kept of all meetings of the Audit Committee.
+The minutes will include copies of all resolutions passed at each meeting, will
+be maintained with the Corporation’s records, and will be available for review
+by members of the Audit Committee, the Board, and the external auditor. 
+V. OTHER
+MATTERS 
+A. Review
+of Charter 
+The Audit Committee shall review and reassess the adequacy of
+this Charter at least annually or otherwise, as it deems appropriate, and
+propose recommended changes to the Nomination and Governance Committee. 
+B. 
+Reporting 
+The Audit Committee shall report to the Board activities and
+recommendations of each Audit Committee meeting and review with the Board any
+issues that arise with respect to the quality or integrity of the Corporation’s
+financial statements, the Corporation’s compliance with legal or regulatory
+requirements, the performance and independence of the Corporation’s external
+auditors, management information technology with respect to financial reporting
+matters, risk management and communication between the parties identified above.
+
+C. 
+ Evaluation 
+The Audit Committee’s performance shall be evaluated annually
+by the Nomination and Governance Committee and the Board as part of the Board
+assessment process established by the Nomination and Governance Committee and
+the Board. 
+This Charter was last approved by the Board of Directors on
+April 4, 2017. 
+A-8

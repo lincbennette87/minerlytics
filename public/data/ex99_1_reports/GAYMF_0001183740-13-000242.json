@@ -1,0 +1,83 @@
+{
+  "ticker": "GAYMF",
+  "cik": "0001377757",
+  "form": "6-K",
+  "filingDate": "2013-06-28",
+  "accessionNumber": "0001183740-13-000242",
+  "primaryDocument": "f6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000118374013000242/0001183740-13-000242-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "VOTING RESULTS REPORT",
+    "filename": "ex99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1377757/000118374013000242/ex99-1.htm"
+  },
+  "extractedAt": "2026-06-11T16:58:50.284Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000118374013000242/ex99-1.htm",
+    "contentType": "html",
+    "title": "EX99-1",
+    "headings": [
+      "EX99-1",
+      "ASANKO GOLD INC. \n(the \"Company\")"
+    ],
+    "text": "EX-99.1\n2\nex99-1.htm\nVOTING RESULTS REPORT\n\nEX99-1\n\nVOTING RESULTS REPORT\nPursuant to Section 11.3 of National Instrument 51-102\nOF\nASANKO GOLD INC. \n(the \"Company\")\nThe Company reports that the following matters were voted upon by the Shareholders of the Company at the annual general and special meeting of the Company held at 10:00 a.m. on June 27, 2013 (the \"Meeting\"):\n\nThe number of directors to be elected to the Board of Directors was set at seven (7). Shares voted in person and by proxy represented 59,794,175 votes for and 267,321 votes against.\nThe following directors were elected at the Meeting:\n\nDIRECTOR\n\nFOR\n\nAGAINST\n\nWITHHELD\n\nShawn Wallace\n\n49,095,463\n\nNil\n\n260,032\n\nGordon Fretwell\n\n36,497,722\n\nNil\n\n12,857,773\n\nColin Steyn\n\n49,276,110\n\nNil\n\n79,385\n\nMarcel de Groot\n\n36,661,082\n\nNil\n\n12,694,413\n\nKeith Minty\n\n49,278,650\n\nNil\n\n76,845\n\nPeter Breese\n\n49,286,610\n\nNil\n\n68,885\n\nRob Sali\n\n49,130,835\n\nNil\n\n224,660\n\nKPMG LLP, Chartered Accountants, were re-appointed as auditor of the Company. Shares voted in person and proxies received represented 59,918,471 votes for and 165,448 votes withheld.\nThe shareholders approved the amendment of the Company's Articles to include advance notice provisions. Shares voted in person and proxies received represented 48,607,591 votes for and 757,904 votes against.",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 8,
+        "rows": [
+          [
+            "DIRECTOR",
+            "FOR",
+            "AGAINST",
+            "WITHHELD"
+          ],
+          [
+            "Shawn Wallace",
+            "49,095,463",
+            "Nil",
+            "260,032"
+          ],
+          [
+            "Gordon Fretwell",
+            "36,497,722",
+            "Nil",
+            "12,857,773"
+          ],
+          [
+            "Colin Steyn",
+            "49,276,110",
+            "Nil",
+            "79,385"
+          ],
+          [
+            "Marcel de Groot",
+            "36,661,082",
+            "Nil",
+            "12,694,413"
+          ],
+          [
+            "Keith Minty",
+            "49,278,650",
+            "Nil",
+            "76,845"
+          ],
+          [
+            "Peter Breese",
+            "49,286,610",
+            "Nil",
+            "68,885"
+          ],
+          [
+            "Rob Sali",
+            "49,130,835",
+            "Nil",
+            "224,660"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>ex99-1.htm\n<DESCRIPTION>VOTING RESULTS REPORT\n<TEXT>\n<HTML>\n<HEAD>\n<META CONTENT=\"text/html; charset=windows-1252\">\n<META NAME=\"Generator\" CONTENT=\"Microsoft Word 12.0\">\n<TITLE>EX99-1</TITLE>\n<META NAME=\"LMLSDocID\" CONTENT=\"619953.1\">\n<META NAME=\"APPLYRBROFOOTER\" CONTENT=\"YES\">\n<META NAME=\"OPTIONS\" CONTENT=\"2100\">\n<META NAME=\"RBROFOOTER\" CONTENT=\"5463644.1\">\n<META NAME=\"Template\" CONTENT=\"C:\\Program Files\\Microsoft Office\\Templates\\LMLS\\Blank.dot\">\n</HEAD>\n<BODY>\n\n<P ALIGN=\"CENTER\">VOTING RESULTS REPORT<BR>\nPursuant to Section 11.3 of National Instrument 51-102</P>\n<P ALIGN=\"CENTER\">OF</P>\n<B><FONT SIZE=3><P ALIGN=\"CENTER\">ASANKO GOLD INC. <BR>\n(the \"Company\")</P>\n</B><P ALIGN=\"JUSTIFY\">The Company reports that the following matters were voted upon by the Shareholders of the Company at the annual general and special meeting of the Company held at 10:00 a.m. on June 27, 2013 (the \"Meeting\"):</P>\n<OL>\n\n</FONT><P ALIGN=\"JUSTIFY\"><LI>The number of directors to be elected to the Board of Directors was set at seven (7).  Shares voted in person and by proxy represented 59,794,175 votes for and 267,321 votes against.</LI></P>\n<P ALIGN=\"JUSTIFY\"><LI>The following directors were elected at the Meeting:</LI></P>\n<P ALIGN=\"CENTER\"><CENTER><TABLE BORDER=0 CELLSPACING=0 CELLPADDING=9 WIDTH=768>\n<TR><TD WIDTH=\"27%\" VALIGN=\"TOP\">\n<P ALIGN=\"JUSTIFY\">DIRECTOR</TD>\n<TD WIDTH=\"23%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">FOR</TD>\n<TD WIDTH=\"25%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">AGAINST</TD>\n<TD WIDTH=\"25%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">WITHHELD</TD>\n</TR>\n<TR><TD WIDTH=\"27%\" VALIGN=\"TOP\">\n<P ALIGN=\"JUSTIFY\">Shawn Wallace</TD>\n<TD WIDTH=\"23%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">49,095,463</TD>\n<TD WIDTH=\"25%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">Nil</TD>\n<TD WIDTH=\"25%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">260,032</TD>\n</TR>\n<TR><TD WIDTH=\"27%\" VALIGN=\"TOP\">\n<P ALIGN=\"JUSTIFY\">Gordon Fretwell</TD>\n<TD WIDTH=\"23%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">36,497,722</TD>\n<TD WIDTH=\"25%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">Nil</TD>\n<TD WIDTH=\"25%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">12,857,773</TD>\n</TR>\n<TR><TD WIDTH=\"27%\" VALIGN=\"TOP\">\n<P ALIGN=\"JUSTIFY\">Colin Steyn</TD>\n<TD WIDTH=\"23%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">49,276,110</TD>\n<TD WIDTH=\"25%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">Nil</TD>\n<TD WIDTH=\"25%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">79,385</TD>\n</TR>\n<TR><TD WIDTH=\"27%\" VALIGN=\"TOP\">\n<P ALIGN=\"JUSTIFY\">Marcel de Groot</TD>\n<TD WIDTH=\"23%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">36,661,082</TD>\n<TD WIDTH=\"25%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">Nil</TD>\n<TD WIDTH=\"25%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">12,694,413</TD>\n</TR>\n<TR><TD WIDTH=\"27%\" VALIGN=\"TOP\">\n<P ALIGN=\"JUSTIFY\">Keith Minty</TD>\n<TD WIDTH=\"23%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">49,278,650</TD>\n<TD WIDTH=\"25%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">Nil</TD>\n<TD WIDTH=\"25%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">76,845</TD>\n</TR>\n<TR><TD WIDTH=\"27%\" VALIGN=\"TOP\">\n<P ALIGN=\"JUSTIFY\">Peter Breese</TD>\n<TD WIDTH=\"23%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">49,286,610</TD>\n<TD WIDTH=\"25%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">Nil</TD>\n<TD WIDTH=\"25%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">68,885</TD>\n</TR>\n<TR><TD WIDTH=\"27%\" VALIGN=\"TOP\">\n<P ALIGN=\"JUSTIFY\">Rob Sali</TD>\n<TD WIDTH=\"23%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">49,130,835</TD>\n<TD WIDTH=\"25%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">Nil</TD>\n<TD WIDTH=\"25%\" VALIGN=\"TOP\">\n<P ALIGN=\"CENTER\">224,660</TD>\n</TR>\n</TABLE>\n</CENTER></P>\n\n<P ALIGN=\"JUSTIFY\"><LI>KPMG LLP, Chartered Accountants, were re-appointed as auditor of the Company.  Shares voted in person and proxies received represented 59,918,471 votes for and 165,448 votes withheld.</LI></P>\n<P ALIGN=\"JUSTIFY\"><LI>The shareholders approved the amendment of the Company's Articles to include advance notice provisions.  Shares voted in person and proxies received represented 48,607,591 votes for and 757,904 votes against.</LI></P></OL>\n\n<P ALIGN=\"JUSTIFY\"></P></BODY>\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

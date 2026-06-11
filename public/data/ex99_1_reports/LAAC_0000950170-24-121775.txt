@@ -1,0 +1,8675 @@
+EX-99.1
+2
+laac-ex99_1.htm
+EX-99.1
+
+ 
+ EX-99.1
+ 
+ 
+ 
+ Exhibit 99.1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)
+ CONSOLIDATED STATEMENTS OF FINANCIAL POSITION
+ (Unaudited) 
+ (Expressed in thousands of US dollars)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ September 30,
+ 
+ December 31,
+ 
+ January 1,
+ 
+ 
+ 
+ 
+ Note
+ 2024
+ 
+ 2023
+ 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Restated *
+ 
+ Restated *
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ $
+ 
+ $
+ 
+ 
+ 
+ CURRENT ASSETS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash and cash equivalents
+ 5
+ 
+ 92,325
+ 
+ 
+ 122,293
+ 
+ 
+ 194,471
+ 
+ 
+ 
+ Short-term bank deposits
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 157,631
+ 
+ 
+ 
+ Prepayments to Minera Exar for lithium carbonate purchases
+ 7
+ 
+ -
+ 
+ 
+ 6,673
+ 
+ 
+ -
+ 
+ 
+ 
+ Receivables from purchasers for lithium carbonate
+ 7
+ 
+ 16,745
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ Other receivables, prepaids and deposits
+ 
+ 
+ 2,690
+ 
+ 
+ 4,609
+ 
+ 
+ 3,990
+ 
+ 
+ 
+ 
+ 
+ 
+ 111,760
+ 
+ 
+ 133,575
+ 
+ 
+ 356,092
+ 
+ 
+ 
+ NON-CURRENT ASSETS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Associates and other investments
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 31,343
+ 
+ 
+ 
+ Investment in Sal de la Puna Project
+ 6
+ 
+ 181,225
+ 
+ 
+ 181,270
+ 
+ 
+ -
+ 
+ 
+ 
+ Loans to Exar Capital
+ 7
+ 
+ 368,993
+ 
+ 
+ 320,869
+ 
+ 
+ 223,122
+ 
+ 
+ 
+ Loans to Minera Exar
+ 7, 8
+ 
+ 65,836
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ Investment in Cauchari-Olaroz Project
+ 7
+ 
+ 33,336
+ 
+ 
+ 59,581
+ 
+ 
+ 41,507
+ 
+ 
+ 
+ Long-term receivable from JEMSE
+ 
+ 
+ 7,755
+ 
+ 
+ 7,394
+ 
+ 
+ 6,813
+ 
+ 
+ 
+ Property, plant and equipment
+ 9
+ 
+ 9,070
+ 
+ 
+ 9,245
+ 
+ 
+ 9,026
+ 
+ 
+ 
+ Exploration and evaluation assets
+ 10
+ 
+ 343,788
+ 
+ 
+ 343,092
+ 
+ 
+ 348,645
+ 
+ 
+ 
+ 
+ 
+ 
+ 1,010,003
+ 
+ 
+ 921,451
+ 
+ 
+ 660,456
+ 
+ 
+ 
+ TOTAL ASSETS
+ 
+ 
+ 1,121,763
+ 
+ 
+ 1,055,026
+ 
+ 
+ 1,016,548
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ CURRENT LIABILITIES
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Accounts payable and accrued liabilities
+ 
+ 
+ 4,275
+ 
+ 
+ 9,649
+ 
+ 
+ 16,540
+ 
+ 
+ 
+ Payable to Minera Exar for lithium carbonate purchases
+ 7
+ 
+ 18,152
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ Customer advances
+ 7
+ 
+ -
+ 
+ 
+ 2,322
+ 
+ 
+ -
+ 
+ 
+ 
+ Convertible notes interest and other liabilities
+ 
+ 
+ 1,241
+ 
+ 
+ 2,608
+ 
+ 
+ 3,105
+ 
+ 
+ 
+ Current liabilities excluding equity-settleable convertible notes
+ 
+ 
+ 23,668
+ 
+ 
+ 14,579
+ 
+ 
+ 19,645
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Equity-settleable convertible notes
+ 11
+ 
+ 204,475
+ 
+ 
+ 200,361
+ 
+ 
+ 204,472
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 228,143
+ 
+ 
+ 214,940
+ 
+ 
+ 224,117
+ 
+ 
+ 
+ NON-CURRENT LIABILITIES
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Deferred income tax liability
+ 19
+ 
+ -
+ 
+ 
+ 10,659
+ 
+ 
+ -
+ 
+ 
+ 
+ Decommissioning provision
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 478
+ 
+ 
+ 
+ Other liabilities
+ 
+ 
+ -
+ 
+ 
+ 496
+ 
+ 
+ 7,951
+ 
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 11,155
+ 
+ 
+ 8,429
+ 
+ 
+ 
+ TOTAL LIABILITIES
+ 
+ 
+ 228,143
+ 
+ 
+ 226,095
+ 
+ 
+ 232,546
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ EQUITY
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Share capital
+ 
+ 
+ 1,479,172
+ 
+ 
+ 1,475,930
+ 
+ 
+ 1,029,485
+ 
+ 
+ 
+ Contributed surplus
+ 
+ 
+ 19,995
+ 
+ 
+ 17,678
+ 
+ 
+ 30,226
+ 
+ 
+ 
+ Accumulated other comprehensive loss
+ 
+ 
+ (3,487
+ )
+ 
+ (3,487
+ )
+ 
+ (3,487
+ )
+ 
+ 
+ Deficit
+ 
+ 
+ (664,721
+ )
+ 
+ (661,190
+ )
+ 
+ (272,222
+ )
+ 
+ 
+ TOTAL EQUITY ATTRIBUTABLE TO LITHIUM ARGENTINA'S SHAREHOLDERS
+ 
+ 
+ 830,959
+ 
+ 
+ 828,931
+ 
+ 
+ 784,002
+ 
+ 
+ 
+ Non-controlling interest
+ 8
+ 
+ 62,661
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ TOTAL EQUITY
+ 
+ 
+ 893,620
+ 
+ 
+ 828,931
+ 
+ 
+ 784,002
+ 
+ 
+ 
+ TOTAL LIABILITIES AND EQUITY
+ 
+ 
+ 1,121,763
+ 
+ 
+ 1,055,026
+ 
+ 
+ 1,016,548
+ 
+ 
+ 
+ 
+ *The comparative information has been reclassified as a result of the application of amendments to IAS 1 as discussed in Note 3.
+ 
+ Approved for issuance on November 5, 2024
+ 
+ On behalf of the Board of Directors:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ “Robert Doyle”
+ 
+ “George Ireland”
+ 
+ 
+ Director
+ 
+ Director
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)
+ CONSOLIDATED STATEMENTS OF COMPREHENSIVE LOSS
+ (Unaudited) 
+ (Expressed in thousands of US dollars, except for per share amounts; shares in thousands)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three Months Ended September 30,
+ 
+ Nine Months Ended September 30,
+ 
+ 
+ 
+ 
+ 
+ Note
+ 2024
+ 
+ 2023
+ 
+ 2024
+ 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ $
+ 
+ $
+ 
+ $
+ 
+ 
+ 
+ EXPENSES
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Exploration and evaluation expenditures
+ 
+ 15
+ 
+ (1,761
+ )
+ 
+ (1,838
+ )
+ 
+ (7,602
+ )
+ 
+ (9,998
+ )
+ 
+ 
+ General and administrative
+ 
+ 14
+ 
+ (3,519
+ )
+ 
+ (4,514
+ )
+ 
+ (10,604
+ )
+ 
+ (11,956
+ )
+ 
+ 
+ Equity compensation
+ 
+ 12
+ 
+ (2,527
+ )
+ 
+ (831
+ )
+ 
+ (5,097
+ )
+ 
+ (2,704
+ )
+ 
+ 
+ Share of loss of Cauchari-Olaroz Project
+ 
+ 7
+ 
+ (1,301
+ )
+ 
+ (1,652
+ )
+ 
+ (27,815
+ )
+ 
+ (5,034
+ )
+ 
+ 
+ Share of loss of Arena Minerals
+ 
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ (677
+ )
+ 
+ 
+ Share of income/(loss) of Sal de la Puna Project
+ 
+ 6
+ 
+ 258
+ 
+ 
+ (187
+ )
+ 
+ (45
+ )
+ 
+ (374
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ (8,850
+ )
+ 
+ (9,022
+ )
+ 
+ (51,163
+ )
+ 
+ (30,743
+ )
+ 
+ 
+ OTHER ITEMS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Transaction costs
+ 
+ 
+ 
+ (805
+ )
+ 
+ (1,241
+ )
+ 
+ (2,063
+ )
+ 
+ (4,880
+ )
+ 
+ 
+ Gain on financial instruments measured at fair value
+ 
+ 11
+ 
+ 220
+ 
+ 
+ 6,595
+ 
+ 
+ 11,046
+ 
+ 
+ 22,551
+ 
+ 
+ 
+ Finance costs
+ 
+ 16
+ 
+ (6,388
+ )
+ 
+ (5,761
+ )
+ 
+ (18,592
+ )
+ 
+ (16,748
+ )
+ 
+ 
+ Foreign exchange gain
+ 
+ 
+ 
+ 204
+ 
+ 
+ 1,329
+ 
+ 
+ 1,817
+ 
+ 
+ 6,944
+ 
+ 
+ 
+ Finance and other income
+ 
+ 17
+ 
+ 13,212
+ 
+ 
+ 14,921
+ 
+ 
+ 37,880
+ 
+ 
+ 41,500
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 6,443
+ 
+ 
+ 15,843
+ 
+ 
+ 30,088
+ 
+ 
+ 49,367
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (LOSS)/INCOME FROM CONTINUING OPERATIONS BEFORE TAXES
+ 
+ 
+ 
+ (2,407
+ )
+ 
+ 6,821
+ 
+ 
+ (21,075
+ )
+ 
+ 18,624
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Tax recovery
+ 
+ 19
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 10,659
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (LOSS)/INCOME FROM CONTINUING OPERATIONS
+ 
+ 
+ 
+ (2,407
+ )
+ 
+ 6,821
+ 
+ 
+ (10,416
+ )
+ 
+ 18,624
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (LOSS)/INCOME FROM DISCONTINUED OPERATIONS
+ 
+ 4
+ 
+ -
+ 
+ 
+ (200
+ )
+ 
+ -
+ 
+ 
+ 7,408
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ NET (LOSS)/INCOME
+ 
+ 
+ 
+ (2,407
+ )
+ 
+ 6,621
+ 
+ 
+ (10,416
+ )
+ 
+ 26,032
+ 
+ 
+ 
+ ATTRIBUTABLE TO:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Equity holders of Lithium Argentina
+ 
+ 
+ 
+ (2,406
+ )
+ 
+ 6,621
+ 
+ 
+ (10,415
+ )
+ 
+ 26,032
+ 
+ 
+ 
+ Non-controlling interest
+ 
+ 
+ 
+ (1
+ )
+ 
+ -
+ 
+ 
+ (1
+ )
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ TOTAL COMPREHENSIVE (LOSS)/INCOME
+ 
+ 
+ 
+ (2,407
+ )
+ 
+ 6,621
+ 
+ 
+ (10,416
+ )
+ 
+ 26,032
+ 
+ 
+ 
+ BASIC AND DILUTED (LOSS)/INCOME PER SHARE FROM CONTINUING OPERATIONS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (Loss)/income per share - basic
+ 
+ 
+ 
+ (0.01
+ )
+ 
+ 0.04
+ 
+ 
+ (0.06
+ )
+ 
+ 0.12
+ 
+ 
+ 
+ (Loss)/income per share - diluted
+ 
+ 
+ 
+ (0.01
+ )
+ 
+ 0.04
+ 
+ 
+ (0.06
+ )
+ 
+ 0.12
+ 
+ 
+ 
+ BASIC AND DILUTED (LOSS)/INCOME PER SHARE FROM DISCONTINUED OPERATIONS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (Loss)/income per share - basic
+ 
+ 
+ 
+ -
+ 
+ 
+ (0.001
+ )
+ 
+ -
+ 
+ 
+ 0.05
+ 
+ 
+ 
+ (Loss)/income per share - diluted
+ 
+ 
+ 
+ -
+ 
+ 
+ (0.001
+ )
+ 
+ -
+ 
+ 
+ 0.05
+ 
+ 
+ 
+ BASIC AND DILUTED (LOSS)/INCOME PER SHARE TOTAL
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (Loss)/income per share - basic
+ 
+ 
+ 
+ (0.01
+ )
+ 
+ 0.04
+ 
+ 
+ (0.06
+ )
+ 
+ 0.17
+ 
+ 
+ 
+ (Loss)/income per share - diluted
+ 
+ 
+ 
+ (0.01
+ )
+ 
+ 0.04
+ 
+ 
+ (0.06
+ )
+ 
+ 0.17
+ 
+ 
+ 
+ Weighted average number of common shares outstanding – basic total
+ 
+ 
+ 
+ 161,451
+ 
+ 
+ 159,919
+ 
+ 
+ 161,139
+ 
+ 
+ 153,607
+ 
+ 
+ 
+ Weighted average number of common shares outstanding – diluted total
+ 
+ 
+ 
+ 161,451
+ 
+ 
+ 163,773
+ 
+ 
+ 161,139
+ 
+ 
+ 157,461
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)
+ CONSOLIDATED STATEMENTS OF CHANGES IN EQUITY
+ (Unaudited) 
+ (Expressed in thousands of US dollars, shares in thousands)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Share capital
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number
+ 
+ 
+ Amount
+ 
+ 
+ Contributedsurplus
+ 
+ 
+ Accumulated other comprehensive loss
+ 
+ 
+ Deficit
+ 
+ 
+ Shareholders’equity
+ 
+ 
+ Non-controlling interest
+ 
+ 
+ Total equity
+ 
+ 
+ 
+ 
+ 
+ of shares
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Authorized share capital:Unlimited common shares without par value
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance December 31, 2022
+ 
+ 
+ 135,035
+ 
+ 
+ 
+ 1,029,485
+ 
+ 
+ 
+ 30,226
+ 
+ 
+ 
+ (3,487
+ )
+ 
+ 
+ (272,222
+ )
+ 
+ 
+ 784,002
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 784,002
+ 
+ 
+ 
+ Shares issued on conversion of RSUs, DSUs and exercise of stock options
+ 
+ 
+ 1,425
+ 
+ 
+ 
+ 8,036
+ 
+ 
+ 
+ (7,879
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 157
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 157
+ 
+ 
+ 
+ Shares issued pursuant to the GM investment
+ 
+ 
+ 15,002
+ 
+ 
+ 
+ 286,954
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 286,954
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 286,954
+ 
+ 
+ 
+ Share issuance costs
+ 
+ 
+ -
+ 
+ 
+ 
+ 163,203
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 163,203
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 163,203
+ 
+ 
+ 
+ Shares issued pursuant to Arena Minerals acquisition
+ 
+ 
+ 8,456
+ 
+ 
+ 
+ (15,217
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ (15,217
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ (15,217
+ )
+ 
+ 
+ Equity compensation
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 5,914
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 5,914
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 5,914
+ 
+ 
+ 
+ DSUs issued in lieu of directors' fees
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 628
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 628
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 628
+ 
+ 
+ 
+ RSUs issued in lieu of accrued bonuses
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 3,109
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 3,109
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 3,109
+ 
+ 
+ 
+ Net income
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 26,032
+ 
+ 
+ 
+ 26,032
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 26,032
+ 
+ 
+ 
+ Balance September 30, 2023
+ 
+ 
+ 159,918
+ 
+ 
+ 
+ 1,472,461
+ 
+ 
+ 
+ 31,998
+ 
+ 
+ 
+ (3,487
+ )
+ 
+ 
+ (246,190
+ )
+ 
+ 
+ 1,254,782
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 1,254,782
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance, December 31, 2023
+ 
+ 
+ 160,679
+ 
+ 
+ 
+ 1,475,930
+ 
+ 
+ 
+ 17,678
+ 
+ 
+ 
+ (3,487
+ )
+ 
+ 
+ (661,190
+ )
+ 
+ 
+ 828,931
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 828,931
+ 
+ 
+ 
+ Shares issued on conversion of RSUs, DSUs, PSUs, and exercise of stock options
+ 
+ 
+ 1,237
+ 
+ 
+ 
+ 3,242
+ 
+ 
+ 
+ (3,242
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ Equity compensation (Note 12)
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 5,559
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 5,559
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 5,559
+ 
+ 
+ 
+ Pastos Grandes Transaction (Note 8)
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 6,884
+ 
+ 
+ 
+ 6,884
+ 
+ 
+ 
+ 62,662
+ 
+ 
+ 
+ 69,546
+ 
+ 
+ 
+ Net loss
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ (10,415
+ )
+ 
+ 
+ (10,415
+ )
+ 
+ 
+ (1
+ )
+ 
+ 
+ (10,416
+ )
+ 
+ 
+ Balance September 30, 2024
+ 
+ 
+ 161,916
+ 
+ 
+ 
+ 1,479,172
+ 
+ 
+ 
+ 19,995
+ 
+ 
+ 
+ (3,487
+ )
+ 
+ 
+ (664,721
+ )
+ 
+ 
+ 830,959
+ 
+ 
+ 
+ 62,661
+ 
+ 
+ 
+ 893,620
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)
+ CONSOLIDATED STATEMENTS OF CASH FLOWS
+ (Unaudited) 
+ (Expressed in thousands of US dollars)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nine Months Ended September 30,
+ 
+ 
+ 
+ 
+ Note
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ OPERATING ACTIVITIES
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (Loss)/income from continuing operations
+ 
+ 
+ 
+ 
+ (10,416
+ )
+ 
+ 
+ 18,624
+ 
+ 
+ 
+ Income from discontinued operations
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 7,408
+ 
+ 
+ 
+ Consolidated net (loss)/income
+ 
+ 
+ 
+ 
+ (10,416
+ )
+ 
+ 
+ 26,032
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Items not affecting cash and other items:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Equity compensation
+ 
+ 12
+ 
+ 
+ 5,559
+ 
+ 
+ 
+ 2,704
+ 
+ 
+ 
+ Depreciation
+ 
+ 
+ 
+ 
+ 577
+ 
+ 
+ 
+ 312
+ 
+ 
+ 
+ Deferred tax recovery
+ 
+ 19
+ 
+ 
+ (10,659
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ Foreign exchange gain
+ 
+ 
+ 
+ 
+ (1,817
+ )
+ 
+ 
+ (6,944
+ )
+ 
+ 
+ Share of loss of Cauchari-Olaroz Project
+ 
+ 7
+ 
+ 
+ 27,815
+ 
+ 
+ 
+ 5,034
+ 
+ 
+ 
+ Share of loss of Arena Minerals
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 677
+ 
+ 
+ 
+ Share of loss of Sal de la Puna Project
+ 
+ 6
+ 
+ 
+ 45
+ 
+ 
+ 
+ 374
+ 
+ 
+ 
+ Gain on financial instruments measured at fair value
+ 
+ 11
+ 
+ 
+ (11,046
+ )
+ 
+ 
+ (22,551
+ )
+ 
+ 
+ Finance costs (net)
+ 
+ 
+ 
+ 
+ (14,792
+ )
+ 
+ 
+ (4,924
+ )
+ 
+ 
+ Payment of interest on the convertible notes and debt facilities
+ 
+ 11
+ 
+ 
+ (4,528
+ )
+ 
+ 
+ (4,528
+ )
+ 
+ 
+ Changes in non-cash working capital items:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (Increase)/decrease in receivables, prepaids and deposits
+ 
+ 
+ 
+ 
+ (14,826
+ )
+ 
+ 
+ 463
+ 
+ 
+ 
+ Increase/ (decrease) in accounts payable and accrued liabilities
+ 
+ 
+ 
+ 
+ 12,779
+ 
+ 
+ 
+ (5,705
+ )
+ 
+ 
+ Decrease/ (increase) in net prepayments made for lithium carbonate
+ 
+ 
+ 
+ 
+ 4,351
+ 
+ 
+ 
+ (3,861
+ )
+ 
+ 
+ Cash used in operating activities of continuing operations
+ 
+ 
+ 
+ 
+ (16,958
+ )
+ 
+ 
+ (20,325
+ )
+ 
+ 
+ Cash used in operating activities of discontinued operations
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ (23,627
+ )
+ 
+ 
+ Net cash used in operating activities
+ 
+ 
+ 
+ 
+ (16,958
+ )
+ 
+ 
+ (43,952
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ INVESTING ACTIVITIES
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Loans to Exar Capital
+ 
+ 7
+ 
+ 
+ (41,978
+ )
+ 
+ 
+ (64,680
+ )
+ 
+ 
+ Proceeds from repayment of loans by Exar Capital
+ 
+ 7
+ 
+ 
+ 26,476
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ Loans to Minera Exar
+ 7, 8
+ 
+ 
+ (65,000
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ Contribution to Investment in Cauchari-Olaroz project
+ 
+ 7
+ 
+ 
+ (1,570
+ )
+ 
+ 
+ (1,541
+ )
+ 
+ 
+ Proceeds from withdrawal of short-term bank deposits
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 155,000
+ 
+ 
+ 
+ Change in cash as a result of Arena Minerals acquisition
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ (2,887
+ )
+ 
+ 
+ Additions to exploration and evaluation assets
+ 
+ 10
+ 
+ 
+ (696
+ )
+ 
+ 
+ (2,713
+ )
+ 
+ 
+ Additions to property, plant and equipment
+ 
+ 9
+ 
+ 
+ (872
+ )
+ 
+ 
+ (3,553
+ )
+ 
+ 
+ Cash (used)/provided by investing activities of continuing operations
+ 
+ 
+ 
+ 
+ (83,640
+ )
+ 
+ 
+ 79,626
+ 
+ 
+ 
+ Cash used in investing activities of discontinued operations
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ (116,804
+ )
+ 
+ 
+ Net cash used in investing activities
+ 
+ 
+ 
+ 
+ (83,640
+ )
+ 
+ 
+ (37,178
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ FINANCING ACTIVITIES
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Proceeds from equity awards exercises
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 157
+ 
+ 
+ 
+ Proceeds from Pastos Grandes Transaction
+ 
+ 8
+ 
+ 
+ 70,000
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ Financing costs
+ 
+ 8
+ 
+ 
+ (454
+ )
+ 
+ 
+ (934
+ )
+ 
+ 
+ Lease liabilities
+ 
+ 
+ 
+ 
+ (733
+ )
+ 
+ 
+ 646
+ 
+ 
+ 
+ Cash provided/(used) in financing activities of continuing operations
+ 
+ 
+ 
+ 
+ 68,813
+ 
+ 
+ 
+ (129
+ )
+ 
+ 
+ Cash provided by financing activities of discontinued operations
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 302,755
+ 
+ 
+ 
+ Net cash provided by financing activities
+ 
+ 
+ 
+ 
+ 68,813
+ 
+ 
+ 
+ 302,626
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Effect of foreign exchange on cash
+ 
+ 
+ 
+ 
+ 1,817
+ 
+ 
+ 
+ 6,944
+ 
+ 
+ 
+ Cash held for distribution
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (275,499
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ CHANGE IN CASH AND CASH EQUIVALENTS
+ 
+ 
+ 
+ 
+ (29,968
+ )
+ 
+ 
+ (47,059
+ )
+ 
+ 
+ CASH AND CASH EQUIVALENTS - BEGINNING OF THE PERIOD
+ 
+ 
+ 
+ 
+ 122,293
+ 
+ 
+ 
+ 194,471
+ 
+ 
+ 
+ CASH AND CASH EQUIVALENTS - END OF THE PERIOD
+ 
+ 
+ 
+ 
+ 92,325
+ 
+ 
+ 
+ 147,412
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 4
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 1. NATURE OF OPERATIONS 
+ Lithium Americas (Argentina) Corp. (“Lithium Argentina”, the “Company” or “LAAC”), formerly Lithium Americas Corp. (“Lithium Americas” or “LAC”), is a Canadian-based resource company focused on advancing the Cauchari-Olaroz project (“Cauchari-Olaroz”) to full production. Cauchari-Olaroz is a lithium brine project located in the Salar de Olaroz and Salar de Cauchari in Jujuy province, north-western Argentina. The Company also owns 85.1% interest in the Pastos Grandes lithium project (“Pastos Grandes”) acquired through the acquisition of Millennial Lithium Corp. (“Millennial”) on January 25, 2022, and a 65% ownership interest in the Sal de la Puna project (“Sal de la Puna”), owned by the Company’s wholly-owned subsidiary Arena Minerals Inc. (“Arena Minerals”) acquired on April 20, 2023. Pastos Grandes and Sal de la Puna are lithium brine projects located in Salta province, in north-western Argentina.
+ The Company’s interest in Cauchari-Olaroz is held through a 44.8% ownership interest in Minera Exar S.A. (“Minera Exar”), a company incorporated under the laws of Argentina. Ganfeng Lithium Co. Ltd. (“Ganfeng”) owns 46.7% of Minera Exar with the remaining 8.5% interest held by Jujuy Energia y Mineria Sociedad del Estado (“JEMSE”), a mining investment company owned by the provincial government of Jujuy. Cauchari-Olaroz is in the commissioning and ramp up stage and achieved first lithium production as part of commissioning in June 2023.
+ 
+ In August 2024, the Company completed a transaction with a subsidiary of Ganfeng whereby Ganfeng acquired $70,000 in newly issued shares of Proyecto Pastos Grandes S.A. (“PGCo”) (the “Pastos Grandes Transaction”), the Company’s indirect wholly-owned Argentinian subsidiary holding the Pastos Grandes project in Salta, Argentina, which represents an approximate 14.9% interest in PGCo and the Pastos Grandes project (Note 8).
+ On July 31, 2023, at the annual, general and special meeting of the Company, the Company’s shareholders approved the separation of Lithium Americas into Lithium Americas (Argentina) Corp. and a new Lithium Americas Corp. (“Lithium Americas (NewCo)”), pursuant to a statutory plan of arrangement (the “Separation”). The Separation was completed on October 3, 2023, pursuant to a final order dated August 4, 2023, from the Supreme Court of British Columbia approving the plan of arrangement. As a result of the transaction, on October 3, 2023, the Company transferred its North American business, including, among other assets, the Thacker Pass Project (“Thacker Pass”) and $275,499 of cash to Lithium Americas (NewCo), and the Company changed its name to Lithium Americas (Argentina) Corp. (Note 4). 
+ The Company’s common shares are listed on the Toronto Stock Exchange (“TSX”) and the New York Stock Exchange (“NYSE”) under the symbol “LAAC”. The Company’s head office and principal address is Suite 300, 900 West Hastings Street, Vancouver, British Columbia, Canada, V6C 1E5.
+ To date, the Company has not generated significant revenues from operations and has relied on equity and other financings to fund operations. The underlying values of exploration and evaluation assets are dependent on the existence of economically recoverable reserves, securing and maintaining title and beneficial interest in the properties, and the ability of the Company to obtain the necessary financing to complete permitting and development, and to attain future profitable operations.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 5
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 2. BASIS OF PREPARATION AND PRESENTATION
+ 
+ These condensed consolidated interim financial statements of the Company (“Interim Financials”) have been prepared in accordance with IFRS Accounting Standards applicable to the preparation of interim financial statements, under International Accounting Standard 34, Interim Financial Reporting. The Interim Financials should be read in conjunction with the Company’s annual consolidated financial statements for the year ended December 31, 2023 (the “2023 Annual Financials”), which have been prepared in accordance with IFRS Accounting Standards. 
+ The Interim Financials are expressed in United States dollars (“US$”), the Company’s presentation currency. The same accounting policies and methods of computation have been used in the Interim Financials and 2023 Annual Financials other than those disclosed in Note 3.
+ 
+ 3. SUMMARY OF MATERIAL ACCOUNTING POLICIES
+ Estimation Uncertainty and Accounting policy judgments
+ The preparation of these Interim Financials in conformity with IFRS Accounting Standards applicable to the preparation of interim financial statements requires judgments, estimates, and assumptions that affect the amounts reported. Those estimates and assumptions concerning the future may differ from actual results. Estimates and judgments are continually evaluated and are based on historical experience and other factors, including expectations of future events that are believed to be reasonable under the circumstances.
+ The nature and number of significant estimates and judgments made by management in applying the Company’s accounting policies and the key sources of estimation uncertainty are the same as those that management applied to the 2023 Annual Financials except as disclosed below.
+ Determination of Commercial Production for the Cauchari Olaroz project
+ Judgment is a requirement in determining whether a project’s assets are available for use (referred to as “commercial production”). In making this determination, management considers specific facts and circumstances. These factors include, but are not limited to, whether the product produced by the plant is saleable, the completion of a reasonable period of commissioning, and the achievement of consistent operating results at a predetermined level of design capacity for a reasonable period of time. Subsequent to September 30, 2024, the Company concluded that commercial production was achieved for the Cauchari Olaroz project as of October 1, 2024. As a result, the Cauchari Olaroz project’s assets are now considered ready for their intended use, and depreciation of these assets will commence as of October 1, 2024.
+ New IFRS Pronouncements
+ Amendments to IAS 1 – Presentation of Financial Statements
+ In October 2022, the IASB issued amendments to IAS 1, Presentation of Financial Statements titled Non-current liabilities with covenants. These amendments sought to improve the information that an entity provides when its right to defer settlement of a liability is subject to compliance with covenants within 12 months after the reporting period. These amendments to IAS 1 override but incorporate the previous amendments, Classification of liabilities as current or non-current, issued in January 2020, which clarified that liabilities are classified as either current or non-current, depending on the rights that exist at the end of the reporting period. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 6
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 3. SUMMARY OF MATERIAL ACCOUNTING POLICIES (continued)
+ Liabilities should be classified as non-current if a company has a substantive right to defer settlement for at least 12 months at the end of the reporting period. The Company adopted these amendments effective January 1, 2024, applied them retrospectively as required by the transitional provisions of the amendments and included restated consolidated statements of financial position for the comparative periods ended December 31, 2023, and January 1, 2023.
+ Amendments to IAS 1 resulted in a reclassification of convertible senior notes (the “Convertible Notes”, “Notes”, or “equity-settleable convertible notes”) from non-current liabilities to current liabilities as at January 1, 2023 and December 31, 2023. The Convertible Notes are convertible at the option of the holders upon satisfaction of certain conditions that are beyond the control of the Company. If such conditions are satisfied, the convertible notes would be convertible at the option of the holders and upon conversion, the Notes may be settled, at the Company’s election, in common shares of the Company, cash or a combination thereof. As a result, the Company does not have the right to defer settlement of the Notes for more than 12 months after the end of the reporting periods (Note 11).
+ IFRS 18 Presentation and Disclosure in Financial Statements
+ In April 2024, the IASB issued IFRS 18, Presentation and Disclosure in Financial Statements which will replace IAS 1, Presentation of Financial Statements. IFRS 18 introduces new requirements on presentation within the statement of profit or loss, including specified totals and subtotals. It also requires disclosure of management-defined performance measures and includes new requirements for aggregation and disaggregation of financial information based on the identified ‘roles’ of the primary financial statements and the notes. 
+ In addition, there are consequential amendments to other accounting standards; some requirements previously included in IAS 1 have been moved to IAS 8 and limited amendments have been made to IAS 7 and IAS 34. IFRS 18 is effective for the reporting period beginning on or after January 1, 2027, with early application permitted. Retrospective application is required in both annual and interim financial statements. The Company is currently assessing the impact of this standard on its financial statements and has not yet applied it.
+ Amendments to IFRS 9 and IFRS 7 – Amendments to the Classification and Measurement of Financials Instruments
+ In May 2024, the IASB issued amendments to IFRS 9 and IFRS 7, Amendments to the Classification and Measurement of Financials Instruments. These amendments updated classification and measurement requirements in IFRS 9 Financial Instruments and related disclosure requirements in IFRS 7 Financial Instruments: Disclosures. The IASB clarified the recognition and derecognition date of certain financial assets and liabilities, and amended the requirements related to settling financial liabilities using an electronic payment system. It also clarified how to assess the contractual cash flow characteristics of financial assets in determining whether they meet the solely payments of principal and interest criterion, including financial assets that have environmental, social and corporate governance (ESG)-linked features and other similar contingent features. These amendments require additional disclosures for financial instruments with contingent features that do not relate directly to basic lending risks and costs and amended disclosures relating to equity instruments designated at fair value through other comprehensive income.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 7
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 3. SUMMARY OF MATERIAL ACCOUNTING POLICIES (continued)
+ The amendments are effective for annual periods beginning on or after January 1, 2026. Early adoption is permitted, with an option to early adopt the amendments for contingent features only. The Company is currently assessing the impact of this standard on its financial statements and has not yet applied it.
+ Annual Improvements to IFRS Accounting Standards-Volume 11
+ In May 2024, the IASB issued the Annual Improvements to IFRS Accounting Standards-Volume 11. It contains amendments to IFRS 1, IFRS 7, IFRS 9, IFRS 10 and IAS 7.
+ The IASB's annual improvements are limited to amendments that either clarify the wording of an IFRS standard or correct relatively minor unintended consequences, oversights or conflicts between requirements in the standards. The IASB's annual improvements are limited to amendments that either clarify the wording of an IFRS standard or correct relatively minor unintended consequences, oversights, or conflicts between requirements in the standards. The amendments in this volume relate to the following:
+ •IFRS 1: First-time Adoption of International Financial Reporting Standards - Hedge Accounting by a First-time Adopter
+ 
+ •IFRS 7: Financial Instruments: Disclosures - Gain or loss on derecognition, disclosure of differences between the fair value and the transaction price, and disclosures on credit risk
+ 
+ •IFRS 9: Financial Instruments - Derecognition of lease liabilities and transaction price
+ 
+ •IFRS 10: Consolidated Financial Statements - Determination of a ‘de facto agent’
+ 
+ •IAS 7: Statement of Cash Flows - Cost Method.
+ These amendments are mandatory for financial years beginning on or after 1 January 2026; earlier application is permitted. The Company is currently assessing the impact of this standard on its financial statements and has not yet applied it.
+ 4. DISTRIBUTED OPERATIONS
+ Upon completion of the Separation on October 3, 2023, the Company transferred its North American business, including, among other assets, its Thacker Pass Project and $275,499 of cash to Lithium Americas (NewCo). Pursuant to the plan of arrangement, each shareholder received one common share of Lithium Argentina and one common share of Lithium Americas (NewCo) in exchange for each common share of the Company previously held. As part of the approval of the Separation, the Company’s shareholders also approved amendments to the equity incentive plan to allow holders of restricted share units, performance share units and deferred share units to receive on Separation one similar instrument in each of Lithium Argentina (subject to adjustment) and Lithium Americas (NewCo). The Company has no further interest in Lithium Americas (NewCo) subsequent to the Separation.
+ The distributed operations have been presented and accounted for using IFRS 5, Non-Current Assets Held for Sales and Discontinued Operations, and IFRIC 17, Distribution of Assets to Owners. Under this guidance, a dividend was recognized in deficit measured at the fair value of the net assets distributed with a corresponding dividend payable. The dividend payable was then settled through the distribution of the net assets. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 8
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 4. DISTRIBUTED OPERATIONS (continued)
+ The fair value of the net assets distributed was $1,680,501, determined based on the share price of Lithium Americas (Newco) on October 4, 2023. The difference of $1,267,552 between the fair value of the dividend and the carrying value of the net assets was recognized as a gain on distribution of assets within discontinued operations during the year ended December 31, 2023. 
+ The results and cash flows of Lithium Americas (NewCo) presented as discontinued operations are as follows:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three Months Ended September 30,
+ 
+ 
+ Nine Months Ended September 30,
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 2023
+ 
+ 
+ 2024
+ 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ $
+ 
+ 
+ $
+ 
+ $
+ 
+ 
+ 
+ EXPENSES
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Exploration and evaluation expenditures
+ 
+ 
+ -
+ 
+ 
+ (115
+ )
+ 
+ 
+ -
+ 
+ 
+ (5,779
+ )
+ 
+ 
+ General and administrative
+ 
+ 
+ -
+ 
+ 
+ (2,551
+ )
+ 
+ 
+ -
+ 
+ 
+ (7,869
+ )
+ 
+ 
+ Equity compensation
+ 
+ 
+ -
+ 
+ 
+ (522
+ )
+ 
+ 
+ -
+ 
+ 
+ (2,078
+ )
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ (3,188
+ )
+ 
+ 
+ -
+ 
+ 
+ (15,726
+ )
+ 
+ 
+ OTHER ITEMS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Transaction costs
+ 
+ 
+ -
+ 
+ 
+ (2,529
+ )
+ 
+ 
+ -
+ 
+ 
+ (9,359
+ )
+ 
+ 
+ Gain on financial instruments measured at fair value
+ 
+ 
+ -
+ 
+ 
+ 5,587
+ 
+ 
+ 
+ -
+ 
+ 
+ 32,545
+ 
+ 
+ 
+ Finance costs
+ 
+ 
+ -
+ 
+ 
+ (9
+ )
+ 
+ 
+ -
+ 
+ 
+ (43
+ )
+ 
+ 
+ Other costs
+ 
+ 
+ -
+ 
+ 
+ (61
+ )
+ 
+ 
+ -
+ 
+ 
+ (9
+ )
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 2,988
+ 
+ 
+ 
+ -
+ 
+ 
+ 23,134
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (LOSS)/INCOME FROM DISCONTINUED OPERATIONS
+ 
+ 
+ -
+ 
+ 
+ (200
+ )
+ 
+ 
+ -
+ 
+ 
+ 7,408
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nine Months Ended September 30,
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Cash used in operating activities of discontinued operations
+ 
+ 
+ -
+ 
+ 
+ 
+ (23,627
+ )
+ 
+ 
+ Cash used in investing activities of discontinued operations
+ 
+ 
+ -
+ 
+ 
+ 
+ (116,804
+ )
+ 
+ 
+ Cash provided by financing activities of discontinued operations
+ 
+ 
+ -
+ 
+ 
+ 
+ 302,755
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 9
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 5. CASH AND CASH EQUIVALENTS
+ Cash and cash equivalents
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ September 30, 2024
+ 
+ 
+ December 31, 2023
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Cash
+ 
+ 
+ 92,325
+ 
+ 
+ 
+ 42,169
+ 
+ 
+ 
+ Cash equivalents
+ 
+ 
+ -
+ 
+ 
+ 
+ 80,124
+ 
+ 
+ 
+ 
+ 
+ 
+ 92,325
+ 
+ 
+ 
+ 122,293
+ 
+ 
+ 
+ 
+ As at September 30, 2024, $369 of cash and cash equivalents was held in Canadian dollars (December 31, 2023 – $2,438), $91,425 in US dollars (December 31, 2023 – $119,569) and $531 were held in Argentine Pesos (December 31, 2023 – $286). During the nine months ended September 30, 2024, cash and cash equivalents generated an interest income of $3,246 (2023 – $17,224).
+ 
+ 6. INVESTMENT IN SAL DE LA PUNA
+ 
+ On April 20, 2023, the Company completed the acquisition of Arena Minerals that owns 65% of Sal de la Puna through a joint venture interest in Sal de la Puna Holdings Ltd., the 100% owner of Argentine entity, Puna Argentina S.A.U. (“PASA”), the owner of the claims forming part of the Sal del la Puna Project. 
+ 
+ The remaining 35% of PASA is owned by joint venture partner Ganfeng New Energy Technology Development (Suzhou) Co., Ltd. Therefore, after the acquisition of Arena Minerals, the Company holds a 65% ownership interest in the Sal de la Puna Project covering approximately 13,200 hectares of the Pastos Grandes Basin.
+ The Company’s 65% ownership interest in Sal de la Puna is considered to be a joint venture and accounted for using the equity method of accounting. Changes in the investment balance are summarized below:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ 
+ Investment in Sal de la Puna, as at December 31, 2023
+ 
+ 
+ 181,270
+ 
+ 
+ 
+ Share of loss of Sal de la Puna
+ 
+ 
+ (45
+ ) 
+ 
+ 
+ Investment in Sal de la Puna, as at September 30, 2024
+ 
+ 
+ 181,225
+ 
+ 
+ 
+ 
+ 
+ 7. INVESTMENT IN CAUCHARI-OLAROZ PROJECT
+ As at September 30, 2024, the Company, Ganfeng and JEMSE are 44.8%, 46.7% and 8.5% shareholders, respectively, of Minera Exar, the company that holds all rights, title and interest in and to Cauchari-Olaroz, which is located in the Jujuy province of Argentina. The Company and Ganfeng are parties to a shareholders’ agreement concerning management of the project and are entitled to the project’s production offtake on a 49%/51% basis. Construction costs are also shared on the same 49%/51% pro rata basis between the Company and Ganfeng. The shareholders’ agreement regulates key aspects of governance of the project, which provides the Company with significant influence over Minera Exar and strong minority shareholder protective rights.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 10
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 7. INVESTMENT IN CAUCHARI-OLAROZ PROJECT (continued)
+ In addition, the Company and Ganfeng are 49% and 51% shareholders, respectively, in Exar Capital, a company that provides financing to Minera Exar for the purpose of advancing construction of Cauchari-Olaroz (the investment in Minera Exar and investment in Exar Capital together, the “Investment in Cauchari-Olaroz project”). Minera Exar and Exar Capital are accounted for using the equity method of accounting.
+ Loans to Exar Capital and Minera Exar
+ The Company has entered into loan agreements with Exar Capital and Minera Exar to fund the construction of Cauchari-Olaroz. Changes in the balances of loans to Exar Capital are summarized below. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ 
+ Loans to Exar Capital, as at December 31, 2022
+ 
+ 
+ 223,122
+ 
+ 
+ 
+ Loans to Exar Capital
+ 
+ 
+ 64,680
+ 
+ 
+ 
+ Accrued interest
+ 
+ 
+ 33,067
+ 
+ 
+ 
+ Loans to Exar Capital, as at December 31, 2023
+ 
+ 
+ 320,869
+ 
+ 
+ 
+ Loans to Exar Capital
+ 
+ 
+ 41,978
+ 
+ 
+ 
+ Repayment of loans by Exar Capital
+ 
+ 
+ (26,476
+ )
+ 
+ 
+ Accrued interest
+ 
+ 
+ 32,622
+ 
+ 
+ 
+ Loans to Exar Capital, as at September 30, 2024
+ 
+ 
+ 368,993
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 11
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 7. INVESTMENT IN CAUCHARI-OLAROZ PROJECT (continued)
+ 
+ Loans advanced after January 1, 2022, carry an interest rate of the Secured Overnight Financing Rate (“SOFR”) plus 10.305%. During the nine months ended September 30, 2024, $41,978 loans were provided by the Company to Exar Capital to fund Cauchari-Olaroz’s working capital and other funding requirements. The maturity of each of the loans is 7 years from the date of drawdown.
+ 
+ During the nine months ended September 30, 2024, Minera Exar repaid or refinanced a portion of the outstanding third party loans that were secured with bank letters of credit arranged by Exar Capital which resulted in release of Exar Capital’s cash collateral. Exar Capital utilized the Company’s share of released cash collateral to repay $26,476 to LAAC as settlement of a portion of loans advanced by LAAC. As at September 30, 2024, loans advanced to Exar Capital by the Company (including accrued interest) of $10,477 are due in 2025, $57,302 are due between 2026 and 2027, $301,214 between 2028 and 2031.
+ 
+ In Q3 2024, PGCo entered into a loan facility agreement for $65,000 with Minera Exar to fund debt repayment, working capital and other requirements for Cauchari-Olaroz. The loan matures five years from the date of drawdown and carries an interest rate of the Secured Overnight Financing Rate (“SOFR”) plus 4.0%. PGCo utilized the proceeds from the Pastos Grandes transaction to advance $65,000 loan to Minera Exar in Q3 2024 (Note 8).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ 
+ Loans advanced by PGCo to Minera Exar, as at December 31, 2023
+ 
+ 
+ -
+ 
+ 
+ 
+ Loans to Minera Exar
+ 
+ 
+ 65,000
+ 
+ 
+ 
+ Accrued interest
+ 
+ 
+ 836
+ 
+ 
+ 
+ Loans advanced by PGCo to Minera Exar, as at September 30, 2024
+ 
+ 
+ 65,836
+ 
+ 
+ 
+ 
+ 
+ During the nine months ended September 30, 2024, Minera Exar’s debt reduced by $148,600. The accumulated amount of such debt obtained from third parties as of September 30, 2024, was approximately $201,794 and it includes loans totaling:
+ 
+ •$117,874 which are secured with $38,000 of local bank guarantees arranged by Minera Exar, $68,000 promissory notes signed by Minera Exar, and a $69,400 guarantee provided by Ganfeng. The Company has in turn provided a guarantee to Ganfeng in the amount of $34,000 for the loans; and
+ 
+ •The remaining third-party loans of approximately $83,920 are unsecured.
+ As at September 30, 2024, third party loans of approximately $191,794 are due on or before September 30, 2025 and $10,000 are due in Q4 2025.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 12
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 7. INVESTMENT IN CAUCHARI-OLAROZ PROJECT (continued)
+ Offtake Agreement with Ganfeng and Bangchak
+ The Company and Ganfeng are entitled to a share of offtake from production at Cauchari-Olaroz. The Company is entitled to 49% of the offtake, which would amount to approximately 19,600 tonnes per annum (“tpa”) of lithium carbonate assuming full capacity is achieved. The Company has entered into an offtake agreement with each of Ganfeng and Bangchak to sell a fixed amount of offtake production at market-based prices, with Ganfeng entitled to 80% of the first 12,250 tpa of lithium carbonate (9,800 tpa assuming full production capacity) and Bangchak entitled to up to 6,000 tpa of lithium carbonate (assuming full production capacity). 
+ The balance of the Company’s offtake entitlement, amounting to up to approximately 3,800 tpa of lithium carbonate is uncommitted, but for limited residual rights available to Bangchak to the extent production does not meet full capacity.
+ Prepayment of purchases and sales of lithium carbonate
+ In Q2 2023, the Company entered into an agreement to receive prepayments from Ganfeng with respect to the Company’s sale of 80% of its 49% share of the future lithium carbonate production from Minera Exar. The agreement provided the Company the right to settle its obligation to Ganfeng through assigning its rights to receive a corresponding value of lithium carbonate from Minera Exar. Concurrently, the Company entered into an agreement to make prepayments to Minera Exar with respect to the Company’s 49% share of the future lithium carbonate production from Minera Exar. 
+ The prepayments to Minera Exar were non-interest bearing (except in the case of default) and were settled as a credit against the purchase of lithium carbonate within 365 days of the prepayment invoice.
+ As at January 1, 2024, there were $6,673 prepayments that had been made to Minera Exar and $2,322 prepayments received from Ganfeng, which were fully settled in Q1 2024 against the lithium carbonate purchases from Minera Exar and sales to Ganfeng respectively.
+ Purchases and sales of lithium carbonate
+ During the nine months ended September 30, 2024, the Company purchased 49% of Minera Exar’s lithium carbonate shipped during the period with Ganfeng purchasing the remaining 51% of the product shipped. The Company sold the purchased lithium carbonate to Ganfeng and Bangchak and acted in the capacity of agent in such sales transactions, as the Company’s acquisition of title to lithium carbonate was simultaneous with the sale of lithium carbonate to Ganfeng and Bangchak and the Company was not directly exposed to inventory or price risk related to lithium carbonate.
+ Since there was no net amount of commission to the Company, there was no impact on the Company’s statement of comprehensive loss for the nine months ended September 30, 2024. 
+ As at September 30, 2024, the Company had a payable of $18,152 to Minera Exar for lithium carbonate purchases and a receivable of $16,745 from Ganfeng and Bangchak for sales of lithium carbonate, as disclosed on the statement of financial position.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 13
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 7. INVESTMENT IN CAUCHARI-OLAROZ PROJECT (continued)
+ Investment in Cauchari-Olaroz Project
+ 
+ Changes in the Investment in Cauchari-Olaroz Project are summarized below:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ 
+ Investment in Cauchari-Olaroz Project, as at December 31, 2022
+ 
+ 
+ 41,507
+ 
+ 
+ 
+ Contribution to Investment in Cauchari-Olaroz Project
+ 
+ 
+ 1,863
+ 
+ 
+ 
+ Share of income of Cauchari-Olaroz Project
+ 
+ 
+ 53,555
+ 
+ 
+ 
+ Elimination of the Company’s portion of capitalized intercompany interest
+ 
+ 
+ (37,344
+ )
+ 
+ 
+ Investment in Cauchari-Olaroz Project, as at December 31, 2023
+ 
+ 
+ 59,581
+ 
+ 
+ 
+ Contribution to Investment in Cauchari-Olaroz Project
+ 
+ 
+ 1,570
+ 
+ 
+ 
+ Share of loss of Cauchari-Olaroz Project
+ 
+ 
+ (16,957
+ )
+ 
+ 
+ Elimination of the Company’s portion of capitalized intercompany interest
+ 
+ 
+ (10,858
+ )
+ 
+ 
+ Investment in Cauchari-Olaroz Project, as at September 30, 2024
+ 
+ 
+ 33,336
+ 
+ 
+ 
+ 
+ 
+ As of January 1, 2024, the Company’s investment in Minera Exar was $23,456 and Exar Capital was $36,125 and contributions to the investment in Minera Exar during the nine months ended September 30, 2024, were $1,570. Since the Company’s share of Minera Exar loss for the nine months ended September 30, 2024, exceeded the carrying value of the investment in Minera Exar, the Company recognized its share of loss equal to the carrying value of the investment in Minera Exar of $25,026. The recognized and unrecognized share of Minera Exar losses were $25,026 and $26,313 respectively for the nine months ended September 30, 2024. The Company’s share of Exar Capital loss was $2,789 for the nine months ended September 30, 2024.
+ 
+ The following are the amounts presented in the financial statements of Minera Exar on a 100% basis as amended to reflect the Company’s accounting policies.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ September 30, 2024
+ 
+ 
+ December 31, 2023
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Current assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash and cash equivalents
+ 
+ 
+ 14,932
+ 
+ 
+ 
+ 49
+ 
+ 
+ 
+ Inventories
+ 
+ 
+ 270,656
+ 
+ 
+ 
+ 220,507
+ 
+ 
+ 
+ Other current assets
+ 
+ 
+ 59,318
+ 
+ 
+ 
+ 12,855
+ 
+ 
+ 
+ Total current assets
+ 
+ 
+ 344,906
+ 
+ 
+ 
+ 233,411
+ 
+ 
+ 
+ Non-current assets
+ 
+ 
+ 1,442,294
+ 
+ 
+ 
+ 1,327,284
+ 
+ 
+ 
+ Current liabilities - third-party loans
+ 
+ 
+ (191,794
+ )
+ 
+ 
+ (314,109
+ )
+ 
+ 
+ Current liabilities - loans from Exar Capital
+ 
+ 
+ (593,953
+ )
+ 
+ 
+ (328,569
+ )
+ 
+ 
+ Current liabilities - other
+ 
+ 
+ (73,453
+ )
+ 
+ 
+ (86,802
+ )
+ 
+ 
+ Non-current liabilities - third-party loans
+ 
+ 
+ (10,000
+ )
+ 
+ 
+ (36,242
+ )
+ 
+ 
+ Non-current liabilities - loans from Exar Capital
+ 
+ 
+ (576,717
+ )
+ 
+ 
+ (544,526
+ )
+ 
+ 
+ Non-current liabilities - loans from PGCo
+ 
+ 
+ (82,425
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ Non-current liabilities - other
+ 
+ 
+ (46,495
+ )
+ 
+ 
+ (5,696
+ )
+ 
+ 
+ Net assets
+ 
+ 
+ 212,363
+ 
+ 
+ 
+ 244,751
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 14
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 7. INVESTMENT IN CAUCHARI-OLAROZ PROJECT (continued)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nine months ended September 30,
+ 
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Sales
+ 
+ 
+ 130,901
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ Cost of sales
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Production costs
+ 
+ 
+ (109,527
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ Depreciation in cost of sales
+ 
+ 
+ (5,577
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ Inventory net realizable value adjustment
+ 
+ 
+ 4,127
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ Total cost of sales
+ 
+ 
+ (110,977
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Gross profit
+ 
+ 
+ 19,924
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Selling and distribution expenses
+ 
+ 
+ (8,660
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ Administrative expenses
+ 
+ 
+ (6,682
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ Derivative foreign exchange and other loss
+ 
+ 
+ (5,857
+ )
+ 
+ 
+ (88,159
+ )
+ 
+ 
+ Deferred tax (expense)/recovery
+ 
+ 
+ (31,113
+ )
+ 
+ 
+ 23,637
+ 
+ 
+ 
+ Net loss
+ 
+ 
+ (32,388
+ )
+ 
+ 
+ (64,522
+ )
+ 
+ 
+ 
+ 
+ The repayment mechanism for the loans provided by Exar Capital and PGCo to Minera Exar is linked to the implied market foreign exchange rate in Argentina, which gives rise to an embedded derivative in the loans payable by Minera Exar. This embedded derivative is required to be measured at fair value at each reporting date. During the nine months ended September 30, 2024, Minera Exar recognized a loss of $2,414 (net of taxes) on a 100% basis due to changes in the fair value of the derivative associated with loans advanced by Exar Capital and PGCo. This loss and the corresponding tax impact are included in the derivative foreign exchange and other loss, and deferred tax recovery respectively of Minera Exar’s statement of comprehensive loss for the nine months ended September 30, 2024.
+ 
+ Minera Exar’s Commitments
+ 
+ As at September 30, 2024, Minera Exar had the following commitments (on a 100% basis):
+ 
+ •Annual royalty of $200 due in May of every year and expiring in 2041.
+ 
+ •Aboriginal programs agreements with seven communities located in the Cauchari-Olaroz project area having terms ranging from five to thirty years. The annual fees due are $261 in 2024 and $518 between 2025 and 2063, assuming that such agreements are extended for the life of the project. The annual fees are subject to change. Minera Exar’s obligations to make the payments are subject to continued development of the project and commencement and continuation of production operations for the project.
+ 
+ •Commitments related to construction contracts of $456.
+ 
+ 
+ 8. PASTOS GRANDES TRANSACTION
+ 
+ On August 16, 2024, PGCo, a wholly-owned subsidiary of the Company holding the Pastos Grandes project in Salta, Argentina, issued common shares representing approximately 14.9% of PGCo to Ganfeng Lithium for consideration of approximately $70,000. As the Company retained control of PGCo the transaction has been accounted for as an equity transaction. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 15
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 8. PASTOS GRANDES TRANSACTION (continued)
+ 
+ As a result, the Company recognized a non-controlling interest of $62,662, representing Ganfeng Lithium’s 14.9% share in the net assets of PGCo, along with a reduction in deficit of $6,884 which includes gain on sale of PGCo’s minority interest of $7,338 and transaction costs of $454. In Q3 2024, PGCo utilized the proceeds from the Pastos Grandes transaction and entered into a loan facility agreement for $65,000 with Minera Exar which was used to fund debt repayment, working capital and other requirements of Cauchari-Olaroz. The loan matures five years from the date of drawdown and carries an interest rate of SOFR plus 4.0%.
+ 
+ 9. PROPERTY, PLANT AND EQUIPMENT
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Thacker Pass Project
+ 
+ 
+ Buildings
+ 
+ 
+ Equipmentand machinery
+ 
+ 
+ Other1
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Cost
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ As at December 31, 2022
+ 
+ 
+ -
+ 
+ 
+ 
+ 1,674
+ 
+ 
+ 
+ 4,991
+ 
+ 
+ 
+ 6,067
+ 
+ 
+ 
+ 12,732
+ 
+ 
+ 
+ Transfers from E&E
+ 
+ 
+ 9,514
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 9,514
+ 
+ 
+ 
+ Acquisition of Arena Minerals
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 55
+ 
+ 
+ 
+ 55
+ 
+ 
+ 
+ Additions
+ 
+ 
+ 118,454
+ 
+ 
+ 
+ 3,529
+ 
+ 
+ 
+ 239
+ 
+ 
+ 
+ 1,964
+ 
+ 
+ 
+ 124,186
+ 
+ 
+ 
+ Disposals
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ (98
+ )
+ 
+ 
+ (282
+ )
+ 
+ 
+ (380
+ )
+ 
+ 
+ Assets distributed upon separation
+ 
+ 
+ (127,968
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ (2,416
+ )
+ 
+ 
+ (4,348
+ )
+ 
+ 
+ (134,732
+ )
+ 
+ 
+ As at December 31, 2023
+ 
+ 
+ -
+ 
+ 
+ 
+ 5,203
+ 
+ 
+ 
+ 2,716
+ 
+ 
+ 
+ 3,456
+ 
+ 
+ 
+ 11,375
+ 
+ 
+ 
+ Additions
+ 
+ 
+ -
+ 
+ 
+ 
+ 660
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 212
+ 
+ 
+ 
+ 872
+ 
+ 
+ 
+ Disposals
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ (701
+ )
+ 
+ 
+ (701
+ )
+ 
+ 
+ As at September 30, 2024
+ 
+ 
+ -
+ 
+ 
+ 
+ 5,863
+ 
+ 
+ 
+ 2,716
+ 
+ 
+ 
+ 2,967
+ 
+ 
+ 
+ 11,546
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Thacker Pass Project
+ 
+ 
+ 
+ 
+ Buildings
+ 
+ 
+ 
+ 
+ Equipmentand machinery
+ 
+ 
+ 
+ 
+ Other1
+ 
+ 
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ 
+ Accumulated depreciation
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ As at December 31, 2022
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 106
+ 
+ 
+ 
+ 
+ 
+ 1,327
+ 
+ 
+ 
+ 
+ 
+ 2,273
+ 
+ 
+ 
+ 
+ 
+ 3,706
+ 
+ 
+ 
+ Depreciation for the period
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 240
+ 
+ 
+ 
+ 
+ 
+ 466
+ 
+ 
+ 
+ 
+ 
+ 1,434
+ 
+ 
+ 
+ 
+ 
+ 2,140
+ 
+ 
+ 
+ Disposals
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ (166
+ )
+ 
+ 
+ 
+ 
+ (166
+ )
+ 
+ 
+ Assets distributed upon separation
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ (1,653
+ )
+ 
+ 
+ 
+ 
+ (1,897
+ )
+ 
+ 
+ 
+ 
+ (3,550
+ )
+ 
+ 
+ As at December 31, 2023
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 346
+ 
+ 
+ 
+ 
+ 
+ 140
+ 
+ 
+ 
+ 
+ 
+ 1,644
+ 
+ 
+ 
+ 
+ 
+ 2,130
+ 
+ 
+ 
+ Depreciation for the period
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 61
+ 
+ 
+ 
+ 
+ 
+ 20
+ 
+ 
+ 
+ 
+ 
+ 496
+ 
+ 
+ 
+ 
+ 
+ 577
+ 
+ 
+ 
+ Disposals
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ (231
+ )
+ 
+ 
+ 
+ 
+ (231
+ )
+ 
+ 
+ As at September 30, 2024
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 407
+ 
+ 
+ 
+ 
+ 
+ 160
+ 
+ 
+ 
+ 
+ 
+ 1,909
+ 
+ 
+ 
+ 
+ 
+ 2,476
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Thacker Pass Project
+ 
+ 
+ Buildings
+ 
+ 
+ Equipmentand machinery
+ 
+ 
+ Other1
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Net book value
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ As at December 31, 2023
+ 
+ 
+ -
+ 
+ 
+ 
+ 4,857
+ 
+ 
+ 
+ 2,576
+ 
+ 
+ 
+ 1,812
+ 
+ 
+ 
+ 9,245
+ 
+ 
+ 
+ As at September 30, 2024
+ 
+ 
+ -
+ 
+ 
+ 
+ 5,456
+ 
+ 
+ 
+ 2,556
+ 
+ 
+ 
+ 1,058
+ 
+ 
+ 
+ 9,070
+ 
+ 
+ 
+ 
+ 1 The “Other” category includes right of use assets with a cost of $1,408 and $1,269 of accumulated depreciation as at September 30, 2024.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 16
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 
+ 10. EXPLORATION AND EVALUATION ASSETS
+ 
+ Exploration and evaluation assets were as follows:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Thacker Pass
+ 
+ 
+ Millennial Projects
+ 
+ 
+ Other Claims
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ $
+ 
+ 
+ 
+ Total exploration and evaluation assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ As at December 31, 2022
+ 
+ 
+ 9,514
+ 
+ 
+ 
+ 339,131
+ 
+ 
+ 
+ -
+ 
+ 
+ 348,645
+ 
+ 
+ 
+ Transfers to PP&E
+ 
+ 
+ (9,514
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ (9,514
+ )
+ 
+ 
+ Acquisition of Arena Minerals
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 1,385
+ 
+ 
+ 1,385
+ 
+ 
+ 
+ Additions
+ 
+ 
+ -
+ 
+ 
+ 
+ 2,646
+ 
+ 
+ 
+ 770
+ 
+ 
+ 3,416
+ 
+ 
+ 
+ Write offs
+ 
+ 
+ -
+ 
+ 
+ 
+ (70
+ )
+ 
+ 
+ -
+ 
+ 
+ (70
+ )
+ 
+ 
+ Assets distributed to the shareholders
+ 
+ 
+ -
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ (770
+ )
+ 
+ (770
+ )
+ 
+ 
+ As at December 31, 2023
+ 
+ 
+ -
+ 
+ 
+ 
+ 341,707
+ 
+ 
+ 
+ 1,385
+ 
+ 
+ 343,092
+ 
+ 
+ 
+ Additions
+ 
+ 
+ -
+ 
+ 
+ 
+ 696
+ 
+ 
+ 
+ -
+ 
+ 
+ 696
+ 
+ 
+ 
+ As at September 30, 2024
+ 
+ 
+ -
+ 
+ 
+ 
+ 342,403
+ 
+ 
+ 
+ 1,385
+ 
+ 
+ 343,788
+ 
+ 
+ 
+ 
+ 
+ The Company has certain commitments for royalty and other payments to be made for Pastos Grandes as set out below. These amounts will only be payable if the Company continues to hold the subject claims in the future and the royalties will only be incurred if the Company starts production from the project. 
+ 
+ Pastos Grandes: 
+ 
+ •1.5% royalty on the gross operating revenues from production from certain Pastos Grandes claims, payable to the original vendors of the project; and
+ 
+ •royalties to a maximum of 3% over net-back income, payable to the Salta Province. 
+ 
+ 
+ 11. EQUITY-SETTLEABLE CONVERTIBLE NOTES
+ On December 6, 2021, the Company closed an offering (the “Offering”) of $225,000 aggregate principal amount of 1.75% Convertible Notes due in 2027. The Company used a portion of the net proceeds from the Offering to repay in full its $205,000 senior secured credit facility. On December 9, 2021, the initial purchasers under the Offering exercised in full their option to purchase up to an additional $33,750 aggregate principal amount of the Convertible Notes, increasing the total Offering size to $258,750.
+ The Convertible Notes represent financial instruments that include a debt host accounted for at amortized cost and conversion option and redemption option derivatives, which are separated from the debt host and accounted for at fair value with changes in fair value recorded in the statement of comprehensive loss. These derivatives are accounted for together as a single derivative when separated from the debt host.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 17
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 11. EQUITY-SETTLEABLE CONVERTIBLE NOTES (continued)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Debt host
+ 
+ 
+ Convertible note derivative
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Convertible notes
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ As at December 31, 2022
+ 
+ 
+ 169,127
+ 
+ 
+ 
+ 35,345
+ 
+ 
+ 
+ 204,472
+ 
+ 
+ 
+ Gain on change in fair value of convertible notes derivative
+ 
+ 
+ -
+ 
+ 
+ 
+ (22,207
+ )
+ 
+ 
+ (22,207
+ )
+ 
+ 
+ Accrued Interest
+ 
+ 
+ 22,623
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 22,623
+ 
+ 
+ 
+ Interest payment
+ 
+ 
+ (2,452
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ (2,452
+ )
+ 
+ 
+ Reclassification of short-term accrued interest to short-term liability
+ 
+ 
+ (2,075
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ (2,075
+ )
+ 
+ 
+ As at December 31, 2023
+ 
+ 
+ 187,223
+ 
+ 
+ 
+ 13,138
+ 
+ 
+ 
+ 200,361
+ 
+ 
+ 
+ Gain on change in fair value of convertible notes derivative
+ 
+ 
+ -
+ 
+ 
+ 
+ (11,046
+ )
+ 
+ 
+ (11,046
+ )
+ 
+ 
+ Accrued Interest
+ 
+ 
+ 18,556
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 18,556
+ 
+ 
+ 
+ Interest payment
+ 
+ 
+ (2,453
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ (2,453
+ )
+ 
+ 
+ Reclassification of short-term accrued interest to short-term liability
+ 
+ 
+ (943
+ )
+ 
+ 
+ -
+ 
+ 
+ 
+ (943
+ )
+ 
+ 
+ As at September 30, 2024
+ 
+ 
+ 202,383
+ 
+ 
+ 
+ 2,092
+ 
+ 
+ 
+ 204,475
+ 
+ 
+ 
+ 
+ The fair value of the derivative as at September 30, 2024, is estimated using a partial differential equation method with Monte Carlo simulation with the following inputs: volatility of 64.68%, share price of $3.26, a risk-free rate of 3.64%, an expected dividend of 0%, and a credit spread of 13.10%. Valuation of the embedded derivative is highly sensitive to changes in the Company’s share price and to a lesser extent to changes in the risk-free interest rate and the assumed volatility of the Company’s share price. A gain on change in fair value for the nine months ended September 30, 2024, of $11,046 was recognized in the statement of comprehensive loss.
+ 
+ Interest expense for the nine months ended September 30, 2024 of $18,556 was recognized as finance costs in the statement of comprehensive loss.
+ 
+ Amendments to IAS 1 resulted in a reclassification of equity-settleable convertible notes from non-current liabilities to current liabilities as at January 1, 2023 and December 31, 2023 (Note 3). The Convertible Notes are convertible at the option of the holders upon satisfaction of certain conditions that are beyond the control of the Company. If such conditions are satisfied, the Convertible Notes would be convertible at the option of the holders and upon conversion, the Notes may be settled, at the Company’s election, in common shares of the Company, cash or a combination thereof. As a result, the Company does not have the right to defer settlement of the Convertible Notes for more than 12 months after the end of the reporting periods.
+ The Convertible Notes are unsecured and accrue interest payable semi-annually in arrears at a rate of 1.75% per annum payable on January 15th and July 15th of each year, beginning on July 15, 2022. Prior to October 15, 2026, the Notes are convertible at the option of the holders during certain periods, upon the satisfaction of certain conditions including:
+ (i)If the Notes’ trading price for any five consecutive trading day period was, on each day, less than 98% of the conversion value of such Notes;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 18
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 11. EQUITY-SETTLEABLE CONVERTIBLE NOTES (continued)
+ (ii)if the Company elects to (a) issue equity instruments to all holders of the Company’s common shares entitling them, for a period of not more than 45 calendar days after issue, to subscribe for or purchase common shares at a price per share that is less than the average reported sales prices of the common shares for the 10-trading day period ending the trading day before the announcement of such issuance of equity instruments; or (b) make a distribution to all holders of the Company’s common shares, whether such distribution is of assets, securities, or rights to purchase the Company’s securities, and has a per share value exceeding at least 10% of the trading price of the common shares on the date immediately preceding the announcement date of such distribution;
+ (iii)upon the occurrence of certain significant business events;
+ (iv)if, at any time after the calendar quarter ending on March 31, 2022 (and only during such calendar quarter), the last reported price of the Company’s common shares for at least 20 trading days (whether or not consecutive) during the last period of 30 trading days of the immediately preceding calendar quarter is greater than or equal to 130% of the conversion price on each applicable trading day (this has not occurred for the nine months ended September 30, 2024); or,
+ (v)upon a call for redemption by the Company, or upon the Company’s failure to pay the redemption price therefor.
+ Thereafter, the Convertible Notes will be convertible at any time until the close of business on the business day immediately preceding the maturity date. Upon conversion, the Convertible Notes may be settled, at the Company’s election, in common shares of the Company, cash or a combination thereof. The Conversion Rate for the Convertible Notes was adjusted on October 17, 2023, to 52.6019 common shares of the Company per $1,000 principal amount of the Convertible Notes.
+ The Convertible Notes mature on January 15, 2027, unless earlier repurchased, redeemed or converted. The Company may not redeem the Convertible Notes prior to December 6, 2024, except upon the occurrence of certain changes to the laws governing Canadian withholding taxes. After December 6, 2024, the Company has the right to redeem the Convertible Notes at its option in certain circumstances including:
+ (i)on or after December 6, 2024, if the Company’s share price for at least 20 trading days during any 30 consecutive trading day period ending on, and including, the last trading day of the immediately preceding calendar quarter is over 130% of the conversion price on each applicable trading day, at a redemption price equal to 100% of the principal plus accrued and unpaid interest; and
+ (ii)if the Company becomes obligated to pay additional amounts as a result of its obligation to bear the cost of Canadian or non-Canadian withholding tax, if applicable; 
+ Redemption can result in exercisability of the conversion option. Holders of Convertible Notes have the right to require the Company to repurchase their Convertible Notes upon the occurrence of certain events.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 19
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 12. SHARE CAPITAL AND EQUITY COMPENSATION
+ 
+ Equity Incentive Plan
+ The Company has an equity incentive plan (“Plan”) in accordance with the policies of the TSX whereby, from time to time at the discretion of the Board of Directors, eligible directors, officers, employees and consultants are awarded restricted share units (“RSUs”) and performance share units (“PSUs”) that, subject to a recipient’s deferral right in accordance with the Income Tax Act (Canada), convert automatically into common shares upon vesting. In addition, independent directors are awarded deferred share units (“DSUs”), generally as partial compensation for their services as directors. DSUs may be redeemed by directors for common shares upon retirement or termination from the Board. The Plan also permits the grant of incentive stock options exercisable to purchase common shares of the Company (“stock options”). The Plan is a “rolling plan” pursuant to which the aggregate number of common shares to be issued shall not exceed 8% of the outstanding shares from time to time.
+ Restricted Share Units 
+ During the nine months ended September 30, 2024, the Company granted 1,883 RSUs (2023 – 363) to its employees and consultants. The total estimated fair value of the RSUs granted was $7,249 (2023 – $8,799) based on the market value of the Company’s shares on the grant date. As at September 30, 2024, there was $8,807 (2023 – $4,794) of total unamortized compensation cost relating to unvested RSUs. During the nine months ended September 30, 2024, equity compensation expense related to RSUs of $2,018 was charged to expenses (2023 – $2,110).
+ A summary of changes to the number of outstanding RSUs is as follows: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number of RSUs(in 000's)
+ 
+ 
+ 
+ Balance, RSUs outstanding as at December 31, 2022
+ 
+ 
+ 2,367
+ 
+ 
+ 
+ Converted into shares pre-separation
+ 
+ 
+ (547
+ )
+ 
+ 
+ Forfeited pre-separation
+ 
+ 
+ (12
+ )
+ 
+ 
+ Granted pre-separation
+ 
+ 
+ 363
+ 
+ 
+ 
+ Balance, RSUs outstanding prior to separation
+ 
+ 
+ 2,171
+ 
+ 
+ 
+ Net adjustment upon separation
+ 
+ 
+ (281
+ )
+ 
+ 
+ Converted into shares post-separation
+ 
+ 
+ (521
+ )
+ 
+ 
+ Granted post-separation
+ 
+ 878
+ 
+ 
+ 
+ Balance, RSUs outstanding as at December 31, 2023
+ 
+ 
+ 2,247
+ 
+ 
+ 
+ Converted into shares
+ 
+ 
+ (599
+ )
+ 
+ 
+ Granted
+ 
+ 
+ 1,883
+ 
+ 
+ 
+ Forfeited
+ 
+ 
+ (146
+ )
+ 
+ 
+ Balance, RSUs outstanding as at September 30, 2024
+ 
+ 
+ 3,385
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 20
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 12. SHARE CAPITAL AND EQUITY COMPENSATION (continued)
+ Deferred Share Units 
+ During the nine months ended September 30, 2024, the Company granted 203 DSUs (2023 – 32) with a total estimated fair value of $780 (2023 – $628).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number of DSUs(in 000's)
+ 
+ 
+ 
+ Balance, DSUs outstanding as at December 31, 2022
+ 
+ 
+ 252
+ 
+ 
+ 
+ Granted pre-separation
+ 
+ 
+ 32
+ 
+ 
+ 
+ Converted into common shares pre-separation
+ 
+ 
+ (59
+ )
+ 
+ 
+ Balance, DSUs outstanding as at September 30, 2023
+ 
+ 
+ 225
+ 
+ 
+ 
+ Net adjustment upon separation
+ 
+ 
+ (29
+ )
+ 
+ 
+ Converted into shares post-separation
+ 
+ 
+ (83
+ )
+ 
+ 
+ Granted post-separation
+ 
+ 325
+ 
+ 
+ 
+ Balance, DSUs outstanding as at December 31, 2023
+ 
+ 
+ 438
+ 
+ 
+ 
+ Granted
+ 
+ 203
+ 
+ 
+ 
+ Balance, DSUs outstanding as at September 30, 2024
+ 
+ 
+ 641
+ 
+ 
+ 
+ 
+ Stock Options
+ During the nine months ended September 30, 2024, the Company granted 1,225 stock options (2023 – Nil) to its officers and employees. The fair value of stock options granted was estimated on the date of grant using the Black Scholes Option Pricing Model with the following assumptions used for the grants:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ December 3, 2023
+ 
+ 
+ June 20, 2024
+ 
+ 
+ 
+ Number of options granted ('000's)
+ 
+ 
+ 1,740
+ 
+ 
+ 
+ 1,225
+ 
+ 
+ 
+ Risk-free rate
+ 
+ 4.04%-4.27%
+ 
+ 
+ 4.27%-4.29%
+ 
+ 
+ 
+ Expected life (in years)
+ 
+ 7
+ 
+ 
+ 5-7
+ 
+ 
+ 
+ Annualized volatility
+ 
+ 73.14%-73.66%
+ 
+ 
+ 
+ 73.66
+ %
+ 
+ 
+ Dividend rate
+ 
+ 
+ 0
+ %
+ 
+ 
+ 0
+ %
+ 
+ 
+ Fair value per stock option granted ($)
+ 
+ $2.22-$3.98
+ 
+ 
+ $2.20-$3.52
+ 
+ 
+ 
+ Total fair value of stock options granted ($)
+ 
+ 
+ $5,869
+ 
+ 
+ 
+ $2,824
+ 
+ 
+ 
+ 
+ None of the stock options were exercisable as at September 30, 2024. A summary of changes to outstanding stock options is as follows:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number of Options(in 000's)
+ 
+ 
+ 
+ Balance, stock options outstanding as at December 31, 2022
+ 
+ 
+ 690
+ 
+ 
+ 
+ Exercised pre-separation
+ 
+ 
+ (690
+ )
+ 
+ 
+ Granted post-separation
+ 
+ 
+ 1,740
+ 
+ 
+ 
+ Balance, stock options outstanding as at December 31, 2023
+ 
+ 
+ 1,740
+ 
+ 
+ 
+ Granted
+ 
+ 
+ 1,225
+ 
+ 
+ 
+ Forfeited
+ 
+ 
+ (150
+ )
+ 
+ 
+ Balance, stock options outstanding as at September 30, 2024
+ 
+ 
+ 2,815
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 21
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 12. SHARE CAPITAL AND EQUITY COMPENSATION (continued)
+ 
+ During the nine months ended September 30, 2024, no stock options (2023 – 670) were exercised under the cashless exercise provision of the Plan, resulting in no issuance of shares (2023 – 525) of the Company. The weighted average share price at the time of exercise of stock options during the nine months ended September 30, 2023, was CDN$32.26.
+ 
+ As at September 30, 2024, there was $5,425 (2023 – $6,637) of total unamortized compensation cost relating to unvested stock options. During the nine months ended September 30, 2024, stock-based compensation expense related to stock options of $2,437 (2023 – $Nil) was charged to operating expenses on the statement of comprehensive loss.
+ 
+ Performance Share Units
+ 
+ During the nine months ended September 30, 2024, the Company did not grant any PSUs (2023 – 204). As at September 30, 2024, there was $596 (2023 – $965) of total unamortized compensation cost relating to unvested PSUs. 
+ 
+ During the nine months ended September 30, 2024, equity compensation expense related to PSUs of $369 was charged to operating expenses (2023 – $2,854). A summary of changes to the number of outstanding PSUs is as follows:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number of PSUs(in 000's)
+ 
+ 
+ 
+ Balance, PSUs outstanding as at December 31, 2022
+ 
+ 
+ 766
+ 
+ 
+ 
+ Granted pre-separation
+ 
+ 
+ 204
+ 
+ 
+ 
+ Converted into common shares pre-separation
+ 
+ 
+ (215
+ )
+ 
+ 
+ Forfeited pre-separation
+ 
+ 
+ (6
+ )
+ 
+ 
+ Balance, PSUs outstanding as at September 30, 2023
+ 
+ 
+ 749
+ 
+ 
+ 
+ Net adjustment upon separation
+ 
+ 
+ 153
+ 
+ 
+ 
+ Converted into shares post-separation
+ 
+ 
+ (28
+ )
+ 
+ 
+ Balance, PSUs outstanding as at December 31, 2023
+ 
+ 
+ 874
+ 
+ 
+ 
+ Converted into shares
+ 
+ 
+ (638
+ )
+ 
+ 
+ Balance, PSUs outstanding as at September 30, 2024
+ 
+ 
+ 236
+ 
+ 
+ 
+ 
+ 
+ 
+ 13. RELATED PARTY TRANSACTIONS
+ 
+ Minera Exar, one of the Company’s equity-accounted investee, has entered into the following transactions with companies controlled by the family of its President, who is also a director of Lithium Argentina:
+ 
+ •Option Agreement with Grupo Minero Los Boros S.A. on March 28, 2016, for the transfer to Minera Exar of title to certain mining properties that comprised a portion of the Cauchari-Olaroz project.
+ 
+ •Expenditures under the construction services contract for the Cauchari-Olaroz project with Magna Construcciones S.R.L. (“Magna”) were $400 for the nine months ended September 30, 2024.
+ 
+ •Service agreement with a consortium owned 49% by Magna. The agreement entered into Q1 2022, is for servicing of the evaporation ponds at Cauchari-Olaroz over a five-year term, for total consideration of $68,000 (excluding VAT).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 22
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 13. RELATED PARTY TRANSACTIONS (continued)
+ During the nine months ended September 30, 2024, director’s fees paid by Minera Exar to its President, who is also a director of the Company, totaled $56 (2023 – $56). Refer note 7 for other transactions entered into between the Company and the Company’s equity investees.
+ The amounts due by Minera Exar to related parties arising from such transactions are unsecured, non-interest bearing and have no specific terms of payment. 
+ 
+ Compensation of Key Management 
+ Key management are the Company’s board of directors, and the executive management team. The remuneration of directors and members of the executive management team and amounts due as of September 30, 2024, were as follows:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three Months Ended September 30,
+ 
+ 
+ Nine Months Ended September 30,
+ 
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ $
+ 
+ 
+ $
+ 
+ $
+ 
+ 
+ 
+ Equity compensation
+ 
+ 
+ 2,875
+ 
+ 
+ 884
+ 
+ 
+ 
+ 6,067
+ 
+ 
+ 3,603
+ 
+ 
+ 
+ Salaries, bonuses, benefits and directors' fees included in general & administrative expenses
+ 
+ 
+ 731
+ 
+ 
+ 806
+ 
+ 
+ 
+ 1,699
+ 
+ 
+ 2,826
+ 
+ 
+ 
+ Salaries, bonuses and benefits included in exploration expenditures
+ 
+ 
+ 56
+ 
+ 
+ 44
+ 
+ 
+ 
+ 169
+ 
+ 
+ 180
+ 
+ 
+ 
+ Salaries and benefits capitalized to Investment in Cauchari-Olaroz project
+ 
+ 
+ 114
+ 
+ 
+ 165
+ 
+ 
+ 
+ 443
+ 
+ 
+ 494
+ 
+ 
+ 
+ 
+ 
+ 
+ 3,776
+ 
+ 
+ 1,899
+ 
+ 
+ 
+ 8,378
+ 
+ 
+ 7,103
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ September 30, 2024
+ 
+ 
+ December 31, 2023
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Total due to directors
+ 
+ 
+ 641
+ 
+ 
+ 
+ 66
+ 
+ 
+ 
+ 
+ 
+ 14. GENERAL AND ADMINISTRATIVE EXPENSES 
+ The following table summarizes the Company’s general and administrative expenses:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three Months Ended September 30,
+ 
+ 
+ Nine Months Ended September 30,
+ 
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ $
+ 
+ 
+ $
+ 
+ $
+ 
+ 
+ 
+ Salaries, benefits and directors' fees
+ 
+ 
+ 1,619
+ 
+ 
+ 2,271
+ 
+ 
+ 
+ 4,032
+ 
+ 
+ 5,622
+ 
+ 
+ 
+ Office and administration
+ 
+ 
+ 705
+ 
+ 
+ 1,261
+ 
+ 
+ 
+ 2,119
+ 
+ 
+ 3,019
+ 
+ 
+ 
+ Professional fees
+ 
+ 
+ 675
+ 
+ 
+ 393
+ 
+ 
+ 
+ 2,754
+ 
+ 
+ 1,498
+ 
+ 
+ 
+ Regulatory and filing fees
+ 
+ 
+ 159
+ 
+ 
+ 61
+ 
+ 
+ 
+ 332
+ 
+ 
+ 218
+ 
+ 
+ 
+ Travel
+ 
+ 
+ 130
+ 
+ 
+ 254
+ 
+ 
+ 
+ 360
+ 
+ 
+ 651
+ 
+ 
+ 
+ Investor relations
+ 
+ 
+ 109
+ 
+ 
+ 174
+ 
+ 
+ 
+ 570
+ 
+ 
+ 636
+ 
+ 
+ 
+ Depreciation
+ 
+ 
+ 122
+ 
+ 
+ 100
+ 
+ 
+ 
+ 437
+ 
+ 
+ 312
+ 
+ 
+ 
+ 
+ 
+ 
+ 3,519
+ 
+ 
+ 4,514
+ 
+ 
+ 
+ 10,604
+ 
+ 
+ 11,956
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 23
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 15. EXPLORATION AND EVALUATION EXPENDITURES 
+ The following table summarizes the Company’s exploration and evaluation expenditures:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three Months Ended September 30,
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ Millennial Projects
+ 
+ Other
+ 
+ Total
+ 
+ Millennial Projects
+ 
+ Other
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ $
+ 
+ $
+ 
+ $
+ 
+ $
+ 
+ $
+ 
+ 
+ 
+ Engineering
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 53
+ 
+ 
+ -
+ 
+ 
+ 53
+ 
+ 
+ 
+ Consulting and salaries
+ 
+ 
+ 1,181
+ 
+ 
+ 230
+ 
+ 
+ 1,411
+ 
+ 
+ 109
+ 
+ 
+ 492
+ 
+ 
+ 601
+ 
+ 
+ 
+ Permitting and environmental
+ 
+ 
+ 24
+ 
+ 
+ -
+ 
+ 
+ 24
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ Field supplies and other
+ 
+ 
+ 118
+ 
+ 
+ -
+ 
+ 
+ 118
+ 
+ 
+ 372
+ 
+ 
+ -
+ 
+ 
+ 372
+ 
+ 
+ 
+ Depreciation
+ 
+ 
+ 32
+ 
+ 
+ -
+ 
+ 
+ 32
+ 
+ 
+ 131
+ 
+ 
+ -
+ 
+ 
+ 131
+ 
+ 
+ 
+ Drilling and geological expenses
+ 
+ 
+ 176
+ 
+ 
+ -
+ 
+ 
+ 176
+ 
+ 
+ 681
+ 
+ 
+ -
+ 
+ 
+ 681
+ 
+ 
+ 
+ Total exploration expenditures
+ 
+ 
+ 1,531
+ 
+ 
+ 230
+ 
+ 
+ 1,761
+ 
+ 
+ 1,346
+ 
+ 
+ 492
+ 
+ 
+ 1,838
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nine Months Ended September 30,
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ Millennial Projects
+ 
+ Other
+ 
+ Total
+ 
+ Millennial Projects
+ 
+ Other
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ $
+ 
+ $
+ 
+ $
+ 
+ $
+ 
+ $
+ 
+ 
+ 
+ Engineering
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 53
+ 
+ 
+ -
+ 
+ 
+ 53
+ 
+ 
+ 
+ Consulting and salaries
+ 
+ 
+ 2,978
+ 
+ 
+ 1,134
+ 
+ 
+ 4,112
+ 
+ 
+ 2,475
+ 
+ 
+ 1,069
+ 
+ 
+ 3,544
+ 
+ 
+ 
+ Permitting and environmental
+ 
+ 
+ 210
+ 
+ 
+ -
+ 
+ 
+ 210
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ Field supplies and other
+ 
+ 
+ 2,132
+ 
+ 
+ -
+ 
+ 
+ 2,132
+ 
+ 
+ 3,840
+ 
+ 
+ 93
+ 
+ 
+ 3,933
+ 
+ 
+ 
+ Depreciation
+ 
+ 
+ 149
+ 
+ 
+ -
+ 
+ 
+ 149
+ 
+ 
+ 198
+ 
+ 
+ -
+ 
+ 
+ 198
+ 
+ 
+ 
+ Drilling and geological expenses
+ 
+ 
+ 999
+ 
+ 
+ -
+ 
+ 
+ 999
+ 
+ 
+ 2,270
+ 
+ 
+ -
+ 
+ 
+ 2,270
+ 
+ 
+ 
+ Total exploration expenditures
+ 
+ 
+ 6,468
+ 
+ 
+ 1,134
+ 
+ 
+ 7,602
+ 
+ 
+ 8,836
+ 
+ 
+ 1,162
+ 
+ 
+ 9,998
+ 
+ 
+ 
+ 
+ 
+ 
+ 16. FINANCE COSTS
+ The following table summarizes the Company’s finance costs:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three Months Ended September 30,
+ 
+ 
+ Nine Months Ended September 30,
+ 
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ $
+ 
+ 
+ $
+ 
+ $
+ 
+ 
+ 
+ Interest on convertible notes
+ 
+ 
+ 6,384
+ 
+ 
+ 5,758
+ 
+ 
+ 
+ 18,556
+ 
+ 
+ 16,691
+ 
+ 
+ 
+ Other
+ 
+ 
+ 4
+ 
+ 
+ 3
+ 
+ 
+ 
+ 36
+ 
+ 
+ 57
+ 
+ 
+ 
+ 
+ 
+ 
+ 6,388
+ 
+ 
+ 5,761
+ 
+ 
+ 
+ 18,592
+ 
+ 
+ 16,748
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 24
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 17. FINANCE AND OTHER INCOME
+ The following table summarizes the Company’s finance and other income:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three Months Ended September 30,
+ 
+ 
+ Nine Months Ended September 30,
+ 
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ $
+ 
+ 
+ $
+ 
+ $
+ 
+ 
+ 
+ Interest on loans to Exar Capital
+ 
+ 
+ 11,134
+ 
+ 
+ 8,909
+ 
+ 
+ 
+ 32,622
+ 
+ 
+ 23,812
+ 
+ 
+ 
+ Interest on loans to Minera Exar
+ 
+ 
+ 836
+ 
+ 
+ -
+ 
+ 
+ 
+ 836
+ 
+ 
+ -
+ 
+ 
+ 
+ Interest on cash and cash equivalents and deposits
+ 
+ 
+ 1,064
+ 
+ 
+ 5,815
+ 
+ 
+ 
+ 3,246
+ 
+ 
+ 17,224
+ 
+ 
+ 
+ Other
+ 
+ 
+ 178
+ 
+ 
+ 197
+ 
+ 
+ 
+ 1,176
+ 
+ 
+ 464
+ 
+ 
+ 
+ 
+ 
+ 
+ 13,212
+ 
+ 
+ 14,921
+ 
+ 
+ 
+ 37,880
+ 
+ 
+ 41,500
+ 
+ 
+ 
+ 
+ 18. SEGMENTED INFORMATION
+ As of September 30, 2024, Cauchari-Olaroz is in the commissioning stage while the projects under the Pastos Grandes Basin segment are in the exploration and evaluation stage. Assets and liabilities of the North American segment were distributed to the shareholders upon the Separation on October 3, 2023, and its operations were classified as a discontinued operation (Note 4).
+ The Company’s reportable segments and corporate assets are summarized in the following tables:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cauchari-Olaroz$
+ 
+ 
+ 
+ 
+ Pastos Grandes Basin$
+ 
+ 
+ Corporate$
+ 
+ 
+ Total$
+ 
+ 
+ 
+ As at September 30, 2024
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Property, plant and equipment
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 8,547
+ 
+ 
+ 
+ 523
+ 
+ 
+ 
+ 9,070
+ 
+ 
+ 
+ Exploration and evaluation assets
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 343,773
+ 
+ 
+ 
+ 15
+ 
+ 
+ 
+ 343,788
+ 
+ 
+ 
+ Total assets
+ 
+ 
+ 410,084
+ 
+ 
+ 
+ 
+ 
+ 612,429
+ 
+ 
+ 
+ 99,250
+ 
+ 
+ 
+ 1,121,763
+ 
+ 
+ 
+ Total liabilities
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ (503
+ )
+ 
+ 
+ (227,640
+ )
+ 
+ 
+ (228,143
+ )
+ 
+ 
+ For the nine months ended September 30, 2024
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Property, plant and equipment additions
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 667
+ 
+ 
+ 
+ 205
+ 
+ 
+ 
+ 872
+ 
+ 
+ 
+ (Loss)/income
+ 
+ 
+ (27,815
+ )
+ 
+ 
+ 
+ 
+ 4,990
+ 
+ 
+ 
+ 12,409
+ 
+ 
+ 
+ (10,416
+ )
+ 
+ 
+ Exploration expenditures
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ (7,407
+ )
+ 
+ 
+ (195
+ )
+ 
+ 
+ (7,602
+ )
+ 
+ 
+ For the three months ended September 30, 2024
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Property, plant and equipment additions
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 48
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 48
+ 
+ 
+ 
+ Loss
+ 
+ 
+ (1,301
+ )
+ 
+ 
+ 
+ 
+ (45
+ )
+ 
+ 
+ (1,061
+ )
+ 
+ 
+ (2,407
+ )
+ 
+ 
+ Exploration expenditures
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ (1,717
+ )
+ 
+ 
+ (44
+ )
+ 
+ 
+ (1,761
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 25
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 18. SEGMENTED INFORMATION (continued)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Thacker Pass$
+ 
+ 
+ 
+ 
+ Cauchari-Olaroz$
+ 
+ 
+ 
+ 
+ Pastos Grandes Basin$
+ 
+ 
+ 
+ 
+ Corporate$
+ 
+ 
+ 
+ 
+ Total$
+ 
+ 
+ 
+ As at December 31, 2023
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Property, plant and equipment
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 8,372
+ 
+ 
+ 
+ 
+ 
+ 873
+ 
+ 
+ 
+ 
+ 
+ 9,245
+ 
+ 
+ 
+ Exploration and evaluation assets
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 343,078
+ 
+ 
+ 
+ 
+ 
+ 14
+ 
+ 
+ 
+ 
+ 
+ 343,092
+ 
+ 
+ 
+ Total assets
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 387,844
+ 
+ 
+ 
+ 
+ 
+ 536,364
+ 
+ 
+ 
+ 
+ 
+ 130,818
+ 
+ 
+ 
+ 
+ 
+ 1,055,026
+ 
+ 
+ 
+ Total liabilities
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ (1,858
+ )
+ 
+ 
+ 
+ 
+ (224,237
+ )
+ 
+ 
+ 
+ 
+ (226,095
+ )
+ 
+ 
+ For the nine months endedSeptember 30, 2023
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Property, plant and equipment additions
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 2,923
+ 
+ 
+ 
+ 
+ 
+ 685
+ 
+ 
+ 
+ 
+ 
+ 3,608
+ 
+ 
+ 
+ (Loss)/income from discontinued operations
+ 
+ 
+ (6,929
+ )
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 14,337
+ 
+ 
+ 
+ 
+ 
+ 7,408
+ 
+ 
+ 
+ (Loss)/income from continuing operations
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ (5,034
+ )
+ 
+ 
+ 
+ 
+ (5,630
+ )
+ 
+ 
+ 
+ 
+ 29,288
+ 
+ 
+ 
+ 
+ 
+ 18,624
+ 
+ 
+ 
+ Exploration expenditures
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ (9,511
+ )
+ 
+ 
+ 
+ 
+ (487
+ )
+ 
+ 
+ 
+ 
+ (9,998
+ )
+ 
+ 
+ For the three months endedSeptember 30, 2023
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Property, plant and equipment additions
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 56
+ 
+ 
+ 
+ 
+ 
+ 24
+ 
+ 
+ 
+ 
+ 
+ 80
+ 
+ 
+ 
+ (Loss)/income from discontinued operations
+ 
+ 
+ (431
+ )
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 231
+ 
+ 
+ 
+ 
+ 
+ (200
+ )
+ 
+ 
+ (Loss)/income from continuing operations
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ (1,652
+ )
+ 
+ 
+ 
+ 
+ (1,425
+ )
+ 
+ 
+ 
+ 
+ 9,898
+ 
+ 
+ 
+ 
+ 
+ 6,821
+ 
+ 
+ 
+ Exploration expenditures
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ (1,695
+ )
+ 
+ 
+ 
+ 
+ (143
+ )
+ 
+ 
+ 
+ 
+ (1,838
+ )
+ 
+ 
+ 
+ 
+ The Company’s non-current assets are segmented geographically as follows:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Canada$
+ 
+ 
+ Argentina$
+ 
+ 
+ Total$
+ 
+ 
+ 
+ Non-current assets (1)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ As at September 30, 2024
+ 
+ 
+ 324
+ 
+ 
+ 
+ 385,870
+ 
+ 
+ 
+ 386,194
+ 
+ 
+ 
+ As at December 31, 2023
+ 
+ 
+ 571
+ 
+ 
+ 
+ 411,347
+ 
+ 
+ 
+ 411,918
+ 
+ 
+ 
+ 
+ 1 Non-current assets attributed to geographical locations exclude financial and other assets.
+ 
+ 19. INCOME TAXES
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ September 30, 2024
+ 
+ 
+ December 31, 2023
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Deferred tax liability
+ 
+ 
+ -
+ 
+ 
+ 
+ 10,659
+ 
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 10,659
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three Months EndedSeptember 30,
+ 
+ 
+ Nine Months EndedSeptember 30,
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 
+ $
+ 
+ $
+ 
+ 
+ $
+ 
+ $
+ 
+ 
+ 
+ Deferred tax recovery
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ 10,659
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 26
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 19. INCOME TAXES (continued)
+ The Company recognized a deferred tax recovery of $10,659 during the nine months ended September 30, 2024, due to inflation adjustments on the tax basis of Pastos Grandes assets in Argentina partially offset by the weakening of the Argentine Peso against the US dollar on the tax basis of Pastos Grandes assets.
+ 20. FINANCIAL INSTRUMENTS
+ Financial instruments recorded at fair value on the consolidated statements of financial position and presented in fair value disclosures are classified using a fair value hierarchy that reflects the significance of the inputs used in making the measurements. The fair value hierarchy has the following levels:
+ Level 1 – Unadjusted quoted prices in active markets for identical assets or liabilities;
+ Level 2 – Inputs other than quoted prices that are observable for assets or liabilities, either directly or indirectly; and
+ Level 3 – Inputs for assets and liabilities that are not based on observable market data.
+ The fair value hierarchy requires the use of observable market inputs whenever such inputs exist. A financial instrument is classified at the lowest level of the hierarchy for which a significant input has been considered in measuring fair value. 
+ The Convertible Notes derivatives (Note 11) are classified at level 2 of the fair value hierarchy and are measured at fair value on the statement of financial position on a recurring basis. Cash and cash equivalents, receivables, and the debt host of the Convertible Notes are measured at amortized cost on the statement of financial position. As at September 30, 2024, the fair value of financial instruments measured at amortized cost approximates their carrying value. 
+ 
+ The Company manages risks to minimize potential losses. The main objective of the Company’s risk management process is to ensure that the risks are properly identified and monitored, and that the capital base maintained by the Company is adequate in relation to those risks. The principal risks which impact the Company’s financial instruments are described below.
+ Credit Risk
+ Credit risk is the risk of loss associated with a counterparty’s inability to fulfill its payment obligations. Financial instruments that potentially subject the Company to a concentration of credit risk consist primarily of cash, cash equivalents, receivables, long-term receivable from JEMSE, and loans to Exar Capital. 
+ The Company’s maximum exposure to credit risk for cash, cash equivalents, receivables, long-term receivable from JEMSE, and loans to Exar Capital is the amount disclosed in the consolidated statements of financial position. The Company limits its exposure to credit loss by placing the majority of its cash and cash equivalents with two major financial institutions, US and Canadian treasury bills and investing in only short-term obligations that are guaranteed by the Canadian government or by Canadian and US chartered banks with expected credit losses on cash and cash equivalents estimated to be de minimis. 
+ The Company and its subsidiaries and investees including Minera Exar, may from time to time make short-term investments into Argentine government securities, financial instruments guaranteed by Argentine banks and other Argentine securities. These investments may or may not realize short-term gains or losses. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 27
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 20. FINANCIAL INSTRUMENTS (continued)
+ The Central Bank of Argentina maintains certain currency controls that limit the Company's ability to remit cash to and from Argentina. Blue chip swaps are trade transactions that effectively allow companies to transfer US dollars into and out of Argentina. The Company used this mechanism to transfer funds to Argentina which resulted in foreign exchange gain as a result of the divergence between the Blue Chip Swap market exchange rate and the official Argentinian Central Bank rate.
+ Liquidity Risk
+ Liquidity risk is the risk that the Company will not be able to meet its financial obligations as they fall due. The Company’s approach to managing liquidity is to evaluate current and expected liquidity requirements under both normal and stressed conditions to estimate and maintain sufficient reserves of cash and cash equivalents to meet its liquidity requirements in the short and long-term. 
+ As the industry in which the Company operates is very capital intensive, the majority of the Company’s spending or that of its investees is related to capital programs. The Company prepares annual budgets, which are regularly monitored and updated as considered necessary. 
+ As at September 30, 2024, the Company had $75,000 available under its undrawn limited recourse loan facility with Ganfeng. As at September 30, 2024, the Company had a cash and cash equivalents balance of $92,325 and receivables from purchasers for lithium carbonate of $16,745 to settle current liabilities of $23,668 (excluding equity-settleable convertible notes).
+ The following table summarizes the contractual maturities of the Company’s financial liabilities on an undiscounted basis:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Years ending December 31,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 2025
+ 
+ 2026 and later
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ $
+ 
+ $
+ 
+ 
+ 
+ Convertible senior notes
+ 
+ 
+ -
+ 
+ 
+ 
+ 4,528
+ 
+ 
+ 265,542
+ 
+ 
+ 270,070
+ 
+ 
+ 
+ Accounts payable and accrued liabilities
+ 
+ 
+ 22,427
+ 
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 22,427
+ 
+ 
+ 
+ Obligations under office leases¹
+ 
+ 
+ 119
+ 
+ 
+ 
+ 195
+ 
+ 
+ -
+ 
+ 
+ 314
+ 
+ 
+ 
+ Total
+ 
+ 
+ 22,546
+ 
+ 
+ 
+ 4,723
+ 
+ 
+ 265,542
+ 
+ 
+ 292,811
+ 
+ 
+ 
+ 
+ ¹Include principal and interest/finance charges. 
+ The Convertible Notes are classified as current liabilities as at September 30, 2024, since the Notes are convertible at the option of the holders upon satisfaction of certain conditions that are beyond the control of the Company. If such conditions are satisfied, the Notes would be convertible at the option of the holders and upon conversion, the Notes may be settled, at the Company’s election, in common shares of the Company, cash or a combination thereof (Note 11). 
+ The above table summarizes the contractual maturities as at September 30, 2024, with respect to the Convertible Notes assuming such conditions will not be satisfied before the due date.
+ Market Risk
+ Market risk incorporates a range of risks. Movement in risk factors, such as market price risk, the Company’s share price, and currency risk, affects the fair values of financial assets and liabilities. The Company is exposed to foreign currency risk as described below.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 28
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS (ARGENTINA) CORP. (FORMERLY LITHIUM AMERICAS CORP.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in thousands of US dollars, except for per share amounts; shares and equity instruments in thousands) 
+ 20. FINANCIAL INSTRUMENTS (continued)
+ Foreign Currency Risk
+ The Company’s operations in foreign countries are subject to currency fluctuations and such fluctuations may affect the Company’s financial results. The Company and its subsidiaries and associates have a US dollar functional currency, and it incurs expenditures in Canadian dollars (“CDN$”), Argentine Pesos (“ARS$”) and US$, with the majority of the expenditures being incurred in US$ by the Company’s subsidiaries and investees. 
+ As at September 30, 2024, the Company held $369 in CDN$ and $531 in ARS$ denominated cash and cash equivalents. Strengthening/(weakening) of a US$ exchange rate versus CDN$ and ARS$ by 10% would have resulted in a foreign exchange (loss)/gain for the Company of $37 and $53 respectively as at September 30, 2024.
+ 
+ 21. SUBSEQUENT EVENT
+ 
+ a)Subsequent to September 30, 2024, management determined that commercial production was achieved for the Cauchari Olaroz project as of October 1, 2024. As a result, the Cauchari Olaroz project’s assets are now considered ready for their intended use, and depreciation of these assets will commence as of October 1, 2024.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 29

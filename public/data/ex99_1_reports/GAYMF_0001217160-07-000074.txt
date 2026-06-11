@@ -1,0 +1,1689 @@
+EX-99.1
+2
+q3financialstatements.htm
+INTERIM FINANCIAL STATEMENTS
+
+Quarter 3 Financial Statements
+
+KEEGAN RESOURCES INC. 
+
+(An Exploration Stage Company)
+
+Consolidated Financial Statements
+
+Nine months ended December 31, 2006 and 2005
+
+(Unaudited – Prepared by Management)
+_______________________
+
+KEEGAN RESOURCES INC.
+
+(the “Company”)
+
+FINANCIAL STATEMENTS
+
+Nine months ended December 31, 2006 and 2005
+
+NOTICE OF NO AUDITOR REVIEW OF INTERIM FINANCIAL STATEMENTS
+
+The accompanying unaudited interim financial statements of the Company have been prepared by and are the responsibility of Company’s management.
+
+The Company’s independent auditor has not performed a review of these financial statements in accordance with the standards established by the Canadian Institute of Chartered Accountants for a review of interim financial statements by an entity’s auditor.
+
+“Dan McCoy”
+“Tony M. Ricci”
+
+__________________________________
+__________________________________
+Dan McCoy
+Tony M. Ricci
+President & CEO
+CFO
+
+February 22, 2006
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Consolidated Balance Sheets
+December 31, 2006 and March 31, 2006 
+
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+ December 31,
+2006
+March 31,
+2006
+
+ Unaudited
+Audited
+
+Assets
+ 
+ 
+Current assets:
+ 
+Cash
+$ 1,959,033
+$ 838,809
+
+Goods and services taxes recoverable
+44,923
+25,089
+
+Prepaid expenses and deposits
+8,500
+21,837
+
+ 2,012,456
+885,735
+
+ 
+Furniture, equipment and leasehold improvements (note 3)
+50,275
+37,430
+
+ 
+Resource properties (notes 4 and 9)
+4,989,179
+1,449,047
+
+ $ 7,051,910
+$ 2,372,212
+
+ 
+ 
+Liabilities
+ 
+ 
+Current liabilities:
+ 
+Accounts payable and accrued liabilities (note 6)
+$ 67,305
+$ 260,509
+
+ 
+ 
+Shareholders’ Equity
+ 
+ 
+Share capital (note 5)
+10,857,113
+4,981,915
+
+Subscriptions receivable (note 5(b))
+(140,135)
+-
+
+Contributed surplus (note 5(f))
+2,138,127
+867,367
+
+Deficit
+(5,870,500)
+(3,737,579)
+
+ 6,984,605
+2,111,703
+
+ 
+ $ 7,051,910
+$ 2,372,212
+
+Nature and continuance of operations (note 1)
+Commitments (notes 4 and 7)
+Subsequent events (note 5 and 8)
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Consolidated Statements of Operations and Deficit
+Nine months ended December 31, 2006 and 2005
+
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+ Three months ended
+Nine months ended
+
+ December 31,
+ December 31,
+
+ 2006
+2005
+2006
+2005
+
+ 
+Expenses:
+ 
+Amortization
+$ 2,982
+$ 2,566
+$ 8,093
+$ 7,616
+
+Bank charges and interest
+2,122
+810
+5,670
+1,961
+
+Consulting, directors’ fees, wages 
+ and benefits (note 6)
+ 
+ Incurred
+94,989
+116,927
+297,515
+333,379
+
+Stock-based compensation
+638,149
+188,309
+805,101
+533,496
+
+Office, rent and administration
+38,681
+18,492
+121,229
+69,528
+
+Professional fees (note 6):
+ 
+Incurred
+50,739
+29,355
+69,239
+48,544
+
+Stock-based compensation
+32,498
+-
+67,008
+-
+
+Regulatory
+2,365
+2,966
+15,143
+18,085
+
+Transfer agent and shareholder information
+35,299
+20,222
+73,789
+72,237
+
+Travel, promotion and investor relations:
+ 
+Incurred
+112,980
+81,715
+598,710
+152,327
+
+Stock-based compensation
+71,535
+-
+71,535
+-
+
+ 1,082,339
+461,362
+2,133,032
+1,237,173
+
+ 
+Other expenses (income):
+ 
+Interest and other income
+(17,435)
+(5,348)
+(24,884)
+(7,108)
+
+Foreign exchange
+7,310
+6,195
+24,337
+9,258
+
+Write-off of interest in resource properties
+-
+ 436
+-
+
+ (10,125)
+847
+(111)
+2,150
+
+ 
+Net loss for the period
+1,072,214
+462,209
+2,132,921
+1,239,323
+
+ 
+Deficit, beginning of period
+4,798,286
+1,525,674
+3,737,579
+748,560
+
+ 
+Deficit, end of period
+$ 5,870,500
+$ 1,987,883
+$5,870,500
+$1,987,883
+
+Weighted average number of
+ Shares outstanding
+
+15,877,044
+
+10,708,400
+
+14,254,577
+
+8,964,290
+
+Loss per share – basic and diluted
+$ 0.07
+$ 0.04
+$ 0.15
+$ 0.14
+
+The accompanying notes are an integral part of the financial statements.
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Consolidated Statements of Cash Flows
+Nine months ended December 31, 2006 and 2005
+
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+ Three months ended
+Nine months ended
+
+ December 31,
+December 31,
+
+ 2006
+2005
+2006
+2005
+
+ 
+Cash provided by (used in):
+ 
+ 
+Operating activities:
+ 
+Net Loss for the period
+$(1,072,214)
+$ (462,209)
+$(2,132,921)
+$(1,239,323)
+
+Items not involving cash:
+ 
+Amortization
+2,982
+2,566
+8,093
+7,616
+
+Stock based compensation
+742,182
+188,309
+943,644
+533,496
+
+Changes in non-cash working capital items:
+ 
+Good and services taxes recoverable
+(11,775)
+(8,120)
+(19,833)
+(15,702)
+
+Prepaid expenses and deposits
+5,341
+(1,136)
+13,337
+(1,136)
+
+Accounts payable and accrued liabilities
+(8,867)
+(53,708)
+(193,204)
+127,684
+
+ (342,351)
+(334,298)
+(1,380,884)
+(587,365)
+
+ 
+Investing activities:
+ 
+Purchase of equipment and leasehold
+ improvements
+
+(4,960)
+
+(1,069)
+
+(20,938)
+
+(1,069)
+
+Acquisition of interest in mineral properties
+(114,690)
+(2,880)
+(399,884)
+(180,471)
+
+Deferred exploration
+(1,106,406)
+(580,512)
+(2,682,187)
+(1,244,864)
+
+ (1,226,056)
+(584,461)
+(3,103,009)
+(1,426,404)
+
+ 
+Financing activities:
+ 
+Common shares issued for cash
+3,843,150
+2,444,200
+5,949,050
+2,444,200
+
+Share issuance costs
+(204,798)
+(172,838)
+(204,798)
+(172,838)
+
+Subscriptions receivable
+(140,135)
+(571,975)
+(140,135)
+-
+
+ 3,498,217
+1,699,387
+5,604,117
+2,271,362
+
+ 
+Decrease in cash
+1,929,810
+780,628
+1,120,224
+257,593
+
+ 
+Cash, beginning of period
+29,223
+151,882
+838,809
+674,917
+
+ 
+Cash, end of period
+$ 1,959,033
+$ 932,510
+$ 1,959,033
+$ 932,510
+
+ 
+ 
+Supplemental disclosure of cash flow information:
+ 
+Cash paid for:
+ 
+Interest
+$ -
+$ -
+$ -
+$ -
+
+Income taxes
+$ -
+$ -
+$ -
+$ -
+
+Non-cash transactions (note 9)
+The accompanying notes are an integral part of the financial statements.
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Consolidated Statements of Resource Property Costs 
+Nine months ended December 31, 2006 and 2005
+Expressed in Canadian Dollars
+
+ United States
+Ghana
+ 
+ Horse Mountain
+Fri
+Regent
+Black Velvet
+Asumura
+Esaase
+Total
+
+ 
+ Balance, March 31, 2005
+$
+430,066
+$
+–
+$
+55,553
+$
+–
+$
+43,617
+$ –
+$
+529,236
+
+ 
+ 
+ Acquisition costs
+ 
+ 
+ Cash
+109,029
+25,246
+43,316
+2,880
+–
+–
+180,471
+
+ Shares
+–
+21,250
+162,506
+15,400
+19,580
+–
+218,736
+
+ 
+ 
+ 109,029
+46,496
+205,822
+18,280
+19,580
+–
+399,207
+
+ 
+ 
+ 
+ Deferred exploration costs
+479,492
+133,035
+324,614
+–
+781,581
+–
+1,718,722
+
+ 
+ 
+ Less: write-off of resource property costs
+
+(1,018,587)
+
+(179,531)
+
+–
+
+–
+
+–
+
+–
+
+(1,198,118)
+
+ 
+ Balance, March 31, 2006
+–
+–
+585,989
+18,280
+844,778
+ –
+1,449,047
+
+ 
+ 
+ 
+ 
+ Acquisition costs
+ 
+ 
+ Cash
+–
+–
+50,296
+–
+–
+349,588
+399,884
+
+ Shares
+–
+–
+71,500
+29,400
+67,100
+63,800
+231,800
+
+ 
+
+ 121,796
+29,400
+67,100
+413,388
+631,684
+
+ 
+ 
+ 
+ 
+ Deferred exploration costs
+–
+–
+21,542
+7,251
+1,621,896
+1,257,759
+2,908,448
+
+ 
+ 
+ Balance, December 31, 2006
+$
+–
+$
+–
+$
+729,327
+$
+54,931
+$
+2,533,774
+$ 1,671,147
+$
+4,989,179
+
+KEEGAN RESOURCES INC.
+Notes to Financial Statements, page #
+
+For the Period ended March 31, 2005, 2004 and 2003
+(Unaudited – See Notice to Reader)
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 1
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+1.
+Nature and continuance of operations
+
+The Company was incorporated on September 23, 1999 under the laws of British Columbia. The Company was a capital pool company as defined in the TSX Venture Exchange (the “Exchange”) Policy 2.4. 
+
+During the year ended March 31, 2004, the common shares of the Company commenced trading on the NEX. NEX is a separate board of the Exchange for companies which were previously listed on the Exchange which have failed to maintain compliance with the ongoing financial listing standards of the Exchange. NEX was created so publicly listed shell companies may still continue to trade their securities while they seek and undertake transactions to complete their reactivation. 
+
+During the year ended March 31, 2006, the Company completed its Qualifying Transaction through the acquisition of interests in resource properties (see note 4). As a result, the Company is no longer considered a capital pool company. The Company’s listing has been transferred from NEX to TSX Venture under a Tier 2 issuer classification. In conjunction with the completion of the Qualifying Transaction, the Company changed its name from Quicksilver Ventures Inc. to Keegan Resources Inc. 
+
+The Company is in the exploration stage and its principal business activity is the sourcing and exploration of mineral properties. The Company has interest in mineral properties located in the United States and the Republic of Ghana.
+
+The recoverability of amounts shown for resource properties and related deferred exploration costs is dependent upon the discovery of economically recoverable reserves, continuation of the Company's interest in the underlying mineral claims, the ability of the Company to obtain necessary financing to complete their development and upon future profitable production or proceeds from the disposition thereof.
+
+These financial statements have been prepared in accordance with generally accepted accounting principles applicable to a going concern , which assumes that the Company will be able to meet its obligations and continue its operations for its next fiscal year. Realization values may be substantially different from carrying values as shown and these financial statements do not give effect to adjustments that would be necessary to the carrying values and classification of assets and liabilities should the Company be unable to continue as a going concern. At December 31, 2006, the Company had working capital of $39 which may be insufficient to sustain operations over the next twelve months, had not yet achieved profitable operations and expects to incur further losses in the development of its business, all of which casts substantial doubt about the Company’s ability to continue as a going concern. The Company’s ability to continue as a going concern is dependent upon its ability to generate future profitable operations and/or to obtain the necessary financing to meet its obligations and repay its liabilities arising from normal business operations when they come due. 
+
+KEEGAN RESOURCES INC.
+Notes to Financial Statements, page #
+
+For the Period ended March 31, 2005, 2004 and 2003
+(Unaudited – See Notice to Reader)
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 2
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+2.
+Significant accounting policies
+
+The consolidated financial statements of the Company have been prepared in accordance with Canadian generally accepted accounting principles. The preparation of financial statements in conformity with Canadian generally accepted accounting principles requires management to make estimates and assumptions that affect amounts reported in the financial statements and accompanying notes. Actual results could differ from those estimates. The consolidated financial statements have, in management’s opinion, been properly prepared using careful judgment within the framework of the significant accounting policies summarized below.
+
+(a)
+Basis of consolidation
+
+The consolidated financial statements include the accounts of the Company and its wholly owned subsidiaries, Quicksilver Ventures (Nevada), Inc. and Keegan Resources (GH) Ltd.. All significant intercompany amounts and transactions have been eliminated on consolidation.
+
+(b)
+Financial instruments
+
+The carrying amounts of cash and accounts payable and accrued liabilities approximate their fair value due to the short-term maturity of these instruments. Unless otherwise noted, it is management’s opinion that the Company is not exposed to significant interest, currency or credit risks arising from these financial instruments.
+
+(c)
+Furniture, equipment and leasehold improvements
+
+Furniture, equipment and leasehold improvements are carried at cost less accumulated amortization. Amortization is determined at rates which will reduce original cost to estimated residual value over the useful life of each asset. The annual rates used to compute amortization are as follows:
+
+ Asset
+Basis
+Rate
+
+ 
+ Furniture and equipment
+declining balance
+20%
+
+ Computers
+declining balance
+30%
+
+ Leasehold improvements
+straight-line
+term of lease
+
+Amortization is recorded at half the annual rate in the year of acquisition.
+
+KEEGAN RESOURCES INC.
+Notes to Financial Statements, page #
+
+For the Period ended March 31, 2005, 2004 and 2003
+(Unaudited – See Notice to Reader)
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 3
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+2.
+Significant accounting policies (continued)
+
+(d)
+Resource properties and deferred exploration costs
+The Company accounts for resource property costs in accordance with the Canadian Institute of Chartered Accountants Handbook Section 3061, “Property, plant and equipment” (“CICA 3061”), and abstract EIC-126, “Accounting by Mining Enterprises for Exploration Costs” (“EIC-126”) of the Emerging Issues Committee. CICA 3061 provides for the capitalization of the acquisition and exploration costs of a resource property where such costs are considered to have the characteristics of property, plant and equipment. EIC-126 provides that a mining enterprise is not precluded from considering exploration costs to have the characteristics of property, plant and equipment when it has not established resource reserves objectively and therefore does not have a basis for preparing a projection of the estimated future net cash flow from the property. 
+
+Resource property costs include initial acquisition costs and related option payments, which are recorded when paid. Exploration and development costs are capitalized until properties are brought into production, when costs are amortized on a unit-of-production basis over economically recoverable reserves. Option payments are credited against resource property costs when received. No gain or loss on disposition of a partial interest is recorded until all carrying costs of the interest have been offset by proceeds of sale or option payments received. No gain or loss on disposition of a partial interest is recorded until all carrying costs of the interest have been offset by proceeds of sale or option payments received.
+
+CICA 3061 also provides that property, plant and equipment be written down when the long-term expectation is that the net carrying amount will not be recovered. EIC-126 states that a mining enterprise which has not objectively established resource reserves and therefore does not have a basis for preparing a projection of the estimated future cash flow from a property is not obliged to conclude that the capitalized costs have been impaired. However, EIC-126 references certain conditions that should be considered in determining subsequent write-downs, such as changes or abandonment of a work program or poor exploration results, and management reviews such conditions to determine whether a write-down of capitalized costs is required. When the carrying value of a property exceeds its net recoverable amount, provision is made for the impairment in value.
+
+Accounting standards subsequently issued by the CICA dealing with Intangible Assets (CICA 1581 and CICA 3062) include reference to “Use rights such as drilling, water, air, mineral, timber cutting, and route authorities” as examples of intangible assets. CICA 3062 also states, inter alia, that intangible assets should be amortized over their useful life and tested for impairment. Management has reviewed this potential reporting conflict with the previously issued standards and is of the opinion that it is appropriately accounting for its resource properties as having the characteristics of property, plant and equipment.
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 4
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+2.
+Significant accounting policies (continued)
+
+(e)
+Asset retirement obligations
+
+Effective April 1, 2004, the Company adopted the CICA Handbook Section 3110, “Asset Retirement Obligations” (“HB 3110”). HB 3110 requires that the fair value of a liability for an asset retirement obligation, such as site reclamation costs, be recognized in the period in which it is incurred if a reasonable estimate of fair value can be made. The Company is required to record the estimated present value of future cash flows associated with site reclamation as a liability when the liability is incurred and increase the carrying value of the related assets for that amount. The obligations recognized are statutory, contractual or legal obligations. The liability is accreted over time for changes in the fair value of the liability through charges to accretion, which is included in depletion, amortization and accretion expense. The costs capitalized to the related assets are amortized in a manner consistent with the depletion and amortization of the related asset. 
+
+As of December 31, 2006, the Company has determined that it does not have material obligations for asset retirement obligations. Accordingly, adoption of HB 3110 had no impact on the consolidated financial statements.
+
+(f)
+Foreign currency translation
+
+Foreign denominated monetary assets and liabilities are translated to their Canadian dollar equivalents using foreign exchange rates which prevailed at the balance sheet date. Non-monetary items are translated at exchange rates prevailing when the assets were acquired or the obligations incurred. Foreign currency denominated revenue and expense items are translated at exchange rates prevailing at the transaction date. Exchange gains or losses arising on foreign currency translation are included in the determination of operating results for the year.
+
+(g)
+Earnings (loss) per share
+
+The Company uses the treasury stock method to compute the dilutive effect of options, warrants and similar instruments. Under this method the dilutive effect on earnings per share is recognized on the use of the proceeds that could be obtained upon exercise of options, warrants and similar instruments. It assumes that the proceeds would be used to purchase common shares at the average market price during the period.
+
+Basic earnings (loss) per share is calculated using the weighted-average number of shares outstanding during the period. For the nine months ended December 31, 2006 and 2005, the inclusion of the Company’s stock options and warrants in the computation of diluted loss per share would have an anti-dilutive effect on loss per share and therefore are excluded from the computation.
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 5
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+2.
+Significant accounting policies (continued)
+
+(h)
+Stock-based compensation
+
+The Company has a stock-based compensation plan which is described in note 5(d). The Company accounts for all stock-based payments and awards under the fair value based method.
+
+Under the fair value based method, stock-based payments to non-employees are measured at the fair value of the consideration received, or the fair value of the equity instruments issued, or liabilities incurred, whichever is more reliably measurable. The fair value of stock-based payments to non-employees is periodically re-measured until counterparty performance is complete, and any change therein is recognized over the vesting period of the award and in the same manner as if the Company had paid cash instead of paying with or using equity instruments. The cost of stock-based payments to non-employees that are fully vested and non-forfeitable at the grant date is measured and recognized at that date.
+
+Compensation cost attributable to awards to employees is measured at fair value at the grant date and recognized over the vesting period. Compensation cost attributable to awards to employees that call for settlement in cash or other assets is measured at intrinsic value and recognized over the vesting period. Changes in intrinsic value between the grant date and the measurement date result in a change in the measure of compensation cost. Compensation cost is generally recognized on a straight-line basis over the vesting period.
+
+During the period, the Company granted stock options to directors, officers, employees and non-employees as set out in note 5(d).
+
+3.
+Furniture, equipment and leasehold improvements
+
+ Accumulated
+Net book
+
+December 31, 2006
+Cost
+amortization
+value
+
+ 
+
+Furniture and equipment
+$ 50,687
+$ 13,946
+$ 36,741
+
+Computers
+17,157
+7,752
+9,405
+
+Leasehold improvements
+6,570
+2,441
+4,129
+
+ 
+ $ 74,414
+$ 24,139
+$ 50,275
+
+ Accumulated
+Net book
+
+March 31, 2006
+Cost
+amortization
+value
+
+ 
+
+Furniture and equipment
+$ 32,761
+$ 9,039
+$ 23,722
+
+Computers
+14,145
+5,456
+8,689
+
+Leasehold improvements
+6,570
+1,551
+5,019
+
+ 
+ $ 53,476
+$ 16,046
+$ 37,430
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 6
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+4.
+Resource properties
+
+Title to resource properties involves certain inherent risks due to the difficulties of determining the validity of certain claims as well as the potential for problems arising from the frequent ambiguous conveyancing history characteristic of many resource properties. The Company has investigated title to all of its resource properties and, to the best of its knowledge, title to all of its properties are in good standing. However, this should not be construed as a guarantee to title. The concessions may be subject to prior claims, agreements or transfer and rights of ownership may be affected by undetected defects.
+
+(a)
+Horse Mountain Claims
+
+During the year ended March 31, 2005, the Company entered into agreements with Hunter Dickinson Group Inc. (“HDG”), Anaconda Gold (USA) Inc. (“Anaconda”) and Barrick Gold Exploration Inc. (“Barrick”), whereby it has acquired the right to earn an interest in the Horse Mountain Project in Nevada. The transactions with Anaconda and Barrick (collectively the “Acquisition”) served as the Company’s Qualifying Transaction for the purposes of the policies of the Exchange.
+
+Pursuant to an assignment agreement entered into on August 5, 2004 between the Company and HDG (the “Anaconda Agreement”), the Company was assigned HDG’s interest in a letter agreement dated August 7, 2003 between HDG and Anaconda as amended by letter agreement dated July 28, 2004 among HDG, Anaconda and the underlying owners to acquire an interest in 223 mining claims situated in Elko County, Nevada (the “Anaconda Horse Mountain Claims) that form part of the Horse Mountain Project. Pursuant to the terms of an option agreement entered into on August 16, 2004 between the Company and Barrick (the “Barrick Agreement”), the Company may earn an interest in 35 mining claims and a mining lease situated in Elko County, Nevada (the “Barrick Horse Mountain Claims”) that form the balance of the Horse Mountain Project.
+
+Under the terms of the Anaconda Agreement, the Company was assigned the right and option to earn a 55% interest in the Anaconda Horse Mountain Claims as follows:
+
+i)
+by making cumulative exploration expenditures of US$1,500,000 by August 31, 2010 as follows:
+
+Year 1 – US$150,000 (incurred)
+Year 2 – US$225,000 (incurred)
+Year 3 – US$300,000 
+Year 4 – US$300,000
+Year 5 – US$300,000
+Year 6 – US$225,000
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 7
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+4.
+Resource properties (continued)
+
+(a)
+Horse Mountain Claims (continued)
+
+ii)
+by making US$385,000 in option payments to Anaconda: 
+
+Year 2004 – US$ 80,000 (paid)
+Year 2005 – US$ 90,000 (paid)
+Year 2006 – US$115,000 (of which $57,500 is payable in shares)
+Year 2007 – US$100,000 (of which $50,000 is payable in shares)
+
+iii)
+by issuing to Anaconda 100,000 common shares (issued) of the Company as reimbursement for the payment by Anaconda of US$68,376 for past Bureau of Land Management (“BLM”) fees and past option payments to the underlying vendors; and
+
+iv)
+by providing HDG with consideration for assigning its rights to the Anaconda Horse Mountain Claims as follows:
+
+a)
+issuing to HDG 141,159 common shares of the Company for reimbursement of $119,986 of out of pocket costs incurred by HDG (issued);
+b)
+issuing to HDG a further 75,000 common shares (issued); and
+c)
+reimbursing HDG for US$23,376.50 for 2004 BLM payments made by HDG on the Anaconda Horse Mountain Claims and US$5,925 for holding costs on the Barrick Horse Mountain Claims (paid).
+
+Pursuant to a letter agreement dated July 21, 2004 between the Company and Anaconda, the Company issued to Anaconda 25,000 common shares for the one time right to opt out of the area of influence (AOI) clause applicable pursuant to the terms of the Anaconda Agreement. The Company also agreed to issue an additional 100,000 common shares to Anaconda for the permanent right to opt out of the AOI clause if and when the Company earns its 70% interest in the Barrick Horse Mountain Claims.
+
+Under the terms of the Barrick Agreement, the Company can earn a 70% interest in the Barrick Horse Mountain Claims by making exploration expenditures of US$1,500,000 over four years as follows:
+
+Year 1 – US$200,000
+Year 2 – US$300,000
+Year 3 – US$400,000
+Year 4 – US$600,000
+
+During the year ended March 31, 2006, the Company decided not to pursue its option agreement on the Horse Mountain claims and as a result, $1,018,587 in acquisition and deferred exploration expenditures were written-off.
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 8
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+4.
+Resource properties (continued)
+
+(b)
+Regent Gold Silver Project
+
+Pursuant to an agreement dated March 4, 2005, between the Company and Jerry Baughman and Fabiola Baughman (“Optionors”), the Company may acquire 100% of the Regent Gold Silver Project (“Regent property”) located in Mineral County, Nevada, on the following terms:
+
+i)
+pay US$305,000 as follows:
+
+- US$45,000 upon signing the agreement (paid);
+- US$35,000 on June 15, 2005 (paid);
+- US$45,000 on June 15, 2006 (paid);
+- US$50,000 on June 15, 2007;
+- US$55,000 on June 15, 2008; and
+- US$75,000 on June 15, 2009
+
+ii)
+issue a total of 500,000 common shares of the Company to the Optionors as follows:
+
+- 100,000 common shares upon obtaining regulatory approval (issued);
+- 50,000 common shares on June 15, 2005 (issued);
+- 50,000 common shares on June 15, 2006 (issued);
+- 50,000 common shares on June 15, 2007;
+- 75,000 common shares on June 15, 2008; and
+- 175,000 common shares on June 15, 2009.
+
+iii) complete US$3,000,000 of exploration work on the Regent property as follows:
+
+- US$250,000 prior to March 4, 2006 (incurred);
+- US$300,000 prior to March 4, 2007;
+- US$400,000 prior to March 4, 2008;
+- US$500,000 prior to March 4, 2009;
+- US$500,000 prior to March 4, 2010; and
+- US$1,050,000 prior to March 4, 2011.
+
+After meeting the above commitments, the Company will have an undivided 100% interest in the property subject to a 2.5% NSR royalty, 60% of which may be purchased for US$3,000,000. 35,890 shares were issued to HDG as finder’s fees with respect to the Regent property.
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 9
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+4.
+Resource properties (continued)
+
+(c)
+Asumura Gold Project
+
+The Company entered into an option agreement with GTE Ventures Limited (“GTE”) dated February 18, 2005 and subsequently amended, whereby the Company may acquire 100% of the Asumura Reconnaissance Concession (“Asumura property”) located in the Republic of Ghana, West Africa, under the following terms:
+
+i)
+pay US$100,000 to GTE as follows:
+
+- US$10,000 upon signing the agreement (paid); and
+- US$60,000 on or before October 8, 2007.
+
+ii)
+issue common shares of the Company with a value of US$100,000 to GTE as follows:
+
+- common shares with a value of US$10,000 upon regulatory approval (issued 13,899 shares);
+- common shares with a value of US$60,000 based on the 10 day average closing price prior to issuance on or before October 8, 2006 (issued 33,550 shares); and
+- common shares with a value of US$60,000 based on the 10 day average closing price prior to issuance on or before October 8, 2007.
+
+iii)
+complete US$1,000,000 of exploration work on the Asumura property as follows:
+
+- US$80,000 on or before July 31, 2005, (incurred);
+- an additional US$400,000 on or before July 31, 2006 (incurred); and
+- an additional US$520,000 on or before July 31, 2007.
+
+After meeting the above commitments, the Company will have an undivided 100% interest in the Asumura property subject to a 3.5% net smelter return, 50% of which may be purchased for US$2,000,000. If the property is converted to a Mining License, it may become subject to a 3-6% NSR (3% is the standard amount) and 10% ownership by the Ghanaian government. 11,270 shares were issued to HDG as finder’s fees with respect to the Asumura property.
+
+(d)
+Fri Property
+
+The Company entered into an option agreement dated May 31, 2005 with Gerald Baughman and Fabiola Baughman (the “Optionors”) pursuant to which the Company has the option to acquire 100% interest in the Fri gold project located in Nye County, Nevada, under the following terms:
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 10
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+4.
+Resource properties (continued)
+
+(d)
+Fri Property (continued)
+
+i)
+pay US$285,000 as follows:
+
+- US$20,000 upon signing the agreement (paid);
+- US$40,000 on May 31, 2006;
+- US$45,000 on May 31, 2007;
+- US$50,000 on May 31, 2008;
+- US$55,000 on May 31, 2009; and
+- US$75,000 on May 31, 2010
+
+ii)
+issue a total of 500,000 common shares of the Company to the Optionors as follows:
+
+- 25,000 common shares upon obtaining regulatory approval (issued);
+- 100,000 common shares on May 31, 2006;
+- 45,000 common shares on May 31, 2007;
+- 75,000 common shares on May 31, 2008;
+- 75,000 common shares on May 31, 2009; and
+- 180,000 common shares on May 31, 2010.
+
+iii) complete US$3,000,000 of exploration work on the Fri property as follows:
+
+- US$70,000 prior to May 31, 2006;
+- US$230,000 prior to May 31, 2007;
+- US$300,000 prior to May 31, 2008;
+- US$400,000 prior to May 31, 2009;
+- US$1,000,000 prior to May 31, 2010; and
+- US$1,000,000 prior to May 31, 2011.
+
+After meeting these commitments, the Company will have an undivided 100% interest in the Fri property subject to a 2.5% net smelter return royalty payable to GTE, 60% of which (net purchase of 1.5%) may be purchased back by the Company for US$3,000,000. 
+
+During the year ended March 31, 2006, the Company decided not to pursue its option agreement on the Fri property and as a result, $179,531 in acquisition and deferred exploration expenditures were written-off.
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 11
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+4.
+Resource properties (continued)
+
+(e)
+Black Velvet Gold Project
+
+The Company entered into an option agreement dated December 7, 2005 and subsequently amended, with Gerald Baughman and Fabiola Baughman (the “Optionors”) whereby the Company may acquire 100% interest in the Black Velvet Gold Project in Pershing County, Nevada.
+
+Under the terms of the agreement, the Company has the option to deliver cash payments of US$150,000 and 150,000 shares of the Company to the Optionors over a period of four years as follows:
+
+i)
+cash payment of US$2,500 upon execution of the agreement (paid); 
+US$30,000 on May 31, 2007;
+US$27,500 on December 1, 2007;
+US$40,000 on May 31, 2008; and
+US$50,000 on May 31, 2009.
+
+ii)
+issuance of 10,000 common shares upon Exchange approval (issued);
+20,000 common shares on July 31, 2006 (issued); 
+30,000 common shares on May 31, 2007; 
+40,000 common shares on May 1, 2008; and 
+50,000 common shares on May 31, 2009.
+
+(f)
+Esaase Gold Property
+
+The Company entered into an option agreement dated May 3, 2006 with Sammetro Co. Ltd. (“Sammetro”) to purchase a 100% interest in the Esaase gold property in southwest Ghana, subject to the underlying 10% interest, 3% NSR of the Ghanaian government in all mining projects in Ghana, and a 0.5% NSR owed to the Esaase. The agreement is subject to the following terms:
+
+i)
+payment of US$100,000 to the bank from which Sammetro borrowed funds by May 17, 2006 (paid); 
+ii)
+payment of US$100,000 to Sammetro by June 30, 2006, which payment Sammetro will deliver to the Esaase Liquidation Committee (the “Committee”) (paid);
+iii)
+payment of US$40,000 to Sammetro on the first anniversary;
+iv)
+payment of US$400,000 to the Committee over a four year period (US$100,000 paid);
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 12
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+4.
+Resource properties (continued)
+
+(f)
+Esaase Gold Property (continued)
+i)
+issuance of 780,000 shares of the Company to Sammetro over a four year period (40,000 shares issued);
+ii)
+exploration expenditures of US$2,250,000 over a four year period;
+iii)
+payment to Sammetro of US$50,000 on the fourth anniversary and every anniversary thereafter until production; and
+iv)
+on production, payments of US$100,000 to the Committee and US$100,000 to Sammetro.
+
+The Company entered into a finder’s fee agreement whereby the Company paid US$10,000 and issued 4,000 common shares as finders’ fees with respect to this acquisition. 
+
+5.
+Share capital
+
+(a)
+Authorized
+
+100,000,000 common shares without par value; and
+100,000,000 preferred shares without par value.
+
+(b)
+Issued and outstanding common shares
+
+ Number of shares
+Amount
+
+Balance, March 31, 2005
+8,010,559
+1,674,328
+
+Issued on acquisition of mineral properties
+ 
+- at $0.85
+72,160
+61,336
+
+- at $0.88
+150,000
+132,000
+
+- at $0.72
+13,899
+10,000
+
+- at $1.54
+10,000
+15,400
+
+Issued for cash:
+ 
+Pursuant to a private placement
+ 
+- at $0.80
+3,000,000
+2,400,000
+
+Pursuant to exercise of warrants
+ 
+- at $0.85
+265,300
+225,505
+
+- at $1.00
+520,000
+520,000
+
+Pursuant to the exercise of options
+ 
+- at $0.92
+122,500
+112,700
+
+Share issuance costs
+-
+(240,223)
+
+Transferred from contributed surplus 
+on exercise of options
+
+-
+
+70,869
+
+Balance, March 31, 2006
+12,164,418
+4,981,915
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 13
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+5.
+Share capital (continued)
+
+Balance, March 31, 2006
+12,164,418
+4,981,915
+
+Issued on acquisition of mineral properties
+ 
+- at $1.43
+90,000
+128,700
+
+- at $1.47
+20,000
+29,400
+
+- at $1.65
+4,000
+6,600
+
+- at $2.00
+33,550
+67,100
+
+Issued for cash:
+ 
+Pursuant to a private placement
+ 
+- at $1.80
+2,000,000
+3,600,000
+
+Pursuant to the exercise of warrants
+ 
+- at $0.85
+318,000
+270,300
+
+- at $1.00
+2,078,750
+2,078,750
+
+Share issuance costs:
+-
+(317,890)
+
+Transferred from contributed surplus on exercise of
+ brokers’ warrants
+
+-
+
+12,238
+
+Balance, December 31, 2006
+16,708,718
+$ 10,857,113
+
+During the nine months ended December 31, 2006, the Company completed a non-brokered private placement of 2,000,000 units at a price of $1.80 per unit for gross proceeds of $3,600,000. Each unit consisted of one common share and one-half of one common share purchase warrant. Each whole share purchase warrant entitles the holder to acquire one additional common share at an exercise price of $2.40 per share for a period of eighteen months expiring April 30, 2008. The Company paid cash of $185,998 and issued 169,720 share purchase warrants exercisable at a price of $2.40 per share for a period of eighteen months expiring April 30, 2008, as finder’s fees on this private placement. As at December 31, 2006, a total of $137,160 remained receivable from two subscribers of this private placement. This amount was collected by the Company subsequent to the period end.
+
+During the nine months ended December 31, 2006, 2,396,750 common shares were issued for gross proceeds of $2,349,050 on exercise of warrants. As at December 31, 2006, $2,975 remained receivable from the exercise of 3,500 warrants at $0.85 per share. This amount was collected by the Company subsequent to the period end. A reclassification of $12,238 from contributed surplus to share capital was recorded on the exercise of the broker’s warrants.
+
+(c)
+Shares held in escrow
+
+As at December 31, 2006, 67,500 (March 31, 2006 – 90,000) common shares of the Company were the subject of an escrow agreement under which the shares may not be transferred, assigned or otherwise dealt with without the consent of the relevant regulatory body having jurisdiction thereon. 
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 14
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+5.
+Share capital (continued)
+
+(d)
+Stock options 
+
+The Company maintains a fixed stock option plan that enables it to grant from time to time options to its directors, officers, employees and other service providers. During the year ended March 31, 2006, the Company amended its stock option plan increasing the number of shares reserved for issuance under the plan to 1,646,543. On September 29, 2006, the Company amended its stock option plan to increase the number of shares reserved for issuance under the plan to 2,774,683. The options vest as to 25% on the date of the grant and 12 ½ % every three months thereafter for a total vesting period of 18 months.
+
+As summary of the status of the Company’s stock option plan for the nine months ended December 31, 2006 is presented below:
+
+ Number
+of shares
+Weighted average
+Exercise price
+
+Balance, March 31, 2005
+1,348,000
+$ 0.92
+
+Granted
+280,000
+1.44
+
+Exercised
+(122,500)
+0.92
+
+Cancelled
+(80,500)
+0.92
+
+Balance, March 31, 2006
+1,425,000
+1.02
+
+Granted
+1,230,000
+2.44
+
+Balance, December 31, 2006
+2,655,000
+$ 1.68
+
+The following table summarizes the stock options outstanding and exercisable at December 31, 2006:
+
+Exercise price
+Number outstanding at
+December 31, 2006
+
+Expiry date
+Number exercisable at
+December 31, 2006
+
+ 
+$0.92
+1,145,000
+February 3, 2010
+1,145,000
+
+$1.16
+220,000
+November 22, 2010
+165,000
+
+$2.48
+60,000
+February 2, 2011
+37,500
+
+$2.44
+1,230,000
+November 10, 2011
+307,500
+
+ 2,655,000
+ 1,655,000
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 15
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+5.
+Share capital (continued)
+
+(d)
+Stock options (continued)
+
+During the period, under the fair-value-based method of recording stock compensation, $943,644 (2005 – $533,496) in compensation expense was recorded in the consolidated statements of operations and deficit and $226,261 (2005 - $nil) was capitalized to resource properties.
+
+The compensation costs reflected in these consolidated financial statements were calculated using the Black-Scholes option pricing model using the following weighted average assumptions: 
+
+2006
+2005
+Risk free interest rate
+4%
+3%
+Expected dividend yield
+0%
+0%
+Stock price volatility
+112%
+123%
+Expected life of options
+4 years
+2 years
+
+The weighted average fair value of options granted during the nine months ended December 31, 2006 is $2.07 (2005 – $0.59) per share.
+
+(e)
+Warrants
+
+The following warrants were outstanding at December 31, 2006. Each warrant entitles the holder to purchase one common share of the Company as follows:
+
+Number of Shares
+Exercise Price
+Expiry Date
+
+321,100
+$0.85
+January 31, 2007
+
+505,250 (1)
+$1.00
+October 13, 2007
+
+1,169,720 (2)
+$2.40
+April 30, 2008
+
+(1) These warrants are subject to an acceleration clause whereby if the shares of the Company trade above $2 for a period of 10 consecutive trading days, the Company will have the option to require the earlier exercise of the warrants within 30 days of formal notice from the Company.
+(2) These warrants are subject to an acceleration clause whereby if the shares of the Company trade above $3.25 for a period of 10 consecutive trading days, the Company will have the option to require the earlier exercise of the warrants within 30 days of formal notice from the Company.
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 16
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+5.
+Share capital (continued)
+
+(f)
+Contributed surplus
+ December 31,
+2006
+March 31,
+2006
+
+Balance, beginning of year
+$ 867,367
+$ 313,649
+
+Stock-based compensation
+1,169,905
+557,202
+
+Brokers’ warrants issued
+113,093
+67,385
+
+Transferred to share capital for the exercise of options
+ and brokers’ warrants
+
+(12,238)
+
+(70,869)
+
+Balance, end of period
+$ 2,138,127
+$ 867,367
+
+(g)
+Shareholder rights plan
+
+The directors of the Company approved the adoption of a shareholder rights plan (the “Rights Plan”). The objective of the Board of Directors in adopting this Plan is to achieve full and fair value for the Company’s shareholders in the event of an unsolicited take-over bid for the Company. 
+
+The rights become exercisable only when a person or party acquires or announces its intention to acquire 20% or more of the outstanding shares of the Company without complying with certain provisions of the Rights Plan. Each right would entitle each holder of common shares (other than the acquiring person or party) to purchase additional common shares of the Company at a 50% discount to the market price at the time. 
+
+6.
+Related party transactions
+
+Included in professional fees are $39,642 (2005 – $29,414) paid or accrued for legal fees to a company controlled by a director of the Company and $17,685 (2005 – $19,130) for accounting fees to a company controlled by a director and officer of the Company.
+
+The Company entered into a consulting agreement with a director and officer of the Company in the amount of US$6,667 per month plus benefits. Effective November 1, 2006, the fees were increased to US$7,000 per month. During the nine months ended December 31, 2006, the Company paid consulting fees and benefits of $82,939 (2005 – $71,966) under this agreement.
+
+The Company entered into a consulting agreement with a former officer of the Company in the amount of CAD$3,333 per month. During the nine months ended December 31, 2006, the Company paid consulting fees of $nil (2005 – $15,000) under this agreement.
+
+During the nine months ended December 31, 2006, the Company paid or accrued $68,994 (2005 – $nil) for deferred exploration costs to a director of the Company.
+
+Included in accounts payable and accrued liabilities is $33,727 (2005 – $18,741) owing to directors of the Company and a company controlled by a director and officer of the Company. 
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 17
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+7.
+Commitments
+
+The Company is committed to payments regarding agreements to lease its Vancouver office premises as follows:
+2007
+$
+11,993
+2008
+51,250
+2009
+51,548
+2010
+12,887
+$ 
+127,678
+
+The Company is also committed to carry out the expenditures described in note 4. 
+
+8.
+Subsequent events
+
+The following events occurred subsequent to December 31, 2006:
+
+(a)
+the Company completed a non-brokered private placement of 5,662,500 units at a price of $2.75 per unit for gross proceeds of $15,571,875. Each unit consisted of one common share and one half of one non-transferable share purchase warrant. Each whole warrant entitles the holder to purchase one additional common share of the Company at a price of $3.25 per share for a period of two years.
+
+The warrants are subject to an acceleration clause whereby if the shares of the Company trade above $4.00 for a period of 20 consecutive trading days after 9 months from issuance of these warrants, the Company will have the option to require the earlier exercise of the warrants within 30 days of formal notice from the Company.
+
+Finders’ fees of $761,063 in cash and 452,500 share purchase warrants exercisable at a price of $3.25 per share for a period of two years are payable in connection with this private placement.
+
+(b)
+321,100 common shares were issued for gross proceeds of $272,935 on exercise of 321,100 warrants at a price of $0.85 per share.
+
+(c)
+71,685 common shares were issued for gross proceeds of $65,950 on exercise of 71,685 options at a price of $0.92 per share.
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 18
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+9.
+Non-cash transactions
+
+Investing and financing activities that do not have a direct impact on current cash flows are excluded from the statements of cash flows. During the nine months ended December 31, 2006, the following transactions were excluded from the statements of cash flows:
+
+(a)
+The Company issued 90,000 common shares at $1.43 per share, 20,000 common shares at $1.47 per share and 4,000 common shares at $1.65 per share and 33,550 common shares at $2.00 per share pursuant to mineral property option agreements.
+
+(a)
+The Company capitalized stock-based compensation of $226,261 in resource properties.
+
+(b)
+The Company reclassified contributed surplus of $12,238 on exercise of brokers’ warrants.
+
+(c)
+The Company issued 169,720 brokers’ warrants at a price of $2.40 per share.
+
+During the nine months ended December 31, 2005, the following transactions were excluded from the statements of cash flows:
+
+(a)
+The Company issued 72,160 common shares at $0.85 per share, 150,000 common shares at $0.88 per share, 13,899 common shares at $0.72 per share and 10,000 common shares at $1.54 per share, pursuant to mineral property option agreements.
+
+10.
+Segmented information
+
+Geographic Information
+
+The Company operates in one reportable operating segment, being the exploration of resource properties.
+
+ Canada
+USA
+Ghana
+Total
+
+ 
+December 31, 2006
+ 
+Current assets
+$
+1,933,388
+$
+–
+$
+79,068
+$
+2,012,456
+
+Furniture, equipment and 
+ leasehold Improvements
+
+39,476
+
+–
+
+10,799
+
+50,275
+
+Resource properties
+–
+784,258
+4,204,921
+4,989,179
+
+ 
+ $
+1,972,864
+$
+784,258
+$
+4,294,788
+$
+7,051,910
+
+KEEGAN RESOURCES INC.
+(An Exploration Stage Company)
+
+Notes to Consolidated Financial Statements, page 19
+Nine months ended December 31, 2006 and 2005
+(Unaudited – Prepared by Management)
+Expressed in Canadian Dollars
+
+10.
+Segmented information (continued)
+
+ Canada
+USA
+Ghana
+Total
+
+ 
+March 31, 2006
+ 
+Current assets
+$
+885,735
+$
+–
+$
+–
+$
+885,735
+
+Furniture, equipment and
+ leasehold Improvements
+
+37,430
+
+–
+
+–
+
+37,430
+
+Resource properties
+–
+604,269
+844,778
+1,449,047
+
+ 
+ $
+923,165
+$
+604,269
+$
+844,778
+$
+2,372,212

@@ -1,0 +1,893 @@
+EX-99.1
+2
+d730978dex991.htm
+EX-99.1
+
+EX-99.1
+
+ 
+
+ Exhibit 1 
+CAMECO CORPORATION 
+AMENDED AND RESTATED 
+BYLAW NO. 7 A BYLAW
+RELATING GENERALLY TO THE CONDUCT OF THE BUSINESS AND AFFAIRS OF CAMECO CORPORATION 
+
+ Contents 
+
+Section
+ 
+Page
+ 
+
+ PART 1 GENERAL
+ 
+ 
+1
+ 
+
+ 1.1 Definitions
+ 
+ 
+1
+ 
+
+ 1.2 Interpretation
+ 
+ 
+1
+ 
+
+ 1.3 Subordination
+ 
+ 
+2
+ 
+
+ PART 2 CORPORATE SEAL
+ 
+ 
+2
+ 
+
+ 2.1 Corporate Seal
+ 
+ 
+2
+ 
+
+ PART 3 EXECUTION OF CONTRACTS
+ 
+ 
+2
+ 
+
+ 3.1 Execution of Documents
+ 
+ 
+2
+ 
+
+ PART 4 SHARE TRANSFERS
+ 
+ 
+2
+ 
+
+ 4.1 Transfers
+ 
+ 
+2
+ 
+
+ PART 5 SHAREHOLDERS’ MEETINGS
+ 
+ 
+2
+ 
+
+ 5.1 Place of Meetings
+ 
+ 
+2
+ 
+
+ 5.2 Quorum
+ 
+ 
+2
+ 
+
+ 5.3 Votes to Govern
+ 
+ 
+2
+ 
+
+ 5.4 Electronic Meeting and Voting
+ 
+ 
+3
+ 
+
+ 5.5 Voting
+ 
+ 
+3
+ 
+
+ 5.6 Ballot
+ 
+ 
+3
+ 
+
+ 5.7 Proxy
+ 
+ 
+3
+ 
+
+ 5.8 Chair, Secretary and Scrutineer
+ 
+ 
+3
+ 
+
+ 5.9 Persons Entitled to be Present
+ 
+ 
+3
+ 
+
+ 5.10 Adjournment
+ 
+ 
+3
+ 
+
+ 5.11 Inquiries
+ 
+ 
+4
+ 
+
+ PART 6 DIRECTORS
+ 
+ 
+4
+ 
+
+ 6.1 Number
+ 
+ 
+4
+ 
+
+ 6.2 Advance Nomination
+ 
+ 
+4
+ 
+
+ Contents 
+
+Section
+ 
+Page
+ 
+
+ PART 7 MEETINGS OF DIRECTORS
+ 
+ 
+6
+ 
+
+ 7.1 Convening of Meetings
+ 
+ 
+6
+ 
+
+ 7.2 Notice
+ 
+ 
+6
+ 
+
+ 7.3 Waiver
+ 
+ 
+6
+ 
+
+ 7.4 Adjournment
+ 
+ 
+6
+ 
+
+ 7.5 Quorum
+ 
+ 
+6
+ 
+
+ 7.6 Voting
+ 
+ 
+6
+ 
+
+ 7.7 Chair
+ 
+ 
+7
+ 
+
+ PART 8 OFFICERS
+ 
+ 
+7
+ 
+
+ 8.1 Appointment of Officers
+ 
+ 
+7
+ 
+
+ PART 9 COMMITTEES
+ 
+ 
+7
+ 
+
+ 9.1 Committees
+ 
+ 
+7
+ 
+
+ PART 10 PROTECTION AND INDEMNITY OF DIRECTORS, OFFICERS AND OTHERS
+ 
+ 
+7
+ 
+
+ 10.1 Non-Liability for Acts
+ 
+ 
+7
+ 
+
+ 10.2 Indemnification
+ 
+ 
+7
+ 
+
+ 10.3 Indemnification Agreements
+ 
+ 
+8
+ 
+
+ 10.4 Director and Officer Insurance
+ 
+ 
+8
+ 
+
+ 10.5 Rights not Exclusive
+ 
+ 
+8
+ 
+
+ PART 11 DIVIDENDS
+ 
+ 
+8
+ 
+
+ 11.1 Dividends
+ 
+ 
+8
+ 
+
+ 11.2 Cash Dividends
+ 
+ 
+8
+ 
+
+ PART 12 VOTING SECURITIES IN OTHER BODIES CORPORATE
+ 
+ 
+8
+ 
+
+ 12.1 Voting Securities in Other Bodies Corporate
+ 
+ 
+8
+ 
+
+ PART 13 NOTICES
+ 
+ 
+8
+ 
+
+ 13.1 Manner of Notice
+ 
+ 
+8
+ 
+
+ 13.2 Electronic Delivery
+ 
+ 
+9
+ 
+
+ 13.3 Notice Computation
+ 
+ 
+9
+ 
+
+ 13.4 Joint Holders
+ 
+ 
+9
+ 
+
+ 13.5 Successor Bound
+ 
+ 
+9
+ 
+
+ Contents 
+
+Section
+ 
+Page
+ 
+
+ 13.6 Signature
+ 
+ 
+9
+ 
+
+ 13.7 Certificate of Officer
+ 
+ 
+9
+ 
+
+ 13.8 Common Notice
+ 
+ 
+9
+ 
+
+ 13.9 Errors and Omissions
+ 
+ 
+10
+ 
+
+ PART 14 FISCAL YEAR
+ 
+ 
+10
+ 
+
+ 14.1 Fiscal Year
+ 
+ 
+10
+ 
+
+ PART 15 BANKING
+ 
+ 
+10
+ 
+
+ 15.1 Banking Arrangements
+ 
+ 
+10
+ 
+
+ 15.2 Bank Accounts
+ 
+ 
+10
+ 
+
+ PART 16 COMING INTO FORCE
+ 
+ 
+10
+ 
+
+ 16.1 Effectiveness
+ 
+ 
+10
+ 
+
+ PART 17 REPEAL
+ 
+ 
+10
+ 
+
+ 17.1 Repeal
+ 
+ 
+10
+ 
+
+ CAMECO CORPORATION 
+BYLAW NO. 7 A Bylaw relating generally
+to the conduct of the business and affairs of Cameco Corporation (hereinafter called the “Corporation”). IT IS HEREBY ENACTED as a Bylaw
+of the Corporation as follows: PART 1 GENERAL 
+
+1.1
+Definitions. In this Bylaw and all other Bylaws of the Corporation, if any, unless specifically defined herein or the context otherwise specifies or requires, all terms which are defined in the Act should have
+the meanings given to such terms in the Act, and in particular: 
+
+ 
+(a)
+“Act” means the Canada Business Corporations Act, R.S.C. 1985, c. C-44 and the regulations made thereunder; 
+
+ 
+(b)
+“Articles” means the articles of the Corporation from time to time in force and effect; 
+
+ 
+(c)
+“Bylaws” means all Bylaws of the Corporation from time to time in force and effect; 
+
+ 
+(d)
+“Common Shares” means the common shares in the capital of the Corporation; 
+
+ 
+(e)
+“the directors”, “Board” and “Board of Directors” means the directors of the Corporation from time to time; 
+ 
+
+ 
+(f)
+“in writing” and “written” includes printing, typewriting, lithographing and other modes of representing or reproducing words in visible form; and 
+ 
+
+ 
+(g)
+reference to any statute or statutory provision shall extend to any amendment thereof or substitution therefor. 
+
+1.2
+Interpretation. In this Bylaw and all other Bylaws of the Corporation, if any, the following rules of interpretation shall apply: 
+ 
+
+ 
+(a)
+all references to a meeting of shareholders shall, unless the context otherwise requires, include any meeting of only the holders of a particular class or series of shares in the Corporation that is required by the Act,
+the Articles or applicable law; 
+
+ 
+(b)
+words importing the singular number only shall include the plural and vice versa; words importing the masculine gender shall include the feminine and neuter genders; words importing persons shall include bodies
+corporate, corporations, companies, partnerships, syndicates, trusts and any number or aggregate of persons; and 
+
+ 
+(c)
+the headings used are inserted for reference purposes only and are not to be considered or taken into account in construing the terms or provisions hereof or to be deemed in any way to clarify, modify or explain the
+effect of any such terms or provisions. 
+ 1 
+
+1.3
+Subordination. The Bylaws are subordinate to and should be read subject to the Act, the Articles and any other applicable law. 
+PART 2 CORPORATE SEAL 
+
+2.1
+Corporate Seal. The corporate seal of the Corporation, if any, shall be such as the Board of Directors may by resolution from time to time adopt. 
+PART 3 EXECUTION OF CONTRACTS 
+
+3.1
+Execution of Documents. 
+
+ 
+(a)
+Contracts, documents or instruments in writing requiring execution by the Corporation may be signed, manually, by facsimile or by electronic means, by any two officers of the Corporation and all contracts, documents or
+instruments in writing so signed shall be binding upon the Corporation without any further authorization or formality. In addition, the Board of Directors is authorized to appoint from time to time, by resolution, any person or persons to sign, on
+behalf of the Corporation, contracts, documents or instruments in writing generally or to sign a specific contract, document or instrument in writing. 
+
+ 
+(b)
+Any authorized signing officer or person may affix the corporate seal of the Corporation, when required, to contracts, documents or instruments in writing. 
+ 
+
+ 
+(c)
+Nothing contained herein shall restrict or limit the authority of the directors, officers and employees of the Corporation to sign contracts, documents or instruments in writing on behalf of the Corporation in the
+ordinary course of business and all contracts, documents or instruments in writing so signed shall be binding upon the Corporation. 
+
+ 
+(d)
+Any instrument or document required or permitted to be executed by one or more persons on behalf of the Corporation may be executed in separate counterparts, each of which when duly executed by one or more of such
+persons shall be an original and all such counterparts together shall constitute one and the same such instrument or document. 
+PART 4 SHARE TRANSFERS 
+
+4.1
+Transfers. No transfer of securities of the Corporation shall be recorded or registered unless and until compliance has been made with any conditions of transfer stated in the Act, the Articles and any other
+applicable law. PART 5 SHAREHOLDERS’ MEETINGS 
+ 
+
+5.1
+Place of Meetings. Annual meetings of shareholders shall be held at such place within Saskatchewan as the Board may determine. Special meetings of shareholders may be held at such place within Canada as the Board
+may determine. 
+
+5.2
+Quorum. A quorum for any meeting of shareholders shall be at least two persons present and holding or representing by proxy not less than twenty-five (25) percent of the total number of issued and
+outstanding shares of the Corporation entitled to vote at such meeting. No business shall be transacted at any meeting unless the requisite quorum is present at the commencement of such meeting, provided that if a quorum is present at the
+commencement of a meeting a quorum shall be deemed to be present during the remainder of the meeting. 
+
+5.3
+Votes to Govern. At any meeting of shareholders, unless a special resolution or some other special majority is required by the Act, the Articles or any other applicable law, all questions shall be decided by the
+majority of votes cast on the question. In case of an equality of votes, either upon a show of hands or its functional equivalent or by ballot, the chair of the meeting shall be entitled to a second or casting vote. 
+ 2 
+
+5.4
+Electronic Meeting and Voting. If the directors call a meeting of shareholders, they may determine that the meeting of shareholders shall be held entirely or partially by means of a telephonic, electronic or
+other communication facility that permits all participants to communicate adequately with each other during the meeting, and any vote at that meeting of shareholders shall be held entirely by means of that communication facility. A person
+participating in a meeting by such means is deemed to be present at the meeting. Any vote at a meeting of shareholders may be also held entirely or partially by means of a telephonic, electronic or other communication facility, if the Corporation
+makes one available, even if none of the persons entitled to attend otherwise participates in the meeting by means of a communication facility. 
+
+5.5
+Voting. Subject to the Act, the Articles and any other applicable law, unless a ballot is demanded or required, voting at a meeting of shareholders shall be by way of a show of hands or the functional equivalent
+thereof by means of electronic, telephonic or other communication facility. Upon a show of hands or its functional equivalent, each person present and entitled to vote at a meeting shall have one vote and a declaration by the chair of the meeting
+that any question has been carried, carried by a particular majority or not carried and an entry to that effect in the minutes of the meeting shall be conclusive evidence of the fact without proof of the number or proportion of votes recorded in
+favour of or against the motion and the result of the vote so taken and declared shall be the decision of the shareholders upon the said question. 
+
+5.6
+Ballot. The chair of the meeting or any person entitled to vote thereat may require or demand a ballot upon any question, either before or after any vote by show of hands or its functional equivalent, but such
+requirement or demand may be withdrawn at any time prior to the taking of the ballot. Any ballot shall be taken in such manner as the chair of the meeting shall direct. 
+ 
+
+5.7
+Proxy. An instrument of proxy shall conform to the requirements of the Act and any requirements established by the Board, or shall be otherwise acceptable to the chair of the meeting at which the instrument of
+proxy is to be used. The decision of the chair of the meeting on any question regarding the validity or invalidity of any instruments of proxy and any question as to the admission or rejection of a vote shall be conclusive and binding upon the
+shareholders. The chair of the meeting shall have the right to waive or extend any proxy deposit deadlines in his or her sole discretion. 
+
+5.8
+Chair, Secretary and Scrutineer. The chair of any meeting of shareholders shall be the first mentioned of the following persons who is present at the meeting: the Chair of the Board, the Chief Executive Officer
+or the President. In the absence of any such persons, the persons present and entitled to vote thereat shall choose one of their number to chair the meeting. The secretary of any meeting of shareholders shall be the first mentioned of the following
+persons who is present at the meeting: the Secretary of the Corporation or any Assistant Secretary of the Corporation. Notwithstanding the foregoing, the chair of the meeting may appoint a person, who need not be a shareholder, to act as secretary
+of the meeting. At any meeting of shareholders, the chair of the meeting may appoint one or more persons, who need not be shareholders, to serve as scrutineers. 
+
+5.9
+Persons Entitled to be Present. The only persons entitled to be present at a meeting of shareholders shall be those entitled to vote thereat, the directors and auditors of the Corporation and others who, although
+not entitled to vote, are entitled or required by the Act, the Articles, the Bylaws or applicable laws to be present. Any other person may be admitted only with the consent of the chair of the meeting. 
+ 
+
+5.10
+Adjournment. The chair of any meeting of shareholders may, and if so directed by the meeting must, adjourn the meeting from time to time and from place to place. The reconvened meeting following the adjournment
+shall be duly constituted if a quorum is present and if it is held in accordance with the terms of the adjournment. Except as provided for in this Bylaw, if there is no quorum present at the reconvened meeting following the adjournment, the original
+meeting shall be deemed to have terminated forthwith after its adjournment. 
+ 3 
+
+5.11
+Inquiries. The Board of Directors or the chair of any meeting of shareholders may, but need not, at any time (including prior to, at, or subsequent to the meeting), ask questions of, and request the production of
+evidence from, a shareholder (including a beneficial owner), the transfer agent or such other person as the Board or the chair considers appropriate for the purposes of determining a person’s share ownership position as at the relevant record
+date, authority to vote and Canadian residency status. For greater certainty, the Board or the chair may, but need not, at any time: 
+
+ 
+(a)
+inquire into the legal or beneficial share ownership of any person as at the relevant record date and the authority of any person to vote at the meeting; 
+ 
+
+ 
+(b)
+inquire into the Canadian residency status of any person; 
+
+ 
+(c)
+request from that person production of evidence as to such share ownership position, the existence of the authority to vote and Canadian residency status. 
+Any such inquiry or request by the Board or the chair shall be responded to as soon as reasonably possible. 
+PART 6 DIRECTORS 
+
+6.1
+Number. The number of directors shall be the number fixed by the Articles, or where the Articles specify a variable number, the number shall not be less than the minimum and not more than the maximum number so
+specified and shall be determined from time to time within such limits by resolution of the Board of Directors. Subject to the Act, the Articles and any other applicable law, a majority of the directors of the Corporation shall be resident
+Canadians. 
+
+6.2
+Advance Nomination. 
+
+ 
+(a)
+Subject to the Act and the Articles, only persons who are nominated in accordance with the following procedures shall be eligible for election as directors of the Corporation. Nominations of persons for election to the
+Board of Directors may be made in respect of any annual meeting of shareholders or any special meeting of shareholders, if one of the purposes for which the special meeting was called was the election of directors, called: 
+ 
+
+ 
+(i)
+by or at the direction of the Board, including pursuant to a notice of meeting; 
+
+ 
+(ii)
+by or at the direction or request of one or more shareholders pursuant to a proposal made in accordance with the provisions of the Act, or a requisition of the shareholders made in accordance with the provisions of the
+Act; or 
+
+ 
+(iii)
+by any person (a “Nominating Shareholder”) who: (A) at the close of business on the date of the giving of the notice provided for below in this section 6.2 and on the record date for notice of such
+meeting, is entered in the securities register as a holder of one or more shares carrying the right to vote at such meeting or who beneficially owns shares that are entitled to be voted at such meeting; and (B) complies with the notice
+procedures set forth below in this section 6.2. 
+
+ 
+(b)
+In addition to any other applicable requirements, for a nomination to be made by a Nominating Shareholder to be valid, the Nominating Shareholder must have given timely notice thereof in proper written form to the
+Secretary of the Corporation at the principal executive offices of the Corporation. 
+ 4 
+
+ 
+(c)
+To be timely, a Nominating Shareholder’s notice to the Secretary of the Corporation must be made: 
+
+ 
+(i)
+in the case of an annual meeting of shareholders, not less than 30 nor more than 65 days prior to the date of the annual meeting of shareholders; provided, however, that in the event that the annual meeting of
+shareholders is to be held on a date that is less than 50 days after the date (the “Notice Date”) on which the first public announcement of the date of the annual meeting was made, notice by the Nominating Shareholder may be made not later
+than the close of business on the tenth (10th) day following the Notice Date; and 
+
+ 
+(ii)
+in the case of a special meeting of shareholders (which is not also an annual meeting) called for the purpose of electing directors (whether or not called for other purposes), not later than the close of business on the
+fifteenth (15th) day following the day on which the first public announcement of the date of the special meeting was made. 
+
+ 
+(d)
+To be in proper written form, a Nominating Shareholder’s notice to the Secretary of the Corporation must set forth: 
+
+ 
+(i)
+as to each person whom the Nominating Shareholder proposes to nominate for election as a director: (A) the name, age, citizenship, business address and residential address of the person; (B) the principal
+occupation or employment of the person; (C) the class or series and number of shares in the capital of the Corporation which are controlled or which are owned beneficially or of record by the person as of the record date for the meeting of
+shareholders (if such date shall then have been made publicly available and shall have occurred) and as of the date of such notice; and (D) any other information relating to the person that would be required to be disclosed in a
+dissident’s proxy circular in connection with solicitations of proxies for election of directors pursuant to the Act and any other applicable laws; and 
+
+ 
+(ii)
+as to the Nominating Shareholder giving the notice, any proxy, contract, arrangement, understanding or relationship pursuant to which such Nominating Shareholder has a right to vote any shares of the Corporation and any
+other information relating to such Nominating Shareholder that would be required to be made in a dissident’s proxy circular in connection with solicitations of proxies for election of directors pursuant to the Act and any other applicable laws.
+ The Corporation may require any proposed nominee to furnish such other information as may reasonably be required by the
+Corporation to determine the eligibility of such proposed nominee to serve as an independent director of the Corporation or that could be material to a reasonable shareholder’s understanding of the independence, or lack thereof, of such
+proposed nominee. 
+
+ 
+(e)
+No person shall be eligible for election as a director of the Corporation unless nominated in accordance with the provisions of this section 6.2; provided, however, that nothing in this section 6.2 shall be deemed to
+preclude discussion by a shareholder (as distinct from the nomination of directors) at a meeting of shareholders of any matter in respect of which it would have been entitled to submit a proposal pursuant to the provisions of the Act. The chair of
+the meeting shall have the power and duty to determine whether a nomination was made in accordance with the procedures set forth in this section 6.2 and, if any proposed nomination is not in compliance with this section 6.2, to declare that such
+defective nomination shall be disregarded. 
+ 5 
+
+ 
+(f)
+Notwithstanding any other provision of this section 6.2, notice given to the Secretary of the Corporation pursuant to this section 6.2 may only be given by personal delivery, facsimile transmission or by electronic mail
+(at such address as stipulated from time to time by the Secretary of the Corporation for purposes of this notice), and shall be deemed to have been given and made only at the time it is served by personal delivery, sent by facsimile transmission
+(provided that receipt of confirmation of such transmission has been received) or by electronic mail (at the aforesaid address) to the Secretary at the address of the principal executive offices of the Corporation; provided that if such delivery,
+facsimile transmission or electronic communication is made on a day which is a not a business day or later than 5:00 p.m. (Saskatoon time) on a day which is a business day, then such delivery, facsimile transmission or electronic communication shall
+be deemed to have been made on the subsequent day that is a business day. 
+
+ 
+(g)
+Notwithstanding the foregoing, the Board may, in its sole discretion, waive any requirement in this section 6.2. 
+PART 7 MEETINGS OF DIRECTORS 
+
+7.1
+Convening of Meetings. A meeting of the Board of Directors may be convened by the Chair of the Board, the Chief Executive Officer, the President or any two (2) directors at any time, and the Secretary shall,
+upon direction of any of the foregoing, convene a meeting of the Board. A meeting of any Board committee may be convened by the chair of the committee or any two (2) members of the committee, and the Secretary shall, upon the direction of
+either of the foregoing, convene a meeting of the said committee. Except as otherwise provided by the Act and the Bylaws, the directors, either as a Board or as a committee thereof, may convene, adjourn and otherwise regulate their meetings as they
+think fit. 
+
+7.2
+Notice. Notice of the time and place of each meeting of the Board of Directors or any committee thereof shall be given in the manner provided in Part 13 to each director, as the case may be, not less than
+forty-eight (48) hours before the time when the meeting is to be held if the notice is given by personal delivery, facsimile transmission or electronic mail, or not less than ninety-six (96) hours before the time when the meeting is to be
+held if the notice is given by mail. For the first meeting of the Board or any committee thereof to be held immediately
+following the election of directors at an annual or special meeting of shareholders, or for a meeting of the Board or committee thereof at which a director is appointed to fill a vacancy in the Board or committee, no notice of such meeting need be
+given to the newly elected or appointed director(s) in order for the meeting to be duly constituted, provided a quorum is present. 
+
+7.3
+Waiver. Any irregularity in a meeting or in the notice thereof may be waived by any director in any manner, and such waiver may be validly given either before or after the meeting to which such waiver relates.
+Waiver of any notice of a meeting cures any irregularity in the notice, any default in the giving of the notice and any default in the timeliness of the notice. 
+
+7.4
+Adjournment. Any meeting of the Board of Directors or of any committee thereof may be adjourned from time to time by the chair of the meeting to an announced time and place. The reconvened meeting following the
+adjournment shall be duly constituted if held in accordance with the terms of the adjournment and if a quorum is present thereat. The directors who formed a quorum at the original meeting are not required to form the quorum at the reconvened meeting
+following the adjournment. If there is no quorum present at the reconvened meeting, the original meeting shall be deemed to have terminated forthwith after its adjournment. 
+ 
+
+7.5
+Quorum. Subject to the requirements under the Act, the Articles or any other applicable law requiring a minimum number of Canadian resident directors to be present, a quorum for any meeting of the Board of
+Directors shall consist of a majority of the directors of the Corporation. 
+
+7.6
+Voting. Questions arising at any meeting of directors shall be determined by a majority of votes of the directors present, and in the case of an equality of votes, the chair of the meeting shall not have a second
+or casting vote. 
+ 6 
+
+7.7
+Chair. The chair of any meeting of the Board shall be the Chair of the Board. If the Chair of the Board is not present at the meeting, the directors shall choose one of their number to chair the meeting.
+ PART 8 OFFICERS 
+
+8.1
+Appointment of Officers. The directors may from time to time, appoint one or more officers of the Corporation as the directors may determine. Subject to the provisions of the Act, the directors may by resolution
+designate, vary, add to or limit the duties and powers of any officer. In the absence of such designation of duties and powers, such duties and powers will be those usually incidental to the office held. 
+PART 9 COMMITTEES 
+
+9.1
+Committees. The Board may create, and prescribe the duties and terms of reference of, such committee or committees of directors as it may from time to time determine necessary to more effectively permit the
+efficient direction of the business and affairs of the Corporation. Subject to the Act, the Board may delegate to such committee or committees any of the powers of the Board; provided that any such delegation shall not limit the ability of the Board
+to make decisions on any subject matter so delegated. Each committee has the power to set its own procedures to regulate its meetings, including requirements for calling, holding, conducting and adjourning meetings of the committee. If no rules and
+procedures are made, then the rules and procedures will be the same as those applicable to the Board as set out in Part 7. 
+PART 10 PROTECTION AND INDEMNITY OF DIRECTORS, OFFICERS AND OTHERS 
+ 
+
+10.1
+Non-Liability for Acts. Subject to the Act, no director or officer shall be liable for the acts, receipts, neglects or defaults of any other person, or for joining in any receipt or act for conformity, or for any
+loss, damage or expense happening to the Corporation through the insufficiency or deficiency of title to any property acquired by, for or on behalf of, the Corporation, or for the insufficiency or deficiency of any security in or upon which any
+moneys of the Corporation are invested, or for any loss or damage arising from the bankruptcy, insolvency or tortious acts of any person with whom any moneys, securities or other properties of the Corporation are lodged or deposited, or for any
+other loss, damage or misfortune whatever which may arise out of the execution of the duties of his office or in relation thereto. 
+
+10.2
+Indemnification. To the fullest extent permitted by the Act or otherwise by law, the Corporation shall indemnify a director or officer of the Corporation, a former director or officer of the Corporation, an
+individual who acts or acted at the Corporation’s request as a director or officer or in a similar capacity of another entity, against all costs, charges and expenses, including any amount paid to settle an action or satisfy a judgment,
+reasonably incurred by such individual in respect of any civil, criminal, administrative, investigative or other proceeding in which such individual is involved because of that association with the Corporation or other entity, provided:
+ 
+
+ 
+(a)
+the individual acted honestly and in good faith with a view to the best interests of the Corporation, or, as the case may be, to the best interests of the other entity for which the individual acted as a director or
+officer or in a similar capacity at the Corporation’s request; and 
+
+ 
+(b)
+in the case of a criminal or administrative action or proceeding that is enforced by a monetary penalty, the individual had reasonable grounds for believing that his or her conduct was lawful. 
+The Corporation shall, to the fullest extent permitted by law, advance moneys to a director, officer or other individual referred to above for
+the costs, charges and expenses of such proceedings; provided the individual shall repay the moneys advanced if the individual does not fulfill the conditions of indemnifications set forth in (a) and (b) above. 
+ 7 
+
+10.3
+Indemnification Agreements. The Corporation is authorized to enter into any agreement evidencing and setting out the terms and conditions of an indemnity in favour of any of the persons referred to in section
+10.2. 
+
+10.4
+Director and Officer Insurance. The Corporation is authorized to purchase, maintain or participate in insurance against the risk of its liability to indemnify pursuant to this Part 10 or otherwise.
+ 
+
+10.5
+Rights not Exclusive. The rights of any individual to indemnification granted under the foregoing provisions of this Part 10 or by the Act are not exclusive of any other rights to which any individual seeking
+indemnification may be entitled under any agreement, vote of shareholders or directors, at law or otherwise. PART 11
+DIVIDENDS 
+
+11.1
+Dividends. The Board may from time to time declare, and the Corporation may pay, dividends on its issued shares to its shareholders according to their respective shareholdings in the Corporation as they appear on
+the Corporation’s register. 
+
+11.2
+Cash Dividends. A dividend payable in cash may be paid by electronic means, by cheque or such other method as the Board may determine, to or to the order or account of each registered holder of shares of the
+class or series in respect of which the dividend has been declared. If by cheque, then cheques will be mailed by pre-paid ordinary mail to such registered holder at his recorded address or to such other address as the holder directs. In
+the case of joint holders, unless such joint holders otherwise direct, payment will be made payable to or to the order or account of all such joint holders. The sending of the payment by electronic means, by cheque or such other method as the
+Board may determine as aforesaid, unless a cheque is not paid on due presentation, shall satisfy and discharge the Corporation’s liability for the dividend to the extent of the sum represented thereby plus the amount of any tax which the
+Corporation is required to and does withhold. In the event of non-receipt of any payment by the person to whom it is sent, the Corporation may re-issue the payment on such terms as to indemnity, reimbursement of expenses and evidence of
+non-receipt and of title as may be prescribed by the Board or its dividend disbursing agent from time to time. All dividends unclaimed for two (2) years after the date of declaration shall be forfeited to the Corporation. 
+PART 12 VOTING SECURITIES IN OTHER BODIES CORPORATE 
+
+12.1
+Voting Securities in Other Bodies Corporate. All securities of any other body corporate carrying voting rights held from time to time by the Corporation may be voted at all meetings of such other body corporate
+at which such securities may be voted, in such manner and by such person or persons as the Board of Directors of the Corporation shall from time to time determine by resolution. Any two officers of the Corporation may also from time to time execute
+and deliver for and on behalf of the Corporation instruments of proxy and/or arrange for the issuance of voting certificates and/or other evidences of the right to vote in such names as may determine without the necessity of a resolution or other
+action by the Board of Directors. PART 13 NOTICES 
+ 
+
+13.1
+Manner of Notice. Any notice (which term includes any communication or document) to be given (which term includes sent, delivered or served) pursuant to the Act, the Articles, the Bylaws, any other applicable law
+or otherwise to a shareholder, director, officer, auditor or member of a committee of the Board shall be sufficiently given, if delivered personally to the person to whom it is to be given or if delivered to the person’s latest recorded address
+as shown on the records of the Corporation, or if mailed to such person at the person’s recorded address by prepaid ordinary or air mail, or if sent to such person by facsimile. A notice so delivered shall be deemed to have been given when it
+is delivered personally or to the recorded address as aforesaid; a notice so mailed shall be deemed to have been given when deposited in a post office or public letter box, and a notice so sent by facsimile shall be deemed to have been given when
+dispatched. 
+ 8 
+
+ The Secretary may change or cause to be changed the recorded address of any shareholder,
+director, officer, auditor or member of a committee of the Board in accordance with any information believed by the Secretary to be reliable. 
+
+13.2
+Electronic Delivery. Provided the addressee has consented in writing or electronically in accordance with the Act, the Corporation may satisfy the requirement to send any notice or document referred to in section
+13.1 by creating and providing an electronic document in compliance with the Act. An electronic document is deemed to have been received when it enters the information system designated by the addressee or, if the document is posted on or made
+available through a generally accessible electronic source, when the addressee receives notice in writing of the availability and location of that electronic document, or, if such notice is sent electronically, when it enters the information system
+designated by the addressee. 
+
+13.3
+Notice Computation. In computing the time when notice must be given under any provision requiring a specified number of hours’ notice of any meeting or other event, the hour of giving the notice and the hour
+of commencement of the meeting shall be excluded, and in computing the date when notice must be given under any provision requiring a specified number of days’ notice of any meeting or other event, the date of giving the notice shall be
+excluded and the date of the meeting or other event shall be included. 
+
+13.4
+Joint Holders. All notices or other documents shall, with respect to any shares in the capital of the Corporation registered in more than one name, be given to whichever of such persons is named first in the
+records of the Corporation and any notice or other document so given shall be sufficient notice or delivery of such document to all the holders of such shares. 
+
+13.5
+Successor Bound. Every person who by operation of law, transfer, death of a shareholder or any other means whatsoever shall become entitled to any share in the capital of the Corporation, shall be bound by every
+notice or other document in respect of such share which, prior to such person’s name and address being entered on the records of the Corporation, shall have been duly given to a prior holder of such share from whom the person derives his title
+to such share. 
+
+13.6
+Signature. The signature of any director or officer of the Corporation to any notice may be written, stamped, typewritten or printed, or partly written, stamped, typewritten or printed. 
+ 
+
+13.7
+Certificate of Officer. A certificate of any officer of the Corporation holding office at the time of the making of the certificate or of a transfer officer or any transfer agent or branch transfer agent of
+shares of any class of the Corporation as to facts in relation to the mailing or delivery or service of any notice or other document to any shareholder, director, officer, auditor or member of any committee of the Board or publication of any notice
+or other document shall be conclusive evidence thereof, and shall be binding on every shareholder, director, officer or auditor of the Corporation or member of any committee of the Board, as the case may be. 
+ 
+
+13.8
+Common Notice. A special meeting and an annual meeting of shareholders of the Corporation may be convened by one and the same notice, and it shall be no objection to the said notice that it only convenes the
+second meeting contingent on any resolution being passed by the requisite majority at the first meeting. 
+ 9 
+
+13.9
+Errors and Omissions. The accidental omission to give any notice to any shareholder, director, officer, auditor or member of a committee of the Board of Directors or the non-receipt of any notice by any such
+person or any error in any notice not affecting the substance thereof shall not invalidate any action taken at any meeting held pursuant to such notice. 
+PART 14 FISCAL YEAR 
+
+14.1
+Fiscal Year. The fiscal year of the Corporation shall terminate on such day in each year as the Board of Directors may from time to time by resolution determine. Until otherwise determined by the Board, the
+fiscal year of the Corporation shall end on December 31st in each year. 
+PART 15 BANKING 
+
+15.1
+Banking Arrangements. The banking and borrowing business of the Corporation or any part of it, including, without limitation, the borrowing of money and the giving of security therefor, shall be transacted with
+such banks, trust companies, other firms or bodies corporate as may from time to time be authorized by the Board. Such banking or borrowing business or any part thereof shall be transacted under such agreements, instructions and delegations of
+powers as the Board may from time to time prescribe or authorize. This section does not limit the authority given under section 3.1. 
+
+15.2
+Bank Accounts. The bank accounts of the Corporation shall be kept with such banks, trust companies, other firms or bodies corporate as the Board may from time to time determine. The Board may appoint any person
+or persons as authorized signatories on any such bank accounts as it may from time to time determine. PART 16 COMING
+INTO FORCE 
+
+16.1
+Effectiveness. This Bylaw shall come into force at, and be effective from, the time of its passing by the Board of Directors. 
+PART 17 REPEAL 
+
+17.1
+Repeal. Bylaw No. 5 of the Corporation enacted May 3, 1991 and Bylaw No. 6 of the Corporation enacted February 7, 2002, as amended November 4, 2010 and February 11, 2011, are
+repealed effective when this Bylaw comes into force without prejudice to any action taken thereunder prior to such repeal. All directors, officers and other persons acting under the repealed Bylaws shall continue to act as if elected or appointed
+under the provisions of this Bylaw. All resolutions with continuing effect of the Board, committees of the Board and shareholders shall continue in effect except to the extent inconsistent with this Bylaw. 
+ENACTED the 29th day of October, 2013. 
+AMENDED AND RESTATED the 7th day of February, 2014. 
+FURTHER AMENDED AND RESTATED the 16th day of May, 2014. 
+ 
+
+ “Original signed by Neil McMillan”
+
+ Chair
+ 
+
+ “Original signed by Sean A. Quinn”
+
+ Secretary
+
+ 10

@@ -1,0 +1,53 @@
+{
+  "ticker": "OR",
+  "cik": "0001627272",
+  "form": "6-K",
+  "filingDate": "2016-10-18",
+  "accessionNumber": "0001062993-16-011764",
+  "primaryDocument": "form6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1627272/000106299316011764/0001062993-16-011764-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1627272/000106299316011764/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-06-11T17:09:22.257Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1627272/000106299316011764/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Osisko Gold Royalties Ltd.: Exhibit 99.1 - Filed by newsfilecorp.com",
+    "headings": [
+      "Osisko Gold Royalties Ltd.: Exhibit 99.1 - Filed by newsfilecorp.com",
+      "EARLY WARNING REPORT",
+      "(Montréal, October 18, 2016)",
+      "About Osisko Gold Royalties Ltd",
+      "For further information please contact Osisko Gold\n Royalties Ltd:"
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nEXHIBIT 99.1\n\n Osisko Gold Royalties Ltd.: Exhibit 99.1 - Filed by newsfilecorp.com\n \n\n \nEARLY WARNING REPORT \n(Montréal, October 18, 2016) Osisko Gold Royalties Ltd\n(the \"Corporation\" or \"Osisko\") (OR: TSX & NYSE: OR) today announces that it\nhas filed an Early Warning Report in connection with a non-brokered private\nplacement with QMX Gold Corporation (“QMX”) (TSX.V: QMX). \nToday, QMX issued 15,000,000 treasury common shares to Osisko\nat a price of $0.10 per share for an aggregate consideration of $1,500,000 (the\n“Private Placement”) as part of a non-brokered private placement. Following the\nPrivate Placement, Osisko now has ownership and control over 15,000,000 QMX\nshares (representing 14.7% of the issued and outstanding QMX shares) \nOsisko holds the shares of QMX for investment purposes and may\nfrom time to time acquire additional shares of QMX either on the open market or\nthrough private acquisitions or sell shares of QMX either on the open market or\nthrough private dispositions. This news release is being issued under the early\nwarning provisions of Canadian securities legislation. \nA copy of Osisko’s Early Warning Report containing further\ndetails of the Private Placement can be found on SEDAR at www.sedar.com\nunder QMX's profile. \nAbout Osisko Gold Royalties Ltd\nOsisko Gold Royalties is an intermediate precious metal royalty\ncompany focused on the Americas that commenced activities in June 2014. It holds\nover 50 royalties, including a 5% NSR royalty on the Canadian Malartic Mine\n(Canada) and a 2.0 -3.5% NSR royalty on the Éléonore Mine (Canada). It maintains\na strong financial position with cash resources of $425 million at June 30 2016\nand has distributed dividends to its shareholders during the past seven\nconsecutive quarters. \nOsisko’s head office is located at 1100 Avenue des\nCanadiens-de-Montréal, Suite 300, Montréal, Québec, H3B 2S2. \n\n \n \n \n For further information please contact Osisko Gold\n Royalties Ltd: \n \n \n \n Joseph de la Plante \n \n Vice President, Corporate Development \n \n Tel. (514) 940-0670 \n \n jdelaplante@osiskogr.com \n1",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 5,
+        "rows": [
+          [
+            "For further information please contact Osisko Gold\n Royalties Ltd:"
+          ],
+          [
+            "Joseph de la Plante"
+          ],
+          [
+            "Vice President, Corporate Development"
+          ],
+          [
+            "Tel. (514) 940-0670"
+          ],
+          [
+            "jdelaplante@osiskogr.com"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<HTML>\n<HEAD>\n   <TITLE>Osisko Gold Royalties Ltd.: Exhibit 99.1 - Filed by newsfilecorp.com</TITLE>\n   <META name=\"HandheldFriendly\" content=\"true\">\n</HEAD>\n\n<BODY style=\"font-size:10pt;\">\n\n<HR noshade align=\"center\" width=100% size=3 color=\"black\">\n<!--$$/page=--><A name=page_1></A>\n<P align=center><IMG src=\"exhibit99-1x1x1.jpg\" border=0> </P>\n<P align=center><B>EARLY WARNING REPORT </B></P>\n<P align=justify><B>(Montr&#233;al, October 18, 2016) </B>Osisko Gold Royalties Ltd\n(the \"Corporation\" or \"Osisko\") (OR: TSX &amp; NYSE: OR) today announces that it\nhas filed an Early Warning Report in connection with a non-brokered private\nplacement with QMX Gold Corporation (&#147;QMX&#148;) (TSX.V: QMX). </P>\n<P align=justify>Today, QMX issued 15,000,000 treasury common shares to Osisko\nat a price of $0.10 per share for an aggregate consideration of $1,500,000 (the\n&#147;Private Placement&#148;) as part of a non-brokered private placement. Following the\nPrivate Placement, Osisko now has ownership and control over 15,000,000 QMX\nshares (representing 14.7% of the issued and outstanding QMX shares) </P>\n<P align=justify>Osisko holds the shares of QMX for investment purposes and may\nfrom time to time acquire additional shares of QMX either on the open market or\nthrough private acquisitions or sell shares of QMX either on the open market or\nthrough private dispositions. This news release is being issued under the early\nwarning provisions of Canadian securities legislation. </P>\n<P align=justify>A copy of Osisko&#146;s Early Warning Report containing further\ndetails of the Private Placement can be found on SEDAR at <U>www.sedar.com</U>\nunder QMX's profile.<B> </B></P>\n<P align=justify><B>About Osisko Gold Royalties Ltd</B></P>\n<P align=justify>Osisko Gold Royalties is an intermediate precious metal royalty\ncompany focused on the Americas that commenced activities in June 2014. It holds\nover 50 royalties, including a 5% NSR royalty on the Canadian Malartic Mine\n(Canada) and a 2.0 -3.5% NSR royalty on the &#201;l&#233;onore Mine (Canada). It maintains\na strong financial position with cash resources of $425 million at June 30 2016\nand has distributed dividends to its shareholders during the past seven\nconsecutive quarters. </P>\n<P align=justify>Osisko&#146;s head office is located at 1100 Avenue des\nCanadiens-de-Montr&#233;al, Suite 300, Montr&#233;al, Qu&#233;bec, H3B 2S2. </P>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0>\n\n  <TR>\n    <TD style=\"BORDER-TOP: #000000 1px solid\" align=left\n    >&nbsp;</TD></TR>\n  <TR vAlign=top>\n    <TD align=left><B>For further information please contact Osisko Gold\n      Royalties Ltd:</B> </TD></TR>\n  <TR>\n    <TD>&nbsp; </TD></TR>\n  <TR vAlign=top>\n    <TD align=left>Joseph de la Plante </TD></TR>\n  <TR vAlign=top>\n    <TD align=left>Vice President, Corporate Development </TD></TR>\n  <TR vAlign=top>\n    <TD align=left>Tel. (514) 940-0670 </TD></TR>\n  <TR vAlign=top>\n    <TD align=left><U>jdelaplante@osiskogr.com</U> </TD></TR></TABLE>\n<P align=right>1 </P>\n<HR align=center width=\"100%\" color=black noShade SIZE=5>\n\n</BODY>\n\n</HTML>\n\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

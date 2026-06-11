@@ -1,0 +1,48 @@
+{
+  "ticker": "EGO",
+  "cik": "0000918608",
+  "form": "6-K",
+  "filingDate": "2023-06-14",
+  "accessionNumber": "0001654954-23-007990",
+  "primaryDocument": "ego_6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/918608/000165495423007990/0001654954-23-007990-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "NEWS RELEASE",
+    "filename": "ego_ex991.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/918608/000165495423007990/ego_ex991.htm"
+  },
+  "extractedAt": "2026-06-11T16:52:58.257Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/918608/000165495423007990/ego_ex991.htm",
+    "contentType": "html",
+    "title": "ego_ex991.htm",
+    "headings": [
+      "ego_ex991.htm",
+      "EXHIBIT 99.1",
+      "NEWS RELEASE",
+      "TSX: ELD NYSE: EGO",
+      "June 14, 2023",
+      "Eldorado Gold Announces Closing of C$81.5 Million Strategic Investment by the European Bank for Reconstruction and Development (EBRD)",
+      "Eldorado Gold Corporation",
+      "About Eldorado Gold",
+      "About EBRD",
+      "Contact",
+      "Investor Relations"
+    ],
+    "text": "EX-99.1\n2\nego_ex991.htm\nNEWS RELEASE\n\nego_ex991.htmEXHIBIT 99.1 NEWS RELEASE TSX: ELD NYSE: EGO June 14, 2023 Eldorado Gold Announces Closing of C$81.5 Million Strategic Investment by the European Bank for Reconstruction and Development (EBRD) VANCOUVER, BC – Eldorado Gold Corporation (“Eldorado” or the “Company”) today announced the closing of the previously announced strategic investment of C$81.5 million by the European Bank for Reconstruction and Development (the “EBRD”). The investment was effected by way of a private placement whereby EBRD subscribed for 6,269,231 shares at a price of C$13.00 per share. (the “Private Placement”). The Private Placement is subject to final acceptance of the Toronto Stock Exchange. About Eldorado Gold Eldorado is a gold and base metals producer with mining, development and exploration operations in Turkiye, Canada and Greece. The Company has a highly skilled and dedicated workforce, safe and responsible operations, a portfolio of high-quality assets, and long-term partnerships with local communities. Eldorado’s common shares trade on the Toronto Stock Exchange (TSX: ELD) and the New York Stock Exchange (NYSE: EGO). About EBRD The European Bank for Reconstruction and Development was established in 1991 to help build a new, post-Cold War era in Central and Eastern Europe. It has since played a historic role and gained unique expertise in fostering change in the region - and beyond - investing €170 billion in more than 6,400 projects. The EBRD is committed to furthering progress towards ‘market-oriented economies and the promotion of private and entrepreneurial initiative’. Contact Investor Relations Lynette Gould, VP, Investor Relations 647.271.2827 or 1.888.353.8166 lynette.gould@eldoradogold.com",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 1,
+        "rows": [
+          [
+            "NEWS RELEASE TSX: ELD NYSE: EGO",
+            "June 14, 2023"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>ego_ex991.htm\n<DESCRIPTION>NEWS RELEASE\n<TEXT>\n<html><head><title>ego_ex991.htm</title><!--Document created using EDGARMaster--></head><body style=\"TEXT-ALIGN: justify; FONT: 10pt times new roman\"><p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:right;\"><strong>EXHIBIT 99.1</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:right;\"><strong><img src=\"ego_ex991img1.jpg\"></strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:right;\"><strong>&nbsp;</strong></p> <p style=\"margin:0px\"> <table style=\"border-spacing:0;font-size:10pt;text-align:left;width:100%\" cellpadding=\"0\"> <tr style=\"height:15px\"> <td style=\"width:50%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong>NEWS RELEASE </strong></p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong>TSX: ELD NYSE: EGO</strong></p></td> <td style=\"width:50%;vertical-align:bottom;\"> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:right;\"><strong>June 14, 2023</strong></p></td></tr></table></p> <p style=\"margin:0px\"></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:center;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:center;\"><strong>Eldorado Gold Announces Closing of C$81.5 Million Strategic Investment by the European Bank for Reconstruction and Development (EBRD) </strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">VANCOUVER, BC &#8211; <strong>Eldorado Gold Corporation</strong> (&#8220;Eldorado&#8221; or the &#8220;Company&#8221;) today announced the closing of the previously announced strategic investment of C$81.5 million by the European Bank for Reconstruction and Development (the &#8220;EBRD&#8221;). The investment was effected by way of a private placement whereby EBRD subscribed for 6,269,231 shares at a price of C$13.00 per share. (the &#8220;Private Placement&#8221;). The Private Placement is subject to final acceptance of the Toronto Stock Exchange.</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><strong>About Eldorado Gold</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">Eldorado is a gold and base metals producer with mining, development and exploration operations in Turkiye, Canada and Greece. The Company has a highly skilled and dedicated workforce, safe and responsible operations, a portfolio of high-quality assets, and long-term partnerships with local communities. Eldorado&#8217;s common shares trade on the Toronto Stock Exchange (TSX: ELD) and the New York Stock Exchange (NYSE: EGO).</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><strong>About EBRD</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">The European Bank for Reconstruction and Development was established in 1991 to help build a new, post-Cold War era in Central and Eastern Europe. It has since played a historic role and gained unique expertise in fostering change in the region - and beyond - investing &#8364;170 billion in more than 6,400 projects. The EBRD is committed to furthering progress towards &#8216;market-oriented economies and the promotion of private and entrepreneurial initiative&#8217;.</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><strong>Contact</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><strong>Investor Relations</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">Lynette Gould, VP, Investor Relations</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">647.271.2827 or 1.888.353.8166</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><u><font style=\"color:blue\">lynette.gould@eldoradogold.com </font></u></p><body>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

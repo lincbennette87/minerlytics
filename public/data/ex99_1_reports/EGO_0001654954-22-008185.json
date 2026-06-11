@@ -1,0 +1,207 @@
+{
+  "ticker": "EGO",
+  "cik": "0000918608",
+  "form": "6-K",
+  "filingDate": "2022-06-10",
+  "accessionNumber": "0001654954-22-008185",
+  "primaryDocument": "ego_6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/918608/000165495422008185/0001654954-22-008185-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "PRESS RELEASE",
+    "filename": "ego_ex991.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/918608/000165495422008185/ego_ex991.htm"
+  },
+  "extractedAt": "2026-06-11T16:53:21.625Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/918608/000165495422008185/ego_ex991.htm",
+    "contentType": "html",
+    "title": "ego_ex991.htm",
+    "headings": [
+      "ego_ex991.htm",
+      "EXHIBIT 99.1",
+      "NEWS RELEASE",
+      "TSX: ELD NYSE: EGO",
+      "June 10, 2022",
+      "Eldorado Gold Announces Election of Directors and Voting Results from Annual Meeting of Shareholders",
+      "Eldorado Gold Corporation",
+      "Election of Directors",
+      "Directors",
+      "Votes For",
+      "Votes Withheld",
+      "Outcome",
+      "Appointment of Auditors",
+      "Setting the Auditor’s Pay",
+      "Votes Against",
+      "Non-Binding Advisory Vote of Executive Compensation",
+      "About Eldorado Gold",
+      "Contact",
+      "Investor Relations",
+      "Media"
+    ],
+    "text": "EX-99.1\n2\nego_ex991.htm\nPRESS RELEASE\n\nego_ex991.htm EXHIBIT 99.1 NEWS RELEASE TSX: ELD NYSE: EGO June 10, 2022 Eldorado Gold Announces Election of Directors and Voting Results from Annual Meeting of Shareholders VANCOUVER, BC – Eldorado Gold Corporation (“Eldorado” or “the Company”) is pleased to announce that all director nominees, as listed in the Management Proxy Circular dated April 25, 2022, were elected as directors of Eldorado at the Company’s Annual Meeting of Shareholders (the “Meeting”) held on June 9, 2022. “On behalf of the Board, we would like to thank our shareholders for their ongoing feedback and support for the governance efforts and the strategic direction we have undertaken,” said Steven Reid, Chair of Eldorado Gold’s Board of Directors. “Further, we would like to thank George Albino, who did not stand for re-election this year, for his sound counsel and guidance during his tenure,” continued Mr. Reid. “During his five-and-a-half-years of service, George served on numerous key Board committees and was Chair during three transformative years at Eldorado, from 2018 to 2021. His guidance during this time was invaluable to the Board and Eldorado’s leadership team, and he will be greatly missed.” “In addition, we are pleased to welcome Stephen Walker. Mr. Walker has over 35 years of experience in capital markets, focused on the mineral resource industry. Prior to his retirement from his 20-year tenure at the Royal Bank, he held varying roles, including Managing Director and Head of Global Mining Research from 2007 to 2020. Please join me in welcoming Stephen to the Board,” said Steve Reid. Election of Directors Directors Votes For Votes Withheld Outcome George Burns 103,419,297 Shares 98.74% 1,324,684 Shares 1.26% Elected Carissa Browning 103,522,457 Shares 98.83% 1,221,524 Shares 1.17% Elected Teresa Conway 103,528,735 Shares 98.84% 1,215,246 Shares 1.16% Elected Catherine Farrow 102,452,323 Shares 97.81% 2,291,658 Shares 2.19% Elected Pamela Gibson 103,250,114 Shares 98.57% 1,493,867 Shares 1.43% Elected Judith Mosely 103,525,326 Shares 98.84% 1,218,655 Shares 1.16% Elected Steven Reid 103,559,500 Shares 98.87% 1,184,481 Shares 1.13% Elected Stephen Walker 103,566,654 Shares 98.88% 1,177,327 Shares 1.12% Elected John Webster 103,262,945 Shares 98.59% 1,418,036 Shares 1.41% Elected 1 At the Meeting, shareholders of the Company also approved: · The appointment of auditors; · Setting the auditor’s pay; and · The advisory resolution on executive compensation. Voting results on each resolution are detailed below and can also be found in the Company’s final Report on Voting Results as filed on SEDAR (www.sedar.com). All resolutions were conducted by ballot. Appointment of Auditors Votes For Votes Withheld Outcome 117,619,963 Shares 98.78% 1,457,343 Shares 1.22% Carried Setting the Auditor’s Pay Votes For Votes Against Outcome 104,009,754 Shares 99.30% 734,226 Shares 0.70% Carried Non-Binding Advisory Vote of Executive Compensation Votes For Votes Against Outcome 99,387,717 Shares 94.89% 5,356,262 Shares 5.11% Carried About Eldorado Gold Eldorado is a gold and base metals producer with mining, development and exploration operations in Turkey, Canada, Greece and Romania. The Company has a highly skilled and dedicated workforce, safe and responsible operations, a portfolio of high-quality assets, and long-term partnerships with local communities. Eldorado’s common shares trade on the Toronto Stock Exchange (TSX: ELD) and the New York Stock Exchange (NYSE: EGO). Contact Investor Relations Lisa Wilkinson, VP, Investor Relations 604.757 2237 or 1.888.353.8166 lisa.wilkinson@eldoradogold.com Media Louise McMahon, Director Communications & Public Affairs 604.757 5573 or 1.888.353.8166 louise.mcmahon@eldoradogold.com 2",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 1,
+        "rows": [
+          [
+            "TSX: ELD NYSE: EGO",
+            "June 10, 2022"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 10,
+        "rows": [
+          [
+            "Directors",
+            "Votes For",
+            "Votes Withheld",
+            "Outcome"
+          ],
+          [
+            "George Burns",
+            "103,419,297 Shares 98.74%",
+            "1,324,684 Shares 1.26%",
+            "Elected"
+          ],
+          [
+            "Carissa Browning",
+            "103,522,457 Shares 98.83%",
+            "1,221,524 Shares 1.17%",
+            "Elected"
+          ],
+          [
+            "Teresa Conway",
+            "103,528,735 Shares 98.84%",
+            "1,215,246 Shares 1.16%",
+            "Elected"
+          ],
+          [
+            "Catherine Farrow",
+            "102,452,323 Shares 97.81%",
+            "2,291,658 Shares 2.19%",
+            "Elected"
+          ],
+          [
+            "Pamela Gibson",
+            "103,250,114 Shares 98.57%",
+            "1,493,867 Shares 1.43%",
+            "Elected"
+          ],
+          [
+            "Judith Mosely",
+            "103,525,326 Shares 98.84%",
+            "1,218,655 Shares 1.16%",
+            "Elected"
+          ],
+          [
+            "Steven Reid",
+            "103,559,500 Shares 98.87%",
+            "1,184,481 Shares 1.13%",
+            "Elected"
+          ],
+          [
+            "Stephen Walker",
+            "103,566,654 Shares 98.88%",
+            "1,177,327 Shares 1.12%",
+            "Elected"
+          ],
+          [
+            "John Webster",
+            "103,262,945 Shares 98.59%",
+            "1,418,036 Shares 1.41%",
+            "Elected"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 1,
+        "rows": [
+          [
+            "1"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 3,
+        "rowCount": 3,
+        "rows": [
+          [
+            "·",
+            "The appointment of auditors;"
+          ],
+          [
+            "·",
+            "Setting the auditor’s pay; and"
+          ],
+          [
+            "·",
+            "The advisory resolution on executive compensation."
+          ]
+        ]
+      },
+      {
+        "tableIndex": 4,
+        "rowCount": 2,
+        "rows": [
+          [
+            "Votes For",
+            "Votes Withheld",
+            "Outcome"
+          ],
+          [
+            "117,619,963 Shares 98.78%",
+            "1,457,343 Shares 1.22%",
+            "Carried"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 5,
+        "rowCount": 2,
+        "rows": [
+          [
+            "Votes For",
+            "Votes Against",
+            "Outcome"
+          ],
+          [
+            "104,009,754 Shares 99.30%",
+            "734,226 Shares 0.70%",
+            "Carried"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 6,
+        "rowCount": 2,
+        "rows": [
+          [
+            "Votes For",
+            "Votes Against",
+            "Outcome"
+          ],
+          [
+            "99,387,717 Shares 94.89%",
+            "5,356,262 Shares 5.11%",
+            "Carried"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 7,
+        "rowCount": 1,
+        "rows": [
+          [
+            "2"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>ego_ex991.htm\n<DESCRIPTION>PRESS RELEASE\n<TEXT>\n<html><head><title>ego_ex991.htm</title><!--Document created using EDGARMaster--></head><body style=\"TEXT-ALIGN: justify; FONT: 10pt times new roman\"><p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp; </p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:right;\"><strong>EXHIBIT 99.1</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:right;\"><strong>&nbsp;</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:right;\"><img src=\"ego_ex991img1.jpg\"></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><strong>NEWS RELEASE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p> <table style=\"border-spacing:0;font-size:10pt;text-align:left;width:100%\" cellpadding=\"0\"> <tr style=\"height:15px\"> <td> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong>TSX: ELD &nbsp;NYSE: EGO&nbsp;</strong></p></td> <td> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:right;\"><strong>June 10, 2022</strong></p></td></tr></table> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:right;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:center;\"><strong>Eldorado Gold Announces Election of Directors and Voting Results from Annual Meeting of Shareholders</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px 0px 0px 0in; text-align:justify;\">VANCOUVER, BC &#8211; <strong>Eldorado Gold Corporation </strong>(&#8220;Eldorado&#8221; or &#8220;the Company&#8221;) is pleased to announce that all director nominees, as listed in the Management Proxy Circular dated April 25, 2022, were elected as directors of Eldorado at the Company&#8217;s Annual Meeting of Shareholders (the &#8220;Meeting&#8221;) held on June 9, 2022. </p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px 0px 0px 0in; text-align:justify;\">&#8220;On behalf of the Board, we would like to thank our shareholders for their ongoing feedback and support for the governance efforts and the strategic direction we have undertaken,&#8221; said Steven Reid, Chair of Eldorado Gold&#8217;s Board of Directors. </p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px 0px 0px 0in; text-align:justify;\">&#8220;Further, we would like to thank George Albino, who did not stand for re-election this year, for his sound counsel and guidance during his tenure,&#8221; continued Mr. Reid. &#8220;During his five-and-a-half-years of service, George served on numerous key Board committees and was Chair during three transformative years at Eldorado, from 2018 to 2021. His guidance during this time was invaluable to the Board and Eldorado&#8217;s leadership team, and he will be greatly missed.&#8221; </p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&#8220;In addition, we are pleased to welcome Stephen Walker. Mr. Walker has over 35 years of experience in capital markets, focused on the mineral resource industry. Prior to his retirement from his 20-year tenure at the Royal Bank, he held varying roles, including Managing Director and Head of Global Mining Research from 2007 to 2020. Please join me in welcoming Stephen to the Board,&#8221; said Steve Reid.</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px 0px 0px 0in; text-align:justify;\"><strong>Election of Directors</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <table style=\"border-spacing:0;font-size:10pt;border-right:#000000 1px solid;border-bottom:#000000 1px solid;text-align:justify;margin-left:auto;margin-right:auto;width:100%\" cellpadding=\"2\"> <tr style=\"height:15px;background-color:#027c64\"> <td style=\"border-top:#000000 1px solid;border-left:#000000 1px solid;padding:2px;width:23%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong><font style=\"color:white\">Directors</font></strong></p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:19%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong><font style=\"color:white\">Votes For</font></strong></p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:20%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong><font style=\"color:white\">Votes Withheld</font></strong></p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:16%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong><font style=\"color:white\">Outcome</font></strong></p></td></tr> <tr style=\"height:15px\"> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:23%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">George Burns</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:19%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">103,419,297 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">98.74%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:20%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1,324,684 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1.26%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:16%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Elected</p></td></tr> <tr style=\"height:15px\"> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:23%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Carissa Browning</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:19%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">103,522,457 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">98.83%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:20%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1,221,524 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1.17%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:16%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Elected</p></td></tr> <tr style=\"height:15px\"> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:23%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Teresa Conway</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:19%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">103,528,735 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">98.84%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:20%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1,215,246 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1.16%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:16%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Elected</p></td></tr> <tr style=\"height:15px\"> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:23%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Catherine Farrow</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:19%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">102,452,323 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">97.81%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:20%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">2,291,658 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">2.19%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:16%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Elected</p></td></tr> <tr style=\"height:15px\"> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:23%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Pamela Gibson</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:19%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">103,250,114 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">98.57%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:20%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1,493,867 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1.43%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:16%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Elected</p></td></tr> <tr style=\"height:15px\"> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:23%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Judith Mosely</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:19%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">103,525,326 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">98.84%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:20%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1,218,655 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1.16%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:16%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Elected</p></td></tr> <tr style=\"height:15px\"> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:23%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Steven Reid</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:19%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">103,559,500 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">98.87%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:20%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1,184,481 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1.13%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:16%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Elected</p></td></tr> <tr style=\"height:15px\"> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:23%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Stephen Walker</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:19%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">103,566,654 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">98.88%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:20%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1,177,327 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1.12%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:16%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Elected</p></td></tr> <tr style=\"height:15px\"> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:23%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">John Webster</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:19%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">103,262,945 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">98.59%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:20%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1,418,036 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1.41%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:16%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Elected</p></td></tr></table> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <table style=\"border-spacing:0;font:10pt times new roman;width:100%\" cellpadding=\"0\"> <tr style=\"height:15px\"> <td class=\"hpbhr\">&nbsp;</td></tr> <tr style=\"height:15px\"> <td style=\"BORDER-BOTTOM: black 1px solid; TEXT-INDENT: 0px;text-align:center;\">1</td></tr> <tr style=\"height:15px\"> <td><p style='page-break-after: always'></p></td></tr> <tr style=\"height:15px\"> <td>&nbsp;</td></tr></table> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px 0px 0px 0in; text-align:justify;\">At the Meeting, shareholders of the Company also approved:</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <table style=\"border-spacing:0;text-align:left;font:10pt times new roman;width:100%\" cellpadding=\"0\"> <tr style=\"height:15px\"> <td style=\"width:4%;\"> <p style=\"margin:0px\">&nbsp;</p></td> <td style=\"width:4%;vertical-align:top;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><font style=\"font-family:symbol\">&#183;</font></p></td> <td style=\"vertical-align:top;\"> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">The appointment of auditors;</p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"margin:0px\">&nbsp;</p></td> <td> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; TEXT-INDENT: 30px; text-align:justify;\">&nbsp;</p></td> <td> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"margin:0px\">&nbsp;</p></td> <td style=\"vertical-align:top;\"> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><font style=\"font-family:symbol\">&#183;</font></p></td> <td style=\"vertical-align:top;\"> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">Setting the auditor&#8217;s pay; and</p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"margin:0px\">&nbsp;</p></td> <td> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; TEXT-INDENT: 30px; text-align:justify;\">&nbsp;</p></td> <td> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"margin:0px\">&nbsp;</p></td> <td style=\"vertical-align:top;\"> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><font style=\"font-family:symbol\">&#183;</font></p></td> <td style=\"vertical-align:top;\"> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">The advisory resolution on executive compensation.</p></td></tr></table> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">&nbsp; </p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px 0px 0px 0in; text-align:justify;\">Voting results on each resolution are detailed below and can also be found in the Company&#8217;s final Report on Voting Results as filed on SEDAR (<font style=\"color:blue\">www.sedar.com</font>). All resolutions were conducted by ballot.</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px 0px 0px 0in; text-align:justify;\"><strong>Appointment of Auditors</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <table style=\"border-spacing:0;font-size:10pt;border-right:#000000 1px solid;border-bottom:#000000 1px solid;text-align:justify;margin-left:auto;margin-right:auto;width:100%\" cellpadding=\"2\"> <tr style=\"height:15px;background-color:#027c64\"> <td style=\"border-top:#000000 1px solid;border-left:#000000 1px solid;padding:2px;width:29%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong><font style=\"color:white\">Votes For</font></strong></p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:24%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong><font style=\"color:white\">Votes Withheld</font></strong></p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:26%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong><font style=\"color:white\">Outcome</font></strong></p></td></tr> <tr style=\"height:15px\"> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:29%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">117,619,963 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">98.78%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:24%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1,457,343 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">1.22%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:26%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Carried</p></td></tr></table> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px 0px 0px 0in; text-align:justify;\"><strong>Setting the Auditor&#8217;s Pay</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <table style=\"border-spacing:0;font-size:10pt;border-right:#000000 1px solid;border-bottom:#000000 1px solid;text-align:justify;margin-left:auto;margin-right:auto;width:100%\" cellpadding=\"2\"> <tr style=\"height:15px;background-color:#027c64\"> <td style=\"border-top:#000000 1px solid;border-left:#000000 1px solid;padding:2px;width:23%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong><font style=\"color:white\">Votes For</font></strong></p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:19%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong><font style=\"color:white\">Votes Against </font></strong></p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:20%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong><font style=\"color:white\">Outcome</font></strong></p></td></tr> <tr style=\"height:15px\"> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:23%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">104,009,754 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">99.30%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:19%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">734,226 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">0.70%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:20%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Carried</p></td></tr></table> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px 0px 0px 0in; text-align:justify;\"><strong>Non-Binding Advisory Vote of Executive Compensation</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <table style=\"border-spacing:0;font-size:10pt;border-right:#000000 1px solid;border-bottom:#000000 1px solid;text-align:justify;margin-left:auto;margin-right:auto;width:100%\" cellpadding=\"2\"> <tr style=\"height:15px;background-color:#027c64\"> <td style=\"border-top:#000000 1px solid;border-left:#000000 1px solid;padding:2px;width:23%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong><font style=\"color:white\">Votes For</font></strong></p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:19%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong><font style=\"color:white\">Votes Against</font></strong></p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:20%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong><font style=\"color:white\">Outcome</font></strong></p></td></tr> <tr style=\"height:15px\"> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:23%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">99,387,717 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">94.89%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:19%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">5,356,262 Shares</p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">5.11%</p></td> <td style=\"border-top:#000000 1px solid;padding-bottom:2px;padding-top:2px;padding-left:2px;border-left:#000000 1px solid;padding-right:2px;padding:2px;width:20%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Carried</p></td></tr></table> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><strong>About Eldorado Gold</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px 0px 0px 0in; text-align:justify;\">Eldorado is a gold and base metals producer with mining, development and exploration operations in Turkey, Canada, Greece and Romania. The Company has a highly skilled and dedicated workforce, safe and responsible operations, a portfolio of high-quality assets, and long-term partnerships with local communities. Eldorado&#8217;s common shares trade on the Toronto Stock Exchange (TSX: ELD) and the New York Stock Exchange (NYSE: EGO).</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><strong>Contact</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><strong>Investor Relations</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">Lisa Wilkinson, VP, Investor Relations</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">604.757 2237 or 1.888.353.8166 &nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><font style=\"font-family:times new roman,serif\"><font style=\"font-family:arial,sans-serif\"><font style=\"color:blue;font-family:Times New Roman\"><u>lisa.wilkinson@eldoradogold.com</u></font></font></font></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><strong>Media</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">Louise McMahon, Director Communications &amp; Public Affairs</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">604.757 5573 or 1.888.353.8166 &nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><font style=\"color:blue\"><u>louise.mcmahon@eldoradogold.com</u></font></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <table style=\"border-spacing:0;font:10pt times new roman;width:100%\" cellpadding=\"0\"> <tr style=\"height:15px\"> <td class=\"hpbhr\">&nbsp;</td></tr> <tr style=\"height:15px\"> <td style=\"BORDER-BOTTOM: black 1px solid; TEXT-INDENT: 0px;text-align:center;\">2</td></tr></table> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">&nbsp;</p><body>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "ticker": "LAAC",
+  "cik": "0001440972",
+  "form": "6-K",
+  "filingDate": "2022-04-12",
+  "accessionNumber": "0001176256-22-000117",
+  "primaryDocument": "lithiumamericas6knr.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1440972/000117625622000117/0001176256-22-000117-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "NOTICE OF MEETING AND RECORD DATE",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1440972/000117625622000117/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-06-11T17:02:05.816Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1440972/000117625622000117/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Exhibit 99.1",
+    "headings": [
+      "Exhibit 99.1",
+      "Subject: LITHIUM AMERICAS CORP.",
+      "Notice and Access (NAA) Requirements:",
+      "Voting Security Details:",
+      "Description",
+      "CUSIP Number",
+      "ISIN",
+      "Computershare"
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nNOTICE OF MEETING AND RECORD DATE\n\n Exhibit 99.1\n\nExhibit 99.1\n\n \n\n \n\n \n\n \n \n\n April 11, 2022\n\n 510 Burrard St, 3rd Floor\n\n \n\n Vancouver BC, V6C 3B9\n\n \n\n www.computershare.com\n\n \n\n \n\n \n\n To:\n\n All Canadian Securities Regulatory Authorities\n\n \n\n New York Stock Exchange\n\nSubject: LITHIUM AMERICAS CORP.\n\nDear Sir/Madam:\n\nWe advise of the following with respect to the upcoming Meeting of Security Holders for the subject Issuer:\n\n \n\n \n\n Meeting Type :\n\n Annual General Meeting\n\n Record Date for Notice of Meeting :\n\n May 06, 2022\n\n Record Date for Voting (if applicable) :\n\n May 06, 2022\n\n Beneficial Ownership Determination Date :\n\n May 06, 2022\n\n Meeting Date :\n\n June 21, 2022\n\n Meeting Location (if available) :\n\n Virtual Meeting\n\n Issuer sending proxy related materials directly to NOBO:\n\n No\n\n Issuer paying for delivery to OBO:\n\n Yes\n\nNotice and Access (NAA) Requirements:\n\n \n\n \n\n \n\n \n\n NAA for Beneficial Holders\n\n Yes\n\n \n\n Beneficial Holders Stratification Criteria:\n\n Not Applicable\n\n \n\n NAA for Registered Holders\n\n Yes\n\n \n\n Registered Holders Stratification Criteria:\n\n Not Applicable\n\nVoting Security Details:\n\n \n\n \n\n \n\n Description\n\n CUSIP Number\n\n ISIN\n\n COMMON CLASS\n\n 53680Q207\n\n CA53680Q2071\n\nSincerely,\n\nComputershareAgent for LITHIUM AMERICAS CORP.",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 3,
+        "rows": [
+          [
+            "April 11, 2022",
+            "510 Burrard St, 3rd Floor"
+          ],
+          [
+            "Vancouver BC, V6C 3B9"
+          ],
+          [
+            "www.computershare.com"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 2,
+        "rows": [
+          [
+            "To:",
+            "All Canadian Securities Regulatory Authorities"
+          ],
+          [
+            "New York Stock Exchange"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 8,
+        "rows": [
+          [
+            "Meeting Type :",
+            "Annual General Meeting"
+          ],
+          [
+            "Record Date for Notice of Meeting :",
+            "May 06, 2022"
+          ],
+          [
+            "Record Date for Voting (if applicable) :",
+            "May 06, 2022"
+          ],
+          [
+            "Beneficial Ownership Determination Date :",
+            "May 06, 2022"
+          ],
+          [
+            "Meeting Date :",
+            "June 21, 2022"
+          ],
+          [
+            "Meeting Location (if available) :",
+            "Virtual Meeting"
+          ],
+          [
+            "Issuer sending proxy related materials directly to NOBO:",
+            "No"
+          ],
+          [
+            "Issuer paying for delivery to OBO:",
+            "Yes"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 3,
+        "rowCount": 4,
+        "rows": [
+          [
+            "NAA for Beneficial Holders",
+            "Yes"
+          ],
+          [
+            "Beneficial Holders Stratification Criteria:",
+            "Not Applicable"
+          ],
+          [
+            "NAA for Registered Holders",
+            "Yes"
+          ],
+          [
+            "Registered Holders Stratification Criteria:",
+            "Not Applicable"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 4,
+        "rowCount": 2,
+        "rows": [
+          [
+            "Description",
+            "CUSIP Number",
+            "ISIN"
+          ],
+          [
+            "COMMON CLASS",
+            "53680Q207",
+            "CA53680Q2071"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>NOTICE OF MEETING AND RECORD DATE\n<TEXT>\n\n<HTML>\n<HEAD>\n   <TITLE>Exhibit 99.1</TITLE>\n</HEAD>\n\n<BODY bgcolor=\"#ffffff\" style=\"font-family: 'Times New Roman';font-size: 10pt;\">\n\n<A name=\"page_1\"></A>\n\n<a name=\"_bclPageBorder1\"></a><DIV style=\"PADDING-LEFT: 0%; PADDING-RIGHT: 0%\">\n\n<HR SIZE=3 noShade>\n\n\n\n<P style=\"MARGIN-TOP: 0px; TEXT-ALIGN: right\"><B>Exhibit 99.1</B></P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"70%\"></TD>\n\n   <TD width=\"30%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD width=\"70%\" noWrap align=left>&nbsp;</TD>\n\n   <TD width=\"30%\" noWrap align=left>\n   <IMG border=0 src=\"exhibit99-1x1x1.jpg\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD width=\"70%\" noWrap align=left>April 11, 2022</TD>\n\n   <TD width=\"30%\" noWrap align=left>510 Burrard St, 3rd Floor</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD width=\"70%\" noWrap align=left>&nbsp;</TD>\n\n   <TD width=\"30%\" noWrap align=left>Vancouver BC, V6C 3B9</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD width=\"70%\" noWrap align=left>&nbsp;</TD>\n\n   <TD width=\"30%\" noWrap align=left>www.computershare.com</TD></TR></TABLE></DIV>\n\n<P style=\"MARGIN: 0px\">&nbsp;</P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"4%\"></TD>\n\n   <TD width=\"96%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD width=\"4%\">To:</TD>\n\n   <TD width=\"96%\" noWrap align=left>All Canadian Securities Regulatory Authorities</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD width=\"4%\">&nbsp;</TD>\n\n   <TD width=\"96%\" noWrap align=left>New York Stock Exchange</TD></TR></TABLE></DIV>\n\n<P style=\"TEXT-ALIGN: justify\"><B>Subject: LITHIUM AMERICAS CORP.</B></P>\n\n<P style=\"TEXT-ALIGN: justify\">Dear Sir/Madam:</P>\n\n<P style=\"TEXT-ALIGN: justify\">We advise of the following with respect to the upcoming Meeting of Security Holders for the subject Issuer:</P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD style=\"WIDTH: 50%\"></TD>\n\n   <TD style=\"WIDTH: 50%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BACKGROUND-COLOR: #e6efff\" width=\"50%\" noWrap align=left>Meeting Type :</TD>\n\n   <TD style=\"BACKGROUND-COLOR: #e6efff\" width=\"50%\" noWrap align=left>Annual General Meeting</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"WIDTH: 50%\" noWrap align=left>Record Date for Notice of Meeting :</TD>\n\n   <TD style=\"WIDTH: 50%\" noWrap align=left>May 06, 2022</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BACKGROUND-COLOR: #e6efff\" width=\"50%\" noWrap align=left>Record Date for Voting (if applicable) :</TD>\n\n   <TD style=\"BACKGROUND-COLOR: #e6efff\" width=\"50%\" noWrap align=left>May 06, 2022</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"WIDTH: 50%\" noWrap align=left>Beneficial Ownership Determination Date :</TD>\n\n   <TD style=\"WIDTH: 50%\" noWrap align=left>May 06, 2022</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BACKGROUND-COLOR: #e6efff\" width=\"50%\" noWrap align=left>Meeting Date :</TD>\n\n   <TD style=\"BACKGROUND-COLOR: #e6efff\" width=\"50%\" noWrap align=left>June 21, 2022</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"WIDTH: 50%\" noWrap align=left>Meeting Location (if available) :</TD>\n\n   <TD style=\"WIDTH: 50%\" noWrap align=left>Virtual Meeting</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BACKGROUND-COLOR: #e6efff\" width=\"50%\" noWrap align=left>Issuer sending proxy related materials directly to NOBO:</TD>\n\n   <TD style=\"BACKGROUND-COLOR: #e6efff\" width=\"50%\" noWrap align=left>No</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"WIDTH: 50%\" noWrap align=left>Issuer paying for delivery to OBO:</TD>\n\n   <TD style=\"WIDTH: 50%\" noWrap align=left>Yes</TD></TR></TABLE></DIV>\n\n<P style=\"TEXT-ALIGN: justify\"><B>Notice and Access (NAA) Requirements:</B></P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD style=\"WIDTH: 4%\"></TD>\n\n   <TD style=\"WIDTH: 46%\"></TD>\n\n   <TD style=\"WIDTH: 50%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"WIDTH: 4%\">&nbsp;</TD>\n\n   <TD style=\"BACKGROUND-COLOR: #e6efff\" width=\"46%\" noWrap align=left>NAA for Beneficial Holders</TD>\n\n   <TD style=\"BACKGROUND-COLOR: #e6efff\" width=\"50%\" noWrap align=left>Yes</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"WIDTH: 4%\">&nbsp;</TD>\n\n   <TD style=\"WIDTH: 46%\" noWrap align=left>Beneficial Holders Stratification Criteria:</TD>\n\n   <TD style=\"WIDTH: 50%\" noWrap align=left>Not Applicable</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"WIDTH: 4%\">&nbsp;</TD>\n\n   <TD style=\"BACKGROUND-COLOR: #e6efff\" width=\"46%\" noWrap align=left>NAA for Registered Holders</TD>\n\n   <TD style=\"BACKGROUND-COLOR: #e6efff\" width=\"50%\" noWrap align=left>Yes</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"WIDTH: 4%\">&nbsp;</TD>\n\n   <TD style=\"WIDTH: 46%\" noWrap align=left>Registered Holders Stratification Criteria:</TD>\n\n   <TD style=\"WIDTH: 50%\" noWrap align=left>Not Applicable</TD></TR></TABLE></DIV>\n\n<P style=\"TEXT-ALIGN: justify\"><B>Voting Security Details:</B></P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"33%\"></TD>\n\n   <TD width=\"33%\"></TD>\n\n   <TD width=\"33%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD width=\"33%\" noWrap align=left><B>Description</B></TD>\n\n   <TD width=\"33%\" noWrap align=left><B>CUSIP Number</B></TD>\n\n   <TD width=\"33%\" noWrap align=left><B>ISIN</B></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD width=\"33%\" noWrap align=left>COMMON CLASS</TD>\n\n   <TD width=\"33%\" noWrap align=left>53680Q207</TD>\n\n   <TD width=\"33%\" noWrap align=left>CA53680Q2071</TD></TR></TABLE></DIV>\n\n<P style=\"TEXT-ALIGN: justify\">Sincerely,</P>\n\n<P style=\"TEXT-ALIGN: justify\"><B><FONT color=#660066>Computershare</FONT></B><BR>Agent for LITHIUM AMERICAS CORP.</P></DIV><BR>\n\n<HR align=center SIZE=3 width=\"100%\" noShade>\n\n\n\n</BODY>\n\n</HTML>\n\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

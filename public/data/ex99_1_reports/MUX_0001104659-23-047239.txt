@@ -1,0 +1,856 @@
+EX-99.1
+2
+tm2311901d2_ex99-1.htm
+EXHIBIT 99.1
+
+Exhibit 99.1John Tumazos
+Very Independent Research Conference
+April 12, 2023
+Turbo-Charged by Copper
+Increasing Au & Ag Production
+Decreasing Cost/oz
+Reducing DebtMUX
+Cautionary Statement
+This presentation and the information included herein do not constitute an offer to buy or the
+solicitation of an offer to subscribe for or to buy any of the securities described herein, nor shall there
+be any sale of these securities in any jurisdiction in which such offer, solicitation or sale would be
+unlawful prior to registration or qualification under the securities laws of any such jurisdiction.
+This presentation contains certain forward-looking statements and information, including "forward-looking statements" within the meaning of the Private Securities Litigation Reform Act of 1995
+("Forward-looking Statements"). The Forward-looking Statements are intended to be subject to the
+safe harbor provided by Section 27a of the Securities Act of 1933, Section 21e of the Securities
+Exchange Act of 1934 and Private Securities Litigation Reform Act of 1995. The Forward-looking
+Statements express, as at the date of this presentation, McEwen Mining Inc. (the "Company")
+estimates, forecasts, projections, expectations or beliefs as to future events and results. Forward-looking Statements are necessarily based upon a number of estimates and assumptions that, while
+considered reasonable by management, are inherently subject to significant business, economic and
+competitive uncertainties, risks and contingencies. There can be no assurance that such statements
+and information will prove to be accurate. Therefore, actual results and future events could differ
+materially from those anticipated in such statements and information. Risks and uncertainties that
+could cause results or future events to differ materially from current expectations expressed or implied
+by the Forward-looking Statements include, but are not limited to, factors associated with fluctuations
+in the market price of precious metals, mining industry risks, political, economic, social and security
+risks associated with foreign operations, the ability of the corporation to receive or receive in a timely
+manner permits or other approvals required in connection with operations, risks associated with the
+construction of mining operations and commencement of production and the projected costs thereof,
+risks related to litigation, the state of the capital markets, environmental risks and hazards, uncertainty
+as to calculation of mineral resources and reserves, risk of delisting from a public exchange, and other
+risks. Readers should not place undue reliance on Forward-looking Statements, which speak only as
+of the date hereof. The Company undertakes no obligation to reissue or update Forward-looking
+Statements as a result of new information or events after the date hereof, except as required by law.
+See McEwen Mining's Annual Report on Form 10-K/A for the fiscal year ended December 31, 2022,
+the Quarterly Report on Form 10-Q for the quarter ended March 31, 2022, June 30, 2022, September
+30, 2022 and other filings with the Securities and Exchange Commission (the “SEC”), under the
+caption "Risk Factors", for additional information on risks, uncertainties and other factors relating to
+the Forward-looking Statements. All Forward-looking Statements made in this presentation are
+qualified by this cautionary statement. Unless otherwise stated, all currency information quoted in this
+presentation is in U.S. dollars.
+The technical contents of this presentation, including reserves, have been reviewed and approved by
+William Shaver, COO; the exploration technical contents of this presentation including resources
+content have been reviewed and approved by Stephen McGibbon, EVP Exploration and Luke Willis,
+P. Geo., Director of Resource Modelling; all are Qualified Persons as defined by Canadian Securities
+Administrators National Instrument 43-101 "Standards of Disclosure for Mineral Projects".
+Securities and Exchange Commission (“SEC”).We are subject to the reporting requirements of the
+Securities and Exchange Act of 1934, as amended (the “Exchange Act”) and applicable Canadian
+securities laws, and as a result, we have reported our mineral reserves and mineral resources
+according to two different standards. U.S. reporting requirements are governed by Item 1300 of
+Regulation S-K (“S-K 1300”), as issued by the U.S. Securities and Exchange Commission (“SEC”).
+Canadian reporting requirements for disclosure of mineral properties are governed by National
+Instrument 43-101 Standards of Disclosure for Mineral Projects (“NI 43-101”), as adopted from the
+definitions provided by the Canadian Institute of Mining, Metallurgy and Petroleum. Both sets of
+reporting standards have similar goals in terms of conveying an appropriate level of confidence in the
+disclosures being reported, but the standards embody slightly different approaches and definitions. All
+disclosure of mineral resources and mineral reserves in this report are reported in accordance with
+S-K 1300.
+Investors should be aware that the estimation of measured resources and indicated resources involve
+greater uncertainty as to their existence and economic feasibility than the estimation of proven and
+probable reserves, and therefore investors are cautioned not to assume that all or any part of
+measured or indicated resources will ever be converted into S-K 1300- compliant reserves. The
+estimation of inferred resources involves far greater uncertainty as to their existence and economic
+viability than the estimation of other categories of resources, and therefore it cannot be assumed that
+all or any part of inferred resources will ever be upgraded to a higher category. Therefore, investors
+are cautioned not to assume that all or any part of inferred resources exist, or that they can be mined
+legally or economically.MUX
+MUX: Cautionary Note Regarding
+NON-GAAP Measures
+In this presentation, we have provided information prepared or calculated according to
+U.S. GAAP, as well as provided some non-U.S. GAAP ("non-GAAP") performance
+measures. Because the non-GAAP performance measures do not have any
+standardized meaning prescribed by U.S. GAAP, they may not be comparable to
+similar measures presented by other companies.
+Total Cash Costs per GEO, and All-in Sustaining Costs (“AISC”) per GEO.
+Total cash costs consist of mining, processing, on-site general and administrative
+costs, community and permitting costs related to current explorations, royalty costs,
+refining and treatment charges (for both doré and concentrate products), sales costs,
+export taxes and operational stripping costs. All-in sustaining cash costs consist of
+total cash costs (as described above), plus environmental rehabilitation costs,
+amortization of the asset retirement costs related to operating sites, sustaining
+exploration and development costs, and sustaining capital expenditures. In order to
+arrive at our consolidated all-in sustaining costs, we also include corporate general and
+administrative expenses. Depreciation is excluded from both total cash costs and all-in
+sustaining cash costs. For both total cash costs and all-in sustaining costs we include
+our attributable share of total cash costs from operations where we hold less than a
+100% economic share in the production, such as MSC, where we hold a 49% interest.
+Total cash cost and all-in sustaining cash cost per GEO sold are calculated on a co-product basis by dividing the respective proportionate share of the total cash costs and
+all-in sustaining cash costs for the period attributable to each metal by the ounces of
+each respective metal sold. We use and report these measures to provide additional
+information regarding operational efficiencies both on a consolidated and an individual
+mine basis, and believe that these measures provide investors and analysts with
+useful information about our underlying costs of operations. A reconciliation to the
+nearest U.S. GAAP measure is provided in McEwen Mining's Annual Report on Form
+10-K/A for the year ended December 31, 2022.
+Earnings from Mining Operations
+The term Earnings from Mining Operations used in this presentation is a non-GAAP
+financial measure. We use and report this measure because we believe it provides
+investors and analysts with a useful measure of the underlying earnings from our
+mining operations. We define Earnings from Mining Operations as Gold and Silver
+Revenues from our El Gallo Mine, Black Fox Mine, and our 49% attributable share of
+the San José Mine's Net Sales, less their respective Production Costs Applicable to
+Sales. To the extent that Production Costs Applicable to Sales may include
+depreciation and amortization expense related to the fair value increments on historical
+business acquisitions (fair value paid in excess of the carrying value of the underlying
+assets and liabilities assumed on the date of acquisition), we deduct this expense in
+order to arrive at Production Costs Applicable to Sales that only include depreciation
+and amortization expense incurred at the mine-site level. The San José Mine Net
+Sales and Production Costs Applicable to Sales are presented, on a 100% basis, in
+Note 5 of McEwen Mining's Annual Report on Form 10-K/A for the year ended
+December 31, 2022.
+Cash, Investments and Precious Metals
+The term cash, investments and precious metals used in this presentation is a
+non-GAAP financial measure. We report this measure to better understand our liquidity
+in each reporting period. Cash, investments and precious metals is calculated as the
+sum of cash, investments and ounces of doré held in inventory, valued at the London
+P.M. Fix spot price at the corresponding period. A reconciliation to the most directly
+comparable U.S. GAAP measure, Sales of Gold and Silver, is provided in McEwen
+Mining's Annual Report on Form 10-K/A for the year ended December 31, 2022.MUX
+Full Disclosure
+CEO’s Financial Commitment
+$220M 17.3% $1/Yr
+Investment 1 Ownership Salary
+Rob
+McEwen
+17%
+Institutional
+21%
+Retail
+62%
+1
+- Rob McEwen’s investments: $140 million in McEwen Mining shares and $40 million (Aug 13, 2018 & Apr 5, 2022 press releases), plus $40 million in McEwen Copper shares
++ $15 million unsecured subordinated promissory note (April 5, 2022 press release"). 2
+- Average Daily Trading Volume over 3 months. Source: Bloomberg, as of April 11, 2023.
+Rob McEwen 8.2 M
+Van Eck Associates 2.1 M
+Mirae Asset Global 1.1 M
+Jane Street 0.6 M
+ALPS Advisors 0.6 M
+BlackRock 0.5 M
+Vanguard 0.5 M
+AIFM Capital 0.4 M
+Geode Capital 0.3 M
+Two Sigma 0.3 M
+MUX Shares Ownership Distribution Top 10 Holders
+Outstanding : 47.4 M
+Fully Diluted : 50.9 M
+ADTV2
+: 386,000
+Price : US$9.39
+Market Cap : US$445 MMUX
+0
+5
+10
+15
+20
+25
+30
+2018 2019 2020 2021 2022 2023
+Last Price SMAVG (50) SMAVG (100) SMAVG (200) SMAVG (500) SMAVG (800)
+The Sun Is Starting to Shine Again!
+After 3 Horrible Years
+Up 225%, Sep 27, 2022 – Apr 11, 2023. With Still a Lot of Room on the Upside
+Share
+Price
+US$
+As of Apr 11, 2023. Source: Bloomberg.MUX
+McEwen Lands Rio Tinto Venture for Argentina-Focused Copper Unit
+Rio’s copper leaching technology venture takes 10% stake for US$25 Million
+McEwen Signs Another Rio Earn-in Deal
+McEwen Copper entered option agreement for Rio Tinto to earn 60% interest in Elder
+Creek property, Nevada, USA by spending US$18 Million over 7 years
+McEwen Copper Completes Oversubscribed US$82 Million Offering
+Including a US$25 Million Investment by Nuton, a Rio Tinto Venture
+McEwen Mining
+August 31, 2022
+Bloomberg
+August 31, 2022
+Mining Journal
+September 6, 2022
+McEwen Signs Deals with Rio & Stellantis Totalling US$185 Million
+Closing of a US$155 Million investment by Stellantis (Arg$30B), one of the
+world’s leading and most innovative automakers and mobility providers &
+Signing a binding agreement for US$30 Million investment by Nuton,
+a Rio Tinto Venture and existing shareholder of McEwen Copper
+McEwen Copper
+February 27, 2023
+Significant DevelopmentsMUX
+Selected Proforma Financial Information
+Post Purchases of McEwen Copper by Stellantis & Rio Tinto’s Nuton
+Impact on MUX
+Stronger Balance Sheet
+Ownership of McEwen Copper reduced
+Value of Ownership Increased by 80%
+Reducing Debt by 38%
+Unconsolidated Cash2
+from 68.1% to 51.9%
+from $160 M to $290 M
+($3.14 to $5.70/ shr1
+)
+from $65 M to $40 M
+$30 M
+1 – calculation per fully diluted MUX shares; 2 – as of Mar 31, 2023
+Increased Implied Value from $260 M to $550 M
+Impact on McEwen CopperMUX
+We Believe MUX’s Share Value Is:
+US$8 and $34
+Share Price $9.39
+Apr 11, 2023
+Based on recent market valuations / transactions
+Between
+CurrentMUX
+Possible Share Value of MUX
+Sum of the Parts
+MUX’s Assets Value Range Per MUX Share1
+Low High
+McEwen
+Copper2
+Los Azules $2.473 $23.204
+Elder Creek $0.315 $0.315
+Royalty Portfolio $0.696 $0.696
+Gold & Silver $4.667 $9.328
+$8.15 $33.54
+Notes
+1. McEwen Mining has 51 million fully diluted shares
+2. McEwen Mining owns 51.9% of McEwen Copper which owns 100% of Los Azules and Elder Creek
+3. Josemaria purchase price was US $485 million. (US $485M x 50% x 51.9%) / 51M
+4. Filo Mining market capitalization US $2.28 billion. (US $2.28 B x 51.9%) / 51M. As of April 11, 2023.
+5. Elder Creek value is based on earn-in (($18M / 60%) x 51.9%) / 51M
+6. Royalties: 1.25% NSR on Los Azules and Elder Creek, plus three other royalties. Est. $35M / 51M
+7. Average peer group EV/GEO x 50% of the high value
+8. Average peer group (Jaguar Mining, Silvercorp, Fortitude, Gold Resource, Endeavour Silver) EV/GEO multiple 1.11 x higher than MUXMUXMUX
+McEwen Copper Ownership
+MUX
+51.9%
+Stellantis
+14.2%
+Nuton / Rio
+Tinto Venture
+14.2%
+Rob McEwen
+13.8%
+Victor Smorgon
+Group (Australia)
+Others 3.5% 2.4%
+MUX
+Stellantis
+• McEwen Copper Total Shares Outstanding 28.9 M
+• McEwen Copper owns 100% of the Los Azules and the
+Elder Creek copper projects
+• Elder Creek was optioned by Kennecott Exploration Co,
+a subsidiary of Rio Tinto, to earn 60% interest in the
+property by spending US $18 million over a 7-yr period.MUX
+CHILE
+ARGENTINA
+Los Pelambres Antofagasta
+Andina Codelco
+Los Bronces Anglo American
+Antamina Teck
+Las Bambas MMG
+Antapaccay Glencore
+Cerro Verde Freeport-McMoRan
+PERU
+Taca Taca First Quantum
+Escondida BHP/Rio Tinto
+Lindero Fortuna Silver
+MARA Yamana Glencore & Newmont
+Josemaria Lundin Mining
+Filo del Sol Filo Mining (BHP)
+Pascua Lama Barrick
+Veladero Barrick Shandong
+Los Azules McEwen Copper
+(MUX, Rio Tinto, Stellantis)
+Altar Aldebaran Resources
+El Pachón Glencore
+San Juan
+*Rank based on 2021 top 20 largest copper mines in the world by production capacity. https://elements.visualcapitalist.com/the-largest-copper-mines-in-the-world-by-capacity/
+Rank*
+6
+8
+5
+1
+11
+11
+Los Azules
+It’s Amongst the World's Largest
+Chile & Peru Produce 40% of World’s Annual Copper Production
+MINE
+DEVELOPMENT
+LegendMUX
+Project Country Majority Owner Development Status Geology
+1 Pebble United States Northern Dynasty Minerals Preliminary Economic Assessment Porphyry, Supergene Copper
+2 Resolution United States Rio Tinto Feasibility Porphyry
+3 La Granja Peru Rio Tinto Advanced Exploration Porphyry
+4 Kerr-Sulphurets-Mitchell (KSM) Canada Seabridge Gold Prefeasibility Porphyry, Skarn
+5 Nueva Union Chile Teck Resource/Newmont Prefeasibility Porphyry
+6 Tampakan Philippines Sagittarius Feasibility Porphyry
+7 El Pachon Argentina Glencore Advanced Exploration Porphyry
+8 Lessard Canada Landore Resources Advanced Exploration Volcanic Hosted Massive Sulfide
+9 Los Azules Argentina McEwen Copper Preliminary Economic Assessment Porphyry, Supergene Copper
+10 Twin Metals Minnesota United States Antofagasta Prefeasibility Magmatic Sulfide
+Los Azules
+It’s BIG!
+World’s 9th Largest Undeveloped Copper Project
+Source: Mining Intelligence 2022 Notes: 1. Pebble and KSM are also ranked top 10 for gold
+2. Lessard has only inferred resources, as no work has been done on the project since 2008MUX
+Los Azules Org Chart – Executive Team
+Strong Local Management Experience
+• 180 years of combined experience
+in mining projects and Operations.
+• Strong team with experience in
+San Juan Argentina at tier one
+operationsMUX
+Los Azules
+Robust Economics
+Highlights of the 2017 PEA1
+(Hatch Engineering)
+Avg. Annual Production
+1
+st 13 Years
+415 Million lbs Cu
+at $1.14/lb cash cost
+Mine Life 36 years
+Initial Capex $2.4 Billion
+Base Case Cu Price $3.00/lb
+Payback 3.6 years
+After-Tax IRR 20.1%
+After-Tax NPV 8% $2.2 Billion
+The 2023 PEA will be published in Q2 and foresees initial long life copper cathode production
+1. NI 43-101 Technical Report-Preliminary Economic Assessment Update for the Los Azules Project, Argentina. September 1, 2017. MUX
+Tenke Phase 3
+Cumulative Production
+(Paid kt Cu)
+Pebble
+El Abra Mill
+Al Arco
+Galore Creek
+L
+o
+s
+Az
+ule
+s
+Los Chancas
+Salobo 3
+San Nicolas
+Canaria Norte
+Harper Creek
+Kamoa-Kakula
+Resolution
+Kansanshi Sulphide
+Ann Mason
+Los Helados
+Ajax
+Cuajone
+Kerr-Sulphurets-Mitchell
+Rosemont
+Nueva Union
+Galeno
+Radomiro Tomic
+Collahuasi GL4
+Koksay
+Los Calatos
+Michiquillay
+Haquira
+Quebrada Blanca II
+Schaft Creek
+La Granja
+Mina Justa
+Udokan
+Inca de Oro
+Agua Rica
+Cotabambas
+Los Pelambres 205
+Frieda RIver
+Cristalino
+Andina Phase 2
+Tampakan
+Centinala D
+M
+C
+Zafranal
+Wafi Golpu
+Taca
+Golpe
+Cerro Casale
+Aynak
+King King
+R
+e
+q
+uire
+d
+C
+o
+p
+p
+er Pric
+e (U
+S
+$/t C
+u)
+Spot Copper Price
+Price Required at Risked-IRR (12%)*
+Q1 Q2 Q3 Q4
+New
+Prosperity
+14,000
+13,000
+12,000
+11,000
+10,000
+9,000
+8,000
+7,000
+6,000
+5,000
+4,000
+3,000
+2,000
+1
+2
+3 4
+5
+6
+7
+9
+# 2022 Mining Intelligence ranking of size of resource
+Source: Oct 4, 2018 Copper Top Projects Report by Goldman Sachs Global Investment Research.
+*According to Apr 13, 2021 Goldman Sachs Report. Based on Los Azules 2017 PEA
+Los Azules
+Low Cost!
+Lowest Cost Quartile
+El Pachon
+JosemariaMUX
+Los Azules
+It’s Valuable
+Between 2 Value Reference Points, US$485 M and $2.28 B
+McEwen Copper's implied market cap US$550 M, based on financing announced Feb 27, 2023
+In Same San Juan
+Province, Argentina
+Comparison of Los Azules With Filo Mining's Josemaria & Filo del Sol
+Copper Resources & Grades1
+Distance From
+Power Grid, Roads
+Altitude
+ASL
+$ Cost Quartile* Development Stage
+M&I Inferred
+Josemaria 7.4 B lbs Cu 0.29% 2.9 B lbs Cu 0.13%
+Los Azules 10.2 B lbs Cu 0.48% 19.3 B lbs Cu 0.33%
+Filo del Sol 3.1 B lbs Cu 0.33% 1.0 B lbs Cu 0.27%
+US$ Value4
+1. Source: company website. Los Azules cut-off grade 0.20% Cu. Filo del Sol cut-off grade 0.15% CuEq. Josemaria cut-off grade 0.1% CuEq.
+2. Source: Filo del Sol PFS Technical Report 22 Feb 2019. 3. Source: Josemaria FS Technical Report Nov 2020 4. Market cap as of April 11, 2023.
+$
+Josemaria 4,000 - 4,900 m3
+Los Azules 3,100 - 3,600 m
+Filo del Sol 4,900 - 5,400 m2
+Josemaria - 2443 km
+Los Azules - 70 km
+Filo del Sol - 772 km (Chile)
+Josemaria - FS
+Los Azules - PEA
+Filo del Sol - PFS
+Josemaria - Highest
+Los Azules - Lowest
+*Goldman Sachs
+Josemaria - $485 M
+Los Azules - $550 M
+Filo del Sol - $2.28 BMUX
+Los Azules – Drilling
+Drilling Objectives
+1. Resource upgrade
+2. Metallurgy, geotech and hydrology
+3. Testing for extensions of the mineral
+resources
+Oct 2022 – May 2023 Drill Campaign
+• 97 holes completed to date
+• 27,000 meters
+• Infill drilling to upgrade the resource categories
+from inferred to indicated to measured
+• See appendix for infill drill results and figures
+Resources Tonnes Copper
+lbs
+Gold
+oz
+Silver
+oz
+Indicated 962 Million 10.2 Billion
+0.48%
+1.7 Million
+0.06 g/t
+55.7 Million
+1.8 g/t
+Inferred 2,666 Million 19.3 Billion
+0.33%
+3.8 Million
+0.04 g/t
+135.4 Million
+1.6 g/t
+0 1000mMUX
+Los Azules - Initial Visual Results From Payback Pit
+1. NI 43-101 Technical Report-Preliminary Economic Assessment Update for the Los Azules Project, Argentina. September 1, 2017. MUX
+30-year PEA Pit (2017)
+3000 m
+Elev
+2500 m
+Elev
+3500 m
+Elev
+4000 m
+Elev
+Longitudinal Section 1,000 meters
+Looking East
+AZ22174 (1,128 m)
+0.42% Cu over
+480 m
+including 1.46% Cu
+over 26 m
+Los Azules
+Recent Exploration Results – March 6, 2023
+Exploration: 1,052 meters grading 0.29% Cu including 480 meters grading 0.42% Cu (AZ22174),
+coincident with a prominent deep geophysical anomaly and showing the potential to meaningfully expand Los Azules
+0.29% Cu
+1,052 mElder Creek Project, Nevada
+Classic Porphyry Copper – Gold Signature
+Recently Optioned to Rio Tinto’s Subsidiary
+Kennecott Exploration Company for US$18 M to earn 60% interest
+MUX
+Tonkin
+MUX
+Gold Bar
+Cortez
+Marigold
+Ruby Hill
+Cortez Pipeline
+Gold Rush
+Discovery
+0 10 20
+Miles
+N
+Nevada Gold's largest Gold Mine
+Lone Tree
+Phoenix
+McEwen Copper
+Elder Creek
+Airborne magnetics @ Elder Creek
+illustrate a classic porphyry system
+magnetic “donut” pattern
+2018 Drill Highlights
+0.21% Cu over 152.4 m including
+0.44% Cu over 33.5 m
+0.15% Cu over 200.3 m including
+1.20% Cu over 14.2 m
+Recent Drill Intersections
+1.2% Cu over 14.2 m
+0.25% Cu over 93.0 m
+0.44% Cu over 33.5 m
+Geochemical zoning & drilling suggest Cu
+porphyry system with MoMUX
+VISION for Los Azules
+To build a mine for the future based on regenerative principles
+and innovative technologies, that can achieve net-zero carbon
+emissions by 2038. We are committed to delivering green copper to
+Argentina and the world, a product that will contribute to the
+electrification of transportation and the protection of our atmosphere.
+Will be used to advance our Los Azules Copper Project in San
+Juan, Argentina and to strengthen McEwen Mining’s balance sheet.
+Recent InvestmentsMUX
+The Los Azules Copper mine promises to be the
+1
+st major copper mine in the world to be developed
+around key regenerative principles.
+The Mine Camp VisionMUX
+MUX Properties
+Asset Rich in Prime Real Estate
+3 Mines
+Fox Complex (100%)
+Gold Bar (100%)
+San José (49%)
+1 Development Project
+El Gallo / Fenix (100%)
+Los Azules
+Argentina
+Fox Complex
+Timmins, Canada (100%)
+Gold Bar
+Nevada (100%)
+El Gallo – Fenix Project
+Mexico (100%)
+San José
+Argentina (49%)
+Elder Creek
+Nevada
+Au + Ag
+Cu
+McEwen Copper (51.9%)
+Elder Creek
+Los Azules
+2023 Guidance
+150,000-170,000 GEOs
+Aug 2022
+US $82 Million @ $10/shr
+Feb - Mar 2023
+ARS $30 Billion &
+US $30 Million
+@ Approx. $19/shr
+FinancingsMUX
+MUX Production
+1. Gold Equivalent Ounces are calculated based on 85:1 gold to silver price ratio. 2. Percentual change of 2023 relative to 2022.
+2021A 2022A 2023 Guidance 2023 % Change2
+Gold Bar Mine, Nevada
+GEOs1 43,900 26,620 42,000 – 48,000 +58% to +80%
+Cash Costs / GEO $1,687 $1,622 $1,400 -14%
+AISC / GEO $1,753 $1,989 $1,680 -16%
+Fox Complex, Canada
+GEOs 30,000 36,650 42,000 – 48,000 +15% to +31%
+Cash Costs / GEO $1,108 $1,020 $1,000 -1%
+AISC / GEO $1,461 $1,465 $1,320 -10%
+San José Mine, Argentina (49%)
+GEOs 76,100 69,130 66,000 – 74,000 -5% to +7%
+Cash Costs / GEO $1,262 $1,306 $1,250 -5%
+AISC / GEO $1,603 $1,714 $1,550 -10%
+Consolidated Production 154,400 133,300 150,000-170,000 +13% to +28%MUX
+Gold Bar – Premier Address
+1. Includes past production and current resources
+Gold Bar
+Nevada, USA
+On Trend - Similar Geology
+Criteria Cortez
+& Gold Bar
+Large footprint,
+shallow oxide gold
+Host rock, alteration,
+mineralization style
+Major faults,
+structural traps
+Intrusions
+MUX Property
+NGM Property
+Faults
+Mine or Deposit
+Legend
+20 km
+12 miles
+N
+Cortez
+Nevada Gold Mines
+Cortez
+50 M oz Au cluster1
+Four Mile
+Discovery
+Goldrush
+Gold Bar
+Tonkin
+Atlas
+Indicated Resource
+1.45M oz @ 1.41 g/t
+Indicated Resource
+452,000 oz Au @ 0.91 g/t
+Historic & Recent Production
+575,000 oz AuMUX
+Gold Bar - FloodMUX
+Fox
+Stock Mine/Mill
+(0.1M oz)
+6 miles
+Fox West 10 km N
+(2.2M oz)
+Fault Zone
+Mine or Deposit
+Temiskaming Sediments
+Historic Production
+Fox Complex
+Ontario, Canada
+Fox East
+Froome
+Grey Fox
+Black Fox
+(1.0 M oz)
+Timmins
+Fox Complex, Timmins - Another Great Address
+• 70 million oz historic production in the Timmins Camp
+• >30 km of Primary & Secondary Structural Controls
+• 3.3 M oz historic production including 1.0 M oz Fox East
+• Gold Resources: 1.90 M oz M+I @ 4.22 g/t, 0.49 M oz Inferred @ 3.86 g/t
+• $15 M Exploration Budget for 2023
+Matheson
+(1.0 M oz)
+M&I: 246,000 oz Au
+Inferred: 109,000 oz Au
+M&I: 1,431,000 oz Au
+Inferred: 285,000 oz Au
+M&I: 219,000 oz Au
+Inferred: 91,000 oz AuMUX
+Growth Potential @ Fox
+Longer Mine Life, Higher Production, Lower Costs/ oz
+PEA Financial & Operating Metrics Post Froome Production (After-Tax):
+Life of Mine (LoM) 9.3 years
+LoM Gold Production 751,700 oz
+Avg Annual Gold Production Over LoM 80,800 oz
+Avg Cash Costs per oz Over LoM $769
+Avg AISC per oz Over LoM $1,246
+Gold Price Sensitivity:
+Downside Case
+$1,500/oz Au
+Base Case
+$1,650/oz Au
+Upside Case
+$1,800/oz Au
+Net Present Value (5% discount) (NPV5%) $81 million $137 million $192 million
+Internal Rate of Return (IRR%) 15% 21% 26%
+Payback Period (Years) 6.5 5.9 5.4MUX
+San José
+Mine
+N
+2022 Production5
+278,000 oz Au
+20 km
+Newmont
+Cerro Negro Mine
+12 miles
+San José
+Argentina
+San José Mine
+ Narrow Vein Underground Silver / Gold Mine
+ Large Property Package
+ Good Grade Mine
+ Surrounds Newmont’s Cerro Negro
+Reserve Grade1
+342 gpt Silver
+5.7 gpt Gold
+Mine Life2 6 Years
+2022E Production3,4 2.6 - 2.7 Moz Silver &
+38 - 40 Koz Gold
+2023E Production3,4 2.3 - 2.6 Moz Silver &
+39 - 43 Koz Gold
+Property
+outline
+MUX 49% Ownership/ Non-operator
+1., 2. Hochschild “Annual Report and Accounts 2021”. 3. Based on 49% MUX ownership basis. 4. MUX Dec 21, 2022 press release. 5. Newmont 2022 Annual Report.MUX
+El Gallo – Fenix Gold & Silver Project
+• Acquired used mill and
+equipment from Argonaut
+for $2.8 million
+• Robust heap leach material
+re-processing project
+• Mill creates optionality to
+exploit regional Au / Ag
+deposits
+• Preparing development
+scheduleMUX
+There Are 2 Ways to Get Exposure to:
+Buy MUX Today
+& Get 150 to 170 K GEOs/ Yr as a Bonus
+or
+Wait for McEwen Copper IPO
+LOS AZULES, one of the world’s
+largest undeveloped copper projects
+1.
+2.MUX
+AppendixMUX
+Section 39 - AZ22184A:
+• 500 m of 0.66% Cu incl
+276 m of 0.92% Cu and
+224 m of 0.34%
+Los Azules
+Exploration Highlights Feb – Mar 2023:
+Recent Drill Results Confirming Continuity of Mineralization
+Section 46 - AZ22186:
+282 m of 1.00% Cu incl
+172 m of 1.40% Cu
+Section 38 - AZ22183:
+• 152 m of 0.87% Cu
+AZ1168:
+• 333 m of 0.72% Cu
+AZ1063:
+• 313 m of 0.74% Cu
+Section 40 - AZ22181:
+• 502 m of 0.50% Cu incl
+172 m of 0.87% Cu
+AZ22188:
+• 128 m of 0.78% CuMUX
+Section 39 - AZ22184A:
+• 500 m of 0.66% Cu incl 276
+m of 0.92% Cu and 224 m
+of 0.34%
+Los Azules
+Exploration Highlights Feb – Mar 2023:
+Recent Drill Results Confirming Continuity of Mineralization
+Section 46 - AZ22186:
+282 m of 1.00% Cu incl
+172 m of 1.40% Cu
+Section 38 - AZ22183:
+• 152 m of 0.87% Cu
+AZ1168:
+• 333 m of 0.72% Cu
+AZ1063:
+• 313 m of 0.74% Cu
+Section 40 - AZ22181:
+• 502 m of 0.50% Cu incl
+172 m of 0.87% Cu
+AZ22188:
+• 128 m of 0.78% CuMUX
+Section 39 - AZ22184A:
+• 500 m of 0.66% Cu incl
+276 m of 0.92% Cu and
+224 m of 0.34%
+Los Azules
+Exploration Highlights Feb – Mar 2023:
+Recent Drill Results Confirming Continuity of Mineralization
+Section 46 - AZ22186:
+282 m of 1.00% Cu incl
+172 m of 1.40% Cu
+Section 40 - AZ22181:
+• 502 m of 0.50% Cu incl
+172 m of 0.87% Cu
+AZ22188:
+• 128 m of 0.78% Cu
+Section 38 - AZ22183:
+• 152 m of 0.87% Cu
+AZ1168:
+• 333 m of 0.72% Cu
+AZ1063:
+• 313 m of 0.74% CuMUX
+Section 39 - AZ22184A:
+• 500 m of 0.66% Cu incl
+276 m of 0.92% Cu and
+224 m of 0.34%
+Los Azules
+Exploration Highlights Feb – Mar 2023:
+Recent Drill Results Confirming Continuity of Mineralization
+Section 46 - AZ22186:
+282 m of 1.00% Cu incl
+172 m of 1.40% Cu
+Section 38 - AZ22183:
+• 152 m of 0.87% Cu
+AZ1168:
+• 333 m of 0.72% Cu
+AZ1063:
+• 313 m of 0.74% Cu
+Section 40 - AZ22181:
+• 502 m of 0.50% Cu incl
+172 m of 0.87% Cu
+AZ22188:
+• 128 m of 0.78% CuMUX
+Los Azules
+Recent Infill Drill Results – March 6, 2023
+153.0m of 1.61% Cu including 42m of 2.78% Cu and 120.8m of 0.88% Cu (AZ23191)*
+* - Highlighted intervals are updated from the March 6 2023 Press Release to include previously pending minor assays at the bottom of hole AZ23191.
+Section 37 shown with mineral zones and 30-year PEA pit (looking north).

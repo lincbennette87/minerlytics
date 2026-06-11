@@ -1,0 +1,113 @@
+{
+  "ticker": "LAAC",
+  "cik": "0001440972",
+  "form": "6-K",
+  "filingDate": "2019-06-27",
+  "accessionNumber": "0001176256-19-000211",
+  "primaryDocument": "lithiumamericas6knrvr.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1440972/000117625619000211/0001176256-19-000211-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "NEWS RELEASE",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1440972/000117625619000211/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-06-11T17:02:32.886Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1440972/000117625619000211/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Exhibit 99.1",
+    "headings": [
+      "Exhibit 99.1",
+      "Lithium Americas Announces Results of 2019 Annual General Meeting",
+      "Vancouver, Canada: Lithium Americas Corp. (TSX: LAC) (NYSE: LAC) (“Lithium Americas” or the “Company”)",
+      "Director",
+      "Votes For",
+      "Votes Withheld",
+      "Percent For",
+      "Percent Withheld",
+      "About Lithium Americas",
+      "Lithium Americas Corp."
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nNEWS RELEASE\n\n Exhibit 99.1\n\nExhibit 99.1\n\n \n\nJune 27, 2019\n\nLithium Americas Announces Results of 2019 Annual General Meeting\n\nVancouver, Canada: Lithium Americas Corp. (TSX: LAC) (NYSE: LAC) (“Lithium Americas” or the “Company”) is pleased to announce the results of its annual general meeting of shareholders (the “AGM”) that was held on June 26, 2019.\n\nAll of the following business items were approved at the AGM by the requisite majority of shareholder votes cast at the meeting:\n\nsetting the size of the Board of Directors at nine;\n\nelecting each management-nominated director;\n\nre-appointing PricewaterhouseCoopers LLP as Lithium Americas’ auditor;\n\napproval of the unallocated entitlements under the Company’s equity incentive plan, as more particularly described in the information circular for the AGM;\n\napproval of the issuance of certain equity incentive grants, as more particularly described in the information circular for the AGM; and\n\napproval, in accordance with Multilateral Instrument 61-101 – Protection of Minority Security Holders in Special Transactions, of the “Project Investment” as such term is defined in, and as more particularly described in, the information circular for the AGM.\n\nThe nine directors of Lithium Americas elected at the AGM are: Gary M. Cohn, Jonathan Evans, Fabiana Chubbs, George Ireland, John Kanellitsas, Chaiwat Kovavisarach, Franco Mignacco, Gabriel Rubacha and Wang Xiaoshen. Votes for the directors were cast as follows:\n\n \n\n \n\n \n\n \n\n \n\n Director\n\n Votes For\n\n Votes Withheld\n\n Percent For\n\n Percent Withheld\n\n Gary M. Cohn\n\n 48,068,209\n\n 248,239\n\n 99.49%\n\n 0.51%\n\n Jonathan Evans\n\n 47,329,097\n\n 987,351\n\n 97.96%\n\n 2.04%\n\n Fabiana Chubbs\n\n 48,146,874\n\n 169,574\n\n 99.65%\n\n 0.35%\n\n George Ireland\n\n 47,935,371\n\n 381,077\n\n 99.21%\n\n 0.79%\n\n John Kanellitsas\n\n 47,303,883\n\n 1,012,565\n\n 97.90%\n\n 2.10%\n\n Chaiwat Kovavisarach\n\n 46,002,081\n\n 2,314,367\n\n 95.21%\n\n 4.79%\n\n Franco Mignacco\n\n 46,247,311\n\n 2,069,137\n\n 95.72%\n\n 4.28%\n\n Gabriel Rubacha\n\n 47,321,241\n\n 995,206\n\n 97.94%\n\n 2.06%\n\n Wang Xiaoshen\n\n 46,179,154\n\n 2,137,294\n\n 95.72%\n\n 4.42%\n\nFollowing the AGM, Jonathan Evans, the Company’s CEO, gave a presentation. A copy of that presentation, as well as an audio recording of Mr. Jonathan Evans, can be found on the Company’s website at www.lithiumamericas.com.\n\nIn addition, Lithium Americas’ Board of Directors appointed Fabiana Chubbs to the Company’s Audit Committee.\n\nAbout Lithium Americas\n\nLithium Americas owns a 62.5% interest in Caucharí-Olaroz along with its partner, Ganfeng Lithium. As a result of the Project Investment, Ganfeng Lithium will increase its interest in Caucharí-Olaroz from 37.5% to 50%, with Lithium Americas holding the remaining 50% interest. In addition, Lithium Americas owns 100% of the Thacker Pass lithium project located in Nevada, the largest known lithium deposit in the United States. The Company trades on both the Toronto Stock Exchange and on the New York Stock Exchange, under the ticker symbol “LAC”.\n\nFor further information contact:Lithium Americas Corp.Investor RelationsSuite 300 – 900 West Hastings Street Vancouver, BC, V6C 1E6\n\nTelephone: 778-656-5820 Email: ir@lithiumamericas.com Website: www.lithiumamericas.com",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 10,
+        "rows": [
+          [
+            "Director",
+            "Votes For",
+            "Votes Withheld",
+            "Percent For",
+            "Percent Withheld"
+          ],
+          [
+            "Gary M. Cohn",
+            "48,068,209",
+            "248,239",
+            "99.49%",
+            "0.51%"
+          ],
+          [
+            "Jonathan Evans",
+            "47,329,097",
+            "987,351",
+            "97.96%",
+            "2.04%"
+          ],
+          [
+            "Fabiana Chubbs",
+            "48,146,874",
+            "169,574",
+            "99.65%",
+            "0.35%"
+          ],
+          [
+            "George Ireland",
+            "47,935,371",
+            "381,077",
+            "99.21%",
+            "0.79%"
+          ],
+          [
+            "John Kanellitsas",
+            "47,303,883",
+            "1,012,565",
+            "97.90%",
+            "2.10%"
+          ],
+          [
+            "Chaiwat Kovavisarach",
+            "46,002,081",
+            "2,314,367",
+            "95.21%",
+            "4.79%"
+          ],
+          [
+            "Franco Mignacco",
+            "46,247,311",
+            "2,069,137",
+            "95.72%",
+            "4.28%"
+          ],
+          [
+            "Gabriel Rubacha",
+            "47,321,241",
+            "995,206",
+            "97.94%",
+            "2.06%"
+          ],
+          [
+            "Wang Xiaoshen",
+            "46,179,154",
+            "2,137,294",
+            "95.72%",
+            "4.42%"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>NEWS RELEASE\n<TEXT>\n<HTML>\n<HEAD>\n   <TITLE>Exhibit 99.1</TITLE>\n</HEAD>\n\n<BODY bgcolor=\"#ffffff\" style=\"font-family: 'Times New Roman';font-size: 10pt;\">\n\n<A name=\"page_1\"></A>\n\n<a name=\"_bclPageBorder1\"></a><DIV style=\"PADDING-LEFT: 0%; PADDING-RIGHT: 0%\">\n\n<HR SIZE=3 noShade>\n\n\n\n<P style=\"MARGIN-TOP: 0px; TEXT-ALIGN: right\"><B>Exhibit 99.1</B></P>\n\n<IMG border=0 src=\"exhibit99-1x1x1.jpg\"> <BR>\n\n<P style=\"TEXT-ALIGN: justify\">June 27, 2019</P>\n\n<P style=\"TEXT-ALIGN: center\"><B>Lithium Americas Announces Results of 2019 Annual General Meeting</B></P>\n\n<P style=\"TEXT-ALIGN: justify\"><B>Vancouver, Canada: Lithium Americas Corp. (TSX: LAC) (NYSE: LAC) (&#8220;Lithium Americas&#8221; or the &#8220;Company&#8221;) </B>is pleased to announce the results of its annual general meeting of shareholders (the &#8220;AGM&#8221;) that was held on June 26, 2019.</P>\n\n<P style=\"TEXT-ALIGN: justify\">All of the following business items were approved at the AGM by the requisite majority of shareholder votes cast at the meeting:</P>\n\n<UL>\n\n<LI>\n\n<P align=justify>setting the size of the Board of Directors at nine;</P>\n\n<LI>\n\n<P align=justify>electing each management-nominated director;</P>\n\n<LI>\n\n<P align=justify>re-appointing PricewaterhouseCoopers LLP as Lithium Americas&#8217; auditor;</P>\n\n<LI>\n\n<P align=justify>approval of the unallocated entitlements under the Company&#8217;s equity incentive plan, as more particularly described in the information circular for the AGM;</P>\n\n<LI>\n\n<P align=justify>approval of the issuance of certain equity incentive grants, as more particularly described in the information circular for the AGM; and</P>\n\n<LI>\n\n<P align=justify>approval, in accordance with Multilateral Instrument 61-101 &#8211; <I>Protection of Minority Security Holders in</I> <I>Special Transactions</I>, of the &#8220;Project Investment&#8221; as such term is defined in, and as more particularly described in, the information circular for the AGM.</P></LI></UL>\n\n<P style=\"TEXT-ALIGN: justify\">The nine directors of Lithium Americas elected at the AGM are: Gary M. Cohn, Jonathan Evans, Fabiana Chubbs, George Ireland, John Kanellitsas, Chaiwat Kovavisarach, Franco Mignacco, Gabriel Rubacha and Wang Xiaoshen. Votes for the directors were cast as follows:</P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD style=\"WIDTH: 20%\"></TD>\n\n   <TD style=\"WIDTH: 20%\"></TD>\n\n   <TD style=\"WIDTH: 20%\"></TD>\n\n   <TD style=\"WIDTH: 20%\"></TD>\n\n   <TD style=\"WIDTH: 20%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-TOP: #000000 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"20%\" noWrap align=center><B>Director</B></TD>\n\n   <TD style=\"BORDER-TOP: #000000 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center><B>Votes For</B></TD>\n\n   <TD style=\"BORDER-TOP: #000000 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center><B>Votes Withheld</B></TD>\n\n   <TD style=\"BORDER-TOP: #000000 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center><B>Percent For</B></TD>\n\n   <TD style=\"BORDER-TOP: #000000 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center><B>Percent Withheld</B></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=left>Gary M. Cohn</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>48,068,209</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>248,239</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>99.49%</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>0.51%</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"20%\" noWrap align=left>Jonathan Evans</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center>47,329,097</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center>987,351</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center>97.96%</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center>2.04%</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=left>Fabiana Chubbs</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>48,146,874</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>169,574</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>99.65%</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>0.35%</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"20%\" noWrap align=left>George Ireland</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center>47,935,371</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center>381,077</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center>99.21%</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center>0.79%</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=left>John Kanellitsas</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>47,303,883</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>1,012,565</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>97.90%</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>2.10%</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"20%\" noWrap align=left>Chaiwat Kovavisarach</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center>46,002,081</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center>2,314,367</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center>95.21%</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center>4.79%</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=left>Franco Mignacco</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>46,247,311</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>2,069,137</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>95.72%</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>4.28%</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"20%\" noWrap align=left>Gabriel Rubacha</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center>47,321,241</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center>995,206</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center>97.94%</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid\" width=\"20%\" noWrap align=center>2.06%</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=left>Wang Xiaoshen</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>46,179,154</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>2,137,294</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>95.72%</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e6efff\" width=\"20%\" noWrap align=center>4.42%</TD></TR></TABLE></DIV>\n\n<P style=\"TEXT-ALIGN: justify\">Following the AGM, Jonathan Evans, the Company&#8217;s CEO, gave a presentation. A copy of that presentation, as well as an audio recording of Mr. Jonathan Evans, can be found on the Company&#8217;s website at www.lithiumamericas.com.</P>\n\n<P style=\"TEXT-ALIGN: justify\">In addition, Lithium Americas&#8217; Board of Directors appointed Fabiana Chubbs to the Company&#8217;s Audit Committee.</P>\n\n<P style=\"TEXT-ALIGN: justify\"><B><U>About Lithium Americas</U></B></P>\n\n<P style=\"TEXT-ALIGN: justify\">Lithium Americas owns a 62.5% interest in Cauchar&#237;-Olaroz along with its partner, Ganfeng Lithium. As a result of the Project Investment, Ganfeng Lithium will increase its interest in Cauchar&#237;-Olaroz from 37.5% to 50%, with Lithium Americas holding the remaining 50% interest. In addition, Lithium Americas owns 100% of the Thacker Pass lithium project located in Nevada, the largest known lithium deposit in the United States. The Company trades on both the Toronto Stock Exchange and on the New York Stock Exchange, under the ticker symbol &#8220;LAC&#8221;.</P>\n\n<P style=\"TEXT-ALIGN: justify\">For further information contact:<BR><B>Lithium Americas Corp.</B><BR>Investor Relations<BR>Suite 300 &#8211; 900 West Hastings Street <BR>Vancouver, BC, V6C 1E6</P></DIV><BR>\n\n<HR style=\"PAGE-BREAK-AFTER: always\" align=center SIZE=1 width=\"100%\" noShade>\n\n<BR>\n\n<A name=\"page_2\"></A><BR>\n\n<a name=\"_bclPageBorder2\"></a><DIV style=\"PADDING-LEFT: 0%; PADDING-RIGHT: 0%\">\n\n<P style=\"TEXT-ALIGN: justify\">Telephone: 778-656-5820 <BR>Email: ir@lithiumamericas.com <BR>Website: www.lithiumamericas.com</P></DIV><BR>\n\n<HR SIZE=3 width=\"100%\" noShade>\n\n\n\n</BODY>\n\n</HTML>\n\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

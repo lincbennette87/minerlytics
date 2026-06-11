@@ -1,0 +1,27 @@
+{
+  "ticker": "EGO",
+  "cik": "0000918608",
+  "form": "6-K",
+  "filingDate": "2020-06-04",
+  "accessionNumber": "0001654954-20-006298",
+  "primaryDocument": "ego_6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/918608/000165495420006298/0001654954-20-006298-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "2019 ESTMA REPORT",
+    "filename": "ego_ex991.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/918608/000165495420006298/ego_ex991.htm"
+  },
+  "extractedAt": "2026-06-11T16:54:06.591Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/918608/000165495420006298/ego_ex991.htm",
+    "contentType": "html",
+    "title": "ego_ex991",
+    "headings": [
+      "ego_ex991"
+    ],
+    "text": "EX-99.1\n2\nego_ex991.htm\n2019 ESTMA REPORT\n\nego_ex991\n\n Exhibit 99.1",
+    "tables": [],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>ego_ex991.htm\n<DESCRIPTION>2019 ESTMA REPORT\n<TEXT>\n<html>\n<head>\n<!-- Document created using Blueprint(R) - powered by Issuer Direct - www.issuerdirect.com -->\n<!-- Copyright 2020 Issuer Direct Corporation -->\n<title>ego_ex991</title>\n</head>\n<body style=\"font-family: Times New Roman; font-size: 13px;\">\n<div id=\"pgbrk\" style=\"width: 100%; margin-left: 0px; text-indent: 0px; margin-right: 0px\">\n<div id=\"hdr\">\n<div style=\"text-align: right; width: 100%; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 11px\"><font style=\"font-weight: bold\">&#xA0;Exhibit 99.1</font><br></font></div>\n</div>\n</div>\n<div style=\"text-align: center; margin-left: auto; margin-right: auto; text-indent: 0px\">\n<font style=\"font-weight: bold; font-family: Times New Roman; font-size: 16px\"><img src=\"ego_ex991000.jpg\"></font></div>\n<div id=\"pgbrk\" style=\"width: 100%; margin-left: 0px; text-indent: 0px; margin-right: 0px\">\n<div id=\"ftr\">\n<div style=\"text-align: left; width: 100%; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 11px\">&#xA0;</font></div>\n</div>\n<div id=\"pb\" style=\"text-align: center; display: inline-block; page-break-after: always; width: 100%; height: 1px; background-color: #000000\">\n<!--page break--></div>\n<div id=\"hdr\">\n<div style=\"text-align: left; width: 100%; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 11px\">&#xA0;</font></div>\n</div>\n</div>\n<div style=\"text-align: center; margin-left: auto; margin-right: auto; text-indent: 0px\">\n<font style=\"font-weight: bold; font-family: Times New Roman; font-size: 16px\"><img src=\"ego_ex991001.jpg\"></font></div>\n<div id=\"pgbrk\" style=\"width: 100%; margin-left: 0px; text-indent: 0px; margin-right: 0px\">\n<div id=\"ftr\">\n<div style=\"text-align: left; width: 100%; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 11px\">&#xA0;</font></div>\n</div>\n<div id=\"pb\" style=\"text-align: center; display: inline-block; page-break-after: always; width: 100%; height: 1px; background-color: #000000\">\n<!--page break--></div>\n<div id=\"hdr\">\n<div style=\"text-align: left; width: 100%; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 11px\">&#xA0;</font></div>\n</div>\n</div>\n<div style=\"text-align: center; margin-left: auto; margin-right: auto; text-indent: 0px\">\n<font style=\"font-weight: bold; font-family: Times New Roman; font-size: 16px\"><img src=\"ego_ex991002.jpg\"></font></div>\n<div id=\"pgbrk\" style=\"width: 100%; margin-left: 0px; text-indent: 0px; margin-right: 0px\">\n<div id=\"ftr\">\n<div style=\"text-align: left; width: 100%; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 11px\">&#xA0;</font></div>\n</div>\n<div id=\"pb\" style=\"text-align: center; display: inline-block; page-break-after: always; width: 100%; height: 1px; background-color: #000000\">\n<!--page break--></div>\n<div id=\"hdr\">\n<div style=\"text-align: left; width: 100%; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 11px\">&#xA0;</font></div>\n</div>\n</div>\n<div style=\"text-align: center; margin-left: auto; margin-right: auto; text-indent: 0px\">\n<font style=\"font-weight: bold; font-family: Times New Roman; font-size: 16px\"><img src=\"ego_ex991003.jpg\"></font></div>\n</body>\n</html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

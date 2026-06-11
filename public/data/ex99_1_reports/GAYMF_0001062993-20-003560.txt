@@ -1,0 +1,5380 @@
+EX-99.1
+2
+exhibit99-1.htm
+EXHIBIT 99.1
+
+ Galiano Gold Inc.: Exhibit 99.1 - Filed by newsfilecorp.com
+
+ 
+ 
+ GALIANO GOLD INC.
+ (formerly Asanko Gold Inc. 1)
+ CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+ UNAUDITED
+ For the three and six months ended June 30, 2020 and 2019
+ TABLE OF CONTENTS
+ 
+ 
+ Condensed Consolidated Interim Statements of Financial Position
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ Condensed Consolidated Interim Statements of Operations and Comprehensive Income
+ 3
+ 
+ 
+ 
+ 
+ 
+ 
+ Condensed Consolidated Interim Statements of Changes in Equity
+ 4
+ 
+ 
+ 
+ 
+ 
+ 
+ Condensed Consolidated Interim Statements of Cash Flow
+ 5
+ 
+ 
+ 
+ 
+ 
+ 
+ Notes to the Condensed Consolidated Interim Financial Statements
+ 6-27
+ 
+ 
+ _______________________________________1 The Company's name was changed from "Asanko Gold Inc." to "Galiano Gold Inc." effective April 30, 2020.
+ 
+ 1
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)UNAUDITED CONSOLIDATED STATEMENTS OF FINANCIAL POSITIONAS AT JUNE 30, 2020 AND DECEMBER 31, 2019(In thousands of United States Dollars)
+ 
+ 
+ 
+ 
+ 
+ June 30, 2020
+ 
+ 
+ December 31, 2019
+ 
+ 
+ 
+ 
+ Note
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash and cash equivalents
+ 
+ 
+ 64,949
+ 
+ 
+ 31,109
+ 
+ 
+ 
+ Receivables
+ 
+ 
+ 252
+ 
+ 
+ 161
+ 
+ 
+ 
+ Receivable due from related party
+ 4
+ 
+ 2,791
+ 
+ 
+ 4,183
+ 
+ 
+ 
+ Prepaid expenses and deposits
+ 
+ 
+ 250
+ 
+ 
+ 347
+ 
+ 
+ 
+ 
+ 
+ 
+ 68,242
+ 
+ 
+ 35,800
+ 
+ 
+ 
+ Non-current assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Financial assets
+ 5
+ 
+ 75,691
+ 
+ 
+ 108,025
+ 
+ 
+ 
+ Interest in Joint Venture
+ 6
+ 
+ 34,881
+ 
+ 
+ -
+ 
+ 
+ 
+ Right-of-use asset
+ 7
+ 
+ 537
+ 
+ 
+ 589
+ 
+ 
+ 
+ Property, plant and equipment
+ 
+ 
+ 89
+ 
+ 
+ 90
+ 
+ 
+ 
+ 
+ 
+ 
+ 111,198
+ 
+ 
+ 108,704
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Total assets
+ 
+ 
+ 179,440
+ 
+ 
+ 144,504
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Accounts payable and accrued liabilities
+ 
+ 
+ 2,516
+ 
+ 
+ 2,234
+ 
+ 
+ 
+ Lease liability
+ 7
+ 
+ 83
+ 
+ 
+ 83
+ 
+ 
+ 
+ 
+ 
+ 
+ 2,599
+ 
+ 
+ 2,317
+ 
+ 
+ 
+ Non-current liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Long-term incentive plan liability
+ 
+ 
+ 311
+ 
+ 
+ 416
+ 
+ 
+ 
+ Lease liability
+ 7
+ 
+ 474
+ 
+ 
+ 514
+ 
+ 
+ 
+ 
+ 
+ 
+ 785
+ 
+ 
+ 930
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Total liabilities
+ 
+ 
+ 3,384
+ 
+ 
+ 3,247
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Equity
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Share capital
+ 8
+ 
+ 576,628
+ 
+ 
+ 578,385
+ 
+ 
+ 
+ Equity reserves
+ 9
+ 
+ 50,128
+ 
+ 
+ 50,072
+ 
+ 
+ 
+ Accumulated deficit
+ 
+ 
+ (450,700
+ )
+ 
+ (487,200
+ )
+ 
+ 
+ Total equity
+ 
+ 
+ 176,056
+ 
+ 
+ 141,257
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Total liabilities and equity
+ 
+ 
+ 179,440
+ 
+ 
+ 144,504
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Commitments and contingencies
+ 10
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The accompanying notes form an integral part of these condensed consolidated interim financial statements .
+ Approved on behalf of the Board of Directors:
+ 
+ 
+ 
+ "Greg McCunn"
+ 
+ 
+ 
+ “Marcel de Groot”
+ 
+ 
+ 
+ 
+ Director
+ 
+ 
+ 
+ Director
+ 
+ 
+ 
+ 2
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)UNAUDITED CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE INCOMEFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019(In thousands of United States Dollars, except dollar per share amounts)
+ 
+ 
+ 
+ 
+ 
+ Three months ended
+ 
+ 
+ Six months ended
+ 
+ 
+ 
+ 
+ 
+ 
+ June 30, 2020
+ 
+ 
+ June 30, 2019
+ 
+ 
+ June 30, 2020
+ 
+ 
+ June 30, 2019
+ 
+ 
+ 
+ 
+ Note
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Share of net earnings (loss) related to joint venture
+ 6
+ 
+ 14,347
+ 
+ 
+ 6,135
+ 
+ 
+ 34,881
+ 
+ 
+ (217
+ )
+ 
+ 
+ Service fee earned as operators of joint venture
+ 4
+ 
+ 1,221
+ 
+ 
+ 1,126
+ 
+ 
+ 2,443
+ 
+ 
+ 2,252
+ 
+ 
+ 
+ General and administrative expenses
+ 11
+ 
+ (3,558
+ )
+ 
+ (3,456
+ )
+ 
+ (6,232
+ )
+ 
+ (6,261
+ )
+ 
+ 
+ Income (loss) from operations and joint venture
+ 
+ 
+ 12,010
+ 
+ 
+ 3,805
+ 
+ 
+ 31,092
+ 
+ 
+ (4,226
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Finance income
+ 12
+ 
+ 2,678
+ 
+ 
+ 2,287
+ 
+ 
+ 5,491
+ 
+ 
+ 5,036
+ 
+ 
+ 
+ Finance expense
+ 
+ 
+ (12
+ )
+ 
+ (7
+ )
+ 
+ (23
+ )
+ 
+ (7
+ )
+ 
+ 
+ Foreign exchange gain (loss)
+ 
+ 
+ 18
+ 
+ 
+ 22
+ 
+ 
+ (60
+ )
+ 
+ (10
+ )
+ 
+ 
+ Net income and comprehensive income for the period
+ 
+ 
+ 14,694
+ 
+ 
+ 6,107
+ 
+ 
+ 36,500
+ 
+ 
+ 793
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Income per share:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Basic
+ 13
+ 
+ 0.07
+ 
+ 
+ 0.03
+ 
+ 
+ 0.16
+ 
+ 
+ 0.00
+ 
+ 
+ 
+ Diluted
+ 13
+ 
+ 0.07
+ 
+ 
+ 0.03
+ 
+ 
+ 0.16
+ 
+ 
+ 0.00
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Weighted average number of shares outstanding:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Basic
+ 13
+ 
+ 222,612,623
+ 
+ 
+ 225,804,614
+ 
+ 
+ 223,385,994
+ 
+ 
+ 225,804,614
+ 
+ 
+ 
+ Diluted
+ 13
+ 
+ 223,640,863
+ 
+ 
+ 225,804,614
+ 
+ 
+ 224,109,915
+ 
+ 
+ 225,804,614
+ 
+ 
+ 
+ The accompanying notes form an integral part of these condensed consolidated interim financial statements .
+ 
+ 3
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)UNAUDITED CONSOLIDATED STATEMENTS OF CHANGES IN EQUITYFOR THE SIX MONTHS ENDED JUNE 30, 2020 AND 2019(In thousands of United States Dollars, except for number of common shares)
+ 
+ 
+ 
+ Note
+ 
+ Number ofshares
+ 
+ 
+ 
+ Share capital$
+ 
+ 
+ 
+ 
+ Equityreserves$
+ 
+ 
+ 
+ 
+ Accumulateddeficit$
+ 
+ 
+ 
+ 
+ Total equity$
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance as at December 31, 2018
+ 
+ 
+ 225,804,614
+ 
+ 
+ 578,853
+ 
+ 
+ 49,261
+ 
+ 
+ (319,272
+ )
+ 
+ 308,842
+ 
+ 
+ 
+ Share-based payments
+ 9(a)
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 412
+ 
+ 
+ -
+ 
+ 
+ 412
+ 
+ 
+ 
+ Net income and comprehensive income for the period
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 793
+ 
+ 
+ 793
+ 
+ 
+ 
+ Balance as at June 30, 2019
+ 
+ 
+ 225,804,614
+ 
+ 
+ 578,853
+ 
+ 
+ 49,673
+ 
+ 
+ (318,479
+ )
+ 
+ 310,047
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance as at December 31, 2019
+ 
+ 
+ 225,098,810
+ 
+ 
+ 578,385
+ 
+ 
+ 50,072
+ 
+ 
+ (487,200
+ )
+ 
+ 141,257
+ 
+ 
+ 
+ Shares repurchased and cancelled under normal course issuer bid
+ 8(c)
+ 
+ (2,758,063
+ )
+ 
+ (2,296
+ )
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ (2,296
+ )
+ 
+ 
+ Shares issued upon exercise of share-based options
+ 9(a)
+ 
+ 481,957
+ 
+ 
+ 539
+ 
+ 
+ (174
+ )
+ 
+ -
+ 
+ 
+ 365
+ 
+ 
+ 
+ Share-based payments
+ 9(a)
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 230
+ 
+ 
+ -
+ 
+ 
+ 230
+ 
+ 
+ 
+ Net income and comprehensive income for the period
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 36,500
+ 
+ 
+ 36,500
+ 
+ 
+ 
+ Balance as at June 30, 2020
+ 
+ 
+ 222,822,704
+ 
+ 
+ 576,628
+ 
+ 
+ 50,128
+ 
+ 
+ (450,700
+ )
+ 
+ 176,056
+ 
+ 
+ 
+ The accompanying notes form an integral part of these condensed consolidated interim financial statements .
+ 
+ 4
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)UNAUDITED CONSOLIDATED STATEMENTS OF CASH FLOWSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019(In thousands of United States Dollars)
+ 
+ 
+ 
+ 
+ Three months ended
+ 
+ Six months ended
+ 
+ 
+ 
+ 
+ 
+ 
+ June 30, 2020
+ 
+ 
+ June 30, 2019
+ 
+ 
+ June 30, 2020
+ 
+ 
+ June 30, 2019
+ 
+ 
+ 
+ 
+ Note
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Operating activities:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net income for the period
+ 
+ 
+ 14,694
+ 
+ 
+ 6,107
+ 
+ 
+ 36,500
+ 
+ 
+ 793
+ 
+ 
+ 
+ Adjustments for:
+ 
+ 
+ (14,347
+ )
+ 
+ (6,135
+ )
+ 
+ (34,881
+ )
+ 
+ 217
+ 
+ 
+ 
+ Share of net (earnings) loss related to joint venture
+ 6
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Depreciation and depletion
+ 
+ 
+ 41
+ 
+ 
+ 20
+ 
+ 
+ 83
+ 
+ 
+ 34
+ 
+ 
+ 
+ Share-based payments
+ 9(a), 9(b), 11
+ 
+ 734
+ 
+ 
+ 626
+ 
+ 
+ 979
+ 
+ 
+ 893
+ 
+ 
+ 
+ Interest and other income
+ 12
+ 
+ (2,678
+ )
+ 
+ (2,287
+ )
+ 
+ (5,491
+ )
+ 
+ (5,036
+ )
+ 
+ 
+ Finance expense
+ 
+ 
+ 9
+ 
+ 
+ 1
+ 
+ 
+ 18
+ 
+ 
+ 1
+ 
+ 
+ 
+ Unrealized foreign exchange gain
+ 
+ 
+ (147
+ )
+ 
+ (1
+ )
+ 
+ (86
+ )
+ 
+ (11
+ )
+ 
+ 
+ Operating cash flow before working capital changes
+ 
+ 
+ (1,694
+ )
+ 
+ (1,669
+ )
+ 
+ (2,878
+ )
+ 
+ (3,109
+ )
+ 
+ 
+ Change in non-cash working capital
+ 14
+ 
+ 678
+ 
+ 
+ (376
+ )
+ 
+ 1,017
+ 
+ 
+ (511
+ )
+ 
+ 
+ Cash used in operating activities
+ 
+ 
+ (1,016
+ )
+ 
+ (2,045
+ )
+ 
+ (1,861
+ )
+ 
+ (3,620
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Investing activities:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Redemption of preferred shares in joint venture
+ 5
+ 
+ 15,000
+ 
+ 
+ -
+ 
+ 
+ 37,500
+ 
+ 
+ -
+ 
+ 
+ 
+ Expenditures on property, plant and equipment
+ 
+ 
+ (4
+ )
+ 
+ (9
+ )
+ 
+ (30
+ )
+ 
+ (14
+ )
+ 
+ 
+ Interest received
+ 
+ 
+ 202
+ 
+ 
+ 51
+ 
+ 
+ 258
+ 
+ 
+ 94
+ 
+ 
+ 
+ Cash provided by investing activities
+ 
+ 
+ 15,198
+ 
+ 
+ 42
+ 
+ 
+ 37,728
+ 
+ 
+ 80
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Financing activities:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Shares repurchased under normal course issuer bid
+ 8(c)
+ 
+ (280
+ )
+ 
+ -
+ 
+ 
+ (2,296
+ )
+ 
+ -
+ 
+ 
+ 
+ Shares issued upon exercise of share-based options
+ 9(a)
+ 
+ 365
+ 
+ 
+ -
+ 
+ 
+ 365
+ 
+ 
+ -
+ 
+ 
+ 
+ Office lease payments
+ 7
+ 
+ (28
+ )
+ 
+ -
+ 
+ 
+ (58
+ )
+ 
+ -
+ 
+ 
+ 
+ Cash provided by (used in) financing activities
+ 
+ 
+ 57
+ 
+ 
+ -
+ 
+ 
+ (1,989
+ )
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Impact of foreign exchange on cash and cash equivalents
+ 
+ 
+ 113
+ 
+ 
+ 1
+ 
+ 
+ (38
+ )
+ 
+ 3
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Increase (decrease) in cash and cash equivalents during the period
+ 
+ 
+ 14,352
+ 
+ 
+ (2,002
+ )
+ 
+ 33,840
+ 
+ 
+ (3,537
+ )
+ 
+ 
+ Cash and cash equivalents, beginning of period
+ 
+ 
+ 50,597
+ 
+ 
+ 8,823
+ 
+ 
+ 31,109
+ 
+ 
+ 10,358
+ 
+ 
+ 
+ Cash and cash equivalents, end of period
+ 
+ 
+ 64,949
+ 
+ 
+ 6,821
+ 
+ 
+ 64,949
+ 
+ 
+ 6,821
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Supplemental cash flow information
+ 14
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The accompanying notes form an integral part of these condensed consolidated interim financial statements .
+ 
+ 5
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 1. Nature of operations
+ Galiano Gold Inc. ("Galiano" or the "Company") was incorporated on September 23, 1999 under the Business Corporations Act of British Columbia, Canada. The Company changed its name from Asanko Gold Inc. to Galiano Gold Inc. which was approved by the Company's shareholders at its Annual General and Special Meeting on April 30, 2020. The Company's head office and principal address is located at 1640 - 1066 West Hastings Street, Vancouver, British Columbia, V6E 3X1, Canada. The Company's registered and records office is located at Suite 2600, Three Bentall Centre, 595 Burrard Street, Vancouver, V7X 1L3. The Company's common shares trade on the Toronto Stock Exchange and NYSE American Exchange under the ticker symbol "GAU".
+ The Company's principal business activity is the operation of the Asanko Gold Mine ("AGM") through a 50:50 joint venture arrangement (the "JV") associated with the Company's 45% economic interest in the AGM (see Note 6) and exploration and development of mineral property interests. The Government of Ghana has a 10% free-carried interest in the AGM. The AGM consists of two neighboring gold projects, the Obotan Project and the Esaase Project, both located in the Amansie West District of the Republic of Ghana ("Ghana"), West Africa.
+ In addition to its interest in the AGM, the Company's interest in the JV also includes a 50% interest in a portfolio of other Ghanaian gold concessions in various stages of exploration.
+ 2. Basis of presentation 
+ (a) Statement of compliance
+ These condensed consolidated interim financial statements have been prepared in accordance with International Accounting Standard ("IAS") 34 - Interim Financial Reporting, using accounting policies consistent with International Financial Reporting Standards ("IFRS") as issued by the International Accounting Standards Board ("IASB") and Interpretations issued by the International Financial Reporting Interpretations Committee ("IFRIC"). These condensed consolidated interim financial statements do not include all of the necessary annual disclosures in accordance with IFRS and should be read in conjunction with the Company's audited consolidated annual financial statements for the years ended December 31, 2019 and 2018.
+ The accounting policies followed in these condensed consolidated interim financial statements are the same as those applied in the Company's most recent audited consolidated annual financial statements for the years ended December 31, 2019 and 2018.
+ These condensed consolidated interim financial statements were authorized for issue and approved by the Board of Directors on July 28, 2020.
+ (b) Basis of presentation and consolidation
+ The financial statements have been prepared on the historical cost basis, except for financial instruments carried at fair value.
+ All amounts are expressed in thousands of United States dollars, unless otherwise stated, and the United States dollar is the functional currency of the Company and each of its subsidiaries. References to C$ are to Canadian dollars.
+ These condensed consolidated interim financial statements incorporate the financial information of the Company and its subsidiaries as at June 30, 2020. Subsidiaries are entities controlled by the Company. Control exists when the Company has power, directly or indirectly, to govern the financial and operating policies of an entity as to obtain benefits from its activities.
+ 
+ 6
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 2. Basis of presentation (continued)
+ Subsidiaries are included in the consolidated financial results of the Company from the effective date of acquisition up to the effective date of disposition or loss of control.
+ All significant intercompany amounts and transactions between the Company and its subsidiaries have been eliminated on consolidation.
+ The principal subsidiaries and joint arrangements to which the Company is a party, as well as their geographic locations, were as follows as at June 30, 2020:
+ 
+ 
+ 
+ 
+ Subsidiary name
+ 
+ 
+ Location
+ 
+ 
+ Interest
+ 
+ 
+ Classification and accounting method
+ 
+ 
+ 
+ 
+ Galiano Gold South Africa (PTY) Ltd.
+ 
+ 
+ South Africa
+ 
+ 
+ 100%
+ 
+ 
+ Consolidated
+ 
+ 
+ 
+ 
+ Galiano International (Barbados) Inc.
+ 
+ 
+ Barbados
+ 
+ 
+ 100%
+ 
+ 
+ Consolidated
+ 
+ 
+ 
+ 
+ Galiano Gold (Barbados) Inc.
+ 
+ 
+ Barbados
+ 
+ 
+ 100%
+ 
+ 
+ Consolidated
+ 
+ 
+ 
+ 
+ Asanko Gold Ghana Limited
+ 
+ 
+ Ghana
+ 
+ 
+ 45%
+ 
+ 
+ Joint venture; equity method
+ 
+ 
+ 
+ 
+ Adansi Gold Company (GH) Limited
+ 
+ 
+ Ghana
+ 
+ 
+ 50%
+ 
+ 
+ Joint venture; equity method
+ 
+ 
+ 
+ 
+ Shika Group Finance Limited
+ 
+ 
+ Isle of Man
+ 
+ 
+ 50%
+ 
+ 
+ Joint venture; equity method
+ 
+ 
+ 
+ 
+ Certain subsidiaries of the Company changed their official names during the period to align with Galiano's change of name.
+ (c) Accounting standards adopted during the period
+ There were no new standards effective January 1, 2020 that impacted these condensed consolidated interim financial statements or are expected to have a material effect in the future.
+ (d) Accounting standards and amendments issued but not yet adopted
+ There were no accounting standards or amendments to existing standards issued but not yet adopted as of January 1, 2020 that are expected to have a material effect on the Company's financial statements in the future.
+ 3. Significant accounting judgements and estimates
+ The preparation of financial statements in conformity with IFRS requires management to make estimates and assumptions that affect amounts reported in the financial statements and accompanying notes. Management believes the estimates and assumptions used in these condensed consolidated interim financial statements are reasonable; however, actual results could differ from those estimates and could impact future results of operations and cash flows. The Company's significant accounting judgments and estimates were presented in note 5 of the audited annual consolidated financial statements for the years ended December 31, 2019 and 2018.
+ The Company considered the impact of the COVID-19 pandemic on the significant judgments and estimates made in these condensed consolidated interim financial statements and determined that the effects of COVID-19 did not have a material impact on the estimates and judgments applied.
+ 
+ 7
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 4. Receivable due from related party
+ During the three and six months ended June 30, 2020, the Company earned a service fee of $1.2 million and $2.4 million, respectively, as operators of the JV (three and six months ended June 30, 2019 - $1.1 million and $2.3 million, respectively). For the three and six months ended June 30, 2020, the service fee was comprised of a gross service fee of $1.5 million and $3.1 million, respectively, less withholding taxes payable in Ghana of $0.3 million and $0.6 million. For the three and six months ended June 30, 2019, the service fee was comprised of a gross service fee of $1.5 million and $3.0 million, respectively, less withholding taxes payable in Ghana of $0.4 million and $0.7 million. As at June 30, 2020, the Company had a receivable due from the JV in respect of the service fee in the amount of $2.8 million, net of withholding taxes (December 31, 2019 - $4.2 million).
+ All transactions with related parties have occurred in the normal course of operations and were measured at the exchange amount agreed to by the parties. All amounts are unsecured, non-interest bearing and have no specific terms of settlement.
+ 5. Financial assets
+ As part of the JV Transaction (note 6), the Company initially subscribed to 204.9 million non-voting fixed redemption price redeemable preferences shares in JV Finco (the "preference shares"). The preference shares were issued at a par value of $1 per redeemable share.
+ The following table summarizes the change in the carrying amount of the Company's preference shares held in the joint venture:
+ 
+ 
+ 
+ 
+ 
+ June 30, 2020 
+ 
+ 
+ December 31, 2019
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 108,025
+ 
+ 
+ 153,651
+ 
+ 
+ 
+ Fair value adjustment for the period
+ 
+ 5,166
+ 
+ 
+ (35,626
+ )
+ 
+ 
+ Redemption of preferred shares during the period
+ 
+ (37,500
+ )
+ 
+ (10,000
+ )
+ 
+ 
+ Balance, end of period
+ 
+ 75,691
+ 
+ 
+ 108,025
+ 
+ 
+ 
+ 
+ 184.9 million of the preference shares initially subscribed for have no fixed redemption date. As these preference shares have no contractual fixed terms of repayment that arise on specified dates, they are measured at fair value through profit or loss at each reporting period-end.
+ During the three and six months ended June 30, 2020, the JV redeemed $15.0 million and $37.5 million, respectively, of the preference shares, bringing the Company's holding to 137.4 million preference shares in the JV as at June 30, 2020 (December 31, 2019 - 174.9 million preference shares).
+ As at December 31, 2019, the Company re-measured the fair value of the redeemable preference shares to $108.0 million in order to reflect management's latest estimate of the future cash flows of the JV based on the updated Life of Mine plan applying a discount rate of 8.4%.
+ 
+ 8
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 5. Financial assets (continued)
+ As at June 30, 2020, the Company re-measured the fair value of the redeemable preference shares to $75.7 million (applying a discount rate of 8.4%) resulting in the recognition of a positive fair value adjustment of $2.5 million and $5.2 million in finance income for the three and six months ended June 30, 2020, respectively (three and six months ended June 30, 2019 - positive fair value adjustment of $2.1 million and $4.5 million, respectively, recognized in finance income). These preference shares are classified as a Level 3 financial asset in the fair value hierarchy.
+ 6. Investment in Joint Venture
+ On July 31, 2018, the Company completed a transaction (the "JV Transaction") with a subsidiary of Gold Fields Limited ("Gold Fields"), following which:
+ 
+ the Company and Gold Fields each own a 45% economic interest in Asanko Gold Ghana Limited ("AGGL"), which owns the AGM, with the Government of Ghana retaining a 10% free-carried interest in the AGM;
+ the Company and Gold Fields each own a 50% interest in Adansi Gold Company (GH) Limited ("Adansi Ghana"), which owns a number of exploration licenses; and
+ the Company and Gold Fields each acquired a 50% interest in the JV entity, Shika Group Finance Limited ("JV Finco")
+ 
+ Under the terms of the Joint Venture Agreement ("JVA") with Gold Fields, the Company remains the manager and operator of the JV and receives an arm's length fee for services rendered to the JV of $6.1 million per annum (originally $6.0 million, but adjusted annually for inflation).
+ The JVA established joint control of the JV and the Company no longer controls the AGM and associated properties. As the JV is structured within the legal entities of AGGL, Adansi Ghana and JV Finco, the JV represents a joint venture as defined under IFRS 11 - Joint Arrangements, and the Company commenced equity accounting for its interest in the JV effective July 31, 2018.
+ As at June 30, 2020, the Company's 45% interest in the Asanko Gold Mine was accounted for using the equity method. The following table summarizes the change in the carrying amount of the Company's investment in the joint venture:
+ 
+ 
+ 
+ 
+ 
+ June 30, 2020 
+ 
+ 
+ December 31, 2019
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ -
+ 
+ 
+ 126,264
+ 
+ 
+ 
+ Company's share of net earnings (loss) of the JV for the period
+ 
+ 34,881
+ 
+ 
+ (126,264
+ )
+ 
+ 
+ Balance, end of period
+ 
+ 34,881
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ The Company's share of the net earnings of the JV was $14.3 million and $34.9 million for the three and six months ended June 30, 2020, respectively (three and six months ended June 30, 2019 - share of net income of $6.1 million and share of net loss of $0.2 million, respectively).
+ Operating and financial results of the AGM JV for the three and six months ended June 30, 2020 and 2019
+ Summarized financial information for the Company's investment in the JV, on a 100% basis, is outlined in the table below.
+ All disclosures in this note 6 are on a 100% JV basis, unless otherwise indicated. The JV applies the same accounting policies as the Company.
+ 
+ 9
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 6. Investment in Joint Venture (continued)
+ Three and six months ended June 30, 2020 and 2019
+ 
+ 
+ 
+ 
+ 
+ 
+ Three months ended June 30,
+ 
+ 
+ Six months ended June 30,
+ 
+ 
+ 
+ 
+ Notes
+ 
+ 2020
+ 
+ 
+ 2019
+ 
+ 
+ 2020
+ 
+ 
+ 2019
+ 
+ 
+ 
+ Revenues
+ (i)
+ 
+ 101,539
+ 
+ 
+ 85,715
+ 
+ 
+ 206,313
+ 
+ 
+ 152,730
+ 
+ 
+ 
+ Production costs
+ (ii)
+ 
+ (44,856
+ )
+ 
+ (43,968
+ )
+ 
+ (86,060
+ )
+ 
+ (95,931
+ )
+ 
+ 
+ Depreciation and depletion
+ (vi)
+ 
+ (15,732
+ )
+ 
+ (16,668
+ )
+ 
+ (25,683
+ )
+ 
+ (40,175
+ )
+ 
+ 
+ Royalties
+ (ii)
+ 
+ (5,077
+ )
+ 
+ (4,285
+ )
+ 
+ (10,316
+ )
+ 
+ (7,747
+ )
+ 
+ 
+ Income from mine operations
+ 
+ 
+ 35,874
+ 
+ 
+ 20,794
+ 
+ 
+ 84,254
+ 
+ 
+ 8,877
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Exploration and evaluation expenditures
+ 
+ 
+ (2,120
+ )
+ 
+ (896
+ )
+ 
+ (3,805
+ )
+ 
+ (1,435
+ )
+ 
+ 
+ General and administrative expenses
+ 
+ 
+ (1,798
+ )
+ 
+ (1,511
+ )
+ 
+ (3,641
+ )
+ 
+ (2,929
+ )
+ 
+ 
+ Income from operations
+ 
+ 
+ 31,956
+ 
+ 
+ 18,387
+ 
+ 
+ 76,808
+ 
+ 
+ 4,513
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Finance expense
+ (x)
+ 
+ (675
+ )
+ 
+ (3,148
+ )
+ 
+ (1,222
+ )
+ 
+ (3,897
+ )
+ 
+ 
+ Finance income
+ 
+ 
+ 98
+ 
+ 
+ 64
+ 
+ 
+ 159
+ 
+ 
+ 126
+ 
+ 
+ 
+ Foreign exchange gain
+ 
+ 
+ 520
+ 
+ 
+ 155
+ 
+ 
+ 1,801
+ 
+ 
+ 600
+ 
+ 
+ 
+ Net income before taxes
+ 
+ 
+ 31,899
+ 
+ 
+ 15,458
+ 
+ 
+ 77,546
+ 
+ 
+ 1,342
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Income tax expense
+ 
+ 
+ -
+ 
+ 
+ (1,823
+ )
+ 
+ -
+ 
+ 
+ (1,823
+ )
+ 
+ 
+ Net income (loss) after tax for the period
+ 
+ 
+ 31,899
+ 
+ 
+ 13,635
+ 
+ 
+ 77,546
+ 
+ 
+ (481
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Company's share of net income (loss) of the JV for the period
+ 
+ 
+ 14,347
+ 
+ 
+ 6,135
+ 
+ 
+ 34,881
+ 
+ 
+ (217
+ )
+ 
+ 
+ 
+ 
+ 
+ 10
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 6. Investment in Joint Venture (continued)
+ The assets and liabilities of the Asanko Gold Mine JV, on a 100% basis, as at June 30, 2020 and December 31, 2019 were as follows:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ June 30, 2020
+ 
+ 
+ December 31, 2019
+ 
+ 
+ 
+ 
+ Note
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash and cash equivalents
+ 
+ 
+ 
+ 47,831
+ 
+ 
+ 40,758
+ 
+ 
+ 
+ Restricted cash
+ 
+ 
+ 
+ -
+ 
+ 
+ 3,000
+ 
+ 
+ 
+ Receivables
+ 
+ 
+ 
+ 497
+ 
+ 
+ 9,516
+ 
+ 
+ 
+ Inventories
+ (iii)
+ 
+ 
+ 76,749
+ 
+ 
+ 49,968
+ 
+ 
+ 
+ Prepaid expenses and deposits
+ 
+ 
+ 
+ 9,966
+ 
+ 
+ 2,031
+ 
+ 
+ 
+ VAT receivable
+ 
+ 
+ 
+ 10,536
+ 
+ 
+ 10,556
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 145,579
+ 
+ 
+ 115,829
+ 
+ 
+ 
+ Non-current assets
+ (iii), (iv), (v), (vi)
+ 
+ 
+ 251,779
+ 
+ 
+ 238,781
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Total assets
+ 
+ 
+ 
+ 397,358
+ 
+ 
+ 354,610
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Liabilties
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Accounts payable and accrued liabilities
+ 
+ 
+ 
+ 72,014
+ 
+ 
+ 62,153
+ 
+ 
+ 
+ Revolving credit facility
+ (vii)
+ 
+ 
+ 30,000
+ 
+ 
+ -
+ 
+ 
+ 
+ Lease liability
+ (viii)
+ 
+ 
+ 12,057
+ 
+ 
+ 18,142
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 114,071
+ 
+ 
+ 80,295
+ 
+ 
+ 
+ Non-current liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lease liability
+ (viii)
+ 
+ 
+ 568
+ 
+ 
+ 5,063
+ 
+ 
+ 
+ Long-term incentive plan liability
+ 
+ 
+ 
+ 233
+ 
+ 
+ 402
+ 
+ 
+ 
+ Asset retirement provisions
+ (ix)
+ 
+ 
+ 67,236
+ 
+ 
+ 56,148
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 68,037
+ 
+ 
+ 61,613
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Total liabilities
+ 
+ 
+ 
+ 182,108
+ 
+ 
+ 141,908
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Equity
+ 
+ 
+ 
+ 215,250
+ 
+ 
+ 212,702
+ 
+ 
+ 
+ 
+ 
+ 
+ 11
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 6. Investment in Joint Venture (continued)
+ The Company has provided the following incremental disclosures for stakeholders to evaluate the financial performance and financial condition of the AGM. All amounts in the following tables and descriptions are on a 100% basis.
+ (i) Revenues
+ In 2013, concurrent with the former debt project financing, AGGL entered into an offtake agreement with a special purpose vehicle of RK Mine Finance Trust I ("Red Kite") with the following details (the "Offtake Agreement"):
+ - sale of 100% of the future gold production from the AGM up to a maximum of 2.2 million ounces to Red Kite;
+ - Red Kite to pay for 100% of the value of the gold ten business days after shipment;
+ - a provisional payment of 90% of the estimated value will be made one business day after delivery;
+ - the gold sale price will be a spot price selected during a nine-day quotational period following shipment of gold from the mine;
+ - performance obligations of the AGM are satisfied once the refining outturn report is provided to Red Kite; and
+ - should AGGL wish to terminate the Offtake Agreement, a termination fee will be payable according to a schedule dependent upon the total funds drawn under the Red Kite debt arrangement as well as the amount of gold delivered under the Offtake Agreement at the time of termination.
+ During the three and six months ended June 30, 2020, the AGM sold 61,357 and 129,177 ounces of gold, respectively, to Red Kite in accordance with the Offtake Agreement (three and six months ended June 30, 2019 - 66,337 ounces and 119,758 ounces, respectively).
+ Included in revenue of the AGM is $0.2 million and $0.4 million relating to by-product silver sales for the three and six months ended June 30, 2020, respectively (three and six months ended June 30, 2019 - $0.2 million and $0.4 million, respectively). During the six months ended June 30, 2019, $2.2 million of gold sales related to pre-production activities at Esaase were capitalized to mineral properties, plant and equipment ("MPP&E") of the AGM.
+ As of June 30, 2020, the AGM has delivered 968,550 ounces to Red Kite under the Offtake Agreement. The Offtake Agreement was not affected by the JV Transaction and will remain in effect until all contracted ounces have been delivered to Red Kite or AGGL elects to terminate the Offtake Agreement and pay the associated fee.
+ 
+ 12
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 6. Investment in Joint Venture (continued)
+ (ii) Production costs and royalties
+ The following is a summary of production costs by nature, on a 100% basis, incurred during the three and six months ended June 30, 2020 and 2019:
+ 
+ 
+ 
+ 
+ 
+ Three months ended June 30,
+ 
+ 
+ Six months ended June 30,
+ 
+ 
+ 
+ 
+ 
+ 2020
+ 
+ 
+ 2019
+ 
+ 
+ 2020
+ 
+ 
+ 2019
+ 
+ 
+ 
+ Raw materials and consumables
+ 
+ (14,264
+ )
+ 
+ (11,759
+ )
+ 
+ (27,493
+ )
+ 
+ (23,149
+ )
+ 
+ 
+ Salaries and employee benefits
+ 
+ (9,503
+ )
+ 
+ (8,042
+ )
+ 
+ (18,139
+ )
+ 
+ (15,680
+ )
+ 
+ 
+ Contractors (net of deferred stripping costs)
+ 
+ (25,110
+ )
+ 
+ (15,810
+ )
+ 
+ (54,176
+ )
+ 
+ (50,504
+ )
+ 
+ 
+ Change in stockpile, gold-in-process and gold dore inventories
+ 
+ 7,830
+ 
+ 
+ (4,044
+ )
+ 
+ 21,432
+ 
+ 
+ 1,105
+ 
+ 
+ 
+ Insurance, government fees, permits and other
+ 
+ (3,623
+ )
+ 
+ (4,246
+ )
+ 
+ (7,299
+ )
+ 
+ (7,590
+ )
+ 
+ 
+ Share-based payments
+ 
+ (186
+ )
+ 
+ (67
+ )
+ 
+ (385
+ )
+ 
+ (113
+ )
+ 
+ 
+ Total production costs
+ 
+ (44,856
+ )
+ 
+ (43,968
+ )
+ 
+ (86,060
+ )
+ 
+ (95,931
+ )
+ 
+ 
+ 
+ During the three months ended June 30, 2020, the AGM recognized a $1.7 million downward adjustment to the carrying value of its stockpile inventory to reflect the net realizable value of long-term stockpiled ore, of which $1.2 million was recorded as production costs and $0.5 million recorded as depreciation expense (three months ended June 30, 2019 - $0.6 million reversal of previously recorded net realizable value adjustments on stockpile inventory).
+ During the six months ended June 30, 2020, the AGM recognized a $14.5 million reversal of previously recorded net realizable value adjustments on its stockpile inventory, of which $6.5 million was credited against production costs and $8.0 million was credited against depreciation expense (six months ended June 30, 2019 - $12.7 million downward adjustment to the carrying value of stockpile inventory, of which $6.7 million was recorded as production costs and $6.0 million as depreciation expense).
+ All of the AGM's concessions are subject to a 5% gross revenue royalty payable to the Government of Ghana. The AGM's Akwasiso mining concession is also subject to an additional 2% net smelter return royalty payable to the previous owner of the mineral tenement, and the AGM's Esaase mining concession is also subject to an additional 0.5% net smelter return royalty payable to the Bonte Liquidation Committee.
+ 
+ 13
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 6. Investment in Joint Venture (continued)
+ (iii) Inventories
+ The following is a summary of inventories held by the AGM, on a 100% basis, as at June 30, 2020 and December 31, 2019:
+ 
+ 
+ 
+ 
+ June 30, 2020
+ December 31, 2019
+ 
+ 
+ 
+ $
+ $
+ 
+ 
+ Gold dore on hand
+ 10,020
+ 2,804
+ 
+ 
+ Gold-in-process
+ 1,123
+ 1,726
+ 
+ 
+ Ore stockpiles
+ 48,727
+ 29,410
+ 
+ 
+ Materials and spare parts
+ 20,734
+ 18,679
+ 
+ 
+ Total inventories
+ 80,604 
+ 52,619 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Less non-current inventories:
+ 
+ 
+ 
+ 
+ Ore stockpiles
+ (3,855)
+ (2,651)
+ 
+ 
+ Total current inventories
+ 76,749 
+ 49,968 
+ 
+ 
+ 
+ As at December 31, 2019, $29.2 million of the impairment adjustment recognized as part of the AGM's LOM plan update was allocated to long-term stockpiled ore.
+ (iv) Reclamation deposit
+ The AGM is required to provide security to the Environmental Protection Agency of Ghana ("EPA") for the performance by the AGM of its reclamation obligations in respect of the Abirem, Abore and Adubea mining leases. The initial security totaled $8.5 million and comprised a reclamation deposit in the amount of $1.7 million and a bank guarantee of $6.8 million, which was provided by the Company (note 10). The reclamation deposit accrues interest and is carried at $2.0 million as of June 30, 2020 (December 31, 2019 - $1.9 million).
+ The AGM deposited the reclamation deposit in a Ghanaian Bank in the joint names of the AGM and the EPA. The reclamation deposit matures annually, but the AGM is required to reinstate the deposit until receiving a final reclamation completion certificate from the EPA. The AGM is expected to be released from this requirement 45 days following the third anniversary of the date that the AGM receives a final completion certificate.
+ 
+ 14
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 6. Investment in Joint Venture (continued)
+ (v) Right-of-use assets
+ The following table shows the movement in the right-of-use asset related to mining contractor services agreements of the AGM for the six months ended June 30, 2020 and year ended December 31, 2019:
+ 
+ 
+ 
+ 
+ 
+ June 30, 2020
+ 
+ 
+ December 31, 2019
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 9,429
+ 
+ 
+ -
+ 
+ 
+ 
+ Initial recognition of right-of-use assets upon adoption of IFRS 16
+ 
+ -
+ 
+ 
+ 36,616
+ 
+ 
+ 
+ Recognition of mining contractor services agreements entered into during the period
+ 
+ 5,604
+ 
+ 
+ 10,502
+ 
+ 
+ 
+ Depreciation expense
+ 
+ (3,786
+ )
+ 
+ (17,255
+ )
+ 
+ 
+ Derecognition associated with termination of contractor services agreement
+ 
+ (2,753
+ )
+ 
+ (10,343
+ )
+ 
+ 
+ Allocation of impairment (note 6(vi))
+ 
+ -
+ 
+ 
+ (10,091
+ )
+ 
+ 
+ Balance, end of period
+ 
+ 8,494
+ 
+ 
+ 9,429
+ 
+ 
+ 
+ 
+ As at June 30, 2020, the carrying value of right-of-use assets associated with mining contractor services agreements was $8.5 million (December 31, 2019 - $9.4 million), net of $1.3 million and $3.8 million of depreciation expense recorded for the three and six months ended June 30, 2020, respectively (three and six months ended June 30, 2019 - $3.2 million and $7.1 million of depreciation expense, respectively).
+ During the three months ended June 30, 2020, one of the AGM's mining contractor services agreements concluded earlier than the expected lease term. As a result, the carrying values of the right-of-use asset and lease liability associated with this mining contract were derecognized resulting in a gain of $3.7 million, which was recognized as a reduction to production costs during the period.
+ (vi) Mineral properties, plant and equipment
+ Additions to mineral properties, plant and equipment
+ During the three and six months ended June 30, 2020, the AGM capitalized $16.3 million and $22.2 million, respectively, in expenditures related to mineral properties, plant and equipment ("MPP&E"), not including capitalized deferred stripping costs, asset retirement costs and right-of-use assets (three and six months ended June 30, 2019 - additions of $7.3 million and $12.7 million, respectively).
+ Of the $16.3 million and $22.2 million capitalized to MPP&E during the three and six months ended June 30, 2020, $1.9 million and $2.4 million, respectively, was capitalized exploration costs relating to properties with existing defined mineral reserves.
+ Deferred stripping
+ During the three and six months ended June 30, 2020, the AGM deferred a total of $2.7 million and $5.6 million, respectively, of stripping costs to depletable mineral interests (three and six months ended June 30, 2019 - additions of $20.5 million and $23.4 million, respectively).
+ 
+ 15
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 6. Investment in Joint Venture (continued)
+ 2019 Impairment
+ During the year ended December 31, 2019, the JV recorded an impairment of $289.6 million based on the estimate of the recoverable amount of the AGM, of which $260.4 million was allocated to MPP&E (refer to note 8 of the audited consolidated financial statements for the years ended December 31, 2019 and 2018 for the assumptions made by the Company in estimating the recoverable amount).
+ Depreciation and depletion
+ During the three months ended June 30, 2020, the AGM recognized depreciation and depletion expense of $11.2 million (including $4.0 million depreciation and depletion on deferred stripping assets), while a further $4.5 million of depreciation was expensed that was previously capitalized to the cost of inventories (three months ended June 30, 2019 - depreciation and depletion expense of $16.3 million, which included $4.2 million of depreciation and depletion on deferred stripping assets, while a further $0.4 million of depreciation was expensed that was previously capitalized to the cost of inventories).
+ During the six months ended June 30, 2020, the AGM recognized depreciation and depletion expense of $30.9 million (including $14.9 million depreciation and depletion on deferred stripping assets), of which $5.2 million was allocated to the cost of inventories (six months ended June 30, 2019 - depreciation and depletion expense of $43.5 million, which included $14.5 million of depreciation and depletion on deferred stripping assets, of which $3.3 million was allocated to the cost of inventories).
+ (vii) Revolving credit facility
+ In October 2019, the JV entered into a $30.0 million revolving credit facility (the "RCF") with Rand Merchant Bank ("RMB"). The term of the RCF is three years, maturing in September 2022 and bears interest on a sliding scale of between LIBOR plus a margin of 4% and LIBOR plus a margin of 3.8%, depending on the security granted to RMB. Commitment fees in respect of any undrawn portion of the RCF will accrue on a similar sliding scale of between 1.33% and 1.40%. The JV utilized the full value of the RCF on March 30, 2020 and the balance of the RCF at the balance sheet date was $30.0 million (December 31, 2019 - $nil). During the three and six months ended June 30, 2020, the AGM recognized interest expense and other fees associated with the RCF of $0.3 million and $0.4 million, respectively (three and six months ended June 30, 2019 - nil for both periods presented).
+ 
+ 16
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 6. Investment in Joint Venture (continued)
+ (viii) Lease liability
+ The following table shows the movement in the lease liability related to mining contractor services agreements of the AGM for the six months ended June 30, 2020 and year ended December 31, 2019:
+ 
+ 
+ 
+ 
+ 
+ June 30, 2020 
+ 
+ 
+ December 31, 2019
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 23,205
+ 
+ 
+ -
+ 
+ 
+ 
+ Initial recognition of lease liability upon adoption of IFRS 16
+ 
+ -
+ 
+ 
+ 36,616
+ 
+ 
+ 
+ Recognition of lease agreements entered into during the period
+ 
+ 5,604
+ 
+ 
+ 10,502
+ 
+ 
+ 
+ Lease payments made during the period
+ 
+ (10,251
+ )
+ 
+ (15,386
+ )
+ 
+ 
+ Interest expense recognized during the period
+ 
+ 487
+ 
+ 
+ 1,817
+ 
+ 
+ 
+ Derecognition associated with termination of mining contractor services agreement
+ 
+ (6,420
+ )
+ 
+ (10,344
+ )
+ 
+ 
+ Total lease liability, end of period
+ 
+ 12,625
+ 
+ 
+ 23,205
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Less: current portion of lease liability
+ 
+ (12,057
+ )
+ 
+ (18,142
+ )
+ 
+ 
+ Total non-current portion of lease liability, end of period
+ 
+ 568
+ 
+ 
+ 5,063
+ 
+ 
+ 
+ 
+ (ix) Reclamation provision
+ The following table shows the movement in the asset retirement obligation of the AGM as at June 30, 2020 and December 31, 2019:
+ 
+ 
+ 
+ 
+ 
+ June 30, 2020
+ 
+ 
+ December 31, 2019
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 56,148
+ 
+ 
+ 34,036
+ 
+ 
+ 
+ Accretion expense
+ 
+ 250
+ 
+ 
+ 903
+ 
+ 
+ 
+ Change in obligation
+ 
+ 10,838
+ 
+ 
+ 21,309
+ 
+ 
+ 
+ Reclamation undertaken during the period
+ 
+ -
+ 
+ 
+ (100
+ )
+ 
+ 
+ Balance, end of period
+ 
+ 67,236
+ 
+ 
+ 56,148
+ 
+ 
+ 
+ 
+ The decommissioning liability consists of reclamation and closure costs for the JV's Ghanaian mining properties. Reclamation and closure activities include land rehabilitation, dismantling of buildings and mine facilities, ongoing care and maintenance and other costs.
+ As at June 30, 2020, the AGM's reclamation cost estimates were discounted using a long-term risk-free discount rate of 0.71% (December 31, 2019 - 1.98%). The decrease in discount rate during the period resulted in the majority of the increase to the carrying value of the reclamation liability.
+ 
+ 17
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 6. Investment in Joint Venture (continued)
+ (x) Finance expense
+ The following is a summary of finance expenses incurred by the AGM JV during the three and six months ended June 30, 2020 and 2019:
+ 
+ 
+ 
+ 
+ 
+ Three months ended June 30,
+ 
+ 
+ Six months ended June 30,
+ 
+ 
+ 
+ 
+ 
+ 2020
+ 
+ 
+ 2019
+ 
+ 
+ 2020
+ 
+ 
+ 2019
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Realized and unrealized losses on hedging instruments
+ 
+ -
+ 
+ 
+ (2,514
+ )
+ 
+ -
+ 
+ 
+ (2,514
+ )
+ 
+ 
+ Interest on lease liability
+ 
+ (192
+ )
+ 
+ (402
+ )
+ 
+ (487
+ )
+ 
+ (918
+ )
+ 
+ 
+ Accretion charges on asset retirement provisions
+ 
+ (114
+ )
+ 
+ (212
+ )
+ 
+ (250
+ )
+ 
+ (430
+ )
+ 
+ 
+ Interest and fees associated with RCF
+ 
+ (343
+ )
+ 
+ -
+ 
+ 
+ (433
+ )
+ 
+ -
+ 
+ 
+ 
+ Other
+ 
+ (26
+ )
+ 
+ (20
+ )
+ 
+ (52
+ )
+ 
+ (35
+ )
+ 
+ 
+ Total
+ 
+ (675
+ )
+ 
+ (3,148
+ )
+ 
+ (1,222
+ )
+ 
+ (3,897
+ )
+ 
+ 
+ 
+ (xi)The cash flows of the AGM, on a 100% basis, were as follows for the three and six months ended June 30, 2020 and 2019:
+ 
+ 
+ 
+ 
+ 
+ Three months ended June 30,
+ 
+ 
+ Six months ended June 30,
+ 
+ 
+ 
+ 
+ 
+ 2020
+ 
+ 
+ 2019
+ 
+ 
+ 2020
+ 
+ 
+ 2019
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Cash provided by (used in):
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Operating cash flow before working capital changes
+ 
+ 44,269
+ 
+ 
+ 35,335
+ 
+ 
+ 100,787
+ 
+ 
+ 45,800
+ 
+ 
+ 
+ Operating activities
+ 
+ 48,829
+ 
+ 
+ 20,545
+ 
+ 
+ 85,799
+ 
+ 
+ 29,365
+ 
+ 
+ 
+ Investing activities
+ 
+ (22,579
+ )
+ 
+ (13,890
+ )
+ 
+ (27,882
+ )
+ 
+ (23,775
+ )
+ 
+ 
+ Financing activities
+ 
+ (33,941
+ )
+ 
+ (219
+ )
+ 
+ (53,722
+ )
+ 
+ (4,355
+ )
+ 
+ 
+ Impact of foreign exchange on cash and cash equivalents
+ 
+ (37
+ )
+ 
+ (79
+ )
+ 
+ (122
+ )
+ 
+ (201
+ )
+ 
+ 
+ (Decrease) increase in cash and cash equivalents during the period
+ 
+ (7,728
+ )
+ 
+ 6,357
+ 
+ 
+ 4,073
+ 
+ 
+ 1,034
+ 
+ 
+ 
+ Cash and cash equivalents and restricted cash, beginning of period
+ 
+ 55,559
+ 
+ 
+ 16,325
+ 
+ 
+ 43,758
+ 
+ 
+ 21,648
+ 
+ 
+ 
+ Cash and cash equivalents, end of period
+ 
+ 47,831
+ 
+ 
+ 22,682
+ 
+ 
+ 47,831
+ 
+ 
+ 22,682
+ 
+ 
+ 
+ 
+ 
+ 
+ 18
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 7. Right-of-use asset and lease liability
+ The Company entered into a lease agreement for corporate office space with an effective date of September 1, 2019. Upon obtaining the contractual right to use the new office space, the Company recognized a right-of-use asset and corresponding lease liability for the office space lease agreement in accordance with IFRS 16, amounting to $0.6 million. The following table shows the movement in the right-of-use asset related to corporate office space lease agreement for the six months ended June 30, 2020 and year ended December 31, 2019:
+ 
+ 
+ 
+ 
+ 
+ June 30, 2020
+ 
+ 
+ December 31, 2019
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 589
+ 
+ 
+ -
+ 
+ 
+ 
+ Recognition of office space lease agreement entered into during the period
+ 
+ -
+ 
+ 
+ 624
+ 
+ 
+ 
+ Depreciation expense for the period
+ 
+ (52
+ )
+ 
+ (35
+ )
+ 
+ 
+ Balance, end of period
+ 
+ 537
+ 
+ 
+ 589
+ 
+ 
+ 
+ 
+ The following table shows the movement in the lease liability related to corporate office space lease agreement for the six months ended June 30, 2020 and year ended December 31, 2019:
+ 
+ 
+ 
+ 
+ 
+ June 30, 2020
+ 
+ 
+ December 31, 2019
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 597
+ 
+ 
+ -
+ 
+ 
+ 
+ Recognition of office space lease agreement entered into during the period
+ 
+ -
+ 
+ 
+ 624
+ 
+ 
+ 
+ Lease payments made during the period
+ 
+ (58
+ )
+ 
+ (39
+ )
+ 
+ 
+ Interest expense recognized during the period
+ 
+ 18
+ 
+ 
+ 12
+ 
+ 
+ 
+ Total lease liability
+ 
+ 557
+ 
+ 
+ 597
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Less: current lease liability
+ 
+ (83
+ )
+ 
+ (83
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Total non-current lease liability
+ 
+ 474
+ 
+ 
+ 514
+ 
+ 
+ 
+ 
+ 8. Share capital
+ (a) Authorized:
+ Unlimited common shares without par value or restrictions.
+ The Company was previously authorized to issue unlimited preferred shares without par value or restrictions. At the Company's Annual General and Special Meeting of Shareholders held on April 30, 2020, the Company's Notice of Articles was updated to remove preferred shares from the Company's capital structure.
+ 
+ 19
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 8. Share capital (continued)
+ (b) Issued and outstanding common shares
+ 
+ 
+ 
+ 
+ 
+ Number of shares
+ 
+ 
+ Amount
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, December 31, 2018
+ 
+ 225,804,614
+ 
+ 
+ 578,853
+ 
+ 
+ 
+ Issued pursuant to exercise of share-based options
+ 
+ 403,116
+ 
+ 
+ 490
+ 
+ 
+ 
+ Shares repurchased and cancelled under normal course issuer bid
+ 
+ (1,108,920
+ )
+ 
+ (958
+ )
+ 
+ 
+ Balance, December 31, 2019
+ 
+ 225,098,810
+ 
+ 
+ 578,385
+ 
+ 
+ 
+ Issued pursuant to exercise of share-based options (noted 9(a))
+ 
+ 481,957
+ 
+ 
+ 539
+ 
+ 
+ 
+ Shares repurchased and cancelled under normal course issuer bid (note 8(c))
+ 
+ (2,758,063
+ )
+ 
+ (2,296
+ )
+ 
+ 
+ Balance, June 30, 2020
+ 
+ 222,822,704
+ 
+ 
+ 576,628
+ 
+ 
+ 
+ 
+ (c) Normal course issuer bid
+ The Company received approval from the Toronto Stock Exchange ("TSX") to commence a normal course issuer bid ("NCIB") on November 15, 2019 to purchase up to 11,310,386 common shares, representing 5% of the Company's issued and outstanding common shares. Purchases pursuant to the NCIB will be made on the open market through the facilities of the TSX and NYSE American Stock Exchange ("NYSE American").
+ All common shares purchased by the Company under the NCIB will be purchased at the market price at the time of acquisition in accordance with the rules and policies of the TSX and NYSE American and applicable securities laws. All common shares acquired by the Company under the NCIB will be cancelled and purchases will be funded out of the Company' working capital. Although the Company has a present intention to acquire its common shares pursuant to the NCIB, the Company will not be obligated to make any purchases and purchases may be suspended by the Company at any time. The NCIB will terminate on November 14, 2020, or earlier if the maximum number of shares under the NCIB have been purchased. The Company reserves the right to terminate the NCIB earlier if it feels it is appropriate to do so.
+ In accordance with the rules of the TSX, the maximum daily purchases on the TSX under the NCIB will be 33,499 common shares, which is 25% of the average daily trading volume for the Company's common shares on the TSX for the six months ended October 31, 2019. In addition, maximum daily purchases under the NCIB on the NYSE American will be subject to Rule 10b-18 which specifies that daily purchases may not exceed 25% of average daily trading volume for the four weeks preceding such trading date. These maximum daily limits will apply to purchases on the respective markets, except where such purchases are made in accordance with "block purchases" exemptions under applicable TSX and NYSE American policies.
+ During the three and six months ended June 30, 2020, the Company repurchased for cancellation a total of 326,654 and 2,758,063 common shares under the NCIB program for $0.3 million and $2.3 million, respectively (three and six months ended June 30, 2019 - nil for both periods). For the three and six months ended June 30, 2020, the weighted average acquisition price was $0.86 and $0.83 per share, respectively. Since the NCIB has been initiated, the Company has repurchased and cancelled a total of 3,866,983 common shares for $3.3 million, at a weighted average price of $0.84 per share.
+ 
+ 20
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 8. Share capital (continued)
+ (d) At-the-Market Offering ("ATM")
+ On June 25, 2020, the Company entered into an ATM agreement with H.C. Wainwright & Co. and Cormark Securities (the "Agents"). Under the ATM agreement, the Company may, at its discretion and from time-to-time during the term of the ATM agreement, sell through the Agents common shares of the Company for aggregate gross proceeds to the Company of up to $50.0 million (the "Offering"). The Company expects to use any net proceeds of the Offering for general corporate and working capital requirements, including, but not limited to, funding ongoing exploration and operations at the Asanko Gold Mine, funding the Company's working capital requirements, repaying indebtedness outstanding from time to time, completing future acquisitions and/or for other corporate purposes.
+ Sales of common shares will be made through "at-the-market distributions" as defined in the Canadian Securities Administrators' National Instrument 44-102 - Shelf Distributions, including sales made directly on the NYSE American Stock Exchange ("NYSE American"), or any other recognized marketplace upon which the Company's common shares are listed or quoted or where the common shares are traded in the United States. No offers or sales of common shares will be made in Canada on the Toronto Stock Exchange or other trading markets in Canada. The Company will pay the Agents a commission of 3.0% of the aggregate gross proceeds from each sale of common shares. The Company will determine, in its sole discretion, the date, price and number of common shares to be sold under the Offering, if any. Any common shares sold in the Offering will be distributed at market prices or prices related to prevailing market prices from time to time. The Company is not required to sell any common shares in the Offering at any time.
+ The Offering is being made by way of a prospectus supplement dated June 25, 2020 (the "Prospectus Supplement") to the Company's existing U.S. registration statement on Form F-10 (the "Registration Statement") and Canadian short form base shelf prospectus (the "Base Shelf Prospectus") each dated June 11, 2020. The Prospectus Supplement relating to the Offering has been filed with the securities commissions in each of the provinces and territories of Canada (other than Québec) and with the U.S. Securities and Exchange Commission (the "SEC"). The Prospectus Supplement and the Registration Statement are available on the SEC's website and the Prospectus Supplement (together with the related Base Shelf Prospectus) is available on the SEDAR website maintained by the Canadian Securities Administrators.
+ In addition, in connection with Gold Fields Limited's ("GF") existing pre-emptive right to maintain its 9.9% pro rata ownership interest in the Company, the Company has agreed to sell to GF, from time to time during the term of the Offering at GF's election, on a private basis, such number of common shares as represent 9.9% of the common shares issued under the Offering, if any.
+ During the three months ended June 30, 2020, the Company had not issued any common shares under the Offering.
+ 
+ 21
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)
+ NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 9. Equity reserves
+ (a) Share-based options
+ During the three and six months ended June 30, 2020, the Company granted 536,000 and 4,088,000 stock options with weighted average exercise prices of C$1.53 and C$1.32 per option, respectively, to directors, officers and employees of the Company (three and six months ended June 30, 2019 - 300,000 and 3,581,000 stock options granted with weighted average exercise prices of C$0.86 and C$0.97 per option, respectively).
+ During the three and six months ended June 30, 2020, 1,130,000 and 4,938,625 stock options were cancelled, expired and/or forfeited with weighted average exercise prices of C$2.92 and C$1.99 per option, respectively (three and six months ended June 30, 2019 - 925,250 and 3,801,250 stock options cancelled and/or expired with weighted average exercise prices of C$2.09 per option, respectively).
+ Additionally, during the three and six months ended June 30, 2020, 481,957 stock options with a weighted average exercise price of C$1.06 were exercised by directors, officers and/or employees of the Company for total aggregate proceeds of $0.4 million (three and six months ended June 30, 2019 - nil for both periods).
+ The following table is a reconciliation of the movement in share-based options for the period:
+ 
+ 
+ 
+ 
+ 
+ Number of Options
+ 
+ 
+ Weighted average exercise price
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ C$
+ 
+ 
+ 
+ Balance, December 31, 2018
+ 
+ 13,482,427
+ 
+ 
+ 2.22
+ 
+ 
+ 
+ Granted
+ 
+ 3,803,700
+ 
+ 
+ 0.99
+ 
+ 
+ 
+ Exercised
+ 
+ (403,116
+ )
+ 
+ 1.09
+ 
+ 
+ 
+ Cancelled/Expired
+ 
+ (4,314,649
+ )
+ 
+ 2.07
+ 
+ 
+ 
+ Balance, December 31, 2019
+ 
+ 12,568,362
+ 
+ 
+ 1.93
+ 
+ 
+ 
+ Granted
+ 
+ 4,088,000
+ 
+ 
+ 1.32
+ 
+ 
+ 
+ Exercised
+ 
+ (481,957
+ )
+ 
+ 1.06
+ 
+ 
+ 
+ Cancelled/Expired/Forfeited
+ 
+ (4,938,625
+ )
+ 
+ 1.99
+ 
+ 
+ 
+ Balance, June 30, 2020
+ 
+ 11,235,780
+ 
+ 
+ 1.72
+ 
+ 
+ 
+ 
+ During the three and six months ended June 30, 2020, the Company recognized $0.3 million and $0.2 million of share-based payments expense relating to stock options, respectively (three and six months ended June 30, 2019 - $0.3 million and $0.4 million, respectively).
+ (b) Restricted Share Units ("RSU")
+ During the three and six months ended June 30, 2020, the Company granted 219,400 and 2,154,700 RSUs, respectively, to directors, officers and employees of the Company (three and six months ended June 30, 2019 - 200,000 and 1,944,020 RSUs granted, respectively). For all RSUs granted during the period, the awards vest in three equal tranches over a service period of three years. Additionally, 45,000 and 158,334 RSUs were forfeited during the three and six months ended June 30, 2020 (three and six months ended June 30, 2019 - 61,640 RSUs forfeited for both periods presented).
+ During the three and six months ended June 30, 2020, the Company also settled in cash 95,025 and 808,752 RSU awards, respectively (three and six months ended June 30, 2019 - 11,926 and 468,390 RSUs settled in cash, respectively).
+ 
+ 22
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 9. Equity reserves (continued)
+ The following table is a reconciliation of the movement in the number of RSUs outstanding for the six months ended June 30, 2020 and year ended December 31, 2019:
+ 
+ 
+ 
+ 
+ 
+ Number of RSUs
+ 
+ 
+ 
+ 
+ 
+ June 30, 2020
+ 
+ 
+ December 31, 2019
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 2,243,255
+ 
+ 
+ 1,455,180
+ 
+ 
+ 
+ Granted
+ 
+ 2,154,700
+ 
+ 
+ 2,024,553
+ 
+ 
+ 
+ Settled in cash
+ 
+ (808,752
+ )
+ 
+ (481,622
+ )
+ 
+ 
+ Cancelled/Forfeited
+ 
+ (158,334
+ )
+ 
+ (754,856
+ )
+ 
+ 
+ Balance, end of period
+ 
+ 3,430,869
+ 
+ 
+ 2,243,255
+ 
+ 
+ 
+ 
+ The RSUs granted are cash-settled awards and, therefore, represent a financial liability which is required to be marked-to-market at each reporting period-end with changes in fair value recognized in the Statement of Operations and Comprehensive Income. For the three and six months ended June 30, 2020, the Company recognized share-based compensation expense in relation to RSUs of $0.4 million and $0.7 million (three and six months ended June 30, 2019 - $0.1 million and $0.4 million, respectively).
+ As at June 30, 2020, the Company recognized a financial liability for cash-settled RSUs of $1.0 million (December 31, 2019 - $1.0 million). The financial liability associated with the cash-settled awards is recorded in accounts payable and accrued liabilities, for amounts expected to be settled within one year, and a separate non-current liability for amounts to be settled in excess of one year.
+ The following table is a reconciliation of the movement in the RSU liability for the six months ended June 30, 2020 and year ended December 31, 2019:
+ 
+ 
+ 
+ 
+ 
+ June 30, 2020
+ 
+ 
+ December 31, 2019
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 1,001
+ 
+ 
+ 541
+ 
+ 
+ 
+ Awards vested during the period, net of cancelled/forfeited awards
+ 
+ 751
+ 
+ 
+ 819
+ 
+ 
+ 
+ Settled in cash during the period
+ 
+ (752
+ )
+ 
+ (359
+ )
+ 
+ 
+ Total RSU liability, end of period
+ 
+ 1,000
+ 
+ 
+ 1,001
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Less: current portion of RSU liability
+ 
+ (689
+ )
+ 
+ (585
+ )
+ 
+ 
+ Total non-current RSU liability, end of period
+ 
+ 311
+ 
+ 
+ 416
+ 
+ 
+ 
+ 
+ At the Company's Annual General and Special Meeting of shareholders on April 30, 2020, the shareholders approved the Company's amended and restated Share Unit Plan dated April 30, 2020 (the "Share Unit Plan"). Under the Share Unit Plan, the Company is able to issue a combination of RSUs, performance share units ("PSUs") and deferred share units ("DSUs") up to 5% of the outstanding common shares of the Company, provided that the total number of stock options, RSUs, PSUs and DSUs do not exceed 9% of the Company's outstanding common shares. The Company's Board (at its sole discretion) may choose to settle future grants of RSUs, PSUs and DSUs in cash, equity or a combination thereof.
+ 
+ 23
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 10. Commitments and contingencies
+ Commitments
+ As at June 30, 2020, the Company had contractual obligations totaling $3.2 million (December 31, 2019 - $3.5 million).
+ The following table reflects the Company's contractual obligations as they fall due, excluding commitments and liabilities of the JV, as at June 30, 2020 and December 31, 2019:
+ 
+ 
+ 
+ 
+ 
+ Within1 year
+ 
+ 
+ 1 - 5 years
+ 
+ 
+ Over5 years
+ 
+ 
+ At June 30,2020
+ 
+ 
+ At December 31, 2019
+ 
+ 
+ 
+ Accounts payable and accrued liabilities
+ 
+ 1,827
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 1,827
+ 
+ 
+ 1,649
+ 
+ 
+ 
+ Long-term incentive plan (cash-settled awards)
+ 
+ 689
+ 
+ 
+ 311
+ 
+ 
+ 
+ 
+ 
+ 1,000
+ 
+ 
+ 1,001
+ 
+ 
+ 
+ Corporate office leases
+ 
+ 132
+ 
+ 
+ 236
+ 
+ 
+ 21
+ 
+ 
+ 389
+ 
+ 
+ 823
+ 
+ 
+ 
+ Total
+ 
+ 2,648
+ 
+ 
+ 547
+ 
+ 
+ 21
+ 
+ 
+ 3,216
+ 
+ 
+ 3,473
+ 
+ 
+ 
+ 
+ In addition to the above commitments, the Company has provided a parent company guarantee on the unfunded portion of the AGM's reclamation bond in the amount of $6.8 million.
+ Contingencies
+ Due to the nature of its business, the Company may be subject to regulatory investigations, claims, lawsuits and other proceedings in the ordinary course of its business. While the Company cannot reasonably predict the ultimate outcome of these actions, and inherent uncertainties exist in predicting such outcomes, the Company believes that the ultimate resolution of these actions is not reasonably likely to have a material adverse effect on the Company's financial condition or future results of operations.
+ 11. General and administrative expenses
+ The following is a summary of general and administrative expenses incurred during the three and six months ended June 30, 2020 and 2019. The general and administrative expenses for the period presented include, but are not limited to, those expenses incurred in order to earn the service fee as operators of the JV (note 4).
+ 
+ 
+ 
+ 
+ 
+ Three months ended June 30,
+ 
+ 
+ Six months ended June 30,
+ 
+ 
+ 
+ 
+ 
+ 2020
+ 
+ 
+ 2019
+ 
+ 
+ 2020
+ 
+ 
+ 2019
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Wages, benefits and consulting
+ 
+ (1,894
+ )
+ 
+ (2,279
+ )
+ 
+ (3,626
+ )
+ 
+ (4,247
+ )
+ 
+ 
+ Office, rent and administration
+ 
+ (225
+ )
+ 
+ (109
+ )
+ 
+ (387
+ )
+ 
+ (371
+ )
+ 
+ 
+ Professional and legal
+ 
+ (398
+ )
+ 
+ (160
+ )
+ 
+ (524
+ )
+ 
+ (179
+ )
+ 
+ 
+ Share-based payments
+ 
+ (734
+ )
+ 
+ (626
+ )
+ 
+ (979
+ )
+ 
+ (893
+ )
+ 
+ 
+ Travel, marketing, investor relations and regulatory
+ 
+ (266
+ )
+ 
+ (262
+ )
+ 
+ (633
+ )
+ 
+ (537
+ )
+ 
+ 
+ Depreciation and other
+ 
+ (41
+ )
+ 
+ (20
+ )
+ 
+ (83
+ )
+ 
+ (34
+ )
+ 
+ 
+ Total
+ 
+ (3,558
+ )
+ 
+ (3,456
+ )
+ 
+ (6,232
+ )
+ 
+ (6,261
+ )
+ 
+ 
+ 
+ 
+ 
+ 24
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 12. Finance income
+ The following is a summary of finance income earned during the three and six months ended June 30, 2020 and 2019:
+ 
+ 
+ 
+ 
+ 
+ Three months ended June 30,
+ 
+ 
+ Six months ended June 30,
+ 
+ 
+ 
+ 
+ 
+ 2020
+ 
+ 
+ 2019
+ 
+ 
+ 2020
+ 
+ 
+ 2019
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Fair value adjustment on redeemable preference shares (note 5)
+ 
+ 2,516
+ 
+ 
+ 2,075
+ 
+ 
+ 5,166
+ 
+ 
+ 4,514
+ 
+ 
+ 
+ Accretion income on redeemable preference shares
+ 
+ -
+ 
+ 
+ 159
+ 
+ 
+ -
+ 
+ 
+ 286
+ 
+ 
+ 
+ Interest income and other
+ 
+ 162
+ 
+ 
+ 53
+ 
+ 
+ 325
+ 
+ 
+ 236
+ 
+ 
+ 
+ Total
+ 
+ 2,678
+ 
+ 
+ 2,287
+ 
+ 
+ 5,491
+ 
+ 
+ 5,036
+ 
+ 
+ 
+ 
+ 13. Income per share
+ For the three and six months ended June 30, 2020 and 2019, the calculation of basic and diluted income per share is based on the following data:
+ 
+ 
+ 
+ 
+ 
+ Three months ended June 30,
+ 
+ 
+ Six months ended June 30,
+ 
+ 
+ 
+ 
+ 
+ 2020
+ 
+ 
+ 2019
+ 
+ 
+ 2020
+ 
+ 
+ 2019
+ 
+ 
+ 
+ Earnings ($)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net income for the period
+ 
+ 14,694
+ 
+ 
+ 6,107
+ 
+ 
+ 36,500
+ 
+ 
+ 793
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number of shares
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Weighted average number of ordinary shares - basic
+ 
+ 222,612,623
+ 
+ 
+ 225,804,614
+ 
+ 
+ 223,385,994
+ 
+ 
+ 225,804,614
+ 
+ 
+ 
+ Effect of dilutive share options
+ 
+ 1,028,240
+ 
+ 
+ -
+ 
+ 
+ 723,921
+ 
+ 
+ -
+ 
+ 
+ 
+ Weighted average number of ordinary shares - diluted
+ 
+ 223,640,863
+ 
+ 
+ 225,804,614
+ 
+ 
+ 224,109,915
+ 
+ 
+ 225,804,614
+ 
+ 
+ 
+ 
+ For the three and six months ended June 30, 2020, 600,603 and 1,175,658 share-based options outstanding, respectively, were excluded from the calculation of diluted weighted average shares as they were determined to be anti-dilutive.
+ For the three and six months ended June 30, 2019, 13,262,177 share-based options were excluded from the calculation of diluted weighted average shares as they were determined to be anti-dilutive.
+ 14. Supplemental cash flow information
+ The following table summarizes the changes in non-cash working capital for the three and six months ended June 30, 2020 and 2019:
+ 
+ 
+ 
+ 
+ 
+ Three months ended June 30,
+ 
+ 
+ Six months ended June 30,
+ 
+ 
+ 
+ 
+ 
+ 2020
+ 
+ 
+ 2019
+ 
+ 
+ 2020
+ 
+ 
+ 2019
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Receivables
+ 
+ 16
+ 
+ 
+ (1,049
+ )
+ 
+ 1,527
+ 
+ 
+ 944
+ 
+ 
+ 
+ Prepaid expenses
+ 
+ 189
+ 
+ 
+ 40
+ 
+ 
+ 110
+ 
+ 
+ (65
+ )
+ 
+ 
+ Accounts payable and accrued liabilities
+ 
+ 473
+ 
+ 
+ 633
+ 
+ 
+ (620
+ )
+ 
+ (1,390
+ )
+ 
+ 
+ Change in non-cash working capital
+ 
+ 678
+ 
+ 
+ (376
+ )
+ 
+ 1,017
+ 
+ 
+ (511
+ )
+ 
+ 
+ 
+ 
+ 
+ 25
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 15. Segmented information
+ Geographic Information
+ As at June 30, 2020, the Company has only one reportable operating segment being the corporate function with its head office in Canada. However, prior to the JV Transaction, the Company had two reportable segments. Ghana was the Company's only segment with mining operations with Canada acting as a head office function. Total assets in Ghana include the Company's 45% interest in the Asanko Gold Mine JV.
+ Geographic allocation of total assets and liabilities
+ 
+ 
+ 
+ June 30, 2020
+ 
+ Canada
+ 
+ 
+ Ghana
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Current assets
+ 
+ 68,242
+ 
+ 
+ -
+ 
+ 
+ 68,242
+ 
+ 
+ 
+ Property, plant and equipment and right-of-use assets
+ 
+ 626
+ 
+ 
+ -
+ 
+ 
+ 626
+ 
+ 
+ 
+ Other non-current assets
+ 
+ -
+ 
+ 
+ 110,572
+ 
+ 
+ 110,572
+ 
+ 
+ 
+ Total assets
+ 
+ 68,868
+ 
+ 
+ 110,572
+ 
+ 
+ 179,440
+ 
+ 
+ 
+ Current liabilities
+ 
+ 2,599
+ 
+ 
+ -
+ 
+ 
+ 2,599
+ 
+ 
+ 
+ Non-current liabilities
+ 
+ 785
+ 
+ 
+ -
+ 
+ 
+ 785
+ 
+ 
+ 
+ Total liabilities
+ 
+ 3,384
+ 
+ 
+ -
+ 
+ 
+ 3,384
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ December 31, 2019
+ 
+ Canada
+ 
+ 
+ Ghana
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ Current assets
+ 
+ 35,800
+ 
+ 
+ -
+ 
+ 
+ 35,800
+ 
+ 
+ 
+ Property, plant and equipment and right-of-use assets
+ 
+ 679
+ 
+ 
+ -
+ 
+ 
+ 679
+ 
+ 
+ 
+ Other non-current assets
+ 
+ -
+ 
+ 
+ 108,025
+ 
+ 
+ 108,025
+ 
+ 
+ 
+ Total assets
+ 
+ 36,479
+ 
+ 
+ 108,025
+ 
+ 
+ 144,504
+ 
+ 
+ 
+ Current liabilities
+ 
+ 2,317
+ 
+ 
+ -
+ 
+ 
+ 2,317
+ 
+ 
+ 
+ Non-current liabilities
+ 
+ 930
+ 
+ 
+ -
+ 
+ 
+ 930
+ 
+ 
+ 
+ Total liabilities
+ 
+ 3,247
+ 
+ 
+ -
+ 
+ 
+ 3,247
+ 
+ 
+ 
+ 
+ 
+ 
+ 26
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.(formerly Asanko Gold Inc.)NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2020 AND 2019Expressed in Thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 15. Segmented information (continued)
+ Geographic allocation of the Statement of Operations and Comprehensive Income
+ For the three months ended:
+ 
+ 
+ 
+ June 30, 2020
+ 
+ Canada
+ 
+ 
+ Ghana
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Company's share of net earnings in JV
+ 
+ -
+ 
+ 
+ 14,347
+ 
+ 
+ 14,347
+ 
+ 
+ 
+ Net income before tax
+ 
+ 347
+ 
+ 
+ 14,347
+ 
+ 
+ 14,694
+ 
+ 
+ 
+ Income tax expense
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ Net income after tax
+ 
+ 347
+ 
+ 
+ 14,347
+ 
+ 
+ 14,694
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ June 30, 2019
+ 
+ 
+ 
+ 
+ 
+ Canada
+ 
+ 
+ Ghana
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Company's share of net earnings in JV
+ 
+ -
+ 
+ 
+ 6,135
+ 
+ 
+ 6,135
+ 
+ 
+ 
+ Net income before tax
+ 
+ (28
+ )
+ 
+ 6,135
+ 
+ 
+ 6,107
+ 
+ 
+ 
+ Income tax expense
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ Net income after tax
+ 
+ (28
+ )
+ 
+ 6,135
+ 
+ 
+ 6,107
+ 
+ 
+ 
+ 
+ For the six months ended:
+ 
+ 
+ 
+ June 30, 2020
+ 
+ Canada
+ 
+ 
+ Ghana
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Company's share of net earnings in JV
+ 
+ -
+ 
+ 
+ 34,881
+ 
+ 
+ 34,881
+ 
+ 
+ 
+ Net income before tax
+ 
+ 1,619
+ 
+ 
+ 34,881
+ 
+ 
+ 36,500
+ 
+ 
+ 
+ Income tax expense
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ Net income after tax
+ 
+ 1,619
+ 
+ 
+ 34,881
+ 
+ 
+ 36,500
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ June 30, 2019
+ 
+ 
+ 
+ 
+ 
+ Canada
+ 
+ 
+ Ghana
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Company's share of net loss in JV
+ 
+ -
+ 
+ 
+ (217
+ )
+ 
+ (217
+ )
+ 
+ 
+ Net income (loss) before tax
+ 
+ 1,010
+ 
+ 
+ (217
+ )
+ 
+ 793
+ 
+ 
+ 
+ Income tax expense
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ Net income (loss) after tax
+ 
+ 1,010
+ 
+ 
+ (217
+ )
+ 
+ 793
+ 
+ 
+ 
+ 
+ 
+ 27

@@ -1,0 +1,27 @@
+{
+  "ticker": "SQM",
+  "cik": "0000909037",
+  "form": "20-F",
+  "filingDate": "2016-04-21",
+  "accessionNumber": "0001144204-16-095518",
+  "primaryDocument": "v437351_20f.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/909037/000114420416095518/0001144204-16-095518-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "v437351_ex99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/909037/000114420416095518/v437351_ex99-1.htm"
+  },
+  "extractedAt": "2026-06-11T17:11:23.468Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909037/000114420416095518/v437351_ex99-1.htm",
+    "contentType": "html",
+    "title": "",
+    "headings": [
+      "Exhibit 99.1"
+    ],
+    "text": "EX-99.1\n10\nv437351_ex99-1.htm\nEXHIBIT 99.1\n\n \n\n \n\nExhibit 99.1",
+    "tables": [],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>10\n<FILENAME>v437351_ex99-1.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<HTML>\n<HEAD>\n     <TITLE></TITLE>\n</HEAD>\n<BODY STYLE=\"font: 10pt Times New Roman, Times, Serif\">\n\n<P STYLE=\"margin: 0\"><B>&nbsp;</B></P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\"><B>Exhibit 99.1</B></P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify\"><IMG SRC=\"tex99-1.jpg\" ALT=\"\"></P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<!-- Field: Page; Sequence: 1; Options: Last -->\n    <DIV STYLE=\"margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1pt solid\"><P STYLE=\"margin: 0pt\">&nbsp;</P></DIV>\n    <!-- Field: /Page -->\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n</BODY>\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

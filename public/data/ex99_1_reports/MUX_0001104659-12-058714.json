@@ -1,0 +1,145 @@
+{
+  "ticker": "MUX",
+  "cik": "0000314203",
+  "form": "8-K",
+  "filingDate": "2012-08-17",
+  "accessionNumber": "0001104659-12-058714",
+  "primaryDocument": "a12-18597_18k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/314203/000110465912058714/0001104659-12-058714-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EX-99.1",
+    "filename": "a12-18597_1ex99d1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/314203/000110465912058714/a12-18597_1ex99d1.htm"
+  },
+  "extractedAt": "2026-06-11T17:05:49.586Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/314203/000110465912058714/a12-18597_1ex99d1.htm",
+    "contentType": "html",
+    "title": "",
+    "headings": [
+      "Exhibit 99.1",
+      "For further information contact:",
+      "Jenya Meshcheryakova",
+      "Investor Relations",
+      "Mailing Address",
+      "info@mcewenmining.com"
+    ],
+    "text": "EX-99.1\n2\na12-18597_1ex99d1.htm\nEX-99.1\n\n \n\nExhibit 99.1\n \n\n \nAugust 17, 2012\n \nDear Shareholders,\n \nPlease find below the El Gallo Complex development update.\n \nKey development highlights over the past two weeks are:\n \n· Crushers ramping up towards designed capacity · Piping installed for the heap leach pad · 25,000 tonnes of material loaded onto heap leach pad · New access ramp for Sagrado Corazon deposit completed · Diesel generators at the process plant are ready to go\n \nTo view the El Gallo Development Photo Update, please click here.\n \n\nFor further information contact: \n\n \n\n \n\n \n\nJenya Meshcheryakova Investor Relations Tel: (647) 258-0395 Toll Free: (866) 441-0690 Fax: (647) 258-0408\n \nFacebook: www.facebook.com/McEwenRob Twitter: www.twitter.com/McEwenMining \n\nMailing Address 181 Bay Street Suite 4750 Toronto, ON M5J 2T3 PO box 792 E-mail: info@mcewenmining.com \n \nIf you no longer want to receive announcements from us, please do not reply to this e-mail. Instead simply click here.\n \n\n \n \n \n \n \n MUX El Gallo\n Complex Development Photo Update August 17, 2012 MCEWEN MINING NYSE\n \n \n\n \n\n \n \n \n \n \n 2 Crushing\n Plant Assembly 1 - Cone Crushers 2 - Vibrating Screens 3 - Lime Silo 4 -\n Stackers 4 3 2 1 \n \n \n\n \n\n \n \n \n \n \n 3 Crushers\n ramping up towards designed capacity. \n \n \n\n \n\n \n \n \n \n \n 4 Piping\n installed for the heap leach pad. \n \n \n\n \n\n \n \n \n \n \n 5 Delivering\n mineralized material to the heap leach pad. \n \n \n\n \n\n \n \n \n \n \n 6 25,000 tonnes\n loaded onto heap leach pad. \n \n \n\n \n\n \n \n \n \n \n 7 New access\n ramp for Sagrado Corazon deposit. \n \n \n\n \n\n \n \n \n \n \n 8 Mining\n continues at the Samanegio open pit. \n \n \n\n \n\n \n \n \n \n \n 9 Diesel\n generators at the process plant ready to go . \n \n \n\n \n\n \n \n \n \n \n 10 Assaying\n samples from the production drill holes. \n \n \n\n \n\n \n \n \n \n \n MUX For further\n information please contact: Jenya Meshcheryakova Investor Relations Tel:\n (647) 258-0395 x 410 Toll Free: (866) 441- 0690 Fax: (647) 258-0408 Email:\n info@mcewenmining.com MCEWEN MINING NYSE",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 2,
+        "rows": [
+          [
+            "For further information contact:"
+          ],
+          [
+            "Jenya Meshcheryakova Investor Relations Tel: (647) 258-0395 Toll Free: (866) 441-0690 Fax: (647) 258-0408\n \nFacebook: www.facebook.com/McEwenRob Twitter: www.twitter.com/McEwenMining",
+            "Mailing Address 181 Bay Street Suite 4750 Toronto, ON M5J 2T3 PO box 792 E-mail: info@mcewenmining.com"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 1,
+        "rows": [
+          [
+            "MUX El Gallo\n Complex Development Photo Update August 17, 2012 MCEWEN MINING NYSE"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 1,
+        "rows": [
+          [
+            "2 Crushing\n Plant Assembly 1 - Cone Crushers 2 - Vibrating Screens 3 - Lime Silo 4 -\n Stackers 4 3 2 1"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 3,
+        "rowCount": 1,
+        "rows": [
+          [
+            "3 Crushers\n ramping up towards designed capacity."
+          ]
+        ]
+      },
+      {
+        "tableIndex": 4,
+        "rowCount": 1,
+        "rows": [
+          [
+            "4 Piping\n installed for the heap leach pad."
+          ]
+        ]
+      },
+      {
+        "tableIndex": 5,
+        "rowCount": 1,
+        "rows": [
+          [
+            "5 Delivering\n mineralized material to the heap leach pad."
+          ]
+        ]
+      },
+      {
+        "tableIndex": 6,
+        "rowCount": 1,
+        "rows": [
+          [
+            "6 25,000 tonnes\n loaded onto heap leach pad."
+          ]
+        ]
+      },
+      {
+        "tableIndex": 7,
+        "rowCount": 1,
+        "rows": [
+          [
+            "7 New access\n ramp for Sagrado Corazon deposit."
+          ]
+        ]
+      },
+      {
+        "tableIndex": 8,
+        "rowCount": 1,
+        "rows": [
+          [
+            "8 Mining\n continues at the Samanegio open pit."
+          ]
+        ]
+      },
+      {
+        "tableIndex": 9,
+        "rowCount": 1,
+        "rows": [
+          [
+            "9 Diesel\n generators at the process plant ready to go ."
+          ]
+        ]
+      },
+      {
+        "tableIndex": 10,
+        "rowCount": 1,
+        "rows": [
+          [
+            "10 Assaying\n samples from the production drill holes."
+          ]
+        ]
+      },
+      {
+        "tableIndex": 11,
+        "rowCount": 1,
+        "rows": [
+          [
+            "MUX For further\n information please contact: Jenya Meshcheryakova Investor Relations Tel:\n (647) 258-0395 x 410 Toll Free: (866) 441- 0690 Fax: (647) 258-0408 Email:\n info@mcewenmining.com MCEWEN MINING NYSE"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>a12-18597_1ex99d1.htm\n<DESCRIPTION>EX-99.1\n<TEXT>\n\n\n<html>\n<head>\n\n  </head>\n<body lang=\"EN-US\">\n<div style=\"font-family:Times New Roman;\">\n<p align=\"right\" style=\"margin:0in 0in .0001pt;text-align:right;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">Exhibit 99.1</font></b></p>\n<p align=\"right\" style=\"margin:0in 0in .0001pt;text-align:right;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">&nbsp;</font></b></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\"><img width=\"283\" height=\"61\" src=\"g185971mmi001.jpg\"></font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p align=\"right\" style=\"margin:0in 0in .0001pt;text-align:right;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">August&nbsp;17, 2012</font></p>\n<p align=\"right\" style=\"margin:0in 0in .0001pt;text-align:right;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">Dear Shareholders,</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">Please find below the El Gallo Complex development update.</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">Key development highlights over the past two weeks are:</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"margin:0in 0in .0001pt .25in;\"><font size=\"2\" face=\"Symbol\" style=\"font-size:10.0pt;\">&#183;</font><font size=\"2\" style=\"font-size:10.0pt;\"> Crushers ramping up towards designed capacity<br>  </font><font size=\"2\" face=\"Symbol\" style=\"font-size:10.0pt;\">&#183;</font><font size=\"2\" style=\"font-size:10.0pt;\"> Piping installed for the heap leach pad<b><br>  </b></font><font size=\"2\" face=\"Symbol\" style=\"font-size:10.0pt;\">&#183;</font><font size=\"2\" style=\"font-size:10.0pt;\"> 25,000 tonnes of material loaded onto heap leach pad<br>  </font><font size=\"2\" face=\"Symbol\" style=\"font-size:10.0pt;\">&#183;</font><font size=\"2\" style=\"font-size:10.0pt;\"> New access ramp for Sagrado Corazon deposit completed<br>  </font><font size=\"2\" face=\"Symbol\" style=\"font-size:10.0pt;\">&#183;</font><font size=\"2\" style=\"font-size:10.0pt;\"> Diesel generators at the process plant are ready to go</font></p>\n<p style=\"margin:0in 0in .0001pt .25in;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">To view the El Gallo Development Photo Update, please click <u>here</u>.</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n<tr>\n<td width=\"50%\" valign=\"top\" style=\"padding:0in 0in 0in 0in;width:50.0%;\">\n<p style=\"margin:0in 0in .0001pt .25in;\"><b><i><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-style:italic;font-weight:bold;\">For further information contact:</font></i></b></p>    </td>\n<td width=\"50%\" valign=\"top\" style=\"padding:0in 0in 0in 0in;width:50.0%;\">\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:1.0pt;\">&nbsp;</font></p>    </td>   </tr>\n<tr>\n<td width=\"50%\" valign=\"top\" style=\"padding:0in 0in 0in 0in;width:50.0%;\">\n<p style=\"margin:0in 0in .0001pt .25in;\"><b><i><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-style:italic;font-weight:bold;\">&nbsp;</font></i></b></p>    </td>\n<td width=\"50%\" valign=\"top\" style=\"padding:0in 0in 0in 0in;width:50.0%;\">\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>    </td>   </tr>\n<tr>\n<td width=\"50%\" valign=\"top\" style=\"padding:0in 0in 0in 0in;width:50.0%;\">\n<p style=\"margin:0in 0in .0001pt .25in;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">Jenya   Meshcheryakova</font></b><font size=\"2\" style=\"font-size:10.0pt;\"><br>    </font><b><font size=\"2\" style=\"font-size:10.0pt;font-weight:bold;\">Investor   Relations</font></b><font size=\"2\" style=\"font-size:10.0pt;\">  </font><font size=\"2\" style=\"font-size:10.0pt;\"><br>    </font><font size=\"2\" style=\"font-size:10.0pt;\">Tel:   (647) 258-0395</font><font size=\"2\" style=\"font-size:10.0pt;\">  </font><font size=\"2\" style=\"font-size:10.0pt;\"><br>    </font><font size=\"2\" style=\"font-size:10.0pt;\">Toll   Free: (866) 441-0690</font><font size=\"2\" style=\"font-size:10.0pt;\">  </font><font size=\"2\" style=\"font-size:10.0pt;\"><br>    </font><font size=\"2\" style=\"font-size:10.0pt;\">Fax:   (647) 258-0408</font></p>\n<p style=\"margin:0in 0in .0001pt .25in;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"margin:0in 0in .0001pt .25in;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">Facebook:   www.facebook.com/McEwenRob</font><font size=\"2\" style=\"font-size:10.0pt;\"><br>    </font><font size=\"2\" style=\"font-size:10.0pt;\">Twitter:   www.twitter.com/McEwenMining</font></p>    </td>\n<td width=\"50%\" valign=\"top\" style=\"padding:0in 0in 0in 0in;width:50.0%;\">\n<p style=\"margin:0in 0in .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">Mailing   Address</font></b><font size=\"2\" style=\"font-size:10.0pt;\">  </font><font size=\"2\" style=\"font-size:10.0pt;\"><br>    </font><font size=\"2\" style=\"font-size:10.0pt;\">181   Bay Street Suite&nbsp;4750</font><font size=\"2\" style=\"font-size:10.0pt;\">  </font><font size=\"2\" style=\"font-size:10.0pt;\"><br>    </font><font size=\"2\" style=\"font-size:10.0pt;\">Toronto,   ON M5J 2T3</font><font size=\"2\" style=\"font-size:10.0pt;\">  </font><font size=\"2\" style=\"font-size:10.0pt;\"><br>    </font><font size=\"2\" style=\"font-size:10.0pt;\">PO   box 792</font><font size=\"2\" style=\"font-size:10.0pt;\"><br>    </font><font size=\"2\" style=\"font-size:10.0pt;\">E-mail:   <b>info@mcewenmining.com</b></font></p>    </td>   </tr>  </table>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">If you no longer want to receive announcements from us, please do not reply to this e-mail. Instead simply click here.</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<div style=\"margin:0in 0in .0001pt;\"><hr size=\"3\" width=\"100%\" noshade color=\"#010101\" align=\"left\"></div>\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\106200\\12-18597-1\\task5511498\\18597-1-mm.htm',USER='106200',CD='Aug 17 23:13 2012' -->\n\n\n<br clear=\"all\" style=\"page-break-before:always;\">\n<div>\n<!-- COMMAND=ROTATED_TABLE WIDTH=\"150%\" -->\n\n<div align=\"center\">\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"92%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:92.3%;\">\n  <p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;\"><img width=\"823\" height=\"635\" src=\"g185971moi001.gif\"></font></p>\n  </td>\n  <td width=\"7%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:7.7%;\">\n  <p style=\"margin:0in 0in .0001pt;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;font-size:1.0pt;\">MUX El Gallo\n  Complex Development Photo Update August 17, 2012 MCEWEN MINING NYSE</font></p>\n  </td>\n </tr>\n</table>\n\n</div>\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\107600\\12-18597-1\\task5511648\\18597-1-mo.htm',USER='107600',CD='Aug 18 00:46 2012' -->\n\n\n<br clear=\"all\" style=\"page-break-before:always;\">\n\n\n<div>\n<!-- COMMAND=ROTATED_TABLE WIDTH=\"150%\" -->\n\n<div align=\"center\">\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"92%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:92.3%;\">\n  <p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;\"><img width=\"822\" height=\"635\" src=\"g185971moi002.gif\"></font></p>\n  </td>\n  <td width=\"7%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:7.7%;\">\n  <p style=\"margin:0in 0in .0001pt;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;font-size:1.0pt;\">2 Crushing\n  Plant Assembly 1 - Cone Crushers 2 - Vibrating Screens 3 - Lime Silo 4 -\n  Stackers 4 3 2 1 </font></p>\n  </td>\n </tr>\n</table>\n\n</div>\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\107600\\12-18597-1\\task5511648\\18597-1-mo.htm',USER='107600',CD='Aug 18 00:46 2012' -->\n\n\n<br clear=\"all\" style=\"page-break-before:always;\">\n\n\n<div>\n<!-- COMMAND=ROTATED_TABLE WIDTH=\"150%\" -->\n\n<div align=\"center\">\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"92%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:92.3%;\">\n  <p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;\"><img width=\"822\" height=\"635\" src=\"g185971moi003.gif\"></font></p>\n  </td>\n  <td width=\"7%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:7.7%;\">\n  <p style=\"margin:0in 0in .0001pt;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;font-size:1.0pt;\">3 Crushers\n  ramping up towards designed capacity. </font></p>\n  </td>\n </tr>\n</table>\n\n</div>\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\107600\\12-18597-1\\task5511648\\18597-1-mo.htm',USER='107600',CD='Aug 18 00:46 2012' -->\n\n\n<br clear=\"all\" style=\"page-break-before:always;\">\n\n\n<div>\n<!-- COMMAND=ROTATED_TABLE WIDTH=\"150%\" -->\n\n<div align=\"center\">\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"92%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:92.3%;\">\n  <p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;\"><img width=\"822\" height=\"635\" src=\"g185971moi004.gif\"></font></p>\n  </td>\n  <td width=\"7%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:7.7%;\">\n  <p style=\"margin:0in 0in .0001pt;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;font-size:1.0pt;\">4 Piping\n  installed for the heap leach pad. </font></p>\n  </td>\n </tr>\n</table>\n\n</div>\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\107600\\12-18597-1\\task5511648\\18597-1-mo.htm',USER='107600',CD='Aug 18 00:46 2012' -->\n\n\n<br clear=\"all\" style=\"page-break-before:always;\">\n\n\n<div>\n<!-- COMMAND=ROTATED_TABLE WIDTH=\"150%\" -->\n\n<div align=\"center\">\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"92%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:92.3%;\">\n  <p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;\"><img width=\"822\" height=\"635\" src=\"g185971moi005.gif\"></font></p>\n  </td>\n  <td width=\"7%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:7.7%;\">\n  <p style=\"margin:0in 0in .0001pt;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;font-size:1.0pt;\">5 Delivering\n  mineralized material to the heap leach pad. </font></p>\n  </td>\n </tr>\n</table>\n\n</div>\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\107600\\12-18597-1\\task5511648\\18597-1-mo.htm',USER='107600',CD='Aug 18 00:46 2012' -->\n\n\n<br clear=\"all\" style=\"page-break-before:always;\">\n\n\n<div>\n<!-- COMMAND=ROTATED_TABLE WIDTH=\"150%\" -->\n\n<div align=\"center\">\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"92%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:92.3%;\">\n  <p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;\"><img width=\"822\" height=\"635\" src=\"g185971moi006.gif\"></font></p>\n  </td>\n  <td width=\"7%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:7.7%;\">\n  <p style=\"margin:0in 0in .0001pt;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;font-size:1.0pt;\">6 25,000 tonnes\n  loaded onto heap leach pad. </font></p>\n  </td>\n </tr>\n</table>\n\n</div>\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\107600\\12-18597-1\\task5511648\\18597-1-mo.htm',USER='107600',CD='Aug 18 00:46 2012' -->\n\n\n<br clear=\"all\" style=\"page-break-before:always;\">\n\n\n<div>\n<!-- COMMAND=ROTATED_TABLE WIDTH=\"150%\" -->\n\n<div align=\"center\">\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"92%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:92.3%;\">\n  <p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;\"><img width=\"822\" height=\"635\" src=\"g185971moi007.gif\"></font></p>\n  </td>\n  <td width=\"7%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:7.7%;\">\n  <p style=\"margin:0in 0in .0001pt;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;font-size:1.0pt;\">7 New access\n  ramp for Sagrado Corazon deposit. </font></p>\n  </td>\n </tr>\n</table>\n\n</div>\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\107600\\12-18597-1\\task5511648\\18597-1-mo.htm',USER='107600',CD='Aug 18 00:46 2012' -->\n\n\n<br clear=\"all\" style=\"page-break-before:always;\">\n\n\n<div>\n<!-- COMMAND=ROTATED_TABLE WIDTH=\"150%\" -->\n\n<div align=\"center\">\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"92%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:92.3%;\">\n  <p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;\"><img width=\"822\" height=\"635\" src=\"g185971moi008.gif\"></font></p>\n  </td>\n  <td width=\"7%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:7.7%;\">\n  <p style=\"margin:0in 0in .0001pt;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;font-size:1.0pt;\">8 Mining\n  continues at the Samanegio open pit. </font></p>\n  </td>\n </tr>\n</table>\n\n</div>\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\107600\\12-18597-1\\task5511648\\18597-1-mo.htm',USER='107600',CD='Aug 18 00:46 2012' -->\n\n\n<br clear=\"all\" style=\"page-break-before:always;\">\n\n\n<div>\n<!-- COMMAND=ROTATED_TABLE WIDTH=\"150%\" -->\n\n<div align=\"center\">\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"92%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:92.3%;\">\n  <p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;\"><img width=\"822\" height=\"635\" src=\"g185971moi009.gif\"></font></p>\n  </td>\n  <td width=\"7%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:7.7%;\">\n  <p style=\"margin:0in 0in .0001pt;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;font-size:1.0pt;\">9 Diesel\n  generators at the process plant ready to go . </font></p>\n  </td>\n </tr>\n</table>\n\n</div>\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\107600\\12-18597-1\\task5511648\\18597-1-mo.htm',USER='107600',CD='Aug 18 00:46 2012' -->\n\n\n<br clear=\"all\" style=\"page-break-before:always;\">\n\n\n<div>\n<!-- COMMAND=ROTATED_TABLE WIDTH=\"150%\" -->\n\n<div align=\"center\">\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"92%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:92.3%;\">\n  <p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;\"><img width=\"822\" height=\"635\" src=\"g185971moi010.gif\"></font></p>\n  </td>\n  <td width=\"7%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:7.7%;\">\n  <p style=\"margin:0in 0in .0001pt;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;font-size:1.0pt;\">10 Assaying\n  samples from the production drill holes. </font></p>\n  </td>\n </tr>\n</table>\n\n</div>\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\107600\\12-18597-1\\task5511648\\18597-1-mo.htm',USER='107600',CD='Aug 18 00:46 2012' -->\n\n\n<br clear=\"all\" style=\"page-break-before:always;\">\n\n\n<div>\n<!-- COMMAND=ROTATED_TABLE WIDTH=\"150%\" -->\n\n<div align=\"center\">\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"92%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:92.3%;\">\n  <p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;\"><img width=\"822\" height=\"635\" src=\"g185971moi011.gif\"></font></p>\n  </td>\n  <td width=\"7%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:7.7%;\">\n  <p style=\"margin:0in 0in .0001pt;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;font-size:1.0pt;\">MUX For further\n  information please contact: Jenya Meshcheryakova Investor Relations Tel:\n  (647) 258-0395 x 410 Toll Free: (866) 441- 0690 Fax: (647) 258-0408 Email:\n  info@mcewenmining.com MCEWEN MINING NYSE</font></p>\n  </td>\n </tr>\n</table>\n\n</div>\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\107600\\12-18597-1\\task5511648\\18597-1-mo.htm',USER='107600',CD='Aug 18 00:46 2012' -->\n\n\n</body>\n\n</html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

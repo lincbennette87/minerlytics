@@ -1,0 +1,27 @@
+{
+  "ticker": "GAYMF",
+  "cik": "0001377757",
+  "form": "6-K",
+  "filingDate": "2016-08-15",
+  "accessionNumber": "0001273511-16-000212",
+  "primaryDocument": "f160815asankoform6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000127351116000212/0001273511-16-000212-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "NEWS RELEASE DATED AUGUST 15, 2016",
+    "filename": "exhibit991.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1377757/000127351116000212/exhibit991.htm"
+  },
+  "extractedAt": "2026-06-11T16:58:15.605Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000127351116000212/exhibit991.htm",
+    "contentType": "html",
+    "title": "Exhibit 99.1",
+    "headings": [
+      "Exhibit 99.1"
+    ],
+    "text": "EX-99.1\n2\nexhibit991.htm\nNEWS RELEASE DATED AUGUST 15, 2016\n\nExhibit 99.1",
+    "tables": [],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit991.htm\n<DESCRIPTION>NEWS RELEASE DATED AUGUST 15, 2016\n<TEXT>\n<!doctype html public \"-//IETF//DTD HTML//EN\">\n<HTML>\n<HEAD>\n<TITLE>Exhibit 99.1</TITLE>\n<META NAME=\"author\" CONTENT=\"Donna\">\n<META NAME=\"date\" CONTENT=\"08/14/2016\">\n</HEAD>\n<BODY style=\"margin-top:0;font-family:Times New Roman; font-size:10pt; color:#000000\">\n<DIV style=\"width:624px\"><P style=\"margin-top:0px; margin-bottom:12.2px\"><img src=\"exhibit991001.jpg\" alt=\"[exhibit991001.jpg]\" align=middle height=864.333 width=611.333><img src=\"exhibit991002.jpg\" alt=\"[exhibit991002.jpg]\" align=middle height=864.333 width=611.333><img src=\"exhibit991003.jpg\" alt=\"[exhibit991003.jpg]\" align=middle height=864.333 width=611.333><img src=\"exhibit991004.jpg\" alt=\"[exhibit991004.jpg]\" align=middle height=864.333 width=611.333><img src=\"exhibit991005.jpg\" alt=\"[exhibit991005.jpg]\" align=middle height=864.333 width=611.333></P>\n<P style=\"margin-top:0px; margin-bottom:12.2px\"><BR>\n<BR></P>\n</DIV></BODY>\n<!-- EDGAR Validation Code: 8600848E -->\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

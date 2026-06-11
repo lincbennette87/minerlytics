@@ -1,0 +1,5 @@
+{
+  "ticker": "SVM",
+  "cik": "0001427362",
+  "error": "Could not load SEC submissions feed: HTTP 404 for https://data.sec.gov/submissions/CIK0001427362.json\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>submissions/CIK0001427362.json</Key><RequestId>NTEPYY2FXSSTN4PJ</RequestId><HostId>xpcdCzxVkDSSvy8GwgTdGGi//mVSX6f7mplMG9AEnrupBmm6okH1svRwHdqW19Hb0q6b9ze+c+E=</HostId></Error>"
+}

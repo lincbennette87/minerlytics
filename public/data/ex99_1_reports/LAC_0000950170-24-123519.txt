@@ -1,0 +1,1461 @@
+EX-99.1
+2
+lac-ex99_1.htm
+EX-99.1
+
+ 
+ EX-99.1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Exhibit 99.1 (Formerly 1397468 B.C. Ltd.) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Management's Discussion and Analysis For the three and nine months ended September 30, 2024 
+ 
+ 
+ 
+ 
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ BACKGROUND
+ On January 23, 2023, 1397468 B.C. Ltd (“New LAC,” “Lithium Americas” or the “Company”) was incorporated under the Business Corporations Act (British Columbia) for the sole purpose of acquiring ownership of the North American business assets and investments (“LAC North America”) of Lithium Americas Corp. (“Old LAC”), which is now named Lithium Americas (Argentina) Corp. (“Lithium Argentina”), pursuant to a separation transaction (the “Separation”) that was undertaken on October 3, 2023. Upon consummation of the Separation, New LAC was re- named Lithium Americas Corp., and its common shares were listed on the Toronto Stock Exchange (“TSX”) and on the New York Stock Exchange (“NYSE”) under the symbol “LAC.”
+ The Separation was implemented by way of a plan of arrangement (the “Arrangement”) under the laws of British Columbia pursuant to an arrangement agreement between the Company and Old LAC. Upon completion of the Separation, Old LAC contributed to the Company, among other assets and liabilities, its interest in the Thacker Pass project (“Thacker Pass”), its investments in Green Technology Metals Limited (“GT1”) and Ascend Elements, Inc. (“Ascend Elements”), certain intellectual property rights, its loan to 1339480 B.C. Ltd., and cash of $275.5 million, including $75 million to establish sufficient working capital. The Company then distributed its common shares to shareholders of Old LAC in a series of share exchanges. The Separation was pro rata to the shareholders of Old LAC, so that the holders maintained the same proportionate interest in Old LAC and the Company both immediately before and immediately after the Separation.
+ This Management’s Discussion and Analysis (“MD&A”) of the Company, prepared as of November 7, 2024, should be read in conjunction with the Company’s unaudited condensed consolidated interim financial statements and the notes thereto for the nine months ended September 30, 2024 (“Q3 2024 financial statements”), and the Company’s audited consolidated financial statements for the year ended December 31, 2023 and the related notes thereto (“2023 annual financial statements”), which have been prepared in accordance with IFRS Accounting Standards as issued by the International Accounting Standards Board (“IFRS”). For further information on the Company, including key risk factors, reference should be made to its public filings on SEDAR+ at www.sedarplus.ca and on EDGAR at www.sec.gov. These consolidated financial statements should also be read in conjunction with LAC North Americas’ audited carve-out financial statements and notes thereto for the year ended December 31, 2022 which may be found in Lithium Argentina's Management Information Circular dated June 16, 2023 filed on SEDAR+ at www.sedarplus.ca. All amounts are expressed in US dollars, unless otherwise stated. References to CDN$ are to Canadian dollars. This MD&A contains “forward-looking statements,” and readers should read the cautionary note contained in the section entitled “Forward-Looking Statements” of this MD&A regarding such forward-looking statements.
+ OUR BUSINESS
+ Lithium Americas is a resource and materials company focused on developing, building and operating significant lithium deposits and chemical processing facilities. The Company strives to adhere to the highest environmental, social, governance (“ESG”) and safety (“ESG-S”) standards and work to provide the critical minerals for the global transition to cleaner energy sources. The Company’s flagship project is Thacker Pass, a sedimentary-based lithium deposit located in the McDermitt Caldera in Humboldt County, Nevada. The Company owns Thacker Pass through its wholly-owned subsidiary, Lithium Nevada Corp. (“Lithium Nevada”). The Company also holds investments in GT1 and Ascend Elements, and exploration properties in the United States and Canada. The Company’s head office and principal address is Suite 3260, 666 Burrard Street, Vancouver, British Columbia, Canada, V6C 2X8.
+ Additional information relating to the Company, including the Company’s most recent Annual Report on Form 20-F and most recent MD&A for the most recently completed financial year, and interim financial period, are available on the Company’s website at www.lithiumamericas.com, on SEDAR+ at www.sedarplus.ca and on EDGAR at www.sec.gov/edgar.
+ 2
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ HIGHLIGHTS
+ Thacker Pass
+ •On October 28, 2024, the Company and the U.S. Department of Energy’s (“DOE”) Loan Programs Office (“LPO”) closed a $2.26 billion loan under the Advanced Technology Vehicles Manufacturing (“ATVM”) Loan Program (the “DOE Loan”) for financing the construction of the processing facilities at Thacker Pass, to produce an initial 40,000 tonnes per annum of battery grade lithium carbonate (“Phase 1”). 
+ •The Company continues to focus on de-risking project execution by advancing project planning, detailed engineering (currently at approximately 40% design complete) and procurement packages for the top seven pieces of long-lead equipment have been awarded. Contracts for key construction materials have been awarded and field purchases of goods and services have commenced.
+ •Major earth works for the all-inclusive housing facility for construction workers (the Workforce Hub (“WFH”)) have been completed. The current focus is on finalizing engineering and permitting for utilities and preparing to award contracts for the detailed earthworks, foundation installation and erection of the housing units. 
+ •During the three months ended September 30, 2024, $34.4 million of construction capital costs and other project-related costs were capitalized.
+ Corporate
+ •As of September 30, 2024, the Company had approximately $341.2 million in cash and cash equivalents.
+ •On August 30, 2024, the Company and General Motors Holdings LLC (“GM”) agreed to extend the outside date for the second tranche subscription agreement until the end of the year to provide time for the parties to explore alternative structures for GM’s additional investment, of at least $330 million, in a mutually beneficial manner. 
+ •On October 15, 2024, the Company and GM entered into a new investment agreement (“Investment Agreement”) to establish a joint venture (“JV”) for the purpose of funding, developing, constructing and operating Thacker Pass (“JV Transaction”). The JV Transaction will deliver $625 million of cash and letters of credit from GM to Thacker Pass. Under the terms of the Investment Agreement, GM will acquire a 38% asset-level ownership stake in Thacker Pass. The Company and GM terminated the Tranche 2 subscription agreement concurrent with the execution of the JV Investment Agreement. 
+ •Pablo Mercado, Executive Vice President and Chief Financial Officer (“CFO”) is leaving the Company on November 22, 2024, for another career opportunity outside the sector. April Hashimoto, Senior Vice President, Finance and Administration, will assume the additional role of Interim CFO until a new CFO is appointed.
+ 3
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ THACKER PASS
+ 
+ Health and Safety
+ In Q3 2024, the Company continued to implement its formalized health and safety management system, a Safety Roadmap, to build a proactive safety culture and prepare for heavy construction at Thacker Pass. The Company finalized and adopted a Health and Safety Policy, with the overarching theme of “Doing the Right Thing” to safeguard its people, assets and communities where it operates. 
+ Employee training on the SafeStart program, a behavior-based program that teaches employees safe working habits and corrects unsafe behaviors, continued during the quarter. The Company has partnered with its mine service contractor, Sawtooth Mining (“Sawtooth”) to conduct SafeStart training and established an Industrial Hygiene monitoring program for respirable dust and silica analysis. 
+ In early September 2024, the Mine Safety & Health Administration (“MSHA”) conducted a site inspection at Thacker Pass. Three citations were issued against MSHA’s 56.12028 – Testing grounding systems, which require that the continuity and resistance of electrical grounding systems be tested immediately after installation, repair, modification, and annually thereafter. The following day, a qualified electrical contractor completed an inspection of grounding tests and the citations were satisfied. 
+ As of September 30, 2024, 234,245 work hours were completed at Thacker Pass without a lost time incident. Companywide, we have reached 1,074,299 total project workhours without a lost time incident. There was one recordable injury during Q3 2024.
+ Construction Workforce
+ Construction Labor 
+ Thacker Pass Phase 1 is expected to create approximately 1,800 direct jobs during its three-year construction period and approximately 360 jobs in operations for its 40-year mine life.
+ In mid-2023, the Company and its engineering, procurement and construction management (“EPCM”) contractor, Bechtel, entered into a National Construction Agreement (Project Labor Agreement) (“PLA”) with North America’s Building Trades Unions (“NABTU”) for construction of Thacker Pass Phase 1. The parties agreed to utilize the form of a National Construction Agreement with a project specific addendum as the PLA for Thacker Pass construction.
+ Workforce Hub
+ The WFH is being developed as a temporary full-service housing facility for construction workers located in the nearby City of Winnemucca. The Company purchased the land and completed earthworks for the facility. The housing modules are currently stored in-place to allow for staged erection to align with the Thacker Pass Phase 1 construction timeline. 
+ Major earth works for the WFH are complete. The current focus is on finalizing engineering and permitting for utilities and preparing to award contracts for the detailed earthworks, foundation installation and erection of the housing units.
+ Construction and Engineering Progress
+ The Company awarded the EPCM contract to Bechtel for the design, procurement and execution of Phase 1. Bechtel has provided significant expertise, based on its experience with global capital projects, to improve execution planning and to de-risk the construction phase.
+ Following the start of early works construction activities at Thacker Pass in early 2023, the following actions have been completed to prepare for major construction, expected to commence following the issuance of Full Notice To Proceed (“FNTP”):
+ •Completed the first phase of major earthworks including site clearing and plant pad excavation;
+ 4
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ •Stockpiled all growth media for future reclamation; 
+ •Commissioned a drinking-water quality water supply system consisting of a 6.6-mile pipeline, pumps and ponds;
+ •Improved State Route 293 with acceleration and deceleration lanes, conforming to Nevada Department of Transportation specifications to improve safety and traffic flow for vehicles entering and exiting Thacker Pass; and
+ •Completed site infrastructure including erection of temporary offices, fencing, security gates and systems.
+ 
+ The Company continues to focus on de-risking project execution by advancing detailed engineering, project planning and procurement packages. 
+ •Detailed engineering continues to progress in advance of issuing FNTP, currently at approximately 40% design complete.
+ •Site preparation for major earthworks has been completed and the process plant area is currently being excavated (approximately 50% complete) to prepare for concrete placement, forecasted to begin by mid-2025.
+ •Procurement packages for the top seven pieces of long-lead equipment have been awarded. Contracts for key construction materials have been awarded and field purchases of goods and services have commenced.
+ Major Construction Contracts
+ In addition to the EPCM contract, other major construction contracts awarded include:
+ •Aquatech International LLC was awarded the contract for the magnesium sulfate and lithium carbonate chemical plants;
+ •EXP Global Inc. was awarded the contract for the engineering, procurement, construction support, commissioning and start-up services for the sulfuric acid plant; and
+ •MECS, Inc. was awarded the contract for the engineering and equipment for the sulfuric acid plant, including a technology license and system to harness waste heat to generate steam from the sulfuric acid plant, which will subsequently be used to produce carbon-free electricity for the processing plant.
+ Transloading Terminal
+ The Company has leased a parcel of land adjacent to the mainline railroad from the City of Winnemucca and purchased an adjacent property with access to State Route 796, approximately 60 miles from Thacker Pass, for the development of a transloading terminal (“TLT”).
+ The TLT has been planned to provide direct access to the railroad for shipping of reagents during operations. Expected benefits of direct access to the mainline railroad during operations include reduced transportation costs for reagents, such as liquid sulfur and soda ash, and minimizing Scope 3 emissions by utilizing lower carbon intensity transportation methods.
+ On October 28, 2024, the Company awarded Iron Horse Terminals (“IHT”) the contract to design, build, own and operate the TLT. IHT will provide multiple services at the TLT site including unloading rail cars, loading trucks, coordinating rail activities, truck transportation, railcar/truck repairs and facility maintenance. EPCM and operation of the TLT during Phase 1 is expected to generate approximately 100 jobs during construction and approximately 50 jobs during operations. The TLT is expected to be completed in 2027.
+ The TLT design has been advanced to approximately 20% design complete.
+ On August 5, 2024, the Company received approval for a $11.8 million grant from the U.S. Department of Defense to support an upgrade of local power infrastructure and to help build a transloading facility. 
+ 5
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ Capital Cost Estimate
+ In early 2024, together with Bechtel and other major mining and processing plant contractors, the Company further refined the Thacker Pass Phase 1 estimated total CAPEX, following the November 2022 Feasibility Study estimate. The revised CAPEX estimate of $2.93 billion reflects steps the Company has taken to de-risk construction, including:
+ •Achieving a higher degree of engineering, advancing estimates of key quantities and execution plans;
+ •Increasing project contingency to 15%;
+ •Updating labor costs due to an increase in estimated number of construction workers to approximately 1,800 and substantially de-risking skilled labor availability with the PLA;
+ •Securing land and temporary housing facility for the Workforce Hub in Winnemucca for construction workers;
+ •Updating pricing for over 70% of procurement packages to reflect current market conditions; and
+ •During the nine months ended September 30, 2024, $124.6 million of construction capital costs and other project-related costs were capitalized. The majority of capital expenditures are expected in 2025 as the project ramps up to peak construction.
+ Project Timeline
+ Mechanical completion of Thacker Pass Phase 1 is targeted for 2027 following a three-year construction period. Major construction is expected to commence following making Final Investment Decision (“FID”), expected by the end of the year. The Company anticipates a commissioning and ramp-up period of six to twelve months, targeting achieving full capacity production in 2028.
+ Regulatory and Permitting
+ All state and federal permits to begin construction are in place and the Company commenced construction on February 28, 2023, following receipt of a notice to proceed from the Bureau of Land Management (“BLM”).
+ The Company’s application with the State of Nevada Division of Water Resources for the transfer of certain water rights for Phase 1 of Thacker Pass was approved by the State Engineer in February 2023. The State Engineer’s Office issued the final water rights permits on June 30 and July 3, 2023, authorizing the Company to use its water production wells. The State Engineer’s decision was appealed in state court by a local ranching company in March 2023. The case is currently pending. The Company has commenced using the water rights for construction activities at Thacker Pass in accordance with the State Engineer’s authorization.
+ The BLM approved a minor modification to the Plan of Operations in June 2024. The State approved Water Pollution Control Permit minor modifications in January 2024 and September 2024, and an Air Quality Operating Permit minor modification in June 2024. Additional permit modifications to reflect design updates are currently pending, and modifications to conform to any other design updates may be pursued as warranted. 
+ Feasibility Study Reports
+ On October 3, 2023, following Separation, the Company re-issued the feasibility study titled “Feasibility Study: National Instrument 43-101 Technical Report for the Thacker Pass Project, Humboldt County, Nevada, USA” dated effective November 2, 2022 (the “Nov 2022 Feasibility Study”). The Company also issued the “Preliminary Feasibility Study S-K 1300 Technical Report Summary for the Thacker Pass Project Humboldt County, Nevada, USA” with an effective date of December 31, 2022 (the “Thacker Pass S-K 1300 Report” and collectively with the Nov 2022 Feasibility Study, the “Reports”). The Reports are available on SEDAR+ at www.sedarplus.ca and the Company’s website.
+ 6
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ Mineral Reserve and Mineral Resource Estimates
+ The Reports include a Mineral Reserve estimate for Thacker Pass of 3.7 million tonnes (“Mt”) of LCE grading at 3,160 parts per million (“ppm”) lithium (“Li”) of Proven and Probable Mineral Reserves, comprised of 3.3 Mt LCE Proven Reserves at 192.9 Mt and 3,180 ppm Li and 0.4 Mt LCE of Probable Reserves at 24.4 Mt and 3,010 ppm Li.
+ The Thacker Pass S-K 1300 Report includes a Mineral Resource estimate, exclusive of reserves, of 12.1 Mt of LCE grading 1,860 ppm Li of M&I, comprised of 3.4 Mt LCE Measured Resources at 1,990 ppm Li and 8.7 Mt LCE Indicated Resources at 1,820 ppm Li. The Nov 2022 Feasibility Study includes a Mineral Resource estimate, inclusive of reserves, of 16.1 Mt of LCE grading 2,070 ppm Li of M&I, comprised of 7.0 Mt LCE Measured Resources at 534.7 Mt and 2,450 ppm Li, and 9.1 Mt LCE Indicated Resources at 922.5 Mt and 1,850 ppm Li. The Mineral Resource estimate in both Reports also included 3.0 Mt LCE of Inferred Resources grading 1,870 ppm. Mineral Reserves have been converted from Measured and Indicated Mineral Resources in the Reports and have demonstrated economic viability. The effective date of the estimates in the Nov 2022 Feasibility Study was November 2, 2022 and in the Thacker Pass S-K 1300 Report was December 31, 2022. See the Reports filed on SEDAR+ and EDGAR, as applicable, for further details. The Thacker Pass S-K 1300 Report is also discussed in more detail in the Company’s Form 20-F registration statement which was originally filed with the SEC on August 22, 2023.
+ Exploration Program
+ The 2023 drilling program at Thacker Pass to further define and expand the resource estimate concluded successfully in December 2023. A total of 97 core holes totaling 50,099 feet were drilled and the process of sampling and analysis is currently underway. The exploration program continues to confirm that sedimentary deposits are common throughout Thacker Pass.
+ Lithium Technical Development Center 
+ The Lithium Technical Development Center (“Tech Center”) in Reno, Nevada has been awarded the ISO 9001:2015 Quality Management System certification, which is a globally recognized standard for quality management. Implementation of ISO 9001:2015 demonstrates the Company’s commitment to quality in the development of lithium products. 
+ Social Responsibility
+ The Company continues to work collaboratively with the Fort McDermitt Paiute and Shoshone Tribe (the “Tribe”) and communities closest to Thacker Pass to advance our shared priorities.
+ Community Benefits Agreement with Fort McDermitt Tribe
+ A key commitment of the Community Benefits Agreement (“CBA”) signed in October 2022 with the Tribe, located approximately 48 miles by road from Thacker Pass, is to build a new community center with on-site preschool, daycare, playground, cultural facility and communal greenhouse. Tribe leadership identified a building site location for the community center and finalized building designs. The CBA will also provide the Tribe with training and employment opportunities for members of the Tribe; funding to support cultural education and preservation work by the Tribe; and business and contracting opportunities between the parties.
+ Skills Training and Job Opportunities
+ The Company is committed to hiring locally where possible and has been working with Great Basin College to develop and offer a Workforce Development Training program to local communities and the Tribe. 
+ In Q3 2024, the Company worked closely with Great Basin College to develop customized workforce development training specific to Thacker Pass.  Curriculum for process operator, emergency response as well as leadership training are being finalized. In early 2024, a Fort McDermitt Tribe member and a McDermitt resident were among the first local people hired to help the geophysics team prepare for major construction.  
+ 7
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ In Q3 2024, the Company partnered with local tribes to provide full-time employment opportunities to members of the Fort McDermitt Tribe, Duck Valley Tribe and Yomba Tribe.  
+ Community Engagement
+ The communities of Orovada and Kings Valley are the closest communities to Thacker Pass, located approximately 18 and 5 miles from the site, respectively. The Company has met regularly with local community members for the purpose of identifying community concerns and developing ways to address them. As construction activities began, the Company increased its community outreach through open houses, one-on-one meetings and tours of the Tech Center. The Company collaborated with the Humboldt County School District and the BLM to finalize the design and location of a new K-8 school in Orovada. Construction of the new school is expected to be 100% funded by the Company. Detailed engineering and construction planning work is currently underway.
+ CORPORATE
+ Project Financing
+ DOE ATVM Loan Program
+ On October 28, 2024, the Company closed the $2.26 billion DOE Loan from the U.S. DOE LPO under the ATVM Loan Program, for financing the construction of Phase 1 processing facilities at Thacker Pass. The $2.26 billion DOE Loan includes principal of $1.97 billion and capitalized interest during construction of $290 million, with interest rates fixed from the date of each monthly advance for the term of the loan at applicable U.S. Treasury rates, without any additional credit spread. 
+ The key terms and conditions of the DOE Loan are summarized below: 
+ •Loan Quantum: $2.26 billion, principal of $1.97 billion and capitalized interest during construction of $290 million.
+ •Interest Rate: U.S. Treasury Rate, fixed from the date of each monthly advance for the terms of the loan at the applicable long-dated U.S. Treasury rate with 0% spread.
+ •Tenor: 24 years from date of first draw of the DOE Loan.
+ •Other Key Terms: Customary covenants and events of default for a project finance loan facility and customary conditions precedent to loan effectiveness and advances for a project finance loan facility.
+ The closing of the DOE Loan follows receipt of a Conditional Commitment in March 2024. Over the past several months, the DOE confirmed the Company satisfied all technical, legal and financial conditions to close the DOE Loan. 
+ The Company expects to make the first draw on the DOE Loan sometime in the middle of 2025. Conditions precedent to the first draw under the DOE Loan include closing the GM JV Transaction announced on October 16, 2024, funding DOE Loan reserve accounts through the GM $195 letter of credit facility, securing additional corporate working capital to fund pre-commissioning general and operating expenses, commissioning costs through production and financing-related fees and expenses and project finance model bring down. The Company is evaluating various financing alternatives to fund corporate working capital to facilitate prior to first drawdown on the DOE Loan.
+ General Motors Equity Investment, Joint Venture and Offtake
+ On January 30, 2023, Old LAC entered into a purchase agreement with GM, pursuant to which GM agreed to make a $650 million equity investment (the “2023 Transaction”), the proceeds of which are to be used for the construction and development of Thacker Pass. The 2023 Transaction was comprised of two tranches, a first tranche investment of $320 million (“Tranche 1 Investment”) a second tranche investment of up to $330 million (the “Tranche 2 Investment”). Tranche 1 closed and the Phase 1 offtake agreement was executed on February 16, 2023, when GM subscribed for 15,002,000 subscription receipts of Old LAC, which were automatically converted into 15,002,000 units comprising 15,002,000 shares and 11,891,000 warrants of Old LAC which became 15,002,000 common shares of the Company post-Separation. The subscription proceeds were paid to Old LAC and the remaining unspent proceeds were distributed to the Company on October 3, 2023, pursuant to the Arrangement. 
+ 8
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ On October 3, 2023, pursuant to the Separation, the full amount of the remaining unspent proceeds of Tranche 1 Investment were included in the net assets distributed by Old LAC to the Company. 
+ As the Separation was completed before the closing of the Tranche 2 Investment, on October 3, 2023, the agreement for the Tranche 2 Investment in Old LAC was terminated and replaced by a corresponding subscription agreement between GM and the Company whereby the proceeds of the Tranche 2 Investment will be received by the Company.
+ On August 30, 2024, the Company and GM agreed to extend the outside date for the Tranche 2 Investment subscription agreement until December 31, 2024, to provide time for the parties to explore alternative structures for GM’s additional investment in a mutually beneficial manner. 
+ On October 15, 2024, the Company and GM entered into a new Investment Agreement to establish a JV for the purpose of funding, developing, constructing and operating Thacker Pass. Under the terms of the Investment Agreement, GM will acquire a 38% asset-level ownership stake in Thacker Pass for $625 million in total cash and letters of credit (“GM’s JV Investment”), including $430 million of direct cash funding to the JV to support the construction of Phase 1 and a $195 million LC Facility that can be used as collateral to support reserve account requirements under the DOE Loan. The JV Transaction replaces the $330 million Tranche 2 Investment common equity commitment from GM under its original investment agreement with the Company. The key terms of the JV Transaction are summarized below:
+ •Lithium Americas will have a 62% interest in Thacker Pass and will manage the Project (the “Manager”) on behalf of Lithium Americas and GM (together the “JV Partners”).
+ •GM will have a 38% interest in Thacker Pass and commit $625 million in cash and letters of credit to the JV:
+ o$330 million cash to be contributed on the date of the JV closing; 
+ o$100 million cash to be contributed at FID for Phase 1; and 
+ o$195 million LC Facility prior to first draw on the $2.26 billion DOE Loan.
+ •Lithium Americas will contribute $387 million of funding to the JV for its 62% ownership in the Project:
+ o$211 million (with expenditures on capex after August 2024 being credited against and reducing this amount, along with other adjustments) to be contributed on the date of the JV closing; and
+ oThe remainder to be contributed upon FID for Phase 1.
+ oAs of June 30, 2024, Lithium Americas had approximately $376 million in cash and cash equivalents. 
+ •LC Facility provided by GM to the JV as part of its consideration for its equity interest will have no interest and a maturity consistent with DOE Loan requirement that will be withdrawn once replaced with cash that is generated by Thacker Pass.
+ •Board of Directors to be established at the JV level to oversee the JV and approve the Project’s budgets and business plans, and implement policies to align with GM’s vendor requirements, including GM’s Human Rights Policy.
+ •Upon closing of the JV Transaction, GM will also enter into an additional 20-year offtake agreement for up to 38% of production volumes from Phase 2 of Thacker Pass and will retain its right of first offer on the remaining balance of Phase 2 volumes.
+ GM’s JV Investment is subject to certain conditions precedent, including those related to the loan agreement for the DOE Loan. The Company and GM terminated the Tranche 2 subscription agreement concurrent with the execution of the JV Investment Agreement. 
+ As part of the Arrangement, the agreement to supply GM with lithium carbonate production from Thacker Pass (the “Offtake Agreement”) was assigned by Old LAC to the Company. GM has agreed to extend its existing Offtake Agreement for up to 100% of production volumes from Phase 1 of Thacker Pass to 20 years to support the expected maturity of the DOE Loan. Upon closing of the JV, GM will also enter into an additional 20-year offtake agreement for up to 38% of Phase 2 production volumes and will retain its existing right of first offer on the remaining Phase 2 production volumes.
+ 9
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ Common Shares Offering
+ On April 22, 2024, the Company completed an underwritten public offering (the “Offering”) of 55 million common shares (“Common Shares”) at a price of $5.00 per Common Share (the “Issue Price”) for aggregate gross proceeds to the Company of $275 million. The net proceeds from the Offering of approximately $262 million are intended to fund the advancement of construction and development of Thacker Pass.
+ Management Changes
+ Pablo Mercado, Executive Vice President and CFO is leaving the Company on November 22, 2024, for another career opportunity outside the sector. April Hashimoto, Senior Vice President, Finance and Administration, will assume the additional role of Interim CFO until a new CFO is appointed. Ms. Hashimoto has been the Company’s Senior Vice President, Finance and Administration since May 2023. The Company has commenced a process to appoint the next CFO. 
+ SELECTED FINANCIAL INFORMATION
+ Quarterly Information
+ The following table sets out selected financial information for each of the eight most recent quarters, the latest of which ended September 30, 2024. Financial information prior to Q4 2023 has been derived from the historical carve-out financial statements of the Company and was prepared as if the Company had operated as a stand-alone entity throughout those reporting periods. The information should be read in conjunction with the Company’s audited consolidated financial statements for the year ended December 31, 2023 and the Company’s unaudited interim carve-out financials statements for the relevant periods, the notes thereto and the related management's discussion and analysis for the relevant periods.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (in US$ millions)
+ 
+ 2024
+ 
+ 
+ 
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ 2022
+ 
+ 
+ 
+ 
+ 
+ Q3
+ 
+ 
+ Q2
+ 
+ 
+ Q1
+ 
+ 
+ Q4
+ 
+ 
+ Q3
+ 
+ 
+ Q2
+ 
+ 
+ Q1
+ 
+ 
+ Q4
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Total assets
+ 
+ 
+ 693.0
+ 
+ 
+ 
+ 692.2
+ 
+ 
+ 
+ 436.5
+ 
+ 
+ 
+ 439.5
+ 
+ 
+ 
+ 363.5
+ 
+ 
+ 
+ 358.7
+ 
+ 
+ 
+ 351.8
+ 
+ 
+ 
+ 27.8
+ 
+ 
+ 
+ Property, plant and equipment
+ 
+ 
+ 330.6
+ 
+ 
+ 
+ 296.6
+ 
+ 
+ 
+ 268.3
+ 
+ 
+ 
+ 206.1
+ 
+ 
+ 
+ 132.0
+ 
+ 
+ 
+ 83.4
+ 
+ 
+ 
+ 29.4
+ 
+ 
+ 
+ 3.9
+ 
+ 
+ 
+ Working capital
+ 
+ 
+ 323.9
+ 
+ 
+ 
+ 365.5
+ 
+ 
+ 
+ 131.2
+ 
+ 
+ 
+ 181.3
+ 
+ 
+ 
+ 154.0
+ 
+ 
+ 
+ 197.6
+ 
+ 
+ 
+ 216.5
+ 
+ 
+ 
+ (52.3
+ )
+ 
+ 
+ Total liabilities
+ 
+ 
+ 34.3
+ 
+ 
+ 
+ 27.7
+ 
+ 
+ 
+ 30.0
+ 
+ 
+ 
+ 32.0
+ 
+ 
+ 
+ 69.8
+ 
+ 
+ 
+ 71.1
+ 
+ 
+ 
+ 99.7
+ 
+ 
+ 
+ 62.3
+ 
+ 
+ 
+ Expenses
+ 
+ 
+ (5.7
+ )
+ 
+ 
+ (6.1
+ )
+ 
+ 
+ (5.5
+ )
+ 
+ 
+ (13.7
+ )
+ 
+ 
+ (3.2
+ )
+ 
+ 
+ (5.1
+ )
+ 
+ 
+ (5.6
+ )
+ 
+ 
+ (23.1
+ )
+ 
+ 
+ Net income/(loss) for the period
+ 
+ 
+ (8.1
+ )
+ 
+ 
+ (6.3
+ )
+ 
+ 
+ (6.0
+ )
+ 
+ 
+ (12.9
+ )
+ 
+ 
+ (0.2
+ )
+ 
+ 
+ 10.9
+ 
+ 
+ 
+ (1.7
+ )
+ 
+ 
+ (23.5
+ )
+ 
+ 
+ Basic income/(loss) per common share
+ 
+ 
+ (0.04
+ )
+ 
+ 
+ (0.03
+ )
+ 
+ 
+ (0.04
+ )
+ 
+ 
+ (0.08
+ )
+ 
+ 
+ (0.00
+ )
+ 
+ 
+ 0.07
+ 
+ 
+ 
+ (0.01
+ )
+ 
+ 
+ (0.15
+ )
+ 
+ 
+ 
+ Notes:
+ 1.Quarterly amounts added together may not equal to the total reported for the period due to rounding or reclassifications.
+ 2.Working capital is the difference between current assets and current liabilities (refer to section “Use of Non-GAAP Financial Measures and Ratios”).
+ Over the eight most recent quarters, changes in the Company’s total assets, working capital, liabilities and net income/(loss) were driven mainly by financings, capitalization of construction costs at Thacker Pass commencing on February 1, 2023 and changes in fair value of financial instruments. Financing activities include the Tranche 1 Investment that closed in Q1 2023, $75 million of cash distributed to the Company pursuant to the Arrangement in Q4 2023 and a $275 million underwritten public offering that closed in Q2 2024. Changes in fair value of financial instruments reflect fluctuations in the fair value of the Company's investments in Ascend Elements and GT1 as well as revaluation of the Tranche 2 Investment derivative relating to the issuance of a variable number of the Company's shares for the fixed subscription amount.
+ In Q3 2024, property, plant and equipment increased due to the capitalization of Thacker Pass construction costs, including detailed engineering, advancing procurement and execution planning and site preparation for the WFH. Working capital decreased due to cash spent on Thacker Pass construction.
+ In Q2 2024, total assets and working capital increased due to the closing of the Offering. Property, plant and equipment increased due to the capitalization of Thacker Pass construction costs, including detailed engineering, advancing procurement and execution planning and site preparation for the WFH. 
+ 10
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ In Q1 2024, property, plant and equipment increased due to the capitalization of Thacker Pass construction costs including engineering, earthworks and the delivery of the final WFH modules. The impact on total assets of this increase in capitalized Thacker Pass construction costs was offset by a reduction in cash and settlement of prepaids at December 31, 2023, that were capitalized as construction costs in Q1 2024. 
+ In Q4 2023, property, plant and equipment increased due to the capitalization of Thacker Pass construction costs including engineering, earthworks and the acquisition of a portion of the WFH. The decrease in total liabilities is mainly attributable to the elimination of the $46.3 million loan when the receivable by Old LAC was contributed to the Company pursuant to the Arrangement. As a result of this contribution, this intercompany loan eliminates on consolidation at December 31, 2023.
+ In Q3 2023, property, plant and equipment increased due to capitalization of Thacker Pass construction costs, including engineering and earthworks. 
+ In Q2 2023, property, plant and equipment increased due to capitalization of Thacker Pass construction costs including engineering. Total liabilities decreased primarily due to a decrease of $19.0 million in the fair value of the derivative liability embedded in the Tranche 2 Investment.
+ In Q1 2023, total assets and working capital increased primarily due to cash proceeds from the Tranche 1 Investment and property, plant and equipment increased due to commencement of construction of Thacker Pass and, as a result, capitalization of the related project construction costs. Total liabilities increased primarily due to the Tranche 2 Agreement derivative liability of $24.1 million and an increase of $15.0 million in accounts payable and accrued liabilities due to increased activities related to the commencement of construction on February 1, 2023.
+ RESULTS OF OPERATIONS – NET LOSS ANALYSIS
+ Nine Months Ended September 30, 2024 Compared with Nine Months Ended September 30, 2023
+ The following table summarizes the results of operations for the nine months ended September 30, 2024 (“YTD Q3 2024”) compared with the nine months ended September 30, 2023 (“YTD Q3 2023”):
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Financial results
+ 
+ Nine Months Ended September 30,
+ 
+ 
+ Change
+ 
+ 
+ 
+ (in US$ million)
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Exploration and evaluation expenditures
+ 
+ -
+ 
+ 
+ 
+ 3.7
+ 
+ 
+ 
+ 3.7
+ 
+ 
+ 
+ General and administrative expenses
+ 
+ 
+ 13.5
+ 
+ 
+ 
+ 8.0
+ 
+ 
+ 
+ (5.5
+ )
+ 
+ 
+ Equity compensation
+ 
+ 
+ 3.9
+ 
+ 
+ 
+ 2.1
+ 
+ 
+ 
+ (1.8
+ )
+ 
+ 
+ Transaction costs
+ 
+ 
+ 8.2
+ 
+ 
+ 
+ 9.4
+ 
+ 
+ 
+ 1.2
+ 
+ 
+ 
+ Loss/(gain) on financial instruments held at fair value
+ 
+ 
+ 5.8
+ 
+ 
+ 
+ (32.5
+ )
+ 
+ 
+ (38.3
+ )
+ 
+ 
+ Finance costs
+ 
+ -
+ 
+ 
+ 
+ 0.3
+ 
+ 
+ 
+ 0.3
+ 
+ 
+ 
+ Finance and other income
+ 
+ 
+ (11.0
+ )
+ 
+ -
+ 
+ 
+ 
+ 11.0
+ 
+ 
+ 
+ NET (INCOME)/LOSS
+ 
+ 
+ 20.4
+ 
+ 
+ 
+ (9.0
+ )
+ 
+ 
+ (29.4
+ )
+ 
+ 
+ 
+ Net loss of $20.4 million in YTD Q3 2024 compared with net income of $9.0 million in YTD Q3 2023 is primarily attributable to:
+ •Nominal change in fair value of the GM Tranche 2 Agreement derivative in YTD Q3 2024 compared with a gain of $32.8 million in YTD Q3 2023. The derivative is attributable to the variability in the number of shares to be issued pursuant to the Tranche 2 Investment Agreement. On October 15, 2024, the Company and GM terminated the Tranche 2 subscription agreement concurrently with the execution of the JV Investment Agreement. In YTD Q3 2023, the $32.8 million gain on change in fair value of the GM derivative liability reflected a decrease in the Company's share price and volatility and risk-free rate assumptions from December 31, 2022 to September 30, 2023.
+ •An increase in general and administrative and equity compensation reflecting full general and administrative expenses of the Company as a stand-alone entity post-Separation compared with the allocation of salaries and general and administrative expenses used for YTD Q3 2023, which was prepared on a carve-out basis.
+ 11
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ •Loss on change in fair value of the investment in Ascend Elements of $4.1 million in YTD Q3 2024 compared with a gain in fair value of $3.6 million in YTD Q3 2023. The losses in YTD Q3 2024 reflect an estimate of the change in the fair value determined by management based on the overall downturn of the battery recycling market as measured by the average reduction in the fair value of publicly-traded peer companies during the period. The gain in YTD Q3 2023 reflected management's estimated increase in the fair value of the investment based on pricing of a financing round completed by Ascend Elements in Q3 2023 and other market factors.
+ 
+ The increase in net loss was partially offset by:
+ •Finance and other income during YTD Q3 2024 of $11.0 million compared with $nil in YTD Q3 2023, which is primarily due to interest earned on higher balances of cash and short-term deposits after the Separation and the receipt of proceeds pursuant to the Offering.
+ •Lower transaction costs of $8.2 million during YTD Q3 2024 compared with $9.4 million in YTD Q3 2023. Transaction costs primarily related to advancing the DOE Loan, negotiating the GM Investment Agreement and other financing activities in YTD Q3 2024 and related to the GM Transaction and the Separation in YTD Q3 2023.
+ •Loss on change in fair value of the investment in GT1 of $1.8 million in YTD Q3 2024 compared with a loss of $3.9 million in YTD Q3 2023. The losses reflect the reduction in the publicly-listed share price of GT1 at the respective dates.
+ Expenses
+ Exploration and evaluation expenditures were $nil in YTD Q3 2024 compared with $3.7 million in YTD Q3 2023 due to the commencement of construction at Thacker Pass that resulted in the capitalization of a majority of the project costs commencing on February 1, 2023.
+ General and administrative expenses during YTD Q3 2024 increased to $13.5 million from $8.0 million in YTD Q3 2023 reflecting higher expenses of the Company as a stand-alone entity post-Separation compared with the allocation of salaries and general and administrative expenses used for YTD Q3 2023, which was prepared on a carve-out basis.
+ Three Months Ended September 30, 2024 Compared with Three Months Ended September 30, 2023
+ The following table summarizes the results of operations for the three months ended September 30, 2024 (“Q3 2024”) compared with the three months ended September 30, 2023 (“Q3 2023”).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Financial results
+ 
+ Three Months Ended September 30,
+ 
+ 
+ Change
+ 
+ 
+ 
+ (in US$ million)
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ General and administrative expenses
+ 
+ 
+ 4.4
+ 
+ 
+ 
+ 2.7
+ 
+ 
+ 
+ (1.7
+ )
+ 
+ 
+ Equity compensation
+ 
+ 
+ 1.3
+ 
+ 
+ 
+ 0.5
+ 
+ 
+ 
+ (0.8
+ )
+ 
+ 
+ Transaction costs
+ 
+ 
+ 6.1
+ 
+ 
+ 
+ 2.5
+ 
+ 
+ 
+ (3.6
+ )
+ 
+ 
+ Loss/(gain) on financial instruments held at fair value
+ 
+ 
+ 1.3
+ 
+ 
+ 
+ (5.6
+ )
+ 
+ 
+ (6.9
+ )
+ 
+ 
+ Finance cost and (other income)
+ 
+ 
+ (5.0
+ )
+ 
+ 
+ 0.1
+ 
+ 
+ 
+ 5.1
+ 
+ 
+ 
+ NET LOSS
+ 
+ 
+ 8.1
+ 
+ 
+ 
+ 0.2
+ 
+ 
+ 
+ (7.9
+ )
+ 
+ 
+ 
+ Net loss of $8.1 million in Q3 2024 compared with net loss of $0.2 million in Q3 2023 is primarily attributable to:
+ •Gain on change in fair value of the GM Tranche 2 Agreement derivative of $0.1 million compared with a gain of $4.7 million in Q3 2023. The derivative is attributable to the variability in the number of shares to be issued pursuant to the Tranche 2 Investment Agreement. On October 15, 2024, the Company and GM terminated the Tranche 2 subscription agreement concurrently with the execution of the JV Investment Agreement. The $0.1 million gain in Q3 2024 is driven by a decrease in the market value of the Company’s share price and an increase in the volatility assumption from June 30, 2024 to September 30, 2024. In Q3 
+ 12
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ 2023, the $4.7 million gain on change in fair value of the derivative liability reflected a decrease in the Company's share price and volatility and risk-free rate assumptions from June 30, 2023 to September 30, 2023. 
+ •An increase in general and administrative and equity compensation reflecting higher general and administrative expenses of the Company as a stand-alone entity post-Separation compared with the allocation of salaries and general and administrative expenses used for Q3 2023, which was prepared on a carve-out basis.
+ •Loss on change in fair value of the investment in Ascend Elements of $1.6 million in Q3 2024 compared with a gain in fair value of $3.6 million in Q3 2023. The losses reflect an estimate of the change in the fair value determined by management based on the overall downturn of the battery recycling market as measured by the average reduction in the fair value of publicly-traded peer companies during the period. The gains in Q3 2023 reflected management's estimated increase in the fair value of the investment based on pricing of a financing completed by Ascend Elements in Q3 2023 and other market factors.
+ •Higher transaction costs of $6.1 million compared with $2.5 million in Q3 2023. Transaction costs primarily related to negotiations related to the GM Investment Agreement and advancing the DOE Loan in Q3 2024 and the GM Transaction and the Separation in Q3 2023.
+ 
+ The increase in net loss was partially offset by:
+ •Higher finance and other income during Q3 2024 of $5.0 million compared with a nominal amount in Q3 2023, which is primarily due to interest earned on higher balances of cash on hand after the Separation and the Offering.
+ •Gain on change in fair value of the investment in GT1 of $0.1 million in Q3 2024 compared with a loss of $2.7 million in Q3 2023. The gains and losses reflect the fluctuations in the publicly-listed share price of GT1 at the respective dates. 
+ Expenses
+ General and administrative expenses during Q3 2024 increased to $4.4 million from $2.7 million in Q3 2023 reflecting higher expenses of the Company as a stand-alone entity post-Separation compared with the allocation of salaries and general and administrative expenses used for Q3 2023, which was prepared on a carve-out basis.
+ 13
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ LIQUIDITY AND CAPITAL RESOURCES
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash Flow Highlights
+ 
+ Nine Months Ended September 30,
+ 
+ 
+ 
+ (in US$ million)
+ 
+ 2024$
+ 
+ 
+ 2023$
+ 
+ 
+ 
+ Cash used in operating activities
+ 
+ 
+ (3.4
+ )
+ 
+ 
+ (33.8
+ )
+ 
+ 
+ Cash used in investing activities
+ 
+ 
+ (112.3
+ )
+ 
+ 
+ (115.7
+ )
+ 
+ 
+ Cash provided by financing activities
+ 
+ 
+ 261.4
+ 
+ 
+ 
+ 349.4
+ 
+ 
+ 
+ Change in cash and cash equivalents
+ 
+ 
+ 145.7
+ 
+ 
+ 
+ 199.9
+ 
+ 
+ 
+ Cash and cash equivalents - beginning of the period
+ 
+ 
+ 195.5
+ 
+ 
+ 
+ 0.6
+ 
+ 
+ 
+ Cash and cash equivalents - end of the period
+ 
+ 
+ 341.2
+ 
+ 
+ 
+ 200.5
+ 
+ 
+ 
+ 
+ As at September 30, 2024, the Company had cash and cash equivalents of $341.2 million (September 30, 2023 - $200.5 million). 
+ Liquidity Outlook
+ The Company’s working capital was $323.9 million at September 30, 2024 compared with $181.3 million at December 31, 2023. The increase in working capital reflects the net proceeds from the Offering, which is partially offset by the expenditure of $112.1 million on Thacker Pass construction activity in YTD Q3 2024.
+ On January 30, 2023, Old LAC entered into a purchase agreement with GM pursuant to which GM agreed to make a $650 million equity investment in Old LAC, the proceeds of which are to be used for the development and construction of Thacker Pass. The 2023 Transaction was comprised of two tranches, the $320 million Tranche 1 Investment and a Tranche 2 Investment of up to $330 million. The Tranche 1 Investment closed on February 16, 2023. In conjunction with the Separation on October 3, 2023, the Tranche 2 Investment agreement between GM and Old LAC was terminated and replaced by a corresponding subscription agreement between GM and the Company.
+ 
+ On October 15, 2024, the Company and GM entered into the Investment Agreement to establish a JV for the purpose of funding, developing, constructing and operating Thacker Pass. The JV Transaction will deliver $625 million of cash and letters of credit from GM to Thacker Pass. Under the terms of the Investment Agreement, GM will acquire a 38% asset-level ownership stake in Thacker Pass. GM’s JV Investment is subject to certain conditions precedent, including those related to the DOE Loan. The Company and GM terminated the Tranche 2 subscription agreement concurrent with the execution of the Investment Agreement. GM has agreed to extend its existing Offtake Agreement for up to 100% of production volumes from Phase 1 of Thacker Pass to 20 years to support the expected maturity of the DOE Loan. Upon closing of the JV, GM will also enter into an additional 20-year offtake agreement for up to 38% of Phase 2 production volumes and will retain its existing right of first offer on the remaining Phase 2 production volumes.
+ Following a robust due diligence and term sheet negotiation process since March 12, 2024, on October 28, 2024, the Company closed the $2.26 billion DOE Loan under the ATVM Loan Program, for financing the construction of Phase 1 processing facilities at Thacker Pass. The $2.26 billion DOE Loan, with a 24-year maturity, includes principal of $1.97 billion and capitalized interest during construction of $290 million, with interest rates fixed from the date of each monthly advance for the term of the loan at applicable U.S. Treasury rates, without any additional credit spread. 
+ The DOE Loan, GM’s JV Investment and cash on hand are expected to substantially fund the construction of Thacker Pass Phase 1. The Company is evaluating various financing alternatives to fund corporate working capital prior to first drawdown on the DOE Loan.
+ The Company continues to develop Thacker Pass and does not generate revenues from operations. The Company’s capital resources are driven by the status of its projects, and its ability to compete for investor support of its projects.
+ Over the long-term, the Company expects to meet its obligations and fund the development of Thacker Pass through its financing plans described above; however, due to the conditions associated with such financings, there can be no assurance that the Company will successfully complete all of its contemplated financing plans. The Company has the flexibility to manage its expenditure levels in accordance with the anticipated timing of receipt of funds from expected sources of financing. Except as disclosed, the Company does not know of any trends, demands, commitments, events or uncertainties 
+ 14
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ that will result in, or that are reasonably likely to result in, its liquidity and capital resources either materially increasing or decreasing at present or in the foreseeable future. The Company does not engage in currency hedging to offset any risk of currency fluctuations.
+ Operating Activities
+ Cash used in operating activities during the nine months ended September 30, 2024 was $3.4 million compared with cash used by operating activities during the nine months ended September 30, 2023 of $33.8 million. The significant components of operating activities are discussed in the Results of Operations section above.
+ Investing Activities
+ Cash used in investing activities for the nine months ended September 30, 2024 was $112.3 million compared with $115.7 million for the nine months ended September 30, 2023, which primarily reflects construction activity at Thacker Pass in YTD Q3 2024 relative to YTD Q3 2023. 
+ Financing Activities
+ In Q1 2023, prior to the Separation, the Company was funded with $320.1 million in gross proceeds from the General Motors Tranche 1 Investment or capital contributions from Old LAC (recorded within Net former parent investment in equity). The Net former parent investment represents Old LAC’s interest in the recorded net assets and the cumulative net equity investment in LAC North America during the period prior to the Separation on October 3, 2023. As a result, the Net former parent investment during the nine months ended September 30, 2024 was $nil (2023 – $46.2 million).
+ On April 22, 2024, the Company completed the Offering for aggregate gross proceeds to the Company of $275 million or net proceeds of $262 million after deducting underwriters' discount of $12 million and other share issuance costs of $0.8 million. 
+ CURRENT SHARE INFORMATION
+ 
+ Issued and outstanding securities of the Company as at the date of this MD&A were as follows:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Common Shares issued and outstanding
+ 
+ 
+ 218,378,424
+ 
+ 
+ 
+ Restricted Share Units (RSUs)
+ 
+ 
+ 2,306,593
+ 
+ 
+ 
+ Deferred Share Units (DSUs)
+ 
+ 
+ 252,019
+ 
+ 
+ 
+ Performance Share Units (PSUs)
+ 
+ 
+ 1,134,741
+ 
+ 
+ 
+ Common shares, fully diluted
+ 
+ 
+ 222,071,777
+ 
+ 
+ 
+ 
+ All equity incentive units can be settled as common shares on a one-for-one basis, except for PSUs. The number of common shares issuable upon vesting of PSUs granted after the Separation depends on the performance of the Company’s shares over predetermined performance periods as compared to a prescribed peer group of companies and can vary from zero to up to two times the number of PSUs granted.
+ RELATED PARTY TRANSACTIONS
+ Transition Service Agreement
+ Upon closing of the Arrangement, the Company entered into a Transition Services Agreement (“TSA”) with Lithium Argentina whereby each company provided to the other company various accounting, payroll and other technical services. The TSA terminated on October 2, 2024.
+ The Company’s key management includes the executive management team who supervise day-to-day operations and independent directors on the Company’s Board of Directors who oversee management. Their compensation is as follows:
+ 
+ 15
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nine Months Ended September 30,
+ 
+ 
+ 
+ (in US$ thousands)
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Salaries, bonuses, benefits and directors' fees included in the Consolidated Statement of Comprehensive loss
+ 
+ 
+ 2,804
+ 
+ 
+ 
+ 1,626
+ 
+ 
+ 
+ Equity compensation
+ 
+ 
+ 2,757
+ 
+ 
+ 
+ 1,590
+ 
+ 
+ 
+ 
+ 
+ 
+ 5,561
+ 
+ 
+ 
+ 3,216
+ 
+ 
+ 
+ 
+ The above numbers represent (a) an allocation of the remuneration of those directors and key management personnel for services allocated by Old LAC to LAC North America for the nine months ended September 30, 2023; and (b) the actual costs incurred by the Company for directors and key management personnel of the Company for compensation earned at and incurred by the Company for the nine months ended September 30, 2024.
+ Amounts due to directors and key management personnel as at September 30, 2024 are as follows:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (in US$ thousands)
+ 
+ September 30,2024
+ 
+ 
+ December 31,2023
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Total due to directors and key management
+ 
+ 
+ 230
+ 
+ 
+ 
+ 2,376
+ 
+ 
+ 
+ 
+ CONTRACTUAL OBLIGATIONS
+ As at September 30, 2024, the Company had the following contractual obligations (undiscounted):
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Years ending December 31,
+ 
+ 
+ 
+ (in US$ million)
+ 
+ 2024
+ 
+ 
+ 2025
+ 
+ 
+ 2026
+ 
+ 
+ 2027 andlater
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Accounts payable and accrued liabilities
+ 
+ 
+ 23,703
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ 23,703
+ 
+ 
+ 
+ Obligations under office leases¹
+ 
+ 
+ 321
+ 
+ 
+ 
+ 1,217
+ 
+ 
+ 
+ 829
+ 
+ 
+ 
+ 152
+ 
+ 
+ 
+ 2,519
+ 
+ 
+ 
+ Obligations under land leases¹
+ 
+ 
+ 17
+ 
+ 
+ 
+ 70
+ 
+ 
+ 
+ 73
+ 
+ 
+ 
+ 4,940
+ 
+ 
+ 
+ 5,100
+ 
+ 
+ 
+ Other obligations¹
+ 
+ 
+ 13
+ 
+ 
+ 
+ 3,551
+ 
+ 
+ 
+ 23
+ 
+ 
+ -
+ 
+ 
+ 
+ 3,587
+ 
+ 
+ 
+ Total
+ 
+ 
+ 24,054
+ 
+ 
+ 
+ 4,838
+ 
+ 
+ 
+ 925
+ 
+ 
+ 
+ 5,092
+ 
+ 
+ 
+ 34,909
+ 
+ 
+ 
+ 
+ ¹Includes principal and interest/finance charges.
+ The Company’s commitments including royalties and option payments, most of which will be incurred in the future if the Company starts production from Thacker Pass, are disclosed in Notes 8, 11 and 21 of the Q3 2024 financial statements.
+ FINANCIAL INSTRUMENTS
+ Financial assets and liabilities are recognized when the Company becomes a party to the contractual provisions of the instrument. Financial assets are derecognized when the rights to receive cash flows from the assets have expired or have been transferred and the Company has transferred substantially all risks and rewards of ownership.
+ All of the Company’s financial instruments are classified into financial assets and liabilities measured at amortized cost, other than the shares acquired as part of the investment in GT1 and Ascend Elements, and the GM Tranche 2 derivative liability, which are carried at fair value. All financial instruments are initially measured at fair value plus, in the case of items measured at amortized cost, transaction costs that are directly attributable to the acquisition or issue of the financial asset or financial liability.
+ Financial assets are measured at amortized cost if they are held for the collection of contractual cash flows where those cash flows solely represent payments of principal and interest. The Company’s intent is to hold these financial assets in order to collect contractual cash flows. The contractual terms give rise to cash flows on specified dates that are solely payments of principal and interest on the principal amount outstanding.
+ 16
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ The Company assesses on a forward-looking basis the expected credit losses associated with its financial assets carried at amortized cost. The impairment methodology applied depends on whether there has been a significant increase in credit risk.
+ For additional details about the Company’s financial instruments please refer to the Note 21 of the Q3 2024 financial statements.
+ Off-Balance Sheet Arrangements
+ The Company has no off-balance sheet arrangements.
+ DECOMMISSIONING PROVISION AND RECLAMATION BOND
+ The carrying value of the liability for decommissioning that arose to date as a result of exploration activities at Thacker Pass as at September 30, 2024 is $2.6 million. The Company has a $1.7 million reclamation bond payable to the BLM guaranteed by a third-party insurance company. In 2021, BLM approved a reclamation cost estimate for the Thacker Pass plan of operations of $47.6 million. Financial assurance of $13.7 million for the initial work plan was placed with the agency in February 2023 prior to initiating construction with the remaining amount to be placed as construction activities progress.
+ ESTIMATION UNCERTAINTY AND ACCOUNTING POLICY JUDGMENTS
+ Please refer to the Company’s annual consolidated financial statements for the year ended December 31, 2023, for Critical Accounting Estimates and Judgments disclosure and Accounting Policies disclosure. The nature and amount of significant estimates and judgments made by management in applying the Company’s accounting policies and the key sources of estimation uncertainty as well as accounting policies applied during the nine months ended September 30, 2024, were substantially the same as those that management applied in the annual financial statements as at and for the year ended December 31, 2023.
+ Accounting for the Agreements with General Motors
+ The Company’s accounting for the agreements with GM, involved judgment, specifically in the Company’s assumption that in the Company’s determination the Offtake Agreement represents an agreement with market selling prices; and that the Offtake Agreement is separate from the equity financing provided by GM.
+ The fair value of the Tranche 2 Investment Agreement with GM involved estimation which was determined using Monte Carlo simulation. The simulation of the fair value required significant assumptions, including expected volatility of the Company’s share price and a risk- free rate. On October 15, 2024, the Company and GM terminated the Tranche 2 subscription agreement concurrent with the execution of the JV Investment Agreement .
+ Commencement of Construction of Thacker Pass
+ The Company determined that the technical feasibility and commercial viability of Thacker Pass had been demonstrated following the release of the Thacker Pass Feasibility Study on January 31, 2023, the receipt of the favorable ruling from the Federal Court for the issuance of the ROD, and the receipt of notice to proceed from BLM on February 7, 2023. The Company entered into an EPCM agreement and other construction-related contracts. Construction of Thacker Pass, including site preparation, geotechnical drilling, water pipeline development and associated infrastructure had commenced. Accordingly, the Company transferred the capitalized costs of Thacker Pass from exploration and evaluation assets to property, plant and equipment and began to capitalize development costs starting February 1, 2023.
+ Concurrent with the transfer of the Thacker Pass assets from exploration and evaluation to property, plant and equipment, management completed an impairment test of Thacker Pass which compared the carrying value to the recoverable amount. The recoverable amount is the greater of the value in use and the fair value less disposal costs. The fair value less disposal costs was calculated using a discounted cash flow model with feasibility study economics. The significant assumptions that impacted the fair value included future lithium prices, capital cost estimates, operating cost estimates, estimated mineral reserves and resources, and the discount rate. Based on the result of the impairment test, management concluded that there was no impairment.
+ 17
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ Assessment of Impairment of Thacker Pass
+ Management conducts an impairment assessment of Thacker Pass if an impairment indicator as defined in accordance with International Accounting Standard 36 Impairment of Assets (“IAS 36”) is identified. Management determined that there were no impairment indicators at September 30, 2024.
+ Fair Value Remeasurement of Investment in Ascend Elements 
+ The Company conducted an estimation of the fair value of its investment in Ascend Elements at September 30, 2024. As Ascend Elements is a private company, there is no observable market data to use to determine fair value so management's assessment was based on a review of Ascend Elements' business developments, recent financings and trends in the share prices of other public companies operating in the same industry sector. As a result of this assessment, management determined that the fair value of the investment in Ascend Elements declined by 26% based on a number of factors, primarily the overall downturn of the lithium battery recycling market as measured by the decline in the fair value of a basket of peer companies during the third quarter of 2024. As a result, a loss on change in the fair value of the investment in Ascend Elements of $4.1 million was recognized in the Condensed Consolidated Interim Statement of Comprehensive Loss for the nine months ended September 30, 2024.
+ NEW IFRS PRONOUNCEMENTS
+ Amendments to IAS 1 – Presentation of Financial Statements
+ In October 2022, the International Accounting Standards Board (“IASB”) issued amendments to International Accounting Standard (“IAS”) 1, Presentation of Financial Statements titled Non-current Liabilities with Covenants. These amendments sought to improve the information that an entity provides when its right to defer settlement of a liability is subject to compliance with covenants within 12 months after the reporting period. These amendments to IAS 1 override but incorporate the previous amendments, Classification of Liabilities as Current or Non-current, issued in January 2020, which clarified that liabilities are classified as either current or non-current, depending on the rights that exist at the end of the reporting period. Liabilities should be classified as non-current if a company has a substantive right to defer settlement for at least 12 months at the end of the reporting period. The amendments are effective January 1, 2024, with early adoption permitted. Retrospective application is required on adoption. These amendments did not impact Q1 2024 financial statements.
+ IFRS 18 – Presentation and Disclosures in Financial Statements
+ In April 2024, the IASB issued IFRS 18, Presentation and Disclosure of Financial Statements, which replaces IAS 1, Presentation of Financial Statements. IFRS 18 introduces new requirements for all companies to present specific categories and defined subtotals in the statement of profit and loss, disclose explanations of management defined performance measure if used in the financial statements, and improve aggregation and disaggregation.
+ The standard is effective for periods beginning on or after January 1, 2027. Retrospective application is required and early adoption is permitted. The Company is currently evaluating the impact of this new standard on the Company's financial statements.
+ RISKS AND UNCERTAINTIES
+ For risks and uncertainties faced by the Company, please refer to the following disclosure documents filed on the Company’s profile on SEDAR+ at www.sedarplus.ca and EDGAR profile at www.sec.gov: the Company's most recent Annual Report on Form 20-F and most recent Management's Discussion and Analysis for the most recently completed financial year, and interim financial period, in the section entitled “Risks and Uncertainties", and the April 17, 2024 Prospectus Supplement filed to the Prospectus dated November 21, 2023 in the section entitled "Risk Factors."
+ 18
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ TECHNICAL INFORMATION AND QUALIFIED PERSON
+ The Thacker Pass 1300 Report was prepared by independent companies and not associates or affiliates of the Company or any associated company of the Company and are “qualified persons” within the meaning of Subpart 1300 of Regulation S-K.
+ Copies of the Reports are available on the Company’s website at www.lithiumamericas.com and, as applicable, on the Company’s SEDAR+ profile at www.sedarplus.ca and EDGAR profile at www.sec.gov.
+ The scientific and technical information in this MD&A has been reviewed and approved by Dr. Rene LeBlanc, a “Qualified Person” for purposes of NI 43-101 and Subpart 1300 of Regulation S-K by virtue of his experience, education, and professional association. Dr. LeBlanc is the Company’s Vice-President of Growth and Product Strategy.
+ Further information about Thacker Pass, including a description of key assumptions, parameters, description of sampling methods, data verification and QA/QC programs, and methods relating to the results of the feasibility study, the resources and reserves, and factors that may affect those estimates is available in the above-mentioned Reports.
+ USE OF NON-GAAP FINANCIAL MEASURES AND RATIOS
+ The Company’s Q3 2024 financial statements have been prepared in accordance with IFRS applicable to the preparation of interim financial statements, including IAS 34, Interim Financial Reporting. The Q3 2024 financial statements should be read in conjunction with the 2023 Annual Financials which have been prepared in accordance with IFRS. This MD&A refers to non-GAAP financial measures “working capital” and expected average annual “EBITDA” with respect to the results of the feasibility study for Thacker Pass, which are not measures recognized under IFRS and do not have standardized meanings prescribed by IFRS or by Generally Accepted Accounting Principles (“GAAP”) in the United States.
+ These non-GAAP financial measures may not be comparable to similar measures used by other issuers.
+ “Working capital” is the difference between current assets and current liabilities. It is a financial measure that has been derived from the Company’s financial statements and applied on a consistent basis as appropriate. The Company discloses this financial measure because it believes it assists readers in understanding the results of the Company’s operations and financial position and provides further information about the Company’s financial results to investors.
+ “EBITDA” is an abbreviation for earnings before interest, taxes, depreciation and amortization. The Company believes this measure provides investors with an improved ability to evaluate the prospects of the Company and, in particular, Thacker Pass. As Thacker Pass is not in production, this prospective non‐GAAP financial measure may not be reconciled to the nearest comparable measure under IFRS and the equivalent historical non-GAAP financial measure for the prospective non‐GAAP measure or ratio discussed herein is $nil.
+ These measures should not be considered in isolation or used in substitution for other measures of performance prepared in accordance with IFRS.
+ DISCLOSURE CONTROLS AND PROCEDURES
+ Disclosure controls and procedures are designed to provide reasonable assurance that information required to be disclosed by the Company in its annual filings, interim filings or other reports filed under securities legislation is recorded, processed, summarized and reported within the time periods specified by securities regulators and include controls and procedures designed to ensure that information required to be disclosed by the Company in its annual filings, interim filings or other reports filed under securities legislation is accumulated and communicated to the issuer’s management, including its certifying officers, as appropriate to allow timely decisions regarding required disclosure. The Company’s management designed the disclosure controls and procedures to provide reasonable assurance that material information relating to the Company, including its consolidated subsidiaries, is made known to them on a timely basis. The Company’s management believes that any disclosure controls and procedures, no matter how well conceived and operated, can provide only reasonable, not absolute, assurance that the objectives of the disclosure controls and procedures are met.
+ 19
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ On June 28, 2024, the Company determined that it no longer qualifies as a Foreign Private Issuer as defined by the SEC. On the same date, the Company determined that it retains its SEC filing status as an Emerging Growth Company for the year ended December 31, 2024.
+ MANAGEMENT’S REPORT ON INTERNAL CONTROL OVER FINANCIAL REPORTING
+ The Company’s management, including the Chief Executive Officer (“CEO”) and Chief Financial Officer (“CFO”), is responsible for establishing and maintaining adequate internal control over financial reporting. Any system of internal control over financial reporting, no matter how well-designed, has inherent limitations. Therefore, even those systems determined to be effective can provide only reasonable assurance with respect to financial statement preparation and presentation. There have been no significant changes in our internal controls over financial reporting during the nine months ended September 30, 2024, that have materially affected, or are reasonably likely to materially affect, the Company’s internal control over financial reporting.
+ FORWARD-LOOKING STATEMENTS
+ This MD&A contains certain “forward-looking information” within the meaning of applicable Canadian securities legislation, and “forward-looking statements” within the meaning of applicable United States securities legislation (collectively referred to as “forward-looking information” ("FLI")). All statements, other than statements of historical fact, are FLI and can be identified by the use of statements that include, but are not limited to, words, such as “anticipate,” “plan,” “continue,” “estimate,” “expect,” “may,” “will,” “project,” “predict,” “propose,” “potential,” “target,” “implement,” “schedule,” “forecast,” “intend,” “would,” “could,” “might,” “should,” “believe” and similar terminology, or statements that certain actions, events or results “may,” “could,” “would,” “might” or “will” be taken, occur or be achieved. FLI in this MD&A includes, but is not limited to: statements relating to the JV Transaction with GM and the DOE Loan from the DOE, including statements regarding completion of the JV Transaction and satisfaction of draw-down conditions on the DOE Loan; the expectation that the Company and GM will enter into an additional offtake agreement upon closing the JV Transaction; the expected timetable for completing the JV Transaction and the DOE Loan; anticipated timing for a final investment decision and issuance of full notice to proceed in respect of Thacker Pass; expectation about the extent that the JV Transaction, DOE Loan and cash on hand have de-risked funding for the development and construction of Thacker Pass and the ability of LAC to complete all supplementary financing in order to draw-down on the DOE Loan and make a final investment decision; expectations and timing on the commencement of major construction; expectations and timing on the commencement of production; project de-risking initiatives and extent to which work to date has de-risked project execution; the expected operations, financial results and condition of the Company; the Company’s future objectives and strategies to achieve those objectives, including the future prospects of the Company; the estimated cash flow, capitalization and adequacy thereof for the Company; the estimated costs of the development of Thacker Pass, including timing, progress, approach, continuity or change in plans, construction, commissioning, milestones, anticipated production and results thereof and expansion plans; cost and expected benefits of the TLT; anticipated timing to resolve, and the expected outcome of, any complaints or claims made or that could be made concerning the permitting process in the United States for Thacker Pass; estimates, and any change in estimates, of the mineral resources and mineral reserves at Thacker Pass; development of mineral resources and mineral reserves; the realization of mineral resources and mineral reserves estimates, including whether certain mineral resources will ever be developed into mineral reserves, and information and underlying assumptions related thereto; government regulation of mining operations and treatment under governmental and taxation regimes; the future price of commodities, including lithium; the creation of a battery supply chain in the United States to support the electric vehicle market; the timing and amount of future production; currency exchange and interest rates; the Company’s ability to raise capital; expected expenditures to be made by the Company on Thacker Pass; ability to produce high purity battery grade lithium products; settlement of agreements related to the operation and sale of mineral production as well as contracts in respect of operations and inputs required in the course of production; the timing, cost, quantity, capacity and product quality of production at Thacker Pass; successful development of Thacker Pass, including successful results from the Company’s testing facility and third-party tests related thereto; capital costs, operating costs, sustaining capital requirements, after tax net present value and internal rate of return, payback period, sensitivity analyses, and net cash flows of Thacker Pass; anticipated job creation and the completion of the WFH; the expectation that the PLA will minimize construction risk, ensure availability of skilled labor, address the challenges associated with Thacker Pass’ remote location and be effective in prioritizing 
+ 20
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ employment of local and regional skilled craft workers, including members of underrepresented communities; the expected workforce development training program being prepared with Great Basin College; the Company’s commitment to sustainable development, minimizing the environmental impact at Thacker Pass and plans for phased reclamation during the life of mine including use benefits of growth media; ability to achieve capital cost efficiencies; as well as other statements with respect to management’s beliefs, plans, estimates and intentions, and similar statements concerning anticipated future events, results, circumstances, performance or expectations that are not historical facts.
+ FLI involves known and unknown risks, assumptions and other factors that may cause actual results or performance to differ materially. FLI reflects the Company’s current views about future events, and while considered reasonable by the Company as of the date of this MD&A, are inherently subject to significant uncertainties and contingencies. Accordingly, there can be no certainty that they will accurately reflect actual results. Assumptions upon which such FLI is based include, without limitation: the completion of the JV Transaction and DOE Loan prior to the end of 2024, or at all, and the absence of material adverse events affecting the Company during this time; the ability of the Company to satisfy all closing conditions for the JV Transaction and DOE Loan in a timely manner; the ability of the Company to enter into an additional offtake agreement with GM; a cordial business relationship between the Company and third party strategic and contractual partners; the risk of tax liabilities as a result of the Arrangement, and general business and economic uncertainties and adverse market conditions; unforeseen technological and engineering problems; political factors, including the impact of the 2024 U.S. presidential election on, among other things, the extractive resource industry, the green energy transition and the electric vehicle market; uncertainties inherent to feasibility studies and mineral resource and mineral reserve estimates; the ability of the Company to secure sufficient additional financing, advance and develop Thacker Pass, and to produce battery grade lithium; the respective benefits and impacts of Thacker Pass when production operations commence; settlement of agreements related to the operation and sale of mineral production as well as contracts in respect of operations and inputs required in the course of production; the Company’s ability to operate in a safe and effective manner, and without material adverse impact from the effects of climate change or severe weather conditions; uncertainties relating to receiving and maintaining mining, exploration, environmental and other permits or approvals in Nevada; demand for lithium, including that such demand is supported by growth in the electric vehicle market; current technological trends; the impact of increasing competition in the lithium business, and the Company’s competitive position in the industry; continuing support of local communities and the Fort McDermitt Paiute and Shoshone Tribe for Thacker Pass; continuing constructive engagement with these and other stakeholders, and any expected benefits of such engagement; the stable and supportive legislative, regulatory and community environment in the jurisdictions where the Company operates; impacts of inflation, currency exchanges rates, interest rates and other general economic and stock market conditions; the impact of unknown financial contingencies, including litigation costs, environmental compliance costs and costs associated with the impacts of climate change, on the Company’s operations; increased attention to environmental, social and governance (“ESG”) and sustainability-related matters, risks related to the Company’s public statements with respect to such matters that may be subject to heightened scrutiny from public and governmental authorities related to the risk of potential “greenwashing,” (i.e., misleading information or false claims overstating potential sustainability-related benefits); risks that the Company may face regarding potentially conflicting anti-ESG initiatives from certain U.S. state or other governments; estimates of and unpredictable changes to the market prices for lithium products; development and construction costs for Thacker Pass, and costs for any additional exploration work at the project; estimates of mineral resources and mineral reserves, including whether mineral resources not included in mineral reserves will be further developed into mineral reserves; reliability of technical data; anticipated timing and results of exploration, development and construction activities, including the impact of ongoing supply chain disruptions and availability of equipment and supplies on such timing; timely responses from governmental agencies responsible for reviewing and considering the Company’s permitting activities at Thacker Pass; availability of technology, including low carbon energy sources and water rights, on acceptable terms to advance Thacker Pass; government regulation of mining operations and mergers and acquisitions activity, and treatment under governmental, regulatory and taxation regimes; ability to realize expected benefits from investments in or partnerships with third parties; accuracy of development budgets and construction estimates; that the Company will meet its future objectives and priorities; that the Company will have access to adequate capital to fund its future projects and plans; that such future projects and plans will proceed as anticipated; as well as assumptions concerning general economic and industry growth rates, commodity prices, currency exchange and interest rates and competitive conditions. Although the Company believes that 
+ 21
+ 
+ MANAGEMENT’S DISCUSSION AND ANALYSISFOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2024(Expressed in US dollars, unless stated otherwise) 
+ the assumptions and expectations reflected in such FLI are reasonable, the Company can give no assurance that these assumptions and expectations will prove to be correct.
+ Readers are cautioned that the foregoing lists of factors is not exhaustive. There can be no assurance that FLI will prove to be accurate, as actual results and future events could differ materially from those anticipated in such information. As such, readers are cautioned not to place undue reliance on this information, and that this information may not be appropriate for any other purpose, including investment purposes. The Company’s actual results could differ materially from those anticipated in any FLI as a result of the risk factors set out herein, and in the Company’s other continuous disclosure documents available on SEDAR+ at www.sedarplus.ca and EDGAR at www.sec.gov. Readers are further cautioned to review the full description of risks, uncertainties and management’s assumptions in the aforementioned documents and other disclosure documents available on SEDAR+ and on EDGAR.
+ The Company expressly disclaims any obligation to update FLI as a result of new information, future events or otherwise, except as and to the extent required by applicable securities laws. Forward-looking financial information also constitutes FLI within the context of applicable securities laws and as such, is subject to the same risks, uncertainties and assumptions as are set out in the cautionary note above.
+ 22

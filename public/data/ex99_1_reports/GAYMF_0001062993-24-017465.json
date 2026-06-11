@@ -1,0 +1,64 @@
+{
+  "ticker": "GAYMF",
+  "cik": "0001377757",
+  "form": "6-K",
+  "filingDate": "2024-10-08",
+  "accessionNumber": "0001062993-24-017465",
+  "primaryDocument": "form6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000106299324017465/0001062993-24-017465-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1377757/000106299324017465/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-06-11T16:56:55.339Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000106299324017465/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Galiano Gold Inc.: Exhibit 99.1 - Filed by newsfilecorp.com",
+    "headings": [
+      "Galiano Gold Inc.: Exhibit 99.1 - Filed by newsfilecorp.com",
+      "GALIANO GOLD PROVIDES THIRD QUARTER 2024 RESULTS RELEASE AND CONFERENCE CALL DETAILS",
+      "Vancouver, British Columbia, October 8, 2024 - Galiano Gold Inc. (\"Galiano\" or the \"Company\") (TSX, NYSE American: GAU)",
+      "About Galiano Gold Inc.",
+      "Enquiries:"
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nEXHIBIT 99.1\n\n Galiano Gold Inc.: Exhibit 99.1 - Filed by newsfilecorp.com\n\n \n \n \n GALIANO GOLD PROVIDES THIRD QUARTER 2024 RESULTS RELEASE AND CONFERENCE CALL DETAILS \n Vancouver, British Columbia, October 8, 2024 - Galiano Gold Inc. (\"Galiano\" or the \"Company\") (TSX, NYSE American: GAU) is pleased to announce it will release its Q3 2024 financial and operational results after market close on November 7, 2024.\n \n \n \n Conference Call Details\n \n \n Replay (available until November 15, 2024)\n \n \n \n \n Date:\n \n \n November 8, 2024\n \n \n Local:\n \n \n (+1) 289-819-1450\n \n \n \n \n Time:\n \n \n 10:30 AM ET (7:30 AM PT)\n \n \n Toll Free:\n \n \n 1-888-660-6345\n \n \n \n \n Dial In:\n \n \n (+1) 437-900-0527\n \n \n Access Code:\n \n \n 09652 #\n \n \n \n \n Toll Free:\n \n \n 1-888-510-2154\n \n \n \n \n \n \n \n \n \n The call will be webcast (web link: https://app.webinar.net/gNJWpR3dMkz) and can be accessed at Galiano's website: www.galianogold.com\n \n About Galiano Gold Inc.\n Galiano is focused on creating a sustainable business capable of value creation for all stakeholders through production, exploration and disciplined deployment of its financial resources. The Company owns the Asanko Gold Mine, located in Ghana, West Africa. Galiano is committed to the highest standards for environmental management, social responsibility, and the health and safety of its employees and neighbouring communities. For more information, please visit www.galianogold.com.\n \n Enquiries:\n Krista Muhr\n Telephone: 1-778-239-0446\n Email: info@galianogold.com",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 5,
+        "rows": [
+          [
+            "Conference Call Details",
+            "Replay (available until November 15, 2024)"
+          ],
+          [
+            "Date:",
+            "November 8, 2024",
+            "Local:",
+            "(+1) 289-819-1450"
+          ],
+          [
+            "Time:",
+            "10:30 AM ET (7:30 AM PT)",
+            "Toll Free:",
+            "1-888-660-6345"
+          ],
+          [
+            "Dial In:",
+            "(+1) 437-900-0527",
+            "Access Code:",
+            "09652 #"
+          ],
+          [
+            "Toll Free:",
+            "1-888-510-2154"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<html>\n\n<head>\n    <title>Galiano Gold Inc.: Exhibit 99.1 - Filed by newsfilecorp.com</title>\n</head>\n\n<body style=\"font-size:10pt; font-family:'Times New Roman';\">\n    <hr width=\"100%\" size=\"3\" color=\"black\" noshade=\"noshade\"><a name=\"page_1\"></a>\n    <p style=\"text-align: justify;\"><font style=\"color: #075384;\"><b><img src=\"exhibit99-1xu001.jpg\"></b></font></p>\n    <p style=\"text-align: justify;\"><font style=\"color: #075384;\">&#160;</font></p>\n    <p style=\"text-align: center;\"><font style=\"color: #075384; font-size: 12pt;\"><b>GALIANO GOLD PROVIDES THIRD QUARTER 2024 RESULTS <br>RELEASE AND CONFERENCE CALL DETAILS</b></font><font style=\"color: #075384; font-size: 12pt;\">&#160;</font></p>\n    <p style=\"text-align: justify;\"><b>Vancouver, British Columbia, October 8, 2024 - Galiano Gold Inc. (\"Galiano\" or the \"Company\") (TSX, NYSE American: GAU) </b>is pleased to<b> </b>announce it will release its Q3 2024 financial and operational results after market close on November 7, 2024.</p>\n    <table style=\"width: 100%; border-collapse: collapse; font-size: 10pt;\" cellspacing=\"0\" cellpadding=\"0\">\n        <tr>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt;\" colspan=\"2\">\n                <p>Conference Call Details</p>\n            </td>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt;\" colspan=\"2\">\n                <p>Replay (available until November 15, 2024)</p>\n            </td>\n        </tr>\n        <tr>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt; width: 20%;\">\n                <p>Date:</p>\n            </td>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt; width: 30%;\">\n                <p>November 8, 2024</p>\n            </td>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt; width: 20%;\">\n                <p>Local:</p>\n            </td>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt; width: 30%;\">\n                <p>(+1) <font style=\"color: #242424; background-color: #ffffff;\">289-819-1450</font></p>\n            </td>\n        </tr>\n        <tr>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt; width: 20%;\">\n                <p>Time:</p>\n            </td>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt; width: 30%;\">\n                <p>10:30 AM ET (7:30 AM PT)</p>\n            </td>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt; width: 20%;\">\n                <p>Toll Free:</p>\n            </td>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt; width: 30%;\">\n                <p>1-888-660-6345</p>\n            </td>\n        </tr>\n        <tr>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt; width: 20%;\">\n                <p>Dial In:</p>\n            </td>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt; width: 30%;\">\n                <p>(+1) 437-900-0527</p>\n            </td>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt; width: 20%;\">\n                <p>Access Code:</p>\n            </td>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt; width: 30%;\">\n                <p>09652 #</p>\n            </td>\n        </tr>\n        <tr>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt; width: 20%;\">\n                <p>Toll Free:</p>\n            </td>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt; width: 30%;\">\n                <p>1-888-510-2154</p>\n            </td>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt; width: 20%;\">\n                <p>&#160;</p>\n            </td>\n            <td style=\"margin-top: 0pt; margin-bottom: 0pt; width: 30%;\">\n                <p>&#160;</p>\n            </td>\n        </tr>\n    </table>\n    <p style=\"text-align: justify;\">The call will be webcast (web link: <font style=\"color: #0000d4;\"><u>https://app.webinar.net/gNJWpR3dMkz</u></font><font style=\"color: #1f3864;\">) </font>and can be accessed at Galiano's website: <font style=\"color: #0563c1;\"><u>www.galianogold.com</u></font></p>\n    <p style=\"text-align: justify;\"><font style=\"color: #0563c1;\">&#160;</font></p>\n    <p style=\"text-align: justify;\"><b>About Galiano Gold Inc.</b></p>\n    <p style=\"text-align: justify;\">Galiano is focused on creating a sustainable business capable of value creation for all stakeholders through production, exploration and disciplined deployment of its financial resources. The Company owns the Asanko Gold Mine, located in Ghana, West Africa. Galiano is committed to the highest standards for environmental management, social responsibility, and the health and safety of its employees and neighbouring communities. For more information, please visit <font style=\"color: #0000d4;\"><u>www.galianogold.com</u></font>.</p>\n    <p style=\"text-align: justify;\">&#160;</p>\n    <p style=\"text-align: justify;\"><b>Enquiries:</b></p>\n    <p style=\"margin-bottom: 0pt; text-align: justify;\">Krista Muhr</p>\n    <p style=\"margin-top: 0pt; margin-bottom: 0pt; text-align: justify;\">Telephone: 1-778-239-0446</p>\n    <p style=\"margin-top: 0pt; text-align: justify;\">Email: <font style=\"color: #0000ff;\"><u>info@galianogold.com</u></font></p>\n    <p style=\"margin-top: 0pt; text-align: right;\"><font style=\"color: #0000ff;\"><u><img src=\"exhibit99-1xu002.jpg\"></u></font></p>\n    <hr width=\"100%\" size=\"5\" color=\"black\" noshade=\"noshade\">\n</body>\n\n</html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

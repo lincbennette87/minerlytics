@@ -1,0 +1,4311 @@
+EX-99.1
+2
+exhibit99-1.htm
+EXHIBIT 99.1
+
+ Galiano Gold Inc.: Exhibit 99.1 - Filed by newsfilecorp.com
+
+ 
+ 
+ 
+ GALIANO GOLD INC.
+ CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+ UNAUDITED
+ For the three months ended March 31, 2023 and 2022
+ 
+ TABLE OF CONTENTS
+ 
+ 
+ Condensed Consolidated Interim Statements of Financial Position
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ Condensed Consolidated Interim Statements of Operations and Comprehensive Income (Loss)
+ 3
+ 
+ 
+ 
+ 
+ 
+ 
+ Condensed Consolidated Interim Statements of Changes in Equity
+ 4
+ 
+ 
+ 
+ 
+ 
+ 
+ Condensed Consolidated Interim Statements of Cash Flow
+ 5
+ 
+ 
+ 
+ 
+ 
+ 
+ Notes to the Condensed Consolidated Interim Financial Statements
+ 6-24
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ GALIANO GOLD INC.UNAUDITED CONDENSED CONSOLIDATED INTERIM STATEMENTS OF FINANCIAL POSITIONAS AT MARCH 31, 2023 AND DECEMBER 31, 2022(In thousands of United States Dollars)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ March 31, 2023
+ 
+ 
+ December 31, 2022
+ 
+ 
+ 
+ 
+ Note
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash and cash equivalents
+ 
+ 
+ 56,173
+ 
+ 
+ 56,111
+ 
+ 
+ 
+ Receivables
+ 
+ 
+ 22
+ 
+ 
+ 54
+ 
+ 
+ 
+ Receivable due from related party
+ 4
+ 
+ 473
+ 
+ 
+ 1,684
+ 
+ 
+ 
+ Prepaid expenses and deposits
+ 
+ 
+ 744
+ 
+ 
+ 756
+ 
+ 
+ 
+ 
+ 
+ 
+ 57,412
+ 
+ 
+ 58,605
+ 
+ 
+ 
+ Non-current assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Financial assets
+ 5
+ 
+ 69,152
+ 
+ 
+ 66,809
+ 
+ 
+ 
+ Investment in joint venture
+ 6
+ 
+ 63,455
+ 
+ 
+ 54,148
+ 
+ 
+ 
+ Right-of-use asset
+ 
+ 
+ 251
+ 
+ 
+ 277
+ 
+ 
+ 
+ Property, plant and equipment
+ 
+ 
+ 75
+ 
+ 
+ 55
+ 
+ 
+ 
+ 
+ 
+ 
+ 132,933
+ 
+ 
+ 121,289
+ 
+ 
+ 
+ Total assets
+ 
+ 
+ 190,345
+ 
+ 
+ 179,894
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Accounts payable and accrued liabilities
+ 
+ 
+ 4,781
+ 
+ 
+ 4,330
+ 
+ 
+ 
+ Payable due to related party
+ 4
+ 
+ 2,585
+ 
+ 
+ 1,364
+ 
+ 
+ 
+ Lease liability
+ 
+ 
+ 114
+ 
+ 
+ 110
+ 
+ 
+ 
+ 
+ 
+ 
+ 7,480
+ 
+ 
+ 5,804
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Non-current liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Long-term incentive plan liabilities
+ 8
+ 
+ 268
+ 
+ 
+ 195
+ 
+ 
+ 
+ Lease liability
+ 
+ 
+ 174
+ 
+ 
+ 204
+ 
+ 
+ 
+ 
+ 
+ 
+ 442
+ 
+ 
+ 399
+ 
+ 
+ 
+ Total liabilities
+ 
+ 
+ 7,922
+ 
+ 
+ 6,203
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Equity
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Share capital
+ 7
+ 
+ 579,591
+ 
+ 
+ 579,591
+ 
+ 
+ 
+ Equity reserves
+ 8
+ 
+ 52,237
+ 
+ 
+ 51,998
+ 
+ 
+ 
+ Accumulated deficit
+ 
+ 
+ (449,405
+ )
+ 
+ (457,898
+ )
+ 
+ 
+ Total equity
+ 
+ 
+ 182,423
+ 
+ 
+ 173,691
+ 
+ 
+ 
+ Total liabilities and equity
+ 
+ 
+ 190,345
+ 
+ 
+ 179,894
+ 
+ 
+ 
+ Commitments and contingencies
+ 9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Subsequent event
+ 16
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The accompanying notes form an integral part of these condensed consolidated interim financial statements.
+ Approved on behalf of the Board of Directors:
+ 
+ 
+ 
+ "Matt Badylak"
+ 
+ 
+ 
+ "Greg Martin"
+ 
+ 
+ 
+ 
+ Director
+ 
+ 
+ 
+ Director
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ GALIANO GOLD INC.UNAUDITED CONDENSED CONSOLIDATED INTERIM STATEMENTS OF OPERATIONS AND COMPREHENSIVE INCOME (LOSS) FOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022(In thousands of United States Dollars, except dollar per share amounts)
+ 
+ 
+ 
+ 
+ 
+ March 31, 2023
+ 
+ 
+ March 31, 2022
+ 
+ 
+ 
+ 
+ Note
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Share of net income related to joint venture
+ 6
+ 
+ 9,307
+ 
+ 
+ -
+ 
+ 
+ 
+ Service fee earned as operators of joint venture
+ 4
+ 
+ 1,418
+ 
+ 
+ 1,307
+ 
+ 
+ 
+ General and administrative expenses
+ 10
+ 
+ (3,850
+ )
+ 
+ (2,752
+ )
+ 
+ 
+ Exploration and evaluation expenditures
+ 11
+ 
+ (1,413
+ )
+ 
+ (137
+ )
+ 
+ 
+ Income (loss) from operations and joint venture
+ 
+ 
+ 5,462
+ 
+ 
+ (1,582
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Finance income
+ 12
+ 
+ 3,016
+ 
+ 
+ 43
+ 
+ 
+ 
+ Finance expense
+ 
+ 
+ (6
+ )
+ 
+ (9
+ )
+ 
+ 
+ Foreign exchange gain
+ 
+ 
+ 21
+ 
+ 
+ 11
+ 
+ 
+ 
+ Net income (loss) and comprehensive income (loss) for the period
+ 
+ 
+ 8,493
+ 
+ 
+ (1,537
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Weighted average number of shares outstanding:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Basic
+ 13
+ 
+ 224,943,453
+ 
+ 
+ 224,943,453
+ 
+ 
+ 
+ Diluted
+ 13
+ 
+ 224,944,779
+ 
+ 
+ 224,943,453
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net income (loss) per share:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Basic
+ 
+ 
+ 0.04
+ 
+ 
+ (0.01
+ )
+ 
+ 
+ Diluted
+ 
+ 
+ 0.04
+ 
+ 
+ (0.01
+ )
+ 
+ 
+ The accompanying notes form an integral part of these condensed consolidated interim financial statements.
+ 
+ 3
+ 
+ 
+ GALIANO GOLD INC.UNAUDITED CONDENSED CONSOLIDATED INTERIM STATEMENTS OF CHANGES IN EQUITY FOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022(In thousands of United States Dollars, except for number of common shares)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number ofshares
+ 
+ 
+ Share capital
+ 
+ 
+ Equityreserves
+ 
+ 
+ Accumulateddeficit
+ 
+ 
+ Total equity
+ 
+ 
+ 
+ 
+ Note
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance as at December 31, 2021
+ 
+ 
+ 224,943,453
+ 
+ 
+ 579,591
+ 
+ 
+ 51,879
+ 
+ 
+ (498,707
+ )
+ 
+ 132,763
+ 
+ 
+ 
+ Share-based compensation expense
+ 8(a)
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 113
+ 
+ 
+ -
+ 
+ 
+ 113
+ 
+ 
+ 
+ Net loss and comprehensive loss for the period
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ (1,537
+ )
+ 
+ (1,537
+ )
+ 
+ 
+ Balance as at March 31, 2022
+ 
+ 
+ 224,943,453
+ 
+ 
+ 579,591
+ 
+ 
+ 51,992
+ 
+ 
+ (500,244
+ )
+ 
+ 131,339
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance as at December 31, 2022
+ 
+ 
+ 224,943,453
+ 
+ 
+ 579,591
+ 
+ 
+ 51,998
+ 
+ 
+ (457,898
+ )
+ 
+ 173,691
+ 
+ 
+ 
+ Share-based compensation expense
+ 8(a)
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 239
+ 
+ 
+ -
+ 
+ 
+ 239
+ 
+ 
+ 
+ Net income and comprehensive income for the period
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 8,493
+ 
+ 
+ 8,493
+ 
+ 
+ 
+ Balance as at March 31, 2023
+ 
+ 
+ 224,943,453
+ 
+ 
+ 579,591
+ 
+ 
+ 52,237
+ 
+ 
+ (449,405
+ )
+ 
+ 182,423
+ 
+ 
+ 
+ The accompanying notes form an integral part of these condensed consolidated interim financial statements.
+ 
+ 4
+ 
+ 
+ GALIANO GOLD INC.UNAUDITED CONDENSED CONSOLIDATED INTERIM STATEMENTS OF CASH FLOWFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022(In thousands of United States Dollars)
+ 
+ 
+ 
+ 
+ 
+ March 31, 2023
+ 
+ 
+ March 31, 2022
+ 
+ 
+ 
+ 
+ Note
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Operating activities:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net income (loss) for the period
+ 
+ 
+ 8,493
+ 
+ 
+ (1,537
+ )
+ 
+ 
+ Adjustments for:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Share of net income related to joint venture
+ 6
+ 
+ (9,307
+ )
+ 
+ -
+ 
+ 
+ 
+ Depreciation
+ 
+ 
+ 36
+ 
+ 
+ 37
+ 
+ 
+ 
+ Share-based compensation
+ 8,10
+ 
+ 1,597
+ 
+ 
+ (182
+ )
+ 
+ 
+ Finance income
+ 12
+ 
+ (3,016
+ )
+ 
+ (43
+ )
+ 
+ 
+ Finance expense
+ 
+ 
+ 5
+ 
+ 
+ 7
+ 
+ 
+ 
+ Unrealized foreign exchange loss
+ 
+ 
+ 10
+ 
+ 
+ 21
+ 
+ 
+ 
+ Operating cash flow before working capital changes
+ 
+ 
+ (2,182
+ )
+ 
+ (1,697
+ )
+ 
+ 
+ Change in non-cash working capital
+ 14
+ 
+ 1,639
+ 
+ 
+ (1,468
+ )
+ 
+ 
+ Cash used in operating activities
+ 
+ 
+ (543
+ )
+ 
+ (3,165
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Investing activities:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Interest received
+ 
+ 
+ 673
+ 
+ 
+ 43
+ 
+ 
+ 
+ Expenditures on property, plant and equipment
+ 
+ 
+ (29
+ )
+ 
+ (1
+ )
+ 
+ 
+ Cash provided by investing activities
+ 
+ 
+ 644
+ 
+ 
+ 42
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Financing activities:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Office lease payments
+ 
+ 
+ (31
+ )
+ 
+ (34
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Impact of foreign exchange on cash and cash equivalents
+ 
+ 
+ (8
+ )
+ 
+ 20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Increase (decrease) in cash and cash equivalents during the period
+ 
+ 
+ 62
+ 
+ 
+ (3,137
+ )
+ 
+ 
+ Cash and cash equivalents, beginning of period
+ 
+ 
+ 56,111
+ 
+ 
+ 53,521
+ 
+ 
+ 
+ Cash and cash equivalents, end of period
+ 
+ 
+ 56,173
+ 
+ 
+ 50,384
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Supplemental cash flow information
+ 14
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The accompanying notes form an integral part of these condensed consolidated interim financial statements.
+ 
+ 5
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 1. Nature of operations
+ Galiano Gold Inc. ("Galiano" or the "Company") was incorporated on September 23, 1999 under the Business Corporations Act of British Columbia, Canada. The Company's head office and principal address is located at 1640 - 1066 West Hastings Street, Vancouver, British Columbia, V6E 3X1, Canada. The Company's registered and records office is located at Suite 2600, Three Bentall Centre, 595 Burrard Street, Vancouver, V7X 1L3. The Company's common shares trade on the Toronto Stock Exchange and NYSE American Exchange under the ticker symbol "GAU".
+ The Company's principal business activity is the operation of the Asanko Gold Mine ("AGM") through a joint venture arrangement (the "JV") associated with the Company's 45% equity interest in the entity that holds the AGM mining licenses and gold exploration tenements (see note 6). The Government of Ghana has a 10% free-carried interest in the AGM. The AGM consists of four main open-pit mining areas: Abore, Miradani North, Nkran and Esaase, multiple satellite deposits and exploration projects located on the Asankrangwa Gold Belt in the Amansie West District of the Republic of Ghana ("Ghana"), West Africa.
+ In addition to its interest in the AGM, the Company holds the 100% owned Asumura property in Ghana.
+ 2. Basis of presentation 
+ (a) Statement of compliance
+ These condensed consolidated interim financial statements have been prepared in accordance with International Accounting Standard ("IAS") 34 - Interim Financial Reporting, using accounting policies consistent with International Financial Reporting Standards ("IFRS") as issued by the International Accounting Standards Board ("IASB") and Interpretations issued by the International Financial Reporting Interpretations Committee ("IFRIC"). These condensed consolidated interim financial statements do not include all of the necessary annual disclosures in accordance with IFRS and should be read in conjunction with the Company's audited consolidated annual financial statements for the year ended December 31, 2022.
+ The accounting policies followed in these condensed consolidated interim financial statements are the same as those applied in the Company's most recent audited consolidated annual financial statements for the year ended December 31, 2022.
+ These condensed consolidated interim financial statements were authorized for issue and approved by the Board of Directors on May 4, 2023.
+ (b) Basis of presentation and consolidation
+ These condensed consolidated interim financial statements have been prepared on a historical cost basis, except for financial instruments carried at fair value.
+ All amounts are expressed in thousands of United States dollars, unless otherwise stated, and the United States dollar is the functional currency of the Company and each of its subsidiaries. References to C$ are to Canadian dollars.
+ These condensed consolidated interim financial statements incorporate the financial information of the Company and its subsidiaries as at March 31, 2023. Subsidiaries are entities controlled by the Company. Control exists when the Company has power, directly or indirectly, to govern the financial and operating policies of an entity so as to obtain benefits from its activities.
+ 
+ 6
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 2. Basis of presentation (continued)
+ Subsidiaries are included in the consolidated financial statements of the Company from the effective date of acquisition up to the effective date of disposition or loss of control.
+ All significant intercompany amounts and transactions between the Company and its subsidiaries have been eliminated on consolidation.
+ The principal subsidiaries and joint arrangements to which the Company is a party, as well as their geographic locations, were as follows as at March 31, 2023:
+ 
+ 
+ 
+ 
+ Affiliate name
+ 
+ 
+ Location
+ 
+ 
+ Interest
+ 
+ 
+ Classification and accounting method
+ 
+ 
+ 
+ 
+ Galiano Gold South Africa (PTY) Ltd.
+ 
+ 
+ South Africa
+ 
+ 
+ 100%
+ 
+ 
+ Consolidated
+ 
+ 
+ 
+ 
+ Galiano International (Isle of Man) Ltd.
+ 
+ 
+ Isle of Man
+ 
+ 
+ 100%
+ 
+ 
+ Consolidated
+ 
+ 
+ 
+ 
+ Galiano Gold (Isle of Man) Ltd.
+ 
+ 
+ Isle of Man
+ 
+ 
+ 100%
+ 
+ 
+ Consolidated
+ 
+ 
+ 
+ 
+ Galiano Gold Exploration Mali SARL
+ 
+ 
+ Mali
+ 
+ 
+ 100%
+ 
+ 
+ Consolidated
+ 
+ 
+ 
+ 
+ Galiano Gold Exploration Ghana Ltd.1
+ 
+ 
+ Ghana
+ 
+ 
+ 100%
+ 
+ 
+ Consolidated
+ 
+ 
+ 
+ 
+ Asanko Gold Ghana Ltd.
+ 
+ 
+ Ghana
+ 
+ 
+ 45%
+ 
+ 
+ Joint venture; equity method
+ 
+ 
+ 
+ 
+ Adansi Gold Company (GH) Ltd.
+ 
+ 
+ Ghana
+ 
+ 
+ 50%
+ 
+ 
+ Joint venture; equity method
+ 
+ 
+ 
+ 
+ Shika Group Finance Limited
+ 
+ 
+ Isle of Man
+ 
+ 
+ 50%
+ 
+ 
+ Joint venture; equity method
+ 
+ 
+ 
+ 
+ 1 Name changed from Asanko Gold Exploration Ghana Ltd. to Galiano Gold Exploration Ghana Ltd. effective March 29, 2023.
+ (c) Accounting standards adopted during the period
+ The Company adopted the following new IFRS standard effective January 1, 2023. The nature and impact of the new standard on the Company's current period financial statements, if any, are outlined below. Adoption of the standard was made in accordance with the applicable transitional provisions.
+ Amendments to IAS 1
+ On February 12, 2021, the IASB issued Disclosure of Accounting Policies (Amendments to IAS 1 and IFRS Practice Statement 2, Making Materiality Judgements). The amendments help companies provide useful accounting policy disclosures and include requiring companies to disclose their material accounting policies rather than their significant accounting policies; clarifying that accounting policies related to immaterial transactions, other events or conditions are themselves immaterial and as such need not be disclosed; and clarifying that not all accounting policies that relate to material transactions, other events or conditions are themselves material to a company's financial statements. The amendments are effective for annual periods beginning on or after January 1, 2023, with early adoption permitted. The Company is evaluating how the amendments to IAS 1 will impact the disclosures in its consolidated annual financial statements for the year ended December 31, 2023.
+ (d) Accounting standards and amendments issued but not yet adopted
+ There were no accounting standards or amendments to existing standards issued but not yet adopted as of January 1, 2023 that are expected to have a material effect on the Company's or the JV's financial statements in the future.
+ 
+ 7
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 3. Significant accounting judgements and estimates
+ The preparation of financial statements, in conformity with IFRS, requires management to make judgements, estimates and assumptions that affect amounts reported in the financial statements and accompanying notes. Management believes the estimates and assumptions used in these condensed consolidated interim financial statements are reasonable; however, actual results could differ from those estimates and could impact future results of operations and cash flows and reported amounts of assets and liabilities.
+ The Company's significant accounting judgements and estimates were presented in note 5 of the audited annual consolidated financial statements for the years ended December 31, 2022 and 2021.
+ 4. Balances due from/to related party
+ Under the terms of the Joint Venture Agreement (the "JVA") that governs the management of the JV (note 6), the Company is the operator of the AGM and, in consideration for managing the operations of the mine, currently receives a gross annual service fee from the JV of $7.1 million (originally $6.0 million per annum, but adjusted annually for inflation).
+ During the three months ended March 31, 2023, the Company earned a service fee of $1.4 million as operator of the JV (three months ended March 31, 2022 - $1.3 million). For the three months ended March 31, 2023, the service fee was comprised of a gross service fee of $1.8 million less withholding taxes payable in Ghana of $0.4 million (three months ended March 31, 2022 - gross service fee of $1.6 million less withholding taxes payable in Ghana of $0.3 million). As at March 31, 2023, the Company had a receivable due from the JV in respect of the service fee in the amount of $0.5 million, net of withholding taxes (December 31, 2022 - $1.7 million).
+ As at March 31, 2023, the Company had a payable due to the JV in the amount of $2.6 million relating to reimbursement for third party supplier costs and administrative and exploration services performed by the JV on the Company's wholly owned Asumura property in Ghana (December 31, 2022 - $1.4 million). During the three months ended March 31, 2023, the JV provided administrative and exploration services on the Company's Asumura property totaling $0.1 million (three months ended March 31, 2022 - $0.1 million).
+ All transactions with related parties have occurred in the normal course of operations. All amounts are unsecured, non-interest bearing and have no specific terms of settlement.
+ 
+ 8
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 5. Financial assets
+ As part of the JV transaction with Gold Fields (note 6), the Company initially subscribed to 184.9 million non-voting fixed redemption price redeemable preferences shares in Shika Group Finance Limited (the "preference shares"), which were issued at a par value of $1 per redeemable share. The preference shares have no fixed redemption date. As these preference shares have no contractual fixed terms of repayment that arise on specified dates, they are measured at fair value through profit or loss at each reporting period-end and are classified as a Level 3 financial asset in the fair value hierarchy.
+ The following table summarizes the change in the carrying amount of the Company's preference shares held in the joint venture for the three months ended March 31, 2023 and year ended December 31, 2022:
+ 
+ 
+ 
+ 
+ 
+ March 31, 2023
+ 
+ 
+ December 31, 2022
+ 
+ 
+ 
+ 
+ 
+ Number of shares
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 132,400,000
+ 
+ 
+ 66,809
+ 
+ 
+ 72,426
+ 
+ 
+ 
+ Fair value adjustment for the period
+ 
+ -
+ 
+ 
+ 2,343
+ 
+ 
+ (5,617
+ )
+ 
+ 
+ Balance, end of period
+ 
+ 132,400,000
+ 
+ 
+ 69,152
+ 
+ 
+ 66,809
+ 
+ 
+ 
+ 
+ As at March 31, 2023, the Company re-measured the fair value of the preference shares (using the same methodology applied at December 31, 2022) to $69.2 million and recorded a positive fair value adjustment of $2.3 million in finance income for the three months ended March 31, 2023 (three months ended March 31, 2022 - no change in fair value of the preference shares).
+ 6. Asanko Gold Mine joint venture
+ On July 31, 2018, the Company completed a transaction (the "JV Transaction") with a subsidiary of Gold Fields Limited ("Gold Fields"), following which:
+ 
+ 
+ the Company and Gold Fields each own a 45% equity interest in Asanko Gold Ghana Ltd. ("AGGL"), which owns the AGM, with the Government of Ghana retaining a 10% free-carried interest in the AGM;
+ 
+ 
+ the Company and Gold Fields each own a 50% interest in Adansi Gold Company (GH) Ltd. ("Adansi Ghana"), which owns a number of exploration licenses; and
+ 
+ 
+ the Company and Gold Fields each acquired a 50% interest in the JV entity, Shika Group Finance Limited ("Shika").
+ 
+ 
+ As the JV is structured within the legal entities of AGGL, Adansi Ghana and Shika, the JV represents a joint venture as defined under IFRS 11 - Joint Arrangements, and the Company commenced equity accounting for its interest in the JV effective July 31, 2018.
+ 
+ 9
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 6. Asanko Gold Mine joint venture (continued)
+ The following table summarizes the change in the carrying amount of the Company's investment in the AGM joint venture for the three months ended March 31, 2023 and year ended December 31, 2022:
+ 
+ 
+ 
+ 
+ 
+ March 31, 2023 
+ 
+ 
+ December 31, 2022
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 54,148
+ 
+ 
+ -
+ 
+ 
+ 
+ Company's share of the JV's net income for the period
+ 
+ 9,307
+ 
+ 
+ 46,517
+ 
+ 
+ 
+ Impairment reversal on investment in JV
+ 
+ -
+ 
+ 
+ 7,631
+ 
+ 
+ 
+ Balance, end of period
+ 
+ 63,455
+ 
+ 
+ 54,148
+ 
+ 
+ 
+ 
+ The Company's share of the JV's net earnings for the three months ended March 31, 2023 was $9.3 million. For the three months ended March 31, 2022, the Company did not recognize its share of the JV's net loss as the carrying value of the Company's investment in the JV was nil as at March 31, 2022.
+ Operating and financial results of the AGM JV for the three months ended March 31, 2023 and 2022
+ Summarized financial information for the AGM JV, on a 100% basis, is outlined in the tables below.
+ All disclosures in this note 6 are on a 100% JV basis, unless otherwise indicated. The JV applies the same accounting policies as the Company.
+ Statement of Income (Loss) for the three months ended March 31, 2023 and 2022
+ 
+ 
+ 
+ 
+ 
+ 
+ Three months ended March 31,
+ 
+ 
+ 
+ 
+ 
+ 
+ 2023
+ 
+ 
+ 2022
+ 
+ 
+ 
+ 
+ Note
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Revenue
+ (i )
+ 
+ 65,193
+ 
+ 
+ 77,532
+ 
+ 
+ 
+ Production costs
+ (ii)
+ 
+ (34,942
+ )
+ 
+ (53,225
+ )
+ 
+ 
+ Depreciation and depletion
+ 
+ 
+ (2,329
+ )
+ 
+ (9,878
+ )
+ 
+ 
+ Royalties
+ (iii)
+ 
+ (3,265
+ )
+ 
+ (3,877
+ )
+ 
+ 
+ Income from mine operations
+ 
+ 
+ 24,657
+ 
+ 
+ 10,552
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Exploration and evaluation expenditures
+ 
+ 
+ (1,770
+ )
+ 
+ (2,858
+ )
+ 
+ 
+ General and administrative expenses
+ 
+ 
+ (726
+ )
+ 
+ (21,881
+ )
+ 
+ 
+ Income (loss) from operations
+ 
+ 
+ 22,161
+ 
+ 
+ (14,187
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Finance expense
+ (x)
+ 
+ (1,234
+ )
+ 
+ (727
+ )
+ 
+ 
+ Finance income
+ 
+ 
+ 939
+ 
+ 
+ 30
+ 
+ 
+ 
+ Foreign exchange (loss) gain
+ 
+ 
+ (1,252
+ )
+ 
+ 1,246
+ 
+ 
+ 
+ Net income (loss) for the period
+ 
+ 
+ 20,614
+ 
+ 
+ (13,638
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Company's share of net income of the JV for the period
+ 
+ 
+ 9,307
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 
+ 10
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 6. Asanko Gold Mine joint venture (continued)
+ The assets and liabilities of the AGM JV, on a 100% basis, as at March 31, 2023 and December 31, 2022 were as follows:
+ 
+ 
+ 
+ 
+ 
+ March 31, 2023 
+ 
+ 
+ December 31, 2022
+ 
+ 
+ 
+ 
+ Note
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash and cash equivalents
+ (xi)
+ 
+ 102,750
+ 
+ 
+ 91,271
+ 
+ 
+ 
+ Receivables
+ 
+ 
+ 7,448
+ 
+ 
+ 2,771
+ 
+ 
+ 
+ Inventories
+ (iv)
+ 
+ 51,367
+ 
+ 
+ 54,003
+ 
+ 
+ 
+ Prepaid expenses and deposits
+ 
+ 
+ 3,294
+ 
+ 
+ 2,907
+ 
+ 
+ 
+ VAT receivable
+ 
+ 
+ 6,002
+ 
+ 
+ 6,235
+ 
+ 
+ 
+ 
+ 
+ 
+ 170,861
+ 
+ 
+ 157,187
+ 
+ 
+ 
+ Non-current as sets
+ (v),(vi)
+ 
+ 189,910
+ 
+ 
+ 180,640
+ 
+ 
+ 
+ Total assets
+ 
+ 
+ 360,771
+ 
+ 
+ 337,827
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Accounts payable and accrued liabilities
+ 
+ 
+ 29,187
+ 
+ 
+ 30,811
+ 
+ 
+ 
+ Lease liabilities
+ 
+ 
+ 655
+ 
+ 
+ 778
+ 
+ 
+ 
+ 
+ 
+ 
+ 29,842
+ 
+ 
+ 31,589
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Non-current liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lease liabilities
+ 
+ 
+ -
+ 
+ 
+ 113
+ 
+ 
+ 
+ Asset retirement provisions
+ (vii)
+ 
+ 62,338
+ 
+ 
+ 58,148
+ 
+ 
+ 
+ 
+ 
+ 
+ 62,338
+ 
+ 
+ 58,261
+ 
+ 
+ 
+ Total liabilities
+ 
+ 
+ 92,180
+ 
+ 
+ 89,850
+ 
+ 
+ 
+ Equity
+ (ix)
+ 
+ 268,591
+ 
+ 
+ 247,977
+ 
+ 
+ 
+ Total liabilities and equity
+ 
+ 
+ 360,771
+ 
+ 
+ 337,827
+ 
+ 
+ 
+ 
+ 11
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 6. Asanko Gold Mine joint venture (continued)
+ The Company has provided the following incremental disclosures for stakeholders to evaluate the financial performance and financial condition of the AGM. All amounts in the following tables and descriptions are on a 100% basis.
+ (i) Revenues
+ AGGL has an offtake agreement (the "Offtake Agreement") with a special purpose vehicle of Red Kite Opportunities Master Fund Limited ("Red Kite") under which the AGM will sell 100% of future gold production from the AGM up to a maximum of 2.2 million ounces. The gold sale price will be a spot price selected by Red Kite during a nine‐day quotational period following shipment of gold from the mine.
+ During the three months ended March 31, 2023, the AGM sold a portion of its production to the Bank of Ghana under the country's gold buying program. As agreed with Red Kite, gold ounces sold to the Bank of Ghana were considered delivered under the Offtake Agreement, and in consideration the AGM paid to Red Kite a "make whole" payment which was calculated in a similar manner to a nine‐day quotational period. The "make whole" payments made to Red Kite were recognized as a reduction of revenues.
+ During the three months ended March 31, 2023, the AGM sold 35,174 ounces of gold to Red Kite under the Offtake Agreement (three months ended March 31, 2022 - 41,929 gold ounces). As of March 31, 2023, the AGM has delivered 1,502,279 ounces to Red Kite under the Offtake Agreement.
+ Included in revenue of the AGM is $0.1 million relating to by-product silver sales for the three months ended March 31, 2023 (three months ended March 31, 2022 - $0.1 million).
+ (ii) Production costs
+ The following is a summary of production costs by nature, on a 100% basis, incurred during the three months ended March 31, 2023 and 2022:
+ 
+ 
+ 
+ 
+ 
+ Three months ended March 31,
+ 
+ 
+ 
+ 
+ 
+ 2023
+ 
+ 
+ 2022
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Raw materials and consumables
+ 
+ (14,815
+ )
+ 
+ (13,135
+ )
+ 
+ 
+ Salary and employee benefits
+ 
+ (5,441
+ )
+ 
+ (10,163
+ )
+ 
+ 
+ Contractors
+ 
+ (8,605
+ )
+ 
+ (27,703
+ )
+ 
+ 
+ Change in stockpile, gold-in-process and gold dore inventories
+ 
+ (2,510
+ )
+ 
+ 3,259
+ 
+ 
+ 
+ Insurance, government fees, permits and other
+ 
+ (3,571
+ )
+ 
+ (5,483
+ )
+ 
+ 
+ Total production costs
+ 
+ (34,942
+ )
+ 
+ (53,225
+ )
+ 
+ 
+ 
+ During the three months ended March 31, 2023, the AGM recognized a $0.7 million reversal of previously recorded net realizable value adjustments on its stockpile inventory, of which $0.6 million was credited against production costs and $0.1 million was credited against depreciation expense (three months ended March 31, 2022 - $6.7 million reversal of previously recorded net realizable value adjustments on stockpile inventory, of which $4.5 million was credited against production costs and $2.2 million was credited against depreciation expense).
+ 
+ 12
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 6. Asanko Gold Mine joint venture (continued)
+ (iii) Royalties
+ All of the AGM's concessions are subject to a 5% gross revenue royalty payable to the Government of Ghana. The AGM's Akwasiso mining concession is also subject to an additional 2% net smelter return royalty payable to the previous owner of the mineral tenement, and the AGM's Esaase mining concession is also subject to an additional 0.5% net smelter return royalty payable to the Bonte Liquidation Committee.
+ (iv) Inventories
+ The following is a summary of inventories held by the AGM, on a 100% basis, as at March 31, 2023 and December 31, 2022:
+ 
+ 
+ 
+ 
+ 
+ March 31, 2023 
+ 
+ 
+ December 31, 2022
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Gold dore on hand
+ 
+ 1,761
+ 
+ 
+ 3,592
+ 
+ 
+ 
+ Gold-in-process
+ 
+ 1,072
+ 
+ 
+ 937
+ 
+ 
+ 
+ Ore stockpiles
+ 
+ 22,644
+ 
+ 
+ 23,802
+ 
+ 
+ 
+ Materials and spare parts
+ 
+ 25,890
+ 
+ 
+ 25,672
+ 
+ 
+ 
+ Total inventories
+ 
+ 51,367
+ 
+ 
+ 54,003
+ 
+ 
+ 
+ 
+ (v) Reclamation deposit
+ The AGM is required to provide security to the Environmental Protection Agency of Ghana ("EPA") for the performance by the AGM of its reclamation obligations in respect of its mining leases.
+ The AGM deposits a reclamation deposit in a Ghanaian bank and the reclamation deposit is required to be held until receiving a final reclamation completion certificate from the EPA. The AGM is expected to be released from this requirement 45 days following the third anniversary of the date that the AGM receives a final completion certificate. The reclamation deposit accrues interest and is $5.0 million as of March 31, 2023 (December 31, 2022 - $5.0 million). Additionally, bank guarantees of $11.8 million were provided to the EPA, 50% of which is provided by the Company (see note 9).
+ 
+ 13
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 6. Asanko Gold Mine joint venture (continued)
+ (vi) Mineral properties, plant and equipment
+ Additions to mineral properties, plant and equipment
+ During the three months ended March 31, 2023, the AGM capitalized $7.5 million in expenditures related to mineral properties, plant and equipment ("MPP&E"), excluding capitalized deferred stripping costs and asset retirement costs (three months ended March 31, 2022 - additions of $2.4 million).
+ The AGM will not incur any deferred stripping costs until mining operations resume.
+ 2022 impairment reversal on MPP&E
+ On February 22, 2023, the Company reported the results of an independent feasibility study for the AGM, which included the reinstatement of the AGM's mineral reserves effective December 31, 2022, and an updated National Instrument 43‐101 Technical Report was filed on March 28, 2023. The Company considered the positive results received from metallurgical test work carried out at Esaase in 2022 and the reinstatement of mineral reserves at the AGM as of December 31, 2022 to be indicators that the impairment recorded by the JV during the year ended December 31, 2021 may have decreased or no longer exists. As a result, during the year ended December 31, 2022, the JV recognized a $63.2 million impairment reversal on MPP&E based on an estimate of the recoverable amount of the AGM.
+ (vii) Asset retirement provisions
+ The following table shows the movement in the asset retirement provisions of the AGM for the three months ended March 31, 2023 and year ended December 31, 2022:
+ 
+ 
+ 
+ 
+ 
+ March 31, 2023 
+ 
+ 
+ December 31, 2022
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 58,148
+ 
+ 
+ 81,028
+ 
+ 
+ 
+ Accretion expense
+ 
+ 511
+ 
+ 
+ 2,527
+ 
+ 
+ 
+ Change in estimate
+ 
+ 3,694
+ 
+ 
+ (25,331
+ )
+ 
+ 
+ Reclamation undertaken during the period
+ 
+ (15
+ )
+ 
+ (76
+ )
+ 
+ 
+ Total asset retirement provisions, end of period
+ 
+ 62,338
+ 
+ 
+ 58,148
+ 
+ 
+ 
+ 
+ The asset retirement provisions consist of reclamation and closure costs for the JV's Ghanaian mining properties. Reclamation and closure activities include land rehabilitation, dismantling of buildings and mine facilities, ongoing care and maintenance and other costs.
+ As at March 31, 2023, the AGM's reclamation cost estimates were discounted using a long-term risk-free discount rate of 3.5% (December 31, 2022 - 3.9%). The change in estimate during the period was primarily due to a decrease in the risk-free discount rate and an increase in the disturbed area of the tailings storage facility.
+ 
+ 14
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 6. Asanko Gold Mine joint venture (continued)
+ (viii) Legal provision
+ A services provider of the AGM filed a dispute with an arbitration tribunal alleging the AGM breached the terms of a services agreement and claimed approximately $25 million in damages. A provision of $2.0 million has been recorded as of March 31, 2023 (December 31, 2022 - $2.0 million), as management's best estimate to settle the claim. While the Company cannot reasonably predict the ultimate outcome of these actions, and inherent uncertainties exist in predicting such outcomes, the Company believes the estimated provision is reasonable based on the information currently available.
+ (ix) Preferred shares
+ The following table shows the movement in the JV partners' preferred share investments in the JV for the three months ended March 31, 2023 and year ended December 31, 2022:
+ 
+ 
+ 
+ 
+ 
+ March 31, 2023 
+ 
+ 
+ December 31, 2022
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 264,880
+ 
+ 
+ 264,880
+ 
+ 
+ 
+ Distributions to partners during the period
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ Balance, end of period
+ 
+ 264,880
+ 
+ 
+ 264,880
+ 
+ 
+ 
+ 
+ (x) Finance expense
+ The following is a summary of finance expense incurred by the AGM JV during the three months ended March 31, 2023 and 2022:
+ 
+ 
+ 
+ 
+ 
+ Three months ended March 31,
+ 
+ 
+ 
+ 
+ 
+ 2023
+ 
+ 
+ 2022
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Unrealized losses on gold hedging instruments
+ 
+ (526
+ )
+ 
+ -
+ 
+ 
+ 
+ Accretion charges on asset retirement provisions (note vii)
+ 
+ (511
+ )
+ 
+ (486
+ )
+ 
+ 
+ Commitment and standby fees on RCF (note xii)
+ 
+ (56
+ )
+ 
+ (113
+ )
+ 
+ 
+ Withholding taxes
+ 
+ (80
+ )
+ 
+ -
+ 
+ 
+ 
+ Interest on lease liabilities
+ 
+ (7
+ )
+ 
+ (103
+ )
+ 
+ 
+ Other
+ 
+ (54
+ )
+ 
+ (25
+ )
+ 
+ 
+ Total finance expense
+ 
+ (1,234
+ )
+ 
+ (727
+ )
+ 
+ 
+ 
+ 
+ 15
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 6. Asanko Gold Mine joint venture (continued)
+ (xi) Summary of cash flows
+ The cash flows of the AGM, on a 100% basis, were as follows for the three months ended March 31, 2023 and 2022:
+ 
+ 
+ 
+ 
+ 
+ Three months ended March 31,
+ 
+ 
+ 
+ 
+ 
+ 2023
+ 
+ 
+ 2022
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Cash provided by (used in):
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Operating activities
+ 
+ 18,943
+ 
+ 
+ 3,925
+ 
+ 
+ 
+ Investing activities
+ 
+ (6,609
+ )
+ 
+ (2,456
+ )
+ 
+ 
+ Financing activities
+ 
+ (428
+ )
+ 
+ (4,937
+ )
+ 
+ 
+ Impact of foreign exchange on cash and cash equivalents
+ 
+ (427
+ )
+ 
+ (445
+ )
+ 
+ 
+ Increase (decrease) in cash and cash equivalents during the period
+ 
+ 11,479
+ 
+ 
+ (3,913
+ )
+ 
+ 
+ Cash and cash equivalents, beginning of period
+ 
+ 91,271
+ 
+ 
+ 49,211
+ 
+ 
+ 
+ Cash and cash equivalents, end of period
+ 
+ 102,750
+ 
+ 
+ 45,298
+ 
+ 
+ 
+ 
+ (xii) Revolving credit facility
+ In October 2019, the JV entered into a $30.0 million revolving credit facility (the "RCF") with Rand Merchant Bank ("RMB"). During the year ended December 31, 2022, the maturity date of the RCF was extended to September 30, 2023 (with utilization subject to credit review) and the AGM will pay a facility maintenance fee of 0.70% per annum. As at March 31, 2023, the balance drawn under the RCF was nil (December 31, 2022 - nil).
+ During the three months ended March 31, 2023, the AGM recognized standby charges associated with the RCF of $0.1 million (three months ended March 31, 2022 - $0.1 million).
+ 
+ 16
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 7. Share capital
+ (a) Authorized:
+ Unlimited common shares without par value or restrictions.
+ (b) Base shelf prospectus
+ On December 21, 2022, the Company filed a final short form base shelf prospectus (the "Prospectus") under which the Company may sell from time-to-time common shares, warrants, subscription receipts, units, debt securities and/or share purchase contracts of the Company, up to an aggregate of $300 million. The Prospectus has a term of 25 months from the filing date. As of March 31, 2023, no securities were issued under the Prospectus.
+ 8. Equity reserves and long-term incentive plan awards
+ The Company has a stock option plan and a share unit plan under which restricted share units ("RSUs"), performance share units ("PSUs") and deferred share units ("DSUs") may be awarded to directors, officers, employees and other service providers. All awards under the share unit plan may be designated by the Company's Board of Directors to be settled in either cash, shares or a combination thereof. As at March 31, 2023, all units awarded have been cash-settled.
+ Under the two plans, when combined, the number of shares issuable cannot exceed 9% of the issued and outstanding common shares of the Company. Specifically, shares reserved for issuance under the share unit plan, when designated as equity-settled, may not exceed 5% of the issued and outstanding common shares of the Company. Share units awarded as cash settled units will not be considered in computing the limits of the share unit plan.
+ RSUs, PSUs and DSUs are cash-settled awards and therefore represent financial liabilities, which are recorded at fair value at each reporting date and adjusted for the completed proportion of the vesting period, with any changes recorded as shared-based compensation expense in the Statement of Operations and Comprehensive Income (Loss). The financial liability associated with these cash-settled awards is recorded in accounts payable and accrued liabilities for amounts expected to be settled within one year, and a separate long-term incentive plan liability for amounts to be settled in excess of one year, as of the balance sheet date.
+ (a) Stock options
+ Options granted typically vest in 1/3 increments every twelve months following the grant date for a total vesting period of three years. Stock options have a maximum term of 5 years following the grant date. The fair value of stock options granted is determined using the Black Scholes option pricing model.
+ 
+ 17
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 8. Equity reserves and long-term incentive plan awards (continued)
+ The following table is a reconciliation of the movement in stock options for the period:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Weighted average
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ exercise price
+ 
+ 
+ 
+ 
+ 
+ Number of Options
+ 
+ 
+ C$
+ 
+ 
+ 
+ Balance, December 31, 2021
+ 
+ 11,680,170
+ 
+ 
+ 1.61
+ 
+ 
+ 
+ Granted
+ 
+ 4,790,000
+ 
+ 
+ 0.66
+ 
+ 
+ 
+ Cancelled/Expired/Forfeited
+ 
+ (7,973,000
+ )
+ 
+ 1.65
+ 
+ 
+ 
+ Balance, December 31, 2022 and March 31, 2023
+ 
+ 8,497,170
+ 
+ 
+ 1.04
+ 
+ 
+ 
+ 
+ During the three months ended March 31, 2023, the Company recognized $0.2 million of share-based compensation expense relating to stock options (three months ended March 31, 2022 - share-based compensation expense of $0.1 million).
+ (b) Restricted Share Units
+ RSUs granted vest in 1/3 increments every twelve months following the grant date for a total vesting period of three years.
+ The following table is a reconciliation of the movement in the number of RSUs outstanding for the three months ended March 31, 2023 and year ended December 31, 2022:
+ 
+ 
+ 
+ 
+ 
+ Number of RSUs
+ 
+ 
+ 
+ 
+ 
+ March 31, 2023 
+ 
+ 
+ December 31, 2022
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 534,508
+ 
+ 
+ 1,184,594
+ 
+ 
+ 
+ Granted
+ 
+ -
+ 
+ 
+ 299,900
+ 
+ 
+ 
+ Settled in cash
+ 
+ -
+ 
+ 
+ (599,107
+ )
+ 
+ 
+ Cancelled/Forfeited
+ 
+ -
+ 
+ 
+ (350,879
+ )
+ 
+ 
+ Balance, end of period
+ 
+ 534,508
+ 
+ 
+ 534,508
+ 
+ 
+ 
+ 
+ The following table is a reconciliation of the movement in the RSU liability for the three months ended March 31, 2023 and year ended December 31, 2022:
+ 
+ 
+ 
+ 
+ 
+ March 31, 2023 
+ 
+ 
+ December 31, 2022
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 169
+ 
+ 
+ 575
+ 
+ 
+ 
+ Awards vested and change in fair value during the period, net of cancelled/forfeited awards
+ 
+ 55
+ 
+ 
+ (95
+ )
+ 
+ 
+ Settled in cash during the period
+ 
+ -
+ 
+ 
+ (311
+ )
+ 
+ 
+ Total RSU liability, end of period
+ 
+ 224
+ 
+ 
+ 169
+ 
+ 
+ 
+ Less: current portion of RSU liability
+ 
+ (195
+ )
+ 
+ (143
+ )
+ 
+ 
+ Total non-current RSU liability, end of period
+ 
+ 29
+ 
+ 
+ 26
+ 
+ 
+ 
+ 
+ 
+ 18
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 8. Equity reserves and long-term incentive plan awards (continued)
+ (c) Performance share units
+ PSUs vest in either 1/2 or 1/3 increments every twelve months following the grant date for a total vesting period of two or three years and also contain a performance criterion applied to the number of units that vest on a yearly basis. The number of units that vest will be determined by the Company's relative share price performance in comparison to a peer group of companies or upon achievement of certain Company strategic objectives. The PSU performance multiplier ranges from 0% to 150%.
+ The following table is a reconciliation of the movement in the number of PSUs outstanding for the three months ended March 31, 2023 and year ended December 31, 2022:
+ 
+ 
+ 
+ 
+ 
+ Number of PSUs
+ 
+ 
+ 
+ 
+ 
+ March 31, 2023 
+ 
+ 
+ December 31, 2022
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 1,739,401
+ 
+ 
+ 571,000
+ 
+ 
+ 
+ Granted
+ 
+ -
+ 
+ 
+ 1,588,900
+ 
+ 
+ 
+ Settled in cash
+ 
+ -
+ 
+ 
+ (88,167
+ )
+ 
+ 
+ Cancelled/Forfeited
+ 
+ -
+ 
+ 
+ (332,332
+ )
+ 
+ 
+ Balance, end of period
+ 
+ 1,739,401
+ 
+ 
+ 1,739,401
+ 
+ 
+ 
+ 
+ The following table is a reconciliation of the movement in the PSU liability for the three months ended March 31, 2023 and year ended December 31, 2022:
+ 
+ 
+ 
+ 
+ 
+ March 31, 2023 
+ 
+ 
+ December 31, 2022
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 503
+ 
+ 
+ 87
+ 
+ 
+ 
+ Awards vested and change in fair value during the period, net of cancelled/forfeited awards
+ 
+ 253
+ 
+ 
+ 462
+ 
+ 
+ 
+ Settled in cash during the period
+ 
+ -
+ 
+ 
+ (46
+ )
+ 
+ 
+ Total PSU liability, end of period
+ 
+ 756
+ 
+ 
+ 503
+ 
+ 
+ 
+ Less: current portion of PSU liability
+ 
+ (517
+ )
+ 
+ (334
+ )
+ 
+ 
+ Total non-current PSU liability, end of period
+ 
+ 239
+ 
+ 
+ 169
+ 
+ 
+ 
+ 
+ (d) Deferred share units
+ DSUs granted vest over a period of one year and will be paid to directors upon their retirement from the Board of Directors of the Company or upon a change of control.
+ The following table is a reconciliation of the movement in the number of DSUs outstanding for the three months ended March 31, 2023 and year ended December 31, 2022:
+ 
+ 
+ 
+ 
+ 
+ Number of DSUs
+ 
+ 
+ 
+ 
+ 
+ March 31, 2023
+ 
+ 
+ December 31, 2022
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 3,132,000
+ 
+ 
+ 844,200
+ 
+ 
+ 
+ Granted
+ 
+ 1,942,400
+ 
+ 
+ 2,287,800
+ 
+ 
+ 
+ Balance, end of period
+ 
+ 5,074,400
+ 
+ 
+ 3,132,000
+ 
+ 
+ 
+ 
+ 
+ 19
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 8. Equity reserves and long-term incentive plan awards (continued)
+ The following table is a reconciliation of the movement in the DSU liability for the three months ended March 31, 2023 and year ended December 31, 2022:
+ 
+ 
+ 
+ 
+ 
+ March 31, 2023 
+ 
+ 
+ December 31, 2022
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 1,664
+ 
+ 
+ 608
+ 
+ 
+ 
+ Awards vested and change in fair value during the period
+ 
+ 965
+ 
+ 
+ 1,056
+ 
+ 
+ 
+ Total DSU liability, end of period
+ 
+ 2,629
+ 
+ 
+ 1,664
+ 
+ 
+ 
+ 
+ The financial liability associated with cash-settled DSU awards is recorded in accounts payable and accrued liabilities.
+ (e) Phantom share units
+ On November 6, 2020, the Company granted 1,000,000 cash-settled phantom share units to the Chair of the Board. The units will vest three years from the grant date, but will only become payable upon the Chair's departure from the Board or upon a change of control of the Company, in a cash settlement amount equal to the value of 1,000,000 common shares as at the Chair's departure date or date of change of control.
+ The phantom share units represent a financial liability, as they will be settled in cash, and are marked-to-market at each reporting period end and presented in the Statement of Financial Position within accounts payable and accrued liabilities.
+ The following table is a reconciliation of the movement in the phantom share unit liability for the three months ended March 31, 2023 and year ended December 31, 2022:
+ 
+ 
+ 
+ 
+ 
+ March 31, 2023 
+ 
+ 
+ December 31, 2022
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Balance, beginning of period
+ 
+ 381
+ 
+ 
+ 277
+ 
+ 
+ 
+ Awards vested and change in fair value during the period
+ 
+ 85
+ 
+ 
+ 104
+ 
+ 
+ 
+ Total phantom share unit liability, end of period
+ 
+ 466
+ 
+ 
+ 381
+ 
+ 
+ 
+ 
+ 9. Commitments and contingencies
+ Commitments
+ The following table reflects the Company's contractual obligations as they fall due, excluding commitments and liabilities of the JV, as at March 31, 2023 and December 31, 2022:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Over
+ 
+ 
+ March 31,
+ 
+ 
+ December 31,
+ 
+ 
+ 
+ 
+ 
+ Within 1 year
+ 
+ 
+ 1 - 5 years
+ 
+ 
+ 5 years
+ 
+ 
+ 2023
+ 
+ 
+ 2022
+ 
+ 
+ 
+ Accounts payable, accrued liabilities and
+ 
+ 3,559
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 3,559
+ 
+ 
+ 3,173
+ 
+ 
+ 
+ payable due to related party
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Long-term incentive plan (cash-settled awards)
+ 
+ 3,807
+ 
+ 
+ 268
+ 
+ 
+ -
+ 
+ 
+ 4,075
+ 
+ 
+ 2,716
+ 
+ 
+ 
+ Corporate office leases
+ 
+ 129
+ 
+ 
+ 188
+ 
+ 
+ -
+ 
+ 
+ 317
+ 
+ 
+ 348
+ 
+ 
+ 
+ Total
+ 
+ 7,495
+ 
+ 
+ 456
+ 
+ 
+ -
+ 
+ 
+ 7,951
+ 
+ 
+ 6,237
+ 
+ 
+ 
+ 
+ 
+ 20
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 9. Commitments and contingencies (continued)
+ In addition to the above commitments, the Company has provided various parent company guarantees related to the unfunded portion of the AGM's reclamation bond in the amount of $5.9 million (December 31, 2022 - parent company guarantee of $5.9 million).
+ Contingencies
+ Due to the nature of its business, the Company and/or the JV may be subject to regulatory investigations, claims, lawsuits and other proceedings in the ordinary course of its business. While the Company cannot reasonably predict the ultimate outcome of these actions, and inherent uncertainties exist in predicting such outcomes, the Company believes that the ultimate resolution of these actions is not reasonably likely to have a material adverse effect on the Company's or JV's financial condition or future results of operations.
+ 10. General and administrative expenses
+ The following is a summary of general and administrative expenses incurred during the three months ended March 31, 2023 and 2022. General and administrative expenses for the periods presented include, but are not limited to, those expenses incurred in order to earn the service fee as operators of the JV (note 4).
+ 
+ 
+ 
+ 
+ 
+ Three months ended March 31,
+ 
+ 
+ 
+ 
+ 
+ 2023
+ 
+ 
+ 2022
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Wages, benefits and consulting
+ 
+ (1,491
+ )
+ 
+ (2,364
+ )
+ 
+ 
+ Office, rent and administration
+ 
+ (314
+ )
+ 
+ (299
+ )
+ 
+ 
+ Professional and legal
+ 
+ (153
+ )
+ 
+ (149
+ )
+ 
+ 
+ Share-based compensation
+ 
+ (1,597
+ )
+ 
+ 182
+ 
+ 
+ 
+ Travel, marketing, investor relations and regulatory 
+ 
+ (259
+ )
+ 
+ (85
+ )
+ 
+ 
+ Depreciation
+ 
+ (36
+ )
+ 
+ (37
+ )
+ 
+ 
+ Total G&A expense
+ 
+ (3,850
+ )
+ 
+ (2,752
+ )
+ 
+ 
+ 
+ 11. Exploration and evaluation ("E&E") expenditures
+ The following is a summary of E&E expenses incurred by the Company during the three months ended March 31, 2023 and 2022. E&E expenses incurred relate to work performed on the Company's wholly owned Asumura and Mali properties.
+ 
+ 
+ 
+ 
+ 
+ Three months ended March 31,
+ 
+ 
+ 
+ 
+ 
+ 2023
+ 
+ 
+ 2022
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Contractors and consulting
+ 
+ (125
+ )
+ 
+ (42
+ )
+ 
+ 
+ Drilling and assays
+ 
+ (1,213
+ )
+ 
+ (25
+ )
+ 
+ 
+ Field supplies and camp costs
+ 
+ (13
+ )
+ 
+ (22
+ )
+ 
+ 
+ Crop compensation, community and permitting
+ 
+ (52
+ )
+ 
+ (44
+ )
+ 
+ 
+ Other
+ 
+ (10
+ )
+ 
+ (4
+ )
+ 
+ 
+ Total E&E expense
+ 
+ (1,413
+ )
+ 
+ (137
+ )
+ 
+ 
+ 
+ 
+ 21
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 12. Finance income
+ The following is a summary of finance income earned during the three months ended March 31, 2023 and 2022:
+ 
+ 
+ 
+ 
+ 
+ Three months ended March 31,
+ 
+ 
+ 
+ 
+ 
+ 2023
+ 
+ 
+ 2022
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Fair value adjustment on redeemable preference shares (note 5)
+ 
+ 2,343
+ 
+ 
+ -
+ 
+ 
+ 
+ Interest income
+ 
+ 673
+ 
+ 
+ 43
+ 
+ 
+ 
+ Total finance income
+ 
+ 3,016
+ 
+ 
+ 43
+ 
+ 
+ 
+ 
+ 13. Income (loss) per share
+ For the three months ended March 31, 2023 and 2022, the calculation of basic and diluted income (loss) per share is based on the following data:
+ 
+ 
+ 
+ 
+ 
+ Three months ended March 31,
+ 
+ 
+ 
+ 
+ 
+ 2023
+ 
+ 
+ 2022
+ 
+ 
+ 
+ Net income (loss) for the period
+ 
+ 8,493
+ 
+ 
+ (1,537
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number of shares
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Weighted average number of ordinary shares - basic
+ 
+ 224,943,453
+ 
+ 
+ 224,943,453
+ 
+ 
+ 
+ Effect of dilutive share options
+ 
+ 1,326
+ 
+ 
+ -
+ 
+ 
+ 
+ Weighted average number of ordinary shares - diluted
+ 
+ 224,944,779
+ 
+ 
+ 224,943,453
+ 
+ 
+ 
+ 
+ For the three months ended March 31, 2023, excluded from the calculation of diluted weighted average shares were 329,795 stock options that were determined to be anti-dilutive. For the three months ended March 31, 2022, the effect of all potentially dilutive securities was anti-dilutive given that the Company reported a net loss for the period.
+ 14. Supplemental cash flow information
+ The following table summarizes the changes in non-cash working capital for the three months ended March 31, 2023 and 2022:
+ 
+ 
+ 
+ 
+ 
+ Three months ended March 31,
+ 
+ 
+ 
+ 
+ 
+ 2023
+ 
+ 
+ 2022
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Receivables and receivable due from related party
+ 
+ 1,243
+ 
+ 
+ (1,406
+ )
+ 
+ 
+ Prepaid expenses and deposits
+ 
+ 12
+ 
+ 
+ 250
+ 
+ 
+ 
+ Accounts payable, accrued liabilities and payable due to related party
+ 
+ 384
+ 
+ 
+ (312
+ )
+ 
+ 
+ Change in non-cash working capital
+ 
+ 1,639
+ 
+ 
+ (1,468
+ )
+ 
+ 
+ 
+ 
+ 22
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 15. Segmented information
+ Geographic Information
+ As at March 31, 2023, the Company has only one reportable operating segment being the corporate function with its head office in Canada. Total assets in West Africa include the Company's 45% interest in the Asanko Gold Mine JV.
+ Geographic allocation of total assets and liabilities
+ 
+ 
+ 
+ March 31, 2023
+ 
+ Canada
+ 
+ 
+ West Africa
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Current assets
+ 
+ 57,377
+ 
+ 
+ 35
+ 
+ 
+ 57,412
+ 
+ 
+ 
+ Property, plant and equipment and right-of-use assets
+ 
+ 326
+ 
+ 
+ -
+ 
+ 
+ 326
+ 
+ 
+ 
+ Other non-current assets
+ 
+ -
+ 
+ 
+ 132,607
+ 
+ 
+ 132,607
+ 
+ 
+ 
+ Total assets
+ 
+ 57,703
+ 
+ 
+ 132,642
+ 
+ 
+ 190,345
+ 
+ 
+ 
+ Current liabilities
+ 
+ 4,656
+ 
+ 
+ 2,824
+ 
+ 
+ 7,480
+ 
+ 
+ 
+ Non-current liabilities
+ 
+ 442
+ 
+ 
+ -
+ 
+ 
+ 442
+ 
+ 
+ 
+ Total liabilities
+ 
+ 5,098
+ 
+ 
+ 2,824
+ 
+ 
+ 7,922
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ December 31, 2022
+ 
+ Canada
+ 
+ 
+ West Africa
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $ 
+ 
+ 
+ $ 
+ 
+ 
+ $ 
+ 
+ 
+ 
+ Current assets
+ 
+ 58,568
+ 
+ 
+ 37
+ 
+ 
+ 58,605
+ 
+ 
+ 
+ Property, plant and equipment and right-of-use assets
+ 
+ 332
+ 
+ 
+ -
+ 
+ 
+ 332
+ 
+ 
+ 
+ Other non-current assets
+ 
+ -
+ 
+ 
+ 120,957
+ 
+ 
+ 120,957
+ 
+ 
+ 
+ Total assets
+ 
+ 58,900
+ 
+ 
+ 120,994
+ 
+ 
+ 179,894
+ 
+ 
+ 
+ Current liabilities
+ 
+ 4,363
+ 
+ 
+ 1,441
+ 
+ 
+ 5,804
+ 
+ 
+ 
+ Non-current liabilities
+ 
+ 399
+ 
+ 
+ -
+ 
+ 
+ 399
+ 
+ 
+ 
+ Total liabilities
+ 
+ 4,762
+ 
+ 
+ 1,441
+ 
+ 
+ 6,203
+ 
+ 
+ 
+ 
+ 
+ 23
+ 
+ 
+ 
+ 
+ 
+ 
+ GALIANO GOLD INC.NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTSFOR THE THREE MONTHS ENDED MARCH 31, 2023 AND 2022Expressed in thousands of United States Dollars unless otherwise stated
+ 
+ 
+ 
+ 
+ 15. Segmented information (continued)
+ Geographic allocation of the Statement of Operations and Comprehensive Income (Loss)
+ For the three months ended March 31, 2023:
+ 
+ 
+ 
+ 
+ 
+ Canada
+ 
+ 
+ West Africa
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Share of net income related to joint venture
+ 
+ -
+ 
+ 
+ 9,307
+ 
+ 
+ 9,307
+ 
+ 
+ 
+ Service fee earned as operators of joint venture
+ 
+ 1,418
+ 
+ 
+ -
+ 
+ 
+ 1,418
+ 
+ 
+ 
+ General and administrative expenses
+ 
+ (3,806
+ )
+ 
+ (44
+ )
+ 
+ (3,850
+ )
+ 
+ 
+ Exploration and evaluation expenditures
+ 
+ -
+ 
+ 
+ (1,413
+ )
+ 
+ (1,413
+ )
+ 
+ 
+ (Loss ) income from operations and joint venture
+ 
+ (2,388
+ )
+ 
+ 7,850
+ 
+ 
+ 5,462
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Finance income
+ 
+ 673
+ 
+ 
+ 2,343
+ 
+ 
+ 3,016
+ 
+ 
+ 
+ Finance expense
+ 
+ (6
+ )
+ 
+ -
+ 
+ 
+ (6
+ )
+ 
+ 
+ Foreign exchange gain (loss)
+ 
+ 23
+ 
+ 
+ (2
+ )
+ 
+ 21
+ 
+ 
+ 
+ Net (loss) income and comprehensive (loss) income for the period
+ 
+ (1,698
+ )
+ 
+ 10,191
+ 
+ 
+ 8,493
+ 
+ 
+ 
+ 
+ For the three months ended March 31, 2022:
+ 
+ 
+ 
+ 
+ 
+ Canada
+ 
+ 
+ West Africa
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Service fee earned as operators of joint venture
+ 
+ 1,307
+ 
+ 
+ -
+ 
+ 
+ 1,307
+ 
+ 
+ 
+ General and administrative expenses
+ 
+ (2,735
+ )
+ 
+ (17
+ )
+ 
+ (2,752
+ )
+ 
+ 
+ Exploration and evaluation expenditures
+ 
+ -
+ 
+ 
+ (137
+ )
+ 
+ (137
+ )
+ 
+ 
+ Loss from operations and joint venture
+ 
+ (1,428
+ )
+ 
+ (154
+ )
+ 
+ (1,582
+ )
+ 
+ 
+ Finance income
+ 
+ 43
+ 
+ 
+ -
+ 
+ 
+ 43
+ 
+ 
+ 
+ Finance expense
+ 
+ (9
+ )
+ 
+ -
+ 
+ 
+ (9
+ )
+ 
+ 
+ Foreign exchange gain
+ 
+ 11
+ 
+ 
+ -
+ 
+ 
+ 11
+ 
+ 
+ 
+ Net loss and comprehensive loss for the period
+ 
+ (1,383
+ )
+ 
+ (154
+ )
+ 
+ (1,537
+ )
+ 
+ 
+ 
+ 16. Subsequent event
+ Subsequent to March 31, 2023, the Company granted the following awards under its stock option and share unit plans to officers and employees of the Company:
+ • 4,294,000 stock options
+ • 1,167,200 PSUs
+ • 326,200 RSUs
+ 
+ 24

@@ -1,0 +1,956 @@
+EX-99.1
+2
+exhibit99-1.htm
+EXHIBIT 99.1
+
+ Lithium Americas Corp.: Exhibit 99.1 - Filed by newsfilecorp.com
+
+ 
+ 
+ UNDERWRITING AGREEMENT
+ January 20, 2021
+ Lithium Americas Corp.900 West Hastings Street, Suite 300Vancouver, British ColumbiaV6C 1E5
+ Attention: Mr. Jonathan Evans
+ President, Chief Executive Officer and Director
+ Dear Sirs:
+ Canaccord Genuity LLC (the "Lead Underwriter"), Deutsche Bank Securities Inc. ("Deutsche Bank"), Evercore Group L.L.C. ("Evercore"), Stifel, Nicolaus & Company, Incorporated ("Stifel"), National Bank Financial Inc. ("National Bank") and Cormark Securities Inc. ("Cormark" and together with the Lead Underwriter, Evercore, Deutsche Bank, Stifel and National Bank, the "Underwriters" and each individually an "Underwriter") hereby severally, and not jointly nor jointly and severally, agree to purchase from Lithium Americas Corp. (the "Corporation") in the respective percentages set forth in Section 22, and the Corporation hereby agrees to issue and sell to the Underwriters, upon and subject to the terms hereof, an aggregate of 15,909,091 common shares of the Corporation (the "Firm Shares") on an underwritten basis at a price of US$22 per Firm Share (the "Offering Price") for aggregate gross proceeds of US$350,000,002. 
+ Upon and subject to the terms and conditions contained herein, the Corporation hereby grants to the Underwriters an option (the "Over-Allotment Option") to purchase severally, and not jointly nor jointly and severally, in the respective percentages set forth in Section 22 hereof, up to an additional 2,272,727 common shares of the Corporation (the "Additional Shares") at a price of US$22 per Additional Share for the purpose of covering the Underwriters' over-allocation position and for market stabilization purposes. The Over-Allotment Option may be exercised in accordance with Section 16 hereof. The Firm Shares and the Additional Shares are collectively referred to herein as the "Offered Shares".
+ The undersigned understand that the Corporation has prepared and filed with each of the Canadian Securities Commissions (as hereinafter defined) (i) a preliminary short form base shelf prospectus dated September 25, 2020 (together with the Documents Incorporated by Reference (as hereinafter defined) therein, the "Canadian Preliminary Base Shelf Prospectus"), and (ii) a final short form base shelf prospectus dated October 19, 2020 (together with the Documents Incorporated by Reference therein and any supplements or amendments thereto, the "Canadian Final Base Shelf Prospectus"), in respect of up to US$500,000,000 (or the equivalent thereof, at the date of issue, in Canadian dollars or any other currency or currencies, as the case may be) in certain securities of the Corporation, including the Offered Shares, omitting the Shelf Information (as hereinafter defined) in accordance with the Shelf Procedures (as hereinafter defined) and that the Corporation has received a Dual Prospectus Receipt (as hereinafter defined) for the Canadian Preliminary Base Shelf Prospectus on September 25, 2020 and for the Canadian Final Base Shelf Prospectus on October 19, 2020. The Corporation has also prepared and filed a preliminary prospectus supplement relating to the Offering (as hereinafter defined), which excluded certain pricing information, with the Canadian Securities Commissions, in accordance with the Shelf Procedures (including the Documents Incorporated by Reference therein, the "Canadian Preliminary Prospectus Supplement", and together with the Canadian Final Base Shelf Prospectus, the "Canadian Preliminary Prospectus").
+ 1
+ 
+ The undersigned also understand that the Corporation has prepared and filed with the United States Securities and Exchange Commission (the "SEC") pursuant to the Canada/U.S. Multijurisdictional Disclosure System adopted by the United States and Canada (the "MJDS"), a registration statement on Form F-10 (File No. 333-249078) covering the public offering and sale of the securities qualified under Applicable Securities Laws (as hereinafter defined) by the Canadian Final Base Shelf Prospectus, including the Offered Shares, under the United States Securities Act of 1933, as amended (the "U.S. Securities Act"), and the rules and regulations of the SEC thereunder (the Canadian Final Base Shelf Prospectus, together with any Documents Incorporated by Reference therein, any supplements or amendments thereto and with such deletions therefrom and additions or changes thereto as are permitted or required by Form F-10 and the applicable rules and regulations of the SEC, in the form included in such Form F-10, the "U.S. Base Prospectus" and such registration statement, including the prospectus contained therein at the time it become effective, as amended or supplemented, and the exhibits thereto and the Documents Incorporated by Reference therein, in the form in which it became effective, is herein called the "Registration Statement"). The Corporation has also prepared and filed with the SEC an appointment of agent for service of process upon the Corporation on Form F-X (the "Form F-X") in conjunction with the filing of the Registration Statement (as hereinafter defined). The Corporation has also prepared and filed with the SEC, in accordance with General Instruction II.L of Form F-10, the Canadian Preliminary Prospectus Supplement, with such deletions therefrom and additions or changes thereto, as are permitted or required by Form F-10 and the applicable rules and regulations of the SEC (the "U.S. Preliminary Prospectus Supplement", and together with the U.S. Base Prospectus, the "U.S. Preliminary Prospectus").
+ In addition, the undersigned also understand that the Corporation will (i) prepare and file, as promptly as practicable and in any event by the earlier of the date a Canadian Prospectus Supplement (as hereinafter defined) is first sent or delivered to a purchaser in the Offering and one Business Day (as hereinafter defined) of the execution and delivery of this Agreement, with the Canadian Securities Commissions, in accordance with the Shelf Procedures, a final prospectus supplement setting forth the Shelf Information (including any Documents Incorporated by Reference therein and any supplements or amendments thereto, the "Canadian Prospectus Supplement", and, together with the Canadian Final Base Shelf Prospectus, the "Canadian Prospectus"), and (ii) prepare and file with the SEC, within one Business Day following the filing of the Canadian Prospectus Supplement with the Canadian Securities Commissions, in accordance with General Instruction II.L of Form F-10, the Canadian Prospectus Supplement, with such deletions therefrom and additions or changes thereto as are permitted or required by Form F-10 and the applicable rules and regulations of the SEC (the "U.S. Prospectus Supplement", and together with the U.S. Base Prospectus, the "U.S. Prospectus"). The information, if any, included in the Canadian Prospectus Supplement that is omitted from the Canadian Final Base Shelf Prospectus for which a Dual Prospectus Receipt has been obtained, but that is deemed under the Shelf Procedures to be incorporated by reference into the Canadian Final Base Shelf Prospectus as of the date of the Canadian Prospectus Supplement, is referred to herein as the "Shelf Information". The U.S. Prospectus Supplement and the Canadian Prospectus Supplement are hereinafter collectively referred to as the "Prospectus Supplements" and the U.S. Prospectus and the Canadian Prospectus are hereinafter collectively sometimes referred to as the "Prospectuses".
+ Any reference herein to any "amendment" or "supplement" to the U.S. Preliminary Prospectus, the U.S. Base Prospectus, the U.S. Prospectus, the Canadian Preliminary Prospectus, the Canadian Final Base Shelf Prospectus or the Canadian Prospectus shall be deemed to refer to and include (i) the filing of any document with the Canadian Securities Commissions or the SEC after the date of such U.S. Preliminary Prospectus, the U.S. Base Prospectus, the U.S. Prospectus, the Canadian Preliminary Prospectus, the Canadian Final Base Shelf Prospectus or the Canadian Prospectus, as the case may be, which is incorporated therein by reference or is otherwise deemed to be a part thereof or included therein by the U.S. Securities Act or Canadian Securities Laws (as hereinafter defined), as applicable, and (ii) any such document so filed.
+ 
+ 2
+ 
+ 
+ The U.S. Preliminary Prospectus, as supplemented by the Issuer Free Writing Prospectuses (as hereinafter defined), if any, and the information listed in Schedule "B" hereto, taken together, are hereinafter referred to as the "Pricing Disclosure Package". For purposes of this Agreement, the "Applicable Time" is 8:00 a.m. (Eastern) on the date of this Agreement.
+ The Corporation and the Underwriters agree that (i) any offers or sales of the Offered Shares in Canada will be conducted through the Underwriters, or one or more affiliates of the Underwriters, duly registered in compliance with applicable Canadian Securities Laws; and (ii) any offers or sales of the Offered Shares in the United States will be conducted through the Underwriters, or one or more affiliates of the Underwriters, duly registered as a broker-dealer in compliance with applicable U.S. Securities Laws (as hereinafter defined) and the requirements of the Financial Industry Regulatory Authority, Inc. Deutsche Bank and Evercore will not, directly or indirectly, solicit offers to purchase or sell the Offered Shares in Canada.
+ In consideration of the agreement on the part of the Underwriters to purchase the Offered Shares and in consideration of the services rendered and to be rendered by the Underwriters hereunder, the Corporation agrees to pay to the Lead Underwriter on behalf of the Underwriters, at the Closing Time (as hereinafter defined), and at the Option Closing Time (as hereinafter defined), if any, a cash fee equal to 5.5% of the aggregate gross proceeds of the Offering (the "Underwriting Fee"), the payment of such fee to be reflected by the Underwriters making payment of the gross proceeds of the sale of the Firm Shares or the Additional Shares, as the case may be, to the Corporation less the amount of the Underwriting Fee.
+ This Agreement shall be subject to the following terms and conditions:
+ TERMS AND CONDITIONS
+ Section 1 Interpretation
+ (1) Definitions
+ Where used in this Agreement or in any amendment hereto, the following terms shall have the following meanings, respectively:
+ "Additional Shares" has the meaning given to it in the second paragraph of this Agreement;
+ "affiliate" has the meaning given to it in the Business Corporations Act (British Columbia);
+ "Agreement" means the agreement resulting from the acceptance by the Corporation of the offer made by the Underwriters by this underwriting agreement;
+ "Applicable Securities Laws" means the Canadian Securities Laws and the U.S. Securities Laws;
+ "Applicable Time" has the meaning given to it in the seventh paragraph of this Agreement;
+ "BHC Act Affiliate" has the meaning assigned to the term "affiliate" in, and shall be interpreted in accordance with, 12 U.S.C. § 1841(k);
+ "Business Day" means any day, other than a Saturday or Sunday, on which banks are open for business in Vancouver, British Columbia and Toronto, Ontario;
+ "Canadian Final Base Shelf Prospectus" has the meaning given to it in the third paragraph of this Agreement;
+ 
+ 3
+ 
+ 
+ "Canadian Offering Documents" means each of the Canadian Preliminary Prospectus, the Canadian Prospectus and any Canadian Prospectus Amendment, including the Documents Incorporated by Reference and any Marketing Documents;
+ "Canadian Preliminary Base Shelf Prospectus" has the meaning given to it in the third paragraph of this Agreement;
+ "Canadian Preliminary Prospectus" has the meaning given to it in the third paragraph of this Agreement;
+ "Canadian Preliminary Prospectus Supplement" has the meaning given to it in the third paragraph of this Agreement;
+ "Canadian Prospectus" has the meaning given to it in the fifth paragraph of this Agreement;
+ "Canadian Prospectus Amendment" means any amendment to the Canadian Preliminary Prospectus or the Canadian Prospectus, including the Documents Incorporated by Reference;
+ "Canadian Prospectus Supplement" has the meaning given to it in the fifth paragraph of this Agreement;
+ "Canadian Securities Commissions" means the securities regulatory authorities in each of the Qualifying Jurisdictions;
+ "Canadian Securities Laws" means all applicable securities laws of each of the Qualifying Jurisdictions and the respective rules and regulations under such laws together with applicable published national, multilateral and local policy statements, instruments, notices, blanket orders and rulings of the securities regulatory authorities in the Qualifying Jurisdictions;
+ "CDS" means CDS Clearing and Depository Services Inc.;
+ "CFPOA" has the meaning given to it in Section 1(rr);
+ "Closing Date" has the meaning given to it in Section 14;
+ "Closing Time" has the meaning given to it in Section 14;
+ "Commission" means the British Columbia Securities Commission;
+ "Common Shares" means the common shares in the capital of the Corporation;
+ "Corporation" means Lithium Americas Corp.;
+ "Covered Entity" means any of the following:
+ i. a "covered entity" as that term is defined in, and interpreted in accordance with, 12 C.F.R. § 252.82(b);
+ ii. a "covered bank" as that term is defined in, and interpreted in accordance with, 12 C.F.R. § 47.3(b); or
+ iii. a "covered FSI" as that term is defined in, and interpreted in accordance with, 12 C.F.R. § 382.2(b);
+ "Debt Repayment Triggering Event" has the meaning given to it in Section 1(p);
+ 
+ 4
+ 
+ 
+ "Default" has the meaning given to it in Section 1(p);
+ "Default Right" has the meaning assigned to that term in, and shall be interpreted in accordance with, 12 C.F.R. §§ 252.81, 47.2 or 382.1, as applicable;
+ "Distribution" means "distribution" or "distribution to the public" as those terms are defined in the Applicable Securities Laws;
+ "Documents Incorporated by Reference" means all interim and annual financial statements, management's discussion and analysis, business acquisition reports, management information circulars, annual information forms, material change reports, Marketing Documents and other documents that are or are required by Applicable Securities Laws to be incorporated by reference into the Offering Documents, as applicable;
+ "Dual Prospectus Receipt" means the receipt issued by the Commission, which is deemed to also be a receipt of the other Canadian Securities Commissions and evidence of the receipt of the Ontario Securities Commission pursuant to Multilateral Instrument 11-102 - Passport System and National Policy 11-202 - Process for Prospectus Reviews in Multiple Jurisdictions, for the Canadian Preliminary Base Shelf Prospectus, the Canadian Final Base Shelf Prospectus and any Canadian Prospectus Amendment, as the case may be;
+ "EDGAR" means the SEC's Electronic Document Gathering and Retrieval System;
+ "Effective Time" means the time the Registration Statement is declared or becomes effective;
+ "Employee Plans" has the meaning given to it in Section 1(ll);
+ "Environmental Laws" has the meaning given to it in Section 1(ii);
+ "Environmental Permits" has the meaning given to it in Section 1(ii);
+ "ERISA" has the meaning given to it in Section 1(ll);
+ "Existing Instrument" has the meaning given to it in Section 1(p);
+ "FCPA" has the meaning given to it in Section 1(rr);
+ "Firm Shares" has the meaning given to it in the first paragraph of this Agreement;
+ "Form F-X" has the meaning given to it in the fourth paragraph of this Agreement;
+ "GDPR" has the meaning given to it in Section 1(aaa);
+ "Hazardous Substances" has the meaning given to it in Section 1(ii);
+ "IFRS" has the meaning given to it in Section 1(j);
+ "Indemnified Party" has the meaning given to it in Section 9(1);
+ "Investment Company Act" has the meaning given to it in Section 1(z);
+ 
+ 5
+ 
+ 
+ "Issuer Free Writing Prospectus" means an "issuer free writing prospectus" as defined in Rule 433 under the U.S. Securities Act relating to the Offered Shares that (i) is required to be filed with the SEC by the Corporation, (ii) is a "road show that is a written communication" within the meaning of Rule 433(d)(8)(i) under the U.S. Securities Act whether or not required to be filed with the SEC or (iii) is exempt from filing pursuant to Rule 433(d)(5)(i) under the U.S. Securities Act because it contains a description of the Offered Shares or of the Offering that does not reflect the final terms, in each case in the form filed or required to be filed with the SEC or, if not required to be filed, in the form retained in the Corporation's records pursuant to Rule 433(g) under the U.S. Securities Act;
+ "IT Systems and Data" has the meaning given to it in Section 1(zz);
+ "Lead Underwriter" has the meaning given to it in the first paragraph of this Agreement;
+ "Marketing Documents" means any marketing materials approved in accordance with Section 3(2);
+ "marketing materials" has the meaning given to it in NI 41-101;
+ "Material Adverse Change" has the meaning given to it in Section 1(h);
+ "material change" has the meaning given to it in the Securities Act (British Columbia);
+ "material fact has the meaning given to it in the Securities Act (British Columbia);
+ "Money Laundering Laws" has the meaning given to it in Section 1(ss);
+ "Mining Rights" has the meaning given to it in Section 1(v);
+ "misrepresentation" has the meaning given to it in the Securities Act (British Columbia);
+ "MJDS" has the meaning given to it in the fourth paragraph of this Agreement;
+ "NI 41-101" means National Instrument 41-101 - General Prospectus Requirements;
+ "NI 43-101" means National Instrument 43-101 - Standards of Disclosure for Mineral Projects;
+ "NI 44-101" means National Instrument 44-101 - Short Form Prospectus Distributions;
+ "NI 44-102" means National Instrument 44-102 - Shelf Distributions;
+ "NI 51-102" means National Instrument 51-102 - Continuous Disclosure Obligations;
+ "NYSE" means the New York Stock Exchange;
+ "OFAC" has the meaning given to it in Section 1(tt);
+ "Offered Shares" has the meaning given to it in the second paragraph of this Agreement;
+ "Offering" means the sale of Offered Shares pursuant to this Agreement;
+ "Offering Documents" means the Canadian Offering Documents and the U.S. Offering Documents;
+ "Offering Jurisdictions" means the United States and the Qualifying Jurisdictions;
+ 
+ 6
+ 
+ 
+ "Offering Price" has the meaning given to it in the first paragraph of this Agreement;
+ "Option Closing Date" has the meaning given to it in Section 16(1);
+ "Option Closing Time" has the meaning given to it in Section 16(1);
+ "Over-Allotment Option" has the meaning given to it in the second paragraph of this Agreement;
+ "Permits" has the meaning given to it in Section 1(s);
+ "PFIC" has the meaning given to it in Section 1(aa);
+ "Policies" has the meaning given to it in Section 1(aaa);
+ "Pricing Disclosure Package" has the meaning given to it in the seventh paragraph of this Agreement;
+ "Privacy Laws" has the meaning given to it in Section 1(aaa);
+ "Prospectus Supplements" has the meaning given to it in the fifth paragraph of this Agreement;
+ "Prospectuses" has the meaning given to it in the fifth paragraph of this Agreement;
+ "Purchasers" means, collectively, each of the purchasers of the Offered Shares arranged by the Underwriters pursuant to the Offering;
+ "Qualifying Jurisdictions" means each of the provinces and territories of Canada other than Québec, and such other jurisdictions to which the Underwriters and the Corporation may agree;
+ "Registration Statement" has the meaning given to it in the fourth paragraph of this Agreement;
+ "Regulation M" has the meaning given to it in Section 1(cc);
+ "SEC" has the meaning given to it in the fourth paragraph of this Agreement;
+ "SEDAR" means the System for Electronic Document Analysis and Retrieval;
+ "Selling Firm" has the meaning given to it in Section 2(1);
+ "Shelf Information" has the meaning given to it in the fifth paragraph of this Agreement;
+ "Shelf Procedures" means NI 44-101 and NI 44-102;
+ "Standard Listing Conditions" has the meaning given to it in Section 15(1)(i);
+ "Supplementary Material" means, collectively, any amendment to the Offering Documents and any amendment or supplemental prospectus or ancillary materials that may be filed by or on behalf of the Corporation under Applicable Securities Laws relating to the Offering and/or the distribution of the Offered Shares;
+ "Technical Reports" means the technical report titled "Updated Feasibility Study and Mineral Reserve Estimation to Support 40,000 tpa Lithium Carbonate Production at the Cauchari-Olaroz Salars, Jujuy Province, Argentina" with an effective date of September 30, 2020 and the technical report titled "Technical Report on the Pre-Feasibility Study for the Thacker Pass Project, Humboldt County, Nevada, USA" with an effective date of August 1, 2018;
+ 
+ 7
+ 
+ 
+ "template version" has the meaning ascribed to such term in NI 41-101 and includes any revised template version of marketing materials as contemplated by NI 41-101;
+ "TSX" means the Toronto Stock Exchange;
+ "Underwriters" has the meaning given to it in the first paragraph of this Agreement;
+ "Underwriters' Expenses" has the meaning given to it in Section 17;
+ "Underwriting Fee" has the meaning given to it in the ninth paragraph of this Agreement;
+ "United States" means the United States of America, its territories and possessions, any State of the United States and the District of Columbia;
+ "U.S. Amended Prospectus" means any amendment or supplement to the U.S. Preliminary Prospectus or the U.S. Prospectus;
+ "U.S. Base Prospectus" has the meaning given to it in the fourth paragraph of this Agreement;
+ "U.S. Exchange Act" means the United States Securities Exchange Act of 1934, as amended;
+ "U.S. Offering Documents" means the Registration Statement, any U.S. Registration Statement Amendment, the U.S. Preliminary Prospectus, the U.S. Prospectus, any U.S. Amended Prospectus and the Pricing Disclosure Package;
+ "U.S. Preliminary Prospectus" has the meaning given to it in the fourth paragraph of this Agreement;
+ "U.S. Preliminary Prospectus Supplement" has the meaning given to it in the fourth paragraph of this Agreement;
+ "U.S. Prospectus" has the meaning given to it in the fifth paragraph of this Agreement;
+ "U.S. Prospectus Supplement" has the meaning given to it in the fifth paragraph of this Agreement;
+ "U.S. Registration Statement Amendment" means any amendment to the Registration Statement and any post-effective amendment to the Registration Statement filed with the SEC during the Distribution of the Offered Shares;
+ "U.S. Securities Act" has the meaning given to it in the fourth paragraph of this Agreement;
+ "U.S. Securities Laws" means all applicable United States securities laws, including, without limitation, the U.S. Securities Act, the U.S. Exchange Act and the rules and regulations promulgated thereunder; and
+ "U.S. Special Resolution Regime" means each of (i) the Federal Deposit Insurance Act and the regulations promulgated thereunder and (ii) Title II of the Dodd-Frank Wall Street Reform and Consumer Protection Act and the regulations promulgated thereunder.
+ (2) Capitalized terms used but not defined herein have the meanings ascribed to them in the Canadian Preliminary Prospectus.
+ 
+ 8
+ 
+ 
+ (3) Any reference in this Agreement to a Section or Subsection shall refer to a section or subsection of this Agreement.
+ (4) All words and personal pronouns relating thereto shall be read and construed as the number and gender of the party or parties referred to in each case required and the verb shall be construed as agreeing with the required word and/or pronoun.
+ (5) Any reference in this Agreement to "US$" or to "dollars" shall refer to the lawful currency of the United States and any reference to "C$" shall refer to the lawful currency of Canada.
+ (6) The following are the schedules to this Agreement, which schedules are deemed to be a part hereof and are hereby incorporated by reference herein:
+ Schedule "A" - Matters to be Addressed in the Corporation's Canadian Counsel Opinion
+ Schedule "B" - Pricing Terms Included in the Pricing Disclosure Package
+ Schedule "C" - List of Permits for the Thacker Pass Project
+ Section 2 Distribution of the Offered Shares
+ (1) Each Underwriter shall be permitted to appoint additional investment dealers or brokers (each, a "Selling Firm") as its agents in the Offering and each such Underwriter may determine the remuneration payable to such Selling Firm but at no additional cost to the Corporation. The Underwriters may offer the Offered Shares, directly and through Selling Firms or any affiliate of an Underwriter, in the Offering Jurisdictions for sale to the public only in accordance with Applicable Securities Laws and in any jurisdiction outside of the Offering Jurisdictions (subject to Section 6 hereof) to purchasers permitted to purchase the Offered Shares only in accordance with Applicable Securities Laws and applicable securities laws in such jurisdiction, and upon the terms and conditions set forth in the Offering Documents and in this Agreement. Each Underwriter shall require any Selling Firm appointed by such Underwriter to agree to the foregoing and such Underwriter shall be severally responsible for the compliance by such Selling Firm with the provisions of this Agreement.
+ (2) For purposes of this Section 2, the Underwriters shall be entitled to assume that the Offered Shares are qualified for Distribution in any Qualifying Jurisdiction where a Dual Prospectus Receipt has been obtained in respect of the Canadian Final Base Shelf Prospectus, unless otherwise notified in writing by the Corporation.
+ (3) The Underwriters will use their reasonable best efforts to complete the Distribution of the Offered Shares as promptly as possible after the Closing Time. The Lead Underwriter shall promptly notify the Corporation when, in its opinion, the Distribution of the Offered Shares has ceased and will provide to the Corporation, as soon as practicable thereafter but in any event within 30 days after completion of the Distribution, a breakdown of the number of Offered Shares distributed in each of the Qualifying Jurisdictions where such breakdown is required for the purpose of calculating fees payable to the Canadian Securities Commissions and, if applicable, in the United States.
+ (4) The Underwriters shall not, in connection with the services provided hereunder, make any representations or warranties with respect to the Corporation or its securities, other than as set forth in the Offering Documents, any Issuer Free Writing Prospectus or in any Marketing Documents.
+ (5) Notwithstanding the foregoing provisions of this Section 2, no Underwriter will be liable to the Corporation under this Section 2 with respect to a default or breach by another Underwriter or another Underwriter's duly registered broker-dealer affiliate in the United States or another Underwriter's Selling Firm, as the case may be.
+ 
+ 9
+ 
+ 
+ (6) Subject to Section 6, the Underwriters acknowledge that the Corporation is not taking any steps to qualify the Offered Shares for Distribution or register the Offered Shares or the Distribution thereof with any securities authority outside of the Offering Jurisdictions.
+ (7) Each of Deutsche Bank and Evercore, severally, and not jointly, nor jointly and severally, hereby covenants and agrees with the Corporation:
+ (a) it will not sell or offer to sell, nor allow any Selling Firm acting on behalf of it in connection with the Offering to sell or offer to sell, any of the Offered Shares to any person resident in Canada;
+ (b) concurrent with the closing of the Offering, it will deliver to the Lead Underwriter an "all-sold" certificate confirming that neither it nor any Selling Firm acting on its behalf in connection with the Offering, has offered or sold any of the Offered Shares to any person resident in Canada; and
+ (c) it shall include a statement in the letter or other written notice provided to the purchaser of the Offered Shares sold by it that it is such purchaser's understanding that the purchaser is not a resident of Canada nor is the purchaser holding such Offered Shares on behalf of or for the benefit of a person resident in Canada.
+ Section 3 Preparation of Prospectus Supplements; Marketing Documents; Due Diligence
+ (1) During the period of the Distribution of the Offered Shares, the Corporation shall co-operate in all respects with the Underwriters to allow and assist the Underwriters to participate fully in the preparation of, and allow the Underwriters to approve the form and content of, the Prospectus Supplements and any Issuer Free Writing Prospectus and shall allow the Underwriters to conduct all "due diligence" investigations which the Underwriters may reasonably require to fulfil the Underwriters' obligations under Applicable Securities Laws as underwriters and, in the case of the Canadian Preliminary Prospectus Supplement, the Canadian Prospectus Supplement and any Canadian Prospectus Amendment, to enable the Underwriters to execute any certificate required to be executed by the Underwriters.
+ (2) Without limiting the generality of clause (1) above, during the distribution of the Offered Shares:
+ (a) subject to Section 7(2)(d), the Corporation shall prepare, in consultation with the Underwriters, and shall approve in writing, prior to the time that any such marketing materials are provided to potential Purchasers, a template version of any marketing materials reasonably requested to be provided by the Underwriters to any such potential Purchasers, and such marketing materials shall comply with Applicable Securities Laws and shall be acceptable in form and substance to the Underwriters and their U.S. and Canadian counsel, acting reasonably;
+ (b) the Lead Underwriter, on behalf of the Underwriters, shall approve a template version of any such marketing materials in writing prior to the time that such marketing materials are provided to potential Purchasers;
+ (c) the Corporation shall file a template version of any such marketing materials on SEDAR and on EDGAR as soon as reasonably practical after such marketing materials are so approved in writing by the Corporation and the Lead Underwriter, on behalf of the Underwriters, and in any event on or before the day the marketing materials are first provided to any potential Purchaser, and any comparables shall be removed from the template version in accordance with NI 44-101 prior to filing such on SEDAR (provided that if any such comparables are removed, the Corporation shall deliver a complete template version of any such marketing materials to the Commission), and the Corporation shall provide a copy of such filed template version to the Underwriters as soon as practicable following such filing; and
+ 
+ 10
+ 
+ 
+ (d) following the approvals and filings set forth in Section 3(2)(a) to Section 3(2)(c) above, the Underwriters may provide a limited use version of such marketing materials to potential Purchasers and which shall comply with Applicable Securities Laws.
+ (3) The Corporation and each Underwriter, on a several basis, covenants and agrees not to provide any potential Purchaser with any marketing materials except for marketing materials which have been approved as contemplated in Section 3(2).
+ Section 4 Material Changes
+ (1) During the period from the date of this Agreement to the completion of the Distribution of the Offered Shares the Corporation covenants and agrees with the Underwriters that it shall promptly notify the Underwriters in writing of:
+ (a) any material change (actual, anticipated, contemplated or threatened) in or relating to the business, affairs, operations, assets (including contractual arrangements), liabilities (contingent or otherwise), capital or ownership of the Corporation and its subsidiaries taken as a whole;
+ (b) any material fact which has arisen or been discovered and would have been required to have been stated in any of the Offering Documents or any Issuer Free Writing Prospectus had the fact arisen or been discovered on or prior to the date of such document;
+ (c) any change in any material fact (which for purposes of this Agreement shall be deemed to include the disclosure of any previously undisclosed material fact) contained in the Canadian Offering Documents, as they exist immediately prior to such change, which fact or change is, or may reasonably be expected to be, of such a nature as to render any statement in such Canadian Offering Documents, as they exist taken together in their entirety immediately prior to such change, misleading or untrue in any material respect or which would result in the Canadian Offering Documents, as they exist immediately prior to such change, containing a misrepresentation or which would result in the Canadian Offering Documents, as they exist immediately prior to such change, not complying with the laws of any Qualifying Jurisdiction in which the Offered Shares are to be offered for sale or which change would reasonably be expected to have a significant effect on the market price or value of any securities of the Corporation; or
+ (d) the occurrence of any event as a result of which (i) the Registration Statement or any U.S. Registration Statement Amendment, in each case as amended immediately prior to such occurrence, would include any untrue statement of a material fact or omit to state a material fact required to be stated therein or necessary in order to make the statements therein not misleading, or (ii) the U.S. Preliminary Prospectus, the U.S. Prospectus, any U.S. Amended Prospectus, the Pricing Disclosure Package or any Issuer Free Writing Prospectus, in each case as then amended or supplemented (in the case of the Pricing Disclosure Package, as of the Applicable Time), would include any untrue statement of a material fact or omit to state a material fact necessary in order to make the statements therein, in the light of the circumstances in which they are made, not misleading.
+ 
+ 11
+ 
+ 
+ (2) The Underwriters agree, and will require each Selling Firm to agree, to cease the Distribution of the Offered Shares upon the Underwriters receiving written notification of any change or material fact with respect to any Offering Document contemplated by this Section 4 and to not recommence the Distribution of the Offered Shares until Supplementary Materials disclosing such change are filed in such Offering Jurisdiction.
+ (3) The Corporation shall promptly comply with all applicable filing and other requirements under Applicable Securities Laws whether as a result of such change, material fact or otherwise; provided that the Corporation shall not file any Supplementary Material or other document without first providing the Underwriters with a copy of such Supplementary Material or other document and consulting with the Underwriters with respect to the form and content thereof.
+ (4) If during the Distribution of the Offered Shares there is any change in any Applicable Securities Laws, which results in a requirement to file a Canadian Prospectus Amendment or U.S. Registration Statement Amendment, the Corporation shall, subject to the proviso in clause (3) above, make any such filing under Applicable Securities Laws as soon as possible.
+ (5) The Corporation shall in good faith discuss with the Underwriters any fact or change in circumstances (actual, anticipated, contemplated or threatened, financial or otherwise) which is of such a nature that there is reasonable doubt whether written notice need be given under this Section 4.
+ Section 5 Deliveries to the Underwriters
+ (1) The Corporation shall deliver or cause to be delivered to the Underwriters:
+ (a) copies of the Canadian Preliminary Prospectus, the Canadian Prospectus and any Marketing Documents duly signed as required by the laws of all of the Qualifying Jurisdictions;
+ (b) copies of the Registration Statement, signed as required by the U.S. Securities Act and the rules and regulations of the SEC thereunder and any documents included as exhibits to the Registration Statement;
+ (c) copies of any Canadian Prospectus Amendment required to be filed under Section 4 hereof duly signed as required by the laws of all of the Qualifying Jurisdictions; and
+ (d) any U.S. Registration Statement Amendment or U.S. Amended Prospectus required to be filed under Section 4 hereof, signed as required by the U.S. Securities Act and the rules and regulations of the SEC thereunder and any documents included as exhibits to the U.S. Registration Statement Amendment;
+ provided, that with respect to (i) clauses (a) and (c) of this Section 5(1) if the documents are publicly available on SEDAR, they shall be deemed to have been delivered to the Underwriters as required by this Section 5(1); and (ii) clauses (b) and (d) of this Section 5(1), if the documents are publicly available on EDGAR, they shall be deemed to have been delivered to the Underwriters as required by this Section 5(1).
+ 
+ 12
+ 
+ 
+ (2) The Corporation shall forthwith cause to be delivered to the Underwriters in such cities in the Offering Jurisdictions as they may reasonably request, without charge, such numbers of commercial copies of the Canadian Preliminary Prospectus and Canadian Prospectus and any Marketing Documents and the U.S. Preliminary Prospectus and U.S. Prospectus, excluding in each case the Documents Incorporated by Reference, as the Underwriters shall reasonably require. The Corporation shall similarly cause to be delivered to the Underwriters commercial copies of any Canadian Prospectus Amendment or U.S. Amended Prospectus, excluding in each case the Documents Incorporated by Reference. The Corporation agrees that such deliveries shall be effected as soon as possible and, in any event not later than 12:00 noon E.S.T. on the Business Day following the filing of the Canadian Prospectus or Canadian Prospectus Amendment, as applicable, provided that the Underwriters have given the Corporation written instructions as to the number of copies required and the places to which such copies are to be delivered not less than 24 hours prior to the time requested for delivery. Such delivery shall also confirm that the Corporation consents to the use by the Underwriters and Selling Firms of the Offering Documents in connection with the Distribution of the Offered Shares in compliance with the provisions of this Agreement.
+ (3) By the act of having delivered the Offering Documents to the Underwriters (or in the case of the Pricing Disclosure Package, having conveyed such information to prospective investors), the Corporation shall have represented and warranted to the Underwriters that all information and statements (except information and statements relating solely to the Underwriters) contained in such documents, at the respective dates of initial delivery thereof (or as of the Applicable Time in the case of the Pricing Disclosure Package), comply with the Applicable Securities Laws and are true and correct in all material respects, and that such documents, at such dates, contain no misrepresentation or omit to state a material fact required to be stated therein or necessary to make the statements therein, in light of the circumstances under which they were made, not misleading and constitute full, true and plain disclosure of all material facts relating to the Corporation and the Offering as required by the Applicable Securities Laws.
+ (4) The Corporation shall also deliver or cause to be delivered to the Underwriters, concurrently with the execution of this Agreement, a "long form" comfort letter of the Corporation's auditors, in form and substance satisfactory to the Underwriters, acting reasonably, addressed to the Underwriters and the directors of the Corporation, with respect to certain financial and accounting information relating to the Corporation and its subsidiaries and affiliates contained in the Offering Documents, which letter shall be in addition to the auditors' report incorporated by reference in the Prospectuses.
+ Section 6 Regulatory Approvals 
+ The Corporation will make all necessary filings, obtain all necessary consents and approvals (if any) and pay all filing fees required to be paid in connection with the transactions contemplated by this Agreement. The Corporation will qualify the Offered Shares for offer and sale under the Applicable Securities Laws of the Offering Jurisdictions and maintain such qualifications in effect for so long as required for the Distribution of the Offered Shares; provided, however, that (i) the Corporation shall not be obligated to make any material filing, file any prospectus, registration statement or similar document, consent to service of process, or qualify as a foreign corporation or as a dealer in securities in any of such other jurisdictions, or subject itself to taxation in respect of doing business in any of such other jurisdictions in which it is not otherwise so subject, or become subject to any additional periodic reporting or continuous disclosure obligations in such other jurisdictions and (ii) the Underwriters and the Selling Firms shall comply with the applicable laws in any such designate jurisdiction in making offers and sales of Offered Shares therein.
+ 
+ 13
+ 
+ 
+ Section 7 Representations and Warranties of the Corporation
+ The Corporation represents and warrants to each of the Underwriters as set forth below and acknowledges that the Underwriters are relying on such representations and warranties in entering into this Agreement.
+ (1) General Matters
+ (a) Incorporated Documents. The Documents Incorporated by Reference or the documents deemed to be incorporated by reference into the Registration Statement and the Prospectuses, at the time they were filed with the SEC or the Canadian Securities Commissions, as applicable, complied in all material respects with the requirements of the U.S. Exchange Act and Canadian Securities Laws, as applicable, and, when read together with the other information in the Prospectuses, do not contain an untrue statement of a material fact or omit to state a material fact required to be stated therein or necessary to make the statements therein, in light of the circumstances under which they were made, not misleading or contain a misrepresentation, as defined under Canadian Securities Laws.
+ (b) Compliance. The Documents Incorporated by Reference or the documents deemed to be incorporated by reference into the Registration Statement and the Prospectuses, at the time they were or hereafter are filed with the SEC or the Canadian Securities Commissions, as applicable, and any Issuer Free Writing Prospectus or amendment or supplement to the Prospectuses, complied and will comply in all material respects with the requirements of the Exchange Act and Canadian Securities Laws, as applicable, and, when read together with the other information in the Prospectuses, at the time the Registration Statement and any amendments thereto become effective and on the date the receipt was issued for the Canadian Final Base Shelf Prospectus, as the case may be, will not contain an untrue statement of a material fact or omit to state a material fact required to be stated therein or necessary to make a statement therein, in the light of the circumstances in which it was made, not misleading or contain a misrepresentation, as defined under Canadian Securities Laws.
+ (c) Statistical and Market-Related Data. Any statistical, demographic and market-related data included in the Registration Statement or the Prospectuses are based on or derived from sources that the Corporation believes to be reliable and accurate in all material respects. To the extent required under applicable laws, the Corporation has obtained the written consent for the use of such data from such sources.
+ (d) Disclosure Controls and Procedures; Deficiencies in or Changes to Internal Control Over Financial Reporting. The Corporation and its subsidiaries, on a consolidated basis, have established and maintain disclosure controls and procedures (as defined in Canadian Securities Laws and applicable U.S. Securities Laws) that (i) are designed to provide reasonable assurance that information required to be disclosed by the Corporation in its annual filings, interim filings or other reports filed or submitted by it under Canadian Securities Laws and applicable U.S. Securities Laws is recorded, processed, summarized and reported within the time periods specified in the Canadian Securities Laws and applicable U.S. Securities Laws and include controls and procedures designed to ensure that information required to be disclosed by the Corporation in its annual filings, interim filings or other reports filed or submitted under Canadian Securities Laws and applicable U.S. Securities Laws is accumulated and communicated to the Corporation's management, including its certifying officers, as appropriate to allow timely decisions regarding required disclosure; (ii) have been evaluated by management of the Corporation for effectiveness in accordance with Canadian Securities Laws and applicable U.S. Securities Laws as of the end of the Corporation's most recent audited fiscal year; and (iii) are effective in all material respects to perform the functions for which they were established as of the end of the Corporation's most recent audited fiscal year. Since the end of the Corporation's most recent audited fiscal year up to the end of the Corporation's most recent reported interim financial period, other than as may be publicly disclosed by the Corporation, there have been no significant limitations or material weaknesses, in each case, in the Corporation's design of its internal control over financial reporting (whether or not remediated) and no change in the Corporation's internal control over financial reporting that has materially affected, or is reasonably likely to materially affect, the Corporation's internal control over financial reporting.
+ 
+ 14
+ 
+ 
+ (e) This Agreement. This Agreement has been duly authorized, executed and delivered by the Corporation.
+ (f) Authorization of the Offered Shares. The Offered Shares have been duly authorized for issuance and sale pursuant to this Agreement and, when issued and delivered by the Corporation against payment therefor pursuant to this Agreement, will be validly issued, fully paid and non-assessable, and the issuance and sale of the Offered Shares is not subject to any preemptive rights, rights of first refusal or other similar rights to subscribe for or purchase the Offered Shares.
+ (g) No Applicable Registration or Other Similar Rights. Except as disclosed in the Offering Documents, there are no persons with registration or other similar rights to have any equity or debt securities registered for sale under the Registration Statement or the Prospectuses or included in the offering contemplated by this Agreement, except where the failure to receive a waiver of such rights would not reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change.
+ (h) No Material Adverse Change. Except as otherwise disclosed in the Registration Statement and the Prospectuses, subsequent to the respective dates as of which information is given in the Registration Statement and the Prospectuses: (i) there has been no material adverse change, or any development that would reasonably be expected to result in a material adverse change, in (A) the condition, financial or otherwise, or in the earnings, business, properties, operations, operating results, assets, liabilities or prospects, whether or not arising from transactions in the ordinary course of business, of the Corporation and its subsidiaries, considered as one entity, or (B) the ability of the Corporation to consummate the transactions contemplated by this Agreement or perform its obligations hereunder (any such change being referred to herein as a "Material Adverse Change"); and (ii) there has not been any material increase in any short-term or longterm indebtedness of the Corporation or its subsidiaries, considered on a consolidated basis, and there has been no dividend or distribution of any kind declared, paid or made by the Corporation or, except for dividends paid to the Corporation or other subsidiaries, by any of the Corporation's subsidiaries on any class of capital stock, or any repurchase or redemption by the Corporation or any of its subsidiaries of any class of capital stock.
+ (i) Independent Auditors; No Reportable Event. PricewaterhouseCoopers LLP, which has expressed its opinion with respect to the annual consolidated financial statements (which term as used in this Agreement includes the related notes thereto) contained or incorporated by reference into the Registration Statement and Prospectuses, are independent auditors with respect to the Corporation and its subsidiaries as required under applicable Canadian Securities Laws and within the applicable rules and regulations adopted by the SEC and as required by the U.S. Securities Act. There has not been a "reportable event" (within the meaning of National Instrument 51-102 - Continuous Disclosure Obligations ("NI 51-102")) between the Corporation and PricewaterhouseCoopers LLP.
+ 
+ 15
+ 
+ 
+ (j) Financial Statements. The financial statements filed with the SEC and the Canadian Securities Commissions and which are a part of or incorporated by reference into the Registration Statement and the Prospectuses, as applicable, present fairly in all material respects the consolidated financial position of the Corporation and its subsidiaries as of the dates indicated and the results of their operations, changes in stockholders' equity and cash flows for the periods specified. Such financial statements have been prepared in all material respects in conformity with International Financial Reporting Standards as issued by the International Accounting Standards Board ("IFRS") applied on a consistent basis throughout the periods involved, except as may be expressly stated in the related notes thereto. The interactive data in eXtensible Business Reporting Language included or incorporated by reference into the Registration Statement fairly presents the information called for in all material respects and has been prepared in accordance with the SEC's rules and guidelines applicable thereto. No other financial statements or supporting schedules are required to be included or incorporated by reference into the Registration Statement or the Prospectuses under Canadian Securities Laws. The financial data set forth in each of the Registration Statement and the Prospectuses under the caption "Consolidated Capitalization" fairly presents in all material respects the information set forth therein on a basis consistent with that of the financial statements contained or incorporated by reference into the Registration Statement and the Prospectuses, as applicable.
+ (k) Corporation's Accounting System. The Corporation and each of its subsidiaries make and keep accurate books and records and maintain a system of internal accounting controls sufficient to provide reasonable assurance that: (i) transactions are executed in accordance with management's general or specific authorization; (ii) transactions are recorded as necessary to permit preparation of financial statements in conformity with IFRS and to maintain accountability for assets; (iii) access to assets is permitted only in accordance with management's general or specific authorization; (iv) the recorded accountability for assets is compared with existing assets at reasonable intervals and appropriate action is taken with respect to any differences; and (v) the interactive data in eXtensible Business Reporting Language included or incorporated by reference into the Registration Statement and the Prospectuses fairly presents the information called for in all material respects and was prepared in accordance with Canadian Securities Laws and the SEC's rules and guidelines applicable thereto.
+ (l) Incorporation and Good Standing of the Corporation. The Corporation has been duly incorporated and is validly existing as a corporation in good standing under the laws of the jurisdiction of its incorporation and has the corporate power and authority to own, lease and operate its properties and to conduct its business as described in the Registration Statement and the Prospectuses and to enter into and perform its obligations under this Agreement. The Corporation is duly qualified as a corporation to transact business and is in good standing in British Columbia, Canada and each other jurisdiction in which such qualification is required, whether by reason of the ownership or leasing of property or the conduct of business, except where the failure to be so qualified or in good standing in a jurisdiction outside of British Columbia, Canada would not reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change.
+ 
+ 16
+ 
+ 
+ (m) Subsidiaries. Each of the Corporation's "subsidiaries" (for purposes of this Agreement "subsidiaries" means: Lithium Nevada Corp., KV Project LLC, 2265866 Ontario, Inc., Exar Capital B.V. and Minera Exar S.A.) has been duly incorporated or organized, as the case may be, and is validly existing as a corporation, partnership or limited liability company, as applicable, in good standing under the laws of the jurisdiction of its incorporation or organization and has the power and authority (corporate or other) to own, lease and operate its properties and to conduct its business as described in the Registration Statement and the Prospectuses. Each of the Corporation's subsidiaries is qualified as a corporation, partnership or limited liability company, as applicable, to transact business and is in good standing in each jurisdiction in which such qualification is required, whether by reason of the ownership or leasing of property or the conduct of business, except where the failure to be so qualified or in good standing would not reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change (except as otherwise disclosed in the Registration Statement and the Prospectuses). Subject to the security interests and covenants granted to the lenders under the Senior Credit Facility dated July 14, 2017, as amended, all of the issued and outstanding capital stock or other equity or ownership interests of each of the Corporation's subsidiaries have been duly authorized and validly issued, are fully paid and non-assessable and are owned by the Corporation, directly or through subsidiaries (except as otherwise disclosed in the Registration Statement and the Prospectuses), free and clear of any security interest, mortgage, pledge, lien, encumbrance or adverse claim. None of the outstanding capital stock or equity interest in any subsidiary was issued in violation of pre-emptive or similar rights of any security holder of such subsidiary. The constitutive or organizational documents of each of the subsidiaries comply in all material respects with the requirements of applicable laws of its jurisdiction of incorporation or organization and are in full force and effect.
+ (n) Capitalization and Other Capital Stock Matters. The authorized, issued and outstanding share capital of the Corporation is as set forth in the Registration Statement and the Prospectuses (other than for subsequent issuances, if any, (i) pursuant to this Agreement, (ii) pursuant to employee benefit plans and other security-based compensation arrangements described in the Registration Statement and the Prospectuses, or (iii) pursuant to the exercise of outstanding options, warrants or other convertible or exchangeable securities described in the Registration Statement and the Prospectuses. The Common Shares (including the Offered Shares) conform in all material respects to the description thereof contained in the Prospectuses. All of the issued and outstanding Common Shares have been duly authorized and validly issued, are fully paid and non-assessable and have been issued in compliance with the Business Corporations Act (British Columbia). None of the outstanding Common Shares was issued in violation of any pre-emptive rights, rights of first refusal or other similar rights to subscribe for or purchase securities of the Corporation. There are no authorized or outstanding options, warrants, pre-emptive rights, rights of first refusal or other rights to purchase, or equity or debt securities convertible into or exchangeable or exercisable for, any shares of the Corporation or any of its subsidiaries other than those described in the Registration Statement and the Prospectuses. The description of the Corporation's stock option plan and other security-based compensation arrangements, and the options or other rights granted thereunder, set forth in the Registration Statement and the Prospectuses fairly presents in all material respects the information required to be shown with respect to such plans, arrangements, options and rights.
+ (o) Stock Exchange Listing. The Common Shares are registered pursuant to Section 12(b) of the Exchange Act and are listed on the NYSE and the TSX and the Corporation has taken no action designed to, or likely to have the effect of, terminating the registration of the Common Shares under the U.S. Exchange Act or delisting the Common Shares from the NYSE or the TSX, nor has the Corporation received any notification that the SEC, the NYSE or the TSX is contemplating terminating such registration or listing. To the Corporation's knowledge, it is in compliance with all applicable listing requirements of the NYSE and the TSX.
+ 
+ 17
+ 
+ 
+ (p) Non-Contravention of Existing Instruments; No Further Authorizations or Approvals Required. Neither the Corporation nor any of its subsidiaries is in violation of its charter or by-laws, partnership agreement or operating agreement or similar organizational documents, as applicable, or is in default (or, with the giving of notice or lapse of time, would be in default) ("Default") under any indenture, loan, credit agreement, note, lease, license agreement, contract, franchise or other instrument (including, without limitation, any pledge agreement, security agreement, mortgage or other instrument or agreement evidencing, guaranteeing, securing or relating to indebtedness) to which the Corporation or any of its subsidiaries is a party or by which it or any of them may be bound, or to which any of their respective properties or assets are subject (each, an "Existing Instrument"), except for such Defaults as would not reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change. The Corporation's execution, delivery and performance of this Agreement, consummation of the transactions contemplated hereby and by the Registration Statement and the Prospectuses and the issuance and sale of the Offered Shares (including the use of proceeds from the sale of the Offered Shares as described in the Registration Statement and the Prospectuses under the caption "Use of Proceeds") (i) have been duly authorized by all necessary corporate action and will not result in any violation of the provisions of the charter or by-laws, partnership agreement or operating agreement or similar organizational documents, as applicable, of the Corporation or any subsidiary, (ii) will not conflict with or constitute a breach of, or Default or a Debt Repayment Triggering Event (defined below) under, or result in the creation or imposition of any lien, charge or encumbrance upon any property or assets of the Corporation or any of its subsidiaries pursuant to, or require the consent of any other party to, any Existing Instrument except as would not reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change, and (iii) will not result in any violation of any law, administrative regulation or administrative or court decree applicable to the Corporation or any of its subsidiaries that would reasonably be expected to result in a Material Adverse Change. No consent, approval, authorization or other order of, or registration or filing with, any court or other governmental or regulatory authority or agency, is required for the Corporation's execution, delivery and performance of this Agreement and consummation of the transactions contemplated hereby and by the Registration Statement and the Prospectuses, except such as have been obtained or made by the Corporation and are in full force and effect under the U.S. Securities Act and Canadian Securities Laws and such as may be required under applicable state securities or blue sky laws or FINRA (defined below). As used herein, a "Debt Repayment Triggering Event" means any event or condition which gives, or with the giving of notice or lapse of time would give, the holder of any note, debenture or other evidence of indebtedness (or any person acting on such holder's behalf) the right to require the repurchase, redemption or repayment of all or a portion of such indebtedness by the Corporation or any of its subsidiaries.
+ (q) No Material Actions or Proceedings. Except as otherwise disclosed in the Prospectuses, there is no action, suit, proceeding, inquiry or investigation brought by or before any legal or governmental entity now pending or, to the knowledge of the Corporation, threatened, against or affecting the Corporation or any of its subsidiaries, which would reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change. No material labor dispute with the employees of the Corporation or any of its subsidiaries, or with the employees of any principal supplier, manufacturer, customer or contractor of the Corporation, exists or, to the knowledge of the Corporation, is threatened or imminent.
+ 
+ 18
+ 
+ 
+ (r) Intellectual Property Rights. The Corporation and each of its subsidiaries own or possess the right to use all material patents, trademarks, trademark registrations, service marks, service mark registrations, trade names, copyrights, licenses, inventions, trade secrets and rights necessary for the conduct of their respective businesses, except where the failure to so own, possess or acquire would not reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change, and, to the knowledge of the Corporation, there is no claim to the contrary or any challenge by any other person to the rights of the Corporation and any subsidiary with respect to the foregoing. The Corporation's business, including that of each of its subsidiaries, as now conducted does not, and as currently proposed to be conducted is not reasonably expected to, infringe or conflict with patents, trademarks, service marks, trade names, copyrights, trade secrets, licenses or other intellectual property or franchise right of any person that would reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change. No claim has been made against the Corporation or any of its subsidiaries alleging the infringement by the Corporation or any subsidiary of any patent, trademark, service mark, trade name, copyright, trade secret, license in or other intellectual property right or franchise right of any person.
+ (s) All Necessary Permits, etc. Except as otherwise disclosed in the Prospectuses, in Schedule "C" attached hereto and such additional permits as may be required based on the development plan set forth in the upcoming feasibility study for the Thacker Pass Project, the Corporation and each subsidiary possess such valid and current certificates, authorizations or permits required by state, provincial, federal or foreign regulatory agencies or bodies to conduct their respective businesses as currently conducted and as described in the Registration Statement or the Prospectuses ("Permits"), except where the failure to possess such Permits or of such Permits to be valid and current would not reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change. Neither the Corporation nor any of its subsidiaries is in violation of, or in default under, any of the Permits or has received any notice of proceedings relating to the revocation or modification of, or non-compliance with, any such Permit which if the subject of an unfavorable decision, ruling or finding, would reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change.
+ (t) Title to Properties. The Corporation and its subsidiaries, taken as a whole (i) own, control or have legal rights to, through mining claims of various types and descriptions or otherwise, all of the rights, titles and interests materially necessary or appropriate to authorize and enable it to access and carry on the material mineral exploration and/or mining, development and commissioning activities as currently being undertaken on the Mineral Properties, (ii) have obtained or expect to obtain (upon performance of all conditions precedent) such rights, titles and interests as may be reasonably required to implement their plans on such properties, and (iii) are not in material default of such rights, titles and interests. All assessments or other work required to be performed in relation to the material mining claims and the material Mining Rights (defined below) of the Corporation in order to maintain the Corporation's interest therein, if any, have been performed to date and/or are in the process to be performed in accordance with the laws of the jurisdiction where such subsidiary operates and the Corporation and each subsidiary has complied in all material respects with all applicable governmental laws, regulations and policies in this connection as well as with regard to legal, contractual obligations to third parties in this connection except in respect of mining claims and Mining Rights that the Corporation or any of its subsidiaries intends to abandon or relinquish and except for any non-compliance which would not reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change. All such mining claims and Mining Rights are in good standing in all material respects.
+ 
+ 19
+ 
+ 
+ (u) Exploration and Development. All exploration and development operations on the properties of the Corporation and its subsidiaries, including all operations and activities relating to the construction, development and commissioning of the Mineral Properties, have been conducted in all material respects in accordance with good exploration, development and engineering practices and all applicable material workers' compensation and health and safety and workplace laws, regulations and policies have been complied with in all material respects.
+ (v) Mining Rights. Except as disclosed in the Registration Statement and the Prospectuses, the Corporation and the subsidiaries are the legal and beneficial owners of the mining lease and mining claims relating to the Mineral Properties (collectively, "Mining Rights") in respect of the mineral rights located in the Mineral Properties under valid, subsisting and enforceable title documents or other recognized and enforceable agreements or instruments, sufficient to permit the Corporation or its subsidiaries, as applicable, to access, explore for, mine and develop the mineral deposits relating thereto, free and clear of any liens, charges or encumbrances and no material commission, royalty, license fee or similar payment to any person with respect to the Mineral Properties is payable, except which would not reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change. All material Mining Rights in which the Corporation or its subsidiaries hold an interest or right have been validly registered and recorded in accordance in all material respects with all applicable laws and are valid and subsisting. The Corporation and its subsidiaries have or expect to obtain all necessary surface rights, access rights and other necessary rights and interests relating to the Mineral Properties granting the Corporation or its subsidiaries the right and ability to access, explore for, mine and develop the mineral deposits as are appropriate in view of the rights and interests therein of the Corporation or its subsidiaries, with only such exceptions as do not unreasonably interfere with the use made by the Corporation or its subsidiaries of the rights or interest so held; and each of the Mining Rights and each of the documents, agreements and instruments and obligations relating thereto referred to above is currently in good standing in the name of the Corporation or its subsidiaries, as applicable, except where the failure to be in good standing would not reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change.
+ (w) Mineral Properties Disclosure. The disclosure of the Mineral Properties and Mining Rights of the Corporation and its subsidiaries in the Prospectuses constitutes an accurate description in all material respects of the Mineral Properties and all material Mining Rights held by the Corporation and its subsidiaries, no other property or assets are necessary for the conduct of the business of the Corporation and its subsidiaries as currently conducted, and the Corporation does not know of any claim or the basis for any claim, including a claim with respect to aboriginal or native rights, that would reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change on the right thereof to use, transfer or otherwise explore for mineral deposits on such Mineral Property.
+ (x) Technical Reports. The Technical Reports were in compliance in all material respects with the requirements of National Instrument 43-101 - Standards of Disclosure for Mineral Projects ("NI 43-101") at the time of filing thereof. The Corporation made available to the authors of the Technical Reports, prior to the issuance of such reports, for the purpose of preparing such reports, all information requested by the authors, which information did not contain any material misstatement or omission at the time such information was so provided. The Corporation is in compliance with the provisions of NI 43-101 and has filed all technical reports required thereby and there has been no material change that would require the filing of a new technical report under NI 43-101. All scientific and technical information set forth in the Registration Statement and Prospectuses has been reviewed by a "qualified person" as required under NI 43-101 and has been prepared in accordance with Canadian industry standards set forth in NI 43-101. The Corporation has no reason to believe that all of the assumptions underlying the mineral resource and mineral reserve estimates associated with the Mineral Properties contained in the Registration Statement and Prospectuses are not reasonable and appropriate.
+ 
+ 20
+ 
+ 
+ (y) Tax Law Compliance. The Corporation and its subsidiaries have filed all necessary federal, provincial, state and foreign income and franchise tax returns or have properly requested extensions thereof and have paid all taxes required to be paid by any of them and, if due and payable, any related or similar assessment, fine or penalty levied against any of them except as may be being contested in good faith and by appropriate proceedings (except in any case in which the failure to do so would not reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change). The Corporation has made adequate charges, accruals and reserves in the applicable financial statements referred to in Section 1(j) above in respect of all federal, provincial, state and foreign income taxes for all periods as to which the tax liability of the Corporation or any of its subsidiaries has not been finally determined.
+ (z) Corporation Not an "Investment Company." The Corporation is not, and will not be, either after receipt of payment for the Offered Shares or after the application of the proceeds therefrom as described under "Use of Proceeds" in the Registration Statement or the Prospectus, required to register as an "investment company" under the Investment Company Act of 1940, as amended (the "Investment Company Act").
+ (aa) PFIC Status. The Corporation believes that it was a "passive foreign investment company" ("PFIC") as defined in Section 1297 of the United States Internal Revenue Code of 1986, as amended (the "Code") for its tax year ended December 31, 2019, and based on current business plans and financial expectations, the Corporation expects that it may be a PFIC for the tax year ended December 30, 2020 and for its current tax year and may be a PFIC in future tax years.
+ (bb) Insurance. Except as otherwise disclosed in the Prospectuses, each of the Corporation and its subsidiaries are insured by recognized and reputable institutions with policies in such amounts and with such deductibles and covering such risks as are generally deemed adequate and customary for their businesses including, but not limited to, policies covering real and personal property owned or leased by the Corporation and its subsidiaries against theft, damage, destruction, acts of vandalism and earthquakes. The Corporation has no reason to believe that it or any of its subsidiaries will not be able (i) to renew its existing insurance coverage as and when such policies expire, or (ii) to obtain comparable coverage from similar institutions as may be necessary or appropriate to conduct its business as now conducted and at a cost that would not reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change. Neither the Corporation nor any of its subsidiaries has been denied any insurance coverage which it has sought or for which it has applied.
+ 
+ 21
+ 
+ 
+ (cc) No Price Stabilization or Manipulation; Compliance with Regulation M. Neither the Corporation nor any of its subsidiaries has taken, directly or indirectly, any action designed to or that might reasonably be expected to cause or result in stabilization or manipulation of the price of the Common Shares or of any "reference security" (as defined in Rule 100 of Regulation M under the Exchange Act ("Regulation M")) with respect to the Common Shares, whether to facilitate the sale or resale of the Shares or otherwise, and has taken no action which would directly or indirectly violate Regulation M.
+ (dd) Related Party Transactions. All business relationships and related-party transactions involving the Corporation or any of its subsidiaries or any other person required to be described in the Registration Statement or the Prospectuses have been described as required in all material respects.
+ (ee) FINRA Matters. All of the information provided to the Underwriters or to counsel for the Underwriters by or on behalf of the Corporation in connection with the offering of the Offered Shares is true, complete, correct and compliant with Financial Industry Regulatory Authority, Inc.'s ("FINRA") rules and any letters, filings or other supplemental information provided to FINRA pursuant to FINRA Rules is true, complete and correct.
+ (ff) No Unlawful Contributions or Other Payments. Except as otherwise disclosed in the Prospectuses, neither the Corporation nor any of its subsidiaries nor, to the knowledge of the Corporation, any employee or agent of the Corporation or any subsidiary, has made any contribution or other payment to any official of, or candidate for, any federal, state or foreign office in violation of any law or of the character required to be disclosed in the Registration Statement and the Prospectuses.
+ (gg) Compliance with Environmental Laws. The Corporation and each subsidiary is in material compliance with all applicable federal, state, provincial, municipal and local laws, statutes, ordinances, by-laws and regulations and orders, directives and decisions rendered by any ministry, department or administrative or regulatory agency, having jurisdiction in the State of Nevada, United States or Jujuy, Argentina, (the "Environmental Laws") relating to the protection of the environment, occupational health and safety or the processing, use, treatment, storage, disposal, discharge, transport or handling of any pollutants, contaminants, chemicals or industrial, toxic or hazardous wastes or substance ("Hazardous Substances"). Except as otherwise disclosed in the Prospectuses, in Schedule “C” attached hereto and such additional permits as may be required based on the development plan set forth in the upcoming feasibility study for the Thacker Pass Project, the Corporation and each subsidiary has, collectively, obtained all required material Permits and/or expects to receive all renewals for material Permits, including all material Permits required by any Environmental Laws ("Environmental Permits"), necessary as at the date hereof for the operation of the businesses carried on or proposed to be commenced by the Corporation and the subsidiaries, including access to and the construction, commissioning and operation of the Mineral Properties, and each material Permit, including Environmental Permits, is valid, subsisting and in good standing and neither the Corporation nor any such subsidiary is in material default or breach of any material Permit, including any Environmental Permit, and no proceeding is pending or, to the knowledge of the Corporation, threatened to revoke or limit any material Permit, including any Environmental Permit. No approval, consent or authorization of any aboriginal or native group is pending for the operation of the businesses carried on or proposed to be commenced by the Corporation or any of its subsidiaries, including access to and the construction, commissioning and operation of the Mineral Properties. Neither the Corporation nor any of its subsidiaries has used, except in material compliance with all Environmental Laws and Environmental Permits, any property or facility which it owns or leases or previously owned or leased, to generate, manufacture, process, distribute, use, treat, store, dispose of, transport or handle any Hazardous Substance, except where such use would not reasonably be expected to result in a Material Adverse Change. Neither the Corporation nor any of its subsidiaries, including if applicable, any predecessor companies, have received any notice of, or been prosecuted for an offence alleging, material non-compliance with any Environmental Law, and neither the Corporation nor any of its subsidiaries, including if applicable, any predecessor companies, have settled any allegation of material non-compliance short of prosecution. There are no orders or directions relating to environmental matters requiring any material work, repairs, construction or capital expenditures to be made with respect to any of the assets of the Corporation or any subsidiary, nor has the Corporation or any subsidiary received notice of any of the same. Except as ordinarily or customarily required by applicable Permits, neither the Corporation nor any of its subsidiaries has received any notice wherein it is alleged or stated that it is potentially responsible in a material amount for a federal, provincial, state, municipal or local clean-up site or corrective action under any Environmental Laws. There are no environmental audits, evaluations, assessments, studies or tests relating to the Corporation or any of its subsidiaries except for ongoing assessments conducted by or on behalf of the Corporation in the ordinary course.
+ 
+ 22
+ 
+ 
+ (hh) Periodic Review of Costs of Environmental Compliance. In the ordinary course of its business, the Corporation conducts a periodic review of the effect of Environmental Laws on the business, operations and properties of the Corporation and its subsidiaries, in the course of which it identifies and evaluates associated costs and liabilities (including, without limitation, any capital or operating expenditures required for clean-up, closure of properties or compliance with Environmental Laws or any permit, license or approval, any related constraints on operating activities and any potential liabilities to third parties). No facts or circumstances have come to the Corporation's attention that could result in costs or liabilities that would reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change.
+ (ii) ERISA Compliance; Employee Plans. Neither the Corporation nor any of its subsidiaries is subject to the standards of Section 302 of the United States Employee Retirement Income Security Act of 1974, as amended ("ERISA"), with respect to each "pension plan" (as defined in Section 3(2) of ERISA), which the Corporation and its subsidiaries sponsors or maintains, or with respect to which it has (or within the last three years had) any obligation to make contributions. Each material plan for bonus, stock purchase, profit sharing, stock option, deferred compensation, severance or termination pay, insurance, medical, hospital, dental, vision care, drug, sick leave, disability, salary continuation, legal benefits, unemployment benefits, vacation, incentive or otherwise contributed to, or required to be contributed to, by the Corporation or its subsidiaries for the benefit of any current or former director, officer or employee of the Corporation or its subsidiaries, as applicable (the "Employee Plans"), has been maintained in all material respects in accordance with its terms and with the requirements prescribed by any and all statutes, orders, rules and regulations that are applicable to such Employee Plans.
+ (jj) Brokers. Except as otherwise disclosed in the Prospectuses, there is no broker, finder or other party that is entitled to receive from the Corporation any brokerage or finder's fee or other fee or commission as a result of any transactions contemplated by this Agreement.
+ (kk) No Outstanding Loans or Other Extensions of Credit with Directors or Executive Officers. The Corporation does not have any outstanding extension of credit, in the form of a personal loan, to or for any director or executive officer of the Corporation except for such extensions of credit as are expressly permitted by Section 13(k) of the Exchange Act.
+ 
+ 23
+ 
+ 
+ (ll) Compliance with Laws. The Corporation and its subsidiaries have been and are in compliance with all applicable laws, rules and regulations, except where failure to be so in compliance would not reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change.
+ (mm) Dividend Restrictions. Except Minera Exar S.A., no subsidiary of the Corporation is prohibited or restricted, directly or indirectly, from paying dividends to the Corporation, or from making any other distribution with respect to such subsidiary's equity securities or from repaying to the Corporation or any other subsidiary of the Corporation any amounts that may from time to time become due under any loans or advances to such subsidiary from the Corporation or from transferring any property or assets to the Corporation or to any other subsidiary.
+ (nn) Anti-Corruption and Anti-Bribery Laws. Neither the Corporation nor any of its subsidiaries nor any director, officer, or employee of the Corporation or any of its subsidiaries, nor to the knowledge of the Corporation, any agent, affiliate or other person acting on behalf of the Corporation or any of its subsidiaries has, in the course of its actions for, or on behalf of, the Corporation or any of its subsidiaries (i) used any corporate funds for any unlawful contribution, gift, entertainment or other unlawful expenses relating to political activity; (ii) made or taken any act in furtherance of an offer, promise, or authorization of any direct or indirect unlawful payment or benefit to any foreign or domestic government official or employee, including of any government-owned or controlled entity or public international organization, or any political party, party official, or candidate for political office; (iii) violated or is in violation of any provision of the U.S. Foreign Corrupt Practices Act of 1977, as amended (the "FCPA"), the Corruption of Foreign Public Officials Act (Canada) (the "CFPOA"), the UK Bribery Act 2010, or any other applicable anti-bribery or anti-corruption law; or (iv) made, offered, authorized, requested, or taken an act in furtherance of any unlawful bribe, rebate, payoff, influence payment, kickback or other unlawful payment or benefit. The Corporation and its subsidiaries and, to the knowledge of the Corporation, the Corporation's affiliates have conducted their respective businesses in compliance with the FCPA and CFPOA and have instituted and maintain policies and procedures designed to ensure, and which are reasonably expected to continue to ensure, continued compliance therewith.
+ (oo) Money Laundering Laws. The operations of the Corporation and its subsidiaries are, and have been conducted at all times, in compliance with applicable financial recordkeeping and reporting requirements of the Currency and Foreign Transactions Reporting Act of 1970, as amended, the Proceeds of Crime (Money Laundering) and Terrorist Financing Act (Canada) and the money laundering statutes of all applicable jurisdictions, the rules and regulations thereunder and any related or similar applicable rules, regulations or guidelines, issued, administered or enforced by any governmental agency (collectively, the "Money Laundering Laws") and no action, suit or proceeding by or before any court or governmental agency, authority or body or any arbitrator involving the Corporation or any of its subsidiaries with respect to the Money Laundering Laws is pending or, to the knowledge of the Corporation, threatened.
+ (pp) Sanctions. Neither the Corporation nor any of its subsidiaries, directors, officers, or employees, nor, to the knowledge of the Corporation, after reasonable inquiry, any agent, affiliate or other person acting on behalf of the Corporation or any of its subsidiaries is currently the subject or the target of any U.S. sanctions administered by the Office of Foreign Assets Control of the U.S. Department of the Treasury ("OFAC") or the U.S. Department of State, the United Nations Security Council, the European Union, Her Majesty's Treasury of the United Kingdom, or other relevant sanctions authority (collectively, "Sanctions"); nor is the Corporation or any of its subsidiaries located, organized or resident in a country or territory that is the subject or the target of Sanctions, including, without limitation, Crimea, Cuba, Iran, North Korea, and Syria; and the Corporation will not directly or indirectly use the proceeds of this offering, or lend, contribute or otherwise make available such proceeds to any subsidiary, or any joint venture partner or other person or entity, for the purpose of financing the activities of or business with any person, or in any country or territory, that at the time of such financing, is the subject or the target of Sanctions or in any other manner that will result in a violation by any person (including any person participating in the transaction whether as underwriter, advisor, investor or otherwise) of applicable Sanctions. For the past five years, the Corporation and its subsidiaries have not knowingly engaged in and are not now knowingly engaged in any dealings or transactions with any person that at the time of the dealing or transaction is or was the subject or the target of Sanctions or with any sanctioned country.
+ 
+ 24
+ 
+ 
+ (qq) Sarbanes-Oxley. The Corporation is in compliance, in all material respects, with all applicable provisions of the Sarbanes-Oxley Act of 2002 and the rules and regulations promulgated thereunder.
+ (rr) Duties, Transfer Taxes, Etc. No stamp or other issuance or transfer taxes or duties are payable by the Underwriters to the United States, Canada or any political subdivision or taxing authority thereof or therein in connection with the execution, delivery or performance of this Agreement by the Corporation or the sale and delivery by the Corporation of the Offered Shares.
+ (ss) Withholding Taxes. No withholding tax imposed under the federal laws of Canada or the laws of the Provinces of Ontario, British Columbia and Alberta will be payable in respect of any commission or fee to be paid by the Corporation pursuant to this Agreement to the Underwriters that are "non-residents" within the meaning of the Income Tax Act (Canada) provided any such commission or fee is payable in respect of services rendered by such Underwriters wholly outside of Canada and are performed in the ordinary course of business carried on by the Underwriters that includes the performance of such services for a fee and any such amount is reasonable in the circumstances.
+ (tt) Canadian Reporting Issuer. The Corporation is a reporting issuer (or the equivalent thereof) in each Canadian Qualifying Jurisdiction and is not noted in default on the list of reporting issuers maintained by the applicable authorities in each Canadian Qualifying Jurisdiction that maintains such a list. The Corporation has not filed any confidential material change reports which remain confidential at the date hereof.
+ (uu) Cybersecurity. Except as disclosed in the Registration Statement and the Prospectuses, (x) there has been no material security breach or other material compromise of or relating to any of the Corporation's or any of its subsidiaries' information technology and computer systems, networks, hardware, software, data (including the data of their respective customers, employees, suppliers, vendors and any third party data maintained by or on behalf of them), equipment or technology (collectively, "IT Systems and Data") and (y) the Corporation and its subsidiaries have not been notified of, and have no knowledge of any event or condition that would reasonably be expected to result in, any material security breach or other material compromise to their IT Systems and Data; (ii) the Corporation and its subsidiaries are presently in compliance with all applicable laws or statutes and all judgments, orders, rules and regulations of any court or arbitrator or governmental or regulatory authority, internal policies and contractual obligations relating to the privacy and security of IT Systems and Data and to the protection of such IT Systems and Data from unauthorized use, access, misappropriation or modification, except as would not, in the case of this clause (ii), reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change; and (iii) the Corporation and its subsidiaries have implemented backup and disaster recovery technology consistent with industry standards and practices.
+ 
+ 25
+ 
+ 
+ (vv) Compliance with Data Privacy Laws. The Corporation and its subsidiaries are, and at all prior times were, in material compliance with all applicable state and federal data privacy and security laws and regulations, including without limitation HIPAA, and the Corporation and its subsidiaries have taken commercially reasonable actions to prepare to comply with, and since May 25, 2018, have been and currently are in compliance with, the European Union General Data Protection Regulation ("GDPR") (EU 2016/679), to the extent the GDPR applies to the Corporation (collectively, the "Privacy Laws"). To ensure compliance with the Privacy Laws, the Corporation and its subsidiaries have in place, comply with, and take appropriate steps reasonably designed to ensure compliance in all material respects with their policies and procedures relating to data privacy and security and the collection, storage, use, disclosure, handling, and analysis of Personal Data (the "Policies"). The Corporation and its subsidiaries have at all times made all material disclosures to users or customers required by applicable laws and regulatory rules or requirements, and none of such disclosures made or contained in any Policy have, to the knowledge of the Corporation, been inaccurate or in violation of any applicable laws and regulatory rules or requirements in any material respect. The Corporation further certifies that neither it nor any subsidiary: (i) has received notice of any actual or potential liability under or relating to, or actual or potential violation of, any of the Privacy Laws, and has no knowledge of any event or condition that would reasonably be expected to result in any such notice; (ii) is currently conducting or paying for, in whole or in part, any investigation, remediation, or other corrective action pursuant to any Privacy Law; or (iii) is a party to any order, decree, or agreement that imposes any obligation or liability under any Privacy Law, except with respect to subsection (i), (ii) and (iii) as would not reasonably be expected, individually or in the aggregate, to result in a Material Adverse Change.
+ (2) Prospectus Matters
+ (a) the Corporation is eligible to file a short form prospectus in each of the Qualifying Jurisdictions pursuant to applicable Canadian Securities Laws and on the date of and upon filing of the Canadian Prospectus Supplement there will be no documents required to be filed under the Canadian Securities Laws in connection with the distribution of the Offered Shares that will not have been filed as required;
+ (b) the Canadian Final Base Shelf Prospectus complied, as of the time of filing thereof, and all other Canadian Offering Documents as of the time of filing thereof will comply, in all material respects with the applicable requirements of Canadian Securities Laws; the Canadian Final Base Shelf Prospectus, as of the time of filing thereof, did not, and all other Canadian Offering Documents, as of the time of filing thereof and as of the Closing Time and the Option Closing Time, as the case may be, will not, contain any untrue statement of a material fact or omit to state a material fact required to be stated therein or necessary in order to make the statements therein, in light of the circumstances under which they were made, not misleading; and the Canadian Final Base Shelf Prospectus, as of the time of filing thereof, constituted, and all other Canadian Offering Documents, as of the time of filing thereof and as of the Closing Time and the Option Closing Time, as the case may be, will constitute, full, true and plain disclosure of all material facts relating to the Offered Shares and to the Corporation; provided, however, that this representation and warranty shall not apply to any information contained in or omitted from any Canadian Offering Document in reliance upon and in conformity with information furnished in writing to the Corporation by or on behalf of any Underwriter through the Lead Underwriter specifically for use therein;
+ 
+ 26
+ 
+ 
+ (c) as of the applicable effective date of the Registration Statement and any post-effective amendment thereto, the Registration Statement and any such post-effective amendment thereto will comply in all material respects with the U.S. Securities Act and the applicable rules and regulations of the SEC, and will not contain any untrue statement of a material fact or omit to state a material fact required to be stated therein or necessary in order to make the statements therein not misleading; the U.S. Preliminary Prospectus complied, as of the time of filing thereof, and the U.S. Prospectus and any U.S. Amended Prospectus, as of the time of filing thereof, will comply, in all material respects with the applicable requirements of U.S. Securities Laws; the U.S. Preliminary Prospectus, as of the time of filing thereof, did not, and the U.S. Prospectus and any U.S. Amended Prospectus, as of the time of filing thereof and as of the Closing Date and the Option Closing Date, as the case may be, will not, contain any untrue statement of a material fact or omit to state a material fact required to be stated therein or necessary in order to make the statements therein, in light of the circumstances under which they were made, not misleading; the Pricing Disclosure Package, as of the Applicable Time, did not contain any untrue statement of a material fact or omit to state a material fact required to be stated therein or necessary to make the statements therein, in light of the circumstances under which they were made, not misleading; provided, however, that this representation and warranty shall not apply to any information contained in or omitted from any U.S. Offering Document in reliance upon and in conformity with information furnished in writing to the Corporation by or on behalf of any Underwriter through the Lead Underwriter specifically for use therein;
+ (d) the Corporation (including its agents and representatives, other than the Underwriters in their capacity as such) has not prepared, used, authorized, approved or referred to and will not prepare, use, authorize, approve or refer to any Issuer Free Writing Prospectus related to the offering of the Offered Shares that is a "written communication" (as defined in Rule 405 under the U.S. Securities Act), except in accordance with Section 3 hereof. Each such Issuer Free Writing Prospectus complied in all material respects with the applicable U.S. Securities Laws, has been or will be (within the time period specified in Rule 433 under the U.S. Securities Act) filed in accordance with the U.S. Securities Act (to the extent required thereby) and, when taken together with the Pricing Disclosure Package as of the Applicable Time, each such Issuer Free Writing Prospectus, did not, and as of the Closing Date and the Option Closing Date, as the case may be, will not, contain any untrue statement of a material fact or omit to state a material fact necessary in order to make the statements therein, in the light of the circumstances under which they were made, not misleading; provided, however, that this representation and warranty shall not apply to any information contained in or omitted from any Issuer Free Writing Prospectus in reliance upon and in conformity with information furnished in writing to the Corporation by or on behalf of any Underwriter through the Lead Underwriter specifically for use therein. Each such Issuer Free Writing Prospectus did not, does not and will not include any information that conflicted, conflicts or will conflict with the information contained in the Registration Statement or the U.S. Prospectus; and
+ 
+ 27
+ 
+ 
+ (e) the Corporation meets the general eligibility requirements for the use of Form F-10 under the U.S. Securities Act and at the time of filing the Registration Statement and any post-effective amendment thereto, at the earliest time thereafter that the Corporation or any offering participant made a bona fide offer (within the meaning of Rule 164(h)(2) under the U.S. Securities Act) of the Offered Shares and at the date hereof, the Corporation was not and is not an "ineligible issuer", as defined in Rule 405 under the U.S. Securities Act.
+ Section 8 Representations, Warranties and Covenants of the Underwriters
+ (1) Each Underwriter hereby severally, and not jointly, nor jointly and severally, represents and warrants to the Corporation that:
+ (a) it is, and will remain so, until the completion of the Offering, appropriately registered under Applicable Securities Laws so as to permit it to lawfully fulfill its obligations hereunder; and
+ (b) it has good and sufficient right and authority to enter into this Agreement and complete the transactions contemplated under this Agreement on the terms and conditions set forth herein.
+ (2) The Underwriters hereby covenant and agree with the Corporation to the following:
+ (a) Compliance with Securities Laws. The Underwriters will offer the Offered Shares for sale to the public in Canada and the United States, directly (including through any affiliate of an Underwriter) and through the Selling Firms, only in compliance, in all material respects, with all Applicable Securities Laws, upon the terms and conditions set forth in the Canadian Prospectus or the U.S. Prospectus, as applicable, any Canadian Prospectus Amendment or U.S. Amended Prospectus, the Pricing Disclosure Package and this Agreement and will offer the Offered Shares for sale to the public outside of Canada and the United States, directly (including through any affiliate of an Underwriter) and through other Selling Firms, only in compliance, in all material respects, with all applicable laws and regulations in each jurisdiction into and from which they may offer or sell the Offered Shares, upon the terms and conditions set forth in the Canadian Prospectus or the U.S. Prospectus, as applicable, any Canadian Prospectus Amendment or U.S. Amended Prospectus, the Pricing Disclosure Package and this Agreement. The Underwriters shall not, directly or indirectly, solicit offers to purchase or sell the Offered Shares or deliver any Offering Documents so as to require registration of the Offered Shares or filing of a prospectus or registration statement with respect to the Offered Shares or compliance by the Corporation with regulatory requirements (including any continuous disclosure obligations or similar reporting obligations) under the laws of any jurisdiction other than the Offering Jurisdictions and the Underwriters shall not make any representations or warranties with respect to the Corporation or the Offered Shares, other than as set forth in the Offering Documents.
+ (b) Liability on Default. No Underwriter shall be liable to the Corporation under this section with respect to a default by any of the other Underwriters.
+ 
+ 28
+ 
+ 
+ (3) The Corporation agrees that the Underwriters are acting severally and not jointly (or jointly and severally) in performing their respective obligations under this Agreement and that no Underwriter shall be liable for any act, omission or conduct by any other Underwriter.
+ (4) No Underwriter that is a non-resident for purposes of the Income Tax Act (Canada), as amended, will render any services under this Agreement in Canada. 
+ Section 9 Indemnification
+ (1) The Corporation agrees to indemnify and save harmless each of the Underwriters, its affiliates and each of their directors, officers, employees and agents (each being hereinafter referred to as the "Indemnified Party") from and against all liabilities, claims, losses, costs, damages and expenses (including without limitation any legal fees or other expenses reasonably incurred by such Underwriters in connection with defending or investigating any of the above (but excluding any loss of profits and other consequential damages), as the same are incurred), in any way caused by, or arising directly or indirectly from, or in consequence of:
+ (a) (i) any information or statement contained in any Offering Document which at the time and in light of the circumstances under which it was made contains or is alleged to contain a misrepresentation; (ii) any untrue statement or alleged untrue statement of a material fact contained (A) in an Offering Document, in any Issuer Free Writing Prospectus or in any "issuer information" (as defined in Rule 433(h)(2) under the U.S. Securities Act) filed or required to be filed pursuant to Rule 433(d) under the U.S. Securities Act or (B) in any Marketing Documents, or (iii) the omission or alleged omission to state in any Offering Document, in any Issuer Free Writing Prospectus or in any "issuer information" (as defined in Rule 433(h)(2) under the U.S. Securities Act) filed or required to be filed pursuant to Rule 433(d) under the U.S. Securities Act or in any Marketing Documents, a material fact required to be stated therein or necessary to make the statements therein (in the light of the circumstances under which they were made, in the case of any prospectus) not misleading; provided, however, that the Corporation will not be liable in any such case to the extent such liabilities, claims, losses, costs, damages and expenses arise out of or are based upon any such misrepresentation or alleged misrepresentation, untrue statement or alleged untrue statement or omission or alleged omission made therein in reliance upon and in conformity with written information furnished to the Corporation by or on behalf of any Underwriter through the Lead Underwriter expressly for use therein. The Corporation acknowledges that the statements set forth in the third sentence of the fifth paragraph, sentences four, five, six and seven of the seventh paragraph and the eighth, twelfth, fourteenth paragraph under the heading "Plan of Distribution," as well as the third and fourth sentence of the first paragraph of the cover page in the U.S. Prospectus and the Canadian Prospectus constitute the only information furnished in writing by or on behalf of the Underwriters for inclusion in the U.S. Prospectus and the Canadian Prospectus or in any amendment or supplement thereto;
+ (b) any order made or inquiry, investigation or proceedings commenced or threatened by any securities regulatory authority, stock exchange or other competent authority based upon any untrue statement or omission or alleged untrue statement or alleged omission or any misrepresentation or alleged misrepresentation (except a statement provided by the Underwriters in writing specifically for use in any Offering Document or omission relating solely to the Underwriters or alleged untrue statement which has been provided by the Underwriters in writing specifically for use in an Offering Document or alleged omission relating solely to the Underwriters) in any Offering Document, or based upon any failure to comply with the Applicable Securities Laws in connection with the transactions contemplated herein (other than any failure or alleged failure to comply by the Underwriters), or which prevents or restricts the trading in or the sale of the Corporation's securities or the distribution of the Offered Shares in any jurisdiction;
+ 
+ 29
+ 
+ 
+ (c) the non-compliance or alleged non-compliance by the Corporation with any of the Applicable Securities Laws relating to or connected with the distribution of the Offered Shares, including the Corporation's non-compliance with any statutory requirement to make any document available for inspection; or
+ (d) any breach by the Corporation of its representations, warranties, covenants or obligations to be complied with under this Agreement;
+ provided that the indemnities provided by Sections 9(1)(b), (c) and (d) shall cease to apply if and to the extent that a court of competent jurisdiction in a final judgement from which no appeal can be made or a regulatory authority in a final ruling from which no appeal can be made shall determine that the liabilities, claims, actions, suits, proceedings, losses, costs, damages or expenses resulted from the gross negligence, fraud or wilful misconduct of an Indemnified Party claiming indemnity, provided that, in the avoidance of doubt, the indemnities provided by Section 9(1)(a) shall remain applicable. For greater certainty, the Corporation and the Underwriters agree that they do not intend that any failure by the Underwriters to conduct such reasonable investigation as necessary to provide the Underwriters with reasonable grounds for believing the Offering Documents contained no misrepresentation shall constitute "gross negligence", "fraud" or "wilful misconduct" for the purposes of this Section 9 or otherwise disentitle the Underwriters from indemnification hereunder.
+ (2) If any matter or thing contemplated by Section 9 (any such matter or thing being referred to as a "Claim") is asserted against an Indemnified Party, such Indemnified Party will (i) notify the Corporation in writing as soon as possible of the nature of such Claim, (ii) will provide copies of all the relevant documentation to the Corporation, and (iii) unless the Corporation assumes the defence thereof, will keep the Corporation advised of the progress and will discuss all significant proposed actions. The failure to notify the Corporation of any potential Claim shall not relieve the Corporation from any liability which it may have to any Indemnified Party except, and only to the extent, that any such delay in giving or failing to give notice results in the loss of rights or defences in connection with such Claim or results in any increase in the liability under this indemnity which the Corporation would not otherwise have incurred had the Indemnified Party given the required notice. The Corporation shall be entitled, at its own expense, to participate in and, to the extent it may wish to do so, assume the defence of any suit brought to enforce such Claim; provided, however, that the defence shall be conducted through legal counsel acceptable to the Indemnified Parties, acting reasonably. Upon the Corporation notifying the Indemnified Party in writing of its election to assume the defence and retain counsel, the Corporation will not be liable to an Indemnified Party for any legal expenses subsequently incurred by it in connection with such defence, except to the extent set forth below. If such defence is assumed by the Corporation, the Corporation throughout the course thereof will provide copies of all relevant documentation to the Indemnified Party, will keep the Indemnified Party advised of the progress thereof and will discuss with the Indemnified Party all significant actions proposed. 
+ (3) No settlement of any such Claim or admission of liability may be made by the Corporation or an Indemnified Party without the prior written consent of the Indemnified Parties affected or the Corporation (as applicable), which consent may not be unreasonably withheld or delayed, unless such settlement includes an unconditional release of each Indemnified Party or the Corporation (as applicable) from all liability arising out of such action or Claim and does not include a statement as to or an admission of fault, culpability or failure to act, by or on behalf of any Indemnified Party or the Corporation (as applicable).
+ 
+ 30
+ 
+ 
+ (4) Notwithstanding the forgoing, any Indemnified Party shall have the right, at the Corporation's expense, to separately retain counsel of such Indemnified Party's choice, in respect of the defence of any Claim if: (i) the Corporation shall have agreed to the retention of the other counsel; (ii) the Corporation has not assumed the defence and retained counsel therefor promptly following receipt by the Corporation of notice of any such Claim from the Indemnified Party; or (iii) counsel retained by the Corporation or the Indemnified Party has advised the Indemnified Party that representation of both parties by the same counsel would be inappropriate for any reason, including the reason that (A) there may be legal defences available to the Indemnified Party that are different from or in addition to those available to the Corporation (in which event and to that extent, the Corporation shall not have the right to assume or direct the defence on such Indemnified Party's behalf), (B) there is a conflict of interest between the Corporation and the Indemnified Party, or (C) the subject matter of the Claim may not fall within the indemnity set forth herein, and in each such case the Corporation shall not have the right to assume or direct the defence on such Indemnified Party's behalf, provided that the Corporation shall not be responsible for the fees or expenses of more than one legal firm in any single jurisdiction (in addition to local US counsel) for all of the Indemnified Parties.
+ (5) The rights provided in this Section 9 shall be in addition to and not in derogation of any other right which the Underwriters may have by statute or otherwise at law.
+ (6) To the extent that any Indemnified Party is not a party to this Agreement, the Underwriters hold the right and benefit of this section in trust for and on behalf of such Indemnified Party.
+ Section 10 Contribution
+ (1) In order to provide for a just and equitable contribution in circumstances in which the indemnity provided in Section 9 would otherwise be available in accordance with its terms but is, for any reason, held to be unavailable to or unenforceable by the Underwriters, the Underwriters and the Corporation shall contribute to the aggregate of all losses, costs, claims, damages, expenses or liabilities (including any legal or other expenses reasonably incurred by an Indemnified Party in connection with investigating or defending any action or claim which is the subject of this Section but excluding any loss of profits and other consequential damages) of the nature provided for above in such proportion as is appropriate to reflect not only the relative benefits received by the Underwriters on the one hand and the Corporation on the other hand but also the relative fault of the Underwriters and the Corporation as well as any relevant equitable considerations, provided that, in no event, will the Underwriters be responsible for any amount in excess of the amount of the Underwriting Fee actually received by them. In the event that the Corporation may be held to be entitled to contribution from the Underwriters under the provisions of any statute or law, the Corporation shall be limited to contribution in an amount not exceeding the lesser of: (i) the portion of the full amount of losses, claims, costs, damages, expenses and liabilities, giving rise to such contribution for which the Underwriters are responsible, as determined above; and (ii) the amount of the Underwriting Fee actually received by the Underwriters. Notwithstanding the foregoing, none of the foregoing applies if and to the extent that the liabilities, claims, actions, suits, proceedings, losses, costs, damages or expenses resulted from the gross negligence, fraud or wilful misconduct of the party claiming contribution.
+ (2) The rights to contribution provided in this Section 10 shall be in addition to and not in derogation of any other right to contribution which the Indemnified Parties may have by statute or otherwise at law provided that Section 10(1) of this Section 10 shall apply, mutatis mutandis, in respect of such other right.
+ 
+ 31
+ 
+ 
+ (3) Any party entitled to contribution will, promptly after receiving notice of commencement of any claim, action, suit or proceeding against such party in respect of which a claim for contribution may be made against the other party under this section, notify such party from whom contribution may be sought. In no case shall such party from whom contribution may be sought be liable under this Agreement unless such notice has been provided, but the omission to so notify such party shall not relieve the party from whom contribution may be sought from any other obligation it may have otherwise than under this Section 10, except to the extent such party is materially prejudiced by the failure to receive such notice. The obligations of the Underwriters to contribute pursuant to this Section 10 are several in proportion to the number of Offered Shares to be purchased by each of the Underwriters hereunder and not joint.
+ (4) The Corporation hereby waives its right to recover contribution from the Underwriters or any other Indemnified Party with respect to any liability of the Corporation solely by reason of or arising out of any misrepresentation contained in any Offering Document, other than a misrepresentation included in reliance upon information furnished to the Corporation in writing by or on behalf of any Underwriter by the Lead Underwriter specifically for use therein.
+ Section 11 Covenants of the Corporation
+ (1) The Corporation covenants and agrees with the Underwriters that:
+ (a) the Corporation will advise the Underwriters, promptly after receiving notice thereof, of the time when each Offering Document or Issuer Free Writing Prospectus has been filed, and will provide evidence satisfactory to the Underwriters of each such filing;
+ (b) between the date hereof and the date of completion of the Distribution of the Offered Shares, the Corporation will advise the Underwriters, promptly after receiving notice or obtaining knowledge thereof, of:
+ (i) the issuance by any Canadian Securities Commission or the SEC of any order suspending or preventing the use of any of the Offering Documents or any Issuer Free Writing Prospectus, including without limitation the issuance by the SEC of any stop order suspending the effectiveness of the Registration Statement, or, to the knowledge of the Corporation, the threatening of any such order;
+ (ii) the issuance by any Canadian Securities Commission, the SEC, the TSX or the NYSE of any order having the effect of ceasing or suspending the Distribution of the Common Shares or the trading in any securities of the Corporation, or of the institution or, to the knowledge of the Corporation, threatening of any proceeding for any such purpose; or
+ (iii) any requests made by any Canadian Securities Commission or the SEC for amending or supplementing any of the Offering Documents or any Issuer Free Writing Prospectus or for additional information;
+ and the Corporation will use its best efforts to prevent the issuance of any order referred to in subparagraph (b)(i) above or subparagraph (b)(ii) above and, if any such order is issued, to obtain the withdrawal thereof at the earliest possible time;
+ 
+ 32
+ 
+ 
+ (c) the Corporation will use its best efforts to obtain the conditional listing of the Offered Shares on the TSX by the Closing Time, subject only to the Standard Listing Conditions, and the Corporation will use its best efforts to have the Offered Shares listed and admitted and authorized for trading on the NYSE by the Closing Time, subject only to the official notice of issuance;
+ (d) as soon as practicable, but in any event not later than eighteen months after the effective date of the Registration Statement (as defined in Rule 158(c) under the U.S. Securities Act), the Corporation will make generally available to its security holders and to the Lead Underwriter an earnings statement or statements of the Corporation and its subsidiaries which will satisfy the provisions of Section 11(a) of the U.S. Securities Act and Rule 158 under the U.S. Securities Act; and
+ (e) the Corporation will use the net proceeds from the Offering as described in the Pricing Disclosure Package and the Prospectuses.
+ (2) Prior to the completion of the Distribution of the Offered Shares, the Corporation will file all documents required to be filed with or furnished to the Canadian Securities Commissions and the SEC pursuant to Applicable Securities Laws.
+ (3) During the period commencing on the date hereof and ending on the date which is 90 days following the Closing Date, not, without the prior written consent of the Lead Underwriter, which consent will not be unreasonably withheld or delayed, directly or indirectly issue, negotiate, announce or agree to sell or issue any common shares or securities or other financial instruments convertible into or having the right to acquire common shares of the Corporation, other than issuances (i) as contemplated in this Agreement; (ii) pursuant to the grant or exercise of convertible awards in the normal course pursuant to the Corporation's employee equity incentive plan or issuance of securities pursuant to the exercise or conversion, as the case may be, of options or securities of the Corporation outstanding on the date hereof; (iii) pursuant to the exercise of any other convertible securities of the Corporation outstanding on the date hereof; or (iv) an issuance of options or securities in connection with a bona fide acquisition by the Corporation (other than a direct or indirect acquisition, whether by way of one or more transactions, of an entity all or substantially all of the assets of which are cash, marketable securities or financial in nature or an acquisition that is structured primarily to defeat the intent of this provision).
+ (4) The Corporation will use its commercially reasonable efforts to cause each of its directors and senior officers to enter into lock-up agreements in form and substance satisfactory to the Lead Underwriter, evidencing their agreement to not, without the consent of the Lead Underwriter, which consent shall not be unreasonably withheld or delayed, offer, sell, or resell (or announce any intention to do so) any securities of the Corporation held by them or agree to or announce any such offer or sale for a period of 90 days following the Closing Date, other than in connection with a third party take-over bid made to all holders of Common Shares or a similar acquisition of all of the Common Shares, other than the with respect to an aggregate of 541,265 Common Shares, which includes 450,000 Common Shares issuable upon exercise of an aggregate of 450,000 outstanding stock options of the Corporation which expire on March 30, 2021, and other than securities sold to satisfy tax obligations on the exercise of convertible securities of the Corporation held by such person.
+ 
+ 33
+ 
+ 
+ Section 12 All Terms to be Conditions
+ The Corporation agrees that the conditions contained in this Agreement will be complied with insofar as the same relate to acts to be performed or caused to be performed by the Corporation. It is understood that the Underwriters may waive, in whole or in part, or extend the time for compliance with, any of such terms and conditions without prejudice to the rights of the Underwriters in respect of any such terms and conditions or any other or subsequent breach or non-compliance, provided that to be binding on the Underwriters any such waiver or extension must be in writing and signed by the Underwriters.
+ Section 13 Termination by Underwriters
+ (1) Each Underwriter shall also be entitled to terminate its obligation to purchase the Offered Shares by written notice to that effect to the Corporation and the Lead Underwriter, at or prior to the Closing Time or the Option Closing Time, as applicable, if:
+ (a) there shall have occurred any material change, change in any material fact, or have arisen or been discovered any new material fact, that would be expected to in the opinion of Lead Underwriter, acting reasonably, on behalf of the Underwriters, have a significant adverse effect on the market price or value of the Offered Shares;
+ (b) any inquiry, investigation, action, suit, investigation or other proceeding (formal or informal) is made by any domestic or foreign federal, provincial, state, municipal or other domestic or foreign government department, commission, board, bureau, agency or instrumentality, including without limitation, the TSX, NYSE or any securities regulatory authority, which, in the opinion of Lead Underwriter, acting reasonably, prevents or restricts trading of the securities of the Corporation or adversely affects or will adversely affect the financial markets or the business, operations or affairs of the Corporation;
+ (c) if there should develop, occur or come into effect or existence any event, action, state, condition or major financial occurrence of national or international consequence or any law or regulation, including, without limitation, any escalation in the severity of the COVID-19 pandemic after January 20, 2021, which, in the opinion of Lead Underwriter materially adversely affects or involves, or would reasonably be expected to materially adversely affect or involve, the financial markets or the business, operations or affairs of the Corporation and the subsidiaries, taken as a whole; or
+ (d) the Corporation is in breach of any term, condition or covenant of this Agreement in any material respect or any representation or warranty given by the Corporation in this Agreement is or becomes false in any material respect.
+ (2) If this Agreement is terminated by any of the Underwriters pursuant to Section 13(1) or if this Agreement terminates automatically under Section 14, there shall be no further liability on the part of such Underwriter or of the Corporation to such Underwriter, except in respect of any liability which may have arisen or may thereafter arise under Section 9, Section 10 and Section 17.
+ (3) The right of the Underwriters or any of them to terminate their respective obligations under this Agreement is in addition to such other remedies as they may have in respect of any default, act or failure to act of the Corporation in respect of any of the matters contemplated by this Agreement. A notice of termination given by one Underwriter under this Section 13 shall not be binding upon the other Underwriters.
+ 
+ 34
+ 
+ 
+ Section 14 Closing
+ The closing of the purchase and sale of the Firm Shares herein provided for shall be completed at 8:00 a.m. (EDT), January 22, 2021, or such other date and/or time as may be agreed upon in writing by the Corporation and the Underwriters, but in any event not later than February 12, 2021 (respectively, the "Closing Time" and the "Closing Date"), at the offices of Cassels Brock & Blackwell LLP. In the event that the Closing Time has not occurred on or before February 12, 2021, this Agreement shall, subject to Section 13(2) hereof, terminate.
+ Section 15 Conditions of Closing and Option Closing
+ (1) The obligations of the Underwriters under this Agreement are subject to (i) the representations and warranties of the Corporation contained in this Agreement being true and correct in all material respects (or, if qualified by materiality, in all respects) as at the date of this Agreement, the Closing Time and the Option Closing Time, as applicable, except for such representations and warranties which are in respect of a specific date in which case such representations and warranties shall be true and correct, in all material respects (or, if qualified by materiality, in all respects), as of such date, (ii), the performance by the Corporation of its obligations under this Agreement in all material respects and (iii) receipt by the Underwriters, at the Closing Time or Option Closing Time, as applicable, of:
+ (a) such legal opinions, dated the Closing Date and Option Closing Date, as applicable, from Cassels Brock & Blackwell LLP, the Corporation's Canadian counsel, or other local counsel as required, addressed to the Underwriters, in form and content acceptable to the Underwriters, acting reasonably, relating to the matters set forth in Schedule "A" subject to customary limitations, assumptions and qualifications;
+ (b) such legal opinions, dated the Closing Date and the Option Closing Date, as applicable, from Dorsey & Whitney LLP, the Corporation's U.S. counsel, addressed to the Underwriters, acting reasonably, subject to customary limitations, assumptions and qualifications, which shall be accompanied by a "10b-5 letter" addressed to the Underwriters;
+ (c) such legal opinions, dated the Closing Date and the Option Closing Date, as applicable, from Erwin Thompson Faillers and Alfaro Abogados, as required, addressed to the Underwriters, acting reasonably;
+ (d) a "10b-5 letter", dated the Closing Date and the Option Closing Date, as applicable, from Skadden, Arps, Slate, Meagher & Flom LLP, the Underwriters' U.S. counsel, addressed to the Underwriters;
+ (e) a letter or reliance letter, as applicable (the "Title Opinion"), of the Corporation's legal counsel, addressed to the Underwriters and their legal counsel, dated as of the Closing Date, in the form and content acceptable to the Underwriters acting reasonably, with respect to title and ownership rights in the Corporation's Mineral Properties;
+ (f) a deposit with CDS or its nominee, as requested by the Lead Underwriter, representing the Firm Shares (and Additional Shares, if applicable) electronically through the non-certificated inventory system of CDS, as directed by the Lead Underwriter on behalf of the Underwriters;
+ 
+ 35
+ 
+ 
+ (g) the auditor's comfort letter dated the Closing Date and the Option Closing Date, as applicable, updating the comfort letter referred to in Section 5(4) above with such changes as may be necessary from the comfort letter delivered previously to bring the information therein forward to a date which is within two Business Days of the Closing Date and Option Closing Date, as applicable;
+ (h) the Underwriting Fee paid in accordance with the ninth paragraph of this Agreement;
+ (i) evidence satisfactory to the Lead Underwriter that the Offered Shares shall have been (A) listed and admitted and authorized for trading on the NYSE, subject only to official notice of issuance, and (B) conditionally approved for listing on the TSX, subject only to satisfaction by the Corporation of customary conditions imposed by the TSX in similar circumstances (the "Standard Listing Conditions");
+ (j) a certificate, dated the Closing Date and the Option Closing Date, as applicable, and signed on behalf of the Corporation, but without personal liability, by the Chief Executive Officer and by the Chief Financial Officer of the Corporation, or such other officers of the Corporation as may be reasonably acceptable to the Underwriters, certifying that: (i) the Corporation has complied with all covenants and satisfied all terms and conditions hereof to be complied with and satisfied by the Corporation at or prior to the Closing Time and the Option Closing Time, as applicable, in all material respects; (ii) all the representations and warranties of the Corporation contained herein are true and correct, in all material respects (or, if qualified by materiality, in all respects) as at the Closing Time and the Option Closing Time with the same force and effect as if made at and as of the Closing Time and the Option Closing Time, as applicable, except for such representations and warranties which are in respect of a specific date in which case such representations and warranties shall be true and correct, in all material respects (or, if qualified by materiality, in all respects), as of such date, after giving effect to the transactions contemplated hereby; (iii) there has been no material change relating to the Corporation and its subsidiaries, on a consolidated basis, since the date hereof which has not been generally disclosed, except for the Offering, and with respect to which the requisite material change statement or report has not been filed and no such disclosure has been made on a confidential basis; and (v) to the best of the knowledge, information and belief of the persons signing such certificate, after having made reasonable inquiries, no order, ruling or determination having the effect of ceasing or suspending trading in the Common Shares or any other securities of the Corporation has been issued and no proceedings for such purpose are pending or are contemplated or threatened;
+ (k) at the Closing Time or Option Closing Time, as applicable, certificates dated the Closing Date or the Option Closing Date, as applicable, signed on behalf of the Corporation, but without personal liability, by the Chief Executive Officer of the Corporation or another officer acceptable to the Underwriters, acting reasonably, in form and content satisfactory to the Underwriters, acting reasonably, with respect to the constating documents of the Corporation; the resolutions of the directors of the Corporation relevant to the Offering, including the allotment, issue (or reservation for issue) and sale of the Firm Shares and Additional Shares, the grant of the Over-Allotment Option, the authorization of this Agreement and the listing of the Firm Shares and the Additional Shares on the TSX and NYSE; and the incumbency and signatures of signing officers of the Corporation;
+ 
+ 36
+ 
+ 
+ (l) at the Closing Time and the Option Closing Time, as applicable, a certificate of status (or equivalent) for the Corporation and each of the subsidiaries dated within one Business Day (or such earlier or later date as the Underwriters may accept) of the Closing Date; and
+ (m) such other documents as the Underwriters or Canadian and U.S. counsel to the Underwriters may reasonably require; and all proceedings taken by the Corporation in connection with the issuance and sale of the Offered Shares shall be satisfactory in form and substance to the Lead Underwriter and Canadian and U.S. counsel for the Underwriters, acting reasonably.
+ Section 16 Over-Allotment Option
+ (1) The Over-Allotment Option may be exercised by the Underwriters at any time and from time to time, in whole or in part by delivering notice to the Corporation not later than 5:00 p.m. on the 30th day after the Closing Date, which notice will specify the number of Additional Shares to be purchased by the Underwriters and the date (the "Option Closing Date") and time (the "Option Closing Time") on and at which such Additional Shares are to be purchased. Such Option Closing Date may be the same as (but not earlier than) the Closing Date and will not be earlier than two Business Days nor later than three Business Days after the date of delivery of such notice (except to the extent a shorter or longer period shall be agreed to by the Corporation). Subject to the terms of this Agreement, upon the Underwriters furnishing this notice, the Underwriters will be committed to purchase, in the respective percentages set forth in Section 22, and the Corporation will be committed to issue and sell in accordance with and subject to the provisions of this Agreement, the number of Additional Shares indicated in the notice. Additional Shares may be purchased by the Underwriters only for the purpose of satisfying over-allotments made in connection with the Offering.
+ (2) In the event that the Over-Allotment Option is exercised in accordance with its terms, the closing of the issuance and sale of that number of Additional Shares in respect of which the Underwriters are exercising the Over-Allotment Option shall take place at the Option Closing Time at the offices of Cassels Brock & Blackwell LLP or at such other place as may be agreed to by the Underwriters and the Corporation.
+ (3) At the Option Closing Time, the Corporation shall issue to the Underwriters that number of Additional Shares in respect of which the Underwriters are exercising the Over-Allotment Option and deposit with CDS or its nominee, if requested by the Lead Underwriter, the Additional Shares electronically through the non-certificated inventory system of CDS against payment of US$22 per Additional Share by wire transfer or certified cheque payable to the Corporation or as otherwise directed by the Corporation.
+ (4) Concurrently with the deliveries and payment under paragraph (3), the Corporation shall pay the Underwriting Fee applicable to the Additional Shares in the manner provided in the ninth paragraph of this Agreement against delivery of a receipt for that payment.
+ (5) The obligation of the Underwriters to make any payment or delivery contemplated by this Section 16 is subject to the conditions set forth in Section 15.
+ Section 17 Expenses
+ The Corporation will pay all costs, expenses and fees in connection with the Offering, including, without limitation: (i) all expenses of or incidental to the creation, issue, sale or distribution of the Offered Shares and the preparation, filing and printing of the Offering Documents; (ii) all expenses and fees of the Underwriters, including all legal fees and disbursements of the Underwriters' Canadian and United States legal counsel (subject to a maximum of C$75,000 for Canadian legal counsel and US$75,000 for United States legal counsel); (iii) the fees and expenses of the Corporation's legal and other advisors; and (iv) all costs incurred in connection with the preparation of any documentation relating to the Offering. 
+ 
+ 37
+ 
+ 
+ Section 18 No Advisory or Fiduciary Relationship
+ The Corporation acknowledges and agrees that (a) the purchase and sale of the Offered Shares pursuant to this Agreement, including the determination of the Offering Price of the Offered Shares and any related discounts and commissions, is an arm's-length commercial transaction between the Corporation, on the one hand, and the several Underwriters, on the other hand, (b) in connection with the Offering and the process leading to such transaction each Underwriter is and has been acting solely as a principal and is not the agent or fiduciary of the Corporation or its shareholders, creditors, employees or any other party, (c) no Underwriter has assumed or will assume an advisory or fiduciary responsibility in favour of the Corporation with respect to the Offering or the process leading thereto (irrespective of whether such Underwriter has advised or is currently advising the Corporation on other matters) and no Underwriter has any obligation to the Corporation with respect to the Offering except the obligations expressly set forth in this Agreement, (d) the Underwriters and their respective affiliates may be engaged in a broad range of transactions that involve interests that differ from those of the Corporation, and (e) the Underwriters have not provided any legal, accounting, regulatory or tax advice with respect to the Offering and the Corporation has consulted its own legal, accounting, regulatory and tax advisors to the extent it deems appropriate.
+ Section 19 Notices
+ Any notice to be given hereunder shall be in writing and may be given by facsimile or by hand delivery and shall, in the case of notice to the Corporation, be addressed and faxed or delivered to:
+ Lithium Americas Corp.900 West Hastings Street, Suite 300 Vancouver, British Columbia V6C 1E5
+ Attention: Director, Legal Affairs Email: [REDACTED]
+ with a copy to (such copy not to constitute notice):
+ Dorsey & Whitney LLP 161 Bay Street, Suite 4310 Toronto, Ontario M5J 2S1 
+ 
+ 38
+ 
+ 
+ Attention: James B. Guttman Email: [REDACTED]
+ and to:
+ Cassels Brock & Blackwell LLP
+ Suite 2200, HSBC Building
+ 885 West Georgia Street
+ Vancouver, British Columbia V6C 3E8
+ Attention: David Redford
+ Email: [REDACTED]
+ and in the case of the Underwriters, be addressed and faxed or delivered to:
+ Canaccord Genuity LLC 99 High Street, 11th Floor Boston, Massachusetts 02110 Attention: Capital Markets Email: [REDACTED]
+ with a copy to (such copy not to constitute notice):
+ Skadden, Arps, Slate, Meagher & Flom LLPOne Manhattan WestNew York, NY 10001-8602
+ Attention: Ryan J. DzierniejkoEmail: [REDACTED]
+ and to:
+ Blake, Cassels & Graydon LLPSuite 2600, Three Bentall Centre
+ 595 Burrard Street, P.O. Box 49314
+ Vancouver, British Columbia V7X 1L3
+ Attention: Bob WooderEmail: [REDACTED]
+ The Corporation and the Underwriters may change their respective addresses for notice by notice given in the manner referred to above.
+ 
+ 39
+ 
+ 
+ Section 20 Actions on Behalf of the Underwriters
+ All steps which must or may be taken by the Underwriters in connection with this Underwriting Agreement, with the exception of the matters contemplated by Section 9, Section 10, Section 11(3) and Section 13, shall be taken by the Lead Underwriter on the Underwriters' behalf and the execution of the Agreement by the Underwriters shall constitute the Corporation's authority for accepting notification of any such steps from, and for giving notice to, and for delivering any definitive certificate(s) representing the Offered Shares to, or to the order of, the Lead Underwriter.
+ Section 21 Survival
+ The representations, warranties, obligations and agreements of the Corporation and of the Underwriters contained herein or delivered pursuant to this Agreement shall survive the purchase by the Underwriters of the Offered Shares and shall continue in full force and effect notwithstanding any subsequent disposition by the Underwriters of the Offered Shares until the later of: (i) the second anniversary of the Closing Date; and (ii) the latest date under Canadian Securities Laws and U.S. Securities Laws relevant to a Purchaser of any Offered Shares (non-residents of Canada or the U.S. being deemed to be resident in the Province of British Columbia for such purposes) that a Purchaser of Offered Shares may be entitled to commence an action or exercise a right of rescission, with respect to a misrepresentation contained in the Canadian Prospectus, U.S. Prospectus or, if applicable, any Supplementary Material, and the Underwriters shall be entitled to rely on the representations and warranties of the Corporation contained in or delivered pursuant to this Agreement notwithstanding any investigation which the Underwriters may undertake or which may be undertaken on the Underwriters' behalf.
+ Section 22 Underwriters' Obligations
+ (1) Subject to the terms of this Agreement, the Underwriters' obligations under this Agreement to purchase the Offered Shares shall be several and not joint and several and the liability of each of the Underwriters to purchase the Offered Shares shall be limited to the following percentages of the purchase price paid for the Offered Shares:
+ 
+ 
+ 
+ Canaccord Genuity LLC
+ 
+ 
+ 45%
+ 
+ 
+ 
+ 
+ Deutsche Bank Securities Inc.
+ 
+ 
+ 14%
+ 
+ 
+ 
+ 
+ Evercore Group L.L.C.
+ 
+ 
+ 14%
+ 
+ 
+ 
+ 
+ Stifel, Nicolaus & Company, Incorporated
+ 
+ 
+ 14%
+ 
+ 
+ 
+ 
+ National Bank Financial Inc.
+ 
+ 
+ 10%
+ 
+ 
+ 
+ 
+ Cormark Securities Inc.
+ 
+ 
+ 3%
+ 
+ 
+ 
+ 
+ TOTAL:
+ 
+ 
+ 100%
+ 
+ 
+ 
+ (2) If any one or more of the Underwriters fails to purchase its or their applicable percentage of the Offered Shares at the Closing Time or at the Option Closing Time, as the case may be, and if the aggregate number of Firm Shares not purchased is:
+ (a) less than or equal to 10% of the Firm Shares agreed to be purchased by the Underwriters pursuant to this Agreement, then each of the other Underwriters shall be obligated to purchase severally the Firm Shares not taken up, on a pro rata basis or as they may otherwise agree as between themselves; and
+ (b) greater than 10% of the Firm Shares agreed to be purchased by the Underwriters pursuant to this Agreement, then the remaining Underwriters shall not be obligated to purchase such Firm Shares, however, the remaining Underwriters shall have the right, exercisable at their option, to purchase on a pro rata basis (or on such other basis as may be agreed to by the remaining Underwriters) all, but not less than all, of the Firm Shares which would otherwise have been purchased by the defaulting Underwriter or Underwriters and to receive the defaulting Underwriter's portion of the Underwriting Fee in respect thereof;
+ 
+ 40
+ 
+ 
+ and the non-defaulting Underwriters shall have the right, by notice to the Corporation, to postpone the Closing Date or Option Closing Date, as the case may be, by not more than three Business Days to effect such purchase.
+ (3) In the event that such right in Section 22(2)(b) is not exercised, the Underwriter or Underwriters which are able and willing to purchase shall be relieved of all obligations to the Corporation on submission to the Corporation of reasonable evidence of its or their ability and willingness to fulfil its or their obligations hereunder at the Closing Time.
+ (4) Nothing in this paragraph shall oblige the Corporation to sell to any or all of the Underwriters less than all of the Firm Shares or Additional Shares with respect to which the Over-Allotment Option is exercised, as applicable, or relieve from liability to the Corporation any Underwriter which shall be so in default.
+ Section 23 Market Stabilization
+ In connection with the distribution of the Offered Shares, the Underwriters (or any of them) may effect transactions which stabilize or maintain the market price of the Common Shares at levels other than those which might otherwise prevail in the open market, but in each case as permitted by Applicable Securities Laws. Such stabilizing transactions, if any, may be discontinued by the Underwriters at any time.
+ Section 24 Entire Agreement
+ Any and all previous agreements with respect to the purchase and sale of the Offered Shares, whether written or oral, are terminated and this Agreement constitutes the entire agreement between the Corporation and the Underwriters with respect to the purchase and sale of the Offered Shares.
+ Section 25 Governing Law
+ This Agreement shall be governed by and construed in accordance with the laws in force in the Province of British Columbia and the federal laws of Canada applicable therein.
+ Section 26 Relationship with the TMX Group Limited
+ Certain of the Underwriters or affiliates thereof, each own or control an equity interest in TMX Group Limited ("TMX Group") and may have a nominee director serving on the TMX Group's board of directors. As such, such investment dealers may be considered to have an economic interest in the listing of securities on any exchange owned or operated by TMX Group, including the Toronto Stock Exchange, the TSX Venture Exchange and the Alpha Exchange. No person or company is required to obtain products or services from TMX Group or its affiliates as a condition of any such dealer supplying or continuing to supply a product or service.
+ Section 27 Recognition of the U.S. Special Resolution Regimes.
+ (1) In the event that any Underwriter that is a Covered Entity becomes subject to a proceeding under a U.S. Special Resolution Regime, the transfer from such Underwriter of this Agreement, and any interest and obligation in or under this Agreement, will be effective to the same extent as the transfer would be effective under the U.S. Special Resolution Regime if this Agreement, and any such interest and obligation, were governed by the laws of the United States or a state of the United States.
+ 
+ 41
+ 
+ 
+ (2) In the event that any Underwriter that is a Covered Entity or a BHC Act Affiliate of such Underwriter becomes subject to a proceeding under a U.S. Special Resolution Regime, Default Rights under this Agreement that may be exercised against such Underwriter are permitted to be exercised to no greater extent than such Default Rights could be exercised under the U.S. Special Resolution Regime if this Agreement were governed by the laws of the United States or a state of the United States.
+ Section 28 Time of the Essence
+ Time shall be of the essence of this Agreement. This Agreement may be executed in counterparts, each of which when so executed shall be deemed to be an original and such counterparts together shall constitute one and the same instrument.
+ 
+ 42
+ 
+ 
+ If the foregoing is in accordance with your understanding and is agreed to by you, will you please confirm your acceptance by signing the enclosed copies of this letter at the place indicated and returning the same to us on or before January 22, 2021.
+ Yours truly,
+ 
+ 43
+ 
+ 
+ 
+ 
+ 
+ CANACCORD GENUITY LLC
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ “Jennifer Pardi”
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Jennifer Pardi
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Managing Director
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ DEUTSCHE BANK SECURITIES INC.
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ “Ben Selinger”
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Ben Selinger
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Director
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ /s/ Manoj Mahtani
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Manoj Mahtani
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Director
+ 
+ 
+ 
+ 
+ 
+ EVERCORE GROUP L.L.C.
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ “Crystal A. Simpson”
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Crystal A. Simpson
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Managing Director
+ 
+ 
+ 
+ 
+ 
+ STIFEL, NICOLAUS & COMPANY, INCORPORATED
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ “B. Wes Loyd”
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: B. Wes Loyd
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Director - IB
+ 
+ 
+ 
+ 
+ 
+ NATIONAL BANK FINANCIAL INC.
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ “Darren Grant”
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Darren Grant
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Director, Investment Banking
+ 
+ 
+ 
+ 
+ 
+ 44
+ 
+ 
+ 
+ 
+ 
+ CORMARK SECURITIES INC.
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ “Darren Wallace”
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Darren Wallace
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Manaing Director, Investment Banking
+ 
+ 
+ 
+ 
+ 
+ 45
+ 
+ 
+ The foregoing is in accordance with our understanding and is accepted by us.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ LITHIUM AMERICAS CORP.
+ 
+ 
+ 
+ 
+ 
+ 
+ By:
+ 
+ 
+ “Jonathan Evans”
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Jonathan Evans
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: Chief Executive Officer and President
+ 
+ 
+ 
+ 
+ 
+ 46
+ 
+ 
+ 
+ SCHEDULE "A"
+ MATTERS TO BE ADDRESSED IN THE CORPORATION'S
+ CANADIAN COUNSEL OPINION
+ (a) each of the Corporation and the subsidiaries is a corporation duly incorporated, continued, or amalgamated, as the case may be, and validly existing and is in good standing under the laws of the jurisdiction in which it was incorporated, continued, or amalgamated, as the case may be;
+ (b) each of the Corporation and the subsidiaries has all requisite corporate power and capacity to carry on its business as now conducted as described in the Canadian Prospectus and to own, lease and operate its property and assets described in the Canadian Prospectus and the Corporation has the requisite corporate power and capacity to execute and deliver this Agreement and to carry out the transactions contemplated hereby;
+ (c) the Corporation's ownership interest in each of the subsidiaries;
+ (d) the authorized and issued capital of the Corporation and each of the subsidiaries;
+ (e) all necessary corporate action having been taken by Corporation to authorize the execution and delivery of this Agreement and the performance by the Corporation of its obligations hereunder and to authorize the issuance, sale and delivery of the Firm Shares and Additional Shares and the grant of the Over-Allotment Option;
+ (f) the Firm Shares have been validly allotted and will be issued as fully-paid and non-assessable common shares in the capital of the Corporation upon full payment therefor and, upon full payment therefor, and the issue thereof, the Additional Shares will have been validly issued as fully paid and non-assessable common shares in the capital of the Corporation;
+ (g) the Additional Shares have been duly allotted and reserved for issuance by the Corporation;
+ (h) the form and terms of the definitive certificate representing the Common Shares have been approved by the directors of the Corporation and comply in all material respects with the Business Corporations Act (British Columbia), the notice of articles and articles of the Corporation and the rules and by-laws of the TSX;
+ (i) the Corporation has all necessary corporate power and capacity: (i) to execute and deliver this Agreement and perform its obligations under this Agreement; and (ii) to issue the Firm Shares and Additional Shares;
+ (j) all necessary corporate action has been taken by the Corporation to authorize the execution and delivery of each of the Canadian Final Base Shelf Prospectus, the Canadian Prospectus Supplement and, if applicable, any Supplementary Material thereto and the filing thereof with the Canadian Securities Commissions;
+ (k) this Agreement has been duly executed and delivered by the Corporation and constitutes a legal, valid and binding obligation of the Corporation enforceable against the Corporation in accordance with its terms, subject to bankruptcy, insolvency and other laws affecting the rights of creditors generally and subject to the qualification that equitable remedies may be granted in the discretion of a court of competent jurisdiction and that enforcement of rights to indemnity, contribution and waiver of contribution set out in this Agreement may be limited by applicable law;
+ 
+ A-1
+ 
+ 
+ (l) the execution and delivery of this Agreement, the fulfillment of the terms hereof by the Corporation and the offering, issuance, sale and delivery of the Firm Shares and Additional Shares do not and will not result in a breach of or default under, and do not and will not create a state of facts which, after notice or lapse of time or both, will result in a breach of or default under, and do not and will not conflict with any of the terms, conditions or provisions of the articles or notice of articles of the Corporation;
+ (m) Computershare Investor Services Inc. is the duly appointed registrar and transfer agent for the common shares of the Corporation;
+ (n) all necessary documents have been filed, all requisite proceedings have been taken and all approvals, permits and consents of the appropriate regulatory authority in each Qualifying Jurisdiction have been obtained to qualify the distribution of the Firm Shares, the Over-Allotment Option and the Additional Shares in each of the Qualifying Jurisdictions through persons who are duly registered under Canadian Securities Laws and who have complied with the relevant provisions of such applicable laws; and
+ (o) subject to the qualifications, assumptions, limitations, and understandings set out in the Canadian Prospectus Supplement under the headings "Certain Canadian Federal Income Tax Considerations" and "Eligibility For Investment", insofar as the statements under such headings constitute statements of law, they have been reviewed, fairly summarize the matters described therein, and are accurate in all material respects.
+ 
+ A-2
+ 
+ 
+ 
+ SCHEDULE "B"
+ Pricing Terms included in the Pricing Disclosure Package
+ The price per share for the Common Shares is US$22.
+ The number of Common Shares purchased by the Underwriters is 15,909,091.
+ The Corporation has granted the Underwriters an option, exercisable, in whole or in part, at any time until and including 30 days following the closing of the Offering, to purchase up to an additional 2,272,727 Common Shares at US$22 to cover overallotments, if any.
+ The Underwriters receive 5.5% cash commission.
+ Issuer Free Writing Prospectuses
+ 1. Press Release, dated January 19, 2021.
+ 2. Pricing Press Release, dated January 20, 2021.
+ 
+ B-1
+ 
+ 
+ SCHEDULE "C"
+ a) Water Pollution Control Permit (State of Nevada)
+ b) Nevada Dam Safety Permit (State of Nevada)
+ c) Reclamation Permit (State of Nevada)
+ d) Industrial Artificial Pond Permit (State of Nevada)
+ e) Potable Water System Permit (State of Nevada
+ f) Nevada Class 2 Air Quality Permit (State of Nevada)
+ g) Water Rights Change Applications/Permit to Appropriate Water (State of Nevada)
+ h) General Discharge Permit (Stormwater) (State of Nevada)
+ i) Highway Encroachment Permit (State of Nevada)
+ j) Eagle Take Permit (U.S.)
+ k) Explosives Permit (U.S.)
+ 
+ 
+ C-1

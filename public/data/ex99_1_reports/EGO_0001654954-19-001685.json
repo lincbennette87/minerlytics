@@ -1,0 +1,110 @@
+{
+  "ticker": "EGO",
+  "cik": "0000918608",
+  "form": "6-K",
+  "filingDate": "2019-02-19",
+  "accessionNumber": "0001654954-19-001685",
+  "primaryDocument": "ego_6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/918608/000165495419001685/0001654954-19-001685-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "NOTICE OF ANNUAL MEETING",
+    "filename": "ego_ex991.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/918608/000165495419001685/ego_ex991.htm"
+  },
+  "extractedAt": "2026-06-11T16:54:59.054Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/918608/000165495419001685/ego_ex991.htm",
+    "contentType": "html",
+    "title": "Blueprint",
+    "headings": [
+      "Blueprint"
+    ],
+    "text": "EX-99.1\n2\nego_ex991.htm\nNOTICE OF ANNUAL MEETING\n\nBlueprint\n\n Exhibit\n99.1\n\n \n\n \n\n \n\n510\nBurrard St, 3rd Floor\n\nVancouver BC,\nV6C 3B9\n\nwww.computershare.com\n\n \nFebruary 15,\n2019\n \n\nTo:\n\nEach\nSecurities\nCommission or Securities Regulatory Authority in each of the\nProvinces of Canada Toronto Stock Exchange\n\n \nSubject:\nELDORADO GOLD CORPORATION\n \n\nDear\nSir/Madam:\n\n \n\nWe\nadvise of the following with respect to the upcoming Meeting of\nSecurity Holders for the subject Issuer:\n \n\nMeeting\nType :\n\nAnnual\nGeneral Meeting\n\nRecord\nDate for Notice of Meeting :\n\nMarch\n18, 2019\n\nRecord\nDate for Voting (if applicable) :\n\nMarch\n18, 2019\n\nBeneficial\nOwnership Determination Date :\n\nMarch\n18, 2019\n\nMeeting\nDate :\n\nMay 02,\n2019\n\nMeeting\nLocation (if available) :\n\nVancouver\nBC\n\nIssuer\nsending proxy related materials directly to NOBO:\n\nNo\n\nIssuer\npaying for delivery to OBO:\n\nYes\n\n \n\nNotice and Access (NAA) Requirements:\n\nNAA for\nBeneficial Holders\n\nYes\n\nBeneficial Holders\nStratification Criteria:\n\nNot\nApplicable\n\nNAA for\nRegistered Holders\n\nYes\n\nRegistered Holders\nStratification Criteria:\n\nNot\nApplicable\n\n \n \n\nVoting Security Details:\n \n\nDescription\n\nCUSIP Number\n\nISIN\n\nCOMMON\nSHARES\n\n284902509\n\nCA2849025093\n\n \n\nSincerely,\n\n \n\nComputershare\n\nAgent\nfor ELDORADO GOLD CORPORATION",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 1,
+        "rows": [
+          [
+            "510\nBurrard St, 3rd Floor\n\nVancouver BC,\nV6C 3B9\n\nwww.computershare.com"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 13,
+        "rows": [
+          [
+            "Meeting\nType :",
+            "Annual\nGeneral Meeting"
+          ],
+          [
+            "Record\nDate for Notice of Meeting :",
+            "March\n18, 2019"
+          ],
+          [
+            "Record\nDate for Voting (if applicable) :",
+            "March\n18, 2019"
+          ],
+          [
+            "Beneficial\nOwnership Determination Date :",
+            "March\n18, 2019"
+          ],
+          [
+            "Meeting\nDate :",
+            "May 02,\n2019"
+          ],
+          [
+            "Meeting\nLocation (if available) :",
+            "Vancouver\nBC"
+          ],
+          [
+            "Issuer\nsending proxy related materials directly to NOBO:",
+            "No"
+          ],
+          [
+            "Issuer\npaying for delivery to OBO:",
+            "Yes"
+          ],
+          [
+            "Notice and Access (NAA) Requirements:"
+          ],
+          [
+            "NAA for\nBeneficial Holders",
+            "Yes"
+          ],
+          [
+            "Beneficial Holders\nStratification Criteria:",
+            "Not\nApplicable"
+          ],
+          [
+            "NAA for\nRegistered Holders",
+            "Yes"
+          ],
+          [
+            "Registered Holders\nStratification Criteria:",
+            "Not\nApplicable"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 2,
+        "rows": [
+          [
+            "Description",
+            "CUSIP Number",
+            "ISIN"
+          ],
+          [
+            "COMMON\nSHARES",
+            "284902509",
+            "CA2849025093"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>ego_ex991.htm\n<DESCRIPTION>NOTICE OF ANNUAL MEETING\n<TEXT>\n<html>\n<head>\n<!-- Document created using Blueprint(R) - powered by Issuer Direct - www.issuerdirect.com -->\n<!-- Copyright 2019 Issuer Direct Corporation -->\n<title>Blueprint</title>\n</head>\n<body style=\"font-family: Times New Roman; font-size: 13px;\">\n<div id=\"pgbrk\" style=\"text-align: right; width: 100%; margin-left: 0px; text-indent: 0px; margin-right: 0px\">\n<div id=\"hdr\">\n<div style=\"text-align: right; width: 100%; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-weight: bold\">&#xA0; <font style=\"font-family: Times New Roman; font-size: 13px\">Exhibit\n99.1</font><br></font></div>\n</div>\n</div>\n<div style=\"text-align: right; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n&#xA0;&#xA0;<img src=\"ego_ex991000.jpg\"></div>\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-weight: bold; font-family: Times New Roman; font-size: 13px\">\n</font></div>\n<br>\n<div style=\"text-align: right; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<br></div>\n<div style=\"text-align: left\">\n<table cellpadding=\"0\" cellspacing=\"0\" style=\"text-align: left; margin: 0px auto 0px 0px; width: 100%; font-family: inherit; font-size: inherit;\">\n<tr>\n<td style=\"width: 70%;\">\n<div><font>&#xA0;</font></div>\n</td>\n<td style=\"width: 30%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px;\">&#xA0;</font>\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\"><img src=\"img001.jpg\"></div>\n</div>\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">510\nBurrard St, 3rd Floor</font></div>\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Vancouver&#xA0;BC,\nV6C 3B9</font></div>\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"text-decoration: underline; color: #0000FF; font-size: 13px; font-family: Times New Roman\">\nwww.computershare.com</font></div>\n</td>\n</tr></table>\n</div>\n<div><font style=\"font-family: Times New Roman; font-size: 13px;\">&#xA0;</font></div>\n<div><font style=\"font-family: Times New Roman; font-size: 10\"><font style=\"font-family: Times New Roman; font-size: 13px\">February 15,\n2019</font></font></div>\n<div><font style=\"font-family: Times New Roman; font-size: 13px;\">&#xA0;</font></div>\n<div style=\"display: table;\">\n<div style=\"display: table-row;\">\n<div style=\"text-align: left; display: table-cell; width: 60px;\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">To:<br></font></div>\n<div style=\"text-align: justify; display: table-cell; margin-left: 0px; text-indent: 0px; margin-right: 0px;\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Each</font>\n<font style=\"font-family: Times New Roman; font-size: 13px\">Securities\nCommission or Securities Regulatory Authority in each of the\nProvinces of Canada Toronto Stock Exchange</font></div>\n</div>\n</div>\n<div><font style=\"font-family: Times New Roman; font-size: 13px;\">&#xA0;</font></div>\n<div><font style=\"font-family: Times New Roman; font-size: 13px;\"><font style=\"font-weight: bold; font-family: Times New Roman; font-size: 13px\">Subject:\nELDORADO GOLD CORPORATION</font></font></div>\n<div><font style=\"font-family: Times New Roman; font-size: 13px;\">&#xA0;</font></div>\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Dear\nSir/Madam:</font></div>\n<div style=\"text-align: justify; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">&#xA0;</font></div>\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">We\nadvise of the following with respect to the upcoming Meeting of\nSecurity Holders for the subject Issuer:</font></div>\n<div><font style=\"font-family: Times New Roman; font-size: 13px;\">&#xA0;</font></div>\n<div style=\"text-align: left\">\n<table cellpadding=\"0\" cellspacing=\"0\" style=\"text-align: left; width: 100%; font-family: Times New Roman; font-size: 13px; margin: 0px auto 0px 0px;\">\n<tr>\n<td style=\"vertical-align: middle; width: 40%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Meeting\nType :</font></div>\n</td>\n<td style=\"vertical-align: middle; width: 60%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Annual\nGeneral Meeting</font></div>\n</td>\n</tr><tr>\n<td style=\"vertical-align: middle; width: 40%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Record\nDate for Notice of Meeting :</font></div>\n</td>\n<td style=\"vertical-align: middle; width: 60%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">March\n18, 2019</font></div>\n</td>\n</tr><tr>\n<td style=\"vertical-align: middle; width: 40%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Record\nDate for Voting (if applicable) :</font></div>\n</td>\n<td style=\"vertical-align: middle; width: 60%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">March\n18, 2019</font></div>\n</td>\n</tr><tr>\n<td style=\"vertical-align: middle; width: 40%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Beneficial\nOwnership Determination Date :</font></div>\n</td>\n<td style=\"vertical-align: middle; width: 60%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">March\n18, 2019</font></div>\n</td>\n</tr><tr>\n<td style=\"vertical-align: middle; width: 40%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Meeting\nDate :</font></div>\n</td>\n<td style=\"vertical-align: middle; width: 60%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">May 02,\n2019</font></div>\n</td>\n</tr><tr>\n<td style=\"vertical-align: middle; width: 40%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Meeting\nLocation (if available) :</font></div>\n</td>\n<td style=\"vertical-align: middle; width: 60%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Vancouver\nBC</font></div>\n</td>\n</tr><tr>\n<td style=\"vertical-align: middle; width: 40%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Issuer\nsending proxy related materials directly to NOBO:</font></div>\n</td>\n<td style=\"vertical-align: middle; width: 60%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">No</font></div>\n</td>\n</tr><tr>\n<td style=\"vertical-align: middle; width: 40%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Issuer\npaying for delivery to OBO:</font></div>\n</td>\n<td style=\"vertical-align: middle; width: 60%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Yes</font></div>\n</td>\n</tr><tr>\n<td colspan=\"2\" style=\"vertical-align: middle; width: 100%\">\n<div><font style=\"font-family: Times New Roman; font-size: 13px\">&#xA0;</font></div>\n</td>\n</tr><tr>\n<td colspan=\"2\" style=\"vertical-align: middle; width: 100%\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-weight: bold; font-family: Times New Roman; font-size: 13px\">\nNotice and Access (NAA) Requirements:</font></div>\n</td>\n</tr><tr>\n<td style=\"vertical-align: middle; width: 40%;\">\n<div style=\"text-align: left; margin-left: 24px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">NAA for\nBeneficial Holders</font></div>\n</td>\n<td style=\"vertical-align: middle; width: 60%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Yes</font></div>\n</td>\n</tr><tr>\n<td style=\"vertical-align: middle; width: 40%;\">\n<div style=\"text-align: left; margin-left: 24px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Beneficial Holders\nStratification Criteria:</font></div>\n</td>\n<td style=\"vertical-align: middle; width: 60%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Not\nApplicable</font></div>\n</td>\n</tr><tr>\n<td style=\"vertical-align: middle; width: 40%;\">\n<div style=\"text-align: left; margin-left: 24px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">NAA for\nRegistered Holders</font></div>\n</td>\n<td style=\"vertical-align: middle; width: 60%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Yes</font></div>\n</td>\n</tr><tr>\n<td style=\"vertical-align: middle; width: 40%;\">\n<div style=\"text-align: left; margin-left: 24px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Registered Holders\nStratification Criteria:</font></div>\n</td>\n<td style=\"vertical-align: middle; width: 60%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Not\nApplicable</font></div>\n</td>\n</tr></table>\n</div>\n<div><font style=\"font-family: Times New Roman; font-size: 13px;\">&#xA0;</font></div>\n<div><font style=\"font-family: Times New Roman; font-size: 13px;\">&#xA0;\n<font style=\"font-weight: bold; font-family: Times New Roman; font-size: 13px\">\nVoting Security Details:</font></font></div>\n<div><font style=\"font-family: Times New Roman; font-size: 13px;\">&#xA0;</font></div>\n<div style=\"text-align: left\">\n<table cellpadding=\"0\" cellspacing=\"0\" style=\"text-align: left; width: 100%; font-family: Times New Roman; font-size: 13px; margin: 0px auto 0px 0px;\">\n<tr>\n<td style=\"vertical-align: middle; width: 20%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-weight: bold; font-family: Times New Roman; font-size: 13px\">\nDescription</font></div>\n</td>\n<td style=\"vertical-align: middle; width: 20%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-weight: bold; font-family: Times New Roman; font-size: 13px\">\nCUSIP Number</font></div>\n</td>\n<td style=\"vertical-align: middle; width: 20%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-weight: bold; font-family: Times New Roman; font-size: 13px\">\nISIN</font></div>\n</td>\n</tr><tr>\n<td style=\"vertical-align: middle; width: 20%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">COMMON\nSHARES</font></div>\n</td>\n<td style=\"vertical-align: middle; width: 20%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">284902509</font></div>\n</td>\n<td style=\"vertical-align: middle; width: 20%;\">\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">CA2849025093</font></div>\n</td>\n</tr></table>\n</div>\n<div><font style=\"font-family: Times New Roman; font-size: 13px;\">&#xA0;</font></div>\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Sincerely,</font></div>\n<div style=\"text-align: justify; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">&#xA0;</font></div>\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-weight: bold; color: #660066; font-family: Times New Roman; font-size: 13px\">\nComputershare</font></div>\n<div style=\"text-align: left; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">Agent\nfor ELDORADO GOLD CORPORATION</font></div>\n<div><font>&#xA0;</font></div>\n<div><font style=\"font-family: Times New Roman; font-size: 13px;\">&#xA0;</font></div>\n<div><font style=\"font-family: Times New Roman; font-size: 13px;\">&#xA0;</font></div>\n<div id=\"pgbrk\" style=\"width: 100%; margin-left: 0px; text-indent: 0px; margin-right: 0px\">\n<div id=\"ftr\">\n<div style=\"text-align: left; width: 100%; margin-left: 0px; margin-right: 0px; text-indent: 0px\">\n<font style=\"font-family: Times New Roman; font-size: 13px\">&#xA0;</font></div>\n<div id=\"pn\" style=\"text-align: center\"><font style=\"font-family: Times New Roman; font-size: 13px\"><br></font></div>\n</div>\n<div id=\"pb\" style=\"text-align: center; margin-left: 0px; margin-right: 0px; margin-bottom: 6px; width: 100%; height: 1px; background-color: #000000\">\n<!--page break--></div>\n</div>\n</body>\n</html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

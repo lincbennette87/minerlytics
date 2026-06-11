@@ -1,0 +1,63 @@
+{
+  "ticker": "CCJ",
+  "cik": "0001009001",
+  "form": "6-K",
+  "filingDate": "2014-04-09",
+  "accessionNumber": "0001193125-14-136534",
+  "primaryDocument": "d694893d6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1009001/000119312514136534/0001193125-14-136534-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EX-99.1",
+    "filename": "d694893dex991.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1009001/000119312514136534/d694893dex991.htm"
+  },
+  "extractedAt": "2026-06-11T16:51:04.751Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1009001/000119312514136534/d694893dex991.htm",
+    "contentType": "html",
+    "title": "EX-99.1",
+    "headings": [
+      "EX-99.1",
+      "Exhibit 99.1",
+      "Notice of our 2014 annual meeting of shareholders",
+      "When",
+      "Where",
+      "Your vote is important"
+    ],
+    "text": "EX-99.1\n2\nd694893dex991.htm\nEX-99.1\n\nEX-99.1\n\n \n\n Exhibit 99.1 \n\n Notice of our 2014 annual meeting of shareholders \nYou are invited to our 2014 annual meeting of shareholders: \n\nWhen\n \nWhere\n\nWednesday, May 28, 2014\n \nCameco Corporation\n\n1:30 p.m. CST\n \n2121 - 11th Street West\n\n \nSaskatoon, Saskatchewan\n Your vote is important \nIf you held common shares in Cameco on March 31, 2014, you are entitled to receive notice of and to vote at this meeting. \nSee pages 5 through 11 of the attached management proxy circular for information about what the meeting will cover, who can vote and how to vote. \nBy order of the board, \n\n \n\n Sean Quinn\nSenior Vice-President, Chief Legal Officer and Corporate\nSecretary Saskatoon, Saskatchewan\nApril 9, 2014",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 4,
+        "rows": [
+          [
+            "When",
+            "Where"
+          ],
+          [
+            "Wednesday, May 28, 2014",
+            "Cameco Corporation"
+          ],
+          [
+            "1:30 p.m. CST",
+            "2121 - 11th Street West"
+          ],
+          [
+            "Saskatoon, Saskatchewan"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 1,
+        "rows": [
+          [
+            "Sean Quinn\nSenior Vice-President, Chief Legal Officer and Corporate\nSecretary Saskatoon, Saskatchewan\nApril 9, 2014"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>d694893dex991.htm\n<DESCRIPTION>EX-99.1\n<TEXT>\n<HTML><HEAD>\n<TITLE>EX-99.1</TITLE>\n</HEAD>\n <BODY BGCOLOR=\"WHITE\">\n\n <P STYLE=\"margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\" ALIGN=\"right\"><B>Exhibit 99.1 </B></P> <P STYLE=\"font-size:12pt;margin-top:0pt;margin-bottom:0pt\">&nbsp;</P>\n<P STYLE=\"margin-top:0pt;margin-bottom:0pt\">\n\n\n<IMG SRC=\"g694893dsp_003.jpg\" ALT=\"LOGO\">\n </P> <P STYLE=\"margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\"><B>Notice of our 2014 annual meeting of shareholders </B></P>\n<P STYLE=\"margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\">You are invited to our 2014 annual meeting of shareholders: </P> <P STYLE=\"font-size:12pt;margin-top:0pt;margin-bottom:0pt\">&nbsp;</P>\n<TABLE CELLSPACING=\"0\" CELLPADDING=\"0\" WIDTH=\"100%\" BORDER=\"0\" STYLE=\"BORDER-COLLAPSE:COLLAPSE; font-family:Times New Roman; font-size:10pt\" ALIGN=\"center\">\n\n\n<TR>\n<TD></TD>\n<TD VALIGN=\"bottom\" WIDTH=\"4%\"></TD>\n<TD WIDTH=\"77%\"></TD></TR>\n\n\n<TR STYLE=\"font-family:Times New Roman; font-size:10pt\">\n<TD VALIGN=\"top\"><B>When</B></TD>\n<TD VALIGN=\"bottom\"><FONT STYLE=\"font-size:8pt\">&nbsp;&nbsp;</FONT></TD>\n<TD VALIGN=\"bottom\"><B>Where</B></TD></TR>\n<TR STYLE=\"font-family:Times New Roman; font-size:10pt\">\n<TD VALIGN=\"top\">Wednesday,&nbsp;May&nbsp;28,&nbsp;2014</TD>\n<TD VALIGN=\"bottom\"><FONT STYLE=\"font-size:8pt\">&nbsp;&nbsp;</FONT></TD>\n<TD VALIGN=\"bottom\">Cameco Corporation</TD></TR>\n<TR STYLE=\"font-family:Times New Roman; font-size:10pt\">\n<TD VALIGN=\"top\">1:30 p.m. CST</TD>\n<TD VALIGN=\"bottom\"><FONT STYLE=\"font-size:8pt\">&nbsp;&nbsp;</FONT></TD>\n<TD VALIGN=\"bottom\">2121 - 11th Street West</TD></TR>\n<TR STYLE=\"font-family:Times New Roman; font-size:10pt\">\n<TD VALIGN=\"top\"></TD>\n<TD VALIGN=\"bottom\"><FONT STYLE=\"font-size:8pt\">&nbsp;&nbsp;</FONT></TD>\n<TD VALIGN=\"bottom\">Saskatoon, Saskatchewan</TD></TR>\n</TABLE> <P STYLE=\"margin-top:18pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\"><B>Your vote is important </B></P>\n<P STYLE=\"margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\">If you held common shares in Cameco on March&nbsp;31, 2014, you are entitled to receive notice of and to vote at this meeting. </P>\n<P STYLE=\"margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\">See pages 5 through 11 of the attached management proxy circular for information about what the meeting will cover, who can vote and how to vote. </P>\n<P STYLE=\"margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\">By order of the board, </P> <P STYLE=\"font-size:12pt;margin-top:0pt;margin-bottom:0pt\">&nbsp;</P>\n<TABLE CELLSPACING=\"0\" CELLPADDING=\"0\" WIDTH=\"40%\" BORDER=\"0\" STYLE=\"BORDER-COLLAPSE:COLLAPSE; font-family:Times New Roman; font-size:10pt\">\n\n\n<TR>\n<TD WIDTH=\"100%\"></TD></TR>\n\n\n<TR STYLE=\"font-family:Times New Roman; font-size:10pt\">\n<TD VALIGN=\"top\"> <P STYLE=\"margin-top:0pt;margin-bottom:0pt\">\n\n\n<IMG SRC=\"g694893dsp_003a.jpg\" ALT=\"LOGO\">\n</P> <P STYLE=\"font-size:12pt;margin-top:0pt;margin-bottom:0pt\">&nbsp;</P> <P STYLE=\"margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\">Sean Quinn</P>\n<P STYLE=\"margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\">Senior Vice-President,</P> <P STYLE=\"margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\">Chief Legal Officer and Corporate\nSecretary</P> <P STYLE=\"font-size:6pt;margin-top:0pt;margin-bottom:0pt\">&nbsp;</P> <P STYLE=\"margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\">Saskatoon, Saskatchewan</P>\n<P STYLE=\"margin-top:0pt; margin-bottom:1pt; font-size:10pt; font-family:Times New Roman\">April&nbsp;9, 2014</P></TD></TR>\n</TABLE>\n</BODY></HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

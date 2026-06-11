@@ -1,0 +1,29 @@
+{
+  "ticker": "LAAC",
+  "cik": "0001440972",
+  "form": "6-K",
+  "filingDate": "2021-01-19",
+  "accessionNumber": "0001062993-21-000440",
+  "primaryDocument": "form6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1440972/000106299321000440/0001062993-21-000440-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1440972/000106299321000440/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-06-11T17:02:16.013Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1440972/000106299321000440/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Lithium Americas Corp.: Exhibit 99.1 - Filed by newsfilecorp.com",
+    "headings": [
+      "Lithium Americas Corp.: Exhibit 99.1 - Filed by newsfilecorp.com",
+      "CONSENT OF CASSELS BROCK & BLACKWELL LLP",
+      "Company"
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nEXHIBIT 99.1\n\n Lithium Americas Corp.: Exhibit 99.1 - Filed by newsfilecorp.com\n\n \n CONSENT OF CASSELS BROCK & BLACKWELL LLP\n We hereby consent to the references to our opinion under the heading \"Certain Canadian Federal Income Tax Considerations\" and to the references of our firm name in this Prospectus Supplement of Lithium Americas Corp. (the \"Company\") filed pursuant to General Instruction II.L of Form F-10, which forms part of the Registration Statement on Form F-10 filed by the Company with the United States Securities and Exchange Commission (File No. 333- 249078).\n In giving this consent, we do not thereby admit that we come within the category of persons whose consent is required by the Securities Act of 1933, as amended, or the rules and regulations promulgated thereunder.\n Yours truly,\n (signed) Cassels Brock & Blackwell LLP\n Cassels Brock & Blackwell LLP\n January 19, 2021",
+    "tables": [],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<html>\n\n<head>\n    <title>Lithium Americas Corp.: Exhibit 99.1 - Filed by newsfilecorp.com</title>\n</head>\n\n<body style=\"font-size:10pt; font-family:'Times New Roman';\">\n    <hr width=\"100%\" size=\"3\" color=\"black\" noshade=\"noshade\"><a name=\"page_1\"></a>\n    <p style=\"text-align: center;\"><b>CONSENT OF CASSELS BROCK &amp; BLACKWELL LLP</b></p>\n    <p style=\"text-align: justify;\">We hereby consent to the references to our opinion under the heading \"Certain Canadian Federal Income Tax Considerations\" and to the references of our firm name in this Prospectus Supplement of Lithium Americas Corp. (the \"<b>Company</b>\") filed pursuant to General Instruction II.L of Form F-10, which forms part of the Registration Statement on Form F-10 filed by the Company with the United States Securities and Exchange Commission (File No. 333- 249078).</p>\n    <p style=\"text-align: justify;\">In giving this consent, we do not thereby admit that we come within the category of persons whose consent is required by the Securities Act of 1933, as amended, or the rules and regulations promulgated thereunder.</p>\n    <p style=\"text-align: justify;\">Yours truly,</p>\n    <p style=\"text-align: justify;\">(signed) <i>Cassels Brock &amp; Blackwell LLP</i></p>\n    <p style=\"margin-bottom: 0pt; text-align: justify;\">Cassels Brock &amp; Blackwell LLP</p>\n    <p style=\"margin-top: 0pt; text-align: justify;\">January 19, 2021</p>\n    <hr width=\"100%\" size=\"5\" color=\"black\" noshade=\"noshade\">\n</body>\n\n</html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

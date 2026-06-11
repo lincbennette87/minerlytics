@@ -1,0 +1,64 @@
+{
+  "ticker": "CCJ",
+  "cik": "0001009001",
+  "form": "6-K",
+  "filingDate": "2013-12-05",
+  "accessionNumber": "0001193125-13-463583",
+  "primaryDocument": "d641618d6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1009001/000119312513463583/0001193125-13-463583-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EX 1",
+    "filename": "d641618dex991.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1009001/000119312513463583/d641618dex991.htm"
+  },
+  "extractedAt": "2026-06-11T16:51:07.590Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1009001/000119312513463583/d641618dex991.htm",
+    "contentType": "html",
+    "title": "EX 1",
+    "headings": [
+      "EX 1",
+      "Exhibit 1",
+      "TSX:",
+      "NYSE:",
+      "website:",
+      "currency:",
+      "Cameco Approves Dividend",
+      "Cameco",
+      "Profile",
+      "Investor inquiries:",
+      "Media inquiries:"
+    ],
+    "text": "EX-99.1\n2\nd641618dex991.htm\nEX 1\n\nEX 1\n\n \n\n Exhibit 1 \n\n TSX: CCO NYSE:\nCCJ\n \n\n \n website: cameco.com currency:\nCdn (unless noted)\n 2121 – 11th Street West, Saskatoon, Saskatchewan, S7M\n1J3 Canada Tel: (306) 956-6200 Fax: (306) 956-6201 \nCameco Approves Dividend Saskatoon,\nSaskatchewan, Canada, December 5, 2013 . . . . . . . . . . . . . \nCameco (TSX: CCO; NYSE: CCJ) announced today that its board of directors has approved a quarterly cash dividend of $0.10 per common share, payable on\nJanuary 15, 2014 to shareholders of record on December 31, 2013. Profile \nCameco is one of the world’s largest uranium producers, a significant supplier of conversion services and one of two Candu fuel manufacturers in Canada.\nOur competitive position is based on our controlling ownership of the world’s largest high-grade reserves and low-cost operations. Our uranium products are used to generate clean electricity in nuclear power plants around the world, including\nOntario where we are a limited partner in North America’s largest nuclear electricity generating facility. We also explore for uranium in the Americas, Australia and Asia. Our shares trade on the Toronto and New York stock exchanges. Our head\noffice is in Saskatoon, Saskatchewan. - End - \n\nInvestor inquiries:\n \nRachelle Girard\n \n(306) 956-6403\n\nMedia inquiries:\n \nRob Gereghty\n \n(306) 956-6190",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 1,
+        "rows": [
+          [
+            "TSX: CCO NYSE:\nCCJ",
+            "website: cameco.com currency:\nCdn (unless noted)"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 2,
+        "rows": [
+          [
+            "Investor inquiries:",
+            "Rachelle Girard",
+            "(306) 956-6403"
+          ],
+          [
+            "Media inquiries:",
+            "Rob Gereghty",
+            "(306) 956-6190"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>d641618dex991.htm\n<DESCRIPTION>EX 1\n<TEXT>\n<HTML><HEAD>\n<TITLE>EX 1</TITLE>\n</HEAD>\n <BODY BGCOLOR=\"WHITE\">\n\n <P STYLE=\"margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\" ALIGN=\"right\"><B>Exhibit 1 </B></P> <P STYLE=\"font-size:12pt;margin-top:0pt;margin-bottom:0pt\">&nbsp;</P>\n<TABLE CELLSPACING=\"0\" CELLPADDING=\"0\" WIDTH=\"100%\" BORDER=\"0\" STYLE=\"BORDER-COLLAPSE:COLLAPSE; font-family:Times New Roman; font-size:10pt\" ALIGN=\"center\">\n\n\n<TR>\n<TD WIDTH=\"34%\"></TD>\n<TD VALIGN=\"bottom\"></TD>\n<TD WIDTH=\"32%\"></TD>\n<TD VALIGN=\"bottom\" WIDTH=\"1%\"></TD>\n<TD WIDTH=\"32%\"></TD></TR>\n\n\n<TR STYLE=\"font-family:Times New Roman; font-size:10pt\">\n<TD VALIGN=\"middle\"> <P STYLE=\"margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\"><B>TSX: </B>CCO<B></B></P> <P STYLE=\"margin-top:0pt; margin-bottom:1pt; font-size:10pt; font-family:Times New Roman\"><B>NYSE:\n</B>CCJ<B></B></P></TD>\n<TD VALIGN=\"bottom\"><FONT STYLE=\"font-size:8pt\">&nbsp;</FONT></TD>\n<TD VALIGN=\"top\" ALIGN=\"center\">\n\n\n<IMG SRC=\"g641618img001.jpg\" ALT=\"LOGO\">\n</TD>\n<TD VALIGN=\"bottom\"><FONT STYLE=\"font-size:8pt\">&nbsp;</FONT></TD>\n<TD VALIGN=\"middle\"> <P STYLE=\"margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\"><B>website: </B>cameco.com </P> <P STYLE=\"margin-top:0pt; margin-bottom:1pt; font-size:10pt; font-family:Times New Roman\"><B>currency:</B>\nCdn (unless noted)</P></TD></TR>\n</TABLE> <P STYLE=\"margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\" ALIGN=\"center\">2121 &#150; 11<SUP STYLE=\"font-size:85%; vertical-align:top\">th </SUP>Street West, Saskatoon, Saskatchewan, S7M\n1J3 Canada </P> <P STYLE=\"margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\" ALIGN=\"center\">Tel: (306)&nbsp;956-6200 Fax: (306)&nbsp;956-6201 </P>\n<P STYLE=\"margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\" ALIGN=\"center\"><B>Cameco Approves Dividend </B></P> <P STYLE=\"margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\">Saskatoon,\nSaskatchewan, Canada, December&nbsp;5, 2013 .&nbsp;&nbsp; . &nbsp;&nbsp;. &nbsp;&nbsp;. &nbsp;&nbsp;. &nbsp;&nbsp;. &nbsp;&nbsp;. &nbsp;&nbsp;. &nbsp;&nbsp;. &nbsp;&nbsp;. &nbsp;&nbsp;. &nbsp;&nbsp;. &nbsp;&nbsp;. </P>\n<P STYLE=\"margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\"><B>Cameco </B>(TSX: CCO; NYSE: CCJ) announced today that its board of directors has approved a quarterly cash dividend of $0.10 per common share, payable on\nJanuary&nbsp;15, 2014 to shareholders of record on December&nbsp;31, 2013. </P> <P STYLE=\"margin-top:18pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\"><B>Profile </B></P>\n<P STYLE=\"margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\">Cameco is one of the world&#146;s largest uranium producers, a significant supplier of conversion services and one of two Candu fuel manufacturers in Canada.\nOur competitive position is based on our controlling ownership of the world&#146;s largest high-grade reserves and low-cost operations. Our uranium products are used to generate clean electricity in nuclear power plants around the world, including\nOntario where we are a limited partner in North America&#146;s largest nuclear electricity generating facility. We also explore for uranium in the Americas, Australia and Asia. Our shares trade on the Toronto and New York stock exchanges. Our head\noffice is in Saskatoon, Saskatchewan. </P> <P STYLE=\"margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman\" ALIGN=\"center\">- End - </P> <P STYLE=\"font-size:12pt;margin-top:0pt;margin-bottom:0pt\">&nbsp;</P>\n<TABLE CELLSPACING=\"0\" CELLPADDING=\"0\" WIDTH=\"100%\" BORDER=\"0\" STYLE=\"BORDER-COLLAPSE:COLLAPSE; font-family:Times New Roman; font-size:10pt\" ALIGN=\"center\">\n\n\n<TR>\n<TD WIDTH=\"34%\"></TD>\n<TD VALIGN=\"bottom\"></TD>\n<TD WIDTH=\"32%\"></TD>\n<TD VALIGN=\"bottom\" WIDTH=\"1%\"></TD>\n<TD WIDTH=\"32%\"></TD></TR>\n\n\n<TR STYLE=\"font-family:Times New Roman; font-size:10pt\">\n<TD VALIGN=\"top\"><B>Investor inquiries:</B></TD>\n<TD VALIGN=\"bottom\"><FONT STYLE=\"font-size:8pt\">&nbsp;</FONT></TD>\n<TD VALIGN=\"bottom\">Rachelle Girard</TD>\n<TD VALIGN=\"bottom\"><FONT STYLE=\"font-size:8pt\">&nbsp;</FONT></TD>\n<TD VALIGN=\"bottom\">(306) 956-6403</TD></TR>\n<TR>\n<TD HEIGHT=\"16\"></TD>\n<TD HEIGHT=\"16\" COLSPAN=\"2\"></TD>\n<TD HEIGHT=\"16\" COLSPAN=\"2\"></TD></TR>\n<TR STYLE=\"font-family:Times New Roman; font-size:10pt\">\n<TD VALIGN=\"top\"><B>Media inquiries:</B></TD>\n<TD VALIGN=\"bottom\"><FONT STYLE=\"font-size:8pt\">&nbsp;</FONT></TD>\n<TD VALIGN=\"bottom\">Rob Gereghty</TD>\n<TD VALIGN=\"bottom\"><FONT STYLE=\"font-size:8pt\">&nbsp;</FONT></TD>\n<TD VALIGN=\"bottom\">(306) 956-6190</TD></TR>\n</TABLE>\n</BODY></HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

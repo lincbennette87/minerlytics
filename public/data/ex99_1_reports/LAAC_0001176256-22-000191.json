@@ -1,0 +1,138 @@
+{
+  "ticker": "LAAC",
+  "cik": "0001440972",
+  "form": "6-K",
+  "filingDate": "2022-06-23",
+  "accessionNumber": "0001176256-22-000191",
+  "primaryDocument": "lithiumamericas6knrvr.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1440972/000117625622000191/0001176256-22-000191-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "NEWS RELEASE DATED JUNE 21, 2022",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1440972/000117625622000191/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-06-11T17:02:03.751Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1440972/000117625622000191/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Exhibit 99.1",
+    "headings": [
+      "Exhibit 99.1",
+      "Lithium Americas Announces 2022 AGM Results",
+      "June 21, 2022 - Vancouver, Canada: Lithium Americas Corp. (TSX: LAC) (NYSE: LAC) (“Lithium Americas” or the “Company”)",
+      "Election of Board of Directors",
+      "Number of Directors",
+      "Votes For",
+      "Votes Against",
+      "Director",
+      "Votes Withheld",
+      "Appointment of the Auditors",
+      "Resolution",
+      "Advisory Vote",
+      "ABOUT LITHIUM AMERICAS"
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nNEWS RELEASE DATED JUNE 21, 2022\n\n Exhibit 99.1\n\nExhibit 99.1\n\nLithium Americas Announces 2022 AGM Results\n\nJune 21, 2022 - Vancouver, Canada: Lithium Americas Corp. (TSX: LAC) (NYSE: LAC) (“Lithium Americas” or the “Company”) is pleased to announce the voting results from its annual meeting of shareholders held on June 21, 2022 (the “Meeting”).\n\nA requisite majority of shareholders, casting votes in person or by proxy, approved the following items of business at the Meeting:\n\nsetting the size of the Board of Directors at nine;\n\nelecting each of the nine incumbent directors nominated by management;\n\nre-appointing PricewaterhouseCoopers LLP (“PwC”) as the Company’s auditor; and\n\napproving a non-binding advisory vote on executive compensation.\n\nVotes were cast on the matters noted above as follows:\n\nElection of Board of Directors\n\n \n\n \n\n \n\n Number of Directors\n\n Votes For\n\n Votes Against\n\n Setting the number of directors at nine\n\n 42,054,406 (98.86%)\n\n 483,077 (1.14%)\n\n Director\n\n Votes For\n\n Votes Withheld\n\n George Ireland\n\n 41,671,914 (97.97%)\n\n 865,570 (2.03%)\n\n Fabiana Chubbs\n\n 41,461,079 (97.47%)\n\n 1,076,405 (2.53%)\n\n Kelvin Dushnisky\n\n 41,135,680 (96.70%)\n\n 1,401,805 (3.30%)\n\n Jonathan Evans\n\n 41,957,067 (98.64%)\n\n 580,417 (1.36%)\n\n Dr. Yuan Gao\n\n 37,881,520 (89.05%)\n\n 4,655,965 (10.95%)\n\n John Kanellitsas\n\n 41,088,159 (96.59%)\n\n 1,449,326 (3.41%)\n\n Jinhee Magie\n\n 41,332,972 (97.17%)\n\n 1,204,512 (2.83%)\n\n Franco Mignacco\n\n 41,238,860 (96.95%)\n\n 1,298,625 (3.05%)\n\n Xiaoshen Wang\n\n 37,188,584 (87.43%)\n\n 5,348,901 (12.57%)\n\nAppointment of the Auditors\n\n \n\n \n\n \n\n Resolution\n\n Votes For\n\n Votes Withheld\n\n Appointing PwC as the auditors\n\n 72,728,305 (99.24%)\n\n 558,305 (0.76%)\n\nAdvisory Vote\n\n \n\n \n\n \n\n Resolution\n\n Votes For\n\n Votes Against\n\n Advisory Vote on Executive Compensation\n\n 40,915,602 (96.19%)\n\n 1,621,882 (3.81%)\n\nFurther details concerning voting results are available under the Company’s profile on SEDAR at www.sedar.com.\n\nABOUT LITHIUM AMERICAS\n\nLithium Americas Corp. is focused on developing lithium projects in Argentina and the United States. Lithium Americas is a Canadian-based company listed on both the Toronto Stock Exchange (TSX: LAC) and New York Stock Exchange (NYSE: LAC).\n\nFor further information contact: Investor Relations Telephone: 778-656-5820 Email: ir@lithiumamericas.com Website: www.lithiumamericas.com",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 12,
+        "rows": [
+          [
+            "Number of Directors",
+            "Votes For",
+            "Votes Against"
+          ],
+          [
+            "Setting the number of directors at nine",
+            "42,054,406 (98.86%)",
+            "483,077 (1.14%)"
+          ],
+          [
+            "Director",
+            "Votes For",
+            "Votes Withheld"
+          ],
+          [
+            "George Ireland",
+            "41,671,914 (97.97%)",
+            "865,570 (2.03%)"
+          ],
+          [
+            "Fabiana Chubbs",
+            "41,461,079 (97.47%)",
+            "1,076,405 (2.53%)"
+          ],
+          [
+            "Kelvin Dushnisky",
+            "41,135,680 (96.70%)",
+            "1,401,805 (3.30%)"
+          ],
+          [
+            "Jonathan Evans",
+            "41,957,067 (98.64%)",
+            "580,417 (1.36%)"
+          ],
+          [
+            "Dr. Yuan Gao",
+            "37,881,520 (89.05%)",
+            "4,655,965 (10.95%)"
+          ],
+          [
+            "John Kanellitsas",
+            "41,088,159 (96.59%)",
+            "1,449,326 (3.41%)"
+          ],
+          [
+            "Jinhee Magie",
+            "41,332,972 (97.17%)",
+            "1,204,512 (2.83%)"
+          ],
+          [
+            "Franco Mignacco",
+            "41,238,860 (96.95%)",
+            "1,298,625 (3.05%)"
+          ],
+          [
+            "Xiaoshen Wang",
+            "37,188,584 (87.43%)",
+            "5,348,901 (12.57%)"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 2,
+        "rows": [
+          [
+            "Resolution",
+            "Votes For",
+            "Votes Withheld"
+          ],
+          [
+            "Appointing PwC as the auditors",
+            "72,728,305 (99.24%)",
+            "558,305 (0.76%)"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 2,
+        "rows": [
+          [
+            "Resolution",
+            "Votes For",
+            "Votes Against"
+          ],
+          [
+            "Advisory Vote on Executive Compensation",
+            "40,915,602 (96.19%)",
+            "1,621,882 (3.81%)"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>NEWS RELEASE DATED JUNE 21, 2022\n<TEXT>\n\n<HTML>\n<HEAD>\n   <TITLE>Exhibit 99.1</TITLE>\n</HEAD>\n\n<BODY bgcolor=\"#ffffff\" style=\"font-family: 'Times New Roman';font-size: 10pt;\">\n<HR noshade align=\"center\" width=\"100%\" size=3 margin=0>\n<div align=\"right\"><strong>Exhibit 99.1</strong></div>\n<!--$$/page=--><A name=\"page_1\"></A><BR>\n\n<a name=\"_bclPageBorder1\"></a><DIV style=\"PADDING-LEFT: 0%; PADDING-RIGHT: 0%\">\n\n<P align=center>\n<IMG border=0 src=\"exhibit99-1x1x1.jpg\"></P><BR>\n\n<P style=\"TEXT-ALIGN: center\"><B>Lithium Americas Announces 2022 AGM Results</B></P>\n\n<P style=\"TEXT-ALIGN: justify\"><B>June 21, 2022 - Vancouver, Canada: Lithium Americas Corp. (TSX: LAC) (NYSE: LAC) (&#8220;Lithium Americas&#8221; or the &#8220;Company&#8221;) </B>is pleased to announce the voting results from its annual meeting of shareholders held on June 21, 2022 (the &#8220;Meeting&#8221;).</P>\n\n<P style=\"TEXT-ALIGN: justify\">A requisite majority of shareholders, casting votes in person or by proxy, approved the following items of business at the Meeting:</P>\n\n<UL>\n\n<LI>\n\n<P style=\"MARGIN-BOTTOM: 0%; MARGIN-TOP: 0%\" align=justify>setting the size of the Board of Directors at nine;</P>\n\n<LI>\n\n<P style=\"MARGIN-BOTTOM: 0%; MARGIN-TOP: 0%\" align=justify>electing each of the nine incumbent directors nominated by management;</P>\n\n<LI>\n\n<P style=\"MARGIN-BOTTOM: 0%; MARGIN-TOP: 0%\" align=justify>re-appointing PricewaterhouseCoopers LLP (&#8220;PwC&#8221;) as the Company&#8217;s auditor; and</P>\n\n<LI>\n\n<P style=\"MARGIN-BOTTOM: 0%; MARGIN-TOP: 0%\" align=justify>approving a non-binding advisory vote on executive compensation.</P></LI></UL>\n\n<P style=\"TEXT-ALIGN: justify\">Votes were cast on the matters noted above as follows:</P>\n\n<P style=\"TEXT-ALIGN: justify\"><B>Election of Board of Directors</B></P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"50%\"></TD>\n\n   <TD width=\"25%\"></TD>\n\n   <TD width=\"25%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-TOP: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" bgColor=#933447 width=\"50%\" noWrap align=left><B><FONT color=#ffffff>Number of Directors</FONT></B></TD>\n\n   <TD style=\"BORDER-TOP: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" bgColor=#933447 width=\"25%\" noWrap align=center><B><FONT color=#ffffff>Votes For</FONT></B></TD>\n\n   <TD style=\"BORDER-TOP: #000000 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" bgColor=#933447 width=\"25%\" noWrap align=center><B><FONT color=#ffffff>Votes Against</FONT></B></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"50%\" noWrap align=left>Setting the number of directors at nine</TD>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>42,054,406 (98.86%)</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>483,077 (1.14%)</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" bgColor=#933447 width=\"50%\" noWrap align=left><B><FONT color=#ffffff>Director</FONT></B></TD>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" bgColor=#933447 width=\"25%\" noWrap align=center><B><FONT color=#ffffff>Votes For</FONT></B></TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" bgColor=#933447 width=\"25%\" noWrap align=center><B><FONT color=#ffffff>Votes Withheld</FONT></B></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"50%\" noWrap align=left>George Ireland</TD>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>41,671,914 (97.97%)</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>865,570 (2.03%)</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"50%\" noWrap align=left>Fabiana Chubbs</TD>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>41,461,079 (97.47%)</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>1,076,405 (2.53%)</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"50%\" noWrap align=left>Kelvin Dushnisky</TD>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>41,135,680 (96.70%)</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>1,401,805 (3.30%)</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"50%\" noWrap align=left>Jonathan Evans</TD>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>41,957,067 (98.64%)</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>580,417 (1.36%)</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"50%\" noWrap align=left>Dr. Yuan Gao</TD>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>37,881,520 (89.05%)</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>4,655,965 (10.95%)</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"50%\" noWrap align=left>John Kanellitsas</TD>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>41,088,159 (96.59%)</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>1,449,326 (3.41%)</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"50%\" noWrap align=left>Jinhee Magie</TD>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>41,332,972 (97.17%)</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>1,204,512 (2.83%)</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"50%\" noWrap align=left>Franco Mignacco</TD>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>41,238,860 (96.95%)</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>1,298,625 (3.05%)</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"50%\" noWrap align=left>Xiaoshen Wang</TD>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>37,188,584 (87.43%)</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>5,348,901 (12.57%)</TD></TR></TABLE></DIV>\n\n<P style=\"TEXT-ALIGN: justify\"><B>Appointment of the Auditors</B></P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"50%\"></TD>\n\n   <TD width=\"25%\"></TD>\n\n   <TD width=\"25%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-TOP: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" bgColor=#933447 width=\"50%\" noWrap align=left><B><FONT color=#ffffff>Resolution</FONT></B></TD>\n\n   <TD style=\"BORDER-TOP: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" bgColor=#933447 width=\"25%\" noWrap align=center><B><FONT color=#ffffff>Votes For</FONT></B></TD>\n\n   <TD style=\"BORDER-TOP: #000000 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" bgColor=#933447 width=\"25%\" noWrap align=center><B><FONT color=#ffffff>Votes Withheld</FONT></B></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"50%\" noWrap align=left>Appointing PwC as the auditors</TD>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>72,728,305 (99.24%)</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>558,305 (0.76%)</TD></TR></TABLE></DIV>\n\n<P style=\"TEXT-ALIGN: justify\"><B>Advisory Vote</B></P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"50%\"></TD>\n\n   <TD width=\"25%\"></TD>\n\n   <TD width=\"25%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-TOP: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" bgColor=#933447 width=\"50%\" noWrap align=left><B><FONT color=#ffffff>Resolution</FONT></B></TD>\n\n   <TD style=\"BORDER-TOP: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" bgColor=#933447 width=\"25%\" noWrap align=center><B><FONT color=#ffffff>Votes For</FONT></B></TD>\n\n   <TD style=\"BORDER-TOP: #000000 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" bgColor=#933447 width=\"25%\" noWrap align=center><B><FONT color=#ffffff>Votes Against</FONT></B></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"50%\" noWrap align=left>Advisory Vote on Executive Compensation</TD>\n\n   <TD style=\"BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>40,915,602 (96.19%)</TD>\n\n   <TD style=\"BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid\" width=\"25%\" noWrap align=center>1,621,882 (3.81%)</TD></TR></TABLE></DIV>\n\n<P style=\"TEXT-ALIGN: justify\">Further details concerning voting results are available under the Company&#8217;s profile on SEDAR at <U>www.sedar.com</U>.</P></DIV><BR>\n\n<HR style=\"PAGE-BREAK-AFTER: always\" align=center SIZE=1 width=\"100%\" noShade>\n\n<BR>\n\n<A name=\"page_2\"></A><BR>\n\n<a name=\"_bclPageBorder2\"></a><DIV style=\"PADDING-LEFT: 0%; PADDING-RIGHT: 0%\">\n\n<P style=\"TEXT-ALIGN: justify\"><B><FONT color=#933447>ABOUT LITHIUM AMERICAS</FONT></B></P>\n\n<P style=\"TEXT-ALIGN: justify\">Lithium Americas Corp. is focused on developing lithium projects in Argentina and the United States. Lithium Americas is a Canadian-based company listed on both the Toronto Stock Exchange (TSX: LAC) and New York Stock Exchange (NYSE: LAC).</P>\n\n<P style=\"TEXT-ALIGN: justify\">For further information contact: <BR>Investor Relations <BR>Telephone: 778-656-5820 <BR>Email: ir@lithiumamericas.com <BR>Website: www.lithiumamericas.com</P></DIV><BR>\n\n<HR noshade align=\"center\" width=\"100%\" size=3 margin=0>\n\n</BODY>\n\n</HTML>\n\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

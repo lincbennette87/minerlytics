@@ -17,7 +17,8 @@
       "First Majestic Silver",
       "AG stock",
       "First Majestic earnings"
-    ]
+    ],
+    "cik": "0001308648"
   },
   "AGI": {
     "name": "Alamos Gold",
@@ -37,7 +38,8 @@
       "Albemarle",
       "ALB stock",
       "Albemarle earnings"
-    ]
+    ],
+    "cik": "0000915913"
   },
   "ANFGF": {
     "name": "Antofagasta",
@@ -56,7 +58,8 @@
       "AngloGold Ashanti",
       "AU stock",
       "AngloGold earnings"
-    ]
+    ],
+    "cik": "0001973832"
   },
   "AYASF": {
     "name": "Aya Gold & Silver",
@@ -68,7 +71,8 @@
       "Aya Gold",
       "Aya Gold and Silver",
       "Aya Gold & Silver earnings"
-    ]
+    ],
+    "cik": "0001826836"
   },
   "BHP": {
     "name": "BHP Group",
@@ -79,7 +83,8 @@
       "BHP stock",
       "BHP",
       "BHP Group earnings"
-    ]
+    ],
+    "cik": "0000811809"
   },
   "BTG": {
     "name": "B2Gold",
@@ -99,7 +104,8 @@
       "Cameco",
       "CCJ stock",
       "Cameco earnings"
-    ]
+    ],
+    "cik": "0001009001"
   },
   "CDE": {
     "name": "Coeur Mining",
@@ -120,7 +126,8 @@
       "CGAU stock",
       "Centerra",
       "Centerra Gold earnings"
-    ]
+    ],
+    "cik": "0001854640"
   },
   "COPX": {
     "name": "Global X Copper Miners ETF",
@@ -152,7 +159,8 @@
       "CSFFF stock",
       "Capstone",
       "Capstone Copper earnings"
-    ]
+    ],
+    "cik": "0000887151"
   },
   "DNN": {
     "name": "Denison Mines",
@@ -163,7 +171,8 @@
       "DNN stock",
       "Denison",
       "Denison Mines earnings"
-    ]
+    ],
+    "cik": "0001063259"
   },
   "DRD": {
     "name": "DRDGOLD",
@@ -174,7 +183,8 @@
       "DRD stock",
       "DRDGold",
       "DRDGOLD earnings"
-    ]
+    ],
+    "cik": "0001023512"
   },
   "DSVSF": {
     "name": "Discovery Silver",
@@ -204,7 +214,8 @@
       "EGO stock",
       "Eldorado",
       "Eldorado Gold earnings"
-    ]
+    ],
+    "cik": "0000918608"
   },
   "EQX": {
     "name": "Equinox Gold",
@@ -214,7 +225,8 @@
       "Equinox Gold",
       "EQX stock",
       "Equinox Gold earnings"
-    ]
+    ],
+    "cik": "0001756607"
   },
   "EXK": {
     "name": "Endeavour Silver",
@@ -266,7 +278,8 @@
       "FSM stock",
       "Fortuna",
       "Fortuna Mining earnings"
-    ]
+    ],
+    "cik": "0001341335"
   },
   "GATO": {
     "name": "Gatos Silver",
@@ -285,7 +298,8 @@
       "Galiano Gold",
       "GAYMF stock",
       "Galiano earnings"
-    ]
+    ],
+    "cik": "0001377757"
   },
   "GDX": {
     "name": "VanEck Gold Miners ETF",
@@ -347,7 +361,8 @@
       "Hudbay Minerals",
       "HBM stock",
       "Hudbay earnings"
-    ]
+    ],
+    "cik": "0001322422"
   },
   "HL": {
     "name": "Hecla Mining",
@@ -389,7 +404,8 @@
       "IAG stock",
       "Iamgold",
       "IAMGOLD earnings"
-    ]
+    ],
+    "cik": "0001203464"
   },
   "IMPUY": {
     "name": "Impala Platinum",
@@ -432,7 +448,8 @@
       "Lithium Argentina",
       "LAAC stock",
       "Lithium Argentina earnings"
-    ]
+    ],
+    "cik": "0001440972"
   },
   "LAC": {
     "name": "Lithium Americas",
@@ -442,7 +459,8 @@
       "Lithium Americas",
       "LAC stock",
       "Lithium Americas earnings"
-    ]
+    ],
+    "cik": "0001966983"
   },
   "LUCRF": {
     "name": "Lucara Diamond",
@@ -501,7 +519,8 @@
       "MP Materials",
       "MP stock",
       "MP Materials earnings"
-    ]
+    ],
+    "cik": "0001801368"
   },
   "MPVDF": {
     "name": "Mountain Province Diamonds",
@@ -521,7 +540,8 @@
       "MUX stock",
       "McEwen",
       "McEwen Mining earnings"
-    ]
+    ],
+    "cik": "0000314203"
   },
   "NEM": {
     "name": "Newmont",
@@ -562,7 +582,8 @@
       "NXE stock",
       "NexGen",
       "NexGen Energy earnings"
-    ]
+    ],
+    "cik": "0001698535"
   },
   "OR": {
     "name": "Osisko Gold Royalties",
@@ -571,7 +592,8 @@
       "Osisko Gold Royalties",
       "OR stock",
       "Osisko royalty"
-    ]
+    ],
+    "cik": "0001627272"
   },
   "ORLA": {
     "name": "Orla Mining",
@@ -582,7 +604,8 @@
       "ORLA stock",
       "Orla",
       "Orla Mining earnings"
-    ]
+    ],
+    "cik": "0001680056"
   },
   "PAAS": {
     "name": "Pan American Silver",
@@ -687,7 +710,8 @@
       "SBSW stock",
       "Sibanye",
       "Sibanye Stillwater earnings"
-    ]
+    ],
+    "cik": "0001786909"
   },
   "SCCO": {
     "name": "Southern Copper",
@@ -707,7 +731,8 @@
       "Sigma Lithium",
       "SGML stock",
       "Sigma Lithium earnings"
-    ]
+    ],
+    "cik": "0001848309"
   },
   "SIL": {
     "name": "Global X Silver Miners ETF",
@@ -755,7 +780,8 @@
       "SKE stock",
       "Skeena",
       "Skeena Resources earnings"
-    ]
+    ],
+    "cik": "0001713748"
   },
   "SLV": {
     "name": "iShares Silver Trust",
@@ -776,7 +802,8 @@
       "SQM stock",
       "Sociedad Quimica y Minera",
       "SQM earnings"
-    ]
+    ],
+    "cik": "0000909037"
   },
   "SSRM": {
     "name": "SSR Mining",
@@ -787,7 +814,8 @@
       "SSRM stock",
       "SSR",
       "SSR Mining earnings"
-    ]
+    ],
+    "cik": "0000921638"
   },
   "SVM": {
     "name": "Silvercorp Metals",
@@ -806,7 +834,8 @@
       "Teck Resources",
       "TECK stock",
       "Teck copper earnings"
-    ]
+    ],
+    "cik": "0000886986"
   },
   "TGB": {
     "name": "Taseko Mines",
@@ -826,7 +855,8 @@
       "Trilogy Metals",
       "TMQ stock",
       "Trilogy Metals earnings"
-    ]
+    ],
+    "cik": "0001543418"
   },
   "TRQ": {
     "name": "Turquoise Hill",
@@ -846,7 +876,8 @@
       "UEC stock",
       "UEC",
       "Uranium Energy earnings"
-    ]
+    ],
+    "cik": "0001334933"
   },
   "URNM": {
     "name": "Sprott Uranium Miners ETF",
@@ -867,7 +898,8 @@
       "Energy Fuels",
       "UUUU stock",
       "Energy Fuels earnings"
-    ]
+    ],
+    "cik": "0001385849"
   },
   "VALE": {
     "name": "Vale",
@@ -878,7 +910,8 @@
       "VALE stock",
       "Vale SA",
       "Vale earnings"
-    ]
+    ],
+    "cik": "0000917851"
   },
   "WPM": {
     "name": "Wheaton Precious Metals",

@@ -1,0 +1,74 @@
+{
+  "ticker": "LAAC",
+  "cik": "0001440972",
+  "form": "6-K",
+  "filingDate": "2018-05-18",
+  "accessionNumber": "0001564590-18-013976",
+  "primaryDocument": "lac-6k_20180517.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1440972/000156459018013976/0001564590-18-013976-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EX-99.1",
+    "filename": "lac-ex991_11.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1440972/000156459018013976/lac-ex991_11.htm"
+  },
+  "extractedAt": "2026-06-11T17:02:44.836Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1440972/000156459018013976/lac-ex991_11.htm",
+    "contentType": "html",
+    "title": "lac-ex991_11.htm",
+    "headings": [
+      "lac-ex991_11.htm"
+    ],
+    "text": "EX-99.1\n2\nlac-ex991_11.htm\nEX-99.1\n\nlac-ex991_11.htm\n\n \nExhibit 99.1\nABRIDGEMENT CERTIFICATE\n\nRE:\n\nAnnual General Meeting (the “Meeting”) of shareholders of Lithium Americas Corp. (the “Corporation”) scheduled for June 21, 2018\n \nThe undersigned, Eduard Epshtein, the Chief Financial Officer of the Corporation, in such capacity and not in his personal capacity, hereby provides notice that the Corporation is relying on Section 2.20 of National Instrument 54-101 – Communication with Beneficial Owners of Securities of a Reporting Issuer (“NI 54-101”) and hereby certifies that the Corporation has arranged to:\n\n \n\n(a)\n\nhave proxy-related materials for the Meeting sent in compliance with the applicable timing requirements in sections 2.9 and 2.12 of NI 54-101; and\n\n \n\n(b)\n\nhave carried out all of the other requirements of NI 54-101, in addition to those described in subparagraph (a) above .\nDATED this 16th of May, 2018.\n \nLITHIUM AMERICAS CORP.\n\nBy: \n\n“Eduard Epshtein”\n\n \n\nEduard Epshtein\n\n \n\nChief Financial Officer",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 1,
+        "rows": [
+          [
+            "RE:",
+            "Annual General Meeting (the “Meeting”) of shareholders of Lithium Americas Corp. (the “Corporation”) scheduled for June 21, 2018"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 1,
+        "rows": [
+          [
+            "(a)",
+            "have proxy-related materials for the Meeting sent in compliance with the applicable timing requirements in sections 2.9 and 2.12 of NI 54-101; and"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 1,
+        "rows": [
+          [
+            "(b)",
+            "have carried out all of the other requirements of NI 54-101, in addition to those described in subparagraph (a) above ."
+          ]
+        ]
+      },
+      {
+        "tableIndex": 3,
+        "rowCount": 3,
+        "rows": [
+          [
+            "By:",
+            "“Eduard Epshtein”"
+          ],
+          [
+            "Eduard Epshtein"
+          ],
+          [
+            "Chief Financial Officer"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>lac-ex991_11.htm\n<DESCRIPTION>EX-99.1\n<TEXT>\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<html>\n<head>\n<title>\nlac-ex991_11.htm\n</title>\n</head>\n<!-- NG Converter v4.0.8.21 -->\n<body>\n\n<p style=\"margin-bottom:0pt;margin-top:0pt;text-indent:0%;font-size:10pt;font-family:Arial;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">&nbsp;</p>\n<p style=\"text-align:right;margin-bottom:12pt;margin-top:0pt;text-indent:0%;font-weight:bold;font-size:11pt;font-family:Arial;font-style:normal;text-transform:none;font-variant: normal;\">Exhibit 99.1</p>\n<p style=\"text-align:center;margin-bottom:12pt;margin-top:0pt;text-indent:0%;font-weight:bold;font-size:11pt;font-family:Arial;font-style:normal;text-transform:none;font-variant: normal;\">ABRIDGEMENT CERTIFICATE</p>\n<div align=\"left\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\"  style=\"border-collapse:collapse; width:100%;\">\n<tr>\n<td valign=\"top\" style=\"width:7.69%;white-space:nowrap\">\n<p style=\"text-align:justify;margin-bottom:12pt;margin-top:0pt;font-size:11pt;font-family:Arial;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\"><font style=\"font-size:11pt;font-family:Arial;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">RE:</font></p></td>\n<td valign=\"top\">\n<p style=\"text-align:justify;margin-bottom:12pt;margin-top:0pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;font-family:Arial;font-size:11pt;\">Annual General Meeting (the &#8220;<font style=\"font-weight:bold;\">Meeting</font>&#8221;) of shareholders of Lithium Americas Corp. (the &#8220;<font style=\"font-weight:bold;\">Corporation</font>&#8221;) scheduled for June 21, 2018</p></td></tr></table></div>\n<p style=\"text-align:justify;margin-bottom:0pt;border-top:Solid 1pt;padding-top:1pt;margin-top:0pt;text-indent:0%;font-size:11pt;\">&nbsp;</p>\n<p style=\"text-align:justify;margin-bottom:12pt;margin-top:0pt;text-indent:7.69%;font-size:11pt;font-family:Arial;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">The undersigned, Eduard Epshtein, the Chief Financial Officer of the Corporation, in such capacity and not in his personal capacity, hereby provides notice that the Corporation is relying on Section 2.20 of National Instrument 54-101 &#8211; <font style=\"font-style:italic;\">Communication with Beneficial Owners of Securities of a Reporting Issuer</font> (&#8220;<font style=\"font-weight:bold;\">NI 54-101</font>&#8221;) and hereby certifies that the Corporation has arranged to:</p>\n<div align=\"left\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\"  style=\"border-collapse:collapse; width:100%;\">\n<tr>\n<td valign=\"top\" style=\"width:7.69%;white-space:nowrap\">\n<p style=\"text-align:justify;margin-bottom:12pt;margin-top:0pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;font-family:Arial;font-size:11pt;\">&nbsp;</p></td>\n<td valign=\"top\" style=\"width:7.69%;white-space:nowrap\">\n<p style=\"text-align:justify;margin-bottom:12pt;margin-top:0pt;font-size:11pt;font-family:Arial;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\"><font style=\"font-size:11pt;font-family:Arial;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">(a)</font></p></td>\n<td valign=\"top\">\n<p style=\"text-align:justify;margin-bottom:12pt;margin-top:0pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;font-family:Arial;font-size:11pt;\">have proxy-related materials for the Meeting sent in compliance with the applicable timing requirements in sections 2.9 and 2.12 of NI 54-101; and</p></td></tr></table></div>\n<div align=\"left\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\"  style=\"border-collapse:collapse; width:100%;\">\n<tr>\n<td valign=\"top\" style=\"width:7.69%;white-space:nowrap\">\n<p style=\"text-align:justify;margin-bottom:12pt;margin-top:0pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;font-family:Arial;font-size:11pt;\">&nbsp;</p></td>\n<td valign=\"top\" style=\"width:7.69%;white-space:nowrap\">\n<p style=\"text-align:justify;margin-bottom:12pt;margin-top:0pt;font-size:11pt;font-family:Arial;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\"><font style=\"font-size:11pt;font-family:Arial;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">(b)</font></p></td>\n<td valign=\"top\">\n<p style=\"text-align:justify;margin-bottom:12pt;margin-top:0pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;font-family:Arial;font-size:11pt;\">have carried out all of the other requirements of NI 54-101, in addition to those described in subparagraph (a) above .</p></td></tr></table></div>\n<p style=\"text-align:justify;margin-bottom:12pt;margin-top:0pt;text-indent:0%;font-size:11pt;font-family:Arial;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">DATED this 16th of May, 2018.</p>\n<p style=\"text-align:justify;margin-bottom:0pt;margin-top:0pt;text-indent:0%;font-weight:bold;;font-size:11pt;\">&nbsp;</p>\n<p style=\"text-align:justify;margin-bottom:12pt;margin-top:0pt;text-indent:0%;font-weight:bold;font-size:11pt;font-family:Arial;font-style:normal;text-transform:none;font-variant: normal;\">LITHIUM AMERICAS CORP.</p>\n<div align=\"left\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"border-collapse:collapse; width:40%;\">\n<tr>\n<td valign=\"top\"  style=\"width:3%; border-bottom:solid 0.75pt transparent;\">\n<p style=\"margin-bottom:0pt;margin-top:0pt;margin-left:0pt;;text-indent:0pt;;font-size:11pt;font-family:Arial;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">By:&#160;</p></td>\n<td valign=\"top\"  style=\"width:37%; border-bottom:solid 0.75pt #000000;\">\n<p style=\"margin-bottom:0pt;margin-top:0pt;margin-left:0pt;;text-indent:0pt;;font-size:11pt;font-family:Arial;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">&#8220;<font style=\"font-style:italic;\">Eduard Epshtein</font>&#8221;</p></td>\n</tr>\n<tr>\n<td valign=\"top\"  style=\"width:3%;\">\n<p style=\"margin-bottom:0pt;margin-top:0pt;margin-left:0pt;;text-indent:0pt;;font-size:11pt;\">&nbsp;</p></td>\n<td valign=\"top\"  style=\"width:37%; border-top:solid 0.75pt #000000;\">\n<p style=\"margin-bottom:0pt;margin-top:0pt;margin-left:0pt;;text-indent:0pt;;font-size:11pt;font-family:Arial;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">Eduard Epshtein</p></td>\n</tr>\n<tr>\n<td valign=\"top\"  style=\"width:3%;\">\n<p style=\"margin-bottom:0pt;margin-top:0pt;margin-left:0pt;;text-indent:0pt;;font-size:11pt;\">&nbsp;</p></td>\n<td valign=\"top\"  style=\"width:37%;\">\n<p style=\"margin-bottom:0pt;margin-top:0pt;margin-left:0pt;;text-indent:0pt;;font-size:11pt;font-family:Arial;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">Chief Financial Officer</p></td>\n</tr>\n</table></div>\n<p style=\"margin-bottom:0pt;margin-top:0pt;text-indent:0%;font-size:11pt;\">&nbsp;</p>\n<p style=\"margin-top:12pt;margin-bottom:12pt;text-indent:0%;font-size:12pt;font-family:Arial;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">&nbsp;</p></body>\n</html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

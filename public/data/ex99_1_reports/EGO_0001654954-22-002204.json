@@ -1,0 +1,132 @@
+{
+  "ticker": "EGO",
+  "cik": "0000918608",
+  "form": "6-K",
+  "filingDate": "2022-02-28",
+  "accessionNumber": "0001654954-22-002204",
+  "primaryDocument": "eld_6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/918608/000165495422002204/0001654954-22-002204-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "ELDORADO GOLD NOTICE OF MEETING AND RECORD DATE",
+    "filename": "eld_ex991.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/918608/000165495422002204/eld_ex991.htm"
+  },
+  "extractedAt": "2026-06-11T16:53:38.048Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/918608/000165495422002204/eld_ex991.htm",
+    "contentType": "html",
+    "title": "eld_ex991.htm",
+    "headings": [
+      "eld_ex991.htm",
+      "EXHIBIT 99.1",
+      "Subject: ELDORADO GOLD CORPORATION",
+      "Notice and Access (NAA) Requirements:",
+      "Voting Security Details:",
+      "Description",
+      "CUSIP Number",
+      "ISIN",
+      "Computershare"
+    ],
+    "text": "EX-99.1\n2\neld_ex991.htm\nELDORADO GOLD NOTICE OF MEETING AND RECORD DATE\n\neld_ex991.htmEXHIBIT 99.1 Date: February 28, 2022 510 Burrard St, 3rd Floor Vancouver BC, V6C 3B9 www.computershare.com To: Each Securities Commission or Securities Regulatory Authority in each of the Provinces of Canada Toronto Stock Exchange Subject: ELDORADO GOLD CORPORATION Dear Sir/Madam: We advise of the following with respect to the upcoming Meeting of Security Holders for the subject Issuer: Meeting Type : Annual General Meeting Record Date for Notice of Meeting : April 19, 2022 Record Date for Voting (if applicable) : April 19, 2022 Beneficial Ownership Determination Date : April 19, 2022 Meeting Date : June 9, 2022 Meeting Location (if available) : Unknown Issuer sending proxy related materials directly to NOBO: No Issuer paying for delivery to OBO: Yes Notice and Access (NAA) Requirements: NAA for Beneficial Holders Yes Beneficial Holders Stratification Criteria: Not Applicable NAA for Registered Holders Yes Registered Holders Stratification Criteria: Not Applicable Voting Security Details: Description CUSIP Number ISIN COMMON SHARES 284902509 CA2849025093 Sincerely, Computershare Agent for ELDORADO GOLD CORPORATION",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 1,
+        "rows": [
+          [
+            "Date: February 28, 2022",
+            "510 Burrard St, 3rd Floor Vancouver BC, V6C 3B9 www.computershare.com"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 2,
+        "rows": [
+          [
+            "To:",
+            "Each Securities Commission or Securities Regulatory Authority in each of the Provinces of Canada"
+          ],
+          [
+            "Toronto Stock Exchange"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 13,
+        "rows": [
+          [
+            "Meeting Type :",
+            "Annual General Meeting"
+          ],
+          [
+            "Record Date for Notice of Meeting :",
+            "April 19, 2022"
+          ],
+          [
+            "Record Date for Voting (if applicable) :",
+            "April 19, 2022"
+          ],
+          [
+            "Beneficial Ownership Determination Date :",
+            "April 19, 2022"
+          ],
+          [
+            "Meeting Date :",
+            "June 9, 2022"
+          ],
+          [
+            "Meeting Location (if available) :",
+            "Unknown"
+          ],
+          [
+            "Issuer sending proxy related materials directly to NOBO:",
+            "No"
+          ],
+          [
+            "Issuer paying for delivery to OBO:",
+            "Yes"
+          ],
+          [
+            "Notice and Access (NAA) Requirements:"
+          ],
+          [
+            "NAA for Beneficial Holders",
+            "Yes"
+          ],
+          [
+            "Beneficial Holders Stratification Criteria:",
+            "Not Applicable"
+          ],
+          [
+            "NAA for Registered Holders",
+            "Yes"
+          ],
+          [
+            "Registered Holders Stratification Criteria:",
+            "Not Applicable"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 3,
+        "rowCount": 2,
+        "rows": [
+          [
+            "Description",
+            "CUSIP Number",
+            "ISIN"
+          ],
+          [
+            "COMMON SHARES",
+            "284902509",
+            "CA2849025093"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>eld_ex991.htm\n<DESCRIPTION>ELDORADO GOLD NOTICE OF MEETING AND RECORD DATE\n<TEXT>\n<html><head><title>eld_ex991.htm</title><!--Document created using EDGARMaster--></head><body style=\"TEXT-ALIGN: left; FONT: 10pt times new roman\"><p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:right;\"><strong>EXHIBIT 99.1</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:left;\">&nbsp;</p> <table style=\"border-spacing:0;font-size:10pt;width:100%\" cellpadding=\"0\"> <tr style=\"height:15px\"> <td style=\"width:75%;\"> <p style=\"margin:0px\">Date: February 28, 2022</p></td> <td style=\"width:25%;\"> <p style=\"margin:0px\"><img src=\"eld_ex991img2.jpg\"></p> <p style=\"margin:0px\">510 Burrard St, 3rd Floor</p> <p style=\"margin:0px\">Vancouver&nbsp;BC, V6C 3B9</p> <p style=\"margin:0px\">www.computershare.com </p></td></tr></table> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:left;\">&nbsp;</p> <table style=\"border-spacing:0;text-align:left;font:10pt times new roman;width:100%\" cellpadding=\"0\"> <tr style=\"height:15px\"> <td style=\"width:4%;vertical-align:top;\"> <p style=\"margin:0px\">To:</p></td> <td style=\"vertical-align:top;\"> <p style=\"margin:0px\">Each Securities Commission or Securities Regulatory Authority in each of the Provinces of Canada</p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"margin:0px;text-indent:30px\">&nbsp;</p></td> <td> <p style=\"margin:0px\">Toronto Stock Exchange </p></td></tr></table> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">&nbsp; </p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:left;\"><strong>Subject: ELDORADO GOLD CORPORATION</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:left;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:left;\">Dear Sir/Madam: </p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:left;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:left;\">We advise of the following with respect to the upcoming Meeting of Security Holders for the subject Issuer: </p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:left;\">&nbsp;</p> <table style=\"border-spacing:0;font-size:10pt;width:100%\" cellpadding=\"0\"> <tr style=\"height:15px\"> <td style=\"width:55%;\"> <p style=\"margin:0px\">Meeting Type :</p></td> <td> <p style=\"margin:0px\">Annual General Meeting</p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"margin:0px\">Record Date for Notice of Meeting :</p></td> <td> <p style=\"margin:0px\">April 19, 2022</p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"margin:0px\">Record Date for Voting (if applicable) :</p></td> <td> <p style=\"margin:0px\">April 19, 2022</p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"margin:0px\">Beneficial Ownership Determination Date :</p></td> <td> <p style=\"margin:0px\">April 19, 2022</p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"margin:0px\">Meeting Date :</p></td> <td> <p style=\"margin:0px\">June 9, 2022</p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"margin:0px\">Meeting Location (if available) :</p></td> <td> <p style=\"margin:0px\">Unknown </p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"margin:0px\">Issuer sending proxy related materials directly to NOBO:</p></td> <td> <p style=\"margin:0px\">No</p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"margin:0px\">Issuer paying for delivery to OBO:</p></td> <td> <p style=\"margin:0px\">Yes</p></td></tr> <tr style=\"height:15px\"> <td colspan=\"2\"> <p style=\"margin:0px\">&nbsp;</p></td></tr> <tr style=\"height:15px\"> <td colspan=\"2\"> <p style=\"margin:0px\"><strong>Notice and Access (NAA) Requirements:</strong></p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"margin:0px 0px 0px 15pt\">NAA for Beneficial Holders</p></td> <td> <p style=\"margin:0px\">Yes</p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"margin:0px 0px 0px 15pt\">Beneficial Holders Stratification Criteria:</p></td> <td> <p style=\"margin:0px\">Not Applicable</p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"margin:0px 0px 0px 15pt\">NAA for Registered Holders</p></td> <td> <p style=\"margin:0px\">Yes</p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"margin:0px 0px 0px 15pt\">Registered Holders Stratification Criteria:</p></td> <td> <p style=\"margin:0px\">Not Applicable</p></td></tr></table> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">&nbsp; </p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:left;\"><strong>Voting Security Details:</strong></p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">&nbsp; </p> <table style=\"border-spacing:0;font-size:10pt;width:100%\" cellpadding=\"0\"> <tr style=\"height:15px\"> <td style=\"width:40%;\"> <p style=\"margin:0px\"><strong>Description</strong></p></td> <td style=\"width:25%;\"> <p style=\"margin:0px\"><strong>CUSIP Number</strong></p></td> <td style=\"width:25%;\"> <p style=\"margin:0px\"><strong>ISIN</strong></p></td></tr> <tr style=\"height:15px\"> <td style=\"width:25%;\"> <p style=\"margin:0px\">COMMON SHARES</p></td> <td style=\"width:25%;\"> <p style=\"margin:0px\">284902509</p></td> <td style=\"width:25%;\"> <p style=\"margin:0px\">CA2849025093</p></td></tr></table> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">&nbsp; </p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:left;\">Sincerely,</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:left;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:left;\"><strong>Computershare</strong></p> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">Agent for ELDORADO GOLD CORPORATION&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:left;\">&nbsp;</p><body>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

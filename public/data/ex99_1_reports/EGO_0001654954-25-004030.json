@@ -1,0 +1,86 @@
+{
+  "ticker": "EGO",
+  "cik": "0000918608",
+  "form": "6-K",
+  "filingDate": "2025-04-09",
+  "accessionNumber": "0001654954-25-004030",
+  "primaryDocument": "ego_6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/918608/000165495425004030/0001654954-25-004030-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "NEWS RELEASE",
+    "filename": "ego_ex991.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/918608/000165495425004030/ego_ex991.htm"
+  },
+  "extractedAt": "2026-06-11T16:52:25.994Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/918608/000165495425004030/ego_ex991.htm",
+    "contentType": "html",
+    "title": "ego_ex991.htm",
+    "headings": [
+      "ego_ex991.htm",
+      "EXHIBIT 99.1",
+      "NEWS RELEASE",
+      "TSX: ELD NYSE: EGO",
+      "April 8, 2025",
+      "Eldorado Gold Provides Q1 2025 Conference Call Details",
+      "Eldorado Gold Corporation",
+      "Q1 2025 Financial and Operational Results Call Details",
+      "Conference Call Details",
+      "Replay (available until June 13, 2025)",
+      "About Eldorado Gold",
+      "Contact",
+      "Investor Relations",
+      "Media"
+    ],
+    "text": "EX-99.1\n2\nego_ex991.htm\nNEWS RELEASE\n\nego_ex991.htmEXHIBIT 99.1 NEWS RELEASE TSX: ELD NYSE: EGO April 8, 2025 Eldorado Gold Provides Q1 2025 Conference Call Details VANCOUVER, BC – Eldorado Gold Corporation (“Eldorado” or the “Company”) will release its First Quarter 2025 Financial and Operational Results after the market closes on Thursday, May 1, 2025, and will host a conference call on Friday, May 2, 2025 at 11:30 AM ET (8:30 AM PT). Q1 2025 Financial and Operational Results Call Details The call will be webcast and can be accessed at Eldorado Gold’s website: www.eldoradogold.com, or via: https://event.choruscall.com/mediaframe/webcast.html?webcastid=qIL2Lmld. Conference Call Details Replay (available until June 13, 2025) Date: May 2, 2025 Toll: +1 412 317 0088 Time: 11:30 AM ET (8:30 AM PT) Toll Free: 1 855 669 9658 Dial in: +1 647-846-2782 Access code: 2818948 Toll free: 1 833 752 3325 Participants may elect to pre-register for the conference call via this link: https://dpregister.com/sreg/10197900/febd911d94. Upon registration, participants will receive a calendar invitation by email with dial in details and a unique PIN. This will allow participants to bypass the operator queue and connect directly to the conference. Registration will remain open until the end of the conference call. About Eldorado Gold Eldorado is a gold and base metals producer with mining, development and exploration operations in Türkiye, Canada and Greece. The Company has a highly skilled and dedicated workforce, safe and responsible operations, a portfolio of high-quality assets, and long-term partnerships with local communities. Eldorado's common shares trade on the Toronto Stock Exchange (TSX: ELD) and the New York Stock Exchange (NYSE: EGO). Contact Investor Relations Lynette Gould, VP, Investor Relations, Communications & External Affairs 647 271 2827 or 1 888 353 8166 lynette.gould@eldoradogold.com Media Chad Pederson, Director, Communications and Public Affairs 236 885 6251 or 1 888 353 8166 chad.pederson@eldoradogold.com",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 2,
+        "rows": [
+          [
+            "NEWS RELEASE"
+          ],
+          [
+            "TSX: ELD NYSE: EGO",
+            "April 8, 2025"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 5,
+        "rows": [
+          [
+            "Conference Call Details",
+            "Replay (available until June 13, 2025)"
+          ],
+          [
+            "Date:",
+            "May 2, 2025",
+            "Toll:",
+            "+1 412 317 0088"
+          ],
+          [
+            "Time:",
+            "11:30 AM ET (8:30 AM PT)",
+            "Toll Free:",
+            "1 855 669 9658"
+          ],
+          [
+            "Dial in:",
+            "+1 647-846-2782",
+            "Access code:",
+            "2818948"
+          ],
+          [
+            "Toll free:",
+            "1 833 752 3325"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>ego_ex991.htm\n<DESCRIPTION>NEWS RELEASE\n<TEXT>\n<html><head><title>ego_ex991.htm</title><!--Document created using EDGARMaster--></head><body style=\"TEXT-ALIGN: justify; FONT: 10pt times new roman\"><p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:right;\"><strong>EXHIBIT 99.1</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:right;\"><img src=\"ego_ex991img1.jpg\"></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <table style=\"border-spacing:0;font-size:10pt;text-align:left;width:100%\" cellpadding=\"0\"> <tr style=\"height:15px\"> <td style=\"width:50%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong>NEWS RELEASE</strong></p></td> <td> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">&nbsp;</p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong>TSX: ELD&nbsp;NYSE: EGO</strong></p></td> <td> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:right;\"><strong>April 8, 2025</strong></p></td></tr></table> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:center;\"><strong>Eldorado Gold Provides Q1 2025 Conference Call Details</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:center;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">VANCOUVER, BC &#8211; <strong>Eldorado Gold Corporation</strong> (&#8220;Eldorado&#8221; or the &#8220;Company&#8221;) will release its First Quarter 2025 Financial and Operational Results after the market closes on Thursday, May 1, 2025, and will host a conference call on Friday, May 2, 2025 at 11:30 AM ET (8:30 AM PT). </p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><strong>Q1 2025 Financial and Operational Results Call Details </strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">The call will be webcast and can be accessed at Eldorado Gold&#8217;s website: <u>www.eldoradogold.com</u>, or via: <u>https://event.choruscall.com/mediaframe/webcast.html?webcastid=qIL2Lmld</u>. </p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <table style=\"border-spacing:0;text-align:left;font:10pt times new roman;width:100%\" cellpadding=\"0\"> <tr style=\"height:15px\"> <td colspan=\"2\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong>Conference Call Details</strong></p></td> <td colspan=\"3\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><strong>Replay (available until June 13, 2025)</strong></p></td></tr> <tr style=\"height:15px\"> <td style=\"width:10%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><font style=\"color:#015c4a\">Date:</font></p></td> <td style=\"width:25%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><font style=\"color:#015c4a\">May 2, 2025</font></p></td> <td style=\"width:10%;\"> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><font style=\"color:#015c4a\">Toll:</font></p></td> <td style=\"width:25%;vertical-align:top;\"><font style=\"color:#015c4a\">+1 412 317 0088 </font></td> <td> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><font style=\"color:#015c4a\">&nbsp;</font></p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><font style=\"color:#015c4a\">Time:</font></p></td> <td> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><font style=\"color:#015c4a\">11:30 AM ET (8:30 AM PT)</font></p></td> <td> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><font style=\"color:#015c4a\">Toll Free:</font></p></td> <td style=\"vertical-align:top;\"><font style=\"color:#015c4a\">1 855 669 9658 </font></td> <td> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><font style=\"color:#015c4a\">&nbsp;</font></p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><font style=\"color:#015c4a\">Dial in:</font></p></td> <td> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><font style=\"color:#015c4a\">+1 647-846-2782</font></p></td> <td> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><font style=\"color:#015c4a\">Access code:</font></p></td> <td style=\"vertical-align:top;\"><font style=\"color:#015c4a\">2818948</font></td> <td> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><font style=\"color:#015c4a\">&nbsp;</font></p></td></tr> <tr style=\"height:15px\"> <td> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><font style=\"color:#015c4a\">Toll free:</font></p></td> <td> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><font style=\"color:#015c4a\">1 833 752 3325</font></p></td> <td> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\"><font style=\"color:#015c4a\">&nbsp;</font></p></td> <td></td> <td> <p style=\"font-size:10pt;font-family:times new roman;margin:0px\">&nbsp;</p></td></tr></table>&nbsp; <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">Participants may elect to pre-register for the conference call via this link: <u>https://dpregister.com/sreg/10197900/febd911d94</u>. Upon registration, participants will receive a calendar invitation by email with dial in details and a unique PIN. This will allow participants to bypass the operator queue and connect directly to the conference. Registration will remain open until the end of the conference call.</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><strong>About Eldorado Gold</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px 0px 0px 0in; text-align:justify;\">Eldorado is a gold and base metals producer with mining, development and exploration operations in T&#252;rkiye, Canada and Greece. The Company has a highly skilled and dedicated workforce, safe and responsible operations, a portfolio of high-quality assets, and long-term partnerships with local communities. Eldorado's common shares trade on the Toronto Stock Exchange (TSX: ELD) and the New York Stock Exchange (NYSE: EGO).</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px 0px 0px 0in; text-align:justify;\"><strong>Contact</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><strong>Investor Relations </strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">Lynette Gould, VP, Investor Relations, Communications &amp; External Affairs</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">647 271 2827 or 1 888 353 8166</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><u>lynette.gould@eldoradogold.com</u><u></u></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">&nbsp;</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><strong>Media</strong></p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">Chad Pederson, Director, Communications and Public Affairs</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\">236 885 6251 or 1 888 353 8166</p> <p style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;\"><u>chad.pederson@eldoradogold.com</u></a></p><body>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

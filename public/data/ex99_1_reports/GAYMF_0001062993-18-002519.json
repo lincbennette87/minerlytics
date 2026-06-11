@@ -1,0 +1,130 @@
+{
+  "ticker": "GAYMF",
+  "cik": "0001377757",
+  "form": "6-K",
+  "filingDate": "2018-06-08",
+  "accessionNumber": "0001062993-18-002519",
+  "primaryDocument": "form6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000106299318002519/0001062993-18-002519-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1377757/000106299318002519/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-06-11T16:57:53.698Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000106299318002519/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Asanko Gold Inc. - Exhibit 99.1 - Filed by newsfilecorp.com",
+    "headings": [
+      "Asanko Gold Inc. - Exhibit 99.1 - Filed by newsfilecorp.com",
+      "VOTING RESULTS REPORT",
+      "Pursuant to Section 11.3 of\nNational Instrument 51-102",
+      "ASANKO GOLD INC.",
+      "(the \"Company\")",
+      "For",
+      "Against",
+      "DIRECTOR",
+      "VOTES FOR",
+      "% FOR",
+      "VOTES",
+      "WITHHELD",
+      "Withheld"
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nEXHIBIT 99.1\n\n Asanko Gold Inc. - Exhibit 99.1 - Filed by newsfilecorp.com\n \n\nVOTING RESULTS REPORT Pursuant to Section 11.3 of\nNational Instrument 51-102 \nOF \nASANKO GOLD INC. (the \"Company\") \nThe Company reports that the following matters were voted upon\nand passed by the Shareholders of the Company at the annual general meeting of\nthe Company held on June 8, 2018 (the “Meeting”). Attendance at the Meeting was\n144,254,105 Shares represented, all voted by proxy, being 63.88% of the\noutstanding shares. Voting results on the resolutions were as follows: \n\n \n 1. \n \n The number of directors of the Company was set at seven\n (7). Shares voted represented 125,826,260 votes For and 247,629\n shares Against.\n \n \n \n \n 2. \n \n The following directors were elected, with the following\n voting results for each nominee:\n\n \n DIRECTOR \n VOTES FOR \n % FOR \n VOTES \n % \n \n \n \n \n WITHHELD \n WITHHELD \n \n Colin Steyn \n 125,837,112 \n 99.81% \n 236,777 \n 0.19% \n \n Peter Breese \n 125,834,404 \n 99.81% \n 239,485 \n 0.19% \n \n Shawn Wallace \n 125,835,570 \n 99.81% \n 238,319 \n 0.19% \n \n Gordon J. Fretwell \n 125,828,993 \n 99.81% \n 244,896 \n 0.19% \n \n Marcel De Groot \n 125,820,791 \n 99.80% \n 253,098 \n 0.20% \n \n Michael Price \n 125,832,285 \n 99.81% \n 241,604 \n 0.19% \n \n William Smart \n 125,862,906 \n 99.83% \n 210,983 \n 0.17%\n\n \n 3. \n \n KPMG LLP, Chartered Accountants, were appointed auditor\n of the Company. Shares voted represented 143,789,105 votes For and\n 465,000 votes Withheld.\nThere were non-votes recorded (but not voted) on each\nresolution as follows: (1.) 18,180,216; (2.) 18,180,216 per director.\nNon-votes are discretionary votes given to a broker by a US beneficial holder\nnot allowed under Canadian Securities Regulations.",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 2,
+        "rows": [
+          [
+            "1.",
+            "The number of directors of the Company was set at seven\n (7). Shares voted represented 125,826,260 votes For and 247,629\n shares Against."
+          ],
+          [
+            "2.",
+            "The following directors were elected, with the following\n voting results for each nominee:"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 9,
+        "rows": [
+          [
+            "DIRECTOR",
+            "VOTES FOR",
+            "% FOR",
+            "VOTES",
+            "%"
+          ],
+          [
+            "WITHHELD",
+            "WITHHELD"
+          ],
+          [
+            "Colin Steyn",
+            "125,837,112",
+            "99.81%",
+            "236,777",
+            "0.19%"
+          ],
+          [
+            "Peter Breese",
+            "125,834,404",
+            "99.81%",
+            "239,485",
+            "0.19%"
+          ],
+          [
+            "Shawn Wallace",
+            "125,835,570",
+            "99.81%",
+            "238,319",
+            "0.19%"
+          ],
+          [
+            "Gordon J. Fretwell",
+            "125,828,993",
+            "99.81%",
+            "244,896",
+            "0.19%"
+          ],
+          [
+            "Marcel De Groot",
+            "125,820,791",
+            "99.80%",
+            "253,098",
+            "0.20%"
+          ],
+          [
+            "Michael Price",
+            "125,832,285",
+            "99.81%",
+            "241,604",
+            "0.19%"
+          ],
+          [
+            "William Smart",
+            "125,862,906",
+            "99.83%",
+            "210,983",
+            "0.17%"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 1,
+        "rows": [
+          [
+            "3.",
+            "KPMG LLP, Chartered Accountants, were appointed auditor\n of the Company. Shares voted represented 143,789,105 votes For and\n 465,000 votes Withheld."
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<HTML>\n<HEAD>\n   <TITLE>Asanko Gold Inc. - Exhibit 99.1 - Filed by newsfilecorp.com</TITLE>\n   <META name=\"HandheldFriendly\" content=\"true\">\n</HEAD>\n\n<BODY style=\"font-size:10pt;\">\n\n<HR noshade align=\"center\" width=100% size=3 color=\"black\">\n<A name=page_1></A>\n<P align=center><B>VOTING RESULTS REPORT </B><BR><B>Pursuant to Section 11.3 of\nNational Instrument 51-102 </B><BR></P>\n<P align=center><B>OF </B></P>\n<P align=center><B>ASANKO GOLD INC. </B><BR><B>(the \"Company\") </B><BR></P>\n<P align=justify>The Company reports that the following matters were voted upon\nand passed by the Shareholders of the Company at the annual general meeting of\nthe Company held on June 8, 2018 (the &#147;Meeting&#148;). Attendance at the Meeting was\n144,254,105 Shares represented, all voted by proxy, being 63.88% of the\noutstanding shares. Voting results on the resolutions were as follows: </P>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0 BCLLIST>\n\n  <TR>\n    <TD vAlign=top width=\"5%\">1. </TD>\n    <TD>\n      <P align=justify>The number of directors of the Company was set at seven\n      (7). Shares voted represented 125,826,260 votes <B>For </B>and 247,629\n      shares <B>Against</B>.</P></TD></TR>\n  <TR>\n    <TD width=\"5%\">&nbsp;</TD>\n    <TD>&nbsp;</TD></TR>\n  <TR>\n    <TD vAlign=top width=\"5%\">2. </TD>\n    <TD>\n      <P align=justify>The following directors were elected, with the following\n      voting results for each nominee:</P></TD></TR></TABLE><BR>\n<DIV align=right>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"95%\" border=0>\n\n  <TR vAlign=top>\n    <TD align=left><B>DIRECTOR</B> </TD>\n    <TD align=right width=\"15%\"><B>VOTES FOR</B> </TD>\n    <TD align=right width=\"15%\"><B>% FOR</B> </TD>\n    <TD align=right width=\"15%\"><B>VOTES</B> </TD>\n    <TD align=right width=\"15%\"><B>%</B> </TD></TR>\n  <TR vAlign=top>\n    <TD align=left>&nbsp; </TD>\n    <TD align=right width=\"15%\">&nbsp; </TD>\n    <TD align=right width=\"15%\">&nbsp; </TD>\n    <TD align=right width=\"15%\"><B>WITHHELD</B> </TD>\n    <TD align=right width=\"15%\"><B>WITHHELD</B> </TD></TR>\n  <TR vAlign=top>\n    <TD align=left bgColor=#e6efff>Colin Steyn </TD>\n    <TD align=right width=\"15%\" bgColor=#e6efff>125,837,112 </TD>\n    <TD align=right width=\"15%\" bgColor=#e6efff>99.81% </TD>\n    <TD align=right width=\"15%\" bgColor=#e6efff>236,777 </TD>\n    <TD align=right width=\"15%\" bgColor=#e6efff>0.19% </TD></TR>\n  <TR vAlign=top>\n    <TD align=left>Peter Breese </TD>\n    <TD align=right width=\"15%\">125,834,404 </TD>\n    <TD align=right width=\"15%\">99.81% </TD>\n    <TD align=right width=\"15%\">239,485 </TD>\n    <TD align=right width=\"15%\">0.19% </TD></TR>\n  <TR vAlign=top>\n    <TD align=left bgColor=#e6efff>Shawn Wallace </TD>\n    <TD align=right width=\"15%\" bgColor=#e6efff>125,835,570 </TD>\n    <TD align=right width=\"15%\" bgColor=#e6efff>99.81% </TD>\n    <TD align=right width=\"15%\" bgColor=#e6efff>238,319 </TD>\n    <TD align=right width=\"15%\" bgColor=#e6efff>0.19% </TD></TR>\n  <TR vAlign=top>\n    <TD align=left>Gordon J. Fretwell </TD>\n    <TD align=right width=\"15%\">125,828,993 </TD>\n    <TD align=right width=\"15%\">99.81% </TD>\n    <TD align=right width=\"15%\">244,896 </TD>\n    <TD align=right width=\"15%\">0.19% </TD></TR>\n  <TR vAlign=top>\n    <TD align=left bgColor=#e6efff>Marcel De Groot </TD>\n    <TD align=right width=\"15%\" bgColor=#e6efff>125,820,791 </TD>\n    <TD align=right width=\"15%\" bgColor=#e6efff>99.80% </TD>\n    <TD align=right width=\"15%\" bgColor=#e6efff>253,098 </TD>\n    <TD align=right width=\"15%\" bgColor=#e6efff>0.20% </TD></TR>\n  <TR vAlign=top>\n    <TD align=left>Michael Price </TD>\n    <TD align=right width=\"15%\">125,832,285 </TD>\n    <TD align=right width=\"15%\">99.81% </TD>\n    <TD align=right width=\"15%\">241,604 </TD>\n    <TD align=right width=\"15%\">0.19% </TD></TR>\n  <TR vAlign=top>\n    <TD align=left bgColor=#e6efff>William Smart </TD>\n    <TD align=right width=\"15%\" bgColor=#e6efff>125,862,906 </TD>\n    <TD align=right width=\"15%\" bgColor=#e6efff>99.83% </TD>\n    <TD align=right width=\"15%\" bgColor=#e6efff>210,983 </TD>\n    <TD align=right width=\"15%\" bgColor=#e6efff>0.17%\n</TD></TR></TABLE></DIV><BR>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0 BCLLIST>\n\n  <TR>\n    <TD vAlign=top width=\"5%\">3. </TD>\n    <TD>\n      <P align=justify>KPMG LLP, Chartered Accountants, were appointed auditor\n      of the Company. Shares voted represented 143,789,105 votes <B>For </B>and\n      465,000 votes <B>Withheld</B>.</P></TD></TR></TABLE>\n<P align=justify>There were non-votes recorded (but not voted) on each\nresolution as follows: (1.) 18,180,216; (2.) 18,180,216<U> </U>per director.\nNon-votes are discretionary votes given to a broker by a US beneficial holder\nnot allowed under Canadian Securities Regulations.</P>\n<HR align=center width=\"100%\" color=black noShade SIZE=5>\n\n</BODY>\n\n</HTML>\n\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

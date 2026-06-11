@@ -1,0 +1,51 @@
+{
+  "ticker": "MUX",
+  "cik": "0000314203",
+  "form": "8-K",
+  "filingDate": "2014-12-23",
+  "accessionNumber": "0001104659-14-088457",
+  "primaryDocument": "a14-26666_18k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/314203/000110465914088457/0001104659-14-088457-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EX-99.1",
+    "filename": "a14-26666_1ex99d1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/314203/000110465914088457/a14-26666_1ex99d1.htm"
+  },
+  "extractedAt": "2026-06-11T17:05:23.546Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/314203/000110465914088457/a14-26666_1ex99d1.htm",
+    "contentType": "html",
+    "title": "",
+    "headings": [
+      "Exhibit 99.1",
+      "Rob McEwen, Chairman & Chief Owner Exercises Stock Options in McEwen Mining",
+      "TORONTO, ONTARIO - (December 22, 2014) - McEwen Mining (NYSE: MUX) (TSX: MUX)",
+      "About McEwen Mining (www.mcewenmining.com)",
+      "For further information contact:",
+      "Sheena Scotland",
+      "Investor Relations",
+      "facebook.com/mcewenrob",
+      "twitter.com/mcewenmining",
+      "Mailing Address",
+      "info@mcewenmining.com"
+    ],
+    "text": "EX-99.1\n2\na14-26666_1ex99d1.htm\nEX-99.1\n\n \n\nExhibit 99.1\n \n\n \nRob McEwen, Chairman & Chief Owner Exercises Stock Options in McEwen Mining\n \nTORONTO, ONTARIO - (December 22, 2014) - McEwen Mining (NYSE: MUX) (TSX: MUX) announces that Rob McEwen, Chairman and Chief Owner has exercised 1 million stock options on December 19, 2014. These options were exercisable at a price of $0.91 and Mr. McEwen intends to hold these shares for investment purposes. In addition, Mr. McEwen purchased 200,000 shares in the open market on December 12, 2014.\n \nWe are reporting this news to provide clarity about Mr. McEwen’s market activity.\n \nAbout McEwen Mining (www.mcewenmining.com)\n \nThe goal of McEwen Mining is to qualify for inclusion in the S&P 500 by creating a profitable gold producer focused in the Americas. McEwen Mining’s principal assets consist of the San José mine in Santa Cruz, Argentina (49% interest); the El Gallo complex in Sinaloa, Mexico; the Gold Bar project in Nevada, US; the Los Azules project in San Juan, Argentina. McEwen Mining has 305.3 million shares fully diluted at December 22, 2014. Rob McEwen, Chairman, and Chief Owner, owns approximately 25% of the shares of the Company.\n \nThe NYSE and TSX have not reviewed and do not accept responsibility for the adequacy or accuracy of the contents of this news release, which has been prepared by management of McEwen Mining Inc.\n \n\nFor further information contact: \n\n \n\n \n\nSheena Scotland Investor Relations Tel: (647) 258-0395 ext 410 Toll Free: (866) 441-0690 Fax: (647) 258-0408 Facebook: facebook.com/mcewenrob Twitter: twitter.com/mcewenmining \n\n \n\nMailing Address 150 King Street West Suite 2800, P.O Box 24 Toronto, Ontario, Canada M5H 1J9 E-mail: info@mcewenmining.com \n \n\n \n1",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 2,
+        "rows": [
+          [
+            "For further information contact:"
+          ],
+          [
+            "Sheena Scotland Investor Relations Tel: (647) 258-0395 ext 410 Toll Free: (866) 441-0690 Fax: (647) 258-0408 Facebook: facebook.com/mcewenrob Twitter: twitter.com/mcewenmining",
+            "Mailing Address 150 King Street West Suite 2800, P.O Box 24 Toronto, Ontario, Canada M5H 1J9 E-mail: info@mcewenmining.com"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>a14-26666_1ex99d1.htm\n<DESCRIPTION>EX-99.1\n<TEXT>\n\n\n<html>\n<head>\n\n\n\n\n  </head>\n<body link=blue lang=\"EN-US\">\n<div style=\"font-family:Times New Roman;\">\n<p align=\"right\" style=\"margin:0in 0in .0001pt;text-align:right;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">Exhibit 99.1</font></b></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\"><img width=\"720\" height=\"125\" src=\"g266661mmi001.gif\"></font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">Rob McEwen, Chairman&nbsp;&amp; Chief Owner Exercises Stock Options in McEwen Mining</font></b></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"font-size:10.0pt;margin:0in 0in .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">TORONTO, ONTARIO - (December&nbsp;22, 2014) - McEwen Mining (NYSE: MUX) (TSX: MUX) </font></b>announces that Rob McEwen, Chairman and Chief Owner has exercised 1 million stock options on December&nbsp;19, 2014. These options were exercisable at a price of $0.91 and Mr.&nbsp;McEwen intends to hold these shares for investment purposes. In addition, Mr.&nbsp;McEwen purchased 200,000 shares in the open market on December&nbsp;12, 2014.</p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">We are reporting this news to provide clarity about Mr.&nbsp;McEwen&#146;s market activity.</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">About McEwen Mining (www.mcewenmining.com)</font></b></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">The goal of McEwen Mining is to qualify for inclusion in the S&amp;P 500 by creating a profitable gold producer focused in the Americas. McEwen Mining&#146;s principal assets consist of the San Jos&#233; mine in Santa Cruz, Argentina (49% interest); the El Gallo complex in Sinaloa, Mexico; the Gold Bar project in Nevada, US; the Los Azules project in San Juan, Argentina. McEwen Mining has 305.3 million shares fully diluted at December&nbsp;22, 2014. Rob McEwen, Chairman, and Chief Owner, owns approximately 25% of the shares of the Company.</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><i><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-style:italic;\">The NYSE and TSX have not reviewed and do not accept responsibility for the adequacy or accuracy of the contents of this news release, which has been prepared by management of McEwen Mining Inc.</font></i></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;\">\n<tr>\n<td width=\"49%\" valign=\"top\" style=\"padding:0in 0in 0in 0in;width:49.02%;\">\n<p style=\"margin:0in 0in .0001pt .35in;\"><b><i><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-style:italic;font-weight:bold;\">For   further information contact:</font></i></b></p>    </td>\n<td width=\"2%\" valign=\"top\" style=\"padding:0in 0in 0in 0in;width:2.0%;\">\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:1.0pt;\">&nbsp;</font></p>    </td>\n<td width=\"49%\" valign=\"top\" style=\"padding:0in 0in 0in 0in;width:49.04%;\">\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:1.0pt;\">&nbsp;</font></p>    </td>   </tr>\n<tr>\n<td width=\"49%\" valign=\"top\" style=\"padding:0in 0in 0in 0in;width:49.02%;\">\n<p style=\"font-size:10.0pt;margin:0in 0in .0001pt .35in;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">Sheena Scotland</font></b><br>    <b>Investor Relations</b><br>   Tel: (647) 258-0395 ext 410<br>   Toll Free: (866) 441-0690<br>   Fax: (647) 258-0408<br>    <br>   Facebook: <b>facebook.com/mcewenrob</b><br>   Twitter: <b>twitter.com/mcewenmining</b></p>    </td>\n<td width=\"2%\" valign=\"top\" style=\"padding:0in 0in 0in 0in;width:2.0%;\">\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:1.0pt;\">&nbsp;</font></p>    </td>\n<td width=\"49%\" valign=\"top\" style=\"padding:0in 0in 0in 0in;width:49.04%;\">\n<p style=\"font-size:10.0pt;margin:0in 0in .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">Mailing Address</font></b><br>   150 King Street West<br>   Suite&nbsp;2800, P.O Box 24<br>   Toronto, Ontario, Canada<br>   M5H 1J9<br>   E-mail: <b>info@mcewenmining.com</b></p>    </td>   </tr>  </table>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p align=\"right\" style=\"margin:0in 0in .0001pt;text-align:right;\"><font size=\"2\" face=\"Times New Roman\"><img width=\"103\" height=\"80\" src=\"g266661mmi002.gif\"></font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p align=\"center\" style=\"font-size:10.0pt;margin:0in 0in .0001pt;text-align:center;\">1<a name=\"PB_1_024242_1556\"></a></p>\n<div style=\"margin:0in 0in .0001pt;\"><hr size=\"3\" width=\"100%\" noshade align=\"left\" style=\"color:#010101;\"></div>\n</div>\n<!-- SEQ.=1,FOLIO='1',FILE='C:\\JMS\\108178\\14-26666-1\\task7121844\\26666-1-mm.htm',USER='108178',CD='Dec 23 02:43 2014' -->\n\n</body>\n</html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}
