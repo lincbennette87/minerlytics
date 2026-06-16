@@ -550,7 +550,9 @@
     const localFinancialFallback = window.MINERLYTICS_COMPANY_FINANCIAL_FALLBACK || {};
 
     function dataUrl(path) {
-      const clean = String(path || "").replace(/^\/+/, "");
+      const clean = String(path || "")
+        .replace(/^\/+/, "")
+        .replace(/^public\//, "");
       return isLocalFile ? `./public/${clean}` : `/${clean}`;
     }
 
@@ -654,6 +656,158 @@
         .split(/\n{2,}/)
         .map((part) => `<p style="margin:0 0 12px;">${part}</p>`)
         .join("");
+    }
+
+    function normalizeTextBlock(value) {
+      return String(value || "")
+        .replace(/\s+/g, " ")
+        .replace(/\u0000/g, " ")
+        .trim();
+    }
+
+    function buildTableText(report) {
+      const tables = Array.isArray(report?.tables) ? report.tables : [];
+      return tables.flatMap((table) => {
+        const rows = Array.isArray(table?.rows) ? table.rows : [];
+        return rows.map((row) => {
+          const cells = Array.isArray(row) ? row : [];
+          return normalizeTextBlock(cells.join(" | "));
+        }).filter(Boolean);
+      });
+    }
+
+    function getReportCombinedText(report) {
+      const blocks = Array.isArray(report?.textBlocks) ? report.textBlocks : [];
+      const blockText = blocks.map((item) => normalizeTextBlock(item?.text || item?.text_content || "")).join(" ");
+      const tableText = buildTableText(report).join(" ");
+      return normalizeTextBlock(`${blockText} ${tableText}`);
+    }
+
+    function reportReadabilityScore(report) {
+      const text = getReportCombinedText(report);
+      if (!text) return -9999;
+      const alpha = (text.match(/[A-Za-z]/g) || []).length;
+      const spaces = (text.match(/\s/g) || []).length;
+      const colonCodes = (text.match(/[a-z-]+:[A-Za-z]/g) || []).length;
+      const pipeCount = (text.match(/\|/g) || []).length;
+      const ratioAlpha = alpha / Math.max(text.length, 1);
+      const ratioSpaces = spaces / Math.max(text.length, 1);
+      let score = Math.round(ratioAlpha * 100) + Math.round(ratioSpaces * 80) + Math.min(pipeCount, 20);
+      score -= colonCodes * 2;
+      if (/united states securities and exchange commission/i.test(text)) score += 15;
+      if (/forward-looking statements/i.test(text)) score += 10;
+      if (/mineral reserve|mineral resource|production|mine|project/i.test(text)) score += 12;
+      return score;
+    }
+
+    function splitIntoSentences(text) {
+      const cleaned = normalizeTextBlock(text)
+        .replace(/([a-z])([A-Z])/g, "$1. $2")
+        .replace(/\s+\|\s+/g, ". ");
+      return cleaned
+        .split(/(?<=[.!?;])\s+/)
+        .map((part) => part.trim())
+        .filter((part) => part.length >= 40);
+    }
+
+    function uniqueList(items = []) {
+      const seen = new Set();
+      return items.filter((item) => {
+        const key = String(item || "").trim();
+        if (!key || seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+    }
+
+    function extractKeywordSnippets(text, keywords = [], max = 3) {
+      const loweredKeywords = keywords.map((item) => String(item || "").toLowerCase()).filter(Boolean);
+      const sentences = splitIntoSentences(text);
+      const scored = sentences.map((sentence) => {
+        const lower = sentence.toLowerCase();
+        let score = 0;
+        loweredKeywords.forEach((keyword) => {
+          if (lower.includes(keyword)) score += keyword.length > 6 ? 3 : 2;
+        });
+        if (/\b(20\d{2}|q1|q2|q3|q4|quarter|ounces|oz|production|mine|project|guidance|risk)\b/i.test(sentence)) {
+          score += 2;
+        }
+        if (sentence.length > 420) score -= 2;
+        return { sentence, score };
+      }).filter((item) => item.score > 0);
+
+      return uniqueList(
+        scored
+          .sort((a, b) => b.score - a.score)
+          .slice(0, max)
+          .map((item) => item.sentence)
+      );
+    }
+
+    function buildSectionFromSnippets(title, snippets = [], reportMeta = null) {
+      const cleaned = uniqueList(snippets).slice(0, 3);
+      if (!cleaned.length) return "";
+      const heading = reportMeta
+        ? `${title} — ${reportMeta.form || "Filing"} filed ${reportMeta.filingDate || reportMeta.reportDate || "recently"}`
+        : title;
+      return `${heading}\n\n${cleaned.join("\n\n")}`;
+    }
+
+    async function fetchLatestEdgarDisclosure(tickerSymbol) {
+      try {
+        const indexData = await fetchJson(dataUrl("data/mining_disclosure_index.json"));
+        const items = Array.isArray(indexData?.items)
+          ? indexData.items
+              .filter((item) => String(item?.ticker || "").toUpperCase() === tickerSymbol)
+              .sort((a, b) => String(b?.filingDate || "").localeCompare(String(a?.filingDate || "")))
+          : [];
+
+        if (!items.length) return null;
+
+        const candidates = items.slice(0, 5);
+        const reports = [];
+        for (const item of candidates) {
+          try {
+            const report = await fetchJson(dataUrl(item.output));
+            reports.push({ meta: item, report, score: reportReadabilityScore(report) });
+          } catch {
+            // keep going
+          }
+        }
+
+        if (!reports.length) return null;
+
+        reports.sort((a, b) => b.score - a.score || String(b.meta?.filingDate || "").localeCompare(String(a.meta?.filingDate || "")));
+        const best = reports[0];
+        return {
+          meta: best.meta,
+          report: best.report,
+          text: getReportCombinedText(best.report),
+          tableLines: buildTableText(best.report),
+          score: best.score,
+        };
+      } catch {
+        return null;
+      }
+    }
+
+    function buildEdgarSectionSet(edgar) {
+      if (!edgar?.text) return null;
+
+      const text = edgar.text;
+      const mineSnippets = extractKeywordSnippets(text, ["mine", "project", "operation", "property", "grade", "resource", "reserve", "location"], 3);
+      const productionSnippets = extractKeywordSnippets(text, ["production", "produced", "ounces", "ounce", "gold", "silver", "copper", "tonnes"], 3);
+      const managementSnippets = extractKeywordSnippets(text, ["strategy", "management", "operations", "capital", "guidance", "development", "exploration"], 3);
+      const riskSnippets = extractKeywordSnippets(text, ["risk", "uncertainties", "uncertainty", "inflation", "permitting", "environmental", "commodity prices"], 3);
+      const forwardSnippets = extractKeywordSnippets(text, ["forward-looking", "expect", "anticipate", "plan", "guidance", "future", "outlook"], 3);
+
+      return {
+        production: buildSectionFromSnippets("EDGAR Production", productionSnippets, edgar.meta),
+        mines: buildSectionFromSnippets("EDGAR Mine Detail", mineSnippets, edgar.meta),
+        management: buildSectionFromSnippets("EDGAR Management", managementSnippets, edgar.meta),
+        risks: buildSectionFromSnippets("EDGAR Risks", riskSnippets, edgar.meta),
+        forward: buildSectionFromSnippets("EDGAR Forward Looking", forwardSnippets, edgar.meta),
+      };
     }
 
     function drawChart(points = []) {
@@ -818,12 +972,13 @@
 
     async function loadPage() {
       try {
-        const [detail, companyMetaRaw, fundamentalsRaw, balanceSheetsRaw, legacyBalanceSheetsRaw] = await Promise.all([
+        const [detail, companyMetaRaw, fundamentalsRaw, balanceSheetsRaw, legacyBalanceSheetsRaw, edgarDisclosure] = await Promise.all([
           fetchJson(`${API_BASE}/api/company-detail?ticker=${encodeURIComponent(ticker)}`),
           fetchJson(dataUrl("data/company_meta.json")).catch(() => []),
           fetchJson(dataUrl("data/fundamentals_latest.json")).catch(() => []),
           fetchJson(dataUrl("data/detailed_balance_sheets.json")).catch(() => []),
           fetchJson(dataUrl("data/balance_sheets.json")).catch(() => []),
+          fetchLatestEdgarDisclosure(ticker),
         ]);
 
         const fallbackTickerData = getLocalFallbackTickerData(ticker);
@@ -848,6 +1003,7 @@
         const legacySheet = legacyBalance.balanceSheet || {};
         const market = detail.market || {};
         const latestPoint = Array.isArray(market.points) && market.points.length ? market.points[market.points.length - 1] : null;
+        const edgarSections = buildEdgarSectionSet(edgarDisclosure);
 
         const revenueFact = chooseLatestFact(fundamental.revenue);
         const netIncomeFact = chooseLatestFact(fundamental.netIncome);
@@ -975,18 +1131,25 @@
           }
         ]);
 
-        setHtml("productionSummary", formatSectionText(detail.ai_sections?.ounces_produced_past_quarter || "Not available."));
-        setHtml("mineDetails", formatSectionText(detail.ai_sections?.mine_details || "Not available."));
-        setHtml("managementSummary", formatSectionText(detail.ai_sections?.management_summary || "Not available."));
-        setHtml("riskSummary", formatSectionText(detail.ai_sections?.risks || "Not available."));
-        setHtml("forwardLooking", formatSectionText(detail.ai_sections?.forward_looking_statement || "Not available."));
+        setHtml("productionSummary", formatSectionText(edgarSections?.production || detail.ai_sections?.ounces_produced_past_quarter || "Not available."));
+        setHtml("mineDetails", formatSectionText(edgarSections?.mines || detail.ai_sections?.mine_details || "Not available."));
+        setHtml("managementSummary", formatSectionText(edgarSections?.management || detail.ai_sections?.management_summary || "Not available."));
+        setHtml("riskSummary", formatSectionText(edgarSections?.risks || detail.ai_sections?.risks || "Not available."));
+        setHtml("forwardLooking", formatSectionText(edgarSections?.forward || detail.ai_sections?.forward_looking_statement || "Not available."));
 
-        const filingLead = detail.filing_excerpts?.latest?.[0] || detail.filing_excerpts?.production?.[0] || null;
-        const filingTitle = filingLead?.heading || filingLead?.title || `${filingLead?.form || "Latest filing"} • ${filingLead?.filing_date || "Date unavailable"}`;
-        setHtml("filingLead", filingLead ? `<p style="margin:0;"><a class="source-link" href="${filingLead.url || "#"}" target="_blank" rel="noreferrer">${filingTitle}</a></p>` : formatSectionText("No recent filing source is available yet."));
-        if (filingLead?.url) {
+        const filingLead = edgarDisclosure?.meta || detail.filing_excerpts?.latest?.[0] || detail.filing_excerpts?.production?.[0] || null;
+        const filingTitle = filingLead
+          ? `${detail.ticker} ${filingLead.form || "Filing"} filed ${filingLead.filingDate || filingLead.filing_date || "recently"}`
+          : "";
+        setHtml(
+          "filingLead",
+          filingLead
+            ? `<p style="margin:0;"><a class="source-link" href="${filingLead.url || filingLead.source_url || "#"}" target="_blank" rel="noreferrer">${filingTitle}</a></p>`
+            : formatSectionText("No recent filing source is available yet.")
+        );
+        if ((filingLead?.url || filingLead?.source_url)) {
           const link = $("filingLink");
-          link.href = filingLead.url;
+          link.href = filingLead.url || filingLead.source_url;
           link.textContent = "Open filing source";
           link.style.display = "inline-flex";
         }
