@@ -1,0 +1,55 @@
+{
+  "ticker": "MUX",
+  "cik": "0000314203",
+  "form": "8-K",
+  "filingDate": "2012-08-28",
+  "accessionNumber": "0001104659-12-060491",
+  "primaryDocument": "a12-19346_18k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/314203/000110465912060491/0001104659-12-060491-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EX-99.1",
+    "filename": "a12-19346_1ex99d1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/314203/000110465912060491/a12-19346_1ex99d1.htm"
+  },
+  "extractedAt": "2026-06-11T17:05:49.441Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/314203/000110465912060491/a12-19346_1ex99d1.htm",
+    "contentType": "html",
+    "title": "",
+    "headings": [
+      "Exhibit 99.1"
+    ],
+    "text": "EX-99.1\n2\na12-19346_1ex99d1.htm\nEX-99.1\n\n \n\nExhibit 99.1\n \nPreparations are underway for the upcoming drill season at the Los Azules Copper Project. Drilling is expected to resume in November.\n \n\n \n\n \n \n \n \n \n [LOGO]\n \n \n\n \n\n \n \n \n \n \n [LOGO]\n \n \n\n \n\n \n \n \n \n \n [LOGO]",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 1,
+        "rows": [
+          [
+            "[LOGO]"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 1,
+        "rows": [
+          [
+            "[LOGO]"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 1,
+        "rows": [
+          [
+            "[LOGO]"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>a12-19346_1ex99d1.htm\n<DESCRIPTION>EX-99.1\n<TEXT>\n\n\n<html>\n<head>\n\n  </head>\n<body lang=\"EN-US\">\n<div>\n<p align=\"right\" style=\"margin:0in 0in .0001pt;text-align:right;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">Exhibit 99.1</font></b></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">Preparations are underway for the upcoming drill season at the Los Azules Copper Project. Drilling is expected to resume in November.</font></p>\n<p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<div style=\"margin:0in 0in .0001pt;\"><hr size=\"3\" width=\"100%\" noshade color=\"#010101\" align=\"left\"></div>\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\105253\\12-19346-1\\task5527486\\19346-1-mm-01.htm',USER='105253',CD='Aug 29 02:27 2012' -->\n\n\n<br clear=\"all\" style=\"page-break-before:always;\">\n<div>\n<!-- COMMAND=ROTATED_TABLE WIDTH=\"150%\" -->\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n<div align=\"center\">\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"92%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:92.3%;\">\n  <p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;\"><img width=\"848\" height=\"635\" src=\"g193461mm03i001.gif\"></font></p>\n  </td>\n  <td width=\"7%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:7.7%;\">\n  <p style=\"margin:0in 0in .0001pt;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;font-size:1.0pt;\">[LOGO]</font></p>\n  </td>\n </tr>\n</table>\n\n</div>\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\107552\\12-19346-1\\task5527212\\19346-1-mm-03.htm',USER='107552',CD='Aug 29 00:06 2012' -->\n\n\n<br clear=\"all\" style=\"page-break-before:always;\">\n\n\n<div>\n<!-- COMMAND=ROTATED_TABLE WIDTH=\"150%\" -->\n\n<div align=\"center\">\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"92%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:92.3%;\">\n  <p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;\"><img width=\"848\" height=\"635\" src=\"g193461mm03i002.gif\"></font></p>\n  </td>\n  <td width=\"7%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:7.7%;\">\n  <p style=\"margin:0in 0in .0001pt;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;font-size:1.0pt;\">[LOGO]</font></p>\n  </td>\n </tr>\n</table>\n\n</div>\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\107552\\12-19346-1\\task5527212\\19346-1-mm-03.htm',USER='107552',CD='Aug 29 00:06 2012' -->\n\n\n<br clear=\"all\" style=\"page-break-before:always;\">\n\n\n<div>\n<!-- COMMAND=ROTATED_TABLE WIDTH=\"150%\" -->\n\n<div align=\"center\">\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"92%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:92.3%;\">\n  <p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;\"><img width=\"848\" height=\"635\" src=\"g193461mm03i003.gif\"></font></p>\n  </td>\n  <td width=\"7%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:7.7%;\">\n  <p style=\"margin:0in 0in .0001pt;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;font-size:1.0pt;\">[LOGO]</font></p>\n  </td>\n </tr>\n</table>\n\n</div>\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\107552\\12-19346-1\\task5527212\\19346-1-mm-03.htm',USER='107552',CD='Aug 29 00:06 2012' -->\n\n\n</body>\n\n</html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

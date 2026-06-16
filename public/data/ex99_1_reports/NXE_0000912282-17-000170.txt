@@ -1,0 +1,536 @@
+EX-99.1
+2
+ex99_1.htm
+MATERIAL CHANGE REPORT
+
+EXHIBIT 99.1
+
+ 
+
+FORM 51-102F3
+
+ 
+
+MATERIAL CHANGE REPORT
+
+ 
+
+ITEM 1. Name and Address of Company
+
+NexGen Energy Ltd. (the “Company”)
+ 3150 – 1021 West Hastings St
+
+Vancouver, BC V6E 0C3
+
+ 
+
+ITEM 2. Date of Material Change
+
+ 
+
+July 31, 2017
+
+ 
+
+ITEM 3. News Release
+
+ 
+
+The Company disseminated a press release in respect of the material change on July 31, 2017 through Canada Newswire. The press release was subsequently filed on SEDAR and EDGAR on July 31, 2017.
+
+ 
+
+ITEM 4. Summary of Material Change
+
+ 
+
+On July 31, 2017, the Company announced the positive results of its independent maiden Preliminary Economic Assessment (“PEA”) of the basement-hosted Arrow Deposit, located on the Company’s 100% owned Rook I project in Saskatchewan’s Athabasca Basin.
+
+ 
+
+ITEM 5. Full Description of Material Change
+
+ 
+
+On July 31, 2017, the Company announced the positive results of its independent maiden PEA of the basement-hosted Arrow Deposit, located on the Company’s 100% owned Rook I project in Saskatchewan’s Athabasca Basin.
+
+ 
+
+The maiden PEA was completed by Roscoe Postle Associates Inc. (“RPA”), and is based on the mineral resource estimate announced by the Company in March 2017 (with an effective date of December 20, 2016) that comprised an Indicated Mineral Resource of 179.5 M lb of U3O8 contained in 1.18 M tonnes grading 6.88% U3O8, and an Inferred Mineral Resource of 122.1 M lb of U3O8 contained in 4.25 M tonnes grading 1.30% U3O8. The PEA does not include the results of the Company’s winter or summer 2017 drill programs which will total over 66,000 m of additional drilling.
+
+- 2 -
+
+Table 1 – Summary of Arrow Deposit Preliminary Economic Assessment
+
+PEA Financial Highlights
+
+After-Tax Net Present Value (NPV8%)
+
+CAD $3.49 Billion
+
+After-Tax Internal Rate of Return (IRR)
+
+56.7%
+
+After-Tax Cash Payback
+
+1.1 Years
+
+Pre-production Capital Costs (CAPEX)
+
+CAD $1.19 Billion
+
+Average Annual Production (Years 1-5)
+
+27.6 M lbs U3O8
+
+Average Annual Production (Life of Mine)
+
+18.5 M lbs U3O8
+
+Mine Life
+
+14.4 Years
+
+Average Unit Operating Cost (Years 1-5)
+
+CAD $5.53 (US $4.42)/lb U3O8
+
+Average Unit Operating Cost (Life of Mine)
+
+CAD $8.37 (US $6.70)/lb U3O8
+
+Uranium Price Assumption
+
+USD $50/lb U3O8
+
+Saskatchewan Royalties (Life of Mine)
+
+CAD $2.98 Billion
+
+Exchange Rate CAD$1 = USD$0.80
+
+Table 2 – Summary of Arrow PEA Production Profile
+
+ 
+Unit
+Years 1-5
+Years 1-10
+LOM
+
+Recovered Production 
+
+Total Tonnes
+
+kt
+
+2,502
+
+5,050
+
+7,310
+
+Average Annual Tonnes
+
+Ktpa
+
+501
+
+505
+
+487
+
+Tonnes per Day Processed
+
+Tpd
+
+ 1,430
+
+1,445
+
+ 1,448
+
+Average Annual Grade U3O8
+
+%
+
+2.62
+
+2.14
+
+1.73
+
+Total Pounds U3O8
+
+‘000 lbs U3O8
+
+137,955
+
+227,713
+
+267,203
+
+Average Annual Pounds U3O8
+
+‘000 lbs U3O8
+
+ 27,591
+
+22,771
+
+ 18,549
+
+Unit Operating Cost per Tonne
+
+Underground Mining
+
+C$ / t proc
+
+129
+
+128
+
+132
+
+Processing
+
+C$ / t proc
+
+112
+
+112
+
+111
+
+Surface & GA
+
+C$ / t proc
+
+64
+
+63
+
+63
+
+Total Operating Cost
+
+C$ / t proc
+
+305
+
+303
+
+306
+
+Unit Operating Cost
+
+C$ / lb U3O8
+
+5.53 (US $4.42)
+
+6.73 (US $5.39)
+
+8.37 (US $6.70)
+
+Operating Margin
+
+%
+
+90.4
+
+88.3
+
+85.5
+
+- 3 -
+
+Table 3 – PEA Sensitivity to Uranium Price
+
+Uranium Price ($ USD/lb U3O8)
+
+After-Tax NPV1,2
+
+After-Tax IRR
+
+After-Tax Cash Pay
+ Back1,2
+
+$80/lb U3O8
+
+CAD $6.45 Billion
+
+82.3%
+
+0.7 Years
+
+$60/lb U3O8
+
+CAD $4.48 Billion
+
+65.9%
+
+0.9 Years
+
+$50/lb U3O8
+
+CAD $3.49 Billion
+
+56.7%
+
+1.1 Years
+
+$40/lb U3O8
+
+CAD $2.49 Billion
+
+46.2%
+
+1.4 Years
+
+$30/lb U3O8
+
+CAD $1.50 Billion
+
+34.1%
+
+1.9 Years
+
+$25/lb U3O8
+
+CAD $1.00 Billion
+
+27.0%
+
+2.4 Years
+
+Notes:
+
+ 1. Based on an 8% Discount Rate.
+
+ 2. Based on a 0.80 USD / 1.00 CAD Exchange Rate.
+
+Figure 1 – Arrow Undiscounted Cumulative After-Tax Cash Flow
+
+ 
+
+Production Summary
+
+The PEA envisions a production profile supported by conventional long-hole stope mining averaging 1,448 tonnes per day at an average head grade of 1.73% U3O8 over the life of mine. It is envisaged that mine production will be fed into a conventional uranium processing plant where uranium recovery is projected to be 96.0% over the life of mine.
+
+It is envisaged that cemented paste fill tailings will be used, where tailings are constituted into a paste, mixed with approximately 5% cement and delivered back 
+
+- 4 -
+
+underground. The cemented paste fill tailings will be used to backfill stopes and the excess will be placed in a, purpose built, Underground Tailings Storage Facility (see Figure 3 below). Among many other benefits, this tailings management process is expected to significantly reduce the surface footprint of the project.
+
+The positive results of the PEA are a function of a conventional long-hole stope mine plan conceivably extracting compact near-vertical high-grade uranium mineralization localized in competent crystalline basement rocks. Arrow is considered an optimal deposit for long-hole stope mining because it is comprised of stacked high-grade veins with strong continuity on strike, dip and vertical extent. Additionally, there are natural pillars due to the spacing between the mineralized A1 through A4 shears. Due to the geometry of the Arrow deposit, approximately 93% of the mineral resource was converted into mineable resources. The positive results of the PEA are further supported by a high process recovery rate (96.0%), due to simple mineralogy and low deleterious elements.
+
+Figure 2 – Arrow Annual Production and Grade Profile
+
+- 5 -
+
+Figure 3 – Long Section View of Conceptual Arrow Deposit Mine Infrastructure
+
+Capital Costs
+
+The capital costs (CAPEX) for the contemplated underground mine, process plant and supporting infrastructure at Arrow are estimated at CAD $1.66 billion including initial capital costs of CAD $1.19 billion. The initial capital cost includes a contingency of 25% or CAD $237 million. RPA estimated the capital costs based on input and consultation with leading expert service providers who have experience in construction projects and cost estimation both in the Athabasca Basin and globally. The CAPEX is summarized below in Table 4.
+
+- 6 -
+
+Table 4 – Summary Breakdown of Capital Cost Estimates
+
+Capital Costs ($ CAD Millions)
+
+Initial
+
+Sustaining
+
+Total
+
+Mine
+
+$324
+
+$205
+
+$529
+
+Process Plant & Infrastructure & Indirect Costs
+
+$627
+
+$199
+
+$826
+
+Decommissioning
+
+-
+
+$64
+
+$64
+
+Contingency
+
+$237
+
+-
+
+$237
+
+Total Capital Costs
+
+$1,188
+
+$468
+
+$1,656
+
+Operating Costs
+
+The operating cost estimate (OPEX) is based on a shaft accessed underground mine with a conventional longitudinal and transverse long-hole stope mining method, conventional processing facility and underground placement of cemented paste tailings. The OPEX is summarized below in Table 5, and the total cash costs and average production from the Arrow deposit over the first five years is compared to current global producers of uranium in Figure 4 and other select underground global producers across commodities in Figure 5.
+
+Table 5 – Unit Operating Cost Estimates
+
+Operating Costs
+
+$ CAD/lb U3O8
+
+Mining
+
+$3.61
+
+Mineral Processing
+
+$3.03
+
+General and Administration
+
+$1.73
+
+Total Operating Costs
+
+$8.37
+
+- 7 -
+
+Figure 4 – Total Cash Costs and Annual Production Compared Globally
+
+Notes:
+
+1.
+
+Adapted from SNL Metals and Mining.
+
+2.
+
+Arrow production and costs based on PEA results.
+
+3.
+
+All other data based on 2016 modelled costs and production from SNL Metals and Mining. The Company makes no representations as to the reliability of this information.
+
+4.
+
+SNL estimates costs and production for approximately 70% of uranium operations.
+
+5.
+
+Costs include operational costs.
+
+6.
+
+Costs exclude sustaining capital costs, taxes, profit-based royalties, depreciation, and corporate costs.
+
+7.
+
+The cost curve does not consider secondary supplies of U3O8.
+
+- 8 -
+
+Figure 5 – Total Unit Operating Costs Per Tonne Costs Compared Globally
+
+Notes:
+
+1.
+
+Unit operating costs are the sum of site-based mining, processing, and general and administration.
+
+2.
+
+All of the comparable projects are underground mines with production rates ranging from nominally 1,000 tpd to 6,000 tpd.
+
+3.
+
+The majority of data points are mines that are considered to be in remote areas.
+
+4.
+
+Data is based on a variety of sources, including SNL Metals and Mining, and publicly available information. The Company makes no representations as to the reliability of this information.
+
+The PEA is preliminary in nature and includes inferred mineral resources that are too speculative geologically to have economic considerations applied to them that would enable them to be categorized as mineral reserves. There is no certainty that PEA results will be realized. Mineral resources that are not mineral reserves do not have demonstrated economic viability.
+
+ITEM 6. Reliance on Subsection 7.1(2) of National Instrument 51-102
+
+Not applicable.
+
+ITEM 7. Omitted Information
+
+There are no significant facts required to be disclosed herein which have been omitted.
+
+- 9 -
+
+ITEM 8. Executive Officer
+
+The following executive officer of the Corporation is knowledgeable about the material change and may be contacted respecting the change:
+
+Leigh Curyer
+
+Chief Executive Officer
+
+Phone: (604) 428-4112
+
+Email: lcuryer@nxe-energy.ca
+
+ITEM 9. Date of Report
+
+August 2, 2017
+
+Technical Disclosure
+
+The scientific and technical information in this material change report with respect to the PEA has been reviewed and approved by David Robson, P.Eng., M.B.A., and Jason Cox, P.Eng. of RPA, each of whom is an independent “qualified person” under National Instrument 43-101 – Standards of Disclosure for Mineral Projects (“NI-43-101”). All other scientific and technical information in this material change report has been approved by Mr. Garrett Ainsworth, P.Geo., Vice President – Exploration & Development for the Company. Mr. Ainsworth is a qualified person for the purposes of NI 43-101 and has verified the sampling, analytical, and test data underlying the information or opinions contained herein by reviewing original data certificates and monitoring all of the data collection protocols.
+
+Technical Reports
+
+The mineral resource estimate referred to herein was announced by the Company on March 6th, 2017, and has an effective date of December 20, 2016. For details of the Rook I Project including the quality assurance program and quality control measures applied and key assumptions, parameters and methods used to estimate the mineral resource set forth herein please refer to the technical report entitled “Technical Report on the Rook 1 Property, Saskatchewan, Canada” dated effective March 31, 2017 (the “Rook 1 Technical Report”). The Rook I Technical Report is available on the Company’s issuer profile on SEDAR at www.sedar.com.
+
+A new technical report in respect of the PEA, that will supersede the Rook 1 Technical Report, will be filed on SEDAR (www.sedar.com) and EDGAR (www.sec.gov/edgar.shtml) within 45 days of this material change report.
+
+SEC Standards
+
+Estimates of mineralization and other technical information included or referenced in this material change report have been prepared in accordance with NI 43-101. The definitions of proven and probable mineral reserves used in NI 43-101 differ from the definitions in SEC Industry Guide 7. Under SEC Industry Guide 7 standards, a “final” or “bankable” feasibility study is required to report reserves, the three-year historical average price is used in any reserve or cash flow analysis to designate reserves and the primary environmental analysis or report must be filed with the appropriate governmental authority. As a result, the reserves reported by the Company in accordance with NI 43-101 may not 
+
+- 10 -
+
+qualify as “reserves” under SEC standards. In addition, the terms “mineral resource”, “measured mineral resource”, “indicated mineral resource” and “inferred mineral resource” are defined in and required to be disclosed by NI 43-101; however, these terms are not defined terms under SEC Industry Guide 7 and normally are not permitted to be used in reports and registration statements filed with the SEC. Mineral resources that are not mineral reserves do not have demonstrated economic viability. Investors are cautioned not to assume that any part or all of the mineral deposits in these categories will ever be converted into reserves. “Inferred mineral resources” have a great amount of uncertainty as to their existence, and great uncertainty as to their economic and legal feasibility. It cannot be assumed that all or any part of an inferred mineral resource will ever be upgraded to a higher category. Under Canadian securities laws, estimates of inferred mineral resources may not form the basis of feasibility or pre-feasibility studies, except in rare cases. Additionally, disclosure of “contained ounces” in a resource is permitted disclosure under Canadian securities laws; however, the SEC normally only permits issuers to report mineralization that does not constitute “reserves” by SEC standards as in place tonnage and grade without reference to unit measurements. Accordingly, information contained or referenced in this material change report containing descriptions of the Company’s mineral deposits may not be comparable to similar information made public by U.S. companies subject to the reporting and disclosure requirements of United States federal securities laws and the rules and regulations thereunder.
+
+Forward-Looking Information
+
+The information contained herein contains "forward-looking statements" within the meaning of the United States Private Securities Litigation Reform Act of 1995 and "forward-looking information" within the meaning of applicable Canadian securities legislation. “Forward-looking information” includes, but is not limited to, statements with respect to the activities, events or developments that the Company expects or anticipates will or may occur in the future, including, without limitation, the completion of the technical report in support of the PEA. Generally, but not always, forward-looking information and statements can be identified by the use of words such as “plans”, “expects”, “is expected”, “budget”, “scheduled”, “estimates”, “forecasts”, “intends”, “anticipates”, or “believes” or the negative connotation thereof or variations of such words and phrases or state that certain actions, events or results “may”, “could”, “would”, “might” or “will be taken”, “occur” or “be achieved” or the negative connotation thereof.
+
+Forward-looking information and statements are based on the then current expectations, beliefs, assumptions, estimates and forecasts about the Company’s business and the industry and markets in which it operates. Forward-looking information and statements are made based upon numerous assumptions, including among others, that the proposed transaction will be completed, the results of planned exploration activities are as anticipated, the price of uranium, the cost of planned exploration activities, that financing will be available if and when needed and on reasonable terms, that third party contractors, equipment, supplies and governmental and other approvals required to conduct the Company’s planned exploration activities will be available on reasonable terms and in a timely manner and that general business and economic conditions will not change in a material adverse manner. Although the assumptions made by the Company in providing forward-looking information or making forward-looking statements are considered reasonable by management at the time, there can be no assurance that such assumptions will prove to be accurate.
+
+Forward-looking information and statements also involve known and unknown risks and uncertainties and other factors, which may cause actual results, performances and achievements of the Company to 
+
+- 11 -
+
+differ materially from any projections of results, performances and achievements of the Company expressed or implied by such forward-looking information or statements, including, among others, negative operating cash flow and dependence on third party financing, uncertainty of the availability of additional financing, the risk that pending assay results will not confirm previously announced preliminary results, imprecision of mineral resource estimates, the appeal of alternate sources of energy and sustained low uranium prices, aboriginal title and consultation issues, exploration risks, reliance upon key management and other personnel, deficiencies in the Company’s title to its properties, uninsurable risks, failure to manage conflicts of interest, failure to obtain or maintain required permits and licenses, changes in laws, regulations and policy, competition for resources and financing and other factors discussed or referred to in the Company’s Annual Information Form dated March 31, 2017 under “Risk Factors”.
+
+Although the Company has attempted to identify important factors that could cause actual results to differ materially from those contained in the forward-looking information or implied by forward-looking information, there may be other factors that cause results not to be as anticipated, estimated or intended.
+
+There can be no assurance that forward-looking information and statements will prove to be accurate, as actual results and future events could differ materially from those anticipated, estimated or intended. Accordingly, readers should not place undue reliance on forward-looking statements or information. The Company undertakes no obligation to update or reissue forward-looking information as a result of new information or events except as required by applicable securities laws.
+
+Non-IFRS Measures
+
+This material change report refers to cash cost and certain other non-IFRS measures. These measurements have no standardized meaning under IFRS and may not be comparable to similar measures presented by other companies. These measurements are intended to provide additional information and should not be considered in isolation or as a substitute for measures of performance prepared in accordance with IFRS.

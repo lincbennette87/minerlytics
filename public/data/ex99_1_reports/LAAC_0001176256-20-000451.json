@@ -1,0 +1,141 @@
+{
+  "ticker": "LAAC",
+  "cik": "0001440972",
+  "form": "6-K",
+  "filingDate": "2020-12-10",
+  "accessionNumber": "0001176256-20-000451",
+  "primaryDocument": "lithiumamericas6kmcr.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1440972/000117625620000451/0001176256-20-000451-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "MATERIAL CHANGE REPORT DATED DECEMBER 8, 2020",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1440972/000117625620000451/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-06-11T17:02:17.060Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1440972/000117625620000451/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Exhibit 99-1",
+    "headings": [
+      "Exhibit 99-1",
+      "Exhibit 99.1",
+      "FORM 51-102F3 MATERIAL CHANGE REPORT",
+      "ITEM 1.",
+      "Name and Address of Company",
+      "Lithium Americas",
+      "Company",
+      "ITEM 2.",
+      "Date of Material Change",
+      "ITEM 3.",
+      "News Release",
+      "ITEM 4.",
+      "Summary of Material Change",
+      "ITEM 5.",
+      "Full Description of Material Change",
+      "ITEM 6.",
+      "Reliance on Subsection 7.1(2) of National Instrument 51-102",
+      "ITEM 7.",
+      "Omitted Information",
+      "ITEM 8.",
+      "Executive Officer",
+      "ITEM 9.",
+      "Date of Report",
+      "Cautionary Note Regarding Forward-Looking Statements"
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nMATERIAL CHANGE REPORT DATED DECEMBER 8, 2020\n\n Exhibit 99-1\n\nExhibit 99.1\n\nFORM 51-102F3 MATERIAL CHANGE REPORT\n\n \n\n \n\n ITEM 1.\n\n Name and Address of Company\n\nLithium Americas Corp. (“Lithium Americas” or the “Company”) 300 – 900 West Hastings Street Vancouver, BC, V6C 1E5\n\n \n\n \n\n ITEM 2.\n\n Date of Material Change\n\nDecember 3, 2020\n\n \n\n \n\n ITEM 3.\n\n News Release\n\nA news release with respect to the contents of this report was issued on December 4, 2020 and was disseminated through the facilities of recognized newswire services. A copy of the news release was filed on SEDAR.\n\n \n\n \n\n ITEM 4.\n\n Summary of Material Change\n\nOn December 4, 2020, the Company announced the publication of the Final Environmental Impact Statement (“Final EIS”) by the U.S. Bureau of Land Management (“BLM”) for the Company’s Thacker Pass lithium project located in Humboldt County, Nevada. The Final EIS was publicly released by the BLM on December 3, 2020.\n\n \n\n \n\n ITEM 5.\n\n Full Description of Material Change\n\nThe Company announced by news release on December 4, 2020 that the Final EIS was published by the BLM in respect of the Company’s Thacker Pass lithium project located in Humboldt County, Nevada. The Final EIS was made public by the BLM on December 3, 2020.\n\nThe final step in the U.S. federal permitting process for the project is the issuance of the Record of Decision by the BLM, which the Company anticipates will be issued in early 2021. The Company has also submitted water protection permit applications to the State of Nevada, which are currently under consideration.\n\n \n\n \n\n ITEM 6.\n\n Reliance on Subsection 7.1(2) of National Instrument 51-102\n\nThis report is not being filed on a confidential basis.\n\n \n\n \n\n ITEM 7.\n\n Omitted Information\n\nThere are no significant facts required to be disclosed herein which have been omitted.\n\n \n\n \n\n ITEM 8.\n\n Executive Officer\n\nThe name and business number of the executive officer of the Company who is knowledgeable of the material change and this report is:\n\nEduard Epshtein Chief Financial Officer300 – 900 West Hastings Street Vancouver, BC V6C 1E5 1 (778) 656-5811\n\n \n\n \n\n ITEM 9.\n\n Date of Report\n\nDecember 8, 2020\n\nCautionary Note Regarding Forward-Looking Statements\n\nThis report contains “forward-looking information” and “forward-looking statements” (which we refer to collectively as forward-looking information) under the provisions of applicable securities legislation. All statements, other than statements of historical fact, are forward-looking information. Examples of forward-looking information in this report include the Company’s expected timing for the Record of Decision to be issued by the BLM.\n\nForward-looking information is based upon a number of factors and assumptions that, if untrue, could cause the actual results, performances or achievements of the Company to be materially different from future results, performances or achievements expressed or implied by such information. Such information reflects the Company’s current views with respect to future events and is necessarily based upon a number of assumptions that, while considered reasonable by the Company today, are inherently subject to significant uncertainties and contingencies. Forward-looking information also involve risks, assumptions and other factors are set out in the Company’s management discussion analysis and most recent annual information form, copies of which are available on SEDAR at www.sedar.com.\n\nAlthough the Company has attempted to identify important risks and assumptions, given the inherent uncertainties in such forward-looking information, there may be other factors that cause results to differ materially. Forward-looking information is made as of the date hereof and the Company does not intend, and expressly disclaims any obligation to, update or revise the forward-looking information contained in this news release, except as required by law. Accordingly, readers are cautioned not to place undue reliance on forward-looking information.\n\n- 2 -",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 1,
+        "rows": [
+          [
+            "ITEM 1.",
+            "Name and Address of Company"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 1,
+        "rows": [
+          [
+            "ITEM 2.",
+            "Date of Material Change"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 1,
+        "rows": [
+          [
+            "ITEM 3.",
+            "News Release"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 3,
+        "rowCount": 1,
+        "rows": [
+          [
+            "ITEM 4.",
+            "Summary of Material Change"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 4,
+        "rowCount": 1,
+        "rows": [
+          [
+            "ITEM 5.",
+            "Full Description of Material Change"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 5,
+        "rowCount": 1,
+        "rows": [
+          [
+            "ITEM 6.",
+            "Reliance on Subsection 7.1(2) of National Instrument 51-102"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 6,
+        "rowCount": 1,
+        "rows": [
+          [
+            "ITEM 7.",
+            "Omitted Information"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 7,
+        "rowCount": 1,
+        "rows": [
+          [
+            "ITEM 8.",
+            "Executive Officer"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 8,
+        "rowCount": 1,
+        "rows": [
+          [
+            "ITEM 9.",
+            "Date of Report"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>MATERIAL CHANGE REPORT DATED DECEMBER 8, 2020\n<TEXT>\n\n<HTML>\n<HEAD>\n   <TITLE>Exhibit 99-1</TITLE>\n</HEAD>\n\n<BODY bgcolor=\"#ffffff\" style=\"font-family: 'Times New Roman';font-size: 10pt;\">\n<HR noshade align=\"center\" width=\"100%\" size=3 margin=0>\n<div align=\"right\"><strong>Exhibit 99.1</strong></div>\n<!--$$/page=--><A name=\"page_1\"></A><BR>\n\n<a name=\"_bclPageBorder1\"></a><DIV style=\"PADDING-LEFT: 0%; PADDING-RIGHT: 0%\">\n\n<P style=\"TEXT-ALIGN: center\"><B>FORM 51-102F3 <BR>MATERIAL CHANGE REPORT</B></P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"4%\"></TD>\n\n   <TD width=\"98%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left><B>ITEM 1.</B></TD>\n\n   <TD noWrap align=left><B>Name and Address of Company</B></TD></TR></TABLE></DIV>\n\n<P style=\"TEXT-ALIGN: justify; MARGIN-LEFT: 4%\">Lithium Americas Corp. (&#8220;<B>Lithium Americas</B>&#8221; or the &#8220;<B>Company</B>&#8221;) <BR>300 &#8211; 900 West Hastings Street <BR>Vancouver, BC, V6C 1E5</P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"4%\"></TD>\n\n   <TD width=\"98%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left><B>ITEM 2.</B></TD>\n\n   <TD noWrap align=left><B>Date of Material Change</B></TD></TR></TABLE></DIV>\n\n<P style=\"TEXT-ALIGN: justify; MARGIN-LEFT: 4%\">December 3, 2020</P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"4%\"></TD>\n\n   <TD width=\"98%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left><B>ITEM 3.</B></TD>\n\n   <TD noWrap align=left><B>News Release</B></TD></TR></TABLE></DIV>\n\n<P style=\"TEXT-ALIGN: justify; MARGIN-LEFT: 4%\">A news release with respect to the contents of this report was issued on December 4, 2020 and was disseminated through the facilities of recognized newswire services. A copy of the news release was filed on SEDAR.</P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"4%\"></TD>\n\n   <TD width=\"98%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left><B>ITEM 4.</B></TD>\n\n   <TD noWrap align=left><B>Summary of Material Change</B></TD></TR></TABLE></DIV>\n\n<P style=\"TEXT-ALIGN: justify; MARGIN-LEFT: 4%\">On December 4, 2020, the Company announced the publication of the Final Environmental Impact Statement (&#8220;Final EIS&#8221;) by the U.S. Bureau of Land Management (&#8220;BLM&#8221;) for the Company&#8217;s Thacker Pass lithium project located in Humboldt County, Nevada. The Final EIS was publicly released by the BLM on December 3, 2020.</P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"4%\"></TD>\n\n   <TD width=\"98%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left><B>ITEM 5.</B></TD>\n\n   <TD noWrap align=left><B>Full Description of Material Change</B></TD></TR></TABLE></DIV>\n\n<P style=\"TEXT-ALIGN: justify; MARGIN-LEFT: 4%\">The Company announced by news release on December 4, 2020 that the Final EIS was published by the BLM in respect of the Company&#8217;s Thacker Pass lithium project located in Humboldt County, Nevada. The Final EIS was made public by the BLM on December 3, 2020.</P>\n\n<P style=\"TEXT-ALIGN: justify; MARGIN-LEFT: 4%\">The final step in the U.S. federal permitting process for the project is the issuance of the Record of Decision by the BLM, which the Company anticipates will be issued in early 2021. The Company has also submitted water protection permit applications to the State of Nevada, which are currently under consideration.</P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"4%\"></TD>\n\n   <TD width=\"98%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left><B>ITEM 6.</B></TD>\n\n   <TD noWrap align=left><B>Reliance on Subsection 7.1(2) of National Instrument 51-102</B></TD></TR></TABLE></DIV>\n\n<P style=\"TEXT-ALIGN: justify; MARGIN-LEFT: 4%\">This report is not being filed on a confidential basis.</P>\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"4%\"></TD>\n\n   <TD width=\"98%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left><B>ITEM 7.</B></TD>\n\n   <TD noWrap align=left><B>Omitted Information</B></TD></TR></TABLE></DIV>\n\n<P style=\"TEXT-ALIGN: justify; MARGIN-LEFT: 4%\">There are no significant facts required to be disclosed herein which have been omitted.</P></DIV><BR>\n\n<HR style=\"PAGE-BREAK-AFTER: always\" align=center SIZE=1 width=\"100%\" noShade>\n\n<BR>\n\n<!--$$/page=--><A name=\"page_2\"></A><BR>\n\n<a name=\"_bclPageBorder2\"></a><DIV style=\"PADDING-LEFT: 0%; PADDING-RIGHT: 0%\">\n\n<DIV align=left>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"4%\"></TD>\n\n   <TD width=\"98%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left><B>ITEM 8.</B></TD>\n\n   <TD noWrap align=left><B>Executive Officer</B></TD></TR></TABLE></DIV>\n\n<P style=\"TEXT-ALIGN: justify; MARGIN-LEFT: 4%\">The name and business number of the executive officer of the Company who is knowledgeable of the material change and this report is:</P>\n\n<P style=\"TEXT-ALIGN: justify; MARGIN-LEFT: 4%\">Eduard Epshtein <BR>Chief Financial Officer<BR>300 &#8211; 900 West Hastings Street Vancouver, BC V6C 1E5 <BR>1 (778) 656-5811</P>\n\n<P style=\"MARGIN: 0px\">\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n\n\n<TR>\n\n   <TD width=\"4%\"></TD>\n\n   <TD width=\"98%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD noWrap align=left><B>ITEM 9.</B></TD>\n\n   <TD noWrap align=left><B>Date of Report</B></TD></TR></TABLE></P>\n\n<P style=\"TEXT-ALIGN: justify; MARGIN-LEFT: 4%\">December 8, 2020</P>\n\n<P style=\"TEXT-ALIGN: justify; MARGIN-LEFT: 4%\"><B>Cautionary Note Regarding Forward-Looking Statements</B></P>\n\n<P style=\"TEXT-ALIGN: justify; MARGIN-LEFT: 4%\"><I>This report contains &#8220;forward-looking information&#8221; and &#8220;forward-looking statements&#8221; (which we refer to collectively as forward-looking information) under the provisions of applicable securities legislation. All statements, other than statements of historical fact, are forward-looking information. Examples of forward-looking information in this report include the Company&#8217;s expected timing for the Record of Decision to be issued by the BLM.</I></P>\n\n<P style=\"TEXT-ALIGN: justify; MARGIN-LEFT: 4%\"><I>Forward-looking information is based upon a number of factors and assumptions that, if untrue, could cause the actual results, performances or achievements of the Company to be materially different from future results, performances or achievements expressed or implied by such information. Such information reflects the Company&#8217;s current views with respect to future events and is necessarily based upon a number of assumptions that, while considered reasonable by the Company today, are inherently subject to significant uncertainties and contingencies. Forward-looking information also involve risks, assumptions and other factors are set out in the Company&#8217;s management discussion analysis and most recent annual information form, copies of which are available on SEDAR at www.sedar.com.</I></P>\n\n<P style=\"TEXT-ALIGN: justify; MARGIN-LEFT: 4%\"><I>Although the Company has attempted to identify important risks and assumptions, given the inherent uncertainties in such forward-looking information, there may be other factors that cause results to differ materially. Forward-looking information is made as of the date hereof and the Company does not intend, and expressly disclaims any obligation to, update or revise the forward-looking information contained in this news release, except as required by law. Accordingly, readers are cautioned not to place undue reliance on forward-looking information.</I></P>\n\n<P style=\"TEXT-ALIGN: center\">- 2 -</P></DIV><BR>\n\n<HR noshade align=\"center\" width=\"100%\" size=3 margin=0>\n\n</BODY>\n\n</HTML>\n\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

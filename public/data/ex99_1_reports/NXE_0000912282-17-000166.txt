@@ -1,0 +1,261 @@
+EX-99.1
+2
+ex99_1.htm
+MATERIAL CHANGE REPORT
+
+EXHIBIT 99.1
+
+ 
+
+FORM 51-102F3
+
+ 
+
+MATERIAL CHANGE REPORT
+
+ 
+
+ITEM 1. Name and Address of Company
+
+NexGen Energy Ltd. (the “Company”)
+ 3150 – 1021 West Hastings St
+
+Vancouver, BC V6E 0C3
+
+ 
+
+ITEM 2. Date of Material Change
+
+ 
+
+July 27, 2017
+
+ 
+
+ITEM 3. News Release
+
+ 
+
+The Company disseminated a press release in respect of the material change on July 27, 2017 through Canadian News Wire. The press release was subsequently filed on SEDAR and EDGAR on July 27, 2017.
+
+ 
+
+ITEM 4. Summary of Material Change
+
+ 
+
+On July 27, 2017, the Company announced the discovery of a new zone of off-scale radioactivity approximately 400 m south of the Arrow Deposit.
+
+ 
+
+ITEM 5. Full Description of Material Change
+
+ 
+
+On July 27, 2017, the Company announced the discovery of a new zone of off-scale radioactivity approximately 400 m south of the Arrow Deposit, named the South Arrow Discovery.
+
+The Arrow South Discovery occurs within an Arrow-parallel deformation zone first identified by re-processing of airborne VTEM survey data. Recently, a high-resolution ground 3D resistivity/IP survey was completed over an area covering the Arrow deposit and a portion of the newly identified structure. The survey showed a resistivity anomaly highly coincident with and immediately flanking the Arrow deposit. The survey also identified an additional anomaly coincident with the Arrow-parallel deformation zone first highlighted by the VTEM data. This new resistivity anomaly, named the South Arrow anomaly, has strikingly similar characteristics to the Arrow anomaly. It has now been tested in four holes, two of which have intersected off-scale radioactivity and all of which intersected extensive zones of hydrothermal alteration and anomalous radioactivity. Preliminary interpretations from structural measurements collected from oriented drill core suggest that the South Arrow mineralized bodies strike towards the southwest and dip steeply towards the southeast.
+
+Drill Hole
+
+Athabasca
+Group -
+Basement Unconformity
+ Depth (m)
+
+Handheld Scintillometer Results (RS-120)
+
+Hole ID
+
+Azimuth
+
+Dip
+
+Total
+Depth
+ (m)
+
+From
+ (m)
+
+To (m)
+
+Width
+ (m)
+
+CPS Range
+
+AR-17-151c1
+
+327
+
+-70
+
+588.50
+
+103.30
+
+262.5
+
+263.5
+
+1.0
+
+<500 - 
+ 2100
+
+ 
+ 
+ 
+ 
+ 
+
+302.0
+
+308.0
+
+6.0
+
+<500 -
+ >61000
+
+AR-17-151c2
+
+327
+
+-70
+
+561.50
+
+103.30
+
+310.5
+
+312.5
+
+2.0
+
+<500 - 
+ 20000
+
+ 
+ 
+ 
+ 
+ 
+
+327.5
+
+328.0
+
+0.5
+
+<500 - 
+ 1400
+
+ 
+ 
+ 
+ 
+ 
+
+359.5
+
+363.5
+
+4.0
+
+<500 - 
+ 3700
+
+ 
+ 
+ 
+ 
+ 
+
+404.5
+
+405.0
+
+0.5
+
+<500 - 
+ 510
+
+Parameters:
+
+•
+
+Maximum internal dilution 2.00 m downhole
+
+•
+
+All depths and intervals are meters downhole, true thicknesses are yet to be determined.
+
+•
+
+"Anomalous" means >500 cps (counts per second) total count gamma readings by gamma scintillometer type RS-120
+
+•
+
+"Off-scale" means >10,000 cps (counts per second) total count gamma readings by gamma scintillometer type RS-120
+
+•
+
+Where "Min cps" is <500 cps, this refers to local low radiometric zones within the overall radioactive interval
+
+ITEM 6. Reliance on Subsection 7.1(2) of National Instrument 51-102
+
+Not applicable.
+
+ 
+
+ITEM 7. Omitted Information
+
+ 
+
+There are no significant facts required to be disclosed herein which have been omitted.
+
+ 
+
+ITEM 8. Executive Officer
+
+ 
+
+The following executive officer of the Corporation is knowledgeable about the material change and may be contacted respecting the change:
+
+ 
+
+Leigh Curyer
+Chief Executive Officer
+Phone: (604) 428-4112
+ Email: lcuryer@nxe-energy.ca
+
+ITEM 9. Date of Report
+
+July 28, 2017
+
+Technical Disclosure
+
+Natural gamma radiation in drill core reported in this material change report was measured in counts per second (cps) using a Radiation Solutions Inc. RS-120 gamma-ray scintillometer. The reader is cautioned that total count gamma readings may not be directly or uniformly related to uranium grades of the rock sample measured; they should be used only as a preliminary indication of the presence of radioactive minerals.
+
+Split core samples will be taken systematically, and intervals will be submitted to SRC Geoanalytical Laboratories (“SRC”) (an SCC ISO/IEC 17025: 2005 Accredited facility) of Saskatoon for analysis. All samples sent to SRC will be analyzed using ICP-MS for trace elements on partial and total digestions, ICP-OES for major and minor elements on a total digestion, and fusion solution of boron by ICP-OES. Mineralized samples are analyzed for U3O8 by ICP-OES and select samples for gold by fire assay. Assay results will be released when received and after stringent internal QA/QC protocols are passed.
+
+All scientific and technical information in this material change report has been prepared by or reviewed and approved by Mr. Garrett Ainsworth, P.Geo., Vice President – Exploration & Development for NexGen. Mr. Ainsworth is a qualified person for the purposes of National Instrument 43-101 Standards of Disclosure for Mineral Projects ("NI 43-101"), and has verified the sampling, analytical, and test data underlying the information or opinions contained herein by reviewing original data certificates and monitoring all of the data collection protocols.
+
+U.S. investors are advised that while the terms "indicated resources" and "inferred resources" are recognized and required by Canadian regulations, the U.S. Securities and Exchange Commission does not recognize these terms. U.S. investors are cautioned not to assume that any part or all of the material in these categories will ever be converted into mineral reserves.
+
+ 
+
+Forward-Looking Information
+
+The information contained herein contains "forward-looking statements" within the meaning of the United States Private Securities Litigation Reform Act of 1995 and "forward-looking information" within the meaning of applicable Canadian securities legislation. “Forward-looking information” includes, but is not limited to, statements with respect to the activities, events or developments that the Company expects or anticipates will or may occur in the future, including the results of further exploration. Generally, but not always, forward-looking information and statements can be identified by the use of words such as “plans”, “expects”, “is expected”, “budget”, “scheduled”, “estimates”, “forecasts”, “intends”, “anticipates”, or “believes” or the negative connotation thereof or variations of such words and phrases or state that certain actions, events or results “may”, “could”, “would”, “might” or “will be taken”, “occur” or “be achieved” or the negative connotation thereof.
+
+Forward-looking information and statements are based on the then current expectations, beliefs, assumptions, estimates and forecasts about NexGen’s business and the industry and markets in which it operates. Forward-looking information and statements are made based upon numerous assumptions, including among others, that the proposed transaction will be completed, the results of planned exploration activities are as anticipated, the price of uranium, the cost of planned exploration activities, that financing will be available if and when needed and on reasonable terms, that third party contractors, equipment, supplies and governmental and other approvals required to conduct NexGen’s planned exploration activities will be available on reasonable terms and in a timely manner and that general business and economic conditions will not change in a material adverse manner. Although the assumptions made by the Company in providing forward looking information or making forward looking statements are considered reasonable by management at the time, there can be no assurance that such assumptions will prove to be accurate
+
+Forward-looking information and statements also involve known and unknown risks and uncertainties and other factors, which may cause actual results, performances and achievements of NexGen to differ materially from any projections of results, performances and achievements of NexGen expressed or implied by such forward-looking information or statements, including, among others, negative operating cash flow and dependence on third party financing, uncertainty of the availability of additional financing, the risk that pending assay results will not confirm previously announced preliminary results, imprecision of mineral resource estimates, the appeal of alternate sources of energy and sustained low uranium prices, aboriginal title and consultation issues, exploration risks, reliance upon key management and other personnel, deficiencies in the Company’s title to its properties, uninsurable risks, failure to manage conflicts of interest, failure to obtain or maintain required permits and licenses, changes in laws, regulations and policy, competition for resources and financing, and other factors discussed or referred to in the Company’s Annual Information Form dated March 31, 2017 under “Risk Factors”.
+
+Although the Company has attempted to identify important factors that could cause actual results to differ materially from those contained in the forward-looking information or implied by forward-looking information, there may be other factors that cause results not to be as anticipated, estimated or intended.
+
+There can be no assurance that forward-looking information and statements will prove to be accurate, as actual results and future events could differ materially from those anticipated, estimated or intended. Accordingly, readers should not place undue reliance on forward-looking statements or information. The Company undertakes no obligation to update or reissue forward-looking information as a result of new information or events except as required by applicable securities laws.

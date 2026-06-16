@@ -1,0 +1,142 @@
+{
+  "ticker": "EGO",
+  "cik": "0000918608",
+  "form": "6-K",
+  "filingDate": "2018-04-05",
+  "accessionNumber": "0001137171-18-000034",
+  "primaryDocument": "eldorado6k04052018.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/918608/000113717118000034/0001137171-18-000034-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "NOTICE OF ANNUAL GENERAL MEETING - JUNE 21, 2018",
+    "filename": "notice.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/918608/000113717118000034/notice.htm"
+  },
+  "extractedAt": "2026-06-11T16:55:16.392Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/918608/000113717118000034/notice.htm",
+    "contentType": "html",
+    "title": "JA Filed by Filing Services Canada Inc. 403-717-3898",
+    "headings": [
+      "JA Filed by Filing Services Canada Inc. 403-717-3898",
+      "Subject: ELDORADO GOLD CORPORATION",
+      "Notice and Access (NAA) Requirements:",
+      "Voting Security Details:",
+      "Description",
+      "CUSIP Number",
+      "ISIN",
+      "Computershare"
+    ],
+    "text": "EX-99.1\n2\nnotice.htm\nNOTICE OF ANNUAL GENERAL MEETING - JUNE 21, 2018\n\n JA Filed by Filing Services Canada Inc. 403-717-3898\n\n \n\n Date: April 5, 2018\n \n510 Burrard St, 3rd Floor\nVancouver BC, V6C 3B9\nwww.computershare.com \n \n\n \n \n\n To: Each Securities Commission or Securities Regulatory Authority in each of the Provinces of Canada \n Toronto Stock Exchange\n\n \n\n Subject: ELDORADO GOLD CORPORATION\n \n \n \n\n Dear Sir/Madam:\n \nWe advise of the following with respect to the upcoming Meeting of Security Holders for the subject Issuer: \n\n Meeting Type :\n Annual and Special Meeting\n\n Record Date for Notice of Meeting :\n May 7, 2018\n\n Record Date for Voting (if applicable) :\n May 7, 2018\n\n Beneficial Ownership Determination Date :\n May 7, 2018\n\n Meeting Date :\n June 21, 2018\n\n Meeting Location (if available) :\n Hotel Vancouver, 900 West Georgia Street, Vancouver BC \n\n Issuer sending proxy related materials directly to NOBO:\n No\n\n Issuer paying for delivery to OBO:\n Yes\n\n \n\n Notice and Access (NAA) Requirements:\n\n NAA for Beneficial Holders\n Yes\n\n Beneficial Holders Stratification Criteria:\n Not Applicable\n\n NAA for Registered Holders\n Yes\n\n Registered Holders Stratification Criteria:\n Not Applicable\n\n \n\n \nVoting Security Details:\n \n\n Description\n CUSIP Number\n ISIN\n\n COMMON SHARES\n 284902103\n CA2849021035\n\n \n\n \n \n\n \nSincerely, \n\nComputershare \nAgent for ELDORADO GOLD CORPORATION",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 3,
+        "rows": [
+          [
+            "Date: April 5, 2018",
+            "510 Burrard St, 3rd Floor\nVancouver BC, V6C 3B9\nwww.computershare.com"
+          ],
+          [
+            "To: Each Securities Commission or Securities Regulatory Authority in each of the Provinces of Canada \n Toronto Stock Exchange"
+          ],
+          [
+            "Subject: ELDORADO GOLD CORPORATION"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 13,
+        "rows": [
+          [
+            "Meeting Type :",
+            "Annual and Special Meeting"
+          ],
+          [
+            "Record Date for Notice of Meeting :",
+            "May 7, 2018"
+          ],
+          [
+            "Record Date for Voting (if applicable) :",
+            "May 7, 2018"
+          ],
+          [
+            "Beneficial Ownership Determination Date :",
+            "May 7, 2018"
+          ],
+          [
+            "Meeting Date :",
+            "June 21, 2018"
+          ],
+          [
+            "Meeting Location (if available) :",
+            "Hotel Vancouver, 900 West Georgia Street, Vancouver BC"
+          ],
+          [
+            "Issuer sending proxy related materials directly to NOBO:",
+            "No"
+          ],
+          [
+            "Issuer paying for delivery to OBO:",
+            "Yes"
+          ],
+          [
+            "Notice and Access (NAA) Requirements:"
+          ],
+          [
+            "NAA for Beneficial Holders",
+            "Yes"
+          ],
+          [
+            "Beneficial Holders Stratification Criteria:",
+            "Not Applicable"
+          ],
+          [
+            "NAA for Registered Holders",
+            "Yes"
+          ],
+          [
+            "Registered Holders Stratification Criteria:",
+            "Not Applicable"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 1,
+        "rows": [
+          [
+            "Voting Security Details:"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 3,
+        "rowCount": 2,
+        "rows": [
+          [
+            "Description",
+            "CUSIP Number",
+            "ISIN"
+          ],
+          [
+            "COMMON SHARES",
+            "284902103",
+            "CA2849021035"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 4,
+        "rowCount": 1,
+        "rows": [
+          [
+            "Sincerely, \n\nComputershare \nAgent for ELDORADO GOLD CORPORATION"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>notice.htm\n<DESCRIPTION>NOTICE OF ANNUAL GENERAL MEETING - JUNE 21, 2018\n<TEXT>\n<HTML>\n<HEAD>\n     <TITLE>JA Filed by Filing Services Canada Inc. 403-717-3898</TITLE>\n</HEAD>\n<BODY STYLE=\"font: 10pt Times New Roman, Times, Serif\">\n\n<P STYLE=\"margin: 0\">&nbsp;</P>\n\n<TABLE CELLSPACING=\"0\" CELLPADDING=\"0\" STYLE=\"width: 100%; font-family: Times New Roman, Times, Serif\">\n<TR>\n    <TD STYLE=\"width: 79%; font-size: 9pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Date: April 5, 2018</FONT></TD>\n    <TD STYLE=\"width: 20%; padding-bottom: 12pt; font-size: 8pt\"><IMG SRC=\"image_001.gif\" ALT=\"http:||www-us.computershare.com|content|image.asp?code=CPU_MEETING_LOGO\" STYLE=\"height: 24px; width: 129px\"><BR>\n<FONT STYLE=\"font: 8pt Tahoma, Helvetica, Sans-Serif\">510 Burrard St, 3rd Floor</FONT><BR>\n<FONT STYLE=\"font: 8pt Tahoma, Helvetica, Sans-Serif\">Vancouver&nbsp;BC, V6C 3B9</FONT><BR>\n<FONT STYLE=\"font: 8pt Tahoma, Helvetica, Sans-Serif\">www.computershare.com </FONT></TD>\n    <TD STYLE=\"width: 1%; font-size: 12pt\">&nbsp;</TD></TR>\n<TR>\n    <TD COLSPAN=\"2\" STYLE=\"padding-bottom: 12pt; font-size: 9pt\">&nbsp;</TD>\n    <TD STYLE=\"font-size: 12pt\">&nbsp;</TD></TR>\n<TR>\n    <TD COLSPAN=\"2\" STYLE=\"padding-bottom: 12pt; font-size: 9pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">To: Each Securities Commission or Securities Regulatory Authority in each of the Provinces of Canada </FONT><BR>\n<FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Toronto Stock Exchange</FONT><BR>\n<BR>\n</TD>\n    <TD STYLE=\"font-size: 12pt\">&nbsp;</TD></TR>\n<TR>\n    <TD COLSPAN=\"2\" STYLE=\"padding-bottom: 12pt; font-size: 9pt\"><B>Subject: ELDORADO GOLD CORPORATION</B></FONT></P></TD>\n    <TD STYLE=\"font-size: 12pt\">&nbsp;</TD>\n    <TD STYLE=\"font-size: 12pt\">&nbsp;</TD></TR>\n    </TABLE>\n<TR>\n    <TD COLSPAN=\"2\" STYLE=\"padding-bottom: 12pt; font-size: 9pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Dear Sir/Madam:</FONT><BR>\n<FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">&nbsp;</FONT><BR>\n<FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">We advise of the following with respect to the upcoming Meeting of Security Holders for the subject Issuer: </FONT><BR>\n<BR>\n</TD>\n\n<P STYLE=\"margin-top: 0; margin-bottom: 0\"></P>\n\n<P STYLE=\"margin-top: 0; margin-bottom: 0\"></P>\n\n<TABLE CELLPADDING=\"0\" STYLE=\"font: 9pt Times New Roman, Times, Serif; width: 100%\">\n<TR>\n    <TD STYLE=\"width: 55%; padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Meeting Type :</FONT></TD>\n    <TD STYLE=\"padding: 0.75pt; width: 45%\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Annual and Special Meeting</FONT></TD></TR>\n<TR>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Record Date for Notice of Meeting :</FONT></TD>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">May 7, 2018</FONT></TD></TR>\n<TR>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Record Date for Voting (if applicable) :</FONT></TD>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">May 7, 2018</FONT></TD></TR>\n<TR>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Beneficial Ownership Determination Date :</FONT></TD>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">May 7, 2018</FONT></TD></TR>\n<TR>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Meeting Date :</FONT></TD>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">June 21, 2018</FONT></TD></TR>\n<TR>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Meeting Location (if available) :</FONT></TD>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Hotel Vancouver, 900 West Georgia Street, Vancouver BC </FONT></TD></TR>\n<TR>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Issuer sending proxy related materials directly to NOBO:</FONT></TD>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">No</FONT></TD></TR>\n<TR>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Issuer paying for delivery to OBO:</FONT></TD>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Yes</FONT></TD></TR>\n<TR>\n    <TD COLSPAN=\"2\" STYLE=\"padding: 0.75pt\">&nbsp;</TD></TR>\n<TR>\n    <TD COLSPAN=\"2\" STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\"><B>Notice and Access (NAA) Requirements:</B></FONT></TD></TR>\n<TR>\n    <TD STYLE=\"padding: 0.75pt 0.75pt 0.75pt 15pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">NAA for Beneficial Holders</FONT></TD>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Yes</FONT></TD></TR>\n<TR>\n    <TD STYLE=\"padding: 0.75pt 0.75pt 0.75pt 15pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Beneficial Holders Stratification Criteria:</FONT></TD>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Not Applicable</FONT></TD></TR>\n<TR>\n    <TD STYLE=\"padding: 0.75pt 0.75pt 0.75pt 15pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">NAA for Registered Holders</FONT></TD>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Yes</FONT></TD></TR>\n<TR>\n    <TD STYLE=\"padding: 0.75pt 0.75pt 0.75pt 15pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Registered Holders Stratification Criteria:</FONT></TD>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Not Applicable</FONT></TD></TR>\n</TABLE>\n\n\n<P STYLE=\"margin-top: 0; margin-bottom: 0\"></P>\n\n<P STYLE=\"margin-top: 0; margin-bottom: 0\">&nbsp;</P>\n\n<TABLE>\n<TR>\n    <TD COLSPAN=\"2\" STYLE=\"padding-bottom: 12pt; font-size: 9pt\"><BR>\n<FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\"><B>Voting Security Details:</B></FONT></TD>\n    <TD STYLE=\"font-size: 12pt\">&nbsp;</TD></TR>\n</TABLE>\n\n<P STYLE=\"margin-top: 0; margin-bottom: 0\"></P>\n\n<TABLE CELLPADDING=\"0\" STYLE=\"font: 9pt Times New Roman, Times, Serif; width: 100%\">\n<TR>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\"><B>Description</B></FONT></TD>\n    <TD STYLE=\"width: 25%; padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\"><B>CUSIP Number</B></FONT></TD>\n    <TD STYLE=\"width: 25%; padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\"><B>ISIN</B></FONT></TD></TR>\n<TR>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">COMMON SHARES</FONT></TD>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">284902103</FONT></TD>\n    <TD STYLE=\"padding: 0.75pt\"><FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">CA2849021035</FONT></TD></TR>\n</TABLE>\n\n\n<P STYLE=\"margin-top: 0; margin-bottom: 0\"></P>\n\n<P STYLE=\"margin-top: 0; margin-bottom: 0\">&nbsp;</P>\n\n<TABLE>\n<TR>\n    <TD COLSPAN=\"2\" STYLE=\"font-size: 9pt\">&nbsp;</TD>\n    <TD STYLE=\"font-size: 12pt\">&nbsp;</TD></TR>\n<TR>\n    <TD COLSPAN=\"2\" STYLE=\"font-size: 9pt\"><BR>\n<FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Sincerely, </FONT><BR>\n<BR>\n<FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif; color: #660066\"><B>Computershare </B></FONT><BR>\n<FONT STYLE=\"font: 9pt Tahoma, Helvetica, Sans-Serif\">Agent for ELDORADO GOLD CORPORATION</FONT></TD>\n    <TD>&nbsp;</TD></TR>\n</TABLE>\n<P STYLE=\"font: 12pt Times New Roman, Times, Serif; margin: 0\">&nbsp;</P>\n\n<P STYLE=\"font: 12pt Times New Roman, Times, Serif; margin: 0\"></P>\n\n<!-- Field: Page; Sequence: 1 -->\n    <DIV STYLE=\"margin-bottom: 6pt\"><TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"width: 100%\"><TR><TD STYLE=\"text-align: center; width: 100%\">&nbsp;</TD></TR></TABLE></DIV>\n    <DIV STYLE=\"page-break-before: always; margin-top: 6pt; border-top: Black 1pt solid\"><TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"width: 100%\"><TR><TD STYLE=\"text-align: center; width: 100%\">&nbsp;</TD></TR></TABLE></DIV>\n    <!-- Field: /Page -->\n\n<P STYLE=\"font: 12pt Times New Roman, Times, Serif; margin: 0\"></P>\n\n\n\n<P STYLE=\"margin: 0\"></P>\n\n</BODY>\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

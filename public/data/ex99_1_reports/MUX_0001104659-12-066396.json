@@ -1,0 +1,37 @@
+{
+  "ticker": "MUX",
+  "cik": "0000314203",
+  "form": "8-K",
+  "filingDate": "2012-09-28",
+  "accessionNumber": "0001104659-12-066396",
+  "primaryDocument": "a12-22418_18k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/314203/000110465912066396/0001104659-12-066396-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EX-99.1",
+    "filename": "a12-22418_1ex99d1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/314203/000110465912066396/a12-22418_1ex99d1.htm"
+  },
+  "extractedAt": "2026-06-11T17:05:48.788Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/314203/000110465912066396/a12-22418_1ex99d1.htm",
+    "contentType": "html",
+    "title": "",
+    "headings": [
+      "Exhibit\n99.1"
+    ],
+    "text": "EX-99.1\n2\na12-22418_1ex99d1.htm\nEX-99.1\n\nExhibit\n99.1\n\n \n\n \n \n \n \n \n Rights Issue\n $60 Million Personally Back Stopping 1",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 1,
+        "rows": [
+          [
+            "Rights Issue\n $60 Million Personally Back Stopping 1"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>a12-22418_1ex99d1.htm\n<DESCRIPTION>EX-99.1\n<TEXT>\n<html>\n\n<head>\n\n\n\n\n\n</head>\n\n<body lang=\"EN-US\">\n\n<div>\n<!-- COMMAND=ROTATED_TABLE WIDTH=\"150%\" -->\n\n<p align=\"right\" style=\"margin:0in 0in .0001pt;text-align:right;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">Exhibit\n99.1</font></b></p>\n\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n<div align=\"center\">\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"92%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:92.3%;\">\n  <p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;\"><img width=\"780\" height=\"585\" src=\"g224181mmi001.gif\" alt=\"GRAPHIC\"></font></p>\n  </td>\n  <td width=\"7%\" valign=\"top\" style=\"padding:0in 5.4pt 0in 5.4pt;width:7.7%;\">\n  <p style=\"margin:0in 0in .0001pt;\"><font size=\"1\" color=\"white\" face=\"Times New Roman\" style=\"color:white;font-size:1.0pt;\">Rights Issue\n  $60 Million Personally Back Stopping 1 </font></p>\n  </td>\n </tr>\n</table>\n\n</div>\n\n<p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n<p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\105568\\12-22418-1\\task5576972\\22418-1-mm.htm',USER='105568',CD='Sep 29 00:14 2012' -->\n\n\n</body>\n\n</html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

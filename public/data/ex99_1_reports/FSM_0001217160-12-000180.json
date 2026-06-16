@@ -1,0 +1,54 @@
+{
+  "ticker": "FSM",
+  "cik": "0001341335",
+  "form": "6-K",
+  "filingDate": "2012-06-07",
+  "accessionNumber": "0001217160-12-000180",
+  "primaryDocument": "fortuna6kjune_62012.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1341335/000121716012000180/0001217160-12-000180-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "ANNUAL GENERAL MEETING VOTING RESULTS",
+    "filename": "votingresults.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341335/000121716012000180/votingresults.htm"
+  },
+  "extractedAt": "2026-06-11T16:56:34.305Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1341335/000121716012000180/votingresults.htm",
+    "contentType": "html",
+    "title": "Voting Results",
+    "headings": [
+      "Voting Results",
+      "Annual General Meeting of",
+      "Fortuna Silver Mines Inc. (the “Company”)",
+      "held on June 6, 2012",
+      "Report of Voting Results",
+      "pursuant to Section 11.3 of National Instrument 51-102",
+      "Matter Voted Upon",
+      "Result",
+      "FORTUNA SILVER MINES INC."
+    ],
+    "text": "EX-99.1\n2\nvotingresults.htm\nANNUAL GENERAL MEETING VOTING RESULTS\n\nVoting Results\n\nAnnual General Meeting of\nFortuna Silver Mines Inc. (the “Company”)\nheld on June 6, 2012\n\nReport of Voting Results\npursuant to Section 11.3 of National Instrument 51-102\n\nMatter Voted Upon\n\nResult\n\nTo appoint Deloitte & Touche LLP as auditors of the Company for the ensuing year, at a remuneration to be determined by the Directors.\n\nApproved\n\nTo elect:\n \nJorge Ganoza Durant\nSimon Ridgway\nTomas Guerrero \nMichael Iverson\nMario Szotlender\nRobert Gilmore\nThomas Kelly\n\nas Directors of the Company to hold office until the next annual election of Directors or until their successors are elected or appointed.\n\nApproved\n\nDATED: June 6, 2012.\n\nFORTUNA SILVER MINES INC.\n\nPer:\n“Sally Whittall”\nSally Whittall, Corporate Secretary",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 3,
+        "rows": [
+          [
+            "Matter Voted Upon",
+            "Result"
+          ],
+          [
+            "To appoint Deloitte & Touche LLP as auditors of the Company for the ensuing year, at a remuneration to be determined by the Directors.",
+            "Approved"
+          ],
+          [
+            "To elect:\n \nJorge Ganoza Durant\nSimon Ridgway\nTomas Guerrero \nMichael Iverson\nMario Szotlender\nRobert Gilmore\nThomas Kelly\n\nas Directors of the Company to hold office until the next annual election of Directors or until their successors are elected or appointed.",
+            "Approved"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>votingresults.htm\n<DESCRIPTION>ANNUAL GENERAL MEETING VOTING RESULTS\n<TEXT>\n<!doctype html public \"-//IETF//DTD HTML//EN\">\n<HTML>\n<HEAD>\n<TITLE>Voting Results</TITLE>\n<META NAME=\"author\" CONTENT=\"swhittall\">\n<META NAME=\"date\" CONTENT=\"06/06/2012\">\n</HEAD>\n<BODY style=\"margin-top:0;font-family:Times New Roman; font-size:10pt; color:#000000\">\n<DIV style=\"width:864px\"><P style=\"margin:0px\" align=center><BR></P>\n<P style=\"margin:0px\" align=center><BR></P>\n<P style=\"margin:0px\" align=center><BR></P>\n<P style=\"margin:0px\" align=center><img src=\"votingresults001.jpg\" alt=\"[votingresults001.jpg]\" align=middle height=148.133 width=495.933></P>\n<P style=\"margin:0px\" align=center><BR></P>\n<P style=\"margin:0px; font-size:12pt\" align=center><B>Annual General Meeting of</B></P>\n<P style=\"margin:0px; font-size:12pt\" align=center><B>Fortuna Silver Mines Inc. (the &#147;Company&#148;)</B></P>\n<P style=\"margin:0px; font-size:12pt\" align=center><B>held on June 6, 2012</B></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px; font-size:12pt\" align=center><B>Report of Voting Results</B></P>\n<P style=\"margin:0px; font-size:12pt\" align=center><B>pursuant to Section 11.3 of National Instrument 51-102</B></P>\n<P style=\"margin:0px\" align=center><BR></P>\n<P style=\"margin:0px\" align=center><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<TABLE style=\"margin-top:0px; font-size:10pt\" cellpadding=0 cellspacing=0 align=center><TR height=0 style=\"font-size:0\"><TD width=369.467 /><TD width=164.4 /></TR>\n<TR><TD style=\"margin-top:0px; border:1px solid #000000\" valign=top width=369.467><P style=\"margin:0px\" align=center><BR></P>\n<P style=\"margin:0px; font-size:12pt\" align=center><B>Matter Voted Upon</B></P>\n</TD><TD style=\"margin-top:0px; border-top:1px solid #000000; border-right:1px solid #000000; border-bottom:1px solid #000000\" valign=top width=164.4><P style=\"margin:0px\" align=center><BR></P>\n<P style=\"margin:0px; font-size:12pt\" align=center><B>Result</B></P>\n</TD></TR>\n<TR><TD style=\"margin-top:0px; border-left:1px solid #000000; border-right:1px solid #000000; border-bottom:1px solid #000000\" valign=top width=369.467><P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px; padding-left:14.533px; padding-right:6.533px; font-size:12pt\">To appoint Deloitte &amp; Touche LLP as auditors of the Company for the ensuing year, at a remuneration to be determined by the Directors.</P>\n</TD><TD style=\"margin-top:0px; border-right:1px solid #000000; border-bottom:1px solid #000000\" valign=top width=164.4><P style=\"margin:0px\" align=center><BR></P>\n<P style=\"margin:0px; font-size:12pt\" align=center>Approved</P>\n</TD></TR>\n<TR><TD style=\"margin-top:0px; border-left:1px solid #000000; border-right:1px solid #000000; border-bottom:1px solid #000000\" valign=top width=369.467><P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px; padding-left:14.533px; padding-right:16.267px; font-size:12pt\">To elect:</P>\n<P style=\"margin:0px; padding-left:14.533px; padding-right:16.267px; font-size:12pt\">&nbsp;</P>\n<P style=\"margin:0px; padding-left:14.533px; padding-right:16.267px; text-indent:46.533px; font-size:12pt\" align=justify>Jorge Ganoza Durant</P>\n<P style=\"margin:0px; padding-left:14.533px; padding-right:16.267px; text-indent:46.533px; font-size:12pt\" align=justify>Simon Ridgway</P>\n<P style=\"margin:0px; padding-left:14.533px; padding-right:16.267px; text-indent:46.533px; font-size:12pt\" align=justify>Tomas Guerrero </P>\n<P style=\"margin:0px; padding-left:14.533px; padding-right:16.267px; text-indent:46.533px; font-size:12pt\" align=justify>Michael Iverson</P>\n<P style=\"margin:0px; padding-left:14.533px; padding-right:16.267px; text-indent:46.533px; font-size:12pt\" align=justify>Mario Szotlender</P>\n<P style=\"margin:0px; padding-left:14.533px; padding-right:16.267px; text-indent:46.533px; font-size:12pt\" align=justify>Robert Gilmore</P>\n<P style=\"margin:0px; padding-left:14.533px; padding-right:16.267px; text-indent:46.533px; font-size:12pt\" align=justify>Thomas Kelly</P>\n<P style=\"margin:0px\" align=justify><BR></P>\n<P style=\"margin:0px; padding-left:14.533px; font-size:12pt\">as Directors of the Company to hold office until the next annual election of Directors or until their successors are elected or appointed.</P>\n</TD><TD style=\"margin-top:0px; border-right:1px solid #000000; border-bottom:1px solid #000000\" valign=top width=164.4><P style=\"margin:0px\" align=center><BR></P>\n<P style=\"margin:0px; font-size:12pt\" align=center>Approved</P>\n</TD></TR>\n</TABLE>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px; padding-left:96px; font-size:12pt\">DATED: &nbsp;&nbsp;June 6, 2012.</P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px; padding-left:96px; font-size:12pt\"><B>FORTUNA SILVER MINES INC.</B></P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin-top:0px; margin-bottom:-2px; text-indent:96px; width:192px; font-size:12pt; float:left\">Per:</P>\n<P style=\"margin:0px; padding-left:96px; text-indent:-2px; font-size:12pt\"><U>&#147;</U><I><U>Sally Whittall</U></I><U>&#148;</U></P>\n<P style=\"margin:0px; padding-left:96px; text-indent:48px; font-size:12pt; clear:left\">Sally Whittall, Corporate Secretary</P>\n<P style=\"margin:0px\"><BR></P>\n<P style=\"margin:0px\"><BR>\n<BR></P>\n</DIV></BODY>\n<!-- EDGAR Validation Code: AF96FCB0 -->\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

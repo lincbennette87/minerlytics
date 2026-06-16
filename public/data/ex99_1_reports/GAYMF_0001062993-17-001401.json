@@ -1,0 +1,128 @@
+{
+  "ticker": "GAYMF",
+  "cik": "0001377757",
+  "form": "40-F",
+  "filingDate": "2017-03-16",
+  "accessionNumber": "0001062993-17-001401",
+  "primaryDocument": "form40f.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000106299317001401/0001062993-17-001401-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1377757/000106299317001401/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-06-11T16:58:10.741Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000106299317001401/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Asanko Gold Inc. - Exhibit 99.1 - Filed by newsfilecorp.com",
+    "headings": [
+      "Asanko Gold Inc. - Exhibit 99.1 - Filed by newsfilecorp.com",
+      "Exhibit 99.1",
+      "CERTIFICATION OF",
+      "THE CHIEF EXECUTIVE OFFICER",
+      "PURSUANT TO SECTION 302 OF",
+      "THE SARBANES-OXLEY ACT OF 2002"
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nEXHIBIT 99.1\n\n Asanko Gold Inc. - Exhibit 99.1 - Filed by newsfilecorp.com\n\nExhibit 99.1 \nCERTIFICATION OFTHE CHIEF EXECUTIVE OFFICER\nPURSUANT TO SECTION 302 OFTHE SARBANES-OXLEY ACT OF 2002\n\nI, Peter Breese, Chief Executive Officer of Asanko Gold Inc.,\ncertify that: \n\n \n (1) \n \n I have reviewed this Annual Report on Form 40-F of Asanko\n Gold Inc. for the year ended December 31, 2016.\n \n \n \n \n (2) \n \n Based on my knowledge, this report does not contain any\n untrue statement of a material fact or omit to state a material fact\n necessary to make the statements made, in light of the circumstances under\n which such statements were made, not misleading with respect to the period\n covered by this report.\n \n \n \n \n (3) \n \n Based on my knowledge, the financial statements, and\n other financial information included in this report, fairly present in all\n material respects the financial condition, results of operations and cash\n flows of the issuer as of, and for, the periods presented in this\n report.\n \n \n \n \n (4) \n \n The issuer’s other certifying officer(s) and I are\n responsible for establishing and maintaining disclosure controls and\n procedures (as defined in Exchange Act Rules 13a-15(e) and 15d-15(e)) and\n internal control over financial reporting (as defined in Exchange Act\n Rules 13a-15(f) and 15d-15(f)) for the issuer and\nhave:\n\n \n \n (a) \n \n designed such disclosure controls and procedures, or\n caused such disclosure controls and procedures to be designed under our\n supervision, to ensure that material information relating to the issuer,\n including its consolidated subsidiaries, is made known to us by others\n within those entities, particularly during the period in which this report\n is being prepared;\n \n \n \n \n \n \n (b) \n \n designed such internal control over financial reporting,\n or caused such internal control over financial reporting to be designed\n under our supervision, to provide reasonable assurance regarding the\n reliability of financial reporting and the preparation of financial\n statements for external purposes in accordance with generally accepted\n accounting principles;\n \n \n \n \n \n \n (c) \n \n evaluated the effectiveness of the issuer’s disclosure\n controls and procedures and presented in this report our conclusions about\n the effectiveness of the disclosure controls and procedures, as of the end\n of the period covered by this report based on such evaluation;\n and\n \n \n \n \n \n \n (d) \n \n disclosed in this report any change in the issuer’s\n internal control over financial reporting that occurred during the period\n covered by the annual report that has materially affected, or is\n reasonably likely to materially affect, the issuer’s internal control over\n financial reporting.\n\n \n (5) \n \n The issuer’s other certifying officer(s) and I have\n disclosed, based on our most recent evaluation of the internal control\n over financial reporting, to the issuer’s auditors and the audit committee\n of the issuer’s board of directors (or persons performing the equivalent\n functions):\n\n \n \n (a) \n \n all significant deficiencies and material weaknesses in\n the design or operation of internal control over financial reporting which\n are reasonably likely to adversely affect the issuer’s ability to record,\n process, summarize and report financial information;\nand\n\n \n \n (b) \n \n any fraud, whether or not material, that involves\n management or other employees who have a significant role in the issuer’s\n internal control over financial reporting.\nDate: March 15, 2017 \n\n \n By: \n /s/ Peter Breese \n \n \n Name: \n Peter Breese \n \n \n Title: \n Chief Executive Officer \n \n \n \n (Principal Executive Officer)",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 4,
+        "rows": [
+          [
+            "(1)",
+            "I have reviewed this Annual Report on Form 40-F of Asanko\n Gold Inc. for the year ended December 31, 2016."
+          ],
+          [
+            "(2)",
+            "Based on my knowledge, this report does not contain any\n untrue statement of a material fact or omit to state a material fact\n necessary to make the statements made, in light of the circumstances under\n which such statements were made, not misleading with respect to the period\n covered by this report."
+          ],
+          [
+            "(3)",
+            "Based on my knowledge, the financial statements, and\n other financial information included in this report, fairly present in all\n material respects the financial condition, results of operations and cash\n flows of the issuer as of, and for, the periods presented in this\n report."
+          ],
+          [
+            "(4)",
+            "The issuer’s other certifying officer(s) and I are\n responsible for establishing and maintaining disclosure controls and\n procedures (as defined in Exchange Act Rules 13a-15(e) and 15d-15(e)) and\n internal control over financial reporting (as defined in Exchange Act\n Rules 13a-15(f) and 15d-15(f)) for the issuer and\nhave:"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 4,
+        "rows": [
+          [
+            "(a)",
+            "designed such disclosure controls and procedures, or\n caused such disclosure controls and procedures to be designed under our\n supervision, to ensure that material information relating to the issuer,\n including its consolidated subsidiaries, is made known to us by others\n within those entities, particularly during the period in which this report\n is being prepared;"
+          ],
+          [
+            "(b)",
+            "designed such internal control over financial reporting,\n or caused such internal control over financial reporting to be designed\n under our supervision, to provide reasonable assurance regarding the\n reliability of financial reporting and the preparation of financial\n statements for external purposes in accordance with generally accepted\n accounting principles;"
+          ],
+          [
+            "(c)",
+            "evaluated the effectiveness of the issuer’s disclosure\n controls and procedures and presented in this report our conclusions about\n the effectiveness of the disclosure controls and procedures, as of the end\n of the period covered by this report based on such evaluation;\n and"
+          ],
+          [
+            "(d)",
+            "disclosed in this report any change in the issuer’s\n internal control over financial reporting that occurred during the period\n covered by the annual report that has materially affected, or is\n reasonably likely to materially affect, the issuer’s internal control over\n financial reporting."
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 1,
+        "rows": [
+          [
+            "(5)",
+            "The issuer’s other certifying officer(s) and I have\n disclosed, based on our most recent evaluation of the internal control\n over financial reporting, to the issuer’s auditors and the audit committee\n of the issuer’s board of directors (or persons performing the equivalent\n functions):"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 3,
+        "rowCount": 1,
+        "rows": [
+          [
+            "(a)",
+            "all significant deficiencies and material weaknesses in\n the design or operation of internal control over financial reporting which\n are reasonably likely to adversely affect the issuer’s ability to record,\n process, summarize and report financial information;\nand"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 4,
+        "rowCount": 1,
+        "rows": [
+          [
+            "(b)",
+            "any fraud, whether or not material, that involves\n management or other employees who have a significant role in the issuer’s\n internal control over financial reporting."
+          ]
+        ]
+      },
+      {
+        "tableIndex": 5,
+        "rowCount": 4,
+        "rows": [
+          [
+            "By:",
+            "/s/ Peter Breese"
+          ],
+          [
+            "Name:",
+            "Peter Breese"
+          ],
+          [
+            "Title:",
+            "Chief Executive Officer"
+          ],
+          [
+            "(Principal Executive Officer)"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<HTML>\n<HEAD>\n   <TITLE>Asanko Gold Inc. - Exhibit 99.1 - Filed by newsfilecorp.com</TITLE>\n</HEAD>\n<BODY style=\"font-size:10pt;\">\n<HR noshade align=\"center\" width=100% size=3 color=\"black\">\n<A name=page_1></A>\n<P align=right><B>Exhibit 99.1</B> </P>\n<P align=center><B>CERTIFICATION OF</B><BR><B>THE CHIEF EXECUTIVE OFFICER\n</B><BR><B>PURSUANT TO SECTION 302 OF</B><BR><B>THE SARBANES-OXLEY ACT OF 2002\n</B><BR></P>\n<P align=justify>I, Peter Breese, Chief Executive Officer of Asanko Gold Inc.,\ncertify that: </P>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0 BCLLIST>\n\n  <TR>\n    <TD vAlign=top width=\"5%\">(1) </TD>\n    <TD>\n      <P align=justify>I have reviewed this Annual Report on Form 40-F of Asanko\n      Gold Inc. for the year ended December 31, 2016.</P></TD></TR>\n  <TR>\n    <TD width=\"5%\">&nbsp;</TD>\n    <TD>&nbsp;</TD></TR>\n  <TR>\n    <TD vAlign=top width=\"5%\">(2) </TD>\n    <TD>\n      <P align=justify>Based on my knowledge, this report does not contain any\n      untrue statement of a material fact or omit to state a material fact\n      necessary to make the statements made, in light of the circumstances under\n      which such statements were made, not misleading with respect to the period\n      covered by this report.</P></TD></TR>\n  <TR>\n    <TD width=\"5%\">&nbsp;</TD>\n    <TD>&nbsp;</TD></TR>\n  <TR>\n    <TD vAlign=top width=\"5%\">(3) </TD>\n    <TD>\n      <P align=justify>Based on my knowledge, the financial statements, and\n      other financial information included in this report, fairly present in all\n      material respects the financial condition, results of operations and cash\n      flows of the issuer as of, and for, the periods presented in this\n      report.</P></TD></TR>\n  <TR>\n    <TD width=\"5%\">&nbsp;</TD>\n    <TD>&nbsp;</TD></TR>\n  <TR>\n    <TD vAlign=top width=\"5%\">(4) </TD>\n    <TD>\n      <P align=justify>The issuer&#146;s other certifying officer(s) and I are\n      responsible for establishing and maintaining disclosure controls and\n      procedures (as defined in Exchange Act Rules 13a-15(e) and 15d-15(e)) and\n      internal control over financial reporting (as defined in Exchange Act\n      Rules 13a-15(f) and 15d-15(f)) for the issuer and\nhave:</P></TD></TR></TABLE><BR>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0 BCLLIST>\n\n  <TR>\n    <TD width=\"5%\"  >&nbsp;</TD>\n    <TD vAlign=top width=\"5%\">(a) </TD>\n    <TD>\n      <P align=justify>designed such disclosure controls and procedures, or\n      caused such disclosure controls and procedures to be designed under our\n      supervision, to ensure that material information relating to the issuer,\n      including its consolidated subsidiaries, is made known to us by others\n      within those entities, particularly during the period in which this report\n      is being prepared;</P></TD></TR>\n  <TR>\n    <TD width=\"5%\" >&nbsp;</TD>\n    <TD width=\"5%\">&nbsp;</TD>\n    <TD>&nbsp;</TD></TR>\n  <TR>\n    <TD width=\"5%\" >&nbsp;</TD>\n    <TD vAlign=top width=\"5%\">(b) </TD>\n    <TD>\n      <P align=justify>designed such internal control over financial reporting,\n      or caused such internal control over financial reporting to be designed\n      under our supervision, to provide reasonable assurance regarding the\n      reliability of financial reporting and the preparation of financial\n      statements for external purposes in accordance with generally accepted\n      accounting principles;</P></TD></TR>\n  <TR>\n    <TD width=\"5%\" >&nbsp;</TD>\n    <TD width=\"5%\">&nbsp;</TD>\n    <TD>&nbsp;</TD></TR>\n  <TR>\n    <TD width=\"5%\" >&nbsp;</TD>\n    <TD vAlign=top width=\"5%\">(c) </TD>\n    <TD>\n      <P align=justify>evaluated the effectiveness of the issuer&#146;s disclosure\n      controls and procedures and presented in this report our conclusions about\n      the effectiveness of the disclosure controls and procedures, as of the end\n      of the period covered by this report based on such evaluation;\n  and</P></TD></TR>\n  <TR>\n    <TD width=\"5%\" >&nbsp;</TD>\n    <TD width=\"5%\">&nbsp;</TD>\n    <TD>&nbsp;</TD></TR>\n  <TR>\n    <TD width=\"5%\" >&nbsp;</TD>\n    <TD vAlign=top width=\"5%\">(d) </TD>\n    <TD>\n      <P align=justify>disclosed in this report any change in the issuer&#146;s\n      internal control over financial reporting that occurred during the period\n      covered by the annual report that has materially affected, or is\n      reasonably likely to materially affect, the issuer&#146;s internal control over\n      financial reporting.</P></TD></TR></TABLE><BR>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0 BCLLIST>\n\n  <TR>\n    <TD vAlign=top width=\"5%\">(5) </TD>\n    <TD>\n      <P align=justify>The issuer&#146;s other certifying officer(s) and I have\n      disclosed, based on our most recent evaluation of the internal control\n      over financial reporting, to the issuer&#146;s auditors and the audit committee\n      of the issuer&#146;s board of directors (or persons performing the equivalent\n      functions):</P></TD></TR></TABLE><BR>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0 BCLLIST>\n\n  <TR>\n    <TD width=\"5%\"  >&nbsp;</TD>\n    <TD vAlign=top width=\"5%\">(a) </TD>\n    <TD>\n      <P align=justify>all significant deficiencies and material weaknesses in\n      the design or operation of internal control over financial reporting which\n      are reasonably likely to adversely affect the issuer&#146;s ability to record,\n      process, summarize and report financial information;\nand</P></TD></TR></TABLE><BR>\n<A name=page_2></A>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0 BCLLIST>\n\n  <TR>\n    <TD width=\"5%\"  >&nbsp;</TD>\n    <TD vAlign=top width=\"5%\">(b) </TD>\n    <TD>\n      <P align=justify>any fraud, whether or not material, that involves\n      management or other employees who have a significant role in the issuer&#146;s\n      internal control over financial reporting.</P></TD></TR></TABLE>\n<P align=justify>Date: March 15, 2017 </P>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0>\n\n  <TR vAlign=top>\n    <TD align=left>By: </TD>\n    <TD style=\"BORDER-BOTTOM: #000000 1px solid\" align=left width=\"45%\"\n    >/s/ Peter Breese </TD>\n    <TD align=left width=\"50%\"  >&nbsp;</TD></TR>\n  <TR vAlign=top>\n    <TD align=left>Name: </TD>\n    <TD align=left width=\"45%\" >Peter Breese </TD>\n    <TD align=left width=\"50%\"  >&nbsp;</TD></TR>\n  <TR vAlign=top>\n    <TD align=left>Title: </TD>\n    <TD align=left width=\"45%\" >Chief Executive Officer </TD>\n    <TD align=left width=\"50%\"  >&nbsp;</TD></TR>\n  <TR vAlign=top>\n    <TD align=left>&nbsp; </TD>\n    <TD align=left width=\"45%\" >(Principal Executive Officer) </TD>\n    <TD align=left width=\"50%\"\n>&nbsp;</TD></TR></TABLE><BR>\n<HR align=center width=\"100%\" color=black noShade SIZE=5>\n</BODY>\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

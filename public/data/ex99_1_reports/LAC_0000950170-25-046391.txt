@@ -1,0 +1,2545 @@
+EX-99.1
+2
+lac-ex99_1.htm
+EX-99.1
+
+ 
+ EX-99.1
+ 
+ 
+ 
+ 
+ Exhibit 99.1
+ 
+ NOTICE TO READER
+ 
+ As of January 1, 2025, based on a calculation made as of June 30, 2024, being the last business day of the second quarter, Lithium Americas Corp. (the “Company”) is considered a domestic filer in the United States instead of a foreign private issuer.
+ 
+ Accordingly, the Company is now required to prepare its financial statements filed with the Securities and Exchange Commission (“SEC”) in accordance with generally accepted accounting principles in the United States (“U.S. GAAP”) instead of IFRS® Accounting Standards as issued by the International Accounting Standards Board. As required pursuant to section 4.3(4) of National Instrument 51-102 - Continuous Disclosure Obligations of the Canadian Securities Administrators, the Company must restate its interim financial reports for the fiscal year ended December 31, 2024 in accordance with U.S. GAAP as such interim financial reports having previously been prepared in accordance with IFRS® Accounting Standards.
+ 
+ Accordingly, the attached condensed consolidated interim financial statements (the “Financial Statements”) for the three months ended March 31, 2024 and 2023 have been prepared in accordance with U.S. GAAP. The Financial Statements do not update or restate the information in the original financial statements.
+ 
+ The Company’s Annual Report for the fiscal year ended December 31, 2024 on Form 10-K (the “Annual Report”) dated March 28, 2025 is available under the Company’s profile on SEDAR at www.sedar.com and EDGAR at www.sec.gov. Readers are cautioned that these Financial Statements should be read in conjunction with the annual report, including the audited consolidated financial statements and the related notes thereto included in item 8 thereof. 
+ 
+ 
+ 
+ LITHIUM AMERICAS CORP. (FORMERLY 1397468 B.C. LTD.) CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS(Unaudited)(Expressed in thousands of U.S. dollars, except for shares in thousands) 
+ 
+ CONDENSED CONSOLIDATED INTERIM BALANCE SHEETS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ March 31, 2024
+ 
+ 
+ December 31, 2023
+ 
+ 
+ 
+ ASSETS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash and cash equivalents (Note 2)
+ $
+ 147,242
+ 
+ $
+ 195,516
+ 
+ 
+ 
+ Receivables
+ 
+ 1,028
+ 
+ 
+ 4,494
+ 
+ 
+ 
+ Prepaids and deposits
+ 
+ 5,060
+ 
+ 
+ 5,873
+ 
+ 
+ 
+ Total current assets
+ 
+ 153,330
+ 
+ 
+ 205,883
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Investments measured at fair value (Note 3)
+ 
+ 9,838
+ 
+ 
+ 11,162
+ 
+ 
+ 
+ Restricted cash
+ 
+ 288
+ 
+ 
+ 288
+ 
+ 
+ 
+ Mineral properties, plant and equipment, net (Note 4)
+ 
+ 262,223
+ 
+ 
+ 200,558
+ 
+ 
+ 
+ Other assets (Note 5)
+ 
+ 7,836
+ 
+ 
+ 19,000
+ 
+ 
+ 
+ Total assets
+ $
+ 433,515
+ 
+ $
+ 436,891
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ LIABILITIES
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Accounts payable 
+ $
+ 281
+ 
+ $
+ 4,595
+ 
+ 
+ 
+ Accrued liabilities
+ 
+ 20,512
+ 
+ 
+ 18,766
+ 
+ 
+ 
+ Current portion of lease liabilities (Note 7)
+ 
+ 933
+ 
+ 
+ 878
+ 
+ 
+ 
+ GM Tranche 2 liability (Note 6)
+ 
+ 528
+ 
+ 
+ 348
+ 
+ 
+ 
+ Total current liabilities
+ 
+ 22,254
+ 
+ 
+ 24,587
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Royalty and production payment arrangements (Note 8)
+ 
+ 20,869
+ 
+ 
+ 20,747
+ 
+ 
+ 
+ Lease liabilities (Note 7)
+ 
+ 3,077
+ 
+ 
+ 3,016
+ 
+ 
+ 
+ Reclamation liabilities
+ 
+ 112
+ 
+ 
+ 112
+ 
+ 
+ 
+ Other liabilities
+ 
+ 3,500
+ 
+ 
+ 3,500
+ 
+ 
+ 
+ Total liabilities
+ 
+ 49,812
+ 
+ 
+ 51,962
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Commitments (Note 16)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ STOCKHOLDERS’ EQUITY
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Common stock, no par value, unlimited authorized; 162,151 and 161,778 shares issued and outstanding, respectively
+ 
+ 385,938
+ 
+ 
+ 383,063
+ 
+ 
+ 
+ Additional paid-in capital
+ 
+ 17,183
+ 
+ 
+ 15,020
+ 
+ 
+ 
+ Accumulated deficit
+ 
+ (19,418)
+ 
+ 
+ (13,154)
+ 
+ 
+ 
+ Total stockholders’ equity
+ 
+ 383,703
+ 
+ 
+ 384,929
+ 
+ 
+ 
+ Total liabilities and stockholders’ equity
+ $
+ 433,515
+ 
+ $
+ 436,891
+ 
+ 
+ 
+ 
+ Subsequent events (Note 17)
+ 
+ The accompanying notes are an integral part of the Condensed Consolidated Interim Financial Statements.
+ 1
+ 
+ LITHIUM AMERICAS CORP. (FORMERLY 1397468 B.C. LTD.) CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS(Unaudited)(Expressed in thousands of U.S. dollars, except for per share amounts and shares in thousands) 
+ CONDENSED CONSOLIDATED INTERIM STATEMENTS OF LOSS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three Months Ended March 31,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 2023
+ 
+ 
+ 
+ Operating expenses
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Exploration expenditures
+ 
+ 
+ 
+ $
+ -
+ 
+ 
+ 
+ $
+ (3,800
+ )
+ 
+ 
+ General and administrative expenses (Note 11)
+ 
+ 
+ 
+ 
+ (5,803
+ )
+ 
+ 
+ 
+ (1,915
+ )
+ 
+ 
+ Total operating expenses 
+ 
+ 
+ 
+ 
+ (5,803
+ )
+ 
+ 
+ 
+ (5,715
+ )
+ 
+ 
+ Other income (expense)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Transaction costs (Note 12)
+ 
+ 
+ 
+ 
+ (865
+ )
+ 
+ 
+ 
+ (4,028
+ )
+ 
+ 
+ (Loss) gain on financial instruments measured at fair value (Notes 3, 6)
+ 
+ 
+ 
+ 
+ (1,504
+ )
+ 
+ 
+ 
+ 8,246
+ 
+ 
+ 
+ Interest expense
+ 
+ 
+ 
+ (1
+ )
+ 
+ 
+ 
+ (400
+ )
+ 
+ 
+ Other income (expense) (Note 13)
+ 
+ 
+ 
+ 
+ 1,909
+ 
+ 
+ 
+ 
+ 9
+ 
+ 
+ 
+ Total other income (expense)
+ 
+ 
+ 
+ 
+ (461
+ )
+ 
+ 
+ 
+ 3,827
+ 
+ 
+ 
+ Net loss
+ 
+ 
+ 
+ $
+ (6,264
+ )
+ 
+ 
+ $
+ (1,888
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Basic and diluted net loss per share (Note 10)
+ 
+ 
+ 
+ $
+ (0.04
+ )
+ 
+ 
+ $
+ (0.01
+ )
+ 
+ 
+ Weighted average number of common shares outstanding, basic and diluted
+ 
+ 
+ 
+ 
+ 162,042
+ 
+ 
+ 
+ 
+ 160,048
+ 
+ 
+ 
+ 
+ 
+ The accompanying notes are an integral part of the Condensed Consolidated Interim Financial Statements.
+ 2
+ 
+ LITHIUM AMERICAS CORP. (FORMERLY 1397468 B.C. LTD.) CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS(Unaudited)(Expressed in thousands of U.S. dollars, except shares in thousands) 
+ CONDENSED CONSOLIDATED INTERIM STATEMENTS OF CHANGES IN EQUITY
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Common stock
+ 
+ Additional paid-in capital
+ 
+ Net former parent investment
+ 
+ Accumulated deficit
+ 
+ Total stockholders’ equity
+ 
+ 
+ 
+ 
+ Number of shares
+ 
+ Amount
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance, January 1, 2023
+ -
+ $
+ -
+ $
+ -
+ $
+ (55,795)
+ $
+ -
+ $
+ (55,795)
+ 
+ 
+ 
+ Contribution from former parent
+ -
+ 
+ -
+ 
+ -
+ 
+ 16,485
+ 
+ -
+ 
+ 16,485
+ 
+ 
+ 
+ General Motors transaction (Note 6)
+ -
+ 
+ -
+ 
+ -
+ 
+ 271,737
+ 
+ -
+ 
+ 271,737
+ 
+ 
+ 
+ Net loss
+ -
+ 
+ -
+ 
+ -
+ 
+ (1,888)
+ 
+ -
+ 
+ (1,888)
+ 
+ 
+ 
+ Balance, March 31, 2023
+ -
+ $
+ -
+ $
+ -
+ $
+ 230,539
+ $
+ -
+ $
+ 230,539
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance, December 31, 2023
+ 161,778
+ $
+ 383,063
+ $
+ 15,020
+ $
+ -
+ $
+ (13,154)
+ $
+ 384,929
+ 
+ 
+ 
+ Shares issued on conversion of stock-based awards (Note 9)
+ 373
+ 
+ 2,875
+ 
+ (2,875)
+ 
+ -
+ 
+ -
+ 
+ -
+ 
+ 
+ 
+ Stock-based compensation (Note 9)
+ -
+ 
+ -
+ 
+ 5,038
+ 
+ -
+ 
+ -
+ 
+ 5,038
+ 
+ 
+ 
+ Net loss
+ -
+ 
+ -
+ 
+ -
+ 
+ -
+ 
+ (6,264)
+ 
+ (6,264)
+ 
+ 
+ 
+ Balance, March 31, 2024
+ 162,151
+ $
+ 385,938
+ $
+ 17,183
+ $
+ -
+ $
+ (19,418)
+ $
+ 383,703
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The accompanying notes are an integral part of the Condensed Consolidated Interim Financial Statements.
+ 3
+ 
+ LITHIUM AMERICAS CORP. (FORMERLY 1397468 B.C. LTD.) CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS(Unaudited)(Expressed in thousands of U.S. dollars) 
+ CONDENSED CONSOLIDATED INTERIM STATEMENTS OF CASH FLOWS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three Months Ended March 31,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ Operating activities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net loss
+ 
+ 
+ 
+ 
+ $
+ (6,264
+ )
+ 
+ $
+ (1,888
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Adjustments for:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Depreciation
+ 
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 135
+ 
+ 
+ 
+ Stock-based compensation (Note 9)
+ 
+ 
+ 
+ 
+ 
+ 1,389
+ 
+ 
+ 
+ 97
+ 
+ 
+ 
+ Amortization of right-of-use asset
+ 
+ 
+ 
+ 
+ 
+ 204
+ 
+ 
+ 
+ 164
+ 
+ 
+ 
+ Loss/(gain) on financial instruments measured at fair value (Notes 3, 6)
+ 
+ 
+ 
+ 
+ 
+ 1,504
+ 
+ 
+ 
+ (8,246
+ )
+ 
+ 
+ Other items
+ 
+ 
+ 
+ 
+ 
+ (6
+ )
+ 
+ 
+ 43
+ 
+ 
+ 
+ Changes in operating assets and liabilities:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Decrease/(increase) in receivables
+ 
+ 
+ 
+ 
+ 
+ 3,239
+ 
+ 
+ 
+ (33
+ )
+ 
+ 
+ Decrease/(increase) in prepaids and deposits
+ 
+ 
+ 
+ 
+ 
+ 627
+ 
+ 
+ 
+ (51
+ )
+ 
+ 
+ Decrease in accounts payable
+ 
+ 
+ 
+ 
+ 
+ (10,274
+ )
+ 
+ 
+ (5,023
+ )
+ 
+ 
+ Increase/(decrease) in accrued liabilities
+ 
+ 
+ 
+ 
+ 
+ 7,592
+ 
+ 
+ 
+ (3,635
+ )
+ 
+ 
+ Operating lease payments, net of non-cash interest accrual
+ 
+ 
+ 
+ 
+ 
+ (192
+ )
+ 
+ 
+ (164
+ )
+ 
+ 
+ Net cash used in operating activities
+ 
+ 
+ 
+ 
+ 
+ (2,181
+ )
+ 
+ 
+ (18,601
+ )
+ 
+ 
+ Investing activities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Additions to mineral properties, plant and equipment
+ 
+ 
+ 
+ 
+ 
+ (46,081
+ )
+ 
+ 
+ (9,851
+ )
+ 
+ 
+ Net cash used in investing activities
+ 
+ 
+ 
+ 
+ 
+ (46,081
+ )
+ 
+ 
+ (9,851
+ )
+ 
+ 
+ Financing activities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Contributions from former parent
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 16,388
+ 
+ 
+ 
+ Gross proceeds from GM transaction (Note 6)
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ 320,148
+ 
+ 
+ 
+ Payment of costs related to the GM transaction (Note 6)
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ (173
+ )
+ 
+ 
+ Principal payments on finance lease obligations
+ 
+ 
+ 
+ 
+ 
+ (12
+ )
+ 
+ 
+ (10
+ )
+ 
+ 
+ Net cash (used in)/provided by financing activities
+ 
+ 
+ 
+ 
+ 
+ (12
+ )
+ 
+ 
+ 336,353
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net (decrease) increase in cash, cash equivalents, and restricted cash
+ 
+ 
+ 
+ 
+ 
+ (48,274
+ )
+ 
+ 
+ 307,901
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash, cash equivalents, and restricted cash, beginning of period 1
+ 
+ 
+ 
+ 
+ 
+ 195,804
+ 
+ 
+ 
+ 636
+ 
+ 
+ 
+ Cash, cash equivalents, and restricted cash, end of period 1
+ 
+ 
+ 
+ 
+ $
+ 147,530
+ 
+ 
+ $
+ 308,537
+ 
+ 
+ 
+ 1 March 31, 2024 and December 31, 2023 balances include restricted cash of $288.
+ 
+ Supplemental disclosure with respect to cash flows (Note 14)
+ 
+ 
+ The accompanying notes are an integral part of the Condensed Consolidated Interim Financial Statements.
+ 4
+ 
+ LITHIUM AMERICAS CORP. (FORMERLY 1397468 B.C. LTD.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS(Expressed in thousands of U.S. dollars, except for per share amounts; shares and equity instruments in thousands)
+ 1.BACKGROUND AND BASIS OF PRESENTATION
+ 
+ Background and Nature of Operations
+ Lithium Americas Corp., (the “Company” or “New LAC”) is principally focused on development of Thacker Pass ("Thacker Pass"), a sedimentary-based lithium project located in the McDermitt Caldera in Humboldt County in north-western Nevada, USA. The Company operates in one operating segment and one geographical area. Thacker Pass was in the exploration and evaluation phase and was transferred to the development stage effective February 1, 2023. Substantially all the assets and the liabilities of the Company relate to Thacker Pass.
+ The Company was incorporated on January 23, 2023, under the Business Corporations Act (British Columbia) in anticipation of separating the North American business (“LAC North America”) from the Company’s former parent, an entity then named Lithium Americas Corp. (“Old LAC,” initially named Lithium Americas (Argentina) Corp. and now Lithium Argentina AG (“Lithium Argentina”)). On October 3, 2023, upon completing the separation transaction (the “Separation”), the Company changed its name from 1397468 B.C. Ltd. to Lithium Americas Corp. The Separation was completed pursuant to a statutory plan of arrangement (the “Arrangement”). As a result, shareholders of the original company, Old LAC, retained their proportionate interests in both Old LAC and the newly formed entity, New LAC, before and after Separation. Following the Separation, Lithium Argentina and the Company became independent public companies. The Company’s common shares are listed on the New York Stock Exchange (“NYSE”) and on the Toronto Stock Exchange (“TSX”) under the symbol “LAC.”
+ To date, the Company has not generated revenues from operations and has relied on equity financing to fund operations. The underlying values of mineral properties, plant and equipment, including Thacker Pass, are dependent on the existence of economically recoverable reserves, maintaining title and beneficial interest in the properties, and the ability of the Company to obtain the debt financing arrangements to complete development and to attain future profitable operations.
+ Basis of Presentation
+ The unaudited condensed consolidated interim financial statements (the “Interim Statements”) of the Company have been prepared in accordance with U.S. General Accepted Accounting Principles (“U.S. GAAP”) and applicable rules and regulations of the Securities and Exchange Commission ("SEC”) for interim financial information. Accordingly, they do not include all the information and notes required by U.S. GAAP for complete financial statements. The Interim Statements include all adjustments considered necessary by management to fairly state the financial position, results of operations and cash flows for the interim periods reported. The operating results for the interim periods presented are not necessarily indicative of results that may be expected for any other interim period or for the full year. These Interim Statements are expressed in U.S. dollars (“USD”), the Company’s presentation and functional currency.
+ These Interim Statements should be read in conjunction with the annual consolidated financial statements and notes thereto and the summary of significant accounting policies included in the Company’s annual report on Form 10-K for the year ended December 31, 2024, as filed with the SEC on March 28, 2025. These policies have been applied on a consistent basis for all periods. Information related to recent accounting pronouncements which are not yet effective is included in the summary of significant accounting policies note for the year ended December 31, 2024.
+ Previously, the Company prepared its consolidated financial statements under IFRS® Accounting Standards as issued by the International Accounting Standards Board as permitted by securities regulators in Canada and in the United States for companies that meet the definition of a Foreign Private Issuer, as defined by the SEC. As of June 30, 2024, the Company determined that it no longer met the definition of a Foreign Private Issuer. As a result, beginning January 1, 2025, the Company is required to follow SEC reporting standards applicable to U.S. domestic issuers and transitioned its accounting from IFRS® Accounting Standards to U.S. GAAP. The transition was made retrospectively for all periods presented and included the adoption of any relevant U.S. GAAP accounting pronouncements.
+ 5
+ 
+ LITHIUM AMERICAS CORP. (FORMERLY 1397468 B.C. LTD.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS(Expressed in thousands of U.S. dollars, except for per share amounts; shares and equity instruments in thousands)
+ These Interim Statements reflect (i) the activities of the Company from and after the Separation on October 3, 2023, and (ii) the activities of LAC North America on a "carve-out" basis prior to that date. Prior to Separation, LAC North America did not operate as a separate legal entity. The assets, liabilities, and results of operations prior to October 3, 2023 represent those specifically identifiable to LAC North America including assets, liabilities, and expenses relating to Thacker Pass, specified investments, transactions and balances arising from an original investment from General Motors, as well as an allocation of certain costs relating to the management of those relevant assets, liabilities, and results of operations. Such costs have been allocated from the shared corporate expenses of Old LAC based on the estimated level of involvement of Old LAC management and employees with LAC North America. 
+ 
+ These Interim Statements have been prepared on the assumption that the Company is a going concern and will be able to realize its assets and discharge its liabilities and commitments in the normal course of business for the next 12 months.
+ 2.CASH AND CASH EQUIVALENTS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ March 31,2024
+ 
+ 
+ December 31,2023
+ 
+ 
+ 
+ Cash
+ 
+ $
+ 10,943
+ 
+ 
+ $
+ 12,050
+ 
+ 
+ 
+ Cash equivalents
+ 
+ 
+ 136,299
+ 
+ 
+ 
+ 183,466
+ 
+ 
+ 
+ Total
+ 
+ $
+ 147,242
+ 
+ 
+ $
+ 195,516
+ 
+ 
+ 
+ As at March 31, 2024, $1,437 of cash and cash equivalents were held in Canadian dollars (December 31, 2023 – $8,476), and $145,805 in U.S. dollars (December 31, 2023 – $187,040). Cash equivalents include investments in U.S. treasury bills, short-term savings and deposit accounts with two Canadian Schedule I chartered banks that mature within 90 days of the date of acquisition and earn interest between 5.0-5.5% per annum. The majority of the Company’s cash is available only for use in relation to Thacker Pass and is not available for general corporate purposes.
+ 3.INVESTMENTS MEASURED AT FAIR VALUE
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ March 31,2024
+ 
+ 
+ December 31,2023
+ 
+ 
+ 
+ Investment in GT1 (ASX: GT1) (Note 15)
+ 
+ $
+ 1,256
+ 
+ 
+ $
+ 2,580
+ 
+ 
+ 
+ Investment in Ascend Elements (Note 15)
+ 
+ 
+ 8,582
+ 
+ 
+ 
+ 8,582
+ 
+ 
+ 
+ Total
+ 
+ $
+ 9,838
+ 
+ 
+ $
+ 11,162
+ 
+ 
+ 
+ 
+ As at March 31, 2024 and December 31, 2023, the Company holds 13,301 common shares (representing approximately 4% of ownership), of Green Technology Metals Limited (“GT1”). During the three months ended March 31, 2024, and 2023, respectively, a loss on change in fair value of $1,324 (2023 - $814) was recognized in the condensed consolidated interim statements of loss.
+ 
+ As at March 31, 2024 and December 31, 2023, the Company holds 806 Series C-1 preferred shares of Ascend Elements, Inc. (“Ascend Elements”), a private U.S. based lithium-ion battery recycling and engineered material company.
+ 4.MINERAL PROPERTIES, PLANT AND EQUIPMENT, NET
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ March 31,2024
+ 
+ 
+ December 31,2023
+ 
+ 
+ 
+ Thacker Pass
+ 
+ $
+ 260,881
+ 
+ 
+ $
+ 199,060
+ 
+ 
+ 
+ Machinery and equipment
+ 
+ 
+ 2,644
+ 
+ 
+ 
+ 2,622
+ 
+ 
+ 
+ Finance lease right-of-use assets
+ 
+ 
+ 236
+ 
+ 
+ 
+ 236
+ 
+ 
+ 
+ Other
+ 
+ 
+ 892
+ 
+ 
+ 
+ 892
+ 
+ 
+ 
+ Total mineral properties, plant and equipment
+ 
+ 
+ 264,653
+ 
+ 
+ 
+ 202,810
+ 
+ 
+ 
+ Accumulated depreciation
+ 
+ 
+ (2,430
+ )
+ 
+ 
+ (2,252
+ )
+ 
+ 
+ Mineral properties, plant and equipment, net
+ 
+ $
+ 262,223
+ 
+ 
+ $
+ 200,558
+ 
+ 
+ 
+ 
+ 6
+ 
+ LITHIUM AMERICAS CORP. (FORMERLY 1397468 B.C. LTD.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS(Expressed in thousands of U.S. dollars, except for per share amounts; shares and equity instruments in thousands)
+ 5.OTHER ASSETS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ March 31,2024
+ 
+ 
+ December 31,2023
+ 
+ 
+ 
+ Operating lease right-of-use assets
+ 
+ $
+ 3,803
+ 
+ 
+ $
+ 3,685
+ 
+ 
+ 
+ Prepaid insurance, Thacker Pass
+ 
+ 
+ 2,647
+ 
+ 
+ 
+ 2,456
+ 
+ 
+ 
+ Deposits on long-lead equipment
+ 
+ 
+ 1,386
+ 
+ 
+ 
+ 12,859
+ 
+ 
+ 
+ Total
+ 
+ $
+ 7,836
+ 
+ 
+ $
+ 19,000
+ 
+ 
+ 
+ 
+ Operating lease right-of-use assets include office leases and a land lease associated with Thacker Pass.
+ 6.AGREEMENTS WITH GENERAL MOTORS
+ On January 30, 2023, Old LAC entered into an agreement with General Motors Holdings LLC (“GM”), pursuant to which GM agreed to make a $650,000 equity investment (the “Original GM Transaction”), the proceeds from which were to be used for the construction and development of Thacker Pass. The Original GM Transaction was comprised of two tranches, with GM having made a $320,148 first tranche investment (the “Tranche 1 Investment”) in the shares of Old LAC and a planned second tranche subscription agreement of up to $329,852 (the “Tranche 2 Investment”) to be made upon satisfaction of certain conditions including securing of sufficient funding to complete the development of Phase 1 of Thacker Pass. On February 16, 2023, the Tranche 1 Investment closed, resulting in GM’s purchase of 15,002 common shares of Old LAC. The net proceeds of the Tranche 1 Investment, net of $33,194 allocated to the Tranche 2 subscription agreement, were recorded as a contribution from Old LAC to LAC North America, net of allocated transaction costs of $15,217.
+ Upon Separation from Old LAC, the Company assumed Old LAC’s position in the Original GM Transaction and GM became a shareholder in the Company. The Tranche 2 Investment agreement was amended upon Separation, remaining in effect until October 15, 2024 (Note 17).
+ GM Tranche 2 Agreement
+ The Tranche 2 investment provided that GM would purchase common shares of the Company subject to the satisfaction of certain conditions precedent, including the condition that the Company secured, subject to certain conditions, sufficient funding to complete the development of Phase 1 for Thacker Pass by an outside date of August 2024. The subscription agreement called for an aggregate purchase price of up to $329,852, with the number of shares to be determined using a price equal to the lower of (a) the 5-day volume weighted average share price and (b) $17.36 per share. In October 2024, the Tranche 2 Investment agreement was replaced (Note 17).
+ GM’s share subscription under the Tranche 2 Investment agreement was recognized as a financial liability, as settlement of the investment could result in the issuance of a variable number of shares to be issued to GM for the fixed subscription price and was settleable through shares of the Company after Separation. The financial liability was initially and subsequently measured at fair value, with changes recorded in gain (loss) on financial instruments measured at fair value in the condensed consolidated interim statements of loss. Transaction costs of $1,760 allocated to the Tranche 2 Investment agreement were expensed.
+ At March 31, 2024, the fair value of the GM liability was $528 (December 31, 2023 - $348) (Note 15). The Company recognized a loss on change in fair value of $180 for the three months ended March 31, 2024 (2023 – gain of $9,060) (Note 15).
+ GM Offtake Agreement
+ The Company has an Offtake Agreement with GM, whereby GM is required to purchase lithium production from Thacker Pass Phase 1, equal to 20% of GM’s specific lithium requirements, up to a maximum of 100% of Phase 1 production volume at a price based on prevailing market prices at the time of the transaction. The term of the arrangement for Phase 1 production is ten years, subject to a five-year extension at GM’s option and other limited extensions. The Company has also granted GM a right of first offer on Thacker Pass Phase 2 production. The volume available under the Offtake Agreement is subject to the receipt of the future investment by GM (Note 17).
+ 7
+ 
+ LITHIUM AMERICAS CORP. (FORMERLY 1397468 B.C. LTD.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS(Expressed in thousands of U.S. dollars, except for per share amounts; shares and equity instruments in thousands)
+ 7.LEASE LIABILITIES
+ Leases liabilities include the following:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ March 31,2024
+ 
+ 
+ December 31,2023
+ 
+ 
+ 
+ Finance leases
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Vehicle and equipment leases
+ 
+ $
+ 46
+ 
+ 
+ $
+ 47
+ 
+ 
+ 
+ Operating leases
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Office leases
+ 
+ 
+ 818
+ 
+ 
+ 
+ 763
+ 
+ 
+ 
+ Land lease
+ 
+ 
+ 69
+ 
+ 
+ 
+ 68
+ 
+ 
+ 
+ Current portion of lease liabilities
+ 
+ $
+ 933
+ 
+ 
+ $
+ 878
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Finance leases
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Vehicle and equipment leases
+ 
+ $
+ 58
+ 
+ 
+ $
+ 69
+ 
+ 
+ 
+ Operating leases
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Office leases
+ 
+ 
+ 1,231
+ 
+ 
+ 
+ 1,164
+ 
+ 
+ 
+ Land lease
+ 
+ 
+ 1,788
+ 
+ 
+ 
+ 1,783
+ 
+ 
+ 
+ Non-current portion of lease liabilities
+ 
+ $
+ 3,077
+ 
+ 
+ $
+ 3,016
+ 
+ 
+ 
+ 
+ 8.ROYALTY AND PRODUCTION PAYMENT ARRANGEMENTS
+ 
+ The Company is subject to commitments for royalty and other payments to be made on Thacker Pass and other exploration assets as set out below. These amounts will only be payable if the Company continues to hold the subject claims in the future and the royalties will only be incurred if the Company commences production from Thacker Pass or other subject claims.
+ 
+ The Company is obligated to pay an 8% gross revenue royalty for sales on production from all Thacker Pass mineral claims up to a cumulative payment of $22,000, after which time the royalty rate is reduced to 4% for the remaining life of the project. The Company has the option at any time to reduce the royalty to 1.75% through payment of $22,000. The portion of the royalty subject to repurchase has been recorded as a financial liability carried at amortized cost. At March 31, 2024, the royalty obligation was $20,869 (December 31, 2023 - $20,747). The Company is also obligated to pay a 20% royalty on revenue solely in respect of uranium sales, if any.
+ 9.STOCKHOLDERS’ EQUITY
+ Equity Arrangements
+ The Company recorded stock-based compensation expense for the following equity instruments:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three months ended March 31,
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ Restricted share units
+ 
+ $
+ 914
+ 
+ 
+ $
+ 70
+ 
+ 
+ 
+ Deferred share units 1
+ 
+ 
+ 155
+ 
+ 
+ 
+ -
+ 
+ 
+ 
+ Performance share units
+ 
+ 
+ 320
+ 
+ 
+ 
+ 27
+ 
+ 
+ 
+ Allocations from former parent during carve-out period
+ 
+ 
+ -
+ 
+ 
+ 
+ 98
+ 
+ 
+ 
+ Total
+ 
+ $
+ 1,389
+ 
+ 
+ $
+ 195
+ 
+ 
+ 
+ 1 The Company granted DSUs accrued at December 31, 2023 during the three months ended March 31, 2024, resulting in a charge to additional paid-in capital of $128.
+ 
+ During the three months ended March 31, 2024, stock-based compensation related to RSUs of $546 was capitalized to Thacker Pass (2023 - $270). During the three months ended March 31, 2024, stock-based compensation related to PSUs of $60 was capitalized to Thacker Pass (2023 - $17).
+ Restricted Share Units (“RSUs”)
+ 8
+ 
+ LITHIUM AMERICAS CORP. (FORMERLY 1397468 B.C. LTD.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS(Expressed in thousands of U.S. dollars, except for per share amounts; shares and equity instruments in thousands)
+ A continuity of RSUs is as follows:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number of Shares
+ 
+ 
+ 
+ Outstanding - December 31, 2023
+ 
+ 
+ 1,650
+ 
+ 
+ 
+ Vested and converted into common shares
+ 
+ 
+ (284
+ )
+ 
+ 
+ Granted
+ 
+ 
+ 1,936
+ 
+ 
+ 
+ Cancelled
+ 
+ 
+ (24
+ )
+ 
+ 
+ Outstanding - March 31, 2024
+ 
+ 
+ 3,278
+ 
+ 
+ 
+ 
+ During the three months ended March 31, 2024, 284 common shares were issued on exercise of 284 RSUs. The fair value of each RSU is based on the market value of the Company’s common shares on the date of grant and the total estimated fair value of RSUs granted in the three months ended March 31, 2024 was $9,337. As at March 31, 2024, unrecognized stock-based compensation expense related to unvested RSUs granted was $9,325 (March 31, 2023 - $3,173). During the three months ended March 31, 2024, 642 RSUs were issued for settlement of the 2023 annual bonuses totaling $3,070 which were accrued at December 31, 2023.
+ 
+ Deferred Share Units (“DSUs”)
+ A continuity of DSUs is as follows:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number of Shares
+ 
+ 
+ 
+ Outstanding - December 31, 2023
+ 
+ 
+ 95
+ 
+ 
+ 
+ Granted to directors
+ 
+ 
+ 19
+ 
+ 
+ 
+ Outstanding - March 31, 2024
+ 
+ 
+ 114
+ 
+ 
+ 
+ 
+ Performance Share Units (“PSUs”)
+ A continuity of PSUs is as follows:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number of Shares
+ 
+ 
+ 
+ Outstanding - December 31, 2023
+ 
+ 
+ 628
+ 
+ 
+ 
+ Granted
+ 
+ 
+ 442
+ 
+ 
+ 
+ Converted into common shares
+ 
+ 
+ (89
+ )
+ 
+ 
+ Outstanding - March 31, 2024
+ 
+ 
+ 981
+ 
+ 
+ 
+ 
+ During the three months ended March 31, 2024, 89 common shares were issued on exercise of 89 PSUs. The fair value of PSUs granted in fiscal 2024 is estimated using a valuation model based on a Monte Carlo simulation model which calculates potential outcomes and the probability weighted average payout. The fair value is estimated using inputs including: (a) the share price at the valuation date in USD of the Company and peer companies; (b) the share volatility of the Company and peer companies over the vesting period; and (c) the risk-free rate based on U.S. Treasury yields matching the PSU vesting period. The total estimated fair value of PSUs granted in the three months ended March 31, 2024 was $2,793 (2023 - $621). As at March 31, 2024, unrecognized stock-based compensation expense related to unvested PSUs granted was $4,238 (March 31, 2023 - $724). The fair value of PSUs granted by Old LAC pre-Separation was estimated based on a Monte Carlo simulation using relevant assumptions at the date of grant. 
+ 10.LOSS PER SHARE
+ Basic and diluted net loss per share is computed by dividing the net loss attributable to the Company’s shareholders by the weighted average number of common shares outstanding during the reporting period. Diluted net loss per share is computed similar to basic loss per share, except the weighted average number of common shares outstanding are increased to include additional shares from the assumed exercise of equity instruments, if dilutive. Potentially dilutive common shares include stock options, RSUs, DSUs, and PSUs. Loss per share for the three months ended March 31, 2023, which is presented on a “carve-out” basis has been calculated for both basic and diluted loss per share using 160,048 common shares, which was the number of shares of New LAC that were issued and outstanding upon Separation on October 3, 2023.
+ 11.GENERAL AND ADMINISTRATIVE EXPENSES
+ 9
+ 
+ LITHIUM AMERICAS CORP. (FORMERLY 1397468 B.C. LTD.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS(Expressed in thousands of U.S. dollars, except for per share amounts; shares and equity instruments in thousands)
+ The following table summarizes the Company’s general and administrative expenses, which represent the activity of LAC North America for the comparative period ended March 31, 2023 and actual expenses for the current period ended March 31, 2024:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three months ended March 31,
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ Salaries, benefits and directors’ fees
+ 
+ $
+ 2,384
+ 
+ 
+ $
+ 912
+ 
+ 
+ 
+ Stock-based compensation
+ 
+ 
+ 1,389
+ 
+ 
+ 
+ 98
+ 
+ 
+ 
+ Professional fees
+ 
+ 
+ 690
+ 
+ 
+ 
+ 57
+ 
+ 
+ 
+ Office and administration
+ 
+ 
+ 752
+ 
+ 
+ 
+ 573
+ 
+ 
+ 
+ Regulatory and filing fees
+ 
+ 
+ 176
+ 
+ 
+ 
+ 86
+ 
+ 
+ 
+ Travel
+ 
+ 
+ 54
+ 
+ 
+ 
+ 70
+ 
+ 
+ 
+ Investor relations
+ 
+ 
+ 358
+ 
+ 
+ 
+ 119
+ 
+ 
+ 
+ Total
+ 
+ $
+ 5,803
+ 
+ 
+ $
+ 1,915
+ 
+ 
+ 
+ 12.TRANSACTION COSTS
+ Prior to determining an underlying transaction is probable, the Company expenses transaction costs as incurred. Transactions that are subject to completion pending a final investment decision are not considered probable prior to such decision. The Company also expenses transaction costs associated with the origination of financial instruments that will be subsequently measured at fair value. The Company has expensed transaction costs in relation to the following transactions:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three months ended March 31,
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 2023
+ 
+ 
+ 
+ DOE Loan
+ $
+ 604
+ 
+ $
+ -
+ 
+ 
+ 
+ Separation
+ 
+ -
+ 
+ 
+ 2,474
+ 
+ 
+ 
+ General Motors original investment
+ 
+ -
+ 
+ 
+ 1,554
+ 
+ 
+ 
+ Other financing activities
+ 
+ 261
+ 
+ 
+ -
+ 
+ 
+ 
+ Total
+ $
+ 865
+ 
+ $
+ 4,028
+ 
+ 
+ 
+ 
+ 13.OTHER INCOME (EXPENSE)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three months ended March 31,
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 2023
+ 
+ 
+ 
+ Interest on cash deposits
+ $
+ 2,094
+ 
+ $
+ -
+ 
+ 
+ 
+ Other
+ 
+ (185
+ )
+ 
+ 9
+ 
+ 
+ 
+ Total
+ $
+ 1,909
+ 
+ $
+ 9
+ 
+ 
+ 
+ 
+ 10
+ 
+ LITHIUM AMERICAS CORP. (FORMERLY 1397468 B.C. LTD.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS(Expressed in thousands of U.S. dollars, except for per share amounts; shares and equity instruments in thousands)
+ 14.SUPPLEMENTAL DISCLOSURE WITH RESPECT TO CASH FLOWS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three months ended March 31,
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 2023
+ 
+ 
+ 
+ Interest received on cash deposits
+ 
+ $
+ 2,968
+ 
+ 
+ $
+ -
+ 
+ 
+ 
+ Interest paid
+ 
+ $
+ (4)
+ 
+ 
+ $
+ -
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Non-cash investing and financing activities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Total non-cash additions to mineral properties, plant and equipment composed of:
+ 
+ $
+ 15,762
+ 
+ 
+ $
+ 6,682
+ 
+ 
+ 
+ Capitalization of stock-based compensation
+ 
+ 
+ 2,175
+ 
+ 
+ 
+ 287
+ 
+ 
+ 
+ Capitalization of depreciation
+ 
+ 
+ 178
+ 
+ 
+ 
+ 40
+ 
+ 
+ 
+ Capitalization of non-cash interest
+ 
+ 
+ 122
+ 
+ 
+ 
+ 79
+ 
+ 
+ 
+ Other non-cash transactions including working capital changes
+ 
+ 
+ 13,287
+ 
+ 
+ 
+ 6,276
+ 
+ 
+ 
+ Right-of-use assets obtained in exchange for new operating lease liabilities
+ 
+ $
+ 323
+ 
+ 
+ $
+ -
+ 
+ 
+ 
+ Increases to net investment in parent due to stock-based compensation 
+ 
+ $
+ -
+ 
+ 
+ $
+ 98
+ 
+ 
+ 
+ 15.FAIR VALUES OF FINANCIAL INSTRUMENTS
+ 
+ Fair value measurement
+ (a)Financial instruments not measured at fair value
+ Except as disclosed below, the carrying value of the financial assets and liabilities where the measurement basis is other than fair value approximate their fair values due to the immediate or short-term nature of these instruments considering there have been no significant changes in credit and market interest rates since original date. Cash and cash equivalents, receivables, accounts payable and royalty obligations are measured at amortized cost.
+ (b)Measurement of fair value
+ The fair value hierarchy requires the use of observable market inputs whenever such inputs exist. A financial instrument is classified in the lowest level of the hierarchy for which a significant input has been considered in measuring fair value. The fair value hierarchy establishes three levels to classify the significance of inputs to valuation techniques used in making fair value measurements of all financial assets and liabilities. At March 31, 2024 and December 31, 2023, there were no financial assets and financial liabilities measured and recognized at fair value on a non-recurring basis subsequent to initial recognition.
+ 11
+ 
+ LITHIUM AMERICAS CORP. (FORMERLY 1397468 B.C. LTD.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS(Expressed in thousands of U.S. dollars, except for per share amounts; shares and equity instruments in thousands)
+ The following table identifies the Company’s assets and liabilities measured at fair value on a recurring basis by level within the fair value hierarchy. The carrying value is equal to the fair value at each date reported.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Fair Value at
+ 
+ 
+ 
+ 
+ Category
+ 
+ March 31, 2024
+ 
+ December 31, 2023
+ 
+ 
+ 
+ Financial assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Investment in GT1 (Note 3)
+ Level 1
+ $
+ 1,256
+ 
+ $
+ 2,580
+ 
+ 
+ 
+ Investment in Ascend Elements (Note 3) 1
+ Level 3
+ 
+ 8,582
+ 
+ 
+ 8,582
+ 
+ 
+ 
+ 
+ 
+ $
+ 9,838
+ 
+ $
+ 11,162
+ 
+ 
+ 
+ Financial liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ GM Tranche 2 liability (Note 6) 2
+ Level 2
+ 
+ 528
+ 
+ 
+ 348
+ 
+ 
+ 
+ 
+ 
+ $
+ 528
+ 
+ $
+ 348
+ 
+ 
+ 
+ 1As Ascend Elements is a private company, there is no observable market data to use, which results in this equity investment being classified as without readily determinable fair value. The fair value was based on a review of Ascend Elements’ business development, financings and trends in the share prices of other companies in the same industry sector.
+ 2The fair value of the Tranche 2 Investment liability was determined using a Monte Carlo simulation with the following inputs and assumptions. As at March 31, 2024, expected volatility of 79.09%, share price of $6.72, risk-free rate of 5.57%, and no expected dividends. As at December 31, 2023, expected volatility of 71.26%, share price of $6.40, risk-free rate of 5.54%, and no expected dividends. Valuation of the GM liability is sensitive to changes in the Company's share price and the assumed volatility of common shares.
+ The Company has, where appropriate, estimated the fair value of financial instruments for which the amortized cost carrying value may be significantly different than the fair value. As of March 31, 2024 and December 31, 2023, this includes the royalty obligation (Note 8). At March 31, 2024, the carrying value of the royalty obligation was $20,869 and the estimated fair value was $16,776. At December 31, 2023, the carrying value of the royalty obligation was $20,747 and the estimated fair value was $16,428. The estimated fair value involved Level 3 inputs and was determined using a discounted cash flow with a discount rate of 12.1% at March 31, 2024 (December 31, 2023 – 11.7%).
+ 16.COMMITMENTS
+ Conditional Loan Commitment
+ On March 12, 2024, the Company received a conditional commitment (“Conditional Commitment”) from the U.S. Department of Energy (“DOE”) for a $2.26 billion loan provided under the Advanced Technology Vehicles Manufacturing (“ATVM”) Loan Program (the “DOE Loan”), for financing the construction of the processing facilities at Thacker Pass. While this Conditional Commitment represented a significant milestone and demonstrated the DOE’s intent to finance Thacker Pass, certain technical, legal and financial conditions, including negotiation of definitive financing documents, must be satisfied before the DOE loan can be funded. On October 28, 2024, the Company, a subsidiary of the Company and the DOE closed the loan (Note 17).
+ 17.SUBSEQUENT EVENTS
+ Equity financing
+ On April 22, 2024, the Company completed an underwritten public offering of 55,000 common shares at a price of $5.00 per common share for aggregate gross proceeds to the Company of $275,000 (net proceeds of $262,146). The Company intends to use the net proceeds to advance construction and development of Thacker Pass.
+ 
+ DOE Loan
+ On October 28, 2024, the Company, the DOE and the Company’s subsidiary, Lithium Nevada LLC (“LN”) closed the $2.26 billion DOE Loan for financing the construction of processing facilities at Thacker Pass originally contemplated under the Conditional Commitment (Note 16). The DOE Loan agreement was amended on December 20, 2024 to give effect to the formation of Lithium Nevada Ventures LLC (“Lithium Nevada Ventures”), a joint 
+ 12
+ 
+ LITHIUM AMERICAS CORP. (FORMERLY 1397468 B.C. LTD.)NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS(Expressed in thousands of U.S. dollars, except for per share amounts; shares and equity instruments in thousands)
+ venture with GM, which owns a 100% interest in LN, owner of Thacker Pass. Advances under the DOE Loan are subject to certain conditions precedent. The terms of the DOE Loan are described in Note 3 to the Consolidated Financial Statements for the year ended December 31, 2024.
+ Joint Venture with GM
+ On October 15, 2024, the Company and GM entered into an investment agreement (the “GM Investment Agreement”) to establish a joint venture for the purpose of funding, developing, constructing and operating Thacker Pass. The GM Investment Agreement replaced the previous Tranche 2 Investment agreement with GM. On December 20, 2024, the transaction closed and the joint venture entity Lithium Nevada Ventures was formed. Under the terms of the GM Investment Agreement, GM will acquire a 38% asset-level ownership stake in Thacker Pass. GM’s investment in Lithium Nevada Ventures is subject to certain conditions precedent, including those related to the DOE Loan. The terms of the joint venture transaction are described in Note 4 to the Consolidated Financial Statements for the year ended December 31, 2024.
+ 
+ In connection with the establishment of Lithium Nevada Ventures, the Company and GM: (a) extended GM’s pre-existing offtake agreement for up to 100% of production volumes from Phase 1 of Thacker Pass to 20 years, to coincide with the expected maturity of the DOE Loan; and (b) entered into an additional offtake agreement for up to 38% of Phase 2 production. Both offtake agreements include a price based on prevailing market conditions.
+ 
+ Transload Terminal Services Agreement and U.S. Department of Defense Grant
+ 
+ LN is party to a Transload Terminal Services Agreement (the “Terminal Agreement”) executed on October 28, 2024, to finance the construction of a railcar and truck terminal (the “Terminal”) in Winnemucca, Nevada. The initial term of the Terminal Agreement is 10 years with two automatic extensions of 5 years each. A third-party developer has agreed to fund approximately $95,000 to finance the construction of the Terminal through a finance lease to the Company. Under the terms of the lease, the Company expects lease payments to be approximately $20,500 per year for each of the first 10 years and approximately $6,700 per year for each of the second 10 years, with an early buyout option to purchase the Terminal. The total amount funded by the third-party developer and the amount of the future lease payments will be determined upon commencement of the lease at a future date. The arrangement is a build-to-suit arrangement and the Company has been involved in the design and construction of the Terminal prior to the anticipated lease commencement. Accordingly, the Company has determined it controls the Terminal during the construction period and will record construction costs incurred during the construction period as a construction-in-process asset and a related financing obligation on the Company’s consolidated balance sheets. At December 31, 2024, construction of the Terminal had not commenced. The Company’s interest in the Terminal Agreement serves as collateral under the DOE Loan.
+ 
+ On August 5, 2024, LN received approval for a $11,800 grant from the U.S. Department of Defense to support an upgrade of the local power infrastructure and to help build a transloading facility, which is part of the construction of the Terminal. The monies available under the grant will be available as costs are incurred.
+ 
+ Orion Agreement
+ 
+ On March 5, 2025, the Company announced a strategic investment of $250 million from fund entities managed by Orion Resource Partners LP (collectively, “Orion”), which is expected to achieve fully funded status at the project level and corporate level for the development and construction of Thacker Pass Phase 1 for the duration of construction.
+ Orion has committed to purchase senior unsecured convertible notes in the aggregate and principal amount of $195 million (the “Notes”) and enter into a Production Payment Agreement (“PPA”) whereby Orion will pay the Company $25 million in exchange for payments corresponding to the minerals processed and gross revenue generated by Thacker Pass (together, the Notes and PPA represent an aggregate initial investment of $220 million). Orion has committed, subject to the satisfaction of certain conditions precedent, to purchase an additional $30 million in aggregate principal amount Notes within two years, upon request by the Company. 
+ 13

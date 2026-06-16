@@ -1,0 +1,47 @@
+{
+  "ticker": "EGO",
+  "cik": "0000918608",
+  "form": "6-K",
+  "filingDate": "2017-08-29",
+  "accessionNumber": "0001137171-17-000087",
+  "primaryDocument": "eldorado6k08292017.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/918608/000113717117000087/0001137171-17-000087-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "ELDORADO GOLD REPORTS FATALITY AT ITS SKOURIES PROJECT",
+    "filename": "newsrelease.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/918608/000113717117000087/newsrelease.htm"
+  },
+  "extractedAt": "2026-06-11T16:55:28.788Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/918608/000113717117000087/newsrelease.htm",
+    "contentType": "html",
+    "title": "JA Filed by Filing Services Canada Inc. 403-717-3898",
+    "headings": [
+      "JA Filed by Filing Services Canada Inc. 403-717-3898",
+      "NEWS\n RELEASE",
+      "TSX:\n ELD NYSE: EGO",
+      "Eldorado\nGold Reports Fatality at its Skouries Project",
+      "Additional Information",
+      "Contact",
+      "Investor Relations"
+    ],
+    "text": "EX-99.1\n2\nnewsrelease.htm\nELDORADO GOLD REPORTS FATALITY AT ITS SKOURIES PROJECT\n\n JA Filed by Filing Services Canada Inc. 403-717-3898\n\n \n\n \n\n NEWS\n RELEASE\n \n \n\n TSX:\n ELD NYSE: EGO\n August 29, 2017\n\n \n\nEldorado\nGold Reports Fatality at its Skouries Project\n\n \n\nVANCOUVER\n- BC\n– Eldorado Gold (“Eldorado” or the “Company”) today\nregrets to report that on the morning of August 28, 2017, during tree cutting operations at the Skouries Project in Greece, a contractor\nemployee was struck by a branch from a falling tree resulting in fatal injuries. An investigation is underway.\n\n \n\n“Our deepest condolences and support\ngo out to the individual’s family, friends and colleagues at this time.” said George Burns, Eldorado’s President\nand Chief Executive Officer. “Safety is our top priority at Eldorado Gold and we are committed to the well-being of our employees\nand contractors on all of our sites.”\n\n \n\nAdditional Information\n\nAdditional information on Eldorado is\navailable on the Company’s website at www.eldoradogold.com and on SEDAR at www.sedar.com.\n\n \n\nContact\n\nInvestor Relations\n\nKrista Muhr, Vice President Investor Relations\n& Corporate Communications\n\n604.604.6701\nor 1.888.363.8166 kristam@eldoradogold.com",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 2,
+        "rows": [
+          [
+            "NEWS\n RELEASE"
+          ],
+          [
+            "TSX:\n ELD NYSE: EGO",
+            "August 29, 2017"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>newsrelease.htm\n<DESCRIPTION>ELDORADO GOLD REPORTS FATALITY AT ITS SKOURIES PROJECT\n<TEXT>\n<HTML>\n<HEAD>\n     <TITLE>JA Filed by Filing Services Canada Inc. 403-717-3898\n</TITLE>\n</HEAD>\n<BODY STYLE=\"font: 10pt Times New Roman, Times, Serif\">\n\n<P STYLE=\"margin: 0\"></P>\n\n<P STYLE=\"font: 3pt Times New Roman, Times, Serif; margin: 0.05pt 0 0\">&nbsp;</P>\n\n<P STYLE=\"font: 11pt/10pt Calibri, Helvetica, Sans-Serif; margin: 0 0 0 345pt\"><IMG SRC=\"image_001.jpg\" ALT=\"\" STYLE=\"height: 72px; width: 182px\"></P>\n\n<P STYLE=\"font: 6pt Times New Roman, Times, Serif; margin: 0.1pt 0 0\">&nbsp;</P>\n\n<TABLE CELLSPACING=\"0\" CELLPADDING=\"0\" STYLE=\"width: 100%; border-collapse: collapse\">\n<TR STYLE=\"vertical-align: top\">\n    <TD STYLE=\"font: bold 14pt calibri; padding-right: 5.4pt; width: 50%\"><FONT STYLE=\"font: 14pt Calibri\"><B>NEWS\n      RELEASE</B></FONT></TD>\n    <TD STYLE=\"font: bold 14pt calibri; padding-right: 5.4pt; padding-left: 5.4pt; width: 50%\"><FONT STYLE=\"font: 14pt Calibri\"><B>&nbsp;</B></FONT></TD>\n  </TR>\n<TR STYLE=\"vertical-align: top; font-family: calibri; font-weight: bold\">\n    <TD STYLE=\"font: bold 14pt calibri\"><FONT STYLE=\"font: 14pt Calibri\"><B>TSX:\n      ELD&nbsp;&nbsp;&nbsp;NYSE: EGO</B></FONT></TD>\n    <TD STYLE=\"font: bold 14pt calibri; text-align: right\"> August 29, 2017</TD></TR>\n</TABLE>\n\n<P STYLE=\"font: 11pt Calibri, Helvetica, Sans-Serif; margin: 0\">&nbsp;</P>\n\n<P STYLE=\"font: 14pt Calibri, Helvetica, Sans-Serif; margin: 0; text-align: center\"><FONT STYLE=\"letter-spacing: -0.05pt\"><B>Eldorado\nGold Reports Fatality at its Skouries Project</B></FONT></P>\n\n<P STYLE=\"font: 11.5pt Calibri, Helvetica, Sans-Serif; margin: 0.55pt 0 0\"><B>&nbsp;</B></P>\n\n<P STYLE=\"font: 11pt Calibri, Helvetica, Sans-Serif; margin: 0; text-align: justify\"><FONT STYLE=\"letter-spacing: -0.05pt\">VANCOUVER</FONT><FONT STYLE=\"letter-spacing: 0.5pt\">\n</FONT>-<FONT STYLE=\"letter-spacing: 0.45pt\"> </FONT><FONT STYLE=\"letter-spacing: -0.1pt\">BC</FONT><FONT STYLE=\"letter-spacing: 0.55pt\">\n</FONT>&#8211;<FONT STYLE=\"letter-spacing: 0.4pt\"> </FONT>Eldorado Gold (&#8220;Eldorado&#8221; or the &#8220;Company&#8221;) today\nregrets to report that on the morning of August 28, 2017, during tree cutting operations at the Skouries Project in Greece, a contractor\nemployee was struck by a branch from a falling tree resulting in fatal injuries. An investigation is underway.</P>\n\n<P STYLE=\"font: 11pt Calibri, Helvetica, Sans-Serif; margin: 0; text-align: justify\">&nbsp;</P>\n\n<P STYLE=\"font: 11pt Calibri, Helvetica, Sans-Serif; margin: 0; text-align: justify\">&#8220;Our deepest condolences and support\ngo out to the individual&#8217;s family, friends and colleagues at this time.&#8221; said George Burns, Eldorado&#8217;s President\nand Chief Executive Officer. &#8220;Safety is our top priority at Eldorado Gold and we are committed to the well-being of our employees\nand contractors on all of our sites.&#8221;</P>\n\n<P STYLE=\"font: 12pt Calibri, Helvetica, Sans-Serif; margin: 0 0 6pt; text-align: justify\"><B>&nbsp;</B></P>\n\n<P STYLE=\"font: 12pt Calibri, Helvetica, Sans-Serif; margin: 0 0 6pt; text-align: justify\"><B>Additional Information</B></P>\n\n<P STYLE=\"font: 11pt Calibri, Helvetica, Sans-Serif; margin: 0 0 6pt; text-align: justify\">Additional information on Eldorado is\navailable on the Company&#8217;s website at www.eldoradogold.com and on SEDAR at www.sedar.com.</P>\n\n<P STYLE=\"font: 12pt Calibri, Helvetica, Sans-Serif; margin: 0 0 6pt; text-align: justify\"><B>&nbsp;</B></P>\n\n<P STYLE=\"font: 12pt Calibri, Helvetica, Sans-Serif; margin: 0 0 6pt; text-align: justify\"><B>Contact</B></P>\n\n<P STYLE=\"font: 12pt Calibri, Helvetica, Sans-Serif; margin: 6pt 0 0; text-align: justify\"><B>Investor Relations</B></P>\n\n<P STYLE=\"font: 12pt Calibri, Helvetica, Sans-Serif; margin: 0; text-align: justify\">Krista Muhr, Vice President Investor Relations\n&amp; Corporate Communications</P>\n\n<P STYLE=\"font: 11pt Calibri, Helvetica, Sans-Serif; margin: 0; text-align: justify\"><FONT STYLE=\"font-size: 12pt\">604.604.6701\nor 1.888.363.8166</FONT><FONT STYLE=\"font-family: Times New Roman, Times, Serif\"> </FONT><FONT STYLE=\"font-size: 12pt; color: blue\">kristam@eldoradogold.com</FONT><FONT STYLE=\"font-size: 12pt\">\n</FONT></P>\n\n\n\n<P STYLE=\"margin: 0\"></P>\n\n</BODY>\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

@@ -1,0 +1,1623 @@
+EX-99.1
+2
+tm2319253d1_ex99-1.htm
+EXHIBIT 99.1
+
+ 
+
+ 
+
+Exhibit 99.1
+
+ 
+
+ 
+
+ 
+
+McEwen Copper announces results
+of an updated Preliminary Economic Assessment (PEA) on a copper leaching phase of development at the Los Azules project in San Juan, Argentina
+
+ 
+
+The PEA includes an updated independent
+mineral resource estimate, which increased to 10.9 billion (B) lbs. Cu (Indicated, grade 0.40%) and 26.7 B lbs.
+Cu (Inferred, grade 0.31%)
+
+ 
+
+Base Case Highlights (Open-pit,
+Heap Leach, SX/EW, Nameplate capacity of 175 ktpa Cu Cathodes):
+
+ 
+
+•Average annual copper (Cu) cathode production
+of 401 million lbs. (182,100 tonnes) during the first 5 years of operation, and 322 million lbs. (145,850 tonnes)
+over the 27-year life of the mine (LOM)
+
+ 
+
+•Total Cu recoverable to cathode of 8.68 billion
+lbs. (3.94 million tonnes), based on the LOM extraction of mineralized material containing approximately 11.90 billion lbs.
+of total Cu (5.40 million tonnes), and average copper recovery of 72.8%
+
+ 
+
+•After-tax net present value (NPV8%) of
+$2.659 billion(1), internal rate of return (IRR) of 21.2%, and a payback period of 3.2 years – at
+$3.75 per lb. Cu.
+
+ 
+
+•Initial capital expenditure of $2.462 billion,
+and a project capital intensity of $7.66 per lb. Cu ($16,880 per tonne Cu)(2)
+
+ 
+
+•Average C1(2) cash costs of $1.07
+per lb. Cu and all-in sustaining costs(2) of $1.64 per lb. Cu (AISC Margin of 56%)(2)
+
+ 
+
+•Average EBITDA(3) per year of
+$1.101 billion (Years 1-5) and $692 million (Years 6-27)
+
+ 
+
+•Estimated carbon intensity of 670 kg CO2
+equivalent per tonne of Cu (CO2-e/t Cu)(4) for Scope 1&2 GHG Emissions, well below the industry
+average of 1,980 kg CO2-e/t Cu(5). McEwen Copper’s goal at Los Azules is to be carbon neutral by 2038,
+a target which is achievable through the use of emerging technologies and offsets
+
+ 
+
+•Estimated site-wide water consumption of 137
+liters per second (L/s) from years 1 to 10, increasing to 163 L/s from years 11 to 27, this compares to approximately 600
+L/s(6) for a conventional mill producing copper concentrate
+
+ 
+
+•1.182 billion tonnes of mineralized material
+placed on heap leach pad with in-situ total copper grade of 0.46% and in-situ soluble copper grade of 0.31%(7)
+
+ 
+
+TORONTO,
+June 20, 2023 - McEwen Mining Inc. (NYSE: MUX) (TSX: MUX) is pleased
+to provide results of the updated Preliminary Economic Assessment (the “2023 PEA”) on the Los Azules Copper Project
+in San Juan Argentina (the “Project”). Los Azules is 100% owned by McEwen Copper Inc., which is 52% owned by McEwen
+Mining.
+
+ 
+
+ 
+
+ 
+
+ McEwen Mining Inc. Page 1
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+The 2023 PEA Technical Report is prepared
+in accordance with the requirements set forth by Canadian National Instrument 43-101 (“NI 43-101”) for the disclosure
+of material information and is intended to meet the requirements of a Preliminary Economic Assessment (PEA) level of study and disclosure
+as defined in the regulations and supporting reference documents. The effective date of the report is May 9, 2023. All currency shown
+in this report is expressed in Q1 2023 United States Dollars unless otherwise noted.
+
+ 
+
+This study is preliminary in nature
+and includes 26% inferred mineral resources in the conceptual mine plan. Inferred mineral resources are considered too speculative
+geologically and in other technical aspects to enable them to be categorized as mineral reserves under the standards set forth in NI 43-101.
+There is no certainty that the estimates in this PEA will be realized.
+
+ 
+
+Study Contributors
+
+ 
+
+The
+2023 PEA technical report was prepared by Samuel Engineering Inc., with contributions from Knight Piésold Consulting,
+Stantec Consulting International Ltd, McLennan Design, Whittle Consulting Pty Ltd, and SRK Consulting
+UK Limited under the supervision of David Tyler, McEwen Copper Project Director. The 2023 PEA technical report has been filed on
+SEDAR and on the Company’s website: https://www.mcewenmining.com/investor-relations/reports-and-filings/default.aspx
+
+ 
+
+2023 PEA vs 2017 PEA
+
+ 
+
+The base case development strategy
+selected in the 2023 PEA is distinctly different from that presented in the prior PEA published in 2017. In 2017, the strategy
+was to construct a mine with a conventional mill and flotation concentrator producing a concentrate for export to international smelters.
+The 2023 PEA proposes a heap leach (leach) project using solvent extraction-electrowinning (SX/EW) to produce copper cathodes (LME Grade
+A) for sale in Argentina or international markets. There are three principal reasons why the implementation strategy was changed to leach
+in the 2023 PEA:
+
+ 
+
+1.Environmental Footprint: Fresh water consumption is reduced by approximately 75% (150 vs.
+600 L/s). Electricity consumption is reduced by approximately 75% (57 vs. 230 MW). GHG emissions are reduced by approximately 57%
+(670 vs. 1,560 CO2-e/t Cu Scope 1&2), with paths to further reductions by implementing new technologies, with the goal
+of reaching net-zero carbon by 2038 with some offsets. Los Azules copper cathodes will thus be attractive to end-users seeking to measurably
+reduce their upstream environmental impacts.
+
+ 
+
+2.Reduced Permitting Risk: When proposing any mega-project development, it is vital to understand
+the local standards and sensitivities around permitting. The Project uses technology (heap leach) that is in operation in San Juan today.
+It also eliminates tailings and tailings dams, conserves scarce water resources, and reduces the overall complexity of the mine, optimizing
+the permitting process.
+
+ 
+
+3.Producing Cathodes: The leach process produces LME Grade A copper cathodes, which can be directly
+used in industry, including within Argentina reducing export taxes. This eliminates reliance on 3rd party foreign smelters
+for the processing of concentrates into refined copper products. It also eliminates significant GHG emissions associated with transportation,
+and pollution associated with smelting. Counterparty and pricing risks are also reduced.
+
+ 
+
+ 
+
+ 
+
+ McEwen Mining Inc. Page 2
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+McEwen views the progress made with
+the 2023 PEA towards reducing our environmental footprint and greater environmental and social stewardship sets the Project apart from
+other potential mine developments, which appropriately justifies certain economic trade-offs. The primary trade-offs to achieve these
+environmental benefits is lower overall copper recovery, slightly higher unit costs, and less immediate cashflow due to extended leach
+cycles. Nevertheless, the leach project remains very robust. Furthermore, McEwen believes that some of these drawbacks can be mitigated
+by implementing developing technologies such as Nuton™, discussed below.
+
+ 
+
+Property Description
+
+ 
+
+The Los Azules deposit is a classic
+Andean-style porphyry copper deposit. The large hydrothermal alteration system is at least 5 kilometers (km) long and 4 km wide and is
+elongated in a north-northwest direction along a major structural corridor. The Los Azules deposit area is approximately 4 km long by
+2.2 km wide and lies within the alteration zone. The limits of the mineralization along strike to the North and at depth have not yet
+been defined. Primary or hypogene copper mineralization extends to at least 1,000 meters (m) below the surface. Near surface, leached
+primary sulfides (mainly pyrite and chalcopyrite) were redeposited below the water table in a sub-horizontal zone of supergene enrichment
+as secondary chalcocite and covellite. Hypogene bornite appears at deeper levels together with chalcopyrite. Gold, silver, and molybdenum
+are present in small amounts, but copper is the economic driver at Los Azules.
+
+ 
+
+A New Vision and Approach
+
+ 
+
+We developed regenerative guiding principles
+to reframe the approach to sustainable innovation and set forth high-reaching goals that explore all facets of the mining processes considered
+for Los Azules. The project development seeks to significantly reduce the environmental footprint of mining operations and their associated
+GHG emissions by integrating the latest renewable and environmentally responsible technologies and processes. The Project aims to obtain
+100% of its energy from renewable sources (wind, hydro, and solar) in a combination of offsite and onsite installations. The Project is
+also seeking to have long-term net positive impacts on the greater Andean ecosystem, local flora and fauna, the lives of miners, and of
+the other citizens of nearby communities, while contributing positively to the local and national economy of Argentina. Refer to the
+full 2023 PEA Technical Report for more information about our regenerative approach.
+
+ 
+
+Metal Price Assumption
+
+ 
+
+The copper price use in the 2023 PEA
+was $3.75 per pound (except for the mineral resource estimate), in line with analysts’ consensus projections for long-term copper
+prices that range between $3.25 and $4.25 per pound, with a mean price of $3.75 per pound.
+
+ 
+
+Study Highlights
+
+ 
+
+This 2023 PEA development strategy
+begins with processing of resources associated with the oxide and supergene copper mineralization in the near surface portion of the deposit
+using heap leaching methods. This approach results in low average C1 costs of $1.07 per lb. Cu ($0.88 per lb. in the first
+8 years) and an attractive 3.2-year payback period. Copper cathode production during the first 5 years of operation averages 401
+million lbs. per year (182 ktpa), and average over the 27-year LOM is 322 million lbs. per year (146 ktpa).
+
+ 
+
+ 
+
+ 
+
+ McEwen Mining Inc. Page 3
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+A nominal copper cathode production
+capacity of 385 million lbs. per year (175 ktpa) is met or exceeded during the first 11 years of mining and was selected as the
+Base Case, with a smaller Alternative Case presented at 275 million lbs. per year (125 ktpa) of copper cathodes.
+The 2023 PEA financial model does not include potential future development phases focused on primary copper mineralization found beneath
+the supergene copper layer but some of these opportunities are discussed in the report, including the potential of deploying Nuton™
+technologies.
+
+ 
+
+The processing facility will function
+through to the completion of mining in Year 23 with stockpile reprocessing and residual leaching operations to Year 27. Mining operations
+ramp up over the proposed mine life from approximately 80 million total tonnes per year to 150 million tonnes per year through the life
+of the project as copper grades decrease, and material movements increase.
+
+ 
+
+Summary results for the Base Case and
+Alternative Case are provided in Table 1.
+
+ 
+
+ 
+ Table 1: Summary Results
+ 
+ Project Metric
+ Units
+ 
+ Base Case
+ 175 ktpa
+ 
+ Alternative Case
+ 125 ktpa
+ 
+ Mine Life
+ Years
+ 27
+ 32
+ 
+ Tonnes Processed
+ Billion tonnes
+ 1.182
+ 1.182
+ 
+ Tonnes Waste Mined
+ Billion tonnes
+ 1.366
+ 1.366
+ 
+ Strip Ratio
+ 
+ 1.16
+ 1.16
+ 
+ Total Copper Grade
+ % Cu
+ 0.457%
+ 0.457%
+ 
+ Soluble Copper Grade (CuSOL)
+ % CuSOL
+ 0.311%
+ 0.311%
+ 
+ Copper Recovery (Total Copper)
+ %
+ 72.8%
+ 72.8%
+ 
+ Soluble Copper Recovery(8)
+ %
+ 107%
+ 107%
+ 
+ Copper Production (LOM avg.)
+ tonnes/yr
+ 145,820
+ 123,060
+ 
+ Copper Production (Yr 1-5)
+ tonnes/yr
+ 182,100
+ 136,100
+ 
+ Copper Production – cathode Cu
+ ktonnes
+ 3,938
+ 3,938
+ 
+ Initial Capital Cost
+ USD Millions
+ $2,462
+ $2,153
+ 
+ Sustaining Capital Cost
+ USD Millions
+ $2,243
+ $2,351
+ 
+ Closure Costs
+ USD Millions
+ $180
+ $180
+ 
+ C1 Cost (Life of Mine)
+ USD/lb Cu
+ $1.07
+ $1.11
+ 
+ All-in Sustaining Costs (AISC)
+ USD/lb Cu
+ $1.64
+ $1.67
+ 
+ Before Taxes
+ 
+ 
+ 
+ 
+ Net Cumulative Cashflow
+ USD Millions
+ $15,820
+ $15,679
+ 
+ Internal Rate of Return (IRR)
+ %
+ 26.5%
+ 22.9%
+ 
+ Net Present Value (NPV) @ 8%
+ USD Millions
+ $4,436
+ $3,278
+ 
+ After Taxes
+ 
+ 
+ 
+ 
+ Net Cumulative Cashflow
+ USD Millions
+ $10,240
+ $10,159
+ 
+ Internal Rate of Return (IRR)
+ %
+ 21.2%
+ 18.4%
+ 
+ Net Present Value (NPV) @ 8%
+ USD Millions
+ $2,659
+ $1,929
+ 
+ Pay Back Period
+ Years
+ 3.2
+ 3.4
+ 
+ 
+
+ 
+
+ 
+
+ McEwen Mining Inc. Page 4
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+Sensitivity Analysis
+
+ 
+
+The Base Case project economics are
+reasonably robust (>15% post-tax IRR) at a copper price above $3.00 per pound and are similarly resistant to an increase in LOM capital
+expenditure of up to 30% and an increase in operating expenses of up to 60%. Table 2 below shows the sensitivity of the Base Case project
+economics to the Copper Price (+/- 20%) on a post-tax basis. The project NPV8% is breakeven at a copper price of $2.34 per pound.
+
+ 
+
+ 
+ Tables 2: Base Case (175 ktpa) Copper Price Sensitivity
+ 
+ Sensitivity (%)
+ Metal Pricing
+ Post-Tax
+ 
+ Copper Price
+ NPV
+ IRR
+ Payback
+ 
+ $ Cu/lb
+ $M
+ %
+ Years
+ 
+ -20%
+ $3.00
+ $1,277 
+ 15%
+ 5.48
+ 
+ -15%
+ $3.19
+ $1,624 
+ 17%
+ 4.84
+ 
+ -10%
+ $3.38
+ $1,969 
+ 18%
+ 4.24
+ 
+ -5%
+ $3.56
+ $2,314 
+ 20%
+ 3.68
+ 
+ 0%
+ $3.75
+ $2,659 
+ 21%
+ 3.18
+ 
+ 5%
+ $3.94
+ $3,003 
+ 23%
+ 2.90
+ 
+ 10%
+ $4.13
+ $3,346 
+ 24%
+ 2.75
+ 
+ 15%
+ $4.31
+ $3,689 
+ 25%
+ 2.61
+ 
+ 20%
+ $4.50
+ $4,032 
+ 27%
+ 2.49
+ 
+ 
+
+Table 3 below show the sensitivity
+of the Base Case project economics to initial and sustaining capital expenditure escalation on a post-tax basis.
+
+ 
+
+ 
+ Table 3: Base Case (175 ktpa) Initial & Sustaining CAPEX Sensitivity
+ 
+ Sensitivity (%)
+ Post-Tax
+ 
+ NPV
+ IRR
+ Payback
+ 
+ $M
+ %
+ Years
+ 
+ 0
+ $2,597 
+ 21%
+ 3.18
+ 
+ 5%
+ $2,484 
+ 20%
+ 3.54
+ 
+ 10%
+ $2,372 
+ 19%
+ 3.94
+ 
+ 15%
+ $2,260 
+ 18%
+ 4.25
+ 
+ 20%
+ $2,148 
+ 17%
+ 4.56
+ 
+ 25%
+ $2,036 
+ 17%
+ 4.88
+ 
+ 
+
+Table 4 below show the sensitivity
+of the Base Case project economics to operating expenditure escalation on a post-tax basis.
+
+ 
+
+ 
+ Table 4: Base Case (175 ktpa) OPEX Sensitivity
+ 
+ Sensitivity (%)
+ Post-Tax
+ 
+ NPV
+ IRR
+ Payback
+ 
+ $M
+ %
+ Years
+ 
+ 0
+ $2,597 
+ 21%
+ 3.18
+ 
+ 5%
+ $2,496 
+ 21%
+ 3.28
+ 
+ 10%
+ $2,396 
+ 20%
+ 3.38
+ 
+ 15%
+ $2,295 
+ 20%
+ 3.49
+ 
+ 20%
+ $2,195 
+ 19%
+ 3.62
+ 
+ 25%
+ $2,095 
+ 19%
+ 3.75
+ 
+ 
+
+ 
+
+ 
+
+ McEwen Mining Inc. Page 5
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+Capital Costs Estimates
+
+ 
+
+The Project includes the development
+of an open pit mine with muti-stage crushing and screening, a heap leach pad, and a copper solvent extraction-electrowinning (SX/EW) facility
+with a nominal production capacity of 175 ktpa copper cathodes. There is also a sulfuric acid plant and other associated infrastructure
+to support the operations. Initial capital infrastructure for the Base Case includes the following facilities:
+
+ 
+
+•Mine development and associated infrastructure
+
+ 
+
+•Coarse rock storage and handling (crushing, conveying,
+agglomeration)
+
+ 
+
+•Heap leach pads and conveyor stacking systems
+
+ 
+
+•SX/EW facility
+
+ 
+
+•Sulfuric acid plant
+
+ 
+
+•On-site utilities and ancillary facilities including
+a construction camp
+
+ 
+
+•Off-site infrastructure: power transmission line
+(outsourced), access roads, and permanent camp
+
+ 
+
+The project initial capital costs are
+based on budgetary quotes for major equipment, recent in-house cost information and installation factors, and regional contractor inputs
+and facilities obtained between Q4 2022 and Q1 2023. The capital costs for the project are summarized in Table 5 and should be viewed
+with the level of accuracy expected for a preliminary analysis.
+
+ 
+
+The approximate construction cost of
+the 132 kV power supply line to site is $155 million and has not been included in the capital estimate because it is assumed that YPF
+Luz, a large Argentinean power utility company, will be constructing the line at their expenses pursuant to a long-term renewable power
+purchase agreement.
+
+ 
+
+ 
+ Table 5: Initial Capital Costs by Case
+ 
+ Capital Cost
+ Base Case
+ Alternative Case
+ 
+ 175k tpa Cu ($)
+ 125k tpa Cu ($)
+ 
+ Mining
+ $65,600,000 
+ $65,600,000 
+ 
+ Ore Storage & Handling
+ $234,500,000 
+ $192,500,000 
+ 
+ Heap Leaching
+ $158,500,000 
+ $142,100,000 
+ 
+ SX/EW Facilities
+ $250,400,000 
+ $167,700,000 
+ 
+ Acid Plant
+ $94,900,000 
+ $79,900,000 
+ 
+ Ancillary Facilities
+ $23,300,000 
+ $23,300,000 
+ 
+ Site Development & Yard Utilities
+ $126,300,000 
+ $112,200,000 
+ 
+ Off-Sites
+ $167,400,000 
+ $167,400,000 
+ 
+ Total Direct Costs 
+ $1,120,900,000 
+ $950,700,000 
+ 
+ Common Indirect Costs
+ $379,200,000 
+ $323,800,000 
+ 
+ Owners Costs
+ $466,700,000 
+ $455,900,000 
+ 
+ Subtotal 
+ $1,966,800,000 
+ $1,730,400,000 
+ 
+ Contingency
+ $495,000,000 
+ $423,100,000 
+ 
+ Total Capital Cost
+ $2,461,800,000 
+ $2,153,500,000 
+ 
+ 
+
+ 
+
+ 
+
+ McEwen Mining Inc. Page 6
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+Operating Costs Estimates
+
+ 
+
+Table 6 summarizes the LOM project
+operating costs per tonne of material processed and per pound of copper produced.
+
+ 
+
+ 
+ Table 6: LOM Cash Costs
+ 
+ 
+ 
+ Base Case
+ 175 ktpa
+ 
+ Alternative Case
+ 125 ktpa
+ 
+ Description
+ LOM 
+Cost/tonne ($)
+ 
+ LOM
+ Cost/lb. ($)
+ LOM
+ Cost/tonne ($)
+ 
+ LOM
+ Cost/lb. ($)
+ 
+ Mining
+ 4.14
+ 0.56
+ 4.27
+ 0.57
+ 
+ Processing
+ 2.73
+ 0.37
+ 2.74
+ 0.37
+ 
+ General & Administrative
+ 0.94
+ 0.13
+ 1.11
+ 0.15
+ 
+ Selling Expenses
+ 0.15
+ 0.02
+ 0.15
+ 0.02
+ 
+ LOM C1 Costs
+ 7.96
+ 1.07
+ 8.27
+ 1.11
+ 
+ 
+
+Royalties and Taxes
+
+ 
+
+The 2023 PEA includes all government
+and private royalties on production, export taxes, as well as income taxes and banking taxes. Royalty calculations vary, however royalties
+and retentions based on net smelter return (NSR) total approximately 9.2%. In the financial model it was assumed that 10,000 tonnes per
+year of copper cathodes are sold within Argentina and consequently they are not subject to export taxes. 95% of VAT is assumed to be recoverable
+after two years. A 0.2% portion of the bank tax is recoverable in the following year.
+
+ 
+
+ 
+ Table 7: Royalties and Taxes (All Cases)
+ 
+ Income Tax
+ Argentine Corporate Income
+ % Profit
+ 35%
+ 
+ VAT Taxes
+ Argentine Value Added Tax
+ % on Capital
+ 10.5%
+ 
+ % on Operating
+ 21%
+ 
+ Royalties
+ San Juan Province
+ % “Mine Mouth”
+ 3%
+ 
+ TNR Royalty
+ % NSR
+ 0.4%
+ 
+ McEwen Mining Royalty
+ % NSR
+ 1.25%
+ 
+ Export Retentions
+ Argentine Export Retention
+ % NSR
+ 4.5%
+ 
+ Bank Tax
+ Debit and Credit Bank Tax
+ % on Operating
+ 1.2%
+ 
+ 
+
+Nuton Opportunity
+
+ 
+
+Nuton LLC is a copper heap leaching
+technology venture of Rio Tinto that became a strategic partner in 2022. Its Nuton™ suite of proprietary technologies provide opportunities
+to leach both primary and secondary copper sulfides, providing significant opportunity to optimize the mine plan and the overall mining
+and processing operations. In addition, Nuton™ provides significant other benefits, such as lower overall energy consumption, allowing
+earlier conversion to renewable energy sources, and lower water consumption than conventional sulfide mineralization treatment processes.
+
+ 
+
+ 
+
+ 
+
+ McEwen Mining Inc. Page 7
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+Based on preliminary scoping testing,
+Nuton™ technologies offer the potential for copper recoveries of more than 80% from predominantly chalcopyrite, depending on the
+specific mineralogy make-up of the mineral resource. At Los Azules, Nuton™ has the potential to economically process the large primary
+sulfide copper resource as an alternative to a concentrator, with low incremental capital following the oxide and supergene leach, no
+tailings requirement, and a smaller environmental footprint. Producing copper cathode with Nuton™ on-site also has the advantage
+of simplifying outbound logistics for copper concentrates and offers a finished product to the domestic and international market.
+
+ 
+
+The outcomes modelled using the Nuton
+proprietary computational fluid dynamics model, are very encouraging and indicate that unoptimized copper recovery to cathode from primary
+material should range from 73% to 79%. Furthermore, Nuton recovery from secondary material is high, ranging from 80% to 86%. This could
+provide a significant opportunity to optimize the mine plan and the need for selective mining, as simultaneous stacking of both secondary
+and primary mineralization will not impact on the copper recovery from either material type. Based on the current resource estimate, this
+could have a significant positive impact on the expected life of the mine, without significantly increasing the initial capital investment
+required.
+
+ 
+
+Nuton is currently validating modelled
+data with column leach tests. Column leaching of the composite samples at their facilities is underway and expected to be completed in
+Q1 2024. Validation of the modelled results could be obtained much sooner, depending on the trends provided by the actual column leach
+results.
+
+ 
+
+McEwen Copper does not currently have
+a commercial arrangement with Nuton that enables it to deploy their technologies at Los Azules, and there is no guarantee that such an
+agreement will come to fruition, however McEwen Copper and Nuton intend to work in good faith toward such an arrangement. The results
+in Table 8 below assume that Nuton™ technologies are implemented without including costs associated with technology licensing or
+some other commercial cost structure.
+
+ 
+
+ 
+ Table 8: Nuton™ Opportunity Economic Summaries
+ 
+ Project Metric
+ Units
+ 
+ Base Case-Nuton
+ 175 ktpa
+ 
+ Mine Life
+ Yr
+ 39
+ 
+ Strip Ratio
+ 
+ 1.43
+ 
+ Tonnes Processed
+ Billion tonnes
+ 1.737
+ 
+ Copper Grade (Total)
+ % Cu
+ 0.409
+ 
+ Copper Production – cathode Cu
+ ktonnes
+ 6,411
+ 
+ Initial Capital Cost
+ USD Millions
+ $2,444
+ 
+ Sustaining Capital Cost
+ USD Millions
+ $2,793
+ 
+ C1 Cost (Life of Mine)
+ USD/lb Cu
+ $1.04
+ 
+ All-in Sustaining Costs (AISC)
+ USD/lb Cu
+ $1.54
+ 
+ After Taxes
+ 
+ 
+ 
+ Internal Rate of Return (IRR)
+ %
+ 23.9%
+ 
+ Net Present Value (NPV) @ 8%
+ USD Millions
+ $3,701
+ 
+ Pay Back Period
+ Yr
+ 2.7
+ 
+ 
+
+ 
+
+ 
+
+ McEwen Mining Inc. Page 8
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+Project Development Schedule
+
+ 
+
+The Gantt chart below presents a conceptual
+project development timeline based on regional contractor inputs and long-lead equipment and materials delivery assumptions provided by
+vendors. The schedule assumes that the feasibility study work is completed by the end of 2024, finalization of the environmental permitting
+process (IIA/DIA) and other necessary permits to begin work are completed during the proposed feasibility study and preliminary timeframe
+and financing are in place to achieve the scheduled milestones. Following this conceptual schedule, the SX/EW plant start-up could occur
+in Q1 2029.
+
+ 
+
+ 
+
+McEwen Copper Capital Structure
+
+ 
+
+McEwen Copper is a Canadian-based private
+company with 28,885,000 common shares issued and outstanding. Its current shareholders are McEwen Mining Inc. 51.9%, Stellantis 14.2%,
+Nuton 14.2%, Rob McEwen 13.9%, Victor Smorgon Group 3.5%, other management and shareholders 2.3%.
+
+ 
+
+ 
+
+ 
+
+ McEwen Mining Inc. Page 9
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+Updated Mineral Resource Estimate
+
+ 
+
+The database for resource estimation
+has a cutoff date December 31st, 2022. An additional 22,252 m of drilling (mostly infill) from 49 holes, completed in
+2023 to date, were not included in the resource estimate.
+
+ 
+
+The mineral resources have been classified
+according to guidelines and logic summarized within the Canadian Institute of Mining, Metallurgy and Petroleum (CIM 2019) Definitions
+referred to in NI 43-101. Resources were classified as Indicated or Inferred by considering geology, sampling, and grade estimation aspects
+of the model. For geology, consideration was given to the confidence in the interpretation of the lithologic domain boundaries and geometry.
+For sampling, consideration was given to the number and spacing of composites, the orientation of drilling and the reliability of sampling.
+For the estimation results, consideration was given to the confidence with which grades were estimated as measured by the quality of the
+match between the grades of the data and the model.
+
+ 
+
+Mineral resources are determined using
+an NSR cut-off value to cover the processing cost for each recovery methodology. For supergene and primary material using sulfuric acid
+leaching and SX/EW recovery the cutoff was $2.74/t. The supergene and primary material can be treated in a float mill with NSR
+cutoffs of $5.46/t and $5.43/t, respectively. NSR values are based on a copper price of $4.00/lb, gold at $1,700/oz,
+and silver at $20/oz, where applicable. Variable pit slopes between 30° and 42° were applied depending on
+depth.
+
+ 
+
+The current database is adequate for
+the preparation of a long-range model that serves as the basis for the 2023 PEA. The extent of mineralization along strike exceeds 4 kilometers
+and the distance across strike is approximately 2.2 kilometers. The deposit is open at depth and to the North. Over the approximately
+2.5 km strike length where mineralization is strongest, the average drill spacing is approximately 150 m to 200 m but there are localized
+areas where drilling is on 100-m spacing. The assay database includes 56,528 m of assay interval data from 162 drillholes. Resource estimation
+work was performed using Datamine Studio modeling software.
+
+ 
+
+Resources disclosed in Table 9 are
+reported in two categories related to processing amenability:
+
+ 
+
+1) materials that
+are suited for processing in a commercially proven conventional, ambient conditions, copper bio-leaching scheme (Leach); and
+
+ 
+
+2) materials that are better suited to processing either in a more advanced bio-leaching scheme such as Nuton™ technologies or
+traditional milling/concentrator approach (Mill or Leach+).
+
+ 
+
+ 
+
+ 
+
+ McEwen Mining Inc. Page 10
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ Table 9: Mineral Resource Estimate
+ 
+ 
+ 
+ 
+ 
+ Million
+ tonnes (MT)
+ Average Grade
+ Contained Metal
+ 
+ 
+ 
+ 
+ 
+ Cu% -
+ tot
+ 
+ Cu% -
+ sol
+ 
+ Au
+ (g/t)
+ 
+ Ag
+ (g/t)
+ 
+ Cu
+ (Blbs)
+ 
+ Au
+ (Moz)
+ 
+ Ag
+ (Moz)
+ 
+ Indicated
+ Supergene
+ Leach
+ 944.2
+ 0.46
+ 0.30 
+ -
+ -
+ 9.54
+ - 
+ - 
+ 
+ Mill or Leach+
+ 73.0
+ 0.13
+ -
+ 0.09
+ 1.10
+ 0.21
+ 0.20
+ 2.58
+ 
+ Primary
+ Mill or Leach+
+ 218.1
+ 0.25
+ -
+ 0.036
+ 1.06
+ 1.19
+ 0.25
+ 7.43
+ 
+ Total
+ Mill or Leach+
+ 291.1
+ 0.22
+ -
+ 0.049
+ 1.07
+ 1.40
+ 0.46
+ 10.01
+ 
+ Total Indicated
+ 
+ Leach & Mill or Leach+
+ 1,235.3
+ 0.40
+ 
+ 
+ 
+ 10.94
+ 0.46 
+ 10.01
+ 
+ Inferred
+ Supergene
+ Leach
+ 695.7
+ 0.32
+ 0.19 
+ -
+ - 
+ 4.91
+ - 
+ - 
+ 
+ Mill or Leach+
+ 525.6
+ 0.30
+ - 
+ 0.05
+ 1.44
+ 3.45
+ 0.87
+ 24.40
+ 
+ Primary
+ Mill or Leach+
+ 3,288.0
+ 0.25
+ -
+ 0.03
+ 1.18
+ 18.35
+ 3.37
+ 124.67
+ 
+ Total
+ Mill or Leach+
+ 3,813.6
+ 0.26
+ -
+ 0.035
+ 1.22
+ 21.79
+ 4.24
+ 149.07
+ 
+ Total Inferred
+ 
+ Leach & Mill or Leach+
+ 4,509.3
+ 0.31
+ 
+ 
+ 
+ 26.70
+ 4.24
+ 149.07
+ 
+ 
+
+Table 9 Notes:
+
+ 
+
+•Mineral resources, which are
+not mineral reserves, do not have demonstrated economic viability. The estimate of mineral resources may be materially affected by environmental,
+permitting, legal, title, socio-political, marketing, or other relevant factors.
+
+ 
+
+•The quantity and grade of reported
+inferred mineral resources in this estimation are uncertain in nature and there is insufficient exploration to define these inferred mineral
+resources as an indicated or measured mineral resource; it is expected that further infill drilling will result in upgrading some of this
+material to an indicated or measured classification.
+
+ 
+
+•Reasonable prospects of eventual
+economic extraction are demonstrated by using a calculated NSR value in each block to evaluate an open pit shell using both Indicated
+and Inferred blocks in Geovia Whittle™ pit optimization software.
+
+ 
+
+•NSR was calculated using the
+following: metal prices of $4.00/lb for copper, $1,700/oz. for gold and $20/oz. for silver, processing costs of $4.17/t, total freight
+costs of $150/t, selling costs of $0.02/lb for copper and a constant recovery of 95% applied.
+
+ 
+
+•An NSR cut-off of $2.74/t was
+used based on extraction of the resource from the enriched zone using sulfuric acid leaching and SX/EW recovery; 100% of the soluble copper
+and 15% of the non-soluble copper grade is recovered in the heap-leach method.
+
+ 
+
+•The supergene and primary material
+can potentially be treated in a mill/concentrator with NSR cut-offs of $5.46/t and $5.43/t respectively. This has the added benefit of
+also recovering the gold and silver present in the resource. Additional parameters are used for the NSR calculation for this scenario.
+
+ 
+
+•Depending on the potential depth
+of the pit, total pit slope angles ranged from 42° near surface to 32° below 1000m depth. Overburden slopes were set at
+30°.
+
+ 
+
+•Composites of 2 m length were
+capped where needed; the capping strategy is based on the distribution of grade which varies by location (i.e. domain or proximity to
+controlling structures) and the associated potential metal removal. The resource estimate is based on uncapped copper grades; local
+capped grades are used for gold and silver.
+
+ 
+
+•Block grades were estimated
+using a combination of ordinary Kriging and inverse distance squared weighting depending on domain size.
+
+ 
+
+•Model blocks are 20m x 20m x
+15m in size.
+
+ 
+
+End Notes:
+
+ 
+
+(1) All
+dollar amounts are United States Dollars (USD) unless otherwise stated.
+
+ 
+
+(2) Project
+capital intensity is defined as Initial Capex ($) / LOM Avg. Annual Copper Production (lbs. or tonnes). C1 cash costs per pound produced
+is defined as the cash cost incurred at each processing stage, from mining through to recoverable copper delivered to the market, net
+of any by-product credits. All-in sustaining costs (AISC) per pound of copper produced adds production royalties, non-recoverable VAT
+and sustaining capital costs to C1. AISC margin is the ratio of AISC to gross revenue. Capital intensity, C1 cash costs per pound of copper
+produced, AISC per pound of copper produced, and AISC margin are all non-GAAP financial metrics.
+
+ 
+
+(3) Annual
+earnings before interest, taxes, depreciation, and amortization (EBITDA). EBITDA is a non-GAAP financial measure.
+
+ 
+
+(4) Kilograms
+of Carbon Dioxide Equivalent per tonne of Copper Equivalent produced. Carbon Dioxide Equivalent means having the same global warming potential
+as any another greenhouse gas.
+
+ 
+
+ 
+
+ 
+
+ McEwen Mining Inc. Page 11
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+(5) Wood
+Mackenzie Limited average Scope 1&2 emissions intensity for 394 assets during the period between 2022 and 2040.
+
+ 
+
+(6) 2017
+NI 43-101 Technical Report on Los Azules Project, Hatch Engineering (Throughput of 120,000 tpd of mineralized material).
+
+ 
+
+(7) The
+sequential assay method used at Los Azules for both the resource assay and metallurgical programs provides an indication of the copper
+mineralization present in the form of acid soluble copper and cyanide soluble copper, both assays combined provide an approximation for
+ ‘soluble’ copper.
+
+ 
+
+(8) Soluble
+copper recovery exceeding 100% implies partial leaching of material which was not categorized as “soluble” based on the sequential
+assaying method and data available.
+
+ 
+
+Qualified
+Persons
+
+ 
+
+Technical
+aspects of this news release, excluding mineral resource disclosure, have been reviewed and verified by James L. Sorensen – FAusIMM
+Reg. No. 221286 with Samuel Engineering, who is a qualified person as defined by National Instrument 43-101– Standards of Disclosure
+for Mineral Projects.
+
+ 
+
+Disclosure
+related to the updated Los Azules mineral resource estimate has been reviewed and approved by Allan Schappert, CPG #11758, SME-RM,
+with Stantec Consulting, who is Qualified Persons as defined by National Instrument 43-101 –
+Standards of Disclosure for Mineral Projects (“NI 43- 101”).
+
+ 
+
+CAUTION CONCERNING FORWARD-LOOKING STATEMENTS
+
+ 
+
+This news release contains certain
+forward-looking statements and information, including "forward-looking statements" within the meaning of the Private Securities
+Litigation Reform Act of 1995. The forward-looking statements and information expressed, as at the date of this news release, McEwen Mining
+Inc.'s (the "Company") estimates, forecasts, projections, expectations or beliefs as to future events and results. Forward-looking
+statements and information are necessarily based upon a number of estimates and assumptions that, while considered reasonable by management,
+are inherently subject to significant business, economic and competitive uncertainties, risks and contingencies, and there can be no assurance
+that such statements and information will prove to be accurate. Therefore, actual results and future events could differ materially from
+those anticipated in such statements and information. Risks and uncertainties that could cause results or future events to differ materially
+from current expectations expressed or implied by the forward-looking statements and information include, but are not limited to, effects
+of the COVID-19 pandemic, fluctuations in the market price of precious metals, mining industry risks, political, economic, social and
+security risks associated with foreign operations, the ability of the Company to receive or receive in a timely manner permits or other
+approvals required in connection with operations, risks associated with the construction of mining operations and commencement of production
+and the projected costs thereof, risks related to litigation, the state of the capital markets, environmental risks and hazards, uncertainty
+as to calculation of mineral resources and reserves, foreign exchange volatility, foreign exchange controls, foreign currency risk, and
+other risks. Readers should not place undue reliance on forward-looking statements or information included herein, which speak only as
+of the date hereof. The Company undertakes no obligation to reissue or update forward-looking statements or information as a result of
+new information or events after the date hereof except as may be required by law. See McEwen Mining's Annual Report on Form 10-K
+for the fiscal year ended December 31, 2022, Quarterly Report on Form 10-Q for the three months ended March 31, 2023, and
+other filings with the Securities and Exchange Commission, under the caption "Risk Factors", for additional information on risks,
+uncertainties and other factors relating to the forward-looking statements and information regarding the Company. All forward-looking
+statements and information made in this news release are qualified by this cautionary statement.
+
+ 
+
+The NYSE and TSX have not reviewed
+and do not accept responsibility for the adequacy or accuracy of the contents of this news release, which has been prepared by management
+of McEwen Mining Inc.
+
+ 
+
+ABOUT MCEWEN MINING
+
+ 
+
+McEwen
+Mining is a gold and silver producer with operations in Nevada, Canada, Mexico and Argentina. In addition, it owns approximately 52% of
+McEwen Copper which owns the large, advanced stage Los Azules copper project in Argentina. The Company’s goal is to improve the
+productivity and life of its assets with the objective of increasing its share price and providing a yield. Rob McEwen, Chairman and Chief
+Owner, has personal investment in the company of US$220 million. His annual salary is US$1.
+
+ 
+
+ 
+
+ 
+
+ McEwen Mining Inc. Page 12
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ WEB
+ SITE 
+ 
+ SOCIAL
+ MEDIA 
+ 
+ 
+ 
+ 
+ 
+ www.mcewenmining.com
+ 
+ 
+ McEwen
+ Mining
+ Facebook:
+ facebook.com/mcewenmining
+ 
+ 
+ 
+ 
+ 
+ LinkedIn:
+ linkedin.com/company/mcewen-mining-inc-
+ 
+ 
+ 
+ 
+ CONTACT
+ INFORMATION
+ 
+ Twitter:
+ twitter.com/mcewenmining
+ 
+ 
+ 
+ 150
+ King Street West 
+ 
+ Instagram:
+ 
+ instagram.com/mcewenmining
+ 
+ 
+ 
+ Suite 2800,
+ PO Box 24 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Toronto,
+ ON, Canada 
+ 
+ McEwen
+ Copper
+ Facebook:
+ facebook.com/
+ mcewencopper
+ 
+ 
+ 
+ M5H
+ 1J9 
+ 
+ LinkedIn:
+ linkedin.com/company/mcewencopper
+ 
+ 
+ 
+ 
+ 
+ Twitter:
+ twitter.com/mcewencopper
+ 
+ 
+ 
+ Relationship
+ with Investors: 
+ 
+ Instagram:
+ 
+ instagram.com/mcewencopper 
+ 
+ 
+ 
+ (866)-441-0690
+ - Toll free line
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (647)-258-0395
+ 
+ 
+ Rob
+ McEwen
+ Facebook:
+ facebook.com/mcewenrob 
+ 
+ 
+ 
+ Mihaela
+ Iancu ext. 320 
+ 
+ LinkedIn:
+ linkedin.com/in/robert-mcewen-646ab24
+ 
+ 
+ 
+ info@mcewenmining.com
+ 
+ 
+ Twitter:
+ 
+ twitter.com/robmcewenmux
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ McEwen Mining Inc. Page 13

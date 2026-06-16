@@ -1,0 +1,4189 @@
+EX-99.1
+2
+ex991.htm
+Q3 2020 FINANCIAL STATEMENTS
+
+ 
+
+Exhibit 99.1
+
+ 
+
+ 
+
+ 
+
+ 
+
+Unaudited Condensed Consolidated Interim
+Financial Statements
+
+September 30, 2020 and 2019
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ NEXGEN ENERGY LTD.
+
+ CONDENSED CONSOLIDATED INTERIM STATEMENTS OF FINANCIAL POSITION (Expressed in Canadian Dollars) (unaudited) As at
+
+ 
+ Note 
+ September 30, 2020 
+ December 31, 2019
+
+ ASSETS 
+ 
+ 
+ 
+
+ Current 
+ 
+ 
+ 
+
+ Cash 
+ 
+ $78,622,079 
+ $52,117,581 
+
+ Amounts receivable 
+ 
+ 237,061 
+ 610,121 
+
+ Prepaid expenses and other assets 
+ 
+ 371,557 
+ 734,310 
+
+ 
+ 
+ 79,230,697 
+ 53,462,012 
+
+ Non-current 
+ 
+ 
+ 
+
+ Deposits 
+ 
+ 85,494 
+ 95,835 
+
+ Exploration and evaluation assets 
+ 6 
+ 266,566,135 
+ 252,380,408 
+
+ Equipment 
+ 9 
+ 8,114,017 
+ 7,587,659 
+
+ 
+ 
+ 274,765,646 
+ 260,063,902 
+
+ TOTAL ASSETS 
+ 
+ $353,996,343 
+ $313,525,914 
+
+ 
+ 
+ 
+ 
+
+ LIABILITIES 
+ 
+ 
+ 
+
+ Current 
+ 
+ 
+ 
+
+ Accounts payable and accrued liabilities 
+ 
+ $5,592,513 
+ $3,998,313 
+
+ Current portion of lease liabilities 
+ 7 
+ 778,642 
+ 558,960 
+
+ Flow-through share premium liability 
+ 8 
+ – 
+ 227,522 
+
+ 
+ 
+ 6,371,155 
+ 4,784,795 
+
+ Non-current 
+ 
+ 
+ 
+
+ Deferred income tax liability 
+ 
+ 1,226,096 
+ 725,066 
+
+ Long-term lease liabilities 
+ 7 
+ 3,439,166 
+ 2,086,007 
+
+ Convertible debentures 
+ 10 
+ 176,962,296 
+ 119,581,192 
+
+ 
+ 
+ 181,627,558 
+ 122,392,265 
+
+ TOTAL LIABILITIES 
+ 
+ 187,998,713 
+ 127,177,060 
+
+ 
+ 
+ 
+ 
+
+ EQUITY 
+ 
+ 
+ 
+
+ Share capital 
+ 11 
+ 245,554,564 
+ 218,787,664 
+
+ Reserves 
+ 11 
+ 53,529,078 
+ 48,800,771 
+
+ Accumulated other comprehensive loss 
+ 
+ (5,579,813) 
+ (2,247,226)
+
+ Accumulated deficit 
+ 
+ (153,637,652) 
+ (103,501,461)
+
+ 
+ 
+ 139,866,177 
+ 161,839,748 
+
+ Non-controlling interests 
+ 
+ 26,131,453 
+ 24,509,106 
+
+ TOTAL EQUITY 
+ 
+ 165,997,630 
+ 186,348,854 
+
+ 
+ 
+ 
+ 
+
+ TOTAL LIABILITIES AND EQUITY 
+ 
+ $353,996,343 
+ $313,525,914 
+
+ 
+
+Nature of operations (Note
+2)
+
+Commitments (Notes 7 &
+8)
+
+Subsequent Events (Note
+18)
+
+ 
+
+ 
+
+The accompanying notes are an integral
+part of the condensed consolidated interim financial statements.
+
+These condensed consolidated
+interim financial statements were authorized for issue by the Board of Directors on November 5, 2020.
+
+ 
+
+ 
+
+ 2 
+ 
+ 
+
+ NEXGEN ENERGY LTD.
+
+ 
+ CONDENSED CONSOLIDATED INTERIM STATEMENTS OF LOSS AND COMPREHENSIVE
+ LOSS
+ (Expressed in Canadian Dollars)
+ (unaudited)
+
+ 
+
+ 
+ 
+ For the three months ended 
+ For the nine months ended
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Note 
+ September 30, 2020 
+ September 30, 2019 
+ September 30, 2020 
+ September 30, 2019 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Salaries, benefits and directors’ fees 
+ 12 
+ $1,102,460 
+ $1,173,072 
+ $3,072,224 
+ $3,189,124 
+
+ Office and administrative 
+ 
+ 305,044 
+ 366,749 
+ 1,254,603 
+ 1,563,888 
+
+ Professional fees 
+ 
+ 595,884 
+ 906,954 
+ 3,017,751 
+ 2,702,830 
+
+ Travel 
+ 
+ 17,662 
+ 236,246 
+ 167,344 
+ 750,996 
+
+ Depreciation 
+ 9 
+ 602,677 
+ 596,321 
+ 1,690,558 
+ 1,783,978 
+
+ Share-based payments 
+ 11,12 
+ 1,459,545 
+ 2,090,369 
+ 5,838,710 
+ 8,055,513 
+
+ Finance income 
+ 
+ (86,609) 
+ (406,817) 
+ (326,256) 
+ (1,524,324)
+
+ Rental income 
+ 
+ (9,087) 
+ (7,576) 
+ (25,750) 
+ (22,729)
+
+ Mark to market loss (gain) on convertible debentures 
+ 10 
+ 13,595,865 
+ (6,950,474) 
+ 24,924,861 
+ (20,689,090)
+
+ Interest expense 
+ 10 
+ 3,451,917 
+ 2,970,900 
+ 9,623,692 
+ 8,968,707 
+
+ Interest on lease liabilities 
+ 7 
+ 79,265 
+ 50,666 
+ 179,973 
+ 159,447 
+
+ Foreign exchange loss (gain) 
+ 
+ 241,186 
+ (289,278) 
+ (551,883) 
+ 1,254,893 
+
+ Loss on termination of lease 
+ 
+ 5,264 
+ – 
+ 5,264 
+ – 
+
+ Gain on disposal of equipment 
+ 
+ – 
+ – 
+ (4,000) 
+ – 
+
+ Loss from operations 
+ 
+ $21,361,073 
+ $737,132 
+ $48,867,091 
+ $6,193,233 
+
+ Deferred income tax expense 
+ 
+ 153,873 
+ 71,718 
+ 1,506,110 
+ 161,133 
+
+ Loss for the period 
+ 
+ $21,514,946 
+ $808,850 
+ $50,373,201 
+ $6,354,366 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Other Comprehensive Income 
+ 
+ 
+ 
+ 
+ 
+
+ Change in fair value of convertible debentures attributable to the change in credit risk 
+ 10 
+ $333,056 
+ $– 
+ $4,565,187 
+ $813,879 
+
+ Deferred income tax recovery 
+ 
+ (89,926) 
+ – 
+ (1,232,601) 
+ – 
+
+ Total comprehensive loss for the period 
+ 
+ $21,758,076 
+ $808,850 
+ $53,705,787 
+ $7,168,245 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+The accompanying notes are an integral part of
+the condensed consolidated interim financial statements.
+
+ 
+
+ 
+
+ 3 
+ 
+ 
+
+ 
+
+ 
+NEXGEN ENERGY LTD.
+
+ 
+ CONDENSED CONSOLIDATED INTERIM STATEMENTS OF LOSS AND COMPREHENSIVE
+ LOSS (continued)
+ (Expressed in Canadian Dollars)
+ (unaudited)
+ 
+
+ 
+ 
+ For
+ the three months
+ ended 
+ For
+ the nine months
+ ended
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Note 
+ September
+ 30, 2020 
+ September
+ 30, 2019 
+ September
+ 30, 2020 
+ September
+ 30, 2019 
+
+ Loss (income) attributable
+ to: 
+ 
+ 
+ 
+ 
+ 
+
+ Shareholders of NexGen
+ Energy Ltd. 
+ 
+ $21,680,392 
+ $519,754 
+ $49,863,566 
+ $5,597,198 
+
+ Non-controlling
+ interests in IsoEnergy Ltd. 
+ 
+ (165,446) 
+ 289,096 
+ 509,635 
+ 757,168 
+
+ Loss
+ for the period 
+ 
+ $21,514,946 
+ $808,850 
+ $50,373,201 
+ $6,354,366 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Total comprehensive loss
+ (income) attributable to: 
+ 
+ 
+ 
+ 
+ 
+
+ Shareholders of NexGen Energy Ltd. 
+ 
+ $21,923,522 
+ $519,754 
+ $53,196,152 
+ $6,411,077 
+
+ Non-controlling
+ interests in IsoEnergy Ltd. 
+ 
+ (165,446) 
+ 289,096 
+ 509,635 
+ 757,168 
+
+ Total
+ comprehensive loss for the period 
+ 
+ $21,758,076 
+ $808,850 
+ $53,705,787 
+ $7,168,245 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Loss per common share attributable to the
+ Company’s common shareholders 
+ 
+ 
+ 
+ 
+ 
+
+ Basic
+ loss per common share 
+ 17 
+ $0.06 
+ $0.00 
+ $0.14 
+ $0.02 
+
+ Diluted
+ loss per common share 
+ 17 
+ $0.06 
+ $0.01 
+ $0.14 
+ $0.04 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Weighted average number of common shares outstanding 
+ 
+ 
+ 
+ 
+ 
+
+ Basic 
+ 17 
+ 376,700,956 
+ 355,779,091 
+ 367,912,603 
+ 353,759,502 
+
+ Diluted 
+ 17 
+ 376,700,956 
+ 403,862,428 
+ 367,912,603 
+ 401,842,839 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+The accompanying notes are an integral part of
+the condensed consolidated interim financial statements.
+
+ 
+
+ 
+
+ 4 
+ 
+ 
+
+ 
+ NEXGEN ENERGY LTD.
+ CONDENSED CONSOLIDATED INTERIM STATEMENTS OF CHANGES IN EQUITY
+
+ 
+ (Expressed in Canadian Dollars)
+ (unaudited)
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ Accumulated 
+ 
+ 
+ 
+
+ 
+ 
+ Number of 
+ 
+ 
+ Other 
+ 
+ 
+ 
+
+ 
+ 
+ Common 
+ Share 
+ 
+ Comprehensive 
+ Accumulated 
+ Non-controlling 
+ 
+
+ 
+ Note 
+ Shares 
+ Capital 
+ Reserves 
+ Loss 
+ Deficit 
+ Interests 
+ Total
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Balance as at December 31, 2018 
+ 
+ 351,237,062 
+ $208,711,135 
+ $39,272,391 
+ $97,675 
+ $(87,815,146) 
+ $21,660,535 
+ $181,926,590 
+
+ Exercise of options 
+ 11 
+ 3,533,333 
+ 3,865,623 
+ (1,421,957) 
+ – 
+ – 
+ – 
+ 2,443,666 
+
+ Share-based payments 
+ 11 
+ – 
+ – 
+ 8,687,519 
+ – 
+ – 
+ 268,457 
+ 8,955,976 
+
+ Issue of shares on convertible debenture interest payments 
+ 11 
+ 1,041,304 
+ 2,020,130 
+ – 
+ – 
+ – 
+ – 
+ 2,020,130 
+
+ Ownership changes relating to non-controlling interests 
+ 
+ – 
+ – 
+ – 
+ – 
+ 2,239 
+ 23,895 
+ 26,134 
+
+ Loss for the period 
+ 
+ – 
+ – 
+ – 
+ – 
+ (5,597,198) 
+ (757,168) 
+ (6,354,366)
+
+ Other Comprehensive Income 
+ 
+ – 
+ – 
+ – 
+ (813,879) 
+ – 
+ – 
+ (813,879)
+
+ Balance as at September 30, 2019 
+ 
+ 355,811,699 
+ $214,596,888 
+ $46,537,953 
+ $(716,204) 
+ $(93,410,105) 
+ $21,195,719 
+ $188,204,251 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Balance as at December 31, 2019 
+ 
+ 360,250,571 
+ $218,787,664 
+ $48,800,771 
+ $(2,247,226) 
+ $(103,501,461) 
+ $24,509,106 
+ $186,348,854 
+
+ Exercise of options 
+ 11 
+ 3,282,666 
+ 3,369,720 
+ (1,318,780) 
+ – 
+ – 
+ – 
+ 2,050,940 
+
+ Share-based payments 
+ 11 
+ – 
+ – 
+ 6,047,087 
+ – 
+ – 
+ 569,743 
+ 6,616,830 
+
+ Issue of shares on convertible debenture interest payments 
+ 11 
+ 1,092,142 
+ 2,151,520 
+ – 
+ – 
+ – 
+ – 
+ 2,151,520 
+
+ Issue of shares for cash from private placement 
+ 11 
+ 11,611,667 
+ 20,888,500 
+ – 
+ – 
+ – 
+ – 
+ 20,888,500 
+
+ Issue of shares on convertible debenture establishment fee 
+ 11 
+ 348,350 
+ 627,030 
+ – 
+ – 
+ – 
+ – 
+ 627,030 
+
+ Issue of shares on convertible debenture consent fee 
+ 
+ 180,270 
+ 355,130 
+ – 
+ – 
+ – 
+ – 
+ 355,130 
+
+ Share issuance costs 
+ 
+ – 
+ (625,000) 
+ – 
+ – 
+ – 
+ – 
+ (625,000)
+
+ Ownership changes relating to non-controlling interests 
+ 
+ – 
+ – 
+ – 
+ – 
+ (272,625) 
+ 1,562,239 
+ 1,289,614 
+
+ Loss for the period 
+ 
+ – 
+ – 
+ – 
+ – 
+ (49,863,566) 
+ (509,635) 
+ (50,373,201)
+
+ Other comprehensive income 
+ 
+ – 
+ – 
+ – 
+ (3,332,587) 
+ – 
+ – 
+ (3,332,587)
+
+ Balance as at September 30, 2020 
+ 
+ 376,765,666 
+ $245,554,564 
+ $53,529,078 
+ $(5,579,813) 
+ $(153,637,652) 
+ $26,131,453 
+ $165,997,630 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+The accompanying notes
+are an integral part of the condensed consolidated interim financial statements.
+
+ 
+
+ 
+
+ 5 
+ 
+ 
+
+ NEXGEN ENERGY LTD. CONDENSED CONSOLIDATED INTERIM STATEMENTS OF CASH FLOWS
+
+ (Expressed in Canadian Dollars) (unaudited) For the nine months ended
+
+ 
+ September 30, 2020 
+ September 30, 2019
+
+ Cash flows (used in) from operating activities 
+ 
+ 
+
+ Loss for the period 
+ $(50,373,201) 
+ $(6,354,366)
+
+ Items not involving cash: 
+ 
+ 
+
+ Depreciation 
+ 1,690,558 
+ 1,783,978 
+
+ Share-based payments 
+ 5,838,710 
+ 8,055,513 
+
+ Non-cash costs of debenture issuance 
+ 184,757 
+ – 
+
+ Unrealized foreign exchange loss (gain) on cash 
+ (475,548) 
+ 763,280 
+
+ Deferred income tax expense 
+ 1,506,110 
+ 161,133 
+
+ Mark to market loss (gain) on convertible debentures 
+ 24,924,861 
+ (20,689,090)
+
+ Interest expense 
+ 9,623,692 
+ 8,968,707 
+
+ Interest on lease liabilities 
+ 179,973 
+ 159,447 
+
+ Loss on lease termination 
+ 5,264 
+ – 
+
+ Gain on disposal of equipment 
+ (4,000) 
+ – 
+
+ Changes in non-cash working capital items: 
+ 
+ 
+
+ Amounts receivable 
+ 373,060 
+ 31,471 
+
+ Prepaid expenses 
+ 362,753 
+ (479,391)
+
+ Deposits 
+ 10,340 
+ 394,876 
+
+ Accounts payable and accrued liabilities 
+ (95,474) 
+ (1,628,258)
+
+ 
+ (6,248,145) 
+ (8,832,700)
+
+ Cash flows used in investing activities 
+ 
+ 
+
+ Exploration and evaluation asset expenditures 
+ (15,124,055) 
+ (40,603,232)
+
+ Acquisition of equipment 
+ (130,677) 
+ (615,395)
+
+ 
+ (15,254,732) 
+ (41,218,627)
+
+ Cash flows (used in) from financing activities 
+ 
+ 
+
+ Exercise of options and warrants 
+ 2,399,847 
+ 2,469,800 
+
+ Shares issued for cash from private placements, net of share issuance costs 
+ 20,931,792 
+ – 
+
+ Shares issued in connection with issuance of convertible debentures 
+ 797,405 
+ – 
+
+ Issuance of convertible debentures 
+ 28,163,470 
+ – 
+
+ Payment of lease liabilities 
+ (694,635) 
+ (578,043)
+
+ Interest paid on convertible debentures 
+ (4,066,052) 
+ (4,024,266)
+
+ 
+ 47,531,827 
+ (2,132,509)
+
+ Change in cash 
+ 26,028,950 
+ (52,183,836)
+
+ Cash, beginning of period 
+ 52,117,581 
+ 125,059,189 
+
+ Effect of exchange rate fluctuations on cash held 
+ 475,548 
+ (763,280)
+
+ Cash, end of period 
+ $78,622,079 
+ $72,112,073 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+Supplemental disclosure with respect to cash flows (Note 16)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+The accompanying notes
+are an integral part of the condensed consolidated interim financial statements.
+
+ 
+
+ 
+
+ 6 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+1. REPORTING
+ENTITY
+
+ 
+
+NexGen Energy Ltd. (“NexGen”
+or the “Company”) is an exploration and development stage entity engaged in the acquisition, exploration and evaluation
+and development of uranium properties in Canada. The Company was incorporated pursuant to the provisions of the British Columbia
+Business Corporations Act on March 8, 2011. The Company’s registered records office is located on the 25th
+Floor, 700 West Georgia Street, Vancouver, B.C., V7Y 1B3.
+
+ 
+
+On April 19, 2013, the Company (as
+it was then called, Clermont Capital Inc. (“Clermont”)) completed its qualifying transaction, which was effected pursuant
+to an amalgamation agreement dated December 31, 2012 (the “Amalgamation Agreement”) amongst Clermont, 0957633 B.C.
+Ltd., a wholly owned subsidiary of Clermont, and NexGen Energy Ltd. (“Old NexGen”). Pursuant to the Amalgamation Agreement,
+the shareholders of Old NexGen were issued one common share of Clermont (on a post-share consolidation basis) for every one Old
+NexGen common share held immediately prior to the completion of the amalgamation. In connection with the Qualifying Transaction,
+Clermont also completed a consolidation of its common shares on a 2.35:1 basis and changed its name to “NexGen Energy Ltd.”.
+The Company’s acquisition of Old NexGen was accounted for as a reverse takeover.
+
+ 
+
+The Company commenced trading on the
+TSX Venture Exchange (“TSX-V”) as a Tier 2 Issuer under the symbol “NXE” on April 23, 2013. On August 7,
+2015, the Company became a Tier 1 Issuer. On July 15, 2016, NexGen graduated and commenced trading on the Toronto Stock Exchange
+(“TSX”) under its existing symbol. The Company’s common shares ceased trading on the OTCQX Best Market under
+the symbol “NXGEF” upon the commencement of trading on the NYSE American LLC (“NYSE American”) under the
+symbol “NXE” on May 17, 2017.
+
+ 
+
+In February 2016, the Company incorporated
+four wholly owned subsidiaries: NXE Energy Royalty Ltd., NXE Energy SW1 Ltd., NXE Energy SW3 Ltd., and IsoEnergy Ltd. (collectively,
+the “Subsidiaries”). The Subsidiaries were incorporated to hold certain exploration assets of the Company. In the three
+months ended June 30, 2016, certain exploration and evaluation assets were transferred to each of IsoEnergy Ltd. (“IsoEnergy”),
+NXE Energy SW1 Ltd. and NXE Energy SW3 Ltd. (Note 5). Subsequent to the transfer, IsoEnergy shares were issued to third parties
+pursuant to external financings and listed its common shares on the TSX-V, with NexGen retaining 52.91% of IsoEnergy’s outstanding
+common shares as at September 30, 2020 (December 31, 2019 – 52.03%).
+
+ 
+
+2.NATURE OF OPERATIONS 
+
+ 
+
+As an exploration and development
+stage company, the Company does not have revenues and historically has recurring operating losses. As at September 30, 2020, the
+Company had an accumulated deficit of $153,637,652 and working capital of $72,859,542. The Company will be required to obtain additional
+funding in order to continue with the exploration and development of its mineral properties and to repay its convertible debentures
+(Note 10), if required.
+
+ 
+
+The business of exploring for minerals
+and development of projects involves a high degree of risk. NexGen is an exploration and development company and is subject to
+risks and challenges similar to companies in a comparable stage. These risks include, but are not limited to, the challenges of
+securing adequate capital; development and operational risks inherent in the mining industry; changes in government policies and
+regulations; the ability to obtain the necessary environmental permits or, alternatively NexGen's ability to dispose of its exploration
+and evaluation assets on an advantageous basis; as well as global economic and uranium price volatility; all of which are uncertain.
+
+ 
+
+In March 2020, the World Health Organization
+declared a global pandemic known as COVID-19 and governments around the world have enacted measures to combat the spread of the
+virus. The duration and impact of the COVID-19 outbreak is not known at this time, but the risks to the Company may include, but
+are not limited to, delays in the previously disclosed timelines and activity levels associated with the Company’s feasibility
+study and environment assessment and the ability to raise funds through debt and equity markets.
+
+ 
+
+The underlying value of the exploration
+and evaluation assets is dependent upon the existence and economic recovery of mineral reserves and is subject to, but not limited
+to, the risks and challenges identified above. Changes in future conditions could require material write-downs of the carrying
+value of exploration and evaluation assets.
+
+ 
+
+ 
+
+ 7 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+3. BASIS OF PRESENTATION
+
+ 
+
+ Statement of Compliance
+
+ 
+
+These
+condensed consolidated interim financial statements for
+the three and nine months ended September 30, 2020, including comparatives, have been prepared in accordance with International
+Accounting Standard (“IAS”) 34, Interim Financial Reporting. They do not include all of the information required by
+International Financial Reporting Standards (“IFRS”) for annual financial statements and should be read in conjunction
+with the Company’s consolidated financial statements as at and for the year ended December 31, 2019. Accordingly, accounting
+policies applied other than as discussed in Note 4 are the same as those applied in the Company’s annual financial statements.
+These condensed consolidated interim financial statements were authorized for issue by the Board of Directors on November 5, 2020.
+
+ 
+
+Basis of Presentation
+
+ 
+
+These
+condensed consolidated interim financial statements have
+been prepared on a historical cost basis, except for certain financial instruments which have been measured at fair value,
+including the convertible debentures issued by the Company and its subsidiaries (Note 10). In addition, these condensed consolidated
+interim financial statements have been prepared using the accrual basis of accounting, except for cash flow information. All monetary
+references expressed in these notes are references to Canadian dollar amounts (“$”), except as otherwise noted. These
+financial statements are presented in Canadian dollars, which is the functional currency of the Company and its subsidiaries.
+
+ 
+
+During
+the period, the Company recast the prior year allocation of shareholders’ equity between reserves, accumulated deficit and
+non-controlling interests to reflect the appropriate attribution of non-controlling interests arising from IsoEnergy’s issuance
+of warrants and equity-settled share-based payment transactions. 
+
+ 
+
+Critical accounting judgments,
+estimates and assumptions
+
+ 
+
+The preparation of the condensed consolidated
+interim financial statements requires management to make judgments, estimates and assumptions that affect the reported amounts
+of assets, liabilities and contingent liabilities at the date of the condensed consolidated interim financial statements and the
+reported amounts of revenues and expenses during the reporting period. Estimates and assumptions are continuously evaluated and
+are based on management’s experience and other factors, including expectations of future events that are believed to be reasonable
+in the circumstances. Uncertainty about these judgments, estimates and assumptions could result in a material adjustment to the
+carrying amount of the asset or liability affected in future periods. Significant areas of estimation and uncertainty are the same
+as those described in the Company’s 2019 annual financial statements.
+
+ 
+
+Where the fair value of financial
+assets and financial liabilities recorded in the financial statements cannot be derived from active markets, their fair value is
+determined using valuation models. The inputs to these models are taken from observable markets where possible, but where this
+is not feasible, a degree of judgment is required in establishing fair values. The judgments include considerations of inputs such
+as liquidity risk, credit risk and volatility. Changes in assumptions about these factors could affect the reported fair value
+of financial instruments.
+
+ 
+
+4. SIGNIFICANT
+ACCOUNTING POLICIES
+
+ 
+
+The accounting policies followed
+by the Company are set out in Note 4 to the audited financial statements for the year ended December 31, 2019 and have been consistently
+followed in the preparation of these condensed consolidated interim financial statements.
+
+ 
+
+5. OPTION
+AGREEMENT
+
+ 
+
+On August 7, 2020, IsoEnergy entered
+into an agreement with NxGold Ltd. (“NxGold”, a company with common directors) to grant NxGold the option to acquire
+a 100% interest in IsoEnergy’s Mountain Lake uranium property in Nunavut, Canada (“Option Agreement”). This Option
+Agreement is awaiting TSXV approval and hence the terms of the Option Agreement are not reflected in the financial statements other
+than the $20,000 deposit paid prior to September 30, 2020.
+
+ 
+
+ 
+
+ 8 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+5. OPTION
+AGREEMENT (continued)
+
+ 
+
+Under the terms of the Option
+Agreement, NxGold has the option to acquire a 100% interest in the Mountain Lake uranium property in consideration for the issuance
+of 900,000 common shares and payment of $20,000 cash to IsoEnergy. The option is exercisable at NxGold’s election on or before
+the second anniversary of the receipt of TSXV approval, for additional consideration of $1,000,000, payable in cash or shares of
+NxGold. If NxGold elects to acquire the Mountain Lake property, IsoEnergy will be entitled to receive the following contingency
+payments in cash or shares of NxGold:
+
+ 
+
+·If the uranium spot price reaches US$50, IsoEnergy will receive $410,000
+
+·If the uranium spot price reaches US$75, IsoEnergy will receive $615,000
+
+·If the uranium spot price reaches US$100, IsoEnergy will receive $820,000
+
+ 
+
+The spot price contingent payments
+will expire 10 years following the date the option is exercised. Subsequent to entering into the Option Agreement, NxGold changed
+its name to International Consolidated Uranium Ltd.
+
+ 
+
+6. EXPLORATION
+AND EVALUATION ASSETS
+
+ 
+
+(a)Rook I Property
+
+ 
+
+The Rook I Project is located in
+Northern Saskatchewan, approximately 40 kilometres (km) east of the Saskatchewan – Alberta border, approximately 150 km north
+of the town of La Loche and 640 km northwest of the City of Saskatoon and consists of 32 contiguous mineral claims totalling 35,065
+hectares.
+
+The Rook I Project hosts the Arrow
+deposit discovered in February 2014, the Bow discovery in March 2015, the Harpoon discovery in August 2016 and the Arrow South
+discovery in July 2017. The Company released an updated mineral resource estimate and the results of a pre-feasibility study in
+November 2018, in each case, in respect of the Arrow deposit.
+
+NexGen has a 100% interest in the
+claims subject only to: (i) a 2% net smelter return royalty (“NSR”); and (ii) a 10% production carried interest, in
+each case, only on claims S-113928 to S-113933 (the Arrow deposit is not located on any of these claims). The NSR may be reduced
+to 1% upon payment of $1 million. The 10% production carried interest provides for the owner to be carried to the date of commercial
+production.
+
+ 
+
+(b)Other Athabasca Basin Properties
+
+ 
+
+The Other Athabasca Basin Properties
+are a portfolio of early stage mineral properties in the Athabasca Basin. The properties are grouped geographically as “SW1”,
+“SW2” and “SW3”. The SW2 properties are held directly by NexGen. The SW1 and SW3 properties are held by
+NXE Energy SW1 Ltd. and NXE Energy SW3 Ltd., respectively, each a wholly owned subsidiary.
+
+ 
+
+(c)IsoEnergy Properties
+
+ 
+
+The IsoEnergy Properties consist
+of (i) a 100% interest in the Radio Project, Saskatchewan (subject to a 2% net smelter return royalty and 2% gross overriding
+royalty); (ii) a 100% interest in the Thorburn Lake Project, Saskatchewan (subject to a 1% net smelter return royalty and
+a 10% carried interest which can be reduced to 1% at the holder’s option upon completion of a bankable feasibility study);
+(iii) a 100% interest, in each of the Madison, 2Z, Carlson Creek and North Thorburn properties, Saskatchewan; (iv) a 100% interest
+in the Mountain Lake property, Nunavut (refer Note 5 above); (v) a 100% interest in the Geiger property, Saskatchewan; (vi)
+a 100% interest in the Laroque East property, Saskatchewan that consists of 6 mineral claims constituting 3,200 hectares; (vi)
+and a 100% interest in the Eastern Athabasca named Evergreen that constitutes 32,400 hectares; (vii) a portfolio of newly staked
+claims in Saskatchewan, all of which are early stage exploration properties.
+
+ 
+
+ 
+
+ 9 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+6. EXPLORATION
+AND EVALUATION ASSETS (continued)
+
+ 
+
+The following is a summary
+of the capitalized costs of the projects described above as follows:
+
+ 
+
+ 
+ Rook I 
+ Other Athabasca Basin Properties 
+ IsoEnergy Properties 
+ Total
+
+ 
+ $ 
+ $ 
+ $ 
+ $
+
+ Acquisition costs: 
+ 
+ 
+ 
+ 
+
+ Balance, December 31, 2019 
+ 235,077 
+ 1,457,607 
+ 26,635,775 
+ 28,328,459 
+
+ Additions 
+ – 
+ – 
+ 142,363 
+ 142,363 
+
+ Balance, September 30, 2020 
+ 235,077 
+ 1,457,607 
+ 26,778,138 
+ 28,470,822 
+
+ 
+ 
+ 
+ 
+ 
+
+ Deferred exploration costs: 
+ 
+ 
+ 
+ 
+
+ Balance, December 31, 2019 
+ 199,784,259 
+ 9,163,367 
+ 15,104,323 
+ 224,051,949 
+
+ Additions: 
+ 
+ 
+ 
+ 
+
+ Drilling 
+ 36,723 
+ 5,688 
+ 2,226,184 
+ 2,268,595 
+
+ General exploration 
+ 979,385 
+ – 
+ 493,998 
+ 1,473,383 
+
+ Environmental and permitting 
+ 4,319,014 
+ – 
+ 308,783 
+ 4,627,797 
+
+ Technical, engineering, and design 
+ 1,842,818 
+ – 
+ – 
+ 1,842,818 
+
+ Geochemistry and assays 
+ – 
+ – 
+ 230,178 
+ 230,178 
+
+ Geological and geophysical 
+ 3,375 
+ 4,632 
+ 45,500 
+ 53,507 
+
+ Labour and wages 
+ 1,938,704 
+ – 
+ 675,251 
+ 2,613,955 
+
+ Share-based payments (Note 11) 
+ 589,908 
+ – 
+ 188,212 
+ 778,120 
+
+ Travel 
+ 62,323 
+ – 
+ 92,688 
+ 155,011 
+
+ 
+ 9,772,250 
+ 10,320 
+ 4,260,794 
+ 14,043,364 
+
+ Balance, September 30, 2020 
+ 209,556,509 
+ 9,173,687 
+ 19,365,117 
+ 238,095,313 
+
+ 
+ 
+ 
+ 
+ 
+
+ Total costs, September 30, 2020 
+ 209,791,586 
+ 10,631,294 
+ 46,143,255 
+ 266,566,135 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 10 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+6. EXPLORATION
+AND EVALUATION ASSETS (continued)
+
+ 
+ Rook I 
+ Other Athabasca Basin Properties 
+ IsoEnergy Properties 
+ Total
+
+ 
+ $ 
+ $ 
+ $ 
+ $
+
+ Acquisition costs: 
+ 
+ 
+ 
+ 
+
+ Balance, December 31, 2018 
+ 235,077 
+ 1,457,607 
+ 26,622,545 
+ 28,315,229 
+
+ Additions 
+ – 
+ – 
+ 14,077 
+ 14,077 
+
+ Impairment 
+ – 
+ – 
+ (847) 
+ (847)
+
+ Balance, December 31, 2019 
+ 235,077 
+ 1,457,607 
+ 26,635,775 
+ 28,328,459 
+
+ 
+ 
+ 
+ 
+ 
+
+ Deferred exploration costs: 
+ 
+ 
+ 
+ 
+
+ Balance, December 31, 2018 
+ 148,658,925 
+ 6,530,533 
+ 10,623,907 
+ 165,813,365 
+
+ Additions: 
+ 
+ 
+ 
+ 
+
+ Drilling 
+ 17,596,099 
+ 1,508,527 
+ 1,921,903 
+ 21,026,529 
+
+ General exploration 
+ 5,453,717 
+ 4,126 
+ 665,140 
+ 6,122,983 
+
+ Geological and geophysical 
+ 19,859,997 
+ 1,042,071 
+ 844,448 
+ 21,746,516 
+
+ Labour and wages 
+ 6,099,402 
+ 78,110 
+ 825,860 
+ 7,003,372 
+
+ Share-based payments (Note 11) 
+ 1,227,604 
+ – 
+ 98,474 
+ 1,326,078 
+
+ Travel 
+ 888,515 
+ – 
+ 138,098 
+ 1,026,613 
+
+ Impairment 
+ – 
+ – 
+ (13,507) 
+ (13,507)
+
+ 
+ 51,125,334 
+ 2,632,834 
+ 4,480,416 
+ 58,238,584 
+
+ Balance, December 31, 2019 
+ 199,784,259 
+ 9,163,367 
+ 15,104,323 
+ 224,051,949 
+
+ 
+ 
+ 
+ 
+ 
+
+ Total costs, December 31, 2019 
+ 200,019,336 
+ 10,620,974 
+ 41,740,098 
+ 252,380,408 
+
+ 
+
+7. LEASES
+
+ 
+
+Right-of-use asset summary:
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ Office Lease Assets 
+ Vehicle Lease Assets 
+ Total Right-of-use Assets
+
+ 
+ 
+ 
+ 
+
+ Right-of-use assets balance, December 31, 2019 
+ $1,986,747 
+ $230,178 
+ $2,216,925 
+
+ Additions of right-of-use assets 
+ 2,100,867 
+ – 
+ 2,100,867 
+
+ Termination of right-of-use assets 
+ – 
+ (31,819) 
+ (31,819)
+
+ Depreciation of right-of-use assets 
+ (440,240) 
+ (94,019) 
+ (534,259)
+
+ 
+ 
+ 
+ 
+
+ Right-of-use assets balance, September 30, 2020 
+ $3,647,374 
+ $104,340 
+ $3,751,714 
+
+ 
+
+Office and vehicle lease right-of-use
+assets are included in equipment in the office, furniture and leasehold improvements, and field equipment categories, respectively
+(Note 9).
+
+ 
+
+ 
+
+ 11 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+7. LEASES
+(continued)
+
+ 
+
+Lease obligation summary:
+
+ 
+
+ 
+ Nine months ended 
+ Year ended
+
+ 
+ September 30, 2020 
+ December 31, 2019
+
+ 
+ 
+ 
+
+ Balance, beginning of the period 
+ $2,644,967 
+ $3,222,380 
+
+ Addition to lease liabilities 
+ 2,121,305 
+ – 
+
+ Termination of lease liabilities 
+ (33,802) 
+ – 
+
+ Interest on lease liabilities 
+ 179,973 
+ 206,986 
+
+ Lease payments 
+ (694,635) 
+ (784,399)
+
+ 
+ 
+ 
+
+ Balance, end of the period 
+ $4,217,808 
+ $2,644,967 
+
+ Less: current portion 
+ (778,642) 
+ (558,960)
+
+ Balance, end of the period 
+ $3,439,166 
+ $2,086,007 
+
+ 
+
+ 
+
+The leases are for office space and
+vehicle leases that extend to 2025 and 2022, respectively. The discount rates applied to the leases for office spaces and vehicles
+are 7.50% and 6.74%, respectively. In addition to the lease payments the Company pays $463,987 annually related to operating costs
+and realty taxes of the leased office spaces. The amount is reassessed annually based on actual costs incurred.
+
+ 
+
+Minimum future lease payments relating
+to the leased assets are as follows:
+
+ 
+
+ 2020 
+ 379,603 
+
+ 2021 
+ 1,526,829 
+
+ 2022 
+ 1,414,423 
+
+ 2023 
+ 1,373,937 
+
+ 2024 
+ 1,346,127 
+
+ 2025 
+ 1,227,448 
+
+ Total 
+ $7,268,367 
+
+ 
+
+In addition to the leased assets above
+the Company engages drilling companies to carry out its drilling programs on its exploration and evaluation properties. The drilling
+companies provide all required equipment for these drilling programs. These contracts are short-term in nature and the Company
+has elected not to recognize right-of-use assets and associated lease liabilities in respect to these contracts but rather to recognize
+lease payments associated with these leases as incurred over the lease term. Payments to the drilling companies in the period ended
+September 30, 2020 were $1,907,835 (September 30, 2019 - $1,620,832) (all incurred by IsoEnergy).
+
+ 
+
+8. COMMITMENTS
+
+ 
+
+Flow-through expenditures:
+
+ 
+
+IsoEnergy has raised funds through
+the issuance of flow-through shares. Based on Canadian tax law, IsoEnergy is required to spend this amount on eligible exploration
+expenditures by December 31 of the year after the year in which the shares were issued.
+
+ 
+
+The premium paid for a flow-through
+share, which is the price paid for the share over the market price of the share, is recorded as a flow-through share premium liability.
+This liability is subsequently reduced when the required exploration expenditures are made, and accordingly, a recovery of flow-through
+premium is then recorded as a reduction in the deferred tax expense.
+
+ 
+
+As of September 30, 2020, IsoEnergy
+has met its obligation to spend on eligible exploration expenditures and the flow-through premium liability has been derecognized.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 12 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+8. COMMITMENTS
+(continued) 
+
+ 
+
+In July 2020, the Federal Government
+announced relief on the timing of spending of flow through funds including a one-year deferral on spending flow through funds raised
+in 2019 and 2020. In addition, the requirement to calculate and pay the Part XII.6 tax will also be deferred one year.
+
+ 
+
+ 
+
+A continuity of the flow-through share
+premium liability is as follows:
+
+ 
+
+ 
+ Nine months ended 
+ Year ended
+
+ 
+ September 30, 2020 
+ December 31, 2019
+
+ 
+ 
+ 
+
+ Balance, beginning of the period 
+ $227,522 
+ $550,392 
+
+ Liability incurred on flow-through shares issued 
+ – 
+ 233,340 
+
+ Settlement of flow-through share liability on expenditure made 
+ (227,522) 
+ (556,210)
+
+ 
+ 
+ 
+
+ Balance, end of the period 
+ $– 
+ $227,522 
+
+ 
+
+ 
+
+9. EQUIPMENT
+
+ 
+ Computing Equipment 
+ Software 
+ Field Equipment 
+ Office, Furniture and Leasehold Improvements 
+ Road 
+ Total
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Cost 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Balance at December 31, 2018 
+ $305,449 
+ $750,014 
+ $6,498,041 
+ $231,857 
+ $2,079,395 
+ $9,864,756 
+
+ Assets recognized on adoption of IFRS 16 
+ – 
+ – 
+ 354,163 
+ 2,472,349 
+ – 
+ 2,826,512 
+
+ Additions 
+ 111,281 
+ 189,171 
+ 38,841 
+ 302,475 
+ – 
+ 641,768 
+
+ Balance at December 31, 2019 
+ 416,730 
+ 939,185 
+ 6,891,045 
+ 3,006,681 
+ 2,079,395 
+ 13,333,036 
+
+ Additions 
+ 23,681 
+ 105,270 
+ 948 
+ 2,126,032 
+ – 
+ 2,255,931 
+
+ Disposals 
+ – 
+ – 
+ (91,659) 
+ – 
+ – 
+ (91,659)
+
+ Balance at September 30, 2020 
+ $440,411 
+ $1,044,455 
+ $6,800,334 
+ $5,132,713 
+ $2,079,395 
+ $15,497,308 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Accumulated Depreciation 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Balance at December 31, 2018 
+ $207,626 
+ $416,132 
+ $1,921,484 
+ $135,728 
+ $672,007 
+ $3,352,977 
+
+ Depreciation 
+ 84,405 
+ 235,159 
+ 1,042,981 
+ 574,357 
+ 455,498 
+ 2,392,400 
+
+ Balance at December 31, 2019 
+ 292,031 
+ 651,291 
+ 2,964,465 
+ 710,085 
+ 1,127,505 
+ 5,745,377 
+
+ Depreciation 
+ 56,322 
+ 142,145 
+ 648,245 
+ 509,420 
+ 341,623 
+ 1,697,755 
+
+ Disposals 
+ – 
+ – 
+ (59,841) 
+ – 
+ – 
+ (59,841)
+
+ Balance at September 30, 2020 
+ $348,353 
+ $793,436 
+ $3,552,869 
+ $1,219,505 
+ $1,469,128 
+ $7,383,291 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Net book value: 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ At December 31, 2019 
+ $124,699 
+ $287,894 
+ $3,926,580 
+ $2,296,596 
+ $951,890 
+ $7,587,659 
+
+ At September 30, 2020 
+ $92,058 
+ $251,019 
+ $3,247,465 
+ $3,913,208 
+ $610,267 
+ $8,114,017 
+
+ 
+
+ 13 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+10. CONVERTIBLE
+DEBENTURES
+
+ 
+
+ 
+ September 30, 2020 
+ December 31, 2019
+
+ 2016 Debentures (a) 
+ $75,769,876 
+ $61,149,632 
+
+ 2017 Debentures (b) 
+ 71,734,003 
+ 58,431,560 
+
+ 2020 Debentures (c) 
+ 22,948,208 
+ – 
+
+ IsoEnergy Debentures (d) 
+ 6,510,209 
+ – 
+
+ Convertible Debentures 
+ $176,962,296 
+ $119,581,192 
+
+ 
+
+The fair value of the Debentures
+increased from $119,581,192 on December 31, 2019 to $176,962,296 at September 30, 2020, resulting from the issuance of the 2020
+Debentures of $20,261,470 (US$14,550,000), the issuance of the IsoEnergy Debentures of $7,629,586 (US$5,820,000) and a mark to
+market loss of $29,490,048 for the nine month period ended September 30, 2020. The loss for the nine-month period ended September
+30, 2020 was bifurcated with the amount of the change in fair value of the convertible debentures attributable to changes in the
+credit risk of the liability recognized in other comprehensive income (loss of $4,565,187) and the remaining amount recognized
+in loss for the period (loss of $24,924,861).
+
+ 
+
+(a)2016 Debentures
+
+ 
+
+The fair value of the 2016 Debentures
+increased from $61,149,632 (US$47,081,639) on December 31, 2019 to $75,769,876 (US$56,803,265) at September 30, 2020, resulting
+in a loss of $14,620,243 (US$9,721,626) for the nine-month period ended September 30, 2020. This loss, combined with the loss on
+the 2017 Debentures (see Note 10(b)), the loss on the 2020 Debentures (see Note 10(c)) and the gain on the IsoEnergy Debentures
+(see Note 10(d)) for the period ended September 30, 2020 was bifurcated with the amount of the change in fair value of the convertible
+debentures attributable to changes in the credit risk of the liability recognized in other comprehensive income and the remaining
+amount recognized in loss for the period. 
+
+ 
+ Nine months ended September 30, 2020 
+ Year Ended December 31, 2019
+
+ Fair value of 2016 Debentures, beginning of year 
+ $61,149,632 
+ $72,481,375 
+
+ Fair value adjustment during the period 
+ 14,620,243 
+ (11,331,743)
+
+ Interest expense 
+ 4,510,002 
+ (5,911,455)
+
+ Interest paid 
+ (2,654,887) 
+ (5,566,552)
+
+ 2016 Debentures and interest payable 
+ $77,624,990 
+ $61,494,535 
+
+ Less: interest payable included in accounts payable & accrued liabilities 
+ (1,855,114) 
+ (344,903)
+
+ 2016 Debentures, end of period 
+ $75,769,876 
+ $61,149,632 
+
+ 
+ 
+ 
+
+The 2016 Debentures were valued using
+a convertible bond pricing model based on a system of two coupled Black-Scholes equations where the debt and equity components
+are separately valued based on different default risks and assumptions.
+
+ 
+
+The inputs used in the 2016 Debentures
+pricing model as at September 30, 2020 and December 31, 2019 are as follows:
+
+ 
+
+ 
+ September 30, 2020
+ December 31, 2019
+
+ Volatility
+ 38.00%
+ 38.00%
+
+ Expected life in years
+ 1.81 years
+ 2.56 years
+
+ Risk free interest rate
+ 0.21%
+ 1.69%
+
+ Expected dividend yield
+ 0%
+ 0%
+
+ Credit spread
+ 20.99%
+ 23.96%
+
+ Underlying share price of the Company
+ $2.31
+ $1.67
+
+ Conversion exercise price
+ US$2.3261
+ US$2.3261
+
+ Exchange rate (C$:US$)
+ $0.7497
+ $0.7699
+
+ 
+
+(b)2017 Debentures
+
+ 
+
+The fair value of the 2017 Debentures
+increased from $58,431,560 (US$44,988,882) on December 31, 2019 to $71,734,003 (US$53,777,646) at September 30, 2020, resulting
+in a loss of $13,302,443 (US$8,788,764) for the nine-month period ended September 30, 2020. This loss, combined with the loss on
+the 2016 Debentures (see Note 10(a)), the loss on the 2020 Debentures (see Note 10(c)) and the gain on the IsoEnergy Debentures
+(see Note 10(d)) for the period ended September 30, 2020 was bifurcated with the amount of the change in fair value of the convertible
+debentures attributable to changes in the credit risk of the liability recognized in other comprehensive income and the remaining
+amount recognized in loss for the period.
+
+ 
+
+ 14 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+10. CONVERTIBLE DEBENTURES (continued)
+
+ 
+
+ 
+ Nine months ended September 30, 2020 
+ Year ended December 31, 2019
+
+ Fair value of 2017 Debentures, beginning of year 
+ $58,431,560 
+ $65,709,509 
+
+ Fair value adjustment during the period 
+ 13,302,443 
+ (7,277,949)
+
+ Interest expense 
+ 4,510,002 
+ 5,911,455 
+
+ Interest paid 
+ (2,654,887) 
+ (5,566,552)
+
+ 2017 Debentures and interest payable 
+ $73,589,117 
+ $58,776,463 
+
+ Less: interest payable included in accounts payable & accrued liabilities 
+ (1,855,114) 
+ (344,903)
+
+ 2017 Debentures, end of period 
+ $71,734,003 
+ $58,431,560 
+
+ 
+
+The 2017 Debentures were valued using
+a convertible bond pricing model based on a system of two coupled Black-Scholes equations where the debt and equity components
+are separately valued based on different default risks and assumptions.
+
+ 
+
+The inputs used in the 2017 Debentures
+pricing model as at September 30, 2020 and December 31, 2019 are as follows:
+
+ 
+
+ 
+ September 30, 2020
+ December 31, 2019
+
+ Volatility
+ 38.00%
+ 38.00%
+
+ Expected life in years
+ 1.81 years
+ 2.56 years
+
+ Risk free interest rate
+ 0.21%
+ 1.69%
+
+ Expected dividend yield
+ 0%
+ 0%
+
+ Credit spread
+ 20.99%
+ 23.96%
+
+ Underlying share price of the Company
+ $2.31
+ $1.67
+
+ Conversion exercise price
+ US$2.6919
+ US$2.6919
+
+ Exchange rate (C$:US$)
+ $0.7497
+ $0.7699
+
+ 
+
+(c) 2020 Debentures
+
+ 
+
+On May 27, 2020, the Company issued
+US$15 million principal amount of convertible debentures (the “2020 Debentures”) which were also determined to be a
+hybrid financial instrument comprised of the host debt contract and multiple embedded derivatives. The Company received gross proceeds
+of $20,888,500 (US$15 million) and net proceeds of $20,227,782 (US$14,525,551) after deducting $760,718 (US$474,461) in transaction
+costs from the issue of the 2020 Debentures. A 3% establishment fee of $627,030 (US$450,000) was also paid to the debenture holders
+through the issuance of 348,350 common shares. The fair value of the 2020 Debentures on issuance date was determined to be $20,261,470
+(US$14,550,000).
+
+ 
+
+The fair value of the 2020 Debentures
+increased from $20,261,470 (US$14,550,000) on the initial measurement date to $22,948,208 (US$17,203,844) at September 30, 2020,
+resulting in a loss of $2,686,738 (US$2,653,844) for the period ended September 30, 2020. This loss, combined with the loss on
+the 2016 Debentures (see Note 10(a)), the loss on the 2017 Debentures (see Note 10(b)) and the gain on the IsoEnergy Debentures
+(see Note 10(d)) for the period ended September 30, 2020 was bifurcated with the amount of the change in fair value of the convertible
+debentures attributable to changes in the credit risk of the liability recognized in other comprehensive income and the remaining
+amount recognized in loss for the period.
+
+ 
+
+ 
+
+ 
+ September 30, 2020
+
+ Fair value of 2020 Debentures on issuance 
+ $20,261,470 
+
+ Fair value adjustment during the period 
+ 2,686,738 
+
+ Interest expense 
+ 523,953 
+
+ Interest paid 
+ (60,175)
+
+ 2020 Debentures and interest payable 
+ $23,411,986 
+
+ Less: interest payable included in accounts payable & accrued liabilities 
+ (463,778)
+
+ 2020 Debentures, end of period 
+ $22,948,208 
+
+ 
+
+ 15 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+10. CONVERTIBLE DEBENTURES (continued)
+
+ 
+
+The 2020 Debentures were valued using
+a convertible bond pricing model based on a system of two coupled Black-Scholes equations where the debt and equity components
+are separately valued based on different default risks and assumptions.
+
+ 
+
+The inputs used in the 2020 Debentures
+pricing model as at September 30, 2020 and May 27, 2020 are as follows:
+
+ 
+
+ 
+ September 30, 2020
+ May 27, 2020
+
+ Volatility
+ 38.00%
+ 38.00%
+
+ Expected life in years
+ 4.66 years
+ 5 years
+
+ Risk free interest rate
+ 0.73%
+ 0.75%
+
+ Expected dividend yield
+ 0%
+ 0%
+
+ Credit spread
+ 20.99%
+ 22.31%
+
+ Underlying share price of the Company
+ $2.31
+ $1.93
+
+ Conversion exercise price
+ CAD$2.34
+ CAD$2.34
+
+ Exchange rate (C$:US$)
+ $0.7497
+ $0.7257
+
+ 
+
+General Terms of the 2016, 2017,
+and 2020 Convertible Debentures
+
+ 
+
+At inception, for each of the 2016
+Debentures, 2017 Debentures, and 2020 Debentures (collectively, the “Convertible Debentures”), the Company made an
+irrevocable election to designate the Convertible Debentures as a financial liability at fair value through profit or loss. At
+their respective initial recognition date, the entire convertible instrument was measured at fair value with associated transaction
+costs expensed as incurred. Subsequent to initial recognition, the convertible financial instrument is marked to market at each
+financial reporting date and any change in fair value is recognized in profit or loss with the exception that the change in fair
+value that is attributable to change in credit risk is presented in other comprehensive income.
+
+ 
+
+The Convertible Debentures bear interest
+at a rate of 7.5% per annum, payable semi-annually in US dollars on June 10 and December 10 in each year, with the first interest
+payment on the 2017 Debentures due on December 10, 2017. Two thirds of the interest (equal to 5% per annum) is payable in cash
+and one third of the interest (equal to 2.5% per annum) is payable, subject to any required regulatory approval, in common shares
+of the Company, using the volume-weighted average trading price (“VWAP”) of the common shares on the exchange or market
+that has the greatest trading volume in the Company’s common shares for the 20 consecutive trading days ending three trading
+days preceding the date on which such interest payment is due. For this purpose, the VWAP shall be converted into US dollars on
+each of the 20 days in the period, using the indicative rate of exchange for such currency as reported by the Bank of Canada.
+
+ 
+
+The 2016 Debentures, 2017 Debentures,
+and 2020 Debentures are convertible, from time to time, into common shares of the Company at the option of the debenture holders
+at any time prior to maturity at a price per common share of US$2.3261, US$2.6919, and CAD$2.3400, respectively (the “Conversion
+Price”).
+
+ 
+
+The 2016 Debentures, 2017 Debentures,
+and 2020 Debentures are not redeemable by the Company prior to June 10, 2019, July 21, 2020, and May 27, 2023, respectively. On
+or after June 10, 2019 and July 21, 2020 and prior to July 22, 2022, the 2016 Debentures and 2017 Debentures, respectively; and
+on or after May 27, 2023 and prior to May 27, 2025, the 2020 Debentures, may be redeemed by the Company, in whole or in part, at
+any time that the 20-day VWAP of the common shares exceeds 130% of the Conversion Price, on not less than 30 days’ prior
+notice to the debenture holders. For this purpose, the VWAP shall be converted into US dollars on each of the 20 days in the period,
+using the indicative rate of exchange for such currency as reported by the Bank of Canada.
+
+ 
+
+Upon completion of a change of control
+(which includes in the case of the holders’ right to redeem the Convertible Debentures, a change in the Chief Executive Officer
+of the Company), the holders of the Convertible Debentures or the Company may require the Company to purchase or the holders to
+redeem, as the case may be, any outstanding Convertible Debentures in cash at: (i) on or prior to June 10, 2019, July 21, 2020,
+and May 27, 2023 for the 2016 Debentures, 2017 Debentures, and 2020 Debentures respectively, 130% of the principal amount; and
+(ii) at any time thereafter, 115% of the principal amount, in each case plus accrued but unpaid interest, if any. In addition,
+upon the public announcement of a change of control that is supported by the Board, the Company may require the holders of the
+Convertible Debentures to convert the Convertible Debentures into common shares at the Conversion Price provided the consideration
+payable upon the change of control exceeds the Conversion Price and is payable in cash.
+
+ 
+
+ 16 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+10. CONVERTIBLE DEBENTURES (continued)
+
+ 
+
+The 2016 Debentures, 2017 Debentures,
+and 2020 Debentures mature on July 22, 2022, July 22, 2022 and May 27, 2025 respectively.
+
+ 
+
+(d)IsoEnergy Debentures
+
+ 
+
+On August 18, 2020 IsoEnergy entered
+into an agreement with Queen’s Road Capital Investment Ltd. for a US$6 million private placement of unsecured convertible
+debentures (the “IsoEnergy Debentures”). The IsoEnergy Debentures will be convertible at the holder’s option
+at a conversion price of $0.88 (the “IsoEnergy Conversion Price”) into a maximum of 9,206,311 common shares of IsoEnergy.
+The IsoEnergy Debentures were also determined to be a hybrid financial instrument comprised of the host debt contract and multiple
+embedded derivatives. IsoEnergy received gross proceeds of $7,902,000 (US$6,000,000). A 3% establishment fee of $272,414 (US$180,000)
+was also paid to the debenture holders through the issuance of 219,689 common shares in IsoEnergy. The fair value of the IsoEnergy
+Debentures on issuance date was determined to be $7,629,586 (US$5,820,000).
+
+ 
+
+The fair value of the IsoEnergy Debentures
+decreased from $7,629,586 (US$5,820,000) on the initial measurement date to $6,590,247 (US$4,940,585) at September 30, 2020, resulting
+in a gain of $1,119,377 (US$879,415) for the period ended September 30, 2020. This gain, combined with the losses on the 2016 Debentures,
+2017 Debentures, and 2020 Debentures (see Notes 10(a, b, and c), for the period ended September 30, 2020 was bifurcated with the
+amount of the change in fair value of the convertible debentures attributable to changes in the credit risk of the liability recognized
+in other comprehensive income and the remaining amount recognized in loss for the period.
+
+ 
+
+ 
+ Nine months ended September 30, 2020
+
+ Fair value of IsoEnergy Debentures on issuance 
+ $7,629,586 
+
+ Fair value adjustment during the period 
+ (1,119,377)
+
+ Interest expense 
+ 80,038 
+
+ Interest paid 
+ – 
+
+ IsoEnergy Debentures and interest payable 
+ $6,590,247 
+
+ Less: interest payable included in accounts payable & accrued liabilities 
+ (80,038)
+
+ IsoEnergy Debentures, end of period 
+ $6,510,209 
+
+ 
+ 
+
+The IsoEnergy Debentures were valued
+using a convertible bond pricing model based on a system of two coupled Black-Scholes equations where the debt and equity components
+are separately valued based on different default risks and assumptions.
+
+ 
+
+ 
+
+ 
+ 
+ September 30, 2020
+ August 18, 2020
+
+ Volatility
+ 
+ 48.00%
+ 48.00%
+
+ Expected life in years
+ 
+ 4.9 years
+ 5 years
+
+ Risk free interest rate
+ 
+ 0.75%
+ 0.76%
+
+ Expected dividend yield
+ 
+ 0%
+ 0%
+
+ Credit spread
+ 
+ 22.80%
+ 22.80%
+
+ Underlying share price of the Company
+ 
+ $0.97
+ $1.24
+
+ Conversion exercise price
+ 
+ $0.88
+ $0.88
+
+ Exchange rate (C$:US$)
+ 
+ $0.7497
+ $0.7594
+
+ 
+
+ 
+
+General Terms of the IsoEnergy
+Debentures
+
+ 
+
+On any conversion of any portion of
+the principal amount of the IsoEnergy Debentures, if the number of common shares in IsoEnergy to be issued on such conversion,
+taking into account all common shares issued in respect of all prior conversions would result in the common shares to be issued
+exceeding the Maximum Conversion Shares, on such conversion the debenture holder shall be entitled to receive a payment (the “Exchange
+Rate Fee”) equal of the number of common shares that are not issued as a result of exceeding the Maximum Conversion Shares,
+multiplied by the 20-day volume-weighted average trading price (“VWAP”) of IsoEnergy. IsoEnergy can elect to
+pay the Exchange Rate Fee in cash or, subject to the TSXV approval, in common shares of IsoEnergy.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 17 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+10.CONVERTIBLE DEBENTURES (continued)
+
+ 
+
+The IsoEnergy Debentures will carry
+an 8.5% coupon (the “Interest”) over a 5-year term. The Interest is payable semi-annually with 6% payable in
+cash and 2.5% payable in common shares of IsoEnergy, subject to TSXV approval, at a price equal to the market price of IsoEnergy’s
+common shares on the TSXV on the day prior to the date such Interest is due. The Interest can be reduced to 7.5% per annum on the
+public dissemination by IsoEnergy of an economically positive preliminary economic assessment study, at which point the cash component
+of the Interest will be reduced to 5% per annum.
+
+ 
+
+IsoEnergy will be entitled, on or
+after the third anniversary of the date of issuance of the IsoEnergy Debentures, at any time the IsoEnergy 20-day VWAP on the TSXV
+exceeds 130% of the IsoEnergy Conversion Price, to redeem the IsoEnergy Debentures at par plus accrued and unpaid Interest.
+
+ 
+
+Upon completion of a change of control
+(which includes in the case of the holders’ right to redeem the IsoEnergy Debentures, a change in the Chief Executive Officer
+of IsoEnergy), the holders of the IsoEnergy Debentures or IsoEnergy may require IsoEnergy to purchase or the holders to redeem,
+as the case may be, any outstanding IsoEnergy Debentures in cash at: (i) on or prior to August 18, 2023, 130% of the principal
+amount; and (ii) at any time thereafter, 115% of the principal amount, in each case plus accrued but unpaid interest, if any. In
+addition, upon the public announcement of a change of control that is supported by the Board of IsoEnergy, IsoEnergy may require
+the holders of the IsoEnergy Debentures to convert the IsoEnergy Debentures into common shares of IsoEnergy at the IsoEnergy Conversion
+Price provided the consideration payable upon the change of control exceeds the IsoEnergy Conversion Price and is payable in cash.
+
+ 
+
+The IsoEnergy Debentures mature on
+August 19, 2025.
+
+ 
+
+11. SHARE
+CAPITAL AND RESERVES
+
+ 
+
+Authorized Capital - Unlimited
+number of common shares with no par value and unlimited number of preferred shares.
+
+ 
+
+Issued
+
+ 
+
+For the period ended
+September 30, 2020:
+
+ 
+
+(a)During the nine months ended September 30, 2020, the Company issued
+a total of 3,282,666 common shares on the exercise of 100,000 options at a price of $0.64, 2,850,000 options at a price of $0.50,
+232,666 options at a price of $1.59, and 100,000 options at a price of $1.92 for total proceeds of $2,050,940. As a result of the
+exercises, $1,318,780 was reclassified from reserves to share capital.
+
+ 
+
+(b)On June 8, 2020, the Company issued 1,092,142 common shares at the
+then fair value of $2,151,520 to the Convertible Debenture holders for the share portion of the debenture interest payment.
+
+ 
+
+(c)On May 27, 2020, the Company completed a financing that consisted
+of a US$15 million private placement of common shares and US$15 million of the 2020 Debentures (Note 10). In connection with the
+financing the Company issued 11,611,667 common shares at a price of $1.80 for the private placement, 348,350 common shares at a
+price of $1.80 for the establishment fees of the 2020 Debentures, and 180,270 common shares at a deemed price of $1.97 for a consent
+fee to the investors of the 2016 and 2017 Debentures in connection with the 2020 Debenture financing. 
+
+ 
+
+For the period ended
+September 30, 2019:
+
+ 
+
+(a)During the nine months ended September 30, 2019, the Company issued
+a total of 3,533,333 common shares on the exercise of 2,450,000 options at a price of $0.40, 200,000 options at a price of $0.46,
+50,000 options at a price of $0.50, 325,000 options at a price of $0.64 and 508,333 options at a price of $ 2.24 for total proceeds
+of $2,443,666. As a result of the exercises, $1,421,957 was reclassified from reserves to share capital.
+
+ 
+
+(b)On June 7, 2019 the Company issued 1,041,304 common shares at the
+then fair value of $2,020,130 to the Convertible Debenture holders for the share portion of the debenture interest payment.
+
+ 
+
+Stock Options
+
+ 
+
+Pursuant to the Company’s stock
+option plan, directors may, from time to time, authorize the issuance of options to directors, officers, employees and consultants
+of the Company, enabling them to acquire up to 20% of the issued and outstanding common shares of the Company. At September 30,
+2020, there were 37,634,828 stock options outstanding, which was 9.99% of issued and outstanding common shares of the Company.
+
+ 
+
+ 18 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+11. SHARE
+CAPITAL AND RESERVES (continued)
+
+ 
+
+The options can be granted for a
+maximum term of 10 years and are subject to vesting provisions as determined by the Board of Directors of the Company. All
+options currently outstanding had an original term of 5 years.
+
+ 
+
+Stock option transactions and the
+number of stock options are summarized as follows:
+
+ 
+ Number of Stock Options 
+ Weighted Average Exercise Price
+
+ Outstanding at December 31, 2018 
+ 36,237,148 
+ $1.98 
+
+ Granted 
+ 9,438,679 
+ 1.79 
+
+ Exercised 
+ (6,783,333) 
+ 0.58 
+
+ Forfeited 
+ (2,274,999) 
+ 2.77 
+
+ Outstanding at December 31, 2019 
+ 36,617,495 
+ $2.14 
+
+ Granted 
+ 4,625,000 
+ 1.80 
+
+ Exercised 
+ (3,282,666) 
+ 0.62 
+
+ Forfeited 
+ (325,001) 
+ 2.46 
+
+ Outstanding at September 30, 2020 
+ 37,634,828 
+ $2.23 
+
+ Number of options exercisable 
+ 29,268,160 
+ $2.34 
+
+ 
+
+As at September 30, 2020, the Company has stock options
+outstanding and exercisable as follows:
+
+ 
+ 
+ 
+ Number of 
+ Options
+ 
+ 
+ 
+ Number Exercisable
+ 
+ 
+ 
+ Exercise 
+ Price
+ 
+ 
+ Remaining
+ Contractual
+ Life (Years)
+ 
+ 
+ 
+ 
+ Expiry Date
+
+ 
+ 
+ 
+ 
+ 
+
+ 1,000,000 
+ 1,000,000 
+ $ 2.93 
+ 0.16
+ November 29, 2020
+
+ 500,000 
+ 500,000 
+ $ 2.85 
+ 0.16
+ November 29, 2020
+
+ 250,000 
+ 166,667 
+ $ 2.41 
+ 0.16
+ November 29, 2020
+
+ 150,000 
+ 66,667 
+ $ 1.92 
+ 0.16
+ November 29, 2020
+
+ 3,150,000 
+ 3,150,000 
+ $ 0.64 
+ 0.21
+ December 16, 2020
+
+ 25,000 
+ 25,000 
+ $ 3.39 
+ 0.50
+ April 2, 2021
+
+ 400,000 
+ 400,000 
+ $ 2.39 
+ 0.50
+ April 2, 2021
+
+ 183,333 
+ 183,333 
+ $ 2.85 
+ 0.50
+ April 2, 2021
+
+ 250,000 
+ 250,000 
+ $ 2.69 
+ 0.69
+ June 8, 2021
+
+ 4,400,000 
+ 4,400,000 
+ $ 2.65 
+ 0.73
+ June 23, 2021
+
+ 2,725,000 
+ 2,725,000 
+ $ 2.24 
+ 1.21
+ December 15, 2021
+
+ 250,000 
+ 250,000 
+ $ 3.11 
+ 1.56
+ April 22, 2022
+
+ 125,000 
+ 125,000 
+ $ 2.93 
+ 2.12
+ November 13, 2022
+
+ 3,550,000 
+ 3,550,000 
+ $ 3.39 
+ 2.21
+ December 14, 2022
+
+ 75,000 
+ 75,000 
+ $ 2.39 
+ 2.53
+ April 13, 2023
+
+ 3,750,000 
+ 3,750,000 
+ $ 2.85 
+ 2.69
+ June 8, 2023
+
+ 100,000 
+ 100,000 
+ $ 2.66 
+ 2.72
+ June 20, 2023
+
+ 720,482 
+ 720,482 
+ $ 2.49 
+ 2.89
+ August 21, 2023
+
+ 2,800,000 
+ 1,866,664 
+ $ 2.41 
+ 3.25
+ December 31, 2023
+
+ 500,000 
+ 333,333 
+ $ 2.27 
+ 3.47
+ March 21, 2024
+
+ 250,000 
+ 166,667 
+ $ 2.22 
+ 3.49
+ March 27, 2024
+
+ 3,800,000 
+ 2,533,335 
+ $ 1.92 
+ 3.70
+ June 12, 2024
+
+ 188,679 
+ 188,679 
+ $ 1.59 
+ 3.88
+ August 16, 2024
+
+ 3,867,334 
+ 1,200,667 
+ $ 1.59 
+ 4.24
+ December 24, 2024
+
+ 4,625,000 
+ 1,541,666 
+ $ 1.80 
+ 4.70
+ June 12, 2025
+
+ 37,634,828
+ 29,268,160
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 19 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+11. SHARE
+CAPITAL AND RESERVES (continued)
+
+ 
+
+The Company uses the Black-Scholes
+option pricing model to calculate the fair value of stock options granted. The model requires management to make estimates, which
+are subjective and may not be representative of actual results. Changes in assumptions can materially affect estimates of fair
+values. The following weighted average assumptions were used to estimate the weighted average grant date fair values for the three
+and nine month periods ended September 30, 2020 and September 30, 2019:
+
+ 
+
+ 
+ For the three months ended
+ For the nine months ended
+
+ 
+ 
+ 
+ September 30, 2020
+ 
+ 
+ September 30, 2019
+ 
+ 
+ September 30, 2020
+ 
+ 
+ September 30, 2019
+
+ Expected stock price volatility
+ N/A
+ 63.69%
+ 61.92%
+ 63.64%
+
+ Expected life of options
+ N/A
+ 5 years
+ 5 years
+ 5 years
+
+ Risk free interest rate
+ N/A
+ 1.53%
+ 0.44%
+ 1.52%
+
+ Expected forfeitures
+ N/A
+ 0%
+ 0%
+ 0%
+
+ Expected dividend yield
+ N/A
+ 0%
+ 0%
+ 0%
+
+ Weighted average fair value per option granted in period
+ N/A
+ $1.07
+ $0.89
+ $1.09
+
+ 
+
+ 
+
+Share-based payments for options vested
+for the three and nine-months ended September 30, 2020 amounted to $1,710,396 and $6,616,830 (2019 – $2,175,839 and $8,955,976)
+of which $1,459,545 and $5,838,710 (2019 – $2,090,369 and $8,055,513) was expensed to the statement of loss and comprehensive
+loss and $250,851 and $778,120 (2019 - $85,470 and $900,463) was capitalized to exploration and evaluation assets (Note 6). There
+were no options issued in the three months ended September 30, 2020.
+
+ 
+
+12. RELATED
+PARTY TRANSACTIONS 
+
+ 
+
+Key management personnel include those
+persons having authority and responsibility for planning, directing and controlling the activities of the Company as a whole. The
+Company has determined that key management personnel consists of executive and non-executive members of the Company’s Board
+of Directors, corporate officers and related companies.
+
+ 
+
+Remuneration attributed to key management
+personnel can be summarized as follows:
+
+ 
+
+ 
+ For the three months ended 
+ For the nine months ended
+
+ 
+ 
+ 
+
+ 
+ September 30, 2020 
+ September 30, 2019 
+ September 30, 2020 
+ September 30, 2019 
+
+ Short-term compensation(1) 
+ $924,872 
+ $714,037 
+ $2,615,718 
+ $2,370,835 
+
+ Share-based payments (stock options)(2) 
+ 1,248,305 
+ 1,546,330 
+ 4,941,136 
+ 6,807,788 
+
+ Consulting fees(3) 
+ 32,499 
+ 45,499 
+ 97,497 
+ 45,499 
+
+ 
+ $2,205,676 
+ $2,305,866 
+ $7,654,351 
+ $9,224,122 
+
+ 
+
+(1) Short-term
+compensation to key management personnel for the three and nine months ended September 30, 2020 amounted to $924,872 and $2,615,718
+(2019 – $714,037 and $2,370,835) of which $772,097 and $2,048,315 (2019 - $475,562 and $1,762,350) was expensed and included
+in salaries, benefits and directors’ fees on the statement of loss and comprehensive loss. The remaining $152,775 and $567,403
+(2019 - $238,475 and $608,485) was capitalized to exploration and evaluation assets.
+
+ 
+
+(2) Share-based
+payments to key management personnel for the three and nine months ended September 30, 2020 amounted to $1,248,305 and $4,941,136
+(2019 - $1,546,330 and $6,807,788) of which $1,219,101 and $4,787,335 (2019 - $1,501,213 and $6,657,605) was expensed and $29,204
+and $153,802 (2019 - $45,117 and $150,183) was capitalized to exploration and evaluation assets.
+
+ 
+
+(3) The
+Company used consulting services from a company associated with one of its directors in relation to advice on corporate matters
+for the three and nine months ended September 30, 2020 amounting to $32,499 and $97,497 (2019 - $45,499 and $45,499).
+
+ 
+
+As at September 30, 2020, there was
+$10,833 (December 31, 2019 - $99,999) included in accounts payable and accrued liabilities owing to its directors and officers
+for compensation.
+
+ 
+
+ 20 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+13. CAPITAL MANAGEMENT
+
+ 
+
+The Company manages its capital structure
+and makes adjustments to it, based on the funds available to the Company, in order to support the acquisition, exploration and
+evaluation of assets. The Board of Directors does not establish quantitative return on capital criteria for management, but rather
+relies on the expertise of the Company’s management to sustain the future development of the business.
+
+ 
+
+In the management of capital, the
+Company considers all components of equity and debt and is dependent on third party financing, whether through debt, equity, or
+other means. Although the Company has been successful in raising funds to date, there is no assurance that the Company will be
+successful in obtaining required financing in the future or that such financing will be available on terms acceptable to the Company.
+
+ 
+
+The properties in which the Company
+currently has an interest are in the exploration and development stage. As such the Company has historically relied on the equity
+markets and convertible debt to fund its activities. The Company will continue to assess new properties and seek to acquire an
+interest in additional properties if it determines that there is sufficient geologic or economic potential and if it has adequate
+financial resources to do so.
+
+ 
+
+Management reviews its capital management
+approach on an on-going basis and believes that this approach, given the relative size of the Company is reasonable.
+
+ 
+
+The Company is not subject to externally
+imposed capital requirements. There were no changes in the Company’s approach to capital management during the period.
+
+ 
+
+ 
+
+14.FINANCIAL INSTRUMENTS
+
+ 
+
+The Company’s financial instruments
+consist of cash, amounts receivable, accounts payable and accrued liabilities and the Convertible Debentures and IsoEnergy Debentures.
+
+ 
+
+The fair values of the Company’s
+cash, amounts receivable and accounts payable and accrued liabilities approximate their carrying value, due to their short-term
+maturities or liquidity.
+
+ 
+
+Fair Value Measurement
+
+ 
+
+The Company classifies the fair value
+of financial instruments according to the following hierarchy based on the amount of observable inputs used to value the instrument:
+
+ 
+
+·Level 1 – quoted prices in active markets for identical assets
+or liabilities.
+
+·Level 2 – inputs other than quoted prices included in Level
+1 that are observable for the asset or liability, either directly (i.e. as prices) or indirectly (i.e. derived from prices).
+
+·Level 3 – inputs for the asset or liability that are not based
+on observable market data.
+
+ 
+
+The Convertible
+Debentures and IsoEnergy Debentures are re-measured at fair value at each reporting date with any change in fair value recognized
+in profit or loss with the exception that under IFRS 9, the change in fair value that is attributable to change in credit risk
+is presented in other comprehensive income (Note 9). The Convertible Debentures and IsoEnergy Debentures are classified as Level
+2.
+
+ 
+
+As at September 30, 2020, the Company’s
+risk exposures and the impact on the Company’s financial instruments are summarized below:
+
+ 
+
+(a) Credit
+Risk
+
+Credit
+risk is the risk that one party to a financial instrument will fail to discharge an obligation and cause the other party to incur
+a financial loss. Financial instruments potentially subject to credit risk are cash and amounts receivable. The Company holds cash
+with large Canadian and Australian banks. Credit risk is concentrated as a large portion of the Company’s cash and is held
+at three financial institutions. Management believes the risk of loss to be remote. The Company’s amounts receivable consists
+of input tax credits receivable from the Government of Canada and interest accrued on cash. Accordingly, the Company does not believe
+it is subject to significant credit risk.
+
+ 
+
+ 21 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+14. FINANCIAL
+INSTRUMENTS (continued)
+
+ 
+
+(b) Liquidity
+Risk
+
+Liquidity risk is the risk that
+an entity will encounter difficulty in raising funds to meet commitments associated with financial instruments. The Company attempts
+to manage liquidity risk by maintaining sufficient cash balances. Liquidity requirements are managed based on expected cash flows
+to ensure that there is sufficient capital to meet short-term obligations. The Company’s approach to managing liquidity risk
+is to ensure that it will have sufficient liquidity to meet liabilities when due. As at September 30, 2020, NexGen had cash of
+$78,622,079 to settle accounts payable and accrued liabilities of $5,592,513.
+
+(c) Market
+Risk
+
+Market
+risk is the risk of loss that may arise from changes in market factors such as interest rates, foreign exchange rates and commodity
+and equity prices.
+
+(i) Interest
+Rate Risk
+
+ 
+
+Interest rate risk is the risk that
+the future cash flows of a financial instrument will fluctuate due to changes in market interest rates. The Company holds its cash
+in bank accounts that earn variable interest rates. Due to the short-term nature of these financial instruments, fluctuations in
+market rates do not have a significant impact on the estimated fair value of the Company’s cash and cash equivalent balances
+as of September 30, 2020. The Company manages interest rate risk by maintaining an investment policy for short-term investments.
+This policy focuses primarily on preservation of capital and liquidity. The Company monitors the investments it makes and is satisfied
+with the credit rating of its banks. The Convertible Debentures and IsoEnergy Debentures, in an aggregate principal amount of US$141
+million, carry a fixed interest rate of 7.5% and 8.5% respectively hence, are not subject to interest rate fluctuations.
+
+(ii) Foreign
+Currency Risk
+
+ 
+
+The functional currency of the Company
+and its subsidiaries is the Canadian dollar. The Company is affected by currency transaction risk and currency translation risk.
+Consequently, fluctuations of the Canadian dollar in relation to other currencies impact the fair value of financial assets, liabilities
+and operating results. Financial assets and liabilities subject to currency translation risk primarily include US dollar denominated
+cash and US dollar accounts payable and accrued liabilities. The Company maintains Canadian and US dollar bank accounts in Canada.
+
+ 
+
+The Company is exposed to foreign
+exchange risk on its US dollar denominated Convertible Debentures and IsoEnergy Debentures. At maturity the US$141 million principal
+amount of the Convertible Debentures and IsoEnergy Debentures is due in full, and prior to then at a premium upon the occurrence
+of certain events, including a change of control. The Company holds sufficient US dollars to make all cash interest payments due
+under the Convertible Debentures and IsoEnergy Debentures until maturity but not to pay the principal amount. Accordingly, the
+Company is subject to risks associated with fluctuations in the Canadian/US dollar exchange rate that may make the Convertible
+Debentures more costly to repay.
+
+(iii) Price
+risk
+
+ 
+
+The Company is exposed to price risk
+with respect to commodity and equity prices. Equity price risk is defined as the potential adverse impact on the Company’s
+earnings due to movements in individual equity prices or general movements in the level of the stock market. Accordingly, significant
+movements in the Company’s share price may affect the valuation of the Convertible Debentures which may adversely impact
+its earnings.
+
+ 
+
+Commodity price risk is defined as
+the potential adverse impact on earnings and economic value due to commodity price movements and volatility. Future declines in
+commodity prices may impact the valuation of long-lived assets. The Company closely monitors commodity prices of uranium, individual
+equity movements, and the stock market to determine the appropriate course of action, if any, to be taken by the Company.
+
+ 
+
+Sensitivity Analysis
+
+ 
+
+As at September 30, 2020, the Company’s
+US dollar net financial liabilities were $110,721,043. Thus a 10% change in the Canadian dollar versus the US dollar exchange rates
+would give rise to a $14,769,080 change in loss and comprehensive loss.
+
+ 
+
+The Company has not entered into any
+agreements or purchased any instruments to hedge possible currency risks at this time.
+
+ 
+
+ 22 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+15.SEGMENT INFORMATION
+
+ 
+
+The Company operates in one reportable
+segment, being the acquisition, exploration and development of uranium properties. All of the Company’s non-current assets
+are located in Canada.
+
+ 
+
+16.SUPPLEMENTAL DISCLOSURE WITH RESPECT TO CASH FLOWS
+
+ 
+
+The significant non-cash
+transactions during the nine month period ended September 30, 2020 included:
+
+ 
+
+a)At September 30, 2020, $937,060 of exploration and evaluation asset
+expenditures were included in accounts payable and accrued liabilities.
+
+ 
+
+b)At September 30, 2020, $4,254,044 of interest expense related to the
+Convertible Debentures was included in the accounts payable and accrued liabilities. On June 8, 2020 the Company issued 1,092,142
+shares valued at $2,151,520 for the non-cash portion of the convertible debenture interest payment.
+
+ 
+
+c)The right-of-use lease asset additions of $2,100,867 and related lease
+liability of $2,121,306 recorded in the nine months ended September 30, 2020 were non-cash (see Note 7).
+
+ 
+
+d)Share-based payments of $778,120 was included in exploration and evaluation
+assets (Note 6).
+
+ 
+
+The significant non-cash transactions during the nine month period
+ended September 30, 2019 included: 
+
+ 
+
+a)At September 30, 2019, $5,623,228 of exploration and evaluation asset
+expenditures and $2,747 of equipment expenditures were included in accounts payable and accrued liabilities.
+
+ 
+
+b)At September 30, 2019, $3,666,682 of interest expense related to the
+Convertible Debentures was included in the accounts payable and accrued liabilities. On June 7, 2019 the Company issued 1,041,304
+shares valued at $2,020,130 for the non-cash portion of the convertible debenture interest payment.
+
+ 
+
+c)The right-of-use lease asset of $2,826,512 and related lease liability
+of $3,222,380 recorded in the nine months ended September 30, 2019 were non-cash (see Note 7).
+
+ 
+
+d)Share-based payments of $900,463 was included in exploration and evaluation
+assets (Note 6).
+
+ 
+
+17. LOSS
+PER SHARE
+
+ 
+
+Basic
+net income per share provides a measure of the interests of each ordinary common share in the Company’s performance over
+the year. Diluted net income per share adjusts basic net income per share for the effect of all dilutive potential common shares.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 23 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+17. LOSS
+PER SHARE (continued)
+
+ 
+
+ 
+ Three months ended 
+ Nine months ended
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ September 30, 2020 
+ September 30, 2019 
+ September 30, 2020 
+ September 30, 2019 
+
+ Basic loss per share 
+ 
+ 
+ 
+ 
+
+ Loss attributable to common shareholders 
+ $21,680,392 
+ $519,754 
+ $49,863,566 
+ $5,597,198 
+
+ Weighted average number of common shares 
+ 376,700,956 
+ 355,779,091 
+ 367,912,603 
+ 353,759,502 
+
+ Basic Loss per share 
+ $0.06 
+ $0.00 
+ $0.14 
+ $0.02 
+
+ 
+ 
+ 
+ 
+ 
+
+ Diluted loss per share 
+ 
+ 
+ 
+ 
+
+ Loss available to common shareholders 
+ $21,680,392 
+ $519,754 
+ $49,863,566 
+ $5,597,198 
+
+ Interest expense on convertible debentures 
+ – 
+ (2,970,900) 
+ – 
+ (8,968,707)
+
+ Mark to market gain on convertible debentures 
+ – 
+ 6,950,474 
+ – 
+ 20,689,090 
+
+ Diluted Loss available to common shareholders 
+ $21,680,392 
+ $4,499,328 
+ $49,863,566 
+ $17,317,581 
+
+ 
+ 
+ 
+ 
+ 
+
+ Weighted average number of common shares 
+ 376,700,956 
+ 355,779,091 
+ 367,912,603 
+ 353,759,502 
+
+ Effect on conversion of convertible debentures 
+ – 
+ 48,083,337 
+ – 
+ 48,083,337 
+
+ Weighted average number of common shares (diluted)
+ at September 30 
+ 376,700,956 
+ 403,862,428 
+ 367,912,603 
+ 401,842,839 
+
+ Diluted loss per common share 
+ $0.06 
+ $0.01 
+ $0.14 
+ $0.04 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+At September 30, 2020 the mark to
+market loss on convertible shares and associated Interest expense on convertible debentures and effect on conversion of convertible
+debentures were anti-dilutive.
+
+ 
+
+At September 30, 2019, all options
+were excluded from the diluted weighted-average number of common shares as their effect would have been anti-dilutive.
+
+ 
+
+18. SUBSEQUENT
+EVENTS
+
+ 
+
+(a) 
+Heads of Agreement with 92 Energy Pty. Ltd
+
+ 
+
+On October 27, IsoEnergy announced that
+it has entered into a binding Heads of Agreement (the “Agreement”) with 92 Energy Pty. Ltd. (“92 Energy”)
+for 92 Energy to acquire a 100% interest in IsoEnergy’s Clover, Gemini, and Tower uranium properties in Saskatchewan, Canada
+(the “Properties”).
+
+ 
+
+The Properties are located in the Eastern
+Athabasca Basin, Saskatchewan, and were staked by IsoEnergy in May 2020. The Clover property is 23,959 hectares and contains over
+40 kilometres of electromagnetic geophysical conductors. The Gemini property is 5,783 hectares and is located along the eastern
+basin margin 60 kilometres northeast of the Key Lake uranium mill. The Tower property is 6,301 hectares and is located 11 kilometres
+southeast of the Cigar Lake uranium mine.
+
+ 
+
+Pursuant to the Agreement, 92 Energy
+will acquire a 100% interest in the Clover, Gemini, and Tower uranium properties in consideration for the issuance of common shares
+equivalent to 16.25% of the issued capital of 92 Energy following the IPO. The shares will be issued at a price of A$0.20, and
+it is anticipated that approximately 6,500,000 common shares will be issued to IsoEnergy. Additional consideration to IsoEnergy
+includes milestone cash payments of A$100,000 within 60 days of 92 Energy’s IPO, and an additional A$100,000 within 6 months
+of that date. IsoEnergy will retain a 2% NSR on the Properties and will be entitled to nominate a member to 92 Energy’s Board
+of Directors, provided IsoEnergy maintains a minimum ownership position of 5%. 92 Energy will be required to spend an aggregate
+of A$1,000,000 on exploration expenditures on the Properties prior to May 1st, 2022.
+
+ 
+
+The terms of
+the Agreement and the transaction contemplated are subject to requisite regulatory approval.
+
+ 
+
+ 24 
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+NOTES TO THE CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+(Expressed in Canadian
+Dollars)
+
+(unaudited)
+
+ 
+
+FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30,
+2020 & 2019
+
+ 
+
+ 
+
+18. SUBSEQUENT
+EVENTS (continued)
+
+ 
+
+(b) 
+Stock Options
+
+ 
+
+Subsequent
+to September 30, 2020, 183,333 stock options were exercised for proceeds of $159,999 and 41,667 stock options were forfeited.
+
+ 
+
+ 
+
+ 
+
+ 25

@@ -1,0 +1,57 @@
+{
+  "ticker": "GAYMF",
+  "cik": "0001377757",
+  "form": "6-K",
+  "filingDate": "2019-10-23",
+  "accessionNumber": "0001062993-19-003987",
+  "primaryDocument": "form6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000106299319003987/0001062993-19-003987-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1377757/000106299319003987/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-06-11T16:57:42.911Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000106299319003987/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Asanko Gold Inc. - Exhibit 99.1 - Filed by newsfilecorp.com",
+    "headings": [
+      "Asanko Gold Inc. - Exhibit 99.1 - Filed by newsfilecorp.com",
+      "ASANKO GOLD TO RELEASE Q3 2019\nFINANCIAL",
+      "RESULTS ON NOVEMBER 7, 2019",
+      "Vancouver, British Columbia, October 22, 2019 – Asanko Gold\nInc. (“Asanko” or the “Company”) (TSX, NYSE American: AKG)",
+      "Enquiries:",
+      "About Asanko Gold Inc."
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nEXHIBIT 99.1\n\n Asanko Gold Inc. - Exhibit 99.1 - Filed by newsfilecorp.com\n \n\n \n\nASANKO GOLD TO RELEASE Q3 2019\nFINANCIAL\nRESULTS ON NOVEMBER 7, 2019\nVancouver, British Columbia, October 22, 2019 – Asanko Gold\nInc. (“Asanko” or the “Company”) (TSX, NYSE American: AKG) announces it will\nrelease its third quarter 2019 financial and operating results before market\nopen on Thursday, November 7, 2019. \n\n \n Enquiries: \n \n Lynette Gould \n \n SVP Investor Relations \n \n Toll-Free (N.America): 1-855-246-7341 \n \n Telephone: +1 778 729 0608 \n \n Email: lynette.gould@asanko.com\n \nAbout Asanko Gold Inc. \nAsanko is focused on building a low-cost, mid-tier gold mining\ncompany through organic production growth, exploration and disciplined\ndeployment of its financial resources. The company currently operates and\nmanages the Asanko Gold Mine, located in Ghana, West Africa which is jointly\nowned with Gold Fields Ltd. The Company is strongly committed to the highest\nstandards for environmental management, social responsibility, and health and\nsafety for its employees and neighbouring communities. For more information,\nplease visit www.asanko.com. \nSource: Asanko Gold Inc.",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 6,
+        "rows": [
+          [
+            "Enquiries:"
+          ],
+          [
+            "Lynette Gould"
+          ],
+          [
+            "SVP Investor Relations"
+          ],
+          [
+            "Toll-Free (N.America): 1-855-246-7341"
+          ],
+          [
+            "Telephone: +1 778 729 0608"
+          ],
+          [
+            "Email: lynette.gould@asanko.com"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<HTML>\n<HEAD>\n   <TITLE>Asanko Gold Inc. - Exhibit 99.1 - Filed by newsfilecorp.com</TITLE>\n   <META name=\"HandheldFriendly\" content=\"true\">\n</HEAD>\n\n<BODY style=\"font-size:10pt;\">\n\n<HR noshade align=\"center\" width=100% size=3 color=\"black\">\n<A name=page_1></A>\n<P align=center><IMG\nsrc=\"nrhead.jpg\"\nborder=0> </P>\n<BR>\n<P align=center><FONT color=\"#C29959\" size=5><b>ASANKO GOLD TO RELEASE Q3 2019\nFINANCIAL</b></FONT><b><font color=\"#C29959\"><BR>\n<FONT size=5>RESULTS ON NOVEMBER 7, 2019</FONT></font></b></P>\n<P align=justify><B>Vancouver, British Columbia, October 22, 2019 &#150; Asanko Gold\nInc. (&#147;Asanko&#148; or the &#147;Company&#148;) (TSX, NYSE American: AKG) </B>announces it will\nrelease its third quarter 2019 financial and operating results before market\nopen on Thursday, November 7, 2019. </P>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0>\n\n  <TR vAlign=top>\n    <TD align=left><B>Enquiries: </B></TD></TR>\n  <TR vAlign=top>\n    <TD align=left>Lynette Gould </TD></TR>\n  <TR vAlign=top>\n    <TD align=left>SVP Investor Relations </TD></TR>\n  <TR vAlign=top>\n    <TD align=left>Toll-Free (N.America): 1-855-246-7341 </TD></TR>\n  <TR vAlign=top>\n    <TD align=left>Telephone: +1 778 729 0608 </TD></TR>\n  <TR vAlign=top>\n    <TD align=left>Email: <U><FONT color=#0000ff>lynette.gould@asanko.com\n      </FONT></U></TD></TR></TABLE>\n<P align=justify><B>About Asanko Gold Inc. </B></P>\n<P align=justify>Asanko is focused on building a low-cost, mid-tier gold mining\ncompany through organic production growth, exploration and disciplined\ndeployment of its financial resources. The company currently operates and\nmanages the Asanko Gold Mine, located in Ghana, West Africa which is jointly\nowned with Gold Fields Ltd. The Company is strongly committed to the highest\nstandards for environmental management, social responsibility, and health and\nsafety for its employees and neighbouring communities. For more information,\nplease visit <U><FONT color=#0000ff>www.asanko.com. </FONT></U></P>\n<P align=justify>Source: Asanko Gold Inc. </P>\n<HR align=center width=\"100%\" color=black noShade SIZE=5>\n\n</BODY>\n\n</HTML>\n\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

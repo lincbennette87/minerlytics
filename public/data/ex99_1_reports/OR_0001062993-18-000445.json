@@ -1,0 +1,67 @@
+{
+  "ticker": "OR",
+  "cik": "0001627272",
+  "form": "6-K",
+  "filingDate": "2018-02-06",
+  "accessionNumber": "0001062993-18-000445",
+  "primaryDocument": "form6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1627272/000106299318000445/0001062993-18-000445-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1627272/000106299318000445/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-06-11T17:08:41.835Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1627272/000106299318000445/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Osisko Gold Royalties Ltd: Exhibit 99.1 - Filed by newsfilecorp.com",
+    "headings": [
+      "Osisko Gold Royalties Ltd: Exhibit 99.1 - Filed by newsfilecorp.com",
+      "EARLY WARNING NEWS RELEASE",
+      "About Osisko Gold Royalties Ltd",
+      "For further information please contact, please contact\nOsisko:"
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nEXHIBIT 99.1\n\n Osisko Gold Royalties Ltd: Exhibit 99.1 - Filed by newsfilecorp.com\n \n\nEARLY WARNING NEWS RELEASE \n(Montréal, February 6, 2018) Osisko Gold Royalties Ltd (TSX\n& NYSE:OR) (“Osisko”) announces that it has subscribed for and received from\nAlgold Resources Ltd. (TSXV:ALG) (“Algold”) 14,285,714 units of Algold at a\nprice of $0.14 per unit (the “Units”) by way of a private placement of Algold,\nfor an aggregate subscription price of $1,999,999.96 (the “Private Placement”’).\n\nEach Unit is comprised of one (1) common share of Algold\n(“Share”) and one (1) common share purchase warrant of Algold (“Warrant”)\nentitling the holder thereof to purchase one (1) additional common share of\nAlgold at a price of $0.20 per common share for a period of 36 months from the\nclosing of the Private Placement. \nImmediately prior to the closing of the Private Placement,\nOsisko did not have beneficial ownership of, or control and direction over, any\ncommon shares of Algold.\nImmediately following the closing of the Private Placement,\nOsisko owns beneficial ownership of, or control and direction over: \n\n \n \n (a) \n \n 14,285,714 Shares, representing approximately 6.65% of\n Algold’s issued and outstanding common shares;\n \n \n \n \n \n \n (b) \n \n 14,285,714 Warrants representing, together with the\n 14,285,714 Shares, approximately 12.48% of the number of Algold’s issued\n and outstanding common shares on a partially diluted basis (assuming only\n the exercise of the 14,285,714 Warrants held by\nOsisko).\nOsisko acquired the Units described in this press release for\ninvestment purposes and in accordance with applicable securities laws, Osisko\nmay, from time to time and at any time, acquire or dispose of shares and/or\nother equity, debt or other securities or instruments (collectively, the\n“Securities”) of Algold in the open market or otherwise, and reserves the right\nto dispose of any or all of its Securities in the open market or otherwise at\nany time and from time to time, and to engage in similar transactions with\nrespect to the Securities, the whole depending on market conditions, the\nbusiness and prospects of Algold and other relevant factors. \nA copy of the early warning report to be filed by Osisko in\nconnection with the Private Placement described above will be available on SEDAR\nunder Algold’s profile. This news release is issued under the early warning\nprovisions of the Canadian securities legislation. \nAbout Osisko Gold Royalties Ltd \nOsisko Gold Royalties Ltd is an intermediate precious metal\nroyalty company focused on the Americas that commenced activities in June 2014.\nOsisko holds a North American focused portfolio of over 130 royalties, streams\nand precious metal offtakes. Osisko’s portfolio is anchored by five cornerstone\nassets, including a 5% net smelter return royalty on the Canadian Malartic mine,\nwhich is the largest gold mine in Canada. Osisko also owns a portfolio of\npublicly held resource companies, including a 15.5% interest in Osisko Mining\nInc., a 12.8% interest in Osisko Metals Incorporated, a 12.7% interest in Falco\nResources Ltd. and a 32.7% interest in Barkerville Gold Mines Ltd. \n\nOsisko’s head office is located at 1100 avenue des\nCanadiens-de-Montréal, Suite 300, Montréal, Québec, H3B 2S2. \nFor further information please contact, please contact\nOsisko: \n\n \n Vincent Metcalfe \n Joseph de la Plante \n \n Vice President, Investor Relations \n Vice President, Corporate Development \n \n Tel. (514) 940-0670 \n Tel. (514) 940-0670 \n \n vmetcalfe@osiskogr.com\n\n jdelaplante@osiskogr.com",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 2,
+        "rows": [
+          [
+            "(a)",
+            "14,285,714 Shares, representing approximately 6.65% of\n Algold’s issued and outstanding common shares;"
+          ],
+          [
+            "(b)",
+            "14,285,714 Warrants representing, together with the\n 14,285,714 Shares, approximately 12.48% of the number of Algold’s issued\n and outstanding common shares on a partially diluted basis (assuming only\n the exercise of the 14,285,714 Warrants held by\nOsisko)."
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 4,
+        "rows": [
+          [
+            "Vincent Metcalfe",
+            "Joseph de la Plante"
+          ],
+          [
+            "Vice President, Investor Relations",
+            "Vice President, Corporate Development"
+          ],
+          [
+            "Tel. (514) 940-0670",
+            "Tel. (514) 940-0670"
+          ],
+          [
+            "vmetcalfe@osiskogr.com",
+            "jdelaplante@osiskogr.com"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<HTML>\n<HEAD>\n   <TITLE>Osisko Gold Royalties Ltd: Exhibit 99.1 - Filed by newsfilecorp.com</TITLE>\n   <META name=\"HandheldFriendly\" content=\"true\">\n</HEAD>\n\n<BODY style=\"font-size:10pt;\">\n\n<HR noshade align=\"center\" width=100% size=3 color=\"black\">\n<!--$$/page=--><A name=page_1></A>\n<P align=center><img border=\"0\" src=\"exhibi1.jpg\" width=\"237\" height=\"103\"></P>\n<P align=center><B>EARLY WARNING NEWS RELEASE </B></P>\n<P align=justify>(Montr&#233;al, February 6, 2018) Osisko Gold Royalties Ltd (TSX\n&amp; NYSE:OR) (&#147;Osisko&#148;) announces that it has subscribed for and received from\nAlgold Resources Ltd. (TSXV:ALG) (&#147;Algold&#148;) 14,285,714 units of Algold at a\nprice of $0.14 per unit (the &#147;Units&#148;) by way of a private placement of Algold,\nfor an aggregate subscription price of $1,999,999.96 (the &#147;Private Placement&#148;&#146;).\n</P>\n<P align=justify>Each Unit is comprised of one (1) common share of Algold\n(&#147;Share&#148;) and one (1) common share purchase warrant of Algold (&#147;Warrant&#148;)\nentitling the holder thereof to purchase one (1) additional common share of\nAlgold at a price of $0.20 per common share for a period of 36 months from the\nclosing of the Private Placement. </P>\n<P align=justify>Immediately prior to the closing of the Private Placement,\nOsisko did not have beneficial ownership of, or control and direction over, any\ncommon shares of Algold.</P>\n<P align=justify>Immediately following the closing of the Private Placement,\nOsisko owns beneficial ownership of, or control and direction over: </P>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0 BCLLIST>\n\n  <TR>\n    <TD width=\"5%\" >&nbsp;</TD>\n    <TD vAlign=top width=\"5%\">(a) </TD>\n    <TD>\n      <P align=justify>14,285,714 Shares, representing approximately 6.65% of\n      Algold&#146;s issued and outstanding common shares;</P></TD></TR>\n  <TR>\n    <TD width=\"5%\">&nbsp;</TD>\n    <TD width=\"5%\">&nbsp;</TD>\n    <TD>&nbsp;</TD></TR>\n  <TR>\n    <TD width=\"5%\">&nbsp;</TD>\n    <TD vAlign=top width=\"5%\">(b) </TD>\n    <TD>\n      <P align=justify>14,285,714 Warrants representing, together with the\n      14,285,714 Shares, approximately 12.48% of the number of Algold&#146;s issued\n      and outstanding common shares on a partially diluted basis (assuming only\n      the exercise of the 14,285,714 Warrants held by\nOsisko).</P></TD></TR></TABLE>\n<P align=justify>Osisko acquired the Units described in this press release for\ninvestment purposes and in accordance with applicable securities laws, Osisko\nmay, from time to time and at any time, acquire or dispose of shares and/or\nother equity, debt or other securities or instruments (collectively, the\n&#147;Securities&#148;) of Algold in the open market or otherwise, and reserves the right\nto dispose of any or all of its Securities in the open market or otherwise at\nany time and from time to time, and to engage in similar transactions with\nrespect to the Securities, the whole depending on market conditions, the\nbusiness and prospects of Algold and other relevant factors. </P>\n<P align=justify>A copy of the early warning report to be filed by Osisko in\nconnection with the Private Placement described above will be available on SEDAR\nunder Algold&#146;s profile. This news release is issued under the early warning\nprovisions of the Canadian securities legislation. </P>\n<P align=justify><B>About Osisko Gold Royalties Ltd</B><B> </B></P>\n<P align=justify>Osisko Gold Royalties Ltd is an intermediate precious metal\nroyalty company focused on the Americas that commenced activities in June 2014.\nOsisko holds a North American focused portfolio of over 130 royalties, streams\nand precious metal offtakes. Osisko&#146;s portfolio is anchored by five cornerstone\nassets, including a 5% net smelter return royalty on the Canadian Malartic mine,\nwhich is the largest gold mine in Canada. Osisko also owns a portfolio of\npublicly held resource companies, including a 15.5% interest in Osisko Mining\nInc., a 12.8% interest in Osisko Metals Incorporated, a 12.7% interest in Falco\nResources Ltd. and a 32.7% interest in Barkerville Gold Mines Ltd. </P>\n<HR style=\"PAGE-BREAK-AFTER: always\" align=center width=\"100%\" color=black\nnoShade SIZE=5>\n<!--$$/page=--><A name=page_2></A>\n<P align=justify>Osisko&#146;s head office is located at 1100 avenue des\nCanadiens-de-Montr&#233;al, Suite 300, Montr&#233;al, Qu&#233;bec, H3B 2S2. </P>\n<P align=justify><B>For further information please contact, please contact\nOsisko: </B></P>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0>\n\n  <TR vAlign=top>\n    <TD align=left>Vincent Metcalfe </TD>\n    <TD align=right width=\"50%\">Joseph de la Plante </TD></TR>\n  <TR vAlign=top>\n    <TD align=left>Vice President, Investor Relations </TD>\n    <TD align=right width=\"50%\">Vice President, Corporate Development </TD></TR>\n  <TR vAlign=top>\n    <TD align=left>Tel. (514) 940-0670 </TD>\n    <TD align=right width=\"50%\">Tel. (514) 940-0670 </TD></TR>\n  <TR vAlign=top>\n    <TD align=left><U><FONT color=#0000ff>vmetcalfe@osiskogr.com</FONT></U>\n</TD>\n    <TD align=right width=\"50%\"><U><FONT\n      color=#0000ff>jdelaplante@osiskogr.com</FONT></U> </TD></TR></TABLE><BR>\n<HR align=center width=\"100%\" color=black noShade SIZE=5>\n\n</BODY>\n\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

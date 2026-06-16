@@ -1,0 +1,10369 @@
+EX-99.1
+2
+exhibit99-1.htm
+EXHIBIT 99.1
+
+ OR Royalties Inc.: Exhibit 99.1 - Filed by newsfilecorp.com
+
+ 
+ 
+ 
+ 
+ Consolidated Financial Statements
+ 
+ For the years
+ ended
+ December 31, 2025 and 2024
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Consolidated Financial Statements
+ 
+ 
+ Management's Report on Internal Control over Financial Reporting
+ OR Royalties Inc.'s (the "Company's") management is responsible for establishing and maintaining adequate internal control over financial reporting, as defined in rules 13a-15(f) and 15d-15(f) under the Securities Exchange Act of 1934 (United States), as amended.
+ The Company's management assessed the effectiveness of the Company's internal control over financial reporting as at December 31, 2025. The Company's management conducted an evaluation of the Company's internal control over financial reporting based on criteria established in Internal Control - Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO). Based on the Company's management's assessment, the Company's internal control over financial reporting is effective as at December 31, 2025.
+ The effectiveness of the Company's internal control over financial reporting as at December 31, 2025 has been audited by PricewaterhouseCoopers LLP, an independent registered public accounting firm, as stated in their report which is located on the next pages.
+ 
+ 
+ 
+ (signed) Jason Attew
+ (signed) Frédéric Ruel
+ 
+ 
+ President, Chief Executive Officer and Director
+ Vice President, Finance and Chief Financial Officer
+ 
+ 
+ 
+ February 18, 2026
+ 
+ 2
+ 
+ 
+ 
+ Report of Independent Registered Public Accounting Firm
+ To the Board of Directors and Shareholders of OR Royalties Inc.
+ Opinions on the Financial Statements and Internal Control over Financial Reporting
+ We have audited the accompanying consolidated balance sheets of OR Royalties Inc. and its subsidiaries (the Company) as of December 31, 2025 and 2024, and the related consolidated statements of income, of comprehensive income (loss), of changes in equity and of cash flows for the years then ended, including the related notes (collectively referred to as the consolidated financial statements). We also have audited the Company's internal control over financial reporting as of December 31, 2025, based on criteria established in Internal Control - Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO).
+ In our opinion, the consolidated financial statements referred to above present fairly, in all material respects, the financial position of the Company as of December 31, 2025 and 2024, and its financial performance and its cash flows for the years then ended in conformity with IFRS Accounting Standards as issued by the International Accounting Standards Board. Also in our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of December 31, 2025, based on criteria established in Internal Control - Integrated Framework (2013) issued by the COSO.
+ Basis for Opinions
+ The Company's management is responsible for these consolidated financial statements, for maintaining effective internal control over financial reporting, and for its assessment of the effectiveness of internal control over financial reporting, included in the accompanying Management's Report on Internal Control over Financial Reporting. Our responsibility is to express opinions on the Company's consolidated financial statements and on the Company's internal control over financial reporting based on our audits. We are a public accounting firm registered with the Public Company Accounting Oversight Board (United States) (PCAOB) and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.
+ We conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audits to obtain reasonable assurance about whether the consolidated financial statements are free of material misstatement, whether due to error or fraud, and whether effective internal control over financial reporting was maintained in all material respects.
+ Our audits of the consolidated financial statements included performing procedures to assess the risks of material misstatement of the consolidated financial statements, whether due to error or fraud, and performing procedures that respond to those risks. Such procedures included examining, on a test basis, evidence regarding the amounts and disclosures in the consolidated financial statements. Our audits also included evaluating the accounting principles used and significant estimates made by management, as well as evaluating the overall presentation of the consolidated financial statements. Our audit of internal control over financial reporting included obtaining an understanding of internal control over financial reporting, assessing the risk that a material weakness exists, and testing and evaluating the design and operating effectiveness of internal control based on the assessed risk. Our audits also included performing such other procedures as we considered necessary in the circumstances. We believe that our audits provide a reasonable basis for our opinions.
+ PricewaterhouseCoopers LLP
+ 1250 René-Lévesque Boulevard West, Suite 2500
+ Montréal, Quebec, Canada H3B 4Y1
+ T.: +1 514 205 5000, F.: +1 514 876 1502
+ Fax to mail: ca_montreal_main_fax@pwc.com
+ 
+ “PwC” refers to PricewaterhouseCoopers LLP, an Ontario limited liability partnership.
+ 
+ 3
+ 
+ 
+ Definition and Limitations of Internal Control over Financial Reporting
+ A company's internal control over financial reporting is a process designed to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles. A company's internal control over financial reporting includes those policies and procedures that (i) pertain to the maintenance of records that, in reasonable detail, accurately and fairly reflect the transactions and dispositions of the assets of the company; (ii) provide reasonable assurance that transactions are recorded as necessary to permit preparation of financial statements in accordance with generally accepted accounting principles, and that receipts and expenditures of the company are being made only in accordance with authorizations of management and directors of the company; and (iii) provide reasonable assurance regarding prevention or timely detection of unauthorized acquisition, use, or disposition of the company's assets that could have a material effect on the financial statements.
+ Because of its inherent limitations, internal control over financial reporting may not prevent or detect misstatements. Also, projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions, or that the degree of compliance with the policies or procedures may deteriorate.
+ Critical Audit Matters
+ The critical audit matter communicated below is a matter arising from the current period audit of the consolidated financial statements that was communicated or required to be communicated to the audit committee and that (i) relates to accounts or disclosures that are material to the consolidated financial statements and (ii) involved our especially challenging, subjective, or complex judgments. The communication of critical audit matters does not alter in any way our opinion on the consolidated financial statements, taken as a whole, and we are not, by communicating the critical audit matter below, providing a separate opinion on the critical audit matter or on the accounts or disclosures to which it relates.
+ Assessment of impairment indicators of royalty, stream and other interestsAs described in Notes 3, 5 and 11 to the consolidated financial statements, the Company's royalty, stream and other interests carrying amount was $1,140 million as of December 31, 2025. Management assesses at each reporting date whether there are indicators that the carrying amount may not be recoverable, which give rise to the requirement to conduct a formal impairment test. Impairment is assessed at the cash-generating unit (CGU) level, which is usually at the individual royalty, stream and other interests level for each property from which cash inflows are generated. Management uses judgement when assessing whether there are indicators of impairment, including a significant change in mineral reserve and resources, significant negative industry or economic trends, significantly lower production than expected, a significant change in current or forecast commodity prices and other relevant operator and financial information.
+ The principal considerations for our determination that performing procedures relating to the assessment of impairment indicators of royalty, stream and other interests is a critical audit matter are (i) the judgement by management when assessing whether there were indicators of impairment which would require a formal impairment test to be performed; and (ii) a high degree of auditor judgement, subjectivity and effort in performing procedures to evaluate audit evidence related to management's assessment of impairment indicators related to a significant change in mineral reserve and resources, significant negative industry or economic trends, significantly lower production than expected, a significant change in current or forecast commodity prices and other relevant operator and financial information.
+ 
+ 4
+ 
+ 
+ Addressing the matter involved performing procedures and evaluating audit evidence in connection with forming our overall opinion on the consolidated financial statements. These procedures included testing the effectiveness of controls relating to management's assessment of impairment indicators of royalty, stream and other interests. These procedures also included, among others, evaluating the reasonableness of management's assessment of impairment indicators for a sample of royalty, stream and other interests, related to a significant change in mineral reserve and resources, significant negative industry or economic trends, significantly lower production than expected, a significant change in current or forecast commodity prices and other relevant operator and financial information by considering (i) current and past performance of royalty, stream and other interests; (ii) consistency with external market and industry data; (iii) publicly disclosed or other relevant information of operators of royalty, stream and other interests; and (iv) consistency with evidence obtained in other areas of the audit.
+ /s/PricewaterhouseCoopers LLP
+ Montréal, Canada
+ February 18, 2026
+ We have served as the Company's auditor since 2006.
+ 
+ 5
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Consolidated Balance Sheets
+ 
+ 
+ As at December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ December 31,
+ 
+ 
+ December 31,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 
+ Notes
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash
+ 6
+ 
+ 
+ 142,131
+ 
+ 
+ 59,096
+ 
+ 
+ 
+ Amounts receivable
+ 7
+ 
+ 
+ 3,227
+ 
+ 
+ 3,106
+ 
+ 
+ 
+ Other assets
+ 8
+ 
+ 
+ 2,326
+ 
+ 
+ 1,612
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 147,684
+ 
+ 
+ 63,814
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Non-current assets
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Investments in associates
+ 9
+ 
+ 
+ -
+ 
+ 
+ 43,262
+ 
+ 
+ 
+ Other investments
+ 10
+ 
+ 
+ 189,260
+ 
+ 
+ 74,043
+ 
+ 
+ 
+ Royalty, stream and other interests
+ 11
+ 
+ 
+ 1,140,026
+ 
+ 
+ 1,113,855
+ 
+ 
+ 
+ Goodwill
+ 12
+ 
+ 
+ 81,134
+ 
+ 
+ 77,284
+ 
+ 
+ 
+ Other assets
+ 8
+ 
+ 
+ 8,375
+ 
+ 
+ 5,376
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1,566,479
+ 
+ 
+ 1,377,634
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Accounts payable and accrued liabilities
+ 13
+ 
+ 
+ 7,477
+ 
+ 
+ 5,331
+ 
+ 
+ 
+ Dividends payable
+ 16
+ 
+ 
+ 10,293
+ 
+ 
+ 8,433
+ 
+ 
+ 
+ Income tax liabilities
+ 
+ 
+ 
+ 13,655
+ 
+ 
+ -
+ 
+ 
+ 
+ Lease liabilities
+ 14
+ 
+ 
+ 1,207
+ 
+ 
+ 852
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 32,632
+ 
+ 
+ 14,616
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Non-current liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lease liabilities
+ 14
+ 
+ 
+ 3,795
+ 
+ 
+ 3,931
+ 
+ 
+ 
+ Long-term debt
+ 15
+ 
+ 
+ -
+ 
+ 
+ 93,900
+ 
+ 
+ 
+ Deferred income taxes
+ 18
+ 
+ 
+ 98,011
+ 
+ 
+ 76,234
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 134,438
+ 
+ 
+ 188,681
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Equity 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Share capital
+ 16
+ 
+ 
+ 1,688,122
+ 
+ 
+ 1,675,940
+ 
+ 
+ 
+ Contributed surplus
+ 
+ 
+ 
+ 65,873
+ 
+ 
+ 63,567
+ 
+ 
+ 
+ Accumulated other comprehensive loss
+ 
+ 
+ 
+ (51,780
+ )
+ 
+ (141,841
+ )
+ 
+ 
+ Deficit
+ 
+ 
+ 
+ (270,174
+ )
+ 
+ (408,713
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 1,432,041
+ 
+ 
+ 1,188,953
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1,566,479
+ 
+ 
+ 1,377,634
+ 
+ 
+ 
+ APPROVED ON BEHALF OF THE BOARD
+ (signed) Norman MacDonald, Director (signed) Wendy Louie, Director
+ 
+ 
+ 
+ 
+ The notes are an integral part of these consolidated financial statements.
+ 6
+ 
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Consolidated Statements of Income
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 
+ Notes
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Revenues
+ 19
+ 
+ 
+ 277,370
+ 
+ 
+ 191,157
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cost of sales
+ 19
+ 
+ 
+ (9,115
+ )
+ 
+ (6,738
+ )
+ 
+ 
+ Depletion
+ 19
+ 
+ 
+ (35,770
+ )
+ 
+ (32,607
+ )
+ 
+ 
+ Gross profit
+ 
+ 
+ 
+ 232,485
+ 
+ 
+ 151,812
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Other operating expenses
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ General and administrative
+ 19
+ 
+ 
+ (20,932
+ )
+ 
+ (18,298
+ )
+ 
+ 
+ Business development
+ 19
+ 
+ 
+ (9,293
+ )
+ 
+ (5,632
+ )
+ 
+ 
+ Impairment of royalty, stream and other interests
+ 19
+ 
+ 
+ (5,495
+ )
+ 
+ (49,558
+ )
+ 
+ 
+ Operating income
+ 
+ 
+ 
+ 196,765
+ 
+ 
+ 78,324
+ 
+ 
+ 
+ Interest income
+ 
+ 
+ 
+ 4,021
+ 
+ 
+ 4,153
+ 
+ 
+ 
+ Finance costs
+ 
+ 
+ 
+ (4,475
+ )
+ 
+ (7,966
+ )
+ 
+ 
+ Foreign exchange gain (loss)
+ 
+ 
+ 
+ 645
+ 
+ 
+ (4,424
+ )
+ 
+ 
+ Share of loss of associates
+ 
+ 
+ 
+ (14,178
+ )
+ 
+ (30,025
+ )
+ 
+ 
+ Other gains (losses), net
+ 19
+ 
+ 
+ 58,607
+ 
+ 
+ (9,920
+ )
+ 
+ 
+ Earnings before income taxes
+ 
+ 
+ 
+ 241,385
+ 
+ 
+ 30,142
+ 
+ 
+ 
+ Income tax expense
+ 18
+ 
+ 
+ (35,297
+ )
+ 
+ (13,875
+ )
+ 
+ 
+ Net earnings
+ 
+ 
+ 
+ 206,088
+ 
+ 
+ 16,267
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net earnings per share
+ 21
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Basic
+ 
+ 
+ 
+ 1.10
+ 
+ 
+ 0.09
+ 
+ 
+ 
+ Diluted
+ 
+ 
+ 
+ 1.09
+ 
+ 
+ 0.09
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The notes are an integral part of these consolidated financial statements.
+ 7
+ 
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Consolidated Statements of Comprehensive Income (Loss)
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 
+ Notes
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net earnings
+ 
+ 
+ 
+ 206,088
+ 
+ 
+ 16,267
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Other comprehensive income (loss)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Items that will not be reclassified to the consolidated statement of income
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Changes in fair value of financial assets at fair value through other comprehensive income
+ 
+ 
+ 
+ 59,673
+ 
+ 
+ (4,778
+ )
+ 
+ 
+ Income tax effect
+ 
+ 
+ 
+ (2,050
+ )
+ 
+ 918
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Share of other comprehensive loss of an associate
+ 
+ 
+ (964
+ )
+ 
+ (1,795
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Items that may be reclassified to the consolidated statement of income
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Currency translation adjustments
+ 
+ 
+ 35,176
+ 
+ 
+ (54,425
+ )
+ 
+ 
+ Share of other comprehensive income of associates
+ 
+ 
+ 363
+ 
+ 
+ 2,258
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Deemed disposal of an investment in associate
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Reclassification to the statement of income of other comprehensive loss
+ 9
+ 
+ 
+ 1,147
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Other comprehensive income (loss)
+ 
+ 
+ 
+ 93,345
+ 
+ 
+ (57,822
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Comprehensive income (loss)
+ 
+ 
+ 
+ 299,433
+ 
+ 
+ (41,555
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ The notes are an integral part of these consolidated financial statements.
+ 8
+ 
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Consolidated Statements of Cash Flows
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 
+ Notes
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Operating activities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net earnings
+ 
+ 
+ 
+ 206,088
+ 
+ 
+ 16,267
+ 
+ 
+ 
+ Adjustments for:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Share-based compensation
+ 
+ 
+ 
+ 8,388
+ 
+ 
+ 6,238
+ 
+ 
+ 
+ Depletion and amortization
+ 
+ 
+ 
+ 36,990
+ 
+ 
+ 33,572
+ 
+ 
+ 
+ Impairment of royalty, stream and other interests
+ 
+ 
+ 
+ 5,495
+ 
+ 
+ 49,558
+ 
+ 
+ 
+ Change in allowance for expected credit loss and write-off of other investments and interest receivable
+ 
+ 
+ 
+ -
+ 
+ 
+ (1,399
+ )
+ 
+ 
+ Share of loss of associates
+ 
+ 
+ 
+ 14,178
+ 
+ 
+ 30,025
+ 
+ 
+ 
+ Change in fair value of financial assets at fair value through profit and loss
+ 
+ 
+ 
+ (5,315
+ )
+ 
+ (343
+ )
+ 
+ 
+ Net loss on dilution of investments in associates
+ 
+ 
+ 
+ -
+ 
+ 
+ 9,300
+ 
+ 
+ 
+ Gain on deemed disposal of an associate
+ 9
+ 
+ 
+ (54,439
+ )
+ 
+ -
+ 
+ 
+ 
+ Reclassification to the statement of income of other comprehensive loss on the deemed disposal of an investment in associate
+ 
+ 
+ 
+ 1,147
+ 
+ 
+ -
+ 
+ 
+ 
+ Foreign exchange (gain) loss
+ 
+ 
+ 
+ (734
+ )
+ 
+ 4,428
+ 
+ 
+ 
+ Deferred income tax expense
+ 
+ 
+ 
+ 18,664
+ 
+ 
+ 11,183
+ 
+ 
+ 
+ Other
+ 
+ 
+ 
+ 168
+ 
+ 
+ 2,973
+ 
+ 
+ 
+ Net cash flows provided by operating activities before changes in non-cash working capital items
+ 
+ 
+ 
+ 230,630
+ 
+ 
+ 161,802
+ 
+ 
+ 
+ Changes in non-cash working capital items
+ 22
+ 
+ 
+ 14,966
+ 
+ 
+ (1,877
+ )
+ 
+ 
+ Net cash flows provided by operating activities
+ 
+ 
+ 
+ 245,596
+ 
+ 
+ 159,925
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Investing activities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Acquisitions of short-term investments
+ 
+ 
+ 
+ -
+ 
+ 
+ (5,983
+ )
+ 
+ 
+ Acquisitions of investments
+ 
+ 
+ 
+ (12,599
+ )
+ 
+ -
+ 
+ 
+ 
+ Proceeds from disposal of investments
+ 10
+ 
+ 
+ 49,805
+ 
+ 
+ 3,847
+ 
+ 
+ 
+ Acquisitions of royalty, stream and other interests
+ 
+ 
+ 
+ (36,879
+ )
+ 
+ (73,449
+ )
+ 
+ 
+ Proceeds on the exercise of a buy-down right
+ 
+ 
+ 
+ 2,051
+ 
+ 
+ -
+ 
+ 
+ 
+ Other
+ 
+ 
+ 
+ (1,026
+ )
+ 
+ (57
+ )
+ 
+ 
+ Net cash flows provided by (used in) investing activities
+ 
+ 
+ 
+ 1,352
+ 
+ 
+ (75,642
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Financing activities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Increase in long-term debt
+ 15
+ 
+ 
+ 10,437
+ 
+ 
+ 35,000
+ 
+ 
+ 
+ Repayment of long-term debt
+ 15
+ 
+ 
+ (105,372
+ )
+ 
+ (84,721
+ )
+ 
+ 
+ Exercise of share options and shares issued under the share purchase plan
+ 
+ 
+ 
+ 11,736
+ 
+ 
+ 9,558
+ 
+ 
+ 
+ Normal course issuer bid purchase of common shares
+ 16
+ 
+ 
+ (36,673
+ )
+ 
+ (428
+ )
+ 
+ 
+ Dividends paid
+ 16
+ 
+ 
+ (34,861
+ )
+ 
+ (30,650
+ )
+ 
+ 
+ Withholding taxes on settlement of restricted and deferred share units
+ 
+ 
+ 
+ (6,512
+ )
+ 
+ (2,442
+ )
+ 
+ 
+ Other
+ 
+ 
+ 
+ (2,101
+ )
+ 
+ (1,185
+ )
+ 
+ 
+ Net cash flows used in financing activities
+ 
+ 
+ 
+ (163,346
+ )
+ 
+ (74,868
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Increase in cash before effects of exchange rate changes
+ 
+ 
+ 
+ 83,602
+ 
+ 
+ 9,415
+ 
+ 
+ 
+ Effects of exchange rate changes on cash
+ 
+ 
+ 
+ (567
+ )
+ 
+ (1,523
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net increase in cash 
+ 
+ 
+ 
+ 83,035
+ 
+ 
+ 7,892
+ 
+ 
+ 
+ Cash - January 1
+ 
+ 
+ 
+ 59,096
+ 
+ 
+ 51,204
+ 
+ 
+ 
+ Cash - December 31
+ 6
+ 
+ 
+ 142,131
+ 
+ 
+ 59,096
+ 
+ 
+ 
+ Additional information on the consolidated statements of cash flows is presented in Note 22.
+ 
+ 
+ 
+ The notes are an integral part of these consolidated financial statements.
+ 9
+ 
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Consolidated Statement of Changes in Equity
+ 
+ 
+ For the year ended December 31, 2025
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number of
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Accumulated 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ common
+ 
+ 
+ 
+ 
+ 
+ Contributedsurplus
+ 
+ 
+ other 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ shares
+ 
+ 
+ Share
+ 
+ 
+ comprehensive 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ outstanding
+ 
+ 
+ capital
+ 
+ 
+ loss (i)
+ 
+ 
+ Deficit 
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - January 1, 2025
+ 
+ 186,679,202
+ 
+ 
+ 1,675,940
+ 
+ 
+ 63,567
+ 
+ 
+ (141,841
+ )
+ 
+ (408,713
+ )
+ 
+ 1,188,953
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net earnings
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 206,088
+ 
+ 
+ 206,088
+ 
+ 
+ 
+ Other comprehensive income
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 93,345
+ 
+ 
+ -
+ 
+ 
+ 93,345
+ 
+ 
+ 
+ Comprehensive income
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 93,345
+ 
+ 
+ 206,088
+ 
+ 
+ 299,433
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Dividends declared
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ (39,284
+ )
+ 
+ (39,284
+ )
+ 
+ 
+ Shares issued - Dividends reinvestment plan
+ 
+ 128,684
+ 
+ 
+ 2,954
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 2,954
+ 
+ 
+ 
+ Shares issued - Employee share purchase plan
+ 
+ 10,681
+ 
+ 
+ 255
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 255
+ 
+ 
+ 
+ Share options - Share-based compensation
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 681
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 681
+ 
+ 
+ 
+ Share options exercised
+ 
+ 1,123,809
+ 
+ 
+ 14,888
+ 
+ 
+ (3,313
+ )
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 11,575
+ 
+ 
+ 
+ Restricted share units to be settled in common shares:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Share-based compensation
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 6,825
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 6,825
+ 
+ 
+ 
+ Settlement
+ 
+ 206,287
+ 
+ 
+ 2,207
+ 
+ 
+ (4,247
+ )
+ 
+ -
+ 
+ 
+ (2,611
+ )
+ 
+ (4,651
+ )
+ 
+ 
+ Income tax impact
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 1,843
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 1,843
+ 
+ 
+ 
+ Deferred share units to be settled in common shares:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Share-based compensation
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 882
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 882
+ 
+ 
+ 
+ Settlement
+ 
+ 65,400
+ 
+ 
+ 644
+ 
+ 
+ (1,397
+ )
+ 
+ -
+ 
+ 
+ (1,031
+ )
+ 
+ (1,784
+ )
+ 
+ 
+ Income tax impact
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 1,032
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 1,032
+ 
+ 
+ 
+ Normal course issuer bid purchase of common shares
+ 
+ (1,061,828
+ )
+ 
+ (8,766
+ )
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ (27,907
+ )
+ 
+ (36,673
+ )
+ 
+ 
+ Transfer of realized other comprehensive income of associates, net of income taxes
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 261
+ 
+ 
+ (261
+ )
+ 
+ -
+ 
+ 
+ 
+ Transfer of realized gain on financial assets at fair value through other comprehensive income, net of income taxes
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ (3,545
+ )
+ 
+ 3,545
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - December 31, 2025
+ 
+ 187,152,235
+ 
+ 
+ 1,688,122
+ 
+ 
+ 65,873
+ 
+ 
+ (51,780
+ )
+ 
+ (270,174
+ )
+ 
+ 1,432,041
+ 
+ 
+ 
+ (i) As at December 31, 2025, accumulated other comprehensive loss comprises items that will not be recycled to the consolidated statements of income amounting to $41.8 million and items that may be recycled to the consolidated statements of income amounting to ($93.6) million.
+ 
+ 
+ 
+ The notes are an integral part of these consolidated financial statements.
+ 10
+ 
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Consolidated Statement of Changes in Equity
+ 
+ 
+ For the year ended December 31, 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number of
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Accumulated 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ common
+ 
+ 
+ 
+ 
+ 
+ Contributedsurplus
+ 
+ 
+ other 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ shares
+ 
+ 
+ Share
+ 
+ 
+ comprehensive 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ outstanding
+ 
+ 
+ capital
+ 
+ 
+ loss (i)
+ 
+ 
+ Deficit 
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - January 1, 2024 (restated - Note 2)
+ 
+ 185,346,524
+ 
+ 
+ 1,658,908
+ 
+ 
+ 62,331
+ 
+ 
+ (84,816
+ )
+ 
+ (388,492
+ )
+ 
+ 1,247,931
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net earnings
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 16,267
+ 
+ 
+ 16,267
+ 
+ 
+ 
+ Other comprehensive loss
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ (57,822
+ )
+ 
+ -
+ 
+ 
+ (57,822
+ )
+ 
+ 
+ Comprehensive loss
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ (57,822
+ )
+ 
+ 16,267
+ 
+ 
+ (41,555
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Dividends declared
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ (34,665
+ )
+ 
+ (34,665
+ )
+ 
+ 
+ Shares issued - Dividends reinvestment plan
+ 
+ 205,741
+ 
+ 
+ 3,282
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 3,282
+ 
+ 
+ 
+ Shares issued - Employee share purchase plan
+ 
+ 16,497
+ 
+ 
+ 263
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 263
+ 
+ 
+ 
+ Share options - Share-based compensation
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 1,587
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 1,587
+ 
+ 
+ 
+ Share options exercised
+ 
+ 956,758
+ 
+ 
+ 11,916
+ 
+ 
+ (2,519
+ )
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 9,397
+ 
+ 
+ 
+ Restricted share units to be settled in common shares:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Share-based compensation
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 3,569
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 3,569
+ 
+ 
+ 
+ Settlement
+ 
+ 160,331
+ 
+ 
+ 1,586
+ 
+ 
+ (2,975
+ )
+ 
+ -
+ 
+ 
+ (722
+ )
+ 
+ (2,111
+ )
+ 
+ 
+ Income tax impact
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 422
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 422
+ 
+ 
+ 
+ Deferred share units to be settled in common shares:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Share-based compensation
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 1,082
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 1,082
+ 
+ 
+ 
+ Settlement
+ 
+ 19,351
+ 
+ 
+ 201
+ 
+ 
+ (437
+ )
+ 
+ -
+ 
+ 
+ (92
+ )
+ 
+ (328
+ )
+ 
+ 
+ Income tax impact
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 507
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 507
+ 
+ 
+ 
+ Normal course issuer bid purchase of common shares
+ 
+ (26,000
+ )
+ 
+ (216
+ )
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ (212
+ )
+ 
+ (428
+ )
+ 
+ 
+ Transfer of realized other comprehensive income of associates, net of income taxes
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 762
+ 
+ 
+ (762
+ )
+ 
+ -
+ 
+ 
+ 
+ Transfer of realized gain on financial assets at fair value through other comprehensive income, net of income taxes
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 35
+ 
+ 
+ (35
+ )
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - December 31, 2024
+ 
+ 186,679,202
+ 
+ 
+ 1,675,940
+ 
+ 
+ 63,567
+ 
+ 
+ (141,841
+ )
+ 
+ (408,713
+ )
+ 
+ 1,188,953
+ 
+ 
+ 
+ (i) As at December 31, 2024, accumulated other comprehensive loss comprises items that will not be recycled to the consolidated statements of income (loss) amounting to ($12.7) million and items that may be recycled to the consolidated statements of income (loss) amounting to ($129.2) million.
+ 
+ 
+ 
+ The notes are an integral part of these consolidated financial statements.
+ 11
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 1. Nature of activities
+ OR Royalties Inc. (formerly Osisko Gold Royalties Ltd) and its subsidiaries (together, "OR Royalties" or the "Company") are engaged in the business of acquiring and managing royalties, streams and similar interests on precious metals and other commodities that fit the Company's risk/reward objectives. OR Royalties is a public company domiciled in the Province of Québec, Canada, whose shares trade on the Toronto Stock Exchange and the New York Stock Exchange and is constituted under the Business Corporations Act (Québec). The address of its registered office is 1100, avenue des Canadiens-de-Montréal, Suite 300, Montréal, Québec. The Company owns a portfolio of royalties, streams, options on royalty/stream financings and exclusive rights to participate in future royalty/stream financings on various projects. The Company's cornerstone asset is a 3-5% net smelter return ("NSR") royalty on the Canadian Malartic Complex, located in Québec, Canada.
+ 2. Basis of presentation
+ The accompanying consolidated financial statements have been prepared in accordance with IFRS Accounting Standards as issued by the International Accounting Standards Board ("IASB"). The accounting policies, methods of computation and presentation applied in these consolidated financial statements are consistent with those of the previous financial year. The Board of Directors approved these consolidated financial statements for issue on February 18, 2026.
+ Change in presentation currency
+ During the year ended December 31, 2024, the Company elected to change its presentation currency from Canadian dollars ("C$") to U.S. dollars. The change in presentation currency is to improve investors and other stakeholders' ability to compare the Company's financial results with other precious metals royalty and streaming companies, who mostly report their results in U.S. dollars.
+ In accordance with IAS 8, Accounting Policies, Changes in Accounting Estimates and Errors, this change in presentation currency was applied retrospectively as if the new presentation currency had always been the Company's presentation currency.
+ 
+ 12
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 3. Material accounting policies
+ The material accounting policies applied in the preparation of the consolidated financial statements are described below.
+ a) Consolidation
+ The Company's financial statements consolidate the accounts of OR Royalties Inc. and its subsidiaries. All intercompany transactions, balances and unrealized gains or losses from intercompany transactions are eliminated on consolidation. Subsidiaries are all entities over which the Company has the ability to exercise control. The Company controls an entity when the group is exposed to, or has rights to, variable returns from its involvement with the entity and has the ability to affect those returns through its power over the entity. Subsidiaries are fully consolidated from the date on which control is transferred to OR Royalties Inc. or its subsidiaries and are deconsolidated from the date that control ceases.
+ The principal subsidiary of the Company, its geographic location and its related participation as of December 31, 2025 and 2024 were as follows:
+ 
+ 
+ 
+ Entity
+ Jurisdiction
+ Participation
+ Functional currency
+ 
+ 
+ OR Royalties International Ltd.(formerly Osisko Bermuda Limited)
+ Bermuda
+ 100%
+ United States dollar
+ 
+ 
+ 
+ b) Foreign currency translation
+ (i) Functional and presentation currency
+ Items included in the financial statements of each consolidated entity and associate of the Company are measured using the currency of the primary economic environment in which the entity operates (the "functional currency"). The parent Company's functional currency is the Canadian dollar and the Company's presentation currency is the U.S. dollar.
+ Assets and liabilities of the subsidiaries that have a functional currency different from the presentation currency, which is not the U.S. dollars, are translated into U.S. dollars at the exchange rate in effect on the consolidated balance sheet date and revenues and expenses are translated at the average exchange rate over the reporting period. Gains and losses from these translations are recognized as currency translation adjustments in other comprehensive income or loss.
+ (ii) Foreign currency transactions and balances
+ Foreign currency transactions, including revenues and expenses, are translated into the functional currency of the respective subsidiary at the rate of exchange prevailing on the date of each transaction or valuation when items are re-measured. Monetary assets and liabilities denominated in currencies other than the operation's functional currencies are translated into the functional currency at exchange rates in effect at the balance sheet date. Foreign exchange gains and losses resulting from the settlement of those transactions and from period-end translations are recognized in the consolidated statement of income or loss.
+ Non-monetary assets and liabilities are translated at historical rates, unless such assets and liabilities are carried at fair value, in which case, they are translated at the exchange rate in effect at the date of the fair value measurement. Changes in fair value attributable to currency fluctuations of non-monetary financial assets and liabilities such as equities held at fair value through profit or loss are recognized in the consolidated statement of income or loss as part of the fair value gain or loss. Such changes in fair value of non-monetary financial assets, such as equities classified at fair value through other comprehensive income, are included in other comprehensive income or loss.
+ 
+ 13
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 3. Material accounting policies (continued)
+ c) Financial instruments
+ Financial assets and liabilities are recognized when the Company becomes a party to the contractual provisions of the instrument. Financial assets are derecognized when the rights to receive cash flows from the assets have expired or have been transferred and the Company has transferred substantially all risks and rewards of ownership.
+ All financial instruments are required to be measured at fair value on initial recognition. The fair value is based on quoted market prices, unless the financial instruments are not traded in an active market. In this case, fair value is determined by using valuation techniques like the Black-Scholes option pricing model or other acceptable valuation techniques.
+ Measurement after initial recognition depends on the classification of the financial instrument. The Company has classified its financial instruments in the following categories depending on the purpose for which the instruments were acquired and their characteristics.
+ (i) Financial assets
+ Debt instruments
+ Investments in debt instruments are subsequently measured at amortized cost when the asset is held within a business model whose objective is to hold assets in order to collect contractual cash flows and when the contractual terms of the financial asset give rise on specified dates to cash flows that are solely payments of principal and interest on the principal amount outstanding.
+ Investments in debt instruments are subsequently measured at fair value when they do not qualify for measurement at amortized cost. Financial instruments subsequently measured at fair value, including derivatives that are assets, are carried at fair value with changes in fair value recorded in net income or loss unless they are held within a business model whose objective is to hold assets in order to collect contractual cash flows or sell the assets and when the contractual terms of the financial asset give rise on specified dates to cash flows that are solely payments of principal and interest on the principal amount outstanding, in which case unrealized gains and losses are initially recognized in other comprehensive income or loss for subsequent reclassification to net income or loss through amortization of premiums and discounts, impairment or derecognition.
+ Equity instruments
+ Investments in equity instruments are subsequently measured at fair value with changes recorded in net income or loss. Equity instruments that are not held for trading can be irrevocably designated at fair value through other comprehensive income or loss on initial recognition without subsequent reclassification to net income or loss. Cumulative gains and losses are transferred from accumulated other comprehensive income or loss to retained earnings or deficit upon derecognition of the investment.
+ (ii) Financial Liabilities
+ Financial liabilities are subsequently measured at amortized cost using the effective interest method, except for financial liabilities at fair value through profit or loss. Such liabilities, including derivatives that are liabilities, are subsequently measured at fair value.
+ 
+ 14
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 3. Material accounting policies (continued)
+ c) Financial instruments (continued)
+ The Company has classified its financial instruments as follows:
+ 
+ 
+ 
+ Category
+ Financial instrument
+ 
+ 
+ 
+ 
+ 
+ 
+ Financial assets at amortized cost
+ Cash
+ 
+ 
+ 
+ Notes and loans receivable
+ 
+ 
+ 
+ Revenues receivable from royalty, stream and other interests
+ 
+ 
+ 
+ Interest income receivable
+ 
+ 
+ 
+ Other receivables
+ 
+ 
+ 
+ 
+ 
+ 
+ Financial assets at fair value through profit or loss
+ Investments in derivatives and convertible debentures
+ 
+ 
+ 
+ 
+ 
+ 
+ Financial assets at fair value through other comprehensive income or loss 
+ Investments in shares and equity instruments, other than in derivatives
+ 
+ 
+ 
+ 
+ 
+ 
+ Financial liabilities at amortized cost
+ Accounts payable and accrued liabilities
+ 
+ 
+ 
+ Borrowings under the revolving credit facility
+ 
+ 
+ 
+ d) Impairment of financial assets
+ At each reporting date, the Company assesses, on a forward-looking basis, the expected credit losses associated with its financial assets carried at amortized cost. The impairment methodology applied depends on whether there has been a significant increase in the credit risk (investments in debt instruments measured at amortized cost) or if a simplified approach has been selected (Other receivables).
+ Investments in debt instruments
+ To the extent that a debt instrument at amortized cost is considered to have low credit risk, which corresponds to a credit rating within the investment grade category and the credit risk has not increased significantly, the loss allowance is determined on the basis of 12-month expected credit losses. If the credit risk has increased significantly, the lifetime expected credit losses are recognized.
+ 
+ 15
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 3. Material accounting policies (continued)
+ e) Investments in associates
+ Associates are entities over which the Company has significant influence, but not control. The financial results of the Company's investments in its associates are included in the Company's results according to the equity method. Under the equity method, the investment is initially recognized at cost, and the carrying amount is increased or decreased to recognize the Company's share of profits or losses of associates after the date of acquisition. Such share of profits and losses takes into account the attribution of the price paid to the Company's share of the associate's underlying assets and liabilities. The Company's share of profits or losses is recognized in the consolidated statement of income or loss and its share of other comprehensive income or loss of associates is included in other comprehensive income or loss. Dilution gains and losses arising from changes in interests in investments in associates are recognized in the consolidated statement of income or loss.
+ The Company assesses at each reporting date whether there is any objective evidence that its investments in associates are impaired. If impaired, the carrying value of the Company's share of the underlying assets of associates is written down to its estimated recoverable amount (being the higher of fair value less costs of disposal and value-in-use) and charged to the consolidated statement of income or loss.
+ f) Royalty, stream and other interests
+ Royalty, stream and other interests consist of acquired royalty, stream and other interests in producing, development and exploration and evaluation stage properties. Royalty, stream and other interests are recorded at cost and capitalized as tangible assets. They are subsequently measured at cost less accumulated depletion and depreciation and accumulated impairment losses. The major categories of the Company's interests are producing, development and exploration and evaluation. Producing assets are those that have generated revenue from steady-state operations for the Company. Development assets are interests in projects that are under development, in permitting or feasibility stage and that in management's view, can be reasonably expected to generate steady-state revenue for the Company in the near future. Exploration and evaluation assets represent properties that are not yet in development, permitting or feasibility stage or that are speculative in nature and are expected to require several years to generate revenue, if ever, or are currently not active.
+ Producing and development royalty, stream and other interests are recorded at cost and capitalized in accordance with IAS 16 Property, Plant and Equipment. Producing royalty, stream and other interests are depleted using the units-of-production method over the life of the property to which the interest relates, which is estimated using available estimates of proven and probable mineral reserves specifically associated with the properties and may include a portion of resources expected to be converted into mineral reserves, based on judgement and historical conversion rates achieved by the mine operator. Management relies on information available to it under contracts with the operators and / or public disclosures for information on proven and probable mineral reserves and resources from the operators of the producing royalty, stream and other interests. Where information is not publicly available, depletion is based on the Company's best estimate of the volumes to be delivered under the contracts.
+ On acquisition of a producing or a development royalty, stream or other interest, an allocation of the acquisition cost may be made for the exploration potential based on its fair value. The estimated fair value of this acquired exploration potential is recorded as an asset (non-depreciable interest) on the acquisition date. Updated mineral reserve and resource information obtained from the operators of the properties is used to determine the amount to be converted from non-depreciable interest to depreciable interest.
+ Royalty, stream and other interests for exploration and evaluation assets are recorded at cost and capitalized in accordance with IFRS 6 Exploration for and Evaluation of Mineral Resources. Acquisition costs of exploration and evaluation royalty, stream and other interests are capitalized and are not depleted until such time as revenue-generating activities begin.
+ 
+ 16
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ Producing and development royalty, stream and other interests are reviewed for impairment at each reporting date if there is any indication that the carrying amount may not be recoverable. Impairment is assessed at the level of Cash-Generating Units (''CGU'') which, in accordance with IAS 36 Impairment of Assets, are identified as the smallest identifiable group of assets that generates cash inflows, which are largely independent of the cash inflows from other assets. This is usually at the individual royalty, stream and other interest level for each property from which cash inflows are generated.
+ 3. Material accounting policies (continued)
+ f) Royalty, stream and other interests (continued)
+ Royalty, stream and other interests for exploration and evaluation assets are assessed for impairment whenever indicators of impairment exist in accordance with IFRS 6. An impairment loss is recognized for the amount by which the asset's carrying value exceeds its recoverable amount, which is the higher of fair value less costs of disposal and value-in-use. An interest that has previously been classified as exploration and evaluation is also assessed for impairment before reclassification to development or producing assets, and the impairment loss, if any, is recognized in net income or loss.
+ g) Goodwill
+ Goodwill is recognized in a business combination if the cost of the acquisition exceeds the fair value of the identifiable net assets acquired. Goodwill is then allocated to the CGU or group of CGUs that are expected to benefit from the synergies of the combination. The Company performs a goodwill impairment test on an annual basis as at December 31 of each year. In addition, the Company assesses indicators of impairment at each reporting period end and, if an indicator of impairment is identified, goodwill is tested for impairment at that time. If the carrying value of the CGU or group of CGUs to which goodwill is assigned exceeds its recoverable amount, an impairment loss is recognized. Goodwill impairment losses are not reversed.
+ The recoverable amount of a CGU or group of CGUs is measured as the higher of value in use and fair value less costs of disposal.
+ h) Current and deferred income tax
+ The tax expense for the period comprises current and deferred tax. Tax is recognized in the consolidated statement of income or loss, except to the extent that it relates to items recognized in other comprehensive income or loss or directly in equity. In this case, the tax is also recognized in other comprehensive income or loss or directly in equity, respectively.
+ Current income taxes
+ The current income tax charge is the expected tax payable on the taxable income for the year, using the tax laws enacted or substantively enacted at the balance sheet date in the jurisdictions where the Company and its subsidiaries operate and generate taxable income. Management periodically evaluates positions taken in tax returns with respect to situations in which applicable tax regulation is subject to interpretation. It establishes provisions where appropriate on the basis of amounts expected to be paid to the tax authorities.
+ Deferred income taxes
+ The Company uses the asset and liability method of accounting for income taxes. Under this method, deferred income tax assets and liabilities are recognized for future tax consequences attributable to temporary differences between the financial statement carrying amounts of existing assets and liabilities and their respective tax bases. However, the deferred income tax is not accounted for if it arises from initial recognition of an asset or liability in a transaction other than a business combination that at the time of the transaction affects neither accounting nor taxable profit or loss. Deferred income tax assets and liabilities are measured using enacted or substantively enacted tax rates (and laws) that apply to taxable income in the years in which those temporary differences are expected to be recovered or settled.
+ Deferred income tax assets are recognized only to the extent that it is probable that future taxable profit will be available against which the temporary differences can be utilized.
+ Deferred income tax liabilities are provided on temporary differences arising on investments in subsidiaries and associates, except where the timing of the reversal of the temporary difference is controlled by the Company and it is probable that the temporary difference will not reverse in the foreseeable future.
+ Deferred income tax assets and liabilities are presented as non-current and are offset when there is a legally enforceable right to offset current tax assets against current tax liabilities and when deferred tax assets and liabilities relate to income taxes levied by the same taxation authority on either the same taxable entity or different taxable entities where there is an intention to settle the balances on a net basis.
+ 
+ 17
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 3. Material accounting policies (continued)
+ i) Revenue recognition
+ The Company generates revenue from contracts with customers under each of its royalty, stream and other interests. The Company has determined that each unit of a commodity that is delivered to a customer under a royalty, stream, or other interest arrangement is a performance obligation for the delivery of a good that is separate from each other unit of the commodity to be delivered under the same arrangement.
+ Revenue comprises revenues from the sale of commodities received or acquired, and revenues directly earned from royalty, stream and other interests.
+ For commodities received from royalty agreements or acquired from stream and offtake agreements, and subsequently sold, the Company's performance obligations relate primarily to the delivery of gold, silver or other metals to the customers. Revenue is recognized when control is transferred to the customers, which is achieved when the metal is delivered, the customer has full discretion over it and there is no unfulfilled obligation that could affect the customer's acceptance of the metal. Control over the refined gold, silver, copper and other metals is transferred to the customers when the relevant metal received (or purchased) from the operator is delivered and sold by the Company to customers.
+ For royalty agreements paid in cash, revenue is recognized in the period in which metal production occurs, based on its attributable production interest and at the specified commodity price per the agreement, net of any contractually allowable permitted costs.
+ Revenue is measured at fair value of the consideration received or receivable when management can reliably estimate the amount, pursuant to the terms of the royalty, stream and other interest agreements. In some instances, the Company will not have access to sufficient information to make a reasonable estimate of revenue and, accordingly, revenue recognition is deferred until management can make a reasonable estimate. Differences between estimates and actual amounts are adjusted and recorded in the period that the actual amounts are known.
+ j) Share-based compensation
+ Share option plan
+ The Company offered a share option plan to its officers, employees and consultants until the year 2025, when it ceased to grant share options. Each tranche in an award was considered a separate award with its own vesting period and grant date fair value. Fair value of each tranche was measured at the date of grant using the Black-Scholes option pricing model. Compensation expense is recognized over the tranche's vesting period by increasing contributed surplus based on the number of awards expected to vest. The number of awards expected to vest is reviewed at least annually, with any impact being recognized immediately.
+ Any consideration paid on exercise of share options is credited to share capital. The contributed surplus resulting from share-based compensation is transferred to share capital when the options are exercised.
+ Deferred and restricted share units
+ The Company offers a deferred share units ("DSU") plan to its non-executive directors and a restricted share units ("RSU") plan to its officers, employees and consultants as part of their long-term compensation package, entitling them to receive a payment in the form of common shares, cash (based on OR Royalties' share price at the relevant time) or a combination of common shares and cash, at the sole discretion of the Company. The fair value of the DSU and RSU granted by the Company to be settled in common shares is measured on the grant date and is recognized over the vesting period under contributed surplus with a corresponding charge to share-based compensation. A liability for the DSU and RSU to be settled in cash is measured at fair value on the grant date and is subsequently adjusted at each balance sheet date for changes in fair value. The liability is recognized over the vesting period with a corresponding charge to share-based compensation.
+ 
+ 18
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 3. Material accounting policies (continued)
+ k) Segment reporting
+ The operating segments are reported in a manner consistent with the internal reporting provided to the President and Chief Executive Officer (the "President and CEO") who fulfills the role of the chief operating decision-maker. The President and CEO is responsible for allocating resources and assessing performance of the Company's operating segments. The President and CEO organizes and manages the business under a single operating segment, consisting of acquiring and managing precious metals and other royalties, streams and other interests.
+ 4. New accounting standards and amendments
+ Accounting standards issued but not yet effective
+ The Company has not yet adopted certain standards, interpretations to existing standards and amendments which have been issued but have an effective date of later than December 31, 2025. These standards, interpretations to existing standards and amendments, other than IFRS 18 Presentation and Disclosure in Financial Statements and the amendments to IFRS 9 Financial Instruments and IFRS 7 Financial Instruments: Disclosures, which are presented below, are not expected to have any significant impact on the Company or are not considered material and are therefore not discussed herein.
+ IFRS 18 - Presentation and Disclosure in Financial Statements
+ In April 2024, the IASB issued IFRS 18, the new standard on presentation and disclosure in financial statements, with a focus on updates to the statement of profit or loss. IFRS 18 was issued in response to investors' concerns about the comparability and transparency of entities' performance reporting. The new requirements introduced in IFRS 18 will help to achieve comparability of the financial performance of similar entities, especially related to how 'operating profit or loss' is defined. The new disclosures required for some management-defined performance measures will also enhance transparency. The key new concepts introduced in IFRS 18 relate to:
+ 
+ the structure of the statement of profit or loss;
+ required disclosures in the financial statements for certain profit or loss performance measures that are reported outside an entity's financial statements (that is, management-defined performance measures); and
+ enhanced principles on aggregation and disaggregation which apply to the primary financial statements and notes in general.
+ 
+ IFRS 18 will replace IAS 1; many of the other existing principles in IAS 1 are retained, with limited changes. IFRS 18 will not impact the recognition or measurement of items in the financial statements, but it might change what an entity reports as its 'operating profit or loss'.
+ IFRS 18 will apply for reporting periods beginning on or after January 1, 2027 and also applies to comparative information. Management is currently assessing the impact of the new standard on its consolidated financial statements.
+ 
+ 19
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 4. New accounting standards and amendments (continued)
+ Accounting standards issued but not yet effective (continued) 
+ Amendments - IFRS 9, Financial Instruments and IFRS 7, Financial Instruments: Disclosures
+ On May 30, 2024, the IASB issued targeted amendments to IFRS 9 and IFRS 7, which respond to recent questions arising in practice. The amendments were issued to:
+ 
+ clarify the date of recognition and derecognition of some financial assets and liabilities, with a new exception for some financial liabilities settled through an electronic cash transfer system;
+ clarify and add further guidance for assessing whether a financial asset meets the solely payments of principal and interest criterion;
+ add new disclosures for certain instruments with contractual terms that can change cash flows; and
+ update disclosures for equity instruments designated at fair value through other comprehensive income.
+ 
+ The new requirements will apply from January 1, 2026, with early application permitted. These amendments are not expected to have a significant impact on the consolidated financial statements.
+ 5. Critical accounting estimates and significant judgements
+ The preparation of financial statements in conformity with IFRS Accounting Standards requires the Company to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period. The Company also makes estimates and assumptions concerning the future. The determination of estimates requires the exercise of judgements based on various assumptions and other factors such as historical experience and current and expected economic conditions. Actual results could differ from those estimates.
+ Estimates and assumptions are continually evaluated and are based on historical experience and other factors, including expectations of future events that are believed to be reasonable under the circumstances.
+ Critical accounting estimates and assumptions
+ Mineral reserves and resources - Royalties, streams and other assets 
+ Royalty, stream and other interests comprise a large component of the Company's assets and as such, the mineral reserves and resources of the properties to which the interests relate have a significant effect on the Company's consolidated financial statements. These estimates are applied in determining the depletion of the Company's royalty, stream and other interests and assessing the recoverability of the carrying value of royalty, stream and other interests. For royalty, stream and other interests, the public disclosures of mineral reserves and resources that are released by the operators of the properties involve assessments of geological and geophysical studies and economic data and the reliance on a number of assumptions, including commodity prices and production costs. These assumptions are, by their very nature, subject to interpretation and uncertainty. The estimates of mineral reserves and resources may change based on additional knowledge gained subsequent to the initial assessment, adjusted by the Company's internal geological specialists, as deemed necessary. Changes in the estimates of mineral reserves and resources may materially affect the assessed recoverability of the carrying value of royalty, stream and other interests.
+ Impairment of royalty, stream and other interests 
+ The assessment of the fair values of royalty, stream and other interests requires the use of estimates and assumptions for recoverable production, long-term commodity prices, discount rates, mineral reserve/resource conversion, net asset value multiples, foreign exchange rates, future capital expansion plans and the associated production implications. In addition, the Company may use other approaches in determining fair value which may include estimates related to (i) dollar value per ounce of mineral reserve/resource; (ii) cash-flow multiples; and (iii) market capitalization of comparable assets. Changes in any of the estimates used in determining the fair value of the royalty, stream and other interests could impact the impairment (or reversal of impairment) analysis.
+ 
+ 20
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 5. Critical accounting estimates and significant judgements (continued)
+ Significant judgements in applying the Company's accounting policies
+ Investee - control and significant influence
+ The assessment of whether the Company has control or significant influence over an investee requires the use of judgements when assessing factors that could give rise to control or significant influence. Factors which could lead to the conclusion of having control or significant influence over an investee include, but are not limited to, ownership percentage; representation on the board of directors; investment agreements between the investor and the investee; participation in the policy-making process; material transactions between the investor and the investee; interchange of managerial personnel; provision of essential technical information; and potential voting rights.
+ Changes in the judgements used in determining if the Company has control or significant influence over an investee would impact the accounting treatment of the investment in the investee.
+ Impairment of financial assets
+ In assessing whether the credit risk on a financial instrument has increased significantly since initial recognition, the Company compares the risk of default occurring on the financial instrument at the reporting date with the risk of a default occurring on the financial instrument at the date of initial recognition. In making this assessment, the Company considers both quantitative and qualitative information that is reasonable and supportive, including forward-looking information that is available without undue cost of effort. The loss allowances for financial assets are based on assumptions about the risk of default and expected loss rates. The Company uses judgement in making these assumptions and selecting the inputs to the allowance for expected credit loss calculation, based on the Company's past history and existing market conditions, as well as forward-looking estimates at the end of each reporting period.
+ Changes in the judgements used in determining the risk of default and the expected loss rates could materially impact the allowance or the write-off.
+ Impairment of royalty, stream and other interests on exploration and evaluation properties
+ Assessment of impairment and reversal of impairment of royalty, stream and other interests on exploration and evaluation properties requires the use of judgement when assessing whether there are any indicators that could give rise to the requirement to conduct a formal impairment or impairment reversal test on the Company's royalty, stream and other interests on exploration and evaluation properties. Factors which could trigger an impairment or impairment reversal review include, but are not limited to, an expiry of the right of the operator to explore in the specific area during the period or will expire in the near future, and is not expected to be renewed; substantive exploration and evaluation expenditures in a specific area not planned by the operator, taking into consideration such expenditures to be incurred by a farmee, is neither budgeted nor planned; exploration for and evaluation of mineral resources in a specific area have not led to the discovery of commercially viable quantities of mineral resources and the operator has decided to discontinue such activities in the specific area; sufficient data exists to indicate that, although a development in a specific area is likely to proceed, the carrying amount of the royalty, stream and other interests is unlikely to be recovered in full from successful development or by sale; significant negative industry or economic trends; interruptions in exploration and evaluation activities by the operator or its farmee; and a significant change in current or forecast commodity prices.
+ Changes in the judgements used in determining the fair value of the royalty, stream and other interests on exploration and evaluation properties could impact the impairment or impairment reversal analysis.
+ 
+ 21
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 5. Critical accounting estimates and significant judgements (continued)
+ Significant judgements in applying the Company's accounting policies (continued)
+ Impairment of development and producing royalty, stream and other interests 
+ Assessment of impairment and reversal of impairment of development and producing royalty, stream and other interests requires the use of judgements when assessing whether there are any indicators that could give rise to the requirement to conduct a formal impairment or impairment reversal test on the Company's development and producing royalty, stream and other interests. Factors which could trigger an impairment or impairment reversal review include, but are not limited to, a significant market value decline; net assets higher than the market capitalization; a significant change in mineral reserves and resources; significant negative industry or economic trends; interruptions in production activities; significantly lower production than expected and a significant change in current or forecast commodity prices and interest rates.
+ Changes in the judgements used in determining the fair value of the producing royalty, stream and other interests could impact the impairment or impairment reversal analysis.
+ Deferred income tax assets
+ Management continually evaluates the likelihood that it is probable that its deferred tax assets will be realized. This requires management to assess whether it is probable that sufficient taxable income will exist in the future to utilize these losses within the carry-forward period. By its nature, this assessment requires significant judgement.
+ 6. Cash
+ As at December 31, 2025 and 2024, the consolidated cash position was as follows:
+ 
+ 
+ 
+ 
+ 
+ December 31,
+ 
+ 
+ December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash held in U.S. dollars
+ 
+ 130,509
+ 
+ 
+ 48,223
+ 
+ 
+ 
+ Cash held in Canadian dollars (i)
+ 
+ 11,622
+ 
+ 
+ 10,873
+ 
+ 
+ 
+ Total cash
+ 
+ 142,131
+ 
+ 
+ 59,096
+ 
+ 
+ 
+ 
+ (i) Cash held in Canadian dollars amounted to C$15.9 million as at December 31, 2025 (C$15.6 million as at December 31, 2024).
+ 7. Amounts receivable
+ 
+ 
+ 
+ 
+ 
+ December 31,
+ 
+ 
+ December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Revenues receivable from royalty, stream and other interests
+ 
+ 2,283
+ 
+ 
+ 2,110
+ 
+ 
+ 
+ Other receivables
+ 
+ 944
+ 
+ 
+ 996
+ 
+ 
+ 
+ 
+ 
+ 3,227
+ 
+ 
+ 3,106
+ 
+ 
+ 
+ 
+ 
+ 
+ 22
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 8. Other assets
+ 
+ 
+ 
+ 
+ 
+ December 31,
+ 
+ 
+ December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Current
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Prepaid expenses and deposits
+ 
+ 2,326
+ 
+ 
+ 1,612
+ 
+ 
+ 
+ 
+ 
+ 2,326
+ 
+ 
+ 1,612
+ 
+ 
+ 
+ Non-current
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Interest receivable
+ 
+ 1,292
+ 
+ 
+ -
+ 
+ 
+ 
+ Deferred financing fees
+ 
+ 2,003
+ 
+ 
+ 1,293
+ 
+ 
+ 
+ Property and equipment (i)
+ 
+ 5,080
+ 
+ 
+ 4,083
+ 
+ 
+ 
+ 
+ 
+ 8,375
+ 
+ 
+ 5,376
+ 
+ 
+ 
+ 
+ (i) Property and equipment includes right-of-use assets of $4.0 million as at December 31, 2025 ($3.9 million as at December 31, 2024).
+ 9. Investments in associates
+ 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - January 1
+ 
+ 43,262
+ 
+ 
+ 87,444
+ 
+ 
+ 
+ Share of loss, net (i)
+ 
+ (14,178
+ )
+ 
+ (30,025
+ )
+ 
+ 
+ Share of other comprehensive (loss) income, net (i)
+ 
+ (601
+ )
+ 
+ 463
+ 
+ 
+ 
+ Net loss on ownership dilution (ii)
+ 
+ -
+ 
+ 
+ (9,300
+ )
+ 
+ 
+ Gain on deemed disposal (iii)
+ 
+ 54,439
+ 
+ 
+ -
+ 
+ 
+ 
+ Transfers to other investments (Note 10) (iii)
+ 
+ (84,502
+ )
+ 
+ -
+ 
+ 
+ 
+ Foreign exchange revaluation impact
+ 
+ 1,580
+ 
+ 
+ (5,320
+ )
+ 
+ 
+ Balance - December 31
+ 
+ -
+ 
+ 
+ 43,262
+ 
+ 
+ 
+ 
+ (i) The net shares of income (or loss) and comprehensive income (or loss) were adjusted to the extent that management is aware of material events that affect the associates' net income (or loss) and comprehensive income (or loss) during the period where earnings in equity accounted for investments are recorded on up-to a 3-month lag basis, which was the case for the investment in Osisko Development Corp. ("Osisko Development").
+ (ii) In October and November 2024, Osisko Development completed private placements, which reduced the ownership percentage from 39.01% to 24.41% and resulted in a loss on dilution of $9.3 million.
+ (iii) In August 2025, Osisko Development completed a further private placement, which reduced the Company's ownership percentage from 24.15% to 13.97%, and based on the investment agreement also impacted the nomination rights to the board of directors of Osisko Development. As a result of these changes, among other considerations, the Company has concluded that it has lost its significant influence over the investee for accounting purposes and that it was therefore no longer considered an associate. In August 2025, the carrying amount of the equity accounted investment was derecognised and the retained interest in Osisko Development was revalued at its fair value (i.e. quoted market price), which generated a gain on deemed disposal of an associate of $54.4 million, and accumulated other comprehensive loss of $1.1 million was reclassified to the statement of income. The retained interest in Osisko Development has been designated as an equity investment at fair value through other comprehensive income or loss on initial recognition without subsequent reclassification to net income or loss.
+ 
+ 23
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 9. Investments in associates (continued)
+ Material investment
+ As of December 31, 2024, Osisko Development was the only material associate of the Company. Osisko Development is a Canadian gold exploration and development company focused on the acquisition, exploration and development of precious metals resource properties in North America. OR Royalties owns a 5% NSR royalty on the Cariboo gold project and a 2.5% metals stream on Tintic property, both owned by Osisko Development.
+ As indicated above, Osisko Development ceased to be considered as an associate in August 2025. The financial information of Osisko Development for the year 2024 is presented below and includes adjustments, where applicable, to the accounting policies of the associate to conform to those of the Company. The information presented includes a three-month lag as the financial information of the associate was not available prior to the approval of the consolidated financial statements of the Company.
+ 
+ 
+ 
+ 
+ 
+ OsiskoDevelopment
+ 
+ 
+ 
+ 
+ 
+ 2024 (i)
+ 
+ 
+ 
+ 
+ 
+ $ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current assets
+ 
+ 42,949
+ 
+ 
+ 
+ Non-current assets
+ 
+ 525,269
+ 
+ 
+ 
+ Current liabilities
+ 
+ (90,842
+ )
+ 
+ 
+ Non-current liabilities
+ 
+ (85,590
+ )
+ 
+ 
+ Net assets
+ 
+ 391,786
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Revenues
+ 
+ 8,421
+ 
+ 
+ 
+ Net loss
+ 
+ (153,087
+ )
+ 
+ 
+ Other comprehensive income
+ 
+ 1,440
+ 
+ 
+ 
+ Comprehensive loss
+ 
+ (151,647
+ )
+ 
+ 
+ 
+ 
+ 
+ 24
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 9. Investments in associates (continued)
+ Material investment - Reconciliation to carrying amounts
+ 
+ 
+ 
+ 
+ 
+ OsiskoDevelopment (i)
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 
+ 
+ $ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Opening net assets, at lag
+ 
+ 538,570
+ 
+ 
+ 
+ Loss for the period
+ 
+ (153,087
+ )
+ 
+ 
+ Other comprehensive gain for the period
+ 
+ 1,440
+ 
+ 
+ 
+ Other equity transactions, impact of foreign exchange variations and others
+ 
+ 4,863
+ 
+ 
+ 
+ Closing net assets, at lag
+ 
+ 391,786
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Company's share in % (ii)
+ 
+ 39.7%
+ 
+ 
+ 
+ Company's share in $, at lag
+ 
+ 155,539
+ 
+ 
+ 
+ Initial recognition impairment (iii)
+ 
+ (73,039
+ )
+ 
+ 
+ Investment impairment (iv)
+ 
+ (17,590
+ )
+ 
+ 
+ Impact of dilution, foreign exchange variations and others
+ 
+ (12,348
+ )
+ 
+ 
+ Carrying amount, at lag
+ 
+ 52,562
+ 
+ 
+ 
+ Adjustments for events during the lag period (iv), (v)
+ 
+ (9,300
+ )
+ 
+ 
+ Carrying amount, as per balance sheet
+ 
+ 43,262
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Fair value of investment (vi)
+ 
+ 54,210
+ 
+ 
+ 
+ 
+ (i) Information is for the reconstructed twelve months ended September 30, 2024.
+ (ii) As at September 30, 2024.
+ (iii) Reflects the initial write-down to the notional value of acquired non-current assets upon deconsolidation of Osisko Development as a subsidiary and recognition as an associate recorded at fair value under IAS 28. Any related subsequent impairments of non-current assets recorded by the associate (through the net loss for the period) are appropriately adjusted against this initial amount.
+ (iv) In 2024, Osisko Development recognized an impairment charge, which partially offset the impairment of $48.8 million booked by the Company in 2023.
+ (v) In October and November 2024, Osisko Development completed private and brokered placements, which reduced the ownership percentage of the Company from 39.7% to 24.4% and resulted in a loss on dilution of $9.3 million.
+ (vi) Based on the quoted share price on an active stock exchange as at December 31, 2024.
+ Investments in immaterial associates
+ As at December 31, 2024, the Company had interests in certain individually immaterial associates that are accounted for using the equity method. The aggregate amount of the Company's share of net loss and other comprehensive income of these immaterial associates was nil in 2024. As at December 31, 2024, the carrying value and the fair value of the immaterial investments are deemed to be nil as they were fully impaired. As of December 31, 2025, the Company had no immaterial associates.
+ 
+ 25
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 10. Other investments
+ 
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Fair value through profit or loss (warrants and convertible instruments)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - January 1
+ 
+ 6,548
+ 
+ 
+ 6,766
+ 
+ 
+ 
+ Change in fair value (i)
+ 
+ 5,315
+ 
+ 
+ 343
+ 
+ 
+ 
+ Foreign exchange revaluation impact
+ 
+ 412
+ 
+ 
+ (561
+ )
+ 
+ 
+ Balance - December 31
+ 
+ 12,275
+ 
+ 
+ 6,548
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Fair value through other comprehensive income (common shares)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - January 1
+ 
+ 55,313
+ 
+ 
+ 63,569
+ 
+ 
+ 
+ Acquisitions
+ 
+ 11,004
+ 
+ 
+ -
+ 
+ 
+ 
+ Change in fair value
+ 
+ 59,673
+ 
+ 
+ (4,778
+ )
+ 
+ 
+ Disposals (ii)
+ 
+ (49,805
+ )
+ 
+ (2,448
+ )
+ 
+ 
+ Transfer from associates (Note 9)
+ 
+ 84,502
+ 
+ 
+ -
+ 
+ 
+ 
+ Foreign exchange revaluation impact
+ 
+ 2,156
+ 
+ 
+ (1,030
+ )
+ 
+ 
+ Balance - December 31
+ 
+ 162,843
+ 
+ 
+ 55,313
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Amortized cost (notes)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - January 1
+ 
+ 12,182
+ 
+ 
+ -
+ 
+ 
+ 
+ Additions (iii)
+ 
+ 1,595
+ 
+ 
+ -
+ 
+ 
+ 
+ Effective interests
+ 
+ 365
+ 
+ 
+ -
+ 
+ 
+ 
+ Repayments
+ 
+ -
+ 
+ 
+ (1,399
+ )
+ 
+ 
+ Change in allowance for expected credit loss and write-offs
+ 
+ -
+ 
+ 
+ 1,399
+ 
+ 
+ 
+ Reclassified from short-term investments (iii)
+ 
+ -
+ 
+ 
+ 12,182
+ 
+ 
+ 
+ Balance - December 31
+ 
+ 14,142
+ 
+ 
+ 12,182
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Total
+ 
+ 189,260
+ 
+ 
+ 74,043
+ 
+ 
+ 
+ 
+ Other investments comprise common shares, warrants and convertible instruments, mostly from companies publicly traded in Canada and in the United States of America, as well as loans receivable (notes).
+ (i) In December 2024, a convertible secured senior note with Falco Resources Ltd. ("Falco") was amended and the maturity date was extended to December 31, 2025. In December 2025, the convertible secured note was amended again, and the maturity date was extended to December 31, 2026. The Company has the ability to apply the loan or a portion of the loan against future stream payments due to the operator when certain triggering events will be met.
+ (ii) In May 2025, MAC Copper Limited ("MAC Copper") announced that it had entered into a binding scheme implementation deed (the "Transaction") with Harmony Gold Mining Company Limited ("Harmony") and Harmony Gold (Australia) Pty Ltd ("Harmony Australia"), a wholly-owned subsidiary of Harmony, under which it was proposed that Harmony Australia would acquire 100% of the issued share capital in MAC Copper in exchange for $12.25 cash per MAC Copper share. The Transaction closed in October 2025 and OR Royalties International Ltd. received proceeds of $49.0 million in exchange for its 4.0 million shares of MAC Copper.
+ (iii) During the year 2024, the Company advanced funds to an associate, which holds a mining project in development on which the Company owns a stream interest. Following signature of a term sheet with the associate in 2024, the carrying value of the loan ($12.2 million) was reclassified to other investments as the repayment terms were not expected to be within the next 12 months.
+ During the year 2025, the Company advanced additional funds of $1.6 million to the associate. In June 2025, the Company sold its interest to a third party for a nominal amount. The stream interest held on the project as well as the note receivable were amended at the time of the transaction and will continue to be assumed by the new operator. As of December 31, 2025, the net book value of the amended note receivable amounted to $14.1 million. The note bears an interest rate of 8% and is secured by the assets of the mining project. Repayment of the note will commence after production starts and the full repayment by the operator of a $150 million bank credit facility.
+ 
+ 26
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 11. Royalty, stream and other interests
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Year endedDecember 31, 2025
+ 
+ 
+ 
+ 
+ 
+ Royalty interests
+ 
+ 
+ Streaminterests
+ 
+ 
+ Offtakeinterests
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $ 
+ 
+ 
+ 
+ Balance - January 1
+ 
+ 637,413
+ 
+ 
+ 465,671
+ 
+ 
+ 10,771
+ 
+ 
+ 1,113,855
+ 
+ 
+ 
+ Additions
+ 
+ 13,839
+ 
+ 
+ 23,040
+ 
+ 
+ -
+ 
+ 
+ 36,879
+ 
+ 
+ 
+ Exercise of a buy-down right
+ 
+ (2,051
+ )
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ (2,051
+ )
+ 
+ 
+ Depletion
+ 
+ (13,234
+ )
+ 
+ (22,536
+ )
+ 
+ -
+ 
+ 
+ (35,770
+ )
+ 
+ 
+ Impairments
+ 
+ (5,495
+ )
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ (5,495
+ )
+ 
+ 
+ Foreign exchange revaluation impact
+ 
+ 28,964
+ 
+ 
+ 3,644
+ 
+ 
+ -
+ 
+ 
+ 32,608
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - December 31
+ 
+ 659,436
+ 
+ 
+ 469,819
+ 
+ 
+ 10,771
+ 
+ 
+ 1,140,026
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Producing
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cost
+ 
+ 451,288
+ 
+ 
+ 570,712
+ 
+ 
+ -
+ 
+ 
+ 1,022,000
+ 
+ 
+ 
+ Accumulated depletion and impairments
+ 
+ (333,704
+ )
+ 
+ (252,220
+ )
+ 
+ -
+ 
+ 
+ (585,924
+ )
+ 
+ 
+ Net book value - December 31
+ 
+ 117,584
+ 
+ 
+ 318,492
+ 
+ 
+ -
+ 
+ 
+ 436,076
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Development
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cost
+ 
+ 336,640
+ 
+ 
+ 174,271
+ 
+ 
+ -
+ 
+ 
+ 510,911
+ 
+ 
+ 
+ Accumulated depletion and impairments
+ 
+ (72,475
+ )
+ 
+ (58,689
+ )
+ 
+ -
+ 
+ 
+ (131,164
+ )
+ 
+ 
+ Net book value - December 31
+ 
+ 264,165
+ 
+ 
+ 115,582
+ 
+ 
+ -
+ 
+ 
+ 379,747
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Exploration and evaluation
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cost
+ 
+ 283,473
+ 
+ 
+ 36,268
+ 
+ 
+ 10,771
+ 
+ 
+ 330,512
+ 
+ 
+ 
+ Accumulated depletion and impairments
+ 
+ (5,786
+ )
+ 
+ (523
+ )
+ 
+ -
+ 
+ 
+ (6,309
+ )
+ 
+ 
+ Net book value - December 31
+ 
+ 277,687
+ 
+ 
+ 35,745
+ 
+ 
+ 10,771
+ 
+ 
+ 324,203
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Total net book value - December 31
+ 
+ 659,436
+ 
+ 
+ 469,819
+ 
+ 
+ 10,771
+ 
+ 
+ 1,140,026
+ 
+ 
+ 
+ 
+ 
+ 
+ 27
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 11. Royalty, stream and other interests (continued)
+ Main additions - 2025
+ Silver stream - South Railroad project
+ In May 2025, OR Royalties International Ltd. ("OR Royalties International") acquired a silver stream on Orla Mining Ltd.'s South Railroad project in Nevada, United States, from a third party for $13.0 million. OR Royalties International will be entitled to receive 100% of the silver production from the Dark Star, Pinion and Jasperoid Wash deposits for the life of mine, in exchange for ongoing cash payments for refined silver equal to 15% of the silver spot price at the time of delivery.
+ Gold stream - Cascabel project
+ In July 2025, OR Royalties International made the second deposit of US$10.0 million on its gold stream on SolGold plc's Cascabel project.
+ Impairments - 2025
+ In 2025, the Company recorded impairment charges totaling $5.5 million on certain royalty interests. These impairment charges resulted from the revision of certain operating parameters and the loss of royalty rights following the abandonment of properties by the respective operators.
+ Buy-back and buy-down rights
+ Some royalty, stream and other interests are subject to buy-back and/or buy-down rights held by the operators. The significant buy-back and buy-down rights are described below.
+ CSA copper stream
+ OR Royalties International owns separate silver and copper streams on the CSA mine. Specific to the copper stream agreement, OR Royalties International is entitled to receive refined copper equal to 3.0% of payable copper produced from the CSA mine until the 5th anniversary of the agreement, then 4.875% of payable copper produced from the CSA mine until 33,000 metric tonnes have been delivered in aggregate, and thereafter 2.25% of payable copper produced from the CSA mine for the remaining life of the mine.
+ On the 5th anniversary of the closing date (June 15, 2028), the owner of the mine will have the option to exercise certain buy-down rights by paying a one-time cash payment to OR Royalties International of $20.0 million to $40.0 million. If the option is exercised, OR Royalties International will still be entitled to receive refined copper equal to 3.25% - 4.0625% of payable copper produced from the CSA mine until 23,900 to 28,450 metric tonnes have been delivered in aggregate, and thereafter 1.5% - 1.875% of payable copper produced from the CSA mine for the remaining life of the mine.
+ Cascabel NSR royalty and gold stream
+ OR Royalties owns a 0.6% NSR royalty on the Cascabel project, which is subject to a buy-down option. On November 30, 2026, the owner of the Cascabel project may buy-down 1/3 of the NSR royalty in exchange for a one-time cash payment of approximately $35.0 million.
+ OR Royalties International owns a 6.0% gold stream on contained ounces of gold produced from the Cascabel project until 225,000 ounces of gold have been delivered, and 3.6% thereafter for the remaining life of the mine. On December 24, 2025, SolGold plc, the current owner of the Cascabel project, announced it had agreed to be acquired by its largest shareholder, Jiangxi Copper Company Limited. As a result of the change of control, the gold stream will be subject to a buy-down option once the transaction is completed. Prior to July 15, 2027, the new owner will have a one-time right to repurchase 50% of the gold stream for a one-time payment of gold equal to approximately 50% of the then advanced amount of OR Royalties International's total pre-construction and construction deposits, plus certain adjustments.
+ 
+ 28
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 11. Royalty, stream and other interests (continued)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Year endedDecember 31, 2024
+ 
+ 
+ 
+ 
+ 
+ Royalty interests
+ 
+ 
+ Streaminterests
+ 
+ 
+ Offtakeinterests
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - January 1
+ 
+ 695,356
+ 
+ 
+ 468,171
+ 
+ 
+ 10,771
+ 
+ 
+ 1,174,298
+ 
+ 
+ 
+ Additions
+ 
+ 50,121
+ 
+ 
+ 23,328
+ 
+ 
+ -
+ 
+ 
+ 73,449
+ 
+ 
+ 
+ Depletion
+ 
+ (12,208
+ )
+ 
+ (20,399
+ )
+ 
+ -
+ 
+ 
+ (32,607
+ )
+ 
+ 
+ Impairments
+ 
+ (49,558
+ )
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ (49,558
+ )
+ 
+ 
+ Foreign exchange revaluation impact
+ 
+ (46,298
+ )
+ 
+ (5,429
+ )
+ 
+ -
+ 
+ 
+ (51,727
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - December 31
+ 
+ 637,413
+ 
+ 
+ 465,671
+ 
+ 
+ 10,771
+ 
+ 
+ 1,113,855
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Producing
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cost
+ 
+ 390,283
+ 
+ 
+ 561,690
+ 
+ 
+ -
+ 
+ 
+ 951,973
+ 
+ 
+ 
+ Accumulated depletion and impairments
+ 
+ (303,757
+ )
+ 
+ (223,253
+ )
+ 
+ -
+ 
+ 
+ (527,010
+ )
+ 
+ 
+ Net book value - December 31
+ 
+ 86,526
+ 
+ 
+ 338,437
+ 
+ 
+ -
+ 
+ 
+ 424,963
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Development
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cost
+ 
+ 352,216
+ 
+ 
+ 160,017
+ 
+ 
+ 20,842
+ 
+ 
+ 533,075
+ 
+ 
+ 
+ Accumulated depletion and impairments
+ 
+ (68,832
+ )
+ 
+ (58,531
+ )
+ 
+ (20,842
+ )
+ 
+ (148,205
+ )
+ 
+ 
+ Net book value - December 31
+ 
+ 283,384
+ 
+ 
+ 101,486
+ 
+ 
+ -
+ 
+ 
+ 384,870
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Exploration and evaluation
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cost
+ 
+ 274,874
+ 
+ 
+ 26,271
+ 
+ 
+ 10,771
+ 
+ 
+ 311,916
+ 
+ 
+ 
+ Accumulated depletion and impairments
+ 
+ (7,371
+ )
+ 
+ (523
+ )
+ 
+ -
+ 
+ 
+ (7,894
+ )
+ 
+ 
+ Net book value - December 31
+ 
+ 267,503
+ 
+ 
+ 25,748
+ 
+ 
+ 10,771
+ 
+ 
+ 304,022
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Total net book value - December 31
+ 
+ 637,413
+ 
+ 
+ 465,671
+ 
+ 
+ 10,771
+ 
+ 
+ 1,113,855
+ 
+ 
+ 
+ 
+ Main acquisitions - 2024
+ Gold stream - Cascabel copper-gold project
+ On July 15, 2024, the Company announced that OR Royalties International, in partnership with Franco-Nevada (Barbados) Corporation ("FNB"), a wholly-owned subsidiary of Franco-Nevada Corporation, had entered into a definitive Purchase and Sale Agreement (Gold) (the "Gold Stream") with SolGold plc and certain of its wholly-owned subsidiaries (collectively, "SolGold"), with reference to gold production from SolGold's 100%-owned Cascabel copper-gold project located in Ecuador ("Cascabel").
+ Pursuant to the terms of the Gold Stream, OR Royalties International and FNB (collectively, the "Stream Purchasers") will make initial deposits totaling $100 million to SolGold in three equal tranches to fund the Cascabel's pre-construction costs (the "Pre-Construction Deposit"). The first tranche of the Pre-Construction Deposit was funded at closing, with the two subsequent tranches subject to achievement of key development milestones. Thereafter, the Stream Purchasers will make additional deposits totaling $650 million to SolGold to fund construction costs once Cascabel is fully financed and further de-risked (the "Construction Deposit", and together with the Pre-Construction Deposit, the "Deposit").
+ OR Royalties International will provide 30% of the Deposit ($225 million, comprised of $30 million in Pre-Construction Deposit and $195 million in Construction Deposit) in exchange for a 30% interest in the Gold Stream and FNB will provide 70% of the Deposit in exchange for a 70% interest in the Gold Stream.
+ 
+ 29
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 11. Royalty, stream and other interests (continued)
+ Main acquisitions - 2024 (continued)
+ The deposit is payable as follows:
+ 
+ $10 million paid at closing;
+ $10 million on achievement of operational milestones, including execution of the amended investment protection agreement, completion of geotechnical drilling and finalization of the tailings storage facility design sufficient for a minimum of 10 years of operation;
+ $10 million on achievement of operational milestones, including submission of all final permit applications for the construction and operation of the project; and
+ $195 million payable pro rata drawdowns with construction facility.
+ 
+ OR Royalties International will purchase refined gold equal to 6% of the contained gold produced from Cascabel until 225,000 ounces of gold have been delivered to it, and 3.6% thereafter for the remaining life of the mine. OR Royalties International will make ongoing cash payments for refined gold delivered equal to 20% of the spot price of gold at the time of delivery.
+ Gold NSR royalty - Dalgaranga gold project 
+ In December 2024, the Company completed the acquisition of a 1.8% gross revenue royalty ("GRR") on the Dalgaranga Gold project (the "Dalgaranga Royalty") operated by Spartan Resources Limited ("Spartan") in Western Australia. In addition, OR Royalties acquired a 1.35% GRR (the "Exploration Royalty") on additional regional exploration licenses in proximity to the Dalgaranga gold project. The consideration paid by OR Royalties to the seller, Tembo Capital Mining Fund III, for the Dalgaranga Royalty and the Exploration Royalty totalled $50.0 million.
+ Silver stream amendments - Gibraltar mine 
+ In December 2024, OR Royalties completed certain amendments to its silver stream (the "Gibraltar Silver Stream") with respect to the Gibraltar copper mine ("Gibraltar"), located in British Columbia, Canada, which is operated by a wholly-owned subsidiary of Taseko Mines Limited ("Taseko"). On March 25, 2024, Taseko announced the completion of its acquisition of an additional 12.5% interest in Gibraltar from Dowa Metals & Mining Co., Ltd. and Furukawa Co., Ltd. giving Taseko an effective 100% interest. In December 2024, OR Royalties and Taseko amended the Gibraltar Silver Stream to increase OR Royalties' effective stream percentage by 12.5% to 100%. Further to this, OR Royalties and Taseko also extended the step-down silver delivery threshold to coincide with Taseko's recently updated mineral reserve estimate for Gibraltar. OR Royalties paid a total consideration of $12.7 million to Taseko.
+ NSR royalty - Eagle Gold mine
+ On June 24, 2024, Victoria Gold Corp. ("Victoria") announced that the heap leach facility at the Eagle Gold mine experienced a failure. Operations were suspended while the site operations team, along with management and the Yukon government officials continued to assess the situation and gathered information. Victoria confirmed that there had been some damage to infrastructure and a portion of the failure had left containment. Subsequently, on July 4, 2024, Victoria advised that it had received notices of default from its lenders under the credit agreement dated December 18, 2020. A default under the Eagle Royalty Agreement dated April 13, 2018 was also triggered and, consequently, OR Royalties provided a notice of default to Victoria on July 4, 2024. On July 12, 2024 and July 30, 2024, Victoria reported that there can be no assurance that the company will have the financial resources necessary to repair the damage to the equipment and facilities, to remediate the impacts caused by the incident or to restart production.
+ These elements were considered indicators of impairment, among other facts and circumstances, and, accordingly, management performed an impairment assessment on its Eagle Gold mine royalty interest as at June 30, 2024. The recoverable amount, in accordance with IAS 36 Impairment of Assets, was estimated to be $nil at June 30, 2024 based on management's assessment of the facts and circumstances which include, amongst others, the complete halt of production, the social and political environment surrounding the incident, the capital requirements related to mitigation and site restoration, and the ability to restart operations with authorization from the Yukon Director of Mineral Resources or with the necessary financial resources. As a result, the Company recognized a full impairment loss of $49.6 million ($36.4 million, net of income taxes) on June 30, 2024.
+ 
+ 30
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 11. Royalty, stream and other interests (continued)
+ Main impairment - 2024 (continued)
+ NSR royalty - Eagle Gold mine (continued)
+ Subsequently, on August 14, 2024, the Ontario Superior Court of Justice appointed PricewaterhouseCoopers Inc. as receiver and manager, at the direction of the Yukon Government and under the supervision of the court, of all the assets, undertakings and properties of Victoria, which properties include but is not limited to the Eagle Gold mine.
+ In the event that there is a change in the facts and circumstances surrounding the situation at the Eagle Gold mine, and there is a restart of operations and resumption of precious metal deliveries to OR Royalties under its royalty agreement, a re-assessment of the recoverable amount of the Eagle Gold mine royalty interest will be performed at that time, which may lead to a reversal of part or all of the impairment loss that has been recognized.
+ 12. Goodwill
+ The Company's goodwill is allocated to a group of cash generating units: the Canadian Malartic NSR royalty and the Éléonore NSR royalty ("CGUs").
+ The Company tests whether goodwill has suffered any impairment on an annual basis. The recoverable amount of the CGUs is determined based on the fair value less costs of disposal calculations using a discounted cash-flows approach, which requires the use of assumptions and unobservable inputs, and therefore is classified as level 3 of the fair value hierarchy. The calculations use cash flow projections expected to be generated by the sale of gold and silver received from the CGUs based on annual gold and silver production over their estimated life from publicly released technical information by the operators to predict future performance.
+ The following table sets out the key assumptions for the CGUs in addition to annual gold and silver production over the estimated life of the Canadian Malartic Complex and the Éléonore mine:
+ 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ Long-term gold price (per ounce)
+ 
+ $3,327
+ 
+ 
+ $2,184
+ 
+ 
+ 
+ Long-term silver price (per ounce)
+ 
+ $42
+ 
+ 
+ $27
+ 
+ 
+ 
+ Post-tax real discount rate
+ 
+ 5.1%
+ 
+ 
+ 4.9%
+ 
+ 
+ 
+ 
+ Management has determined the values assigned to each of the above key assumptions as follows:
+ 
+ 
+ 
+ Assumption
+ Approach used to determine values
+ 
+ 
+ 
+ 
+ 
+ 
+ Long-term gold price
+ Based on current gold market trends consistent with external sources of information, such as long-term gold price consensus.
+ 
+ 
+ 
+ 
+ 
+ 
+ Long-term silver price
+ Based on current silver market trends consistent with external sources of information, such as long-term silver price consensus.
+ 
+ 
+ 
+ 
+ 
+ 
+ Post-tax real discount rate
+ Reflects specific risks relating to gold mines operating in Québec, Canada.
+ 
+ 
+ 
+ The Company's management has considered and assessed reasonably possible changes for key assumptions and has not identified any instances that could cause the carrying amount of the CGUs to exceed their recoverable amounts.
+ In 2025 and 2024, all changes in goodwill carrying amounts are related to foreign currency exchange differences.
+ 
+ 31
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 13. Accounts payable and accrued liabilities
+ 
+ 
+ 
+ 
+ 
+ December 31,
+ 
+ 
+ December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Trade payables
+ 
+ 3,037
+ 
+ 
+ 1,378
+ 
+ 
+ 
+ Other payables
+ 
+ 3,538
+ 
+ 
+ 3,066
+ 
+ 
+ 
+ Other accrued liabilities
+ 
+ 902
+ 
+ 
+ 887
+ 
+ 
+ 
+ 
+ 
+ 7,477
+ 
+ 
+ 5,331
+ 
+ 
+ 
+ 
+ 14. Lease liabilities
+ 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - January 1
+ 
+ 4,783
+ 
+ 
+ 6,050
+ 
+ 
+ 
+ New liability
+ 
+ 1,008
+ 
+ 
+ -
+ 
+ 
+ 
+ Payments of liabilities
+ 
+ (1,024
+ )
+ 
+ (817
+ )
+ 
+ 
+ Foreign exchange revaluation impact
+ 
+ 235
+ 
+ 
+ (450
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - December 31
+ 
+ 5,002
+ 
+ 
+ 4,783
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current
+ 
+ 1,207
+ 
+ 
+ 852
+ 
+ 
+ 
+ Non-current
+ 
+ 3,795
+ 
+ 
+ 3,931
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - December 31
+ 
+ 5,002
+ 
+ 
+ 4,783
+ 
+ 
+ 
+ 
+ Lease liabilities are related to leases for office space.
+ 15. Long-term debt
+ 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - Beginning of period
+ 
+ 93,900
+ 
+ 
+ 145,080
+ 
+ 
+ 
+ Increase in revolving credit facility
+ 
+ 10,437
+ 
+ 
+ 35,000
+ 
+ 
+ 
+ Repayment of revolving credit facility
+ 
+ (105,372
+ )
+ 
+ (84,721
+ )
+ 
+ 
+ Foreign exchange revaluation impact
+ 
+ 1,035
+ 
+ 
+ (1,459
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - End of period
+ 
+ -
+ 
+ 
+ 93,900
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current portion
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ Non-current portion
+ 
+ -
+ 
+ 
+ 93,900
+ 
+ 
+ 
+ 
+ 
+ -
+ 
+ 
+ 93,900
+ 
+ 
+ 
+ 
+ 
+ 
+ 32
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 15. Long-term debt (continued)
+ Revolving credit facility
+ In May 2025, the Company amended its existing revolving credit facility (the "Credit Facility"), including the conversion from a Canadian dollar denominated facility to a United States dollar denominated facility, as well as an increase in the overall size of the Credit Facility. Under the amended agreement, the Company has now access to a Credit Facility of $650.0 million with an additional uncommitted accordion of up to $200.0 million (subject to acceptance by the lenders). The previous credit facility agreement had a maximum amount of C$550.0 million with an uncommitted accordion of up to C$200.0 million. 
+ The maturity date of the Facility was extended from April 30, 2028 to May 30, 2029. The Facility is to be used for general corporate purposes and investments in the mineral industry, including the acquisition of royalties, streams and other interests, and is secured by the Company's assets.
+ The Facility is subject to standby fees. Funds drawn bear interest based on the base rate, prime rate, Canadian Overnight Repo Rate Average ("CORRA") or Secured Overnight Financing Rate ("SOFR"), plus an applicable margin depending on the Company's leverage ratio.
+ The Facility includes quarterly covenants that require the Company to maintain certain financial ratios, including leverage ratios, and to meet certain non-financial requirements. As at December 31, 2025, all such ratios and requirements were met.
+ 16. Share capital
+ Shares
+ Authorized
+ Unlimited number of common shares, without par value
+ Unlimited number of preferred shares, issuable in series
+ Normal Course Issuer Bid
+ In December 2025, OR Royalties renewed its normal course issuer bid ("NCIB") program. Under the terms of the NCIB program, OR Royalties may acquire up to 9,399,294 of its common shares from time to time in accordance with the normal course issuer bid procedures of the TSX. Repurchases under the 2025 NCIB program are authorized from December 12, 2025 until December 11, 2026. Daily purchases will be limited to 107,496 common shares, other than block purchase exemptions.
+ Under the terms of the previous NCIB program, OR Royalties was allowed to acquire up to 9,331,275 of its common shares from time to time, from December 12, 2024 to December 11, 2025. Daily purchases were limited to 73,283 common shares.
+ During the year ended December 31, 2025, the Company purchased for cancellation a total of 1.1 million common shares for $36.7 million (C$50.8 million; average acquisition price per share of C$47.86). During the year ended December 31, 2024, the Company purchased for cancellation a total of 26,000 common shares for $0.4 million (C$0.6 million; average acquisition price per share of C$22.48).
+ 
+ 33
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 16. Share capital (continued)
+ Dividends
+ The following table provides details on the dividends declared by the Company for the years ended December 31, 2025 and 2024:
+ 
+ 
+ 
+ Declaration date
+ 
+ Dividendper share
+ 
+ Recorddate
+ 
+ Paymentdate
+ 
+ Dividendsdeclared
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ 
+ February 19, 2025 (i)
+ 
+ $0.046
+ 
+ March 31, 2025
+ 
+ April 15, 2025
+ 
+ 8,475,000
+ 
+ 
+ 
+ May 7, 2025
+ 
+ $0.055
+ 
+ June 30, 2025
+ 
+ July 15, 2025
+ 
+ 10,201,000
+ 
+ 
+ 
+ August 5, 2025
+ 
+ $0.055
+ 
+ September 30, 2025
+ 
+ October 15, 2025
+ 
+ 10,492,000
+ 
+ 
+ 
+ November 5, 2025
+ 
+ $0.055
+ 
+ December 31, 2025
+ 
+ January 15, 2026
+ 
+ 10,116,000
+ 
+ 
+ 
+ Year 2025
+ 
+ $0.211
+ 
+ 
+ 
+ 
+ 
+ 39,284,000
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ February 20, 2024
+ 
+ C$0.060
+ 
+ March 28, 2024
+ 
+ April 15, 2024
+ 
+ 8,271,000
+ 
+ 
+ 
+ May 8, 2024
+ 
+ C$0.065
+ 
+ June 28, 2024
+ 
+ July 15, 2024
+ 
+ 8,843,000
+ 
+ 
+ 
+ August 6, 2024
+ 
+ C$0.065
+ 
+ September 30, 2024
+ 
+ October 15, 2024
+ 
+ 8,878,000
+ 
+ 
+ 
+ November 6, 2024
+ 
+ C$0.065
+ 
+ December 31, 2024
+ 
+ January 15, 2025
+ 
+ 8,673,000
+ 
+ 
+ 
+ Year 2024
+ 
+ C$0.255
+ 
+ 
+ 
+ 
+ 
+ 34,665,000
+ 
+ 
+ 
+ 
+ (i) Prior to May 2025, the dividends were declared in Canadian dollars. From May 2025, the quarterly dividend is declared in United States dollars. On February 19, 2025, the Board of Directors declared a quarterly dividend of C$0.065 to shareholders of record as of the close of business on March 31, 2025. Based on the foreign currency rate (C$/US$) on the declaration date, the corresponding dividend per share in U.S. dollars was $0.046.
+ Dividend reinvestment plan 
+ The Company offers a dividend reinvestment plan ("DRIP") that allows Canadian and U.S. shareholders to reinvest their cash dividends into additional common shares either purchased on the open market through the facilities of the TSX or the NYSE, or issued directly from treasury by the Company, or acquired by a combination thereof. In the case of a treasury issuance, the price will be the weighted average price of the common shares on the TSX or the NYSE during the five trading days immediately preceding the dividend payment date, less a discount, if any, of up to 5%, at the Company's sole election.
+ As at December 31, 2025, the holders of 13.3 million common shares had elected to participate in the DRIP, representing dividends payable of $0.7 million. During the year ended December 31, 2025, the Company issued 128,684 common shares under the DRIP, at a discount rate of 3% (205,741 common shares in 2024 at a discount rate of 3%). On January 15, 2026, 18,705 common shares were issued under the DRIP at a discount rate of 3%.
+ 
+ 34
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 16. Share capital (continued)
+ Capital management
+ The Company's primary objective when managing capital is to maximize returns for its shareholders by growing its asset base, mostly through accretive acquisitions of high-quality royalties, streams and other similar interests, while ensuring capital protection. The Company defines capital as long-term debt and total equity, including the undrawn portion of the revolving credit facility. Capital is managed by the Company's management and governed by the Board of Directors.
+ 
+ 
+ 
+ 
+ 
+ December 31,
+ 
+ 
+ December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Long-term debt
+ 
+ -
+ 
+ 
+ 93,900
+ 
+ 
+ 
+ Total equity
+ 
+ 1,432,041
+ 
+ 
+ 1,188,953
+ 
+ 
+ 
+ Undrawn revolving credit facility (i)
+ 
+ 650,000
+ 
+ 
+ 288,336
+ 
+ 
+ 
+ 
+ 
+ 2,082,041
+ 
+ 
+ 1,571,189
+ 
+ 
+ 
+ 
+ (i) Excluding the potential additional available credit (accordion) of $200.0 million as at December 31, 2025 (C$200.0 million as at December 31, 2024) (Note 15).
+ There were no changes in the Company's approach to capital management during the year ended December 31, 2025, compared to the prior year. The Company is not subject to material externally imposed capital requirements.
+ 17. Share-based compensation
+ Share options
+ The Company offered a share option plan (the "Option Plan") to its officers, employees and consultants until the year 2025, when it ceased granting share options. Options could be granted at an exercise price determined by the Board of Directors but should not be less than the closing market price of the common shares of the Company on the TSX on the day prior to their grant. No participant could be granted options which exceeded 5% of the issued and outstanding shares of the issuer at the time of granting of the option. The number of common shares issued to insiders of the issuer within one year and issuable to the insiders at any time under the Option Plan or combined with all other share compensation arrangements, couldn't exceed 8% of the issued and outstanding common shares. The duration and the vesting period were determined by the Board of Directors. However, the expiry date could not exceed 7 years after the date of granting.
+ The following table summarizes information about the movement of the share options outstanding:
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Weighted
+ 
+ 
+ 
+ 
+ 
+ Weighted
+ 
+ 
+ 
+ 
+ 
+ Number of
+ 
+ 
+ average
+ 
+ 
+ Number of
+ 
+ 
+ average
+ 
+ 
+ 
+ 
+ 
+ options
+ 
+ 
+ exercise price
+ 
+ 
+ options
+ 
+ 
+ exercise price
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ C$
+ 
+ 
+ 
+ 
+ 
+ C$
+ 
+ 
+ 
+ Balance - January 1
+ 
+ 2,452,542
+ 
+ 
+ 15.41
+ 
+ 
+ 3,122,006
+ 
+ 
+ 14.50
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Granted
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 287,300
+ 
+ 
+ 18.72
+ 
+ 
+ 
+ Exercised
+ 
+ (1,123,809
+ )
+ 
+ 14.37
+ 
+ 
+ (956,758
+ )
+ 
+ 13.44
+ 
+ 
+ 
+ Forfeited / Cancelled
+ 
+ (14,166
+ )
+ 
+ 18.43
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 
+ Expired
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ (6
+ )
+ 
+ 13.93
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - December 31
+ 
+ 1,314,567
+ 
+ 
+ 16.26
+ 
+ 
+ 2,452,542
+ 
+ 
+ 15.41
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Options exercisable - December 31
+ 
+ 987,766
+ 
+ 
+ 15.54
+ 
+ 
+ 1,703,943
+ 
+ 
+ 14.51
+ 
+ 
+ 
+ 
+ 
+ 35
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 17. Share-based compensation (continued)
+ Share options (continued)
+ The weighted average share price when share options were exercised during the year ended December 31, 2025 was C$32.41 (C$23.59 for the year ended December 31, 2024).
+ The following table summarizes the share options outstanding as at December 31, 2025: 
+ 
+ 
+ 
+ 
+ 
+ 
+ Options outstanding
+ 
+ 
+ Options exercisable 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Weighted
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ average
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Weighted
+ 
+ 
+ remaining
+ 
+ 
+ 
+ 
+ 
+ Weighted
+ 
+ 
+ 
+ Exercise
+ 
+ 
+ Number of
+ 
+ 
+ average
+ 
+ 
+ contractual
+ 
+ 
+ Number of
+ 
+ 
+ average
+ 
+ 
+ 
+ price range 
+ 
+ 
+ options
+ 
+ 
+ exercise price
+ 
+ 
+ life (years)
+ 
+ 
+ options
+ 
+ 
+ exercise price
+ 
+ 
+ 
+ C$
+ 
+ 
+ 
+ 
+ 
+ C$
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ C$
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 12.70 - 14.50
+ 
+ 
+ 574,801
+ 
+ 
+ 13.55
+ 
+ 
+ 0.9
+ 
+ 
+ 574,801
+ 
+ 
+ 13.55
+ 
+ 
+ 
+ 15.97 - 22.20
+ 
+ 
+ 739,766
+ 
+ 
+ 18.36
+ 
+ 
+ 3.0
+ 
+ 
+ 412,965
+ 
+ 
+ 18.31
+ 
+ 
+ 
+ 
+ 
+ 
+ 1,314,567
+ 
+ 
+ 16.26
+ 
+ 
+ 2.0
+ 
+ 
+ 987,766
+ 
+ 
+ 15.54
+ 
+ 
+ 
+ 
+ The fair value of the share options is recognized as compensation expense over the vesting period. In 2025, the total share-based compensation related to share options amounted to $0.7 million ($1.6 million in 2024).
+ Deferred and restricted share units
+ The Company offers a deferred share unit ("DSU") plan and a restricted share unit ("RSU") plan, which allow DSUs and RSUs to be granted, respectively, to non-executive directors, officers and/or employees as part of their director's fees or long-term compensation package, as applicable.
+ The following table summarizes information about the DSUs and RSUs movements:
+ 
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 2024
+ 
+ 
+ 
+ 
+ 
+ DSUs (i)
+ 
+ 
+ RSUs (ii)
+ 
+ 
+ DSUs (i)
+ 
+ 
+ RSUs (ii)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - January 1
+ 
+ 435,505
+ 
+ 
+ 742,202
+ 
+ 
+ 414,278
+ 
+ 
+ 717,105
+ 
+ 
+ 
+ Granted
+ 
+ 35,310
+ 
+ 
+ 342,340
+ 
+ 
+ 70,440
+ 
+ 
+ 308,000
+ 
+ 
+ 
+ Reinvested dividends
+ 
+ 3,056
+ 
+ 
+ 6,608
+ 
+ 
+ 4,578
+ 
+ 
+ 8,247
+ 
+ 
+ 
+ Settled
+ 
+ (141,570
+ )
+ 
+ (301,155
+ )
+ 
+ (42,095
+ )
+ 
+ (272,160
+ )
+ 
+ 
+ Forfeited
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ (11,696
+ )
+ 
+ (18,990
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - December 31
+ 
+ 332,301
+ 
+ 
+ 789,995
+ 
+ 
+ 435,505
+ 
+ 
+ 742,202
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - Vested
+ 
+ 296,872
+ 
+ 
+ -
+ 
+ 
+ 381,246
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 
+ 36
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 17. Share-based compensation (continued)
+ Deferred and restricted share units (continued)
+ (i) Unless otherwise decided by the Board of Directors of the Company, the DSUs vest the day prior to the next annual general meeting and are payable in common shares, cash or a combination of common shares and cash, at the sole discretion of the Company, to each non-executive director when he or she leaves the board or is not re-elected. The accounting value of the payout is determined by multiplying the number of DSUs expected to vest at the settlement date by the closing price of the Company's shares on the day prior to the grant date, and is recognized over the vesting period. When payment is settled by issuing common shares, one common share will be issued for each DSU, after deducting any income taxes payable on the benefit earned by the director that must be remitted by the Company to the tax authorities. The DSUs granted in 2025 have a weighted average value of C$34.01 per DSU (C$21.84 per DSU in 2024).
+ (ii) One half of the RSUs is time-based (the "time-based RSUs") and the other half is time-based and depends on the achievement of certain performance measures (the "performance-based RSUs"). The time-based RSUs granted prior to 2024 vest and are payable three years after the grant date. The time-based RSUs granted in 2024 and 2025 vest and are payable in three equal tranches at each anniversary of the grant date. The performance-based RSUs vest and are payable three years after the grant date. The RSUs are payable in common shares, cash or a combination of common shares and cash, at the sole discretion of the Company. The accounting value of the payout is determined by multiplying the number of RSUs expected to vest at the settlement date by the closing price of the Company's shares on the day prior to the grant date, and is recognized over the vesting period and adjusted for the performance-based components, when applicable. When payment is settled by issuing common shares, one common share is issued for each vested RSU, after deducting any income taxes payable on the benefit earned by the employee that must be remitted by the Company to the tax authorities. The RSUs granted in 2025 have a weighted average value of C$26.68 per RSU (C$18.79 per RSU in 2024).
+ The total share-based compensation expense related to the DSU and RSU plans in 2025 amounted to $7.7 million ($4.7 million in 2024).
+ Based on the closing price of the common shares at December 31, 2025 ($35.39 or C$48.62), and considering a marginal income tax rate of 53.3%, the estimated amount that the Company is expected to transfer to the tax authorities to settle the employees' tax obligations related to the vested DSUs and RSUs to be settled in equity amounts to $5.6 million ($3.7 million as at December 31, 2024) and to $21.2 million based on all DSUs and RSUs outstanding ($11.4 million as at December 31, 2024).
+ 18. Income taxes
+ (a) Income tax expense
+ The income tax recorded in the consolidated statements of income for the years ended December 31, 2025 and 2024 is presented as follows:
+ 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current income tax
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Expense for the year
+ 
+ 16,633
+ 
+ 
+ 2,692
+ 
+ 
+ 
+ Current income tax expense
+ 
+ 16,633
+ 
+ 
+ 2,692
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Deferred income tax (Note 18 (b)):
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Origination and reversal of temporary differences
+ 
+ 26,005
+ 
+ 
+ 5,521
+ 
+ 
+ 
+ Change in unrecognized deductible temporary differences
+ 
+ (6,423
+ )
+ 
+ 5,174
+ 
+ 
+ 
+ Adjustments in respect of prior years
+ 
+ (704
+ )
+ 
+ 462
+ 
+ 
+ 
+ Other
+ 
+ (214
+ )
+ 
+ 26
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Deferred income tax expense
+ 
+ 18,664
+ 
+ 
+ 11,183
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Income tax expense
+ 
+ 35,297
+ 
+ 
+ 13,875
+ 
+ 
+ 
+ 
+ 
+ 
+ 37
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 18. Income taxes (continued)
+ (a) Income tax expense (continued)
+ The provision for income taxes presented in the consolidated statements of income differs from the amount that would arise using the statutory income tax rate applicable to income of the consolidated entities, as a result of the following:
+ 
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Earnings before income taxes
+ 
+ 241,385
+ 
+ 
+ 30,142
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Income tax provision calculated using the combined Canadian federal and provincial statutory income tax rate
+ 
+ 63,967
+ 
+ 
+ 7,988
+ 
+ 
+ 
+ Increase (decrease) in income taxes resulting from:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Permanent differences on share-based compensation
+ 
+ (1,698
+ )
+ 
+ (59
+ )
+ 
+ 
+ Non-taxable/non-deductible portion of capital (gains) losses, net
+ 
+ (6,209
+ )
+ 
+ 6,051
+ 
+ 
+ 
+ Differences in foreign statutory tax rates
+ 
+ (15,140
+ )
+ 
+ (6,566
+ )
+ 
+ 
+ Changes in unrecognized deferred tax assets
+ 
+ (6,423
+ )
+ 
+ 5,174
+ 
+ 
+ 
+ Foreign withholding taxes
+ 
+ 1,047
+ 
+ 
+ 799
+ 
+ 
+ 
+ Taxable foreign accrual property income
+ 
+ 671
+ 
+ 
+ -
+ 
+ 
+ 
+ Adjustments in respect of prior years
+ 
+ (704
+ )
+ 
+ 462
+ 
+ 
+ 
+ Other
+ 
+ (214
+ )
+ 
+ 26
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Total income tax expense
+ 
+ 35,297
+ 
+ 
+ 13,875
+ 
+ 
+ 
+ 
+ The 2025 and 2024 Canadian federal and provincial statutory income tax rate is 26.5%.
+ (b) Deferred income taxes
+ The components that give rise to deferred income tax assets and liabilities are as follows:
+ 
+ 
+ 
+ 
+ 
+ December 31,
+ 
+ 
+ December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Deferred tax assets:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Non-capital losses
+ 
+ -
+ 
+ 
+ 8,387
+ 
+ 
+ 
+ Deferred and restricted share units
+ 
+ 7,596
+ 
+ 
+ 4,116
+ 
+ 
+ 
+ Share and debt issue expenses
+ 
+ 422
+ 
+ 
+ 888
+ 
+ 
+ 
+ Other
+ 
+ 331
+ 
+ 
+ 478
+ 
+ 
+ 
+ 
+ 
+ 8,349
+ 
+ 
+ 13,869
+ 
+ 
+ 
+ Deferred tax liabilities:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Royalty interests
+ 
+ (97,631
+ )
+ 
+ (85,089
+ )
+ 
+ 
+ Stream interests
+ 
+ (6,322
+ )
+ 
+ (4,634
+ )
+ 
+ 
+ Investments
+ 
+ (2,407
+ )
+ 
+ (380
+ )
+ 
+ 
+ 
+ 
+ (106,360
+ )
+ 
+ (90,103
+ )
+ 
+ 
+ Deferred tax liability, net
+ 
+ (98,011
+ )
+ 
+ (76,234
+ )
+ 
+ 
+ 
+ Deferred tax assets and liabilities have been offset on the balance sheets where they relate to income taxes levied by the same taxation authority and the Company has the legal right and intent to offset.
+ 
+ 38
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 18. Income taxes (continued)
+ (b) Deferred income taxes (continued)
+ The movement in net deferred tax liabilities during the years ended December 31, 2025 and 2024 may be summarized as follows:
+ 
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - January 1
+ 
+ (76,234
+ )
+ 
+ (72,797
+ )
+ 
+ 
+ Recognized in net earnings
+ 
+ (18,664
+ )
+ 
+ (11,183
+ )
+ 
+ 
+ Recognized in other comprehensive loss / income
+ 
+ (2,050
+ )
+ 
+ 918
+ 
+ 
+ 
+ Recognized in equity
+ 
+ 2,875
+ 
+ 
+ 929
+ 
+ 
+ 
+ Currency conversion adjustment
+ 
+ (3,938
+ )
+ 
+ 5,899
+ 
+ 
+ 
+ Balance - December 31
+ 
+ (98,011
+ )
+ 
+ (76,234
+ )
+ 
+ 
+ 
+ (c) Unrecognized deferred tax liabilities
+ The aggregate amount of taxable temporary differences associated with investments in subsidiaries, for which deferred tax liabilities have not been recognized as at December 31, 2025, is $135.3 million ($73.7 million as at December 31, 2024). No deferred tax liabilities are recognized on the temporary differences associated with investments in subsidiaries because the Company controls the timing of reversal and it is not probable that they will reverse in the foreseeable future.
+ (d) Unrecognized deferred tax assets
+ As at December 31, 2025, the Company had temporary differences associated with marketable securities with a tax benefit of $26.7 million ($35.8 million as at December 31, 2024), which are not recognized as deferred tax assets. The Company recognizes the benefit of tax attributes only to the extent of anticipated future taxable income that can be reduced by these attributes.
+ 19. Additional information on the consolidated statements of income
+ 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Revenues 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Royalty interests
+ 
+ 177,264
+ 
+ 
+ 130,375
+ 
+ 
+ 
+ Stream interests
+ 
+ 100,106
+ 
+ 
+ 60,782
+ 
+ 
+ 
+ 
+ 
+ 277,370
+ 
+ 
+ 191,157
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cost of sales
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Royalty interests
+ 
+ 701
+ 
+ 
+ 413
+ 
+ 
+ 
+ Stream interests
+ 
+ 8,414
+ 
+ 
+ 6,325
+ 
+ 
+ 
+ 
+ 
+ 9,115
+ 
+ 
+ 6,738
+ 
+ 
+ 
+ Depletion
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Royalty interests
+ 
+ 13,234
+ 
+ 
+ 12,208
+ 
+ 
+ 
+ Stream interests
+ 
+ 22,536
+ 
+ 
+ 20,399
+ 
+ 
+ 
+ 
+ 
+ 35,770
+ 
+ 
+ 32,607
+ 
+ 
+ 
+ 
+ 
+ 
+ 39
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 19. Additional information on the consolidated statements of income (continued)
+ 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Other operating expenses 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Employee benefit expenses (see below)
+ 
+ 19,851
+ 
+ 
+ 14,586
+ 
+ 
+ 
+ Impairment of assets
+ 
+ 5,495
+ 
+ 
+ 49,558
+ 
+ 
+ 
+ Professional fees
+ 
+ 4,923
+ 
+ 
+ 4,631
+ 
+ 
+ 
+ Insurance costs
+ 
+ 1,276
+ 
+ 
+ 1,356
+ 
+ 
+ 
+ Amortization
+ 
+ 1,220
+ 
+ 
+ 965
+ 
+ 
+ 
+ Travel expenses
+ 
+ 859
+ 
+ 
+ 838
+ 
+ 
+ 
+ Donations, sponsorships and communication expenses
+ 
+ 1,205
+ 
+ 
+ 758
+ 
+ 
+ 
+ Public company expenses
+ 
+ 517
+ 
+ 
+ 565
+ 
+ 
+ 
+ Rent and office expenses
+ 
+ 405
+ 
+ 
+ 427
+ 
+ 
+ 
+ Other, net
+ 
+ (31
+ )
+ 
+ (196
+ )
+ 
+ 
+ 
+ 
+ 35,720
+ 
+ 
+ 73,488
+ 
+ 
+ 
+ Employee benefit expenses 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Salaries and short-term employee benefits
+ 
+ 11,463
+ 
+ 
+ 8,348
+ 
+ 
+ 
+ Share-based compensation
+ 
+ 8,388
+ 
+ 
+ 6,238
+ 
+ 
+ 
+ 
+ 
+ 19,851
+ 
+ 
+ 14,586
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Other gains (losses), net
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Change in fair value of financial assets at fair value through profit and loss
+ 
+ 5,315
+ 
+ 
+ 343
+ 
+ 
+ 
+ Change in allowance for expected credit loss and write-off of other investments
+ 
+ -
+ 
+ 
+ 1,399
+ 
+ 
+ 
+ Net loss on dilution of investments in associates (Note 9)
+ 
+ -
+ 
+ 
+ (9,300
+ )
+ 
+ 
+ Gain on deemed disposal of an associate (Note 9)
+ 
+ 54,439
+ 
+ 
+ -
+ 
+ 
+ 
+ Reclassification of other comprehensive loss on the deemed disposal of an associate (Note 9)
+ 
+ (1,147
+ )
+ 
+ -
+ 
+ 
+ 
+ Other
+ 
+ -
+ 
+ 
+ (2,362
+ )
+ 
+ 
+ 
+ 
+ 58,607
+ 
+ 
+ (9,920
+ )
+ 
+ 
+ 
+ 
+ 
+ 40
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 20. Key management 
+ Key management includes directors (executive and non-executive) and the executive management team. The compensation paid or payable to key management for employee services is presented below:
+ 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Salaries and short-term employee benefits
+ 
+ 3,189
+ 
+ 
+ 3,036
+ 
+ 
+ 
+ Share-based compensation
+ 
+ 4,067
+ 
+ 
+ 2,925
+ 
+ 
+ 
+ 
+ 
+ 7,256
+ 
+ 
+ 5,961
+ 
+ 
+ 
+ 
+ Key management employees are subject to employment agreements which provide for payments on termination of employment without cause or following a change of control providing for payments of between once to twice base salary and bonus and certain vesting acceleration clauses on restricted and deferred share units and share options.
+ 21. Net earnings per share
+ 
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net earnings
+ 
+ 206,088
+ 
+ 
+ 16,267
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Basic weighted average number of common shares outstanding (in thousands)
+ 
+ 187,775
+ 
+ 
+ 186,290
+ 
+ 
+ 
+ Dilutive effect of share options
+ 
+ 971
+ 
+ 
+ 915
+ 
+ 
+ 
+ Dilutive effect of RSUs and DSUs
+ 
+ 406
+ 
+ 
+ 376
+ 
+ 
+ 
+ Diluted weighted average number of common shares (in thousands)
+ 
+ 189,152
+ 
+ 
+ 187,581
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net earnings per share
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Basic
+ 
+ 1.10
+ 
+ 
+ 0.09
+ 
+ 
+ 
+ Diluted
+ 
+ 1.09
+ 
+ 
+ 0.09
+ 
+ 
+ 
+ 
+ For the year ended December 31, 2024, 53,200 share options were excluded from the computation of diluted earnings per share as their effect was anti-dilutive.
+ 
+ 41
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 22. Additional information on the consolidated statements of cash flows
+ 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Interests received
+ 
+ 3,673
+ 
+ 
+ 4,352
+ 
+ 
+ 
+ Interests paid on long-term debt
+ 
+ 3,880
+ 
+ 
+ 7,255
+ 
+ 
+ 
+ Income taxes paid
+ 
+ 3,136
+ 
+ 
+ 2,692
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Changes in non-cash working capital items
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Increase in amounts receivable
+ 
+ (121
+ )
+ 
+ (880
+ )
+ 
+ 
+ Increase in other current assets
+ 
+ (714
+ )
+ 
+ (220
+ )
+ 
+ 
+ Increase (decrease) in accounts payable and accrued liabilities
+ 
+ 2,146
+ 
+ 
+ (777
+ )
+ 
+ 
+ Increase in income tax liabilities
+ 
+ 13,655
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 14,966
+ 
+ 
+ (1,877
+ )
+ 
+ 
+ 
+ 23. Financial risks
+ The Company's activities expose it to a variety of financial risks: market risks (including interest rate risk, foreign currency risk and other price risk), credit risk and liquidity risk. The Company's overall risk management program focuses on the unpredictability of financial markets and seeks to minimize potential adverse effects on the Company's performance.
+ Risk management is carried out under policies approved by the Board of Directors. The Board of Directors provides principles for overall risk management, as well as policies covering specific areas, such as foreign exchange risk, interest rate risk, credit risk, the use of derivative financial instruments and non-derivative financial instruments, and investment of excess liquidities.
+ (a) Market risks
+ (i) Interest rate risk
+ Interest rate risk is the risk that the fair value of future cash flows of a financial instrument will fluctuate as a result of changes in market interest rates.
+ The Company's interest rate risk on financial assets is primarily related to cash, which bear interest at variable rates. Based on the cash balance as at December 31, 2025, the impact on interest income over a 12-month horizon of a 1.0% shift in interest rates would be immaterial. Other financial assets are not exposed to interest rate risk because they are mostly non-interest bearing or bear interest at fixed rates.
+ The revolving credit facility bears a variable interest rate and, based on the revolving credit facility's balance as at December 31, 2025, the impact on financial expenses over a 12-month horizon of a 1.0% shift in interest rates would be immaterial. Other financial liabilities are not exposed to interest rate risk because they are non-interest bearing or bear a fixed interest rate.
+ (ii) Foreign exchange risk
+ The functional currencies of the Company's entities include the Canadian, U.S. and Australian dollars with the reporting currency of the Company being the U.S. dollar. The Company is exposed to foreign exchange risk arising from currency volatility, primarily with respect to the assets and liabilities denominated in U.S. dollars held by entities having the Canadian dollar as their functional currency, including material cash balances denominated in U.S. dollars and outstanding drawdowns on its credit facility in U.S. dollars, and is therefore exposed to material gains or losses on foreign exchange.
+ 
+ 42
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 23. Financial risks (continued)
+ (a) Market risks (continued)
+ (ii) Foreign exchange risk (continued)
+ As at December 31, 2025 and 2024, the balances in U.S. dollars held by entities having the Canadian dollar as their functional currency were as follows:
+ 
+ 
+ 
+ 
+ 
+ December 31,
+ 
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash
+ 
+ 21,879
+ 
+ 
+ 9,639
+ 
+ 
+ 
+ Amounts receivable
+ 
+ 409
+ 
+ 
+ 73
+ 
+ 
+ 
+ Other assets
+ 
+ 1,031
+ 
+ 
+ 975
+ 
+ 
+ 
+ Accounts payable and accrued liabilities
+ 
+ (570
+ )
+ 
+ (280
+ )
+ 
+ 
+ Dividends payable
+ 
+ (3,220
+ )
+ 
+ (5
+ )
+ 
+ 
+ Revolving credit facility
+ 
+ -
+ 
+ 
+ (80,000
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net exposure, in U.S. dollars
+ 
+ 19,529
+ 
+ 
+ (69,598
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Equivalent in Canadian dollars
+ 
+ 26,766
+ 
+ 
+ (100,145
+ )
+ 
+ 
+ 
+ Based on the balances as at December 31, 2025, a 5% fluctuation in the exchange rates on that date (with all other variables being constant) would have resulted in a variation of net earnings of approximately $0.7 million in 2025 ($3.6 million in 2024).
+ The Company also records currency translation adjustment gains or losses, through comprehensive income or loss, arising primarily from the fluctuation of the U.S. dollar on its assets and liabilities denominated in Canadian dollars held by entities having the Canadian dollar as their functional currency.
+ (iii) Other price risk
+ The Company is exposed to equity price risk as a result of holding long-term investments in mining companies. The equity prices of long-term investments are impacted by various underlying factors, including commodity prices. Based on the Company's long-term investments held as at December 31, 2025 and 2024, a 10% increase (decrease) in the equity prices of these investments would have an immaterial impact on net earnings and would increase (decrease) other comprehensive income (loss) by $13.8 million for the year ended December 31, 2025 ($5.4 million for the year ended December 31, 2024).
+ (b) Credit risk
+ Credit risk is the risk that one party to a financial instrument will fail to discharge its obligation and cause the other party to incur a financial loss. Financial instruments that potentially subject the Company to credit risk consist of cash, amounts receivable and other financing facilities receivable. The Company reduces its credit risk by investing its cash in high interest savings accounts with Canadian and U.S. recognized financial institutions. In the case of amounts receivable and other financing facilities, the Company performs either a credit analysis or ensures that it has sufficient guarantees in case of a non-payment by the third-party to cover the net book value of the note. A provision is recorded if there is an expected credit loss based on the analysis. In some cases, the loans receivable could be applied against stream deposits due by the Company or converted into a royalty if the third-party is not able to reimburse its loan.
+ 
+ 43
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 23. Financial risks (continued)
+ (b) Credit risk (continued)
+ As at December 31, 2025, as a result of the expected credit loss analysis, a provision of $21.4 million was recorded on a loan made to the company holding the Renard diamond mine. As at December 31, 2024, a provision of $34.2 million was recorded on loans made to the company holding the Renard diamond mine and the Amulsar gold project (the loans were considered as credit-impaired and were fully provisioned as the companies were not expected to be in a position to reimburse them). The loan related to the Amulsar gold project was amended in 2025 as the company holding the loan and the Amulsar gold project was sold to a third party (Note 10).
+ The maximum credit exposure of the Company corresponds to the respective instrument's net carrying amount.
+ (c) Liquidity risk
+ Liquidity risk is the risk that the Company will not be able to meet the obligations associated with its financial liabilities. The Company manages the liquidity risk by continuously monitoring actual and projected cash flows, considering the requirements related to its investment commitments and matching the maturity profile of financial assets and liabilities. The Board of Directors reviews and approves any material transaction out of the ordinary course of business, including proposals on mergers, acquisitions or other major investment or divestitures. The Company also manages liquidity risk through the management of its capital structure and financial leverage as outlined in Note 16. As at December 31, 2025, cash is invested in high interest savings accounts held with Canadian and U.S. recognized financial institutions.
+ As at December 31, 2025, all financial liabilities to be settled in cash or by the transfer of other financial assets mature within 90 days, except for the revolving credit facility and the lease liabilities, which are described below:
+ 
+ 
+ 
+ 
+ 
+ As at December 31, 2025 
+ 
+ 
+ 
+ 
+ 
+ Totalamount payable
+ 
+ 
+ 
+ 
+ 
+ Estimated annual payments 
+ 
+ 
+ 
+ 
+ 
+ Maturity
+ 
+ 
+ 2026
+ 
+ 
+ 2027
+ 
+ 
+ 2028
+ 
+ 
+ 2029
+ 
+ 
+ 2030
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Revolving credit facility (i)
+ 
+ 4,698
+ 
+ 
+ May 30, 2029
+ 
+ 
+ 1,375
+ 
+ 
+ 1,375
+ 
+ 
+ 1,375
+ 
+ 
+ 573
+ 
+ 
+ -
+ 
+ 
+ 
+ Lease liabilities
+ 
+ 5,790
+ 
+ 
+ December 31, 2029
+ 
+ 
+ 1,548
+ 
+ 
+ 1,544
+ 
+ 
+ 1,388
+ 
+ 
+ 1,310
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ 
+ 10,488
+ 
+ 
+ 
+ 
+ 
+ 2,923
+ 
+ 
+ 2,919
+ 
+ 
+ 2,763
+ 
+ 
+ 1,883
+ 
+ 
+ -
+ 
+ 
+ 
+ 
+ (i) Since the revolving credit facility was undrawn as of December 31, 2025, the amounts presented correspond only to the monthly standby fees payable on the unused portion of the revolving credit facility.
+ 
+ 44
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 24. Fair value of financial instruments
+ The following table provides information about financial assets and liabilities measured at fair value in the consolidated balance sheets and categorized by level according to the significance of the inputs used in making the measurements.
+ Level 1- Unadjusted quoted prices in active markets for identical assets or liabilities;
+ Level 2- Inputs other than quoted prices included in Level 1 that are observable for the asset or liability, either directly (that is, as prices) or indirectly (that is, derived from prices); and
+ Level 3- Inputs for the asset or liability that are not based on observable market data (that is, unobservable inputs).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025
+ 
+ 
+ 
+ 
+ 
+ Level 1
+ 
+ 
+ Level 2
+ 
+ 
+ Level 3
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Recurring measurements 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Financial assets at fair value through profit or loss (i)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Warrants on equity securities and convertible notes
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Publicly traded mining companies
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Precious metals
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 12,275
+ 
+ 
+ 12,275
+ 
+ 
+ 
+ Financial assets at fair value through other comprehensive income (i)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Equity securities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Publicly traded royalty and streaming companies
+ 
+ 22,145
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 22,145
+ 
+ 
+ 
+ Publicly traded mining companies
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Precious metals
+ 
+ 118,354
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 118,354
+ 
+ 
+ 
+ Other minerals (ii)
+ 
+ 21,753
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 21,753
+ 
+ 
+ 
+ Private mining companies
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 591
+ 
+ 
+ 591
+ 
+ 
+ 
+ 
+ 
+ 162,252
+ 
+ 
+ -
+ 
+ 
+ 12,866
+ 
+ 
+ 175,118
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ December 31, 2024
+ 
+ 
+ 
+ 
+ 
+ Level 1
+ 
+ 
+ Level 2
+ 
+ 
+ Level 3
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ Recurring measurements 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Financial assets at fair value through profit or loss (i)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Warrants on equity securities and convertible debentures and notes
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Publicly traded mining companies
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Precious metals
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 6,534
+ 
+ 
+ 6,534
+ 
+ 
+ 
+ Other minerals
+ 
+ 11
+ 
+ 
+ -
+ 
+ 
+ 3
+ 
+ 
+ 14
+ 
+ 
+ 
+ Financial assets at fair value through other comprehensive (loss) income (i)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Equity securities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Publicly traded mining companies
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Precious metals
+ 
+ 1,822
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 1,822
+ 
+ 
+ 
+ Other minerals (ii)
+ 
+ 53,353
+ 
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 53,353
+ 
+ 
+ 
+ Private mining companies
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 138
+ 
+ 
+ 138
+ 
+ 
+ 
+ 
+ 
+ 55,186
+ 
+ 
+ -
+ 
+ 
+ 6,675
+ 
+ 
+ 61,861
+ 
+ 
+ 
+ 
+ (i) On the basis of its analysis of the nature, characteristics and risks of equity securities, the Company has determined that presenting them by industry and type of investment is appropriate.
+ (ii) Equity securities classified under other minerals are mostly related to copper. 
+ 
+ 45
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 24. Fair value of financial instruments (continued)
+ During the year ended December 31, 2025 and 2024, there were no transfers among Level 1, Level 2 and Level 3.
+ Financial instruments in Level 1
+ The fair value of financial instruments traded in active markets is based on quoted market prices on a recognized securities exchange at the balance sheet dates. The quoted market price used for financial assets held by the Company is the last transaction price. Instruments included in Level 1 consist primarily of common shares and warrants trading on recognized securities exchanges, such as the TSX or TSX Venture.
+ Financial instruments in Level 2
+ The fair value of financial instruments that are not traded in an active market is determined by using valuation techniques. These valuation techniques maximize the use of observable market data where it is available and rely as little as possible on the Company's specific estimates. If all significant inputs required to measure the fair value of an instrument are observable, the instrument is included in Level 2. If one or more of the significant inputs are not based on observable market data, the instrument is included in Level 3.
+ Financial instruments in Level 3
+ Financial instruments classified in Level 3 include convertible instruments, warrants and investments in private companies held by the Company that are not traded on a recognized securities exchange. At each balance sheet date, the fair value of the significant investments held in private companies is evaluated using a discounted cash-flows approach. The main valuation inputs used in the cash-flows models being significant unobservable inputs, these investments are classified in Level 3. The fair value of the investments in convertible instruments and warrants is determined directly or indirectly using the Black-Scholes option pricing model which includes significant inputs not based on observable market data.
+ The following table presents the changes in the Level 3 investments (comprised of warrants and convertible instruments) for the years ended December 31, 2025 and 2024:
+ 
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance - January 1
+ 
+ 6,675
+ 
+ 
+ 6,883
+ 
+ 
+ 
+ Acquisitions
+ 
+ 440
+ 
+ 
+ -
+ 
+ 
+ 
+ Change in fair value - warrants expired (i)
+ 
+ (393
+ )
+ 
+ 4
+ 
+ 
+ 
+ Change in fair value - investments held at the end of the period (i)
+ 
+ 5,805
+ 
+ 
+ 339
+ 
+ 
+ 
+ Foreign exchange revaluation impact
+ 
+ 339
+ 
+ 
+ (551
+ )
+ 
+ 
+ Balance - December 31
+ 
+ 12,866
+ 
+ 
+ 6,675
+ 
+ 
+ 
+ 
+ (i) Recognized in the consolidated statements of income under other gains (losses), net.
+ The fair value of the financial instruments classified as Level 3 depends on the nature of the financial instruments.
+ The fair value of the warrants on equity securities and the convertible instruments of publicly traded mining exploration and development companies, classified as Level 3, is determined using directly or indirectly the Black-Scholes option pricing model. The main non-observable input used in the model is the expected volatility. An increase/decrease in the expected volatility used in the models of 10% would have resulted in an insignificant variation of the fair value of the warrants and convertible instruments as at December 31, 2025 and 2024. As at December 31, 2025 and 2024, the fair value of the equity securities of private mining companies was immaterial.
+ 
+ 46
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 24. Fair value of financial instruments (continued)
+ Financial instruments not measured at fair value on the consolidated balance sheets
+ Financial instruments that are not measured at fair value on the consolidated balance sheets are represented by cash, revenues receivable from royalty, stream and other interests, other receivables, notes receivable, accounts payable and accrued liabilities, and long-term debt. The fair values of cash, revenues receivable from royalty, stream and other interests, other receivables and accounts payable and accrued liabilities approximate their carrying values due to their short-term nature. As of December 31, 2024, the carrying value of the liability under the revolving credit facility approximates its fair value given that the credit spread is similar to the credit spread the Company would obtain under similar conditions at the reporting date. The fair value of the notes receivable approximates their carrying value as there were no significant negative changes in economic and risk parameters or assumptions related directly to the instruments since the issuance, acquisition, renewal or revaluation of those financial instruments.
+ 25. Segment disclosure
+ The Company's business is organized and reported as a single operating segment, consisting of acquiring and managing precious metals and other royalties, streams and other interests. All of the Company's assets, liabilities, revenues, expenses and cash flows are attributable to this single operating segment. The President and Chief Executive Officer, who is the Company's chief operating decision-maker, makes capital allocation decisions, reviews operating results and assesses financial performance.
+ The following tables present segmented information for this single segment.
+ Geographic revenues
+ Geographic revenues from the sale of precious metals and other commodities received or acquired from in-kind royalties, streams and other interests are determined by the location of the mining operations giving rise to the royalty, stream or other interest. For the years ended December 31, 2025 and 2024, royalty, stream and other interest revenues were earned from the following jurisdictions:
+ 
+ 
+ 
+ 
+ 
+ NorthAmerica (i)
+ 
+ 
+ SouthAmerica
+ 
+ 
+ Australia
+ 
+ 
+ Africa
+ 
+ 
+ Europe 
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Royalties
+ 
+ 165,738
+ 
+ 
+ 5,765
+ 
+ 
+ 347
+ 
+ 
+ 5,414
+ 
+ 
+ -
+ 
+ 
+ 177,264
+ 
+ 
+ 
+ Streams
+ 
+ 11,883
+ 
+ 
+ 45,831
+ 
+ 
+ 27,029
+ 
+ 
+ -
+ 
+ 
+ 15,363
+ 
+ 
+ 100,106
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 177,621
+ 
+ 
+ 51,596
+ 
+ 
+ 27,376
+ 
+ 
+ 5,414
+ 
+ 
+ 15,363
+ 
+ 
+ 277,370
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Royalties
+ 
+ 126,101
+ 
+ 
+ 1,338
+ 
+ 
+ 240
+ 
+ 
+ 2,696
+ 
+ 
+ -
+ 
+ 
+ 130,375
+ 
+ 
+ 
+ Streams
+ 
+ 8,204
+ 
+ 
+ 22,371
+ 
+ 
+ 19,808
+ 
+ 
+ -
+ 
+ 
+ 10,399
+ 
+ 
+ 60,782
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 134,305
+ 
+ 
+ 23,709
+ 
+ 
+ 20,048
+ 
+ 
+ 2,696
+ 
+ 
+ 10,399
+ 
+ 
+ 191,157
+ 
+ 
+ 
+ 
+ (i) In 2025, revenues generated from Canada amounted to $160.1 million ($121.7 million in 2024).
+ 
+ 47
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 25. Segment disclosure (continued)
+ Geographic revenues (continued)
+ In 2025, two royalty/stream interests generated revenues of $154.1 million (two royalty/stream interests generated revenues of $100.6 million in 2024), which represented 56% of revenues (53% of revenues in 2024), including one royalty interest that generated revenues of $108.2 million ($78.3 million in 2024).
+ In 2025, revenues generated from precious metals represented 95% of total revenues (94% in 2024).
+ Geographic net assets
+ The following table summarizes the royalty, stream and other interests by jurisdiction, as at December 31, 2025 and December 31, 2024, which is based on the location of the properties related to the royalty, stream or other interests:
+ 
+ 
+ 
+ 
+ 
+ NorthAmerica (i)
+ 
+ 
+ SouthAmerica
+ 
+ 
+ Australia
+ 
+ 
+ Africa
+ 
+ 
+ Asia
+ 
+ 
+ Europe
+ 
+ 
+ Total
+ 
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ $
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ December 31, 2025
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Royalties
+ 
+ 404,599
+ 
+ 
+ 131,823
+ 
+ 
+ 58,078
+ 
+ 
+ 48,841
+ 
+ 
+ 5,248
+ 
+ 
+ 10,847
+ 
+ 
+ 659,436
+ 
+ 
+ 
+ Streams
+ 
+ 161,176
+ 
+ 
+ 128,907
+ 
+ 
+ 127,252
+ 
+ 
+ -
+ 
+ 
+ 22,300
+ 
+ 
+ 30,184
+ 
+ 
+ 469,819
+ 
+ 
+ 
+ Offtakes
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 7,067
+ 
+ 
+ -
+ 
+ 
+ 3,704
+ 
+ 
+ -
+ 
+ 
+ 10,771
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 565,775
+ 
+ 
+ 260,730
+ 
+ 
+ 192,397
+ 
+ 
+ 48,841
+ 
+ 
+ 31,252
+ 
+ 
+ 41,031
+ 
+ 
+ 1,140,026
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ December 31, 2024
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Royalties
+ 
+ 392,520
+ 
+ 
+ 127,008
+ 
+ 
+ 57,646
+ 
+ 
+ 49,906
+ 
+ 
+ -
+ 
+ 
+ 10,333
+ 
+ 
+ 637,413
+ 
+ 
+ 
+ Streams
+ 
+ 146,408
+ 
+ 
+ 127,974
+ 
+ 
+ 136,386
+ 
+ 
+ -
+ 
+ 
+ 22,300
+ 
+ 
+ 32,603
+ 
+ 
+ 465,671
+ 
+ 
+ 
+ Offtakes
+ 
+ -
+ 
+ 
+ -
+ 
+ 
+ 7,067
+ 
+ 
+ -
+ 
+ 
+ 3,704
+ 
+ 
+ -
+ 
+ 
+ 10,771
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 538,928
+ 
+ 
+ 254,982
+ 
+ 
+ 201,099
+ 
+ 
+ 49,906
+ 
+ 
+ 26,004
+ 
+ 
+ 42,936
+ 
+ 
+ 1,113,855
+ 
+ 
+ 
+ 
+ (i) As at December 31, 2025, the carrying value of the net interests located in Canada amounted to $355.7 million ($338.5 million as at December 31, 2024).
+ 26. Related party transactions
+ There were no material transactions with related parties during the year ended December 31, 2025 (a note receivable from an associate of $12.2 million was included in other investments as at December 31, 2024).
+ 
+ 48
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 27. Commitments
+ Investments in royalty and stream interests
+ As at December 31, 2025, significant commitments related to the acquisition of royalties and streams are detailed in the following table:
+ 
+ 
+ 
+ Company
+ Project (asset)
+ Installments
+ Triggering events
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Gold Resource Corporation
+ Back Forty project(gold stream)
+ $5.0 million
+ Receipt of all material permits for the construction and operation of the project.
+ 
+ 
+ 
+ 
+ $25.0 million
+ Pro-rata to drawdowns with construction finance facility.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ SolGold plc
+ Cascabel project(gold stream)
+ $10.0 million
+ Achievement of operational milestones, including submission of all final permit applications for the construction and operation of the project.
+ 
+ 
+ 
+ 
+ $195.0 million
+ Pro-rata to drawdowns with construction finance facility.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Falco Resources Ltd.
+ Horne 5 project(silver stream)
+ C$45.0 million
+ Receipt of all necessary material third-party approvals, licenses, rights of way, surface rights on the property and all material construction permits, positive construction decision, and raising a minimum of C$135.0 million in non-debt financing and demonstrating that the financial assurance required to allow Falco to proceed with the commencement of mining activities can be satisfied, as applicable.
+ 
+ 
+ 
+ 
+ C$60.0 million
+ Upon total projected capital expenditure having been demonstrated to be financed.
+ 
+ 
+ 
+ 
+ C$40.0 million(optional)
+ Payable with fourth installment, at sole election of OR Royalties, to increase the silver stream to 100% of payable silver (from 90%).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 49
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 27. Commitments (continued)
+ Stream purchase agreements
+ The following table summarizes the significant commitments related to producing assets and assets in advance stage of development to pay for metals and other commodities to which OR Royalties has the contractual right pursuant to the associated purchase agreements:
+ 
+ 
+ 
+ 
+ Attributable payableproduction to be purchased
+ Per ounce/tonnecash payment
+ Term ofagreement
+ Date of contract
+ 
+ 
+ Interest
+ Silver
+ Other
+ Silver
+ Other
+ 
+ 
+ 
+ 
+ CSA streams (1)
+ 100%
+ 2.25 - 4.875%(Copper)
+ 4%
+ 4%
+ Life of mine
+ June 2023
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Gibraltar stream (2)
+ 100%
+ 
+ nil
+ 
+ Life of mine
+ March 2018Amended Dec. 2024
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Mantos Blancos stream (3)
+ 100%
+ 
+ 8% spot
+ 
+ Life of mine
+ September 2015Amended Aug. 2019
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Sasa stream (4)
+ 100%
+ 
+ $6.665
+ 
+ 40 years
+ November 2015
+ 
+ 
+ 
+ (1) OR Royalties International will receive refined silver equal to 100% of the payable silver produced from the CSA mine for the life of the mine, and will be entitled to receive refined copper equal to 3.0% of payable copper produced from the CSA mine until the 5th anniversary of the agreements, then 4.875% of payable copper produced from the CSA mine until 33,000 metric tonnes have been delivered in aggregate, and thereafter 2.25% of payable copper produced from the CSA mine for the remaining life of the mine. On the 5th anniversary of the closing date (June 15, 2028), the owner will have the option to exercise certain buy-down rights by paying a one-time cash payment to OR Royalties International of $20.0 million to $40.0 million. If the option is exercised, OR Royalties International will still be entitled to receive refined copper equal to 3.25% - 4.0625% of payable copper produced from the CSA mine until 23,900 to 28,450 metric tonnes have been delivered in aggregate, and thereafter 1.5% - 1.875% of payable copper produced from the CSA mine for the remaining life of the mine. As of December 31, 2025, 1,748 tonnes of copper have been delivered to OR Royalties International under the stream agreement.
+ (2) OR Royalties will receive from Taseko an amount of silver production equal to 100% of Gibraltar mine's production, until reaching the delivery to OR Royalties of 6.8 million ounces of silver, and 35% of production thereafter. As of December 31, 2025, a total of 1.6 million ounces of silver have been delivered under the stream agreement.
+ (3) The stream percentage shall be payable on 100% of silver until 19,300,000 ounces have been delivered, after which the stream percentage will be 40%. As of December 31, 2025, a total of 7.5 million ounces of silver have been delivered to OR Royalties International under the stream agreement.
+ (4) Price subject to the lesser of 3% or inflation over the previous calendar year measured by the consumer price index (CPI) per ounce price escalation after 2016.
+ 28. Subsequent events
+ Acquisition of an additional 1% NSR royalty on Namdini
+ On January 29, 2026, the Company announced the acquisition of an additional 1.0% NSR royalty covering the producing Namdini Gold Mine ("Namdini") in Ghana, with an effective date of October 1, 2025. OR Royalties has closed the transaction with Savannah Mining Limited ("Savannah"), acquiring Savannah's remaining 50% interest in the 2.0% NSR royalty for total cash consideration of up to $103.5 million.
+ Acquisition of a portfolio of royalties and deferred payment obligations from Gold Fields Limited
+ On February 18, 2026, the Company announced that it has entered into a definitive agreement with Gold Fields Limited ("Gold Fields") to acquire a portfolio of precious metals assets consisting of eight royalties (the "Portfolio") for a total cash consideration of $115.0 million, anchored by a 1.5% NSR royalty on Compañía de Minas Buenaventura SAA's producing San Gabriel gold and silver mine located in the Province of General Sánchez Cerro, Region of Moquegua, Peru.
+ In addition to the Portfolio, the Company has agreed to pay Gold Fields $52.0 million in exchange for deferred payment obligations totalling $60.0 million payable by Galiano Gold Inc. ($30.0 million on or before December 31, 2026 and $30.0 million upon production of an aggregate of 100,000 ounces of gold from Asanko Gold Mine's Nkran deposit).
+ 
+ 50
+ 
+ 
+ 
+ 
+ 
+ OR Royalties Inc.
+ 
+ 
+ Notes to the Consolidated Financial Statements
+ 
+ 
+ For the years ended December 31, 2025 and 2024
+ 
+ 
+ (tabular amounts expressed in thousands of U.S. dollars, except per share amounts)
+ 
+ 
+ 
+ 28. Subsequent events (continued)
+ Dividend
+ On February 18, 2026, the Board of Directors declared a quarterly dividend of $0.055 per common share payable on April 15, 2026 to shareholders of record as of the close of business on March 31, 2026.
+ 
+ 51

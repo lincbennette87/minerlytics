@@ -1,0 +1,57 @@
+{
+  "ticker": "OR",
+  "cik": "0001627272",
+  "form": "6-K",
+  "filingDate": "2017-05-18",
+  "accessionNumber": "0001062993-17-002619",
+  "primaryDocument": "form6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1627272/000106299317002619/0001062993-17-002619-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1627272/000106299317002619/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-06-11T17:09:04.962Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1627272/000106299317002619/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Osisko Gold Royalties Ltd - Exhibit 99.1 - Filed by newsfilecorp.com",
+    "headings": [
+      "Osisko Gold Royalties Ltd - Exhibit 99.1 - Filed by newsfilecorp.com",
+      "EARLY WARNING NEWS RELEASE",
+      "(Montréal, May 18, 2017)",
+      "About Osisko Gold Royalties Ltd",
+      "For further information please contact:"
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nEXHIBIT 99.1\n\n Osisko Gold Royalties Ltd - Exhibit 99.1 - Filed by newsfilecorp.com\n\n \nEARLY WARNING NEWS RELEASE \n(Montréal, May 18, 2017) Osisko Gold Royalties Ltd (TSX\n& NYSE:OR) (\"Osisko\") announces that it has subscribed for and received from\nBarkerville Gold Mines Ltd. (TSXV: BGM) (\"Barkerville\") 11,333,054 units\n(\"Units\") at a price of $0.95 per Unit. Each Unit is comprised on one common\nshare (\"Common Share\") in the share capital of Barkerville and one-half of one\ncommon share purchase warrant (each whole common share purchase warrant, a\n\"Warrant\") of Barkerville. Each Warrant entitles the holder to acquire one\nCommon Share at a purchase price of $1.30 for a period of 18 months from the\nclosing of the previously announced non-brokered private placement (the \"Private\nPlacement\"). The Private Placement was announced on April 27, 2017. \nImmediately prior to the closing of the Private Placement,\nOsisko held 116,372,506 common shares of Barkerville, representing approximately\n34.7% of Barkeville’s issued and outstanding common shares. Immediately\nfollowing the closing of the Private Placement, Osisko owns, beneficial\nownership of, or control and direction over (i) 127,705,560 common shares of\nBarkerville, representing approximately 33.4% of Barkerville’s issued and\noutstanding common shares; and (ii) 5,666,527 Warrants. Assuming the exercise of\nthe Warrants, Osisko would own 133,372,087 common shares of Barkerville,\nrepresenting approximately 34.4% of Barkerville’s common shares that would be\nissued and outstanding. \nOsisko acquired the Shares described in this press release for\ninvestment purposes and in accordance with applicable securities laws, Osisko\nmay, from time to time and at any time, acquire additional shares and/or other\nequity, debt or other securities or instruments (collectively, \"Securities\") of\nBarkerville in the open market or otherwise, and reserves the right to dispose\nof any or all of its Securities in the open market or otherwise at any time and\nfrom time to time, and to engage in similar transactions with respect to the\nSecurities, the whole depending on market conditions, the business and prospects\nof Barkerville and other relevant factors. \nA copy of the early warning report to be filed by Osisko in\nconnection with the Private Placement described above will be available on SEDAR\nunder Barkerville’s profile. This news release is issued under the early warning\nprovisions of the Canadian securities legislation. \nAbout Osisko Gold Royalties Ltd\nOsisko is an intermediate precious metal royalty and stream\ncompany focused on the Americas that commenced activities in June 2014. It holds\nover 50 royalties and streams, including a 5% NSR royalty on the Canadian\nMalartic Mine (Canada), a 2.0% to 3.5% NSR royalty on the Éléonore Mine (Canada)\nand a silver stream on the Gibraltar Mine (Canada). It maintains a strong\nfinancial position and has distributed $35.1 million in dividends to its\nshareholders during the past ten consecutive quarters. \nOsisko’s head office is located at 1100 avenue des\nCanadiens-de-Montréal, Suite 300, Montréal, Québec, H3B 2S2. \n1 \n\n \n For further information please contact: \n \n \n \n \n \n Vincent Metcalfe \n Joseph de la Plante \n \n Vice President, Investor Relations \n Vice President, Corporate Development \n \n Tel. (514) 940-0670 \n Tel. (514) 940-0670 \n \n vmetcalfe@osiskogr.com\n jdelaplante@osiskogr.com\n \n \n2",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 5,
+        "rows": [
+          [
+            "For further information please contact:"
+          ],
+          [
+            "Vincent Metcalfe",
+            "Joseph de la Plante"
+          ],
+          [
+            "Vice President, Investor Relations",
+            "Vice President, Corporate Development"
+          ],
+          [
+            "Tel. (514) 940-0670",
+            "Tel. (514) 940-0670"
+          ],
+          [
+            "vmetcalfe@osiskogr.com",
+            "jdelaplante@osiskogr.com"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<HTML>\n<HEAD>\n   <TITLE>Osisko Gold Royalties Ltd  - Exhibit 99.1 - Filed by newsfilecorp.com</TITLE>\n</HEAD>\n\n<BODY style=\"font-size:10pt;\">\n\n<HR noshade align=\"center\" width=100% size=3 color=\"black\">\n<A name=page_1></A>\n<P align=center><IMG src=\"logo.jpg\" border=0 width=\"245\" height=\"110\"> </P>\n<P align=center><B>EARLY WARNING NEWS RELEASE </B></P>\n<P align=justify><B>(Montr&#233;al, May 18, 2017)</B> Osisko Gold Royalties Ltd (TSX\n&amp; NYSE:OR) (\"Osisko\") announces that it has subscribed for and received from\nBarkerville Gold Mines Ltd. (TSXV: BGM) (\"Barkerville\") 11,333,054 units\n(\"Units\") at a price of $0.95 per Unit. Each Unit is comprised on one common\nshare (\"Common Share\") in the share capital of Barkerville and one-half of one\ncommon share purchase warrant (each whole common share purchase warrant, a\n\"Warrant\") of Barkerville. Each Warrant entitles the holder to acquire one\nCommon Share at a purchase price of $1.30 for a period of 18 months from the\nclosing of the previously announced non-brokered private placement (the \"Private\nPlacement\"). The Private Placement was announced on April 27, 2017. </P>\n<P align=justify>Immediately prior to the closing of the Private Placement,\nOsisko held 116,372,506 common shares of Barkerville, representing approximately\n34.7% of Barkeville&#146;s issued and outstanding common shares. Immediately\nfollowing the closing of the Private Placement, Osisko owns, beneficial\nownership of, or control and direction over (i) 127,705,560 common shares of\nBarkerville, representing approximately 33.4% of Barkerville&#146;s issued and\noutstanding common shares; and (ii) 5,666,527 Warrants. Assuming the exercise of\nthe Warrants, Osisko would own 133,372,087 common shares of Barkerville,\nrepresenting approximately 34.4% of Barkerville&#146;s common shares that would be\nissued and outstanding. </P>\n<P align=justify>Osisko acquired the Shares described in this press release for\ninvestment purposes and in accordance with applicable securities laws, Osisko\nmay, from time to time and at any time, acquire additional shares and/or other\nequity, debt or other securities or instruments (collectively, \"Securities\") of\nBarkerville in the open market or otherwise, and reserves the right to dispose\nof any or all of its Securities in the open market or otherwise at any time and\nfrom time to time, and to engage in similar transactions with respect to the\nSecurities, the whole depending on market conditions, the business and prospects\nof Barkerville and other relevant factors. </P>\n<P align=justify>A copy of the early warning report to be filed by Osisko in\nconnection with the Private Placement described above will be available on SEDAR\nunder Barkerville&#146;s profile. This news release is issued under the early warning\nprovisions of the Canadian securities legislation. </P>\n<P align=justify><B>About Osisko Gold Royalties Ltd</B></P>\n<P align=justify>Osisko is an intermediate precious metal royalty and stream\ncompany focused on the Americas that commenced activities in June 2014. It holds\nover 50 royalties and streams, including a 5% NSR royalty on the Canadian\nMalartic Mine (Canada), a 2.0% to 3.5% NSR royalty on the &#201;l&#233;onore Mine (Canada)\nand a silver stream on the Gibraltar Mine (Canada). It maintains a strong\nfinancial position and has distributed $35.1 million in dividends to its\nshareholders during the past ten consecutive quarters. </P>\n<P align=justify>Osisko&#146;s head office is located at 1100 avenue des\nCanadiens-de-Montr&#233;al, Suite 300, Montr&#233;al, Qu&#233;bec, H3B 2S2. </P>\n<P align=right>1 </P>\n<HR style=\"PAGE-BREAK-AFTER: always\" align=center width=\"100%\" color=black\nnoShade SIZE=5>\n<A name=page_2></A><BR>\n<TABLE\nstyle=\"BORDER-COLOR: black; FONT-SIZE: 10pt; BORDER-COLLAPSE: collapse; \"\ncellSpacing=0 cellPadding=0 width=\"100%\" border=0>\n\n  <TR vAlign=top>\n    <TD align=left><B>For further information please contact:</B> </TD>\n    <TD align=left width=\"50%\">&nbsp; </TD></TR>\n  <TR>\n    <TD>&nbsp; </TD>\n    <TD width=\"50%\">&nbsp; </TD></TR>\n  <TR vAlign=top>\n    <TD align=left>Vincent Metcalfe </TD>\n    <TD align=right width=\"50%\">Joseph de la Plante </TD></TR>\n  <TR vAlign=top>\n    <TD align=left>Vice President, Investor Relations </TD>\n    <TD align=right width=\"50%\">Vice President, Corporate Development </TD></TR>\n  <TR vAlign=top>\n    <TD align=left>Tel. (514) 940-0670 </TD>\n    <TD align=right width=\"50%\">Tel. (514) 940-0670 </TD></TR>\n  <TR vAlign=top>\n    <TD align=left><FONT color=#0000ff><U>vmetcalfe@osiskogr.com</U></FONT></TD>\n    <TD align=right width=\"50%\"><FONT color=#0000ff><U>jdelaplante@osiskogr.com</U>\n      </FONT></TD></TR></TABLE>\n<P align=justify>&nbsp;</P>\n<P align=right>2 </P>\n<HR align=center width=\"100%\" color=black noShade SIZE=5>\n\n</BODY>\n\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

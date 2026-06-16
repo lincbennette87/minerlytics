@@ -1,0 +1,80 @@
+{
+  "ticker": "GAYMF",
+  "cik": "0001377757",
+  "form": "6-K",
+  "filingDate": "2013-02-15",
+  "accessionNumber": "0001102624-13-000191",
+  "primaryDocument": "d6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000110262413000191/0001102624-13-000191-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "NOTICE OF MEETING AND RECORD DATE, DATED JULY 23, 2009",
+    "filename": "ex99_1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1377757/000110262413000191/ex99_1.htm"
+  },
+  "extractedAt": "2026-06-11T16:59:02.163Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000110262413000191/ex99_1.htm",
+    "contentType": "html",
+    "title": "ex99_1.htm",
+    "headings": [
+      "ex99_1.htm"
+    ],
+    "text": "EX-99.1\n2\nex99_1.htm\nNOTICE OF MEETING AND RECORD DATE, DATED JULY 23, 2009\n\n ex99_1.htm\n \n \n \n\nExhibit 99.1\n\n \n\nDate: 23/07/2009\n \n\n510 Burrard St, 3rd Floor\n\nVancouver BC, V6C 3B9\n\nwww.computershare.com\n\n \n\n \n\nTo: All Canadian Securities Regulatory Authorities\n\n \n\nSubject: KEEGAN RESOURCES INC.\n\n \n\nDear Sirs:\n\n \n\nWe advise of the following with respect to the upcoming Meeting of Security Holders for the subject Issuer:\n\n \n\n \n\nMeeting Type :\n\nAnnual General Meeting\n\nRecord Date for Notice of Meeting :\n\n19/08/2009\n\nRecord Date for Voting (if applicable) :\n\n19/08/2009\n\nMeeting Date :\n\n01/10/2009\n\nMeeting Location (if available) :\n\nSuite 600 - 1199 West Hastings Street, Vancouver, BC\n\n \n\nVoting Security Details:\n\n \n\n \n\nDescription\n\nCUSIP Number\n\nISIN\n\nCOMMON SHARES\n\n487275109\n\nCA4872751090\n\n \n\n \n\nSincerely,\n\n \n\nComputershare Trust Company of Canada /\n\nComputershare Investor Services Inc.\n\n \n\nAgent for KEEGAN RESOURCES INC.",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 1,
+        "rows": [
+          [
+            "Date: 23/07/2009",
+            "510 Burrard St, 3rd Floor\n\nVancouver BC, V6C 3B9\n\nwww.computershare.com"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 5,
+        "rows": [
+          [
+            "Meeting Type :",
+            "Annual General Meeting"
+          ],
+          [
+            "Record Date for Notice of Meeting :",
+            "19/08/2009"
+          ],
+          [
+            "Record Date for Voting (if applicable) :",
+            "19/08/2009"
+          ],
+          [
+            "Meeting Date :",
+            "01/10/2009"
+          ],
+          [
+            "Meeting Location (if available) :",
+            "Suite 600 - 1199 West Hastings Street, Vancouver, BC"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 2,
+        "rows": [
+          [
+            "Description",
+            "CUSIP Number",
+            "ISIN"
+          ],
+          [
+            "COMMON SHARES",
+            "487275109",
+            "CA4872751090"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>ex99_1.htm\n<DESCRIPTION>NOTICE OF MEETING AND RECORD DATE, DATED JULY 23, 2009\n<TEXT>\n<html>\n<head>\n    <title>ex99_1.htm</title>\n    <!--Licensed to: Marketwire-->\n    <!--Document Created using EDGARizerAgent 5.4.3.0-->\n    <!--Copyright 1995 - 2009 Thomson Reuters. All rights reserved.-->\n</head>\n<body bgcolor=\"#ffffff\" style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: Times New Roman\">\n<div>\n<hr style=\"COLOR: black\" align=\"left\" noshade size=\"1\" width=\"100%\">\n</div>\n\n<div style=\"TEXT-ALIGN: right\"><font style=\"FONT-SIZE: 8pt; FONT-FAMILY: Times New Roman\">Exhibit 99.1</font></div>\n\n<div style=\"TEXT-ALIGN: left\">&#160;</div>\n\n<div style=\"TEXT-ALIGN: left\" align=\"center\">\n<table bgcolor=\"white\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"FONT-SIZE: 9pt; FONT-FAMILY: times new roman; FONT-SIZE: 9pt; FONT-FAMILY: times new roman\">\n<tr>\n<td width=\"33%\"><font style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">Date: 23/07/2009</font></td>\n<td width=\"33%\"><font style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">&#160;</font></td>\n<td width=\"33%\">\n<div><font style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman\"><img src=\"logo.jpg\" alt=\"graphic\"></font></div>\n\n<div><font style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">510 Burrard St, 3rd Floor</font></div>\n\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">Vancouver BC, V6C 3B9</font></font></div>\n\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\"><font style=\"DISPLAY: inline\">www.computershare.com</font></font></font></div>\n</td>\n</tr></table>\n</div>\n\n<div style=\"TEXT-ALIGN: left\">&#160;</div>\n\n<div style=\"DISPLAY: block; TEXT-INDENT: 0pt; TEXT-ALIGN: left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: Times New Roman\">&#160;</font></div>\n\n<div style=\"DISPLAY: block; TEXT-INDENT: 0pt; TEXT-ALIGN: left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: Times New Roman\">To: All Canadian Securities Regulatory Authorities</font></div>\n\n<div style=\"TEXT-ALIGN: left\">&#160;</div>\n\n<div style=\"TEXT-ALIGN: left\">\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: Times New Roman\"><font style=\"DISPLAY: inline; FONT-WEIGHT: bold\">Subject: KEEGAN RESOURCES INC.</font></font></div>\n</div>\n\n<div style=\"TEXT-ALIGN: left\">&#160;</div>\n\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt; TEXT-ALIGN: left\" align=\"left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: Times New Roman\">Dear Sirs:</font></div>\n\n<div style=\"DISPLAY: block; TEXT-INDENT: 0pt; TEXT-ALIGN: left\">&#160;</div>\n\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt; TEXT-ALIGN: left\" align=\"left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: Times New Roman\">We advise of the following with respect to the upcoming Meeting of Security Holders for the subject Issuer:</font></div>\n\n<div style=\"TEXT-ALIGN: left\">&#160;</div>\n\n<div style=\"TEXT-ALIGN: left\">&#160;</div>\n\n<div style=\"TEXT-ALIGN: left\">\n<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"FONT-SIZE: 9pt; FONT-FAMILY: times new roman; FONT-SIZE: 9pt; FONT-FAMILY: times new roman\">\n<tr>\n<td align=\"left\" valign=\"middle\" width=\"31%\">\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">Meeting Type :</font></div>\n</td>\n<td align=\"left\" valign=\"middle\" width=\"31%\">\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">Annual General Meeting</font></div>\n</td>\n</tr><tr>\n<td align=\"left\" valign=\"middle\" width=\"31%\">\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">Record Date for Notice of Meeting :</font></div>\n</td>\n<td align=\"left\" valign=\"middle\" width=\"31%\">\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">19/08/2009</font></div>\n</td>\n</tr><tr>\n<td align=\"left\" valign=\"middle\" width=\"31%\">\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">Record Date for Voting (if applicable) :</font></div>\n</td>\n<td align=\"left\" valign=\"middle\" width=\"31%\">\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">19/08/2009</font></div>\n</td>\n</tr><tr>\n<td align=\"left\" valign=\"middle\" width=\"31%\">\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">Meeting Date :</font></div>\n</td>\n<td align=\"left\" valign=\"middle\" width=\"31%\">\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">01/10/2009</font></div>\n</td>\n</tr><tr>\n<td align=\"left\" valign=\"middle\" width=\"31%\">\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">Meeting Location (if available) :</font></div>\n</td>\n<td align=\"left\" valign=\"middle\" width=\"31%\">\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">Suite 600 - 1199 West Hastings Street, Vancouver, BC</font></div>\n</td>\n</tr></table>\n</div>\n\n<div>&#160;</div>\n\n<div><font style=\"DISPLAY: inline; FONT-WEIGHT: bold\">Voting Security Details:</font></div>\n\n<div>&#160;</div>\n\n<div>&#160;</div>\n\n<div align=\"center\">\n<table bgcolor=\"white\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"FONT-SIZE: 9pt; FONT-FAMILY: times new roman; FONT-SIZE: 9pt; FONT-FAMILY: times new roman\">\n<tr>\n<td width=\"33%\" style=\"BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid\">\n\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman\"><font style=\"DISPLAY: inline; FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">Description</font></font></div>\n</td>\n<td width=\"33%\" style=\"BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-BOTTOM: black 1px solid\">\n\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman\"><font style=\"DISPLAY: inline; FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">CUSIP Number</font></font></div>\n</td>\n<td width=\"33%\" style=\"BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-BOTTOM: black 1px solid\">\n\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman\"><font style=\"DISPLAY: inline; FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">ISIN</font></font></div>\n</td>\n</tr><tr>\n<td width=\"33%\" style=\"BORDER-RIGHT: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid\">\n\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">COMMON SHARES</font></font></div>\n</td>\n<td width=\"33%\" style=\"BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid\">\n\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"FONT-SIZE: 10pt; FONT-FAMILY: times new roman\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">487275109</font></font></div>\n</td>\n<td width=\"33%\" style=\"BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid\">\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">CA4872751090</font></div>\n</td>\n</tr></table>\n</div>\n\n<div>&#160;</div>\n\n<div>&#160;</div>\n\n<div>\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">Sincerely,</font></div>\n\n<div style=\"DISPLAY: block; TEXT-INDENT: 0pt\">&#160;</div>\n\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"DISPLAY: inline; FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">Computershare Trust Company of Canada /</font></div>\n\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"DISPLAY: inline; FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">Computershare Investor Services Inc.</font></div>\n\n<div style=\"DISPLAY: block; TEXT-INDENT: 0pt\">&#160;</div>\n\n<div style=\"DISPLAY: block; MARGIN-LEFT: 0pt; TEXT-INDENT: 0pt; MARGIN-RIGHT: 0pt\" align=\"left\"><font style=\"DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: times new roman\">Agent for KEEGAN RESOURCES INC.</font></div>\n</div>\n</body>\n</html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

@@ -1,0 +1,2344 @@
+EX-99.1
+2
+exhibit991.htm
+INTERIM CONSOLIDATED FINANCIAL STATEMENTS FOR THE SIX MONTHS ENDED JUNE 30, 2015 AND 2014
+
+Exhibit 99.1
+
+CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+
+Three and six months ended June 30, 2015 and 2014
+_______________________
+
+ 
+
+1
+
+ASANKO GOLD INC.
+
+Condensed Interim Consolidated Statements of Financial Position (Unaudited)
+Expressed in United States Dollars 
+
+ June 30,
+2015
+ December 31,
+2014
+
+Assets
+ 
+ 
+Current assets:
+ 
+Cash and cash equivalents 
+$
+229,554,511 
+$
+228,679,552 
+
+Receivables
+ 16,846
+ 150,211
+
+Prepaid expenses and deposits 
+ 3,607,699
+ 227,645
+
+Foreign currency forward contracts asset (note 19 (d)(i))
+ 57,396
+ -
+
+ 233,236,452 
+ 229,057,408 
+
+ 
+Non-current assets:
+ 
+Property, plant and equipment (note 4)
+ 163,181,737
+ 65,862,616
+
+Reclamation deposit (note 5)
+ 1,695,664
+ -
+
+Mineral interests and development assets (note 6)
+ 198,289,735
+ 183,244,562
+
+Deferred debt financing costs (note 8)
+ -
+ 2,936,146
+
+Investment in associate 
+ 1,000
+ 1,000
+
+ 363,168,136
+ 252,044,324
+
+ 
+ 
+
+Total assets
+$
+596,404,588
+$
+481,101,732
+
+ 
+Liabilities
+ 
+ 
+Current liabilities:
+ 
+Accounts payable and accrued liabilities 
+$
+ 29,058,292
+$
+ 15,353,474
+
+ 29,058,292
+ 15,353,474
+
+ 
+Non-current liabilities:
+ 
+Long term debt (note 8 and note 19(d)(ii))
+ 124,221,140
+ 57,447,225
+
+Asset retirement provision (note 9)
+ 15,979,317
+ 12,638,318
+
+Deferred income tax liability
+ 12,212,654
+ 12,083,658
+
+ 152,413,111
+ 82,169,201
+
+ 
+Total liabilities
+ 181,471,403
+ 97,522,675
+
+ 
+Shareholders’ Equity
+ 
+ 
+Share capital (note 10)
+ 539,752,629
+ 505,468,841
+
+Equity reserves (note 11)
+ 45,316,981
+ 43,032,396
+
+Accumulated deficit 
+ (170,136,425)
+ (164,922,180)
+
+Total shareholders’ equity
+ 414,933,185
+ 383,579,057
+
+ 
+ 
+Total liabilities and shareholders’ equity
+$
+596,404,588
+$
+481,101,732
+
+Acquisition (note 3)
+Commitments and obligations (note 14)
+Contingencies (note 5 and note 15)
+
+Approved by the Board of Directors on August 12, 2015:
+
+“Peter Breese”
+ “Marcel de Groot” 
+
+Director
+ Director
+
+SEE ACCOMPANYING NOTES
+
+2
+
+ASANKO GOLD INC.
+
+Condensed Interim Consolidated Statements of Comprehensive Loss (Unaudited)
+ Expressed in United States Dollars
+
+ Three months ended June 30,
+Six months ended June 30,
+
+ 
+ 2015
+ 2014
+ 2015
+ 2014
+
+ 
+Administration expenses:
+ 
+Consulting fees, wages and benefits 
+$
+419,342 
+$
+812,950 
+$
+776,565 
+$
+1,625,894 
+
+Depreciation
+ 11,513 
+ 14,398 
+ 37,229 
+ 43,463 
+
+Office, rent and administration (note 13)
+ 454,935 
+ 400,981 
+ 648,943 
+ 1,052,719 
+
+Professional fees
+ 132,219 
+ 293,774 
+ 431,966 
+ 454,200 
+
+Regulatory fees, transfer agent and
+ 
+shareholder information
+ 111,038 
+ 94,627 
+ 139,439 
+ 235,662 
+
+Share-based payments (note 11(a))
+ 395,923 
+ 563,615 
+ 1,239,243 
+ 1,648,195 
+
+Travel, promotion and investor relations
+ 
+307,010 
+ 
+193,847 
+ 
+493,642 
+ 
+478,945 
+
+ 1,831,980 
+ 2,374,192 
+ 3,767,027 
+ 5,539,078 
+
+ 
+ 
+Exploration and evaluation expenditures (note 7)
+ 557,192 
+ 74,209 
+ 1,103,111 
+ 132,098 
+
+ 
+ 
+Other expenses (income):
+ 
+Accretion expense (note 9)
+ 79,910 
+ 80,980 
+ 155,229 
+ 172,755 
+
+Bank charges and interest
+ 36,477 
+ 28,725 
+ 53,477 
+ 34,567 
+
+Business development 
+ (55,906) 
+ 156,680 
+ 174,530 
+ 4,498,043 
+
+Change in embedded derivative
+ liability (notes 8 and 19(d)(ii))
+ (330,960)
+ -
+ (326,518)
+ -
+
+Change in fair value of foreign currency 
+ forward contracts
+ (326,447)
+ -
+ (57,396)
+ -
+
+Change in foreign currency warrant liability
+ -
+ (204,727)
+ -
+ (58,057)
+
+Foreign exchange (gain)/loss (note 19(e))
+ (960,231) 
+ (2,765,317) 
+ 673,779 
+ (2,163,089) 
+
+Interest and other income
+ (185,068)
+ (356,116)
+ (457,990)
+ (732,333)
+
+Restructuring costs (note 12)
+ 
+- 
+ 95,938 
+ 
+- 
+ 2,978,830 
+
+ 
+ 
+(1,742,225)
+ (2,963,837)
+ 
+215,111
+ 4,730,716
+
+ 
+Loss (income) before taxes
+ 646,947
+ (515,436)
+ 5,085,249
+ 10,401,892
+
+ 
+Deferred income tax expense
+ 112,892
+ -
+ 128,996
+ -
+
+Loss (income) and comprehensive
+ 
+Loss (income) for the period
+$
+759,839
+$
+(515,436)
+$
+5,214,245
+$
+10,401,892
+
+ 
+Loss (earnings) per share
+ 
+Basic and diluted
+$
+ 0.00
+ $
+ 0.00
+$
+ 0.03
+$
+ 0.07
+
+ 
+Weighted average number of
+ shares outstanding
+ 
+ Basic
+ 196,845,607
+ 172,219,733
+ 191,687,762
+ 154,883,601
+
+ Diluted
+ 196,845,607
+ 172,550,875
+ 191,687,762
+ 154,883,601
+
+SEE ACCOMPANYING NOTES
+
+3
+
+ASANKO GOLD INC.
+
+Condensed Interim Consolidated Statements of Changes in Equity (Unaudited)
+ Expressed in United States Dollars
+
+ Number of shares
+ Share capital
+ Equity reserves
+ Accumulated deficit
+ Total equity
+
+ 
+Balance as at December 31, 2013
+85,054,338
+$
+334,423,542
+$
+36,461,969
+$
+(142,280,546)
+$
+228,604,965
+
+Issuance of common shares for:
+ 
+ Acquisition of PMI (note 3)
+87,149,919
+ 166,743,940
+ 2,342,086 
+ - 
+ 169,086,026
+
+Exercise of share-based options (note 10(b))
+57,639
+ 109,602
+ (16,887)
+ - 
+ 92,715
+
+Share-based payments (note 11(a))
+ - 
+ - 
+ 3,295,346 
+ - 
+ 3,295,346 
+
+Loss and comprehensive loss for the period 
+ - 
+ - 
+ - 
+ (10,401,892)
+ (10,401,892)
+
+Balance June 30, 2014
+172,261,896
+$
+501,277,084
+$
+42,082,514
+$
+(152,682,438)
+$
+390,677,160
+
+ 
+Balance as at December 31, 2014
+174,075,607 
+$
+505,468,841 
+$
+43,032,396 
+$
+(164,922,180)
+$
+383,579,057 
+
+Issuance of common shares for:
+ 
+Bought deal financing (note 10(b))
+22,770,000
+ 34,283,788
+ -
+ -
+ 34,283,788
+
+Share-based payments (note 11(a))
+ - 
+ - 
+ 2,284,585
+ -
+ 2,284,585
+
+Loss and comprehensive loss for the period 
+ - 
+ - 
+ -
+ (5,214,245)
+ (5,214,245) 
+
+Balance as at June 30, 2015
+196,845,607 
+$
+539,752,629 
+$
+45,316,981 
+$
+(170,136,425)
+$
+414,933,185 
+
+ 
+
+SEE ACCOMPANYING NOTES
+
+4
+
+ASANKO GOLD INC.
+Condensed Interim Consolidated Statements of Cash Flows (Unaudited)
+Expressed in United States Dollars
+
+ Three months ended June 30,
+ Six months ended June 30,
+
+ 2015
+ 2014
+ 2015
+2014
+
+ 
+Cash provided by (used in):
+ 
+ 
+Operating activities:
+ 
+Income (loss) for the period
+ $
+(759,839) 
+$
+515,436 
+$
+(5,214,245) 
+$ 
+(10,401,892) 
+
+Items not involving cash:
+ 
+Accretion expense
+ 79,910 
+ 80,980 
+ 155,229 
+ 172,755 
+
+Change in embedded derivative liability
+ (330,960)
+ -
+ (326,518)
+ -
+
+Change in fair value of foreign currency
+ forward contracts
+ (326,447)
+ -
+ (57,396)
+ -
+
+Change in foreign currency warrant liability
+ -
+ (204,727)
+ -
+ (58,057)
+
+Deferred income tax expense
+ 112,892
+ -
+ 128,996
+ -
+
+Depreciation
+ 11,513 
+ 14,398 
+ 37,229 
+ 43,463 
+
+Depreciation included in work in progress
+ 416,359
+ -
+ 416,359
+ -
+
+Interest and other income
+ (185,068)
+ (356,116)
+ (457,990)
+ (732,333)
+
+Share-based payments
+ 395,923 
+ 563,615 
+ 1,239,243 
+ 1,648,195 
+
+Share-based payments included in
+ 
+exploration and evaluation expenditures
+ 61,360
+ - 
+ 182,516 
+ - 
+
+Unrealized foreign exchange loss (gain)
+ (1,092,120)
+ (891,660)
+ 1,130,364
+ (275,943)
+
+Write-off of property and equipment (note 12)
+ -
+ -
+ -
+ 205,695
+
+Changes in non-cash working capital:
+ 
+Accounts payable and accrued liabilities
+ 1,391,240
+ (4,039,539)
+ 1,253,029
+ (8,257,207)
+
+Prepaid expenses and deposits
+ (1,386,115) 
+ 58,651 
+ (3,380,054) 
+ (79,782) 
+
+Receivables
+ 
+ 
+54,298 
+ 
+342,488 
+ 63,959 
+ 
+93,181 
+
+ (1,557,056)
+ (3,916,474)
+ (4,829,279)
+ (17,641,925)
+
+ 
+Investing activities:
+ 
+Cash acquired on acquisition of PMI
+ -
+ -
+ -
+ 82,351,619
+
+Restricted cash (note 3)
+ -
+ 1,174,090
+ -
+ 1,174,090
+
+Mineral interests and development assets
+ (10,102,338)
+ (4,021,534)
+ (10,996,575)
+ (7,749,738)
+
+Purchase of property, plant and equipment
+ (50,005,942)
+ (1,814,544)
+ (81,688,318)
+ (3,092,115)
+
+Reclamation bond
+ (395)
+ -
+ (1,695,664)
+ -
+
+Interest received
+ 
+ 
+243,831 
+ 
+416,208 
+ 526,079 
+ 
+712,360 
+
+ (59,864,844)
+ (4,254,780)
+ (93,854,478)
+ 73,396,216
+
+ 
+Financing activities:
+ 
+Shares issued for cash, net of share
+ 
+issuance costs
+ (65,002) 
+ 79,923 
+ 34,283,788 
+ 92,715 
+
+ Long term debt proceeds, net of draw down fees 
+ 68,950,000
+ -
+ 68,950,000
+ -
+
+Deferred debt financing costs
+ 
+ 
+ (1,787,805)
+ 
+ (269,259)
+ (1,787,805)
+ 
+ (372,226)
+
+ 67,097,193
+ (185,336)
+ 101,445,983
+ (279,511)
+
+ 
+Impact of foreign exchange on cash and cash
+ 
+equivalents
+ 
+ 
+942,109 
+ 
+1,140,924 
+ (1,887,267) 
+ 
+464,871 
+
+ 
+Increase (decrease) in cash and cash equivalents for the period
+ 6,617,402
+ (7,210,666)
+ 874,959
+ 55,939,651
+
+Cash and cash equivalents, beginning of period
+ 222,937,109 
+ 237,751,755 
+ 228,679,552 
+ 174,601,438 
+
+Cash and cash equivalents, end of period
+ $
+229,554,511 
+$
+230,541,089 
+$
+229,554,511 
+ $ 
+230,541,089 
+
+Supplemental cash flow information (note 16)
+SEE ACCOMPANYING NOTES
+
+5
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+1.
+Nature of operations
+Asanko Gold Inc. (“Asanko” or the “Company”), changed its name from Keegan Resources Inc. on March 1, 2013. The Company was incorporated on September 23, 1999 under the laws of British Columbia, Canada. The Company is in the exploration and development stage and is focused on advancing its principal project, the Asanko Gold Mine (“the Project”), to commercial production. In addition to its principal project, the Company holds a portfolio of other Ghanaian gold concessions in various stages of exploration.
+On February 6, 2014, the Company completed the acquisition of 100% of the issued and outstanding shares of PMI Gold Corporation (“PMI”) (note 3). PMI is a resource exploration and development company which, through its subsidiaries, holds exploration and mining leases in the Ashanti and Asankrangwa Gold Belts of Ghana, Africa. PMI’s principal project is a gold development project known as the Obotan Gold Project which has been combined with Asanko’s principal project known as the Esaase Gold Project, to form the Asanko Gold Mine (“AGM” or “the Project”). 
+The head office, principal address and registered and records office of the Company are located at 1066 West Hastings Street, Suite 680, Vancouver, British Columbia, V6E 3X2, Canada.
+2.
+Basis of presentation 
+(a)
+Statement of compliance
+These condensed interim consolidated financial statements have been prepared in accordance with International Accounting Standard (“IAS”) 34, “Interim Financial Reporting” using accounting policies consistent with International Financial Reporting Standards (“IFRS”) as issued by the International Accounting Standards Board (“IASB”) and Interpretations issued by the International Financial Reporting Interpretations Committee (“IFRIC”). The accounting policies followed in these condensed interim consolidated financial statements are the same as those applied in the Company’s most recent audited consolidated financial statements for the year ended December 31, 2014. The condensed interim consolidated financial statements should be read in conjunction with the Company’s audited consolidated financial statements for the year ended December 31, 2014.
+
+These condensed interim consolidated financial statements were authorized for issue and approved by the Board of Directors on August 11, 2015.
+
+(b)
+Basis of presentation and consolidation
+The financial statements have been prepared on the historical cost basis, with the exception of asset retirement provisions (note 9), forward currency contract liabilities (note 19(d)(i)) and interest rate floor derivative liability (note 19(d)(ii)) which are measured at fair value. 
+All amounts are expressed in US dollars, unless otherwise stated, and the US dollar is the Company’s functional currency. References to C$ are to Canadian dollars.
+
+6
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+2.
+Basis of presentation (continued)
+(b)
+Basis of presentation and consolidation (continued)
+These condensed interim consolidated financial statements incorporate the financial statements of the Company and its controlled subsidiaries. Control exists when the Company has power, directly or indirectly, to govern the financial and operating policies of an entity as to obtain benefits from its activities. All significant intercompany amounts and transactions have been eliminated on consolidation. 
+The consolidated financial statements include the accounts of the Company and the following subsidiaries: 
+
+ Subsidiary name
+Jurisdiction
+Ownership
+
+ Keegan Resources (Ghana) Limited (“Asanko Ghana”)
+Ghana
+90%
+
+ Asanko Gold South Africa (PTY) Ltd.
+South Africa
+100%
+
+ Asanko International (Barbados) Inc.
+Barbados
+100%
+
+ Asanko Gold (Barbados) Inc.
+Barbados
+100%
+
+ Adansi Gold Company (GH) Limited (“Adansi Ghana”)
+Ghana
+100%
+
+ PMI Gold Corporation (“PMI”)
+Canada 
+100%
+
+(c)
+Significant accounting judgments and estimates
+The preparation of financial statements in conformity with IFRS requires management to make estimates and assumptions that affect amounts reported in the financial statements and accompanying notes. Actual results could differ from those estimates. The condensed interim consolidated financial statements have, in management’s opinion, been properly prepared using careful judgment within the framework of the significant accounting policies summarized in note 3 of the audited consolidated financial statements for the year ended December 31, 2014. 
+(d)
+Comparative figures
+Certain comparative figures have been reclassified to conform to the presentation adopted in the current period.
+
+7
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+3. 
+Acquisition of PMI
+On December 17, 2013, the Company and PMI entered into a definitive agreement whereby Asanko agreed to acquire all of the common shares of PMI (“Plan of Arrangement”). On February 6, 2014, Asanko completed the acquisition of PMI pursuant to the terms of the Plan of Arrangement. Under the terms of the Plan of Arrangement, former PMI shareholders received 0.21 of an Asanko common share for each PMI share held. The Company issued 87,149,919 of its common shares to acquire 100% of the issued and outstanding shares of PMI.
+With the acquisition of PMI, the Company acquired interest in certain mineral resource concessions described in note 6 as the Obotan Gold Project (note 6 (a)), Kubi (note 6 (b)), and the Diaso concessions (note 6 (b)).
+The allocation of the purchase price is as follows:
+
+Purchase price:
+
+ 
+ 
+
+87,149,919 common shares of Asanko at C$2.12 per share
+$
+ 166,743,940
+
+3,237,491 replacement options
+ 2,318,492
+
+126,000 replacement warrants
+ 23,594
+
+Total consideration
+$
+169,086,026
+
+ 
+
+Net assets acquired:
+Cash and cash equivalents
+$
+ 82,351,619
+
+Restricted cash
+ 1,098,514
+
+Receivables
+ 132,090
+
+Prepaid expenses
+ 235,286
+
+Property and equipment
+ 9,153,642
+
+Mineral interests and development assets
+ 97,934,748
+
+Accounts payable and accrued liabilities
+ (5,937,445)
+
+Asset retirement provision
+ (1,447,277)
+
+Deferred income tax liability
+ (14,435,151)
+
+Net assets acquired
+$
+ 169,086,026
+
+The fair value of the Company’s common shares, replacement options, replacement warrants and equity settled performance rights issued for the acquisition of PMI was determined using the closing market price of the Company’s shares at February 5, 2014 of C$2.12 and a foreign exchange rate of 1 CAD = 0.9025 USD at the same date. The fair value of the replacement options and replacement warrants was calculated using the Black-Scholes option pricing model using the following weighted average assumptions:
+
+ Replacement warrants
+Replacement options
+
+Risk free interest rate
+1.01%
+1.21%
+
+Expected dividend yield
+0%
+0%
+
+Share price volatility
+64.5%
+77.41%
+
+Share price at the date of valuation (PMI closing share price at Feb 5, 2014)
+C$0.45
+C$0.45
+
+Expected life 
+1.64 year
+2.80 years
+
+8
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+3. 
+Acquisition of PMI (continued)
+The Company commenced consolidating PMI’s financial position and results of operations effective February 6, 2014. 
+
+The Company recognized $162,538 interest income and $3,084,921 net loss related to PMI for the period from February 6, 2014 to March 31, 2014. Had PMI been consolidated from January 1, 2014, the three months ended March 31, 2014 consolidated statement of comprehensive loss would include additional interest revenue of $96,261 and an additional net loss of $(978,838).
+
+4. Property, plant and equipment
+
+ Administration
+Asanko Gold Mine 
+Totals
+
+ Office and equipment 
+Work in progress *
+ Buildings 
+ Equipment 
+ Motor vehicles 
+ 
+Cost
+$
+$
+$
+$
+$
+$
+
+ As at December 31, 2013
+ 528,237 
+1,138,621 
+765,115 
+475,403 
+1,063,822 
+3,971,198 
+
+ Additions
+101,277
+53,349,648
+804,438
+15,748
+839,333
+55,110,444
+
+ Acquired on acquisition of PMI
+245,571
+8,359,358
+-
+163,807
+384,906
+9,153,642
+
+ Dispositions
+(214,753)
+-
+-
+-
+-
+(214,753)
+
+ As at December 31, 2014
+660,332 
+62,847,627 
+1,596,553 
+654,958 
+2,288,061 
+68,020,531 
+
+ Additions
+21,966
+97,506,345
+-
+128,673
+115,725
+97,772,709
+
+ Dispositions
+-
+-
+-
+-
+(129,927)
+(129,927)
+
+ As at June 30, 2015
+682,298 
+160,353,972
+1,569,553 
+783,631 
+2,273,859 
+165,663,313 
+
+Accumulated depreciation
+ 
+ As at December 31, 2013
+ (384,993)
+ -
+ (174,718)
+ (272,125)
+(694,053)
+(1,525,889)
+
+ Depreciation
+(153,930)
+-
+(76,511)
+(124,327)
+(286,316)
+(641,084)
+
+ Dispositions
+9,058
+-
+-
+-
+-
+9,058
+
+ As at December 31, 2014
+(529,865)
+-
+(251,229)
+(396,452)
+(980,369)
+(2,157,915)
+
+ Depreciation
+(37,229)
+-
+(70,272)
+(62,020)
+(284,067)
+(453,588)
+
+ Dispositions
+-
+-
+-
+-
+129,927
+129,927
+
+ As at June 30, 2015
+ (567,094)
+ - 
+ (321,501)
+ (458,472)
+(1,134,509)
+ (2,481,576)
+
+Net book value
+ 
+ As at December 31, 2014
+130,467 
+62,847,627 
+1,318,324 
+258,507 
+ 1,307,691
+65,862,616 
+
+ As at June 30, 2015
+115,204 
+160,353,972 
+1,248,052 
+325,159 
+1,139,350
+163,181,737 
+
+*Work in progress at June 30, 2015 includes borrowing costs of $4.8 million (note 8).
+
+9
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+5.
+Reclamation deposit
+The Company is required to provide security to the Environmental Protection Agency of Ghana (“EPA”), as security for the performance by the Company of its reclamation obligations in respect of the Abriem, Abore and Adubea mining leases. The initial security totals $8.5 million and is made up of a Reclamation Deposit in the amount of $1.7 million and a bank guarantee of $6.8 million. 
+During the three months ended March 31, 2015 the Company deposited the Reclamation Deposit in a Ghanaian Bank in the joint names of the Company and the EPA. The Reclamation Deposit matures annually, but the Company is required to reinstate the deposit until receiving the final completion certificate by the EPA. The Company is expected to be released from this requirement 45 days following the third anniversary of the date the Company receives a final completion certificate.
+6.
+Mineral interests and development assets
+(a) 
+Asanko Gold Mine Project
+The Company’s principal mineral project is the Asanko Gold Mine Project, which consists of two neighboring gold projects the Obotan Gold Project (note 3) and the Esaase Gold Project, both located in the Republic of Ghana (“Ghana”), West Africa.
+Adansi Ghana owns 100% of the Obotan Gold Project which is located in the Amansie District of the Ashanti Region of Ghana, approximately 250 km northwest of the capital Accra. The Obotan Gold Project consists of the Abore, Abirem and Adubea concessions, all of which have been granted mining leases and cover an area of approximately 88.98 km2. These concessions contain five deposits: Nkran, Abore, Adubiaso Asuadai and Dynamite Hill. The Adubea concession is subject to a net smelter return royalty (“NSR”) of 0.5% payable to a third party. During 2014, the Company settled a dispute with Goknet Mining Company Limited (“Goknet”) and thereby eliminated Goknet’s claim of a 2% NSR over these three concessions. 
+Asanko Ghana owns a 100% interest in the Esaase Gold Project. Like Obotan, Esaase is located in the Amansie West District of Ghana. The property consists of several mining concessions of which the three largest are the Esaase Concession, Jeni River Concession and Sky Gold Concession (“SGM”). The Esaase Concession covers an area of approximately 42.32 km2. 
+The Esaase and Jeni River concessions are subject to a 0.5% royalty payable to the Bonte Liquidation Committee and the SGM concession is subject to a 2% NSR payable to Sky Gold Mines Limited. 
+Asanko Ghana owns a 100% interest in the Asuowin Concession situated contiguous to and directly south of the Esaase Gold property and a 100% interest in the Dawohodo prospecting concession adjacent to the Esaase Gold property. 
+Free carried interest to the Ghanaian government
+The Government of Ghana retains the right to a 10% free carried interest in the Project under Section 8 of the Ghanaian Mining Act. This entitles the Ghanaian government to 10% of declared dividends from the net profit of the Company’s respective subsidiaries at the end of a financial year. As the free carried interest does not result in an obligation on behalf of the Ghanaian government to contribute to the capital nor share in the entity’s losses, a non-controlling interest is not recognized while the respective subsidiaries of the Company are in a net liability position.
+The Company’s concessions are also subject to a 5.0% royalty on gold production payable to the Government of Ghana.
+
+10
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+6.
+Mineral interests and development assets (continued)
+(b) 
+Exploration projects
+Asanko Ghana owns a 100% interest in the Asumura Reconnaissance Concession (“Asumura property”) located in Ghana. The Asumura property is subject to a 3.5% NSR royalty payable to GTE Ventures Limited. (“GTE”), 50% of which may be purchased for $2,000,000 and the remaining 50% which may be purchased for an additional $4,000,000. 
+Adansi Ghana holds a 100% interest in the Datano, Kaniago, New Obuasi, Gyagyastreso, and Afiefiso concessions located within the Asankrangwa Gold Belt.
+During February 2015, Asanko Ghana completed the acquisition of various concessions from Midlands Mineral Corporation for cash consideration of $250,000. The Midland concessions are contiguous to the Company’s other mineral tenements. 
+Any of the exploration properties that are converted to a Mining License, in accordance with Ghanaian law, it will become subject to a 5% gross revenue royalty and a 10% free carried interest to the Ghanaian government. 
+Pursuant to the Goknet settlement the Company transferred Adansi Ghana’s Diaso concessions (Nkronua Atifi, Diaso, Amuabaka, Juabo, Manhia and Agyaka Manso) and the shares of Kubi Ghana, which holds a 100% interest in the Kubi mining leases to Goknet (note 15).
+(c)
+Mineral interests and development costs
+
+ 
+ Asanko Gold Mine 
+Other
+Total
+
+ 
+ Mineral interest
+ 
+ Balance, December 31, 2014
+$ 98,560,248
+$ 326,182
+$ 98,886,430
+
+ Acquisitions for the period
+-
+250,000
+250,000
+
+ Balance, June 30, 2015
+ 98,560,248
+576,182
+99,136,430
+
+ 
+ Deferred development assets
+ 
+ Balance, December 31, 2014
+84,358,132
+-
+84,358,132
+
+ Asset retirement costs
+3,185,770
+-
+3,185,770
+
+ Community affairs and environment
+123,801
+ 123,801
+
+ Development support costs 
+1,215,590
+-
+1,215,590
+
+ Feasibility studies and engineering
+42,119
+-
+42,119
+
+ Permitting
+18,167
+-
+18,167
+
+ Phase 2 feasibility study
+698,639
+-
+698,639
+
+ Share-based payments
+862,827
+-
+862,827
+
+ VAT receivable allowance
+8,648,260
+-
+8,648,260
+
+ Additions for the period
+14,795,173
+-
+14,795,173
+
+ Balance, June 30, 2015
+99,153,305
+-
+99,153,305
+
+ Total mineral interest and deferred development assets, June 30, 2015
+$ 197,713,553
+$ 576,182
+$ 198,289,735
+
+11
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+6.
+Mineral interests and development assets (continued)
+(c)
+ Mineral interests and development costs (continued)
+
+Prior to the commencement of construction of the Asanko Gold Mine, development costs were charge to Deferred development Assets. Now that construction is underway most of the development costs are included in Property, Plant and Equipment as Work in Progress. 
+
+ 
+ Asanko Gold Mine 
+Kubi
+Other
+Total
+
+ 
+ Mineral interest
+ 
+ Balance, December 31, 2013
+$ 4,695,444
+$ -
+$ 170,043
+$ 4,865,487
+
+ Fair value on acquisition of PMI
+93,471,540
+3,963,208
+500,000
+97,934,748
+
+ Acquisitions for the period
+393,264
+-
+1,250
+394,514
+
+ Dispositions for the period 
+-
+(3,963,208)
+(345,111)
+(4,308,319)
+
+ Balance, December 31, 2014
+ 98,560,248
+ -
+326,182
+ 98,886,430
+
+ 
+ Deferred development assets
+ 
+ Balance, December 31, 2013
+ 56,097,384
+ -
+ -
+ 56,097,384
+
+ Asset retirement costs
+2,953,356
+29,291
+-
+2,982,647
+
+ Camp operations
+2,484,765
+-
+-
+2,484,765
+
+ Development support costs 
+3,259,184
+-
+-
+3,259,184
+
+ Development drilling and assays
+2,087,042
+-
+-
+2,087,042
+
+ EPCM (early works)
+9,373,479
+-
+-
+9,373,479
+
+ Feasibly studies and engineering
+475,554
+-
+-
+475,554
+
+ Permitting
+769,283
+-
+-
+769,283
+
+ Share-based payments
+2,095,273
+-
+-
+2,095,273
+
+ Community affairs and environment
+
+2,652,186
+
+-
+
+-
+
+2,652,186
+
+ VAT receivable allowance
+2,110,626
+-
+-
+2,110,626
+
+ Additions for the year
+28,260,748
+29,291
+-
+28,290,039
+
+ Dispositions for the year
+-
+(29,291)
+-
+(29,291)
+
+ Balance, December 31, 2014
+84,358,132
+-
+ -
+84,358,132
+
+ Total mineral interest and deferred development assets, December 31, 2014
+$ 182,918,380
+$ -
+ $ 326,182
+$ 183,244,562 
+
+12
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+7.
+Exploration and evaluation expenditures
+Exploration and evaluation expenditures are comprised of expenditures incurred on mineral interests in areas where the technical feasibility and economic recoverability has not yet been established.
+
+ Three months ended June 30,
+Six months ended June 30,
+
+ 2015
+2014
+2015
+2014
+
+ 
+Exploration support and prospectivity mapping costs 
+$ 495,832
+$ 74,209
+$ 920,595
+$ 132,098
+
+Share-based compensation
+61,360
+-
+182,516
+-
+
+ $ 557,192
+$ 74,209
+$ 1,103,111
+$ 132,098
+
+8. 
+Long term debt
+On October 24, 2013, the Company entered into a Definitive Senior Facilities Agreement (“DSFA”) with a special purpose vehicle of RK Mine Finance Trust I ("Red Kite"). An amended DSFA was entered into on July 16, 2014 with terms substantially similar to the original DSFA. The debt provided under the amended DSFA will be utilized for developing Phase 1 of the Asanko Gold Mine Project instead of the Esaase Project as previously envisaged.
+The DSFA provides for two term loan facilities: a $130 million term loan facility (the "Project Facility") and a $20 million cost overrun facility (the "Overrun Facility"). Performance under the amended agreement is fully secured by the assets of the Company’s subsidiary PMI which includes the assets of Adansi Ghana, certain Asanko bank accounts and is guaranteed by the Company until Project completion.
+The first tranche of the loan for gross proceeds of $20.0 million and net cash proceeds of $19.7 million was drawn on July 18, 2014, the second tranche of the loan for gross proceeds of $40.0 million and net cash proceeds of $39.4 million was drawn on December 23, 2014, and the third and final tranche of the loan was drawn on June 1, 2015 for gross proceeds of $70.0 million and net cash proceeds of $69.0 million.
+The Project Facility is to be repaid by the end of the first quarter of 2020 with the first repayment date on July 1, 2016. Interest is calculated on a quarterly basis at a rate of LIBOR +6% and payable in advance on the first date of each quarter. There is a 1% minimum LIBOR rate which creates an interest rate floor. Interest accrued on a quarterly basis before the first repayment date is added to the loan principal amount. The loan is carried at amortized costs on the statement of financial position.
+As at June 30, 2015 the Company had incurred a total of $7.9 million in deferred debt financing costs (December 31, 2014 - $5.5 million). Deferred debt financing costs were initially deferred and subsequently reclassified as part of the loan on a pro-rata basis of the loan amount drawn and amortized over the life of the DSFA using the effective interest rate method. At June 30, 2015 the aggregate amount of the deferred debt financing costs and draw down fees of $10.0 million, were recognized as part of the loan. As at December 31, 2014, $3.4 million of the deferred debt financing costs and draw down fees, were recognized as part of the loan. As at June 30, 2015 an aggregate amount of $4.8 million (December 31, 2014 - $0.8 million) of loan accretion and accrued interest was capitalized to property, plant and equipment at an effective interest rate of approximately 11.21% . 
+An embedded derivative liability has been recognized for the loan in relation to the interest rate floor. The fair value of the embedded derivatives on draw down was estimated to be $1.3 million (note 19 (d)(ii)). The embedded derivative liability was revalued at June 30, 2015 with the change in fair value recognized in the statement of operations.
+
+13
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+8. 
+Long term debt (continued)
+
+Long term loan liability
+June 30, 2015
+December 31, 2014
+
+ 
+ 
+
+Gross proceeds
+ $ 130,000,000
+ $ 60,000,000
+
+Accrued interest
+ 3,211,578
+ 670,088
+
+ 133,211,578
+ 60,670,088
+
+Deferred financing costs, net of amortization, and fair value of embedded derivative liability at date of drawdowns 
+(10,059,945)
+(3,999,911)
+
+ 123,151,633
+56,670,177
+
+ Fair value of embedded derivative liability
+1,069,507
+777,048
+
+Long term loan liability
+ $ 124,221,140
+ $ 57,447,225
+
+The Company is not obligated to commence making repayments of the long-term loan and accrued interest until July 1, 2016.
+
+In addition to the DSFA the Company entered into an Offtake Agreement with Red Kite with the following details:
+
+·
+Sale of 100% of the future gold production from Phase 1 to a maximum of 2.22 million ounces to Red Kite;
+·
+Red Kite to pay for 100% of the value of the gold ten business days after shipment;
+·
+A provisional payment of 90% of the estimated value will be made one business day after delivery; 
+·
+The gold sale price will be a spot price selected during a nine day quotational period following shipment;
+·
+Should the Company wish to terminate the Offtake Agreement, a termination fee will be payable according to a schedule dependent upon the total funds drawn under the Project and Overrun Facility as well as the amount of gold delivered under the Offtake Agreement at the time of termination. 
+
+9.
+Asset retirement provision
+The asset retirement provision relates to current and historical disturbances on the mineral concessions within the area of interest of the Asanko Gold Mine. During the six months ended June 30, 2015, the Company recognized an additional $3.7 million (uninflated and undiscounted) related to the disturbances resulting from the mine construction activities. 
+The following is a continuity of the asset retirement provision at Asanko Gold Mine:
+
+ June 30, 2015
+ December 31, 2014 
+
+ 
+ 
+
+ 
+ 
+
+Opening balance
+$ 12,638,318
+$ 9,385,102
+
+Additions (reductions), net
+ 3,185,770
+ 2,953,356
+
+Accretion
+155,229
+299,860
+
+Closing balance
+$ 15,979,317
+$ 12,638,318 
+
+The present value of this obligation has been recorded as a non-current provision.
+
+14
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+10.
+Share capital
+(a)
+Authorized
+Unlimited common shares without par value; and
+Unlimited preferred shares without par value
+(b)
+Issued and outstanding common shares
+
+ Number 
+of Shares
+Amount
+
+Balance, December 31, 2013
+85,054,338
+$ 334,423,542
+
+Issued pursuant to the acquisition of PMI (note 3)
+87,149,919
+166,743,940
+
+Issued pursuant to settlement agreement (note 15)
+1,000,000
+2,375,880
+
+Share issuance costs
+-
+(226,423)
+
+Issued pursuant to exercise of share-based options (note 11(a)):
+ 
+- at C$ 1.12
+12,500
+12,792
+
+- at C$ 1.43
+5,250
+7,002
+
+- at C$ 1.96
+164,850
+303,124
+
+- at C$ 2.12
+112,500
+224,166
+
+- at C$ 2.15
+420,000
+848,414
+
+- at C$ 2.42
+156,250
+355,400
+
+Transfer from equity reserves on exercise of share-based options
+-
+401,004
+
+Balance, December 31, 2014
+174,075,607
+$ 505,468,841
+
+ 
+Issued pursuant to bought deal financing
+22,770,000
+36,386,961
+
+Share issuance costs
+-
+(2,103,173)
+
+Balance, June 30, 2015
+196,845,607
+$ 539,752,629
+
+Six months ended June 30, 2015
+On February 11, 2015, the Company closed a bought deal financing of 22,770,000 common shares at C$2.02 for gross proceeds $36.4 million or C$46.0 million. The Company incurred share issuance costs of $2.0 million, of which $1.8 million in fees were paid to the underwriters’. 
+Year ended December 31, 2014
+On February 6, 2014, the Company issued 87,149,919 of its common shares at a price of C$2.12 per share to acquire 100% of the issued and outstanding shares of PMI (note 3). The fair value of the shares issued was determined using the closing share price of the Company’s shares on the Toronto Stock Exchange on February 5, 2014 and an exchange rate of 1 CAD = 0.9025 USD at the same date, which were the final closing variables before the transaction completion (note 3). The Company incurred share issuance costs of $197,694 in regulatory fees.
+On August 19, 2014, the Company issued 1,000,000 of its common shares at a price of C$2.60 per share, pursuant to a settlement agreement (note 15(c)). The fair value of the shares issued was determined using the closing share price of the Company’s shares on the Toronto Stock Exchange on August 19, 2014 and an exchange rate of 1 CAD = 0.9138 USD at the same date. The Company incurred share issuance costs of $28,729 in regulatory fees.
+During the year ended December 31, 2014, the Company issued 871,350 common shares for gross proceeds of $1.75 million on exercise of options. In addition, the estimated fair value of these options of $401,004 was reclassified from equity reserves to share capital.
+
+15
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+11.
+Equity reserves
+(a)
+Share-based options
+The Company maintains a rolling share-based option plan providing for the issuance of share-based options for up to 10% of the Company’s issued and outstanding common shares. The Company may grant options from time to time to its directors, officers, employees and other service providers. The options vest 25% on the date of the grant and 12 ½ % every three months thereafter for a total vesting period of 18 months. 
+
+Share-based options movement
+ Number of Options
+Weighted average exercise price
+
+Balance, December 31, 2013
+6,298,500
+C$3.93
+
+Granted
+5,801,000
+C$2.16
+
+Replacement options granted on the acquisition of PMI
+
+3,237,491
+
+C$4.01
+
+Exercised
+(871,350)
+C$2.14
+
+Cancelled/Expired
+(3,871,350)
+C$4.51
+
+Balance, December 31, 2014
+10,594,291
+C$2.95
+
+Granted
+4,771,000
+C$2.05
+
+Cancelled/Expired
+(778,500)
+C$4.35
+
+Balance, June 30, 2015
+14,586,791
+C$2.58
+
+The following table summarizes the share-based options outstanding and exercisable at June 30, 2015:
+
+ Total options outstanding 
+Total options exercisable 
+
+Range of 
+exercise price
+Number
+Weighted average contractual life (years)
+Weighted average exercise price C$
+Number
+Weighted average contractual life (years)
+Weighted average exercise
+price C$
+
+C$1.00-C$2.00
+
+1,114,141
+
+4.50
+
+1.93
+
+439,141
+
+3.93
+
+1.95
+
+C$2.01-C$3.00
+9,988,000
+3.94
+2.18
+6,752,250
+3.75
+2.22
+
+C$3.01-C$4.00
+2,827,900
+2.13
+3.79
+2,827,900
+2.13
+3.79
+
+C$4.01-C$5.00
+630,500
+1.67
+4.54
+630,500
+1.67
+4.54
+
+C$6.01-C$7.00
+26,250
+1.94
+6.10
+26,250
+1.94
+6.18
+
+ 14,586,791
+3.53
+2.58
+10,676,041
+3.20
+2.76
+
+During the three months ended June 30, 2015, $0.5 million (three months ended June 30, 2014 - $0.6 million) in share-based payments were recorded in the statement of comprehensive loss, which includes $0.1 million included in exploration and evaluation expenses (three months ended June 30, 2014 – $nil). In addition, during the three months ended June 30, 2015, share-based payments of $0.4 million were included in mineral interests and development costs (three months ended June 30, 2014 – $0.7 million).
+
+During the six months ended June 30, 2015, $1.4 million (six months ended June 30, 2014 - $1.6 million) in share-based payments were recorded in the statement of comprehensive loss, which includes $0.2 million included in exploration and evaluation expenses (six months ended June 30, 2014 –$nil). In addition, during the six months ended June 30, 2015, share-based payments of $0.9 million were included in mineral interests and development costs (six months ended June 30, 2014 – $1.7 million).
+
+16
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+11.
+Equity reserves (continued)
+(a)
+Share-based options (continued)
+The fair value of the share-based options granted during the three months ended June 30, 2015 and 2014 used to calculate compensation expense, has been estimated using the Black-Scholes option pricing model with the following weighted average assumptions: 
+
+ Three months ended June 30,
+Six months ended June 30,
+
+ 2015
+2014
+2015
+2014
+
+ 
+ 
+ 
+ 
+
+Risk free interest rate
+ 0.78%
+ 1.41%
+ 0.71%
+ 1.38%
+
+Expected dividend yield
+ -
+ -
+ -
+ -
+
+Share price volatility
+ 52.58%
+ 56.08%
+ 53.26%
+ 59.33%
+
+Forfeiture rate
+ 3.57%
+ 3.47%
+ 3.57%
+ 3.47%
+
+Expected life of options
+ 3.11 years
+ 3.20 years
+ 3.11 years
+ 3.20 years
+
+(b)
+Performance rights
+In connection with the acquisition of PMI (note 3), the Company entered into an agreement with employees of PMI, who held PMI performance rights, to issue an aggregate of 117,158 common shares of the Company upon vesting of the performance rights. In April 2014, the performance rights had not vested and were cancelled due to termination of the employment agreements of the performance rights holders.
+(c)
+Warrants 
+The continuity of share purchase warrants for the six months ended June 30, 2015 is as follows:
+
+Exercise price
+Expiry date
+December 31, 2014
+Issued
+Exercised
+Expired
+June 30, 2015
+
+ 
+C$ 5.00
+September 26, 2015
+126,000
+-
+-
+-
+126,000
+
+ 126,000
+-
+-
+-
+126,000
+
+During the year ended December 31, 2014, the Company issued 126,000 replacement warrants pursuant to the acquisition of PMI (note 3).
+The continuity of share purchase warrants for the year ended December 31, 2014 is as follows:
+
+Exercise price
+Expiry date
+December 31, 2014
+Issued
+Exercised
+Expired
+December 31, 2014
+
+ 
+C$ 5.00
+September 26, 2015
+-
+126,000
+-
+-
+126,000
+
+C$ 4.00
+November 5, 2014
+9,443,500
+-
+-
+(9,443,500)
+-
+
+ 9,443,500
+126,000
+-
+(9,443,500)
+126,000
+
+17
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+12.
+Restructuring costs
+Restructuring charges incurred and/or accrued during the three months ended March 31, 2014 related to the closure of the PMI corporate offices in Canada and Australia as well as employee terminations due to redundancy post the acquisition of PMI. The restructuring was completed during April 2014. No restructuring charges were incurred in the three and six months ended June 30, 2015, therefore no comparative information is provided in the table below: The following table provides a summary of the restructuring charges for the three and six months ended June 30, 2014:
+
+Restructuring costs
+Three months ended June 30, 2014
+Six month ended June 30, 2014
+
+ 
+Employee termination benefits 
+$95,938
+$2,503,986
+
+Contracts termination costs
+-
+269,149
+
+Write-off of equipment
+-
+205,695
+
+$95,938
+
+$2,978,830
+
+13.
+Related party balances and transactions
+All transactions with related parties have occurred in the normal course of operations and are measured at the exchange amount agreed to by the parties. All amounts are unsecured, non-interest bearing and have no specific terms of settlement. 
+(a)
+Key management compensation
+Transactions with key management personnel were as follows:
+
+ Three months ended June 30,
+Six months ended June 30,
+
+ 2015
+2014
+2015
+ 2014
+
+ 
+
+Salaries and benefits
+$ 272,154
+$ 276,634
+$ 550,915
+$ 732,234
+
+Share-based payments
+193,127
+260,418
+612,298
+974,204
+
+ $ 465,281
+$ 537,052
+$ 1,163,214
+$ 1,706,438
+
+Key management personnel consist of directors and officers of the Company.
+
+(b)
+Other related parties balances and transactions
+Related party transactions (recoveries):
+
+ Three months ended June 30,
+Six months ended June 30,
+
+ 2015
+ 2014
+ 2015
+ 2014
+
+ 
+
+Universal Mineral Services Ltd. (“UMS”) (i)
+ $ 20,560
+ $ 48,952
+ $ 52,226
+ $ 95,307
+
+Related party balances receivable (payable):
+
+ June 30, 2015
+ December 31, 2014
+
+ 
+ 
+
+UMS (i)
+$ (12,544)
+$ (8,137)
+
+UMS – prepaid deposit (i)
+-
+21,550
+
+ $ (12,544)
+$ 13,413
+
+UMS is a private company with certain key management personnel and directors in common with the Company, and pursuant to an agreement dated March 30, 2012, provided geological, corporate development, administrative and management services to the Company on a cost recovery basis. Effective July 1, 2013, the Company notified UMS that it would no longer require any personnel services but continued to share the cost of UMS’s office tenancy and IT services where required until May 31, 2015.
+
+18
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+14.
+Commitments and contractual obligations
+As at June 30, 2015, the Company had contractual obligations totaling $171.6 million, relating to long term debt (December 31, 2014 - $73.7 million). Contractual obligations related to the long term debt are subject to changes in the three-month LIBOR rate. Prepayment terms allow the Company to prepay the long term debt, with no penalty, in whole or in part at any time. At June 30, 2015 the long term debt had a prepayment value of $133.5 million (December 31, 2014 - $60.7 million).
+In addition, the Company has entered into certain construction and engineering contracts relating to the construction of the Asanko Gold Mine Phase 1. 
+
+ Contractual obligations
+Payments due by period
+
+ Total
+1 year
+2-3 years
+4-5 years
+
+ 
+
+Long term debt, including future interest charges
+$ 171,564,682
+$ -
+$ 69,744,320
+$ 101,820,362
+
+ 
+Open purchase orders
+125,747,000 
+125,747,000
+- 
+ -
+
+ 
+ $ 297,311,682
+$ 125,747,000
+$ 69,744,320
+$ 101,820,362
+
+15.
+Contingencies
+ 
+Except as set forth below, there are no material legal proceedings to which the Company is a party or, to the best of the Company's knowledge, to which any of the Company's property is or was subject. 
+Goknet Arbitration
+On August 15, 2014, the Company entered into a settlement agreement with Goknet to eliminate Goknets’s claim for a 2% NSR royalty on Phase 1 of the Asanko Gold Mine Project. The settlement involved cash, one million Asanko shares (note 10(b)) and the transfer to Goknet of two exploration projects, Kubi and Diaso (note 6(b)). Included in the agreement, the Company retained a right to match any future offer made to Goknet with respect to a disposal of the Diaso Project concessions.
+Godbri Datano Claim
+On September 14, 2012, Godbri Mining Limited (“Godbri”) lodged a statement of claim in the High Court of Justice, Accra, Ghana, seeking a declaration that, among other things, that the sale of the Datano concession to Adansi Ghana is null and void. Godbri claims to be the owner of 38% of the issued share capital of Midras Mining Limited (“Midras”) and states that it did not consent to the acquisition of the Datano concession by Adansi Ghana. Adansi Ghana filed a defence on November 12, 2012. Godbri subsequently amended its claim on January 29, 2013 and in March 2013, both the Company and Adansi Ghana filed further defences. The matter is currently awaiting trial. The Datano concession was acquired in August 2013 from Midras. The Company considers the claim made by Godbri to be spurious and without any merit. Godbri is a private Ghanaian company. 
+Matisse and Madison Claim
+On October 22, 2013, Matisse & Madison Co. Ltd. (“M&M”) lodged a statement of claim in the High Court of Justice, Accra, Ghana, seeking compensatory damages of $20 million plus interest for breach of a verbal contract related to the purchase of the Datano Concessions from Midras. The Company maintains that this is a frivolous lawsuit lacking in merit and will vigorously defend itself. 
+
+19
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+16.
+Supplemental cash flow information
+
+ Three months ended June 30,
+Six months ended June 30,
+
+ 2015
+2014
+2015
+2014
+
+ 
+Change in asset retirement provision included in mineral interest 
+$ 493,313
+ $ 376,490
+$ 3,185,770
+ $ 467,825
+
+Change in accounts payable related to mineral interests and development costs 
+-
+2,761,678
+-
+3,120,360
+
+Change in accounts payable related to property, plant and equipment
+
+9,520,298
+
+2,837,741
+
+12,113,977
+
+2,837,741
+
+Borrowing costs included in property, plant and equipment
+
+2,651,655
+
+-
+
+3,970,414
+
+-
+
+Fair value of mineral interests assigned on acquisition of PMI
+
+-
+
+-
+
+-
+
+115,285,828
+
+Reclassification of equity reserves on exercise of share-based options
+
+-
+
+(10,785)
+
+-
+
+(16,887)
+
+Share-based compensation included in mineral interests and development cost
+
+383,006
+
+739,822
+
+862,828
+
+1,647,151
+
+17.
+Segmented information
+Geographic Information
+The Company operates in one reportable operating segment, being the exploration and development of resource properties.
+Geographic allocation of non-current assets
+
+June 30, 2015
+Canada
+Ghana
+Total
+
+ 
+Property, plant and equipment
+$ 65,193
+$ 163,116,544
+$ 163,181,737
+
+Reclamation deposit
+-
+1,695,664
+1,695,664
+
+Mineral interest and development assets
+-
+198,289,735
+198,289,735
+
+Investment in associate
+1,000
+-
+1,000
+
+ $ 66,193
+$ 363,101,943 
+$ 363,168,136
+
+December 31, 2014
+Canada
+Ghana
+Total
+
+ 
+Property, plant and equipment
+$ 60,120
+$ 65,802,496
+$ 65,862,616
+
+Deferred debt financing costs
+-
+2,936,146
+2,936,146
+
+Mineral interest and development assets
+-
+183,244,562
+183,244,562
+
+Investment in associate
+1,000
+-
+1,000
+
+ $ 61,120
+$ 251,983,204 
+$ 252,044,324
+
+20
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+17.
+Segmented information (continued)
+
+Geographic allocation of loss (income)
+
+ Three months ended June 30, 
+Six months ended June 30,
+
+ 2015
+2014
+2015
+2014
+
+ 
+Canada
+$ 881,342
+$ (1,119,276)
+$ 5,512,391
+$ 8,353,915
+
+Ghana
+(125,503)
+603,840
+(298,146)
+2,047,977
+
+Total
+$ 759,839
+$ (515,436)
+$ 5,214,245
+$ 10,401,892
+
+18.
+Loss (earnings ) per share
+
+Basic loss (earnings) per share amounts are calculated by dividing the net loss (income) for the period by the weighted average number of ordinary shares outstanding during the period. 
+Weighted average number of common shares are calculated as follows: 
+
+ Three months ended June 30,
+Six months ended June 30,
+
+ 2015
+2014
+2015
+2014
+
+ 
+Issued common shares, beginning of period
+ 196,845,607
+ 172,216,757
+ 174,075,607
+ 85,054,338
+
+Effect of shares issued on:
+ 
+Acquisition of PMI
+ -
+-
+-
+69,816,233
+
+Bough deal financing
+ -
+-
+17,612,155
+ 
+Exercise of share-based options
+ -
+2,976
+-
+13,030
+
+Weighted average number of common shares basic, end of period 
+ 196,845,607
+172,219,733
+191,687,762
+154,883,601
+
+Dilutive effect of share-based options
+ -
+331,142
+-
+-
+
+Weighted average number of common shares diluted, end of period
+ 196,845,607
+172,550,875
+191,687,762
+154,883,601
+
+Basic and diluted loss per share amounts are the same as there are no instruments that have a dilutive effect on loss.
+
+19.
+ Financial instruments
+
+As at June 30, 2015 the Company’s financial instruments consist of cash and cash equivalents, receivables, reclamation bond, accounts payable and accrued liabilities, long term debt and an embedded derivative in relation to an interest rate floor, and foreign currency forward contracts.
+
+The fair value of these financial instruments approximates their carrying value, unless otherwise noted.
+
+The risk exposure arising from these financial instruments is summarized as follows:
+
+21
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+19.
+ Financial instruments (continued)
+ (a)
+Credit risk
+Credit risk is the risk of an unexpected loss if a customer or a financial instrument fails to meet its contractual obligations. The Company is subject to credit risk on the cash and cash equivalent balances held at banks in each of Canada and Ghana. The majority of the Company’s cash is held in Canadian based banking institutions, authorized under the Bank Act (Canada) to accept deposits. As at June 30, 2015, the Company had receivables related refundable sales tax and interest receivable of $nil (December 31, 2014 - $0.07 million).
+ (b)
+Liquidity risk
+The Company’s approach to managing liquidity is to ensure that it will have sufficient liquidity to settle obligations and liabilities when due. As at June 30, 2015 the Company had a cash and cash equivalents balance of $229.6 million (December 31, 2014 – $228.7 million) to settle current accounts payable and accrued liabilities of $29.0 million (December 31, 2014 - $15.3 million) that are considered short term and expected to be settled within 30 days. The Company is not obligated to commence making repayments of the long term loan balance and accrued interest of $133.2 million, until July 1, 2016. The Company also has a $20.0 million cost overrun facility available.
+(c)
+Market risk
+(i)
+Interest rate risk
+Interest rate risk is the risk that the fair value or future cash flows of a financial instrument will fluctuate because of changes in market interest rates.
+The Company’s loan agreement with Red Kite (note 8) provides for interest at LIBOR plus 6% with a minimum LIBOR of 1%. 
+The Company’s sensitivity to a 1% decrease or increase in market rates of interest would have an immaterial effect on the Company’s interest expense/income for the six months ended June 30, 2015.
+ (ii)
+Foreign currency risk
+The Company is exposed to foreign currency risk through its foreign currency monetary assets and liabilities. A significant change in the currency exchange rate between the US dollar and Canadian dollar (CAD) and South African rand (ZAR) could have an effect on the Company’s results of operations, financial position and cash flows. As at June 30, 2015, the Company had entered into a series of forward contracts to purchase a total of ZAR233 million in exchange for Canadian and US dollars at specified exchange rates. These forward contracts have settlement terms that range from one month to eleven months. As at June 30, 2015, the Company had a CAD cash balance of $9.8 million (December 31, 2014 – $30.8 million) and ZAR balance of $16.3 million (December 31, 2014 - $0.4 million) expressed in US dollar equivalent.
+
+22
+
+ASANKO GOLD INC. 
+Notes to Condensed Interim Consolidated Financial Statements (Unaudited)
+Three and six months ended June 30, 2015 and 2014
+Expressed in United States Dollars
+
+19.
+ Financial instruments (continued)
+(c)
+Market risk (continued)
+(iii)
+Other price risk 
+Other price risk is the risk that the future cash flows of a financial instrument will fluctuate because of changes in market prices, other than those arising from currency risk or interest rate risk. As at June 30, 2015 and December 31, 2014, the Company had no financial instruments exposed to other price risk. 
+(d)
+Fair values
+(i)
+Foreign currency forward contracts derivative
+During the six months ended June 30, 2015, the Company entered into a series of forward contracts to purchase ZAR in exchange for Canadian and US dollars at specified exchange rates. These forward contracts have settlement terms that range from one month to eleven months.
+During the three months ended June 30, 2015, the Company settled several currency forward contracts and realized a foreign exchange loss of $0.1 million. During the six months ended June 30, 2015, the Company realized a foreign exchange gain of $0.3 million on settlement of currency forward contracts. 
+The fair values of outstanding foreign currency forward contracts are determined using the forward rates at the measurement date, with the resulting value discounted back to present value and are categorized within level 2 of the fair value hierarchy.
+(ii) 
+Embedded derivative
+The embedded derivative liability associated with the interest rate floor of the long term loan is categorized within level 2 of the fair value hierarchy. The fair value of the embedded derivative was estimated using the three-month LIBOR forward rates to 2020 ranging from 0.28% to 2.70% using an option pricing model.
+(iii) 
+Other
+The carrying values of cash and cash equivalents, receivables and accounts payable and accrued liabilities approximate their respective fair values due to the short-term nature of these instruments. The fair value of the long term debt approximates its carrying value due to the floating rate nature of the debt instrument.
+(e)
+Items of income, expense, gains or losses arising from financial instruments
+
+ Three months ended June 30, 
+Six months ended June 30,
+
+ 2015
+2014
+2015
+2014
+
+ 
+Interest income from loans and receivable
+$ 185,068
+$ 356,116
+$ 457,990
+$ 732,333
+
+ 
+Realized foreign exchange gain (loss) from currency forward contracts
+(87,817)
+-
+276,237
+-
+
+ 
+Realized and unrealized net foreign exchange gain (loss) from other financial instruments
+1,048,048
+2,765,317
+(950,016)
+2,613,089
+
+23

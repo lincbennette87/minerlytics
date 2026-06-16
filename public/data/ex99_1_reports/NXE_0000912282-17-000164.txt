@@ -1,0 +1,560 @@
+EX-99.1
+2
+ex99_1.htm
+INVESTOR RIGHTS AGREEMENT
+
+EXHIBIT 99.1
+
+ 
+
+Execution Version
+
+THIS INVESTOR RIGHTS AGREEMENT made the 21st day of July, 2017.
+
+AMONG:
+
+NEXGEN ENERGY LTD.
+
+a corporation existing under the laws of the Province of British Columbia
+
+(the “Company”)
+
+- and -
+
+CEF HOLDINGS LIMITED
+
+a corporation existing under the laws of Hong Kong
+
+(“CEF”)
+
+- and -
+
+CEF (CAPITAL MARKETS) LIMITED
+
+a corporation existing under the laws of Hong Kong
+
+(“CEFCM”)
+
+- and -
+
+NEXT GLOBAL HOLDINGS LIMITED
+a corporation existing under the laws of the British Virgin Islands
+
+(“Next Global”)
+
+- and -
+
+SPRINKLE RING INVESTMENT LIMITED
+a corporation existing under the laws of the British Virgin Islands
+
+(“Sprinkle Ring”, and together with CEFCM and Next Global, the “Investors”).
+
+WHEREAS the Company entered into an investment agreement dated June 10, 2016 with each of CEFCM and Sprinkle Ring pursuant to which such Investors agreed to purchase and the Company agreed to sell the 2016 Debentures (as defined herein);
+
+AND WHEREAS the Company issued the 2016 Debentures to such Investors on June 10, 2016;
+
+AND WHEREAS the Company has entered into an investment agreement dated July 18, 2017 with each of CEFCM and Next Global (the “Investment Agreements”) pursuant to which such Investors agreed to
+
+ 
+
+- 2 -
+
+purchase and the Company agreed to sell to CEFCM and Next Global certain Common Shares (as defined herein) and the 2017 Debentures (as defined herein);
+
+AND WHEREAS, after giving effect to such issuances, the Investors, collectively, will hold an Investor Percentage (as defined herein) equal to approximately 19.4%;
+
+AND WHEREAS in consideration of the Company’s agreement to issue and sell, and CEFCM’s and Next Global’s agreement to purchase, the securities issuable pursuant to the Investment Agreements, the Company has agreed to grant certain rights to the Investors and the Investors agreed to adhere to certain restrictions, all on the terms and subject to the conditions set out herein;
+
+THIS AGREEMENT WITNESSES THAT in consideration of the respective covenants and agreements of the Parties herein contained and for other good and valuable consideration (the receipt and sufficiency of which are acknowledged by each Party), the Parties agree as follows:
+
+ARTICLE 1
+INTERPRETATION
+
+1.1
+
+Defined Terms
+
+For the purposes of this Agreement, unless the context otherwise requires, the following terms shall have the respective meanings set out below and grammatical variations of such terms shall have corresponding meanings:
+
+“2016 Debentures” means the 7.5% 2016 unsecured convertible debentures issued by the Company to CEFCM and Sprinkle Ring pursuant to a trust indenture dated June 10, 2016, as amended and restated by an indenture dated July 21, 2017, as may be further amended from time to time;
+
+“2017 Debentures” means the 7.5% 2017 unsecured convertible debentures issued by the Company to CEFCM and Next Global pursuant to a trust indenture dated July 21, 2017, as may be amended from time to time;
+
+“Act” means the Business Corporations Act (British Columbia);
+
+“Affiliate” means, with respect to a Person (first Person), (i) a Person that is an “affiliate” of the first Person within the meaning ascribed to that term in the Securities Act (British Columbia); or (ii) any other Person that is controlled by the same Person as the first Person, and for the purpose of this paragraph (ii), a Person (first Person) is considered to control another Person if the first Person holds a sufficient number of the voting rights attached to all outstanding voting securities of such other Person to affect materially the control of such other Person, and, if the first Person holds more than 30% of the voting rights attached to all outstanding voting securities of such other Person, the first Person is deemed, in the absence of evidence to the contrary, to hold a sufficient number of the voting rights to affect materially the control of such other Person, provided that for the purposes of this paragraph (ii), such control or ownership shall be demonstrated to the satisfaction of the Company, acting reasonably;
+
+“Applicable Securities Legislation” means, at any time, as the case may be: (i) applicable securities laws in the provinces and territories of Canada at such time and the respective regulations and rules made under those securities laws together with applicable policy statements, blanket orders and rulings of, and all applicable discretionary orders or rulings, if any, granted by,
+
+- 3 -
+
+the applicable securities commission or regulatory authority in each such province and territory, together with applicable published policy statements and instruments of the Canadian Securities Administrators; and (ii) the United States Securities Act of 1933, as amended, and the rules and regulations promulgated thereunder, applicable United States state securities laws, or regulations adopted under any of the foregoing;
+
+ 
+
+“Board” means the board of directors of the Company as it may be constituted from time to time;
+
+“Business Day” means any day other than a Saturday, Sunday or any other day on which Schedule I Canadian chartered banks are not generally open for business;
+
+“Change of Control” means (i) the acquisition by any transaction, directly or indirectly, by a Person or group of Persons acting jointly or in concert of voting control or direction over 50% or more of the outstanding Common Shares, (ii) the amalgamation, consolidation or merger of the Company with or into another entity as a result of which the holders of the Common Shares immediately prior to such transaction, directly or indirectly, hold less than 50% of voting control or direction over the entity carrying on the business of the Company following such transaction, (iii) the sale, assignment, transfer or other disposition of all or substantially all of the property or assets of the Company to another entity in which the holders of the Common Shares immediately prior to such transaction, directly or indirectly, hold less than 50% of voting control or direction following such transaction, or (iv) the removal by resolution of the shareholders of the Company, of more than 51% of the then incumbent directors of the Company which removal has not been recommended in the Company’s management information circular, or the failure to elect to the Board a majority of the directors proposed for election by management in the Company’s management information circular;
+
+“Common Shares” means the common shares in the capital of the Company issued and outstanding from time to time;
+
+“Debentures”, collectively, means the 2016 Debentures and the 2017 Debentures;
+
+“Exchange” means the TSX, NYSE or such other stock exchange where the Common Shares are listed from time to time;
+
+“Fundamental Change” means a Change of Control that includes as elements thereof: (A) one of items (i), (ii) or (iii) of the definition of Change of Control; and (B) item (iv) of the definition of Change of Control; and (C) the Chief Executive Officer of the Company as of the date hereof no longer being actively employed as the most senior executive officer of the Company or the entity carrying on the business of the Company following completion of the Change of Control (for the avoidance of doubt, (C) may occur prior to, concurrent with or following a Change of Control, and need not occur as a result of or in conjunction with the Change of Control);
+
+“Investor Nominee” shall have the meaning set out in Section 2.1(a);
+
+“Investment Agreements” shall have the meaning set out in the recitals hereto;
+
+“Investor Percentage” means, at any given time, as applicable, the percentage calculated by dividing the number of Common Shares (including Common Shares issuable on conversion of the principal amount of the Debentures (on an as-if converted basis) then beneficially owned by the Investors and their Affiliates, if bound pursuant to the terms of this Agreement, by the total number of Common Shares then outstanding, adjusted by adding the Common Shares issuable on
+
+- 4 -
+
+conversion of the principal amount of the Debentures (on an as-if converted basis) then beneficially owned by the Investors and their Affiliates, if bound pursuant to the terms of this Agreement, but deducting any Common Shares issued after the date of this Agreement upon exercise of stock options or other equity-based compensation arrangements of the Company;
+
+“NYSE” means the NYSE MKT LLC or its successor or successors;
+
+“Parties” means the parties to this Agreement and “Party” means one of them;
+
+“Person” includes an individual, corporation, company, partnership, joint venture, association, trust, trustee, unincorporated organization or government or any agency or political subdivision thereof; and
+
+“TSX” means the Toronto Stock Exchange or its successor or successors.
+
+1.2
+
+Rules of Construction
+
+Except as may be otherwise specifically provided in this Agreement and unless the context otherwise requires, in this Agreement:
+
+(a)
+
+the terms “Agreement”, “this Agreement”, “the Agreement”, “hereto”, “hereof”, “herein”, “hereby”, “hereunder” and similar expressions refer to this Agreement in its entirety and not to any particular provision hereof;
+
+(b)
+
+references to an “Article” or “Section” followed by a number or letter refer to the specified Article or Section to this Agreement;
+
+(c)
+
+the division of this Agreement into articles and sections and the insertion of headings are for convenience of reference only and shall not affect the construction or interpretation of this Agreement;
+
+(d)
+
+words importing the singular number only shall include the plural and vice versa and words importing the use of any gender shall include all genders;
+
+(e)
+
+the word “including” is deemed to mean “including without limitation”;
+
+(f)
+
+any reference to this Agreement means this Agreement as amended, modified, replaced or supplemented from time to time;
+
+(g)
+
+any reference to a statute, regulation or rule shall be construed to be a reference thereto as the same may from time to time be amended, re-enacted or replaced, and any reference to a statute shall include any regulations or rules made thereunder;
+
+(h)
+
+any time period within which any action is to be taken hereunder shall be calculated excluding the day on which the period commences and including the day on which the period ends; and
+
+(i)
+
+whenever any action is required to be taken or period of time is to expire on a day other than a Business Day, such action shall be taken or period shall expire on the next following Business Day.
+
+- 5 -
+
+1.3
+
+Entire Agreement
+
+This Agreement and the Investment Agreements constitute the entire agreement between the Parties with respect to the subject matter hereof and thereof and supersede all prior agreements, understandings, negotiations and discussions, whether written or oral. There are no conditions, covenants, agreements, representations, warranties or other provisions, express or implied, collateral, statutory or otherwise, relating to the subject matter hereof except as provided in the aforesaid agreements.
+
+1.4
+
+Time of Essence
+
+Time shall be of the essence of this Agreement.
+
+1.5
+
+Governing Law and Submission to Jurisdiction
+
+This Agreement shall be interpreted and enforced in accordance with, and the respective rights and obligations of the Parties shall be governed by, the laws of the Province of British Columbia and the federal laws of Canada applicable in that province.
+
+Each of the Parties irrevocably and unconditionally (i) submits to the non-exclusive jurisdiction of the courts of the Province of British Columbia over any action or proceeding arising out of or relating to this Agreement, (ii) waives any objection that it might otherwise be entitled to assert to the jurisdiction of such courts, and (iii) agrees not to assert that such courts are not a convenient forum for the determination of any such action or proceeding.
+
+1.6
+
+Severability
+
+If any provision of this Agreement is determined by a court of competent jurisdiction to be invalid, illegal or unenforceable in any respect, all other provisions of this Agreement shall nevertheless remain in full force and effect so long as the economic or legal substance of the transactions contemplated hereby is not affected in any manner materially adverse to any Party hereto. Upon such determination that any term or other provision is invalid, illegal or incapable of being enforced, the Parties hereto shall negotiate in good faith to modify this Agreement so as to effect the original intent of the Parties hereto as closely as possible in an acceptable manner to the end that transactions contemplated hereby are fulfilled to the extent possible.
+
+ARTICLE 2
+BOARD OF DIRECTORS
+
+2.1
+
+Nomination Right
+
+(a) Provided that the Investor Percentage is equal to or greater than 15%, CEF, on behalf of the Investors, shall be entitled to designate one nominee to serve as a director of the Company (the “Investor Nominee”) for election or appointment to the Board, provided that such Investor Nominee: (i) consents in writing to serve as a director; (ii) satisfies the Company’s eligibility criteria of general application (as determined by the Board, Chief Executive Officer and/or an authorized committee of the Board, acting reasonably); (iii) is eligible under the Act and pursuant to the rules of any stock exchange or market upon which the Common Shares are listed and Applicable Securities Legislation to serve as a director; and (iv) such nominee signs a written resignation, to take effect immediately at such time as the Investor Percentage shall decrease below 15%. For the avoidance of doubt, the entitlement of CEF, on behalf of the Investors, to designate the Investor Nominee is not transferable with the 2017 Debentures or
+
+- 6 -
+
+ 
+
+the 2016 Debentures to a Person other than an Affiliate of a current shareholder of CEF as certified by the holders of the Debentures in accordance with the terms of the Debentures.
+
+ 
+
+(b) CEF shall have the right to replace the Investor Nominee for any reason (including without limitation, by reason of a replacement request being made by the Investor Nominee), it being understood and agreed that the conditions set forth in Section 2.1(a)(i), (ii), (iii) and (iv) shall apply to any such new Investor Nominee.
+
+(c) The Company shall, upon issuance of the 2017 Debentures and subject to the conditions set forth in Section 2.1(a)(i), (iii) and (iv), appoint Warren Gilman to serve on the Board as the initial Investor Nominee until the next annual meeting of the Company’s shareholders.
+
+(d) The Company shall advise CEF, on behalf of the Investors, of the date on which proxy solicitation materials are to be mailed for the purpose of any meeting of shareholders at which directors of the Company are to be elected, to the extent practicable, at least 20 Business Days prior to such mailing date and CEF, on behalf of the Investors, shall advise the Company of its Investor Nominee at least 15 Business Days prior to the mailing date. If CEF, on behalf of the Investors, does not advise the Company of the identity of the Investor Nominee prior to any such deadline, then the Investors will be deemed to have nominated the incumbent Investor Nominee.
+
+(e) In the event that the Investor Nominee shall cease to serve as a director of the Company, whether due to such Investor Nominee’s death, disability, resignation or removal, the Company shall cause the Board to promptly appoint a replacement Investor Nominee, provided that such nominee fulfills the provisions set forth in Section 2.1(a)(i), (ii), (iii) and (iv).
+
+(f) Notwithstanding the foregoing, if either any governmental authority or stock exchange or market, as applicable, objects to the Investor Nominee, the Investor Nominee will immediately resign as a director of the Company.
+
+2.2
+
+Directors’ Liability Insurance
+
+An Investor Nominee shall be entitled to the benefit of any directors’ liability insurance and indemnity to which other directors of the Company are entitled.
+
+ARTICLE 3
+STANDSTILL
+
+3.1
+
+Standstill
+
+CEF and each of the Investors shall not, directly or indirectly, whether alone or jointly or in concert with any other Person, without the prior written consent of the Board, (i) for so long as the Investor Percentage is equal to or greater than 10%; (ii) until the Parties otherwise agree in writing; or (iii) until the completion of a Fundamental Change:
+
+(a)
+
+acquire, agree to acquire, or make any proposal or offer to acquire, directly or indirectly, ownership of (or control or direction over) any securities of the Company or any of its Affiliates (other than securities issued in accordance with the terms of the Debentures);
+
+(b)
+
+solicit proxies from shareholders or other security holders of the Company or any of its Affiliates or otherwise attempt to influence the conduct of the shareholders or other security holders of the Company or any of its Affiliates;
+
+- 7 -
+
+(c)
+
+solicit, initiate or engage in any discussions or negotiations, or enter into any agreement, commitment or understanding, or otherwise act jointly or in concert with any Person in order to propose or effect any take-over bid, tender or exchange offer, amalgamation, merger, arrangement or other business combination involving the Company or any of its Affiliates or propose or effect any acquisition of assets from the Company or any of its Affiliates;
+
+(d)
+
+in any manner, directly or indirectly, seek to control or influence the Board or the board of directors of any Affiliate of the Company or the management or policies of the Company or affect control of the Company or any of its Affiliates (which covenant shall not prevent the Investor Nominee from acting in a manner consistent with fulfilling his or her fiduciary duties as a director of the Company);
+
+(e)
+
+make any public announcement with respect to the foregoing or inconsistent with the foregoing, or assist, advise, encourage or agree, discuss, negotiate or otherwise act in concert with, any Person to do any of the foregoing (including by providing or arranging any financing);
+
+(f)
+
+take any action with respect to the Company or its Affiliates that would reasonably be expected to require the Company or its Affiliates to make a public announcement regarding any of the types of matters described in items (a) through (d) above; or
+
+(g)
+
+request the Company, directly or indirectly, to amend or waive any of these standstill provisions.
+
+For the avoidance of doubt, if the Investor Percentage drops below 10% and then goes back to 10% or greater in a single transaction or a series of related transactions, the restrictions of this Section 3.1 shall be reinstated.
+
+ARTICLE 4
+VOTING ALIGNMENT
+
+4.1
+
+Change of Control Voting Alignment
+
+Each of the Investors covenant and agree with the Company that, (i) for so long as the Investor Percentage is equal to or greater than 10%; (ii) until the Parties otherwise agree in writing; or (iii) until the completion of a Fundamental Change:
+
+(a)
+
+it will not convert the Debentures in the circumstances of an unsolicited (hostile) take-over bid being made that constitutes a Change of Control, and will not tender or agree to tender the Debentures to such a bid, unless and until the Board shall subsequently recommend that shareholders of the Company accept such bid or the bidder takes-up and pays for sufficient Common Shares that it, and Persons acting jointly or in concert with it, hold more than 66 2/3% of the outstanding Common Shares on a fully-diluted basis;
+
+(b)
+
+it will not tender or agree to tender any Common Shares it holds, including as a result of the conversion of the Debentures or otherwise acquired by it by any means, to an unsolicited (hostile) take-over bid being made that constitutes a Change of Control, unless and until the Board shall subsequently recommend that shareholders of the Company accept such bid or the bidder takes-up and pays for sufficient Common Shares
+
+ 
+
+- 8 -
+
+that it, and Persons acting jointly or in concert with it, hold more than 66 2/3% of the outstanding Common Shares on a fully-diluted basis; and
+
+(c)
+
+it will (i) exercise the votes attached to any and all Common Shares it holds as a result of the conversion of the Debentures and otherwise acquired by or issued to it and, to the extent it is afforded a voting right, the Debentures, in the manner recommended by the Board to the shareholders of the Company in respect of any Change of Control transaction (with the exception of (iv) of the definition of Change of Control), and deposit or tender such Common Shares to the Change of Control transaction in the manner recommended by the Board, and (ii) abstain from voting or withhold such votes if any Person is proposing to elect one or more individuals to the Board who are not nominees proposed by the Company’s management or the Investor Nominee.
+
+Furthermore, upon public announcement of, commencement of, or an intention to commence, an unsolicited bid or public announcement by the Company that it has agreed (or intends to agree) to any other Change of Control transaction described above in this Section 4.1, each Investor agrees that it shall not transfer any of the Common Shares held by it (other than to an Affiliate of a current shareholder of CEF as certified by the Investor and where such Affiliate agrees to be bound by this Agreement). For the avoidance of doubt, if the Investor Percentage drops below 10% and then goes back to 10% or greater in a single transaction or a series of related transactions, the restrictions of this Section 4.1 shall be reinstated.
+
+4.2
+
+Non-Change of Control Voting Alignment
+
+In situations not involving a Change of Control, each of the Investors covenant and agree with the Company that, (i) for so long as the Investor Percentage is equal to or greater than 10%; (ii) until the Parties otherwise agree in writing; or (iii) until the completion of a Fundamental Change, it will either: (i) exercise the votes attached to any and all Common Shares it holds, and to the extent it is afforded a voting right, the Debentures, on each matter that may come before the shareholders of the Company in the manner recommended by the Board to the shareholders of the Company or (ii) not exercise, in respect of such matter, the votes attached to any and all Common Shares it holds. For the avoidance of doubt, if the Investor Percentage drops below 10% and then goes back to 10% or greater in a single transaction or a series of related transactions, the restrictions of this Section 4.2 shall be reinstated.
+
+ARTICLE 5
+TRANSFER OF COMMON SHARES BY INVESTORS
+
+5.1
+
+Third-Party Sales
+
+Without the prior written consent of the Company, each of the Investors covenant and agree with the Company that, (i) for so long as the Investor Percentage is equal to or greater than 10%; (ii) until the Parties otherwise agree in writing; or (iii) until the completion of a Fundamental Change, it shall not, directly or indirectly, sell or transfer (in a single transaction or series of transactions within a 30 day period) any Common Shares held by it or over which it exercises control or direction, representing more than 0.5% of the outstanding Common Shares then outstanding (on a non-diluted basis) without first notifying the Company in writing of the number of Common Shares proposed to be sold and the price at which it desires to sell such Common Shares (which price for greater certainty, may be, or may be determined with reference to, a market price of the Common Shares on the date of sale) and the Company will have seven days following its receipt of the notice from the Investor to elect to identify one or more buyers of all or any portion of the Common Shares at the price offered by the Investor. If the Company fails to identify a buyer within the seven day period, the Investor may only sell such Common Shares for a period of 30 days either (i) through a broad distribution, through the facilities of an exchange or trading 
+
+- 9 -
+
+system; or (ii) to a Canadian financial institution (including brokerage) for its subsequent sale or distribution to others, provided that the Investor obtains a covenant of such financial institution not to knowingly sell or distribute such Common Shares to any entity identified by the Company within such seven day period as being an entity (including a mining company) that intends to, or is reasonably expected to, attempt to acquire the Company. Notwithstanding the foregoing, each Investor is permitted to transfer any Common Shares held by it to an Affiliate of a current shareholder of CEF as certified by the Investor and where such Affiliate agrees to be bound by this Agreement. For the avoidance of doubt, if the Investor Percentage drops below 10% and then goes back to 10% or greater in a series of related transactions, the restrictions of this Section 5.1 shall be reinstated.
+
+ARTICLE 6
+MISCELLANEOUS
+
+6.1
+
+Termination
+
+This Agreement shall terminate and all rights and obligations hereunder shall cease immediately upon the Parties agreeing in writing to terminate this Agreement.
+
+6.2
+
+Notices
+
+ 
+
+(a) Any notice or other communication required or permitted to be given hereunder shall be in writing and shall be delivered in person, transmitted by e-mail or similar means of recorded electronic communication or sent by registered mail, charges prepaid, addressed as follows:
+
+in the case of the Investors:
+
+ c/o CEF Holdings Limited
+
+Suite 2303, 23rd Floor
+
+Cheung Kong Center
+
+2 Queen’s Road Central
+
+Hong Kong
+
+ 
+
+Attention: Warren P. Gilman
+
+Email: [redacted]
+
+with a copy to:
+
+Stikeman Elliott LLP
+Suite 1700, Park Place
+666 Burrard Street
+ Vancouver, BC V6C 2X8
+
+Attention: John Anderson
+ Email: janderson@stikeman.com
+
+in the case of the Company:
+
+NexGen Energy Ltd.
+
+3150 - 1021 West Hastings Street
+ Vancouver, BC V6E 0C3
+
+- 10 -
+
+Attention: Joanna Cameron, Vice-President Legal and General Counsel
+ Email: [redacted]
+
+with a copy to:
+
+Cassels Brock & Blackwell LLP
+
+Suite 2200, HSBC Building
+
+885 West Georgia Street
+ Vancouver, BC V6C 3E8
+
+ 
+
+Attention: Jennifer Traub
+
+Email: jtraub@casselsbrock.com
+
+ 
+
+(b) Any such notice or other communication shall be deemed to have been given and received on the day on which it was delivered or transmitted (or, if such day is not a Business Day or if delivery or transmission is made on a Business Day after 5:00 p.m. (Vancouver time) at the place of receipt, then on the next following Business Day) or, if mailed, on the third Business Day following the date of mailing; provided, however, that if at the time of mailing or within three Business Days thereafter there is or occurs a labour dispute or other event which might reasonably be expected to disrupt the delivery of documents by mail, any notice or other communication hereunder shall be delivered or transmitted by means of recorded electronic communication as aforesaid.
+
+ 
+
+(c) Any Party may at any time change its address for service from time to time by giving notice to the other Parties in accordance with this Section 6.2.
+
+ 
+
+6.3
+
+Amendments and Waivers
+
+No amendment or waiver of any provision of this Agreement shall be binding on any Party unless consented to in writing by such Party. No waiver of any provision of this Agreement shall constitute a waiver of any other provision, nor shall any waiver of any provision of this Agreement constitute a continuing waiver unless otherwise expressly provided.
+
+6.4
+
+Assignment
+
+No Party may assign any of its rights or benefits under this Agreement, or delegate any of its duties or obligations, except with the prior written consent of the other Parties.
+
+6.5
+
+Successors and Assigns
+
+This Agreement shall enure to the benefit of and shall be binding on and enforceable by and against the Parties and their respective successors or heirs, executors, administrators and other legal personal representatives, and permitted assigns.
+
+6.6
+
+Further Assurances
+
+Each of the Parties hereto shall, from time to time hereafter and upon any reasonable request of the other, promptly do, execute, deliver or cause to be done, executed and delivered all further acts, documents and things as may be required or necessary for the purposes of giving effect to this Agreement.
+
+- 11 -
+
+6.7
+
+Right to Injunctive Relief
+
+The Parties agree that any breach of the terms of this Agreement by any Party would result in immediate and irreparable injury and damage to the other Parties which could not be adequately compensated by damages. The Parties therefore also agree that in the event of any such breach or any anticipated or threatened breach by the defaulting Party, the other Parties shall be entitled to equitable relief, including by way of temporary or permanent injunction or specific performance, without having to prove damages, in addition to any other remedies (including damages) to which such other Parties may be entitled at law or in equity.
+
+6.8
+
+Counterparts
+
+This Agreement and all documents contemplated by or delivered under or in connection with this Agreement may be executed and delivered in any number of counterparts, with the same effect as if each Party had signed and delivered the same document, and all counterparts shall be construed together to be an original and will constitute one and the same agreement.
+
+[Remainder of page intentionally left blank]
+
+- 12 -
+
+IN WITNESS WHEREOF this Agreement has been executed by the Parties on the date first above written.
+
+ 
+ 
+
+NEXGEN ENERGY LTD.
+
+ 
+
+ 
+
+By:
+
+(signed) “Joanna Cameron”
+
+ 
+
+Name: Joanna Cameron
+
+ 
+
+ 
+
+Title: VP Legal and General Counsel
+
+ and Corporate Secretary
+
+ 
+
+ 
+
+ 
+ 
+
+CEF HOLDINGS LIMITED
+
+ 
+
+ 
+
+By:
+
+(signed ) “Warren Gilman”
+
+ 
+
+Name: Warren Gilman
+
+ 
+
+ 
+
+Title: Chairman & CEO
+
+ 
+
+ 
+
+ 
+ 
+
+ CEF (CAPITAL MARKETS) LIMITED
+
+ 
+
+By:
+
+(signed) “Warren Gilman”
+
+ 
+
+Name: Warren Gilman
+
+ 
+
+Title: Director
+
+ 
+
+ 
+ 
+
+NEXT GLOBAL HOLDINGS LIMITED
+
+ 
+
+By:
+
+(signed) “Pau Yee Wan Ezra”
+
+ 
+
+Name: Pau Yee Wan Ezra
+
+ 
+
+Title: Director
+
+ 
+
+ 
+ 
+
+SPRINKLE RING INVESTMENT LIMITED
+
+ 
+
+By:
+
+(signed) “Li Ka Shing”
+
+ 
+
+Name: Li Ka Shing
+
+ 
+
+Title: Director

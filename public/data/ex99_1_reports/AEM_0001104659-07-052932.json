@@ -1,0 +1,64 @@
+{
+  "ticker": "AEM",
+  "cik": "0000002809",
+  "form": "6-K",
+  "filingDate": "2007-07-09",
+  "accessionNumber": "0001104659-07-052932",
+  "primaryDocument": "a07-18394_16k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/2809/000110465907052932/0001104659-07-052932-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EX-99.1",
+    "filename": "a07-18394_1ex99d1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/2809/000110465907052932/a07-18394_1ex99d1.htm"
+  },
+  "extractedAt": "2026-06-11T16:49:42.422Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2809/000110465907052932/a07-18394_1ex99d1.htm",
+    "contentType": "html",
+    "title": "",
+    "headings": [
+      "Exhibit 99.1",
+      "AGNICO-EAGLE MINES LIMITED\n \n \n News Release",
+      "Stock Symbol:",
+      "AEM (NYSE and TSX)",
+      "For further information:",
+      "David Smith; VP, Investor Relations",
+      "(416) 947-1212",
+      "(All\namounts expressed in U.S. dollars unless otherwise noted)",
+      "AGNICO-EAGLE\nCOMPLETES COMPULSORY ACQUISITION OF\nREMAINING CUMBERLAND COMMON SHARES",
+      "Toronto (July 9,\n2007) –",
+      "About\nAgnico-Eagle"
+    ],
+    "text": "EX-99.1\n2\na07-18394_1ex99d1.htm\nEX-99.1\n\nExhibit 99.1\n\n \n \n \n \n \n AGNICO-EAGLE MINES LIMITED\n \n \n News Release\n \n \n\n \n\n \n \n Stock Symbol:\n \n \n \n \n \n AEM (NYSE and TSX)\n \n \n \n \n \n For further information:\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n David Smith; VP, Investor Relations\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n (416) 947-1212\n \n \n\n \n\n(All\namounts expressed in U.S. dollars unless otherwise noted)\n\nAGNICO-EAGLE\nCOMPLETES COMPULSORY ACQUISITION OF\nREMAINING CUMBERLAND COMMON SHARES\n\nToronto (July 9,\n2007) – Agnico-Eagle\nMines Limited (“Agnico-Eagle”) announced today that its wholly-owned\nsubsidiary, Agnico-Eagle Acquisition Corporation, has completed the compulsory\nacquisition of 6,624,271\ncommon shares of Cumberland Resources Ltd. (“Cumberland”) not acquired pursuant\nto the take-over bid initiated on March 12, 2007. It is expected that the consideration for the\nCumberland share certificates deposited to date will be mailed to the\ndepositing shareholders this week. Cumberland is now a wholly-owned indirect\nsubsidiary of Agnico-Eagle.\n\nIt is expected\nthat Cumberland’s common shares will be delisted from the Toronto Stock\nExchange at the close of business (Toronto time) on July 10, 2007 and trading\nof Cumberland’s common shares on the American Stock Exchange will be suspended\nprior to the commencement of trading on July 10, 2007. Cumberland will make\napplications to cease to be a reporting issuer in Canada and the United States as\nsoon as reasonably practicable.\n\nAbout\nAgnico-Eagle\n\nAgnico-Eagle is a\nlong established Canadian gold producer with operations located in Quebec and\nexploration and development activities in Canada, Finland, Mexico and the\nUnited States. Agnico-Eagle’s LaRonde\nMine is Canada’s largest gold deposit in terms of reserves. The Company has full exposure to changes in\ngold prices consistent with its policy of no forward gold sales. It has paid a cash dividend for 25\nconsecutive years.\n\n 1",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 1,
+        "rows": [
+          [
+            "AGNICO-EAGLE MINES LIMITED\n \n \n News Release"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 3,
+        "rows": [
+          [
+            "Stock Symbol:",
+            "AEM (NYSE and TSX)",
+            "For further information:"
+          ],
+          [
+            "David Smith; VP, Investor Relations"
+          ],
+          [
+            "(416) 947-1212"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>a07-18394_1ex99d1.htm\n<DESCRIPTION>EX-99.1\n<TEXT>\n<html>\n\n<head>\n\n\n\n\n\n\n</head>\n\n<body lang=\"EN-US\">\n\n<div style=\"font-family:Times New Roman;\">\n\n\n<p align=\"right\" style=\"margin:0pt 0pt 12.0pt;text-align:right;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">Exhibit 99.1</font></b></p>\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"13%\" valign=\"top\" style=\"padding:0pt .7pt 0pt 0pt;width:13.46%;\">\n  <p style=\"font-size:10.0pt;margin:0pt 0pt .0001pt;\"><!-- SET mrlNoTableShading --><img width=\"72\" height=\"71\" src=\"g183941mm01i001.jpg\"></p>\n  </td>\n  <td width=\"86%\" valign=\"top\" style=\"padding:0pt .7pt 0pt 0pt;width:86.54%;\">\n  <p style=\"margin:0pt 0pt .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">AGNICO-EAGLE MINES LIMITED<br>\n  <br>\n  <br>\n  News Release</font></b></p>\n  </td>\n </tr>\n</table>\n\n<p style=\"line-height:1.0pt;margin:0pt 0pt 12.0pt;\"><font size=\"1\" face=\"Times New Roman\">&nbsp;</font></p>\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;width:100.0%;\">\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"16%\" valign=\"top\" style=\"padding:0pt .7pt 0pt 0pt;width:16.56%;\">\n  <p style=\"font-size:10.0pt;margin:0pt 0pt .0001pt;\"><!-- SET mrlNoTableShading --><b>Stock Symbol:</b></p>\n  </td>\n  <td width=\"1%\" valign=\"top\" style=\"padding:0pt .7pt 0pt 0pt;width:1.34%;\">\n  <p style=\"margin:0pt 0pt .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:1.0pt;font-weight:bold;\">&nbsp;</font></b></p>\n  </td>\n  <td width=\"32%\" valign=\"top\" style=\"padding:0pt .7pt 0pt 0pt;width:32.76%;\">\n  <p style=\"margin:0pt 0pt .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">AEM (NYSE and TSX)</font></b></p>\n  </td>\n  <td width=\"1%\" valign=\"top\" style=\"padding:0pt .7pt 0pt 0pt;width:1.2%;\">\n  <p style=\"margin:0pt 0pt .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:1.0pt;font-weight:bold;\">&nbsp;</font></b></p>\n  </td>\n  <td width=\"48%\" valign=\"top\" style=\"padding:0pt .7pt 0pt 0pt;width:48.16%;\">\n  <p style=\"margin:0pt 0pt .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">For further information:</font></b></p>\n  </td>\n </tr>\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"16%\" valign=\"top\" style=\"padding:0pt .7pt 0pt 0pt;width:16.56%;\">\n  <p style=\"margin:0pt 0pt .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:1.0pt;font-weight:bold;\">&nbsp;</font></b></p>\n  </td>\n  <td width=\"1%\" valign=\"top\" style=\"padding:0pt .7pt 0pt 0pt;width:1.34%;\">\n  <p style=\"margin:0pt 0pt .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:1.0pt;font-weight:bold;\">&nbsp;</font></b></p>\n  </td>\n  <td width=\"32%\" valign=\"top\" style=\"padding:0pt .7pt 0pt 0pt;width:32.76%;\">\n  <p style=\"margin:0pt 0pt .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:1.0pt;font-weight:bold;\">&nbsp;</font></b></p>\n  </td>\n  <td width=\"1%\" valign=\"top\" style=\"padding:0pt .7pt 0pt 0pt;width:1.2%;\">\n  <p style=\"margin:0pt 0pt .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:1.0pt;\">&nbsp;</font></p>\n  </td>\n  <td width=\"48%\" valign=\"top\" style=\"padding:0pt .7pt 0pt 0pt;width:48.16%;\">\n  <p style=\"margin:0pt 0pt .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">David Smith; VP, Investor Relations</font></b></p>\n  </td>\n </tr>\n <tr style=\"page-break-inside:avoid;\">\n  <td width=\"16%\" valign=\"top\" style=\"padding:0pt .7pt 0pt 0pt;width:16.56%;\">\n  <p style=\"margin:0pt 0pt .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:1.0pt;font-weight:bold;\">&nbsp;</font></b></p>\n  </td>\n  <td width=\"1%\" valign=\"top\" style=\"padding:0pt .7pt 0pt 0pt;width:1.34%;\">\n  <p style=\"margin:0pt 0pt .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:1.0pt;font-weight:bold;\">&nbsp;</font></b></p>\n  </td>\n  <td width=\"32%\" valign=\"top\" style=\"padding:0pt .7pt 0pt 0pt;width:32.76%;\">\n  <p style=\"margin:0pt 0pt .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:1.0pt;font-weight:bold;\">&nbsp;</font></b></p>\n  </td>\n  <td width=\"1%\" valign=\"top\" style=\"padding:0pt .7pt 0pt 0pt;width:1.2%;\">\n  <p style=\"margin:0pt 0pt .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:1.0pt;\">&nbsp;</font></p>\n  </td>\n  <td width=\"48%\" valign=\"top\" style=\"padding:0pt .7pt 0pt 0pt;width:48.16%;\">\n  <p style=\"margin:0pt 0pt .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">(416) 947-1212</font></b></p>\n  </td>\n </tr>\n</table>\n\n<p style=\"line-height:1.0pt;margin:0pt 0pt 12.0pt;\"><font size=\"1\" face=\"Times New Roman\">&nbsp;</font></p>\n\n<p align=\"center\" style=\"margin:0pt 12.6pt 12.0pt 27.0pt;text-align:center;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">(All\namounts expressed in U.S. dollars unless otherwise noted)</font></b></p>\n\n<p align=\"center\" style=\"margin:0pt 0pt 12.0pt;text-align:center;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">AGNICO-EAGLE\nCOMPLETES COMPULSORY ACQUISITION OF<br>\nREMAINING CUMBERLAND COMMON SHARES</font></b></p>\n\n<p style=\"font-size:10.0pt;margin:0pt 0pt 12.0pt;text-autospace:none;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">Toronto (July 9,\n2007) &#150; </font></b><font face=\"Times New Roman\">Agnico-Eagle\nMines Limited (&#147;Agnico-Eagle&#148;) </font><font face=\"Times New Roman\">announced today that its wholly-owned\nsubsidiary, Agnico-Eagle Acquisition Corporation, has completed the compulsory\nacquisition of <font style=\"color:windowtext;\"><font color=\"black\">6,624,271</font></font>\ncommon shares of Cumberland Resources Ltd. (&#147;Cumberland&#148;) not acquired pursuant\nto the take-over bid initiated on March 12, 2007.&#160; It is expected that the consideration for the\nCumberland share certificates deposited to date will be mailed to the\ndepositing shareholders this week. Cumberland is now a wholly-owned indirect\nsubsidiary of Agnico-Eagle.</font></p>\n\n<p style=\"margin:0pt 0pt 12.0pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">It is expected\nthat Cumberland&#146;s common shares will be delisted from the Toronto Stock\nExchange at the close of business (Toronto time) on July 10, 2007 and trading\nof Cumberland&#146;s common shares on the American Stock Exchange will be suspended\nprior to the commencement of trading on July 10, 2007. Cumberland will make\napplications to cease to be a reporting issuer in Canada and the United States as\nsoon as reasonably practicable.</font></p>\n\n<h2 style=\"font-weight:normal;margin:0pt 0pt 12.0pt;page-break-after:avoid;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">About\nAgnico-Eagle</font></b></h2>\n\n<p style=\"margin:0pt 0pt 12.0pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">Agnico-Eagle is a\nlong established Canadian gold producer with operations located in Quebec and\nexploration and development activities in Canada, Finland, Mexico and the\nUnited States.&#160; Agnico-Eagle&#146;s LaRonde\nMine is Canada&#146;s largest gold deposit in terms of reserves.&#160; The Company has full exposure to changes in\ngold prices consistent with its policy of no forward gold sales.&#160; It has paid a cash dividend for 25\nconsecutive years.</font></p>\n\n\n <p style=\"font-size:10.0pt;margin:24.0pt 0pt .0001pt;text-align:center;\">1</p>\n</div><br><hr size=\"3\" width=\"100%\" noshade color=\"#010101\" align=\"center\">\n\n<!-- SEQ.=1,FOLIO='',FILE='C:\\Fc\\190231937624_P66472CHE_2242271\\18394-1-mm-01.htm',USER='jmsproofassembler',CD='Jul  9 23:19 2007' -->\n\n\n</body>\n\n</html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

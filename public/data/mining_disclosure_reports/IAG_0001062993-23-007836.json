@@ -1,0 +1,22 @@
+{
+  "ticker": "IAG",
+  "cik": "0001203464",
+  "accessionNumber": "0001062993-23-007836",
+  "form": "40-F",
+  "filingDate": "2023-03-28",
+  "reportDate": "2022-12-31",
+  "primaryDocument": "form40f.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1203464/000106299323007836/form40f.htm",
+  "extractedAt": "2026-06-11T16:41:27.861Z",
+  "textBlocks": [],
+  "tables": [
+    {
+      "rows": [
+        [
+          "99.20",
+          "Consent of Lycopodium Mineral Canada Limited"
+        ]
+      ]
+    }
+  ]
+}

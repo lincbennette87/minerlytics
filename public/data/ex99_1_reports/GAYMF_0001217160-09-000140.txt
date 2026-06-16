@@ -1,0 +1,5024 @@
+EX-99.1
+2
+keegantechreport09.htm
+ESAASE TECHNICAL REPORT
+
+Esaase Technical Report
+
+Coffey Mining Pty Ltd ABN 52 065 481 209
+Unit 6/29 McDougall Street Milton QLD 4064 Australia
+PO Box 1718 Milton QLD 4064 Australia
+T (+61) (7) 3367 3388 F (+61) (7) 3367 1422 www.coffey.com.au
+
+Author(s):
+Brian Wolfe
+Special Consultant -
+Resources
+B Sc Hons (Geol), Post
+Grad Cert (Geostats),
+(MAusIMM)
+
+ 
+Date:
+24th April 2009
+
+Project Number:
+MINENEWS203AA
+
+Version / Status:
+v.01
+
+Path & File Name:
+ 
+Print Date:
+24th April 2009
+
+ 
+Copies:
+Keegan Resources Inc
+(2)
+
+ Coffey Mining – Brisbane
+(1)
+
+Document Change Control
+Version
+Description (section(s) amended)
+Author(s)
+Date
+
+ 
+ 
+ 
+
+Document Review and Sign Off
+/s/ Brian Wolfe
+ 
+Primary Author
+Brian Wolfe
+ 
+
+Table of Contents
+
+1
+Summary
+1
+
+1.1
+Introduction
+1
+
+1.2
+Location
+1
+
+1.3
+Ownership
+1
+
+1.4
+Geology
+1
+
+1.5
+Mineralization
+1
+
+1.6
+Project Status
+2
+
+1.7
+Resources
+2
+
+1.8
+Conclusions
+3
+
+1.9
+Recommendations
+3
+
+2
+Introduction
+4
+
+2.1
+Scope of the Report
+4
+
+2.2
+Site Visit
+4
+
+2.3
+Principal Sources of Information
+5
+
+2.4
+Participants
+5
+
+2.5
+Independence
+5
+
+2.6
+Abbreviations
+6
+
+3
+Reliance on Other Experts
+7
+
+4
+Property Description and Location
+8
+
+4.1
+Background Information on Ghana
+8
+
+4.2
+Project Location
+10
+
+4.3
+Land Area
+10
+
+4.4
+Mining Claim Description, Agreements and Encumbrances
+11
+
+4.5
+Environmental Liabilities
+13
+
+4.6
+Permitting
+13
+
+5
+Accessibility, Climate, Local Resources, Infrastructure and Physiography
+14
+
+5.1
+Access
+14
+
+5.2
+Physiography and Climate
+14
+
+5.3
+Local Resources and Infrastructure
+14
+
+6
+History
+15
+
+6.1
+Ownership and Exploration History
+15
+
+6.2
+Resource and Reserve History
+15
+
+7
+Geological Setting
+17
+
+7.1
+Regional Geology
+17
+
+7.2
+Project Geology
+18
+
+8
+Deposit Types
+23
+
+9
+Mineralization
+24
+
+10
+Exploration
+26
+
+10.1
+Soil Sampling Program
+26
+
+10.2
+Geophysical Programs
+28
+
+11
+Drilling
+30
+
+11.1
+Introduction
+30
+
+11.2
+Drilling Procedures
+30
+
+11.2.1
+Accuracy of Drillhole Collar Locations
+30
+
+11.2.2
+Downhole Surveying Procedures
+30
+
+11.2.3
+Reverse Circulation Drilling Procedures
+30
+
+11.3
+Diamond Drilling Procedures
+31
+
+11.4
+RC and Core Sampling Procedures
+31
+
+11.5
+Summary Results
+31
+
+11.6
+Drilling Orientation
+31
+
+11.7
+Topographical Control
+31
+
+12
+Sampling Method and Approach
+34
+
+12.1
+RC Sampling and Logging
+34
+
+12.2
+Diamond Core Sampling and Logging
+34
+
+12.3
+Sample Recovery
+35
+
+12.4
+Sample Quality
+35
+
+13
+Sample Preparation, Analyses and Security
+36
+
+13.1
+Sample Security
+36
+
+13.2
+Analytical Laboratories
+36
+
+13.3
+Sample Preparation and Analytical Procedure
+36
+
+13.3.1
+Transworld Tarkwa
+36
+
+13.3.2
+SGS Tarkwa
+37
+
+13.3.3
+ALS Kumasi
+37
+
+13.4
+Bulk Density Determinations
+37
+
+13.5
+Adequacy of Procedures
+37
+
+14
+Data Verification
+38
+
+14.1
+Quality Control Procedures
+38
+
+14.1.1
+Keegan
+38
+
+14.1.2
+SGS Tarkwa
+38
+
+14.1.3
+Transworld Tarkwa
+39
+
+14.1.4
+ALS Kumasi
+39
+
+14.2
+Quality Control Analysis
+39
+
+14.2.1
+Transworld Laboratory, Tarkwa
+41
+
+14.2.2
+SGS Laboratory, Tarkwa
+42
+
+14.2.3
+ALS Laboratory, Kumasi
+42
+
+14.2.4
+Keegan QAQC
+50
+
+14.3
+QAQC Conclusions
+51
+
+15
+Adjacent Properties
+52
+
+16
+Mineral Processing and Metallurgical Testing
+53
+
+17
+Mineral Resource and Mineral Reserve Estimates
+55
+
+17.1
+Database Validation
+55
+
+17.2
+Geological Interpretation and Modelling
+56
+
+17.2.1
+Mineralisation Interpretation
+56
+
+17.2.2
+Weathering Interpretation
+58
+
+17.3
+Statistical Analysis
+58
+
+17.4
+Variography
+65
+
+17.4.1
+Introduction
+65
+
+17.5
+Esaase Deposit Variography
+65
+
+17.5.1
+Zone 100
+66
+
+17.5.2
+Zone 150
+68
+
+17.5.3
+Zone 200
+69
+
+17.6
+Block Modelling
+71
+
+17.6.1
+Introduction
+72
+
+17.7
+Grade Estimation
+72
+
+17.7.1
+Introduction
+72
+
+17.7.2
+The Multiple Indicator Kriging Method
+72
+
+17.8
+Multiple Indicator Kriging Parameters
+75
+
+17.9
+Resource Classification
+77
+
+17.10
+Resource Reporting
+79
+
+18
+Other Relevant Data and Information
+80
+
+19
+Interpretation and Conclusions
+81
+
+20
+Recommendations
+82
+
+21
+Date and Signature Page
+85
+
+22
+References
+86
+
+List of Tables
+
+Table 2.6_1 – List of Abbreviations
+6
+
+Table 6.2_1 – Summary Resource Statement (December 2007)
+16
+
+Table 11.1_1 – Drilling Statistics
+30
+
+Table 11.5_1 – Drilling and Sampling Statistics
+31
+
+Table 13.2.1_1 – TWL Laboratory Standards
+44
+
+Table 13.2.1_2 – Blind Standards – TWL
+45
+
+Table 13.2.2_1 – SGS Laboratory Standards
+46
+
+Table 13.2.3_1 – Blind Standards – SGS
+47
+
+Table 13.2.2_1 – ALS Laboratory Standards
+48
+
+Table 13.2.3_1 – Blind Standards – ALS
+49
+
+Table 16_1 – Bottle Roll Results
+53
+
+Table 15_2 – P80 grind size
+54
+
+Table 15_3 – Screen Fire Assay comparison
+54
+
+Table 17.4_1 – RC vs Drillcore Summary Statistics
+59
+
+Table 17.4_2 – Domain Composite Statistics (Au g/t)
+59
+
+Table 17.4_3 – Density Summary Statistics
+60
+
+Table17.4_4 – Indicator Class Means
+64
+
+Table 17.6.1_1 – Zone 1: Corellogram Models
+66
+
+Table 17.6.2_1 – Zone 150: Corellogram Models
+68
+
+Table 17.6.3_1 – Zone 200: Corellogram Models
+69
+
+Table 17.7.2_1 – Block Model Construction Parameters
+71
+
+Table 17.7.2_2 – Dry Bulk Density
+72
+
+Table 16.9_1 – MIK Sample Search Parameters
+76
+
+Table 17.9_2 – Variance Adjustment Ratios
+77
+
+Table 17.10_1 – Confidence Levels of Key Criteria
+78
+
+Table 17.11_1 – Grade Tonnage Report
+79
+
+Table 20_1 – Esaase Project Proposed 12 Month Budget
+83
+
+List of Figures
+
+Figure 4.2_1 – Location of Esaase Concession SW Ghana
+10
+
+Figure 4.3_1 – Esaase Licence
+11
+
+Figure 7.1_1 – Southwest Ghana Geology
+18
+
+Figure 7.2_1 – Map of Esaase Concession
+20
+
+Figure 7.2_2 – Examples of different rock types
+20
+
+Figure 7.2_3 – Schematic Structural Model
+21
+
+Figure 7.2_4 – Typical Weathering Profile
+22
+
+Figure 9_1 – Example of Folded and Broken Early Veins
+25
+
+Figure 9_2 – Sheeted Vein with visible gold
+25
+
+Figure 10.1_1 – Gold in Soil Thematic Map
+27
+
+Figure 10.1_2 – Gold in Soil Contour Map
+28
+
+Figure 10.2_1 – VTEM 92 meter Layered Earth Inversion
+29
+
+Figure 11.5_1 – Drillhole Collar Locations – Cumulative Grade
+32
+
+Figure 11.7_1 – Drillhole Locations by Drilling Type
+33
+
+Figure 17.3.1_1 – Mineralisation Interpretation, S Oblique View
+57
+
+Figure 17.3.1_2 – Mineralisation Interpretation, Typical Sectional View
+57
+
+Figure 17.3.2_1 – Weathering Interpretation, Local Grid 9,840mN
+58
+
+Figure 17.4_1 – Log Histogram and Probability Plot Zone 100
+61
+
+Figure 17.4_2 – Log Histogram and Probability Plot Zone 150
+62
+
+Figure 17.4_3 – Log Histogram and Probability Plot Zone 200
+63
+
+Figure 17.6.1_1 – Zone 100 Grade Variogram
+67
+
+Figure 17.6.3_1 – Zone 200 Grade Variogram
+70
+
+Figure 19_1 – Exploration Results Compilation Map
+81
+
+List of Appendices
+
+Appendix A – QAQC Analysis
+1
+
+Appendix B – Variography
+1
+
+1
+SUMMARY
+1.1
+Introduction
+Coffey Mining Pty Ltd (“Coffey”) has been commissioned by Keegan Resources Incorporated (“Keegan”) to prepare an Independent Technical Report on the Esaase Gold Project in the country of Ghana, West Africa, in order to provide an update of the Mineral Resources as of 28th February 2009. Additionally, this technical report supports Keegan’s 2008 annual information form and other technical disclosures made by the Company since the previous technical report (November, 2007). This includes the news release dated February 27th 2009. This report complies with disclosure and reporting requirements set forth in the National Instrument 43-101, Companion Policy 43-101CP, and Form 43-101F1.
+1.2
+Location
+The Esaase Gold Project is located in southwest Ghana, West Africa, approximately 35km northeast of the regional capital Kumasi. Travel time between Kumasi and Esaase is approximately 1 hour by car. The concession is reached by tarred and secondary lateritic roads.
+1.3
+Ownership
+The Esaase Gold Project and the mining lease on which it is based are owned 100% by Keegan Resources Ghana, a fully owned subsidiary of Keegan. The Government of Ghana retains the right to take a 10% interest in the project under Section 8 of the Ghanaian Mining Act. The Lease is also subject to a 3.5% NSR owed to the Government of Ghana.
+1.4
+Geology
+The Esaase gold project area contains a system of gold-bearing quartz veins hosted by tightly folded Birimian-age sedimentary rocks. This package includes shale, siltstones, and lesser feldspathic sandstones.
+The Esaase mineralization is defined by a distinctive structural boundary that divides the more deformed, altered and mineralized siltstone/shale unit in the hanging wall from the more massively bedded sandstone in the footwall. All rocks in the siltstone/shale package are moderately to strongly folded and foliated with shale generally displaying better development of foliation than siltstone.
+1.5
+Mineralization
+The mineralized quartz veins are synkinematic to post-kinematic, forming as sets of sub-vertical and horizontal to gently dipping veins. The synkinematic veins are folded about the dominant axial plane cleavage.
+The overall trend of the mineralized bodies are northeast with a moderate dip to the west. vein arrays within these bodies can have various orientations. One of the most common orientations is north striking with vertical dips.
+1.6
+Project Status
+Keegan has completed an initial wide spaced exploration program and have defined a maiden inferred resource in November of 2007. Since then, the initial area of drilling has been both expanded and infill drilled. The project continues to have growth potential particularly down-dip, to the south and in satellite resources, which have not yet been added to the current resource.
+1.7
+Resources
+Resource estimates for the Esaase Gold Project have been generated by Coffey Mining on the basis of analytical results available up to 26th February 2009. The resource model was derived via geological interpretation and modelling of the mineralised zone.
+Multiple Indicator Kriging (‘MIK’) estimation with indirect lognormal change of support to emulate mining selectivity was selected as an appropriate estimation method based on the quantity and spacing of available data, and the interpreted controls on, and styles of, mineralisation under review.
+Coffey Mining also completed a detailed assessment of all analytical quality control data applied in resource estimation. At the time of resource estimation, no material bias had been identified, and the analytical precision for both field duplicate and re-assay data generally lie within accepted industry limits.
+The summarised Resource Statement in Table 1.7_1 has been determined as at 28th February 2009 and has been prepared and reported in accordance with Canadian National Instrument 43-101, Standards of Disclosure for Mineral Projects of February 2001 (the Instrument) and the classifications adopted by CIM Council in December 2005. The resource estimate has been classified as an Indicated and Inferred Resource based on the confidence of the input data, geological interpretation, and grade estimation. It should be noted that mineral resources that are not mineral reserves do not have demonstrated economic viability.
+Furthermore, the resource classification is also consistent with the Australasian Code for the Reporting of Exploration Results, Mineral Resources and Ore Reserves of December 2004 (the Code) as prepared by the Joint Ore Reserves Committee of the Australasian Institute of Mining and Metallurgy, Australian Institute of Geoscientists and Mineral Council of Australia (JORC).
+
+Table 1.7_1
+Esaase Project
+Multiple Indicator Kriging Estimate
+8mE x 10mN x 2.5mRL Selective Mining Unit
+
+ 
+Lower Cutoff Grade (g/t Au)
+Tonnes (Mt)
+Average Grade (g/t Au)
+Ounces (Mozs)
+
+Indicated
+
+0.4
+57.987
+1.2
+2.278
+
+0.5
+49.248
+1.4
+2.153
+
+0.6
+41.942
+1.5
+2.025
+
+0.7
+35.748
+1.7
+1.898
+
+0.8
+30.656
+1.8
+1.777
+
+0.9
+26.322
+2.0
+1.660
+
+1.0
+22.782
+2.1
+1.552
+
+Inferred
+
+0.4
+41.664
+1.2
+1.653
+
+0.5
+34.054
+1.4
+1.546
+
+0.6
+28.573
+1.6
+1.451
+
+0.7
+24.430
+1.7
+1.365
+
+0.8
+20.649
+1.9
+1.275
+
+0.9
+17.914
+2.1
+1.201
+
+1.0
+15.852
+2.2
+1.139
+
+1.8
+Conclusions
+The geological understanding of the Esaase Gold Project has evolved greatly since the commencement of the Keegan exploration program. The knowledge acquired to date and exploration success over the last two years confirms the potential of Esaase and surrounding areas.
+1.9
+Recommendations
+Coffey considers that the proposed exploration strategy is entirely appropriate and reflects the potential of the Esaase Gold Project.
+
+2
+INTRODUCTION
+2.1
+Scope of the Report
+In January, 2009 Coffey Mining Pty Ltd (“Coffey”) was commissioned by Keegan Resources Incorporated (“Keegan”) to undertake resource modelling for the Esaase gold deposit in the Republic of Ghana.
+The objectives of the work include:-
+•
+To complete a mineral resource estimate for the Esaase deposit using Multiple Indicator Kriging;
+•
+To estimate “recoverable” tonnes and grades for selective mining scenarios (equipment size and grade control data spacing); and
+•
+Classify the resources in accordance with Australian JORC and Canadian CIM codes.
+Additionally, this technical report supports Keegan’s 2008 annual information form and other technical disclosures made by the Company since the previous technical report (November, 2007). This includes the news release dated February 27th 2009. 
+This report is to comply with disclosure and reporting requirements set forth in the Toronto Stock Exchange Manual, National Instrument 43-101 Standards of Disclosure for Mineral Project (“NI 43-101”), Companion Policy 43-101CP to NI 43-101, and Form 43-101F1 of NI 43-101. The report is also consistent with the ‘Australasian Code for Reporting of Exploration Results, Mineral Resources and Ore Reserves’ of December 2004 (the Code) as prepared by the Joint Ore Reserves Committee of the Australasian Institute of Mining and Metallurgy, Australian Institute of Geoscientists and Mineral Council of Australia (JORC).
+All monetary figures expressed in this report are in United States of American dollars (US$) unless otherwise stated.
+2.2
+Site Visit
+In addition to numerous site visits undertaken to the Esaase Gold Project between January 2007 and December 2009, Coffey Mining has been actively involved in an ongoing consulting role with respects to project management including sampling, quality control and database compilation. The principal author of this report, Brian Wolfe, has visited the Esaase project on one occasion between 25 July 2008 and 6 August 2008 to assess the project, available data, and the data collection protocols.
+
+2.3
+Principal Sources of Information
+Keegan technical staff supplied digital and hard copy data for the Esaase Project. In summary, the following key digital data were provided:
+•
+Drillhole database containing collar location, downhole survey, assay and geology data.
+•
+A 3-dimensional model of the topography.
+•
+A representative selection of the original assay sheets.
+•
+Quality control procedures and database.
+•
+Internal and external quality control data.
+•
+A bulk density dataset consisting of 6,121 determinations.
+•
+Representative cross-sections.
+Coffey Mining has made all reasonable enquiries to establish the completeness and authenticity of the information provided and identified, and a final draft of this report was provided to Keegan along with a written request to identify any material errors or omissions.
+2.4
+Participants
+The technical review and resource estimation was completed by Coffey Mining Specialist Resource Consultant, Mr Brian Wolfe. Mr Wolfe is a professional geologist with 15 years experience in exploration geology, mining geology and geostatistical modelling and estimation of Mineral Resources. Mr Wolfe is a Member of the AusIMM.
+Mr Wolfe has the appropriate relevant qualifications, experience and independence to be considered a Qualified Person as defined in Canadian National Instrument 43-101 and Competent Person as defined in the Australasian JORC Code.
+2.5
+Independence
+Coffey Mining is part of Coffey International Limited (CIL), a highly respected Australian-based international consulting firm specialising in the areas of exploration, geology, mining, metallurgy, geotechnical engineering, hydrogeology, hydrology, tailings disposal, environmental science and social and physical infrastructure.
+Neither Coffey Mining, nor the author of this report, have or have had previously any material interest in Keegan or related entities or interests. Our relationship with Keegan is solely one of professional association between client and independent consultant. This report is prepared in return for fees based upon agreed commercial rates and the payment of these fees is in no way contingent on the results of the report.
+2.6
+Abbreviations
+A full listing of abbreviations used in this report is provided in Table 2.5_1 below.
+
+Table 2.5_1
+List of Abbreviations
+
+ 
+ Description
+ Description
+
+$
+United States of America dollars
+ km2
+square kilometres
+
+µ
+microns
+ l/hr/m2
+litres per hour per square metre
+
+2D
+two dimensional
+ M
+million
+
+3D
+three dimensional
+ m
+metres
+
+AAS
+atomic absorption spectrometer
+ Ma
+thousand years
+
+Au
+gold
+ MIK
+Multiple Indicator Kriging
+
+bcm
+bank cubic metres
+ ml
+millilitre
+
+CC
+correlation coefficient
+ mm
+millimetres
+
+cfm
+cubic feet per minute
+ MMI
+mobile metal ion
+
+CIC
+carbon in column
+ Moz
+million ounces
+
+CIL
+carbon-in-leach
+ Mtpa
+million tonnes per annum
+
+cm
+centimetre
+ N (Y)
+northing
+
+cusum
+cumulative sum of the deviations
+ NaCN
+sodium cyanide
+
+CV
+coefficient of variation
+ NATA
+National Association of Testing Authorities
+
+DDH
+diamond drillhole
+ NPV
+net present value
+
+DTM
+digital terrain model
+ NQ2
+size of diamond drill rod/bit/core
+
+E (X)
+easting
+ ºC
+degrees centigrade
+
+EDM
+electronic distance measuring
+ OK
+Ordinary Kriging
+
+EV
+expected value
+ oz
+troy ounce
+
+g
+gram
+ P80 -75µ
+80% passing 75 microns
+
+g/m3
+grams per cubic metre
+ PAL
+pulverise and leach
+
+g/t
+grams per tonne
+ ppb
+parts per billion
+
+HARD
+half the absolute relative difference
+ ppm
+parts per million
+
+HDPE
+high density poly ethylene
+ psi
+pounds per square inch
+
+HQ2
+size of diamond drill rod/bit/core
+ PVC
+poly vinyl chloride
+
+hr
+hours
+ QC
+quality control
+
+HRD
+half relative difference
+ Q-Q
+quantile-quantile
+
+ICP-MS
+inductivity coupled plasma mass spectroscopy
+ RAB
+rotary air blast
+
+ID
+Inverse Distance weighting
+ RC
+reverse circulation
+
+ID2
+Inverse Distance Squared
+ RL (Z)
+reduced level
+
+IPS
+integrated pressure stripping
+ ROM
+run of mine
+
+IRR
+internal rate of return
+ RQD
+rock quality designation
+
+ISO
+International Standards Organisation
+ SD
+standard deviation
+
+ITS
+Inchcape Testing Services
+ SGS
+Société Générale de Surveillance
+
+kg
+kilogram
+ SMU
+simulated mining unit
+
+kg/t
+kilogram per tonne
+ t
+tonnes
+
+km
+kilometres
+ t/m3
+tonnes per cubic metre
+
+3
+RELIANCE ON OTHER EXPERTS
+Neither Coffey Mining nor the author of this report are qualified to provide extensive comment on legal issues, including status of tenure associated with the Esaase property referred to in this report. Assessment of these aspects has relied heavily on information provided by Keegan, which has not been independently verified by Coffey Mining. This report has been prepared on the understanding that the property is, or will be, lawfully accessible for evaluation, development, mining and processing and this understanding is based on information provided by Keegan.
+
+4
+PROPERTY DESCRIPTION AND LOCATION
+4.1
+Background Information on Ghana
+The Republic of Ghana is a West African country covering 239,460 square kilometres (about the size of Britain). It is one of the five African nations along the northern coastline of the Gulf of Guinea, and is bordered on the west by Cote d’Ivoire, to the north by Burkina Faso, and to the east by Togo. The country consists mostly of low savannah regions with a hilly central belt of forest. Ghana’s distinguishing geographic feature is the Volta River, on which was built the Akosombo Dam in 1964. The damming of the Volta created the enormous Lake Volta, which occupies a sizeable portion of Ghana’s south-eastern territory. The country lies immediately north of the equator and has a largely tropical climate.
+Ghana’s population is estimated at 23.8 million (July 2009), generally concentrated in the south of the country. The capital, Accra, is a modern coastal city with a population of approximately 2 million people. The second largest city, Kumasi, lies in the heart of the Ashanti region and has about 1.6 million people. Ghana has a large variety of African tribal or sub-ethnic units. The main groups include the Akan (45%), Moshi-Dagomba (15%), Ewe (12%) and Ga (7%) people. Birth rates are high compared with world averages and the annual rate of population growth is one of the highest in the world, although about average for sub-Saharan Africa. Ghana has a relatively young population, with almost one-half of the total population less than 20 years of age. More than two-thirds of the population live in rural areas. The majority of the population are Christian (69%). The northern ethnic groups are largely Muslim (16%). Indigenous beliefs (21%) are also practised throughout the country. English is the official language. Twi is the most widely spoken African language. Ghana consists of 10 administrative regions. The country is bisected by the Greenwich meridian and operates on Greenwich Mean Time.
+Throughout the first half of the twentieth century Ghana (then known as the Gold Coast) was a British colony. It was the first sub-Saharan country in colonial Africa to be granted independence on 6 March 1957. Following a national referendum, it became a republic in July 1960. Between 1966 and 1992 periods of democratic rule alternated with military rule. By 1992 the economy had stabilised, a new constitution was put in place and Ghana returned to democracy with the election of Jerry Rawlings as president. Rawling’s National Democratic Congress party continued in power throughout the 1990s, being replaced by the New Patriotic Party in the 2000 democratic election. Ghana has now enjoyed 17 years of continuous democratic rule, with political freedoms and stability which are the envy of other African countries. Ghana is governed under a multiparty democratic system, with elected presidents allowed to hold power for a maximum of two terms of four years. The most recent election was held in December 2008 and was won by the New Patriotic party. The elected president is Atta Mills. Next elections are to be held in December 2012. The constitution prevents presidents from running for a third term.
+Ghana has a developing mixed economy based largely on agriculture and mining. Despite economic difficulties, it is still one of the most developed countries in tropical Africa. The gross national product (“GNP”) is growing about as rapidly as the population. The GNP per capita is among the lowest in the world, though it is above average for western Africa. The domestic economy of Ghana is dominated by subsistence agriculture, which accounts for about 37% of the gross domestic product (“GDP”). Most of the working population (60%) grow food crops (plantain, cassava, maize, yams, rice, groundnuts, etc) for local consumption. The most important cash crop is cocoa. Lesser cash crops include palm oil, rubber, coffee and coconuts. Cattle are farmed in northern Ghana. The most important source of foreign exchange is gold mining, followed by cocoa and timber products. Manganese, bauxite and diamonds are also mined. Tourism is growing rapidly. Gold represents Ghana’s major export commodity. Ghana is the world’s tenth and Africa’s second largest producer of gold, with gold production of 2.0Moz in 2005. The unit of Ghanaian currency is the Ghanaian Cedi. The exchange rate is presently 1.4 Ghana Cedis to the US dollar.
+Ghana has substantial natural resources and a much higher per capita output than many other countries in West Africa. Nevertheless, it remains dependent on international financial and technical assistance. Inflation, decreasing currency exchange rate and high interest rates have caused concern in recent years, but are improving with more stringent fiscal and monetary policies. Since the early 1980s, the government of Ghana has made a sustained effort to improve and liberalise the fiscal policies of the country in order to attract private investment and stimulate economic growth. Many state-owned companies have been privatised. The result has been a sustained period of real economic growth and an improvement in the country’s balance of payments. However, persistent problems remain such as relatively high inflation and unemployment rates.
+Under the constitution of Ghana the judiciary is independent of government and cannot be overruled by the president or the parliament. The head of the judiciary is the Chief Justice. The judiciary rules on civil, criminal and constitutional matters. The system includes the Supreme Court, the Court of Appeal, the High Court and Regional Tribunals. There is also a Judicial Council, with representatives from all parts of the justice system, which acts as a forum to observe and review the functioning of the judiciary and to recommend reforms to government. The constitution also dictates that there is an Attorney General who is a Minister of State and is the principal legal adviser to the government.
+4.2
+Project Location
+The Esaase Project is located in southwest Ghana, West Africa (Figure 4.2_1). It is located in the Amansi East district, in the Ashanti Region, approximately 35km northeast of the regional capital Kumasi.
+
+Figure 4.2_1
+Location of Esaase Concession SW Ghana
+
+4.3
+Land Area
+The Esaase Project consists of two mining concessions named the Esaase Concession and Jeni River Concession. The Esaase Concession is approximately 10km in a northeast direction by 4km in a northwest direction covering 42.32km2. The centre of the concession is located at 1º 53’ west, 6º 34’ north. The Jeni River Concession is approximately 10 km in an EW direction and 5 km in a north south direction. The centre of the Jeni River Concession is located at 1º 98’ west 6 º 52’ north and covers an area of 49.74 km2. Both concession boundaries have not been legally surveyed, but are described by latitude and longitude via decree. Figure 4.3_1 depicts a plan map of the Esaase property, showing creeks, contours, roads, and concession boundary.
+Coffey Mining has not independently verified, nor is it qualified to independently verify, the legal status of the mineral properties in Ghana in which Keegan is understood to have an interest. In preparing this report, Coffey Mining has assumed that the properties are lawfully accessible for evaluation and also mineral production.
+4.4
+Mining Claim Description, Agreements and Encumbrances
+The Esaase Gold Project is focused on the Esaase Property, which consists of the Esaase and Jeni River Concessions. Mining Leases to both concessions have been granted to Keegan by the Ministry of Mines and Energy and cannot be contested by any other company. The government maintains a 10% carried interest in all permits within the country. This government interest does not occur until the Exploitation (Production) Stage. The surface rights on the property are owned by the Ashanti stool (or local ethnic group). At the exploitation stage, the Ashanti stool may apply for the right for compensation. The amount of the compensation is subject to the approval of the Minister of Mines in consultation with the Land Valuation Board.
+The Esaase and Jeni River Leases are classified as mining permits, which allow the company to carry out mining provided certain conditions and fee payments are maintained with the Ministry of Mines and Energy. All mining leases granted in Ghana are for a thirty year period. The Esaase Jeni River Lease was granted in March of 1990 to Jeni River Development Company Limited and the Esaase lease was granted to Bonte Gold Mining in September 1990. Both leases are valid until September 4, 2020. Both companies went into bankruptcy in 2002
+
+Figure 4.3_1
+Esaase Licence
+
+Sametro Company Limited (Sametro) subsequently bought the Esaase Lease from the Bonte Liquidation Committee (BLC) set up by the Ghanaian Government. Keegan entered into an option agreement on the 3rd May, 2006 with Sametro to purchase a 100% interest in the Esaase Lease which contains provisions for a 10% government carried interest, a 3% government NSR. The payment terms included a 0.5% NSR owed to the BLC).
+The original agreement made on the 3rd May, 2006 included:-
+•
+Cash payments of US$100,000 to the bank from which Sametro borrowed funds by May 17, 2006 (paid),
+•
+US$100,000 to Sametro by June 30, 2006, which payment Sametro delivered to the BLC (paid),
+•
+US$100,000 to the BLC by December 30, 2006 (paid),
+•
+US$40,000 to Sametro on May 3, 2007 (obligation renegotiated, see below),
+•
+US$100,000 to the BLC by June 30, 2007(paid),
+•
+US$100,000 to the BLC by December 30, 2007 (paid),
+•
+US$50,000 to Sametro on May 3, 2010 and every year thereafter until production (obligation renegotiated, see below),
+•
+US$200,000 to the BLC on production (paid in advance); and
+•
+US$100,000 to Sametro on production (obligation renegotiated, see below).
+Keegan also agreed to the Issuance of 780,000 common shares of Keegan to Sametro over a three year period with 40,000 common shares of Keegan to Sametro upon exchange approval (issued); 120,000 common shares of Keegan to Sametro on May 3, 2007 (obligation renegotiated, see below); 240,000 common shares of Keegan to Sametro on May 3, 2008; and 380,000 common shares of Keegan to Sametro on May 3, 2009 (this obligation has been renegotiated, see below). Keegan entered into a finder’s fee agreement dated June 5, 2006, whereby Keegan paid US$10,000 and issued 4,000 common shares as finder’s fees with respect to this acquisition.
+On June 14 2008, after having already issued the cash and share payments and completing the full work expenditure indicated in the previous paragraphs Keegan announced that it had signed a new option agreement so that all further unpaid cash and share payments to Sametro were no longer owed. In lieu of these payments, Keegan paid $850,000 to a creditor of Sametro and issued 40,000 additional common shares to Sametro subsequent to the period. During the period, Keegan paid a finder’s fee of US$85,000 with respect to the renegotiation of the option agreement.
+Keegan was subsequently granted the full Esaase Mining Lease by the Minerals Commission and Minister of Mines, Lands and Forestry with no further obligation to any party aside from the NSR and government commitments.
+In March of 2008, Keegan acquired the Jeni River Mining Lease in consideration US$50,000 to the Bonte Liquidation Committee and US$50,000 paid to the Minerals Commission of Ghana to transfer title. The Ghanaian government retains a standard 10% carried interest and 3% NSR and the Bonte Liquidation Committee retains a 0.5% NSR. 
+4.5
+Environmental Liabilities
+The Bonte Gold Mining alluvial operation has resulted in a large silting of the associated drainage system utilised by the dredging operation.
+Under the agreement with the liquidation committee acting on behalf of the Ghanaian Government, Keegan assumes no environmental liability to any resulting environmental liabilities arising from the operations of Bonte Gold Mines on the Esaase Concession. On the Jeni River Concession, Keegan agreed to reclaim the tailings as part of any large scale mining operation in the drainage.
+4.6
+Permitting
+All resources and areas of more significant exploration potential defined to date lie within the Esaase and Jeni River Leases. Permits to explore on the concession are obtained from the Ghana EPA on a yearly basis. Keegan currently has an EPA permit to explore for the remainder of 2009. As previously mentioned, Keegan also has the right to mine under the existing mining leases; however, a mine plan will need to be submitted to the EPA who would subsequently issue a mining permit.
+
+5
+ACCESSIBILITY, CLIMATE, LOCAL RESOURCES, INFRASTRUCTURE AND PHYSIOGRAPHY
+5.1
+Access
+The Esaase Property is accessed from Kumasi city by taking an asphalt road west 10km to the Bibiani Junction at Asenemuso and then southwest 10km to the village of Wioso. At Wioso a secondary asphalt road is taken 8km south to the village of Amankyea then by secondary gravel roads a further 11km via the villages of Ahewerwa and Tetrem. The Esaase deposit itself is accessed by a series of secondary roads constructed either by the former Bonte Gold Mines or by Keegan. Other parts of the property currently undergoing surface exploration are accessed by both dirt roads and by footpaths.
+5.2
+Physiography and Climate
+The annual rainfall is in the range of 1500mm to 2000mm with temperatures ranging from 22°C to 36°C. A major rainy season occurs from April to July followed by a minor one from September through to October. Keegan has operated without cessation or delay throughout both rainy seasons.
+The Esaase Property is drained by the Bonte River. The Bonte River is bounded on both sides by steep hills that reach heights of approximately 500mASL. The area is predominantly subsistence farmland producing mainly food crops such as plantain, corn, cassava, yam, tomatoes and some cash crop such as cocoa and oil palm. About 50% of this land is covered with secondary forest and thick brush. The valley floor has been extensively placer mined and now consists primarily of placer tailings.
+5.3
+Local Resources and Infrastructure
+The Esaase exploration camp and surrounding villages are connected to the national electrical grid. Mobile phone communication is accessible in most parts of the concession. A satellite dish is installed in the exploration camp for internet access. The nearest medical clinic and police station are located at Toase-Nkawie, on the Bibiani Highway, 20km from the exploration camp. Hospitals and most government offices are available in Kumasi. Food and general supplies are also purchased in Kumasi. High voltage power lines run along the Bibiani Highway eight kilometres from the concession boundary.
+
+6
+HISTORY
+6.1
+Ownership and Exploration History
+The Bonte area has a long history of artisanal mining, associated with the Ashanti Kingdom. There is also evidence of adits driven by European settlers, between the period 1900 to 1939, although no documented records remain of this activity.
+Drilling was conducted on the Bonte river valley alluvial sediments during 1966 and 1967 to determine alluvial gold potential. In 1990, the Bonte mining lease was granted to Akrokerri-Ashanti Gold Mines (AAGM) and was later transferred to Bonte Gold Mining (BGM), a local subsidiary of AAGM. BGM had reportedly recovered an estimated 200,000oz of alluvial gold on the Esaase concession and another 300,000oz downstream on the Jeni River concession, prior to entering into receivership in 2002. It should be noted that previous placer gold production is of no relevance to Keegan’s exploration program, which are entirely focused on the discovery of hard rock resources on the Esaase Property
+The Esaase mining concession, including the camp facilities at Tetrem, was bought from the Bonte Liquidation Committee by Sametro Company Limited, a private Ghanaian company. In May, 2006, Keegan signed a letter of agreement with Sametro to earn 90% of the Esaase mining concession over a 3 year period of work commitments and option payments. The government of Ghana retains the remaining 10%.
+Since mid 2006, Keegan has undertaken an aggressive exploration program combining soil geochemistry and IP geophysical surveys followed by diamond and reverse circulation exploration and resource drilling.
+6.2
+Resource and Reserve History
+A previous resource estimate was released by Coffey Mining on behalf of Keegan and detailed in a previous 43-101 report in December of 2007. This resource is summarised in Table 6.2_1 below.
+Table 6.2_1
+Esaase Gold Deposit
+Grade Tonnage Report
+(Multiple Indicator Kriging; 5mE x 16mN x 2.5mRL Selective Mining Unit)
+
+ 
+Lower Cutoff Grade
+(g/t Au)
+Mt
+Average Grade
+(g/t Au)
+Kozs
+
+Indicated
+
+0.4
+6.943
+1.2
+264
+
+0.6
+5.414
+1.4
+240
+
+0.8
+3.975
+1.6
+208
+
+1.0
+2.852
+1.9
+176
+
+1.2
+2.104
+2.2
+150
+
+Inferred
+
+0.4
+43.898
+1.1
+1,620
+
+0.6
+31.941
+1.4
+1,432
+
+0.8
+23.158
+1.7
+1,237
+
+1.0
+17.070
+1.9
+1,062
+
+1.2
+12.986
+2.2
+919
+
+Note: Appropriate rounding has been applied
+
+7
+GEOLOGICAL SETTING
+7.1
+Regional Geology
+The geology of Ghana is comprised predominantly of rocks of the Birimian (2.17-2.18Ga) and to a lesser extent of units of the Tarkwaian (2.12-2.14Ga, after Davis et al. 1994).
+The Birimian consists of narrow greenstone (volcanic) belts, which can be traced for hundreds of kilometres along strike but are usually only 20 to 60km wide, separated by wider basins of mainly marine clastic sediments. Along the margins of the basins and belts there appears to be considerable interbedding of basin sediments and volcanoclastic and pyroclastic units of the volcanic belts. Thin but laterally extensive chemical sediments (exhalites), consisting of cherts, fine-grained manganese-rich and graphitic sediments, often mark the transitional zones. The margins of the belts commonly exhibit faulting on local and regional scales. These structures are fundamentally important in the development of gold deposits for which the region is well known.
+The Tarkwaian rocks, on the other hand, consist of a distinctive sequence of metasediments (quartzite, conglomerate and phyllite) occurring within a broad band along the interior of the Ashanti Belt. They host important paleoplacer gold deposits in the Tarkwa district. Equivalent rock types occur in other belts of the region but in relatively restricted areas. In the type locality at Tarkwa, the sequence is in the order of 2.5km thick, whereas in the Bui belt, comparable units are about 9km thick sediments that mark a rapid period of erosion and proximal deposition during the late-stage of an orogenic cycle.
+All of the Birimian sediments and volcanics have been extensively metamorphosed; the most widespread metamorphic facies appears to be greenschist, although in many areas, higher temperatures and pressures are indicated by amphibolite facies.
+Multiple tectonic events have affected virtually all Birimian rocks with the most substantive being a fold-thrust compressional event (Eburnean Orogeny) that affected both volcanic and sedimentary belts throughout the region and to a lesser extent, Tarkwaian rocks. For this reason, relative age relations suggest that final deposition of Tarkwaian rocks took place as the underlying and adjacent volcanic and sedimentary rocks were undergoing the initial stages of compressional deformation. Studies in the western part of the region (Milesi et al., 1992) have proposed several separate phases of folding and faulting suggesting a change in stress direction from northeast to southwest, to north to south. However, a regional synthesis by Eisenlohr (1989) has concluded that, although there is considerable heterogeneity in the extent and styles of deformation in many areas, most of the structural elements have common features, which are compatible with a single, extended and progressive phase of regional deformation involving substantial northwest-southeast compression. 
+Figure 7.1_1 below shows the geology of southwest Ghana highlighting the Keegan projects of Esaase and Asumura.
+
+Figure 7.1_1
+Southwest Ghana Geology
+
+7.2
+Project Geology
+The Esaase Project area contains a system of gold-bearing quartz veins hosted by tightly folded Birimian-age sedimentary rocks. Geological units on the Esaase property have been interpreted by a combination of airborne geophysical resistivity mapping (VTEM), resource definition drilling and associated outcrop mapping.
+The rocks of the property can be divided into metasedimentary units with high electrical and EM resistivity and highly conductive rocks (Figure 7.2_1). Within the resource zone, the host rocks can be divided between phyllite and siltstone (ore zone predominant in hanging wall of resistivity break) and sandstone/greywacke (predominant in footwall of resistivity break). Host rocks to ore range from massive thinly layered phyllite through interlayered phyllite and siltstone, to massive silt and sandstone (Figure 7.2_2). Although recognizable stratigraphy appears to be present, the similarity of rock types, folding and faulting precludes correlation of individual stratigraphic units at this stage of core drill and outcrop density.
+The structural architecture of the Esaase area is dominated by fold-thrust patterning followed by a late stage strike-slip deformation event. Open to tight, northwest-dipping (axial planes strike (020º to 035º), northeast plunging (30º to 70º) folds are asymmetric and climb to the southeast. Folds tighten and deformation increases systematically to the southeast as shear zones are approached. This patterning repeats itself on the 10m to 100m scale. Folding in the deformed siltstone/shale package is open to tight, locally approaching isoclinal. Fold orientation ranges from upright to moderately inclined with dips to the northwest. Folds are asymmetric and climb to the southeast, consistent with regional interpretations of tectonic transport to the southwest. The fold limbs steepen as high strain zones (shears/thrust faults) are approached from the northwest. Within zones of higher strain, weak to moderately developed transposition is common. The footwall side of a shear commonly shows low or lesser strain and repeats the pattern of low to high strain at the next shear. This pattern repeats itself at many scales (micro to macro), but for mapping purposes it is typically on the 10m to 50m scale. These northeast striking, northwest-dipping syn-kinematic shears, which roughly parallel fold axial planes appear to demarcate zones of mineralization. In many (but not all) instances, the basal shear/thrust, divides the more deformed, altered, mineralized and electrically conductive siltstone shale unit in the hanging wall from the more massively bedded and less deformed sandstone/greywacke in the footwall. It is common to see broken rock, often carbonaceous, at or near this basal contact indicating likely late brittle faulting. As fault planes cannot be measured on these surfaces, their orientation cannot be clearly determined; thus it cannot be conclusively determined whether this fault or series of fault provide a conclusive footwall boundary. The resistivity contrast provides the best evidence for this contact on a property wide scale and consistent gold assays provide the best evidence on a sectional scale (Klipfel, 2009).
+The metasediments are intruded post-kinematically by dikes and small stocks of intermediate to felsic composition, i.e. tonalite to granodiorite. In the southern portion of the deposit, these intrusions are intensely brecciated and mineralized and occur at or near the footwall of mineralization and are themselves mineralized (Klipfel, 2009).
+The existence of weathering profile on the Esaase Property is strongly influenced by topography (Figure 7.2_4). The typical weathering horizon in tropical settings in West Africa consists of laterite (+- duracrust), saprolite, oxidized bedrock, and bedrock (there is often a gradational zone, “saprock” between the saprolite and oxidized bedrock. At the higher elevations at Esaase, the laterite and saprolite, and much of the saprock has been weathered away, leaving behind oxidized bedrock. At intermediate elevations the weathering profile is mostly intact and may be covered by transported colluvium. At the lowest elevations, the entire profile is covered by either alluvium or residual tailings from previous alluvial operations (Klipfel, 2009).
+
+Figure 7.2_1
+Map of Esaase Concession
+IP Resistivity, Northeast Structures and Alluvial Mining
+
+Figure 7.2_2
+Core photos of lithology types from the Esaase deposit
+
+KEY: deformed siltstone/shale in hanging wall of Esaase deposit (A,B); of less deformed sandstone/greywacke in footwall of the deposit (C,D) , and of tonalite/granodiorite intrusions (E) (from Klipfel, 2009).
+
+Figure 7.2_3
+Schematic structural model for the Esaase deposit and vicinity (Klipfel, 2009)
+
+Figure 7.2_4
+Typical Weathering Profile at the Esaase Project Looking North
+
+8
+DEPOSIT TYPES
+The target deposit being explored for is mesothermal quartz vein style mineralisation. This is by far the most important type of gold occurrence in West Africa and is commonly referred to as the Ashanti-type in recognition of the Obuasi area being the type locality and the largest gold deposit in the region. Milesi et al. (1992) recognize that these deposits are largely confined to tectonic corridors that are often >50km long and up to several kilometres wide and they usually display complex, multi-phase structural features, which control the mineralisation.
+The most common host rock is usually fine-grained metasediments, often in close proximity to graphitic, siliceous, or manganiferous chemical sediments. However, in some areas, mafic volcanics and belt intrusions are also known to host significant gold occurrences. Refractory type deposits feature early-stage disseminated sulphides in which pyrite and arsenopyrite host important amounts of gold overprinted by extensive late stage quartz veining in which visible gold is quite common and accessory polymetallic sulphides are frequently observed. This type includes important lode/vein deposits in Ghana such as at Obuasi, Prestea, Bogosu, Bibiani and Obotan. However, a second non-refractory style of gold mineralization occurs in which gold is not hosted within sulphide minerals either in early or late stage mineralization. These type deposits have lower sulphide content in general and in particular, lack the needle-like arsenopyrite that is common in the refractory type deposits. Such deposits include the Chirano and Ahafo type deposits (Stuart, 2007).
+
+9
+MINERALIZATION
+Gold Mineralization on the Esaase Property occurs in quartz - carbonate veins hosted within parallel NE trending, moderately to steeply west dipping bodies of extremely deformed siltstone shale. One form of disseminated alteration most commonly noted in oxidized rocks is quartz-sericite-pyrite (QSP) alteration. This alteration type is not distinctly different in coloration in fresh core and is thus difficult to detect in that state. Surface weathering converts the sericite to white kaolinite creating a bright white color alteration distinguishable even at great distance when exposed in trenches, road cuts, and drill pads. At closer scale, pyrite pseudomorphs can be distinguished. The second stage consists of pervasive carbonate alteration in the form of carbonate porphyroblasts, particularly after andalusite in phyllitic rocks. Carbonate flooding is more prevalent in siltstone where precursor andalusite porphyroblasts did not form (Klipfel, 2009).
+As mentioned in section 7, quartz veining occurred within the mineralization envelopes over most of the duration of the extensive fold and thrust and strike slip deformation events noted in Section 7. Four stages of veins can be identified. These include an early unmineralized quartz only vein stage which has undergone deformation and brecciation. A second vein stage consists of myriad fine spider-web-like quartz-carbonate veins. These veins are also early and are consistently deformed and offset. The third stage consists of quartz-carbonate±sulfide veins with visible free gold. The associated sulfide is generally pyrite, but up to 15% of it can be chalcopyrite and minor arsenopyrite variably occurs as well. Finally, late stage post-mineral calcite veins crosscut all previous features (Klipfel, 2009).
+Veins that contain visible gold overwhelmingly strike (350º to 020º), have sub vertical dips and are either planar or S-shaped. Thus they are oblique in orientation to the overall strike and dip of mineralization and appear to be bounded by aforementioned thrust faults and can thus be described as en echelon vein sets form en-echelon sets. As previously describe in Section 7, they likely were emplaced during a transition from fold thrust deformation to left lateral strike slip deformation (see Fig 7.2-3; Klipfel, 2009).
+
+Figure 9_1
+Example of Folded and Broken early veins
+
+Note: Veins Crosscut by a Dark Shear Fault Containing Boudinaged Veins, which is in turn cut by a late massive Quartz Vein with planar boundaries
+
+Figure 9_2
+Example of Sheeted Veining with Visible Gold
+
+ 
+
+10
+EXPLORATION
+No modern-style lode exploration was completed on the Esaase Project prior to the commencement of exploration by Keegan in mid 2006.
+10.1
+Soil Sampling Program
+Keegan commenced a soil sampling program upon acquisition of the Esaase Concession in June 2006 and has received assay results from over 4,000 soil samples. Sampling was undertaken on NE oriented lines spaced 100-400 meters apart with samples taken at 25 meter intervals along the lines. This program extended the initial soil sampling completed in March 2006 as part of initial due diligence on the concession. After the acquisition of the Jeni River Concession, Keegan expanded its soil program to the Jeni River Concession and has obtained over 2,100 samples from this concession using an identical sampling regime. Figure 10.1_1 shows the gold-in-soil contour map derived from these samples. Soil samples were obtained wherever there was not obvious alluvial disturbance or alluvial material and care was taken to sample below the organic horizon. As illustrated in Figure 7.2_4, the material below the organic horizon on ridge tops or steep slopes from higher elevations is weathered bedrock, whereas that taken nearer to the alluvial creek bottoms is underlain by colluvium, laterite, and/or saprolite. Drilling and trenching indicate that soil samples from weathered bedrock, on average, have gold levels within an order of magnitude of the underlying rock values. Soil samples from non bedrock sources (ie alluvial) tend to have much lower gold values than the underlying bedrock. As a result of this observation, Keegan has begun an auger sampling program in order to get samples at (or at leaser closer to) the bedrock/soil interface. 
+
+Figure 10.1_1
+Gold in Soil Thematic Map
+Esaase (top) and Jeni River (bottom) Concessions
+
+Figure 10.1_2
+Gold in Soil Contour Map
+
+10.2
+Geophysical Programs
+An IP program was completed in 2006 which successfully identified significant faults that are interpreted as significant mineralization boundaries. In order to identify other such structures, Keegan contracted Geotech Ltd to perform an airborne VTEM geophysical program on the Esaase Property. The survey was carried out during the period October 11, 2007 to October 25, 2007. The principal geophysical sensors included Geotech’s versatile time domain electromagnetic system (VTEM). Ancillary equipment included a GPS navigation system and a radar altimeter. A total of 2,266 line-km were flown. In-field data processing involved quality control and compilation of data collected during the acquisition stage, using the in-field processing centre established in Ghana. The survey was flown at nominal traverse line spacing of 200m. Flight line directions were N130°E/N50°W. The helicopter maintained a mean terrain clearance of 122m. 
+The data was processed and interpreted by Condor Consulting, Inc., who performed AdTau time constant analysis on line data in order to determine the best time delay channels to use. Condor performed Layered Earth Inversions (LEI), generated depth slices for the survey and characterized the 2D and 3D nature of the survey.
+The 10 channel map shown in Figure 10.2_1 is a relatively deep penetrating channel that avoids noise disturbance and provides an overall picture of the resistive characteristics of the rocks. The 92 meter Layered Earth Inversion is useful for a more detailed view of bedrock resistivity at the fresh bedrock surface.
+The image indicates significant breaks changes in the resistivity values of the rocks along what are interpreted as NE oriented structures. These breaks correlate with the position and orientation of gold anomalies, which are expressed both in the surface soils that overlie these breaks and in the subsurface as indicated by drilling
+
+ Figure 10.2_1
+VTEM 92 meter Layered Earth Inversion (LEI)
+
+11
+DRILLING
+
+11.1
+Introduction
+Drilling at the Esaase Gold Project has been managed by Keegan and Coffey Mining geologists and to date has been constrained geographically to the south central portion of the Esaase Concession (see fig 11.5.1). . Surface Reverse Circulation (‘RC’) and Diamond Core (‘DC’) drilling has been completed at the project. The ongoing drill program is designed to test the mineralised corridor delineated from soil sampling, trenching, drilling and geophysical interpretations. The initial 14 diamond drillholes were completed by Eagle drilling contractors with the remainder completed by Geodrill contractors. Both of these drilling companies are reputable Ghana based companies providing RC and Diamond drilling services consistent with current industry standard. Table 11.1_1 summarises pertinent drilling statistics for all holes drilled on the Esaase concession at the time of commencement of the resource estimate study. A total of 569 drillholes have been completed of which 467 of these drillholes (in the currently defined resource area) were used for the resource estimation study.
+
+Table 11.1_1
+Esaase Gold Project
+Summary Drilling Statistics
+
+ 
+Type
+number
+Type
+metres
+
+RC holes
+399
+RC metres
+69,953
+
+RC pre-collars with Diamond tails
+129
+RC pre-collar with Diamond tail metres
+38,318
+
+Diamond holes
+41
+Diamond hole metres
+9,688.7
+
+Total drillholes
+569
+Total metres drilled
+117,959.7
+
+11.2
+Drilling Procedures
+11.2.1
+Accuracy of Drillhole Collar Locations
+Drillhole collars were surveyed by a Coffey Mining surveyor utilising a Thales Promark 3 DGPS unit. This unit was validated as returning sub centimetre accuracy when compared to the topography pickup completed by Coffey Mining using a Geodimeter 610S total station. These instruments have an accuracy of better than 1cm and are considered conventional.
+11.2.2
+Downhole Surveying Procedures
+Drillholes were surveyed on approximately 50m downhole intervals, using a Reflex EZ-Shot®, an electronic single shot instrument manufactured by Reflex of Sweden.
+These measurements have been converted from magnetic to UTM Zone 30 North values. The factor used to convert between the two grids is -5 degrees.
+11.2.3
+Reverse Circulation Drilling Procedures
+Keegan supervised RC and diamond drilling was completed by Geodrill using a UDR KL900-02 multipurpose track mounted rig. RC rods were 4½ inch diameter and the drill bit used was a standard diameter.
+11.3
+Diamond Drilling Procedures
+The initial 14 diamond drillholes (HQ and NQ diameters) were completed by Eagle Drilling using a Longyear 38 skid mounted diamond drill. The Geodrill rig utilised in the RC drilling is multipurpose and completed the remaining diamond component of drilling also. The core was oriented by a combination of the spear technique and the Ezimark orientation device.
+11.4
+RC and Core Sampling Procedures
+The sampling procedures followed during RC and DC drilling are detailed in Section 12, as is the sample quality assessment.
+11.5
+Summary Results
+It is not practical to include a listing of all sample results, as a total of 113,069 RC samples and diamond core samples have been collected to date. Table 11.5_1 summarises pertinent statistics relating to the RC and core sampling program.
+
+Table 11.5_1
+Esaase Project
+Drilling and Sampling Statistics
+
+ 
+Method
+Number
+Average
+Length
+Total
+Metres
+Number of
+Assays
+
+RC
+399
+175
+69,953
+69,515
+
+RC precollars with diamond tails
+129
+297
+38,318
+19,216 (RC)
+18,406 (diamond)
+
+Diamond
+41
+236
+9,688.7
+5,932
+
+Total
+569
+85
+117,959.7
+113,069
+
+The location of all drillhole collars colour coded by cumulative grade thickness is shown in Figure 11.5_1. It shows three other zones of drilled mineralization that are not currently included in the current resource. Figure 11.5_2 displays drilling within the resource area colour coded by type. Note the Figure shows drillholes not used in the grade estimate.
+11.6
+Drilling Orientation
+The vast majority of drillholes in the west dipping Esaase mineralisation were collared at an orientation of approximately 100° (UTM). A small number of holes were drilled towards approximately 300°. 
+11.7
+Topographical Control
+Topography has been generated from a Total Station survey completed by Coffey Mining surveyors in 2007. This topography is to an accuracy of +/-30cm and compares well with the drillhole collar survey data. Coffey Mining considers the topography to be of high confidence.
+
+Figure 11.5_1
+Esaase Project
+Drillhole Collar Locations
+
+Note: Drilling is color coded by cumulative grade widths with a minimum of 15 gram per tonne x metre. The resource zone is distinguished from other zones of mineralization that have not been included in the resource
+
+Figure 11.5_2
+Drillhole Locations by Drilling Type
+
+Diamond - Red
+RC precollars- Blue
+RC - Green
+
+12
+SAMPLING METHOD AND APPROACH
+12.1
+RC Sampling and Logging
+RC drill chips were collected as 1m intervals downhole via a cyclone into PVC bags, and then weighed prior to splitting.
+The collected samples were riffle split using a three tier Jones riffle splitter. A final sample of approximately 2kg was collected for submission to the laboratory for analysis. All 1m samples were analysed.
+RC chip trays were systematically compiled and logged with all bulk rejects being stored at the Keegan exploration camp in Esaase.
+12.2
+Diamond Core Sampling and Logging
+The sampling of the core was subject to the discretion of the geologist completing the geological logging. Initially, nominally 2m intervals were taken unless geological features were identified requiring smaller intervals. After December 2006, nominally 1m intervals were taken. 9.8% of diamond core sampling was submitted as whole core with the remaining 90.2% was submitted as half core. 
+It should be noted that these sampling intervals are much smaller than the true width of mineralised zones, which is variable throughout the deposit, but is typically in excess of 30m. 
+After the marking out of the required interval, the core was cut in half by electric diamond blade core saw. The cut is made 1cm to the right (looking downhole) of the orientation line with the left side being retained and the other half broken up for assay.
+In the upper oxide zone, where the core was too friable for diamond saw cutting, the procedure was to dry cut or cleave the core.
+Core structure orientations were routinely recorded to assist in determining the controls on mineralisation, in establishing a reliable geological model for resource estimation, and to provide additional geotechnical information to determine likely blast fragmentation and pit stability characteristics.
+The core is transferred from the trays and pieced together on a V-rail (angle iron) rack and the orientation line (bottom of hole), determined by the orientation tool recorded during drilling, is drawn along the entire length of the assembled core.
+Geotechnical logging has recorded percentage core recovery, RQD percentage, rock type, weathering, rock strength and fractures per metre. This basic geotechnical logging is considered appropriate at this stage of project development.
+12.3
+Sample Recovery
+Sample recovery for RC drilling was noted as very good and averages approximately 34kg per metre drilled. Bulk sample weights have been systematically recorded for each metre drilled.
+Sample recovery in Diamond holes was very good although recoveries for core from the moderate to highly weathered saprolite and highly fractured and brecciated zones returned poor recoveries. Keegan utilised HQ3 drilling to minimise the core loss in the weathered zones.
+12.4
+Sample Quality
+The sampling procedures adopted for drilling are consistent with current industry best practise. Samples collected by diamond coring within the highly weathered zones are of moderate quality, with the remainder being high. Sample recoveries and quality for the RC drilling are high with drilling switching to diamond core once wet samples were noticed.
+Dedicated drillhole twinning of the DC drilling and RC drilling has not been completed by Keegan at this stage and it is difficult to determine if any negative bias has resulted in the DC drilling due to the use of water. A number of the DC holes had poor recovery in the highly weathered zone and there exists potential to wash the fine gold associated with the fractures and veining and therefore underestimate the gold content.
+RC field duplicate samples are routinely collected to allow assessment of the field sampling error (or bias) once the laboratory error, determined from analysis of pulp duplicates, has been subtracted. Acceptable reproducibility has been identified during an assessment of RC field duplicate data (Section 15) generated and no distinct bias is evident.
+
+13
+SAMPLE PREPARATION, ANALYSES AND SECURITY
+13.1
+Sample Security
+The close scrutiny of sample submission procedures by Keegan technical staff, and the rapid submission of samples from drilling for analysis, provides little opportunity for sample tampering. Equally, given the umpire assaying via an external international laboratory and the regular ‘blind’ submission of international standards to both the primary and umpire assay facilities, any misleading analytical data would be readily recognised and investigated.
+Current Keegan sampling procedures require samples to be collected in staple closed bags once taken from the rig. They are then transported to the Esaase camp to be picked up by the laboratory truck. The laboratory truck then takes them to the laboratory directly.
+Reference material is retained and stored at the Keegan exploration camp at Esaase, as well as chips derived from RC drilling, half-core and photographs generated by Diamond drilling, and duplicate pulps and residues of all submitted samples. Assessment of the data indicates that the assay results are generally consistent with the logged alteration and mineralisation, and are entirely consistent with the anticipated tenor of mineralisation.
+13.2
+Analytical Laboratories
+Preparation and assaying of samples from the Esaase deposit has been carried out at two independent laboratories:-
+•
+SGS Tarkwa (SGS)
+(from April 2007).
+•
+Transworld Tarkwa (TWL)
+(from October 2006).
+•
+ALS Kumasi 
+(from November 2007).
+13.3
+Sample Preparation and Analytical Procedure
+13.3.1
+Transworld Tarkwa
+The assay method applied by TWL Tarkwa for the Esaase drilling is summarised below. All aspects of sample preparation and analysis were undertaken at TWL Tarkwa. 
+•
+Sample Preparation
+*
+3kg or less of sample is dried, disaggregated, and jaw crushed to 3mm.
+*
+Sample is pulverised to a nominal 95% passing -75 micron using an LM2 pulveriser.
+*
+Two pulp samples are taken for analysis and pulp storage.
+•
+Sample Analysis
+*
+50g charge, Fire Assay fusion, lead collection, AAS determination to 0.1ppm.
+13.3.2
+SGS Tarkwa
+The methodology for the 50g fire assay from the SGS Tarkwa laboratory is the same as that completed at TWL. All aspects of sample preparation and analysis were undertaken at SGS Tarkwa. SGS is part of the global group of SGS laboratories with ISO/IEC 17025 accreditation.
+13.3.3
+ALS Kumasi
+The assay method applied by ALS Kumasi for the Esaase drilling is summarised below. All aspects of sample preparation and analysis were undertaken at ALS Kumasi. ALS is part of the global group ALS Laboratory Group with ISO 9001:2000 accreditation.
+•
+Sample Preparation
+*
+3kg or less of sample is dried, disaggregated, and jaw crushed to 2mm with a nominal 70% passing 2mm.
+*
+Sample is pulverised to a nominal 85% passing -75 micron using an LM2 pulveriser.
+*
+Two pulp samples are taken for analysis and pulp storage.
+•
+Sample Analysis
+*
+50g charge, Fire Assay fusion, lead collection, AAS determination to 0.1ppm
+13.4
+Bulk Density Determinations
+A total of 6,121 bulk density determinations have been collected for the Esaase deposit by Coffey Mining. The readings were taken over a range of lithological and weathered profiles by Coffey Mining technicians. The procedure used is detailed below and works on the Archimedies Principle. A custom set of “Bulk Density” scales with a weighing hook located underneath (purchased from Corstor South Africa) was utilised for the measurements:-
+•
+10cm billet of clean dry (dried in an oven for 4 hours at 60oC) core is weighed.
+•
+Core is immersed in paraffin wax then reweighed to establish weight of the wax.
+•
+Core is then suspended and weighed in water to determine the volume.
+The Bulk Density is then calculated as Bulk Density core = [Mass core] / [(Mass air – Mass water) – (Mass wax / 0.9)].
+A statistical analysis of the results is presented in Section 17.4.
+13.5
+Adequacy of Procedures
+Analytical procedures associated with data generated to date are consistent with current industry practise and are considered acceptable for the style of mineralisation identified at Esaase. Quality control procedures are described in the next section (Section 14).
+
+14
+DATA VERIFICATION
+14.1
+Quality Control Procedures
+The quality control procedures adopted by the Keegan and the relevant analytical laboratories are listed in point form below.
+14.1.1
+Keegan
+Keegan has undertaken the procedures recommended by Coffey Mining from January 2007, and include:-
+•
+Insertion of 16 (Geostats Standards and CDN Resource Standards) internationally certified standard reference material (5% of samples).
+•
+Insertion of Blank material (5% of samples).
+•
+RC Field duplicates taken (5% of samples).
+•
+Diamond Core Field duplicates completed by a second split at the 3mm jaw crushing stage.
+•
+Submission of selected Umpire samples to SGS.
+•
+Review of the Keegan and the internal laboratory QC data on a batch by batch basis.
+The assay quality control procedures applying to the various laboratories is summarised in the following sections.
+14.1.2
+SGS Tarkwa
+The following quality control procedures are adopted by SGS which is part of the global group of SGS laboratories with ISO/IEC 17025 accreditation:-
+•
+Cross referencing of sample identifiers (sample tags) during sample sorting and preparation with sample sheets and client submission sheet.
+•
+Compressed air gun used to clean crushing and milling equipment between samples.
+•
+Barren quartz ‘wash’ applied to the milling/pulverising equipment at the rate of 1:10.
+•
+Quartz washes assayed to determine the level of cross contamination.
+•
+Sieve tests are carried out on pulps at the rate of 1:50 to ensure adequate size reduction.
+•
+Assaying of certified standards at the rate of one per batch of 20.
+•
+A minimum of 5% (1:20) of the submitted samples in each batch are subject to repeat analysis.
+•
+Blank samples are inserted at the rate of approximately 1:30.
+•
+Industry recognised certified standards are disguised and inserted at a rate of 1:30.
+•
+Assaying of internal standards data.
+•
+Participation in two international round robin programs; LQSi of USA and Geostats of Australia.
+14.1.3
+Transworld Tarkwa
+TWL applies most of the QC procedures used by SGS although it only participates in the Geostats round robin umpire assay program and it does not utilise the CCLAS computer system. TWL Tarkwa was acquired by Intertek Minerals Group in October 2008. Intertek Minerals Group includes Genalysis Laboratory Services Pty Ltd of Australia and operates in accordance with ISO/IEC 17025, which includes the management requirements of ISO 9001: 2000.
+14.1.4
+ALS Kumasi
+ The following quality control procedures are adopted by ALS which is part of the global group ALS Laboratory Group with ISO 9001:2000 accreditation:-
+•
+Cross referencing of sample identifiers (sample tags) during sample sorting and preparation with sample sheets and client submission sheet.
+•
+Compressed air gun used to clean crushing and milling equipment between samples.
+•
+Barren ‘wash’ material applied to the milling/pulverising equipment at between sample preparation batches.
+•
+Quartz washes assayed prior to use to determine the level of cross contamination.
+•
+Sieve tests are carried out on pulps on a regular basis to ensure adequate size reduction.
+•
+Assaying of certified standards at the minimum rate of one per batch (dependant on batch size and assay technique).
+•
+A minimum of one of the submitted samples in each batch are subject to repeat analysis.
+•
+Blank samples are inserted at the beginning of each batch.
+•
+Participation in a number of international round robin programs which include CANMET of Canada and Geostats of Australia.
+
+14.2
+Quality Control Analysis
+The quality control data analysed by Coffey Mining includes:-
+•
+Standard and blanks (both Field and Laboratory).
+•
+RC Field duplicates.
+•
+Laboratory repeats.
+•
+Re-assayed pulps.
+•
+Umpire assaying.
+The assay quality control data, as they pertain to resource estimates completed on the basis of data available, have been subset into the categories above, and reviewed separately.
+The quality control data has been assessed statistically using a number of comparative analyses for available datasets. The objectives of these analyses were to determine relative precision and accuracy levels between various sets of assay pairs and the quantum of relative error. The results of the statistical analyses are presented as summary plots, which include the following:-
+•
+Thompson and Howarth Plot showing the mean relative percentage error of grouped assay pairs across the entire grade range, used to visualise precision levels by comparing against given control lines.
+•
+Rank % HARD Plot, which ranks all assay pairs in terms of precision levels measured as half of the absolute relative difference from the mean of the assay pairs (% HARD), used to visualise relative precision levels and to determine the percentage of the assay pairs population occurring at a certain precision level.
+•
+Mean v's % HARD Plot, used as another way of illustrating relative precision levels by showing the range of % HARD over the grade range.
+•
+Mean vs %HRD Plot is similar to the above, but the sign is retained, thus allowing negative or positive differences to be computed. This plot gives an overall impression of precision and also shows whether or not there is significant bias between the assay pairs by illustrating the mean percent half relative difference between the assay pairs (mean % HRD).
+•
+Correlation Plot is a simple plot of the value of assay 1 against assay 2. This plot allows an overall visualisation of precision and bias over selected grade ranges. Correlation coefficients are also used.
+•
+Quantile-Quantile (Q-Q) Plot is a means where the marginal distributions of two datasets can be compared. Similar distributions should be noted if the data is unbiased.
+Comments on the results of the statistical analyses for each laboratory are provided below while a compilation of the descriptive statistics and graphical plots are presented as illustrations in Appendix A.
+14.2.1
+Transworld Laboratory, Tarkwa
+TWL Duplicate Repeats
+At TWL, every 20th sample is duplicated. A duplicate is two separate samples taken from the total pulped sample. Duplicate repeats are analysed in the same batch and are therefore not subject to intra-batch variance. Only assays greater than 10 times the detection level (>=0.1ppm Au) are included in the assessment and data are divided into drillcore (HQ and NQ, 177 assays) and riffle split 1m RC drill chips (461 assays). Results show equivalent means between the duplicate repeats and precision within acceptable limits for both diamond core and RC samples.
+TWL Pulp Respray
+After initial calibration of the AAS with control standards, the batch is sprayed (the aspirator tube is placed in the DIBK layer and approximately 1ml is sprayed into the AAS flame). On combustion, the absorbance is measured by the AAS and the strength of the absorbance is proportional to the gold concentration). At the end of spraying, the operator returns to every 10th samples and performs the same operation and this is the Pulp Respray. At the end, control samples are again presented to the AAS to verify that short term drift has not occurred. Only assays greater than 10 times the detection level (>=0.1ppm Au) are included in the assessment for a total of 1202 assays. Results show equivalent means between the duplicate repeats and precision well within acceptable limits.
+TWL Check Repeats
+Check repeats occur where high grade samples are encountered or where the result is out of sequence (eg 0.01-0.04-0.02-1.2-0.03: Result 1.2 is out of sequence and would be repeated). A repeat is a second 50g sample taken from the same kraft envelope as the original analysis (Au1) and is thus different from the duplicate repeat. Check Repeats are analysed later than the original assay (in a different batch) and may therefore be subject to intra-batch variance compared with the original result. Only assays greater than 10 times the detection level (>=0.1ppm Au) are included in the assessment and data are divided into drillcore (HQ and NQ, 265 assays) and riffle split 1m RC drill chips (573 assays). Check Repeat analyses data to September 2007 was available for review. Results show equivalent means between the duplicate repeats and precision within acceptable limits for both diamond core and RC samples
+
+TWL Pulp Reassay
+Only pulp reassays greater than or equal to 10 times the detection level (0.1ppm Au) are considered for analysis and these comprise 1,615 riffle split 1m RC drill chip assays. Results show equivalent means between the duplicate repeats and precision within acceptable limits
+TWL Lab Standards and Blanks Analysis
+Six certified standards were inserted by TWL into the sample batches at a rate of one in twenty in addition to preparation blanks and reagent blanks at a similar rate. The supplied database only contains Lab standards analysis received to September 2007. A total of 3,512 standards and blanks assays are available for analysis. Results generally show a positive bias of between -0.44% to 3.05%. This positive bias is more evident for higher grade standards.
+14.2.2
+SGS Laboratory, Tarkwa
+SGS Duplicate Second Split
+This comprises RC (339) and diamond core (73) field duplicates and is achieved by taking a second split at the 3mm jaw crushing stage of the sample preparation. Results show equivalent means and a high level of precision between the original and the reassay for both diamond core and RC samples.
+SGS Replicate First Split
+These assays represent a random repeat assay with four random repeats completed from each batch of 50 samples. A total of 582 Diamond core and 2,392 RC analyses are available for analysis. Results show equivalent means and an acceptable level of precision between the original and the reassay.
+Lab Standards and Blanks Analysis
+Four certified standards were inserted by SGS into the sample batches at a rate of one in twenty in addition to preparation blanks and reagent blanks at a similar rate. The supplied database only contains Lab standards analysis received to September 2007. A total of 938 standards and blanks assays are available for analysis. Results show a relative low bias of up to -2.09%.
+14.2.3
+ALS Laboratory, Kumasi
+ALS Duplicate Second Split
+This comprises RC (176) and diamond core (62) duplicates and is achieved by taking a second split at the 3mm jaw crushing stage of the sample preparation. Results show equivalent means and a high level of precision between the original and the reassay for the diamond core samples. Results for the RC samples demonstrate a high level of precision between the original and the reassay however the second mean is 7.5% lower than the original assay.
+ALS Replicate
+These assays represent a random repeat assay of a second sample taken from the original pulp. A total of 223 diamond core and 892 RC analyses are available for analysis. Results show equivalent means for diamond core however the second mean for the RC samples is significantly lower than the original. Overall levels of precision between the original and the reassay are low for both diamond core and RC samples.
+ALS intra batch analysis
+These assays represent a random repeat assay analysed in a different assay batch to the first. Results show equivalent means and acceptable precision (although at the lower end) for both RC and diamond core samples.
+
+Table 13.2.1_1
+Transworld Laboratory Tarkwa
+Laboratory Submitted Blanks and Standards
+
+ 
+Standard Name
+Expected Value
+(EV)
++/-10% (EV)
+(g/t)
+No of
+Analyses
+Minimum
+(g/t)
+Maximum
+(g/t)
+Mean
+(g/t)
+% Within
++/- 10 of EV
+% RSD
+(from EV)
+% Bias
+(from EV)
+
+TWL Submitted Blanks
+
+Reagent Blank
+0.005
+0.0045 to 0.0055
+612
+0.005
+0.02
+0.005
+98.86
+18.96
+1.80
+
+Sample Blank
+0.005
+0.0045 to 0.0055
+1370
+0.005
+0.02
+0.005
+98.98
+12.47
+1.17
+
+TWL Submitted Standards
+
+BM292
+1.48
+1.33 to 1.63
+66
+1.41
+1.60
+1.50
+100
+2.62
+1.1
+
+ST06_5322
+1.04
+0.94 to 1.14
+108
+0.97
+1.11
+1.04
+100
+2.52
+-0.44
+
+ST06_5356
+1.04
+0.94 to 1.14
+466
+0.97
+1.12
+1.05
+100
+2.26
+0.48
+
+ST17_2290
+0.78
+0.70 to 0.86
+595
+0.72
+0.85
+0.79
+100
+2.68
+1.61
+
+ST343
+1.286
+0.18 to 0.22
+218
+0.19
+0.23
+0.20
+98.62
+3.91
+2.09
+
+ST364
+8.59
+7.73 to 9.45
+68
+8.20
+9.31
+8.85
+100
+3.10
+3.05
+
+ 
+
+ 
+Table 13.2.1_2
+Transworld Laboratory Tarkwa
+Field Submitted Blanks and Standards
+
+ 
+Standard Name
+Expected Value
+(EV)
++/-10% (EV)
+(g/t)
+No of
+Analyses
+Minimum
+(g/t)
+Maximum
+(g/t)
+Mean
+(g/t)
+% Within
++/- 10 of EV
+% RSD
+(from EV)
+% Bias
+(from EV)
+
+Keegan Submitted Blanks
+
+Sample Blank
+0.005
+0.0045 to 0.0055
+1279
+0.01
+0.2
+0.02
+-
+-
+-
+
+Keegan Submitted Standards
+
+CDN-BL-3
+0.01
+0.009 to 0.011
+104
+0.01
+0.06
+0.02
+-
+-
+-
+
+CDN- GS-15A
+14.83
+13.35 to 16.31
+54
+10.74
+16.64
+14.06
+72.22
+8.07
+-5.22
+
+CDN-GS-1C
+0.99
+0.89 to 1.09
+246
+0.91
+1.19
+1.04
+82.93
+4.46
+4.94
+
+CDN_GS_30A
+35.25
+31.73 to 38.78
+27
+33.53
+41.05
+36.1
+88.89
+4.64
+2.42
+
+CDN-GS-P5
+0.52
+0.47 to 0.58
+76
+0.45
+0.62
+0.52
+85.53
+6.51
+-0.75
+
+CDN-GS-P5B
+0.44
+0.40 to 0.48
+246
+0.33
+0.54
+0.46
+75.61
+6.48
+5.31
+
+G306-3
+8.66
+7.79 to 9.53
+27
+6.99
+10.12
+8.95
+81.48
+6.48
+3.35
+
+G396-5
+7.36
+6.62 to 8.10
+53
+5.25
+9.89
+7.44
+75.47
+10.47
+1.03
+
+G901-11C
+1.34
+1.21 to 1.47
+281
+1.05
+1.67
+1.41
+80.43
+6.08
+5.14
+
+G901-7
+1.52
+1.37 to 1.67
+42
+1.38
+1.76
+1.54
+97.62
+4.38
+1.47
+
+G901-9
+0.69
+0.62 to 0.76
+149
+0.51
+0.87
+0.71
+77.18
+7.58
+2.48
+
+G905-10
+6.75
+6.08 to 7.43
+119
+5.73
+8.44
+6.95
+76.47
+7.34
+2.89
+
+G905-5
+0.52
+0.47 to 0.57
+159
+0.45
+0.64
+0.52
+89.31
+6.57
+0.63
+
+G995-1
+2.74
+2.47 to 3.01
+153
+2.06
+3.76
+2.86
+68.63
+8.78
+4.45
+
+G997-9
+5.16
+4.64 to 5.68
+207
+4.00
+6.35
+5.47
+63.29
+8.04
+6.09
+
+G995-6
+7.18
+6.46 to 7.90
+4
+6.94
+7.55
+7.33
+100
+3.19
+2.05
+
+Table 13.2.2_1
+SGS Laboratory Tarkwa
+Laboratory Submitted Blanks and Standards
+
+ 
+Standard Name
+Expected Value
+(EV)
++/-10% (EV)
+(g/t)
+No of
+Analyses
+Minimum
+(g/t)
+Maximum
+(g/t)
+Mean
+(g/t)
+% Within
++/- 10 of EV
+% RSD
+(from EV)
+% Bias
+(from EV)
+
+SGS Submitted Blanks
+
+Reagent Blank
+0.005
+0.0045 to 0.0055
+179
+0.005
+0.01
+0.005
+94.41
+21.75
+5.59
+
+Sample Blank
+0.005
+0.0045 to 0.0055
+157
+0.005
+0.02
+0.005
+92.99
+36.84
+9.55
+
+SGS Submitted Standards
+
+ST05_2286
+2.36
+2.12 to2.60
+151
+2.14
+2.52
+2.33
+100
+2.09
+-1.27
+
+ST14_6368
+0.41
+0.37 to 0.45
+164
+0.38
+0.42
+0.40
+100
+2.26
+-2.90
+
+ST21_5327
+6.83
+6.15 to 7.51
+122
+6.21
+7.35
+6.76
+100
+2.64
+-1.03
+
+ST37_8229
+1.73
+1.56 to 1.90
+165
+1.62
+1.84
+1.71
+100
+1.76
+-1.30
+
+ 
+
+Table 13.2.3_1
+SGS Laboratory Tarkwa
+Field Submitted Blanks and Standards
+
+ 
+Standard Name
+Expected Value
+(EV)
++/-10% (EV)
+(g/t)
+No of
+Analyses
+Minimum
+(g/t)
+Maximum
+(g/t)
+Mean
+(g/t)
+% Within
++/- 10 of EV
+% RSD
+(from EV)
+% Bias
+(from EV)
+
+Keegan Submitted Blanks
+
+Sample Blank
+0.01
+0.009 to 0.011
+2097
+0.005
+0.2
+0.025
+-
+-
+-
+
+Keegan Submitted Standards
+
+CDN-BL-3
+0.01
+0.009 to 0.011
+150
+0.13
+1.3
+0.017
+-
+-
+-
+
+CDN- GS-15A
+14.83
+13.35 to 16.31
+81
+13.7
+18.6
+15.86
+66.67
+7.47
+6.93
+
+CDN-GS-1C
+0.99
+0.89 to 1.09
+50
+0.81
+1.11
+1.024
+86
+5.05
+3.43
+
+CDN_GS_30A
+35.25
+31.73 to 38.78
+70
+32.3
+44.2
+35.38
+97.14
+4.58
+0.37
+
+CDN-GS-P5B
+0.44
+0.40 to 0.48
+161
+0.27
+0.54
+0.47
+55.90
+8.44
+7.30
+
+G306-3
+8.66
+7.79 to 9.53
+70
+7.97
+9.45
+8.7
+100
+2.68
+0.46
+
+G396-5
+7.36
+6.62 to 8.10
+81
+6.51
+7.54
+6.91
+97.53
+1.86
+-6.15
+
+G901-1
+2.58
+2.32 to 2.84
+40
+2.56
+2.77
+2.63
+100
+1.76
+2.07
+
+G901-11C
+1.34
+1.21 to 1.47
+222
+1.18
+1.43
+1.30
+99.55
+1.97
+-3.30
+
+G901-7
+1.52
+1.37 to 1.67
+78
+1.29
+1.72
+1.39
+35.90
+7.83
+-8.41
+
+G901-9
+0.69
+0.62 to 0.76
+373
+0.53
+0.81
+0.65
+69.44
+6.03
+-6.56
+
+G905-10
+6.75
+6.08 to 7.43
+271
+6.06
+7.22
+6.80
+99.63
+2.30
+0.69
+
+G905-5
+0.52
+0.47 to 0.57
+352
+0.43
+0.67
+0.53
+83.52
+7.55
+1.92
+
+G995-1
+2.74
+2.47 to 3.01
+410
+2.38
+3.40
+2.66
+96.10
+4.14
+-2.77
+
+G997-9
+5.16
+4.64 to 5.68
+344
+4.08
+5.65
+4.95
+97.97
+3.23
+-4.14
+
+G995-6
+7.18
+6.46 to 7.90
+48
+6.65
+7.38
+6.87
+100
+1.41
+-4.28
+
+Table 13.2.2_1
+ALS Laboratory Tarkwa
+Laboratory Submitted Blanks and Standards
+
+ 
+Standard Name
+Expected Value
+(EV)
++/-10% (EV)
+(g/t)
+No of
+Analyses
+Minimum
+(g/t)
+Maximum
+(g/t)
+Mean
+(g/t)
+% Within
++/- 10 of EV
+% RSD
+(from EV)
+% Bias
+(from EV)
+
+ALS Submitted Blanks
+
+Reagent Blank
+0.005
+0.0045 to 0.0055
+179
+0.005
+0.01
+0.005
+94.41
+21.75
+5.59
+
+Sample Blank
+0.005
+0.0045 to 0.0055
+157
+0.005
+0.02
+0.005
+92.99
+36.84
+9.55
+
+ALS Submitted Standards
+
+ST05_2286
+2.36
+2.12 to2.60
+151
+2.14
+2.52
+2.33
+100
+2.09
+-1.27
+
+ST14_6368
+0.41
+0.37 to 0.45
+164
+0.38
+0.42
+0.40
+100
+2.26
+-2.90
+
+ST21_5327
+6.83
+6.15 to 7.51
+122
+6.21
+7.35
+6.76
+100
+2.64
+-1.03
+
+ST37_8229
+1.73
+1.56 to 1.90
+165
+1.62
+1.84
+1.71
+100
+1.76
+-1.30
+
+ 
+
+Table 13.2.3_1
+ALS Laboratory Tarkwa
+Field Submitted Blanks and Standards
+
+ 
+Standard Name
+Expected Value
+(EV)
++/-10% (EV)
+(g/t)
+No of
+Analyses
+Minimum
+(g/t)
+Maximum
+(g/t)
+Mean
+(g/t)
+% Within
++/- 10 of EV
+% RSD
+(from EV)
+% Bias
+(from EV)
+
+Keegan Submitted Blanks
+
+Sample Blank
+0.01
+0.009 to 0.011
+292
+0.01
+0.06
+0.01
+-
+-
+-
+
+Keegan Submitted Standards
+
+CDN-BL-3
+0.01
+0.009 to 0.011
+61
+0.01
+0.04
+0.01
+-
+-
+-
+
+CDN- GS-15A
+14.83
+13.35 to 16.31
+50
+11.00
+16.85
+14.78
+96.00
+5.48
+-0.32
+
+CDN_GS_30A
+35.25
+31.73 to 38.78
+44
+27.20
+41.40
+35.38
+79.55
+8.02
+0.35
+
+CDN-GS-P5B
+0.44
+0.40 to 0.48
+143
+0.28
+0.50
+0.43
+89.51
+7.03
+-3.16
+
+G306-3
+8.66
+7.79 to 9.53
+111
+7.89
+9.83
+8.78
+97.30
+4.72
+1.41
+
+G396-5
+7.36
+6.62 to 8.10
+3
+7.63
+8.78
+8.28
+33.33
+5.80
+12.45
+
+G901-1
+2.58
+2.32 to 2.84
+49
+2.19
+4.00
+2.70
+75.51
+10.10
+4.69
+
+G901-11C
+1.34
+1.21 to 1.47
+141
+1.06
+1.59
+1.34
+89.36
+6.36
+-0.31
+
+G901-7
+1.52
+1.37 to 1.67
+76
+1.33
+1.97
+1.52
+96.05
+5.43
+0.00
+
+G901-9
+0.69
+0.62 to 0.76
+145
+0.53
+0.80
+0.68
+90.34
+5.65
+-1.41
+
+G905-10
+6.75
+6.08 to 7.43
+31
+5.55
+7.86
+6.78
+80.65
+7.81
+0.38
+
+G905-5
+0.52
+0.47 to 0.57
+149
+0.36
+0.60
+0.50
+87.25
+6.87
+-3.65
+
+G995-1
+2.74
+2.47 to 3.01
+146
+1.81
+4.33
+2.89
+70.55
+10.20
+5.64
+
+G997-9
+5.16
+4.64 to 5.68
+150
+3.54
+6.59
+5.24
+87.33
+7.80
+1.48
+
+G995-6
+7.18
+6.46 to 7.90
+90
+6.75
+7.96
+7.34
+96.67
+3.50
+2.17
+
+14.2.4
+Keegan QAQC
+Keegan Field Standards and Blanks
+A total of 16 Certified Standards and one blank have been included in sample batches sent to TWL, ALS and SGS. A total of 11,507 assays were available for analysis. Where identifiable, outliers to the data which are obviously a misplaced standard have been removed from the data before analysis resulting in 9,818 valid standard assays. 
+Results show a moderate positive bias of up to 6.09% for Transworld Laboratories. There is no relationship between grade and bias. One standard shows negative bias of -5.33%. 
+Blind standards analysis at SGS shows a spread of bias with one standard displaying a significant negative bias of up to -8.41%. In addition, one standard shows a positive bias of 6.93%. Again, there is no relationship between grade and bias.
+Blind standards analysis at ALS shows a spread of bias from -3.65% to 5.64%. Negative bias is apparent at lower grades and positive bias up to 5.64% is seen in two standards at 2.58g/t Au and 2.74g/t Au. For higher grade samples the bias approaches zero.
+Keegan Field Duplicates
+Field duplicates totalling 1,567, 1163 and 2,802 have been sent to TWL, ALS and SGS respectively. Diamond core field duplicates consist of a portion of the “coarse rejects” obtained after the crushing stage. RC field duplicates consist of a second sample split from the reject sample in the field. Only assays returning values greater than ten times the detection limits (>0.1ppm Au) and less than 5g/t Au have been considered in the analysis. 
+Results for TWL, SGS and ALS show equivalent means and acceptable precision for both RC and diamond core samples.
+Keegan Assay Resplits (Umpire)
+In January and February 2007 a total of 1,197 RC samples were re-split and sent for analysis at SGS Tarkwa (TWL was the primary laboratory for the initial analysis). Only assays >0.1g/t Au are considered in the analysis and a total of 481 assay pairs are available for analysis. Results show a significantly lower mean (by 15.6%) for analysis completed at SGS (although this is significantly reduces if outliers to the data are removed).
+SGS Tarkwa has been utilised as a primary laboratory for the project since February 2007 and umpire samples numbering 1,633 have subsequently sent to Genalysis of Perth for umpire analysis. Only assays >0.1g/t Au are considered in the analysis and a total of 1,572 assay pairs are available for analysis. Results show equivalent assay means for the pairs between ALS and Genalysis and between SGS and Genalysis. The means of the assay pairs between TWL and Genalysis show high bias for TWL, a finding which is supported by Standards analysis (Section 14.2.4). Precision is less than acceptable for all comparisons and this requires investigation
+14.3
+QAQC Conclusions
+Coffey Mining believes that the current QAQC systems in place at Esaase to monitor the precision and accuracy of the sampling and assaying are adequate and should continue to be implemented. Pertinent conclusions from the analysis of the available QAQC data include:-
+•
+Use of Certified Standard Reference material has shown a significant relative low bias for SGS Laboratories, Tarkwa.
+•
+Use of Certified Standard Reference material has shown a relative high bias for Transworld Laboratories, Tarkwa and this interpretation is supported by the umpire analysis program.
+•
+Repeat analyses have confirmed that the precision of sampling and assaying is generally within acceptable limits for sampling of gold deposits.
+•
+Umpire analysis at Genalysis in Perth has shown a lack of precision between the various laboratories. This is currently unexplained and requires investigation.
+•
+Other relevant conclusions are discussed throughout Section 14.
+
+15
+ADJACENT PROPERTIES
+There are a number of operating mines in proximity (<100km) to the Esaase Gold Project. They include world class gold deposits such as the Obuasi project operated by Anglo Ashanti, and the Akyem Gold project that is currently being developed by Newmont mining.
+
+16
+MINERAL PROCESSING AND METALLURGICAL TESTING
+Preliminary metallurgical testwork was conducted on behalf of Keegan by Coffey Mining in July 2007, to determine potential amenability of oxide, transition and fresh ore zones to heap leach and / or CIL processing routes. Testwork was completed at the IML laboratory in Perth, Western Australia. All three ore zones displayed amenability to conventional gold recovery via cyanidation with reasonable gold recoveries and reagent consumptions at both ‘as received’ RC chip sizing and after grinding to typical CIL size ranges.
+Mineralogical examination of the three ore zones indicated the presence of coarse gold in the transitional and fresh samples. This gold was generally fine at around 10µm and occluded in pyrite, with the exception of the fresh sample which contained larger, free gold grains up to 300µm in size. Sulphide was predominately pyrite and minor arsenopyrite.
+The ‘as received’ bottle roll tests conducted at approximately 1mm were used to indicate the likely amenability to heap leaching. The oxide material produced a recovery of 85.8% with a residue of 0.18g/t which is within the range of heap leach viable ores. The RC chip sample had a P80 sizing of 478µm which is considerably finer than would be achieved in a full scale crushing operation and requires follow up bottle roll and column testwork at coarser size fractions to confirm gold recovery and percolation rate information.
+The fresh and transitional zones produced recoveries of 66.8% and 65.3% respectively, with considerably higher residues ranging from 0.60g/t – 0.74g/t. These samples, although potentially heap leachable, were also considerably finer (P80 sizing of ~1mm) than would be achieved in a full scale crushing plant, and hence gold recoveries at coarser size fractions need to be investigated further. A summary of the ‘heap leach’ bottle roll tests are shown below. Both the transition and fresh samples were also of a relatively high gold grade, which can bias the ‘percentage’ gold recoveries. At a lower head grade, with the same residue value (as would be expected), the ‘percentage’ recovery would be significantly lower.
+Summary of ‘as received’ bottle roll results:-
+
+Table 16_1
+Esaase Project
+Bottle Roll Results
+
+ 
+Zone
+Sizing
+P80 (µm)
+Residue Assay
+(g/t)
+Head Assay
+(g/t)
+Recovery
+(%)
+
+Size/Assay
+Whole
+Calc
+Assay
+
+Oxide
+478
+0.17
+0.19
+1.29
+0.99
+85.8
+
+Transitional
+929
+0.74
+0.70
+2.07
+3.44
+65.3
+
+Fresh
+1000
+0.60*
+0.60
+1.81*
+0.87
+66.8
+
+* - outlier removed
+
+The cyanidation testwork carried out at differing grinds was used to estimate the likely performance of a conventional CIL process route, including grind sensitivity, indicative gold recovery and reagent consumptions for each ore zone. In all three cases, maximum recoveries were achieved at 75µm, however the oxide material showed little difference in recovery and residue grades below 300µm. The grind dependent nature of the fresh and transitional ores corresponds with the mineralogical data, in that the fine gold occluded in sulphide grains is liberated at finer grind sizes. Residue analysis indicated that a large portion of the non-leached gold resided in the -45µm fraction. A summary of the results for the P80 grind size at 75µm is given below.
+Summary of P80 grind size at 75µm bottle roll results:-
+Table 15_2
+Esaase Project
+P80 grind size 
+
+ 
+Zone
+Sizing
+P80 (µm)
+Residue Assay
+(g/t)
+Head Assay
+(g/t)
+Recovery
+(%)
+
+Size/Assay
+Whole
+Calc
+Assay
+
+Oxide
+75
+0.08
+0.17
+1.43
+0.99
+91.4
+
+Transitional
+75
+0.32
+0.43
+2.89
+3.44
+87.0
+
+Fresh
+75
+0.37
+0.46
+2.01
+0.87
+79.4
+
+In 2008, Keegan contracted Lycopodium Ltd and Coffey Mining, both in Perth Australia, to perform a preliminary scoping study for the Esaase Project. The scoping study entails detailed metallurgical studies and such studies are underway under the direction of Amdel labs in Perth Australia. Although the studies have not been completed, preliminary indications confirm the presence of coarse gold and tests to examine the potential for gravity recovery to enhance recovery have been proposed and accepted. Preliminary results from Amdel on composite samples indicate that a higher percentage of gold may be detected in screen fire assay than in regular fire assay. 
+Keegan selected 103 representative samples from four intercepts of fresh core to examine the relationship between standard 50 g fire assay and screen fire assay. The assay results show that the screen fire assay results are 28% higher than that of the standard fire assay (Table 15_3). Investigations are ongoing and a much larger sample set is being tested to determine whether the increase in grade in the screen fire assay is statistically significant.
+Table 15_3
+Screen Fire Assay Comparison with standard fire assay (n=103)
+
+ 
+Screen Fire Assay
+Average grade Au(g/t)
+Fire Assay
+(Average grade Au g/t)
+% increase Screen Fire Assay vs Fire Assay
+
+3.26
+2.56
+28%
+
+17
+MINERAL RESOURCE AND MINERAL RESERVE ESTIMATES
+offey Mining has estimated the Mineral Resource for the Esaase Gold Project as at 28th of February 2009. All grade estimation was completed using Multiple Indicator Kriging (‘MIK’) for gold. This estimation approach was considered appropriate based on review of a number of factors, including the quantity and spacing of available data, the interpreted controls on mineralisation, and the style of mineralisation. The estimation was constrained with geological and mineralisation interpretations.
+17.1
+Database Validation
+The resource estimation was based on the available exploration drillhole database which was compiled by Coffey Mining. The database has been reviewed and validated by Coffey Mining prior to commencing the resource estimation study.
+Data included samples from extensive trenching, but only the RC and diamond drilling sample data were included for use in the modelling process. A total of 467 RC and diamond drillholes were used in the resource modelling study.
+The database was validated in Micromine software and the checks made to the database prior to loading into Vulcan included:-
+•
+No overlapping intervals.
+•
+Downhole surveys at 0m depth.
+•
+Consistency of depths between different data tables.
+•
+Check gaps in the data.
+A total number of 145 samples from 6 sample batches were destroyed during a fire at the SGS laboratory in Tarkwa. These samples have been replaced by -999 in the database. Other changes that were made to the database prior to loading into Vulcan included:-
+•
+Replacing less than detection samples with half detection.
+•
+Replacing intervals with no sample with -999.
+•
+Replacing intervals with assays not yet received with -999.
+The resource dataset has been described in Section 11. In summary, samples were composited to 3m down-hole lengths with residual intervals less than 1.5m length being deleted from the composite file. Prior to deletion of composites less than 1.5m, statistical analysis was undertaken to determine the impact on mean gold grades. Deletion of these composites was deemed to have negligible impact on mean grades and was therefore appropriate. The resulting file contained 13,496 composites with gold grades within mineralised domains. 
+17.2
+Geological Interpretation and Modelling
+Based on grade information and geological observations, oxidation and mineralised domain boundaries have been interpreted and wireframes modelled to constrain resource estimation for the Esaase deposit. Interpretation and digitising of all constraining boundaries has been undertaken on cross sections orientated at 100º (drill line orientation). The resultant digitised boundaries have been used to construct wireframe surfaces or solids defining the three-dimensional geometry of each interpreted feature. The interpretation and wireframe models have been developed using the Vulcan mine planning software package.
+17.2.1
+Mineralisation Interpretation
+For the purpose of resource estimation, three mineralised domains were interpreted and were modelled on a lower cut-off grade of 0.3g/t Au. The domains are listed below and depicted in Figure 17.3.1_1 and Figure 17.3.1_2.
+•
+Footwall Domain: Designated Zone 100 (designated 1 in the previous resource estimate). A moderately to steeply dipping zone hosting the bulk of the mineralisation and entirely contained within the sedimentary sequence. This domain dips more steeply towards the north and is depicted in Figure 17.3.1_1 on the right.
+•
+Hangingwall Domain: Designated Zone 150 (designated 2 in the previous resource estimate). A parallel to sub-parallel zone of mineralisation, structurally higher than the footwall domain and depicted on the left in Figure 17.3.1_1.
+•
+South Domain: Designated Zone 200. Previously undefined mineralisation to the south of the previous two domains and depicted on the left in Figure 17.3.1_1.
+
+Figure 17.3.1_1
+Mineralisation Interpretation SE Oblique View
+
+Figure 17.3.1_2
+Mineralisation Interpretation Typical Sectional View
+
+17.2.2
+Weathering Interpretation
+Composites were also coded by the weathering profile. The profile has been modelled from drill data and comprises of strongly weathered saprolite, moderately weathered saprock, transition material and fresh units. In general, weathering surfaces broadly parallel the topographical profile, although weathering tends to be deeper within zones of mineralisation and tends to parallel the footwall to the mineralisation where the footwall approaches the surface. On some sections, the intermixing of the weathering types can be quite complicated. All of the weathering surfaces have been utilised in terms of dividing the gold mineralisation into secondary domaining for statistical analysis and incorporated into the resource model for the purposes of assigning tonnage factors. Figure 17.3.2_1 is an example section (at 9,840mN, local grid) showing the distribution of weathering types and the interpreted position of the top of fresh rock.
+Figure 17.3.2_1
+Weathering Interpretation, Local Grid 9,840mN
+
+17.3
+Statistical Analysis
+The lengths of the samples were statistically assessed prior to selecting an appropriate composite length for undertaking statistical analyses, variography and grade estimation. Summary statistics of the sample length indicates that 94.3% of the samples were collected at 1m intervals, 2.8% was collected at 2m intervals and the remainder (2.8%) was sampled at irregular intervals less than 3m. 
+Statistical analysis was undertaken based on 3m composites of the gold assay data for the resource dataset drilling completed at Esaase. All composites inside the wireframes were flagged as separate domains. A total of 13,496 composites were used in the modelling process from a total of 467 RC and diamond drillholes. 
+Summary statistics were generated to compare assayed RC samples and DC samples. Only assays with values greater than 0.3g/t Au were considered. These are presented in Table 17.4_1. The means of two types of sampling are similar with the medians being equivalent. Differences may be explained by the effect of high grade outliers.
+Separate statistics were generated for each domain. The data was further subdivided, and flagged, into sub-domains based on weathering profile. Summary statistics for each modelled domain are presented in Table 17.4_2.
+Table 17.4_1
+RC vs DC Summary Statistics
+
+ 
+Item
+RC
+DC
+
+Count
+3,989
+1,858
+
+Minimum
+0.303
+0.301
+
+Maximum
+75.815
+42.290
+
+Mean
+1.5
+1.435
+
+Median
+0.773
+0.745
+
+Standard Deviation
+3.085
+2.742
+
+Variance
+9.516
+7.519
+
+CV
+2.057
+1.91
+
+Table 17.4_2
+Esaase Gold Deposit
+Domain Composite Statistics (Au g/t)
+
+ 
+Domain
+Sub-Domain
+N
+Min
+Max
+Mean
+Median
+Std Dev
+variance
+CV
+
+Zone 100
+Strongly Oxidised
+610
+0.005
+14.083
+0.87
+0.44
+1.475
+2.176
+1.695
+
+Moderately Oxidised
+949
+0.005
+75.813
+0.923
+0.283
+3.263
+10.646
+3.536
+
+Transition
+771
+0.005
+47.387
+1.031
+0.307
+3.192
+10.188
+3.095
+
+Fresh
+3689
+0.005
+34.61
+0.671
+0.25
+1.499
+2.247
+2.235
+
+All
+6,019
+0.005
+75.813
+0.777
+0.277
+2.144
+4.596
+2.76
+
+Zone 150
+Strongly Oxidised
+752
+0.005
+71.643
+0.689
+0.193
+2.975
+8.849
+4.319
+
+Moderately Oxidised
+1460
+0.005
+35.568
+0.609
+0.2
+1.557
+2.424
+2.558
+
+Transition
+957
+0.005
+38.6
+0.582
+0.17
+1.919
+3.683
+3.299
+
+Fresh
+2281
+0.005
+34.377
+0.471
+0.13
+1.499
+2.247
+3.182
+
+All
+5,450
+0.005
+71.643
+0.557
+0.163
+1.859
+3.457
+3.337
+
+Zone 200
+Strongly Oxidised
+123
+0.018
+36.487
+1.325
+0.435
+3.664
+13.428
+2.766
+
+Moderately Oxidised
+539
+0.005
+35.717
+0.768
+0.25
+2.298
+5.282
+2.992
+
+Transition
+154
+0.007
+14.51
+0.824
+0.313
+1.619
+2.622
+1.965
+
+Fresh
+1211
+0.005
+42.29
+0.826
+0.25
+2.349
+5.518
+2.844
+
+All
+2,027
+0.005
+42.29
+0.841
+0.27
+2.391
+5.718
+2.844
+
+All Domains
+ 13,496
+0.005
+75.813
+0.698
+0.223
+2.078
+4.319
+2.978
+
+Figure 17.4_1 to 17.4_3 shows log histograms and probability plots of gold grades. Populations of gold grades are close to lognormal and show strong positive skewness for both domains and this is typical of many gold deposits. The coefficients of variation (‘CV’) are moderately high indicating that it may be difficult to maintain a high degree of selectivity in mining.
+Bulk density determinations were coded by weathering interpretation in the database and density values for the weathering subdivisions were subsequently extracted from the database. Histograms, log histograms and probability plots were generated and examined. Samples exist in the database that pertains to areas outside of the resource area and these have been excluded prior to examination of the data. Summary statistics are presented in Table 17.4_3 below. 
+
+Table 17.4_3
+Esaase Gold Deposit
+Density Statistics
+(t/m3)
+
+ 
+ Strongly Oxidised
+Weakly Oxidised
+Transition
+Fresh
+
+Number
+166
+235
+178
+5,286
+
+Minimum
+1.66
+1.39
+1.38
+1.07
+
+Maximum
+3.01
+2.95
+3.17
+4.12
+
+Mean
+2.312
+2.416
+2.51
+2.75
+
+Std Dev
+0.174
+0.161
+0.29
+0.15
+
+Variance
+0.03
+0.03
+0.08
+0.02
+
+Coeff Var
+0.075
+0.067
+0.114
+0.055
+
+Conditional statistics for data within each domain to be estimated by Multiple Indicator Kriging are listed in Table 17.4_4.
+
+Figure 17.4_1
+Log Histogram and Probability Plot Zone 100
+
+Figure 17.4_2
+Log Histogram and Probability Plot Zone 150
+
+Figure 17.4_3
+Log Histogram and Probability Plot Zone 200
+
+Table 17.4_4
+Esaase Gold Deposit
+Indicator Class Means
+
+ 
+Domain
+
+Zone 100
+Zone 150
+
+Probability
+Threshold
+Grade
+Threshold
+Class Mean
+Probability
+Threshold
+Grade
+Threshold
+Class Mean
+
+0.362
+0.15
+0.058
+0.479
+0.15
+0.054
+
+0.472
+0.25
+0.194
+0.593
+0.25
+0.195
+
+0.587
+0.40
+0.318
+0.703
+0.40
+0.317
+
+0.670
+0.55
+0.468
+0.766
+0.55
+0.468
+
+0.727
+0.70
+0.616
+0.817
+0.70
+0.62
+
+0.770
+0.85
+0.771
+0.850
+0.85
+0.77
+
+0.804
+1.00
+0.92
+0.877
+1.00
+0.912
+
+0.844
+1.20
+1.092
+0.904
+1.20
+1.094
+
+0.885
+1.50
+1.333
+0.927
+1.50
+1.341
+
+0.908
+1.75
+1.61
+0.941
+1.75
+1.615
+
+0.931
+2.10
+1.899
+0.953
+2.10
+1.91
+
+0.945
+2.48
+2.266
+0.962
+2.48
+2.3
+
+0.958
+2.99
+2.705
+0.971
+2.99
+2.682
+
+0.971
+4.12
+3.516
+0.982
+4.12
+3.413
+
+0.980
+5.35
+4.78
+0.989
+5.35
+4.646
+
+0.991
+8.85
+6.607
+0.994
+8.85
+6.777
+
+Max
+Max
+12.562
+Max
+Max
+13.611
+
+Zone 200
+ 
+Probability
+Threshold
+Grade
+Threshold
+Class Mean
+ 
+0.369
+0.15
+0.056
+ 
+0.482
+0.25
+0.195
+ 
+0.596
+0.40
+0.32
+ 
+0.679
+0.55
+0.469
+ 
+0.742
+0.70
+0.619
+ 
+0.781
+0.85
+0.766
+ 
+0.815
+1.00
+0.917
+ 
+0.842
+1.20
+1.094
+ 
+0.884
+1.50
+1.358
+ 
+0.902
+1.75
+1.641
+ 
+0.921
+2.10
+1.9
+ 
+0.937
+2.48
+2.289
+ 
+0.951
+2.99
+2.711
+ 
+0.968
+4.12
+3.575
+ 
+0.978
+5.35
+4.696
+ 
+0.988
+8.85
+6.928
+ 
+Max
+Max
+13.749
+ 
+
+17.4
+Variography
+17.4.1
+Introduction
+Variography is used to describe the spatial variability or correlation of an attribute (gold, silver etc). The spatial variability is traditionally measured by means of a variogram, which is generated by determining the averaged squared difference of data points at a nominated distance (h), or lag (Srivastava and Isaacs, 1989). The averaged squared difference (variogram or γ(h)) for each lag distance is plotted on a bivariate plot, where the X-axis is the lag distance and the Y-axis represents the average squared differences (γ(h)) for the nominated lag distance.
+Several types of variogram calculations are employed to determine the directions of the continuity of the mineralisation:-
+•
+Traditional variograms are calculated from the raw assay values.
+•
+Log-transformed variography involves a logarithmic transformation of the assay data.
+•
+Gaussian variograms are based on the results after declustering and a transformation to a Normal distribution.
+•
+Pairwise-relative variograms attempt to ‘normalise’ the variogram by dividing the variogram value for each pair by their squared mean value.
+•
+Correlograms are ‘standardized’ by the variance calculated from the sample values that contribute to each lag.
+Fan variography involves the graphical representation of spatial trends by calculating a range of variograms in a selected plane and contouring the variogram values. The result is a contour map of the grade continuity within the domain.
+The variography was calculated and modelled in the geostatistical software, Isatis. The rotations are tabulated as input into Isatis (geological convention), with X representing rotation around Z axis, Y representing rotation around Y` axis and Z representing rotation around X``. Dip and dip direction of major, semi-major and minor axes of continuity are also referred to in the text. Modelled correlograms were generally shown to have good structure and were used throughout.
+17.5
+Esaase Deposit Variography
+Grade and indicator variography was generated to enable grade estimation via MIK and change of support analysis to be completed. In addition, Gaussian variograms were also used as part of the change of support process. Seven indicator thresholds (Table 16.6_2) were investigated for each domain. Interpreted anisotropy directions correspond well with the modelled geology and overall geometry of the interpreted domains. Modelled variography for all domains is presented in Appendix B.
+17.5.1
+Zone 100
+Grade variography shows good structure and displays moderate anisotropy between the major and semi-major axes. Two spherical models have been fitted to the experimental correlogram, with the correlogram exhibiting a high relative nugget effect (calculated by dividing the nugget variance by the sill variance) of 40%. The short-range structure, which has been modelled with ranges of 30m, 15m and 4m for the major, semi-major and minor axis respectively, accounts for 75% of the non-nugget variance. The overall ranges fitted to the Zone 1 correlogram are 90m, 55m and 13m for the major, semi-major, and minor axis respectively.
+The interpreted major direction of continuity dips at 9º towards 036º30’. The modelled grade variogram plot is provided in Figure 17.6.1_1.
+Modelled indicator correlograms display a range of relative nugget values from 36% to 65% and this is broadly comparable with the grade variogram nugget of 40%. Table 17.6.1_1 presents the fitted grade and indicator variogram models for Zone 100.
+Table 17.6.1_1
+Esaase Deposit
+Zone 100 Correlogram Models
+
+ 
+Grade Variable or Indicator Threshold
+Nugget
+(C0)
+Rotation (Isatis)
+Structure 1
+Structure 2
+
+Sill 1
+(C1)
+Range (m)
+Sill 2
+(C2)
+Range (m)
+
+Z
+Y
+X
+Major
+Semi Major
+Minor
+Major
+Semi Major
+Minor
+
+Grade Variography
+
+Gold (Au gt)
+0.4
+40
+-70
+-10
+0.45
+30
+15
+4
+0.15
+90
+55
+13
+
+Indicator Variography
+
+0.15(1)
+0.36
+40
+-70
+-10
+0.42
+26
+19
+10
+0.22
+130
+85
+34
+
+0.25(1)
+0.38
+40
+-70
+-10
+0.42
+25
+18
+9
+0.2
+125
+80
+32
+
+0.40
+0.4
+40
+-70
+-10
+0.4
+24
+17
+8
+0.2
+120
+75
+30
+
+0.55(2)
+0.45
+40
+-70
+-10
+0.385
+23
+17
+7.5
+0.165
+115
+75
+27.5
+
+0.70
+0.5
+40
+-70
+-10
+0.37
+22
+17
+7
+0.13
+110
+75
+25
+
+0.85(3)
+0.525
+40
+-70
+-10
+0.345
+21
+16
+6.5
+0.13
+107.5
+72.5
+23.5
+
+1.00
+0.55
+40
+-70
+-10
+0.32
+20
+15
+6
+0.13
+105
+70
+22
+
+1.20(4)
+0.565
+40
+-70
+-10
+0.31
+19
+14
+5.5
+0.125
+102.5
+67.5
+16.5
+
+1.50
+0.58
+40
+-70
+-10
+0.3
+18
+13
+5
+0.12
+100
+65
+11
+
+1.75(5)
+0.59
+40
+-70
+-10
+0.29
+18
+12.5
+4.5
+0.12
+97.5
+62.5
+11
+
+2.10
+0.6
+40
+-70
+-10
+0.28
+18
+12
+4
+0.12
+95
+60
+11
+
+2.48(6)
+0.61
+40
+-70
+-10
+0.28
+16.5
+11.5
+4
+0.11
+87.5
+57.5
+10.5
+
+2.99
+0.62
+40
+-70
+-10
+0.28
+15
+11
+4
+0.1
+80
+55
+10
+
+4.12(7)
+0.625
+40
+-70
+-10
+0.275
+14
+10.5
+4
+0.1
+67.5
+45
+9
+
+5.35
+0.63
+40
+-70
+-10
+0.27
+13
+10
+4
+0.1
+55
+35
+8
+
+8.65(8)
+0.65
+40
+-70
+-10
+0.25
+12
+9
+3
+0.1
+40
+25
+5
+
+Note:
+1) Assumed model based on 0.40 Au g/t variogram model
+2) Assumed model based on 0.40 Au g/t and 0.70 Au g/t variogram models
+3) Assumed model based on 0.70 Au g/t and 1.00 Au g/t variogram models
+4) Assumed model based on 1.00 Au g/t and 1.50 Au g/t variogram model
+5) Assumed model based on 1.50 Au g/t and 2.10 Au g/t variogram model
+6) Assumed model based on 2.10 Au g/t and 2.99 Au g/t variogram models
+7) Assumed model based on 2.99 Au g/t and 5.35 Au g/t variogram models
+8) Assumed model based on 5.35 Au g/t variogram model
+
+Figure 17.6.1_1
+Zone 100 Grade Variogram (Corellogram)
+
+17.5.2
+Zone 150
+Grade variography shows good structure and displays moderate anisotropy between the major and semi-major axes. Two spherical models have been fitted to the experimental correlogram, with the correlogram exhibiting a moderate relative nugget effect of 40%. The short range spherical model has been fitted with minor ranges of 40m, 25m and 4m. A second spherical model has been fitted with overall ranges of 90m, 60m and 23m for the major, semi-major and minor axis respectively. The short range structure accounts for three quarters of the non nugget variance.
+The interpreted major direction of continuity dips at 7º30’ towards 38º30’. Table 16.6.2_1 presents the fitted grade variogram and indicator variogram models for Zone 150 while the grade variogram plot is provided in Appendix B.
+
+Table 17.6.2_1
+Esaase Deposit
+Zone 150 Correlogram Models
+
+ 
+Grade Variable or Indicator Threshold
+Nugget
+(C0)
+Rotation (Isatis)
+Structure 1
+Structure 2
+
+Sill 1
+(C1)
+Range (m)
+Sill 2
+(C2)
+Range (m)
+
+Z
+Y
+X
+Major
+Semi Major
+Minor
+Major
+Semi Major
+Minor
+
+Grade Variography
+
+Gold (Au gt)
+0.4
+45
+-50
+-10
+0.45
+40
+25
+4
+0.15
+90
+60
+23
+
+Indicator Variography
+
+0.10(1)
+0.38
+45
+-50
+-10
+0.37
+44
+27
+8
+0.25
+100
+60
+29
+
+0.20(1)
+0.39
+45
+-50
+-10
+0.36
+42
+26
+7
+0.25
+95
+55
+27
+
+0.30
+0.4
+45
+-50
+-10
+0.35
+40
+25
+5
+0.25
+90
+50
+25
+
+0.40(2)
+0.44
+45
+-50
+-10
+0.35
+40
+22.5
+5
+0.21
+90
+42.5
+23.5
+
+0.50
+0.48
+45
+-50
+-10
+0.35
+40
+20
+5
+0.17
+90
+35
+22
+
+0.60(3)
+0.495
+45
+-50
+-10
+0.335
+39
+19
+5
+0.17
+90
+35
+21
+
+0.75
+0.51
+45
+-50
+-10
+0.32
+38
+18
+5
+0.17
+90
+35
+20
+
+0.85(4)
+0.52
+45
+-50
+-10
+0.315
+36.5
+17.5
+5
+0.165
+80
+35
+18
+
+1.00
+0.53
+45
+-50
+-10
+0.31
+35
+17
+5
+0.16
+70
+35
+16
+
+1.30(5)
+0.545
+45
+-50
+-10
+0.305
+32.5
+17
+4.5
+0.15
+65
+35
+14.5
+
+1.65
+0.56
+45
+-50
+-10
+0.3
+30
+17
+4
+0.14
+60
+35
+13
+
+2.10 (6)
+0.57
+45
+-50
+-10
+0.295
+27.5
+17
+3.5
+0.135
+57.5
+35
+12
+
+2.45
+0.58
+45
+-50
+-10
+0.29
+25
+17
+3
+0.13
+55
+35
+11
+
+2.9(7)
+0.6
+45
+-50
+-10
+0.28
+22.5
+16
+3
+0.12
+50
+32.5
+10.5
+
+3.50
+0.62
+45
+-50
+-10
+0.27
+20
+15
+3
+0.11
+45
+30
+10
+
+6.00(8)
+0.64
+45
+-50
+-10
+0.25
+19
+14
+3
+0.11
+40
+25
+8
+
+Note:
+1) Assumed model based on 0.30 Au g/t variogram model
+2) Assumed model based on 0.30 Au g/t and 0.50 Au g/t variogram models
+3) Assumed model based on 0.50 Au g/t and 0.75 Au g/t variogram models
+4) Assumed model based on 0.75 Au g/t and 1.00 Au g/t variogram model
+5) Assumed model based on 1.00 Au g/t and 1.65 Au g/t variogram model
+6) Assumed model based on 1.65 Au g/t and 2.45 Au g/t variogram models
+7) Assumed model based on 2.45 Au g/t and 3.50 Au g/t variogram models
+8) Assumed model based on 3.50 Au g/t variogram model
+
+17.5.3
+Zone 200
+Grade variography shows good structure and displays moderate anisotropy between the major and semi-major axes. Two spherical models have been fitted to the experimental correlogram, with the correlogram exhibiting a moderate relative nugget effect of 38%. The spherical model has been fitted with minor ranges of 40m, 20m and 8m. A second spherical model has been fitted with overall ranges of 130m, 90m and 28m for the major, semi-major and minor axis respectively. The short range structure accounts for approximately two thirds of the non nugget variance.
+The interpreted major direction of continuity dips at 51º towards 261º12’. Table 17.6.3_1 presents the fitted grade variogram and indicator variogram models for Zone 200 while the grade variogram plot is provided in Figure 17.6.3_1.
+
+Table 17.6.3_1
+Esaase Deposit
+Zone 200 Correlogram Models
+
+ 
+Grade Variable or Indicator Threshold
+Nugget
+(C0)
+Rotation (Isatis)
+Structure 1
+Structure 2
+
+Sill 1
+(C1)
+Range (m)
+Sill 2
+(C2)
+Range (m)
+
+Z
+Y
+X
+Major
+Semi Major
+Minor
+Major
+Semi Major
+Minor
+
+Grade Variography
+
+Gold (Au gt)
+0.38
+225
+65
+60
+0.4
+40
+20
+8
+0.22
+130
+90
+28
+
+Indicator Variography
+
+0.10(1)
+0.38
+225
+65
+60
+0.4
+40
+20
+8
+0.22
+130
+90
+28
+
+0.20(1)
+0.38
+225
+65
+60
+0.4
+40
+20
+8
+0.22
+130
+90
+28
+
+0.30
+0.38
+225
+65
+60
+0.4
+40
+20
+8
+0.22
+130
+90
+28
+
+0.40(2)
+0.395
+225
+65
+60
+0.39
+37.5
+20
+7.5
+0.215
+125
+90
+25.5
+
+0.50
+0.41
+225
+65
+60
+0.38
+35
+20
+7
+0.21
+120
+90
+23
+
+0.60(3)
+0.43
+225
+65
+60
+0.375
+32.5
+19
+6.5
+0.195
+107.5
+85
+21.5
+
+0.75
+0.45
+225
+65
+60
+0.37
+30
+18
+6
+0.18
+95
+80
+20
+
+0.85(4)
+0.465
+225
+65
+60
+0.37
+29
+16.5
+5.5
+0.165
+92.5
+72.5
+20
+
+1.00
+0.48
+225
+65
+60
+0.37
+28
+15
+5
+0.15
+90
+65
+20
+
+1.30(5)
+0.495
+225
+65
+60
+0.37
+26.5
+14
+5
+0.135
+85
+57.5
+20
+
+1.65
+0.51
+225
+65
+60
+0.37
+25
+13
+5
+0.12
+80
+50
+20
+
+2.10 (6)
+0.525
+225
+65
+60
+0.36
+22.5
+12
+5
+0.115
+77.5
+42.5
+19.5
+
+2.45
+0.54
+225
+65
+60
+0.35
+20
+11
+5
+0.11
+75
+35
+19
+
+2.9(7)
+0.56
+225
+65
+60
+0.335
+20
+9.5
+4.5
+0.105
+75
+30
+16
+
+3.50
+0.58
+225
+65
+60
+0.32
+20
+8
+4
+0.1
+75
+25
+13
+
+6.00(8)
+0.6
+225
+65
+60
+0.3
+18
+7
+3
+0.1
+70
+23
+12
+
+Note:
+1) Assumed model based on 0.30 Au g/t variogram model
+2) Assumed model based on 0.30 Au g/t and 0.50 Au g/t variogram models
+3) Assumed model based on 0.50 Au g/t and 0.75 Au g/t variogram models
+4) Assumed model based on 0.75 Au g/t and 1.00 Au g/t variogram model
+5) Assumed model based on 1.00 Au g/t and 1.65 Au g/t variogram model
+6) Assumed model based on 1.65 Au g/t and 2.45 Au g/t variogram models
+7) Assumed model based on 2.45 Au g/t and 3.50 Au g/t variogram models
+8) Assumed model based on 3.50 Au g/t variogram model
+
+Figure 17.6.3_1
+Zone 200 Grade Variogram (Correlogram)
+
+17.6
+Block Modelling
+17.6.1
+Introduction
+A three-dimensional block model was constructed for the Esaase deposit, covering all the interpreted mineralisation zones and including suitable additional waste material to allow later pit optimisation studies.
+17.6.2
+Block Construction Parameters
+A sub-block model was used to construct the Esaase mineralisation and background models (Table 17.7.2_1). Block coding was completed on the basis of the block centroid, wherein a centroid falling within any wireframe was coded with the wireframe solid attribute. The block model was rotated to 045º to adequately represent the overall strike direction of mineralisation.
+
+Table 17.7.2_1
+Esaase Gold Deposit
+Block Model Construction Parameters
+
+ 
+ Origin
+(m)
+Extent
+(m)
+Parent/Sub Block
+Size
+
+Easting
+619,517.145
+1,100
+10/2.5
+
+Northing
+723,617.143
+3,400
+40/2.5
+
+RL
+-250
+750
+5/1
+
+The parent block size was selected on the basis of the average drill spacing (40m section spacing) and the variogram models, which indicate estimation of blocks smaller than the data spacing is not practical. A parent block size of 10mE x 40mN x 5mRL was selected as appropriate. Sub-blocking to a 2.5mE x 2.5mN x 1mRL size was completed to ensure adequate volume representation.
+The attributes coded into the block models included the weathering and mineralisation models. A visual review of the wireframe solids and the block model indicates robust flagging of the block model.
+Bulk density has been coded to the block model based on the weathering profile. The average bulk density for each subdivision, as presented in Table 17.7.2_2, was coded via a block model script. A description of the density measurement methodology can be found in Section 14.4.
+
+Table 17.7.2_2
+Esaase Gold Deposit
+Dry Bulk Density
+
+ 
+Oxidation State
+DBD t/m3
+
+Strongly Oxidised
+2.31
+
+Weakly Oxidised
+2.42
+
+Transition
+2.51
+
+Fresh
+2.75
+
+17.7
+Grade Estimation
+17.7.1
+Introduction
+Resource estimation for the Esaase mineralisation was completed using MIK within all Domains. Ordinary Kriging, Inverse Distance Squared and Nearest Neighbour estimates were also completed within these domains to allow comparison with the post processed Etype mean.
+Grade estimation was carried out using the Vulcan implementation of the GSLIB kriging algorithms. Calculation of selective mining unit estimates was undertaken using the Coffey Mining developed scripts. A description of the MIK estimation methodology is provided in Section 17.8.2.
+17.7.2
+The Multiple Indicator Kriging Method
+The MIK technique is implemented by completing a series of Ordinary Kriging (“OK”) estimates of binary transformed data. A composite sample, which is equal to or above a nominated cutoff or threshold, is assigned a value of 1, with those below the nominated indicator threshold being assigned a value of 0. The indicator estimates, with a range between 0 and 1, represent the probability the point will exceed the indicator cutoff grade. The probability of the points exceeding a cutoff can also be considered broadly equivalent to the proportion of a nominated block that will exceed the nominated cutoff grade.
+The estimation of a complete series of indicator cut-offs allows the reconstitution of the local histogram or conditional cumulative distribution function (ccdf) for the estimated point. Based on the ccdf, local or block properties, such as the block mean and proportion (tonnes) above or below a nominated cutoff grade can be investigated.
+Post MIK Processing - E-Type Estimates
+The E-type estimate provides an estimate for the grade of the total block or bulk-mining scenario. This is achieved by discretising the calculated ccdf for each block into a nominated number of intervals and interpolating between the given points with a selected function (e.g.: the linear, power or hyperbolic model) or by applying intra-class mean grades. The sum of all these weighted interpolated points or mean grades enables an average whole block grade to be determined.
+The following example shows the determination of an Etype estimate for a block containing three indicator cutoffs.
+The indicator cutoffs and associated probabilities calculated are:-
+Indicator
+Cutoff Grade
+Aug/t
+Indicator Probability
+(cumulative)
+
+minimum grade *
+0
+0.00 **
+
+indicator 1
+1
+0.40
+
+indicator 2
+2
+0.65
+
+indicator 3
+3
+0.85
+
+maximum grade *
+4
+1.00 **
+
+Note :
+* Cutoff grades determined by the user.
+** Indicator probability is assumed at the minimum and maximum cutoff.
+
+The whole block grade can now be determined in this block with the following parameters used for the purposes of the interpolation:-
+•
+Number of discretisation intervals: 4.
+•
+Linear extrapolation between all points (median grade between nominated cutoffs).
+The worked example is then calculated with the following steps:-
+•
+Interval 1 (0-1g/t Au)
+median grade x probability/proportion attributed to the interval (0.5g/t Au x 0.40 = 0.200).
+•
+Interval 2 (1 - 2g/t Au)
+median grade x proportion (1.5g/t Au x 0.25 = 0.375).
+•
+Interval 3 (2 - 3g/t Au)
+median grade x proportion (2.5g/t Au x 0.20 = 0.500).
+•
+Interval 4 (3 - 4g/t Au)
+median grade x proportion (3.5g/t Au x 0.15 = 0.525).
+•
+Calculate total grade
+average all calculated intervals ((0.2+0.375+0.500+0.525)/1) = 1.60g/t Au.
+It is also possible from this example to calculate the proportion and grade above a nominated cutoff (e.g. 2g/t - at sample support or complete selectivity). The following steps would be undertaken to calculate the tonnes and grade at sample selectivity using a 2g/t cutoff:-
+•
+Interval 3 (2 - 3g/t Au)
+median grade x proportion (2.5g/t Au x 0.20 = 0.500).
+•
+Interval 4 (3 - 4g/t Au)
+median grade x proportion (3.5g/t Au x 0.15 = 0.525).
+•
+Calculate total grade
+average all calculated intervals ((0.500+0.525)/0.35) = 2.93g/t Au with 0.35% of the block above the cutoff.
+The effect of using a non-linear model to interpolate between cutoffs is to shift the grade weighting associated with that cutoff away from the median. For Esaase, the intra-class means based on the cut composite data have been used to reconstitute the ccdf and produce block statistics.
+It is noted, however, that the calculation of the E-type estimate and complete selectivity often does not allow mine planning to the level of selectivity which is proposed for production. To achieve an estimate which reflects the levels of mining selectivity envisaged, a selective mining unit (“SMU”) correction is often applied to the calculated ccdf.
+Support Correction (Selective Mining Unit Estimation)
+A range of techniques are known to produce a support correction and therefore allow for selective mining unit emulation. The common features of the support correction are:-
+•
+Maintenance of the mean grade of the histogram (Etype mean).
+•
+Adjustment of the histogram variance by a variance adjustment factor (f ).
+The variance adjustment factor, used to reduce the histogram or ccdf variance, can be calculated using the variogram model. The variance adjustment factor is often modified to account for the likely grade control approach or ‘information effect’.
+In simplest terms, the variance adjustment factor takes into account the known relationship derived from the dispersion variance.
+Total variance = variance of samples within blocks + variance between blocks.
+The variance adjustment factor is calculated as the ratio of the variance between the blocks and the variance of the samples within the blocks, with a small ratio (e.g. 0.10) indicating a large adjustment of the ccdf variance and large ratio (e.g. 0.80) representing a small shift in the ccdf.
+Two simple support corrections that are available include the Affine and Indirect Lognormal correction, which are both based on the permanence of distribution. The discrete Gaussian model is often applied to global change of support studies and has been generated on the composite data set as a comparison. The indirect lognormal correction was applied to the Esaase MIK grade estimates.
+Indirect Lognormal Correction
+The indirect lognormal correction can be implemented by adjusting the quantiles (indicator cutoffs) of the ccdf with the variance adjustment factor so that the adjusted ccdf represents the statistical characteristics of the block volume of interest.
+This is implemented with the following formula:-
+q’ = a x qb
+
+q = quantile of distribution.
+q’ = quantile of the variance-reduced distribution.
+where the coefficients a and b, are given by the following formula:-
+
+a = 
+
+m
+ CV2 + 1
+ 
+ f. CV2 + 1
+ M
+ 
+
+b = 
+
+ln (f. CV2 + 1)
+
+ 
+ln (CV2 + 1)
+
+m 
+=
+mean of distribution.
+f 
+=
+variance adjustment factor .
+CV
+=
+coefficient of variation.
+
+At the completion of the quantile adjustments, grades and tonnages (probabilities are then considered a pseudo tonnage proportion of the blocks) at a nominated cutoff grade can be calculated using the methodology described above (Etype). The indirect lognormal correction, as applied to the Esaase deposit, is the best suited of the common adjustments applied to MIK to produce selective mining estimates for positively skewed distributions.
+17.8
+Multiple Indicator Kriging Parameters
+MIK estimates were completed for relevant domains using the indicator correlogram models (Section 17.6), and a set of ancillary parameters controlling the source and selection of composite data. The sample search parameters were defined based on the variography and the data spacing, and a series of sample search tests performed in Isatis geostatistical software. A total of 16 indicator thresholds were estimated for all Domains (see Tables 17.6.1_1, 17.6.2_1 and 17.6.3_1).
+The sample search parameters are provided in Table 17.9_1. Soft boundaries were used in the estimation pass 1 for Zones 100 and 150 which allows samples lying within either domain to be used for the estimation of the other. For successive estimation passes, hard boundaries were used which does not allow samples lying within Zone 100 to be used for the estimation of Zone 150. This strategy allows adequate estimation in areas where the two estimation domains are adjacent to each other. Hard domain boundaries were used for the estimation of Zone 200 throughout. A three-pass estimation strategy was applied to each domain, applying progressively expanded and less restrictive sample searches to successive estimation passes, and only considering blocks not previously assigned an estimate. In addition, Zone 150 was divided into north and south portions to allow for a change in dip in the domain.
+
+Table 17.9_1
+Esaase Gold Deposit
+Multiple Indicator Kriging Sample Search Parameters
+
+ 
+Zone
+Estimation Pass
+Rotation
+Search Distance
+Min.
+No. of
+Comp.
+Max.
+No. of
+Comp.
+Max.
+No. of
+Comp.
+per Hole
+
+X
+Y
+Z
+X
+Y
+Z
+
+100
+1
+36.549
+-9.391
+69.716
+100
+50
+20
+24
+32
+6
+
+2
+36.549
+-9.391
+69.716
+200
+75
+40
+24
+32
+6
+
+3
+36.549
+-9.391
+69.716
+400
+200
+40
+6
+12
+-
+
+150 North
+1
+20
+-10
+75
+100
+50
+20
+24
+32
+6
+
+2
+20
+-10
+75
+200
+75
+40
+24
+32
+6
+
+3
+20
+-10
+75
+400
+200
+40
+6
+12
+-
+
+150 South
+1
+38.534
+-7.644
+49.568
+100
+50
+20
+24
+32
+6
+
+2
+38.534
+-7.644
+49.568
+200
+75
+40
+24
+32
+6
+
+3
+38.534
+-7.644
+49.568
+400
+200
+40
+6
+12
+-
+
+200
+1
+261.204
+-51.71
+-46.997
+100
+50
+20
+24
+32
+6
+
+2
+261.204
+-51.71
+-46.997
+200
+75
+40
+24
+32
+6
+
+3
+261.204
+-51.71
+-46.997
+400
+200
+40
+6
+12
+-
+
+All relevant statistical information was recorded to enable validation and review of the MIK estimates. The recorded information included:-
+•
+Number of samples used per block estimate.
+•
+Average distance to samples per block estimate.
+•
+Estimation flag to determine in which estimation pass a block was estimated.
+•
+Number of drillholes from which composite data were used to complete the block estimate.
+The MIK estimates were reviewed visually and statistically prior to being accepted. The review included the following activities:-
+•
+Comparison of the Etype estimate versus the mean of the composite dataset, including weighting where appropriate to account for data clustering.
+•
+Visual checks of cross sections, long sections, and plans.
+Alternative estimates were also completed to test the sensitivity of the reported model to the selected MIK interpolation parameters. An insignificant amount of variation in overall grade was noted in the alternate estimations. 
+Applying the modelled variography, variance adjustment factors were calculated to emulate a 8mE x 10mN x 2.5mRL selective mining unit (“SMU”) via the indirect lognormal change of support. The intra-class composite mean grades (Table 17.4_4) were used in calculating the whole block and SMU grades. The change of support study also included the calculation of the theoretical global change of support via the discrete Gaussian change of support model.
+An ‘information effect’ factor is commonly applied to the originally derived panel-to-block variance ratios to determine the final variance adjustment ratio. The goal of incorporating information effect is to calculate results taking into account that mining takes place based on grade control information. There will still be a quantifiable error associated with this data and it is this error we want to incorporate. This is achieved in practice by running a test kriging estimation of an SMU using grade control data (the results required to incorporate this option in the change of support do not depend on the assay data so the grade control data can be hypothetical). The incorporation of the information effect is commonly found to be negligible, however can have a significant effect in some cases. In this case, the information effect factor was found to have a minor effect and has been incorporated in the calculation.
+The variance adjustment ratios are provided in Table 17.9_2.
+
+Table 17.9_2
+Esaase Gold Deposit
+Variance Adjustment Ratios
+(8mE x 10mN x 2.5mRL SMU)
+
+ 
+Zone
+100
+150
+200
+
+Variance adjustment factor (f) 
+0.28
+0.13
+0.33
+
+17.9
+Resource Classification
+The grade estimates have been classified as Indicated and Inferred in accordance with N43-101 guidelines based on the confidence levels of the key criteria that were considered during the resource estimation. Key criteria are tabulated below.
+Table 17.10_1
+Esaase Deposit
+Confidence Levels of Key Criteria
+
+ 
+Items
+Discussion
+Confidence
+
+Drilling Techniques
+RC/Diamond - Industry standard approach
+High
+
+Logging
+Standard nomenclature and apparent high quality
+High
+
+Drill Sample Recovery
+Drill core and RC recovery adequate
+High
+
+Sub-sampling Techniques and Sample Preparation
+Industry standard for both RC and Diamond
+High
+
+Quality of Assay Data
+Available data shows negative bias for SGS and positive bias for TWL. Poor reproducibility of individual assay results by umpire laboratory is unexplained. 
+Moderate
+
+Verification of Sampling 
+and Assaying
+No drillhole twinning to reproduce original drill intercepts. Dedicated twin drilling is recommended.
+High
+
+Location of Sampling Points
+Survey of all collars with adequate downhole survey. Investigation of available downhole survey indicates expected deviation.
+High
+
+Data Density and Distribution
+Core mineralisation defined on a notional 40mE x 40mN drill spacing or better. Other areas more broadly spaced to approximately 80mN spaced lines (40mE spacing) reflecting a lower confidence.
+Moderate
+
+Audits or Reviews
+Coffey Mining is unaware of external reviews
+N/A
+
+Database Integrity
+Minor errors identified and rectified
+High
+
+Geological Interpretation
+The broad mineralisation constraints are subject to a large amount of uncertainty concerning localised mineralisation trends as a reflection of geological complexity. Closer spaced drilling is recommended to resolve this issue.
+Moderate
+
+Rock Dry Bulk Density
+DBD measurements taken from drill core, DBD applied is considered robust when compared with 3D data. 
+Moderate to high below top of transition, low in oxide material
+
+Estimation and Modelling Techniques
+Multiple Indicator Kriging
+High
+
+Mining Factors or Assumptions
+8mE by 10mN by 2.5mRL SMU 
+Moderate
+
+17.10
+Resource Reporting
+A summary of the estimated resources for the Esaase deposit is provided in Table 17.11_1 below. It should be noted that mineral resources that are not mineral reserves do not have demonstrated economic viability.
+
+Table 17.11_1
+Esaase Deposit
+Grade Tonnage Report 
+(Multiple Indicator Kriging; 8mE x 10mN x 2.5mRL Selective Mining Unit)
+
+ 
+Lower
+Cutoff Grade
+(g/t Au)
+Tonnes
+(Mt)
+Average Grade
+(g/t Au)
+Gold Metal
+(Mozs)
+
+Indicated
+
+0.4
+57.987
+1.2
+2.278
+
+0.5
+49.248
+1.4
+2.153
+
+0.6
+41.942
+1.5
+2.025
+
+0.7
+35.748
+1.7
+1.898
+
+0.8
+30.656
+1.8
+1.777
+
+0.9
+26.322
+2.0
+1.660
+
+1.0
+22.782
+2.1
+1.552
+
+Inferred
+
+0.4
+41.664
+1.2
+1.653
+
+0.5
+34.054
+1.4
+1.546
+
+0.6
+28.573
+1.6
+1.451
+
+0.7
+24.430
+1.7
+1.365
+
+0.8
+20.649
+1.9
+1.275
+
+0.9
+17.914
+2.1
+1.201
+
+1.0
+15.852
+2.2
+1.139
+
+Note: Appropriate rounding has been applied.
+
+18
+OTHER RELEVANT DATA AND INFORMATION
+There is no other data or information relevant to this report 
+
+19
+INTERPRETATION AND CONCLUSIONS
+Exploration and drilling since 2006 has resulted in the identification of a hitherto unrecognised large gold mineralised body at Esaase. To date, reverse circulation and diamond drilling has been completed at an adequate density to define an Inferred and Indicated Mineral Resources at Esaase. Grade Estimation of these categorised resources has been developed via Multiple Indicator Kriging with indirect lognormal change of support (Section 7). Mineralisation is currently open, particularly to the south and down dip. Additional satellite mineralisation has been identified at two locations to the west and northwest of the main orebody. This mineralisation does not yet have an associated grade estimate and does not form part of the current resource. 
+Coffey Mining believes that the current QAQC systems in place at Esaase to monitor the precision and accuracy of the sampling and assaying are adequate and should continue to be implemented. Umpire analysis at Genalysis in Perth has shown a lack of precision between the various laboratories. This is currently unexplained and requires investigation.
+Figure 19_1 compiles exploration results of both soil and VTEM geophysical data. NS to NE mineralized structures are interpreted on the basis of both soil and geophysical anomalies and those that warrant further exploration are indicated.
+
+Figure 10.1_1
+Esaase Deposit
+Summary Geophysical (VTEM 92 m LEI) and Geochemical (Gold-in-Soils) Map.
+ Mineralized NE structures warranting further exploration are indicated.
+
+20
+RECOMMENDATIONS
+Drilling and studies completed to date have defined an Inferred and Indicated Mineral Resource at Esaase. Further work at Esaase should be performed to perform a valuation on the existing resource. Additional exploration should be performed in order to add to the existing resource and convert additional resource to an indicated category. 
+It is recommended that:-
+•
+Baseline environmental and socioeconomic studies are continued.
+•
+Geotechnical and hydrology studies are performed.
+•
+Poor precision between the primary laboratories and the umpire laboratory are investigated
+•
+Additional tests using multiple assay methods, in particular screen fire assay be performed and determined
+•
+Metallurgical studies be continued
+•
+After the completion of these programs, a pit optimization be performed followed by an economic scoping study
+•
+Soil sampling should be completed on the Jeni River Property and auger sampling used to determine bedrock values at lower elevations
+•
+Additional drilling is completed to further define the periphery of the deposit and to test other geochemical and geophysical signatures identified in the ongoing regional exploration 
+•
+If possible, acquisitions should be made to expand the property
+Keegan has provided a comprehensive 12 months exploration program and budget for the Esaase Gold Project. Expenditure for the Esaase Project (C$) is detailed below in Table 20_1. 
+The next phase of the program should result in a preliminary scoping study on the Indicated and Inferred resources, which will determine the amenability of the deposit to different scenarios of mining, milling and ore beneficiation. The first phase of exploration will consist of RC drilling of current exploration and resource extension targets, continued auger sampling of coincident soil and geophysical targets, and RC and core drilling targeting higher grade targets of the deposit down dip. If the first phase of exploration discovered continuous mineralization of potentially economic tenor, than additional exploration expenditure would be warranted and a second phase of exploration would be triggered. Other expenditures that are contingent are acquisitions that could potentially add to the property along with first phase geochemical reconnaissance of these potential new acquisitions. 
+Coffey considers that the proposed exploration and evaluation strategy is consistent with the potential of the project, providing that it is appropriately staged in order to assess the results of on-going exploration. The proposed expenditure is also generally considered to be adequate to cover the cost of the proposed programs and the budgets are adequate to meet minimum statutory expenditure requirements.
+
+21
+DATE AND SIGNATURE PAGE
+
+Name
+Brian R Wolfe
+
+Degree and Professional Association
+BSc Hons(Geol) MAusIMM 
+Post Grad Cert (Geostats)
+
+Position
+Specialist Consultant - Resources
+
+Signature
+/s/ Brian Wolfe
+
+Date
+24th April 2009
+
+22
+REFERENCES
+Central Intelligence Agency – World Factbook www.cia.gov/library/publications/the-world-factbook/geos/gh.html
+
+Davis, D.W., Hirdes, W., Shaltegger, E., and Nunoo, 1994, U-Pb age constraints on deposition and provenance of Birimian and gold-bearing Tarkwaian sediments in Ghana, West Africa, Precambrian Research, v.67, pp.89-107
+Eisenlohr, B.N. (1989), The structural geology of Birimian and Tarkwaian rocks of southwest Ghana. Rep. Arch. BGR, 66pp.
+Klipfel, P. (2009) Summary Geologic Report on the Esaase Property, Mineral Resource Services, Private Report for Keegan Resources Inc., 46 p.
+Milesi, J.P., Ledru, P., Feybesse, J.L., Dommanget, A., and Marcoux, E., 1992, Early Proterozoic ore deposits and tectonics of the Birimian orogenic belt, West Africa, Precambrian Research, v. 58, pp. 305-344.
+RSG Global Pty. Ltd. (April 200)7, Esaase Gold Project – Preliminary Metallurgical Testwork – Chris Witt.
+
+RSG Global Pty. Ltd. (May 2007), Esaase Gold Project – Structural Controls on Gold Mineralisation in the Esaase Project Area – Dr John V Smith.
+
+RSG Global Pty. Ltd. (Jan – July 2007), Various Internal memorandums to Keegan – Beau Nicholls.
+
+Stuart, H. (2007) Technical Report for the Chirano Deposit, http://www.redbackmining.com/i/pdf/ChiranoTechnicalReport-August24-2007.pdf
+
+Appendix A
+QAQC Analysis
+
+ 
+
+Blind Standards
+SGS
+
+Blind Standards
+SGS
+
+Blind Standards
+SGS
+
+Blind Standards
+SGS
+
+Blind Standards
+SGS
+
+Blind Standards
+SGS
+
+Blind Standards
+SGS
+
+Blind Standards
+SGS
+
+Blind Standards
+SGS
+
+Blind Standards
+SGS
+
+Blind Standards
+SGS
+
+Blind Standards
+SGS
+
+Blind Standards
+SGS
+
+Blind Standards
+SGS
+
+Blind Standards
+TWL
+
+Blind Standards
+TWL
+
+Blind Standards
+TWL
+
+Blind Standards
+TWL
+
+Blind Standards
+TWL
+
+Blind Standards
+TWL
+
+Blind Standards
+TWL
+
+Blind Standards
+TWL
+
+Blind Standards
+TWL
+
+Blind Standards
+TWL
+
+Blind Standards
+TWL
+
+Blind Standards
+TWL
+
+Blind Standards
+TWL
+
+Blind Standards
+TWL
+
+Blind Standards
+TWL
+
+Blind Standards
+TWL
+
+Blind Standards
+ALS
+
+Blind Standards
+ALS
+
+Blind Standards
+ALS
+
+Blind Standards
+ALS
+
+Blind Standards
+ALS
+
+Blind Standards
+ALS
+
+Blind Standards
+ALS
+
+Blind Standards
+ALS
+
+Blind Standards
+ALS
+
+Blind Standards
+ALS
+
+Blind Standards
+ALS
+
+Blind Standards
+ALS
+
+Blind Standards
+ALS
+
+Blind Standards
+ALS
+
+Duplicate Split (Second split after 3mm crushing stage)
+
+Duplicate Split (Second split after 3mm crushing stage)
+
+Duplicate Split (Second split after 3mm crushing stage)
+
+Duplicate Split (Second split after 3mm crushing stage)
+
+Duplicate Repeats
+
+Duplicate Repeats
+
+Pulp Reassay RC Samples
+
+TWL Pulp Check Repeats Drill Core
+
+TWL Pulp Check Repeats RC Chips
+
+Replicate Split – Random Repeat Assay
+
+Replicate Split – Random Repeat Assay
+
+Replicate Assay – Random Repeat
+
+Replicate Assay – Random Repeat
+
+Pulp Respray – RC Samples
+
+Field Duplicates
+
+Field Duplicates
+
+Field Duplicates
+
+Field Duplicates
+
+Field Duplicates
+
+ALS Intra Batch Analysis
+
+ALS Intra Batch Analysis
+
+Umpire Analysis
+
+Umpire Analysis
+
+Umpire Analysis
+
+Umpire Analysis
+
+Appendix B
+Variography
+
+ 
+
+Zone 100
+Grade Variogram (Correlogram)
+
+Zone 100
+Indicator Variogram (Correlogram)
+
+Zone 100
+Indicator Variogram (Correlogram)
+
+Zone 100
+Indicator Variogram (Correlogram)
+
+Zone 100
+Indicator Variogram (Correlogram)
+
+Zone 100
+Indicator Variogram (Correlogram)
+
+Zone 100
+Indicator Variogram (Correlogram)
+
+Zone 100
+Indicator Variogram (Correlogram)
+
+Zone 100
+Backtransformed Gaussian Variogram
+
+Zone 150
+Grade Variogram (Correlogram)
+
+Zone 150
+Indicator Variogram (Correlogram)
+
+Zone 150
+Indicator Variogram (Correlogram)
+
+Zone 150
+Indicator Variogram (Correlogram)
+
+Zone 150
+Indicator Variogram (Correlogram)
+
+Zone 150
+Indicator Variogram (Correlogram)
+
+Zone 150
+Indicator Variogram (Correlogram)
+
+Zone 150
+Indicator Variogram (Correlogram)
+
+Zone 150
+Backtransformed Gaussian Variogram
+
+Zone 200
+Indicator Variogram (Correlogram)
+
+Zone 200
+Indicator Variogram (Correlogram)
+
+Zone 200
+Indicator Variogram (Correlogram)
+
+Zone 200
+Indicator Variogram (Correlogram)
+
+Zone 200
+Indicator Variogram (Correlogram)
+
+Zone 200
+Indicator Variogram (Correlogram)
+
+Zone 200
+Indicator Variogram (Correlogram)
+
+Zone 200
+Grade Variogram

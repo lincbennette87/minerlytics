@@ -1,0 +1,1025 @@
+EX-99.1
+2
+exhibit991.htm
+SHAREHOLDER RIGHTS PLAN AGREEMENT
+
+Exhibit 99.1
+
+SHAREHOLDER RIGHTS PLAN AGREEMENT
+
+DATED AS OF
+
+May 24, 2016 (date of reference)
+BETWEEN
+ASANKO GOLD INC.
+AND
+COMPUTERSHARE INVESTOR SERVICES INC.
+ 
+
+ 
+
+SHAREHOLDER RIGHTS PLAN AGREEMENT
+MEMORANDUM OF AGREEMENT, dated as of May 24, 2016 between Asanko Gold Inc. (the “Company”), a company incorporated under the laws of British Columbia and Computershare Investor Services Inc., a corporation existing under the laws of Canada (the “Rights Agent”);
+WHEREAS the Board of Directors of the Company, in the exercise of its fiduciary duties to the Company, has determined that it is advisable for the Company to adopt a shareholder rights plan (the “Rights Plan”) to take effect on the Effective Date (as hereinafter defined) to prevent, to the extent possible, a creeping takeover of the Company and to ensure that any offer to acquire shares of the Company is made to all shareholders and cannot be completed unless shareholders holding at least 50% of the outstanding shares (other than the offeror and related parties) are deposited or tendered in acceptance of the offer, to ensure, to the extent possible, the fair treatment of all shareholders in connection with any take-over bid for the securities of the Company, and to ensure that the Board of Directors is provided with sufficient time to evaluate unsolicited take-over bids and to explore and develop alternatives to maximize shareholder value;
+AND WHEREAS in order to implement the adoption of a shareholder rights plan as established by this Agreement, the board of directors of the Company has:
+(a)
+authorized the issuance, effective at the close of business (Vancouver time) on the Effective Date, of one Right (as hereinafter defined) in respect of each Share (as hereinafter defined) outstanding at the close of business (Vancouver time) on the Effective Date (the “Record Time”);
+(b)
+authorized the issuance of one Right in respect of each Voting Share (as hereinafter defined) of the Company issued after the Record Time and prior to the earlier of the Separation Time (as hereinafter defined) and the Expiration Time (as hereinafter defined); and
+(c)
+authorized the issuance of Rights Certificates (as hereinafter defined) to holders of Rights pursuant to the terms and subject to the conditions set forth herein;
+AND WHEREAS each Right entitles the holder thereof, after the Separation Time, to purchase securities of the Company pursuant to the terms and subject to the conditions set forth herein;
+AND WHEREAS the Company desires to appoint the Rights Agent to act on behalf of the Company and the holders of Rights, and the Rights Agent is willing to so act, in connection with the issuance, transfer, exchange and replacement of Rights Certificates, the exercise of Rights and other matters referred to herein;
+NOW THEREFORE, in consideration of the premises and the respective covenants and agreements set forth herein, and subject to such covenants and agreements, the parties hereby agree as follows:
+
+ARTICLE 1
+
+INTERPRETATION
+1.1
+Certain Definitions
+For purposes of this Agreement, the following terms have the meanings indicated:
+(a)
+“1934 Exchange Act” means the Securities Exchange Act of 1934 of the United States, as amended, and the rules and regulations thereunder as now in effect or as the same may from time to time be amended, re-enacted or replaced;
+(b)
+“Acquiring Person” shall mean any Person who is the Beneficial Owner of 20% or more of the outstanding Voting Shares; provided, however, that the term “Acquiring Person” shall not include:
+(i)
+the Company or any Subsidiary of the Company;
+(ii)
+any Person who becomes the Beneficial Owner of 20% or more of the outstanding Voting Shares as a result of one or any combination of:
+(A)
+a Voting Share Reduction;
+(B)
+Permitted Bid Acquisitions;
+(C)
+an Exempt Acquisition;
+(D)
+Pro Rata Acquisitions; or
+(E)
+a Convertible Security Acquisition;
+provided, however, that if a Person becomes the Beneficial Owner of 20% or more of the outstanding Voting Shares by reason of one or any combination of the operation of Paragraphs (A), (B), (C), (D) or (E) above and such Person’s Beneficial Ownership of Voting Shares thereafter increases by more than 1% of the number of Voting Shares outstanding (other than pursuant to one or any combination of a Voting Share Reduction, a Permitted Bid Acquisition, an Exempt Acquisition, a Pro Rata Acquisition or a Convertible Security Acquisition), then as of the date such Person becomes the Beneficial Owner of such additional Voting Shares, such Person shall become an “Acquiring Person”;
+(iii)
+for a period of ten days after the Disqualification Date (as defined below), any Person who becomes the Beneficial Owner of 20% or more of the outstanding Voting Shares as a result of such Person becoming disqualified from relying on Clause 1.1(g)(iii)(B) because such Person is making or has announced a current intention to make a Take-over Bid, either alone or by acting jointly or in concert with any other Person. For the purposes of this definition, “Disqualification 
+
+2
+
+Date” means the first date of public announcement that any Person is making or intends to make a Take-over Bid;
+(iv)
+an underwriter or member of a banking or selling group that becomes the Beneficial Owner of 20% or more of the Voting Shares in connection with a distribution of securities of the Company pursuant to an underwriting agreement with the Company; or
+(v)
+a Person (a “Grandfathered Person”) who is the Beneficial Owner of 20% or more of the outstanding Voting Shares determined as at the Record Time, provided, however, that this exception shall not be, and shall cease to be, applicable to a Grandfathered Person in the event that such Grandfathered Person shall, after the Record Time, become the Beneficial Owner of any additional Voting Shares that increases its Beneficial Ownership of Voting Shares by more than 1% of the number of Voting Shares outstanding, other than through one or any combination of a Permitted Bid Acquisition, an Exempt Acquisition, a Voting Share Reduction, a Pro Rata Acquisition or a Convertible Security Acquisition; and provided, further, that a Person shall cease to be a Grandfathered Person in the event that such Person ceases to Beneficially Own 20% or more of the then outstanding Voting Shares at any time after the Record Time;
+(c)
+“Affiliate”, when used to indicate a relationship with a specified Person, shall mean a Person that directly, or indirectly through one or more intermediaries, controls, or is controlled by, or is under common control with, such specified Person;
+(d)
+“Agreement” or “Shareholder Rights Plan Agreement” shall mean this shareholder rights plan agreement dated as of May 24, 2016 between the Company and the Rights Agent, as amended or supplemented from time to time; “hereof”, “herein”, “hereto” and similar expressions mean and refer to this Agreement as a whole and not to any particular part of this Agreement;
+(e)
+“annual cash dividend” shall mean cash dividends paid in any fiscal year of the Company to the extent that such cash dividends do not exceed, in the aggregate on a per share basis, in any fiscal year, the greatest of:
+(i)
+200% of the aggregate amount of cash dividends, on a per share basis, declared payable by the Company on its Shares in its immediately preceding fiscal year; and
+(ii)
+300% of the arithmetic mean of the aggregate amounts of the cash dividends, on a per share basis, declared payable by the Company on its Shares in its three immediately preceding fiscal years;
+(f)
+“Associate” shall mean, when used to indicate a relationship with a specified Person, a spouse of that Person, any Person of the same or opposite sex with whom that Person is living in a conjugal relationship outside marriage, a child of that Person or a relative of that Person if that relative has the same residence as that Person;
+
+3
+
+(g)
+A Person shall be deemed the “Beneficial Owner” of, and to have “Beneficial Ownership” of, and to “Beneficially Own”,
+(i)
+any securities as to which such Person or any of such Person’s Affiliates or Associates is the owner at law or in equity;
+(ii)
+any securities as to which such Person or any of such Person’s Affiliates or Associates has the right to become the owner at law or in equity (where such right is exercisable within a period of 60 days, whether or not on condition or on the happening of any contingency) pursuant to any agreement, arrangement, pledge or understanding, whether or not in writing, or upon the exercise of any conversion, exchange or purchase right (other than the Rights) attaching to a Convertible Security; other than pursuant to (x) customary agreements between the Company and underwriters or between underwriters and/or banking group members and/or selling group members with respect to a distribution of securities by the Company, (y) pledges of securities in the ordinary course of business), and (z) any agreement between the Company and any Person or Persons relating to a plan of arrangement, amalgamation or other statutory procedure which is subject to the approval of the holders of Voting Shares;
+(iii)
+any securities which are Beneficially Owned within the meaning of Clauses 1.1(g)(i) or (ii) by any other Person with which such Person is acting jointly or in concert;
+provided, however, that a Person shall not be deemed the “Beneficial Owner” of, or to have “Beneficial Ownership” of, or to “Beneficially Own”, any security:
+(A)
+where such security has been deposited or tendered pursuant to any Take-over Bid or where the holder of such security has agreed pursuant to a Permitted Lock-Up Agreement to deposit or tender such security pursuant to a Take-Over Bid, in each case made by such Person, made by any of such Person’s Affiliates or Associates or made by any other Person acting jointly or in concert with such Person, until such deposited or tendered security has been taken up or paid for, whichever shall first occur;
+(B)
+where such Person, any of such Person’s Affiliates or Associates or any other Person referred to in Clause 1.1(g)(iii), holds such security provided that (1) the ordinary business of any such Person (the “Investment Manager”) includes the management of mutual funds or investment funds for others (which others, for greater certainty, may include or be limited to one or more employee benefit plans or pension plans and/or includes the acquisition or holding of securities for a non-discretionary account of a Client (as defined below) by a dealer or broker registered under applicable securities laws to the extent required) and such security is held by the Investment Manager in the ordinary course of such business and in the performance of such Investment Manager’s duties for 
+
+4
+
+the account of any other Person or Persons (a “Client”); or (2) such Person (the “Trust Company”) is licensed to carry on the business of a trust company under applicable laws and, as such, acts as trustee or administrator or in a similar capacity in relation to the estates of deceased or incompetent Persons (each an “Estate Account”) or in relation to other accounts (each an “Other Account”) and holds such security in the ordinary course of such duties for such Estate Accounts or for such Other Accounts, or (3) such Person is a pension plan or fund registered under the laws of Canada or any Province thereof or the laws of the United States of America (a “Plan”) or is a Person established by statute for purposes that include, and the ordinary business or activity of such Person (the “Statutory Body”) includes, the management of investment funds for employee benefit plans, pension plans, insurance plans of various public bodies; or (4) such Person (the “Administrator”) is the administrator or trustee of one or more Plans and holds such security for the purposes of its activities as an Administrator; provided, in any of the above cases, that the Investment Manager, the Trust Company, the Statutory Body, the Administrator or the Plan, as the case may be, is not then making and has not then announced an intention to make a Take-over Bid (other than an Offer to Acquire Voting Shares or other securities by means of a distribution by the Company or by means of ordinary market transactions (including prearranged trades) executed through the facilities of a stock exchange or organized over-the-counter market), alone or by acting jointly or in concert with any other Person;
+(C)
+where such Person or any of such Person’s Affiliates or Associates is (1) a Client of the same Investment Manager as another Person on whose account the Investment Manager holds such security, (2) an Estate Account or an Other Account of the same Trust Company as another Person on whose account the Trust Company holds such security, or (3) a Plan with the same Administrator as another Plan on whose account the Administrator holds such security;
+(D)
+where such Person is (1) a Client of an Investment Manager and such security is owned at law or in equity by the Investment Manager, (2) an Estate Account or an Other Account of a Trust Company and such security is owned at law or in equity by the Trust Company or (3) a Plan and such security is owned at law or in equity by the Administrator of the Plan; or
+(E)
+where such person is the registered holder of securities as a result of carrying on the business of or acting as a nominee of a securities depository.
+(h)
+“Board of Directors” shall mean the board of directors of the Company or any duly constituted and empowered committee thereof;
+
+5
+
+(i)
+“Business Day” shall mean any day other than a Saturday, Sunday or a day on which banking institutions in Vancouver, British Columbia are authorized or obligated by law to close;
+(j)
+“Business Corporations Act” shall mean the British Columbia Business Corporations Act, S.B.C. 2002, c.57, as amended, and the regulations made thereunder and any comparable or successor laws or regulations thereto;
+(k)
+“Canadian Dollar Equivalent” of any amount which is expressed in United States dollars shall mean on any day the Canadian dollar equivalent of such amount determined by reference to the U.S.- Canadian Exchange Rate in effect on such date;
+(l)
+“close of business” on any given date shall mean the time on such date (or, if such date is not a Business Day, the time on the next succeeding Business Day) at which the transfer office in Vancouver, B.C. of the transfer agent for the Shares (or, after the Separation Time, the principal transfer office in Vancouver, B.C. of the Rights Agent) is closed to the public in the city in which such transfer agent or rights agent has an office for the purposes of this Agreement;
+(m)
+“Competing Permitted Bid” shall mean a Take-over Bid that:
+(i)
+is made after a Permitted Bid or another Competing Permitted Bid has been made and prior to the expiry, termination or withdrawal of such Permitted Bid or Competing Permitted Bid;
+(ii)
+satisfies all of the provisions of a Permitted Bid other than the condition set forth in Clause (iii) of the definition of a Permitted Bid; and
+(iii)
+contains, and the take-up and payment for securities tendered or deposited is subject to, an irrevocable and unqualified provision that no Voting Shares will be taken up or paid for pursuant to the Take-over Bid prior to the close of business on the date that is no earlier than the date on which Voting Shares may be taken up under any Permitted Bid (determined as of the date of making the Takeover Bid, assuming no amendment or variation to the terms and satisfaction of all conditions to the completion of the Permitted Bid) that preceded the Competing Permitted Bid; 
+(n)
+“controlled”: a body corporate is “controlled” by another Person or two or more Persons acting jointly or in concert if:
+(i)
+securities entitled to vote in the election of directors carrying more than 50% of the votes for the election of directors are held, directly or indirectly, by or on behalf of the other Person or two or more Persons acting jointly or in concert; and
+(ii)
+the votes carried by such securities are entitled, if exercised, to elect a majority of the board of directors of such body corporate;
+
+6
+
+and “controls”, “controlling” and “under common control with” shall be interpreted accordingly;
+(o)
+“Convertible Security” shall mean a security convertible, exercisable or exchangeable into a Voting Share and a “Convertible Security Acquisition” shall mean an acquisition by a Person of Voting Shares upon the exercise, conversion or exchange of a Convertible Security received by a Person pursuant to a Permitted Bid Acquisition, an Exempt Acquisition or a Pro Rata Acquisition;
+(p)
+“Co-Rights Agents” shall have the meaning ascribed thereto in Subsection 4.1(a); 
+(q)
+“Disposition Date” shall have the meaning ascribed thereto in Subsection 5.1(d);
+(r)
+“Dividend Reinvestment Acquisition” shall mean an acquisition of Voting Shares of any class pursuant to a Distribution Reinvestment Plan;
+(s)
+“Dividend Reinvestment Plan” shall mean a regular dividend reinvestment or other plan of the Company made available by the Company to holders of its securities where such plan permits the holder to direct that some or all of:
+(i)
+dividends paid in respect of shares of any class of the Company;
+(ii)
+proceeds of redemption of shares of the Company;
+(iii)
+interest paid on evidences of indebtedness of the Company; or
+(iv)
+optional cash payments;
+be applied to the purchase from the Company of Shares;
+(t)
+“early warning requirements” shall have the meaning ascribed thereto under National Instrument 62-103 The Early Warning System promulgated under the Securities Act;
+(u)
+“Effective Date” shall mean May 24, 2016;
+(v)
+“Election to Exercise” shall have the meaning ascribed thereto in Clause 2.2(d)(ii);
+(w)
+“Exempt Acquisition” shall mean an acquisition by a Person of Voting Shares and/or Convertible Securities (i) in respect of which the Board of Directors has waived the application of Section 3.1 pursuant to the provisions of Subsection 5.1(b), (c) or (d); (ii) pursuant to a distribution of Voting Shares and/or Convertible Securities made by the Company: (A) to the public pursuant to a prospectus, provided that such Person does not thereby become the Beneficial Owner of a greater percentage of Voting Shares so offered than the percentage of Voting Shares Beneficially Owned by such Person immediately prior to such distribution; or (B) pursuant to a private placement provided that: (x) all 
+
+7
+
+necessary stock exchange approvals for such private placement have been obtained and such private placement complies with the terms and conditions of such approvals; and (y) such Person does not thereby become the Beneficial Owner of Voting Shares equal in number to more than 25% of the Voting Shares outstanding immediately prior to the private placement and, in making this determination, the securities to be issued to such Person on the private placement shall be deemed to be held by such Person but shall not be included in the aggregate number of Voting Shares outstanding immediately prior to the private placement; or (iii) pursuant to an amalgamation, merger, arrangement or other statutory procedure requiring shareholder approval;
+(x)
+“Exercise Price” shall mean, as of any date, the price at which a holder may purchase the securities issuable upon exercise of one whole Right which, until adjustment thereof in accordance with the terms hereof, shall be:
+(i)
+until the Separation Time, an amount equal to three times the Market Price, from time to time, per Share; and
+(ii)
+from and after the Separation Time, an amount equal to three times the Market Price, as at the Separation Time, per Share;
+(y)
+“Expansion Factor” shall have the meaning ascribed thereto in Clause 2.3(a)(x); 
+(z)
+“Expiration Time” shall have the meaning ascribed thereto in Clause 5.15(a);
+(aa)
+“Flip-in Event” shall mean a transaction in or pursuant to which any Person becomes an Acquiring Person;
+(bb)
+“holder” shall have the meaning ascribed thereto in Section 2.8;
+(cc)
+“Independent Shareholders” shall mean holders of Voting Shares, other than: 
+(i)
+any Acquiring Person;
+(ii)
+any Offeror, other than a Person referred to in Clause 1.1(g)(iii)(B);
+(iii)
+any Affiliate or Associate of such Acquiring Person or Offeror;
+(iv)
+any Person acting jointly or in concert with such Acquiring Person or Offeror; and
+(v)
+any employee benefit plan, deferred profit sharing plan, stock participation plan and any other similar plan or trust for the benefit of employees of the Company or a Subsidiary of the Company, unless the beneficiaries of the plan or trust direct the manner in which the Voting Shares are to be voted or direct whether the Voting Shares are to be tendered to a Take-over Bid;
+(dd)
+“Market Price” per share of any securities on any date of determination shall mean the average of the daily closing prices per share of such securities (determined as 
+
+8
+
+described below) on each of the 20 consecutive Trading Days through and including the Trading Day immediately preceding such date; provided, however, that if an event of a type analogous to any of the events described in Section 2.3 hereof shall have caused the closing prices used to determine the Market Price on any Trading Days not to be fully comparable with the closing price on such date of determination or, if the date of determination is not a Trading Day, on the immediately preceding Trading Day, each such closing price so used shall be appropriately adjusted in a manner analogous to the applicable adjustment provided for in Section 2.3 hereof in order to make it fully comparable with the closing price on such date of determination or, if the date of determination is not a Trading Day, on the immediately preceding Trading Day. The closing price per share of any securities on any date shall be:
+(i)
+the closing board lot sale price or, in case no such sale takes place on such date, the average of the closing bid and asked prices for each of such securities as reported by the principal Canadian stock exchange on which such securities are listed or admitted to trading;
+(ii)
+if for any reason none of such prices is available on such day or the securities are not listed or admitted to trading on a Canadian stock exchange, the last sale price or, in case no such sale takes place on such date, the average of the high bid and low asked prices for each of such securities in the Canadian over-the-counter market, as quoted by any reporting system then in use; or
+(iii)
+if for any reason none of such prices is available on such day or the securities are not listed or admitted to trading on a Canadian stock exchange or quoted by any such reporting system, the average of the closing bid and asked prices as furnished by a professional market maker making a market in the securities selected in good faith by the Board of Directors;
+provided, however, that if for any reason none of such prices is available on such day, the closing price per share of such securities on such date means the fair value per share of such securities on such date as determined by a nationally or internationally recognized investment dealer or investment banker with respect to the fair value per share of such securities. The Market Price shall be expressed in Canadian dollars and, if initially determined in respect of any day forming part of the 20 consecutive Trading Day period in question in United States dollars, such amount shall be translated into Canadian dollars on such date at the Canadian Dollar Equivalent thereof;
+(ee)
+“Meeting Deadline Date” is the date six months after the Effective Date or if such date is not a Business Day then the next Business Day following such date.
+(ff)
+“Nominee” shall have the meaning ascribed thereto in Subsection 2.2(c); 
+(gg)
+“Offer to Acquire” shall include:
+(i)
+an offer to purchase or a solicitation of an offer to sell or a public announcement of an intention to make such an offer or solicitation; and
+
+9
+
+(ii)
+an acceptance of an offer to sell, whether or not such offer to sell has been solicited;
+or any combination thereof, and the Person accepting an offer to sell shall be deemed to be making an Offer to Acquire to the Person that made the offer to sell;
+(hh)
+“Offeror” shall mean a Person who has made a public announcement of a current intention to make or who is making a Take-over Bid but only so long as the Take-over Bid so announced or made has not been withdrawn or terminated or has not expired;
+(ii)
+“Permitted Bid” shall mean a Take-over Bid made by an Offeror by way of take-over bid circular which also complies with the following additional provisions: 
+(i)
+the Take-over Bid is made to all holders of Voting Shares on the books of the Company, other than the Offeror;
+(ii)
+the Take-over Bid contains an irrevocable and unqualified provision that no Voting Shares will be taken up or paid for pursuant to the Take-over Bid unless more than 50% of the Voting Shares held by Independent Shareholders have prior to the close of business on the date of such first take-up or payment been deposited or tendered pursuant to the Take-over Bid and not withdrawn;
+(iii)
+the Take-over Bid contains, and the take-up and payment for securities tendered or deposited is subject to, an irrevocable and unqualified provision that no Voting Shares will be taken up or paid for pursuant to the Take-over Bid prior to the close of business on the date which is not less than 105 days following the date of the Take-over Bid;
+(iv)
+the Take-over Bid contains an irrevocable and unqualified provision that unless the Take-over Bid is withdrawn, Voting Shares may be deposited pursuant to such Take-over Bid at any time during the period of time between the date of the Take- over Bid and the date on which Voting Shares may be taken up and paid for and that any Voting Shares deposited pursuant to the Take-over Bid may be withdrawn until taken up and paid for; and
+(v)
+the Take-over Bid contains an irrevocable and unqualified provision that if, on the date on which Voting Shares may be taken up and paid for, more than 50% of the Voting Shares held by Independent Shareholders shall have been deposited pursuant to the Take-over Bid and not withdrawn, the Offeror will make a public announcement of that fact and the Take-over Bid will remain open for deposits and tenders of Voting Shares for not less than ten Business Days from the date of such public announcement;
+For purposes of this Agreement, (A) should a Take-over Bid which qualified as a Permitted Bid cease to be a Permitted Bid because it ceases to meet any or all of the requirements mentioned above prior to the time it expires (after giving effect to any extension) or is withdrawn, any acquisition of Voting Shares made pursuant to such 
+
+10
+
+Take-over Bid shall not be a Permitted Bid Acquisition and (B) the term “Permitted Bid” shall include a Competing Permitted Bid.
+(jj)
+“Permitted Bid Acquisition” shall mean an acquisition of Voting Shares made pursuant to a Permitted Bid or a Competing Permitted Bid;
+(kk)
+“Permitted Lock-Up Agreement” shall mean an agreement between a Person and one or more holders of Voting Shares pursuant to which such holders (each a “Locked-Up Person”) agree to deposit or tender Voting Shares to a Take-Over Bid (the “Lock-Up Bid”) made or to be made by such Person or any of such Person’s Affiliates or Associates or any other Person with which such Person is acting jointly or in concert, provided that:
+(i)
+the terms of such agreement are publicly disclosed and a copy of such agreement is made available to the public (including the Company) not later than the date of the Lock-Up Bid or, if the Lock-Up Bid has been made prior to the date on which such agreement is entered into, not later than the first business day following the date of such agreement;
+(ii)
+the agreement permits a Locked-Up Person to terminate its obligation to deposit or tender Voting Shares to or not to withdraw such Voting Shares from the Lock-Up Bid, and to terminate any obligation with respect to the voting of such Voting Shares, in order to tender or deposit the Voting Shares to another Take-over Bid or to support another transaction:
+(A)
+where the price or value of the consideration per Voting Share offered under such other Take-over Bid or transaction:
+(I)
+is greater than the price or value of the consideration per Voting Share at which the Locked-Up Person has agreed to deposit or tender Voting Shares to the Lock-Up Bid; or
+(II)
+exceeds by as much as or more than a specified amount (the “Specified Amount”) the price or value of the consideration per Voting Share at which the Locked-Up Person has agreed to deposit or tender Voting Shares to the Lock-Up Bid, provided that such Specified Amount is not greater than 7% of the price or value of the consideration per Voting Share at which the Locked-Up Person has agreed to deposit or tender Voting Shares to the Lock-Up Bid; and
+(B)
+if the number of Voting Shares offered to be purchased under the Lock-Up Bid is less than 100% of the Voting Shares held by Independent Shareholders, where the number of Voting Shares to be purchased under such other Take-over Bid or transaction at a price or value per Voting Share that is not less than the price or value per Voting Share offered under the Lock-Up Bid:
+
+11
+
+(I)
+is greater than the number of Voting Shares that the Offeror has offered to purchase under the Lock-Up Bid; or
+(II)
+exceeds by as much as or more than a specified number (the “Specified Number”) the number of Voting Shares that the Offeror has offered to purchase under the Lock-Up Bid, provided that the Specified Number is not greater than 7% of the number of Voting Shares offered to purchased under the Lock-Up Bid,
+and, for greater clarity, the agreement may contain a right of first refusal or require a period of delay to give such Person an opportunity to match a higher price in another Take-over Bid or transaction or other similar limitation on a Locked-up Person’s right to withdraw Voting Shares from the agreement, so long as the limitation does not preclude the exercise by the Locked-up Person of the right to withdraw Voting Shares during the period of the other Take-over Bid or transaction; and
+(iii)
+no “break-up” fees, “top-up” fees, penalties, expenses or other amounts that exceed in aggregate the greater of:
+(A)
+2.5% of the price or value of the consideration payable under the Lock-Up Bid to a Locked-Up Person; and
+(B)
+50% of the amount by which the price or value of the consideration received by a Locked-Up Person under another Take-over Bid or transaction exceeds the price or value of the consideration that the Locked-Up Person would have received under the Lock-Up Bid,
+shall be payable by such Locked-Up Person pursuant to the agreement if the Locked-Up Person fails to deposit or tender Voting Shares to the Lock-Up Bid, withdraws Voting Shares previously tendered thereto or supports another transaction;
+(ll)
+“Person” shall include an individual, body corporate, firm, partnership, syndicate or other form of unincorporated association, trust, trustee, executor, administrator, legal personal representative, group, unincorporated organization, a government and its agencies or instrumentalities, or other entity whether or not having legal personality;
+(mm)
+“Pro Rata Acquisition” shall mean an acquisition by a Person of Voting Shares pursuant to: 
+(i)
+a Dividend Reinvestment Acquisition;
+(ii)
+a stock dividend, stock split or other event in respect of securities of the Company of one or more particular classes or series pursuant to which such Person becomes the Beneficial Owner of Voting Shares on the same pro rata basis as all other holders of securities of the particular class, classes or series; or
+
+12
+
+(iii)
+the acquisition or the exercise by the Person of rights to purchase Voting Shares issued by the Company to all holders of securities of the Company (other than holders resident in any jurisdiction where such issuance is restricted or impractical as a result of applicable law) of one or more particular classes or series pursuant to a rights offering or pursuant to a prospectus, provided that such rights are acquired directly from the Company and not from any other Person and the Person does not thereby acquire a greater percentage of such Voting Shares than the Person’s percentage of Voting Shares Beneficially Owned immediately prior to such acquisition;
+(nn)
+“Record Time” has the meaning set forth in the recitals hereto;
+(oo)
+“Redemption Price” shall have the meaning attributed thereto in Subsection 5.1(a);
+(pp)
+“Right” shall mean a right to purchase a Share of the Company, upon the terms and subject to the conditions set forth in this Agreement;
+(qq)
+“Rights Certificate” shall mean a certificate representing the Rights after the Separation Time, which shall be substantially in the form attached hereto as Attachment 1;
+(rr)
+“Rights Register” shall have the meaning ascribed thereto in Subsection 2.6(a);
+(ss)
+“Securities Act (British Columbia)” shall mean the Securities Act, R.S.B.C. 1996 C.418, as amended, and the regulations thereunder, and any comparable or successor laws or regulations thereto;
+(tt)
+“Separation Time” shall mean, subject to Subsection 5.1(d), the close of business on the tenth Trading Day after the earlier of:
+(i)
+the Share Acquisition Date;
+(ii)
+the date of the commencement of or first public announcement of the intent of any Person (other than the Company or any Subsidiary of the Company) to commence a Take-over Bid (other than a Permitted Bid or a Competing Permitted Bid); and
+(iii)
+the date on which a Permitted Bid or Competing Permitted Bid ceases to qualify as such;
+or such later time as may be determined by the Board of Directors, provided that, if any Take-over Bid referred to in clause (ii) above expires, is not made, is cancelled, terminated or otherwise withdrawn prior to the Separation Time, such Take-over Bid shall be deemed, for the purposes of this definition, never to have been commenced, made or announced and further provided that if the Board of Directors determines, pursuant to Section 5.1, to waive the application of Section 3.1 to a Flip-In Event, then the Separation Time in respect of such Flip-In Event shall be deemed never to have 
+
+13
+
+occurred and further provided that if the foregoing results in the Separation Time being prior to the Record Time, the Separation Time shall be the Record Time;
+(uu)
+“Share Acquisition Date” shall mean the first date of public announcement (which, for purposes of this definition, shall include, without limitation, a report filed pursuant to early warning requirements under applicable securities laws) by the Company or an Acquiring Person of facts indicating that a Person has become an Acquiring Person;
+(vv)
+“Shares” shall mean the common shares in the capital of the Company as presently constituted, as such shares may be subdivided, consolidated, reclassified or otherwise changed from time to time;
+(ww)
+“Subsidiary”: a Person is a Subsidiary of another Person if:
+(i)
+it is controlled by:
+(A)
+that other; or
+(B)
+that other and one or more Persons each of which is controlled by that other; or
+(C)
+two or more Persons each of which is controlled by that other; or
+(ii)
+it is a Subsidiary of a Person that is that other’s Subsidiary;
+(xx)
+“Take-over Bid” shall mean an Offer to Acquire Voting Shares or Convertible Securities, if, assuming that the Voting Shares or Convertible Securities subject to the Offer to Acquire are acquired and are Beneficially Owned at the date of such Offer to Acquire by the Person making such Offer to Acquire, the Voting Shares Beneficially Owned by the Person making the Offer to Acquire would constitute in the aggregate 20% or more of the outstanding Voting Shares at the date of the Offer to Acquire;
+(yy)
+“Termination Time” shall mean the time at which the right to exercise Rights shall terminate pursuant to Section 5.1(g);
+(zz)
+“Trading Day”, when used with respect to any securities, shall mean a day on which the principal Canadian stock exchange on which such securities are listed or admitted to trading is open for the transaction of business or, if the securities are not listed or admitted to trading on any Canadian stock exchange, a Business Day;
+(aaa)
+“U.S. – Canadian Exchange Rate” on any date shall mean:
+(i)
+if on such date the Bank of Canada sets an average noon spot rate of exchange for the conversion of one United States dollar into Canadian dollars, such rate; and
+
+14
+
+(ii)
+in any other case, the rate for such date for the conversion of one United States dollar into Canadian dollars which is calculated in the manner which shall be determined by the Board of Directors from time to time acting in good faith;
+(bbb)
+“Voting Share Reduction” shall mean an acquisition or redemption by the Company of Voting Shares which, by reducing the number of Voting Shares outstanding, increases the percentage of outstanding Voting Shares Beneficially Owned by any Person to 20% or more of the Voting Shares then outstanding; and
+(ccc)
+“Voting Shares” shall mean the Shares and any other shares in the capital of the Company entitled to vote generally in the election of all directors of the Company.
+1.2
+Currency
+All sums of money which are referred to in this Agreement are expressed in lawful money of Canada, unless otherwise specified.
+1.3
+Headings
+The division of this Agreement into Articles, Sections, Subsections, Clauses, Paragraphs, Subparagraphs or other portions hereof and the insertion of headings, subheadings and a table of contents are for convenience of reference only and shall not affect the construction or interpretation of this Agreement.
+1.4
+Calculation of Number and Percentage of Beneficial Ownership of Outstanding Voting Shares
+(a)
+For purposes of this Agreement, in determining the percentage of outstanding Voting Shares with respect to which a Person is or is deemed to be the Beneficial Owner, all unissued Voting Shares of which such person is deemed to be the Beneficial Owner shall be deemed to be outstanding.
+(b)
+For purposes of this Agreement, the percentage of Voting Shares Beneficially Owned by any Person shall be and be deemed to be the product (expressed as a percentage) determined by the formula:
+100 x A/B
+where:
+A
+=
+the number of votes for the election of all directors of the Company generally attaching to the Voting Shares Beneficially Owned by such Person; and
+B
+=
+the number of votes for the election of all directors of the Company generally attaching to all outstanding Voting Shares.
+
+15
+
+The percentage of outstanding Voting Shares represented by any particular group of Voting Shares acquired or held by any Person shall be determined in like manner mutatis mutandis.
+1.5
+Acting Jointly or in Concert
+For purposes of this Agreement a Person is acting jointly or in concert with every Person who is a party to an agreement, commitment, arrangement or understanding, whether formal or informal or written or unwritten, with the first Person to acquire or Offer to Acquire any Voting Shares or Convertible Securities (other than (x) customary agreements with and between underwriters and/or banking group members and/or selling group members with respect to a distribution of securities by the Company, (y) pledges of securities in the ordinary course of business, and (z) Permitted Lock-Up Agreements).
+1.6
+Generally Accepted Accounting Principles
+Wherever in this Agreement reference is made to generally accepted accounting principles, such reference shall be deemed to be the recommendations at the relevant time of the Canadian Institute of Chartered Accountants, or any successor institute, applicable on a consolidated basis (unless otherwise specifically provided herein to be applicable on an unconsolidated basis) and which incorporates International Financial Reporting Standards as adopted by the Canadian Accounting Standards Board for periods beginning on or after January 1, 2011, as at the date on which a calculation is made or required to be made in accordance with generally accepted accounting principles. Where the character or amount of any asset or liability or item of revenue or expense is required to be determined, or any consolidation or other accounting computation is required to be made for the purpose of this Agreement or any document, such determination or calculation shall, to the extent applicable and except as otherwise specified herein or as otherwise agreed in writing by the parties, be made in accordance with such generally accepted accounting principles applied on a consistent basis.
+ARTICLE 2
+
+THE RIGHTS
+
+2.1
+Issue of Rights: Legend on Common Share Certificates
+(a)
+One Right shall be issued on the Effective Date in respect of each Common Share outstanding at the Record Time and one Right shall be issued in respect of each Common Share issued after the Record Time and prior to the earlier of the Separation Time and the Expiration Time.
+(b)
+Certificates representing Shares which are issued after the Record Time but prior to the earlier of the Separation Time and the Expiration Time, shall also evidence one Right for each Share represented thereby until the earlier of the Separation Time or the Expiration Time and shall have impressed on, printed on, written on or otherwise affixed to them the following legend:
+
+16
+
+Until the earlier of the Separation Time or the Expiration Time (as both terms are defined in the Shareholder Rights Agreement referred to below), this certificate also evidences and entitles the holder hereof to certain Rights as set forth in the Shareholder Rights Plan Agreement dated as of May 24, 2016, as may be amended or supplemented from time to time (the “Shareholder Rights Agreement”), between Asanko Gold Inc. (the “Company”) and Computershare Investor Services Inc., as Rights Agent, the terms of which are incorporated herein by reference and a copy of which is on file at the principal executive offices of the Company. Under certain circumstances set out in the Shareholder Rights Agreement, the rights may be amended or redeemed, may expire or may become void (if, in certain cases they are “Beneficially Owned” by an “Acquiring Person” as such terms are defined in the Shareholder Rights Agreement, whether currently held by or on behalf of such Person or a subsequent holder) or may be evidenced by separate certificates and no longer evidenced by this certificate. The Company will mail or arrange for the mailing of a copy of the Shareholder Rights Agreement to the holder of this certificate without charge as soon as practicable after the receipt of a written request therefor.
+Certificates representing Shares that are issued and outstanding at the Record Time shall also evidence one Right for each Share represented thereby notwithstanding the absence of the foregoing legend, until the earlier of the Separation Time and the Expiration Time.
+2.2
+Initial Exercise Price; Exercise of Rights; Detachment of Rights
+(a)
+Subject to adjustment as herein set forth, each Right will entitle the holder thereof, from and after the Separation Time and prior to the Expiration Time, to purchase one Share for the Exercise Price as at the Business Day immediately preceding the day of exercise of the Right (which Exercise Price and number of Shares are subject to adjustment as set forth below). Notwithstanding any other provision of this Agreement, any Rights held by the Company or any of its Subsidiaries shall be void.
+(b)
+Until the Separation Time,
+(i)
+the Rights shall not be exercisable and no Right may be exercised; and
+(ii)
+each Right will be evidenced by the certificate for the associated Voting Share registered in the name of the holder thereof (which certificate shall also be deemed to represent a Rights Certificate) and will be transferable only together with, and will be transferred by a transfer of, such associated Voting Share. 
+(c)
+From and after the Separation Time and prior to the Expiration Time:
+(i)
+ the Rights shall be exercisable; and
+(ii)
+the registration and transfer of Rights shall be separate from and independent of Voting Shares.
+
+17
+
+Promptly following the Separation Time, the Company will prepare or cause to be prepared and the Rights Agent will mail to each holder of record of Voting Shares as of the Separation Time and, in respect of each Convertible Security converted into Voting Shares after the Separation Time and prior to the Expiration Time, promptly after such conversion, the Company will prepare or cause to be prepared and the Rights Agent will mail to the holder so converting (other than in either case an Acquiring Person and any Transferee whose rights are or become null and void pursuant to Section 3.1(b) and, in respect of any Rights Beneficially Owned by such Acquiring Person or Transferee which are not held of record by such Acquiring Person or Transferee, the holder of record of such Rights (a “Nominee”)), at such holder’s address as shown by the records of the Company (the Company hereby agreeing to furnish copies of such records to the Rights Agent for this purpose):
+(x)
+a Rights Certificate appropriately completed, representing the number of Rights held by such holder at the Separation Time or at the time of conversion, as applicable, and having such marks of identification or designation and such legends, summaries or endorsements printed thereon as the Company may deem appropriate and as are not inconsistent with the provisions of this Agreement, or as may be required to comply with any law, rule or regulation or judicial or administrative order made pursuant thereto or with any rule or regulation of any self-regulatory organization, stock exchange or quotation system on which the Rights may from time to time be listed or traded, or to conform to usage; and
+(y)
+disclosure statement describing the Rights,
+provided that a Nominee shall be sent the materials provided for in (x) and (y) only in respect of all Shares held of record by it which are not Beneficially Owned by an Acquiring Person. In order for the Company to determine whether any Person is holding Shares which are Beneficially Owned by another Person, the Company may require such first Person to furnish such information and documentation as the Company deems necessary.
+(d)
+Rights may be exercised, in whole or in part, on any Business Day after the Separation Time and prior to the Expiration Time by submitting to the Rights Agent at its office in Vancouver, Canada or any other office of the Rights Agent in cities designated from time to time for that purpose by the Company with the approval of the Rights Agent:
+(i)
+ the Rights Certificate evidencing such Rights;
+(ii)
+an election to exercise such Rights (an “Election to Exercise”) substantially in the form attached to the Rights Certificate appropriately completed and duly executed by the holder or such holder’s executors or administrators or other personal representatives or such holder’s or their legal attorney duly appointed by an instrument in writing in form and executed in a manner satisfactory to the Rights Agent; and
+
+18
+
+(iii)
+payment by certified cheque, banker’s draft, money order or wire transfer payable to the order of the Rights Agent, of a sum equal to the Exercise Price multiplied by the number of Rights being exercised and a sum sufficient to cover any transfer tax or charge which may be payable in respect of any transfer involved in the transfer or delivery of Rights Certificates or the issuance or delivery of certificates for Shares in a name other than that of the holder of the Rights being exercised.
+(e)
+Upon receipt of a Rights Certificate, together with a completed Election to Exercise executed in accordance with Clause 2.2(d)(ii), which does not indicate that such Right is null and void as provided by Subsection 3.1(b), and payment as set forth in Clause 2.2(d)(iii), the Rights Agent (unless otherwise instructed by the Company in the event that the Company is of the opinion that the Rights cannot be exercised in accordance with this Agreement) will thereupon as soon as practicable:
+(i)
+requisition from the transfer agent certificates representing the number of such Shares to be purchased (the Company hereby irrevocably authorizing its transfer agent to comply with all such requisitions);
+(ii)
+when appropriate, requisition from the Company the amount of cash to be paid in lieu of issuing fractional Shares;
+(iii)
+after receipt of the certificates referred to in Clause 2.2(e)(i), deliver the same to or upon the order of the registered holder of such Rights Certificates, registered in such name or names as may be designated by such holder;
+(iv)
+when appropriate, after receipt, deliver the cash referred to in Clause 2.2(e)(ii) to or to the order of the registered holder of such Rights Certificate; and
+(v)
+remit to the Company all payments received on the exercise of Rights.
+(f)
+In case the holder of any Rights shall exercise less than all the Rights evidenced by such holder’s Rights Certificate, a new Rights Certificate evidencing the Rights remaining unexercised (subject to the provisions of Subsection 5.5(a)) will be issued by the Rights Agent to such holder or to such holder’s duly authorized assigns.
+(g)
+The Company covenants and agrees that it will:
+(i)
+take all such action as may be necessary and within its power to ensure that all Shares delivered upon exercise of Rights shall, at the time of delivery of the certificates for such Shares (subject to payment of the Exercise Price), be duly and validly authorized, executed, issued and delivered as fully paid and non-assessable;
+(ii)
+take all such action as may be necessary and within its power to comply with the requirements of the Business Corporations Act, the Securities Act (British Columbia) and the securities laws or comparable legislation of each of the 
+
+19
+
+provinces of Canada, and any other applicable law, rule or regulation, in connection with the issuance and delivery of the Rights Certificates and the issuance of any Shares upon exercise of Rights;
+(iii)
+use reasonable efforts to cause all Shares issued upon exercise of Rights to be listed on the stock exchanges and markets on which such Shares were traded immediately prior to the Separation Time;
+(iv)
+pay when due and payable, if applicable, any and all federal, provincial and municipal transfer taxes and charges (not including any income or capital taxes of the holder or exercising holder or any liability of the Company to withhold tax) which may be payable in respect of the original issuance or delivery of the Rights Certificates, or certificates for Shares to be issued upon exercise of any Rights, provided that the Company shall not be required to pay any transfer tax or charge which may be payable in respect of any transfer involved in the transfer or delivery of Rights Certificates or the issuance or delivery of certificates for Shares in a name other than that of the holder of the Rights being transferred or exercised; and
+(v)
+after the Separation Time, except as permitted by Sections 5.1 and 5.4, not take (or permit any Subsidiary to take) any action if at the time such action is taken it is reasonably foreseeable that such action will diminish substantially or otherwise eliminate the benefits intended to be afforded by the Rights.
+2.3
+Adjustments to Exercise Price; Number of Rights
+The Exercise Price, the number and kind of securities subject to purchase upon exercise of each Right and the number of Rights outstanding are subject to adjustment from time to time as provided in this Section 2.3.
+(a)
+In the event the Company shall at any time after the Record Time and prior to the Expiration Time:
+(i)
+declare or pay a dividend on Shares payable in Shares or Convertible Securities in respect thereof other than pursuant to any Dividend Reinvestment Plan;
+(ii)
+subdivide or change the then outstanding Shares into a greater number of Shares;
+(iii)
+consolidate or change the then outstanding Shares into a smaller number of Shares; or
+(iv)
+issue any Shares (or Convertible Securities in respect thereof) in respect of, in lieu of or in exchange for existing Shares except as otherwise provided in this Section 2.3,
+
+20
+
+then the Exercise Price and the number of Rights outstanding (or, if the payment or effective date therefor shall occur after the Separation Time, the securities purchasable upon exercise of Rights) shall be adjusted as of the payment or effective date in the manner set forth below.
+If the Exercise Price and number of Rights outstanding are to be adjusted:
+(x)
+the Exercise Price in effect after such adjustment will be equal to the Exercise Price in effect immediately prior to such adjustment divided by the number of Shares (or other capital stock) (the “Expansion Factor”) that a holder of one Share immediately prior to such distribution, subdivision, change, consolidation or issuance would hold thereafter as a result thereof; and
+(y)
+each Right held prior to such adjustment will become that number of Rights equal to the Expansion Factor,
+and the adjusted number of Rights will be deemed to be distributed among the Shares with respect to which the original Rights were associated (if they remain outstanding) and the Shares issued in respect of such dividend, subdivision, change, consolidation or issuance, so that each such Share (or other capital stock) will have exactly one Right associated with it.
+For greater certainty, if the securities purchasable upon exercise of Rights are to be adjusted, the securities purchasable upon exercise of each Right after such adjustment will be the securities that a holder of the securities purchasable upon exercise of one Right immediately prior to such dividend, subdivision, change, consolidation or issuance would hold thereafter as a result of such dividend, subdivision, change, consolidation or issuance.
+If, after the Record Time and prior to the Expiration Time, the Company shall issue any shares of capital stock other than Shares in a transaction of a type described in Clause 2.3(a)(i) or (iv), such shares of capital stock shall be treated herein as nearly equivalent to Shares as may be practicable and appropriate under the circumstances and the Company and the Rights Agent agree to amend this Agreement in order to effect such treatment.
+If an event occurs which would require an adjustment under both this Section 2.3 and Section 3.1, the adjustment provided for in this Section 2.3 shall be in addition to, and shall be made prior to, any adjustment required under Section 3.1.
+In the event the Company shall at any time after the Record Time and prior to the Separation Time issue any Shares otherwise than in a transaction referred to in this Subsection 2.3(a), each such Share so issued shall automatically have one new Right associated with it, which Right shall be evidenced by the certificate representing such associated Share.
+(b)
+In the event the Company shall at any time after the Record Time and prior to the Separation Time fix a record date for the issuance of rights, options or warrants to all 
+
+21
+
+holders of Shares entitling them (for a period expiring within 45 calendar days after such record date) to subscribe for or purchase Shares (or Convertible Securities in respect of Shares) at a price per Share (or, in the case of a Convertible Security, having a conversion, exchange or exercise price per share, including the price required to be paid to purchase such Convertible Security) less than the Market Price per Share on such record date, the Exercise Price to be in effect after such record date shall be determined by multiplying the Exercise Price in effect immediately prior to such record date by a fraction:
+(i)
+the numerator of which shall be the number of Shares outstanding on such record date plus the number of Shares that the aggregate offering price of the total number of Shares so to be offered (and/or the aggregate initial conversion, exchange or exercise price of the Convertible Securities, including the price required to be paid to purchase such Convertible Securities) would purchase at such Market Price per Share; and
+(ii)
+the denominator of which shall be the number of Shares outstanding on such record date plus the number of additional Shares to be offered for subscription or purchase (or into which the Convertible Securities so to be offered are initially convertible, exchangeable or exercisable).
+In case such subscription price may be paid by delivery of consideration, part or all of which may be in a form other than cash, the value of such consideration shall be as determined in good faith by the Board of Directors, whose determination shall be described in a statement filed with the Rights Agent and shall be binding on the Rights Agent and the holders of Rights. Such adjustment shall be made successively whenever such a record date is fixed, and in the event that such rights, options or warrants are not so issued, or if issued, are not exercised prior to the expiration thereof, the Exercise Price shall be readjusted to the Exercise Price which would then be in effect if such record date had not been fixed, or to the Exercise Price which would be in effect based upon the number of Shares (or securities convertible into, or exchangeable or exercisable for Shares) actually issued upon the exercise of such rights, options or warrants, as the case may be.
+For purposes of this Agreement, the granting of the right to purchase Shares (whether from treasury or otherwise) pursuant to any Dividend Reinvestment Plan or any employee benefit plan, stock option plan or any similar plan shall be deemed not to constitute an issue of rights, options or warrants by the Company; provided, however, that, in the case of any Dividend Reinvestment Plan or share purchase plan, the right to purchase Shares is at a price per Share of not less than 90% of the current market price per share (determined as provided in such plans) of the Shares.
+(c)
+In the event the Company shall at any time after the Record Time and prior to the Separation Time fix a record date for the making of a distribution to all holders of Shares (including any such distribution made in connection with a merger or amalgamation) of evidences of indebtedness, cash (other than an annual cash dividend or a dividend paid in Common Shares, but including any dividend payable in securities other than Common 
+
+22
+
+Shares), assets or rights, options or warrants (excluding rights, options or warrants expiring within 45 calendar days after such record date) to purchase Shares or Convertible Securities in respect of Shares, the Exercise Price in effect after such record date shall be equal to the Exercise Price in effect immediately prior to such record date less the fair market value (as determined in good faith by the Board of Directors) of the portion of the evidences of indebtedness, cash, assets, rights, options or warrants so to be distributed applicable to the securities purchasable upon exercise of one Right.
+(d)
+Notwithstanding anything herein to the contrary, no adjustment in the Exercise Price shall be required unless such adjustment would require an increase or decrease of at least one per cent in the Exercise Price; provided, however, that any adjustments which by reason of this Subsection 2.3(d) are not required to be made shall be carried forward and taken into account in any subsequent adjustment. All calculations under Section 2.3 shall be made to the nearest cent or to the nearest ten-thousandth of a Share. Any adjustment required by Section 2.3 shall be made as of:
+(i)
+the payment or effective date for the applicable dividend, subdivision, change, combination or issuance, in the case of an adjustment made pursuant to Subsection 2.3(a); or
+(ii)
+the record date for the applicable dividend or distribution, in the case of an adjustment made pursuant to Subsection 2.3(b) or (c), subject to readjustment to reverse the same if such dividend or distribution shall not be made.
+(e)
+In the event the Company shall at any time after the Record Time and prior to the Separation Time issue any shares (other than Shares), or rights, options or warrants to subscribe for or purchase any such shares, or securities convertible into or exchangeable for any such shares, in a transaction referred to in Clause 2.3(a)(i) or (iv) or Subsections 2.3(b) or (c), if the Board of Directors acting in good faith determines that the adjustments contemplated by Subsections 2.3(a), (b) and (c) in connection with such transaction will not appropriately protect the interests of the holders of Rights, the Board of Directors may determine what other adjustments to the Exercise Price, number of Rights and/or securities purchasable upon exercise of Rights would be appropriate and, notwithstanding Subsections 2.3(a), (b) and (c), such adjustments, rather than the adjustments contemplated by Subsections 2.3(a), (b) and (c), shall be made. Subject to Subsection 5.4(b) and (c), the Company and the Rights Agent may, with the prior approval of the holders of the Shares amend this Agreement as appropriate to provide for such adjustments.
+(f)
+Each Right originally issued by the Company subsequent to any adjustment made to the Exercise Price hereunder shall evidence the right to purchase, at the adjusted Exercise Price, the number of Shares purchasable from time to time hereunder upon exercise of a Right immediately prior to such issue, all subject to further adjustment as provided herein.
+(g)
+Irrespective of any adjustment or change in the Exercise Price or the number of Shares issuable upon the exercise of the Rights, the Rights Certificates theretofore and 
+
+23
+
+thereafter issued may continue to express the Exercise Price per Share and the number of Shares which were expressed in the initial Rights Certificates issued hereunder.
+(h)
+In any case in which this Section 2.3 shall require that an adjustment in the Exercise Price be made effective as of a record date for a specified event, the Company may elect to defer until the occurrence of such event the issuance to the holder of any Right exercised after such record date the number of Shares and other securities of the Company, if any, issuable upon such exercise over and above the number of Shares and other securities of the Company, if any, issuable upon such exercise on the basis of the Exercise Price in effect prior to such adjustment; provided, however, that the Company shall deliver to such holder an appropriate instrument evidencing such holder’s right to receive such additional shares (fractional or otherwise) or other securities upon the occurrence of the event requiring such adjustment.
+(i)
+Notwithstanding anything contained in this Section 2.3 to the contrary, the Company shall be entitled to make such reductions in the Exercise Price, in addition to those adjustments expressly required by this Section 2.3, as and to the extent that in their good faith judgment the Board of Directors shall determine to be advisable, in order that any:
+(i)
+ consolidation or subdivision of Shares;
+(ii)
+issuance (wholly or in part for cash) of Shares or securities that by their terms are convertible into or exchangeable for Shares;
+(iii)
+stock dividends; or
+(iv)
+issuance of rights, options or warrants referred to in this Section 2.3,
+hereafter made by the Company to holders of its Shares, subject to applicable taxation laws, shall not be taxable to such shareholders or shall subject such shareholders to a lesser amount of tax.
+(j)
+Whenever an adjustment to the Exercise Price or a change in the securities purchaseable upon exercise of the Rights is made pursuant to this Section 2.3, the Company shall promptly and in any event, where such change or adjustment occurs prior to the Separation Time, not later than the Separation Time:
+(i)
+promptly prepare a certificate setting forth such adjustment and a brief statement of the facts accounting for such adjustment; and
+(ii)
+promptly file with the Rights Agent and with each transfer agent for the Common Shares a copy of such certificate and mail a brief summary thereof to each holder of Rights who requests a copy;
+(iii)
+cause notice of the particulars of such adjustment or change to be given to the holders of the Rights.
+
+24
+
+Failure to file such certificate or to cause such notice to be given as aforesaid, or any defect therein, shall not affect the validity of any such adjustment or change.
+2.4
+Date on Which Exercise Is Effective
+Each Person in whose name any certificate for Shares or other securities, if applicable, is issued upon the exercise of Rights shall for all purposes be deemed to have become the absolute holder of record of the Shares or other securities, if applicable, represented thereon, and such certificate shall be dated the date upon which the Rights Certificate evidencing such Rights was duly surrendered in accordance with Subsection 2.2(d) (together with a duly completed Election to Exercise) and payment of the Exercise Price for such Rights (and any applicable transfer taxes and other governmental charges payable by the exercising holder hereunder) was made; provided, however, that if the date of such surrender and payment is a date upon which the Share transfer books of the Company are closed, such Person shall be deemed to have become the record holder of such Shares on, and such certificate shall be dated, the next succeeding Business Day on which the Share transfer books of the Company are open.
+2.5
+Execution, Authentication, Delivery and Dating of Rights Certificates
+(a)
+The Rights Certificates shall be executed on behalf of the Company by any of its Chairman of the Board, President, Chief Executive Officer and Chief Financial Officer. The signature of any of these officers on the Rights Certificates may be manual or facsimile. Rights Certificates bearing the manual or facsimile signatures of individuals who were at any time the proper officers of the Company shall bind the Company, notwithstanding that such individuals or any of them have ceased to hold such offices either before or after the countersignature and delivery of such Rights Certificates.
+(b)
+Promptly after the Company learns of the Separation Time, the Company will notify the Rights Agent of such Separation Time and will deliver Rights Certificates executed by the Company to the Rights Agent for countersignature, and the Rights Agent shall countersign (manually or by facsimile signature in a manner satisfactory to the Company) and send such Rights Certificates to the holders of the Rights pursuant to Subsection 2.2(c) hereof. No Rights Certificate shall be valid for any purpose until countersigned by the Rights Agent as aforesaid.
+(c)
+Each Rights Certificate shall be dated the date of countersignature thereof.
+2.6
+Registration, Transfer and Exchange
+(a)
+The Company will cause to be kept a register (the “Rights Register”) in which, subject to such reasonable regulations as it may prescribe, the Company will provide for the registration and transfer of Rights. The Rights Agent, at its office in the City of Vancouver, is hereby appointed registrar for the Rights (the “Rights Registrar”) for the purpose of maintaining the Rights Register for the Company and registering Rights and transfers of Rights as herein provided and the Rights Agent hereby accepts such appointment. In the event that the Rights Agent shall cease to be the Rights Registrar, the Rights Agent will have the right to examine the Rights Register at all reasonable times.
+
+25
+
+After the Separation Time and prior to the Expiration Time, upon surrender for registration of transfer or exchange of any Rights Certificate, and subject to the provisions of Subsection 2.6(c), the Company will execute, and the Rights Agent will countersign and deliver, in the name of the holder or the designated transferee or transferees, as required pursuant to the holder’s instructions, one or more new Rights Certificates evidencing the same aggregate number of Rights as did the Rights Certificates so surrendered.
+(b)
+All Rights issued upon any registration of transfer or exchange of Rights Certificates shall be the valid obligations of the Company, and such Rights shall be entitled to the same benefits under this Agreement as the Rights surrendered upon such registration of transfer or exchange.
+(c)
+Every Rights Certificate surrendered for registration of transfer or exchange shall be duly endorsed, or be accompanied by a written instrument of transfer in form satisfactory to the Company or the Rights Agent, as the case may be, duly executed by the holder thereof or such holder’s attorney duly authorized in writing. As a condition to the issuance of any new Rights Certificate under this Section 2.6, the Company may require the payment of a sum sufficient to cover any tax or other governmental charge that may be imposed in relation thereto and any other expenses (including the reasonable fees and expenses of the Rights Agent) connected therewith.
+2.7
+Mutilated, Destroyed, Lost and Stolen Rights Certificates
+(a)
+If any mutilated Rights Certificate is surrendered to the Rights Agent prior to the Expiration Time, the Company shall execute and the Rights Agent shall countersign and deliver in exchange therefor a new Rights Certificate evidencing the same number of Rights as did the Rights Certificate so surrendered.
+(b)
+If there shall be delivered to the Company and the Rights Agent prior to the Expiration Time:
+(i)
+ evidence to their reasonable satisfaction of the destruction, loss or theft of any Rights Certificate; and
+(ii)
+such security and indemnity as may be reasonably required by them to save each of them and any of their agents harmless,
+then, in the absence of notice to the Company or the Rights Agent that such Rights Certificate has been acquired by a bona fide purchaser, the Company shall execute and upon the Company’s request the Rights Agent shall countersign and deliver, in lieu of any such destroyed, lost or stolen Rights Certificate, a new Rights Certificate evidencing the same number of Rights as did the Rights Certificate so destroyed, lost or stolen.
+(c)
+As a condition to the issuance of any new Rights Certificate under this Section 2.7, the Company may require the payment of a sum sufficient to cover any tax or other governmental charge that may be imposed in relation thereto and any other 
+
+26
+
+expenses (including the reasonable fees and expenses of the Rights Agent) connected therewith.
+(d)
+Every new Rights Certificate issued pursuant to this Section 2.7 in lieu of any destroyed, lost or stolen Rights Certificate shall evidence the contractual obligation of the Company, whether or not the destroyed, lost or stolen Rights Certificate shall be at any time enforceable by anyone, and shall be entitled to all the benefits of this Agreement equally and proportionately with any and all other Rights duly issued hereunder.
+2.8
+Persons Deemed Owners of Rights
+The Company, the Rights Agent and any agent of the Company or the Rights Agent may deem and treat the Person in whose name a Rights Certificate (or, prior to the Separation Time, the associated Share certificate) is registered as the absolute owner thereof and of the Rights evidenced thereby for all purposes whatsoever. As used in this Agreement, unless the context otherwise requires, the term “holder” of any Right shall mean the registered holder of such Right (or, prior to the Separation Time, of the associated Share).
+2.9
+Delivery and Cancellation of Certificates
+All Rights Certificates surrendered upon exercise or for redemption, registration of transfer or exchange shall, if surrendered to any Person other than the Rights Agent, be delivered to the Rights Agent and, in any case, shall be promptly cancelled by the Rights Agent. The Company may at any time deliver to the Rights Agent for cancellation any Rights Certificates previously countersigned and delivered hereunder which the Company may have acquired in any manner whatsoever, and all Rights Certificates so delivered shall be promptly cancelled by the Rights Agent. No Rights Certificate shall be countersigned in lieu of or in exchange for any Rights Certificates cancelled as provided in this Section 2.9, except as expressly permitted by this Agreement. The Rights Agent shall, subject to applicable laws, destroy all cancelled Rights Certificates and deliver a certificate of destruction to the Company.
+2.10
+Agreement of Rights Holders
+Every holder of Rights, by accepting the same, consents and agrees with the Company and the Rights Agent and with every other holder of Rights:
+(a)
+to be bound by and subject to the provisions of this Agreement, as amended from time to time in accordance with the terms hereof, in respect of all Rights held;
+(b)
+that prior to the Separation Time, each Right will be transferable only together with, and will be transferred by a transfer of, the associated Voting Share certificate representing such Right;
+(c)
+that after the Separation Time, the Rights Certificates will be transferable only on the Rights Register as provided herein;
+(d)
+that prior to due presentment of a Rights Certificate (or, prior to the Separation Time, the associated Voting Share certificate) for registration of transfer, the Company, 
+
+27
+
+the Rights Agent and any agent of the Company or the Rights Agent may deem and treat the Person in whose name the Rights Certificate (or, prior to the Separation Time, the associated Voting Share certificate) is registered as the absolute owner thereof and of the Rights evidenced thereby (notwithstanding any notations of ownership or writing on such Rights Certificate or the associated Voting Share certificate made by anyone other than the Company or the Rights Agent) for all purposes whatsoever, and neither the Company nor the Rights Agent shall be affected by any notice to the contrary;
+(e)
+that such holder of Rights has waived his right to receive any fractional Rights or any fractional shares or other securities upon exercise of a Right (except as provided herein);
+(f)
+that, subject to the provisions of Section 5.4, without the approval of any holder of Rights or Voting Shares and upon the sole authority of the Board of Directors, acting in good faith, this Agreement may be supplemented or amended from time to time pursuant to and as provided herein; and
+(g)
+that notwithstanding anything in this Agreement to the contrary, neither the Company nor the Rights Agent shall have any liability to any holder of a Right or any other Person as a result of its inability to perform any of its obligations under this Agreement by reason of preliminary or permanent injunctions or other order, decree or ruling issued by a court of competent jurisdiction or by a governmental, regulatory or administrative agency or commission, or any statute, rule, regulations or executive order promulgated or enacted by any governmental authority prohibiting or otherwise restraining performance of such obligation.
+2.11
+Rights Certificate Holder Not Deemed a Shareholder
+No holder, as such, of any Rights or Rights Certificate shall be entitled to vote, receive dividends or be deemed for any purpose whatsoever the holder of any Share or any other share or security of the Company which may at any time be issuable on the exercise of the Rights represented thereby, nor shall anything contained herein or in any Rights Certificate be construed or deemed or confer upon the holder of any Right or Rights Certificate, as such, any right, title, benefit or privilege of a holder of Shares or any other shares or securities of the Company or any right to vote at any meeting of shareholders of the Company whether for the election of directors or otherwise or upon any matter submitted to holders of Shares or any other shares of the Company at any meeting thereof, or to give or withhold consent to any action of the Company, or to receive notice of any meeting or other action affecting any holder of Shares or any other shares of the Company except as expressly provided herein, or to receive dividends, distributions or subscription rights, or otherwise, until the Right or Rights evidenced by Rights Certificates shall have been duly exercised in accordance with the terms and provisions hereof.
+
+28
+
+ARTICLE 3
+
+ADJUSTMENTS TO THE RIGHTS
+3.1
+Flip-in Event
+(a)
+Subject to Subsection 3.1(b) and Section 5.1, in the event that prior to the Expiration Time a Flip-in Event shall occur, each Right shall constitute, effective at the close of business on the tenth Trading Day after the Share Acquisition Date, the right to purchase from the Company, upon exercise thereof in accordance with the terms hereof, that number of Shares having an aggregate Market Price on the date of consummation or occurrence of such Flip-in Event equal to twice the Exercise Price for an amount in cash equal to the Exercise Price (such right to be appropriately adjusted in a manner analogous to the applicable adjustment provided for in Section 2.3 in the event that after such consummation or occurrence, an event of a type analogous to any of the events described in Section 2.3 shall have occurred).
+(b)
+Notwithstanding anything in this Agreement to the contrary, upon the occurrence of any Flip-in Event, any Rights that are or were Beneficially Owned on or after the earlier of the Separation Time or the Share Acquisition Date by:
+(i)
+an Acquiring Person (or any Affiliate or Associate of an Acquiring Person or any other Person acting jointly or in concert with an Acquiring Person or any Affiliate or Associate of such other Person); or
+(ii)
+a transferee or other successor in title, directly or indirectly, (a “Transferee”) of Rights held by an Acquiring Person (or any Affiliate or Associate of an Acquiring Person or any other Person acting jointly or in concert with an Acquiring Person or any Affiliate or Associate of such other Person), where such Transferee becomes a transferee concurrently with or subsequent to the Acquiring Person becoming such in a transfer that the Board of Directors acting in good faith has determined is part of a plan, arrangement or scheme of an Acquiring Person (or any Affiliate or Associate of an Acquiring Person or any other Person acting jointly or in concert with an Acquiring Person or any Affiliate or Associate of such other Person), that has the purpose or effect of avoiding Clause 3.1(b)(i),
+shall become null and void without any further action, and any holder of such Rights (including any Transferee) shall thereafter have no right to exercise such Rights under any provision of this Agreement and further shall thereafter not have any other rights whatsoever with respect to such Rights, whether under any provision of this Agreement or otherwise. The holder of any Rights represented by a Rights Certificate which is submitted to the Rights Agent upon exercise or for registration or transfer or exchange which does not contain the necessary certifications set forth in the Rights Certificate establishing that such Rights are not null and void under this Clause 3.1(b) shall be deemed to be an Acquiring Person for the purposes of this Clause 3.1 and such Rights shall become null and void.
+
+29
+
+(c)
+From and after the Separation Time, the Company shall do all such acts and things as shall be necessary and within its power to ensure compliance with the provisions of this Section 3.1, including without limitation, all such acts and things as may be required to satisfy the requirements of the British Columbia Business Corporations Act, the Securities Act and the securities laws or comparable legislation of each of the provinces of Canada in respect of the issue of Shares upon the exercise of Rights in accordance with this Agreement.
+(d)
+Any Rights Certificate that represents Rights Beneficially Owned by a Person described in either Clause 3.1(b)(i) or (ii) or transferred to any nominee of any such Person, and any Rights Certificate issued upon transfer, exchange, replacement or adjustment of any other Rights Certificate referred to in this sentence, shall contain the following legend:
+“The Rights represented by this Rights Certificate were issued to a Person who was an Acquiring Person or an Affiliate or an Associate of an Acquiring Person (as such terms are defined in the Shareholder Rights Agreement) or a Person who was acting jointly or in concert with an Acquiring Person or an Affiliate or Associate of such Person. This Rights Certificate and the Rights represented hereby are void or shall become void in the circumstances specified in Subsection 3.1(b) of the Shareholder Rights Agreement.”
+provided, however, that the Rights Agent shall not be under any responsibility to ascertain the existence of facts that would require the imposition of such legend but shall impose such legend only if instructed to do so by the Company in writing or if a holder fails to certify upon transfer or exchange in the space provided on the Rights Certificate that such holder is not a Person described in such legend and provided further that the fact that such legend does not appear on a certificate is not determinative of whether any Rights represented thereby are void under this Section.
+ARTICLE 4
+
+THE RIGHTS AGENT
+4.1
+General
+(a)
+The Company hereby appoints the Rights Agent to act as agent for the Company and the holders of the Rights in accordance with the terms and conditions hereof, and the Rights Agent hereby accepts such appointment. The Company may from time to time appoint such co-Rights Agents (“Co-Rights Agents”) as it may deem necessary or desirable subject to the approval of the Rights Agent. In the event the Company appoints one or more Co-Rights Agents, the respective duties of the Rights Agent and Co-Rights Agents shall be as the Company may determine with the approval of the Rights Agent and the Co-Rights Agent. The Company agrees to pay to the Rights Agent reasonable 
+
+30
+
+compensation for all services rendered by it hereunder and, from time to time, on demand of the Rights Agent, its reasonable expenses and counsel fees and other disbursements incurred in the administration and execution of this Agreement and the exercise and performance of its duties hereunder (including the fees and disbursements of any expert or advisor retained by the Rights Agent). The Company also agrees to indemnify the Rights Agent, and its officers, directors, employees and agents for, and to hold it and them harmless against, any loss, liability or expense, incurred without gross negligence, bad faith or wilful misconduct on the part of the Rights Agent or such persons, for anything done or omitted by the Rights Agent or such persons in connection with the acceptance and administration of this Agreement, including legal costs and expenses, which right to indemnification will survive the termination of this Agreement and the resignation or removal of the Rights Agent.
+(b)
+The Rights Agent shall be protected and shall incur no liability for or in respect of any action taken, suffered or omitted by it in connection with its administration of this Agreement in reliance upon any certificate for Common Shares, Rights Certificate, certificate for other securities of the Company, instrument of assignment or transfer, power of attorney, endorsement, affidavit, letter, notice, direction, consent, certificate, opinion statement, or other paper or document believed by it to be genuine and to be signed, executed and, where necessary, verified or acknowledged, by the proper Person or Persons.
+(c)
+The Company shall inform the Rights Agent in a reasonably timely manner of events which may materially affect the administration of this Agreement by the Rights Agent and, at any time upon request, shall provide to the Rights Agent an incumbency certificate certifying the then current officers of the Company; provided that failure to inform the Rights Agent of any such events, or any defect therein shall not affect the validity of any action taken hereunder in relation to such events.
+(d)
+No provision contained in this Agreement shall require the Rights Agent to expend or risk its own funds or otherwise incur financial liability in the performance of any of its duties or in the exercise of any of its rights or powers.
+(e)
+Notwithstanding any other provision of this Agreement, and whether such losses or damages are foreseeable or unforeseeable, the Rights Agent shall not be liable under any circumstances whatsoever for any (i) breach by any other party of securities law or other rule of any securities regulatory authority, (ii) lost profits or (iii) special, indirect, incidental, consequential, exemplary, aggravated or punitive losses or damages.
+(f)
+Notwithstanding any other provision of this Agreement, any liability of the Rights Agent shall be limited, in the aggregate, to the amount of fees paid by the Company to the Rights Agent under this Agreement in the twelve (12) months immediately prior to the Rights Agent receiving the first notice of the claim.
+
+31
+
+4.2
+Merger, Amalgamation or Consolidation or Change of Name of Rights Agent
+(a)
+Any Company into which the Rights Agent may be merged or amalgamated or with which it may be consolidated, or any Company resulting from any merger, amalgamation, statutory arrangement or consolidation to which the Rights Agent is a party, or any Company succeeding to the shareholder or stockholder services business of the Rights Agent, will be the successor to the Rights Agent under this Agreement without the execution or filing of any paper or any further act on the part of any of the parties hereto, provided that such Company would be eligible for appointment as a successor Rights Agent under the provisions of Section 4.4 hereof. In case at the time such successor Rights Agent succeeds to the agency created by this Agreement any of the Rights Certificates have been countersigned but not delivered, any successor Rights Agent may adopt the countersignature of the predecessor Rights Agent and deliver such Rights Certificates so countersigned; and in case at that time any of the Rights have not been countersigned, any successor Rights Agent may countersign such Rights Certificates in the name of the predecessor Rights Agent or in the name of the successor Rights Agent; and in all such cases such Rights Certificates will have the full force provided in the Rights Certificates and in this Agreement.
+(b)
+In case at any time the name of the Rights Agent is changed and at such time any of the Rights Certificates shall have been countersigned but not delivered, the Rights Agent may adopt the countersignature under its prior name and deliver Rights Certificates so countersigned; and in case at that time any of the Rights Certificates shall not have been countersigned, the Rights Agent may countersign such Rights Certificates either in its prior name or in its changed name; and in all such cases such Rights Certificates shall have the full force provided in the Rights Certificates and in this Agreement.
+4.3
+Duties of Rights Agent
+The Rights Agent undertakes the duties and obligations imposed by this Agreement upon the following terms and conditions, all of which the Company and the holders of certificates for Shares and the holders of Rights Certificates, by their acceptance thereof, shall be bound:
+(a)
+the Rights Agent may retain and consult with legal counsel (who may be legal counsel for the Company) and the opinion of such counsel will be full and complete authorization and protection to the Rights Agent as to any action taken or omitted by it in good faith and in accordance with such opinion and the Rights Agent may also consult with such other experts as the Rights Agent may reasonably consider necessary or appropriate to properly carry out the duties and obligations imposed under this Agreement (at the expense of the Company) and the Rights Agent shall be entitled to act and rely in good faith on the advice of any such expert;
+(b)
+whenever in the performance of its duties under this Agreement, the Rights Agent deems it necessary or desirable that any fact or matter be proved or established by the Company prior to taking or suffering any action hereunder, such fact or matter (unless other evidence in respect thereof be herein specifically prescribed) may be deemed to be 
+
+32
+
+conclusively proved and established by a certificate signed by a Person believed by the Rights Agent to be the Chairman of the Board, President, Chief Executive Officer or Chief Financial Officer, any Vice-President or Corporate Secretary of the Company and delivered to the Rights Agent; and such certificate will be full authorization to the Rights Agent for any action taken or suffered in good faith by it under the provisions of this Agreement in reliance upon such certificate;
+(c)
+the Rights Agent will be liable hereunder only for its own gross negligence, bad faith or willful misconduct;
+(d)
+the Rights Agent will not be liable for or by reason of any of the statements of fact or recitals contained in this Agreement or in the certificates for Shares, or the Rights Certificates (except its countersignature thereof) or be required to verify the same, but all such statements and recitals are and will be deemed to have been made by the Company only;
+(e)
+the Rights Agent will not be under any responsibility in respect of the validity of this Agreement or the execution and delivery hereof (except the due authorization, execution and delivery hereof by the Rights Agent) or in respect of the validity or execution of any certificate for a Share or Rights Certificate (except its countersignature thereof); nor will it be responsible for any breach by the Company of any covenant or condition contained in this Agreement or in any Rights Certificate; nor will it be responsible for any change in the exercisability of the Rights (including the Rights becoming void pursuant to Subsection 3.1(b) hereof) or any adjustment required under the provisions of Section 2.3 hereof or responsible for the manner, method or amount of any such adjustment or the ascertaining of the existence of facts that would require any such adjustment (except with respect to the exercise of Rights after receipt of the certificate contemplated by Section 2.3 describing any such adjustment); nor will it by any act hereunder be deemed to make any representation or warranty as to the authorization of any Shares to be issued pursuant to this Agreement or any Rights or as to whether any Shares will, when issued, be duly and validly authorized, executed, issued and delivered and fully paid and non-assessable;
+(f)
+the Company agrees that it will perform, execute, acknowledge and deliver or cause to be performed, executed, acknowledged and delivered all such further and other acts, instruments and assurances as may reasonably be required by the Rights Agent for the carrying out or performing by the Rights Agent of the provisions of this Agreement;
+(g)
+the Rights Agent is hereby authorized and directed to accept instructions in writing with respect to the performance of its duties hereunder from any individual believed by the Rights Agent to be the Chairman of the Board, President, Chief Executive Officer or Chief Financial Officer, any Vice-President or Corporate Secretary of the Company, and to apply to such individuals for advice or instructions in connection with its duties, and it shall not be liable for any action taken or suffered by it in good faith in accordance with instructions of any such individual. It is understood that instructions to the Rights Agent shall, except where circumstances make it impractical or the Rights 
+
+33
+
+Agent otherwise agrees, be given in writing and, where not in writing, such instructions shall be confirmed in writing as soon as practicable after the giving of such instructions;
+(h)
+the Rights Agent and any shareholder or stockholder, director, officer or employee of the Rights Agent may buy, sell or deal in Common Shares, Rights or other securities of the Company or become pecuniarily interested in any transaction in which the Company may be interested, or contract with or lend money to the Company or otherwise act as fully and freely as though it were not Rights Agent under this Agreement. Nothing herein shall preclude the Rights Agent from acting in any other capacity for the Company or for any other legal entity; and
+(i)
+the Rights Agent may execute and exercise any of the rights or powers hereby vested in it or perform any duty hereunder either itself or by or through its attorneys or agents, and the Rights Agent will not be answerable or accountable for any act, default, neglect or misconduct of any such attorneys or agents or for any loss to the Company resulting from any such act, default, neglect or misconduct, provided reasonable care was exercised in the selection and continued employment thereof.
+4.4
+Change of Rights Agent
+The Rights Agent may resign and be discharged from its duties under this Agreement upon 60 days’ notice (or such lesser notice as is acceptable to the Company) in writing mailed to the Company and to each transfer agent of Shares by registered or certified mail and to the holders of Rights in accordance with Section 5.9. The Company may remove the Rights Agent upon 30 days’ notice in writing, mailed to the Rights Agent and to each transfer agent of the Common Shares by registered or certified mail and to the holders of Rights in accordance with Section 5.9. If the Rights Agent should resign or be removed or otherwise become incapable of acting, the Company will appoint a successor to the Rights Agent. If the Company fails to make such appointment within a period of 30 days after such removal or after it has been notified in writing of such resignation or incapacity by the resigning or incapacitated Rights Agent, then by prior written notice to the Company the resigning Rights Agent or the holder of any Rights (which holder shall, with such notice, submit such holder’s Rights Certificate, if any, for inspection by the Company), may apply, at the Company’s expense, to any court of competent jurisdiction for the appointment of a new Rights Agent. Any successor Rights Agent, whether appointed by the Company or by such a court, shall be a Company incorporated under the laws of Canada or a province thereof authorized to carry on the business of a trust company in the Province of British Columbia. After appointment, the successor Rights Agent will be vested with the same powers, rights, duties and responsibilities as if it had been originally named as Rights Agent without further act or deed; but the predecessor Rights Agent shall, upon payment in full of any outstanding amounts owing by the Company to the Rights Agent under this Agreement, deliver and transfer to the successor Rights Agent any property at the time held by it hereunder, and execute and deliver any further assurance, conveyance, act or deed necessary for the purpose. Not later than the effective date of any such appointment, the Company will file notice thereof in writing with the predecessor Rights Agent and each transfer agent of the Shares, and mail a notice thereof in writing to the holders of the Rights in accordance with Section 5.9. Failure to give any notice provided for in this Section 4.4, however, or any defect therein, shall not affect 
+
+34
+
+the legality or validity of the resignation or removal of the Rights Agent or the appointment of any successor Rights Agent, as the case may be.
+ARTICLE 5
+
+MISCELLANEOUS
+5.1
+Redemption and Waiver
+(a)
+The Board of Directors acting in good faith may, with the prior approval of the holders of Voting Shares or of the holders of Rights given in accordance with Section 5.1(i) or (j), as the case may be, at any time prior to the occurrence of a Flip-in Event as to which the application of Section 3.1 has not been waived pursuant to the provisions of this Section 5.1, elect to redeem all but not less than all of the then outstanding Rights at a redemption price of $0.00001 per Right appropriately adjusted in a manner analogous to the applicable adjustment provided for in Section 2.3 in the event that an event of the type analogous to any of the events described in Section 2.3 shall have occurred (such redemption price being herein referred to as the “Redemption Price”).
+(b)
+The Board of Directors acting in good faith may, with the prior approval of the holders of Voting Shares given in accordance with Section 5.1(i), determine, at any time prior to the occurrence of a Flip-in Event as to which the application of Section 3.1 has not been waived pursuant to this Section 5.1, if such Flip-in Event would occur by reason of an acquisition of Voting Shares otherwise than pursuant to a Take-over Bid made by means of a take-over bid circular to all holders of record of Voting Shares and otherwise than in the circumstances set forth in Subsection 5.1(d), to waive the application of Section 3.1 to such Flip-in Event. In the event that the Board of Directors proposes such a waiver, the Board of Directors shall extend the Separation Time to a date subsequent to and not more than ten Business Days following the meeting of shareholders called to approve such waiver.
+(c)
+The Board of Directors acting in good faith may, until the occurrence of a Flip-in Event and upon prior written notice delivered to the Rights Agent, determine to waive the application of Section 3.1 to such particular Flip-in Event, provided that the Flip-in Event would occur by reason of a Take-over Bid made by way of take-over bid circular sent to all holders of Voting Shares (which for greater certainty shall not include the circumstances described in Subsection 5.1(d)); provided that if the Board of Directors waives the application of Section 3.1 to a particular Flip-in Event pursuant to this Subsection 5.1(c), the Board of Directors shall be deemed to have waived the application of Section 3.1 to any other Flip-in Event subsequently occurring by reason of any Take-over Bid which is made by means of a take-over bid circular to all holders of Voting Shares prior to the expiry of any Take-over Bid in respect of which a waiver is, or is deemed to have been, granted under this Subsection 5.1(c).
+
+35
+
+(d)
+Notwithstanding the provisions of Subsections 5.1(b) and (c) hereof, the Board of Directors may waive the application of Section 3.1 in respect of the occurrence of any Flip-in Event if the Board of Directors has determined within ten Trading Days following a Stock Acquisition Date that a Person became an Acquiring Person by inadvertence and without any intention to become, or knowledge that it would become, an Acquiring Person under this Agreement, and in the event such waiver is granted by the Board of Directors, such Stock Acquisition Date shall be deemed not to have occurred. Any such waiver pursuant to this Subsection 5.1(d) must be on the condition that such Person, within 14 days after the foregoing determination by the Board of Directors or such earlier or later date as the Board of Directors may determine (the “Disposition Date”), has reduced its Beneficial Ownership of Voting Shares such that the Person is no longer an Acquiring Person. If the Person remains an Acquiring Person at the close of business on the Disposition Date, the Disposition Date shall be deemed to be the date of occurrence of a further Stock Acquisition Date and Section 3.1 shall apply thereto.
+(e)
+The Board of Directors, shall, without further formality, be deemed to have elected to redeem the Rights at the Redemption Price on the date that a Person which has made a Permitted Bid, a Competing Permitted Bid or a Take-Over Bid in respect of which the Board of Directors has waived, or is deemed to have waived, pursuant to Subsection 5.1(c) the application of Section 3.1, takes up and pays for Voting Shares in connection with such Permitted Bid, Competing Permitted Bid or Take-over bid, as the case may be.
+(f)
+Where a Take-over Bid that is not a Permitted Bid Acquisition is withdrawn or otherwise terminated after the Separation Time has occurred and prior to the occurrence of a Flip-in Event, the Board of Directors may elect to redeem all the outstanding Rights at the Redemption Price. Upon the Rights being redeemed pursuant to this Subsection 5.1(f), all the provisions of this Agreement shall continue to apply as if the Separation Time had not occurred and Rights Certificates representing the number of Rights held by each holder of record of Shares as of the Separation Time had not been mailed to each such holder and for all purposes of this Agreement the Separation Time shall be deemed not to have occurred.
+(g)
+If the Board of Directors elects or is deemed to have elected to redeem the Rights, and, in circumstances in which Subsection 5.1(a) is applicable, such redemption is approved by the holders of Voting Shares or the holders of Rights in accordance with Subsection 5.1(i) or (j), as the case may be, the right to exercise the Rights, will thereupon, without further action and without notice, terminate and the only right thereafter of the holders of Rights shall be to receive the Redemption Price.
+(h)
+Within 10 Business Days after the Board of Directors elects or is deemed to elect, to redeem the Rights or if Subsection 5.1(a) is applicable within 10 Business Days after the holders of Shares of the holders of Rights have approved a redemption of Rights in accordance with Section 5.1(i) or (j), as the case may be, the Company shall give notice of redemption to the holders of the then outstanding Rights by mailing such notice to each such holder at his last address as it appears upon the registry books of the Rights Agent or, prior to the Separation Time, on the registry books of the transfer agent for the 
+
+36
+
+Voting Shares. Any notice which is mailed in the manner herein provided shall be deemed given, whether or not the holder receives the notice. Each such notice of redemption will state the method by which the payment of the Redemption Price will be made. The Company may not redeem, acquire or purchase for value any Rights at any time in any manner other than specifically set forth in this Section 5.1 or in connection with the purchase of Shares prior to the Separation Time.
+(i)
+If a redemption of Rights pursuant to Subsection 5.1(a) or a waiver of a Flip-in Event pursuant to Section 5.1(b) is proposed at any time prior to the Separation Time, such redemption or waiver shall be submitted for approval to the holders of Voting Shares. Such approval shall be deemed to have been given if the redemption or waiver is approved by the affirmative vote of a majority of the votes cast by Independent Shareholders represented in person or by proxy at a meeting of such holders duly held in accordance with applicable laws.
+(j)
+If a redemption of Rights pursuant to Subsection 5.1(a) is proposed at any time after the Separation Time, such redemption shall be submitted for approval to the holders of Rights. Such approval shall be deemed to have been given if the redemption is approved by holders of Rights by a majority of the votes cast by the holders of Rights represented in person or by proxy at and entitled to vote at a meeting of such holders. For the purposes hereof, each outstanding Right (other than Rights which are Beneficially Owned by any Person referred to in clauses (i) to (v) inclusive of the definition of Independent Shareholders) shall be entitled to one vote, and the procedures for the calling, holding and conduct of the meeting shall be those, as nearly as may be, which are provided in the Company’s by-laws and the British Columbia Business Corporations Act with respect to meetings of shareholders of the Company.
+5.2
+Expiration
+No Person shall have any rights whatsoever pursuant to this Agreement or in respect of any Right after the Expiration Time, except the Rights Agent as specified in Section 4.1 of this Agreement.
+5.3
+Issuance of New Rights Certificates
+Notwithstanding any of the provisions of this Agreement or the Rights to the contrary, the Company may, at its option, issue new Rights Certificates evidencing Rights in such form as may be approved by the Board of Directors to reflect any adjustment or change in the number or kind or class of securities purchasable upon exercise of Rights made in accordance with the provisions of this Agreement.
+5.4
+Supplements and Amendments
+(a)
+The Company may make amendments to this Agreement to correct any clerical or typographical error or which are required to maintain the validity of this Agreement as a result of any change in any applicable legislation or regulations or rules thereunder. The Company may, prior to the date of the shareholders’ meeting to be held prior to the Meeting Deadline Date referred to in Section 5.15(b), supplement, amend, vary, rescind 
+
+37
+
+or delete any of the provisions of this Agreement and the Rights without the approval of any holders of Rights or Voting Shares in order to make any changes which the Board of Directors acting in good faith may deem necessary or desirable. Notwithstanding anything in this Section 5.4 to the contrary, no such supplement or amendment shall be made to the provisions of Article 4 except with the written concurrence of the Rights Agent to such supplement or amendment.
+(b)
+Subject to Subsection 5.4(a) and the prior approval of the Toronto Stock Exchange (if required), the Company may, with the prior approval of the holders of Voting Shares obtained as set forth below, at any time before the Separation Time, supplement, amend, vary, rescind or delete any of the provisions of this Agreement and the Rights (whether or not such action would materially adversely affect the interests of the holders of Rights generally). Such consent shall be deemed to have been given if the action requiring such approval is authorized by the affirmative vote of a majority of the votes cast by Independent Shareholders present or represented at and entitled to be voted at a meeting of the holders of Voting Shares duly called and held in compliance with applicable laws and the articles and by-laws of the Company.
+(c)
+Subject to Subsection 5.4(a), the Company may, with the prior approval of the holders of Rights, at any time on or after the Separation Time, supplement, amend, vary, rescind or delete any of the provisions of this Agreement and the Rights (whether or not such action would materially adversely affect the interests of the holders of Rights generally), provided that no such amendment, variation or deletion shall be made to the provisions of Article 4 except with the written concurrence of the Rights Agent thereto.
+(d)
+Any approval of the holders of Rights shall be deemed to have been given if the action requiring such approval is authorized by the affirmative votes of the holders of Rights present or represented at and entitled to be voted at a meeting of the holders of Rights and representing a majority of the votes cast in respect thereof. For the purposes hereof, each outstanding Right (other than Rights which are void pursuant to the provisions hereof) shall be entitled to one vote, and the procedures for the calling, holding and conduct of the meeting shall be those, as nearly as may be, which are provided in the Company’s by-laws with respect to meetings of shareholders of the Company.
+(e)
+Any amendments made by the Company to this Agreement pursuant to Subsection 5.4(a) which are required to maintain the validity of this Agreement as a result of any change in any applicable legislation or regulations or rules thereunder shall:
+(i)
+if made before the Separation Time, be submitted to the shareholders of the Company at the next meeting of shareholders and the shareholders may, by the majority referred to in Subsection 5.4(b), confirm or reject such amendment;
+(ii)
+if made after the Separation Time, be submitted to the holders of Rights at a meeting to be called for on a date not later than immediately following the next meeting of shareholders of the Company and the holders of Rights may, by 
+
+38
+
+resolution passed by the majority referred to in Subsection 5.4(d), confirm or reject such amendment.
+Any such amendment shall be effective from the date of the resolution of the Board of Directors adopting such amendment, until it is confirmed or rejected or until it ceases to be effective (as described in the next sentence) and, where such amendment is confirmed, it continues in effect in the form so confirmed. If such amendment is rejected by the shareholders or the holders of Rights or is not submitted to the shareholders or holders of Rights as required, then such amendment shall cease to be effective from and after the termination of the meeting (or any adjournment of such meeting) at which it was rejected or to which it should have been but was not submitted or from and after the date of the meeting of holders of Rights that should have been but was not held, and no subsequent resolution of the Board of Directors to amend this Agreement to substantially the same effect shall be effective until confirmed by the shareholders or holders of Rights as the case may be.
+5.5
+Fractional Rights and Fractional Shares
+(a)
+The Company shall not be required to issue fractions of Rights or to distribute Rights Certificates which evidence fractional Rights. After the Separation Time, in lieu of issuing fractional Rights, the Company shall pay to the holders of record of the Rights Certificates (provided the Rights represented by such Rights Certificates are not void pursuant to the provisions of Subsection 3.1(b), at the time such fractional Rights would otherwise be issuable), an amount in cash equal to the fraction of the Market Price of one whole Right that the fraction of a Right that would otherwise be issuable is of one whole Right.
+(b)
+The Company shall not be required to issue fractions of Shares upon exercise of Rights or to distribute certificates which evidence fractional Shares. In lieu of issuing fractional Shares, the Company shall pay to the registered holders of Rights Certificates, at the time such Rights are exercised as herein provided, an amount in cash equal to the fraction of the Market Price of one Share that the fraction of a Share that would otherwise be issuable upon the exercise of such Right is of one whole Share at the date of such exercise.
+5.6
+Rights of Action
+Subject to the terms of this Agreement, all rights of action in respect of this Agreement, other than rights of action vested solely in the Rights Agent, are vested in the respective holders of the Rights. Any holder of Rights, without the consent of the Rights Agent or of the holder of any other Rights, may, on such holder’s own behalf and for such holder’s own benefit and the benefit of other holders of Rights enforce, and may institute and maintain any suit, action or proceeding against the Company to enforce such holder’s right to exercise such holder’s Rights, or Rights to which such holder is entitled, in the manner provided in such holder’s Rights Certificate and in this Agreement. Without limiting the foregoing or any remedies available to the holders of Rights, it is specifically acknowledged that the holders of Rights would not have an adequate remedy at law for any breach of this Agreement and will be entitled to specific performance of 
+
+39
+
+the obligations under, and injunctive relief against actual or threatened violations of the obligations of any Person subject to, this Agreement.
+5.7
+Regulatory Approvals
+Any obligation of the Company or action or event contemplated by this Agreement shall be subject to the receipt of any requisite approval or consent from any governmental or regulatory authority, including without limiting the generality of the foregoing, any necessary approvals of The Toronto Stock Exchange, or any other applicable stock exchange or market.
+5.8
+Notice of Proposed Actions
+In case the Company shall propose after the Separation Time and prior to the Expiration Time to effect the liquidation, dissolution or winding up of the Company or the sale of all or substantially all of the Company’s assets, then, in each such case, the Company shall give to each holder of a Right, in accordance with Section 5.9 hereof, a notice of such proposed action, which shall specify the date on which such Flip-in Event, liquidation, dissolution, or winding up is to take place, and such notice shall be so given at least 20 Business Days prior to the date of taking of such proposed action by the Company.
+5.9
+Notices
+(a)
+Notices or demands authorized or required by this Agreement to be given or made by the Rights Agent or by the holder of any Rights to or on the Company shall be sufficiently given or made if delivered, sent by registered or certified mail, postage prepaid (until another address is filed in writing with the Rights Agent), or sent by facsimile or other form of recorded electronic communication, charges prepaid and confirmed in writing, as follows:
+
+Asanko Gold Inc.
+15th Floor
+1040 West Georgia Street
+Vancouver, BC V6E 4H1
+
+Attention:
+President and CEO
+Facsimile:
+(604) 684-6365
+(b)
+Notices or demands authorized or required by this Agreement to be given or made by the Company or by the holder of any Rights to or on the Rights Agent shall be sufficiently given or made if delivered, sent by registered or certified mail, postage prepaid (until another address is filed in writing with the Company), or sent by facsimile or other form of recorded electronic communication, charges prepaid and confirmed in writing, as follows:
+
+40
+
+Computershare Investor Services Inc.
+3rd Floor
+510 Burrard Street
+Vancouver, BC V6C 3B9
+
+Attention:
+Manager, Client Services
+Facsimile:
+(604) 661-9401
+(c)
+Notices or demands authorized or required by this Agreement to be given or made by the Company or the Rights Agent to or on the holder of any Rights shall be sufficiently given or made if delivered or sent by first class mail, postage prepaid, addressed to such holder at the address of such holder as it appears upon the register of the Rights Agent or, prior to the Separation Time, on the register of the Company for its Common Shares. Any notice which is mailed or sent in the manner herein provided shall be deemed given, whether or not the holder receives the notice.
+(d)
+Any notice given or made in accordance with this Section 5.9 shall be deemed to have been given and to have been received on the day of delivery, if so delivered, on the third Business Day (excluding each day during which there exists any general interruption of postal service due to strike, lockout or other cause) following the mailing thereof, if so mailed, and on the day of telegraphing, telecopying or sending of the same by other means of recorded electronic communication (provided such sending is during the normal business hours of the addressee on a Business Day and if not, on the first Business Day thereafter). Each of the Company and the Rights Agent may from time to time change its address for notice by notice to the other given in the manner aforesaid.
+5.10
+Costs of Enforcement
+The Company agrees that if the Company fails to fulfil any of its obligations pursuant to this Agreement, then the Company will reimburse the holder of any Rights for the costs and expenses (including legal fees) incurred by such holder, on a solicitor and his own client basis, to enforce his rights pursuant to any Rights or this Agreement.
+5.11
+Successors
+All the covenants and provisions of this Agreement by or for the benefit of the Company or the Rights Agent shall bind and enure to the benefit of their respective successors and assigns hereunder.
+5.12
+Benefits of this Agreement
+Nothing in this Agreement shall be construed to give to any Person other than the Company, the Rights Agent and the holders of the Rights any legal or equitable right, remedy or claim under this Agreement; further, this Agreement shall be for the sole and exclusive benefit of the Company, the Rights Agent and the holders of the Rights.
+
+41
+
+5.13
+Governing Law
+This Agreement and each Right issued hereunder shall be deemed to be a contract made under the laws of the Province of British Columbia and for all purposes shall be governed by and construed in accordance with the laws of such Province applicable to contracts to be made and performed entirely within such Province.
+5.14
+Severability
+If any term or provision hereof or the application thereof to any circumstance shall, in any jurisdiction and to any extent, be invalid or unenforceable, such term or provision shall be ineffective only as to such jurisdiction and to the extent of such invalidity or unenforceability in such jurisdiction without invalidating or rendering unenforceable or ineffective the remaining terms and provisions hereof in such jurisdiction or the application of such term or provision in any other jurisdiction or to circumstances other than those as to which it is specifically held invalid or unenforceable.
+5.15
+Effective Date and Confirmation
+(a)
+Subject to Section 5.15(b), this Agreement:
+(i)
+shall be effective and in full force and effect in accordance with its terms from and after the Effective Date, and shall constitute the entire agreement between the parties pertaining to the subject matter hereof, as of such time on the Effective Date; and
+(ii)
+shall expire and be of no further force or effect from and after the earlier of (the “Expiration Time”): (i) the Termination Time, and (ii) the time at which the annual meeting of shareholders of the Company held in 2019 terminates.
+(b)
+Notwithstanding Section 5.15(a), if this Agreement is not confirmed by a resolution passed by a majority of the votes cast by Independent Shareholders who vote in respect of approval of this Agreement and the Rights Plan at a meeting of shareholders to be held not later than the Meeting Deadline Date, then this Plan and all outstanding Rights shall terminate and be null and void and of no further force and effect from and after the Close of Business on the Meeting Deadline Date.
+5.16
+Determinations and Actions by the Board of Directors
+All actions, calculations and determinations (including all omissions with respect to the foregoing) which are done or made or approved by the Board of Directors in connection herewith, in good faith, shall not subject the Board of Directors or any director of the Company to any liability to the holders of the Rights.
+5.17
+Compliance With Money Laundering Legislation
+The Rights Agent shall retain the right not to act and shall not be liable for refusing to act if, due to a lack of information or for any other reason whatsoever, the Rights Agent reasonably 
+
+42
+
+determines that such an act might cause it to be in non-compliance with any applicable anti-money laundering or anti-terrorist legislation, regulation or guideline. Further, should the Rights Agent reasonably determine at any time that its acting under this Agreement has resulted in it being in non-compliance with any applicable anti-money laundering or anti-terrorist legislation, regulation or guideline, then it shall have the right to resign on 10 days’ written notice to the Company, provided: (i) that the Rights Agent’s written notice shall describe the circumstances of such non-compliance; and (ii) that if such circumstances are rectified to the Rights Agent’s satisfaction within such 10-day period, then such resignation shall not be effective.
+5.18
+Privacy Provision
+The parties acknowledge that federal and/or provincial legislation that addresses the protection of individual’s personal information (collectively, “Privacy Laws”) may apply to obligations and activities under this Agreement. Despite any other provision of this Agreement, neither party will take or direct any action that would contravene, or cause the other to contravene, applicable Privacy Laws. The Company will, prior to transferring or causing to be transferred personal information to the Rights Agent, obtain and retain required consents of the relevant individuals to the collection, use and disclosure of their personal information, or will have determined that such consents either have previously been given upon which the parties can rely or are not required under applicable Privacy Laws.
+5.19
+Declaration as to Non-Canadian Holders
+If in the opinion of the Board of Directors (who may rely upon the advice of counsel) any action or event contemplated by this Agreement would require compliance by the Company with the securities laws or comparable legislation of a jurisdiction outside Canada or the United States, the Board of Directors acting in good faith shall take such actions as it may deem appropriate to ensure such compliance. In no event shall the Company or the Rights Agent be required to issue or deliver Rights or securities issuable on exercise of Rights to persons who are citizens, residents or nationals of any jurisdiction other than Canada or the United States, in which such issue or delivery would be unlawful without registration of the relevant Persons or securities for such purposes.
+5.20
+Time of the Essence
+Time shall be of the essence in this Agreement.
+5.21
+Execution in Counterparts
+This Agreement may be executed in any number of counterparts and each of such counterparts shall for all purposes be deemed to be an original, and all such counterparts shall together constitute one and the same instrument.
+5.22
+Force Majeure
+No party shall be liable to the other, or held in breach of this Agreement, if prevented, hindered, or delayed in the performance or observance of any provision contained herein by reason of act of God, riots, terrorism, acts of war, epidemics, governmental action or judicial order, 
+
+43
+
+earthquakes, or any other similar causes (including, but not limited to, mechanical, electronic or communication interruptions, disruptions or failures). Performance times under this Agreement shall be extended for a period of time equivalent to the time lost because of any delay that is excusable under this Section.
+IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be duly executed as of May 24, 2016.
+ASANKO GOLD INC.
+Per:
+//Peter Breese
+
+Authorized Signatory
+Per:
+//Greg McCunn
+
+Authorized Signatory
+COMPUTERSHARE INVESTOR SERVICES INC.
+Per:
+//Al Leomo
+
+Account Manager
+Per:
+//Karl Burgess
+
+Account Manager
+
+44
+
+ATTACHMENT 1
+ASANKO GOLD INC.
+SHAREHOLDER RIGHTS AGREEMENT (as defined below)
+[Form of Rights Certificate]
+
+Certificate No.
+Rights
+
+THE RIGHTS ARE SUBJECT TO REDEMPTION, AT THE OPTION OF THE TRUST, AND AMENDMENT OR TERMINATION ON THE TERMS SET FORTH IN THE SHAREHOLDER RIGHTS AGREEMENT (AS DEFINED BELOW). UNDER CERTAIN CIRCUMSTANCES (SPECIFIED IN SUBSECTION 3.1(b) OF THE SHAREHOLDER RIGHTS AGREEMENT (AS DEFINED BELOW)), RIGHTS BENEFICIALLY OWNED BY AN ACQUIRING PERSON OR CERTAIN RELATED PARTIES, OR TRANSFEREES OF AN ACQUIRING PERSON OR CERTAIN RELATED PARTIES, MAY BECOME VOID.
+Rights Certificate
+This certifies that , or registered assigns, is the registered holder of the number of Rights set forth above, each of which entitles the registered holder thereof, subject to the terms, provisions and conditions of the Shareholder Rights Plan Agreement, dated as of May 24, 2016 as the same may be amended or supplemented from time to time (the “Shareholder Rights Agreement”), between Asanko Gold Inc., a Company incorporated under the British Columbia Business Corporations Act, (the “Company”) and Computershare Investor Services Inc., a trust company incorporated under the laws of Canada (the “Rights Agent”) (which term shall include any successor Rights Agent under the Shareholder Rights Agreement), to purchase from the Company at any time after the Separation Time (as such term is defined in the Shareholder Rights Agreement) and prior to the Expiration Time (as such term is defined in the Shareholder Rights Agreement), one fully paid common share of the Company (a “Share”) at the Exercise Price referred to below, upon presentation and surrender of this Rights Certificate with the Form of Election to Exercise (in the form provided hereinafter) duly executed and submitted to the Rights Agent at its principal office in any of the cities of Vancouver and Toronto. Until adjustment thereof in certain events as provided in the Shareholder Rights Agreement, the Exercise Price shall be:
+(a)
+until the Separation Time, an amount equal to three times the Market Price (as such term is defined in the Shareholder Rights Agreement), from time to time, per Share; and
+(b)
+from and after the Separation Time, an amount equal to three times the Market Price, as at the Separation Time, per Share.
+In certain circumstances described in the Shareholder Rights Agreement, each Right evidenced hereby may entitle the registered holder thereof to purchase or receive assets, debt securities or 
+
+shares of the Company other than Shares, or more or less than one Share, all as provided in the Shareholder Rights Agreement.
+This Rights Certificate is subject to all of the terms and provisions of the Shareholder Rights Agreement, which terms and provisions are incorporated herein by reference and made a part hereof and to which Shareholder Rights Agreement reference is hereby made for a full description of the rights, limitations of rights, obligations, duties and immunities thereunder of the Rights Agent, the Company and the holders of the Rights Certificates. Copies of the Shareholder Rights Agreement are on file at the registered office of the Company and are available upon request.
+This Rights Certificate, with or without other Rights Certificates, upon surrender at any of the offices of the Rights Agent designated for such purpose, may be exchanged for another Rights Certificate or Rights Certificates of like tenor and date evidencing an aggregate number of Rights equal to the aggregate number of Rights evidenced by the Rights Certificate or Rights Certificates surrendered. If this Rights Certificate shall be exercised in part, the registered holder shall be entitled to receive, upon surrender hereof, another Rights Certificate or Rights Certificates for the number of whole Rights not exercised.
+Subject to the provisions of the Shareholder Rights Agreement, the Rights evidenced by this Rights Certificate may be, and under certain circumstances are required to be, redeemed by the Company at a redemption price of $0.00001 per Right.
+No fractional Shares will be issued upon the exercise of any Right or Rights evidenced hereby, but in lieu thereof a cash payment will be made, as provided in the Shareholder Rights Agreement.
+No holder of this Rights Certificate, as such, shall be entitled to vote or receive dividends or be deemed for any purpose the holder of Shares or of any other securities which may at any time be issuable upon the exercise hereof, nor shall anything contained in the Shareholder Rights Agreement or herein be construed to confer upon the holder hereof, as such, any of the Rights of a shareholder of the Company or any right to vote for the election of directors or upon any matter submitted to shareholders at any meeting thereof, or to give or withhold consent to any corporate action, or to receive notice of meetings or other actions affecting shareholders (except as provided in the Shareholder Rights Agreement), or to receive dividends or subscription rights, or otherwise, until the Rights evidenced by this Rights Certificate shall have been exercised as provided in the Shareholder Rights Agreement.
+
+2
+
+This Rights Certificate shall not be valid or obligatory for any purpose until it shall have been countersigned by the Rights Agent.
+WITNESS the facsimile signature of the proper officer of the Company and its corporate seal.
+
+Date:
+____________________________________
+ASANKO GOLD INC.
+Per:
+
+Authorized Signatory
+Per:
+
+Authorized Signatory
+
+Countersigned:
+COMPUTERSHARE INVESTOR SERVICES INC.
+Per:
+
+Account Manager
+Per:
+
+Account Manager
+
+3
+
+FORM OF ASSIGNMENT
+(To be executed by the registered holder if such holder desires to transfer the Rights Certificate.)
+FOR VALUE RECEIVED _____________________________________________ hereby sells, assigns and transfers unto 
+
+(Please print name and address of transferee.)
+the Rights represented by this Rights Certificate, together with all right, title and interest therein, and does hereby irrevocably constitute and appoint ,
+as attorney, to transfer the within Rights on the books of the Company, with full power of substitution.
+Dated: 
+Signature
+
+(Please print name of Signatory)
+Signature Guaranteed: (Signature must correspond to name as written upon the face of this Rights Certificate in every particular, without alteration or enlargement or any change whatsoever.)
+Signature must be guaranteed by a Canadian chartered bank or trust company, a member firm of a recognized stock exchange in Canada, a registered national securities exchange in the United States, a member of the Investment Dealers Association of Canada or National Association of Securities Dealers, Inc. or a commercial bank or trust company having an office or correspondent in Canada or the United States or a member of the Securities Transfer Association Medallion (Stamp) Program.
+
+CERTIFICATE
+(To be completed if true.)
+The undersigned party transferring Rights hereunder, hereby represents, for the benefit of all holders of Rights and Shares, that the Rights evidenced by this Rights Certificate are not, and, to the knowledge of the undersigned, have never been, Beneficially Owned by an Acquiring Person or an Affiliate or Associate thereof or a Person acting jointly or in concert with any of the foregoing. Capitalized terms shall have the meaning ascribed thereto in the Shareholder Rights Agreement.
+
+Signature
+
+(Please print name of Signatory)
+
+(To be attached to each Rights Certificate.)
+
+4
+
+FORM OF ELECTION TO EXERCISE
+(To be executed by the registered holder if such holder desires to exercise the Rights Certificate.) 
+TO:
+The undersigned hereby irrevocably elects to exercise _____________________ whole Rights represented by the attached Rights Certificate to purchase the Shares or other securities, if applicable, issuable upon the exercise of such Rights and requests that certificates for such securities be issued in the name of:
+
+(Name)
+
+(Address)
+
+(City and Province)
+
+Social Insurance Number or other taxpayer identification number.
+Dated: 
+Signature
+
+(Please print name of Signatory)
+If such number of Rights shall not be all the Rights evidenced by this Rights Certificate, a new Rights Certificate for the balance of such Rights shall be registered in the name of and delivered to:
+
+(Name)
+
+(Address)
+
+(City and Province)
+
+Social Insurance Number or other taxpayer identification number.
+Dated: 
+Signature
+
+(Please print name of Signatory)
+Signature Guaranteed: (Signature must correspond to name as written upon the face of this Rights Certificate in every particular, without alteration or enlargement or any change whatsoever.)
+Signature must be guaranteed by a Canadian chartered bank or trust company, a member firm of a recognized stock exchange in Canada a registered national securities exchange in the United States, a member of the Investment Dealers Association of Canada or National Association of Securities Dealers, Inc. or a commercial bank or trust company having an office or correspondent in Canada or the United States or a member of the Securities Transfer Association Medallion (Stamp) Program. 
+
+5
+
+CERTIFICATE
+(To be completed if true.)
+The undersigned party exercising Rights hereunder, hereby represents, for the benefit of all holders of Rights and Shares, that the Rights evidenced by this Rights Certificate are not, and, to the knowledge of the undersigned, have never been, Beneficially Owned by an Acquiring Person or an Affiliate or Associate thereof or a Person acting jointly or in concert with any of the foregoing. Capitalized terms shall have the meaning ascribed thereto in the Shareholder Rights Agreement.
+
+Signature
+
+(Please print name of Signatory)
+
+(To be attached to each Rights Certificate.)
+
+6
+
+NOTICE
+In the event the certification set forth above in the Forms of Assignment and Election to Exercise is not completed, the Company will deem the Beneficial Owner of the Rights evidenced by this Rights Certificate to be an Acquiring Person or an Affiliate or Associate thereof (as defined in the Shareholder Rights Agreement). No Rights Certificates shall be issued in exchange for a Rights Certificate owned or deemed to have been owned by an Acquiring Person or an Affiliate or Associate thereof, or by a Person acting jointly or in concert with an Acquiring Person or an Affiliate or Associate thereof.
+
+7

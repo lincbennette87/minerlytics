@@ -1,0 +1,50 @@
+{
+  "ticker": "AEM",
+  "cik": "0000002809",
+  "form": "6-K",
+  "filingDate": "2018-03-23",
+  "accessionNumber": "0001104659-18-019795",
+  "primaryDocument": "a18-8950_16k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/2809/000110465918019795/0001104659-18-019795-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EX-99.1",
+    "filename": "a18-8950_1ex99d1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/2809/000110465918019795/a18-8950_1ex99d1.htm"
+  },
+  "extractedAt": "2026-06-11T16:49:21.536Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2809/000110465918019795/a18-8950_1ex99d1.htm",
+    "contentType": "html",
+    "title": "",
+    "headings": [
+      "Exhibit 99.1",
+      "For further information:",
+      "Investor Relations (416) 947-1212",
+      "AGNICO EAGLE COMPLETES NI 43-101 TECHNICAL REPORT ON",
+      "THE MEADOWBANK GOLD COMPLEX IN NUNAVUT",
+      "Toronto (March 22, 2018) —",
+      "Agnico Eagle Mines Limited (NYSE:AEM, TSX:AEM)",
+      "Investor Relations",
+      "About Agnico Eagle"
+    ],
+    "text": "EX-99.1\n2\na18-8950_1ex99d1.htm\nEX-99.1\n\n \n\nExhibit 99.1\n \n\n \nFor further information:\nInvestor Relations (416) 947-1212\n \nAGNICO EAGLE COMPLETES NI 43-101 TECHNICAL REPORT ON \nTHE MEADOWBANK GOLD COMPLEX IN NUNAVUT\n \nToronto (March 22, 2018) — Agnico Eagle Mines Limited (NYSE:AEM, TSX:AEM) (“Agnico Eagle”) has completed and filed with Canadian securities regulators a National Instrument 43-101 technical report on the mineral resources and mineral reserves at the Meadowbank Gold Complex, including the Amaruq Satellite Project. The technical report has an effective date of February 14, 2018 and is available on www.sedar.com under Agnico Eagle’s profile.\n \nInvestor Relations\n \nAgnico Eagle Mines Limited\n145 King Street East, Suite 400\nToronto, Ontario, M5C 2Y7\n\nTelephone: \n\n416-947-1212 \n\nFax: \n\n416-367-4681 \n \nAbout Agnico Eagle\n \nAgnico Eagle is a senior Canadian gold mining company that has produced precious metals since 1957. Its eight mines are located in Canada, Finland and Mexico, with exploration and development activities in each of these countries as well as in the United States and Sweden. Agnico Eagle and its shareholders have full exposure to gold prices due to its long-standing policy of no forward gold sales. Agnico Eagle has declared a cash dividend every year since 1983.",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 2,
+        "rows": [
+          [
+            "Telephone:",
+            "416-947-1212"
+          ],
+          [
+            "Fax:",
+            "416-367-4681"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>a18-8950_1ex99d1.htm\n<DESCRIPTION>EX-99.1\n<TEXT>\n\n\n<html>\n<head>\n\n\n\n\n  </head>\n<body link=blue lang=\"EN-US\">\n<div style=\"font-family:Times New Roman;\">\n<p align=\"right\" style=\"margin:0in 0in .0001pt;text-align:right;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">Exhibit 99.1<a name=\"Exhibit99_1_091224\"></a></font></b></p>\n<p align=\"right\" style=\"margin:0in 0in .0001pt;text-align:right;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">&nbsp;</font></b></p>\n<p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><font size=\"2\" face=\"Times New Roman\"><img width=\"720\" height=\"148\" src=\"g89501mmi001.jpg\"></font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">For further information:</font></b></p>\n<p style=\"margin:0in 0in .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">Investor Relations (416) 947-1212</font></b></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">AGNICO EAGLE COMPLETES NI 43-101 TECHNICAL REPORT ON </font></b></p>\n<p align=\"center\" style=\"margin:0in 0in .0001pt;text-align:center;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">THE MEADOWBANK GOLD COMPLEX IN NUNAVUT</font></b></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"font-size:10.0pt;margin:0in 0in .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">Toronto (March&nbsp;22, 2018) &#151;</font></b><b> Agnico Eagle Mines Limited (NYSE:AEM, TSX:AEM)</b> (&#147;Agnico Eagle&#148;) has completed and filed with Canadian securities regulators a National Instrument 43-101 technical report on the mineral resources and mineral reserves at the Meadowbank Gold Complex, including the Amaruq Satellite Project.&#160; The technical report has an effective date of February&nbsp;14, 2018 and is available on www.sedar.com under Agnico Eagle&#146;s profile.</p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">Investor Relations</font></b></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">Agnico Eagle Mines Limited</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">145 King Street East, Suite&nbsp;400</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">Toronto, Ontario, M5C 2Y7</font></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"border-collapse:collapse;\">\n<tr>\n<td width=\"10%\" valign=\"top\" style=\"padding:0in 0in 0in 0in;width:10.84%;\">\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">Telephone:</font></p>    </td>\n<td width=\"89%\" valign=\"top\" style=\"padding:0in 0in 0in 0in;width:89.16%;\">\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">416-947-1212</font></p>    </td>   </tr>\n<tr>\n<td width=\"10%\" valign=\"top\" style=\"padding:0in 0in 0in 0in;width:10.84%;\">\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">Fax:</font></p>    </td>\n<td width=\"89%\" valign=\"top\" style=\"padding:0in 0in 0in 0in;width:89.16%;\">\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">416-367-4681</font></p>    </td>   </tr>  </table>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><b><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;font-weight:bold;\">About Agnico Eagle</font></b></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">Agnico Eagle is a senior Canadian gold mining company that has produced precious metals since 1957.&#160; Its eight mines are located in Canada, Finland and Mexico, with exploration and development activities in each of these countries as well as in the United States and Sweden.&#160; Agnico Eagle and its shareholders have full exposure to gold prices due to its long-standing policy of no forward gold sales.&#160; Agnico Eagle has declared a cash dividend every year since 1983.</font></p>\n<p style=\"margin:0in 0in .0001pt;\"><font size=\"2\" face=\"Times New Roman\" style=\"font-size:10.0pt;\">&nbsp;</font></p>\n<div style=\"margin:0in 0in .0001pt;\"><hr size=\"3\" width=\"100%\" noshade align=\"left\" style=\"color:#010101;\"></div>\n</div>\n<!-- SEQ.=1,FOLIO='',FILE='C:\\JMS\\109929\\18-8950-1\\task8802255\\8950-1-mm.htm',USER='109929',CD='Mar 23 21:46 2018' -->\n\n</body>\n</html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

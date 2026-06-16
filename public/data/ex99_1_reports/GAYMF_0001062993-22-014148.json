@@ -1,0 +1,158 @@
+{
+  "ticker": "GAYMF",
+  "cik": "0001377757",
+  "form": "6-K",
+  "filingDate": "2022-06-02",
+  "accessionNumber": "0001062993-22-014148",
+  "primaryDocument": "form6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000106299322014148/0001062993-22-014148-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1377757/000106299322014148/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-06-11T16:57:14.848Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000106299322014148/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Galiano Gold Inc.: Exhibit 99.1 - Filed by newsfilecorp.com",
+    "headings": [
+      "Galiano Gold Inc.: Exhibit 99.1 - Filed by newsfilecorp.com",
+      "Vancouver, British Columbia, June 2, 2022 - Galiano Gold Inc. (\"Galiano\" or the \"Company\") (TSX, NYSE American: AKG)",
+      "Election of Directors",
+      "Director Name",
+      "Votes For",
+      "% Votes For",
+      "Votes Withheld",
+      "% VotesWithheld",
+      "Appointment of Auditors - KPMG LLP",
+      "% Votes Withheld",
+      "Advisory Vote on Executive Compensation",
+      "Votes Against",
+      "% Votes Against",
+      "Enquiries:",
+      "About Galiano Gold Inc."
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nEXHIBIT 99.1\n\n Galiano Gold Inc.: Exhibit 99.1 - Filed by newsfilecorp.com\n\n \n \n \n \n GALIANO GOLD ANNOUNCES ANNUAL GENERAL MEETING VOTING RESULTS\n Vancouver, British Columbia, June 2, 2022 - Galiano Gold Inc. (\"Galiano\" or the \"Company\") (TSX, NYSE American: AKG) announces today that all the resolutions put to shareholders at the Company's Annual General Meeting (the \"Meeting\") held on June 2, 2022 were duly passed. The results for each of the matters voted upon at the Meeting are set out below:\n Election of Directors\n The seven nominees listed in the Company's Management Information Circular dated April 27, 2022, were elected at the Meeting as directors of Galiano.\n \n \n Director Name\n Votes For\n % Votes For\n Votes Withheld\n % VotesWithheld\n \n \n Matt Badylak\n 141,177,893\n 98.95%\n 1,505,005\n 1.05%\n \n \n Paul N. Wright\n 141,401,816\n 99.10%\n 1,281,082\n 0.90%\n \n \n Gordon Fretwell\n 114,943,776\n 80.56%\n 27,739,122\n 19.44%\n \n \n Michael Price\n 141,305,251\n 99.03%\n 1,377,647\n 0.97%\n \n \n Judith Mosely\n 141,565,894\n 99.22%\n 1,117,004\n 0.78%\n \n \n Dawn Moss\n 141,175,244\n 98.94%\n 1,507,654\n 1.06%\n \n \n Greg Martin\n 141,743,829\n 99.34%\n 939,069\n 0.66%\n \n \n Appointment of Auditors - KPMG LLP\n KPMG LLP was re-appointed as auditor of the Company for the ensuing year and the directors were authorized to fix the remuneration paid to KPMG LLP.\n \n \n Votes For\n % Votes For\n Votes Withheld\n % Votes Withheld\n \n \n 156,357,340\n 99.64%\n 569,283\n 0.36%\n \n \n Advisory Vote on Executive Compensation\n The non-binding advisory resolution accepting the Company's approach to executive compensation was approved.\n \n \n Votes For\n % Votes For\n Votes Against\n % Votes Against\n \n \n 119,300,887\n 98.83%\n 1,410,354\n 1.17%\n \n \n A report on all matters voted on at the meeting has been filed on SEDAR. \n \n \n \n 1\n \n \n \n \n \n \n \n Enquiries:\n Todd Romaine\n EVP Sustainability and Investor Relations\n Toll-Free (N. America): 1-855-246-7341\n Telephone: 1-778-729-0608\n Email: todd.romaine@galianogold.com\n About Galiano Gold Inc.\n Galiano is focused on creating a sustainable business capable of long-term value creation for its stakeholders through organic production growth, exploration and disciplined deployment of its financial resources. The company currently operates and manages the Asanko Gold Mine, located in Ghana, West Africa which is jointly owned with Gold Fields Ltd. The Company is strongly committed to the highest standards for environmental management, social responsibility, and health and safety for its employees and neighbouring communities. For more information, please visit www.galianogold.com.\n Neither Toronto Stock Exchange nor the Investment Industry Regulatory Organization of Canada accepts responsibility for the adequacy or accuracy of this release.\n Source: Galiano Gold Inc.\n \n \n \n 2",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 8,
+        "rows": [
+          [
+            "Director Name",
+            "Votes For",
+            "% Votes For",
+            "Votes Withheld",
+            "% VotesWithheld"
+          ],
+          [
+            "Matt Badylak",
+            "141,177,893",
+            "98.95%",
+            "1,505,005",
+            "1.05%"
+          ],
+          [
+            "Paul N. Wright",
+            "141,401,816",
+            "99.10%",
+            "1,281,082",
+            "0.90%"
+          ],
+          [
+            "Gordon Fretwell",
+            "114,943,776",
+            "80.56%",
+            "27,739,122",
+            "19.44%"
+          ],
+          [
+            "Michael Price",
+            "141,305,251",
+            "99.03%",
+            "1,377,647",
+            "0.97%"
+          ],
+          [
+            "Judith Mosely",
+            "141,565,894",
+            "99.22%",
+            "1,117,004",
+            "0.78%"
+          ],
+          [
+            "Dawn Moss",
+            "141,175,244",
+            "98.94%",
+            "1,507,654",
+            "1.06%"
+          ],
+          [
+            "Greg Martin",
+            "141,743,829",
+            "99.34%",
+            "939,069",
+            "0.66%"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 2,
+        "rows": [
+          [
+            "Votes For",
+            "% Votes For",
+            "Votes Withheld",
+            "% Votes Withheld"
+          ],
+          [
+            "156,357,340",
+            "99.64%",
+            "569,283",
+            "0.36%"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 2,
+        "rows": [
+          [
+            "Votes For",
+            "% Votes For",
+            "Votes Against",
+            "% Votes Against"
+          ],
+          [
+            "119,300,887",
+            "98.83%",
+            "1,410,354",
+            "1.17%"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 3,
+        "rowCount": 1,
+        "rows": [
+          [
+            "1"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 4,
+        "rowCount": 1,
+        "rows": [
+          [
+            "2"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<html>\n\n<head>\n    <title>Galiano Gold Inc.: Exhibit 99.1 - Filed by newsfilecorp.com</title>\n</head>\n\n<body style=\"font-size:10pt; font-family:'Times New Roman';\">\n    <hr width=\"100%\" size=\"3\" color=\"black\" noshade=\"noshade\"><a name=\"page_1\"></a>\n    <div id=\"header_page_1\">\n        <p style=\"text-align: center;\"><img src=\"exhibit99-1xu001.jpg\"></p>\n    </div>\n    <p style=\"text-align: center;\"><font style=\"color: #917837; font-size: 12pt;\">GALIANO GOLD ANNOUNCES ANNUAL GENERAL MEETING VOTING RESULTS</font></p>\n    <p style=\"text-align: justify;\"><b>Vancouver, British Columbia, June 2, 2022 - Galiano Gold Inc. (\"Galiano\" or the \"Company\") (TSX, NYSE American: AKG) </b>announces today that all the resolutions put to shareholders at the Company's Annual General Meeting (the \"Meeting\") held on June 2, 2022 were duly passed. The results for each of the matters voted upon at the Meeting are set out below:</p>\n    <p style=\"text-align: justify;\"><b>Election of Directors</b></p>\n    <p style=\"text-align: justify;\">The seven nominees listed in the Company's Management Information Circular dated April 27, 2022, were elected at the Meeting as directors of Galiano.</p>\n    <table style=\"width: 100%; border-collapse: collapse; font-size: 10pt;\" cellspacing=\"0\" cellpadding=\"0\">\n        <tr>\n            <td style=\"width: 16%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); white-space: nowrap; text-align: justify;\"><b>Director Name</b></td>\n            <td style=\"width: 21%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); white-space: nowrap; text-align: right;\"><b>Votes For</b></td>\n            <td style=\"width: 15%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); white-space: nowrap; text-align: right;\"><b>% Votes For</b></td>\n            <td style=\"width: 19%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); white-space: nowrap; text-align: right;\"><b>Votes Withheld</b></td>\n            <td style=\"width: 15%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); white-space: nowrap; text-align: right;\"><b>% Votes<br>Withheld</b></td>\n        </tr>\n        <tr>\n            <td style=\"width: 16%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); text-align: justify; background-color: rgb(230, 239, 255);\">Matt Badylak</td>\n            <td style=\"width: 21%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); text-align: right; background-color: rgb(230, 239, 255);\">141,177,893</td>\n            <td style=\"width: 15%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); text-align: right; background-color: rgb(230, 239, 255);\">98.95%</td>\n            <td style=\"width: 19%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); text-align: right; background-color: rgb(230, 239, 255);\">1,505,005</td>\n            <td style=\"width: 15%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); text-align: right; background-color: rgb(230, 239, 255);\">1.05%</td>\n        </tr>\n        <tr>\n            <td style=\"width: 16%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: justify;\">Paul N. Wright</td>\n            <td style=\"width: 21%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right;\">141,401,816</td>\n            <td style=\"width: 15%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right;\">99.10%</td>\n            <td style=\"width: 19%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right;\">1,281,082</td>\n            <td style=\"width: 15%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right;\">0.90%</td>\n        </tr>\n        <tr>\n            <td style=\"width: 16%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: justify; background-color: rgb(230, 239, 255);\">Gordon Fretwell</td>\n            <td style=\"width: 21%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right; background-color: rgb(230, 239, 255);\">114,943,776</td>\n            <td style=\"width: 15%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right; background-color: rgb(230, 239, 255);\">80.56%</td>\n            <td style=\"width: 19%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right; background-color: rgb(230, 239, 255);\">27,739,122</td>\n            <td style=\"width: 15%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right; background-color: rgb(230, 239, 255);\">19.44%</td>\n        </tr>\n        <tr>\n            <td style=\"width: 16%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: justify;\">Michael Price</td>\n            <td style=\"width: 21%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right;\">141,305,251</td>\n            <td style=\"width: 15%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right;\">99.03%</td>\n            <td style=\"width: 19%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right;\">1,377,647</td>\n            <td style=\"width: 15%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right;\">0.97%</td>\n        </tr>\n        <tr>\n            <td style=\"width: 16%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: justify; background-color: rgb(230, 239, 255);\">Judith Mosely</td>\n            <td style=\"width: 21%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right; background-color: rgb(230, 239, 255);\">141,565,894</td>\n            <td style=\"width: 15%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right; background-color: rgb(230, 239, 255);\">99.22%</td>\n            <td style=\"width: 19%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right; background-color: rgb(230, 239, 255);\">1,117,004</td>\n            <td style=\"width: 15%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right; background-color: rgb(230, 239, 255);\">0.78%</td>\n        </tr>\n        <tr>\n            <td style=\"width: 16%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: justify;\">Dawn Moss</td>\n            <td style=\"width: 21%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right;\">141,175,244</td>\n            <td style=\"width: 15%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right;\">98.94%</td>\n            <td style=\"width: 19%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right;\">1,507,654</td>\n            <td style=\"width: 15%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right;\">1.06%</td>\n        </tr>\n        <tr>\n            <td style=\"width: 16%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: justify; background-color: rgb(230, 239, 255);\">Greg Martin</td>\n            <td style=\"width: 21%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right; background-color: rgb(230, 239, 255);\">141,743,829</td>\n            <td style=\"width: 15%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right; background-color: rgb(230, 239, 255);\">99.34%</td>\n            <td style=\"width: 19%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right; background-color: rgb(230, 239, 255);\">939,069</td>\n            <td style=\"width: 15%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; text-align: right; background-color: rgb(230, 239, 255);\">0.66%</td>\n        </tr>\n    </table>\n    <p style=\"text-align: justify;\"><b>Appointment of Auditors - KPMG LLP</b></p>\n    <p style=\"text-align: justify;\">KPMG LLP was re-appointed as auditor of the Company for the ensuing year and the directors were authorized to fix the remuneration paid to KPMG LLP.</p>\n    <table style=\"border-collapse: collapse; font-size: 10pt; width: 100%;\" cellspacing=\"0\" cellpadding=\"0\">\n        <tr>\n            <td style=\"width: 24%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); white-space: nowrap; text-align: center;\"><b>Votes For</b></td>\n            <td style=\"width: 25%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); white-space: nowrap; text-align: center;\"><b>% Votes For</b></td>\n            <td style=\"width: 25%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); white-space: nowrap; text-align: center;\"><b>Votes Withheld</b></td>\n            <td style=\"width: 25%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); white-space: nowrap; text-align: center;\"><b>% Votes Withheld</b></td>\n        </tr>\n        <tr>\n            <td style=\"width: 24%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); text-align: center; background-color: rgb(230, 239, 255);\">156,357,340</td>\n            <td style=\"width: 25%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); text-align: center; background-color: rgb(230, 239, 255);\">99.64%</td>\n            <td style=\"width: 25%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); text-align: center; background-color: rgb(230, 239, 255);\">569,283</td>\n            <td style=\"width: 25%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); text-align: center; background-color: rgb(230, 239, 255);\">0.36%</td>\n        </tr>\n    </table>\n    <p style=\"text-align: justify;\"><b>Advisory Vote on Executive Compensation</b></p>\n    <p style=\"text-align: justify;\">The non-binding advisory resolution accepting the Company's approach to executive compensation was approved.</p>\n    <table style=\"border-collapse: collapse; font-size: 10pt; width: 100%;\" cellspacing=\"0\" cellpadding=\"0\">\n        <tr>\n            <td style=\"width: 24%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); white-space: nowrap; text-align: center;\"><b>Votes For</b></td>\n            <td style=\"width: 24%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); white-space: nowrap; text-align: center;\"><b>% Votes For</b></td>\n            <td style=\"width: 25%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); white-space: nowrap; text-align: center;\"><b>Votes Against</b></td>\n            <td style=\"width: 25%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); white-space: nowrap; text-align: center;\"><b>% Votes Against</b></td>\n        </tr>\n        <tr>\n            <td style=\"width: 24%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); text-align: center; background-color: rgb(230, 239, 255);\">119,300,887</td>\n            <td style=\"width: 24%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); text-align: center; background-color: rgb(230, 239, 255);\">98.83%</td>\n            <td style=\"width: 25%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); text-align: center; background-color: rgb(230, 239, 255);\">1,410,354</td>\n            <td style=\"width: 25%; padding-right: 5.4pt; padding-left: 5.4pt; vertical-align: top; border-top: 0.75pt solid rgb(0, 0, 0); border-bottom: 0.75pt solid rgb(0, 0, 0); text-align: center; background-color: rgb(230, 239, 255);\">1.17%</td>\n        </tr>\n    </table>\n    <p style=\"text-align: justify;\">A report on all matters voted on at the meeting has been filed on SEDAR.&#160;</p>\n    <div id=\"footer_page_1\">\n        <table style=\"width: 100%; border-collapse: collapse; font-size: 10pt;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n            <tr>\n                <td style=\"width: 50%; text-align: right; vertical-align: top;\"><font style=\"color: #917837; font-size: 10pt;\">1</font></td>\n                <td style=\"width: 5%; vertical-align: middle;\">\n                    <p style=\"text-align: right;\"><img src=\"exhibit99-1xu003.jpg\"></p>\n                </td>\n            </tr>\n        </table>\n    </div>\n    <hr style=\"page-break-after: always; text-align: center;\" width=\"100%\" size=\"5\" color=\"black\" noshade=\"noshade\"><a name=\"page_2\"></a>\n    <p style=\"text-align: justify;\"><b>Enquiries:</b></p>\n    <p style=\"margin-bottom: 0pt; text-align: justify;\">Todd Romaine</p>\n    <p style=\"margin-top: 0pt; margin-bottom: 0pt; text-align: justify;\">EVP Sustainability and Investor Relations</p>\n    <p style=\"margin-top: 0pt; margin-bottom: 0pt; text-align: justify;\">Toll-Free (N. America): 1-855-246-7341</p>\n    <p style=\"margin-top: 0pt; margin-bottom: 0pt; text-align: justify;\">Telephone: 1-778-729-0608</p>\n    <p style=\"margin-top: 0pt; text-align: justify;\">Email: todd.romaine@galianogold.com</p>\n    <p style=\"text-align: justify; margin-bottom: 0pt; margin-top: 0pt;\"><b>About Galiano Gold Inc.</b></p>\n    <p style=\"text-align: justify; margin-bottom: 0pt; margin-top: 0pt;\">Galiano is focused on creating<b> </b>a sustainable business capable of long-term value creation for its stakeholders through organic production growth, exploration and disciplined deployment of its financial resources. The company currently operates and manages the Asanko Gold Mine, located in Ghana, West Africa which is jointly owned with Gold Fields Ltd.&#160; The Company is strongly committed to the highest standards for environmental management, social responsibility, and health and safety for its employees and neighbouring communities. For more information, please visit <font style=\"color: #0000d4;\"><u>www.galianogold.com</u></font>.</p>\n    <p style=\"text-align: justify;\"><i>Neither Toronto Stock Exchange nor the Investment Industry Regulatory Organization of Canada accepts responsibility for the adequacy or accuracy of this release.</i></p>\n    <p style=\"text-align: justify;\">Source: Galiano Gold Inc.</p>\n    <div id=\"footer_page_2\">\n        <table style=\"width: 100%; border-collapse: collapse; font-size: 10pt;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n            <tr>\n                <td style=\"width: 50%; text-align: right; vertical-align: top;\"><font style=\"color: #917837; font-size: 10pt;\">2</font></td>\n                <td style=\"width: 5%; vertical-align: middle;\">\n                    <p style=\"text-align: right;\"><img src=\"exhibit99-1xu003.jpg\"></p>\n                </td>\n            </tr>\n        </table>\n    </div>\n    <hr width=\"100%\" size=\"5\" color=\"black\" noshade=\"noshade\">\n</body>\n\n</html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

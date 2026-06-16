@@ -1,0 +1,91 @@
+{
+  "ticker": "ORLA",
+  "cik": "0001680056",
+  "form": "6-K",
+  "filingDate": "2025-05-19",
+  "accessionNumber": "0001176256-25-000041",
+  "primaryDocument": "orlamining6kmpm.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1680056/000117625625000041/0001176256-25-000041-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "NOTICE OF MEETING",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1680056/000117625625000041/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-06-11T17:09:45.946Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1680056/000117625625000041/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Exhibit 99.1",
+    "headings": [
+      "Exhibit 99.1",
+      "ORLA MINING LTD.",
+      "NOTICE OF ANNUAL GENERAL AND SPECIAL MEETING OF SHAREHOLDERS",
+      "NOTICE",
+      "Meeting",
+      "Shareholders",
+      "Company",
+      "Circular",
+      "Conference Call (Participant or Guest):",
+      "Webcast (Guest Only):",
+      "Any person, including registered Shareholders and duly appointed proxyholders, who participates at the Meeting via webcast will not be able to vote on matters put before the Meeting, ask questions, or otherwise participate at the Meeting and must vote in advance of the Meeting by using the voting instruction form or form of proxy mailed to them with the Circular.",
+      "Dated"
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nNOTICE OF MEETING\n\nExhibit 99.1\n\nExhibit 99.1\n\nORLA MINING LTD.\n\nNOTICE OF ANNUAL GENERAL AND SPECIAL MEETING OF SHAREHOLDERS\n\nNOTICE is hereby given that the annual general and special meeting (the “Meeting”) of the holders of common shares (“Shareholders”) of Orla Mining Ltd. (the “Company”) will be held via conference call on the 24th day of June, 2025, at 8:00 a.m. (Vancouver time) for the following purposes:\n\n \n\n \n\n (a)\n\n to receive the audited consolidated financial statements of the Company as at and for the financial year ended December 31, 2024, together with the report of the auditor thereon;\n\n \n\n \n\n (b)\n\n to elect directors of the Company for the ensuing year;\n\n \n\n \n\n (c)\n\n to appoint Deloitte LLP as auditor of the Company for the ensuing year and authorize the board of directors to fix the remuneration of the auditor;\n\n \n\n \n\n (d)\n\n to consider a non-binding advisory resolution on the Company’s approach to executive compensation, as more fully described in the accompanying management information circular (the “Circular”)\n\n \n\n \n\n (e)\n\n to consider, and if deemed advisable, to pass, with or without variation, an ordinary resolution to approve certain amendments to the Company’s stock option plan, as more particularly described in the accompanying Circular;\n\n \n\n \n\n (f)\n\n to consider, and if deemed advisable, to pass, with or without variation, an ordinary resolution to approve certain amendments to the Company’s restricted share unit plan, as more particularly described in the accompanying Circular; and\n\n \n\n \n\n (g)\n\n to transact such other business as may properly come before the Meeting or any adjournment or postponement thereof\n\nThe Meeting will be held in a virtual only format, which will be conducted via conference call and available for guests via live webcast, as follows:\n\nConference Call (Participant or Guest): 877-407-6184 (toll free)\nWebcast (Guest Only): https://event.choruscall.com/mediaframe/webcast.html?webcastid=VgR0vw57\n\nOnly registered Shareholders and duly appointed proxyholders will be able to vote in real time and ask questions at the Meeting via conference call, provided they are connected to the call and comply with all of the requirements set out in the Circular. Once dialed in, instructions will be provided as to how Shareholders entitled to vote at the Meeting may participate, vote and ask questions at the Meeting. Any person, including registered Shareholders and duly appointed proxyholders, who participates at the Meeting via webcast will not be able to vote on matters put before the Meeting, ask questions, or otherwise participate at the Meeting and must vote in advance of the Meeting by using the voting instruction form or form of proxy mailed to them with the Circular. Non-registered Shareholders (being Shareholders who beneficially own shares that are registered in the name of an intermediary such as a bank, trust company, securities broker or other nominee, or in the name of a depository of which the intermediary is a participant) who have not duly appointed themselves as proxyholder will be able to attend the Meeting via conference call or webcast as guests, but guests will not be able to vote, ask questions or otherwise participate at the Meeting.\n\nThe specific details of the foregoing matters to be put before the Meeting, as well as further information with respect to voting by proxy and detailed instructions about how to participate at the virtual Meeting are set forth in the Circular which accompanies, and is deemed to form a part of, this Notice of Meeting.\n\n \n\n Page 6\n\nDated May 9, 2025.\n\nBy Order of the Board of Directors\n‘Jason Simpson’\nJason Simpson\nPresident, Chief Executive Officer and Director\n\n \n\n Page 7",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 7,
+        "rows": [
+          [
+            "(a)",
+            "to receive the audited consolidated financial statements of the Company as at and for the financial year ended December 31, 2024, together with the report of the auditor thereon;"
+          ],
+          [
+            "(b)",
+            "to elect directors of the Company for the ensuing year;"
+          ],
+          [
+            "(c)",
+            "to appoint Deloitte LLP as auditor of the Company for the ensuing year and authorize the board of directors to fix the remuneration of the auditor;"
+          ],
+          [
+            "(d)",
+            "to consider a non-binding advisory resolution on the Company’s approach to executive compensation, as more fully described in the accompanying management information circular (the “Circular”)"
+          ],
+          [
+            "(e)",
+            "to consider, and if deemed advisable, to pass, with or without variation, an ordinary resolution to approve certain amendments to the Company’s stock option plan, as more particularly described in the accompanying Circular;"
+          ],
+          [
+            "(f)",
+            "to consider, and if deemed advisable, to pass, with or without variation, an ordinary resolution to approve certain amendments to the Company’s restricted share unit plan, as more particularly described in the accompanying Circular; and"
+          ],
+          [
+            "(g)",
+            "to transact such other business as may properly come before the Meeting or any adjournment or postponement thereof"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 1,
+        "rows": [
+          [
+            "Page 6"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rowCount": 1,
+        "rows": [
+          [
+            "Page 7"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>NOTICE OF MEETING\n<TEXT>\n<html>\n<head>\n<title>Exhibit 99.1</title>\n</head>\n\n<BODY bgcolor=\"#ffffff\" style=\"font-family: 'Times New Roman';font-size: 10pt;\">\n\n<A name=\"page_1\"></A>\n\n<a name=\"_bclPageBorder1\"></a><DIV style=\"PADDING-LEFT: 0%; PADDING-RIGHT: 0%\">\n\n<HR SIZE=3 noShade>\n\n<P style=\"MARGIN-TOP: 0px\" align=right><B>Exhibit 99.1</B></P>\n\n<P align=center><B>ORLA MINING LTD.</B></P>\n\n<P align=center><B><U>NOTICE OF ANNUAL GENERAL AND SPECIAL MEETING OF SHAREHOLDERS</U></B></P>\n\n<P align=justify><B>NOTICE</B> is hereby given that the annual general and special meeting (the &#8220;<B>Meeting</B>&#8221;) of the holders of common shares (&#8220;<B>Shareholders</B>&#8221;) of Orla Mining Ltd. (the &#8220;<B>Company</B>&#8221;) will be held via conference call on the 24th day of June, 2025, at 8:00 a.m. (Vancouver time) for the following purposes:</P>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n<TR>\n\n   <TD width=\"4%\"></TD>\n\n   <TD width=\"96%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD valign=top width=\"4%\">(a)</TD>\n\n   <TD width=\"96%\">to receive the audited consolidated financial statements of the Company as at and for the financial year ended December 31, 2024, together with the report of the auditor thereon;</TD></TR>\n\n<TR vAlign=bottom>\n\n\t<TD width=\"4%\">&nbsp;</TD>\n\n\t<TD width=\"96%\">&nbsp;</TD></TR>\n\n<TR vAlign=bottom>\n\n\t<TD valign=top width=\"4%\">(b)</TD>\n\n\t<TD width=\"96%\">to elect directors of the Company for the ensuing year;</TD></TR>\n\n<TR vAlign=bottom>\n\n\t<TD width=\"4%\">&nbsp;</TD>\n\n\t<TD width=\"96%\">&nbsp;</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD valign=top width=\"4%\">(c)</TD>\n\n   <TD width=\"96%\">to appoint Deloitte LLP as auditor of the Company for the ensuing year and authorize the board of directors to fix the remuneration of the auditor;</TD></TR>\n\n<TR vAlign=bottom>\n\n\t<TD width=\"4%\">&nbsp;</TD>\n\n\t<TD width=\"96%\">&nbsp;</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD valign=top width=\"4%\">(d)</TD>\n\n   <TD width=\"96%\">to consider a non-binding advisory resolution on the Company&#8217;s approach to executive compensation, as more fully described in the accompanying management information circular (the  &#8220;<B>Circular</B>&#8221;)</TD></TR>\n\n<TR vAlign=bottom>\n\n\t<TD width=\"4%\">&nbsp;</TD>\n\n\t<TD width=\"96%\">&nbsp;</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD valign=top width=\"4%\">(e)</TD>\n\n   <TD width=\"96%\">to consider, and if deemed advisable, to pass, with or without variation, an ordinary resolution to approve certain amendments to the Company&#8217;s stock option plan, as more particularly described in the accompanying Circular;</TD></TR>\n\n<TR vAlign=bottom>\n\n\t<TD width=\"4%\">&nbsp;</TD>\n\n\t<TD width=\"96%\">&nbsp;</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD valign=top width=\"4%\">(f)</TD>\n\n   <TD width=\"96%\">to consider, and if deemed advisable, to pass, with or without variation, an ordinary resolution to approve certain amendments to the Company&#8217;s restricted share unit plan, as more particularly described in the accompanying Circular; and</TD></TR>\n\n<TR vAlign=bottom>\n\n\t<TD width=\"4%\">&nbsp;</TD>\n\n\t<TD width=\"96%\">&nbsp;</TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD valign=top width=\"4%\">(g)</TD>\n\n   <TD width=\"96%\">to transact such other business as may properly come before the Meeting or any adjournment or postponement thereof</TD></TR></TABLE>\n\n<P align=justify>The Meeting will be held in a virtual only format, which will be conducted via conference call and available for guests via live webcast, as follows:</P>\n\n<P align=center><B>Conference Call (Participant or Guest):</B> 877-407-6184 (toll free)<BR>\n<B>Webcast (Guest Only):</B> https://event.choruscall.com/mediaframe/webcast.html?webcastid=VgR0vw57</P>\n\n<P align=justify>Only registered Shareholders and duly appointed proxyholders will be able to vote in real time and ask questions at the Meeting via conference call, provided they are connected to the call and comply with all of the requirements set out in the Circular. Once dialed in, instructions will be provided as to how Shareholders entitled to vote at the Meeting may participate, vote and ask questions at the Meeting. <B>Any person, including registered Shareholders and duly appointed proxyholders, who participates at the Meeting via webcast will not be able to vote on matters put before the Meeting, ask questions, or otherwise participate at the Meeting and must vote in advance of the Meeting by using the voting instruction form or form of proxy mailed to them with the Circular.</B> Non-registered Shareholders (being Shareholders who beneficially own shares that are registered in the name of an intermediary such as a bank, trust company, securities broker or other nominee, or in the name of a depository of which the intermediary is a participant) who have not duly appointed themselves as proxyholder will be able to attend the Meeting via conference call or webcast as guests, but guests will not be able to vote, ask questions or otherwise participate at the Meeting.</P>\n\n<P align=justify>The specific details of the foregoing matters to be put before the Meeting, as well as further information with respect to voting by proxy and detailed instructions about how to participate at the virtual Meeting are set forth in the Circular which accompanies, and is deemed to form a part of, this Notice of Meeting.</P><BR>\n\n<HR align=center SIZE=1 width=\"100%\" noShade>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n<TR>\n\n   <TD width=\"100%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD width=\"100%\" noWrap align=center>Page 6</TD></TR></TABLE><BR><BR>\n\n<HR style=\"PAGE-BREAK-AFTER: always\" align=center SIZE=1 width=\"100%\" noShade>\n<BR>\n\n<!--$$/page=--><A name=\"page_2\"></A><BR>\n\n<a name=\"_bclPageBorder2\"></a><DIV style=\"PADDING-LEFT: 0%; PADDING-RIGHT: 0%\">\n\n<P style=\"TEXT-ALIGN: justify\"><B>Dated</B> May 9, 2025.</P>\n\n<P style=\"TEXT-ALIGN: right\">By Order of the Board of Directors<BR><BR>\n<I><U>&#8216;Jason Simpson&#8217;</U></I><BR>\nJason Simpson<BR>\nPresident, Chief Executive Officer and Director</P></DIV><BR>\n\n<HR align=center SIZE=1 width=\"100%\" noShade>\n\n<TABLE style=\"FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; WIDTH: 100%\" cellSpacing=0 border=0>\n\n<TR>\n\n   <TD width=\"100%\"></TD></TR>\n\n<TR vAlign=bottom>\n\n   <TD width=\"100%\" noWrap align=center>Page 7</TD></TR></TABLE><BR><BR>\n\n<HR align=center SIZE=3 width=\"100%\" noShade>\n\n\n\n</BODY>\n</html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

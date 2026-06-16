@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-06-11T16:36:30.894Z",
+  "totalUniverseTickers": 87,
+  "resolvedWithCik": 58,
+  "unresolvedCount": 29,
+  "unresolved": [
+    {
+      "ticker": "ANFGF",
+      "name": "Antofagasta",
+      "metal": "copper"
+    },
+    {
+      "ticker": "COPX",
+      "name": "Global X Copper Miners ETF",
+      "metal": "copper"
+    },
+    {
+      "ticker": "CPG",
+      "name": "Centamin",
+      "metal": "gold"
+    },
+    {
+      "ticker": "DSVSF",
+      "name": "Discovery Silver",
+      "metal": "silver"
+    },
+    {
+      "ticker": "EDVMF",
+      "name": "Endeavour Mining",
+      "metal": "gold"
+    },
+    {
+      "ticker": "FQVLF",
+      "name": "First Quantum Minerals",
+      "metal": "copper"
+    },
+    {
+      "ticker": "GATO",
+      "name": "Gatos Silver",
+      "metal": "silver"
+    },
+    {
+      "ticker": "GDX",
+      "name": "VanEck Gold Miners ETF",
+      "metal": "gold"
+    },
+    {
+      "ticker": "GDXJ",
+      "name": "VanEck Junior Gold Miners ETF",
+      "metal": "gold"
+    },
+    {
+      "ticker": "GLNCY",
+      "name": "Glencore",
+      "metal": "copper"
+    },
+    {
+      "ticker": "IMPUY",
+      "name": "Impala Platinum",
+      "metal": "pgm"
+    },
+    {
+      "ticker": "IVPAF",
+      "name": "Ivanhoe Mines",
+      "metal": "copper"
+    },
+    {
+      "ticker": "LUCRF",
+      "name": "Lucara Diamond",
+      "metal": "diamond"
+    },
+    {
+      "ticker": "LUG",
+      "name": "Lundin Gold",
+      "metal": "gold"
+    },
+    {
+      "ticker": "LUNMF",
+      "name": "Lundin Mining",
+      "metal": "copper"
+    },
+    {
+      "ticker": "LYSCF",
+      "name": "Lynas Rare Earths",
+      "metal": "rare-earth"
+    },
+    {
+      "ticker": "MAG",
+      "name": "MAG Silver",
+      "metal": "silver"
+    },
+    {
+      "ticker": "MPVDF",
+      "name": "Mountain Province Diamonds",
+      "metal": "diamond"
+    },
+    {
+      "ticker": "NGD",
+      "name": "New Gold",
+      "metal": "gold"
+    },
+    {
+      "ticker": "NGLOY",
+      "name": "Anglo American",
+      "metal": "diamond"
+    },
+    {
+      "ticker": "PALAF",
+      "name": "Paladin Energy",
+      "metal": "uranium"
+    },
+    {
+      "ticker": "PICK",
+      "name": "iShares MSCI Global Metals & Mining Producers ETF",
+      "metal": "diversified"
+    },
+    {
+      "ticker": "PILBF",
+      "name": "Pilbara Minerals",
+      "metal": "lithium"
+    },
+    {
+      "ticker": "SAND",
+      "name": "Sandstorm Gold",
+      "metal": "silver"
+    },
+    {
+      "ticker": "SIL",
+      "name": "Global X Silver Miners ETF",
+      "metal": "silver"
+    },
+    {
+      "ticker": "SILJ",
+      "name": "Amplify Junior Silver Miners ETF",
+      "metal": "silver"
+    },
+    {
+      "ticker": "SILV",
+      "name": "SilverCrest Metals",
+      "metal": "silver"
+    },
+    {
+      "ticker": "TRQ",
+      "name": "Turquoise Hill",
+      "metal": "copper"
+    },
+    {
+      "ticker": "URNM",
+      "name": "Sprott Uranium Miners ETF",
+      "metal": "uranium"
+    }
+  ]
+}

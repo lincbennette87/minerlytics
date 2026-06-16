@@ -1,0 +1,3595 @@
+EX-99.1
+2
+fins.htm
+UNAUDITED CONDENSED CONSOLIDATED FINANCIAL STATEMENTS FOR THE THIRD QUARTER - SEPTEMBER 30, 2017
+
+ CA Filed by Filing Services Canada Inc. 403-717-3898
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ September 30, 2017 Unaudited
+Condensed Consolidated Financial Statements
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Suite
+1188, 550 Burrard Street
+
+ Vancouver,
+British Columbia
+
+ V6C
+2B5
+
+ 
+
+ Phone:
+(604) 687-4018
+
+ Fax:
+(604) 687-4026
+
+ 
+ 
+ 
+
+Eldorado Gold Corporation
+
+Unaudited Condensed
+Consolidated Balance Sheets
+
+(Expressed in thousands of U.S.
+dollars)
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ Note
+ September 30, 2017
+ December 31, 2016
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ $
+ $
+ 
+
+ ASSETS
+ 
+ 
+ 
+ 
+
+ Current assets
+ 
+ 
+ 
+ 
+
+ Cash and cash equivalents
+ 
+ 539,788
+ 883,171
+ 
+
+ Term deposits
+ 
+ 6,304
+ 5,292
+ 
+
+ Restricted cash 
+ 
+ 305
+ 240
+ 
+
+ Marketable securities 
+ 
+ 5,169
+ 28,327
+ 
+
+ Accounts receivable and other
+ 
+ 82,181
+ 54,315
+ 
+
+ Inventories
+ 
+ 169,202
+ 120,830
+ 
+
+ 
+ 
+ 802,949
+ 1,092,175
+ 
+
+ Restricted cash and other assets
+ 
+ 26,244
+ 48,297
+ 
+
+ Defined benefit pension plan
+ 
+ 13,269
+ 11,620
+ 
+
+ Property, plant and equipment
+ 
+ 4,160,488
+ 3,645,827
+ 
+
+ Goodwill
+ 4a
+ 99,462
+ -
+ 
+
+ 
+ 
+ 5,102,412
+ 4,797,919
+ 
+
+ LIABILITIES & EQUITY
+ 
+ 
+ 
+ 
+
+ Current liabilities
+ 
+ 
+ 
+ 
+
+ Accounts payable and accrued liabilities
+ 
+ 98,339
+ 90,705
+ 
+
+ Current portion of asset retirement obligation
+ 
+ 2,647
+ -
+ 
+
+ Flow-through share premium liability 
+ 
+ 1,981
+ -
+ 
+
+ 
+ 
+ 102,967
+ 90,705
+ 
+
+ Debt
+ 6
+ 593,235
+ 591,589
+ 
+
+ Defined benefit pension plan
+ 
+ 12,682
+ 10,882
+ 
+
+ Asset retirement obligations
+ 
+ 91,139
+ 89,778
+ 
+
+ Deferred income tax liabilities
+ 
+ 556,126
+ 443,501
+ 
+
+ 
+ 
+ 1,356,149
+ 1,226,455
+ 
+
+ Equity
+ 
+ 
+ 
+ 
+
+ Share capital
+ 
+ 3,007,924
+ 2,819,101
+ 
+
+ Treasury stock
+ 
+ (11,056)
+ (7,794)
+ 
+
+ Contributed surplus
+ 
+ 2,614,132
+ 2,606,567
+ 
+
+ Accumulated other comprehensive income (loss)
+ 
+ (18,085)
+ (7,172)
+ 
+
+ Deficit
+ 
+ (1,927,764)
+ (1,928,024)
+ 
+
+ Total equity attributable to shareholders of the Company
+ 
+ 3,665,151
+ 3,482,678
+ 
+
+ Attributable to non-controlling interests
+ 
+ 81,112
+ 88,786
+ 
+
+ 
+ 
+ 3,746,263
+ 3,571,464
+ 
+
+ 
+ 
+ 5,102,412
+ 4,797,919
+ 
+
+ 
+
+Approved on behalf of the Board of Directors
+
+ 
+
+(Signed) 
+John Webster Director (Signed) George
+Burns Director 
+
+The accompanying notes are an integral
+part of these consolidated financial statements.
+
+ 
+ 
+ 
+
+Eldorado Gold Corporation
+
+Unaudited Condensed
+Consolidated Income Statements 
+
+(Expressed in thousands of U.S.
+dollars except per share amounts)
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ Three months ended
+ 
+ Nine months ended
+
+ 
+ 
+ September 30,
+ 
+ September 30,
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ Note
+ 2017
+ 2016
+ 
+ 2017
+ 2016
+
+ 
+ 
+ 
+ 
+ 
+ $
+ $
+ 
+ $
+ $
+
+ Revenue
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Metal sales
+ 
+ 95,349
+ 116,231
+ 
+ 289,965
+ 317,986
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Cost of sales
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Production costs
+ 
+ 45,844
+ 50,498
+ 
+ 135,965
+ 144,632
+
+ Inventory write-down (reversal)
+ 
+ 487
+ (298)
+ 
+ 487
+ -
+
+ Depreciation and amortization
+ 
+ 18,634
+ 16,908
+ 
+ 52,254
+ 53,427
+
+ 
+ 
+ 64,965
+ 67,108
+ 
+ 188,706
+ 198,059
+
+ Gross profit
+ 
+ 30,384
+ 49,123
+ 
+ 101,259
+ 119,927
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Exploration expenses
+ 
+ 11,651
+ 4,969
+ 
+ 24,022
+ 10,243
+
+ Mine standby costs (recovery)
+ 
+ 1,263
+ (415)
+ 
+ 3,595
+ 14,962
+
+ Other operating items
+ 
+ 
+ -
+ -
+ 
+ 3,658
+ -
+
+ General and administrative expenses
+ 
+ 12,785
+ 9,282
+ 
+ 35,897
+ 29,437
+
+ Acquisition costs
+ 4a
+ 4,265
+ -
+ 
+ 4,265
+ -
+
+ Defined benefit pension plan expense
+ 
+ 813
+ 292
+ 
+ 2,425
+ 872
+
+ Share based payments
+ 8
+ 2,137
+ 2,116
+ 
+ 9,255
+ 8,516
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Write-down of assets
+ 5
+ 31,109
+ 164
+ 
+ 34,340
+ 643
+
+ Foreign exchange loss (gain)
+ 
+ (2,757)
+ 1,450
+ 
+ (3,418)
+ (1,703)
+
+ Operating profit (loss)
+ 
+ (30,882)
+ 31,265
+ 
+ (12,780)
+ 56,957
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Loss on disposal of assets
+ 
+ (66)
+ (221)
+ 
+ (333)
+ (418)
+
+ Gain (loss) on marketable securities and other investments
+ 
+ 27,311
+ -
+ 
+ 28,089
+ (4,881)
+
+ Other income
+ 
+ 5,227
+ 1,018
+ 
+ 9,787
+ 695
+
+ Asset retirement obligation accretion
+ 
+ (458)
+ (449)
+ 
+ (1,505)
+ (1,346)
+
+ Interest and financing costs 
+ 
+ (1,042)
+ (758)
+ 
+ (2,092)
+ (10,536)
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Profit from continuing operations before income tax
+ 
+ 90
+ 30,855
+ 
+ 21,166
+ 40,471
+
+ Income tax expense 
+ 
+ 7,090
+ 12,653
+ 
+ 15,173
+ 23,168
+
+ Profit (loss) from continuing operations 
+ 
+ (7,000)
+ 18,202
+ 
+ 5,993
+ 17,303
+
+ Profit (loss) from discontinued operations 
+ 4b
+ -
+ 3,745
+ 
+ (2,797)
+ (329,987)
+
+ Profit (loss) for the period
+ 
+ (7,000)
+ 21,947
+ 
+ 3,196
+ (312,684)
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Attributable to:
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Shareholders of the Company
+ 
+ (4,179)
+ 20,740
+ 
+ 10,870
+ (311,602)
+
+ Non-controlling interests
+ 
+ (2,821)
+ 1,207
+ 
+ (7,674)
+ (1,082)
+
+ Profit (loss) for the period
+ 
+ (7,000)
+ 21,947
+ 
+ 3,196
+ (312,684)
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Profit (loss) attributable to shareholders of the Company
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Continuing operations
+ 
+ (4,179)
+ 18,453
+ 
+ 13,667
+ 19,356
+
+ Discontinued operations
+ 
+ -
+ 2,287
+ 
+ (2,797)
+ (330,958)
+
+ 
+ 
+ (4,179)
+ 20,740
+ 
+ 10,870
+ (311,602)
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Weighted average number of shares outstanding (thousands)
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Basic
+ 
+ 
+ 
+ 
+ 785,621
+ 716,587
+ 
+ 739,935
+ 716,587
+
+ Diluted
+ 
+ 
+ 
+ 
+ 785,621
+ 716,596
+ 
+ 739,935
+ 716,594
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Profit (loss) per share attributable to shareholders 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ of the Company:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Basic profit (loss) per share 
+ 
+ (0.01)
+ 0.03
+ 
+ 0.01
+ (0.43)
+
+ Diluted profit (loss) per share
+ 
+ (0.01)
+ 0.03
+ 
+ 0.01
+ (0.43)
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Profit (loss) per share attributable to shareholders 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ of the Company - continuing operations:
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Basic profit (loss) per share 
+ 
+ (0.01)
+ 0.03
+ 
+ 0.02
+ 0.03
+
+ Diluted profit (loss) per share
+ 
+ (0.01)
+ 0.03
+ 
+ 0.02
+ 0.03
+
+ 
+
+The accompanying notes are an integral
+part of these consolidated financial statements.
+
+ 
+ 
+ 
+
+Eldorado Gold Corporation
+
+Unaudited Condensed
+Consolidated Statements of Comprehensive Income
+
+(Expressed in thousands of U.S.
+dollars)
+
+ 
+
+ 
+ 
+ Three months ended
+ 
+ Nine months ended
+
+ 
+ 
+ September 30,
+ 
+ September 30,
+
+ 
+ Note
+ 2017
+ 2016
+ 
+ 2017
+ 2016
+
+ 
+ 
+ $
+ $
+ 
+ $
+ $
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Profit (loss) for the period
+ 
+ (7,000)
+ 21,947
+ 
+ 3,196
+ (312,684)
+
+ Other comprehensive income (loss):
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Change in fair value of available-for-sale financial assets
+ (2,501)
+ (1,948)
+ 
+ 16,053
+ 22,286
+
+ Income tax on change in fair value of available-for-sale financial assets
+ 
+ -
+ 265
+ 
+ (2,595)
+ (2,875)
+
+ Reversal of unrealized gains on available-for-sale investments on acquition
+ 
+ 
+ 
+ 
+ 
+ 
+
+ of Integra, net of taxes
+ 4a
+ (24,340)
+ -
+ 
+ (24,340)
+ -
+
+ Transfer of realized loss on disposal of available-for-sale financial assets
+ 
+ -
+ -
+ 
+ -
+ 4,901
+
+ Actuarial losses on defined benefit pension plans, net of tax
+ 
+ (362)
+ (324)
+ 
+ (31)
+ (446)
+
+ Total other comprehensive income (loss) for the period
+ 
+ (27,203)
+ (2,007)
+ 
+ (10,913)
+ 23,866
+
+ Total comprehensive income (loss) for the period
+ 
+ (34,203)
+ 19,940
+ 
+ (7,717)
+ (288,818)
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Attributable to:
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Shareholders of the Company
+ 
+ (31,382)
+ 18,733
+ 
+ (43)
+ (287,736)
+
+ Non-controlling interests
+ 
+ (2,821)
+ 1,207
+ 
+ (7,674)
+ (1,082)
+
+ 
+ 
+ (34,203)
+ 19,940
+ 
+ (7,717)
+ (288,818)
+
+ 
+
+ 
+
+The accompanying notes are an integral
+part of these consolidated financial statements.
+
+ 
+ 
+ 
+
+Eldorado Gold Corporation
+
+Unaudited Condensed
+Consolidated Statements of Cash Flows
+
+(Expressed in thousands of U.S.
+dollars)
+
+ 
+
+ 
+ 
+ 
+ Three months ended
+ 
+ Nine months ended
+
+ 
+ 
+ 
+ September 30,
+ 
+ September 30,
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ Note
+ 2017
+ 2016
+ 
+ 2017
+ 2016
+
+ 
+ 
+ 
+ $
+ $
+ 
+ $
+ $
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Cash flows generated from (used in):
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Operating activities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Profit (loss) for the period from continuing operations
+ 
+ 
+ (7,000)
+ 18,202
+ 
+ 5,993
+ 17,303
+
+ Items not affecting cash:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Asset retirement obligation accretion
+ 
+ 
+ 458
+ 449
+ 
+ 1,505
+ 1,346
+
+ Depreciation and amortization
+ 
+ 
+ 18,634
+ 16,908
+ 
+ 52,254
+ 53,427
+
+ Unrealized foreign exchange loss (gain)
+ 
+ 
+ (490)
+ (70)
+ 
+ (868)
+ 2,352
+
+ Deferred income tax expense (recovery)
+ 
+ 
+ (1,135)
+ 2,191
+ 
+ (13,694)
+ (10,371)
+
+ Loss on disposal of assets
+ 
+ 
+ 66
+ 221
+ 
+ 333
+ 418
+
+ Write-down of assets
+ 
+ 
+ 31,109
+ 164
+ 
+ 34,340
+ 643
+
+ Loss (gain) on marketable securities and other investments
+ 
+ 
+ (27,311)
+ -
+ 
+ (28,089)
+ 4,881
+
+ Share based payments
+ 
+ 
+ 2,137
+ 2,116
+ 
+ 9,255
+ 8,516
+
+ Defined benefit pension plan expense
+ 
+ 
+ 813
+ 292
+ 
+ 2,425
+ 872
+
+ 
+ 
+ 
+ 17,281
+ 40,473
+ 
+ 63,454
+ 79,387
+
+ Property reclamation payments
+ 
+ 
+ (1,024)
+ (518)
+ 
+ (2,111)
+ (1,412)
+
+ Changes in non-cash working capital
+ 
+ 10
+ (23,237)
+ 39,791
+ 
+ (48,260)
+ (19,834)
+
+ Net cash provided (used) by operating activities of continuing operations
+ (6,980)
+ 79,746
+ 
+ 13,083
+ 58,141
+
+ Net cash provided (used) by operating activities of discontinued operations
+ -
+ (19,862)
+ 
+ -
+ 6,671
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Investing activities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Net cash paid on acquisition of subsidiary
+ 
+ 4a
+ (121,664)
+ (603)
+ 
+ (121,664)
+ (603)
+
+ Purchase of property, plant and equipment
+ 
+ 
+ (91,803)
+ (85,581)
+ 
+ (240,687)
+ (206,469)
+
+ Proceeds from the sale of property, plant and equipment
+ 
+ 58
+ 578
+ 
+ 141
+ 1,335
+
+ Proceeds from sale of mining interest, net of transaction costs
+ 
+ 
+ -
+ 264,697
+ 
+ -
+ 264,697
+
+ Proceeds (loss) on pre-production sales and tailings retreatment
+ 
+ 
+ 10,933
+ (170)
+ 
+ 12,025
+ 3,708
+
+ Purchase of marketable securities
+ 
+ 
+ -
+ -
+ 
+ -
+ (2,526)
+
+ Proceeds from the sale of marketable securities
+ 
+ 
+ -
+ -
+ 
+ -
+ 3,665
+
+ Value added taxes related to mineral property expenditures, net
+ 
+ 
+ 3,501
+ -
+ 
+ 19,846
+ -
+
+ Redemption of (investment in) term deposits
+ 
+ 
+ 262,467
+ 12
+ 
+ (1,012)
+ (923)
+
+ Increase in restricted cash
+ 
+ 
+ (66)
+ (2)
+ 
+ (9,790)
+ (8)
+
+ Net cash provided (used) by investing activities of continuing operations
+ 63,426
+ 178,931
+ 
+ (341,141)
+ 62,876
+
+ Net cash used by investing activities of discontinued operations
+ 
+ 
+ -
+ (9,244)
+ 
+ -
+ (18,817)
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Financing activities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Issuance of common shares for cash
+ 
+ 
+ -
+ -
+ 
+ 586
+ -
+
+ Dividend paid to shareholders
+ 
+ 
+ -
+ -
+ 
+ (10,610)
+ -
+
+ Purchase of treasury stock
+ 
+ 
+ -
+ -
+ 
+ (5,301)
+ -
+
+ Long-term and bank debt proceeds
+ 
+ 
+ -
+ 40,000
+ 
+ -
+ 70,000
+
+ Long-term and bank debt repayments
+ 
+ 
+ -
+ (60,000)
+ 
+ -
+ (60,000)
+
+ Net cash provided (used) by financing activities of continuing operations
+ -
+ (20,000)
+ 
+ (15,325)
+ 10,000
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Net increase (decrease) in cash and cash equivalents
+ 
+ 
+ 56,446
+ 209,571
+ 
+ (343,383)
+ 118,871
+
+ Cash and cash equivalents - beginning of period
+ 
+ 
+ 483,342
+ 197,489
+ 
+ 883,171
+ 288,189
+
+ Cash and cash equivalents - end of period
+ 
+ 
+ 539,788
+ 407,060
+ 
+ 539,788
+ 407,060
+
+ Less cash and cash equivalents held for sale - end of period
+ 
+ 
+ -
+ (42,762)
+ 
+ -
+ (42,762)
+
+ Cash and cash equivalents excluding held for sale - end of period
+ 
+ 
+ 539,788
+ 364,298
+ 
+ 539,788
+ 364,298
+
+ 
+
+ 
+
+The accompanying notes are an integral
+part of these consolidated financial statements.
+
+ 
+ 
+ 
+
+Eldorado Gold Corporation
+
+Unaudited Condensed
+Consolidated Statements of Changes in Equity
+
+(Expressed in thousands of U.S.
+dollars)
+
+ 
+
+ 
+ 
+ Three months ended
+ 
+ Nine months ended
+
+ 
+ 
+ September 30,
+ 
+ September 30,
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Note
+ 2017
+ 2016
+ 
+ 2017
+ 2016
+
+ 
+ 
+ $
+ $
+ 
+ $
+ $
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Share capital 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Balance beginning of period
+ 
+ 2,819,863
+ 2,819,101
+ 
+ 2,819,101
+ 5,319,101
+
+ Shares issued upon exercise of share options, for cash
+ 
+ -
+ -
+ 
+ 586
+ -
+
+ Transfer of contributed surplus on exercise of options
+ 
+ -
+ -
+ 
+ 176
+ -
+
+ Shares issued on acquisition of Integra Gold Corp.
+ 4a
+ 188,061
+ 
+ 
+ 188,061
+ 
+
+ Capital reduction
+ 
+ -
+ -
+ 
+ -
+ (2,500,000)
+
+ Balance end of period
+ 
+ 3,007,924
+ 2,819,101
+ 
+ 3,007,924
+ 2,819,101
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Treasury stock
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Balance beginning of period
+ 
+ (11,056)
+ (8,015)
+ 
+ (7,794)
+ (10,211)
+
+ Purchase of treasury stock
+ 
+ -
+ -
+ 
+ (5,301)
+ -
+
+ Shares redeemed upon exercise of restricted share units
+ 
+ -
+ 221
+ 
+ 2,039
+ 2,417
+
+ Balance end of period
+ 
+ (11,056)
+ (7,794)
+ 
+ (11,056)
+ (7,794)
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Contributed surplus
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Balance beginning of period
+ 
+ 2,611,660
+ 2,602,027
+ 
+ 2,606,567
+ 47,236
+
+ Share based payments
+ 
+ 2,472
+ 2,389
+ 
+ 9,780
+ 7,892
+
+ Shares redeemed upon exercise of restricted share units
+ 
+ -
+ (221)
+ 
+ (2,039)
+ (2,417)
+
+ Recognition of other non-current liability and related costs
+ 
+ -
+ -
+ 
+ -
+ (1,416)
+
+ Reversal of other current liability and related costs
+ 
+ -
+ -
+ 
+ -
+ 52,900
+
+ Transfer to share capital on exercise of options 
+ 
+ -
+ -
+ 
+ (176)
+ -
+
+ Capital reduction 
+ 
+ -
+ -
+ 
+ 
+ 2,500,000
+
+ Balance end of period
+ 
+ 2,614,132
+ 2,604,195
+ 
+ 2,614,132
+ 2,604,195
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Accumulated other comprehensive loss
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Balance beginning of period
+ 
+ 9,118
+ 5,301
+ 
+ (7,172)
+ (20,572)
+
+ Other comprehensive gain (loss) for the period
+ 
+ (27,203)
+ (2,007)
+ 
+ (10,913)
+ 23,866
+
+ Balance end of period
+ 
+ (18,085)
+ 3,294
+ 
+ (18,085)
+ 3,294
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Deficit
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Balance beginning of period
+ 
+ (1,923,585)
+ (1,916,215)
+ 
+ (1,928,024)
+ (1,583,873)
+
+ Dividends paid
+ 
+ -
+ -
+ 
+ (10,610)
+ -
+
+ Profit (loss) attributable to shareholders of the Company
+ 
+ (4,179)
+ 20,740
+ 
+ 10,870
+ (311,602)
+
+ Balance end of period
+ 
+ (1,927,764)
+ (1,895,475)
+ 
+ (1,927,764)
+ (1,895,475)
+
+ Total equity attributable to shareholders of the Company
+ 
+ 3,665,151
+ 3,523,321
+ 
+ 3,665,151
+ 3,523,321
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Non-controlling interests
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Balance beginning of period
+ 
+ 83,933
+ 167,466
+ 
+ 88,786
+ 169,755
+
+ Profit (loss) attributable to non-controlling interests
+ 
+ (2,821)
+ 1,207
+ 
+ (7,674)
+ (1,082)
+
+ Decrease during the period
+ 
+ -
+ (17,642)
+ 
+ -
+ (17,642)
+
+ Balance end of period
+ 
+ 81,112
+ 151,031
+ 
+ 81,112
+ 151,031
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Total equity
+ 
+ 3,746,263
+ 3,674,352
+ 
+ 3,746,263
+ 3,674,352
+
+ 
+
+ 
+
+The accompanying notes are an integral
+part of these consolidated financial statements.
+
+ 
+ 
+ 
+
+Eldorado Gold Corporation
+
+Notes to the
+unaudited condensed consolidated financial statements
+
+(Expressed in thousands of U.S.
+dollars, unless otherwise stated)
+
+1.General Information
+
+Eldorado Gold Corporation (“Eldorado”
+or the “Company”) is a primarily gold exploration, development and mining company. The Company has operations and ongoing
+exploration and development projects in Turkey, Greece, Brazil, Canada, Romania and Serbia. The Company disposed of its China operations
+(“China Business”) in 2016. Details of the sale are included in note 4b. On July 10, 2017, the Company finalized its
+acquisition of Integra Gold Corporation (“Integra”), a Canadian company with mineral assets in Quebec, Canada (note
+4a).
+
+Eldorado is a public company
+which is listed on the Toronto Stock Exchange and New York Stock Exchange and is incorporated and domiciled in Canada.
+
+ 
+
+2.Basis of preparation
+
+a)Statement of compliance
+
+These unaudited condensed consolidated
+interim financial statements have been prepared in accordance with International Accounting Standard 34 ‘Interim Financial
+Reporting’. They do not include all of the information and footnotes required by the International Financial Reporting Standards
+(“IFRS”) as issued by the International Accounting Standards Board for full annual financial statements and should
+be read in conjunction with the Company’s annual financial statements for the year ended December 31, 2016.
+
+The same accounting policies
+are used in the preparation of these unaudited condensed consolidated interim financial statements as for the most recent audited
+annual financial statements and reflect all the adjustments necessary for fair presentation in accordance with IFRS for the interim
+periods presented.
+
+These unaudited condensed consolidated
+interim financial statements were authorized for issue by the Company’s Board of Directors on October 26, 2017.
+
+b)Judgement and estimates
+
+The preparation of these unaudited
+condensed consolidated interim financial statements in conformity with IFRS requires management to make judgements, estimates and
+assumptions that affect the application of accounting policies and the reported amounts of assets and liabilities, income and expense.
+Actual results may differ from these estimates.
+
+The significant judgements made
+by management in applying the Company’s accounting policies and the key sources of estimation uncertainty were the same as
+those that applied to the consolidated financial statements as at and for the year ended December 31, 2016.
+
+ 
+
+3.Adoption of new accounting standards and upcoming changes
+
+The following standards have
+been published and are mandatory for Eldorado’s annual accounting periods no earlier than January 1, 2018:
+
+·IFRS 2 ‘Share-Based
+Payments’ – In June 2016, the
+IASB issued final amendments to this standard. IFRS 2 clarifies the classification and measurement of share-based payment transactions.
+These amendments deal with variations in the final settlement arrangements including: (a) accounting for cash-settled share-based
+payment transactions that include a performance condition, (b) classification of share-based payment transactions with net settlement
+features, and (c) accounting for modifications of share-based payment transactions from cash-settled to equity. IFRS 2 is effective
+for annual reporting periods beginning on or after January 1, 2018, with early adoption permitted. The Company plans to apply this
+standard at the date it becomes effective. The Company does not currently expect the impact of these changes to be material.
+
+ 
+
+ 
+
+ (1)
+ 
+ 
+
+Eldorado Gold Corporation
+
+Notes to the
+unaudited condensed consolidated financial statements
+
+(Expressed in thousands of U.S.
+dollars, unless otherwise stated)
+
+ 
+
+3.Adoption of new accounting standards and upcoming changes (continued)
+
+·IFRS 9 ‘Financial Instruments’ – This standard
+was published in July 2014 and replaces the existing guidance in IAS 39, ‘Financial Instruments: Recognition and Measurement’.
+IFRS 9 includes revised guidance on the classification and measurement of financial instruments, including a new expected credit
+loss model for calculating impairment on financial assets, and the new general hedge accounting requirements. It also carries forward
+the guidance on recognition and derecognition of financial instruments from IAS 39. IFRS 9 is effective for annual reporting periods
+beginning on or after January 1, 2018, with early adoption permitted. The Company plans to apply this standard at the date it becomes
+effective.
+
+The Company expects the following
+impact of this standard upon adoption:
+
+ 
+i) the classification of its financial
+assets and liabilities to remain consistent under the new standard, with the possible exception of equity securities. Under the
+new standard, equity investments that move through other comprehensive income can be recorded directly into its profit and loss
+results or continue recording against other comprehensive income with no profit and loss effect on sale. If the Company does not
+make an election, changes in fair value of the equity securities will be recognized in profit and loss results.
+
+ 
+ii) the company does not expect to apply
+hedge accounting to hedge components of its non-financial items.
+
+ 
+iii) the Company does not expect a material
+impact to its financial statements from any of the other changes to this standard, including the new expected credit loss model
+for calculating impairment on financial assets.
+
+·IFRS 15 ‘Revenue from Contracts with Customers’ –
+This standard contains a single model that applies to contracts with customers and two approaches to recognising revenue: at a
+point in time or over time. The model features a contract-based five-step analysis of transactions to determine whether, how much
+and when revenue is recognized. New estimates and judgmental thresholds have been introduced, which may affect the amount and/or
+timing of revenue recognized. This standard is effective for annual reporting periods beginning on or after January 1, 2018, with
+early adoption permitted. The Company plans to apply this standard at the date it becomes effective.
+
+The Company continues to evaluate
+the extent of the impact of the adoption of this standard, primarily analyzing its doré and concentrate sale agreements.
+Based on our preliminary assessment, the new standard is not expected to significantly affect the gross amount or timing of revenue
+recognized by the Company.
+
+·IFRS 16 ‘Leases’ – This standard was published
+in January 2016 and replaces the existing guidance in IAS 17, ‘Leases’. IFRS 16 introduces a single accounting
+model for lessees and for all leases with a term of more than 12 months, unless the underlying asset is of low value. A lessee
+will be required to recognize a right-of-use asset, representing its right to use the underlying asset, and a lease liability,
+representing its obligation to make lease payments. The accounting treatment for lessors will remain largely the same as under
+IAS 17. IFRS 16 is effective for annual reporting periods beginning on or after January 1, 2019, with early adoption permitted.
+
+The Company is currently evaluating
+all operating leases as it is expected that, under this standard, the present value of most lease commitments will be shown as
+a liability on the balance sheet together with an asset representing the right of use, including those classified as operating
+leases under the existing standard. This implies higher amount of depreciation expense and interest on lease liabilities that will
+be recorded in the Company’s profit and loss results. Additionally, a corresponding reduction in general and administrative
+costs and/or production costs is expected. The Company has not quantified these impacts at this time.
+
+There are other new standards,
+amendments to standards and interpretations that have been published and are not yet effective. The Company believes they will
+have no material impact to its consolidated financial statements.
+
+ 
+
+ 
+
+ (2)
+ 
+ 
+
+Eldorado Gold Corporation
+
+Notes to the
+unaudited condensed consolidated financial statements
+
+(Expressed in thousands of U.S.
+dollars, unless otherwise stated)
+
+ 
+
+4.Acquisitions and divestitures
+
+a)Acquisition of Integra
+
+On May 15, 2017, the Company announced that it had entered into a definitive agreement with Integra, pursuant to which Eldorado
+agreed to acquire all of the issued and outstanding common shares of Integra that it did not already own, by way of a plan of arrangement
+(the “Arrangement”). The acquisition was finalized on July 10, 2017.
+
+Under the terms of the Arrangement former Integra shareholders were entitled to receive, at their option, for each Integra
+share they own either (i) 0.2425 Eldorado shares plus C$0.0001 in cash, (ii) C$1.2125 in cash, in both (i) and (ii) subject to
+pro ration, or (iii) 0.18188 of an Eldorado share and C$0.30313 in cash. Eldorado issued 77,180,898 common shares pursuant to the
+Arrangement with a fair value of $188,061 and paid $99,823 in cash to the former Integra shareholders. Integra is a resource company
+engaged in the exploration of mineral properties. It is focused on its high-grade Lamaque gold project located in Val-d’Or,
+Quebec.
+
+As part of the consideration,
+the Company included advances to Integra for $27,046 and the fair value of the existing available-for-sale Integra investment that
+it previously owned for $41,968. The Company recognized a gain on marketable securities for $28,364 and taxes of $4,024, as a reversal
+of the unrealized gain and taxes included in other comprehensive income at the date of acquisition related to this previously owned
+investment.
+
+The fair value of the common
+shares issued as part of the consideration paid for Integra was based on the closing share price on July 7, 2017 on the Toronto
+Stock Exchange. The foreign exchange rate used at time of acquisition was CDN$1 = US$0.776.
+
+The goodwill of $99,462 resulting from the acquisition arises mainly on the recognition of deferred income tax liabilities
+and represents, among other things, the exploration potential within the assets acquired and future variability in the price of
+minerals. None of the goodwill is deductible for tax purposes.
+
+Eldorado paid net cash of $121,664
+as a result of the Integra transaction. This net decrease of cash was a result of cash consideration, including advances to Integra,
+of $126,869 net of an acquired cash balance of $5,205.
+
+During the year ended December 31, 2016, Integra Gold Corp issued flow-through shares (“FTS”) for total proceeds
+of C$46.7 million and the eligible flow-through expenditures were renounced to shareholders as at December 31, 2016. At the time
+of acquisition, Integra was obligated to spend the remaining flow through funds of C$15.8 million by December 31, 2017.
+The tax authorities are reviewing the eligibility of some of Integra’s past flow-through expenditures. As a result,
+a provision of $2.0 million has been recorded in accounts payable and accrued liabilities as the exposure related to potential
+penalties and shareholder compensation, based on challenged expenditures to date. Integra’s FTS have been measured using
+the residual method. Under this method, the proceeds from issuance have been allocated between the offering of shares and the sale
+of tax benefits based on the difference between the quoted price of non-flow through shares and the amount the investor pays for
+the flow through shares. A liability was recognized for this difference as the entity has an obligation to pass the tax deductions
+to the investor. As Integra fulfills its obligation, the sale of tax deductions has been recognized in the income statement as
+other income and the liability derecognized. Integra’s flow-through share premium liability as at September 30, 2017 amounts
+to $2.0 million, as compared to $4.3 million at the acquisition date.
+
+ 
+
+ (3)
+ 
+ 
+
+Eldorado Gold Corporation
+
+Notes to the
+unaudited condensed consolidated financial statements
+
+(Expressed in thousands of U.S.
+dollars, unless otherwise stated)
+
+ 
+
+4.Acquisitions and divestitures (continued)
+
+A preliminary allocation of the purchase price, which is subject to final adjustments, is as follows:
+
+ 77,180,898 common shares of shares of Eldorado at C$3.14/share
+ $ 188,061
+
+ Cash consideration including advances
+ 126,869
+
+ Fair value of existing available-for-sale investment in Integra by Eldorado
+ 41,968
+
+ Total Consideration
+ 
+ $ 356,898
+
+ 
+ 
+ 
+ 
+
+ Net assets acquired:
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ Cash and cash equivalents
+ $ 5,205
+
+ Marketable securities
+ 
+ 2,857
+
+ Accounts receivable and other
+ 5,920
+
+ Inventories
+ 
+ 
+ 2,471
+
+ Other assets
+ 
+ 
+ 3,495
+
+ Property, plant and equipment
+ 386,799
+
+ Goodwill
+ 
+ 
+ 99,462
+
+ Accounts payable and accrued liabilities
+ (7,642)
+
+ Flow-through share premium liability
+ (4,280)
+
+ Other liabilities
+ 
+ (9,635)
+
+ Deferred income taxes
+ 
+ (127,754)
+
+ 
+ 
+ 
+ $ 356,898
+
+For the purpose of these consolidated financial
+statements, the purchase consideration has been allocated on a preliminary basis to the fair value of assets acquired and liabilities
+assumed based on management’s best estimates taking into account all available information at the time of acquisition as
+well as applicable information at the time these consolidated financial statements were prepared. The Company will continue to
+review information and perform further analysis with respect to these assets, prior to finalizing the allocation of the purchase
+price.
+
+Acquisition related costs of
+$4,265 have been charged to acquisition costs in the consolidated income statement for the nine months ended September 30, 2017.
+
+These consolidated financial
+statements include Integra’s results from July 10, 2017 to September 30, 2017. The net loss before tax included in the consolidated
+income statement since July 10, 2017 contributed by Integra is $3,877. Had Integra been consolidated from January 1, 2017, the
+consolidated income statement would include a net loss before tax of $16,053 from Integra.
+
+ 
+
+b)Sale of China Business
+
+On April 26, 2016, the Company announced that it had reached an agreement to sell its 82 percent interest in Jinfeng to a wholly-owned
+subsidiary of China National Gold Group for $300 million in cash, subject to certain closing adjustments. The sale was completed
+on September 6, 2016. In addition to the sale of Jinfeng, on May 16, 2016 Eldorado announced it had reached an agreement to sell
+its respective interest in White Mountain, Tanjianshan and Eastern Dragon to an affiliate of Yintai Resources Co. Ltd. (“Yintai”)
+for $600 million in cash, subject to certain closing adjustments. The sale was completed on November 22, 2016.
+
+The Company concluded that during the second quarter of 2016, the assets and liabilities of the China Business met the criteria
+for classification as held for sale as settlement was expected within twelve months. Accordingly, an initial post-tax loss of $339
+million was recognized in the second quarter of 2016 on re-measurement to fair value less costs of disposal of our China Business.
+For the year ended December 31, 2016, a net loss on sale of assets held for sale of $351.0 million was recorded in net loss from
+discontinued operations as a result of completing both sale transactions.
+
+ 
+
+ (4)
+ 
+ 
+
+Eldorado Gold Corporation
+
+Notes to the
+unaudited condensed consolidated financial statements
+
+(Expressed in thousands of U.S.
+dollars, unless otherwise stated)
+
+ 
+
+4.Acquisitions and divestitures (continued)
+
+During the nine months ended September 30,
+2017, the Company recorded an expense of $2.8 million for working capital adjustments related to the Yintai sale based on the agreement
+that was reached with Yintai during the period. This amount was paid to Yintai in the month of June and is included as discontinued
+operations in the consolidated income statement.
+
+The China Business net earnings to date of disposition were included in the Company's consolidated results for the year ended
+December 31, 2016. These results have been presented as discontinued operations within the consolidated income statements and the
+consolidated statements of cash flows. The profit (loss) from discontinued operations for the three and nine months ended September
+30, 2016 is as follows:
+
+ 
+
+ 
+ 
+ 
+ 
+ Three months ended
+ 
+ Nine months ended
+
+ 
+ September 30,
+ 
+ 
+ September 30,
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 2016
+ 
+ 
+ 2016
+
+ 
+ 
+ 
+ 
+ $
+ 
+ 
+ $
+
+ Revenue
+ 57,734
+ 
+ 
+ 191,650
+
+ Production costs
+ 35,218
+ 
+ 
+ 127,129
+
+ Depreciation and amortization
+ -
+ 
+ 
+ 18,996
+
+ Gross profit
+ 22,516
+ 
+ 
+ 45,525
+
+ Exploration expenses
+ 184
+ 
+ 
+ 830
+
+ General and administrative expenses
+ 4,915
+ 
+ 
+ 17,518
+
+ Foreign exchange loss (gain)
+ (438)
+ 
+ 
+ 282
+
+ Operating profit
+ 17,855
+ 
+ 
+ 26,895
+
+ Interest and financing costs
+ 15
+ 
+ 
+ 161
+
+ Asset retirement obligation accretion
+ 93
+ 
+ 
+ 325
+
+ Other expense
+ 2,516
+ 
+ 
+ 2,582
+
+ Profit from discontinued operations before income tax
+ 15,231
+ 
+ 
+ 23,827
+
+ Income tax expense
+ 7,011
+ 
+ 
+ 10,321
+
+ Profit (loss) from discontinued operations
+ 8,220
+ 
+ 
+ 13,506
+
+ Loss on re-measurement to fair value less costs to sell
+ 4,475
+ 
+ 
+ 136,067
+
+ Transfer to loss on sale of assets held for sale, net of tax
+ (207,426)
+ 
+ 
+ -
+
+ Loss on sale of assets held for sale, net of tax
+ 207,426
+ 
+ 
+ 207,426
+
+ Net loss from discontinued operations
+ 3,745
+ 
+ 
+ (329,987)
+
+ 
+
+5.Write-down of assets
+
+During the quarter ended September 30, 2017,
+the Company completed a review of the estimated useful lives and recoverable amounts of certain surplus equipment. A portion of
+this equipment was sold during the quarter for a loss of $11.6 million and the remaining equipment was written down to its estimated
+recoverable amount resulting in a loss of $14.8 million, for total equipment losses of $26.4 million.
+
+ 
+
+ (5)
+ 
+ 
+
+Eldorado Gold Corporation
+
+Notes to the
+unaudited condensed consolidated financial statements
+
+(Expressed in thousands of U.S.
+dollars, unless otherwise stated)
+
+ 
+
+6.Debt
+
+Senior notes
+
+On December 10, 2012, the Company completed an
+offering of $600.0 million senior notes (“the notes”) at par value, with a coupon rate of 6.125% due December 15, 2020.
+The notes pay interest semi-annually on June 15 and December 15. Net deferred financing costs of $6,765 have been included as an
+offset in the balance of the notes in the financial statements and are being amortized over the term of the notes.
+
+The fair market value of the notes as at September
+30, 2017 is $610.5 million.
+
+ 
+
+7.Share capital
+
+Eldorado’s
+authorized share capital consists of an unlimited number of voting common shares without par value and an unlimited number of non-voting
+common shares without par value. At September 30, 2017 there were 794,010,680 (December 31, 2016 – 716,587,134) voting common
+shares and no non-voting common shares (December 31, 2016 – nil)
+outstanding. On July 10, 2017, 77.2 million shares were issued in connection with the Integra acquisition (note 4a).
+
+ 
+
+8.Share-based payments
+
+(a)
+Share option plans
+
+Movements in the number of
+share options outstanding and their related weighted average exercise prices are as follows:
+
+ 
+ 2017
+
+ 
+ Weighted
+ average exercise price Cdn$
+ Number
+ of
+ options
+
+ 
+ At January 1,
+ 7.55
+ 28,896,035
+
+ Granted
+ 4.43
+ 5,804,535
+
+ Exercised
+ 3.22
+ (242,648)
+
+ Forfeited
+ 13.76
+ (4,525,611)
+
+ At
+ September 30,
+ 6.04
+ 29,932,311
+
+ 
+
+At
+September 30, 2017, 18,665,900 share options (September 30, 2016 – 19,456,174) with a weighted average exercise price
+of Cdn$7.35 (September 30, 2016 – Cdn$9.67) had vested and were exercisable.
+
+Share based compensation expense related to
+share options for the quarter ended September 30, 2017 was $1,239 (YTD - $5,503).
+
+(b)
+Restricted share unit plan
+
+A total of 936,832 restricted
+share units (“RSUs”) at a grant-date fair value of Cdn$4.49 per unit were granted during the nine-month period ended
+September 30, 2017 under the Company’s RSU plan.
+
+The fair value of each RSU
+issued is determined as the closing share price at grant date. The current maximum number of common shares authorized for issue
+under the RSU plan is 5,000,000.
+
+ 
+
+ (6)
+ 
+ 
+
+Eldorado Gold Corporation
+
+Notes to the
+unaudited condensed consolidated financial statements
+
+(Expressed in thousands of U.S.
+dollars, unless otherwise stated)
+
+ 
+
+8.Share-based payments (continued)
+
+A summary of the status of the
+RSU plan and changes during the quarter ended September 30, 2017 is as follows:
+
+ 
+ Total RSUs
+
+ Balance at December 31, 2016
+ 1,240,174
+
+ RSUs Granted
+ 936,832
+
+ Redeemed
+ (349,842)
+
+ Forfeited
+ (121,068)
+
+ Balance at September 30, 2017
+ 1,706,096
+
+ 
+
+As at September 30, 2017,
+1,706,096 common shares purchased by the Company remain held in trust in connection with this plan. At the end of the period, 596,780
+restricted share units are fully vested and exercisable. These shares purchased are held in trust and have been included in treasury
+stock in the balance sheet.
+
+Restricted share units expense
+for the quarter ended September 30, 2017 was $493 (YTD - $2,223).
+
+(c)
+Deferred units plan
+
+At September 30, 2017, 596,836
+deferred units (“DUs”) were outstanding with a value of $1,310, which is included in accounts payable and accrued liabilities.
+
+Deferred units compensation
+income was $335 for the quarter ended September 30, 2017 (YTD - $525).
+
+(d)
+Performance share units plan
+
+A total of 569,719 performance
+share units (“PSUs”) were granted during the nine-month period ended September 30, 2017 under the Company’s PSU
+plan. The PSUs vest on the third anniversary of the grant date, subject to achievement of pre-determined performance criteria.
+When fully vested, the number of PSUs redeemed will range from 0% to 200% of the target award, subject to the performance of the
+share price over the 3 year period. The current maximum number of common shares authorized for issuance from treasury under the
+PSU plan is 3,130,000.
+
+Compensation expense related
+to PSUs for the period ended September 30, 2017 was $740 (YTD - $2,054).
+
+ 
+
+9.Fair value of financial instruments
+
+Fair values are determined
+directly by reference to published price quotations in an active market, when available, or by using a valuation technique that
+uses inputs observed from relevant markets.
+
+The three levels of the fair
+value hierarchy are described below:
+
+·Level 1 – Unadjusted quoted prices in active markets that are
+accessible at the measurement date for identical, unrestricted assets or liabilities.
+
+·Level 2 – Inputs that are observable, either directly or indirectly,
+but do not qualify as Level 1 inputs (i.e. quoted prices for similar assets or liabilities).
+
+·Level 3 – Prices or valuation techniques that require inputs
+that are both significant to the fair value measurement and unobservable (i.e. supported by little or no market activity).
+
+ 
+
+ 
+
+ (7)
+ 
+ 
+
+Eldorado Gold Corporation
+
+Notes to the
+unaudited condensed consolidated financial statements
+
+(Expressed in thousands of U.S.
+dollars, unless otherwise stated)
+
+ 
+
+9.Fair value of financial instruments (continued)
+
+The assets and liabilities
+measured at fair value as at September 30, 2017 are marketable securities and a derivative related to the Company’s metal
+hedge positions on zinc. The Company’s derivative liability of $171, which is considered level 2, is included in accounts
+payable and accrued liabilities in our consolidated balance sheet. The loss on derivatives for the quarter ended September 30,
+2017 was $948 (YTD - $171) and is presented in Loss (gain) on marketable securities and other investments in our consolidated income
+statement.
+
+The fair value of financial
+instruments traded in active markets is based on quoted market prices at the balance sheet date. A market is regarded as active
+if quoted prices are readily and regularly available from an exchange, dealer, broker, industry group, pricing service, or regulatory
+agency, and those prices represent actual and regularly occurring market transactions on an arm’s length basis. The quoted
+market price used for financial assets held by the group is the current bid price. These instruments are included in Level 1.
+Instruments included in Level 1 comprise primarily publicly-traded equity investments classified as available-for-sale securities.
+With the exception of the fair market value of the Company’s senior notes (note 5), which are
+included in level 2, all carrying amounts of financial instruments approximate their fair value.
+
+ 
+
+10.Supplementary
+ cash flow information
+
+ 
+ Three
+ months ended
+ September
+ 30,
+ 
+ Nine
+ months ended
+ September
+ 30,
+
+ 
+ 2017
+ $
+ 2016
+ $
+ 
+ 2017
+ $
+ 2016
+ $
+
+ Changes
+ in non-cash working capital
+ 
+ 
+ 
+ 
+ 
+
+ Accounts
+ receivable and other
+ (19,709)
+ (16,926)
+ 
+ (9,376)
+ (26,703)
+
+ Inventories
+ (15,177)
+ (182)
+ 
+ (34,087)
+ (18,144)
+
+ Accounts
+ payable and accrued liabilities
+ 11,649
+ 56,899
+ 
+ (4,797)
+ 25,013
+
+ Total
+ (23,237)
+ 39,791
+ 
+ (48,260)
+ (19,834)
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Supplementary
+ cash flow information
+ 
+ 
+ 
+ 
+ 
+
+ Income
+ taxes paid
+ 8,164
+ 8,340
+ 
+ 34,502
+ 38.797
+
+ Interest
+ paid
+ -
+ 377
+ 
+ 16,844
+ 17,181
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+11.Segmented
+ information
+
+Identification
+of reportable segments
+
+The
+Company has identified its operating segments based on the internal reports that are reviewed and used by the chief executive
+officer and the executive management (the chief operating decision makers or CODM) in assessing performance and in determining
+the allocation of resources.
+
+The CODM considers the business
+from both a geographic and product perspective and assesses the performance of the operating segments based on measures of profit
+and loss as well as assets and liabilities. These measures include gross profit (loss), expenditures on exploration, property,
+plant and equipment and non-current assets, as well as total debt. As at September 30, 2017, Eldorado had six reportable segments
+based on the geographical location of mining and exploration and development activities.
+
+ 
+
+ (8)
+ 
+ 
+
+Eldorado Gold Corporation
+
+Notes to the
+unaudited condensed consolidated financial statements
+
+(Expressed in thousands of U.S.
+dollars, unless otherwise stated)
+
+ 
+
+11.Segmented information (continued)
+
+11.1 Geographical
+segments 
+
+Geographically, the operating
+segments are identified by country and by operating mine or mine under construction. The Turkey reporting segment includes the
+Kişladag and the Efemcukuru mines and exploration activities in Turkey. The Brazil reporting segment includes the Vila Nova
+mine, Tocantinzinho project and exploration activities in Brazil. The Greece reporting segment includes the Stratoni and Olympias
+mines; the Skouries, Perama Hill and Sapes projects and exploration activities in Greece. The Romania reporting segment includes
+the Certej project and exploration activities in Romania. The Canada reporting segment includes the Lamaque project and exploration
+activities in Canada. Other reporting segment includes operations of Eldorado’s corporate office and exploration activities
+in other countries.
+
+Financial information about
+each of these operating segments is reported to the CODM on at least a monthly basis. The mines that have been aggregated into
+one segment share similar economic characteristics.
+
+ 
+
+ For the three months ended September 30, 2017
+ Turkey
+ Brazil
+ Greece
+ Romania
+ Other
+ Canada
+ Total
+
+ 
+ $
+ $
+ $
+ $
+ $
+ $
+ $
+
+ Information about profit and loss
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Metal sales from external customers
+ 85,655
+ 0
+ 9,694
+ -
+ -
+ -
+ 95,349
+
+ Production costs
+ 37,091
+ (9)
+ 8,762
+ -
+ -
+ -
+ 45,844
+
+ Inventory write-down 
+ -
+ -
+ 487
+ -
+ -
+ -
+ 487
+
+ Depreciation
+ 18,514
+ -
+ 76
+ -
+ 41
+ 3
+ 18,634
+
+ Gross profit (loss)
+ 30,050
+ 9
+ 369
+ -
+ (41)
+ (3)
+ 30,384
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Other material items of income and expense
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Write-down of assets
+ 27,421
+ -
+ 3,646
+ -
+ 42
+ -
+ 31,109
+
+ Exploration expenses
+ 466
+ 978
+ 1,919
+ 2,724
+ 1,900
+ 3,664
+ 11,651
+
+ Income tax expense (recovery)
+ 4,201
+ (1,383)
+ 982
+ (1,695)
+ 4,024
+ 961
+ 7,090
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Additions to property, plant and
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ equipment during the period
+ 14,861
+ 2,847
+ 57,061
+ 3,960
+ 87
+ 13,836
+ 92,652
+
+ 
+
+ 
+
+ For the three months ended September 30, 2016
+ Turkey
+ Brazil
+ Greece
+ Romania
+ Other
+ Total
+
+ 
+ $
+ $
+ $
+ $
+ $
+ $
+
+ Information about profit and loss
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Metal sales from external customers
+ 99,449
+ -
+ 16,782
+ -
+ -
+ 116,231
+
+ Production costs
+ 36,935
+ -
+ 13,563
+ -
+ -
+ 50,498
+
+ Inventory write-down (reversal)
+ -
+ -
+ (298)
+ -
+ -
+ (298)
+
+ Depreciation
+ 16,817
+ -
+ 23
+ -
+ 68
+ 16,908
+
+ Gross profit (loss)
+ 45,697
+ -
+ 3,494
+ -
+ (68)
+ 49,123
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Other material items of income and expense
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Write-down of assets
+ 164
+ -
+ -
+ -
+ -
+ 164
+
+ Exploration expenses
+ 433
+ 573
+ 655
+ 202
+ 3,106
+ 4,969
+
+ Income tax expense (recovery)
+ 13,996
+ 66
+ (1,266)
+ (410)
+ 267
+ 12,653
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Additions to property, plant and
+ 
+ 
+ 
+ 
+ 
+ 
+
+ equipment during the period
+ 15,428
+ 2,842
+ 65,379
+ 4,571
+ 13
+ 88,233
+
+ 
+
+ 
+
+ (9)
+ 
+ 
+
+Eldorado Gold Corporation
+
+Notes to the
+unaudited condensed consolidated financial statements
+
+(Expressed in thousands of U.S.
+dollars, unless otherwise stated)
+
+ 
+
+11.Segmented information (continued)
+
+ 
+
+ For the nine months ended September 30, 2017
+ Turkey
+ Brazil
+ Greece
+ Romania
+ Other
+ Canada
+ Total
+
+ 
+ $
+ $
+ $
+ $
+ $
+ $
+ $
+
+ Information about profit and loss
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Metal sales from external customers
+ 250,693
+ 2,251
+ 37,021
+ -
+ -
+ -
+ 289,965
+
+ Production costs
+ 103,943
+ 2,000
+ 30,022
+ -
+ -
+ -
+ 135,965
+
+ Inventory write-down
+ -
+ -
+ 487
+ -
+ -
+ -
+ 487
+
+ Depreciation
+ 51,765
+ -
+ 283
+ -
+ 203
+ 3
+ 52,254
+
+ Gross profit (loss)
+ 94,985
+ 251
+ 6,229
+ -
+ (203)
+ (3)
+ 101,259
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Other material items of income and expense
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Write-down of assets
+ 28,114
+ -
+ 6,183
+ -
+ 43
+ -
+ 34,340
+
+ Exploration costs
+ 1,144
+ 2,945
+ 5,500
+ 6,497
+ 4,272
+ 3,664
+ 24,022
+
+ Income tax expense (recovery)
+ 21,353
+ (1,634)
+ (1,692)
+ (5,244)
+ 1,429
+ 961
+ 15,173
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Additions to property, plant and
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ equipment during the period
+ 37,213
+ 7,265
+ 172,751
+ 10,919
+ 509
+ 13,836
+ 242,493
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Information about assets and liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Property, plant and equipment (*)
+ 833,188
+ 193,865
+ 2,311,432
+ 424,757
+ 498
+ 396,748
+ 4,160,488
+
+ Goodwill
+ -
+ -
+ -
+ -
+ -
+ 99,462
+ 99,462
+
+ 
+ 833,188
+ 193,865
+ 2,311,432
+ 424,757
+ 498
+ 496,210
+ 4,259,950
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Debt
+ -
+ -
+ -
+ -
+ 593,235
+ -
+ 593,235
+
+ 
+
+ 
+
+ 
+
+ For the nine months ended September 30, 2016
+ Turkey
+ Brazil
+ Greece
+ Romania
+ Other
+ Total
+
+ 
+ $
+ $
+ $
+ $
+ $
+ $
+
+ Information about profit and loss
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Metal sales from external customers
+ 289,990
+ -
+ 27,996
+ -
+ -
+ 317,986
+
+ Production costs
+ 118,141
+ -
+ 26,491
+ -
+ -
+ 144,632
+
+ Depreciation
+ 52,858
+ -
+ 363
+ -
+ 206
+ 53,427
+
+ Gross profit (loss)
+ 118,991
+ -
+ 1,142
+ -
+ (206)
+ 119,927
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Other material items of income and expense
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Write down of assets
+ 643
+ -
+ -
+ -
+ -
+ 643
+
+ Exploration costs
+ 1,191
+ 1,476
+ 1,487
+ 543
+ 5,546
+ 10,243
+
+ Income tax expense (recovery)
+ 30,986
+ (3,759)
+ (205)
+ (1,043)
+ (2,811)
+ 23,168
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Additions to property, plant and
+ 
+ 
+ 
+ 
+ 
+ 
+
+ equipment during the period
+ 44,005
+ 4,881
+ 150,395
+ 11,008
+ 27
+ 210,316
+
+ 
+
+ 
+
+ (10)
+ 
+ 
+
+Eldorado Gold Corporation
+
+Notes to the
+unaudited condensed consolidated financial statements
+
+(Expressed in thousands of U.S.
+dollars, unless otherwise stated)
+
+ 
+
+11.Segmented information (continued)
+
+ For the year ended December 31, 2016
+ Turkey
+ Brazil
+ Greece
+ Romania
+ Other
+ Total
+
+ 
+ $
+ $
+ $
+ $
+ $
+ $
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Information about assets and liabilities
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Property, plant and equipment (*)
+ 885,629
+ 186,606
+ 2,157,822
+ 413,949
+ 1,821
+ 3,645,827
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Debt
+ -
+ -
+ -
+ -
+ 591,589
+ 591,589
+
+ 
+
+* Net of revenues from
+sale of pre-production and tailings retreatment
+
+The Turkey segment derives its
+revenues from sales of gold and gold concentrate. The Brazil segment derives its revenue from sales of iron ore. The Greece segment
+derives its revenue from sales of zinc, lead and silver concentrates.
+
+11.2 Seasonality/cyclicality of operations
+
+Management does not consider operations to be of a significant seasonal or cyclical nature.
+
+ 
+
+12.Events occurring after the reporting date
+
+Subsequent to September 30,
+2017, the Company reduced its estimate of the recoverable ounces on the Kisladag mine leach pad. This change in estimate will be
+accounted for prospectively as a new development in accordance with IAS 8 “Accounting policies, changes in accounting estimates
+and errors “commencing October 1, 2017. The Company assessed the leach pad inventory at the lower of cost and net realizable
+value and determined that no write down was required as at September 30, 2017.
+
+ 
+
+ 
+
+ (11)

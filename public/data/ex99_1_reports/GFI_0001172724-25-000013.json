@@ -1,0 +1,220 @@
+{
+  "ticker": "GFI",
+  "cik": "0001172724",
+  "form": "6-K",
+  "filingDate": "2025-04-07",
+  "accessionNumber": "0001172724-25-000013",
+  "primaryDocument": "sens7april256-k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1172724/000117272425000013/0001172724-25-000013-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EX-99.1",
+    "filename": "sens7april.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1172724/000117272425000013/sens7april.htm"
+  },
+  "extractedAt": "2026-06-11T16:59:39.575Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1172724/000117272425000013/sens7april.htm",
+    "contentType": "html",
+    "title": "Document",
+    "headings": [
+      "Document"
+    ],
+    "text": "EX-99.1\n2\nsens7april.htm\nEX-99.1\n\nDocumentExhibit 99.1Gold Fields Limited Reg. No. 1968/004880/06) (Incorporated in the Republic of South Africa) JSE, NYSE, DIFX Share Code: GFI ISIN Code:ZAE000018123 (“Gold Fields” or the “Company”) DEALING IN SECURITIES In compliance with paragraphs 3.63 to 3.74 of the Listings Requirements of JSE Limited (the “Listings Requirements\") the Company hereby advises that Prescribed Officers of Gold Fields accepted and took ownership of their vested Performance Shares which were awarded and vested in terms of the Gold Fields 2012 Share Plan (“Scheme”) as amended. Accordingly, the following consequent trades are announced:Name of Prescribed OfficerM PreeceNature of transaction On market sale of shares in terms of the above SchemeClass of Security Ordinary sharesNature of interestDirect and BeneficialTransaction Date 2025/03/28Number of Shares traded 24,844Number of Shares retained28,586Market Price per shareR395.4904Total Value R9,825,563.50Name of Prescribed Officer and Director of Major subsidiaryKM CarterNature of transaction On market sale of shares in terms of the above SchemeClass of Security Ordinary sharesNature of interestDirect and BeneficialTransaction Date 2025/03/28Number of Shares traded 6,374Number of Shares retained0Market Price per shareR395.4904Total Value R2,520,855.81Name of Prescribed OfficerL RiveraNature of transaction On market sale of shares in terms of the above SchemeClass of Security Ordinary sharesNature of interestDirect and BeneficialTransaction Date 2025/03/28Number of Shares traded 52,786Number of Shares retained0Market Price per shareR395.4904Total Value R20,876,356.25Name of Prescribed Officer BL MokoatleNature of transaction On market sale of shares in terms of the above SchemeClass of Security Ordinary sharesNature of interestDirect and BeneficialTransaction Date 2025/03/28Number of Shares traded 7,138Number of Shares retained0Market Price per shareR395.4904Total Value R2,823,010.48Name of Prescribed OfficerG LotzNature of transaction On market sale of shares in terms of the above SchemeClass of Security Ordinary sharesNature of interestDirect and BeneficialTransaction Date 2025/03/28Number of Shares traded 5,953Number of Shares retained0Market Price per shareR395.4904Total Value R2,354,354.35In terms of paragraph 3.66 of the Listings requirements the necessary clearance to deal in the above securities has been obtained. 3 April 2025 Sponsor: J.P. Morgan Equities South Africa (Pty) Ltd",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 31,
+        "rows": [
+          [
+            "Name of Prescribed Officer",
+            "M Preece"
+          ],
+          [
+            "Nature of transaction",
+            "On market sale of shares in terms of the above Scheme"
+          ],
+          [
+            "Class of Security",
+            "Ordinary shares"
+          ],
+          [
+            "Nature of interest",
+            "Direct and Beneficial"
+          ],
+          [
+            "Transaction Date",
+            "2025/03/28"
+          ],
+          [
+            "Number of Shares traded",
+            "24,844"
+          ],
+          [
+            "Number of Shares retained",
+            "28,586"
+          ],
+          [
+            "Market Price per share",
+            "R395.4904"
+          ],
+          [
+            "Total Value",
+            "R9,825,563.50"
+          ],
+          [
+            "Name of Prescribed Officer and Director of Major subsidiary",
+            "KM Carter"
+          ],
+          [
+            "Nature of transaction",
+            "On market sale of shares in terms of the above Scheme"
+          ],
+          [
+            "Class of Security",
+            "Ordinary shares"
+          ],
+          [
+            "Nature of interest",
+            "Direct and Beneficial"
+          ],
+          [
+            "Transaction Date",
+            "2025/03/28"
+          ],
+          [
+            "Number of Shares traded",
+            "6,374"
+          ],
+          [
+            "Number of Shares retained",
+            "0"
+          ],
+          [
+            "Market Price per share",
+            "R395.4904"
+          ],
+          [
+            "Total Value",
+            "R2,520,855.81"
+          ],
+          [
+            "Name of Prescribed Officer",
+            "L Rivera"
+          ],
+          [
+            "Nature of transaction",
+            "On market sale of shares in terms of the above Scheme"
+          ],
+          [
+            "Class of Security",
+            "Ordinary shares"
+          ],
+          [
+            "Nature of interest",
+            "Direct and Beneficial"
+          ],
+          [
+            "Transaction Date",
+            "2025/03/28"
+          ],
+          [
+            "Number of Shares traded",
+            "52,786"
+          ],
+          [
+            "Number of Shares retained",
+            "0"
+          ],
+          [
+            "Market Price per share",
+            "R395.4904"
+          ],
+          [
+            "Total Value",
+            "R20,876,356.25"
+          ],
+          [
+            "Name of Prescribed Officer",
+            "BL Mokoatle"
+          ],
+          [
+            "Nature of transaction",
+            "On market sale of shares in terms of the above Scheme"
+          ],
+          [
+            "Class of Security",
+            "Ordinary shares"
+          ],
+          [
+            "Nature of interest",
+            "Direct and Beneficial"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 14,
+        "rows": [
+          [
+            "Transaction Date",
+            "2025/03/28"
+          ],
+          [
+            "Number of Shares traded",
+            "7,138"
+          ],
+          [
+            "Number of Shares retained",
+            "0"
+          ],
+          [
+            "Market Price per share",
+            "R395.4904"
+          ],
+          [
+            "Total Value",
+            "R2,823,010.48"
+          ],
+          [
+            "Name of Prescribed Officer",
+            "G Lotz"
+          ],
+          [
+            "Nature of transaction",
+            "On market sale of shares in terms of the above Scheme"
+          ],
+          [
+            "Class of Security",
+            "Ordinary shares"
+          ],
+          [
+            "Nature of interest",
+            "Direct and Beneficial"
+          ],
+          [
+            "Transaction Date",
+            "2025/03/28"
+          ],
+          [
+            "Number of Shares traded",
+            "5,953"
+          ],
+          [
+            "Number of Shares retained",
+            "0"
+          ],
+          [
+            "Market Price per share",
+            "R395.4904"
+          ],
+          [
+            "Total Value",
+            "R2,354,354.35"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>sens7april.htm\n<DESCRIPTION>EX-99.1\n<TEXT>\n<html><head>\n<!-- Document created using Wdesk -->\n<!-- Copyright 2025 Workiva -->\n<title>Document</title></head><body><div id=\"i96ff05594aaf450caadb7c1fde5f03e6_1\"></div><div style=\"min-height:46.8pt;width:100%\"><div style=\"text-align:right\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:700;line-height:120%\">Exhibit 99.1</font></div></div><div><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%\">Gold Fields Limited </font></div><div><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%\">Reg. No. 1968&#47;004880&#47;06) </font></div><div><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%\">(Incorporated in the Republic of South Africa) </font></div><div><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%\">JSE, NYSE, DIFX Share Code&#58; GFI </font></div><div><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%\">ISIN Code&#58;ZAE000018123 </font></div><div><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%\">(&#8220;Gold Fields&#8221; or the &#8220;Company&#8221;) </font></div><div><font><br></font></div><div><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:700;line-height:120%\">DEALING IN SECURITIES </font></div><div><font><br></font></div><div style=\"text-align:justify\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%\">In compliance with paragraphs 3.63 to 3.74 of the Listings Requirements of JSE Limited (the &#8220;Listings Requirements&#34;) the Company hereby advises that Prescribed Officers of Gold Fields accepted and took ownership of their vested Performance Shares which were awarded and vested in terms of the Gold Fields 2012 Share Plan (&#8220;Scheme&#8221;) as amended. </font></div><div style=\"text-align:justify\"><font><br></font></div><div style=\"text-align:justify\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%\">Accordingly, the following consequent trades are announced&#58;</font></div><div style=\"text-align:justify\"><font><br></font></div><div><table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:100.000%\"><tr><td style=\"width:1.0%\"></td><td style=\"width:48.900%\"></td><td style=\"width:0.1%\"></td><td style=\"width:1.0%\"></td><td style=\"width:48.900%\"></td><td style=\"width:0.1%\"></td></tr><tr><td colspan=\"3\" style=\"background-color:#d9d9d9;border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 1pt 2px 3.77pt;text-align:left;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:700;line-height:100%\">Name of Prescribed Officer</font></td><td colspan=\"3\" style=\"background-color:#d9d9d9;border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:700;line-height:100%\">M Preece</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Nature of transaction </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">On market sale of shares in terms of the above Scheme</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Class of Security </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Ordinary shares</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Nature of interest</font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Direct and Beneficial</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Transaction Date </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">2025&#47;03&#47;28</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Number of Shares traded </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">24,844</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Number of Shares retained</font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">28,586</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Market Price per share</font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">R395.4904</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Total Value </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">R9,825,563.50</font></td></tr><tr><td colspan=\"3\" style=\"background-color:#d9d9d9;border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:700;line-height:100%\">Name of Prescribed Officer and Director of Major subsidiary</font></td><td colspan=\"3\" style=\"background-color:#d9d9d9;border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:700;line-height:100%\">KM Carter</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Nature of transaction </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">On market sale of shares in terms of the above Scheme</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Class of Security </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Ordinary shares</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Nature of interest</font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Direct and Beneficial</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Transaction Date </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">2025&#47;03&#47;28</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Number of Shares traded </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">6,374</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Number of Shares retained</font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">0</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Market Price per share</font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">R395.4904</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Total Value </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">R2,520,855.81</font></td></tr><tr><td colspan=\"3\" style=\"background-color:#d9d9d9;border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:700;line-height:100%\">Name of Prescribed Officer</font></td><td colspan=\"3\" style=\"background-color:#d9d9d9;border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:700;line-height:100%\">L Rivera</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Nature of transaction </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">On market sale of shares in terms of the above Scheme</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Class of Security </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Ordinary shares</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Nature of interest</font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Direct and Beneficial</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Transaction Date </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">2025&#47;03&#47;28</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Number of Shares traded </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">52,786</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Number of Shares retained</font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">0</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Market Price per share</font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">R395.4904</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Total Value </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">R20,876,356.25</font></td></tr><tr><td colspan=\"3\" style=\"background-color:#d9d9d9;border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:700;line-height:100%\">Name of Prescribed Officer </font></td><td colspan=\"3\" style=\"background-color:#d9d9d9;border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:700;line-height:100%\">BL Mokoatle</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Nature of transaction </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">On market sale of shares in terms of the above Scheme</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Class of Security </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Ordinary shares</font></td></tr><tr><td colspan=\"3\" style=\"border-bottom:0.5pt solid #000000;border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Nature of interest</font></td><td colspan=\"3\" style=\"border-bottom:0.5pt solid #000000;border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Direct and Beneficial</font></td></tr></table></div><div style=\"height:49.68pt;position:relative;width:100%\"><div style=\"bottom:0;position:absolute;width:100%\"><div><font><br></font></div></div></div><hr style=\"page-break-after:always\"><div style=\"min-height:46.8pt;width:100%\"><div><font><br></font></div></div><div><table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:100.000%\"><tr><td style=\"width:1.0%\"></td><td style=\"width:48.900%\"></td><td style=\"width:0.1%\"></td><td style=\"width:1.0%\"></td><td style=\"width:48.900%\"></td><td style=\"width:0.1%\"></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Transaction Date </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">2025&#47;03&#47;28</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Number of Shares traded </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">7,138</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Number of Shares retained</font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">0</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Market Price per share</font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">R395.4904</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Total Value </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">R2,823,010.48</font></td></tr><tr><td colspan=\"3\" style=\"background-color:#d9d9d9;border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:700;line-height:100%\">Name of Prescribed Officer</font></td><td colspan=\"3\" style=\"background-color:#d9d9d9;border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:700;line-height:100%\">G Lotz</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Nature of transaction </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">On market sale of shares in terms of the above Scheme</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Class of Security </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Ordinary shares</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Nature of interest</font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Direct and Beneficial</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Transaction Date </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">2025&#47;03&#47;28</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Number of Shares traded </font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">5,953</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Number of Shares retained</font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">0</font></td></tr><tr><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Market Price per share</font></td><td colspan=\"3\" style=\"border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">R395.4904</font></td></tr><tr><td colspan=\"3\" style=\"border-bottom:0.5pt solid #000000;border-left:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">Total Value </font></td><td colspan=\"3\" style=\"border-bottom:0.5pt solid #000000;border-left:0.5pt solid #000000;border-right:0.5pt solid #000000;border-top:0.5pt solid #000000;padding:2px 3.77pt 2px 1pt;text-align:justify;vertical-align:top\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:100%\">R2,354,354.35</font></td></tr></table></div><div style=\"text-align:justify\"><font><br></font></div><div style=\"text-align:justify\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%\">In terms of paragraph 3.66 of the Listings requirements the necessary clearance to deal in the above securities has been obtained. </font></div><div style=\"text-align:justify\"><font><br></font></div><div style=\"text-align:justify\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%\">3 April 2025 </font></div><div style=\"text-align:justify\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%\">Sponsor&#58; </font></div><div style=\"text-align:justify\"><font style=\"color:#000000;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%\">J.P. Morgan Equities South Africa (Pty) Ltd</font></div><div><font><br></font></div><div style=\"height:49.68pt;position:relative;width:100%\"><div style=\"bottom:0;position:absolute;width:100%\"><div><font><br></font></div></div></div></body></html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

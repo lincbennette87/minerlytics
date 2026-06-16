@@ -1,0 +1,2998 @@
+EX-99.1
+2
+ex991.htm
+UNAUDITED CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS FOR THE PERIODS ENDING SEPTEMBER 30, 2024 AND 2023
+
+ 
+
+EXHIBIT 99.1
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Condensed
+Interim Consolidated Financial Statements
+
+September 30, 2024 and 2023
+
+(expressed in thousands of Canadian dollars)
+- Unaudited
+
+ 
+
+ 
+ 
+ 
+
+NexGen Energy Ltd.
+
+Condensed Interim Consolidated Statements of Financial Position
+
+(expressed in thousands of Canadian Dollars) - Unaudited
+
+ 
+
+ 
+
+ 
+ 
+ September 30, 2024 
+ December 31, 2023 
+ January 1, 2023
+ 
+ Assets 
+ 
+ Restated - Note 3(d) 
+ Restated - Note 3(d) 
+ 
+ Current assets 
+ 
+ 
+ 
+ 
+ Cash 
+ $537,766 
+ $290,743 
+ $134,447 
+ 
+ Marketable securities 
+ — 
+ — 
+ 5,775 
+ 
+ Amounts receivable 
+ 1,238 
+ 1,940 
+ 1,801 
+ 
+ Prepaid expenses and other assets 
+ 5,197 
+ 13,770 
+ 2,165 
+ 
+ Lease receivable
+ (Note 10(a)) 
+ 512 
+ 512 
+ — 
+ 
+ 
+ 544,713 
+ 306,965 
+ 144,188 
+ 
+ Non-current assets 
+ 
+ 
+ 
+ 
+ Exploration and evaluation assets (Note 5) 
+ 549,296 
+ 451,356 
+ 405,248 
+ 
+ Property and equipment (Note 6) 
+ 5,859 
+ 5,404 
+ 5,048 
+ 
+ Investment in associate (Note 7) 
+ 239,436 
+ 240,116 
+ — 
+ 
+ Deposits 
+ 82 
+ 82 
+ 76 
+ 
+ Strategic inventory (Note 8) 
+ 341,150 
+ — 
+ — 
+ 
+ Lease receivable (Note 10(a)) 
+ 3,118 
+ 3,502 
+ — 
+ 
+ Total assets 
+ $1,683,654 
+ $1,007,425 
+ $554,560 
+ 
+ 
+ 
+ 
+ 
+ 
+ Liabilities 
+ 
+ 
+ 
+ 
+ Current liabilities 
+ 
+ 
+ 
+ 
+ Accounts payable and accrued liabilities (Note 9) 
+ $37,660 
+ $26,986 
+ $13,723 
+ 
+ Lease liabilities (Note 10(c)) 
+ 990 
+ 926 
+ 775 
+ 
+ Flow-through share premium liability 
+ — 
+ — 
+ 2,069 
+ 
+ Convertible debentures (Note 9) 
+ 429,924 
+ 158,478 
+ 80,021 
+ 
+ 
+ 468,574 
+ 186,390 
+ 96,588 
+ 
+ Non-current liabilities 
+ 
+ 
+ 
+ 
+ Long-term lease liabilities (Note 10(c)) 
+ 266 
+ 1,016 
+ 1,688 
+ 
+ Deferred income tax liabilities 
+ — 
+ — 
+ 867 
+ 
+ Total liabilities 
+ $468,840 
+ $187,406 
+ $99,143 
+ 
+ 
+ 
+ 
+ 
+ 
+ Equity 
+ 
+ 
+ 
+ 
+ Share capital (Note 11) 
+ $1,388,054 
+ $1,009,130 
+ $712,603 
+ 
+ Reserves (Note 11) 
+ 132,783 
+ 116,934 
+ 94,680 
+ 
+ Accumulated other comprehensive income (deficit) 
+ 9,153 
+ (2,041) 
+ 460 
+ 
+ Accumulated deficit 
+ (315,176) 
+ (304,004) 
+ (389,867)
+ 
+ Equity attributable to NexGen Energy Ltd. shareholders 
+ 1,214,814 
+ 820,019 
+ 417,876 
+ 
+ Non-controlling interests 
+ — 
+ — 
+ 37,541 
+ 
+ Total equity 
+ 1,214,814 
+ 820,019 
+ 455,417 
+ 
+ Total liabilities and equity 
+ $1,683,654 
+ $1,007,425 
+ $554,560 
+ 
+
+ 
+
+Nature of operations (Note 2)
+
+Commitments (Note 14)
+
+ 
+
+ 
+
+ The
+accompanying notes are an integral part of these consolidated financial statements. 
+
+ 1 
+ 
+ 
+
+NexGen Energy Ltd.
+
+Condensed Interim Consolidated Statements of Net Income (Loss) and Comprehensive Income (Loss)
+
+(expressed in thousands
+of Canadian Dollars, except per share and share information) - Unaudited
+
+ 
+
+ 
+
+ 
+ 
+ Three months ended September 30, 
+ Nine months ended September 30,
+ 
+ 
+ 2024 
+ 2023 
+ 2024 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Expenses 
+ 
+ 
+ 
+ 
+ 
+ Salaries, benefits and directors’ fees 
+ $2,363 
+ $2,185 
+ $7,732 
+ $7,204 
+ 
+ Office, administrative, and travel 
+ 4,540 
+ 4,406 
+ 14,305 
+ 10,012 
+ 
+ Professional fees and insurance 
+ 2,993 
+ 6,661 
+ 9,805 
+ 12,631 
+ 
+ Depreciation (Note 6) 
+ 580 
+ 483 
+ 1,660 
+ 1,308 
+ 
+ Share-based payments (Note 11(b)) 
+ 8,236 
+ 10,901 
+ 20,320 
+ 23,074 
+ 
+ 
+ (18,712) 
+ (24,636) 
+ (53,822) 
+ (54,229)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Finance income 
+ 6,277 
+ 1,103 
+ 15,705 
+ 3,706 
+ 
+ Mark-to-market gain (loss) on convertible debentures (Note 9) 
+ 32,867 
+ (39,619) 
+ 46,299 
+ (38,495)
+ 
+ Interest expense on convertible debentures (Note 9) 
+ (11,295) 
+ (991) 
+ (20,726) 
+ (2,369)
+ 
+ Interest on lease liabilities (Note 10(c)) 
+ (25) 
+ (37) 
+ (89) 
+ (121)
+ 
+ Share of net income (loss) from associate (Note 7) 
+ 1,359 
+ — 
+ (2,158) 
+ — 
+ 
+ Loss on dilution of ownership interest in associate (Note 7) 
+ (256) 
+ — 
+ (101) 
+ — 
+ 
+ Loss on disposal of assets 
+ — 
+ (12) 
+ — 
+ (12)
+ 
+ Foreign exchange gain (loss) 
+ (474) 
+ 680 
+ 323 
+ 145 
+ 
+ Other expense 
+ — 
+ — 
+ (159) 
+ — 
+ 
+ Income (loss) before taxes 
+ 9,741 
+ (63,512) 
+ (14,728) 
+ (91,375)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Deferred income tax recovery 
+ 511 
+ 316 
+ 3,556 
+ 1,574 
+ 
+ Net income (loss) 
+ 10,252 
+ (63,196) 
+ (11,172) 
+ (89,801)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Items that may not be reclassified subsequently to profit or loss: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Change in fair value of convertible debenture attributable to the change in credit risk (Note 9) 
+ 1,894 
+ 327 
+ 13,171 
+ 239 
+ 
+ Change in fair value of marketable securities 
+ — 
+ 33 
+ — 
+ (534)
+ 
+ Deferred income tax expense 
+ (511) 
+ (94) 
+ (3,556) 
+ (20)
+ 
+ Share of other comprehensive income (loss) of associate (Note 7) 
+ (168) 
+ — 
+ 1,579 
+ — 
+ 
+ Net comprehensive income (loss) 
+ $11,467 
+ $(62,930) 
+ $22 
+ $(90,116)
+ 
+ Net income (loss) attributable to: 
+ 
+ 
+ 
+ 
+ 
+ Shareholders of NexGen Energy Ltd. 
+ $10,252 
+ $(52,135) 
+ $(11,172) 
+ $(78,085)
+ 
+ Non-controlling interests 
+ — 
+ (11,061) 
+ — 
+ (11,716)
+ 
+ 
+ $10,252 
+ $(63,196) 
+ $(11,172) 
+ $(89,801)
+ 
+ Net comprehensive income (loss) attributable to: 
+ 
+ 
+ 
+ 
+ 
+ Shareholders of NexGen Energy Ltd. 
+ $11,467 
+ $(51,834) 
+ $22 
+ $(78,076)
+ 
+ Non-controlling interests 
+ — 
+ (11,096) 
+ — 
+ (12,040)
+ 
+ 
+ $11,467 
+ $(62,930) 
+ $22 
+ $(90,116)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Earnings (loss) per share attributable to NexGen Energy Ltd. shareholders (Note 15) 
+ 
+ 
+ 
+ 
+ 
+ Basic earnings (loss) per share 
+ $0.02 
+ $(0.11) 
+ $(0.02) 
+ $(0.16)
+ 
+ Diluted loss per share 
+ $(0.02) 
+ $(0.11) 
+ $(0.02) 
+ $(0.16)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Weighted average common shares outstanding (Note 15) 
+ 
+ 
+ 
+ 
+ 
+ Basic 
+ 564,693,987 
+ 491,274,394 
+ 550,962,116 
+ 489,872,514 
+ 
+ Diluted 
+ 621,899,927 
+ 491,274,394 
+ 550,962,116 
+ 489,872,514 
+ 
+
+ 
+
+ 
+
+ 
+
+ The
+accompanying notes are an integral part of these consolidated financial statements. 
+
+ 2 
+ 
+ 
+
+NexGen Energy Ltd.
+
+Condensed Interim Consolidated Statements of Cash Flows
+
+(expressed in thousands of Canadian dollars) - Unaudited
+
+ 
+
+ 
+
+ 
+ 
+ Three months ended
+ September 30, 
+ Nine
+months ended
+ September 30,
+ 
+ 
+ 2024 
+ 2023 
+ 2024 
+ 2023
+ 
+ Net income (loss) for the period: 
+ $10,252 
+ $(63,196) 
+ $(11,172) 
+ $(89,801)
+ 
+ Adjust for: 
+ 
+ 
+ 
+ 
+ 
+ Depreciation (Note 6) 
+ 580 
+ 483 
+ 1,660 
+ 1,308 
+ 
+ Share-based payments (Note 11(b)) 
+ 8,236 
+ 10,901 
+ 20,320 
+ 23,074 
+ 
+ Mark-to-market (gain) loss on convertible debenture (Note 9) 
+ (32,867) 
+ 39,619 
+ (46,299) 
+ 38,495 
+ 
+ Interest expense on convertible debentures (Note 9) 
+ 11,295 
+ 991 
+ 20,726 
+ 2,369 
+ 
+ Interest on lease liabilities (Note 10(c)) 
+ 25 
+ 37 
+ 89 
+ 121 
+ 
+ Share of net (income) loss from associate (Note 7) 
+ (1,359) 
+ — 
+ 2,158 
+ — 
+ 
+ Loss on dilution of ownership interest in associate (Note 7) 
+ 256 
+ — 
+ 101 
+ — 
+ 
+ Deferred income tax recovery 
+ (511) 
+ (316) 
+ (3,556) 
+ (1,574)
+ 
+ Unrealized foreign exchange (gain) loss 
+ 654 
+ (334) 
+ (143) 
+ (3)
+ 
+ Loss on disposal of assets 
+ — 
+ 12 
+ — 
+ 12 
+ 
+ Other expense 
+ — 
+ — 
+ 159 
+ — 
+ 
+ Operating cash flows before working capital 
+ (3,439) 
+ (11,803) 
+ (15,957) 
+ (25,999)
+ 
+ Changes in working capital items: 
+ 
+ 
+ 
+ 
+ 
+ Amounts receivable 
+ 87 
+ (428) 
+ 617 
+ 256 
+ 
+ Prepaid expenses and other 
+ 111 
+ 3,932 
+ 2,090 
+ (4,249)
+ 
+ Accounts payable and accrued liabilities 
+ 405 
+ 1,016 
+ (1,309) 
+ (12)
+ 
+ Deposits 
+ — 
+ (5) 
+ — 
+ (5)
+ 
+ Cash used in operating activities 
+ $(2,836) 
+ $(7,288) 
+ $(14,559) 
+ $(30,009)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Expenditures on exploration and evaluation assets (Note 5) 
+ (31,499) 
+ (27,116) 
+ (90,446) 
+ (68,317)
+ 
+ Acquisition of marketable securities 
+ — 
+ — 
+ — 
+ (2,000)
+ 
+ Acquisition of property and equipment (Note 6) 
+ (529) 
+ (1,207) 
+ (2,274) 
+ (5,655)
+ 
+ Cash used in investing activities 
+ $(32,028) 
+ $(28,323) 
+ $(92,720) 
+ $(75,972)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Proceeds from at-the-market equity program, net of issuance costs (Note 11) 
+ — 
+ 150,217 
+ 130,237 
+ 177,255 
+ 
+ Proceeds from ASX CDI offering, net of issuance costs (Note 11) 
+ (541) 
+ — 
+ 215,780 
+ — 
+ 
+ Issuance of convertible debentures, net of issuance costs (Note 9) 
+ — 
+ 147,955 
+ — 
+ 147,955 
+ 
+ Proceeds from exercise of options 
+ 1,859 
+ 7,661 
+ 13,596 
+ 18,845 
+ 
+ Payment of lease liabilities (Note 10(c)) 
+ (260) 
+ (234) 
+ (775) 
+ (695)
+ 
+ Interest paid on convertible debentures 
+ — 
+ (304) 
+ (4,536) 
+ (1,241)
+ 
+ Cash provided by financing activities 
+ $1,058 
+ $305,295 
+ $354,302 
+ $342,119 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Realized foreign exchange gain (loss) on cash 
+ (791) 
+ 189 
+ — 
+ (141)
+ 
+ Increase (decrease) in cash 
+ $(34,597) 
+ $269,873 
+ $247,023 
+ $235,997 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash, beginning of period 
+ 572,363 
+ 100,571 
+ 290,743 
+ 134,447 
+ 
+ Increase (decrease) in cash 
+ (34,597) 
+ 269,873 
+ 247,023 
+ 235,997 
+ 
+ Cash, end of period 
+ $537,766 
+ $370,444 
+ $537,766 
+ $370,444 
+ 
+
+ 
+
+Supplemental cash flow information (Note 12)
+
+ 
+
+ The
+accompanying notes are an integral part of these consolidated financial statements. 
+
+ 
+
+ 3 
+ 
+ 
+
+NexGen
+Energy Ltd. 
+Condensed Interim Consolidated Statements of Changes in Equity 
+(expressed in thousands of Canadian dollars, except share information) - Unaudited
+
+ 
+
+ 
+
+ 
+ 
+ Share Capital 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Common Shares 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number 
+ Amount 
+ Reserves 
+ Accumulated
+ Other
+ Comprehensive
+ Income (Loss) 
+ Accumulated
+ Deficit 
+ Attributable to
+ shareholder’s
+ of NexGen
+ Energy Ltd. 
+ Non-
+ controlling
+ interests 
+ Total
+ 
+ Balance at December 31, 2022 
+ 482,530,145 
+ $712,603 
+ $94,680 
+ $460 
+ $(389,867) 
+ $417,876 
+ $37,541 
+ $455,417 
+ 
+ At-the-market equity program, net of issuance costs (Note 11) 
+ 24,724,125 
+ 175,299 
+ — 
+ — 
+ — 
+ 175,299 
+ — 
+ 175,299 
+ 
+ Share-based payments (Note 11(b)) 
+ — 
+ — 
+ 22,719 
+ — 
+ — 
+ 22,719 
+ 4,672 
+ 27,391 
+ 
+ Shares issued on exercise of stock options (Note 11(b)) 
+ 5,655,482 
+ 29,838 
+ (11,412) 
+ — 
+ — 
+ 18,426 
+ — 
+ 18,426 
+ 
+ Shares issued on convertible debentures conversion (Note 9) 
+ 8,663,461 
+ 72,773 
+ — 
+ — 
+ — 
+ 72,773 
+ — 
+ 72,773 
+ 
+ Shares issued for convertible debenture interest payments (Note 9) 
+ 65,560 
+ 434 
+ — 
+ — 
+ — 
+ 434 
+ — 
+ 434 
+ 
+ Shares issued for convertible debenture establishment fee (Note 9) 
+ 634,615 
+ 4,443 
+ — 
+ — 
+ — 
+ 4,443 
+ — 
+ 4,443 
+ 
+ Ownership changes relating to non-controlling interests 
+ — 
+ — 
+ — 
+ — 
+ 279 
+ 279 
+ 307 
+ 586 
+ 
+ Net loss for the period 
+ — 
+ — 
+ — 
+ — 
+ (78,085) 
+ (78,085) 
+ (11,716) 
+ (89,801)
+ 
+ Reclass accumulated other comprehensive income related to converted debentures (Note 9) 
+ — 
+ — 
+ — 
+ 361 
+ (361) 
+ — 
+ — 
+ — 
+ 
+ Other comprehensive loss 
+ — 
+ — 
+ — 
+ 9 
+ — 
+ 9 
+ (324) 
+ (315)
+ 
+ Balance at September 30, 2023 
+ 522,273,388 
+ $995,390 
+ $105,987 
+ $830 
+ $(468,034) 
+ $634,173 
+ $30,480 
+ $664,653 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance at December 31, 2023 
+ 525,340,525 
+ $1,009,130 
+ $116,934 
+ $(2,041) 
+ $(304,004) 
+ $820,019 
+ $— 
+ $820,019 
+ 
+ At-the-market equity program, net of issuance costs (Note 11) 
+ 13,000,800 
+ 129,955 
+ — 
+ — 
+ — 
+ 129,955 
+ — 
+ 129,955 
+ 
+ Shares issued on ASX CDI Offering, net of issuance costs (Note 11) 
+ 20,161,290 
+ 215,664 
+ — 
+ — 
+ — 
+ 215,664 
+ — 
+ 215,664 
+ 
+ Share-based payments (Note 11(b)) 
+ — 
+ — 
+ 23,235 
+ — 
+ — 
+ 23,235 
+ — 
+ 23,235 
+ 
+ Shares issued on exercise of stock options (Note 11(b)) 
+ 5,368,673 
+ 20,982 
+ (7,386) 
+ — 
+ — 
+ 13,596 
+ — 
+ 13,596 
+ 
+ Shares issued for convertible debenture interest payments (Note 9) 
+ 215,219 
+ 2,088 
+ — 
+ — 
+ — 
+ 2,088 
+ — 
+ 2,088 
+ 
+ Shares issued for convertible debentures establishment fee (Note 9) 
+ 909,090 
+ 10,235 
+ — 
+ — 
+ — 
+ 10,235 
+ — 
+ 10,235 
+ 
+ Net loss for the period 
+ — 
+ — 
+ — 
+ — 
+ (11,172) 
+ (11,172) 
+ — 
+ (11,172)
+ 
+ Other comprehensive income 
+ — 
+ — 
+ — 
+ 11,194 
+ — 
+ 11,194 
+ — 
+ 11,194 
+ 
+ Balance at September 30, 2024 
+ 564,995,597 
+ $1,388,054 
+ $132,783 
+ $9,153 
+ $(315,176) 
+ $1,214,814 
+ $— 
+ $1,214,814 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ The
+accompanying notes are an integral part of these consolidated financial statements. 
+
+ 
+
+ 
+
+ 
+
+ 4 
+ NexGen Energy Ltd.Notes to the Condensed Interim Consolidated Financial StatementsFor the three and nine months ended September 30, 2024 and 2023(expressed in thousands of Canadian dollars, except as otherwise stated) - Unaudited
+ 
+
+1.REPORTING ENTITY
+
+NexGen Energy Ltd. (“NexGen”
+or the “Company”) is an exploration and development stage entity engaged in the acquisition, exploration and evaluation and
+development of uranium properties in Canada. The Company was incorporated pursuant to the provisions of the British Columbia Business
+Corporations Act on March 8, 2011. The Company’s registered records office is located on the 25th Floor, 700 West Georgia Street,
+Vancouver, B.C., V7Y 1B3.
+
+The Company is listed on the Toronto Stock
+Exchange (the “TSX”) under the symbol “NXE” and is a reporting issuer in each of the provinces of Canada. On July
+2, 2021, the Company commenced trading on the Australian Stock Exchange (the “ASX”) under the symbol “NXG”.
+On March 4, 2022, the Company up-listed from NYSE American exchange (the “NYSE American”) and began trading on the New York
+Stock Exchange (“NYSE”) under the symbol “NXE”.
+
+The Company has three wholly owned subsidiaries:
+NXE Energy Royalty Ltd., NXE Energy SW1 Ltd., and NXE Energy SW3 Ltd. (collectively, the “Subsidiaries”). The Subsidiaries
+were incorporated to hold certain exploration assets of the Company. In 2016, certain exploration and evaluation assets were transferred
+to each of IsoEnergy Ltd. (“IsoEnergy”), NXE Energy SW1 Ltd. and NXE Energy SW3 Ltd. Subsequent to the transfer, IsoEnergy
+shares were listed on the TSX-V.
+
+On December 5, 2023, NexGen deconsolidated
+IsoEnergy due to the completion of a merger between IsoEnergy and Consolidated Uranium Inc., which resulted in NexGen losing control of
+IsoEnergy. The Company’s investment in IsoEnergy has been accounted for using the equity method of accounting from this date. The
+Company owns approximately 32.8% of IsoEnergy’s outstanding common shares as of September 30, 2024 (December 31, 2023 - 33.9%).
+IsoEnergy’s shares commenced trading on the TSX on July 8, 2024 and ceased trading on the TSX-V at the close of business on July
+5, 2024.
+
+2.NATURE OF OPERATIONS
+
+As an exploration and development stage
+company, the Company does not have revenues and historically has recurring operating losses. As at September 30, 2024, the Company had
+an accumulated deficit of $315,176, working capital of $76,139 including the convertible debentures, and $537,766 of cash. Although the
+Company will be required to obtain additional funding to continue with the exploration and development of its mineral properties, the
+Company has sufficient working capital to meet its current obligations for at least the next fifteen months.
+
+The business of exploring for minerals
+and development of projects involves a high degree of risk. NexGen is an exploration and development company and is subject to risks and
+challenges similar to companies in a comparable stage. These risks include, but are not limited to, development and operational risks
+inherent in the mining industry; changes in government policies and regulations; the ability to obtain the necessary environmental permits
+or, alternatively NexGen's ability to dispose of its exploration and evaluation assets on an advantageous basis; as well as global economic
+and uranium price volatility; and the challenges of securing adequate capital; all of which are uncertain.
+
+The underlying value of the exploration
+and evaluation assets is dependent upon the existence and economic recovery of mineral reserves and is subject to, but not limited to,
+the risks and challenges identified above. Changes in future conditions could require material write-downs of the carrying value of exploration
+and evaluation assets.
+
+3.BASIS OF PREPARATION AND MATERIAL ACCOUNTING POLICIES
+
+a)Basis of Presentation
+
+These condensed interim consolidated
+financial statements have been prepared in accordance with International Accounting Standard (“IAS”) 34, Interim Financial
+Reporting, using accounting policies consistent with International Financial Reporting Standards (“IFRS”) as issued by the
+International Accounting Standards Board. Certain disclosures required by IFRS have been condensed or omitted in the following note disclosures
+as they are disclosed or have been disclosed on an annual basis only. Accordingly, these condensed interim consolidated financial statements
+should be read in conjunction with the consolidated financial statements for the years ended December 31, 2023 and 2022 (“annual
+financial statements”), which have been prepared in accordance with IFRS. These condensed interim consolidated financial statements
+follow the same accounting policies and methods of application as the annual financial statements except for the net realizable value
+assessment related to strategic inventory (Note 3(c)), and the adoption of amendments to IAS 1 as in Note 3(d).
+
+On November 7, 2024, the Board of Directors
+authorized these financial statements for issuance.
+
+ 5 
+ NexGen Energy Ltd.Notes to the Condensed Interim Consolidated Financial StatementsFor the three and nine months ended September 30, 2024 and 2023(expressed in thousands of Canadian dollars, except as otherwise stated) - Unaudited
+ 
+
+b)Basis of Consolidation
+
+ 
+
+The accounts of the subsidiaries
+controlled by the Company are included in the condensed interim consolidated financial statements from the date that control commenced
+until the date that control ceases. Control is achieved where the Company has the power to govern the financial and operating policies
+of an entity so as to obtain benefits from its activities. The subsidiaries of the Company and their geographic locations at September
+30, 2024 are as follows:
+
+ 
+ 
+ 
+ Name of Subsidiary
+ 
+ 
+ Location
+ 
+ 
+ Percentage Ownership 
+ 
+ 
+ NXE Energy Royalty Ltd.
+ Canada
+ 100%
+ 
+ NXE Energy SW1 Ltd.
+ Canada
+ 100%
+ 
+ NXE Energy SW3 Ltd.
+ Canada
+ 100%
+ 
+ 
+
+Intercompany balances, transactions,
+income and expenses arising from intercompany transactions are eliminated in full on consolidation.
+
+c)Adoption of material accounting policies
+
+Inventories
+
+Inventories are measured at the lower
+of cost and net realizable value at each reporting period. Cost is comprised of cost of purchase and other costs incurred in bringing
+the inventories to their present location and condition. Net realizable value is based on the most reliable evidence available at the
+time the estimates are made, of the amount the inventories are expected to realize in the time period the inventories are expected to
+be sold. Inventories that are not expected to be sold within 12 months are classified as strategic inventory, a non-current asset.
+
+d)Adoption of new accounting standards
+
+Amendments to IAS 1 related to the
+Classification of Liabilities as Current or Non-Current, as issued in 2020, aim to clarify the requirements on determining whether a liability
+is current or non-current, and apply retrospectively for annual reporting periods beginning on or after January 1, 2024. Among other items,
+the amendments clarify how a company classifies a liability that can be settled in its own shares.
+
+Under the amendments to IAS 1,
+when a liability includes a counterparty conversion option that may be settled in the Company’s common shares, the Company takes
+into account the conversion option in classifying the liability as current or non-current, except when it is classified as an equity component
+of a compound instrument. Previously, the Company did not take the conversion options of the counterparty to the Company’s convertible
+debentures into account when classifying the convertible debentures as current or non-current.
+
+The Company has applied the amendments
+retrospectively for the period ended September 30, 2024, resulting in the balance of principal outstanding for the convertible debentures
+being classified in full as a current liability and restated for comparative periods December 31, 2023 and January 1, 2023.
+
+4.CRITICAL ACCOUNTING JUDGMENTS, ESTIMATES AND ASSUMPTIONS IN ACCOUNTING POLICIES
+
+The significant judgments, estimates and
+assumptions made by management in applying the Company’s accounting policies are consistent with those that applied to the annual
+financial statements, except for the net realizable value assessment related to strategic inventory (Note 3(c)), and actual results may
+differ from these estimates.
+
+ 6 
+ NexGen Energy Ltd.Notes to the Condensed Interim Consolidated Financial StatementsFor the three and nine months ended September 30, 2024 and 2023(expressed in thousands of Canadian dollars, except as otherwise stated) - Unaudited
+ 
+
+ 
+
+5.EXPLORATION AND EVALUATION ASSETS
+
+ 
+ 
+ Rook I 
+ Other Athabasca
+ Basin Properties 
+ IsoEnergy
+ Properties 
+ Total
+ 
+ Acquisition Cost 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance at December 31, 2023 
+ $235 
+ $1,459 
+ 
+ $— $
+ 1,694
+ 
+ Additions 
+ — 
+ — 
+ 
+ — $
+ —
+ 
+ Balance as at September 30, 2024 
+ $235 
+ $1,459 
+ 
+ $— $
+ 1,694
+ 
+ Deferred exploration costs 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance at December 31, 2023 
+ 428,398 
+ 21,264 
+ 
+ — 
+ 449,662
+ 
+ Additions: 
+ 
+ 
+ 
+ 
+ 
+ 
+ Camp and infrastructure 
+ 13,510 
+ — 
+ 
+ — 
+ 13,510
+ 
+ General exploration and drilling 
+ 20,287 
+ 613 
+ 
+ — 
+ 20,900
+ 
+ Environmental, permitting, and engagement 
+ 12,125 
+ — 
+ 
+ — 
+ 12,125
+ 
+ Technical, engineering and design 
+ 26,449 
+ — 
+ 
+ — 
+ 26,449
+ 
+ Geological and geophysical 
+ 166 
+ 1,583 
+ 
+ — 
+ 1,749
+ 
+ Labour and wages 
+ 18,869 
+ 383 
+ 
+ — 
+ 19,252
+ 
+ Share-based payments (Note 11(b)) 
+ 2,915 
+ — 
+ 
+ — 
+ 2,915
+ 
+ Travel 
+ 1,040 
+ — 
+ 
+ — 
+ 1,040
+ 
+ Total Additions 
+ 95,361 
+ 2,579 
+ 
+ — 
+ 97,940
+ 
+ Balance as at September 30, 2024 
+ $523,759 
+ $23,843 
+ 
+ $— $
+ 547,602
+ 
+ Total costs, September 30, 2024 
+ $523,994 
+ $25,302 
+ 
+ $— $
+ 549,296
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Rook I 
+ Other Athabasca
+ Basin Properties 
+ 
+ IsoEnergy
+ Properties 
+ Total
+ 
+ Acquisition cost 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance at December 31, 2022 
+ $235 
+ $1,458 
+ 
+ $26,628 $
+ 28,321
+ 
+ Additions 
+ — 
+ 1 
+ 
+ 4 
+ 5
+ 
+ Disposals due to deconsolidation of IsoEnergy 
+ — 
+ — 
+ 
+ (26,632) 
+ (26,632)
+ 
+ Balance as at December 31, 2023 
+ $235 
+ $1,459 
+ 
+ $— $
+ 1,694
+ 
+ Deferred exploration costs 
+ 
+ 
+ 
+ 
+ 
+ 
+ Balance at December 31, 2022 
+ $329,012 
+ $9,603 
+ 
+ $38,312 $
+ 376,927
+ 
+ Additions: 
+ 
+ 
+ 
+ 
+ 
+ 
+ General exploration and drilling 
+ 6,488 
+ 7,574 
+ 
+ 5,514 
+ 19,576
+ 
+ Environmental, permitting, and engagement 
+ 17,583 
+ — 
+ 
+ — 
+ 17,583
+ 
+ Technical, engineering and design 
+ 59,863 
+ — 
+ 
+ 54 
+ 59,917
+ 
+ Geochemistry and assays 
+ — 
+ — 
+ 
+ 143 
+ 143
+ 
+ Geological and geophysical 
+ 323 
+ 2,978 
+ 
+ 2,732 
+ 6,033
+ 
+ Labour and wages 
+ 14,796 
+ 1,109 
+ 
+ 1,048 
+ 16,953
+ 
+ Share-based payments 
+ 5,605 
+ — 
+ 
+ 1,262 
+ 6,867
+ 
+ Travel 
+ 954 
+ — 
+ 
+ 303 
+ 1,257
+ 
+ Total Additions 
+ 105,612 
+ 11,661 
+ 
+ 11,056 
+ 128,329
+ 
+ Disposals due to deconsolidation of IsoEnergy 
+ (6,226) 
+ 
+ 
+ (49,368) 
+ (55,594)
+ 
+ Balance as at December 31, 2023 
+ $428,398 
+ $21,264 
+ 
+ $— $
+ 449,662
+ 
+ Total costs, December 31, 2023 
+ $428,633 
+ $22,723 
+ 
+ $— $
+ 451,356
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 7 
+ NexGen Energy Ltd.Notes to the Condensed Interim Consolidated Financial StatementsFor the three and nine months ended September 30, 2024 and 2023(expressed in thousands of Canadian dollars, except as otherwise stated) - Unaudited
+ 
+
+ 
+
+6.PROPERTY AND EQUIPMENT
+
+ 
+ 
+ Machinery and
+ Equipment 
+ Computer
+ Equipment and
+ Software 
+ Other 
+ Total
+ 
+ Cost 
+ 
+ 
+ 
+ 
+ 
+ As at December 31, 2022 
+ $6,665 
+ $1,978 
+ $5,891 
+ $14,534 
+ 
+ Additions 
+ 6,009 
+ 66 
+ 253 
+ 6,328 
+ 
+ Disposals 
+ (101) 
+ — 
+ — 
+ (101)
+ 
+ Transfer to lease receivable (Note 10(a)) 
+ (4,100) 
+ — 
+ — 
+ (4,100)
+ 
+ Disposals due to deconsolidation of IsoEnergy 
+ (107) 
+ (65) 
+ — 
+ (172)
+ 
+ As at December 31, 2023 
+ $8,366 
+ $1,979 
+ $6,144 
+ $16,489 
+ 
+ Additions 
+ 2,109 
+ 165 
+ — 
+ 2,274 
+ 
+ Disposals 
+ (159) 
+ • 
+ — 
+ (159)
+ 
+ Balance as at September 30, 2024 
+ $10,316 
+ $2,144 
+ $6,144 
+ $18,604 
+ 
+ Accumulated Depreciation 
+ 
+ 
+ 
+ 
+ 
+ As at December 31, 2022 
+ $4,703 
+ $1,731 
+ $3,098 
+ $9,532 
+ 
+ Depreciation 
+ 626 
+ 162 
+ 980 
+ 1,768 
+ 
+ Disposals 
+ (81) 
+ — 
+ — 
+ (81)
+ 
+ Disposals due to deconsolidation of IsoEnergy 
+ (69) 
+ (65) 
+ — 
+ (134)
+ 
+ Balance as at December 31, 2023 
+ $5,179 
+ $1,828 
+ $4,078 
+ $11,085 
+ 
+ Depreciation 
+ 770 
+ 97 
+ 793 
+ 1,660 
+ 
+ Balance as at September 30, 2024 
+ $5,949 
+ $1,925 
+ $4,871 
+ $12,745 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net book value at December 31,2023 
+ $3,187 
+ $151 
+ $2,066 
+ $5,404 
+ 
+ Net book value at September 30, 2024 
+ $4,367 
+ $219 
+ $1,273 
+ $5,859 
+ 
+
+7.INVESTMENT IN ASSOCIATE
+
+ 
+ 
+ IsoEnergy Ltd.
+ 
+ Balance, December 31, 2022 
+ $— 
+ 
+ Fair value of retained interest in IsoEnergy on December 5, 2023 
+ 239,735 
+ 
+ Share of net income from associate 
+ 920 
+ 
+ Share of other comprehensive loss from associate 
+ (539)
+ 
+ Balance, December 31, 2023 
+ $240,116 
+ 
+ Loss on dilution of ownership interest in associate 
+ (101)
+ 
+ Share of net loss from associate 
+ (2,158)
+ 
+ Share of other comprehensive income from associate 
+ 1,579 
+ 
+ Balance, September 30, 2024 
+ $239,436 
+ 
+ Fair value of investment in associate as at September 30, 2024 
+ $203,394 
+ 
+
+The fair value of the investment in associate as at
+September 30, 2024 is measured using the closing market price of IsoEnergy on September 30, 2024.
+
+ 8 
+ NexGen Energy Ltd.Notes to the Condensed Interim Consolidated Financial StatementsFor the three and nine months ended September 30, 2024 and 2023(expressed in thousands of Canadian dollars, except as otherwise stated) - Unaudited
+ 
+
+ 
+
+Summarized financial information for
+IsoEnergy is as follows:
+
+ 
+ 
+ Nine
+months ended
+ September 30, 2024 
+ Year ended
+ December 31, 2023
+ 
+ Cash 
+ $35,755 
+ $37,033 
+ 
+ Other current assets 
+ 1,916 
+ 1,192 
+ 
+ Marketable securities 
+ 32,474 
+ 17,036 
+ 
+ Non-current assets 
+ 309,692 
+ 291,937 
+ 
+ Total assets 
+ $379,837 
+ $347,198 
+ 
+ 
+ 
+ 
+ 
+ Current liabilities 
+ 42,222 
+ 41,065 
+ 
+ Non-current liabilities 
+ 6,150 
+ 3,113 
+ 
+ Total liabilities 
+ $48,372 
+ $44,178 
+ 
+ 
+ 
+ 
+ 
+ Net loss 
+ $(6,630) 
+ $(18,689)
+ 
+ Other comprehensive income (loss) 
+ $4,653 
+ $(2,618)
+ 
+ Total comprehensive income (loss) 
+ $(1,977) 
+ $(21,307)
+ 
+
+8.STRATEGIC INVENTORY
+
+On May 28, 2024, the Company closed
+an agreement to purchase 2,702,410 pounds of natural uranium concentrate (“U3O8”) for an aggregate purchase
+price of $341,150 (US$250 million), which was satisfied through the issuance of US$250 million aggregate principal amount of five year,
+9.0% per annum unsecured convertible debentures (the “2024 Debentures”) (Note 9). The strategic inventory is valued at cost
+of $341,150 as at September 30, 2024 as net realizable value exceeds this amount.
+
+9.CONVERTIBLE DEBENTURES
+
+ 
+ 
+ 2024
+ Debentures 
+ 2023
+ Debentures 
+ 2020
+ Debentures 
+ 2020
+ IsoEnergy
+ Debentures 
+ 2022
+ IsoEnergy
+ Debentures 
+ Total
+ 
+ Fair value at December 31, 2022 
+ $— 
+ $— 
+ $52,615 
+ $22,269 
+ $5,137 
+ $80,021 
+ 
+ Fair value on issuance 
+ — 
+ 143,702 
+ — 
+ — 
+ — 
+ 143,702 
+ 
+ Fair value adjustment 
+ — 
+ 14,776 
+ 20,158 
+ 13,938 
+ 1,305 
+ 50,177 
+ 
+ Settlement with shares 
+ — 
+ — 
+ (72,773) 
+ — 
+ — 
+ (72,773)
+ 
+ Disposals due to deconsolidation of IsoEnergy 
+ — 
+ — 
+ — 
+ (36,207) 
+ (6,442) 
+ (42,649)
+ 
+ Fair value at December 31, 2023 
+ $— 
+ $158,478 
+ $— 
+ $— 
+ $— 
+ $158,478 
+ 
+ Fair value on issuance 
+ 330,916 
+ — 
+ — 
+ — 
+ — 
+ 330,916 
+ 
+ Fair value adjustment 
+ (48,602) 
+ (10,868) 
+ — 
+ — 
+ — 
+ (59,470)
+ 
+ Fair Value at September 30, 2024 
+ $282,314 
+ $147,610 
+ $— 
+ $— 
+ $— 
+ $429,924 
+ 
+
+The fair value adjustment is
+attributable to mark-to-market gains of $34,761 and $59,470 for the three and nine months ended September 30, 2024, respectively (three
+and nine months ended September 30, 2023 - loss of $39,292 and $38,256, respectively). The gain for the three and nine months ended September
+30, 2024 was bifurcated with the amount of the change in fair value of the convertible debentures attributable to changes in the credit
+risk of the liability recognized in other comprehensive income (loss) of gains of $1,894 and $13,171 for the three and nine months ended
+September 30, 2024, respectively (three and nine months ended September 30, 2023 - gain of $327 and $239, respectively) and the remaining
+amount recognized in the consolidated statement of income (loss) for the three and nine months ended September 30, 2024 with gains of
+$32,867 and $46,299 respectively (three and nine months ended September 30, 2023 - loss of $39,619 and $38,495, respectively).
+
+ 9 
+ NexGen Energy Ltd.Notes to the Condensed Interim Consolidated Financial StatementsFor the three and nine months ended September 30, 2024 and 2023(expressed in thousands of Canadian dollars, except as otherwise stated) - Unaudited
+ 
+
+As at September 30, 2024, $14,732
+of accrued interest relating to the 2023 Debentures and 2024 Debentures is included in account payable and accrued liabilities.
+
+2020 Debentures
+
+On September 28, 2023, the holders of
+the 2020 Debentures elected to convert their US$15 million principal amount of 7.5% unsecured convertible debentures, due to mature on
+May 27, 2025, into common shares of the Company. The Company issued 8,663,461 common shares relating to the conversion of the principal
+and 19,522 common shares relating to the accrued and unpaid interest up to the date of conversion for the 2020 Debentures. The amounts
+recorded in other comprehensive income as a result of changes in credit risk of the 2020 Debentures from inception through to conversion
+totaling losses of $361 were reclassified to accumulated deficit. The fair value of the 2020 Debentures at conversion was based on the
+number of shares issued at the closing share price on the conversion date of $8.40. The fair value of the shares issued for interest was
+based on the closing share price on the date of issuance and recorded as interest expense in the consolidated statement of net loss and
+comprehensive loss.
+
+2023 Debentures
+
+On September 22, 2023, the Company entered
+into a US$110 million private placement of unsecured convertible debentures (the “2023 Debentures”). The Company received
+gross proceeds of $148,145 (US$110 million), and paid a 3% establishment fee of $4,443 (US$3,300) to the debenture holders through the
+issuance of 634,615 common shares. The fair value of the 2023 Debentures on issuance date was determined to be $143,702 (US$106,700).
+
+The 2023 Debentures bear interest at a
+rate of 9% per annum, payable semi-annually in US dollars on June 10 and December 10 in each year. Two thirds of the interest (equal to
+6% per annum) is payable in cash and one third of the interest (equal to 3% per annum) is payable, subject to any required regulatory
+approval, in common shares of the Company, using the volume-weighted average trading price (“VWAP”) of the common shares on
+the NYSE for the 20 consecutive trading days ending three trading days preceding the date on which such interest payment is due. The 2023
+Debentures are convertible at any time into common shares of the Company at the option of the debenture holders under certain conditions,
+at a conversion price of US$6.76 into a maximum of 16,272,189 common shares of the Company.
+
+The 2023 Debentures were valued using
+a convertible bond pricing model based on a system of two coupled Black-Scholes equations where the debt and equity components are separately
+valued based on different default risks and assumptions. The inputs used in the pricing model as at September 30, 2024 and December 31,
+2023 are as follows:
+
+ 
+ 
+ September 30, 2024
+ December 31, 2023
+ 
+ Volatility 
+ 40.00%
+ 43.00%
+ 
+ Expected life 
+ 4.0 years
+ 4.7 years
+ 
+ Risk free interest rate
+ 3.25%
+ 3.84%
+ 
+ Expected dividend yield
+ 0%
+ 0%
+ 
+ Credit spread
+ 22.53%
+ 16.60%
+ 
+ Underlying share price of the Company
+ US$6.53
+ US$7.00
+ 
+ Conversion exercise price
+ US$6.76
+ US$6.76
+ 
+2024 Debentures
+
+On May 28, 2024, the Company closed an
+agreement to purchase 2,702,410 pounds of U3O8 (Note 8) for an aggregate purchase price of US$250 million, which
+was satisfied through the issuance of US$250 million of unsecured convertible debentures. The Company paid a 3% establishment fee of $10,235
+(US$7,500) to the debenture holders through the issuance of 909,090 common shares. The fair value of the 2024 Debentures on issuance date
+was determined to be $330,916 (US$242,500).
+
+The 2024 Debentures bear interest at a
+rate of 9% per annum, payable semi-annually in US dollars on June 10 and December 10 in each year. Two thirds of the interest (equal to
+6% per annum) is payable in cash and one third of the interest (equal to 3% per annum) is payable, subject to any required regulatory
+approval, in common shares of the Company, using the VWAP of the common shares on the NYSE for the 20 consecutive trading days ending
+three trading days preceding the date on which such interest payment is due. The 2024 Debentures are convertible at any time into common
+shares of the Company at the option of the debenture holders under certain conditions, at a conversion price of US$10.73 into a maximum
+of 23,299,161 common shares of the Company.
+
+ 10 
+ NexGen Energy Ltd.Notes to the Condensed Interim Consolidated Financial StatementsFor the three and nine months ended September 30, 2024 and 2023(expressed in thousands of Canadian dollars, except as otherwise stated) - Unaudited
+ 
+
+The 2024 Debentures were valued using
+a convertible bond pricing model based on a system of two coupled Black-Scholes equations where the debt and equity components are separately
+valued based on different default risks and assumptions. The inputs used in the pricing model as at September 30, 2024 and May 28, 2024
+are as follows:
+
+ 
+ 
+ September 30, 2024
+ May 28, 2024
+ 
+ Volatility 
+ 40.00%
+ 44.00%
+ 
+ Expected life 
+ 4.7 years
+ 5.0 years
+ 
+ Risk free interest rate
+ 3.24%
+ 4.29%
+ 
+ Expected dividend yield
+ 0%
+ 0%
+ 
+ Credit spread
+ 22.53%
+ 22.12%
+ 
+ Underlying share price of the Company
+ US$6.53
+ US$7.94
+ 
+ Conversion exercise price
+ US$10.73
+ US$10.73
+ 
+
+10.LEASES
+
+(a)Lease receivable
+
+On April 5, 2023, NexGen completed a purchase
+agreement whereby the Company acquired $4,100 of equipment and immediately thereafter leased the equipment to a third party. The lease
+payments commence the first day of the month following the six-month anniversary of the date the equipment was delivered.
+
+The undiscounted value of the remaining lease payments as at
+September 30, 2024 is as follows:
+ 
+ 
+ 
+ Less than 
+ 1 year
+ 
+ 1 to 3
+ years
+ 
+ 4 to 5
+ years
+ 
+ Over 5
+ years
+ 
+ 
+ Total
+ 
+ Lease receivable
+ $ 512
+ $ 1,025
+ $ 512
+ $ 1,581
+ $ 3,630
+ 
+
+ 
+
+ 
+
+ 
+ 
+ September 30, 2024 
+ December 31, 2023
+ 
+ Current portion 
+ $ 512 
+ $ 512 
+ 
+ Non-current portion 
+ 3,118 
+ 3,502 
+ 
+ Balance, end of period 
+ $ 3,630 
+ $ 4,014 
+ 
+
+(b)Right-of-use assets
+
+ 
+ 
+ September 30, 2024 
+ December 31, 2023
+ 
+ Right-of-use assets, beginning of period 
+ $ 1,474 
+ $ 1,933 
+ 
+ Additions 
+ — 
+ 246 
+ 
+ Depreciation 
+ (587) 
+ (705)
+ 
+ Balance, end of period 
+ $ 887 
+ $ 1,474 
+ 
+
+The right-of-use assets are related
+to corporate office and warehouse leases, and are included in the Other category in Note 6.
+
+ 11 
+ NexGen Energy Ltd.Notes to the Condensed Interim Consolidated Financial StatementsFor the three and nine months ended September 30, 2024 and 2023(expressed in thousands of Canadian dollars, except as otherwise stated) - Unaudited
+ 
+
+ 
+
+(c)Lease liabilities 
+
+ 
+ 
+ September 30, 2024 
+ December 31, 2023
+ 
+ Lease liabilities, beginning of period 
+ $1,942 
+ $2,463 
+ 
+ Additions 
+ — 
+ 254 
+ 
+ Interest expense on lease liabilities 
+ 89 
+ 153 
+ 
+ Payment of lease liabilities 
+ (775) 
+ (928)
+ 
+ Balance, end of period 
+ $1,256 
+ $1,942 
+ 
+ 
+ 
+ 
+ 
+ Current portion 
+ 990 
+ 926 
+ 
+ Non-current portion 
+ 266 
+ 1,016 
+ 
+ Balance, end of period 
+ $1,256 
+ $1,942 
+ 
+
+The undiscounted value of the
+lease liabilities as at September 30, 2024 is $1,845 (December 31, 2023 - $2,952).
+
+(d)Amounts recognized in consolidated statements of net income (loss) 
+
+ 
+ 
+ Three months ended September 30, 
+ Nine months ended September 30,
+ 
+ 
+ 2024 
+ 2023 
+ 2024 
+ 2023
+ 
+ Expense relating to variable lease payments 
+ $113 
+ $105 
+ $339 
+ $313 
+ 
+
+11.SHARE CAPITAL
+
+(a)Authorized capital
+
+Share issuances for the
+nine months ended September 30, 2024:
+
+During the nine months ended September
+30, 2024, the Company issued 13,000,800 shares under the December Sales Agreement (as defined below) at an average price of $10.38 per
+share for gross proceeds of $134,948 and recognized $4,993 of share issuance costs, consisting of commission fees of $1,349 and other
+transaction costs of $3,644.
+
+On May 14, 2024, the company closed
+an offering of 20,161,290 common shares, settled in the form of CHESS Depository Interests (“CDIs”) listed on the ASX for
+gross proceeds of $226,000 and recognized share issuance costs of $10,336, consisting of commission fees of $9,084 and other transaction
+costs of $1,252. Concurrent with and to facilitate the offering, NexGen and the Agents (as defined below) agreed to amend the December
+Sales Agreement by reducing the aggregate value of common shares that may be offered and sold under the ATM Program (as defined below)
+from up to $500 million to up to approximately $275.9 million.
+
+During the nine months ended September
+30, 2024, the Company issued 5,368,673 shares on the exercise of stock options for gross proceeds of $13,596 (Note 11(b)). As a result
+of the exercises, $7,386 was reclassified from reserves to share capital.
+
+On May 28, 2024, the Company issued
+909,090 shares relating to the establishment fee for the 2024 Debentures (Note 9).
+
+On June 10, 2024, the Company issued
+215,219 shares relating to the interest payment on the 2023 Debentures at a fair value of $2,088 (Note 9).
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 12 
+ NexGen Energy Ltd.Notes to the Condensed Interim Consolidated Financial StatementsFor the three and nine months ended September 30, 2024 and 2023(expressed in thousands of Canadian dollars, except as otherwise stated) - Unaudited
+ 
+
+ 
+
+Share issuances for the year
+ended December 31, 2023: 
+
+On January 6, 2023, NexGen established
+an at-the-market equity program (the “ATM Program”) pursuant to the terms of an equity distribution agreement dated January
+6, 2023 (the “January Sales Agreement”) with Virtu ITG Canada Corp., as Canadian agent, and Virtu Americas, LLC, as U.S. agent
+(together, the “Agents”), which allowed it to issue up to $250 million of common shares.
+
+On December 11, 2023, NexGen updated
+its ATM Program in accordance with the terms of an equity distribution agreement dated December 11, 2023 (the “December Sales Agreement”)
+with the Agents, which allowed it to issue up to $500 million of common shares. Concurrent with entering into the December Sales Agreement,
+the January Sales Agreement was terminated.
+
+From the commencement of the January
+Sales Agreement up to its termination, the Company issued 24,724,125 shares under the ATM Program at an average price of $7.36 per share
+for gross proceeds of $182,066 and recognized $6,890 of share issuance costs, consisting of commission fees of $3,704 and other transaction
+costs of $3,186. The share issuance costs have been presented net within share capital. The Company did not issue shares under the December
+Sales Agreement during the year ended December 31, 2023.
+
+During the year ended December 31,
+2023, the Company issued 8,608,816 shares on the exercise of stock options for gross proceeds of $26,349 (Note 11(b)). As a result of
+the exercises, $16,288 was reclassified from reserves to share capital.
+
+On June 9, 2023, the Company issued
+46,038 shares relating to the interest payment on the 2020 Debentures at a fair value of $270 (Note 9).
+
+On September 22, 2023, the Company
+issued 634,615 shares relating to payment of the establishment fee for the 2023 Debentures at a fair value of $4,443 (Note 9).
+
+On September 28, 2023, the Company
+issued 8,663,461 common shares relating to the conversion of the principal of the 2020 Debentures at a fair value of $72,773. In addition,
+19,522 common shares were issued relating to the accrued and unpaid interest up to the date of conversion for the 2020 Debentures at a
+fair value of $164 (Note 9).
+
+On December 11, 2023, the Company
+issued 113,803 shares relating to the interest payment on the 2023 Debentures at a fair value of $1,064 (Note 9).
+
+(b)Share options
+
+Pursuant to the Company’s stock
+option plan, directors may, from time to time, authorize the issuance of options to directors, officers, employees and consultants of
+the Company, enabling them to acquire up to 20% of the issued and outstanding common shares of the Company.
+
+ 
+
+The options can be granted for a maximum term of 10 years
+and are subject to vesting provisions as determined by the Board of Directors of the Company.
+
+A summary of the changes in the share options is presented
+below:
+
+ 
+ 
+ Options outstanding 
+ Weighted average
+ exercise price (C$)
+ 
+ At December 31, 2022 
+ 49,638,890 
+ $4.07 
+ 
+ Granted 
+ 10,849,062 
+ 8.15 
+ 
+ Exercised 
+ (8,608,816) 
+ 3.06 
+ 
+ Forfeited 
+ (313,334) 
+ 5.51 
+ 
+ At December 31, 2023 
+ 51,565,802 
+ $5.08 
+ 
+ Granted 
+ 1,825,000 
+ 7.51 
+ 
+ Exercised 
+ (5,368,673) 
+ 2.53 
+ 
+ Forfeited 
+ (145,001) 
+ 7.06 
+ 
+ At September 30, 2024 - Outstanding 
+ 47,877,128 
+ $5.46 
+ 
+ At September 30, 2024 - Exercisable 
+ 39,360,352 
+ $4.96 
+ 
+
+ 13 
+ NexGen Energy Ltd.Notes to the Condensed Interim Consolidated Financial StatementsFor the three and nine months ended September 30, 2024 and 2023(expressed in thousands of Canadian dollars, except as otherwise stated) - Unaudited
+ 
+
+The following weighted average
+assumptions were used for Black-Scholes valuation of the share options granted:
+
+ 
+ 
+ 
+ For the three months ended
+ September 30,
+ 
+ For the nine months ended 
+ September 30,
+ 
+ 
+ 2024
+ 2023
+ 2024
+ 2023
+ 
+ Expected stock price volatility
+ 61.77%
+ 61.57%
+ 61.77%
+ 61.64%
+ 
+ Expected life of options
+ 5 years
+ 5 years
+ 5 years
+ 5 years
+ 
+ Risk free interest rate
+ 2.95%
+ 4.00%
+ 2.95%
+ 3.91%
+ 
+ Expected forfeitures
+ 0%
+ 0%
+ 0%
+ 0%
+ 
+ Expected dividend yield
+ 0%
+ 0%
+ 0%
+ 0%
+ 
+ Weighted average fair value per option granted in period
+ $4.10
+ $3.90
+ $4.10
+ $3.85
+ 
+ Weighted average exercise price
+ $7.51
+ $6.99
+ $7.51
+ $6.91
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Share-based payments for options
+vested for the three and nine months ended September 30, 2024 amounted to $9,337 and $23,235, respectively (three and nine months ended
+September 30, 2023 - $12,925 and $27,391, respectively) of which $8,236 and $20,320, respectively (three and nine months ended September
+30, 2023 - $10,901 and $23,074, respectively) was expensed to the statement of net income (loss) and comprehensive income (loss) and $1,101
+and $2,915, respectively (three and nine months ended September 30, 2023 - $2,024 and $4,317, respectively) was capitalized to exploration
+and evaluation assets (Notes 5 and 12).
+
+12.SUPPLEMENTAL CASH FLOW INFORMATION
+
+The Company did not have any cash
+equivalents as at September 30, 2024 and December 31, 2023.
+
+a)Schedule of non-cash investing and financing activities:
+
+ 
+ 
+ Three months ended September 30, 
+ Nine months ended September 30,
+ 
+ 
+ 2024 
+ 2023 
+ 2024 
+ 2023
+ 
+ Capitalized share-based payments 
+ $1,101 
+ $2,024 
+ $2,915 
+ $4,317 
+ 
+ Exploration and evaluation asset expenditures included in accounts payable and accrued liabilities 
+ 2,489 
+ (8,091) 
+ (4,139) 
+ (11,555)
+ 
+ Interest expense included in accounts payable and accrued liabilities 
+ 11,158 
+ 221 
+ 13,959 
+ 299 
+ 
+ Issuance of convertible debentures 
+ — 
+ — 
+ 330,916 
+ — 
+ 
+ Purchase of U3O8 strategic inventory 
+ — 
+ — 
+ (341,150) 
+ — 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 14 
+ NexGen Energy Ltd.Notes to the Condensed Interim Consolidated Financial StatementsFor the three and nine months ended September 30, 2024 and 2023(expressed in thousands of Canadian dollars, except as otherwise stated) - Unaudited
+ 
+
+ 
+
+13.RELATED PARTY TRANSACTIONS
+
+The remuneration of key management
+which includes directors and management personnel responsible for planning, directing, and controlling the activities of the Company during
+the period was as follows:
+
+ 
+ 
+ For the three months ended September 30, 
+ For the nine months ended September 30, 
+ 
+ 
+ 2024 
+ 2023 
+ 2024 
+ 2023
+ 
+ Short-term compensation(1)
+ $829 
+ $1,030 
+ $2,477 
+ $3,741 
+ 
+ Share-based payments(2)
+ 6,771 
+ 10,327 
+ 16,880 
+ 22,003 
+ 
+ Consulting fees(3)
+ 32 
+ 32 
+ 97 
+ 97 
+ 
+ 
+ $7,632 
+ $11,389 
+ $19,454 
+ $25,841 
+ 
+
+(1)
+Short-term compensation to key management personnel for the three and nine months ended September
+30, 2024 amounted to $829 and $2,477,(2023 - $1,030 and $3,741) of which $829 and $2,477 (2023 - $959 and $3,551) was expensed and included
+in salaries, benefits, and directors’ fees on the statement of net income (loss) and comprehensive income (loss). The remaining
+$nil and $nil (2023 - $71 and $190) was capitalized to exploration and evaluation assets.
+
+(2)
+Share-based payments to key management personnel for the three and nine months ended September
+30, 2024 amounted to $6,771 and $16,880 (2023 - $10,327 and $22,003) of which $6,771 and $16,880 (2023 - $10,193 and $21,544) was expensed
+and $nil and $nil (2023 - $134 and $459) was capitalized to exploration and evaluation assets.
+
+(3)
+The Company used consulting services from a company associated with one of its directors in
+relation to advice on corporate matters for the three and nine months ended September 30, 2024 amounting to $32 and $97 (2023 - $32 and
+$97) 
+
+The Company received rental income for
+shared office space from an associate for the three and nine months ended September 30, 2024 of $8 and $25 (2023 - $nil and $nil).
+
+As at September 30, 2024, there was $54
+(December 31, 2023 - $43) included in accounts payable and accrued liabilities owing to its directors and officers for compensation.
+
+14.FINANCIAL INSTRUMENTS AND RISK MANAGEMENT
+
+The Company’s financial instruments
+consist of cash, amounts receivable, lease receivable, accounts payable and accrued liabilities, and convertible debentures.
+
+Financial instruments measured at
+fair value are classified into one of three levels in the fair value hierarchy according to the relative reliability of the inputs used
+to estimate the fair values.
+
+The three levels of the fair value
+hierarchy are:
+
+•Level 1 - unadjusted quoted prices in active markets for identical assets or liabilities
+
+•Level 2 - inputs other than quoted prices that are observable for the asset or liability either directly
+or indirectly; and
+
+•Level 3 - inputs that are not based on observable market data.
+
+The Company’s cash, amounts
+receivable, accounts payable and accrued liabilities, and lease receivable are classified as Level 1 as the fair values of the Company’s
+cash, amounts receivable, and accounts payable and accrued liabilities approximate their carrying values due to their short-term nature
+and the lease receivable’s fair value is equal to its carrying value.
+
+The convertible debentures are re-measured
+at fair value at each reporting date with any change in fair value recognized in the consolidated statement of net loss with the exception
+that under IFRS 9, the change in fair value that is attributable to change in credit risk is presented in other comprehensive loss (Note
+9). The convertible debentures are classified as Level 2.
+
+ 15 
+ NexGen Energy Ltd.Notes to the Condensed Interim Consolidated Financial StatementsFor the three and nine months ended September 30, 2024 and 2023(expressed in thousands of Canadian dollars, except as otherwise stated) - Unaudited
+ 
+
+ 
+
+Financial Risk
+
+The Company is exposed to varying
+degrees of a variety of financial instrument-related risks. The Board approves and monitors the risk management processes, controlling
+and reporting structures. The type of risk exposure and the way in which such exposure is managed is provided as follows:
+
+Credit Risk 
+
+Credit risk is the risk that one
+party to a financial instrument will fail to discharge an obligation and cause the other party to incur a financial loss. Financial instruments
+potentially subject to credit risk are cash, amounts receivable, and lease receivable. The Company holds cash with large Canadian banks.
+The Company’s amounts receivable consists of input tax credits receivable from the Government of Canada and interest accrued on
+cash. The lease receivable is secured by the leased equipment. Accordingly, the Company does not believe it is subject to significant
+credit risk.
+
+The Company’s maximum exposure
+to credit risk is as follows:
+
+ 
+ 
+ September 30, 2024 
+ December 31, 2023
+ 
+ Cash 
+ $537,766 
+ $290,743 
+ 
+ Accounts receivable 
+ 1,238 
+ 1,940 
+ 
+ Lease receivable 
+ 3,630 
+ 4,014 
+ 
+ 
+ $542,634 
+ $296,697 
+ 
+
+Liquidity Risk 
+
+Liquidity risk is the risk that an
+entity will encounter difficulty in raising funds to meet commitments associated with financial instruments. Liquidity requirements are
+managed based on expected cash flows to ensure that there is sufficient capital to meet short-term obligations. The Company’s approach
+to managing liquidity risk is to ensure that it will have sufficient liquidity to meet liabilities when due. As at September 30, 2024,
+NexGen had cash of $537,766 to settle current liabilities of $468,574 including the convertible debentures.
+
+The Company’s significant
+undiscounted commitments at September 30, 2024 are as follows (the convertible debentures are classified as a current liability due to
+the adoption of amendments to IAS 1 (Note 3(d)), however there is no obligation to cash settle these in the next twelve months):
+
+ 
+ 
+ Less than 1 year 
+ 1 to 3 years 
+ 4 to 5 years 
+ Over 5 years 
+ Total
+ 
+ Trade and other payables 
+ $37,660 
+ $— 
+ $— 
+ $— 
+ $37,660 
+ 
+ Convertible debentures (Note 9) 
+ 429,924 
+ — 
+ — 
+ — 
+ 429,924 
+ 
+ Lease liabilities (Note 10(c)) 
+ 1,476 
+ 369 
+ — 
+ — 
+ 1,845 
+ 
+ 
+ $469,060 
+ $369 
+ $— 
+ $— 
+ $469,429 
+ 
+
+As at December 31, 2023 - Restated (Note 3(d)):
+
+ 
+ 
+ Less than 1 year 
+ 1 to 3 years 
+ 4 to 5 years 
+ Over 5 years 
+ Total
+ 
+ Trade and other payables 
+ $26,986 
+ $— 
+ $— 
+ $— 
+ $26,986 
+ 
+ Convertible debentures (Note 9) 
+ 158,478 
+ — 
+ — 
+ — 
+ 158,478 
+ 
+ Lease liabilities (Note 10(c)) 
+ 1,476 
+ 1,476 
+ — 
+ — 
+ 2,952 
+ 
+ 
+ $186,940 
+ $1,476 
+ $— 
+ $— 
+ $188,416 
+ 
+
+ 
+
+ 16 
+ NexGen Energy Ltd.Notes to the Condensed Interim Consolidated Financial StatementsFor the three and nine months ended September 30, 2024 and 2023(expressed in thousands of Canadian dollars, except as otherwise stated) - Unaudited
+ 
+
+ 
+
+As at January 1, 2023 - Restated (Note 3(d)):
+
+ 
+ 
+ Less
+than
+ 1 year 
+ 1 to 3 years 
+ 4 to 5 years 
+ Over 5 years 
+ Total
+ 
+ Trade and other payables 
+ $13,723 
+ $— 
+ $— 
+ $— 
+ $13,723 
+ 
+ Convertible debentures (Note 9) 
+ 80,021 
+ — 
+ — 
+ — 
+ 80,021 
+ 
+ Lease liabilities (Note 10(c)) 
+ 1,346 
+ 2,574 
+ — 
+ — 
+ 3,920 
+ 
+ 
+ $95,090 
+ $2,574 
+ $— 
+ $— 
+ $97,664 
+ 
+
+Foreign Currency Risk 
+
+The functional currency of the Company
+and its subsidiaries is the Canadian dollar. The Company is affected by currency transaction risk and currency translation risk. Consequently,
+fluctuations of the Canadian dollar in relation to other currencies impact the fair value of financial assets, liabilities and operating
+results. Financial assets and liabilities subject to currency translation risk primarily includes US dollar denominated cash, US dollar
+accounts payable and the convertible debentures. The Company maintains Canadian and US dollar bank accounts in Canada.
+
+The Company is exposed to foreign
+exchange risk on its US dollar denominated convertible debentures. At maturity, the aggregate US$360 million principal amount of the convertible
+debentures is due in full, and prior to maturity, at a premium upon the occurrence of certain events. The Company holds sufficient US
+dollars to make all cash interest payments due under the convertible debentures for the next twenty-four months. Accordingly, the Company
+is subject to risks associated with fluctuations in the Canadian/US dollar exchange rate that may make the convertible debentures more
+costly to repay.
+
+As at September 30, 2024, the Company’s
+US dollar net financial liabilities were US$274,149. Thus a 10% change in the Canadian dollar versus the US dollar exchange rates would
+give rise to a $37,079 change in net income (loss) and comprehensive income (loss).
+
+While the Company’s strategic
+inventory is not a financial instrument, the prices of uranium are quoted in US dollars and routinely traded in US dollars, and fluctuations
+in the Canadian dollar relative to the U.S. dollar can significantly impact the valuation of the Company’s physical uranium in Canadian
+dollars.
+
+The Company has not entered into
+any agreements or purchased any instruments to hedge possible currency risks at this time.
+
+Equity and Commodity Price
+Risk 
+
+The Company is exposed to price
+risk with respect to commodity and equity prices. Equity price risk is defined as the potential adverse impact on the Company’s
+earnings due to movements in individual equity prices or general movements in the level of the stock market. Accordingly, significant
+movements in share price may affect the valuation of the 2023 Debentures and 2024 Debentures which may adversely impact its earnings.
+
+Commodity price risk is defined
+as the potential adverse impact on earnings and economic value due to commodity price movements and volatility. Future declines in commodity
+prices may impact the valuation of long-lived assets. The Company closely monitors commodity prices of uranium, individual equity movements,
+and the stock market to determine the appropriate course of action, if any, to be taken by the Company.
+
+Interest Rate Risk
+
+Interest rate risk is the risk that
+the future cash flows of a financial instrument will fluctuate due to changes in market interest rates. The Company holds its cash in
+bank accounts that earn variable interest rates. Due to the short-term nature of these financial instruments, fluctuations in market rates
+do not have a significant impact on the estimated fair value of the Company’s cash balances as of September 30, 2024. The Company
+manages interest rate risk by maintaining an investment policy for short-term investments. This policy focuses primarily on preservation
+of capital and liquidity. The Company monitors the investments it makes and is satisfied with the credit rating of its banks. The convertible
+debentures in an aggregate principal amount of US$360 million, carry fixed interest rates of 9.0% per annum and are not subject to interest
+rate fluctuations.
+
+ 17 
+ NexGen Energy Ltd.Notes to the Condensed Interim Consolidated Financial StatementsFor the three and nine months ended September 30, 2024 and 2023(expressed in thousands of Canadian dollars, except as otherwise stated) - Unaudited
+ 
+
+ 
+
+15.EARNINGS (LOSS) PER SHARE
+
+Basic net earnings (loss) per share
+provides a measure of the interests of each ordinary common share in the Company’s performance over the period. Diluted net earnings
+(loss) per share adjusts basic net income (loss) per share for the effect of all dilutive potential common shares.
+
+Weighted average shares outstanding
+used to calculate basic and diluted earnings per common share are as follows:
+
+ 
+ 
+ For the three months ended
+ September 30, 
+ For
+the nine months ended
+ September 30,
+ 
+ 
+ 2024 
+ 2023 
+ 2024 
+ 2023
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Diluted loss per share
+ 
+ 
+ 
+ 
+ 
+ Weighted average number of common shares
+ 564,693,987 
+ 491,274,394 
+ 550,962,116 
+ 489,872,514 
+ 
+ Effect of dilutive options
+ 17,634,590 
+ — 
+ — 
+ — 
+ 
+ Effect of conversion of 2023 and 2024 Debentures
+ 39,571,350 
+ — 
+ — 
+ — 
+ 
+ Weighted average number of common shares (diluted)
+ 621,899,927 
+ 491,274,394 
+ 550,962,116 
+ 489,872,514 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+For the three and nine months ended
+September 30, 2024, 30.2 million and 47.9 million (September 30, 2023 - 49.0 million and 49.0 million) anti-dilutive options were excluded
+from the diluted weighted average number of common shares calculation.
+
+16.SUBSEQUENT EVENTS
+
+On October 2, 2024, IsoEnergy announced
+that it entered into a definitive agreement with Anfield Energy Inc. (“Anfield”), for IsoEnergy to acquire all of the issued
+and outstanding common shares of Anfield. Under the terms of the transaction, Anfield shareholders will receive 0.031 of a common share
+of IsoEnergy for each issued and outstanding common share of Anfield held. The transaction is expected to close in December 2024 and will
+dilute NexGen’s ownership in IsoEnergy to approximately 28%.
+
+On October 15, 2024, the Company granted 250,000 stock options.
+
+ 
+ 
+
+ 
+
+18

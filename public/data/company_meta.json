@@ -10,11 +10,203 @@
     ]
   },
   {
-    "cik": "0001629210",
-    "ticker": "PZG",
-    "name": "Paramount Gold Nevada Corp.",
+    "cik": "0001308648",
+    "ticker": "AG",
+    "name": "FIRST MAJESTIC SILVER CORP",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001178819",
+    "ticker": "AGI",
+    "name": "ALAMOS GOLD INC",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0000915913",
+    "ticker": "ALB",
+    "name": "ALBEMARLE CORP",
+    "sic": "2821",
+    "sicDescription": "Plastic Materials, Synth Resins & Nonvulcan Elastomers",
+    "exchanges": [
+      "NYSE",
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001973832",
+    "ticker": "AU",
+    "name": "AngloGold Ashanti PLC",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001826836",
+    "ticker": "AYA",
+    "name": "Aya Gold & Silver Inc.",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "Nasdaq"
+    ]
+  },
+  {
+    "cik": "0000811809",
+    "ticker": "BHP",
+    "name": "BHP Group Ltd",
     "sic": "1000",
     "sicDescription": "Metal Mining",
+    "exchanges": [
+      "NYSE",
+      "OTC"
+    ]
+  },
+  {
+    "cik": "0001172724",
+    "ticker": "GFI",
+    "name": "GOLD FIELDS LTD",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE",
+      "OTC"
+    ]
+  },
+  {
+    "cik": "0001009001",
+    "ticker": "CCJ",
+    "name": "CAMECO CORP",
+    "sic": "1090",
+    "sicDescription": "Miscellaneous Metal Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0000215466",
+    "ticker": "CDE",
+    "name": "Coeur Mining, Inc.",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001854640",
+    "ticker": "CGAU",
+    "name": "Centerra Gold Inc.",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0000887151",
+    "ticker": "CAPS",
+    "name": "Capstone Holding Corp.",
+    "sic": "5030",
+    "sicDescription": "Wholesale-Lumber & Other Construction Materials",
+    "exchanges": [
+      "Nasdaq"
+    ]
+  },
+  {
+    "cik": "0001063259",
+    "ticker": "DNN",
+    "name": "DENISON MINES CORP.",
+    "sic": "1090",
+    "sicDescription": "Miscellaneous Metal Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001023512",
+    "ticker": "DRD",
+    "name": "DRDGOLD LTD",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE",
+      "OTC"
+    ]
+  },
+  {
+    "cik": "0000918608",
+    "ticker": "EGO",
+    "name": "ELDORADO GOLD CORP /FI",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001756607",
+    "ticker": "EQX",
+    "name": "Equinox Gold Corp.",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001271554",
+    "ticker": "ERLFF",
+    "name": "Entree Resources Ltd.",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "OTC"
+    ]
+  },
+  {
+    "cik": "0000831259",
+    "ticker": "FCX",
+    "name": "FREEPORT-MCMORAN INC",
+    "sic": "1000",
+    "sicDescription": "Metal Mining",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001452575",
+    "ticker": "FNV",
+    "name": "Mead Johnson Nutrition Co",
+    "sic": "2000",
+    "sicDescription": "Food and Kindred Products",
+    "exchanges": []
+  },
+  {
+    "cik": "0001341335",
+    "ticker": "FSM",
+    "name": "FORTUNA MINING CORP.",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001377757",
+    "ticker": "GAU",
+    "name": "Galiano Gold Inc.",
+    "sic": "1400",
+    "sicDescription": "Mining & Quarrying of  Nonmetallic Minerals (No Fuels)",
     "exchanges": [
       "NYSE"
     ]
@@ -23,6 +215,48 @@
     "cik": "0001172724",
     "ticker": "GFI",
     "name": "GOLD FIELDS LTD",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE",
+      "OTC"
+    ]
+  },
+  {
+    "cik": "0000756894",
+    "ticker": "B",
+    "name": "BARRICK MINING CORP",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001322422",
+    "ticker": "HBM",
+    "name": "Hudbay Minerals Inc.",
+    "sic": "1000",
+    "sicDescription": "Metal Mining",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0000719413",
+    "ticker": "HL",
+    "name": "HECLA MINING CO/DE/",
+    "sic": "1400",
+    "sicDescription": "Mining & Quarrying of  Nonmetallic Minerals (No Fuels)",
+    "exchanges": [
+      "NYSE",
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001023514",
+    "ticker": "HMY",
+    "name": "HARMONY GOLD MINING CO LTD",
     "sic": "1040",
     "sicDescription": "Gold and Silver Ores",
     "exchanges": [
@@ -42,9 +276,9 @@
     ]
   },
   {
-    "cik": "0000215466",
-    "ticker": "CDE",
-    "name": "Coeur Mining, Inc.",
+    "cik": "0001203464",
+    "ticker": "IAG",
+    "name": "IAMGOLD CORP",
     "sic": "1040",
     "sicDescription": "Gold and Silver Ores",
     "exchanges": [
@@ -52,24 +286,105 @@
     ]
   },
   {
-    "cik": "0001323404",
-    "ticker": "WPM",
-    "name": "Wheaton Precious Metals Corp.",
+    "cik": "0000701818",
+    "ticker": "KGC",
+    "name": "KINROSS GOLD CORP",
     "sic": "1040",
     "sicDescription": "Gold and Silver Ores",
-    "exchanges": [
-      "NYSE"
-    ]
-  },
-  {
-    "cik": "0000719413",
-    "ticker": "HL",
-    "name": "HECLA MINING CO/DE/",
-    "sic": "1400",
-    "sicDescription": "Mining & Quarrying of  Nonmetallic Minerals (No Fuels)",
     "exchanges": [
       "NYSE",
+      "OTC"
+    ]
+  },
+  {
+    "cik": "0001440972",
+    "ticker": "LAR",
+    "name": "Lithium Argentina AG",
+    "sic": "1000",
+    "sicDescription": "Metal Mining",
+    "exchanges": [
       "NYSE"
+    ]
+  },
+  {
+    "cik": "0001966983",
+    "ticker": "LAC",
+    "name": "LITHIUM AMERICAS CORP.",
+    "sic": "1000",
+    "sicDescription": "Metal Mining",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001801368",
+    "ticker": "MP",
+    "name": "MP Materials Corp. / DE",
+    "sic": "1000",
+    "sicDescription": "Metal Mining",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0000314203",
+    "ticker": "MUX",
+    "name": "McEwen Inc.",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001164727",
+    "ticker": "NEM",
+    "name": "NEWMONT Corp /DE/",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE",
+      "OTC"
+    ]
+  },
+  {
+    "cik": "0001698535",
+    "ticker": "NXE",
+    "name": "NexGen Energy Ltd.",
+    "sic": "1090",
+    "sicDescription": "Miscellaneous Metal Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001627272",
+    "ticker": "OR",
+    "name": "OR Royalties Inc.",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001680056",
+    "ticker": "ORLA",
+    "name": "Orla Mining Ltd.",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001162194",
+    "ticker": "LAB",
+    "name": "STANDARD BIOTOOLS INC.",
+    "sic": "3826",
+    "sicDescription": "Laboratory Analytical Instruments",
+    "exchanges": [
+      "Nasdaq"
     ]
   },
   {
@@ -78,6 +393,77 @@
     "name": "Sprott Physical Silver Trust",
     "sic": "6221",
     "sicDescription": "Commodity Contracts Brokers & Dealers",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001629210",
+    "ticker": "PZG",
+    "name": "Paramount Gold Nevada Corp.",
+    "sic": "1000",
+    "sicDescription": "Metal Mining",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0000764180",
+    "ticker": "MO",
+    "name": "ALTRIA GROUP, INC.",
+    "sic": "2111",
+    "sicDescription": "Cigarettes",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001786909",
+    "ticker": "SBSW",
+    "name": "Sibanye Stillwater Ltd",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE",
+      "OTC"
+    ]
+  },
+  {
+    "cik": "0001001838",
+    "ticker": "SCCO",
+    "name": "SOUTHERN COPPER CORP/",
+    "sic": "1000",
+    "sicDescription": "Metal Mining",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001848309",
+    "ticker": "SGML",
+    "name": "Sigma Lithium Corp",
+    "sic": "1000",
+    "sicDescription": "Metal Mining",
+    "exchanges": [
+      "Nasdaq"
+    ]
+  },
+  {
+    "cik": "0001450922",
+    "ticker": "SIVR",
+    "name": "abrdn Silver ETF Trust",
+    "sic": "6221",
+    "sicDescription": "Commodity Contracts Brokers & Dealers",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001713748",
+    "ticker": "SKE",
+    "name": "Skeena Resources Ltd",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
     "exchanges": [
       "NYSE"
     ]
@@ -93,11 +479,83 @@
     ]
   },
   {
-    "cik": "0001450922",
-    "ticker": "SIVR",
-    "name": "abrdn Silver ETF Trust",
-    "sic": "6221",
-    "sicDescription": "Commodity Contracts Brokers & Dealers",
+    "cik": "0000909037",
+    "ticker": "SQM",
+    "name": "CHEMICAL & MINING CO OF CHILE INC",
+    "sic": "1400",
+    "sicDescription": "Mining & Quarrying of  Nonmetallic Minerals (No Fuels)",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0000921638",
+    "ticker": "SSRM",
+    "name": "SSR MINING INC.",
+    "sic": "6795",
+    "sicDescription": "Mineral Royalty Traders",
+    "exchanges": [
+      "Nasdaq",
+      "OTC"
+    ]
+  },
+  {
+    "cik": "0000886986",
+    "ticker": "TECK",
+    "name": "TECK RESOURCES LTD",
+    "sic": "1400",
+    "sicDescription": "Mining & Quarrying of  Nonmetallic Minerals (No Fuels)",
+    "exchanges": [
+      "NYSE",
+      "OTC"
+    ]
+  },
+  {
+    "cik": "0001543418",
+    "ticker": "TMQ",
+    "name": "Trilogy Metals Inc.",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001334933",
+    "ticker": "UEC",
+    "name": "URANIUM ENERGY CORP",
+    "sic": "1090",
+    "sicDescription": "Miscellaneous Metal Ores",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001385849",
+    "ticker": "UUUU",
+    "name": "ENERGY FUELS INC",
+    "sic": "1400",
+    "sicDescription": "Mining & Quarrying of  Nonmetallic Minerals (No Fuels)",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0000917851",
+    "ticker": "VALE",
+    "name": "Vale S.A.",
+    "sic": "1000",
+    "sicDescription": "Metal Mining",
+    "exchanges": [
+      "NYSE"
+    ]
+  },
+  {
+    "cik": "0001323404",
+    "ticker": "WPM",
+    "name": "Wheaton Precious Metals Corp.",
+    "sic": "1040",
+    "sicDescription": "Gold and Silver Ores",
     "exchanges": [
       "NYSE"
     ]

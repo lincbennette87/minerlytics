@@ -1,0 +1,102 @@
+{
+  "ticker": "GAYMF",
+  "cik": "0001377757",
+  "form": "6-K",
+  "filingDate": "2022-06-03",
+  "accessionNumber": "0001062993-22-014242",
+  "primaryDocument": "form6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000106299322014242/0001062993-22-014242-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "exhibit99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1377757/000106299322014242/exhibit99-1.htm"
+  },
+  "extractedAt": "2026-06-11T16:57:14.367Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1377757/000106299322014242/exhibit99-1.htm",
+    "contentType": "html",
+    "title": "Galiano Gold Inc.: Exhibit 99.1 - Filed by newsfilecorp.com",
+    "headings": [
+      "Galiano Gold Inc.: Exhibit 99.1 - Filed by newsfilecorp.com",
+      "VOTING RESULTS REPORT",
+      "Pursuant to Section 11.3 of National Instrument 51-102",
+      "GALIANO GOLD INC. (formerly Asanko Gold Inc.)",
+      "(the \"Company\")",
+      "DIRECTOR",
+      "VOTES FOR",
+      "% FOR",
+      "VOTESWITHHELD",
+      "%WITHHELD",
+      "For",
+      "Withheld",
+      "Against"
+    ],
+    "text": "EX-99.1\n2\nexhibit99-1.htm\nEXHIBIT 99.1\n\n Galiano Gold Inc.: Exhibit 99.1 - Filed by newsfilecorp.com\n\n \n VOTING RESULTS REPORTPursuant to Section 11.3 of National Instrument 51-102\n OF\n GALIANO GOLD INC. (formerly Asanko Gold Inc.)(the \"Company\")\n The Company reports that the following matters were voted upon and passed by the Shareholders of the Company at the annual general meeting of the Company held on June 2, 2022 (the \"Meeting\"). Attendance at the Meeting was nil Shares represented and voted in person and 156,926,623 Shares represented and voted by proxy for a total of 156,926,623 voting shares represented at the Meeting, being 69.76% of the outstanding shares. Voting results on the resolutions were as follows:\n 1. The following directors were elected, with the following voting results for each nominee:\n \n \n \n DIRECTOR\n VOTES FOR\n % FOR\n VOTESWITHHELD\n %WITHHELD\n \n \n Matt Badylak\n 141,177,893\n 98.95%\n 1,505,005\n 1.05%\n \n \n Paul N. Wright\n 141,401,816\n 99.10%\n 1,281,082\n 0.90%\n \n \n Gordon J. Fretwell\n 114,943,776\n 80.56%\n 27,739,122\n 19.44%\n \n \n Michael Price\n 141,305,251\n 99.03%\n 1,377,647\n 0.97%\n \n \n Judith Mosely\n 141,565,894\n 99.22%\n 1,117,004\n 0.78%\n \n \n Dawn Moss\n 141,175,244\n 98.94%\n 1,507,654\n 1.06%\n \n \n Greg Martin\n 141,743,829\n 99.34%\n 939,069\n 0.66%\n \n \n \n 2. KPMG LLP, Chartered Accountants, were appointed auditor of the Company for the ensuing year and the directors were authorized to fix the remuneration paid to KPMG LLP. Of the Shares voted, 156,357,340 represented votes For (99.64%) and 569,283 represented votes Withheld (0.36%).\n 3. A non-binding advisory resolution was approved, accepting the Company's approach to executive compensation. Of the Shares voted, 119,300,887 represented votes For (98.83%) and 1,410,354 represented votes Against (1.17%).\n There were 14,243,725 non-votes recorded (but not voted) on each resolution, except for the advisory vote on executive compensation which had 36,215,382 non-votes. Non-votes are discretionary votes given to a broker by a US beneficial holder not allowed under Canadian Securities Regulations.",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 8,
+        "rows": [
+          [
+            "DIRECTOR",
+            "VOTES FOR",
+            "% FOR",
+            "VOTESWITHHELD",
+            "%WITHHELD"
+          ],
+          [
+            "Matt Badylak",
+            "141,177,893",
+            "98.95%",
+            "1,505,005",
+            "1.05%"
+          ],
+          [
+            "Paul N. Wright",
+            "141,401,816",
+            "99.10%",
+            "1,281,082",
+            "0.90%"
+          ],
+          [
+            "Gordon J. Fretwell",
+            "114,943,776",
+            "80.56%",
+            "27,739,122",
+            "19.44%"
+          ],
+          [
+            "Michael Price",
+            "141,305,251",
+            "99.03%",
+            "1,377,647",
+            "0.97%"
+          ],
+          [
+            "Judith Mosely",
+            "141,565,894",
+            "99.22%",
+            "1,117,004",
+            "0.78%"
+          ],
+          [
+            "Dawn Moss",
+            "141,175,244",
+            "98.94%",
+            "1,507,654",
+            "1.06%"
+          ],
+          [
+            "Greg Martin",
+            "141,743,829",
+            "99.34%",
+            "939,069",
+            "0.66%"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>exhibit99-1.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<html>\n\n<head>\n    <title>Galiano Gold Inc.: Exhibit 99.1 - Filed by newsfilecorp.com</title>\n</head>\n\n<body style=\"font-size:10pt; font-family:'Times New Roman';\">\n    <hr width=\"100%\" size=\"3\" color=\"black\" noshade=\"noshade\"><a name=\"page_1\"></a>\n    <p style=\"text-align: center;\"><b>VOTING RESULTS REPORT</b><br><b>Pursuant to Section 11.3 of National Instrument 51-102</b></p>\n    <p style=\"text-align: center;\"><b>OF</b></p>\n    <p style=\"text-align: center;\"><b>GALIANO GOLD INC. (formerly Asanko Gold Inc.)</b><br><b>(the \"Company\")</b></p>\n    <p style=\"text-align: justify;\">The Company reports that the following matters were voted upon and passed by the Shareholders of the Company at the annual general meeting of the Company held on June 2, 2022 (the \"Meeting\").&#160; Attendance at the Meeting was nil Shares represented and voted in person and 156,926,623 Shares represented and voted by proxy for a total of 156,926,623 voting shares represented at the Meeting, being 69.76% of the outstanding shares.&#160; Voting results on the resolutions were as follows:</p>\n    <p style=\"margin-left: 18pt; text-indent: -18pt; text-align: justify;\">1.<font style=\"width: 10.25pt; text-indent: 0pt; display: inline-block;\">&#160;</font>The following directors were elected, with the following voting results for each nominee:</p>\n    <div style=\"margin-left: 18pt;\">\n        <table style=\"border-collapse: collapse; font-size: 10pt; width: 100%;\" cellspacing=\"0\" cellpadding=\"0\">\n            <tr>\n                <td style=\"width: 16%; vertical-align: top; white-space: nowrap; text-align: justify; padding-left: 5.4pt; padding-right: 5.4pt;\"><b>DIRECTOR</b></td>\n                <td style=\"width: 16%; vertical-align: top; white-space: nowrap; text-align: center; padding-left: 5.4pt; padding-right: 5.4pt;\"><b>VOTES FOR</b></td>\n                <td style=\"width: 16%; vertical-align: top; white-space: nowrap; text-align: center; padding-left: 5.4pt; padding-right: 5.4pt;\"><b>% FOR</b></td>\n                <td style=\"width: 16%; vertical-align: top; white-space: nowrap; text-align: center; padding-left: 5.4pt; padding-right: 5.4pt;\"><b>VOTES<br>WITHHELD</b></td>\n                <td style=\"width: 16%; vertical-align: top; white-space: nowrap; text-align: center; padding-left: 5.4pt; padding-right: 5.4pt;\"><b>%<br>WITHHELD</b></td>\n            </tr>\n            <tr>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: justify; padding-left: 5.4pt; padding-right: 5.4pt;\">Matt Badylak</td>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">141,177,893</td>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">98.95%</td>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">1,505,005</td>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">1.05%</td>\n            </tr>\n            <tr>\n                <td style=\"width: 16%; vertical-align: top; text-align: justify; padding-left: 5.4pt; padding-right: 5.4pt;\">Paul N. Wright</td>\n                <td style=\"width: 16%; vertical-align: top; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">141,401,816</td>\n                <td style=\"width: 16%; vertical-align: top; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">99.10%</td>\n                <td style=\"width: 16%; vertical-align: top; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">1,281,082</td>\n                <td style=\"width: 16%; vertical-align: top; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">0.90%</td>\n            </tr>\n            <tr>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: justify; padding-left: 5.4pt; padding-right: 5.4pt;\">Gordon J. Fretwell</td>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">114,943,776</td>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">80.56%</td>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">27,739,122</td>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">19.44%</td>\n            </tr>\n            <tr>\n                <td style=\"width: 16%; vertical-align: top; text-align: justify; padding-left: 5.4pt; padding-right: 5.4pt;\">Michael Price</td>\n                <td style=\"width: 16%; vertical-align: top; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">141,305,251</td>\n                <td style=\"width: 16%; vertical-align: top; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">99.03%</td>\n                <td style=\"width: 16%; vertical-align: top; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">1,377,647</td>\n                <td style=\"width: 16%; vertical-align: top; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">0.97%</td>\n            </tr>\n            <tr>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: justify; padding-left: 5.4pt; padding-right: 5.4pt;\">Judith Mosely</td>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">141,565,894</td>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">99.22%</td>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">1,117,004</td>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">0.78%</td>\n            </tr>\n            <tr>\n                <td style=\"width: 16%; vertical-align: top; text-align: justify; padding-left: 5.4pt; padding-right: 5.4pt;\">Dawn Moss</td>\n                <td style=\"width: 16%; vertical-align: top; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">141,175,244</td>\n                <td style=\"width: 16%; vertical-align: top; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">98.94%</td>\n                <td style=\"width: 16%; vertical-align: top; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">1,507,654</td>\n                <td style=\"width: 16%; vertical-align: top; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">1.06%</td>\n            </tr>\n            <tr>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: justify; padding-left: 5.4pt; padding-right: 5.4pt;\">Greg Martin</td>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">141,743,829</td>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">99.34%</td>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">939,069</td>\n                <td style=\"width: 16%; vertical-align: top; background-color: #e6efff; text-align: right; padding-left: 5.4pt; padding-right: 5.4pt;\">0.66%</td>\n            </tr>\n        </table>\n    </div>\n    <p style=\"margin-left: 18pt; text-indent: -18pt; text-align: justify;\">2.<font style=\"width: 10.25pt; text-indent: 0pt; display: inline-block;\">&#160;</font>KPMG LLP, Chartered Accountants, were appointed auditor of the Company for the ensuing year and the directors were authorized to fix the remuneration paid to KPMG LLP.&#160; Of the Shares voted, 156,357,340 represented votes <b>For</b> (99.64%) and 569,283 represented votes <b>Withheld</b> (0.36%).</p>\n    <p style=\"margin-left: 18pt; text-indent: -18pt; text-align: justify;\">3.<font style=\"width: 10.25pt; text-indent: 0pt; display: inline-block;\">&#160;</font>A non-binding advisory resolution was approved, accepting the Company's approach to executive compensation. Of the Shares voted, 119,300,887 represented votes <b>For</b> (98.83%) and 1,410,354 represented votes <b>Against</b> (1.17%).</p>\n    <p style=\"text-align: justify;\">There were 14,243,725 non-votes recorded (but not voted) on each resolution, except for the advisory vote on executive compensation which had 36,215,382 non-votes. Non-votes are discretionary votes given to a broker by a US beneficial holder not allowed under Canadian Securities Regulations.</p>\n    <hr width=\"100%\" size=\"5\" color=\"black\" noshade=\"noshade\">\n</body>\n\n</html>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

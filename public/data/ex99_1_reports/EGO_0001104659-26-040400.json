@@ -1,0 +1,73 @@
+{
+  "ticker": "EGO",
+  "cik": "0000918608",
+  "form": "6-K",
+  "filingDate": "2026-04-07",
+  "accessionNumber": "0001104659-26-040400",
+  "primaryDocument": "tm2611330d2_6k.htm",
+  "indexUrl": "https://www.sec.gov/Archives/edgar/data/918608/000110465926040400/0001104659-26-040400-index.html",
+  "exhibit": {
+    "type": "EX-99.1",
+    "description": "EXHIBIT 99.1",
+    "filename": "tm2611330d2_ex99-1.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/918608/000110465926040400/tm2611330d2_ex99-1.htm"
+  },
+  "extractedAt": "2026-06-11T16:52:12.356Z",
+  "report": {
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/918608/000110465926040400/tm2611330d2_ex99-1.htm",
+    "contentType": "html",
+    "title": "",
+    "headings": [
+      "Exhibit 99.1",
+      "VIA SEDAR+",
+      "RE:",
+      "Eldorado Gold Corporation (the “Company”)",
+      "Report of Voting Results pursuant to Section 11.3\nof",
+      "National Instrument 51-102 Continuous Disclosure Obligations\n(“NI-51-102”)",
+      "Meeting",
+      "Item\n Voted Upon",
+      "Voting Result",
+      "Votes by Ballot",
+      "ELDORADO GOLD CORPORATION"
+    ],
+    "text": "EX-99.1\n2\ntm2611330d2_ex99-1.htm\nEXHIBIT 99.1\n\n \n\n \n\nExhibit 99.1\n\n \n\n \n\nVIA SEDAR+\n\n \n\nTo the Securities Regulatory Authorities:\n\n \n\n RE:\n Eldorado Gold Corporation (the “Company”)\n\nReport of Voting Results pursuant to Section 11.3\nof\n\nNational Instrument 51-102 Continuous Disclosure Obligations\n(“NI-51-102”)\n\n \n\nFollowing the special meeting of the shareholders\nof the Company held on April 7, 2026 (the “Meeting”), and in accordance with Section 11.3 of NI 51-102, we\nhereby notify you of the following results obtained at the Meeting:\n\n \n\n \n Item\n Voted Upon\n Voting Result\n \n \n \n \n Eldorado Share Issuance Resolution\n The ordinary resolution to approve the issuance of common shares in the capital of the Company in connection with a plan of arrangement pursuant to section 288 of the Business Corporations Act (British Columbia) involving the Company, Foran Mining Corporation (“Foran”) and the securityholders of Foran, pursuant to the requirements of the Toronto Stock Exchange and the New York Stock Exchange, was approved by a simple majority of shareholders that voted by ballot.\n \n \n \n \n \n Votes by Ballot\n \n \n \n \n \n For\n Against\n \n \n 125,972,674 (84.21%)\n 23,629,441 (15.79%)\n \n\n \n\nYours truly,\nELDORADO GOLD CORPORATION\n\n \n\n“Karen Aram”\n\n \n\nKaren Aram\nCorporate Secretary",
+    "tables": [
+      {
+        "tableIndex": 0,
+        "rowCount": 1,
+        "rows": [
+          [
+            "RE:",
+            "Eldorado Gold Corporation (the “Company”)"
+          ]
+        ]
+      },
+      {
+        "tableIndex": 1,
+        "rowCount": 5,
+        "rows": [
+          [
+            "Item\n Voted Upon",
+            "Voting Result"
+          ],
+          [
+            "Eldorado Share Issuance Resolution",
+            "The ordinary resolution to approve the issuance of common shares in the capital of the Company in connection with a plan of arrangement pursuant to section 288 of the Business Corporations Act (British Columbia) involving the Company, Foran Mining Corporation (“Foran”) and the securityholders of Foran, pursuant to the requirements of the Toronto Stock Exchange and the New York Stock Exchange, was approved by a simple majority of shareholders that voted by ballot."
+          ],
+          [
+            "Votes by Ballot"
+          ],
+          [
+            "For",
+            "Against"
+          ],
+          [
+            "125,972,674 (84.21%)",
+            "23,629,441 (15.79%)"
+          ]
+        ]
+      }
+    ],
+    "html": "<DOCUMENT>\n<TYPE>EX-99.1\n<SEQUENCE>2\n<FILENAME>tm2611330d2_ex99-1.htm\n<DESCRIPTION>EXHIBIT 99.1\n<TEXT>\n<HTML>\n<HEAD>\n     <TITLE></TITLE>\n</HEAD>\n<BODY STYLE=\"font: 10pt Times New Roman, Times, Serif\">\n\n<P STYLE=\"margin: 0pt\">&nbsp;</P>\n\n<P STYLE=\"text-align: right; margin: 0pt\"><B>Exhibit 99.1</B></P>\n\n<P STYLE=\"margin: 0pt\">&nbsp;&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right\"><IMG SRC=\"tm2611330d2_ex99-1img01.jpg\" ALT=\"\"><FONT STYLE=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\"></FONT></P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\"><B>VIA SEDAR+</B></P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">To the Securities Regulatory Authorities:</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<TABLE CELLPADDING=\"0\" CELLSPACING=\"0\" BORDER=\"0\" STYLE=\"width: 100%; margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif\">\n<TR STYLE=\"vertical-align: top\">\n  <TD STYLE=\"width: 0.5in\"><B>RE:</B></TD>\n  <TD><B>Eldorado Gold Corporation (the &ldquo;Company&rdquo;)</B></TD></TR>\n</TABLE>\n\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\"></P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in\"><B>Report of Voting Results pursuant to Section&nbsp;11.3\nof</B></P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in\"><B>National Instrument 51-102 Continuous Disclosure Obligations\n(&ldquo;NI-51-102&rdquo;)</B></P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify\">Following the special meeting of the shareholders\nof the Company held on April&nbsp;7, 2026 (the &ldquo;<B>Meeting</B>&rdquo;), and in accordance with Section&nbsp;11.3 of NI 51-102, we\nhereby notify you of the following results obtained at the Meeting:</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<TABLE CELLSPACING=\"0\" CELLPADDING=\"0\" STYLE=\"width: 100%; font: 10pt Times New Roman, Times, Serif; border-collapse: collapse\">\n  <TR STYLE=\"vertical-align: top\">\n    <TD><FONT STYLE=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\"><B>Item\n    Voted Upon</B></FONT></TD>\n    <TD COLSPAN=\"2\" STYLE=\"text-align: center\"><B>Voting Result</B></TD></TR>\n  <TR STYLE=\"vertical-align: top\">\n    <TD>&nbsp;</TD>\n    <TD COLSPAN=\"2\">&nbsp;</TD></TR>\n  <TR STYLE=\"vertical-align: top\">\n    <TD STYLE=\"text-align: justify\"><FONT STYLE=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\">Eldorado Share Issuance Resolution</FONT></TD>\n    <TD COLSPAN=\"2\" STYLE=\"text-align: justify\"><FONT STYLE=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\">The ordinary resolution to approve the issuance of common shares in the capital of the Company in connection with a plan of arrangement pursuant to section 288 of the <I>Business Corporations Act </I>(British Columbia) involving the Company, Foran Mining Corporation (&ldquo;Foran&rdquo;) and the securityholders of Foran, pursuant to the requirements of the Toronto Stock Exchange and the New York Stock Exchange, was approved by a simple majority of shareholders that voted by ballot.</FONT></TD></TR>\n  <TR STYLE=\"vertical-align: top\">\n    <TD>&nbsp;</TD>\n    <TD COLSPAN=\"2\">&nbsp;</TD></TR>\n  <TR STYLE=\"vertical-align: top\">\n    <TD>&nbsp;</TD>\n    <TD COLSPAN=\"2\" STYLE=\"text-align: center\"><FONT STYLE=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\"><B>Votes by Ballot</B></FONT></TD></TR>\n  <TR STYLE=\"vertical-align: top\">\n    <TD>&nbsp;</TD>\n    <TD COLSPAN=\"2\">&nbsp;</TD></TR>\n  <TR STYLE=\"vertical-align: top\">\n    <TD STYLE=\"width: 30%\">&nbsp;</TD>\n    <TD STYLE=\"width: 35%\"><U>For</U></TD>\n    <TD STYLE=\"width: 35%\"><FONT STYLE=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\"><U>Against</U></FONT></TD></TR>\n  <TR STYLE=\"vertical-align: top\">\n    <TD>&nbsp;</TD>\n    <TD><FONT STYLE=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\">125,972,674 (84.21%)</FONT></TD>\n    <TD><FONT STYLE=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\">23,629,441 (15.79%)</FONT></TD></TR>\n  </TABLE>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">Yours truly,<BR>\n<B>ELDORADO GOLD CORPORATION</B></P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&ldquo;<I>Karen Aram</I>&rdquo;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">Karen Aram<BR>\nCorporate Secretary</P>\n\n<P STYLE=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0\">&nbsp;&nbsp;</P>\n\n<!-- Field: Page; Sequence: 1; Options: Last -->\n    <DIV STYLE=\"margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1pt solid\"><P STYLE=\"margin: 0pt\">&nbsp;</P></DIV>\n    <!-- Field: /Page -->\n\n<P STYLE=\"margin: 0pt\"></P>\n\n</BODY>\n</HTML>\n</TEXT>\n</DOCUMENT>\n"
+  }
+}

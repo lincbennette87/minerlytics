@@ -1,0 +1,2320 @@
+EX-99.1
+2
+a18-16522_1ex99d1.htm
+EX-99.1
+
+ 
+
+Exhibit 99.1
+ 
+
+ 
+MCEWEN MINING FILES FENIX PRELIMINARY ECONOMIC ASSESSMENT —
+EXTENDS EL GALLO MINE LIFE BY 12 YEARS
+ 
+TORONTO, ONTARIO - (July 9, 2018) - McEwen Mining Inc. (NYSE: MUX) (TSX: MUX) (“McEwen Mining” or the “Company”) reports that it has filed the new Preliminary Economic Assessment prepared in accordance with National Instrument 43-101 (“NI 43-101”) on its 100% owned El Gallo Complex (the “PEA”).
+ 
+Some of the details in the PEA document filed today differ from those disclosed in the news release dated May 25, 2018 entitled “McEwen Mining Announces New Preliminary Economic Assessment — Extending Life An Additional 10 Years in Mexico.” Please disregard the May 25, 2018 news release.
+ 
+The differences are listed below:
+ 
+
+ 
+
+ 
+
+Prior Disclosure 
+
+ 
+
+Finalized PEA 
+
+ 
+
+Change 
+
+Mine Life 
+
+ 
+
+10 yrs 
+
+ 
+
+12 yrs 
+
+ 
+
+Increased 2 yrs 
+
+Base Case After-Tax IRR 
+
+ 
+
+25% 
+
+ 
+
+28% 
+
+ 
+
+Increased 3% 
+
+Upside Case After-Tax IRR 
+
+ 
+
+30% 
+
+ 
+
+33% 
+
+ 
+
+Increased 3% 
+
+Base Case Payback Period 
+
+ 
+
+4.0 
+
+ 
+
+4.1 
+
+ 
+
+Increased 0.1 yrs 
+
+Upside Case Payback Period 
+
+ 
+
+3.8 
+
+ 
+
+3.9 
+
+ 
+
+Increased 0.1 yrs 
+
+Upside Case After-Tax NPV 
+
+ 
+
+$77 million 
+
+ 
+
+$75 million 
+
+ 
+
+Decreased $2 million 
+
+Heap Leach Pad Contained AuEq oz 
+
+ 
+
+197,285 
+
+ 
+
+185,179 
+
+ 
+
+Decreased 6% 
+
+Heap Leach Pad Recovered AuEq oz 
+
+ 
+
+172,989 
+
+ 
+
+162,958 
+
+ 
+
+Decreased 6% 
+
+Total Contained AuEq oz 
+
+ 
+
+679,106 
+
+ 
+
+667,001 
+
+ 
+
+Decreased 2% 
+
+Total Recovered AuEq oz 
+
+ 
+
+572,981 
+
+ 
+
+562,950 
+
+ 
+
+Decreased 2% 
+
+Average Mined Grade 
+
+ 
+
+1.17 g/t AuEq 
+
+ 
+
+1.20 g/t AuEq 
+
+ 
+
+Increased 2.6% 
+ 
+The PEA is available for review on our website and SEDAR (http://www.sedar.com).
+ 
+This PEA study evaluates the potential extension of production from the El Gallo Complex in Sinaloa, Mexico. The proposed development plan evaluated in the PEA is called Project Fenix. The key outcomes of Project Fenix include an average annual production rate of 47,000 ounces gold equivalent (AuEq), a 12-year mine life, low initial capital cost of $41 million, mine pay-back of 4.1 years, and an after-tax IRR of 28% at current gold and silver prices.
+ 
+Summary of the Project Fenix (Base Case) PEA at $1,250/oz gold and $16/oz silver prices(1)(2):
+ 
+· Estimated initial capital cost of $41 million for Phase 1 and $30 million for Phase 2
+ 
+· Pay-back period of 4.1 years
+ 
+· 28% after-tax IRR and $60 million NPV at 5% discount rate
+ 
+· $12.7 million of average annual cash flow from operations from year 2 onwards
+ 
+· 47,000 ounces average annual AuEq production
+ 
+· Cash cost of $704 and $857 per ounce AuEq for Phases 1 and 2 respectively
+ 
+· 12-year Life-of-Mine (LOM)
+ 
+· Updated resource estimate totaling 13 million tonnes at an average grade of 0.39 g/t gold and 77 g/t silver (Measured and Indicated) containing 591,000 oz AuEq, and 5.7 million tonnes at an average grade of 0.81 g/t gold and 27 g/t silver (Inferred) containing 214,000 oz AuEq
+ 
+
+McEwen Mining Inc.
+ 
+1
+
+ 
+
+ 
+The PEA was prepared by GR Engineering Services Limited (GRES), an engineering, consulting and contracting company, under the direction of McEwen Mining in accordance with the requirements of Canadian National Instrument 43-101 “Standards of Disclosure for Mineral Projects” (“NI 43-101”). Contact details for GRES can be found after the footnotes below.
+ 
+Financial Analysis
+ 
+The project base case generates an after-tax net present value (NPV5%) of $60 million, an IRR of 28%, and an annual average after-tax cash flow from operations of $12.7 million per year of operation after the completion of Phase 2.
+ 
+Table 1: After-Tax Financial Results for 3 Scenarios
+ 
+
+ 
+
+ 
+
+Downside Case $1,200/oz Au, $15/oz Ag + 30% Capex Increase 
+
+ 
+
+Base Case $1,250/oz Au, $16/oz Ag 
+
+ 
+
+Upside Case $1,300/oz Au, $17/oz Ag 
+
+ 
+
+Phase 1 Capex 
+
+ 
+
+$53 million 
+
+ 
+
+$41 million 
+
+ 
+
+$41 million 
+
+ 
+
+Phase 2 Capex 
+
+ 
+
+$40 million 
+
+ 
+
+$30 million 
+
+ 
+
+$30 million 
+
+ 
+
+IRR 
+
+ 
+
+14% 
+
+ 
+
+28% 
+
+ 
+
+33% 
+
+ 
+
+NPV@5% Discount Rate 
+
+ 
+
+$30 million 
+
+ 
+
+$60 million 
+
+ 
+
+$75 million 
+
+ 
+
+Payback Period 
+
+ 
+
+6.5 years 
+
+ 
+
+4.1 years 
+
+ 
+
+3.9 years 
+
+ 
+ 
+Figure 1: Graph of After-Tax Cash Flows
+ 
+http://mcewenmining.com/files/doc_news/archive/20180706_fenix_pea/20180706_fenix_pea_fig_1.pdf
+ 
+Mining and Processing Details
+ 
+The Fenix Project involves a two-phase development process. Phase 1 includes the reprocessing of material on the gold heap leach pad at the existing El Gallo Gold Mine, and Phase 2 includes the processing of open pit gold and silver mineralization from several deposits including El Gallo Silver, Palmarito, El Encuentro and Carrisalejo.
+ 
+The process plant would use conventional and proven mineral processing and precious metals recovery technologies. Phase 1 would have a throughput rate of 5,000 tonnes per day (tpd). During Phase 2 fresh mineralized material from the higher grade silver deposits (El Gallo Silver primarily) can only be processed at a maximum of 3,250 tpd.
+ 
+The selected process recovery methods are based on separate treatment of heap leach material (Phase 1) and fresh mineralised material from other deposits (Phase 2). Phase 1 operation would target gold recovery from the heap leach pad material using a conventional ball grinding mill and a hybrid carbon-in-leach (CIL) circuit to recover gold onto activated carbon. Industry standard elution, electrowinning and smelting circuits would be used to produce a doré product.
+ 
+In Phase 2 the process facility would be modified to enable treatment of mineralized material from El Gallo Silver followed by other deposits in the complex. Phase 2 operations would employ conventional flotation technology followed by intensive leaching and zinc precipitation using the Merrill Crowe process for silver and gold recovery. The Phase 1 CIL plant would continue to be used for leaching of the flotation tailings to maximize overall silver recoveries during Phase 2. Phase 2 would also use the existing three stage crushing plant to prepare material for delivery to the grinding circuit.
+ 
+Tailings produced during the operation would be stored in a mined-out open pit at the El Gallo Gold Mine. As part of this process, tailings deposition would include a delivery system designed to maximize tailings consolidation and water recovery.
+ 
+The proposed process plant and the El Gallo Silver deposit are separated by about 6.5 km; requiring construction of a dedicated haul road for the transport of mineralized material. A new substation and power line would connect both projects to the national electrical grid.
+ 
+2
+
+ 
+Over the mine life, production would total 17.2 million tonnes of mineralized material at an average head grade 1.20 g/t AuEq containing 667 koz AuEq, and recovering a total of 563 koz AuEq. The planned production schedule is shown on Table 2.
+ 
+Table 2: Production Summary
+ 
+
+ 
+
+ 
+
+Gold (g/t) 
+
+ 
+
+Silver (g/t) 
+
+ 
+
+Production Model (tonnes) 
+
+ 
+
+Waste (tonnes) 
+
+ 
+
+Strip Ratio 
+
+ 
+
+Contained Metal (oz AuEq) 
+
+ 
+
+Recovered Metal (oz AuEq) 
+
+ 
+
+% of Recovered ozs AuEq 
+
+ 
+
+El Gallo Heap Leach Pad(3) 
+
+ 
+
+0.64 
+
+ 
+
+0 
+
+ 
+
+9,024,027 
+
+ 
+
+0 
+
+ 
+
+N/A 
+
+ 
+
+185,179 
+
+ 
+
+162,958 
+
+ 
+
+29 
+
+% 
+
+El Gallo Silver(4) 
+
+ 
+
+0.11 
+
+ 
+
+117.2 
+
+ 
+
+5,413,000 
+
+ 
+
+20,468,000 
+
+ 
+
+3.8 
+
+ 
+
+291,432 
+
+ 
+
+248,502 
+
+ 
+
+44 
+
+% 
+
+Palmarito(5) 
+
+ 
+
+0.37 
+
+ 
+
+149.9 
+
+ 
+
+1,796,194 
+
+ 
+
+5,518,199 
+
+ 
+
+3.1 
+
+ 
+
+136,948 
+
+ 
+
+104,863 
+
+ 
+
+19 
+
+% 
+
+Carrisalejo 
+
+ 
+
+0.60 
+
+ 
+
+95.0 
+
+ 
+
+263,177 
+
+ 
+
+1,472,104 
+
+ 
+
+5.6 
+
+ 
+
+15,763 
+
+ 
+
+12,894 
+
+ 
+
+2 
+
+% 
+
+El Encuentro 
+
+ 
+
+1.56 
+
+ 
+
+2.2 
+
+ 
+
+736,540 
+
+ 
+
+5,660,945 
+
+ 
+
+7.7 
+
+ 
+
+37,678 
+
+ 
+
+33,733 
+
+ 
+
+6 
+
+% 
+
+TOTALS 
+
+ 
+
+1.20 g/t AuEq 
+
+ 
+
+17,232,938 
+
+ 
+
+33,119,248 
+
+ 
+
+N/A 
+
+ 
+
+667,001 
+
+ 
+
+562,950 
+
+ 
+
+100 
+
+% 
+ 
+Capital and Operating Costs
+ 
+The Fenix Project’s low up-front capital requirements are primarily due to:
+ 
+· Utilizing existing infrastructure at the El Gallo Gold Mine;
+ 
+· Commissioning a tailings storage facility in an existing pit, and
+ 
+· Significantly reducing the required leach tank volumes for El Gallo Silver processing.
+ 
+Phase 1 initial capital expenditure is estimated at $41 million, Phase 2 additional expansion capital expenditure is $30 million, and sustaining capital and closure obligations of $10 million brings the total LOM capital required to $81 million.
+ 
+Mining and operating costs were estimated based on process design criteria, equipment lease rates, labor, reagent, grid power supply, diesel fuel, explosives, maintenance, and other miscellaneous costs. All costs are in Q1 2018 dollars.
+ 
+Table 3: Operating Cost / oz Summary
+ 
+
+ 
+
+ 
+
+Cash Cost(6) per oz AuEq 
+
+ 
+
+AISC(7) per oz AuEq 
+
+ 
+
+Phase 1(8) 
+
+ 
+
+$ 
+
+704 
+
+ 
+
+$ 
+
+704 
+
+ 
+
+Phase 2 
+
+ 
+
+$ 
+
+857 
+
+ 
+
+$ 
+
+877 
+
+ 
+
+Overall Project 
+
+ 
+
+$ 
+
+836 
+
+ 
+
+$ 
+
+853 
+
+ 
+ 
+Table 4: Capital Cost Summary
+ 
+
+Description 
+
+ 
+
+Phase 1 ($ million) 
+
+ 
+
+Phase 2 ($ million) 
+
+ 
+
+Sustaining ($ million) 
+
+ 
+
+Process Plant Direct Costs 
+
+ 
+
+$ 
+
+28.9 
+
+ 
+
+$ 
+
+16.6 
+
+ 
+
+ 
+
+ 
+
+Infrastructure & Owners 
+
+ 
+
+$ 
+
+1.4 
+
+ 
+
+$ 
+
+0.8 
+
+ 
+
+$ 
+
+4.5 
+
+ 
+
+Indirect Costs 
+
+ 
+
+$ 
+
+7.4 
+
+ 
+
+$ 
+
+6.0 
+
+ 
+
+ 
+
+ 
+
+Contingency 
+
+ 
+
+$ 
+
+3.2 
+
+ 
+
+$ 
+
+2.0 
+
+ 
+
+ 
+
+ 
+
+Mining 
+
+ 
+
+$ 
+
+0.0 
+
+ 
+
+$ 
+
+5.0 
+
+ 
+
+$ 
+
+5.0 
+
+ 
+
+Total 
+
+ 
+
+$ 
+
+40.9 
+
+ 
+
+$ 
+
+30.4 
+
+ 
+
+$ 
+
+9.5 
+
+ 
+
+Project Total 
+
+ 
+
+ 
+
+ 
+
+$ 
+
+80.8 
+
+ 
+
+ 
+
+ 
+ 
+3
+
+ 
+Table 5: Operating Cost Per Tonne Summary
+ 
+
+Resource 
+
+ 
+
+Plant Opex ($/t) 
+
+ 
+
+Mining ($/t) 
+
+ 
+
+Haulage ($/t) 
+
+ 
+
+G & A ($/t) 
+
+ 
+
+Total Opex ($/t) 
+
+ 
+
+El Gallo Heap Leach Pad(9)(10) 
+
+ 
+
+$ 
+
+10.77 
+
+ 
+
+$ 
+
+0.53 
+
+ 
+
+$ 
+
+0.00 
+
+ 
+
+$ 
+
+2.50 
+
+ 
+
+$ 
+
+13.80 
+
+ 
+
+El Gallo Silver 
+
+ 
+
+$ 
+
+21.50 
+
+ 
+
+$ 
+
+8.61 
+
+ 
+
+$ 
+
+2.00 
+
+ 
+
+$ 
+
+3.85 
+
+ 
+
+$ 
+
+35.96 
+
+ 
+
+Palmarito 
+
+ 
+
+$ 
+
+21.50 
+
+ 
+
+$ 
+
+7.33 
+
+ 
+
+$ 
+
+7.00 
+
+ 
+
+$ 
+
+3.57 
+
+ 
+
+$ 
+
+39.40 
+
+ 
+
+Carrisalejo 
+
+ 
+
+$ 
+
+21.50 
+
+ 
+
+$ 
+
+11.87 
+
+ 
+
+$ 
+
+2.00 
+
+ 
+
+$ 
+
+3.13 
+
+ 
+
+$ 
+
+38.50 
+
+ 
+
+El Encuentro 
+
+ 
+
+$ 
+
+15.00 
+
+ 
+
+$ 
+
+15.63 
+
+ 
+
+$ 
+
+6.00 
+
+ 
+
+$ 
+
+3.13 
+
+ 
+
+$ 
+
+39.76 
+
+ 
+ 
+Existing Permits
+ 
+The current operation at the El Gallo Gold Mine is a fully permitted open pit mine with a heap leach and ADR process facilities. El Gallo Silver and Palmarito are fully permitted for the construction of a CIL mill and drystack tailings facility. Some amendments to the permits are required for Project Fenix.
+ 
+Future Permitting & Timing
+ 
+Phase 1 requires amendment of the current permits to include the construction of a mill and leach circuit at the location of the existing El Gallo Gold Mine for the reprocessing of the heap leach pad material. The permit amendment will also include the backfilling of the Samaniego pit with mill tailings as part of an integrated concurrent closure plan for the El Gallo Gold Mine. Phase 2 permitting will require authorization to augment the tailings volume to be stored in the Samaniego pit, and El Gallo Silver permits require amendments to change the processing location to El Gallo Gold.
+ 
+The Fenix Project has CONAGUA(11) approval for the extraction of groundwater and for the construction of wells.
+ 
+Advancing the project will require permit amendments and approval by the Federal Environmental Authority (SEMARNAT) for Phase 1 and subsequently for Phase 2.
+ 
+The Company seeks to obtain approval of the Phase 1 El Gallo permit modifications by Q4 2018 and Phase 2 approvals by Q3 2019. Further project advancement in 2019 is subject to permit approvals.
+ 
+Resource Estimates
+ 
+Estimated resources for the Fenix Project are comprised only of material within the boundaries of conceptual pit shells, except for the El Gallo heap leach pad and Palmarito dumps, which are considered available for reprocessing.
+ 
+Table 6: Mineral Resource Estimates(12)
+ 
+El Gallo Silver
+ 
+
+In Optimised Pit Shell(13) Potential COG(14) = 50 g/t Ag 
+
+ 
+
+Tonnes (kt) 
+
+ 
+
+Silver Grade (g/t) 
+
+ 
+
+Silver (Koz) 
+
+ 
+
+Gold Grade (g/t) 
+
+ 
+
+Gold (koz) 
+
+ 
+
+Measured 
+
+ 
+
+1,057 
+
+ 
+
+150 
+
+ 
+
+5,088 
+
+ 
+
+0.09 
+
+ 
+
+3 
+
+ 
+
+Indicated 
+
+ 
+
+4,436 
+
+ 
+
+120 
+
+ 
+
+17,053 
+
+ 
+
+0.13 
+
+ 
+
+19 
+
+ 
+
+Measured and Indicated 
+
+ 
+
+5,493 
+
+ 
+
+125 
+
+ 
+
+22,140 
+
+ 
+
+0.12 
+
+ 
+
+22 
+
+ 
+
+Inferred 
+
+ 
+
+564 
+
+ 
+
+82 
+
+ 
+
+1,488 
+
+ 
+
+0.38 
+
+ 
+
+7 
+
+ 
+ 
+4
+
+ 
+Palmarito
+ 
+
+In Optimised Pit Shell(13) 
+
+ 
+
+Tonnes 
+
+ 
+
+Silver Grade 
+
+ 
+
+Silver 
+
+ 
+
+Gold Grade 
+
+ 
+
+Gold 
+
+ 
+
+Potential COG(14) = 70g/t Ag 
+
+ 
+
+(kt) 
+
+ 
+
+(g/t) 
+
+ 
+
+(koz) 
+
+ 
+
+(g/t) 
+
+ 
+
+(koz) 
+
+ 
+
+Measured 
+
+ 
+
+1,653 
+
+ 
+
+136 
+
+ 
+
+7,245 
+
+ 
+
+0.38 
+
+ 
+
+20 
+
+ 
+
+Indicated 
+
+ 
+
+11 
+
+ 
+
+148 
+
+ 
+
+52 
+
+ 
+
+0.23 
+
+ 
+
+0 
+
+ 
+
+Measured and Indicated 
+
+ 
+
+1,664 
+
+ 
+
+136 
+
+ 
+
+7,297 
+
+ 
+
+0.38 
+
+ 
+
+20 
+
+ 
+
+Inferred 
+
+ 
+
+528 
+
+ 
+
+133 
+
+ 
+
+2,258 
+
+ 
+
+0.30 
+
+ 
+
+5 
+
+ 
+ 
+Palmarito Dumps
+ 
+
+ 
+
+ 
+
+Tonnes 
+
+ 
+
+Silver Grade 
+
+ 
+
+Silver 
+
+ 
+
+Gold Grade 
+
+ 
+
+Gold 
+
+ 
+
+Potential COG(14) = 52g/t Ag 
+
+ 
+
+(kt) 
+
+ 
+
+(g/t) 
+
+ 
+
+(koz) 
+
+ 
+
+(g/t) 
+
+ 
+
+(koz) 
+
+ 
+
+Measured 
+
+ 
+
+177 
+
+ 
+
+177 
+
+ 
+
+1,007 
+
+ 
+
+0.29 
+
+ 
+
+2 
+
+ 
+
+Indicated 
+
+ 
+
+68 
+
+ 
+
+154 
+
+ 
+
+338 
+
+ 
+
+0.24 
+
+ 
+
+1 
+
+ 
+
+Measured and Indicated 
+
+ 
+
+246 
+
+ 
+
+170 
+
+ 
+
+1,345 
+
+ 
+
+0.28 
+
+ 
+
+2 
+
+ 
+
+Inferred 
+
+ 
+
+0 
+
+ 
+
+0 
+
+ 
+
+0 
+
+ 
+
+0.00 
+
+ 
+
+0 
+
+ 
+ 
+Carrisalejo
+ 
+
+In Optimised Pit Shell(13) 
+
+ 
+
+Tonnes 
+
+ 
+
+Silver Grade 
+
+ 
+
+Silver 
+
+ 
+
+Gold Grade 
+
+ 
+
+Gold 
+
+ 
+
+Potential COG(14) = 46g/t Ag 
+
+ 
+
+(Kt) 
+
+ 
+
+(g/t) 
+
+ 
+
+(koz) 
+
+ 
+
+(g/t) 
+
+ 
+
+(koz) 
+
+ 
+
+Measured 
+
+ 
+
+0 
+
+ 
+
+0 
+
+ 
+
+0 
+
+ 
+
+0.00 
+
+ 
+
+0 
+
+ 
+
+Indicated 
+
+ 
+
+391 
+
+ 
+
+116 
+
+ 
+
+1,454 
+
+ 
+
+0.11 
+
+ 
+
+1 
+
+ 
+
+Measured and Indicated 
+
+ 
+
+391 
+
+ 
+
+116 
+
+ 
+
+1,454 
+
+ 
+
+0.11 
+
+ 
+
+1 
+
+ 
+
+Inferred 
+
+ 
+
+42 
+
+ 
+
+821 
+
+ 
+
+1,111 
+
+ 
+
+0.02 
+
+ 
+
+0 
+
+ 
+ 
+El Encuentro
+ 
+
+In Optimised Pit Shell(13) 
+
+ 
+
+Tonnes 
+
+ 
+
+Silver Grade 
+
+ 
+
+Silver 
+
+ 
+
+Gold Grade 
+
+ 
+
+Gold 
+
+ 
+
+Potential COG(14) = 0.78 g/t Au 
+
+ 
+
+(kt) 
+
+ 
+
+(g/t) 
+
+ 
+
+(koz) 
+
+ 
+
+(g/t) 
+
+ 
+
+(koz) 
+
+ 
+
+Measured 
+
+ 
+
+0 
+
+ 
+
+0 
+
+ 
+
+0 
+
+ 
+
+0.00 
+
+ 
+
+0 
+
+ 
+
+Indicated 
+
+ 
+
+534 
+
+ 
+
+2 
+
+ 
+
+42 
+
+ 
+
+1.87 
+
+ 
+
+32 
+
+ 
+
+Measured and Indicated 
+
+ 
+
+534 
+
+ 
+
+2 
+
+ 
+
+42 
+
+ 
+
+1.87 
+
+ 
+
+32 
+
+ 
+
+Inferred 
+
+ 
+
+190 
+
+ 
+
+19 
+
+ 
+
+117 
+
+ 
+
+5.68 
+
+ 
+
+35 
+
+ 
+ 
+El Gallo Heap Leach Pad
+ 
+
+ 
+
+ 
+
+Tonnes 
+
+ 
+
+Silver Grade 
+
+ 
+
+Silver 
+
+ 
+
+Gold Grade 
+
+ 
+
+Gold 
+
+ 
+
+Potential COG(14) = 0 g/t Au 
+
+ 
+
+(kt) 
+
+ 
+
+(g/t) 
+
+ 
+
+(koz) 
+
+ 
+
+(g/t) 
+
+ 
+
+(koz) 
+
+ 
+
+Measured 
+
+ 
+
+0 
+
+ 
+
+0 
+
+ 
+
+0 
+
+ 
+
+0.00 
+
+ 
+
+0 
+
+ 
+
+Indicated 
+
+ 
+
+4,679 
+
+ 
+
+0 
+
+ 
+
+0 
+
+ 
+
+0.56 
+
+ 
+
+84 
+
+ 
+
+Measured and Indicated 
+
+ 
+
+4,679 
+
+ 
+
+0 
+
+ 
+
+0 
+
+ 
+
+0.56 
+
+ 
+
+84 
+
+ 
+
+Inferred 
+
+ 
+
+4,352 
+
+ 
+
+0 
+
+ 
+
+0 
+
+ 
+
+0.72 
+
+ 
+
+101 
+
+ 
+ 
+Totals
+ 
+
+In Optimised Pit Shells(13) 
+
+ 
+
+Tonnes 
+
+ 
+
+Silver Grade 
+
+ 
+
+Silver 
+
+ 
+
+Gold Grade 
+
+ 
+
+Gold 
+
+ 
+
+Potential COGs variable(14) 
+
+ 
+
+(kt) 
+
+ 
+
+(g/t) 
+
+ 
+
+(koz) 
+
+ 
+
+(g/t) 
+
+ 
+
+(koz) 
+
+ 
+
+Measured 
+
+ 
+
+2,887 
+
+ 
+
+144 
+
+ 
+
+13,340 
+
+ 
+
+0.27 
+
+ 
+
+25 
+
+ 
+
+Indicated 
+
+ 
+
+10,119 
+
+ 
+
+58 
+
+ 
+
+18,938 
+
+ 
+
+0.42 
+
+ 
+
+137 
+
+ 
+
+Measured and Indicated 
+
+ 
+
+13,006 
+
+ 
+
+77 
+
+ 
+
+32,277 
+
+ 
+
+0.39 
+
+ 
+
+161 
+
+ 
+
+Inferred 
+
+ 
+
+5,678 
+
+ 
+
+27 
+
+ 
+
+4,974 
+
+ 
+
+0.81 
+
+ 
+
+148 
+
+ 
+ 
+Metallurgical Testing
+ 
+Preliminary metallurgical test work conducted in 2018 indicated that the El Gallo Gold heap leach pad material would be amenable to direct cyanidation following conventional grinding. Test work identified moderate levels of soluble copper and zinc.
+ 
+From 2010 to 2016 extensive metallurgical test work has been conducted on samples from the El Gallo Silver deposit using a direct cyanidation flow sheet. From 2017 to 2018 metallurgical test work has been focused on using conventional flotation techniques to separate the slower leaching minerals to enable separate cyanide leaching of bulk flotation concentrate and flotation tailings streams with tailored leach conditions to reduce overall size of the leaching circuit.
+ 
+Results have proved favorable and a flowsheet incorporating bulk flotation and separate leaching of bulk flotation concentrates and tailings for treatment of El Gallo Silver has been adopted.
+ 
+5
+
+ 
+Historical test work records have been utilized to gain a preliminary understanding of the remaining resources along with some scoping test work conducted in 2018 to determine how material from the other higher-grade gold and silver deposits included in the conceptual production schedule would respond to the selected flowsheet.
+ 
+Table 7: LOM Metal Recoveries for the Production Model
+ 
+
+Resource Area 
+
+ 
+
+LOM Gold Recovery 
+
+ 
+
+LOM Silver Recovery 
+
+ 
+
+El Gallo Heap Leach Pad 
+
+ 
+
+88 
+
+% 
+
+— 
+
+ 
+
+El Gallo Silver 
+
+ 
+
+75 
+
+% 
+
+86 
+
+% 
+
+Palmarito 
+
+ 
+
+85 
+
+% 
+
+75 
+
+% 
+
+Carrisalejo 
+
+ 
+
+75 
+
+% 
+
+85 
+
+% 
+
+El Encuentro 
+
+ 
+
+90 
+
+% 
+
+65 
+
+% 
+ 
+Results from the scoping tests indicate that the Carrisalejo material will likely perform similarly to El Gallo Silver with respect to silver recovery. Scoping test results showed only modest silver recovery from flotation for the Palmarito sample. However, separate cyanide leaching of the bulk flotation concentrates and flotation tailings streams achieved positive results. The treatment process for Palmarito and Carrisalejo open pit material has therefore been assumed to be similar to El Gallo Silver pending confirmation through additional sampling and metallurgical test work.
+ 
+For the PEA metallurgical samples selected for testing were assumed to be representative. Note that the Palmarito, Carrisalejo and El Encuentro deposits included in the production schedule have only been subjected to scoping level metallurgical test work using the selected process flowsheet. Further sampling and test work is required to better understand the response of each of the deposits to the selected flowsheet.
+ 
+Exploration
+ 
+In recent years, exploration efforts at the El Gallo Complex have focused on both near-mine and property-wide targets. Near-mine drilling efforts have been successful in delineating and extending mineralization near the Samaniego and Sagrado Corazon pits. The new gold mineralization generally contains sulfides that could be processed in the Phase 2 process plant. At the property scale significant mineralization has been confirmed at the El Encuentro zone, which is located 10 km from the El Gallo Gold Mine.
+ 
+A property-wide soil geochemical survey was completed earlier this year and results indicate the potential for extensions of known zones of sulfide mineralization. In addition, multiple targets were identified from the survey, and field evaluation and ranking of targets for drill testing is in progress.
+ 
+Further Optimization, Cost Reductions and Project Potential
+ 
+The Company believes there are opportunities to further improve the economics of the Fenix Project through ongoing testing and trade-off studies that will be continued throughout 2018.
+ 
+Capital cost estimates for the project are to a level of accuracy that is consistent with a PEA technical report. During the next 14 months we will continue to review mineral processing, mine sequencing, material transportation and tailings disposal options; and the flow sheet will be optimized by undertaking trade-off studies, update cost models and additional metallurgical testwork.
+ 
+
+FOOTNOTES
+ 
+(1) All amounts are in U.S. Dollars. “g/t” means grams per metric tonne, “oz” means ounce(s), “IRR” means Internal Rate of Return, “LOM” means life-of-mine.
+(2) All references to AuEq are based on a 75 Ag oz to 1 Au oz ratio.
+(3) The heap leach pad spent ore resource number assumes a cutoff grade that permits processing of the entire pad whereas
+ 
+6
+
+ 
+blocks within the leach pad model will be mobilized while mining which will make them difficult to segregate; sub-cutoff leach pad material will inherently have potential acid generating sulfide liabilities if placed in our waste dumps and so it will be prudent to process the entire leach pad and place tailings in the Samaniego pit at an overall environmental and economic benefit.
+(4) Production numbers for El Gallo Silver are taken from designed pits from prior studies, which do not differ materially from published optimized pit resource numbers.
+(5) Production numbers for Palmarito are also taken from designed pits from prior studies, and do not differ materially from published optimized pit resource numbers.
+(6) Cash cost is calculated by dividing total life-of-mine production costs by total ounces produced.
+(7) All-in sustaining costs (AISC) is calculated by dividing the sum of all cash costs plus, sustaining capital and reclamation costs by total ounces produced.
+(8) There are no sustaining capital costs for Phase 1
+(9) Mining of heap leach spent ore requires no drilling or blasting.
+(10) The heap leach pad is located immediately adjacent to the proposed plant location requiring no separate haulage costs in addition to mining.
+(11) CONAGUA is the Mexican federal water authority (Comision Nacional del Agua).
+(12) Mineral Resources are not Mineral Reserves and do not have demonstrated economic viability. There is no certainty that all or any part of the Mineral Resources estimated will be converted into Mineral Reserves. Numbers in the table have been rounded to reflect the accuracy of the estimate and may not sum due to rounding.
+(13) Resources stated as contained within a potentially economically minable open pit; pit optimization parameters are: USD$1,250/oz Au, & USD$18.00/oz Ag. Resource models have been developed based on gold and silver recoveries from historical testwork programs, which were based on a different process flow sheet to what has been adopted for the project.
+(14) Cutoff Grades vary by pit according to parameters.
+ 
+Details for GR Engineering Services Limited: GR ENGINEERING SERVICES LIMITED Tel: +61 8 6272 6000 Fax: +61 8 6272 6001 Email: gres@gres.com.au Website: www.gres.com.au PO Box 258, Belmont WA 6984 71 Daly Street, Ascot WA 6104
+ 
+The PEA is available for review on our website and SEDAR (http://www.sedar.com).
+ 
+QUALIFIED PERSONS
+ 
+
+Responsible Person 
+
+ 
+
+Company 
+
+ 
+
+Primary Areas of Responsibility 
+
+Luke Willis 
+
+ 
+
+McEwen 
+
+ 
+
+Geology, Drilling, Resource Estimates, Sampling and Data Verification. 
+
+Xavier Ochoa 
+
+ 
+
+McEwen 
+
+ 
+
+Mining, Infrastructure &Tailings, Permitting and Financial Analysis 
+
+Brendan Mulvihill 
+
+ 
+
+GRES 
+
+ 
+
+Metallurgical, Process Plant Capex and Opex 
+
+ 
+The technical contents of this news release have been reviewed and approved by Nathan M. Stubina, Ph.D., P.Eng., FCIM, Managing Director and Xavier L. Ochoa, QP Member of the Mining and Metallurgical Society of America, and Qualified Persons as defined by Canadian Securities Administrator National Instrument 43-101 “Standards of Disclosure for Mineral Projects”.
+ 
+CAUTIONARY NOTE TO US INVESTORS REGARDING RESOURCE ESTIMATION
+ 
+McEwen Mining prepares its resource estimates in accordance with standards of the Canadian Institute of Mining, Metallurgy and Petroleum referred to in Canadian National Instrument 43-101 (NI 43-101). These standards are different from the standards generally permitted in reports filed with the SEC. Under NI 43-101, McEwen Mining reports measured, indicated and inferred resources, measurements, which are generally not permitted in filings made with the SEC. The estimation of measured resources and indicated resources involve greater uncertainty as to their existence and economic feasibility than the estimation of proven and probable reserves. U.S. investors are cautioned not to assume that any part of measured or indicated resources will ever be converted into economically mineable reserves. The estimation of inferred resources involves far greater uncertainty as to their existence and economic viability than the estimation of other categories of resources.
+ 
+CAUTION CONCERNING FORWARD-LOOKING STATEMENTS
+ 
+This news release contains certain forward-looking statements and information, including “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995. The forward-looking statements and information expressed, as at the date of this news release, McEwen Mining Inc.’s (the “Company”) estimates, forecasts, projections, expectations or beliefs as to future events and results. Forward-looking statements and
+ 
+7
+
+ 
+information are necessarily based upon a number of estimates and assumptions that, while considered reasonable by management, are inherently subject to significant business, economic and competitive uncertainties, risks and contingencies, and there can be no assurance that such statements and information will prove to be accurate. Therefore, actual results and future events could differ materially from those anticipated in such statements and information. Risks and uncertainties that could cause results or future events to differ materially from current expectations expressed or implied by the forward-looking statements and information include, but are not limited to, factors associated with fluctuations in the market price of precious metals, mining industry risks, political, economic, social and security risks associated with foreign operations, the ability of the corporation to receive or receive in a timely manner permits or other approvals required in connection with operations, risks associated with the construction of mining operations and commencement of production and the projected costs thereof, risks related to litigation, the state of the capital markets, environmental risks and hazards, uncertainty as to calculation of mineral resources and reserves, and other risks. The Company’s dividend policy will be reviewed periodically by the Board of Directors and is subject to change based on certain factors such as the capital needs of the Company and its future operating results. Readers should not place undue reliance on forward-looking statements or information included herein, which speak only as of the date hereof. The Company undertakes no obligation to reissue or update forward-looking statements or information as a result of new information or events after the date hereof except as may be required by law. See McEwen Mining’s Annual Report on Form 10-K for the fiscal year ended December 31, 2017 and other filings with the Securities and Exchange Commission, under the caption “Risk Factors”, for additional information on risks, uncertainties and other factors relating to the forward-looking statements and information regarding the Company. All forward-looking statements and information made in this news release are qualified by this cautionary statement.
+ 
+The NYSE and TSX have not reviewed and do not accept responsibility for the adequacy or accuracy of the contents of this news release, which has been prepared by management of McEwen Mining Inc.
+ 
+ABOUT MCEWEN MINING
+ 
+McEwen has the goal to qualify for inclusion in the S&P 500 Index by creating a profitable gold and silver producer focused in the Americas. McEwen’s principal assets consist of: the San José mine in Santa Cruz, Argentina (49% interest); the El Gallo mine in Mexico; the Black Fox mine in Timmins, Canada; the Gold Bar mine in Nevada, currently under construction; and the large Los Azules copper project in Argentina, advancing towards development.
+ 
+McEwen has a total of 337 million shares outstanding. Rob McEwen, Chairman and Chief Owner, owns 24% of the shares.
+ 
+
+CONTACT INFORMATION: 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Mihaela Iancu 
+
+Website: www.mcewenmining.com 
+
+150 King Street West 
+
+Investor Relations 
+
+ 
+
+Suite 2800, P.O. Box 24 
+
+(647)-258-0395 ext 320 
+
+Facebook: facebook.com/mcewenrob 
+
+Toronto, ON, Canada 
+
+info@mcewenmining.com 
+
+ 
+
+M5H 1J9 
+
+ 
+
+Twitter: twitter.com/mcewenmining 
+
+(866) 441-0690 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Instagram: instagram.com/mcewenmining 
+
+ 
+ 
+8
