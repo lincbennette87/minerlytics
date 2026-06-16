@@ -1,5 +1,0 @@
-{
-  "ticker": "RGLD",
-  "cik": "0000854606",
-  "error": "Could not load SEC submissions feed: HTTP 404 for https://data.sec.gov/submissions/CIK0000854606.json\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>submissions/CIK0000854606.json</Key><RequestId>7VTNKD4HRN9BXQY9</RequestId><HostId>YKGuEL8Leku5qgYTJRttpy/r6Q7wLDB/KogJcLqDNbMEr35s91IZwxX2RGbwmubHY3YnSrMK1Uk=</HostId></Error>"
-}

@@ -4,7 +4,7 @@ import * as cheerio from "cheerio";
 
 const ROOT = process.cwd();
 const UNIVERSE_FILE = path.join(ROOT, "data", "universe.json");
-const OUTPUT_DIR = path.join(ROOT, "public", "data", "ex99_1_reports");
+const OUTPUT_DIR = path.join(ROOT, "data", "ex99_1_reports");
 
 const USER_AGENT =
   process.env.SEC_USER_AGENT || "Minerlytics your-email@example.com";

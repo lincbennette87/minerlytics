@@ -1,8 +1,0 @@
-{
-  "ticker": "FSM",
-  "cik": "0001341335",
-  "form": "6-K",
-  "filingDate": "2012-08-22",
-  "accessionNumber": "0001217160-12-000263",
-  "error": "HTTP 503 for https://www.sec.gov/Archives/edgar/data/1341335/000121716012000263/0001217160-12-000263-index.html\n<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width initial-scale=1.0 maximum-scale=3.0\" />\n    <meta name=\"origin\" content=\"WCM\" />\n    <script type=\"text/javascript\">\n\t  WebFontConfig = {\n\t    google: { families: [ 'Raleway:300,400,500,600:latin' ] }\n\t  };\n\t  (function() {\n\t    var wf = document.createElement('script');\n\t"
-}

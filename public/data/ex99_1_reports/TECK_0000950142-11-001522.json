@@ -1,8 +1,0 @@
-{
-  "ticker": "TECK",
-  "cik": "0000886986",
-  "form": "6-K",
-  "filingDate": "2011-09-02",
-  "accessionNumber": "0000950142-11-001522",
-  "error": "HTTP 429 for https://www.sec.gov/Archives/edgar/data/886986/000095014211001522/0000950142-11-001522-index.html\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<title>SEC.gov | Request Rate Threshold Exceeded</title>\n<style>\nhtml {height: 100%}\nbody {height: 100%; margin:0; padding:0;}\n#header {background-color:#003968; color:#fff; padding:15px 20px 10px 20px;font-family:Arial, Helvetica, sans-serif; font-size:20p"
-}
