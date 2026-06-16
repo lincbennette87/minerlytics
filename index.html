@@ -574,7 +574,7 @@
       <div class="universeMapCard" style="grid-column:1 / -1;">
         <div class="trendChartHead">
           <div class="trendChartTitle">Minerlytics Universe Map</div>
-          <div class="trendChartMeta">Blinking coverage markers for key mining regions across your tracked ticker universe</div>
+          <div class="trendChartMeta">Company-level mining coverage with mapped locations, sub-regions, and live ticker labels across the Minerlytics universe</div>
         </div>
         <div class="universeMapFrame">
           <div class="universeMapLegend" id="universeMapLegend"></div>
@@ -582,11 +582,29 @@
             <svg class="universeMapSvg" viewBox="0 0 1000 460" role="img" aria-label="World map of Minerlytics ticker coverage">
               <defs>
                 <linearGradient id="mapGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="rgba(154,122,74,.22)"></stop>
-                  <stop offset="100%" stop-color="rgba(110,122,113,.08)"></stop>
+                  <stop offset="0%" stop-color="rgba(154,122,74,.28)"></stop>
+                  <stop offset="55%" stop-color="rgba(22,32,43,.18)"></stop>
+                  <stop offset="100%" stop-color="rgba(110,122,113,.12)"></stop>
+                </linearGradient>
+                <linearGradient id="mapOcean" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="rgba(12,18,24,.95)"></stop>
+                  <stop offset="100%" stop-color="rgba(18,24,31,.88)"></stop>
                 </linearGradient>
               </defs>
+              <rect x="0" y="0" width="1000" height="460" rx="26" fill="url(#mapOcean)"></rect>
               <rect x="0" y="0" width="1000" height="460" rx="26" fill="url(#mapGlow)"></rect>
+              <g class="mapGridLines" stroke="rgba(255,255,255,.05)" stroke-width="1">
+                <path d="M0 82 H1000"></path>
+                <path d="M0 154 H1000"></path>
+                <path d="M0 230 H1000"></path>
+                <path d="M0 306 H1000"></path>
+                <path d="M0 382 H1000"></path>
+                <path d="M166 0 V460"></path>
+                <path d="M333 0 V460"></path>
+                <path d="M500 0 V460"></path>
+                <path d="M666 0 V460"></path>
+                <path d="M833 0 V460"></path>
+              </g>
               <g class="mapLandmass" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.06)" stroke-width="1.2">
                 <path d="M112 135l30-28 46-8 45 22 25 33 10 49-24 34-39 7-26-15-29 14-35-22-16-43 13-43z"></path>
                 <path d="M253 81l43-21 71 7 47 32 11 30-21 25-42-1-23-22-40-4-32 17-23-22 9-41z"></path>
@@ -598,6 +616,7 @@
               </g>
               <g id="universeMapMarkers"></g>
             </svg>
+            <div class="universeMapTooltip" id="universeMapTooltip" style="display:none;"></div>
           </div>
           <div class="universeMapSidebar" id="universeMapSidebar"></div>
         </div>
@@ -1757,7 +1776,8 @@ window.addEventListener("minerlytics-auth-state", () => {
   const markerWrap = document.getElementById("universeMapMarkers");
   const legendWrap = document.getElementById("universeMapLegend");
   const sidebarWrap = document.getElementById("universeMapSidebar");
-  if (!markerWrap || !legendWrap || !sidebarWrap) return;
+  const tooltipWrap = document.getElementById("universeMapTooltip");
+  if (!markerWrap || !legendWrap || !sidebarWrap || !tooltipWrap) return;
   const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 
   const METAL_META = {
@@ -1781,13 +1801,13 @@ window.addEventListener("minerlytics-auth-state", () => {
 
   function renderMap(markers) {
     sidebarWrap.innerHTML = `
-      <div class="universeMapSidebarHead">Regional ticker clusters</div>
+      <div class="universeMapSidebarHead">Company map coverage</div>
       ${markers.map((marker) => {
         const meta = METAL_META[marker.metal] || METAL_META.gold;
         return `
           <div class="universeMapSidebarItem ${meta.className}" data-map-card="${marker.key}">
-            <div class="universeMapSidebarTitle">${marker.label}</div>
-            <div class="universeMapSidebarMeta">${marker.detail}${marker.latest_filing_date ? ` • 40-F ${marker.latest_filing_date}` : ""}</div>
+            <div class="universeMapSidebarTitle">${marker.ticker} • ${marker.company_name}</div>
+            <div class="universeMapSidebarMeta">${marker.location_label}${marker.sub_location ? ` • ${marker.sub_location}` : ""}${marker.latest_filing_date ? ` • filing ${marker.latest_filing_date}` : ""}</div>
             ${marker.source_excerpt ? `<div class="universeMapSidebarMeta" style="margin-top:6px;">${marker.source_excerpt}</div>` : ""}
           </div>
         `;
@@ -1797,14 +1817,21 @@ window.addEventListener("minerlytics-auth-state", () => {
     markerWrap.innerHTML = markers.map((marker, index) => {
       const meta = METAL_META[marker.metal] || METAL_META.gold;
       const pulseDelay = `${(index % 5) * 0.28}s`;
-      const beamX = Math.max(42, marker.x - 18);
-      const beamY = Math.max(32, marker.y - 26);
+      const beamX = Math.max(42, marker.x - 14);
+      const beamY = Math.max(28, marker.y - 18);
+      const tagX = beamX - 2;
+      const tagY = beamY - 18;
+      const safeLabel = String(marker.ticker || "");
       return `
         <g class="mapMarker ${meta.className}" data-map-marker="${marker.key}" style="color:${meta.color};">
-          <line class="mapMarkerBeam" x1="${marker.x}" y1="${marker.y}" x2="${beamX}" y2="${beamY}" stroke="${meta.color}"></line>
-          <circle class="mapMarkerPulse" cx="${marker.x}" cy="${marker.y}" r="10" stroke="${meta.color}" style="animation-delay:${pulseDelay};"></circle>
+          <line class="mapMarkerBeam" x1="${marker.anchor_x || marker.x}" y1="${marker.anchor_y || marker.y}" x2="${marker.x}" y2="${marker.y}" stroke="${meta.color}"></line>
+          <circle class="mapMarkerPulse" cx="${marker.x}" cy="${marker.y}" r="12" stroke="${meta.color}" style="animation-delay:${pulseDelay};"></circle>
+          <circle class="mapMarkerPulse is-secondary" cx="${marker.x}" cy="${marker.y}" r="18" stroke="${meta.color}" style="animation-delay:${pulseDelay};"></circle>
           <circle class="mapMarkerCore" cx="${marker.x}" cy="${marker.y}" r="5.5" fill="${meta.color}"></circle>
-          <text x="${beamX - 2}" y="${beamY - 4}">${marker.label}</text>
+          <g class="mapMarkerTag">
+            <rect x="${tagX - 8}" y="${tagY - 12}" rx="10" ry="10" width="${Math.max(44, safeLabel.length * 8 + 14)}" height="22"></rect>
+            <text x="${tagX}" y="${tagY + 3}">${safeLabel}</text>
+          </g>
         </g>
       `;
     }).join("");
@@ -1818,15 +1845,42 @@ window.addEventListener("minerlytics-auth-state", () => {
       });
     }
 
+    function showTooltip(marker, event) {
+      if (!marker) return;
+      tooltipWrap.innerHTML = `
+        <div class="universeMapTooltipTicker">${marker.ticker} • ${marker.company_name}</div>
+        <div class="universeMapTooltipMeta">${marker.location_label}${marker.sub_location ? ` • ${marker.sub_location}` : ""}</div>
+        ${marker.latest_filing_date ? `<div class="universeMapTooltipMeta">Latest filing: ${marker.latest_filing_date}</div>` : ""}
+      `;
+      tooltipWrap.style.display = "grid";
+      const hostRect = tooltipWrap.parentElement.getBoundingClientRect();
+      const x = Math.min(Math.max(18, event.clientX - hostRect.left + 14), hostRect.width - 250);
+      const y = Math.min(Math.max(18, event.clientY - hostRect.top - 18), hostRect.height - 90);
+      tooltipWrap.style.left = `${x}px`;
+      tooltipWrap.style.top = `${y}px`;
+    }
+
+    function hideTooltip() {
+      tooltipWrap.style.display = "none";
+    }
+
     document.querySelectorAll("[data-map-marker]").forEach((node) => {
       const key = node.getAttribute("data-map-marker") || "";
+      const marker = markers.find((item) => item.key === key);
       node.addEventListener("mouseenter", () => activateMarker(key));
+      node.addEventListener("mouseenter", (event) => showTooltip(marker, event));
+      node.addEventListener("mousemove", (event) => showTooltip(marker, event));
+      node.addEventListener("mouseleave", hideTooltip);
       node.addEventListener("click", () => activateMarker(key));
     });
 
     document.querySelectorAll("[data-map-card]").forEach((node) => {
       const key = node.getAttribute("data-map-card") || "";
+      const marker = markers.find((item) => item.key === key);
       node.addEventListener("mouseenter", () => activateMarker(key));
+      node.addEventListener("mouseenter", (event) => showTooltip(marker, event));
+      node.addEventListener("mousemove", (event) => showTooltip(marker, event));
+      node.addEventListener("mouseleave", hideTooltip);
       node.addEventListener("click", () => activateMarker(key));
     });
 
@@ -1837,7 +1891,7 @@ window.addEventListener("minerlytics-auth-state", () => {
 
   async function loadUniverseMap() {
     try {
-      const res = await fetch(`${API_BASE}/api/universe/map?limit=18`, {
+      const res = await fetch(`${API_BASE}/api/universe/map?limit=28`, {
         headers: { accept: "application/json" },
         cache: "no-store"
       });

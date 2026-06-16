@@ -772,15 +772,62 @@ function detectMapLocationFromText(textValue = "") {
   let best = null;
   for (const location of MAP_LOCATION_CATALOG) {
     let score = 0;
+    let matchedAlias = "";
     for (const alias of location.aliases) {
-      if (text.includes(alias)) score += alias.length > 6 ? 2 : 1;
+      if (text.includes(alias)) {
+        score += alias.length > 6 ? 2 : 1;
+        if (!matchedAlias || alias.length > matchedAlias.length) matchedAlias = alias;
+      }
     }
     if (score > 0 && (!best || score > best.score)) {
-      best = { ...location, score };
+      best = { ...location, score, matchedAlias };
     }
   }
 
   return best;
+}
+
+function toTitleCase(value = "") {
+  return String(value || "")
+    .split(/[\s-]+/)
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase())
+    .join(" ");
+}
+
+function getMapSubLocationLabel(location = null, sourceText = "", ticker = "") {
+  const alias = String(location?.matchedAlias || "").trim();
+  if (alias && alias.toLowerCase() !== String(location?.label || "").toLowerCase()) {
+    return toTitleCase(alias);
+  }
+
+  const overrideCountry = String(ANALYSIS_META_OVERRIDES[String(ticker || "").toUpperCase().trim()]?.country || "").trim();
+  if (overrideCountry) return overrideCountry;
+
+  const meta = TICKERS[String(ticker || "").toUpperCase().trim()] || {};
+  const fallbackAlias = Array.isArray(meta.aliases) ? meta.aliases.find(Boolean) : "";
+  return String(fallbackAlias || meta.company || meta.name || sourceText || location?.label || "").trim();
+}
+
+function markerOffsetForTicker(ticker = "") {
+  const source = String(ticker || "").toUpperCase();
+  let hash = 0;
+  for (let i = 0; i < source.length; i += 1) {
+    hash = (hash * 31 + source.charCodeAt(i)) % 9973;
+  }
+
+  const offsets = [
+    [0, 0],
+    [14, -10],
+    [-16, 10],
+    [18, 12],
+    [-18, -12],
+    [24, -4],
+    [-24, 4],
+    [8, 18],
+    [-10, -18],
+  ];
+  return offsets[hash % offsets.length];
 }
 
 function resolveMapLocationForTicker(ticker = "", sourceText = "") {
@@ -810,7 +857,7 @@ async function getUniverseMapMarkers(env, tickers = Object.keys(TICKERS), limit 
     .filter((item) => !!TICKERS[item])
     .slice(0, 80);
 
-  const markersByKey = new Map();
+  const markers = [];
 
   for (const ticker of safeTickers) {
     const rows = await env.DB.prepare(
@@ -846,42 +893,34 @@ async function getUniverseMapMarkers(env, tickers = Object.keys(TICKERS), limit 
     const location = resolveMapLocationForTicker(ticker, sourceText);
     if (!location) continue;
 
-    const key = location.key;
-    const existing = markersByKey.get(key) || {
-      key,
-      label: location.label,
-      x: location.x,
-      y: location.y,
+    const offset = markerOffsetForTicker(ticker);
+    const latestFilingDate = selected[0]?.filing_date || null;
+    const sourceExcerpt = cleanExcerptText(sourceText, 180) || `Primary mapped operating region: ${location.label}.`;
+    markers.push({
+      key: ticker,
+      ticker,
+      company_name: String(TICKERS[ticker]?.company || TICKERS[ticker]?.name || ticker).trim(),
+      label: ticker,
+      map_label: String(TICKERS[ticker]?.name || TICKERS[ticker]?.company || ticker).trim(),
+      location_label: location.label,
+      sub_location: getMapSubLocationLabel(location, sourceText, ticker),
+      x: location.x + offset[0],
+      y: location.y + offset[1],
+      anchor_x: location.x,
+      anchor_y: location.y,
       metal: String(TICKERS[ticker]?.metal || "gold").toLowerCase(),
-      tickers: [],
-      excerpts: [],
-      latest_filing_date: null,
-    };
-
-    existing.tickers.push(ticker);
-    const cleanedExcerpt = cleanExcerptText(sourceText, 180);
-    if (cleanedExcerpt) {
-      existing.excerpts.push(cleanedExcerpt);
-    } else {
-      const fallbackCountry = String(ANALYSIS_META_OVERRIDES[ticker]?.country || "").trim();
-      if (fallbackCountry) {
-        existing.excerpts.push(`Primary operating region mapped from Minerlytics universe metadata: ${fallbackCountry}.`);
-      }
-    }
-    if (!existing.latest_filing_date || String(selected[0]?.filing_date || "") > String(existing.latest_filing_date || "")) {
-      existing.latest_filing_date = selected[0]?.filing_date || existing.latest_filing_date;
-    }
-    markersByKey.set(key, existing);
+      latest_filing_date: latestFilingDate,
+      source_excerpt: sourceExcerpt,
+      detail: [location.label, getMapSubLocationLabel(location, sourceText, ticker)].filter(Boolean).join(" • "),
+    });
   }
 
-  return Array.from(markersByKey.values())
-    .map((item) => ({
-      ...item,
-      tickers: Array.from(new Set(item.tickers)).slice(0, 8),
-      detail: Array.from(new Set(item.tickers)).slice(0, 8).join(", "),
-      source_excerpt: item.excerpts.find(Boolean) || "",
-    }))
-    .sort((a, b) => b.tickers.length - a.tickers.length)
+  return markers
+    .sort((a, b) => {
+      const dateDiff = String(b.latest_filing_date || "").localeCompare(String(a.latest_filing_date || ""));
+      if (dateDiff !== 0) return dateDiff;
+      return String(a.ticker || "").localeCompare(String(b.ticker || ""));
+    })
     .slice(0, Math.max(1, Number(limit || 18)));
 }
 
