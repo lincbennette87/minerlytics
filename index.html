@@ -425,14 +425,6 @@
   </style>
 </section>
 
-        <div class="trendRow" id="trendRow">
-          <!-- filled by app.js -->
-        </div>
-
-        <!-- Mini quote cards -->
-        <div class="quoteRow" id="quoteRow">
-          <!-- filled by app.js -->
-        </div>
       </div>
 
       <div class="heroRight aiLockedWrap is-locked" data-ai-auth-gate>
@@ -982,7 +974,7 @@ function clearChat(){
     loaderEl.classList.toggle("is-hidden", !visible);
   }
 
-  function setEmptyFavoritesState(message = "Add favorite tickers to load your homepage market view."){
+  function setEmptyFavoritesState(message = "No market data selected yet. Use Search to open a company details page."){
     waitingForFavorites = true;
     series = [];
     hiddenTickers.clear();
@@ -1142,7 +1134,7 @@ function clearChat(){
     if(!sliced.length){
       ctx.fillStyle = "rgba(234,240,255,.7)";
       ctx.font = `${12 * dpr}px sans-serif`;
-      ctx.fillText(waitingForFavorites ? "Add favorites above to load your personalized market view." : "No market data available yet.", padL, padT + 20 * dpr);
+      ctx.fillText(waitingForFavorites ? "No market data selected yet." : "No market data available yet.", padL, padT + 20 * dpr);
       hoverPoints = [];
       return;
     }
@@ -1388,7 +1380,7 @@ function clearChat(){
   });
   window.addEventListener("resize", () => draw(currentDays));
 
-  setEmptyFavoritesState("Save favorite tickers to load your personalized homepage chart.");
+  setEmptyFavoritesState("No market data selected yet. Use Search to open a company details page.");
   window.MinerlyticsHomeTrend = {
     loadSymbols(symbols) {
       const parsed = Array.isArray(symbols) ? symbols : parseTickerInput(symbols);
@@ -1643,7 +1635,7 @@ function applyFavoriteUniverseSelection(symbols = []) {
   if (nextSymbols.length) {
     window.MinerlyticsHomeTrend?.loadSymbols(nextSymbols);
   } else {
-    window.MinerlyticsHomeTrend?.showEmptyState?.("Save favorite tickers to load your personalized homepage chart.");
+    window.MinerlyticsHomeTrend?.showEmptyState?.("No market data selected yet.");
   }
   window.dispatchEvent(new CustomEvent("minerlytics:favorites-changed", {
     detail: { symbols: nextSymbols.slice() }
@@ -1703,7 +1695,7 @@ async function loadPersonalDashboard() {
   emailEl.textContent = email ? getCachedDisplayName() : "Saved favorites";
   renderPersonalDashboardItems(cachedItems);
   if (email && !cachedItems.length) {
-    window.MinerlyticsHomeTrend?.showEmptyState?.("Add favorite tickers to load your personalized homepage chart.");
+    window.MinerlyticsHomeTrend?.showEmptyState?.("No market data selected yet.");
     window.dispatchEvent(new CustomEvent("minerlytics:favorites-changed", {
       detail: { symbols: [] }
     }));
@@ -2436,10 +2428,10 @@ window.addEventListener("minerlytics-auth-state", () => {
   async function refreshIntel(symbols = []) {
     const tickers = Array.isArray(symbols) && symbols.length ? symbols : (window.MinerlyticsHomeTrend?.getActiveSymbols?.() || DEFAULT_HOME_SYMBOLS);
     if (!tickers.length) {
-      rssMeta.textContent = "Save favorite tickers to load your personalized RSS feed";
-      videoMeta.textContent = "Save favorite tickers to load your personalized YouTube coverage";
-      rssList.innerHTML = `<div style="color:rgba(234,240,255,.62);font-size:13px;">Add favorite tickers above to load RSS headlines for your chosen miners.</div>`;
-      videoList.innerHTML = `<div style="color:rgba(234,240,255,.62);font-size:13px;">Add favorite tickers above to load YouTube coverage for your chosen miners.</div>`;
+      rssMeta.textContent = "No active ticker feed selected";
+      videoMeta.textContent = "No active YouTube coverage selected";
+      rssList.innerHTML = `<div style="color:rgba(234,240,255,.62);font-size:13px;">Search a company to open its details page.</div>`;
+      videoList.innerHTML = `<div style="color:rgba(234,240,255,.62);font-size:13px;">Search a company to open its details page.</div>`;
       return;
     }
     rssMeta.textContent = `Latest RSS headlines from the last 60 days across ${tickers.join(", ")}`;

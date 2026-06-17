@@ -12,18 +12,14 @@
  * - The list of symbols is loaded from /universe.json (served from /public)
  */
 
-let trending = [
-  { title: "Save favorite tickers to load personalized news.", meta: "Your selected miners will appear here" },
-];
+let trending = [];
 
 // fallback until universe.json loads
 let NEWS_TICKERS = [];
 const APP_API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 
 /* ---------- Quotes ---------- */
-let quotes = [
-  { sym: "Favorites", company: "Save tickers above to load quote cards", placeholder: true },
-];
+let quotes = [];
 
 /* ---------- Running ticker strip (latest RSS across universe) ---------- */
 let tickerItems = [
@@ -79,7 +75,7 @@ async function loadUniverseTickers(limit = 12) {
  */
 async function refreshTrendingNews() {
   if (!NEWS_TICKERS.length) {
-    trending = [{ title: "Save favorite tickers to load personalized news.", meta: "Your selected miners will appear here" }];
+    trending = [];
     renderTrending();
     return;
   }
@@ -175,7 +171,7 @@ function renderTicker() {
 
 async function refreshLatestTickerFeed() {
   if (!NEWS_TICKERS.length) {
-    tickerItems = [{ text: "Save favorite tickers to load latest RSS headlines.", href: "#" }];
+    tickerItems = [{ text: "Loading latest RSS headlines across your miner universe...", href: "#" }];
     renderTicker();
     return;
   }
@@ -205,7 +201,7 @@ async function refreshLatestTickerFeed() {
 
 async function refreshQuoteCards(symbols = NEWS_TICKERS.slice(0, 5)) {
   if (!Array.isArray(symbols) || !symbols.length) {
-    quotes = [{ sym: "Favorites", company: "Save tickers above to load quote cards", placeholder: true }];
+    quotes = [];
     renderQuotes();
     return;
   }
