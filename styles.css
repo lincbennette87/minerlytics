@@ -1102,13 +1102,13 @@ body.ai-modal-open{
     linear-gradient(180deg, rgba(9,12,15,.96), rgba(13,18,24,.92));
   overflow:hidden;
   position:relative;
-  min-height:460px;
+  min-height:520px;
 }
 
 .universeGlobeCanvas{
   display:block;
   width:100%;
-  height:460px;
+  height:520px;
   cursor:grab;
   outline:none;
 }
@@ -1123,21 +1123,28 @@ body.ai-modal-open{
 
 .universeGlobeHud{
   position:absolute;
-  left:18px;
-  top:16px;
+  left:22px;
+  top:20px;
   z-index:3;
   display:grid;
   gap:4px;
-  padding:10px 12px;
-  border-radius:16px;
+  padding:12px 14px;
+  border-radius:18px;
   border:1px solid rgba(255,255,255,.08);
   background:rgba(8,12,18,.46);
   box-shadow:0 12px 32px rgba(0,0,0,.18);
   backdrop-filter:blur(12px);
 }
 
+.universeGlobeHudTop{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:16px;
+}
+
 .universeGlobeTitle{
-  font-size:12px;
+  font-size:13px;
   font-weight:800;
   letter-spacing:.1em;
   text-transform:uppercase;
@@ -1145,10 +1152,42 @@ body.ai-modal-open{
 }
 
 .universeGlobeSub{
-  font-size:11px;
+  font-size:11.5px;
   color:rgba(234,240,255,.64);
   line-height:1.45;
-  max-width:300px;
+  max-width:340px;
+}
+
+.universeGlobeZoom{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.universeGlobeZoomBtn{
+  width:34px;
+  height:34px;
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,.10);
+  background:rgba(255,255,255,.04);
+  color:rgba(243,239,230,.94);
+  font-size:18px;
+  font-weight:800;
+  line-height:1;
+  cursor:pointer;
+  box-shadow:0 8px 20px rgba(0,0,0,.18);
+  transition:transform .16s ease, border-color .16s ease, background .16s ease, color .16s ease;
+}
+
+.universeGlobeZoomBtn:hover{
+  transform:translateY(-1px);
+  border-color:rgba(215,192,154,.30);
+  background:rgba(215,192,154,.10);
+  color:#f8f2e7;
+}
+
+.universeGlobeZoomBtn:active{
+  transform:translateY(0);
 }
 
 .universeMapSidebar{

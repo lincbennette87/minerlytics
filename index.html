@@ -565,10 +565,18 @@
         <div class="universeMapFrame">
           <div class="universeMapLegend" id="universeMapLegend"></div>
           <div class="universeMapSvgWrap">
-            <canvas class="universeGlobeCanvas" id="universeGlobeCanvas" width="1000" height="460" aria-label="Interactive globe of Minerlytics ticker coverage"></canvas>
+            <canvas class="universeGlobeCanvas" id="universeGlobeCanvas" width="1080" height="520" aria-label="Interactive globe of Minerlytics ticker coverage"></canvas>
             <div class="universeGlobeHud">
-              <div class="universeGlobeTitle">Global miner coverage</div>
-              <div class="universeGlobeSub">Drag to rotate the globe and explore ticker locations by metal.</div>
+              <div class="universeGlobeHudTop">
+                <div>
+                  <div class="universeGlobeTitle">Global miner coverage</div>
+                  <div class="universeGlobeSub">Drag to rotate the globe and explore miner locations by metal across the world.</div>
+                </div>
+                <div class="universeGlobeZoom" aria-label="Globe zoom controls">
+                  <button class="universeGlobeZoomBtn" id="globeZoomOut" type="button" aria-label="Zoom out">−</button>
+                  <button class="universeGlobeZoomBtn" id="globeZoomIn" type="button" aria-label="Zoom in">+</button>
+                </div>
+              </div>
             </div>
             <div class="universeMapTooltip" id="universeMapTooltip" style="display:none;"></div>
           </div>
@@ -1729,6 +1737,8 @@ window.addEventListener("minerlytics-auth-state", () => {
   const globeCanvas = document.getElementById("universeGlobeCanvas");
   const legendWrap = document.getElementById("universeMapLegend");
   const tooltipWrap = document.getElementById("universeMapTooltip");
+  const zoomInBtn = document.getElementById("globeZoomIn");
+  const zoomOutBtn = document.getElementById("globeZoomOut");
   if (!globeCanvas || !legendWrap || !tooltipWrap) return;
   const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 
@@ -1768,6 +1778,7 @@ window.addEventListener("minerlytics-auth-state", () => {
   let animationFrame = null;
   let lastProjected = [];
   let starField = [];
+  let zoomLevel = 1;
 
   legendWrap.innerHTML = metals.map((metal) => {
     const meta = METAL_META[metal];
@@ -1826,6 +1837,14 @@ window.addEventListener("minerlytics-auth-state", () => {
         drift: ((seed % 13) - 6) * 0.00012,
       };
     });
+  }
+
+  function clampZoom(nextZoom) {
+    return Math.max(0.78, Math.min(1.42, nextZoom));
+  }
+
+  function setZoom(nextZoom) {
+    zoomLevel = clampZoom(nextZoom);
   }
 
   function resizeGlobeCanvas() {
@@ -1914,8 +1933,8 @@ window.addEventListener("minerlytics-auth-state", () => {
     ctx.clearRect(0, 0, width, height);
 
     const centerX = width * 0.5;
-    const centerY = height * 0.53;
-    const radius = Math.min(width, height) * 0.285;
+    const centerY = height * 0.56;
+    const radius = Math.min(width, height) * 0.355 * zoomLevel;
 
     const bg = ctx.createRadialGradient(centerX - radius * 0.35, centerY - radius * 0.45, radius * 0.12, centerX, centerY, radius * 1.55);
     bg.addColorStop(0, "rgba(154,122,74,0.20)");
@@ -1976,14 +1995,18 @@ window.addEventListener("minerlytics-auth-state", () => {
     }
 
     const landShapes = [
-      [[58,-105],[63,-140],[52,-160],[38,-152],[22,-130],[14,-106],[26,-90],[38,-82],[49,-67],[58,-80]],
-      [[13,-84],[-6,-78],[-18,-70],[-35,-62],[-52,-58],[-54,-73],[-28,-77],[-8,-80]],
-      [[72,-42],[66,-54],[59,-46],[63,-28]],
-      [[60,-2],[54,16],[49,28],[41,16],[34,8],[30,1],[36,-10],[49,-8]],
-      [[34,19],[22,26],[10,18],[4,11],[-7,16],[-20,21],[-31,26],[-34,18],[-24,12],[-7,10],[12,6],[28,12]],
-      [[56,38],[63,58],[59,91],[51,116],[45,138],[34,127],[24,102],[19,80],[25,58],[38,42]],
-      [[26,76],[19,74],[12,80],[9,77],[21,70]],
-      [[-12,132],[-20,143],[-28,152],[-34,146],[-35,133],[-26,121],[-16,118]],
+      [[71,-168],[68,-150],[63,-140],[58,-132],[54,-126],[50,-124],[46,-123],[41,-124],[37,-121],[33,-117],[29,-112],[25,-108],[25,-102],[28,-98],[32,-95],[35,-90],[38,-85],[42,-82],[46,-75],[50,-68],[54,-62],[58,-60],[63,-68],[67,-84],[69,-102],[71,-130]],
+      [[31,-114],[28,-109],[25,-106],[23,-103],[21,-100],[20,-97],[19,-94],[18,-91],[18,-88],[19,-86],[21,-88],[24,-92],[27,-97],[29,-103],[31,-109]],
+      [[13,-81],[10,-79],[7,-78],[4,-77],[1,-77],[-4,-77],[-9,-76],[-14,-74],[-19,-71],[-25,-67],[-31,-63],[-37,-60],[-44,-58],[-51,-58],[-55,-61],[-54,-67],[-49,-71],[-42,-73],[-34,-75],[-24,-77],[-14,-79],[-3,-80],[6,-81]],
+      [[82,-63],[79,-52],[74,-42],[69,-35],[64,-42],[67,-55],[74,-60]],
+      [[71,-11],[68,-6],[64,-2],[60,2],[57,7],[56,13],[55,18],[54,24],[52,30],[48,32],[44,26],[42,18],[42,10],[44,4],[48,-1],[53,-7],[58,-10],[64,-12]],
+      [[43,-10],[44,-1],[44,7],[43,15],[41,24],[39,32],[37,40],[36,49],[35,58],[35,68],[34,80],[31,92],[28,102],[24,112],[19,120],[14,125],[8,126],[5,120],[8,110],[12,100],[16,90],[19,80],[22,70],[25,60],[27,50],[29,40],[32,30],[36,20],[40,10]],
+      [[36,-10],[33,-5],[30,-1],[27,3],[24,8],[21,13],[17,19],[13,24],[8,28],[2,30],[-5,31],[-12,31],[-18,30],[-24,29],[-30,27],[-34,23],[-35,17],[-34,10],[-31,3],[-28,-4],[-23,-8],[-16,-10],[-8,-11],[0,-11],[10,-10],[20,-10],[28,-10]],
+      [[30,32],[27,36],[23,38],[19,39],[15,40],[11,42],[9,46],[11,50],[15,51],[18,48],[21,44],[24,40],[27,36]],
+      [[39,68],[43,76],[46,86],[46,96],[43,104],[38,112],[34,121],[30,129],[24,136],[20,141],[16,145],[12,145],[10,139],[11,130],[14,121],[18,111],[22,101],[26,91],[30,81],[34,74]],
+      [[22,114],[20,120],[18,126],[14,132],[10,136],[7,141],[5,145],[1,145],[-3,141],[-5,136],[-3,130],[1,123],[6,118],[11,114],[16,112]],
+      [[11,74],[8,77],[7,81],[9,85],[12,83],[13,79]],
+      [[-11,114],[-16,118],[-22,123],[-28,129],[-33,136],[-37,145],[-38,152],[-35,153],[-30,150],[-24,145],[-19,138],[-14,132],[-11,124]],
     ];
 
     for (const shape of landShapes) {
@@ -2142,13 +2165,22 @@ window.addEventListener("minerlytics-auth-state", () => {
     if (!dragging) hideTooltip();
     else stopDragging(event);
   });
+  globeCanvas.addEventListener("wheel", (event) => {
+    event.preventDefault();
+    const delta = event.deltaY > 0 ? -0.06 : 0.06;
+    setZoom(zoomLevel + delta);
+  }, { passive: false });
   globeCanvas.addEventListener("keydown", (event) => {
     const step = 0.12;
     if (event.key === "ArrowLeft") rotationY -= step;
     if (event.key === "ArrowRight") rotationY += step;
     if (event.key === "ArrowUp") rotationX -= step * 0.7;
     if (event.key === "ArrowDown") rotationX += step * 0.7;
+    if (event.key === "+" || event.key === "=") setZoom(zoomLevel + 0.06);
+    if (event.key === "-" || event.key === "_") setZoom(zoomLevel - 0.06);
   });
+  zoomInBtn?.addEventListener("click", () => setZoom(zoomLevel + 0.08));
+  zoomOutBtn?.addEventListener("click", () => setZoom(zoomLevel - 0.08));
   globeCanvas.setAttribute("tabindex", "0");
   window.addEventListener("resize", resizeGlobeCanvas);
   resizeGlobeCanvas();
