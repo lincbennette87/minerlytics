@@ -580,9 +580,10 @@ function extractJsonObject(textValue) {
   return null;
 }
 
-async function getRecentYoutubeVideosForTickers(env, tickers = [], limit = 8) {
+async function getRecentYoutubeVideosForTickers(env, tickers = [], limit = 8, days = 60) {
   const safeLimit = Math.min(Math.max(Number(limit || 8), 1), 20);
-  const recentCutoffIso = new Date(Date.now() - 60 * 24 * 60 * 60 * 1000).toISOString();
+  const safeDays = clamp(Number(days || 60), 1, 365);
+  const recentCutoffIso = new Date(Date.now() - safeDays * 24 * 60 * 60 * 1000).toISOString();
   const cleanTickers = Array.from(
     new Set(
       (Array.isArray(tickers) ? tickers : [])
@@ -592,6 +593,7 @@ async function getRecentYoutubeVideosForTickers(env, tickers = [], limit = 8) {
   );
 
   let rows = { results: [] };
+  let transcriptRows = { results: [] };
 
   if (cleanTickers.length) {
     const placeholders = cleanTickers.map(() => "?").join(", ");
@@ -616,6 +618,33 @@ async function getRecentYoutubeVideosForTickers(env, tickers = [], limit = 8) {
       LIMIT ?
       `
     ).bind(...cleanTickers, recentCutoffIso, safeLimit).all().catch(() => ({ results: [] }));
+
+    const transcriptClauses = cleanTickers.map(() => `
+      UPPER(COALESCE(title, '')) LIKE '%' || ? || '%'
+      OR UPPER(COALESCE(transcript_text, '')) LIKE '%' || ? || '%'
+    `).join(" OR ");
+    const transcriptBindings = [];
+    cleanTickers.forEach((ticker) => {
+      transcriptBindings.push(ticker, ticker);
+    });
+    transcriptBindings.push(recentCutoffIso, safeLimit);
+
+    transcriptRows = await env.DB.prepare(
+      `
+      SELECT
+        video_id,
+        title,
+        channel_title AS channel,
+        published_at,
+        video_url AS url,
+        transcript_text
+      FROM youtube_transcripts
+      WHERE (${transcriptClauses})
+        AND COALESCE(published_at, '') >= ?
+      ORDER BY published_at DESC
+      LIMIT ?
+      `
+    ).bind(...transcriptBindings).all().catch(() => ({ results: [] }));
   } else {
     rows = await env.DB.prepare(
       `
@@ -637,20 +666,66 @@ async function getRecentYoutubeVideosForTickers(env, tickers = [], limit = 8) {
       LIMIT ?
       `
     ).bind(recentCutoffIso, safeLimit).all().catch(() => ({ results: [] }));
+
+    transcriptRows = await env.DB.prepare(
+      `
+      SELECT
+        video_id,
+        title,
+        channel_title AS channel,
+        published_at,
+        video_url AS url,
+        transcript_text
+      FROM youtube_transcripts
+      WHERE COALESCE(published_at, '') >= ?
+      ORDER BY published_at DESC
+      LIMIT ?
+      `
+    ).bind(recentCutoffIso, safeLimit).all().catch(() => ({ results: [] }));
   }
 
-  return ((rows && rows.results) || []).map((row) => ({
-    video_id: row.video_id,
-    title: row.title || "",
-    channel: row.channel || "",
-    published_at: row.published_at || null,
-    url: row.url || ytSourceUrl(row.video_id, row.first_start || 0),
-    symbols: String(row.symbols || "")
-      .split(",")
-      .map((item) => String(item || "").trim())
-      .filter(Boolean),
-    transcript_snippet: truncateText(row.transcript_snippet || "", 220),
-  }));
+  const merged = new Map();
+
+  for (const row of ((rows && rows.results) || [])) {
+    merged.set(row.video_id, {
+      video_id: row.video_id,
+      title: row.title || "",
+      channel: row.channel || "",
+      published_at: row.published_at || null,
+      url: row.url || ytSourceUrl(row.video_id, row.first_start || 0),
+      symbols: String(row.symbols || "")
+        .split(",")
+        .map((item) => String(item || "").trim())
+        .filter(Boolean),
+      transcript_snippet: truncateText(row.transcript_snippet || "", 220),
+    });
+  }
+
+  for (const row of ((transcriptRows && transcriptRows.results) || [])) {
+    const existing = merged.get(row.video_id);
+    if (existing) {
+      if (!existing.transcript_snippet) {
+        existing.transcript_snippet = truncateText(row.transcript_text || "", 220);
+      }
+      if (!existing.channel && row.channel) existing.channel = row.channel;
+      if ((!existing.url || existing.url === "#") && row.url) existing.url = row.url;
+      continue;
+    }
+
+    merged.set(row.video_id, {
+      video_id: row.video_id,
+      title: row.title || "",
+      channel: row.channel || "",
+      published_at: row.published_at || null,
+      url: row.url || ytSourceUrl(row.video_id, 0),
+      symbols: cleanTickers.slice(0, 6),
+      transcript_snippet: truncateText(row.transcript_text || "", 220),
+    });
+  }
+
+  return Array.from(merged.values())
+    .sort((a, b) => String(b.published_at || "").localeCompare(String(a.published_at || "")))
+    .slice(0, safeLimit);
 }
 
 function isBoilerplateDisclosureText(textValue) {
@@ -3114,11 +3189,12 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
       if (url.pathname === "/api/youtube/recent" && request.method === "GET") {
         const symbols = parseSymbolsParam(url.searchParams.get("symbols") || "");
         const limit = clamp(parseInt(url.searchParams.get("limit") || "8", 10), 1, 20);
-        const videos = await getRecentYoutubeVideosForTickers(env, symbols, limit);
+        const days = clamp(parseInt(url.searchParams.get("days") || "60", 10), 1, 365);
+        const videos = await getRecentYoutubeVideosForTickers(env, symbols, limit, days);
 
         return json({
           ok: true,
-          days: 60,
+          days,
           symbols,
           videos,
         }, 200);
@@ -3155,7 +3231,7 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
         ).bind(ticker).first().catch(() => null);
         const newsDetail = buildNewsDetailFromSummary(sentimentRow);
         const rssItems = await getLatestRssItemsForTicker(env, ticker, 8).catch(() => []);
-        const videos = await getRecentYoutubeVideosForTickers(env, [ticker], 8).catch(() => []);
+        const videos = await getRecentYoutubeVideosForTickers(env, [ticker], 8, 60).catch(() => []);
 
         const productionExcerpts = await getMiningDisclosureMatches(env, ticker, `${ticker} production ounces produced ounce ounces quarter quarterly`, 6).catch(() => []);
         const mineExcerpts = await getMiningDisclosureMatches(env, ticker, `${ticker} mine project operation location grade ounces produced`, 8).catch(() => []);
