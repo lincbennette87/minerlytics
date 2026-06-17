@@ -182,7 +182,7 @@
             <div id="favoriteActionStatus" class="heroSearchStatus"></div>
           </div>
 
-          <section id="personalDashboard" class="trendChart" style="display:none;margin-top:10px;">
+          <section id="personalDashboard" class="trendChart" style="display:block;margin-top:10px;">
   <div class="trendChartHead">
     <div class="trendChartTitle">Your Favorite Tickers</div>
     <div class="trendChartMeta" id="personalEmail"></div>
@@ -1669,11 +1669,6 @@ async function loadPersonalDashboard() {
   updateFavoriteCtaState(cachedItems.length);
 
   if (!box) return;
-  if (!email && !cachedItems.length) {
-    box.style.display = "none";
-    return;
-  }
-
   box.style.display = "block";
   emailEl.textContent = email ? getCachedDisplayName() : "Saved favorites";
   renderPersonalDashboardItems(cachedItems);
@@ -2299,7 +2294,7 @@ window.addEventListener("minerlytics-auth-state", () => {
       }
       return;
     }
-    setFavoriteActionStatus("");
+    setFavoriteActionStatus(`Applying ${tickers.join(", ")} to the homepage chart...`, "info");
     window.MinerlyticsHomeTrend?.loadSymbols(tickers);
     closeSuggestions();
   }
