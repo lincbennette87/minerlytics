@@ -621,7 +621,6 @@
             </svg>
             <div class="universeMapTooltip" id="universeMapTooltip" style="display:none;"></div>
           </div>
-          <div class="universeMapSidebar" id="universeMapSidebar"></div>
         </div>
       </div>
 
@@ -1778,9 +1777,8 @@ window.addEventListener("minerlytics-auth-state", () => {
 (function () {
   const markerWrap = document.getElementById("universeMapMarkers");
   const legendWrap = document.getElementById("universeMapLegend");
-  const sidebarWrap = document.getElementById("universeMapSidebar");
   const tooltipWrap = document.getElementById("universeMapTooltip");
-  if (!markerWrap || !legendWrap || !sidebarWrap || !tooltipWrap) return;
+  if (!markerWrap || !legendWrap || !tooltipWrap) return;
   const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 
   const METAL_META = {
@@ -1803,20 +1801,6 @@ window.addEventListener("minerlytics-auth-state", () => {
   }).join("");
 
   function renderMap(markers) {
-    sidebarWrap.innerHTML = `
-      <div class="universeMapSidebarHead">Company map coverage</div>
-      ${markers.map((marker) => {
-        const meta = METAL_META[marker.metal] || METAL_META.gold;
-        return `
-          <div class="universeMapSidebarItem ${meta.className}" data-map-card="${marker.key}">
-            <div class="universeMapSidebarTitle">${marker.ticker} • ${marker.company_name}</div>
-            <div class="universeMapSidebarMeta">${marker.location_label}${marker.sub_location ? ` • ${marker.sub_location}` : ""}${marker.latest_filing_date ? ` • filing ${marker.latest_filing_date}` : ""}</div>
-            ${marker.source_excerpt ? `<div class="universeMapSidebarMeta" style="margin-top:6px;">${marker.source_excerpt}</div>` : ""}
-          </div>
-        `;
-      }).join("")}
-    `;
-
     markerWrap.innerHTML = markers.map((marker, index) => {
       const meta = METAL_META[marker.metal] || METAL_META.gold;
       const pulseDelay = `${(index % 5) * 0.28}s`;
@@ -1843,9 +1827,6 @@ window.addEventListener("minerlytics-auth-state", () => {
       document.querySelectorAll("[data-map-marker]").forEach((node) => {
         node.classList.toggle("is-active", node.getAttribute("data-map-marker") === key);
       });
-      document.querySelectorAll("[data-map-card]").forEach((node) => {
-        node.classList.toggle("is-active", node.getAttribute("data-map-card") === key);
-      });
     }
 
     function showTooltip(marker, event) {
@@ -1869,16 +1850,6 @@ window.addEventListener("minerlytics-auth-state", () => {
 
     document.querySelectorAll("[data-map-marker]").forEach((node) => {
       const key = node.getAttribute("data-map-marker") || "";
-      const marker = markers.find((item) => item.key === key);
-      node.addEventListener("mouseenter", () => activateMarker(key));
-      node.addEventListener("mouseenter", (event) => showTooltip(marker, event));
-      node.addEventListener("mousemove", (event) => showTooltip(marker, event));
-      node.addEventListener("mouseleave", hideTooltip);
-      node.addEventListener("click", () => activateMarker(key));
-    });
-
-    document.querySelectorAll("[data-map-card]").forEach((node) => {
-      const key = node.getAttribute("data-map-card") || "";
       const marker = markers.find((item) => item.key === key);
       node.addEventListener("mouseenter", () => activateMarker(key));
       node.addEventListener("mouseenter", (event) => showTooltip(marker, event));

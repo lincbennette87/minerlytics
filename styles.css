@@ -1058,7 +1058,7 @@ body.ai-modal-open{
 
 .universeMapFrame{
   display:grid;
-  grid-template-columns: minmax(0, 1.15fr) 280px;
+  grid-template-columns: minmax(0, 1fr);
   gap:14px;
   padding:0 16px 16px;
   align-items:stretch;
