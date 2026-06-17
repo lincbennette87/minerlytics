@@ -986,9 +986,22 @@ function clearChat(){
   let focusTicker = null;
   const hiddenTickers = new Set();
   let activeSymbols = ["WPM", "CDE", "HYMC", "GFI", "AEM"];
+  let waitingForFavorites = false;
 
   function setLoaderVisible(visible){
     loaderEl.classList.toggle("is-hidden", !visible);
+  }
+
+  function setEmptyFavoritesState(message = "Add favorite tickers to load your homepage market view."){
+    waitingForFavorites = true;
+    series = [];
+    hiddenTickers.clear();
+    focusTicker = null;
+    statusEl.textContent = message;
+    summaryRow.innerHTML = "";
+    legend.innerHTML = "";
+    setLoaderVisible(false);
+    draw(currentDays, { renderUi: false });
   }
 
   function resizeCanvas(){
@@ -1139,7 +1152,7 @@ function clearChat(){
     if(!sliced.length){
       ctx.fillStyle = "rgba(234,240,255,.7)";
       ctx.font = `${12 * dpr}px sans-serif`;
-      ctx.fillText("No market data available yet.", padL, padT + 20 * dpr);
+      ctx.fillText(waitingForFavorites ? "Add favorites above to load your personalized market view." : "No market data available yet.", padL, padT + 20 * dpr);
       hoverPoints = [];
       return;
     }
@@ -1328,6 +1341,7 @@ function clearChat(){
 
   async function loadTrendData(symbols = activeSymbols){
     activeSymbols = Array.isArray(symbols) && symbols.length ? symbols : activeSymbols;
+    waitingForFavorites = false;
     statusEl.textContent = "Loading latest market data…";
     setLoaderVisible(true);
     try{
@@ -1388,13 +1402,19 @@ function clearChat(){
   window.MinerlyticsHomeTrend = {
     loadSymbols(symbols) {
       const parsed = Array.isArray(symbols) ? symbols : parseTickerInput(symbols);
-      if (!parsed.length) return;
+      if (!parsed.length) {
+        setEmptyFavoritesState();
+        return;
+      }
       hiddenTickers.clear();
       focusTicker = null;
       loadTrendData(parsed);
     },
     getActiveSymbols() {
       return activeSymbols.slice();
+    },
+    showEmptyState(message) {
+      setEmptyFavoritesState(message);
     }
   };
 })();
@@ -1684,6 +1704,12 @@ async function loadPersonalDashboard() {
   box.style.display = "block";
   emailEl.textContent = email ? getCachedDisplayName() : "Saved favorites";
   renderPersonalDashboardItems(cachedItems);
+  if (email && !cachedItems.length) {
+    window.MinerlyticsHomeTrend?.showEmptyState?.("Add favorite tickers to load your personalized homepage chart.");
+    window.dispatchEvent(new CustomEvent("minerlytics:favorites-changed", {
+      detail: { symbols: [] }
+    }));
+  }
 
   try {
     if (!email) return;
@@ -2433,6 +2459,13 @@ window.addEventListener("minerlytics-auth-state", () => {
 
   async function refreshIntel(symbols = []) {
     const tickers = Array.isArray(symbols) && symbols.length ? symbols : (window.MinerlyticsHomeTrend?.getActiveSymbols?.() || DEFAULT_HOME_SYMBOLS);
+    if (!tickers.length) {
+      rssMeta.textContent = "Save favorite tickers to load your personalized RSS feed";
+      videoMeta.textContent = "Save favorite tickers to load your personalized YouTube coverage";
+      rssList.innerHTML = `<div style="color:rgba(234,240,255,.62);font-size:13px;">Add favorite tickers above to load RSS headlines for your chosen miners.</div>`;
+      videoList.innerHTML = `<div style="color:rgba(234,240,255,.62);font-size:13px;">Add favorite tickers above to load YouTube coverage for your chosen miners.</div>`;
+      return;
+    }
     rssMeta.textContent = `Latest RSS headlines from the last 60 days across ${tickers.join(", ")}`;
     videoMeta.textContent = `Recent YouTube coverage from the last 60 days across the Minerlytics universe`;
 
@@ -2465,10 +2498,10 @@ window.addEventListener("minerlytics-auth-state", () => {
 
   window.addEventListener("minerlytics:favorites-changed", (event) => {
     const symbols = Array.isArray(event?.detail?.symbols) ? event.detail.symbols : [];
-    if (symbols.length) refreshIntel(symbols);
+    refreshIntel(symbols);
   });
 
-  refreshIntel();
+  refreshIntel([]);
 })();
 </script>
 <script>
