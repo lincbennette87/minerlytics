@@ -172,31 +172,8 @@
             </svg>
             <input id="heroSearch" type="search" placeholder="Search stocks, commodities, and more…" />
             <a id="searchBtnLink" class="btn btnPrimary btnTight" href="./company.html">Search</a>
-            <button id="saveFavoriteBtn" class="btn btnGhost btnTight" type="button" onclick="window.addHeroTickerToFavorites && window.addHeroTickerToFavorites()">Save to Favorites</button>
             <div id="heroSearchSuggestions" class="heroSearchSuggestions" aria-live="polite"></div>
           </div>
-          <div class="heroSearchAssist">
-            <div class="heroSearchMeta">Search miners and related funds across gold, silver, copper, and diamond-related names by ticker or company name.</div>
-            <div id="favoriteSearchHint" class="heroSearchMeta">Use Search to open Company Details. Use Save to Favorites to update the homepage chart, RSS feed, and YouTube coverage from your saved list.</div>
-            <div id="heroSearchResolved" class="heroSearchResolved" hidden></div>
-            <div id="favoriteActionStatus" class="heroSearchStatus"></div>
-          </div>
-
-          <section id="personalDashboard" class="trendChart" style="display:block;margin-top:10px;">
-  <div class="trendChartHead">
-    <div class="trendChartTitle">Your Favorite Tickers</div>
-    <div class="trendChartMeta" id="personalEmail"></div>
-  </div>
-
-  <div style="display:flex;gap:10px;margin-bottom:12px;">
-    <input id="watchSymbol" placeholder="Add ticker or company e.g. WPM, Barrick Gold, SCCO"
-      style="flex:1;padding:12px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);" />
-    <button class="btn btnPrimary btnTight" type="button" onclick="addWatchTicker()">Add</button>
-  </div>
-  <div id="watchHelp" style="margin-bottom:12px;color:rgba(234,240,255,.62);font-size:12px;">Save up to 5 favorite tickers. Your chart and research panels update from this list.</div>
-
-  <div id="watchlistBox" style="display:flex;flex-wrap:wrap;gap:8px;"></div>
-</section>
         </div>
 
         <!-- “Trending now” row -->
@@ -1584,18 +1561,7 @@ function updateCompanyDetailLink(value = "") {
 }
 
 function updateFavoriteCtaState(savedCount = 0) {
-  const email = localStorage.getItem("minerlytics_user_email");
-  const saveFavoriteBtn = document.getElementById("saveFavoriteBtn");
-  const favoriteSearchHint = document.getElementById("favoriteSearchHint");
-  if (saveFavoriteBtn) {
-    saveFavoriteBtn.style.display = "inline-flex";
-    saveFavoriteBtn.textContent = `Save to Favorites${savedCount ? ` (${savedCount}/${MAX_FAVORITE_TICKERS})` : ""}`;
-  }
-  if (favoriteSearchHint) {
-    favoriteSearchHint.textContent = email
-      ? `${savedCount}/${MAX_FAVORITE_TICKERS} favorites saved. Search opens Company Details. Save to Favorites updates the homepage chart, RSS feed, and YouTube coverage from your list.`
-      : `Search opens Company Details. Save up to ${MAX_FAVORITE_TICKERS} favorites here to drive the homepage chart, RSS feed, and YouTube coverage.`;
-  }
+  return savedCount;
 }
 
 function renderResolvedSearchState(value = "") {
@@ -2324,10 +2290,8 @@ window.addEventListener("minerlytics-auth-state", () => {
 (function () {
   const searchInput = document.getElementById("heroSearch");
   const searchBtnLink = document.getElementById("searchBtnLink");
-  const saveFavoriteBtn = document.getElementById("saveFavoriteBtn");
   const suggestionsEl = document.getElementById("heroSearchSuggestions");
   const commodityRow = document.getElementById("heroCommodityRow");
-  let favoriteSaveInFlight = false;
   if (!searchInput || !searchBtnLink || !suggestionsEl) return;
 
   function getSuggestions(value) {
@@ -2369,20 +2333,6 @@ window.addEventListener("minerlytics-auth-state", () => {
     suggestionsEl.classList.add("is-open");
   }
 
-  async function saveCurrentSearchToFavorites() {
-    if (favoriteSaveInFlight) return;
-    favoriteSaveInFlight = true;
-    try {
-      setFavoriteActionStatus("Saving favorite ticker...", "info");
-      await window.addHeroTickerToFavorites?.();
-      closeSuggestions();
-    } finally {
-      favoriteSaveInFlight = false;
-    }
-  }
-
-  window.saveHomeHeroFavorite = () => { void saveCurrentSearchToFavorites(); };
-
   suggestionsEl.addEventListener("click", (event) => {
     const btn = event.target.closest("[data-symbol]");
     if (!btn) return;
@@ -2394,11 +2344,6 @@ window.addEventListener("minerlytics-auth-state", () => {
     closeSuggestions();
   });
 
-  saveFavoriteBtn?.addEventListener("click", (event) => {
-    event.preventDefault();
-    event.stopPropagation();
-    void saveCurrentSearchToFavorites();
-  });
   searchInput.addEventListener("input", async () => {
     setFavoriteActionStatus("");
     ensureHomeSearchUniverse().catch(() => {});
