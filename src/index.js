@@ -1262,6 +1262,150 @@ function isCapabilityQuestion(question = "") {
   );
 }
 
+function isConversationalQuestion(question = "") {
+  const q = String(question || "")
+    .toLowerCase()
+    .replace(/[^\w\s']/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!q) return false;
+
+  const exact = new Set([
+    "hi",
+    "hello",
+    "hey",
+    "good morning",
+    "good afternoon",
+    "good evening",
+    "how are you",
+    "how are you doing",
+    "how is it going",
+    "whats up",
+    "what's up",
+    "thanks",
+    "thank you",
+    "ok thanks",
+  ]);
+
+  return exact.has(q) || /^(hi|hello|hey)\b/.test(q);
+}
+
+function buildConversationalAnswer(question = "", favoriteTickers = []) {
+  const q = String(question || "").toLowerCase();
+  const favorites = Array.isArray(favoriteTickers)
+    ? favoriteTickers.map((item) => String(item || "").toUpperCase().trim()).filter(Boolean).slice(0, 5)
+    : [];
+  const favoriteHint = favorites.length
+    ? ` I can also use your saved tickers: ${favorites.join(", ")}.`
+    : "";
+
+  if (q.includes("thank")) {
+    return [
+      "You're welcome. I'm here whenever you want to dig into miners, filings, market moves, news, or transcript commentary.",
+      favoriteHint.trim(),
+    ].filter(Boolean).join("\n\n");
+  }
+
+  return [
+    "Hi, I'm doing well and ready to help with mining research.",
+    `You can ask me things like "What are the latest filings for AEM?", "How has WPM performed recently?", or "What news is moving FCX?"${favoriteHint}`,
+  ].join("\n\n");
+}
+
+function isBroadResearchQuestion(question = "") {
+  const q = String(question || "").toLowerCase().trim();
+  if (!q) return false;
+  return (
+    q.includes("research summary") ||
+    q.includes("full summary") ||
+    q.includes("full analysis") ||
+    q.includes("deep analysis") ||
+    q.includes("company memo") ||
+    q.includes("investment memo") ||
+    q.includes("tell me about") ||
+    q.includes("analyze ") ||
+    q.includes("overview")
+  );
+}
+
+function isMarketQuestion(question = "") {
+  const q = String(question || "").toLowerCase();
+  return (
+    q.includes("stock price") ||
+    q.includes("share price") ||
+    q.includes("market data") ||
+    q.includes("performance") ||
+    q.includes("momentum") ||
+    q.includes("trend") ||
+    q.includes("volume") ||
+    q.includes("close") ||
+    q.includes("high") ||
+    q.includes("low") ||
+    q.includes("open")
+  );
+}
+
+function isNewsQuestion(question = "") {
+  const q = String(question || "").toLowerCase();
+  return (
+    q.includes("news") ||
+    q.includes("headline") ||
+    q.includes("rss") ||
+    q.includes("sentiment") ||
+    q.includes("recent article") ||
+    q.includes("latest article")
+  );
+}
+
+function isTranscriptQuestion(question = "") {
+  const q = String(question || "").toLowerCase();
+  return (
+    q.includes("youtube") ||
+    q.includes("video") ||
+    q.includes("transcript") ||
+    q.includes("interview") ||
+    q.includes("commentary") ||
+    q.includes("discussion") ||
+    q.includes("channel")
+  );
+}
+
+function getAssistantIntent(question = "") {
+  const capability = isCapabilityQuestion(question);
+  const filing = isFilingQuestion(question);
+  const technicalReport = isTechnicalReportQuestion(question);
+  const market = isMarketQuestion(question);
+  const news = isNewsQuestion(question);
+  const transcripts = isTranscriptQuestion(question);
+  const broad = isBroadResearchQuestion(question) || (!filing && !technicalReport && !market && !news && !transcripts && !capability);
+
+  const sourceGroups = [];
+  if (capability || broad || market) sourceGroups.push("market_data");
+  if (capability || broad || news) sourceGroups.push("news_sentiment", "rss_news");
+  if (capability || broad || filing || technicalReport) sourceGroups.push("sec_filings");
+  if (capability || broad || transcripts) sourceGroups.push("youtube_transcripts");
+
+  const primarySource =
+    technicalReport || filing ? "sec_filings" :
+    transcripts ? "youtube_transcripts" :
+    news ? "rss_news" :
+    market ? "market_data" :
+    "mixed";
+
+  return {
+    capability,
+    broad,
+    filing,
+    technicalReport,
+    market,
+    news,
+    transcripts,
+    primarySource,
+    sourceGroups: Array.from(new Set(sourceGroups)),
+    answerStyle: broad ? "research_brief" : "direct_answer",
+  };
+}
+
 function buildCapabilityAnswer(context = {}) {
   const ticker = String(context?.resolved_ticker || context?.ticker || "")
     .replace(/\.us$/i, "")
@@ -1386,9 +1530,7 @@ async function getMiningDisclosureMatches(env, ticker, q, limit = 20) {
 
   if (ticker && technicalReportQuestion) {
     const technicalMatches = await getTechnicalReportMatches(env, ticker, safeLimit);
-    if (technicalMatches.length > 0) {
-      return technicalMatches;
-    }
+    return technicalMatches;
   }
 
   if (ticker && terms.length) {
@@ -2495,6 +2637,7 @@ function buildSourceCoverage(context) {
 function buildUnifiedAssistantContext({
   q,
   resolvedTicker,
+  intent,
   latest,
   previous,
   series,
@@ -2513,6 +2656,7 @@ const youtubeTranscripts = summarizeYoutubeTranscripts(transcriptMatches);
     symbol: resolvedTicker ? normalizeSymbolToStooqUS(resolvedTicker) : null,
     ticker: resolvedTicker || null,
     resolved_ticker: resolvedTicker || null,
+    assistant_intent: intent || getAssistantIntent(q),
     market_data: marketData,
     news_sentiment: newsDetail || null,
     rss_news: rssNews,
@@ -2616,9 +2760,13 @@ async function runAssistant(env, question, context) {
   const filingQuestion = isFilingQuestion(question);
   const technicalReportQuestion = isTechnicalReportQuestion(question);
   const capabilityQuestion = isCapabilityQuestion(question);
+  const intent = context?.assistant_intent || getAssistantIntent(question);
 
   const normalizedContext = stableSortValue(context || {});
   const normalizedDataString = stableStringify(normalizedContext);
+  const allowedSources = Array.isArray(intent.sourceGroups) && intent.sourceGroups.length
+    ? intent.sourceGroups.join(", ")
+    : "none";
 
   const system =
     "You are Minerlytics AI.\n" +
@@ -2640,6 +2788,15 @@ async function runAssistant(env, question, context) {
     "- Use stable wording.\n" +
     "- Prefer short factual sentences over paraphrased summaries.\n" +
     "- When the same question and same DATA are provided, keep the same structure and phrasing as much as possible.\n\n" +
+
+    "INTENT RULES:\n" +
+    `- Detected answer style: ${intent.answerStyle || "direct_answer"}.\n` +
+    `- Primary source group: ${intent.primarySource || "mixed"}.\n` +
+    `- Allowed source groups for this answer: ${allowedSources}.\n` +
+    "- Do not use source groups that are not listed as allowed, even if they appear in DATA.\n" +
+    "- If answer style is direct_answer, start with a concise answer in 1-3 sentences, then include only brief evidence bullets and sources.\n" +
+    "- If answer style is research_brief, use the broader section format only when the user asked for an overview, full analysis, company memo, or 'tell me about'.\n" +
+    "- Never include market, news, filing, and transcript sections together for a narrow single-source question.\n\n" +
 
     "CAPABILITY QUESTION RULES:\n" +
     "- If the user asks what they can ask about a company or how you can help, do not generate a research summary.\n" +
@@ -2685,15 +2842,20 @@ async function runAssistant(env, question, context) {
           "2. 📄 Filing / Disclosure Details\n" +
           "3. 🏷️ Sources Used\n" +
           "4. 🧾 Disclaimer\n\n"
-        : "1. 📌 Executive Summary\n" +
-          "2. 📄 Technical Reports / Mining Disclosure\n" +
-          "3. 📈 Market Data\n" +
-          "4. 📰 News / RSS\n" +
-          "5. 🎥 YouTube Transcripts\n" +
-          "6. 🔗 Cross-Source Takeaways\n" +
-          "7. ⚠️ Risks & Opportunities\n" +
-          "8. 🏷️ Sources Used\n" +
-          "9. 🧾 Disclaimer\n\n") +
+        : intent.answerStyle === "direct_answer"
+          ? "1. ✅ Direct Answer\n" +
+            "2. 🔎 Evidence\n" +
+            "3. 🏷️ Sources Used\n" +
+            "4. 🧾 Disclaimer\n\n"
+          : "1. 📌 Executive Summary\n" +
+            "2. 📄 Technical Reports / Mining Disclosure\n" +
+            "3. 📈 Market Data\n" +
+            "4. 📰 News / RSS\n" +
+            "5. 🎥 YouTube Transcripts\n" +
+            "6. 🔗 Cross-Source Takeaways\n" +
+            "7. ⚠️ Risks & Opportunities\n" +
+            "8. 🏷️ Sources Used\n" +
+            "9. 🧾 Disclaimer\n\n") +
 
     "SECTION RULES:\n" +
     "- Include only sections needed for the question.\n" +
@@ -2724,6 +2886,8 @@ async function runAssistant(env, question, context) {
     "- Answer the exact question asked.\n" +
     "- Do not broaden the answer into unrelated company context.\n" +
     "- Use only the minimum relevant source categories needed for the question.\n" +
+    `- Use only these allowed source groups: ${allowedSources}.\n` +
+    `- Answer style: ${intent.answerStyle || "direct_answer"}.\n` +
     "- Do not ask for ticker if RESOLVED_TICKER is present.\n" +
     "- Keep the response deterministic and consistent for the same question and same DATA.\n" +
     "- Prefer extractive, factual wording over creative paraphrasing.\n" +
@@ -3789,10 +3953,33 @@ VALUES (?, ?, ?, ?)`
           messages,
           favoriteTickers,
         });
-        const filingQuestion = isFilingQuestion(question);
-        const capabilityQuestion = isCapabilityQuestion(question);
+        const intent = getAssistantIntent(question);
+        const capabilityQuestion = intent.capability;
 
         if (!resolvedTicker) {
+          if (isConversationalQuestion(question)) {
+            return json({
+              symbol: null,
+              ticker: null,
+              answer: buildConversationalAnswer(question, favoriteTickers),
+              context: {
+                question,
+                assistant_intent: {
+                  conversational: true,
+                  primarySource: "conversation",
+                  sourceGroups: [],
+                  answerStyle: "conversational",
+                },
+              },
+              source_sections: {
+                stooq: false,
+                rss: false,
+                mining_disclosure: false,
+                youtube_transcripts: false,
+              },
+            });
+          }
+
           const favoriteHint = favoriteTickers.length
             ? ` Your saved tickers are: ${favoriteTickers.join(", ")}.`
             : "";
@@ -3810,11 +3997,13 @@ VALUES (?, ?, ?, ?)`
         let newsDetail = null;
         let rssItems = [];
 
-        if (!filingQuestion) {
+        if (intent.sourceGroups.includes("market_data")) {
           stooqSeries = await getStooqSeriesForTicker(env, resolvedTicker, 60);
           latest = stooqSeries[0] || null;
           previous = stooqSeries.length > 1 ? stooqSeries[1] : null;
+        }
 
+        if (intent.sourceGroups.includes("news_sentiment") || intent.sourceGroups.includes("rss_news")) {
           const sentimentRow = await env.DB.prepare(
             "SELECT * FROM news_sentiment_summary WHERE ticker = ?"
           ).bind(resolvedTicker).first();
@@ -3823,12 +4012,17 @@ VALUES (?, ?, ?, ?)`
           rssItems = await getLatestRssItemsForTicker(env, resolvedTicker, 8);
         }
 
-        const transcriptMatches = await getTranscriptMatches(env, resolvedTicker, question || resolvedTicker, 25);
-        const filingMatches = await getMiningDisclosureMatches(env, resolvedTicker, question || resolvedTicker, 25);
+        const transcriptMatches = intent.sourceGroups.includes("youtube_transcripts")
+          ? await getTranscriptMatches(env, resolvedTicker, question || resolvedTicker, intent.broad ? 12 : 8)
+          : [];
+        const filingMatches = intent.sourceGroups.includes("sec_filings")
+          ? await getMiningDisclosureMatches(env, resolvedTicker, question || resolvedTicker, intent.broad ? 12 : 8)
+          : [];
 
         const context = buildUnifiedAssistantContext({
           q: question,
           resolvedTicker,
+          intent,
           latest,
           previous,
           series: stooqSeries,

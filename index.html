@@ -811,7 +811,8 @@ function pushSystemPrimer(){
       `You are Minerlytics AI Assistant. Infer the relevant ticker from the user's question, recent chat context, and saved favorites when possible. ` +
       `Saved favorites: ${favorites.join(", ") || "none"}. ` +
       `If the user asks a follow-up question like "what about reserves" or "and filings", carry forward the last relevant ticker when it is clear. ` +
-      `Answer using Minerlytics market, news, filing, and transcript data. Keep answers concise, specific, and decision-useful. ` +
+      `Answer the exact question only. For narrow questions, do not produce a broad company memo. Use only the relevant Minerlytics source group: market data, news/RSS, filings, or transcripts. ` +
+      `Keep answers concise, specific, source-aware, and decision-useful. ` +
       `When the request is ambiguous, ask one short follow-up question.`
   });
 }
@@ -842,6 +843,10 @@ function typingOff(){
 }
 
 function extractTicker(text){
+  const cleaned = String(text || "").trim().toLowerCase().replace(/[^\w\s']/g, " ").replace(/\s+/g, " ");
+  if (["hi", "hello", "hey", "how are you", "how are you doing", "thanks", "thank you"].includes(cleaned)) {
+    return null;
+  }
   const m = text.match(/\b[A-Z]{1,5}\b/g);
   return m ? m[m.length - 1] : null;
 }
