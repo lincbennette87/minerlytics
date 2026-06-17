@@ -177,7 +177,7 @@
           </div>
           <div class="heroSearchAssist">
             <div class="heroSearchMeta">Search miners and related funds across gold, silver, copper, and diamond-related names by ticker or company name.</div>
-            <div id="favoriteSearchHint" class="heroSearchMeta">Sign in to save up to 5 favorite tickers from this search. Your trend chart and research panels below will follow that list.</div>
+            <div id="favoriteSearchHint" class="heroSearchMeta">Use Search to open Company Details. Use Save to Favorites to update the homepage chart, RSS feed, and YouTube coverage from your saved list.</div>
             <div id="heroSearchResolved" class="heroSearchResolved" hidden></div>
             <div id="favoriteActionStatus" class="heroSearchStatus"></div>
           </div>
@@ -1555,8 +1555,8 @@ function updateFavoriteCtaState(savedCount = 0) {
   }
   if (favoriteSearchHint) {
     favoriteSearchHint.textContent = email
-      ? `${savedCount}/${MAX_FAVORITE_TICKERS} favorites saved. Search a ticker here, save it, and the chart and research panels below will follow your list.`
-      : `Save up to ${MAX_FAVORITE_TICKERS} favorite tickers from this search. If you're signed in, Minerlytics will also try to sync them to your account.`;
+      ? `${savedCount}/${MAX_FAVORITE_TICKERS} favorites saved. Search opens Company Details. Save to Favorites updates the homepage chart, RSS feed, and YouTube coverage from your list.`
+      : `Search opens Company Details. Save up to ${MAX_FAVORITE_TICKERS} favorites here to drive the homepage chart, RSS feed, and YouTube coverage.`;
   }
 }
 
@@ -1732,7 +1732,7 @@ async function addFavoriteTickerBySymbol(symbol, watchHelpEl) {
   const matched = getUniverseEntryBySymbol(normalized);
   if (heroSearch) heroSearch.value = matched?.name ? `${normalized} — ${matched.name}` : normalized;
   renderResolvedSearchState(heroSearch?.value || normalized);
-  setFavoriteActionStatus(`${normalized} was added to your favorites and applied to the homepage.`, "success");
+  setFavoriteActionStatus(`${normalized} was added to your favorites. The homepage chart, RSS feed, and YouTube coverage now follow that list.`, "success");
 
   const maybeEmail = localStorage.getItem("minerlytics_user_email") || "";
   if (maybeEmail) {
@@ -2285,17 +2285,13 @@ window.addEventListener("minerlytics-auth-state", () => {
     ensureHomeSearchUniverse().catch(() => {});
     const resolved = renderResolvedSearchState(searchInput.value) || resolveUniverseEntry(searchInput.value);
     const tickers = resolved?.symbol ? [resolved.symbol] : parseSearchTickers(searchInput.value);
-    updateCompanyDetailLink(searchInput.value);
     if (!tickers.length) {
-      setFavoriteActionStatus("Search a valid ticker or company name from the Minerlytics universe.", "error");
-      const currentFavorites = window.MinerlyticsHomeTrend?.getActiveSymbols?.() || [];
-      if (currentFavorites.length) {
-        window.MinerlyticsHomeTrend?.loadSymbols(currentFavorites);
-      }
+      setFavoriteActionStatus("Search a valid ticker or company name to open Company Details.", "error");
       return;
     }
-    setFavoriteActionStatus(`Applying ${tickers.join(", ")} to the homepage chart...`, "info");
-    window.MinerlyticsHomeTrend?.loadSymbols(tickers);
+    const targetTicker = tickers[0];
+    setFavoriteActionStatus(`Opening Company Details for ${targetTicker}...`, "info");
+    window.location.href = `./company.html?ticker=${encodeURIComponent(targetTicker)}`;
     closeSuggestions();
   }
 
@@ -2337,7 +2333,6 @@ window.addEventListener("minerlytics-auth-state", () => {
     searchInput.value = match ? `${match.symbol} — ${match.name}` : symbol;
     renderResolvedSearchState(searchInput.value);
     updateCompanyDetailLink(symbol);
-    window.MinerlyticsHomeTrend?.loadSymbols([symbol]);
     closeSuggestions();
   });
 
