@@ -1097,74 +1097,58 @@ body.ai-modal-open{
   border:1px solid rgba(255,255,255,.08);
   border-radius:20px;
   background:
-    linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px),
-    rgba(9,12,15,.88);
-  background-size:100% 42px, 42px 100%, auto;
+    radial-gradient(500px 280px at 25% 22%, rgba(154,122,74,.18), transparent 65%),
+    radial-gradient(420px 260px at 76% 34%, rgba(110,122,113,.16), transparent 62%),
+    linear-gradient(180deg, rgba(9,12,15,.96), rgba(13,18,24,.92));
   overflow:hidden;
   position:relative;
+  min-height:460px;
 }
 
-.universeMapSvg{
+.universeGlobeCanvas{
   display:block;
   width:100%;
-  height:auto;
+  height:460px;
+  cursor:grab;
+  outline:none;
 }
 
-.mapGridLines{
-  opacity:.46;
+.universeGlobeCanvas.is-dragging{
+  cursor:grabbing;
 }
 
-.mapMarker text{
-  fill:#f3efe6;
-  font-size:10px;
+.universeGlobeCanvas:focus-visible{
+  box-shadow: inset 0 0 0 1px rgba(215,192,154,.55);
+}
+
+.universeGlobeHud{
+  position:absolute;
+  left:18px;
+  top:16px;
+  z-index:3;
+  display:grid;
+  gap:4px;
+  padding:10px 12px;
+  border-radius:16px;
+  border:1px solid rgba(255,255,255,.08);
+  background:rgba(8,12,18,.46);
+  box-shadow:0 12px 32px rgba(0,0,0,.18);
+  backdrop-filter:blur(12px);
+}
+
+.universeGlobeTitle{
+  font-size:12px;
   font-weight:800;
-  letter-spacing:.08em;
+  letter-spacing:.1em;
   text-transform:uppercase;
+  color:rgba(243,239,230,.92);
 }
 
-.mapMarkerCore{
-  stroke:rgba(255,255,255,.82);
-  stroke-width:1.2;
-}
-
-.mapMarkerPulse{
-  fill:none;
-  stroke-width:2;
-  opacity:.65;
-  animation: universePulse 2.4s ease-out infinite;
-  transform-origin:center;
-}
-
-.mapMarkerPulse.is-secondary{
-  opacity:.28;
-  animation-duration:3.1s;
-}
-
-.mapMarkerBeam{
-  stroke-width:1.4;
-  stroke-dasharray:4 4;
-  opacity:.45;
-}
-
-.mapMarkerTag rect{
-  fill:rgba(8,12,18,.84);
-  stroke:rgba(255,255,255,.12);
-  stroke-width:1;
-}
-
-.mapMarkerTag text{
-  text-transform:none;
-  letter-spacing:.04em;
-}
-
-.mapMarker.is-active .mapMarkerCore{
-  filter: drop-shadow(0 0 10px currentColor);
-}
-
-.mapMarker.is-active .mapMarkerTag rect{
-  stroke:rgba(255,255,255,.22);
-  fill:rgba(18,24,31,.94);
+.universeGlobeSub{
+  font-size:11px;
+  color:rgba(234,240,255,.64);
+  line-height:1.45;
+  max-width:300px;
 }
 
 .universeMapSidebar{
@@ -1242,12 +1226,6 @@ body.ai-modal-open{
 .metal-silver{ color:#b6c4cf; }
 .metal-copper{ color:#d69d76; }
 .metal-diamond{ color:#9dc8e4; }
-
-@keyframes universePulse{
-  0%{ transform:scale(.65); opacity:.78; }
-  70%{ transform:scale(2.45); opacity:0; }
-  100%{ transform:scale(2.45); opacity:0; }
-}
 
 .aiTop{
   display:flex;
