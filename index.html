@@ -844,11 +844,16 @@ function typingOff(){
 
 function extractTicker(text){
   const cleaned = String(text || "").trim().toLowerCase().replace(/[^\w\s']/g, " ").replace(/\s+/g, " ");
-  if (["hi", "hello", "hey", "how are you", "how are you doing", "thanks", "thank you"].includes(cleaned)) {
+  if (["hi", "hello", "hey", "how are you", "how are you doing", "how is it going", "whats up", "what's up", "thanks", "thank you", "ok thanks"].includes(cleaned)) {
     return null;
   }
   const m = text.match(/\b[A-Z]{1,5}\b/g);
   return m ? m[m.length - 1] : null;
+}
+
+function isConversationalAssistantPrompt(text){
+  const cleaned = String(text || "").trim().toLowerCase().replace(/[^\w\s']/g, " ").replace(/\s+/g, " ");
+  return ["hi", "hello", "hey", "good morning", "good afternoon", "good evening", "how are you", "how are you doing", "how is it going", "whats up", "what's up", "thanks", "thank you", "ok thanks"].includes(cleaned);
 }
 
 async function send(){
@@ -865,7 +870,7 @@ async function send(){
     return;
   }
 
-  const symbol = extractTicker(question) || lastResolvedTicker || null;
+  const symbol = isConversationalAssistantPrompt(question) ? null : (extractTicker(question) || lastResolvedTicker || null);
   pushSystemPrimer();
   messages.push({ role:"user", content: question });
 

@@ -3946,6 +3946,29 @@ VALUES (?, ?, ?, ?)`
         const messages = Array.isArray(body.messages) ? body.messages : [];
         const favoriteTickers = Array.isArray(body.favoriteTickers) ? body.favoriteTickers : [];
 
+        if (isConversationalQuestion(question)) {
+          return json({
+            symbol: null,
+            ticker: null,
+            answer: buildConversationalAnswer(question, favoriteTickers),
+            context: {
+              question,
+              assistant_intent: {
+                conversational: true,
+                primarySource: "conversation",
+                sourceGroups: [],
+                answerStyle: "conversational",
+              },
+            },
+            source_sections: {
+              stooq: false,
+              rss: false,
+              mining_disclosure: false,
+              youtube_transcripts: false,
+            },
+          });
+        }
+
         const resolvedTicker = resolveAssistantTicker({
           explicitTicker: providedSymbol,
           explicitSymbol: providedSymbol,
@@ -3957,29 +3980,6 @@ VALUES (?, ?, ?, ?)`
         const capabilityQuestion = intent.capability;
 
         if (!resolvedTicker) {
-          if (isConversationalQuestion(question)) {
-            return json({
-              symbol: null,
-              ticker: null,
-              answer: buildConversationalAnswer(question, favoriteTickers),
-              context: {
-                question,
-                assistant_intent: {
-                  conversational: true,
-                  primarySource: "conversation",
-                  sourceGroups: [],
-                  answerStyle: "conversational",
-                },
-              },
-              source_sections: {
-                stooq: false,
-                rss: false,
-                mining_disclosure: false,
-                youtube_transcripts: false,
-              },
-            });
-          }
-
           const favoriteHint = favoriteTickers.length
             ? ` Your saved tickers are: ${favoriteTickers.join(", ")}.`
             : "";
