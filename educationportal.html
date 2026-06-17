@@ -837,6 +837,246 @@
       to{ transform: rotate(360deg) translateX(9px) rotate(-360deg); opacity:.85; }
     }
 
+    .eduJarvisStage{
+      display:grid;
+      place-items:center;
+      padding:12px 0 4px;
+      margin-bottom:4px;
+      pointer-events:none;
+    }
+
+    .eduJarvisHud{
+      position:relative;
+      width:150px;
+      height:150px;
+      display:grid;
+      place-items:center;
+      filter:
+        drop-shadow(0 0 18px rgba(57,215,255,.26))
+        drop-shadow(0 0 30px rgba(57,215,255,.11));
+    }
+
+    .eduJarvisHud span{
+      position:absolute;
+      pointer-events:none;
+    }
+
+    .eduJarvisGlow{
+      inset:-16px;
+      border-radius:50%;
+      background:
+        radial-gradient(circle, rgba(57,215,255,.27) 0 10%, transparent 38%),
+        radial-gradient(circle, rgba(57,215,255,.12) 0 42%, transparent 70%);
+      animation:eduJarvisGlow 3s ease-in-out infinite;
+    }
+
+    .eduJarvisDisc{
+      border-radius:50%;
+      border:1px solid rgba(135,235,255,.38);
+      box-shadow:
+        inset 0 0 18px rgba(57,215,255,.08),
+        0 0 18px rgba(57,215,255,.10);
+    }
+
+    .eduJarvisDiscOuter{
+      inset:0;
+      border-top-color:rgba(135,235,255,.86);
+      border-right-color:rgba(135,235,255,.12);
+      border-bottom-color:rgba(135,235,255,.55);
+      border-left-color:rgba(135,235,255,.18);
+      animation:eduJarvisSpin 12s linear infinite;
+    }
+
+    .eduJarvisDiscMiddle{
+      inset:16px;
+      border-style:dashed;
+      border-color:rgba(135,235,255,.32);
+      animation:eduJarvisSpinReverse 9s linear infinite;
+    }
+
+    .eduJarvisDiscInner{
+      inset:37px;
+      border-color:rgba(215,192,154,.45);
+      box-shadow:
+        inset 0 0 20px rgba(57,215,255,.09),
+        0 0 20px rgba(215,192,154,.08);
+      animation:eduJarvisBreath 2.7s ease-in-out infinite;
+    }
+
+    .eduJarvisSegment{
+      border-radius:50%;
+      border:7px solid transparent;
+      opacity:.92;
+    }
+
+    .eduJarvisSegmentA{
+      inset:6px;
+      border-top-color:rgba(57,215,255,.78);
+      border-right-color:rgba(57,215,255,.10);
+      animation:eduJarvisSpin 4.8s linear infinite;
+    }
+
+    .eduJarvisSegmentB{
+      inset:22px;
+      border-left-color:rgba(135,235,255,.68);
+      border-bottom-color:rgba(135,235,255,.18);
+      animation:eduJarvisSpinReverse 6.2s linear infinite;
+    }
+
+    .eduJarvisSegmentC{
+      inset:49px;
+      border-width:5px;
+      border-right-color:rgba(215,192,154,.74);
+      border-top-color:rgba(215,192,154,.20);
+      animation:eduJarvisSpin 3.4s linear infinite;
+    }
+
+    .eduJarvisSweep{
+      inset:13px;
+      border-radius:50%;
+      background:
+        conic-gradient(from 0deg, rgba(57,215,255,.43), rgba(57,215,255,.08) 16%, transparent 28% 100%);
+      mask:radial-gradient(circle, transparent 0 11%, #000 12% 46%, transparent 47%);
+      -webkit-mask:radial-gradient(circle, transparent 0 11%, #000 12% 46%, transparent 47%);
+      animation:eduJarvisSpin 2.9s linear infinite;
+    }
+
+    .eduJarvisCrosshair{
+      inset:28px;
+      border-radius:50%;
+      background:
+        linear-gradient(90deg, transparent 0 48%, rgba(135,235,255,.34) 49% 51%, transparent 52% 100%),
+        linear-gradient(0deg, transparent 0 48%, rgba(135,235,255,.34) 49% 51%, transparent 52% 100%);
+      opacity:.42;
+      animation:eduJarvisFlicker 2.4s ease-in-out infinite;
+    }
+
+    .eduJarvisCore{
+      width:46px;
+      height:46px;
+      border-radius:50%;
+      overflow:hidden;
+      border:1px solid rgba(135,235,255,.76);
+      background:
+        radial-gradient(circle at 50% 50%, rgba(229,252,255,.92) 0 7%, rgba(57,215,255,.36) 8% 34%, transparent 35%),
+        radial-gradient(circle, rgba(57,215,255,.18), rgba(3,12,22,.82) 68%);
+      box-shadow:
+        inset 0 0 18px rgba(57,215,255,.24),
+        0 0 22px rgba(57,215,255,.30);
+      animation:eduJarvisCore 2s ease-in-out infinite;
+    }
+
+    .eduJarvisCore::before,
+    .eduJarvisCore::after{
+      content:"";
+      position:absolute;
+      inset:0;
+      border-radius:50%;
+    }
+
+    .eduJarvisCore::before{
+      background:
+        repeating-linear-gradient(0deg, transparent 0 7px, rgba(135,235,255,.20) 8px, transparent 9px),
+        repeating-linear-gradient(90deg, transparent 0 7px, rgba(135,235,255,.16) 8px, transparent 9px);
+      opacity:.55;
+    }
+
+    .eduJarvisCore::after{
+      inset:7px;
+      border:1px solid rgba(215,192,154,.45);
+      animation:eduJarvisSpinReverse 3.8s linear infinite;
+    }
+
+    .eduJarvisCorePulse{
+      inset:-16px;
+      border-radius:50%;
+      background:radial-gradient(circle, transparent 0 30%, rgba(57,215,255,.38) 31%, transparent 34% 100%);
+      animation:eduJarvisPulse 2.2s ease-out infinite;
+    }
+
+    .eduJarvisDot{
+      width:5px;
+      height:5px;
+      border-radius:50%;
+      background:rgba(229,252,255,.98);
+      box-shadow:
+        0 0 9px rgba(229,252,255,.90),
+        0 0 18px rgba(57,215,255,.50);
+      animation:eduJarvisDot 1.9s ease-in-out infinite;
+    }
+
+    .ed1{ top:21px; left:73px; }
+    .ed2{ top:63px; right:17px; animation-delay:.25s; }
+    .ed3{ bottom:28px; left:39px; animation-delay:.5s; }
+    .ed4{ bottom:48px; right:45px; animation-delay:.75s; }
+
+    .eduJarvisReadout{
+      width:36px;
+      height:22px;
+      border-top:1px solid rgba(135,235,255,.44);
+      border-bottom:1px solid rgba(135,235,255,.18);
+      opacity:.70;
+      animation:eduJarvisFlicker 1.8s ease-in-out infinite;
+    }
+
+    .eduJarvisReadout::before,
+    .eduJarvisReadout::after{
+      content:"";
+      position:absolute;
+      height:1px;
+      background:linear-gradient(90deg, rgba(135,235,255,.72), transparent);
+    }
+
+    .eduJarvisReadout::before{ width:30px; top:7px; left:0; }
+    .eduJarvisReadout::after{ width:20px; top:15px; left:0; }
+
+    .eduJarvisReadoutLeft{ left:-1px; top:62px; transform:rotate(-4deg); }
+    .eduJarvisReadoutRight{ right:-1px; top:62px; transform:scaleX(-1) rotate(-4deg); animation-delay:.45s; }
+
+    @keyframes eduJarvisSpin{
+      from{ transform:rotate(0deg); }
+      to{ transform:rotate(360deg); }
+    }
+
+    @keyframes eduJarvisSpinReverse{
+      from{ transform:rotate(360deg); }
+      to{ transform:rotate(0deg); }
+    }
+
+    @keyframes eduJarvisGlow{
+      0%,100%{ opacity:.56; transform:scale(.92); }
+      50%{ opacity:1; transform:scale(1.06); }
+    }
+
+    @keyframes eduJarvisBreath{
+      0%,100%{ opacity:.74; transform:scale(.98); }
+      50%{ opacity:1; transform:scale(1.04); }
+    }
+
+    @keyframes eduJarvisCore{
+      0%,100%{ transform:scale(.96); opacity:.86; }
+      50%{ transform:scale(1.06); opacity:1; }
+    }
+
+    @keyframes eduJarvisPulse{
+      0%{ opacity:.86; transform:scale(.2); }
+      70%{ opacity:.22; transform:scale(1.05); }
+      100%{ opacity:0; transform:scale(1.22); }
+    }
+
+    @keyframes eduJarvisDot{
+      0%,100%{ opacity:.42; transform:scale(.75); }
+      50%{ opacity:1; transform:scale(1.35); }
+    }
+
+    @keyframes eduJarvisFlicker{
+      0%,100%{ opacity:.36; }
+      18%{ opacity:.9; }
+      42%{ opacity:.48; }
+      60%{ opacity:1; }
+      76%{ opacity:.54; }
+    }
+
     .assistantState{
       display:inline-flex;
       align-items:center;
@@ -1396,6 +1636,29 @@
         </div>
 
         <div class="chatWindow" id="chatWindow" aria-live="polite">
+          <div class="eduJarvisStage" aria-hidden="true">
+            <div class="eduJarvisHud">
+              <span class="eduJarvisGlow"></span>
+              <span class="eduJarvisDisc eduJarvisDiscOuter"></span>
+              <span class="eduJarvisDisc eduJarvisDiscMiddle"></span>
+              <span class="eduJarvisDisc eduJarvisDiscInner"></span>
+              <span class="eduJarvisSegment eduJarvisSegmentA"></span>
+              <span class="eduJarvisSegment eduJarvisSegmentB"></span>
+              <span class="eduJarvisSegment eduJarvisSegmentC"></span>
+              <span class="eduJarvisSweep"></span>
+              <span class="eduJarvisCrosshair"></span>
+              <span class="eduJarvisCore">
+                <span class="eduJarvisCorePulse"></span>
+              </span>
+              <span class="eduJarvisDot ed1"></span>
+              <span class="eduJarvisDot ed2"></span>
+              <span class="eduJarvisDot ed3"></span>
+              <span class="eduJarvisDot ed4"></span>
+              <span class="eduJarvisReadout eduJarvisReadoutLeft"></span>
+              <span class="eduJarvisReadout eduJarvisReadoutRight"></span>
+            </div>
+          </div>
+
           <div class="msg assistant">
 Welcome — ask anything from the Education Portal transcript library.
 
