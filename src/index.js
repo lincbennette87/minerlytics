@@ -3234,6 +3234,19 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
         }, 200);
       }
 
+      if (url.pathname === "/api/news/sync" && request.method === "POST") {
+        const auth = requireApiKey(request, env);
+        if (!auth.ok) return auth.res;
+
+        await refreshNewsForAll(env);
+
+        return json({
+          ok: true,
+          tickers: Object.keys(TICKERS).length,
+          refreshed_at: new Date().toISOString(),
+        }, 200);
+      }
+
       if (url.pathname === "/api/market/top-trends" && request.method === "GET") {
         const requested = parseSymbolsParam(url.searchParams.get("symbols") || "");
         const defaultTickers = ["AEM", "WPM", "CDE", "HYMC", "GFI"];

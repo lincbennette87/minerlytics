@@ -1,0 +1,47 @@
+name: Refresh RSS News
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 9 * * *"
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+    steps:
+      - name: Trigger Worker RSS refresh
+        env:
+          WORKER_BASE_URL: ${{ secrets.WORKER_BASE_URL }}
+          WORKER_API_KEY: ${{ secrets.WORKER_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          base = (os.environ.get("WORKER_BASE_URL") or "").rstrip("/")
+          api_key = os.environ.get("WORKER_API_KEY") or ""
+
+          if not base:
+            raise SystemExit("Missing WORKER_BASE_URL secret")
+          if not api_key:
+            raise SystemExit("Missing WORKER_API_KEY secret")
+
+          req = urllib.request.Request(
+            f"{base}/api/news/sync",
+            data=b"{}",
+            headers={
+              "content-type": "application/json",
+              "x-api-key": api_key,
+              "user-agent": "GitHub-Minerlytics-RssSync"
+            },
+            method="POST"
+          )
+
+          with urllib.request.urlopen(req) as resp:
+            body = resp.read().decode("utf-8")
+            print(body)
+          PY
