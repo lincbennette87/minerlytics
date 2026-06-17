@@ -1425,95 +1425,190 @@ body.ai-modal-open{
   transform:scale(1.02);
 }
 
-.aiGlobeHero{
+.aiHoloGlobe{
   position:relative;
-  width:126px;
-  height:126px;
-  border-radius:50%;
+  width:152px;
+  height:152px;
   display:grid;
   place-items:center;
-  filter: drop-shadow(0 0 18px rgba(57,230,200,.18));
+  filter:
+    drop-shadow(0 0 18px rgba(75,232,255,.24))
+    drop-shadow(0 0 26px rgba(215,192,154,.10));
+  transform-style:preserve-3d;
 }
 
-.globeCore{
+.aiHoloGlobe span{
   position:absolute;
-  inset:16px;
+  pointer-events:none;
+}
+
+.holoAura{
+  inset:4px;
   border-radius:50%;
   background:
-    radial-gradient(circle at 35% 35%, rgba(255,255,255,.22), transparent 30%),
-    radial-gradient(circle at 50% 50%, rgba(57,230,200,.18), rgba(8,18,34,.18) 62%, rgba(8,18,34,.03) 100%);
-  border:1px solid rgba(200,255,246,.18);
-  box-shadow:
-    inset 0 0 24px rgba(57,230,200,.10),
-    0 0 28px rgba(57,230,200,.08);
+    radial-gradient(circle at 50% 50%, rgba(75,232,255,.24), transparent 34%),
+    radial-gradient(circle at 50% 50%, rgba(215,192,154,.14), transparent 54%);
+  animation:holoBreath 3.4s ease-in-out infinite;
 }
 
-.ring,
-.orbit{
-  position:absolute;
+.holoRing{
   border-radius:50%;
-  border:1px solid rgba(195,245,238,.42);
+  border:1px solid rgba(158,243,255,.34);
+  box-shadow:
+    inset 0 0 18px rgba(75,232,255,.07),
+    0 0 18px rgba(75,232,255,.09);
 }
 
-.ring1{
-  inset:18px;
-  border-color:rgba(57,230,200,.34);
+.holoRingOuter{
+  inset:5px;
+  border-top-color:rgba(215,192,154,.78);
+  border-right-color:rgba(75,232,255,.16);
+  border-bottom-color:rgba(75,232,255,.55);
+  animation:holoSpin 10s linear infinite;
 }
 
-.ring2{
-  inset:28px 18px;
-  border-left-color:rgba(57,230,200,.62);
-  border-right-color:rgba(57,230,200,.62);
-  border-top-color:transparent;
-  border-bottom-color:transparent;
-  animation: globeSpin 7s linear infinite;
+.holoRingMid{
+  inset:22px 9px;
+  transform:rotateX(66deg) rotateZ(-14deg);
+  border-left-color:rgba(75,232,255,.78);
+  border-right-color:rgba(75,232,255,.78);
+  border-top-color:rgba(255,255,255,.08);
+  border-bottom-color:rgba(255,255,255,.08);
+  animation:holoTilt 7s linear infinite;
 }
 
-.ring3{
-  inset:18px 28px;
-  border-top-color:rgba(124,92,255,.52);
-  border-bottom-color:rgba(124,92,255,.52);
-  border-left-color:transparent;
-  border-right-color:transparent;
-  animation: globeSpinReverse 6.5s linear infinite;
+.holoRingInner{
+  inset:31px;
+  border-style:dashed;
+  border-color:rgba(215,192,154,.46);
+  animation:holoSpinReverse 6.5s linear infinite;
 }
 
-.orbit1{
-  inset:4px;
-  border-color:rgba(255,255,255,.18);
-  animation: globeSpin 9s linear infinite;
+.holoScanner{
+  width:118px;
+  height:118px;
+  border-radius:50%;
+  background:
+    conic-gradient(from 0deg, transparent 0 68%, rgba(75,232,255,.75) 73%, rgba(215,192,154,.55) 78%, transparent 84% 100%);
+  mask:radial-gradient(circle, transparent 0 54%, #000 55% 58%, transparent 59%);
+  -webkit-mask:radial-gradient(circle, transparent 0 54%, #000 55% 58%, transparent 59%);
+  animation:holoSpin 3.6s linear infinite;
 }
 
-.orbit2{
+.holoScannerB{
+  width:138px;
+  height:138px;
+  opacity:.5;
+  animation:holoSpinReverse 5.2s linear infinite;
+}
+
+.holoGlobeCore{
+  width:76px;
+  height:76px;
+  border-radius:50%;
+  overflow:hidden;
+  border:1px solid rgba(164,246,255,.48);
+  background:
+    radial-gradient(circle at 32% 28%, rgba(255,255,255,.35), transparent 22%),
+    radial-gradient(circle at 50% 50%, rgba(75,232,255,.26), rgba(10,24,36,.62) 58%, rgba(2,7,12,.92) 100%);
+  box-shadow:
+    inset 0 0 26px rgba(75,232,255,.18),
+    inset 0 0 0 1px rgba(255,255,255,.04),
+    0 0 32px rgba(75,232,255,.20);
+  animation:holoCoreFloat 4.4s ease-in-out infinite;
+}
+
+.holoGridLat,
+.holoGridLon,
+.holoPulse{
   inset:0;
-  transform:rotateX(68deg);
-  border-color:rgba(57,230,200,.28);
-  animation: pulseOrbit 2.6s ease-in-out infinite;
+  border-radius:50%;
 }
 
-.orbit3{
-  inset:8px;
-  border-color:rgba(124,92,255,.26);
-  animation: globeSpinReverse 11s linear infinite;
+.holoGridLat{
+  background:
+    repeating-linear-gradient(0deg, transparent 0 11px, rgba(158,243,255,.24) 12px, transparent 13px);
+  opacity:.55;
+  animation:holoScanY 4.8s linear infinite;
 }
 
-.node{
-  position:absolute;
+.holoGridLon{
+  background:
+    repeating-linear-gradient(90deg, transparent 0 12px, rgba(215,192,154,.24) 13px, transparent 14px);
+  opacity:.42;
+  animation:holoScanX 5.4s linear infinite;
+}
+
+.holoPulse{
+  background:radial-gradient(circle, transparent 0 42%, rgba(75,232,255,.34) 43%, transparent 46% 100%);
+  animation:holoPulse 2.8s ease-out infinite;
+}
+
+.holoNode{
   width:7px;
   height:7px;
   border-radius:50%;
-  background:rgba(220,248,255,.95);
+  background:rgba(229,252,255,.96);
+  border:1px solid rgba(255,255,255,.32);
   box-shadow:
-    0 0 10px rgba(220,248,255,.75),
-    0 0 18px rgba(57,230,200,.30);
+    0 0 10px rgba(229,252,255,.88),
+    0 0 20px rgba(75,232,255,.46);
+  animation:holoNodePulse 2.4s ease-in-out infinite;
 }
 
-.n1{ top:18px; left:58px; }
-.n2{ top:36px; right:18px; }
-.n3{ right:28px; bottom:26px; }
-.n4{ bottom:18px; left:54px; }
-.n5{ left:20px; top:44px; }
-.n6{ left:28px; bottom:28px; }
+.hn1{ top:18px; left:72px; }
+.hn2{ top:43px; right:16px; animation-delay:.24s; }
+.hn3{ right:24px; bottom:36px; animation-delay:.48s; }
+.hn4{ bottom:18px; left:70px; animation-delay:.72s; }
+.hn5{ left:19px; top:52px; animation-delay:.96s; }
+.hn6{ left:29px; bottom:34px; animation-delay:1.2s; }
+
+.holoReadout{
+  width:34px;
+  height:1px;
+  background:linear-gradient(90deg, transparent, rgba(75,232,255,.8), rgba(215,192,154,.7), transparent);
+  box-shadow:0 0 10px rgba(75,232,255,.35);
+  opacity:.75;
+}
+
+.holoReadout::before,
+.holoReadout::after{
+  content:"";
+  position:absolute;
+  height:1px;
+  background:rgba(75,232,255,.45);
+}
+
+.holoReadout::before{ width:18px; top:-7px; left:7px; }
+.holoReadout::after{ width:24px; top:7px; left:2px; }
+
+.holoReadoutA{
+  left:0;
+  top:61px;
+  --readout-rotate:-8deg;
+  transform:rotate(var(--readout-rotate));
+  animation:holoReadoutBlink 2.2s ease-in-out infinite;
+}
+
+.holoReadoutB{
+  right:0;
+  bottom:53px;
+  --readout-rotate:9deg;
+  transform:rotate(var(--readout-rotate));
+  animation:holoReadoutBlink 2.2s ease-in-out .55s infinite;
+}
+
+.holoBase{
+  left:31px;
+  right:31px;
+  bottom:4px;
+  height:16px;
+  border-radius:50%;
+  border:1px solid rgba(75,232,255,.28);
+  background:radial-gradient(ellipse at center, rgba(75,232,255,.20), transparent 68%);
+  transform:perspective(120px) rotateX(64deg);
+  animation:holoBaseGlow 3s ease-in-out infinite;
+}
 
 .aiCenterText{
   text-align:center;
@@ -1773,6 +1868,62 @@ body.disclaimer-active > *:not(.disclaimerOverlay){
 @keyframes globeSpinReverse{
   from{ transform:rotate(360deg); }
   to{ transform:rotate(0deg); }
+}
+
+@keyframes holoSpin{
+  from{ transform:rotate(0deg); }
+  to{ transform:rotate(360deg); }
+}
+
+@keyframes holoSpinReverse{
+  from{ transform:rotate(360deg); }
+  to{ transform:rotate(0deg); }
+}
+
+@keyframes holoTilt{
+  from{ transform:rotateX(66deg) rotateZ(-14deg); }
+  to{ transform:rotateX(66deg) rotateZ(346deg); }
+}
+
+@keyframes holoBreath{
+  0%,100%{ opacity:.62; transform:scale(.96); }
+  50%{ opacity:1; transform:scale(1.05); }
+}
+
+@keyframes holoCoreFloat{
+  0%,100%{ transform:translateY(0) scale(1); }
+  50%{ transform:translateY(-3px) scale(1.025); }
+}
+
+@keyframes holoScanX{
+  from{ transform:translateX(-10px); }
+  to{ transform:translateX(10px); }
+}
+
+@keyframes holoScanY{
+  from{ transform:translateY(-10px); }
+  to{ transform:translateY(10px); }
+}
+
+@keyframes holoPulse{
+  0%{ opacity:.95; transform:scale(.25); }
+  70%{ opacity:.18; transform:scale(1.15); }
+  100%{ opacity:0; transform:scale(1.3); }
+}
+
+@keyframes holoNodePulse{
+  0%,100%{ opacity:.58; transform:scale(.82); }
+  50%{ opacity:1; transform:scale(1.22); }
+}
+
+@keyframes holoReadoutBlink{
+  0%,100%{ opacity:.36; transform:translateX(0) scaleX(.85) rotate(var(--readout-rotate, 0deg)); }
+  50%{ opacity:1; transform:translateX(4px) scaleX(1.08) rotate(var(--readout-rotate, 0deg)); }
+}
+
+@keyframes holoBaseGlow{
+  0%,100%{ opacity:.45; transform:perspective(120px) rotateX(64deg) scaleX(.9); }
+  50%{ opacity:.9; transform:perspective(120px) rotateX(64deg) scaleX(1.08); }
 }
 
 @keyframes pulseOrbit{
