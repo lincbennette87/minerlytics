@@ -3,6 +3,8 @@ import { TICKERS } from "./tickers.js";
 import { googleRssUrl, parseRssItems } from "./rss.js";
 import { handleEducationPortalChat, educationOptions } from "./educationPortalChat.js";
 
+const WORKERS_AI_CHAT_MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
+
 // =========================
 // 🔐 SIMPLE AUTH HELPERS
 // =========================
@@ -1082,7 +1084,7 @@ async function buildCompanyDescription(env, payload) {
     stableStringify(payload);
 
   try {
-    const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
+    const result = await env.AI.run(WORKERS_AI_CHAT_MODEL, {
       prompt,
       max_tokens: 180,
       temperature: 0,
@@ -2741,7 +2743,7 @@ async function runAssistant(env, question, context) {
     "\n\nDATA:\n" +
     normalizedDataString;
 
-  const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
+  const result = await env.AI.run(WORKERS_AI_CHAT_MODEL, {
     prompt: system + "\n\n" + userPrompt,
     max_tokens: 1000,
     temperature: 0,

@@ -1626,6 +1626,27 @@ function writeCachedWatchlist(items = []) {
   localStorage.setItem("minerlytics_watchlist", JSON.stringify(Array.isArray(items) ? items : []));
 }
 
+function normalizeWatchlistItems(items = []) {
+  return (Array.isArray(items) ? items : [])
+    .map((item) => {
+      const symbol = String(item?.symbol || item || "").toUpperCase().trim();
+      return symbol ? { symbol } : null;
+    })
+    .filter(Boolean);
+}
+
+function mergeWatchlistItems(...lists) {
+  const seen = new Set();
+  const merged = [];
+  lists.flat().forEach((item) => {
+    const symbol = String(item?.symbol || item || "").toUpperCase().trim();
+    if (!symbol || seen.has(symbol) || merged.length >= MAX_FAVORITE_TICKERS) return;
+    seen.add(symbol);
+    merged.push({ symbol });
+  });
+  return merged;
+}
+
 function getUniverseEntryBySymbol(symbol = "") {
   const normalized = String(symbol || "").toUpperCase().trim();
   return HOME_SEARCH_UNIVERSE.find((item) => item.symbol === normalized) || null;
@@ -1656,13 +1677,7 @@ function renderPersonalDashboardItems(items = []) {
   const watchHelp = document.getElementById("watchHelp");
   if (!watchlistBox) return;
 
-  const normalizedItems = (Array.isArray(items) ? items : [])
-    .map((item) => {
-      const symbol = String(item?.symbol || item || "").toUpperCase().trim();
-      return symbol ? { symbol } : null;
-    })
-    .filter(Boolean)
-    .slice(0, MAX_FAVORITE_TICKERS);
+  const normalizedItems = normalizeWatchlistItems(items).slice(0, MAX_FAVORITE_TICKERS);
 
   updateFavoriteCtaState(normalizedItems.length);
   if (watchHelp) {
@@ -1721,7 +1736,8 @@ async function loadPersonalDashboard() {
       credentials: "include"
     });
     const data = await res.json().catch(() => ({ watchlist: [] }));
-    const items = Array.isArray(data.watchlist) ? data.watchlist : [];
+    const remoteItems = normalizeWatchlistItems(data.watchlist);
+    const items = mergeWatchlistItems(remoteItems, readCachedWatchlist());
     writeCachedWatchlist(items);
     renderPersonalDashboardItems(items);
   } catch (error) {
@@ -1747,9 +1763,7 @@ async function addFavoriteTickerBySymbol(symbol, watchHelpEl) {
   const normalized = String(symbol || "").toUpperCase().trim();
   if (!normalized) return false;
 
-  const currentItems = readCachedWatchlist().map((item) => ({
-    symbol: String(item?.symbol || item || "").toUpperCase().trim()
-  })).filter((item) => item.symbol);
+  const currentItems = normalizeWatchlistItems(readCachedWatchlist());
 
   if (currentItems.length >= MAX_FAVORITE_TICKERS && !currentItems.some((item) => item.symbol === normalized)) {
     if (watchHelpEl) {

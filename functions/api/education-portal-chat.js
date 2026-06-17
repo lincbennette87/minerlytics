@@ -147,7 +147,7 @@ export async function onRequestPost(context) {
     const transcriptContext = buildContext(rows);
     const priorConversation = buildHistory(history);
 
-    const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
+    const result = await env.AI.run("@cf/meta/llama-3.3-70b-instruct-fp8-fast", {
   prompt: `You are the Minerlytics Education Portal AI Assistant.
 Answer only from the transcript context if possible.
 Be concise and clear.

@@ -18,7 +18,7 @@ let trending = [
 
 // fallback until universe.json loads
 let NEWS_TICKERS = [];
-const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+const APP_API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 
 /* ---------- Quotes ---------- */
 let quotes = [
@@ -85,7 +85,7 @@ async function refreshTrendingNews() {
   }
   try {
     const res = await fetch(
-      `${API_BASE}/api/news/trending?symbols=${encodeURIComponent(NEWS_TICKERS.join(","))}`,
+      `${APP_API_BASE}/api/news/trending?symbols=${encodeURIComponent(NEWS_TICKERS.join(","))}`,
       {
         headers: { accept: "application/json" },
         cache: "no-store",
@@ -181,7 +181,7 @@ async function refreshLatestTickerFeed() {
   }
   try {
     const res = await fetch(
-      `${API_BASE}/api/news/latest-feed?symbols=${encodeURIComponent(NEWS_TICKERS.join(","))}&limit=12&days=60`,
+      `${APP_API_BASE}/api/news/latest-feed?symbols=${encodeURIComponent(NEWS_TICKERS.join(","))}&limit=12&days=60`,
       {
         headers: { accept: "application/json" },
         cache: "no-store",
@@ -211,7 +211,7 @@ async function refreshQuoteCards(symbols = NEWS_TICKERS.slice(0, 5)) {
   }
   try {
     const res = await fetch(
-      `${API_BASE}/api/market/top-trends?symbols=${encodeURIComponent(symbols.join(","))}&days=180`,
+      `${APP_API_BASE}/api/market/top-trends?symbols=${encodeURIComponent(symbols.join(","))}&days=180`,
       {
         headers: { accept: "application/json" },
         cache: "no-store",
@@ -360,15 +360,6 @@ window.addEventListener("minerlytics:trend-symbols", (event) => {
   setInterval(refreshLatestTickerFeed, 60000); // every 60s
   setInterval(() => refreshQuoteCards(NEWS_TICKERS.slice(0, 5)), 60000); // every 60s
 })();
-
-window.addEventListener("minerlytics:trend-symbols", (event) => {
-  const symbols = Array.isArray(event?.detail?.symbols) ? event.detail.symbols : [];
-  if (!symbols.length) return;
-  NEWS_TICKERS = symbols.slice(0, 12);
-  refreshTrendingNews();
-  refreshLatestTickerFeed();
-  refreshQuoteCards(symbols.slice(0, 5));
-});
 
 window.addEventListener("resize", () => {
   spark("goldChart");
