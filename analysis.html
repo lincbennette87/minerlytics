@@ -310,6 +310,31 @@
       align-items: start;
     }
 
+    .legacy-analysis-shell {
+      display: none;
+    }
+
+    .analysisLincFrameWrap {
+      min-height: calc(100vh - 128px);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 18% 8%, rgba(154,122,74,.14), transparent 30%),
+        radial-gradient(circle at 82% 4%, rgba(110,122,113,.12), transparent 28%),
+        rgba(10,12,14,.92);
+      box-shadow: var(--shadow);
+    }
+
+    .analysisLincFrame {
+      display: block;
+      width: 100%;
+      min-height: calc(100vh - 128px);
+      height: 1120px;
+      border: 0;
+      background: transparent;
+    }
+
     .sidebar,
     .main-panel {
       background: linear-gradient(180deg, rgba(21,24,26,.76), rgba(10,12,14,.94));
@@ -963,7 +988,16 @@
 
   <div class="page pageAuthGate is-locked" data-protected-page-gate>
     <div class="gateContent">
-    <section class="shell">
+    <section class="analysisLincFrameWrap" aria-label="Minerlytics analysis workspace">
+      <iframe
+        class="analysisLincFrame"
+        src="./codex/analysis_linc.html"
+        title="Minerlytics Analysis KPI Framework"
+        loading="eager"
+      ></iframe>
+    </section>
+
+    <section class="shell legacy-analysis-shell" aria-hidden="true">
       <aside class="sidebar">
         <div class="sidebar-head">
           <div class="eyebrow">Minerlytics Analysis</div>
