@@ -171,8 +171,8 @@
               <path fill="currentColor" d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
             </svg>
             <input id="heroSearch" type="search" placeholder="Search stocks, commodities, and more…" />
-            <button id="searchBtn" class="btn btnPrimary btnTight" type="button">Search</button>
-            <button id="saveFavoriteBtn" class="btn btnGhost btnTight" type="button">Save to Favorites</button>
+            <button id="searchBtn" class="btn btnPrimary btnTight" type="button" onclick="window.runHomeHeroSearch && window.runHomeHeroSearch()">Search</button>
+            <button id="saveFavoriteBtn" class="btn btnGhost btnTight" type="button" onclick="window.saveHomeHeroFavorite && window.saveHomeHeroFavorite()">Save to Favorites</button>
             <div id="heroSearchSuggestions" class="heroSearchSuggestions" aria-live="polite"></div>
           </div>
           <div class="heroSearchAssist">
@@ -2325,6 +2325,9 @@ window.addEventListener("minerlytics-auth-state", () => {
       favoriteSaveInFlight = false;
     }
   }
+
+  window.runHomeHeroSearch = () => { void runSearch(); };
+  window.saveHomeHeroFavorite = () => { void saveCurrentSearchToFavorites(); };
 
   suggestionsEl.addEventListener("click", (event) => {
     const btn = event.target.closest("[data-symbol]");
