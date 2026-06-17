@@ -840,9 +840,41 @@
     .eduJarvisStage{
       display:grid;
       place-items:center;
-      padding:12px 0 4px;
-      margin-bottom:4px;
+      min-height:178px;
+      padding:14px 0 12px;
+      margin:12px 0 12px;
+      border:1px solid rgba(135,235,255,.10);
+      border-radius:18px;
+      background:
+        radial-gradient(circle at 50% 44%, rgba(57,215,255,.12), transparent 56%),
+        radial-gradient(circle at 50% 100%, rgba(215,192,154,.07), transparent 58%),
+        rgba(2,8,15,.30);
+      box-shadow:
+        inset 0 0 34px rgba(57,215,255,.05),
+        0 18px 40px rgba(0,0,0,.18);
+      overflow:hidden;
       pointer-events:none;
+      position:relative;
+      z-index:1;
+    }
+
+    .eduJarvisStage::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:
+        repeating-linear-gradient(90deg, rgba(135,235,255,.035) 0 1px, transparent 1px 28px),
+        repeating-linear-gradient(0deg, rgba(135,235,255,.025) 0 1px, transparent 1px 28px);
+      opacity:.34;
+    }
+
+    .assistantHeader,
+    .assistantControls,
+    .chips,
+    .chatWindow,
+    .chatComposer{
+      position:relative;
+      z-index:2;
     }
 
     .eduJarvisHud{
@@ -1103,7 +1135,7 @@
       display:flex;
       flex-wrap:wrap;
       gap:6px;
-      margin-bottom: 10px;
+      margin-bottom: 0;
     }
 
     .chip{
@@ -1635,30 +1667,30 @@
           <button class="chip" type="button" data-prompt="What do the transcripts say about management quality and capital allocation?">Management quality</button>
         </div>
 
-        <div class="chatWindow" id="chatWindow" aria-live="polite">
-          <div class="eduJarvisStage" aria-hidden="true">
-            <div class="eduJarvisHud">
-              <span class="eduJarvisGlow"></span>
-              <span class="eduJarvisDisc eduJarvisDiscOuter"></span>
-              <span class="eduJarvisDisc eduJarvisDiscMiddle"></span>
-              <span class="eduJarvisDisc eduJarvisDiscInner"></span>
-              <span class="eduJarvisSegment eduJarvisSegmentA"></span>
-              <span class="eduJarvisSegment eduJarvisSegmentB"></span>
-              <span class="eduJarvisSegment eduJarvisSegmentC"></span>
-              <span class="eduJarvisSweep"></span>
-              <span class="eduJarvisCrosshair"></span>
-              <span class="eduJarvisCore">
-                <span class="eduJarvisCorePulse"></span>
-              </span>
-              <span class="eduJarvisDot ed1"></span>
-              <span class="eduJarvisDot ed2"></span>
-              <span class="eduJarvisDot ed3"></span>
-              <span class="eduJarvisDot ed4"></span>
-              <span class="eduJarvisReadout eduJarvisReadoutLeft"></span>
-              <span class="eduJarvisReadout eduJarvisReadoutRight"></span>
-            </div>
+        <div class="eduJarvisStage" aria-hidden="true">
+          <div class="eduJarvisHud">
+            <span class="eduJarvisGlow"></span>
+            <span class="eduJarvisDisc eduJarvisDiscOuter"></span>
+            <span class="eduJarvisDisc eduJarvisDiscMiddle"></span>
+            <span class="eduJarvisDisc eduJarvisDiscInner"></span>
+            <span class="eduJarvisSegment eduJarvisSegmentA"></span>
+            <span class="eduJarvisSegment eduJarvisSegmentB"></span>
+            <span class="eduJarvisSegment eduJarvisSegmentC"></span>
+            <span class="eduJarvisSweep"></span>
+            <span class="eduJarvisCrosshair"></span>
+            <span class="eduJarvisCore">
+              <span class="eduJarvisCorePulse"></span>
+            </span>
+            <span class="eduJarvisDot ed1"></span>
+            <span class="eduJarvisDot ed2"></span>
+            <span class="eduJarvisDot ed3"></span>
+            <span class="eduJarvisDot ed4"></span>
+            <span class="eduJarvisReadout eduJarvisReadoutLeft"></span>
+            <span class="eduJarvisReadout eduJarvisReadoutRight"></span>
           </div>
+        </div>
 
+        <div class="chatWindow" id="chatWindow" aria-live="polite">
           <div class="msg assistant">
 Welcome — ask anything from the Education Portal transcript library.
 
