@@ -52,7 +52,12 @@ from minerlytics.database import DEFAULT_DB_PATH, active_miner_symbols, connect,
 
 
 DOCUMENT_EXTENSIONS = (".htm", ".html", ".pdf", ".txt", ".xml")
+TITLE_CANDIDATE_EXTENSIONS = (".htm", ".html", ".pdf", ".txt")
 DEFAULT_FORMS = {"6-K", "40-F", "20-F", "10-K", "10-Q", "8-K"}
+TITLE_CANDIDATE_SKIP_RE = re.compile(
+    r"^(?:r\d+|filingsummary|metalinks|show|report)\.(?:htm|html|xml|json|js|css)$",
+    re.IGNORECASE,
+)
 GENERAL_EXHIBIT_RE = re.compile(
     r"(^|[/_.-])(?:ex|exh|exhibit)[-_.]?\d|dex\d|_ex\d|ex99|ex-99|ex_99|ex\d+d\d",
     re.IGNORECASE,
@@ -96,6 +101,14 @@ def main() -> int:
         help="Optional case-insensitive filename regex to further filter imported documents",
     )
     parser.add_argument(
+        "--title-prefixes",
+        nargs="*",
+        help=(
+            "Optional document title prefixes to keep after text extraction, for example "
+            "'Annual Information Form' 'Management Discussion and Analysis'."
+        ),
+    )
+    parser.add_argument(
         "--force",
         action="store_true",
         help="Re-import documents even if text already exists locally",
@@ -114,6 +127,7 @@ def main() -> int:
     db = connect(db_path)
     try:
         ensure_schema(db)
+        ensure_document_title_column(db)
         seed_miner_tickers(db)
         symbols = active_miner_symbols(db) if args.all_miners else [symbol.upper() for symbol in args.symbols]
     finally:
@@ -166,6 +180,7 @@ def main() -> int:
                 limit=args.limit_filings,
                 limit_per_symbol=args.limit_filings_per_symbol,
                 document_regex=document_regex,
+                title_prefixes=args.title_prefixes or [],
                 force=args.force,
                 user_agent=args.user_agent,
             )
@@ -197,12 +212,14 @@ def sync_documents_for_symbol(
     limit: int | None,
     limit_per_symbol: int | None,
     document_regex: re.Pattern[str] | None,
+    title_prefixes: list[str],
     force: bool,
     user_agent: str | None,
 ) -> dict[str, int]:
     db = connect(db_path)
     try:
         ensure_schema(db)
+        ensure_document_title_column(db)
         filings = _select_filings(
             db,
             symbol=symbol,
@@ -221,6 +238,7 @@ def sync_documents_for_symbol(
                 filing,
                 include_primary=include_primary,
                 document_regex=document_regex,
+                include_title_candidates=bool(title_prefixes),
                 user_agent=user_agent,
             )
         except Exception:
@@ -231,7 +249,13 @@ def sync_documents_for_symbol(
             if not force and _already_imported(db_path=db_path, filing=filing, document_name=document.name):
                 stats["skipped"] += 1
                 continue
-            imported = store_document(db_path=db_path, filing=filing, document=document, user_agent=user_agent)
+            imported = store_document(
+                db_path=db_path,
+                filing=filing,
+                document=document,
+                title_prefixes=title_prefixes,
+                user_agent=user_agent,
+            )
             stats["imported"] += imported
     return stats
 
@@ -241,6 +265,7 @@ def discover_filing_documents(
     *,
     include_primary: bool,
     document_regex: re.Pattern[str] | None,
+    include_title_candidates: bool,
     user_agent: str | None,
 ) -> list[FilingDocument]:
     index_url = filing["sec_filing_url"].rstrip("/") + "/index.json"
@@ -265,7 +290,13 @@ def discover_filing_documents(
             user_agent=user_agent,
         )
         if document_type is None:
-            continue
+            if (
+                not include_title_candidates
+                or not name.lower().endswith(TITLE_CANDIDATE_EXTENSIONS)
+                or TITLE_CANDIDATE_SKIP_RE.search(name)
+            ):
+                continue
+            document_type = "document_candidate"
         documents.append(
             FilingDocument(
                 name=name,
@@ -308,6 +339,7 @@ def store_document(
     db_path: str | Path,
     filing: Any,
     document: FilingDocument,
+    title_prefixes: list[str],
     user_agent: str | None,
 ) -> int:
     run_at = datetime.now(UTC).isoformat()
@@ -315,18 +347,25 @@ def store_document(
         payload = _fetch_bytes(document.url, user_agent=user_agent)
         content_type = _content_type(document.name, payload)
         text = extract_text(exhibit_name=document.name, payload=payload, content_type=content_type)
+        document_title = extract_document_title(text, fallback_name=document.name)
+        document_type = classify_document_title(document_title) or document.document_type
+        if title_prefixes and not title_starts_with(document_title, title_prefixes):
+            return 0
         status = "imported"
         error_message = None
     except Exception as exc:
         payload = b""
         content_type = _content_type(document.name, payload)
         text = ""
+        document_title = None
+        document_type = document.document_type
         status = "failed"
         error_message = str(exc)
 
     db = connect(db_path)
     try:
         ensure_schema(db)
+        ensure_document_title_column(db)
         with db:
             # Step 5: Store the normalized document row that future parsers should query.
             db.execute(
@@ -335,10 +374,10 @@ def store_document(
                     (
                         symbol, cik, source_form, accession_number, filing_date,
                         report_date, document_name, document_url, document_type,
-                        exhibit_number, content_type, text_content, text_length,
+                        document_title, exhibit_number, content_type, text_content, text_length,
                         import_status, error_message, imported_at, created_at, updated_at
                     )
-                values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 on conflict(symbol, accession_number, document_name)
                 do update set
                     cik = excluded.cik,
@@ -347,6 +386,7 @@ def store_document(
                     report_date = excluded.report_date,
                     document_url = excluded.document_url,
                     document_type = excluded.document_type,
+                    document_title = excluded.document_title,
                     exhibit_number = excluded.exhibit_number,
                     content_type = excluded.content_type,
                     text_content = excluded.text_content,
@@ -365,7 +405,8 @@ def store_document(
                     filing["report_date"],
                     document.name,
                     document.url,
-                    document.document_type,
+                    document_type,
+                    document_title,
                     document.exhibit_number,
                     content_type,
                     text,
@@ -379,13 +420,71 @@ def store_document(
             )
 
             # Step 6: Backfill legacy exhibit tables while parsers are transitioned to the shared table.
-            if document.document_type == "technical_report":
-                _upsert_legacy_ex96(db, filing=filing, document=document, content_type=content_type, text=text, status=status, error_message=error_message, run_at=run_at)
-            elif document.document_type != "primary_filing":
-                _upsert_legacy_filing_exhibit(db, filing=filing, document=document, content_type=content_type, text=text, status=status, error_message=error_message, run_at=run_at)
+            legacy_document = FilingDocument(
+                name=document.name,
+                url=document.url,
+                document_type=document_type,
+                exhibit_number=document.exhibit_number,
+            )
+            if document_type == "technical_report":
+                _upsert_legacy_ex96(db, filing=filing, document=legacy_document, content_type=content_type, text=text, status=status, error_message=error_message, run_at=run_at)
+            elif document_type != "primary_filing":
+                _upsert_legacy_filing_exhibit(db, filing=filing, document=legacy_document, content_type=content_type, text=text, status=status, error_message=error_message, run_at=run_at)
     finally:
         db.close()
     return 1
+
+
+def ensure_document_title_column(db: Any) -> None:
+    columns = {row["name"] for row in db.execute("pragma table_info(edgar_filing_documents)").fetchall()}
+    if "document_title" not in columns:
+        db.execute("alter table edgar_filing_documents add column document_title text")
+
+
+def extract_document_title(text: str, *, fallback_name: str) -> str | None:
+    cleaned_lines = []
+    for raw_line in text.splitlines()[:120]:
+        line = re.sub(r"\s+", " ", raw_line).strip(" :-\t")
+        if not line:
+            continue
+        cleaned_lines.append(line)
+        normalized = normalize_title(line)
+        if normalized.startswith("annual information form"):
+            return line[:300]
+        if normalized.startswith("management discussion and analysis"):
+            return line[:300]
+    for line in cleaned_lines:
+        if len(line) < 4 or re.fullmatch(r"\d+", line):
+            continue
+        if re.fullmatch(r"ex[-.\s]?\d+(?:\.\d+)?", line, flags=re.IGNORECASE):
+            continue
+        if line.lower() in {"table of contents", "exhibit", "document"}:
+            continue
+        if line.lower() == Path(fallback_name).name.lower():
+            continue
+        return line[:300]
+    return Path(fallback_name).name
+
+
+def classify_document_title(title: str | None) -> str | None:
+    normalized = normalize_title(title or "")
+    if normalized.startswith("annual information form"):
+        return "annual_information_form"
+    if normalized.startswith("management discussion and analysis"):
+        return "management_discussion_analysis"
+    return None
+
+
+def title_starts_with(title: str | None, prefixes: list[str]) -> bool:
+    normalized_title = normalize_title(title or "")
+    return any(normalized_title.startswith(normalize_title(prefix)) for prefix in prefixes)
+
+
+def normalize_title(value: str) -> str:
+    normalized = value.lower().replace("’", "'")
+    normalized = normalized.replace("management's", "management")
+    normalized = re.sub(r"[^a-z0-9]+", " ", normalized)
+    return re.sub(r"\s+", " ", normalized).strip()
 
 
 def _select_filings(
