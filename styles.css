@@ -31,7 +31,7 @@ body{
 
 a{color:inherit;text-decoration:none}
 input,button{font:inherit}
-.shell{max-width:1200px;margin:0 auto;padding:24px 18px 40px}
+.shell{max-width:1200px;margin:0 auto;padding:16px 18px 28px}
 
 /* Top bar */
 .topbar{
@@ -114,7 +114,7 @@ input,button{font:inherit}
   display:grid;
   grid-template-columns: 1.12fr .88fr;
   gap:22px;
-  padding:26px 0 16px;
+  padding:14px 0 8px;
 }
 
 .heroTitleRow{
@@ -332,7 +332,7 @@ input,button{font:inherit}
 }
 
 .heroLeft .subhead{
-  margin:8px auto 18px;
+  margin:6px auto 12px;
   text-align:center;
   max-width:640px;
 }
@@ -370,13 +370,13 @@ input,button{font:inherit}
   20%{ opacity:.95; }
   100%{ stroke-dashoffset: 0; opacity:.78; }
 }
-.subhead{margin:0 0 18px;color:var(--muted);max-width:560px}
+.subhead{margin:0 0 12px;color:var(--muted);max-width:560px}
 
-.heroSearch{margin:14px 0 18px}
+.heroSearch{margin:10px 0 12px}
 .heroSearchAssist{
-  margin-top:10px;
+  margin-top:8px;
   display:grid;
-  gap:10px;
+  gap:8px;
 }
 .heroSearchBox{
   position:relative;
@@ -485,7 +485,7 @@ input,button{font:inherit}
   background: rgba(154,122,74,.10);
   color:var(--text);
 }
-.hintRow{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+.hintRow{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
 .pill{
   font-size:12px;color:rgba(234,240,255,.78);
   padding:7px 10px;border-radius:999px;
@@ -494,12 +494,12 @@ input,button{font:inherit}
 }
 
 /* Trending cards */
-.sectionTitleRow{display:flex;align-items:center;justify-content:space-between;margin-top:10px}
+.sectionTitleRow{display:flex;align-items:center;justify-content:space-between;margin-top:6px}
 .sectionTitle{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:rgba(234,240,255,.62)}
 
 .trendRow{
   display:grid; grid-template-columns: repeat(3, 1fr);
-  gap:12px; margin-top:10px;
+  gap:12px; margin-top:8px;
 }
 .trendCard{
   border-radius: 16px;
@@ -521,7 +521,7 @@ input,button{font:inherit}
 /* Feature tiles */
 .tileGrid{
   display:grid; grid-template-columns: repeat(3, 1fr);
-  gap:12px; margin-top:12px;
+  gap:12px; margin-top:10px;
 }
 .tile{
   border-radius:16px;
@@ -552,7 +552,7 @@ input,button{font:inherit}
 /* Quote row */
 .quoteRow{
   display:grid; grid-template-columns: repeat(3, 1fr);
-  gap:12px; margin-top:12px;
+  gap:12px; margin-top:10px;
 }
 .quoteCard{
   border-radius:16px;
@@ -641,7 +641,7 @@ input,button{font:inherit}
 
 /* Bottom ticker bar */
 .bottomBar{
-  margin-top:14px;
+  margin-top:8px;
   border:1px solid var(--line);
   background: rgba(7,10,18,.45);
   border-radius: 18px;
