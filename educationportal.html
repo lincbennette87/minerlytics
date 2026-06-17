@@ -755,88 +755,6 @@
       line-height: 1;
     }
 
-    .thinkingOrb{
-      position: relative;
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      background: radial-gradient(circle at 30% 30%, rgba(154,122,74,.28), rgba(110,122,113,.14) 55%, rgba(255,255,255,.02));
-      border: 1px solid rgba(255,255,255,.10);
-      box-shadow: 0 0 20px rgba(154,122,74,.12), inset 0 0 14px rgba(255,255,255,.03);
-      flex: 0 0 auto;
-      opacity: .45;
-      transition: opacity .25s ease, transform .25s ease, box-shadow .25s ease;
-    }
-
-    .thinkingOrb::before,
-    .thinkingOrb::after,
-    .thinkingDot{
-      content:"";
-      position:absolute;
-      width:6px;
-      height:6px;
-      border-radius:50%;
-      background: linear-gradient(135deg, var(--accent2), #fff);
-      box-shadow: 0 0 8px rgba(110,122,113,.45);
-      opacity: 0;
-      transition: opacity .25s ease;
-    }
-
-    .thinkingOrb::before{
-      top: 2px;
-      left: 14px;
-    }
-
-    .thinkingOrb::after{
-      top: 14px;
-      right: 1px;
-    }
-
-    .thinkingDot{
-      top: 23px;
-      left: 3px;
-    }
-
-    .thinkingOrb.isThinking{
-      opacity: 1;
-      transform: scale(1.03);
-      box-shadow: 0 0 26px rgba(154,122,74,.22), inset 0 0 18px rgba(255,255,255,.04);
-    }
-
-    .thinkingOrb.isThinking::before,
-    .thinkingOrb.isThinking::after,
-    .thinkingOrb.isThinking .thinkingDot{
-      opacity: 1;
-    }
-
-    .thinkingOrb.isThinking::before{
-      animation: orbit1 1.5s linear infinite;
-    }
-
-    .thinkingOrb.isThinking::after{
-      animation: orbit2 1.8s linear infinite;
-    }
-
-    .thinkingOrb.isThinking .thinkingDot{
-      animation: orbit3 2.1s linear infinite;
-    }
-
-    @keyframes orbit1{
-      from{ transform: rotate(0deg) translateX(11px) rotate(0deg); }
-      to{ transform: rotate(360deg) translateX(11px) rotate(-360deg); }
-    }
-
-    @keyframes orbit2{
-      from{ transform: rotate(0deg) translateX(10px) rotate(0deg); }
-      to{ transform: rotate(-360deg) translateX(10px) rotate(360deg); }
-    }
-
-    @keyframes orbit3{
-      from{ transform: rotate(0deg) translateX(9px) rotate(0deg); opacity:.85; }
-      50%{ opacity:1; }
-      to{ transform: rotate(360deg) translateX(9px) rotate(-360deg); opacity:.85; }
-    }
-
     .eduJarvisStage{
       display:grid;
       place-items:center;
@@ -1640,9 +1558,6 @@
 <div class="assistantInner">
         <div class="assistantHeader">
           <div class="assistantTitleWrap">
-            <div class="thinkingOrb" id="thinkingOrb" aria-hidden="true">
-              <span class="thinkingDot"></span>
-            </div>
             <div>
               <h2 class="assistantTitle">Minerlytics Education Portal AI Assistant</h2>
             </div>
