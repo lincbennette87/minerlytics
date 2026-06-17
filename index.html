@@ -1551,12 +1551,12 @@ function updateFavoriteCtaState(savedCount = 0) {
   const favoriteSearchHint = document.getElementById("favoriteSearchHint");
   if (saveFavoriteBtn) {
     saveFavoriteBtn.style.display = "inline-flex";
-    saveFavoriteBtn.textContent = email ? `Save to Favorites${savedCount ? ` (${savedCount}/${MAX_FAVORITE_TICKERS})` : ""}` : "Sign In to Save";
+    saveFavoriteBtn.textContent = `Save to Favorites${savedCount ? ` (${savedCount}/${MAX_FAVORITE_TICKERS})` : ""}`;
   }
   if (favoriteSearchHint) {
     favoriteSearchHint.textContent = email
       ? `${savedCount}/${MAX_FAVORITE_TICKERS} favorites saved. Search a ticker here, save it, and the chart and research panels below will follow your list.`
-      : "Sign in to save up to 5 favorite tickers from this search. Your trend chart and research panels below will follow that list.";
+      : `Save up to ${MAX_FAVORITE_TICKERS} favorite tickers from this search. If you're signed in, Minerlytics will also try to sync them to your account.`;
   }
 }
 
@@ -1737,16 +1737,19 @@ async function addFavoriteTickerBySymbol(symbol, watchHelpEl) {
   const matched = getUniverseEntryBySymbol(normalized);
   if (heroSearch) heroSearch.value = matched?.name ? `${normalized} — ${matched.name}` : normalized;
   renderResolvedSearchState(heroSearch?.value || normalized);
-  setFavoriteActionStatus(`${normalized} was added to your favorites.`, "success");
+  setFavoriteActionStatus(`${normalized} was added to your favorites and applied to the homepage.`, "success");
 
-  fetch(API_BASE + "/api/watchlist/add", {
-    method: "POST",
-    credentials: "include",
-    headers: { "content-type": "application/json" },
-    body: JSON.stringify({ symbol: normalized })
-  })
-    .then(() => loadPersonalDashboard())
-    .catch((error) => console.warn("WATCHLIST ADD ERROR:", error));
+  const maybeEmail = localStorage.getItem("minerlytics_user_email") || "";
+  if (maybeEmail) {
+    fetch(API_BASE + "/api/watchlist/add", {
+      method: "POST",
+      credentials: "include",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ symbol: normalized })
+    })
+      .then(() => loadPersonalDashboard())
+      .catch((error) => console.warn("WATCHLIST ADD ERROR:", error));
+  }
 
   return true;
 }
@@ -2306,12 +2309,6 @@ window.addEventListener("minerlytics-auth-state", () => {
     favoriteSaveInFlight = true;
     setFavoriteActionStatus("Saving favorite ticker...", "info");
     try {
-      const email = await resolveSignedInEmail();
-      if (!email) {
-        setFavoriteActionStatus("Sign in first to save favorite tickers.", "error");
-        window.location.href = "./login.html";
-        return;
-      }
       await ensureHomeSearchUniverse();
       const resolved = renderResolvedSearchState(searchInput.value) || resolveUniverseEntry(searchInput.value);
       const symbol = resolved?.symbol || parseSearchTickers(searchInput.value, 1)[0] || "";
