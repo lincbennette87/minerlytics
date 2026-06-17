@@ -2287,9 +2287,9 @@ window.addEventListener("minerlytics-auth-state", () => {
   }
 
   async function runSearch() {
-    await ensureHomeSearchUniverse();
-    renderResolvedSearchState(searchInput.value);
-    const tickers = parseSearchTickers(searchInput.value);
+    ensureHomeSearchUniverse().catch(() => {});
+    const resolved = renderResolvedSearchState(searchInput.value) || resolveUniverseEntry(searchInput.value);
+    const tickers = resolved?.symbol ? [resolved.symbol] : parseSearchTickers(searchInput.value);
     updateCompanyDetailLink(searchInput.value);
     if (!tickers.length) {
       setFavoriteActionStatus("Search a valid ticker or company name from the Minerlytics universe.", "error");
@@ -2309,7 +2309,7 @@ window.addEventListener("minerlytics-auth-state", () => {
     favoriteSaveInFlight = true;
     setFavoriteActionStatus("Saving favorite ticker...", "info");
     try {
-      await ensureHomeSearchUniverse();
+      ensureHomeSearchUniverse().catch(() => {});
       const resolved = renderResolvedSearchState(searchInput.value) || resolveUniverseEntry(searchInput.value);
       const symbol = resolved?.symbol || parseSearchTickers(searchInput.value, 1)[0] || "";
       if (!symbol) {
@@ -2351,7 +2351,7 @@ window.addEventListener("minerlytics-auth-state", () => {
   });
   searchInput.addEventListener("input", async () => {
     setFavoriteActionStatus("");
-    await ensureHomeSearchUniverse();
+    ensureHomeSearchUniverse().catch(() => {});
     renderResolvedSearchState(searchInput.value);
     updateCompanyDetailLink(searchInput.value);
     openSuggestions(getSuggestions(searchInput.value));
@@ -2374,7 +2374,7 @@ window.addEventListener("minerlytics-auth-state", () => {
   commodityRow?.addEventListener("click", async (event) => {
     const chip = event.target.closest("[data-query]");
     if (!chip) return;
-    await ensureHomeSearchUniverse();
+    ensureHomeSearchUniverse().catch(() => {});
     const query = String(chip.getAttribute("data-query") || "").toLowerCase();
     const metal = query.split(" ")[0];
     const matches = HOME_SEARCH_UNIVERSE.filter((item) => item.metal === metal).slice(0, 5);
