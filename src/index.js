@@ -728,6 +728,76 @@ async function getRecentYoutubeVideosForTickers(env, tickers = [], limit = 8, da
     .slice(0, safeLimit);
 }
 
+async function fetchYoutubePageHtml(url) {
+  const res = await fetch(url, {
+    headers: {
+      "User-Agent": "Mozilla/5.0",
+      "Accept": "text/html,application/xhtml+xml",
+    },
+  });
+  if (!res.ok) throw new Error(`YouTube page fetch failed (${res.status})`);
+  return await res.text();
+}
+
+function extractYoutubeVideoCardsFromHtml(html = "", fallbackChannel = "", fallbackSymbols = []) {
+  const out = [];
+  const seen = new Set();
+  const regex = /"videoId":"([A-Za-z0-9_-]{11})".{0,800}?"title":\{"runs":\[\{"text":"([^"]+?)"/g;
+  let match;
+
+  while ((match = regex.exec(html)) && out.length < 8) {
+    const videoId = match[1];
+    const title = String(match[2] || "").replace(/\\u0026/g, "&").trim();
+    if (!videoId || !title || seen.has(videoId)) continue;
+    seen.add(videoId);
+    out.push({
+      video_id: videoId,
+      title,
+      channel: fallbackChannel,
+      published_at: null,
+      url: `https://www.youtube.com/watch?v=${videoId}`,
+      symbols: Array.isArray(fallbackSymbols) ? fallbackSymbols.slice(0, 6) : [],
+      transcript_snippet: "",
+      source_mode: "live_channel_fallback",
+    });
+  }
+
+  return out;
+}
+
+async function getFallbackYoutubeCoverage(limit = 8) {
+  const safeLimit = Math.min(Math.max(Number(limit || 8), 1), 20);
+  const items = [];
+
+  for (const channel of YOUTUBE.CHANNELS) {
+    if (items.length >= safeLimit) break;
+
+    const directUrl = channel.handleUrl
+      ? `${channel.handleUrl.replace(/\/+$/, "")}/videos`
+      : `https://www.youtube.com/results?search_query=${encodeURIComponent(channel.name || channel.query || "")}&sp=CAI%253D`;
+
+    try {
+      const html = await fetchYoutubePageHtml(directUrl);
+      const extracted = extractYoutubeVideoCardsFromHtml(
+        html,
+        channel.name || "YouTube",
+        channel.symbols || []
+      );
+
+      for (const item of extracted) {
+        if (items.length >= safeLimit) break;
+        if (!items.find((existing) => existing.video_id === item.video_id)) {
+          items.push(item);
+        }
+      }
+    } catch {
+      // ignore per-channel failures and continue
+    }
+  }
+
+  return items.slice(0, safeLimit);
+}
+
 function isBoilerplateDisclosureText(textValue) {
   const text = String(textValue || "").toLowerCase();
   if (!text) return true;
@@ -3190,12 +3260,18 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
         const symbols = parseSymbolsParam(url.searchParams.get("symbols") || "");
         const limit = clamp(parseInt(url.searchParams.get("limit") || "8", 10), 1, 20);
         const days = clamp(parseInt(url.searchParams.get("days") || "60", 10), 1, 365);
-        const videos = await getRecentYoutubeVideosForTickers(env, symbols, limit, days);
+        let videos = await getRecentYoutubeVideosForTickers(env, symbols, limit, days);
+        let source = "database_recent";
+        if (!Array.isArray(videos) || !videos.length) {
+          videos = await getFallbackYoutubeCoverage(limit).catch(() => []);
+          if (videos.length) source = "live_channel_fallback";
+        }
 
         return json({
           ok: true,
           days,
           symbols,
+          source,
           videos,
         }, 200);
       }
