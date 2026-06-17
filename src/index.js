@@ -2453,7 +2453,8 @@ async function getAnalysisUniverse(env) {
   const metaByTicker = new Map(ANALYSIS_UNIVERSE.map((meta) => [String(meta.ticker || "").toUpperCase().trim(), meta]));
   const items = [];
 
-  const series = await getStoredTrendSeriesForTickers(env, tickers, 180).catch(() => []);
+  const storedSeries = await getStoredTrendSeriesForTickers(env, tickers, 180).catch(() => []);
+  const series = await enrichTrendSeriesWithLatestQuotes(storedSeries).catch(() => storedSeries);
   const marketByTicker = new Map(series.map((item) => [item.ticker, item]));
 
   const placeholders = tickers.map(() => "?").join(", ");
