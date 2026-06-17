@@ -1664,20 +1664,22 @@ async function loadPersonalDashboard() {
   const email = await resolveSignedInEmail();
   const box = document.getElementById("personalDashboard");
   const emailEl = document.getElementById("personalEmail");
+  const cachedItems = readCachedWatchlist();
 
-  updateFavoriteCtaState(0);
+  updateFavoriteCtaState(cachedItems.length);
 
   if (!box) return;
-  if (!email) {
+  if (!email && !cachedItems.length) {
     box.style.display = "none";
     return;
   }
 
   box.style.display = "block";
-  emailEl.textContent = getCachedDisplayName();
-  renderPersonalDashboardItems(readCachedWatchlist());
+  emailEl.textContent = email ? getCachedDisplayName() : "Saved favorites";
+  renderPersonalDashboardItems(cachedItems);
 
   try {
+    if (!email) return;
     const res = await fetch(API_BASE + "/api/watchlist", {
       credentials: "include"
     });
@@ -1729,7 +1731,7 @@ async function addFavoriteTickerBySymbol(symbol, watchHelpEl) {
   const box = document.getElementById("personalDashboard");
   if (box) box.style.display = "block";
   const emailEl = document.getElementById("personalEmail");
-  if (emailEl) emailEl.textContent = getCachedDisplayName();
+  if (emailEl) emailEl.textContent = getCachedDisplayName() || "Saved favorites";
   renderPersonalDashboardItems(nextItems);
   const heroSearch = document.getElementById("heroSearch");
   const matched = getUniverseEntryBySymbol(normalized);
@@ -2319,9 +2321,12 @@ window.addEventListener("minerlytics-auth-state", () => {
       }
       const saved = await addFavoriteTickerBySymbol(symbol, document.getElementById("watchHelp"));
       if (saved) {
+        const favorites = getFavoriteTickers();
         searchInput.value = symbol;
+        renderResolvedSearchState(symbol);
         updateCompanyDetailLink(symbol);
-        window.MinerlyticsHomeTrend?.loadSymbols(getFavoriteTickers());
+        renderPersonalDashboardItems(readCachedWatchlist());
+        applyFavoriteUniverseSelection(favorites);
         closeSuggestions();
       }
     } finally {
