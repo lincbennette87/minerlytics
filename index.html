@@ -178,6 +178,7 @@
           <div class="heroSearchAssist">
             <div class="heroSearchMeta">Search miners and related funds across gold, silver, copper, and diamond-related names by ticker or company name.</div>
             <div id="favoriteSearchHint" class="heroSearchMeta">Sign in to save up to 5 favorite tickers from this search. Your trend chart and research panels below will follow that list.</div>
+            <div id="heroSearchResolved" class="heroSearchResolved" hidden></div>
             <div id="favoriteActionStatus" class="heroSearchStatus"></div>
           </div>
 
@@ -192,7 +193,7 @@
       style="flex:1;padding:12px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);" />
     <button class="btn btnPrimary btnTight" type="button" onclick="addWatchTicker()">Add</button>
   </div>
-  <div id="watchHelp" style="margin-bottom:12px;color:rgba(234,240,255,.62);font-size:12px;">Save up to 5 favorite tickers. Your chart updates from this list.</div>
+  <div id="watchHelp" style="margin-bottom:12px;color:rgba(234,240,255,.62);font-size:12px;">Save up to 5 favorite tickers. Your chart and research panels update from this list.</div>
 
   <div id="watchlistBox" style="display:flex;flex-wrap:wrap;gap:8px;"></div>
 </section>
@@ -1559,6 +1560,23 @@ function updateFavoriteCtaState(savedCount = 0) {
   }
 }
 
+function renderResolvedSearchState(value = "") {
+  const resolvedEl = document.getElementById("heroSearchResolved");
+  if (!resolvedEl) return null;
+  const entry = resolveUniverseEntry(value);
+  if (!entry?.symbol) {
+    resolvedEl.hidden = true;
+    resolvedEl.innerHTML = "";
+    return null;
+  }
+  resolvedEl.hidden = false;
+  resolvedEl.innerHTML = `
+    <strong>Ready to save</strong>
+    <span>${entry.symbol} • ${entry.name || "Minerlytics universe name"}</span>
+  `;
+  return entry;
+}
+
 function setFavoriteActionStatus(message = "", tone = "info") {
   const el = document.getElementById("favoriteActionStatus");
   if (!el) return;
@@ -1583,6 +1601,20 @@ function writeCachedWatchlist(items = []) {
   localStorage.setItem("minerlytics_watchlist", JSON.stringify(Array.isArray(items) ? items : []));
 }
 
+function getUniverseEntryBySymbol(symbol = "") {
+  const normalized = String(symbol || "").toUpperCase().trim();
+  return HOME_SEARCH_UNIVERSE.find((item) => item.symbol === normalized) || null;
+}
+
+function applyFavoriteUniverseSelection(symbols = []) {
+  const nextSymbols = mergeChartSymbols(symbols);
+  window.MinerlyticsHomeTrend?.loadSymbols(nextSymbols);
+  window.dispatchEvent(new CustomEvent("minerlytics:favorites-changed", {
+    detail: { symbols: nextSymbols.slice() }
+  }));
+  updateCompanyDetailLink(nextSymbols.join(", "));
+}
+
 function renderPersonalDashboardItems(items = []) {
   const watchlistBox = document.getElementById("watchlistBox");
   const watchHelp = document.getElementById("watchHelp");
@@ -1598,18 +1630,23 @@ function renderPersonalDashboardItems(items = []) {
 
   updateFavoriteCtaState(normalizedItems.length);
   if (watchHelp) {
-    watchHelp.textContent = `${normalizedItems.length}/${MAX_FAVORITE_TICKERS} favorite tickers saved. Your chart updates from this list.`;
+    watchHelp.textContent = `${normalizedItems.length}/${MAX_FAVORITE_TICKERS} favorite tickers saved. Your chart and research panels update from this list.`;
   }
 
   if (normalizedItems.length) {
-    watchlistBox.innerHTML = normalizedItems.map(item => `
-      <div data-symbol="${item.symbol}" style="display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);">
-        <a href="./company.html?ticker=${encodeURIComponent(item.symbol)}" style="font-weight:700;text-decoration:none;color:var(--text);">${item.symbol}</a>
-        <button onclick="removeWatchTicker('${item.symbol}')" style="border:0;background:transparent;color:#d7c09a;cursor:pointer;font-size:16px;">×</button>
+    watchlistBox.innerHTML = normalizedItems.map(item => {
+      const entry = getUniverseEntryBySymbol(item.symbol);
+      return `
+      <div class="watchTickerChip" data-symbol="${item.symbol}">
+        <div class="watchTickerChipMain">
+          <a class="watchTickerChipTicker" href="./company.html?ticker=${encodeURIComponent(item.symbol)}">${item.symbol}</a>
+          <div class="watchTickerChipName">${entry?.name || "Minerlytics universe company"}</div>
+        </div>
+        <button class="watchTickerChipRemove" onclick="removeWatchTicker('${item.symbol}')" aria-label="Remove ${item.symbol} from favorites">×</button>
       </div>
-    `).join("");
-    updateCompanyDetailLink(normalizedItems.map((item) => item.symbol).join(", "));
-    window.MinerlyticsHomeTrend?.loadSymbols(mergeChartSymbols(normalizedItems.map((item) => item.symbol)));
+    `;
+    }).join("");
+    applyFavoriteUniverseSelection(normalizedItems.map((item) => item.symbol));
     return;
   }
 
@@ -1618,6 +1655,9 @@ function renderPersonalDashboardItems(items = []) {
       No saved tickers yet. Add up to 5 favorites.
     </span>
   `;
+  window.dispatchEvent(new CustomEvent("minerlytics:favorites-changed", {
+    detail: { symbols: [] }
+  }));
 }
 
 async function loadPersonalDashboard() {
@@ -1653,7 +1693,8 @@ async function loadPersonalDashboard() {
 async function addWatchTicker() {
   const input = document.getElementById("watchSymbol");
   await ensureHomeSearchUniverse();
-  const symbol = parseSearchTickers(input.value, 1)[0] || "";
+  const entry = renderResolvedSearchState(input.value) || resolveUniverseEntry(input.value);
+  const symbol = entry?.symbol || parseSearchTickers(input.value, 1)[0] || "";
   const watchHelp = document.getElementById("watchHelp");
 
   if (!symbol) {
@@ -1690,6 +1731,10 @@ async function addFavoriteTickerBySymbol(symbol, watchHelpEl) {
   const emailEl = document.getElementById("personalEmail");
   if (emailEl) emailEl.textContent = getCachedDisplayName();
   renderPersonalDashboardItems(nextItems);
+  const heroSearch = document.getElementById("heroSearch");
+  const matched = getUniverseEntryBySymbol(normalized);
+  if (heroSearch) heroSearch.value = matched?.name ? `${normalized} — ${matched.name}` : normalized;
+  renderResolvedSearchState(heroSearch?.value || normalized);
   setFavoriteActionStatus(`${normalized} was added to your favorites.`, "success");
 
   fetch(API_BASE + "/api/watchlist/add", {
@@ -2238,6 +2283,7 @@ window.addEventListener("minerlytics-auth-state", () => {
 
   async function runSearch() {
     await ensureHomeSearchUniverse();
+    renderResolvedSearchState(searchInput.value);
     const tickers = parseSearchTickers(searchInput.value);
     updateCompanyDetailLink(searchInput.value);
     if (!tickers.length) {
@@ -2265,7 +2311,8 @@ window.addEventListener("minerlytics-auth-state", () => {
         return;
       }
       await ensureHomeSearchUniverse();
-      const symbol = parseSearchTickers(searchInput.value, 1)[0] || "";
+      const resolved = renderResolvedSearchState(searchInput.value) || resolveUniverseEntry(searchInput.value);
+      const symbol = resolved?.symbol || parseSearchTickers(searchInput.value, 1)[0] || "";
       if (!symbol) {
         setFavoriteActionStatus("Search or select a ticker first, then save it to favorites.", "error");
         return;
@@ -2288,6 +2335,7 @@ window.addEventListener("minerlytics-auth-state", () => {
     const symbol = String(btn.getAttribute("data-symbol") || "").trim().toUpperCase();
     const match = HOME_SEARCH_UNIVERSE.find((item) => item.symbol === symbol);
     searchInput.value = match ? `${match.symbol} — ${match.name}` : symbol;
+    renderResolvedSearchState(searchInput.value);
     updateCompanyDetailLink(symbol);
     window.MinerlyticsHomeTrend?.loadSymbols([symbol]);
     closeSuggestions();
@@ -2302,6 +2350,7 @@ window.addEventListener("minerlytics-auth-state", () => {
   searchInput.addEventListener("input", async () => {
     setFavoriteActionStatus("");
     await ensureHomeSearchUniverse();
+    renderResolvedSearchState(searchInput.value);
     updateCompanyDetailLink(searchInput.value);
     openSuggestions(getSuggestions(searchInput.value));
   });
@@ -2333,6 +2382,8 @@ window.addEventListener("minerlytics-auth-state", () => {
     window.MinerlyticsHomeTrend?.loadSymbols(matches.map((item) => item.symbol));
     openSuggestions(matches);
   });
+
+  renderResolvedSearchState(searchInput.value);
 })();
 </script>
 <script>
@@ -2415,6 +2466,11 @@ window.addEventListener("minerlytics-auth-state", () => {
 
   window.addEventListener("minerlytics:trend-symbols", (event) => {
     refreshIntel(event?.detail?.symbols || []);
+  });
+
+  window.addEventListener("minerlytics:favorites-changed", (event) => {
+    const symbols = Array.isArray(event?.detail?.symbols) ? event.detail.symbols : [];
+    if (symbols.length) refreshIntel(symbols);
   });
 
   refreshIntel();
