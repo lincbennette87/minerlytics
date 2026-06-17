@@ -1611,6 +1611,13 @@ function getUniverseEntryBySymbol(symbol = "") {
   return HOME_SEARCH_UNIVERSE.find((item) => item.symbol === normalized) || null;
 }
 
+function resolveSymbolFromInput(value = "") {
+  const resolved = resolveUniverseEntry(value);
+  if (resolved?.symbol) return resolved.symbol;
+  const parsed = parseSearchTickers(value, 1);
+  return parsed[0] || "";
+}
+
 function applyFavoriteUniverseSelection(symbols = []) {
   const nextSymbols = mergeChartSymbols(symbols);
   window.MinerlyticsHomeTrend?.loadSymbols(nextSymbols);
@@ -1694,9 +1701,8 @@ async function loadPersonalDashboard() {
 
 async function addWatchTicker() {
   const input = document.getElementById("watchSymbol");
-  await ensureHomeSearchUniverse();
-  const entry = renderResolvedSearchState(input.value) || resolveUniverseEntry(input.value);
-  const symbol = entry?.symbol || parseSearchTickers(input.value, 1)[0] || "";
+  ensureHomeSearchUniverse().catch(() => {});
+  const symbol = resolveSymbolFromInput(input.value);
   const watchHelp = document.getElementById("watchHelp");
 
   if (!symbol) {
@@ -1758,8 +1764,7 @@ window.addHeroTickerToFavorites = async function addHeroTickerToFavorites() {
   const searchInput = document.getElementById("heroSearch");
   if (!searchInput) return;
   ensureHomeSearchUniverse().catch(() => {});
-  const resolved = renderResolvedSearchState(searchInput.value) || resolveUniverseEntry(searchInput.value);
-  const symbol = resolved?.symbol || parseSearchTickers(searchInput.value, 1)[0] || "";
+  const symbol = resolveSymbolFromInput(searchInput.value);
   if (!symbol) {
     setFavoriteActionStatus("Enter a valid ticker or company name first.", "error");
     return;
@@ -2310,25 +2315,10 @@ window.addEventListener("minerlytics-auth-state", () => {
   async function saveCurrentSearchToFavorites() {
     if (favoriteSaveInFlight) return;
     favoriteSaveInFlight = true;
-    setFavoriteActionStatus("Saving favorite ticker...", "info");
     try {
-      ensureHomeSearchUniverse().catch(() => {});
-      const resolved = renderResolvedSearchState(searchInput.value) || resolveUniverseEntry(searchInput.value);
-      const symbol = resolved?.symbol || parseSearchTickers(searchInput.value, 1)[0] || "";
-      if (!symbol) {
-        setFavoriteActionStatus("Search or select a ticker first, then save it to favorites.", "error");
-        return;
-      }
-      const saved = await addFavoriteTickerBySymbol(symbol, document.getElementById("watchHelp"));
-      if (saved) {
-        const favorites = getFavoriteTickers();
-        searchInput.value = symbol;
-        renderResolvedSearchState(symbol);
-        updateCompanyDetailLink(symbol);
-        renderPersonalDashboardItems(readCachedWatchlist());
-        applyFavoriteUniverseSelection(favorites);
-        closeSuggestions();
-      }
+      setFavoriteActionStatus("Saving favorite ticker...", "info");
+      await window.addHeroTickerToFavorites?.();
+      closeSuggestions();
     } finally {
       favoriteSaveInFlight = false;
     }
