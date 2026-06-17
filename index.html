@@ -985,7 +985,7 @@ function clearChat(){
   let sourceLabel = "";
   let focusTicker = null;
   const hiddenTickers = new Set();
-  let activeSymbols = ["WPM", "CDE", "HYMC", "GFI", "AEM"];
+  let activeSymbols = [];
   let waitingForFavorites = false;
 
   function setLoaderVisible(visible){
@@ -1398,7 +1398,7 @@ function clearChat(){
   });
   window.addEventListener("resize", () => draw(currentDays));
 
-  loadTrendData();
+  setEmptyFavoritesState("Save favorite tickers to load your personalized homepage chart.");
   window.MinerlyticsHomeTrend = {
     loadSymbols(symbols) {
       const parsed = Array.isArray(symbols) ? symbols : parseTickerInput(symbols);
@@ -1547,7 +1547,7 @@ function parseTickerList(value) {
 
 function mergeChartSymbols(primary = []) {
   const cleanPrimary = Array.from(new Set((primary || []).map((item) => String(item || "").toUpperCase().trim()).filter(Boolean))).slice(0, MAX_FAVORITE_TICKERS);
-  return cleanPrimary.length ? cleanPrimary : DEFAULT_HOME_SYMBOLS.slice(0, MAX_FAVORITE_TICKERS);
+  return cleanPrimary;
 }
 
 function resolveDetailTicker(value) {
@@ -1640,11 +1640,15 @@ function resolveSymbolFromInput(value = "") {
 
 function applyFavoriteUniverseSelection(symbols = []) {
   const nextSymbols = mergeChartSymbols(symbols);
-  window.MinerlyticsHomeTrend?.loadSymbols(nextSymbols);
+  if (nextSymbols.length) {
+    window.MinerlyticsHomeTrend?.loadSymbols(nextSymbols);
+  } else {
+    window.MinerlyticsHomeTrend?.showEmptyState?.("Save favorite tickers to load your personalized homepage chart.");
+  }
   window.dispatchEvent(new CustomEvent("minerlytics:favorites-changed", {
     detail: { symbols: nextSymbols.slice() }
   }));
-  updateCompanyDetailLink(nextSymbols.join(", "));
+  if (nextSymbols.length) updateCompanyDetailLink(nextSymbols.join(", "));
 }
 
 function renderPersonalDashboardItems(items = []) {

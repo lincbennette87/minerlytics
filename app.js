@@ -13,20 +13,16 @@
  */
 
 let trending = [
-  { title: "Loading news…", meta: "Fetching latest headlines" },
-  { title: "Loading news…", meta: "Fetching latest headlines" },
-  { title: "Loading news…", meta: "Fetching latest headlines" },
+  { title: "Save favorite tickers to load personalized news.", meta: "Your selected miners will appear here" },
 ];
 
 // fallback until universe.json loads
-let NEWS_TICKERS = ["WPM", "CDE", "HYMC", "GFI", "AEM"];
+let NEWS_TICKERS = [];
 const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 
 /* ---------- Quotes ---------- */
 let quotes = [
-  { sym: "WPM", company: "Wheaton Precious Metals", price: 0, chg: 0 },
-  { sym: "CDE", company: "Coeur Mining", price: 0, chg: 0 },
-  { sym: "HYMC", company: "Hycroft Mining", price: 0, chg: 0 },
+  { sym: "Favorites", company: "Save tickers above to load quote cards", placeholder: true },
 ];
 
 /* ---------- Running ticker strip (latest RSS across universe) ---------- */
@@ -37,7 +33,7 @@ let tickerItems = [
 
 function setActiveUniverseSymbols(symbols = []) {
   const next = Array.from(new Set((symbols || []).map((item) => String(item || "").toUpperCase().trim()).filter(Boolean))).slice(0, 5);
-  NEWS_TICKERS = next.length ? next : ["WPM", "CDE", "HYMC", "GFI", "AEM"];
+  NEWS_TICKERS = next;
 }
 
 /* ============ Universe Loader ============ */
@@ -82,6 +78,11 @@ async function loadUniverseTickers(limit = 12) {
  * { cards: [{ title: "AEM: ...", meta: "Source • 2h ago" }, ...] }
  */
 async function refreshTrendingNews() {
+  if (!NEWS_TICKERS.length) {
+    trending = [{ title: "Save favorite tickers to load personalized news.", meta: "Your selected miners will appear here" }];
+    renderTrending();
+    return;
+  }
   try {
     const res = await fetch(
       `${API_BASE}/api/news/trending?symbols=${encodeURIComponent(NEWS_TICKERS.join(","))}`,
@@ -129,6 +130,16 @@ function renderQuotes() {
   if (!el) return;
   el.innerHTML = quotes
     .map((q) => {
+      if (q.placeholder) {
+        return `
+      <div class="quoteCard" style="pointer-events:none;">
+        <div class="quoteTop">
+          <div class="sym">${escapeHtml(q.sym)}</div>
+        </div>
+        <div class="company">${escapeHtml(q.company)}</div>
+      </div>
+    `;
+      }
       const up = q.chg >= 0;
       const cls = up ? "up" : "down";
       const sign = up ? "+" : "";
@@ -163,6 +174,11 @@ function renderTicker() {
 }
 
 async function refreshLatestTickerFeed() {
+  if (!NEWS_TICKERS.length) {
+    tickerItems = [{ text: "Save favorite tickers to load latest RSS headlines.", href: "#" }];
+    renderTicker();
+    return;
+  }
   try {
     const res = await fetch(
       `${API_BASE}/api/news/latest-feed?symbols=${encodeURIComponent(NEWS_TICKERS.join(","))}&limit=12&days=60`,
@@ -188,6 +204,11 @@ async function refreshLatestTickerFeed() {
 }
 
 async function refreshQuoteCards(symbols = NEWS_TICKERS.slice(0, 5)) {
+  if (!Array.isArray(symbols) || !symbols.length) {
+    quotes = [{ sym: "Favorites", company: "Save tickers above to load quote cards", placeholder: true }];
+    renderQuotes();
+    return;
+  }
   try {
     const res = await fetch(
       `${API_BASE}/api/market/top-trends?symbols=${encodeURIComponent(symbols.join(","))}&days=180`,
@@ -332,15 +353,9 @@ window.addEventListener("minerlytics:trend-symbols", (event) => {
 
 // Load tickers from universe.json, then start real-time trending refresh
 (async () => {
-  try {
-    NEWS_TICKERS = await loadUniverseTickers(12); // first 12 tickers
-  } catch (e) {
-    console.warn("universe load failed, using fallback tickers:", e);
-  }
-
-  refreshTrendingNews(); // immediate
-  refreshLatestTickerFeed(); // immediate
-  refreshQuoteCards(NEWS_TICKERS.slice(0, 5)); // immediate
+  refreshTrendingNews(); // immediate empty/personalized state
+  refreshLatestTickerFeed(); // immediate empty/personalized state
+  refreshQuoteCards([]); // immediate empty/personalized state
   setInterval(refreshTrendingNews, 60000); // every 60s
   setInterval(refreshLatestTickerFeed, 60000); // every 60s
   setInterval(() => refreshQuoteCards(NEWS_TICKERS.slice(0, 5)), 60000); // every 60s
