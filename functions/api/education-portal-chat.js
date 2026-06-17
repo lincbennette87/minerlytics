@@ -22,7 +22,60 @@ function json(data, status = 200) {
 }
 
 function cleanText(v) {
-  return String(v || "").trim();
+  return String(v || "").replace(/\s+/g, " ").trim();
+}
+
+function normalizePrompt(value = "") {
+  return cleanText(value)
+    .toLowerCase()
+    .replace(/[^\w\s']/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function isConversationalQuestion(question = "") {
+  const q = normalizePrompt(question);
+  if (!q) return false;
+  return new Set([
+    "hi",
+    "hello",
+    "hey",
+    "good morning",
+    "good afternoon",
+    "good evening",
+    "how are you",
+    "how are you doing",
+    "how is it going",
+    "whats up",
+    "what's up",
+    "thanks",
+    "thank you",
+    "ok thanks",
+  ]).has(q) || /^(hi|hello|hey)\b/.test(q);
+}
+
+function buildConversationalAnswer(question = "") {
+  const q = normalizePrompt(question);
+  if (q.includes("thank")) {
+    return "You're welcome. I'm here whenever you want to learn about mining investing, project economics, risk, royalties, producers, developers, explorers, or anything from the Education Portal transcript library.";
+  }
+
+  return [
+    "Hi, I'm doing well and ready to help with mining education.",
+    "You can ask me to explain junior miner economics, IRR and payback, royalty and streaming companies, management quality, dilution, permitting risk, or red flags from the Education Portal transcripts.",
+  ].join("\n\n");
+}
+
+function detectEducationIntent(question = "") {
+  const q = normalizePrompt(question);
+  return {
+    conversational: isConversationalQuestion(q),
+    summary: /\b(summary|summarize|main lessons|key lessons|takeaways)\b/.test(q),
+    simple: /\b(simple|beginner|plain english|explain like)\b/.test(q),
+    risk: /\b(risk|risks|red flag|red flags|avoid|warning)\b/.test(q),
+    economics: /\b(irr|npv|payback|capex|opex|margin|cash flow|economics|valuation)\b/.test(q),
+    followUp: /\b(what about|and what|more|expand|continue|why|how so)\b/.test(q),
+  };
 }
 
 function buildKeywordList(question, history) {
@@ -57,7 +110,12 @@ function buildKeywordList(question, history) {
     if (keywords.length >= 10) break;
   }
 
-  return keywords;
+  const intent = detectEducationIntent(question);
+  if (intent.risk) keywords.push("risk", "risks", "red", "flags");
+  if (intent.economics) keywords.push("irr", "npv", "payback", "capex", "cash", "flow", "economics");
+  if (intent.summary) keywords.push("lessons", "takeaways", "summary");
+
+  return Array.from(new Set(keywords)).slice(0, 14);
 }
 
 async function fetchRelevantRows(DB, question, history) {
@@ -77,7 +135,7 @@ async function fetchRelevantRows(DB, question, history) {
       SELECT *
       FROM Education_Portal
       WHERE ${clauses.join(" OR ")}
-      LIMIT 3
+      LIMIT 8
     `;
 
     const result = await DB.prepare(sql).bind(...params).all();
@@ -88,7 +146,7 @@ async function fetchRelevantRows(DB, question, history) {
     const fallback = await DB.prepare(`
       SELECT *
       FROM Education_Portal
-      LIMIT 2
+      LIMIT 5
     `).all();
 
     rows = fallback?.results || [];
@@ -108,7 +166,7 @@ function buildContext(rows) {
       ""
     )
       .replace(/\s+/g, " ")
-      .slice(0, 1200);
+      .slice(0, 2400);
 
     return `SOURCE ${i + 1}
 Video ID: ${row?.video_id || "Unknown"}
@@ -124,6 +182,13 @@ function buildHistory(history) {
     .join("\n");
 }
 
+function buildSourceList(rows) {
+  return (rows || []).map((r) => ({
+    video_id: r.video_id || null,
+    video_name: r.video_name || null,
+  }));
+}
+
 export async function onRequestPost(context) {
   try {
     const { request, env } = context;
@@ -133,6 +198,14 @@ export async function onRequestPost(context) {
 
     if (!question) {
       return json({ error: "Question is required." }, 400);
+    }
+
+    if (isConversationalQuestion(question)) {
+      return json({
+        answer: buildConversationalAnswer(question),
+        sources: [],
+        intent: detectEducationIntent(question),
+      });
     }
 
     if (!env.DB) {
@@ -146,12 +219,18 @@ export async function onRequestPost(context) {
     const rows = await fetchRelevantRows(env.DB, question, history);
     const transcriptContext = buildContext(rows);
     const priorConversation = buildHistory(history);
+    const intent = detectEducationIntent(question);
 
     const result = await env.AI.run("@cf/meta/llama-3.3-70b-instruct-fp8-fast", {
   prompt: `You are the Minerlytics Education Portal AI Assistant.
-Answer only from the transcript context if possible.
-Be concise and clear.
-If not found, say so.
+Answer primarily from transcript context.
+Be concise, clear, educational, and structured.
+Do not invent answers.
+If transcript context is limited, say so and suggest a better question.
+For beginner/simple questions, use plain English.
+For risk questions, separate risk, why it matters, and what to check.
+For economics questions, explain the metric and how investors use it.
+End with "Source basis:" and list relevant video names when available.
 
 Conversation:
 ${priorConversation || "None"}
@@ -160,7 +239,10 @@ Question:
 ${question}
 
 Transcript Context:
-${transcriptContext}`
+${transcriptContext}
+
+Detected intent:
+${JSON.stringify(intent)}`
 });
     const answer =
       (typeof result === "string" && result) ||
@@ -170,10 +252,8 @@ ${transcriptContext}`
 
     return json({
       answer,
-      sources: rows.map((r) => ({
-        video_id: r.video_id || null,
-        video_name: r.video_name || null,
-      })),
+      sources: buildSourceList(rows),
+      intent,
     });
   } catch (err) {
     return json({ error: err?.message || "Education portal chat failed." }, 500);

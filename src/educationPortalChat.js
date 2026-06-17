@@ -27,6 +27,59 @@ function cleanText(value) {
   return String(value || "").replace(/\s+/g, " ").trim();
 }
 
+function normalizePrompt(value = "") {
+  return cleanText(value)
+    .toLowerCase()
+    .replace(/[^\w\s']/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function isConversationalQuestion(question = "") {
+  const q = normalizePrompt(question);
+  if (!q) return false;
+  return new Set([
+    "hi",
+    "hello",
+    "hey",
+    "good morning",
+    "good afternoon",
+    "good evening",
+    "how are you",
+    "how are you doing",
+    "how is it going",
+    "whats up",
+    "what's up",
+    "thanks",
+    "thank you",
+    "ok thanks",
+  ]).has(q) || /^(hi|hello|hey)\b/.test(q);
+}
+
+function buildConversationalAnswer(question = "") {
+  const q = normalizePrompt(question);
+  if (q.includes("thank")) {
+    return "You're welcome. I'm here whenever you want to learn about mining investing, project economics, risk, royalties, producers, developers, explorers, or anything from the Education Portal transcript library.";
+  }
+
+  return [
+    "Hi, I'm doing well and ready to help with mining education.",
+    "You can ask me to explain junior miner economics, IRR and payback, royalty and streaming companies, management quality, dilution, permitting risk, or red flags from the Education Portal transcripts.",
+  ].join("\n\n");
+}
+
+function detectEducationIntent(question = "") {
+  const q = normalizePrompt(question);
+  return {
+    conversational: isConversationalQuestion(q),
+    summary: /\b(summary|summarize|main lessons|key lessons|takeaways)\b/.test(q),
+    simple: /\b(simple|beginner|plain english|explain like)\b/.test(q),
+    risk: /\b(risk|risks|red flag|red flags|avoid|warning)\b/.test(q),
+    economics: /\b(irr|npv|payback|capex|opex|margin|cash flow|economics|valuation)\b/.test(q),
+    followUp: /\b(what about|and what|more|expand|continue|why|how so)\b/.test(q),
+  };
+}
+
 function buildKeywordList(question, history) {
   const historyText = Array.isArray(history)
     ? history.map((m) => String(m?.content || "")).join(" ")
@@ -62,7 +115,12 @@ function buildKeywordList(question, history) {
     if (keywords.length >= 10) break;
   }
 
-  return keywords;
+  const intent = detectEducationIntent(question);
+  if (intent.risk) keywords.push("risk", "risks", "red", "flags");
+  if (intent.economics) keywords.push("irr", "npv", "payback", "capex", "cash", "flow", "economics");
+  if (intent.summary) keywords.push("lessons", "takeaways", "summary");
+
+  return Array.from(new Set(keywords)).slice(0, 14);
 }
 
 async function fetchRelevantRows(env, question, history) {
@@ -88,7 +146,7 @@ async function fetchRelevantRows(env, question, history) {
       SELECT video_id, video_name, Transcript_Text
       FROM Education_Portal
       WHERE ${clauses.join(" OR ")}
-      LIMIT 8
+      LIMIT 10
     `;
 
     const result = await env.DB.prepare(sql).bind(...params).all();
@@ -99,7 +157,7 @@ async function fetchRelevantRows(env, question, history) {
     const fallback = await env.DB.prepare(`
       SELECT video_id, video_name, Transcript_Text
       FROM Education_Portal
-      LIMIT 5
+      LIMIT 6
     `).all();
 
     rows = fallback?.results || [];
@@ -115,7 +173,7 @@ function buildContext(rows) {
 
   return rows
     .map((row, i) => {
-      const transcript = String(row?.Transcript_Text || "").slice(0, 5000);
+      const transcript = String(row?.Transcript_Text || "").replace(/\s+/g, " ").slice(0, 3800);
 
       return [
         `SOURCE ${i + 1}`,
@@ -138,6 +196,13 @@ function buildHistory(history) {
     .join("\n");
 }
 
+function buildSourceList(rows) {
+  return (rows || []).map((r) => ({
+    video_id: r?.video_id || null,
+    video_name: r?.video_name || null,
+  }));
+}
+
 export async function handleEducationPortalChat(request, env) {
   try {
     const body = await request.json();
@@ -148,6 +213,14 @@ export async function handleEducationPortalChat(request, env) {
       return eduJson({ error: "Question is required." }, 400);
     }
 
+    if (isConversationalQuestion(question)) {
+      return eduJson({
+        answer: buildConversationalAnswer(question),
+        sources: [],
+        intent: detectEducationIntent(question),
+      });
+    }
+
     if (!env.AI) {
       return eduJson({ error: "Missing AI binding 'AI'." }, 500);
     }
@@ -155,6 +228,7 @@ export async function handleEducationPortalChat(request, env) {
     const rows = await fetchRelevantRows(env, question, history);
     const context = buildContext(rows);
     const priorConversation = buildHistory(history);
+    const intent = detectEducationIntent(question);
 
     const messages = [
       {
@@ -163,13 +237,18 @@ export async function handleEducationPortalChat(request, env) {
 
 Rules:
 - Never reference Rick Rule directly
-- Answer based on transcript context
+- Answer primarily from transcript context
 - Support follow-up questions
 - Be clear and educational
 - Do not invent answers
-- Prefer structured responses
+- Prefer structured responses with short sections
 - Mention video names when useful
-- If the transcripts do not support the answer, say so clearly`,
+- If the transcripts do not support the answer, say so clearly and offer a better question to try
+- For beginner/simple questions, explain in plain English
+- For risk questions, separate "risk", "why it matters", and "what to check"
+- For economics questions, explain the metric and how investors use it
+- Keep the answer concise unless the user asks for a deep explanation
+- End with "Source basis:" and list the relevant video names used, or "Transcript context was limited"`,
       },
       {
         role: "user",
@@ -181,6 +260,9 @@ ${question}
 
 TRANSCRIPT CONTEXT
 ${context}
+
+Detected intent:
+${JSON.stringify(intent)}
 
 Answer using transcript context.`,
       },
@@ -196,10 +278,8 @@ Answer using transcript context.`,
 
     return eduJson({
       answer,
-      sources: rows.map((r) => ({
-        video_id: r?.video_id || null,
-        video_name: r?.video_name || null,
-      })),
+      sources: buildSourceList(rows),
+      intent,
     });
   } catch (err) {
     return eduJson(

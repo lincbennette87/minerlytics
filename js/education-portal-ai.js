@@ -56,18 +56,28 @@ function togglePopout(forceValue) {
 function setThinking(isThinking) {
   if (isThinking) {
     typingIndicator.classList.add("show");
-    thinkingOrb.classList.add("isThinking");
-    assistantStateText.textContent = "Thinking";
+    thinkingOrb?.classList.add("isThinking");
+    assistantStateText.textContent = "Analyzing transcripts";
     sendBtn.disabled = true;
     followUpBtn.disabled = true;
   } else {
     typingIndicator.classList.remove("show");
-    thinkingOrb.classList.remove("isThinking");
+    thinkingOrb?.classList.remove("isThinking");
     assistantStateText.textContent = "Ready";
     sendBtn.disabled = false;
     followUpBtn.disabled = false;
   }
   scrollToBottom();
+}
+
+function formatSourceMeta(sources = []) {
+  const names = (Array.isArray(sources) ? sources : [])
+    .map((source) => String(source?.video_name || source?.video_id || "").trim())
+    .filter(Boolean);
+  const unique = Array.from(new Set(names)).slice(0, 3);
+  return unique.length
+    ? `Source basis: ${unique.join(" • ")}`
+    : "Minerlytics Education Portal AI Assistant";
 }
 
 function addMessage(role, text, meta = "") {
@@ -123,8 +133,9 @@ if (!response.ok) {
 }
 
     const answer = data?.answer || "I could not find an answer from the transcript library.";
-    addMessage("assistant", answer, "Minerlytics Education Portal AI Assistant");
+    addMessage("assistant", answer, formatSourceMeta(data?.sources));
     history.push({ role: "assistant", content: answer });
+    assistantStateText.textContent = Array.isArray(data?.sources) && data.sources.length ? "Transcript grounded" : "Ready";
 
   } catch (err) {
     addMessage(
@@ -159,7 +170,7 @@ function clearAssistantChat() {
     if (idx > 0) msg.remove();
   });
   typingIndicator.classList.remove("show");
-  thinkingOrb.classList.remove("isThinking");
+  thinkingOrb?.classList.remove("isThinking");
   assistantStateText.textContent = "Ready";
   chatInput.value = "";
   scrollToBottom();
