@@ -171,8 +171,8 @@
               <path fill="currentColor" d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
             </svg>
             <input id="heroSearch" type="search" placeholder="Search stocks, commodities, and more…" />
-            <button id="searchBtn" class="btn btnPrimary btnTight" type="button" onclick="window.runHomeHeroSearch && window.runHomeHeroSearch()">Search</button>
-            <button id="saveFavoriteBtn" class="btn btnGhost btnTight" type="button" onclick="window.saveHomeHeroFavorite && window.saveHomeHeroFavorite()">Save to Favorites</button>
+            <a id="searchBtnLink" class="btn btnPrimary btnTight" href="./company.html">Search</a>
+            <button id="saveFavoriteBtn" class="btn btnGhost btnTight" type="button" onclick="window.addHeroTickerToFavorites && window.addHeroTickerToFavorites()">Save to Favorites</button>
             <div id="heroSearchSuggestions" class="heroSearchSuggestions" aria-live="polite"></div>
           </div>
           <div class="heroSearchAssist">
@@ -1538,11 +1538,16 @@ function resolveDetailTicker(value) {
 }
 
 function updateCompanyDetailLink(value = "") {
-  const link = document.getElementById("companyDetailBtn");
-  if (!link) return;
   const ticker = resolveDetailTicker(value);
-  link.href = `./company.html?ticker=${encodeURIComponent(ticker)}`;
-  link.textContent = `Open ${ticker} company details`;
+  const link = document.getElementById("companyDetailBtn");
+  if (link) {
+    link.href = `./company.html?ticker=${encodeURIComponent(ticker)}`;
+    link.textContent = `Open ${ticker} company details`;
+  }
+  const searchLink = document.getElementById("searchBtnLink");
+  if (searchLink) {
+    searchLink.href = `./company.html?ticker=${encodeURIComponent(ticker)}`;
+  }
 }
 
 function updateFavoriteCtaState(savedCount = 0) {
@@ -1748,6 +1753,27 @@ async function addFavoriteTickerBySymbol(symbol, watchHelpEl) {
 
   return true;
 }
+
+window.addHeroTickerToFavorites = async function addHeroTickerToFavorites() {
+  const searchInput = document.getElementById("heroSearch");
+  if (!searchInput) return;
+  ensureHomeSearchUniverse().catch(() => {});
+  const resolved = renderResolvedSearchState(searchInput.value) || resolveUniverseEntry(searchInput.value);
+  const symbol = resolved?.symbol || parseSearchTickers(searchInput.value, 1)[0] || "";
+  if (!symbol) {
+    setFavoriteActionStatus("Enter a valid ticker or company name first.", "error");
+    return;
+  }
+  const saved = await addFavoriteTickerBySymbol(symbol, document.getElementById("watchHelp"));
+  if (!saved) return;
+  searchInput.value = symbol;
+  renderResolvedSearchState(symbol);
+  updateCompanyDetailLink(symbol);
+  const box = document.getElementById("personalDashboard");
+  if (box) box.style.display = "block";
+  renderPersonalDashboardItems(readCachedWatchlist());
+  applyFavoriteUniverseSelection(getFavoriteTickers());
+};
 
 async function removeWatchTicker(symbol) {
   const normalized = String(symbol || "").toUpperCase().trim();
@@ -2235,12 +2261,12 @@ window.addEventListener("minerlytics-auth-state", () => {
 <script>
 (function () {
   const searchInput = document.getElementById("heroSearch");
-  const searchBtn = document.getElementById("searchBtn");
+  const searchBtnLink = document.getElementById("searchBtnLink");
   const saveFavoriteBtn = document.getElementById("saveFavoriteBtn");
   const suggestionsEl = document.getElementById("heroSearchSuggestions");
   const commodityRow = document.getElementById("heroCommodityRow");
   let favoriteSaveInFlight = false;
-  if (!searchInput || !searchBtn || !suggestionsEl) return;
+  if (!searchInput || !searchBtnLink || !suggestionsEl) return;
 
   function getSuggestions(value) {
     const query = normalizeSearchText(value);
@@ -2281,20 +2307,6 @@ window.addEventListener("minerlytics-auth-state", () => {
     suggestionsEl.classList.add("is-open");
   }
 
-  async function runSearch() {
-    ensureHomeSearchUniverse().catch(() => {});
-    const resolved = renderResolvedSearchState(searchInput.value) || resolveUniverseEntry(searchInput.value);
-    const tickers = resolved?.symbol ? [resolved.symbol] : parseSearchTickers(searchInput.value);
-    if (!tickers.length) {
-      setFavoriteActionStatus("Search a valid ticker or company name to open Company Details.", "error");
-      return;
-    }
-    const targetTicker = tickers[0];
-    setFavoriteActionStatus(`Opening Company Details for ${targetTicker}...`, "info");
-    window.location.href = `./company.html?ticker=${encodeURIComponent(targetTicker)}`;
-    closeSuggestions();
-  }
-
   async function saveCurrentSearchToFavorites() {
     if (favoriteSaveInFlight) return;
     favoriteSaveInFlight = true;
@@ -2322,7 +2334,6 @@ window.addEventListener("minerlytics-auth-state", () => {
     }
   }
 
-  window.runHomeHeroSearch = () => { void runSearch(); };
   window.saveHomeHeroFavorite = () => { void saveCurrentSearchToFavorites(); };
 
   suggestionsEl.addEventListener("click", (event) => {
@@ -2336,7 +2347,6 @@ window.addEventListener("minerlytics-auth-state", () => {
     closeSuggestions();
   });
 
-  searchBtn.addEventListener("click", () => { void runSearch(); });
   saveFavoriteBtn?.addEventListener("click", (event) => {
     event.preventDefault();
     event.stopPropagation();
@@ -2352,7 +2362,7 @@ window.addEventListener("minerlytics-auth-state", () => {
   searchInput.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
       event.preventDefault();
-      void runSearch();
+      searchBtnLink.click();
     }
     if (event.key === "Escape") {
       closeSuggestions();
@@ -2360,7 +2370,7 @@ window.addEventListener("minerlytics-auth-state", () => {
   });
 
   document.addEventListener("click", (event) => {
-    if (event.target === searchInput || suggestionsEl.contains(event.target) || searchBtn.contains(event.target)) return;
+    if (event.target === searchInput || suggestionsEl.contains(event.target) || searchBtnLink.contains(event.target)) return;
     closeSuggestions();
   });
 
