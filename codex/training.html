@@ -106,6 +106,8 @@
       box-shadow: var(--shadow);
       overflow: hidden;
       min-height: 310px;
+      position: relative;
+      z-index: 1;
     }
 
     .stage-head {
@@ -133,12 +135,57 @@
     .developer .stage-head { background: linear-gradient(135deg, var(--blue), #0c3f7d); }
     .producer .stage-head { background: linear-gradient(135deg, var(--gold), #9a6500); }
 
+    .stage-label-trigger {
+      appearance: none;
+      border: 0;
+      background: transparent;
+      color: inherit;
+      cursor: pointer;
+      font: inherit;
+      line-height: inherit;
+      padding: 0;
+      text-align: left;
+      border-radius: 6px;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 5px;
+      text-decoration-color: rgba(255,255,255,.45);
+    }
+
+    .stage-label-trigger:hover,
+    .stage-label-trigger:focus-visible {
+      outline: 3px solid rgba(255,255,255,.28);
+      outline-offset: 4px;
+      text-decoration-color: white;
+    }
+
     .stage-body { padding: 20px; }
     .stage-body h3 { margin: 0 0 12px; font-size: 17px; }
     .stage-body ul { margin: 0; padding-left: 20px; color: #23344d; line-height: 1.62; }
 
     .stage-body li {
       margin: 3px 0;
+    }
+
+    .stage-action {
+      width: 100%;
+      margin-top: 16px;
+      border: 1px solid rgba(21, 87, 166, 0.30);
+      background: #eef5ff;
+      color: var(--blue);
+      border-radius: 12px;
+      padding: 11px 13px;
+      font: inherit;
+      font-weight: 900;
+      cursor: pointer;
+      text-align: left;
+    }
+
+    .stage-action:hover,
+    .stage-action:focus-visible {
+      background: #dbeafe;
+      outline: 3px solid rgba(21, 87, 166, 0.18);
+      outline-offset: 2px;
     }
 
     .info-trigger {
@@ -183,11 +230,18 @@
 
     .modal {
       width: min(520px, 100%);
+      max-height: calc(100vh - 44px);
       background: white;
       border-radius: 18px;
       box-shadow: 0 24px 70px rgba(11, 31, 58, 0.30);
       border: 1px solid var(--line);
       overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .modal.modal-large {
+      width: min(900px, 100%);
     }
 
     .modal-head {
@@ -229,10 +283,478 @@
       color: #23344d;
       line-height: 1.55;
       font-size: 16px;
+      overflow: auto;
     }
 
     .modal-body p {
       margin: 0;
+    }
+
+    .developer-brief {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .brief-panel {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 15px;
+      background: #f8fafc;
+    }
+
+    .brief-panel h3 {
+      margin: 0 0 8px;
+      font-size: 15px;
+      color: var(--blue);
+    }
+
+    .brief-panel p {
+      color: #23344d;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .brief-panel ul {
+      margin: 0;
+      padding-left: 18px;
+      color: #23344d;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .developer-sequence {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .sequence-step {
+      border-radius: 14px;
+      padding: 13px;
+      background: #eef5ff;
+      border: 1px solid rgba(21, 87, 166, 0.22);
+      color: var(--slate);
+      font-weight: 800;
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .dev-modal-intro {
+      margin: 0 0 22px;
+      max-width: 780px;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.55;
+    }
+
+    .dev-pathway {
+      display: grid;
+      grid-template-columns: 1fr auto 1.2fr auto 1fr;
+      gap: 14px;
+      align-items: stretch;
+      margin: 20px 0 24px;
+    }
+
+    .dev-path-card {
+      border-radius: 18px;
+      padding: 18px;
+      min-height: 128px;
+      border: 1px solid var(--line);
+      background: #eef5ff;
+    }
+
+    .dev-path-card.primary {
+      background: linear-gradient(135deg, var(--blue), #0c3f7d);
+      color: white;
+      transform: translateY(-6px);
+      box-shadow: 0 16px 28px rgba(21, 87, 166, .20);
+    }
+
+    .dev-path-card h3 {
+      margin: 0 0 7px;
+      font-size: 23px;
+    }
+
+    .dev-path-card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.4;
+      font-size: 14px;
+    }
+
+    .dev-path-card.primary p { color: rgba(255,255,255,.82); }
+
+    .dev-stage-number {
+      display: inline-grid;
+      place-items: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: white;
+      color: var(--blue);
+      font-weight: 900;
+      margin-bottom: 13px;
+      font-size: 13px;
+    }
+
+    .dev-connector {
+      display: grid;
+      place-items: center;
+      color: var(--gold);
+      font-size: 31px;
+      font-weight: 900;
+    }
+
+    .developer-milestones {
+      background: #fff8df;
+      border: 1px solid #f2df9b;
+      border-radius: 18px;
+      padding: 18px;
+    }
+
+    .developer-milestones h3 {
+      margin: 0 0 4px;
+      font-size: 21px;
+      color: var(--navy);
+    }
+
+    .developer-milestones > p {
+      margin: 0 0 15px;
+      color: #78672d;
+      line-height: 1.45;
+    }
+
+    .dev-milestone-layout {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 16px;
+      align-items: stretch;
+    }
+
+    .dev-milestone-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .dev-milestone {
+      width: 100%;
+      border: 1px solid #f0e3ad;
+      background: white;
+      color: #394137;
+      border-radius: 14px;
+      padding: 12px 13px;
+      font: inherit;
+      font-weight: 800;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .dev-milestone:hover,
+    .dev-milestone:focus-visible {
+      outline: none;
+      transform: translateY(-1px);
+      box-shadow: 0 8px 18px rgba(21, 87, 166, .10);
+    }
+
+    .dev-milestone.active {
+      border-color: var(--blue);
+      background: #eef5ff;
+      box-shadow: inset 4px 0 0 var(--blue);
+    }
+
+    .dev-milestone span {
+      display: inline-grid;
+      place-items: center;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      margin-right: 8px;
+      background: var(--gold);
+      color: white;
+      font-size: 13px;
+    }
+
+    .dev-milestone.active span { background: var(--blue); }
+
+    .dev-milestone-detail {
+      background: white;
+      border: 1px solid #f0e3ad;
+      border-radius: 18px;
+      padding: 18px;
+    }
+
+    .dev-detail-kicker {
+      margin: 0 0 6px;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .dev-milestone-detail h4 {
+      margin: 0 0 10px;
+      font-size: 25px;
+      color: var(--blue);
+    }
+
+    .dev-detail-summary {
+      margin: 0 0 16px;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .dev-detail-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .dev-detail-columns div {
+      background: #f8fafc;
+      border-radius: 14px;
+      padding: 14px;
+    }
+
+    .dev-detail-columns h5 {
+      margin: 0 0 8px;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--blue);
+    }
+
+    .dev-detail-columns p {
+      margin: 0;
+      color: #3e4a43;
+      line-height: 1.5;
+      font-size: 14px;
+    }
+
+    .dev-takeaway {
+      margin-top: 16px;
+      background: #f8fafc;
+      border-left: 5px solid var(--blue);
+      border-radius: 14px;
+      padding: 15px 17px;
+      line-height: 1.5;
+      color: #3e4a43;
+    }
+
+    .explorer-modal-intro {
+      margin: 0 0 22px;
+      max-width: 820px;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.55;
+    }
+
+    .explorer-pathway {
+      display: grid;
+      grid-template-columns: 1.2fr auto 1fr auto 1fr;
+      gap: 14px;
+      align-items: stretch;
+      margin: 20px 0 24px;
+    }
+
+    .explorer-path-card {
+      border-radius: 18px;
+      padding: 18px;
+      min-height: 128px;
+      border: 1px solid var(--line);
+      background: #edf7ef;
+    }
+
+    .explorer-path-card.primary {
+      background: linear-gradient(135deg, var(--green), #1f5c25);
+      color: white;
+      transform: translateY(-6px);
+      box-shadow: 0 16px 28px rgba(47, 125, 50, .20);
+    }
+
+    .explorer-path-card h3 {
+      margin: 0 0 7px;
+      font-size: 23px;
+    }
+
+    .explorer-path-card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.4;
+      font-size: 14px;
+    }
+
+    .explorer-path-card.primary p { color: rgba(255,255,255,.82); }
+
+    .explorer-stage-number {
+      display: inline-grid;
+      place-items: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: white;
+      color: var(--green);
+      font-weight: 900;
+      margin-bottom: 13px;
+      font-size: 13px;
+    }
+
+    .explorer-connector {
+      display: grid;
+      place-items: center;
+      color: var(--gold);
+      font-size: 31px;
+      font-weight: 900;
+    }
+
+    .explorer-milestones {
+      background: #fff8df;
+      border: 1px solid #f2df9b;
+      border-radius: 18px;
+      padding: 18px;
+    }
+
+    .explorer-milestones h3 {
+      margin: 0 0 4px;
+      font-size: 21px;
+      color: var(--navy);
+    }
+
+    .explorer-milestones > p {
+      margin: 0 0 15px;
+      color: #78672d;
+      line-height: 1.45;
+    }
+
+    .explorer-milestone-layout {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 16px;
+      align-items: stretch;
+    }
+
+    .explorer-milestone-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .explorer-milestone {
+      width: 100%;
+      border: 1px solid #f0e3ad;
+      background: white;
+      color: #394137;
+      border-radius: 14px;
+      padding: 12px 13px;
+      font: inherit;
+      font-weight: 800;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .explorer-milestone:hover,
+    .explorer-milestone:focus-visible {
+      outline: none;
+      transform: translateY(-1px);
+      box-shadow: 0 8px 18px rgba(47, 125, 50, .10);
+    }
+
+    .explorer-milestone.active {
+      border-color: var(--green);
+      background: #edf7ef;
+      box-shadow: inset 4px 0 0 var(--green);
+    }
+
+    .explorer-milestone span {
+      display: inline-grid;
+      place-items: center;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      margin-right: 8px;
+      background: var(--gold);
+      color: white;
+      font-size: 13px;
+    }
+
+    .explorer-milestone.active span { background: var(--green); }
+
+    .explorer-milestone-detail {
+      background: white;
+      border: 1px solid #f0e3ad;
+      border-radius: 18px;
+      padding: 18px;
+    }
+
+    .explorer-detail-kicker {
+      margin: 0 0 6px;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .explorer-milestone-detail h4 {
+      margin: 0 0 10px;
+      font-size: 25px;
+      color: var(--green);
+    }
+
+    .explorer-detail-question {
+      margin: 0 0 12px;
+      padding: 10px 12px;
+      background: #edf7ef;
+      border-radius: 12px;
+      color: var(--green);
+      font-weight: 800;
+    }
+
+    .explorer-detail-summary {
+      margin: 0 0 16px;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .explorer-detail-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .explorer-detail-columns div {
+      background: #f8fafc;
+      border-radius: 14px;
+      padding: 14px;
+    }
+
+    .explorer-detail-columns h5 {
+      margin: 0 0 8px;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--green);
+    }
+
+    .explorer-detail-columns p {
+      margin: 0;
+      color: #3e4a43;
+      line-height: 1.5;
+      font-size: 14px;
+    }
+
+    .explorer-takeaway {
+      margin-top: 16px;
+      background: #f8fafc;
+      border-left: 5px solid var(--green);
+      border-radius: 14px;
+      padding: 15px 17px;
+      line-height: 1.5;
+      color: #3e4a43;
     }
 
     .risk-pill {
@@ -249,6 +771,9 @@
       font-size: 44px;
       color: var(--muted);
       font-weight: 900;
+      pointer-events: none;
+      position: relative;
+      z-index: 0;
     }
 
     .timeline {
@@ -349,7 +874,11 @@
     @media (max-width: 980px) {
       .progression { grid-template-columns: 1fr; }
       .arrow { transform: rotate(90deg); text-align: center; }
-      .timeline, .takeaway { grid-template-columns: 1fr; }
+      .timeline, .takeaway, .developer-brief, .developer-sequence, .dev-pathway, .dev-milestone-layout, .dev-detail-columns, .explorer-pathway, .explorer-milestone-layout, .explorer-detail-columns { grid-template-columns: 1fr; }
+      .dev-connector { transform: rotate(90deg); }
+      .explorer-connector { transform: rotate(90deg); }
+      .dev-path-card.primary { transform: none; }
+      .explorer-path-card.primary { transform: none; }
       table, thead, tbody, th, td, tr { display: block; }
       thead { display: none; }
       tr { border-bottom: 1px solid var(--line); }
@@ -376,7 +905,7 @@
 
     <section class="progression" aria-label="Mining company progression stages">
       <article class="stage-card explorer">
-        <div class="stage-head"><div class="stage-icon">🔎</div><div><h2>1. Explorer</h2><span>Find it</span></div></div>
+        <div class="stage-head"><div class="stage-icon">🔎</div><div><h2>1. <button class="stage-label-trigger" type="button" id="explorerModalOpen" onclick="openExplorerModal()">Explorer</button></h2><span>Find it</span></div></div>
         <div class="stage-body">
           <h3>Discover and define an economic deposit</h3>
           <ul>
@@ -392,7 +921,7 @@
       <div class="arrow">→</div>
 
       <article class="stage-card developer">
-        <div class="stage-head"><div class="stage-icon">📋</div><div><h2>2. Developer</h2><span>Build it</span></div></div>
+        <div class="stage-head"><div class="stage-icon">📋</div><div><h2>2. <button class="stage-label-trigger" type="button" id="developerModalOpen" onclick="openDeveloperModal()">Developer</button></h2><span>Build it</span></div></div>
         <div class="stage-body">
           <h3>De-risk and finance a mine</h3>
           <ul>
@@ -523,15 +1052,299 @@
     </article>
   </div>
 
+  <div class="modal-backdrop" id="explorerModal" role="dialog" aria-modal="true" aria-labelledby="explorerModalTitle" aria-hidden="true">
+    <article class="modal modal-large">
+      <div class="modal-head">
+        <h2 id="explorerModalTitle">How an Explorer Becomes a Developer</h2>
+        <button class="modal-close" type="button" id="explorerModalClose" aria-label="Close explorer roadmap">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="explorer-modal-intro">An exploration-stage miner is trying to prove a discovery exists and is valuable. Each milestone reduces uncertainty and helps investors understand whether the project could become a future mine.</p>
+
+        <div class="explorer-pathway" aria-label="Mining exploration roadmap">
+          <article class="explorer-path-card primary">
+            <span class="explorer-stage-number">01</span>
+            <h3>Explorer</h3>
+            <p>Find a deposit and prove it has potential.</p>
+          </article>
+
+          <div class="explorer-connector" aria-hidden="true">→</div>
+
+          <article class="explorer-path-card">
+            <span class="explorer-stage-number">02</span>
+            <h3>Developer</h3>
+            <p>Study, permit, finance, and prepare to build.</p>
+          </article>
+
+          <div class="explorer-connector" aria-hidden="true">→</div>
+
+          <article class="explorer-path-card">
+            <span class="explorer-stage-number">03</span>
+            <h3>Producer</h3>
+            <p>Mine and sell minerals.</p>
+          </article>
+        </div>
+
+        <section class="explorer-milestones">
+          <h3>Major Explorer Milestones</h3>
+          <p>Select a milestone to learn the question being answered, the work required, and why it matters.</p>
+
+          <div class="explorer-milestone-layout">
+            <div class="explorer-milestone-grid" role="tablist" aria-label="Explorer milestones">
+              <button class="explorer-milestone active" data-explorer-milestone="land" role="tab" aria-selected="true">
+                <span>1</span> Acquire Land
+              </button>
+              <button class="explorer-milestone" data-explorer-milestone="targets" role="tab" aria-selected="false">
+                <span>2</span> Find Targets
+              </button>
+              <button class="explorer-milestone" data-explorer-milestone="drill" role="tab" aria-selected="false">
+                <span>3</span> Drill
+              </button>
+              <button class="explorer-milestone" data-explorer-milestone="discovery" role="tab" aria-selected="false">
+                <span>4</span> Discovery
+              </button>
+              <button class="explorer-milestone" data-explorer-milestone="resource" role="tab" aria-selected="false">
+                <span>5</span> Resource Estimate
+              </button>
+              <button class="explorer-milestone" data-explorer-milestone="pea" role="tab" aria-selected="false">
+                <span>6</span> PEA
+              </button>
+              <button class="explorer-milestone" data-explorer-milestone="developer" role="tab" aria-selected="false">
+                <span>7</span> Developer Transition
+              </button>
+            </div>
+
+            <aside class="explorer-milestone-detail" aria-live="polite">
+              <p class="explorer-detail-kicker" id="explorerDetailKicker">Milestone 1</p>
+              <h4 id="explorerDetailTitle">Acquire Land</h4>
+              <p class="explorer-detail-question" id="explorerDetailQuestion">Question: Do we control the ground?</p>
+              <p class="explorer-detail-summary" id="explorerDetailSummary">The company secures the mineral rights or claims where it believes a valuable deposit may exist.</p>
+
+              <div class="explorer-detail-columns">
+                <div>
+                  <h5>Work required</h5>
+                  <p id="explorerDetailWork">Stake claims, acquire mineral rights, review historical data, secure basic exploration access, and confirm ownership boundaries.</p>
+                </div>
+                <div>
+                  <h5>Why it matters</h5>
+                  <p id="explorerDetailWhy">Without control of the ground, there is no real project. This is the foundation for every future exploration dollar spent.</p>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <div class="explorer-takeaway">
+          <strong>Simple translation:</strong> Explorer = trying to prove a mineral discovery exists, is large enough, and may be valuable enough to become a mine.
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <div class="modal-backdrop" id="developerModal" role="dialog" aria-modal="true" aria-labelledby="developerModalTitle" aria-hidden="true">
+    <article class="modal modal-large">
+      <div class="modal-head">
+        <h2 id="developerModalTitle">How a Mining Company Progresses</h2>
+        <button class="modal-close" type="button" id="developerModalClose" aria-label="Close developer framework">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="dev-modal-intro">A developer-stage miner sits between discovery and production. Its job is to prove the project can be built, permitted, financed, and operated.</p>
+
+        <div class="dev-pathway" aria-label="Mining project development path">
+          <article class="dev-path-card">
+            <span class="dev-stage-number">01</span>
+            <h3>Explorer</h3>
+            <p>Find metal and define the deposit.</p>
+          </article>
+
+          <div class="dev-connector" aria-hidden="true">→</div>
+
+          <article class="dev-path-card primary">
+            <span class="dev-stage-number">02</span>
+            <h3>Developer</h3>
+            <p>Turn a discovery into a build-ready mine.</p>
+          </article>
+
+          <div class="dev-connector" aria-hidden="true">→</div>
+
+          <article class="dev-path-card">
+            <span class="dev-stage-number">03</span>
+            <h3>Producer</h3>
+            <p>Mine and sell minerals.</p>
+          </article>
+        </div>
+
+        <section class="developer-milestones">
+          <h3>Major Developer Milestones</h3>
+          <p>Select a milestone to learn what work is done and why it matters.</p>
+
+          <div class="dev-milestone-layout">
+            <div class="dev-milestone-grid" role="tablist" aria-label="Developer milestones">
+              <button class="dev-milestone active" data-milestone="resource" role="tab" aria-selected="true">
+                <span>1</span> Resource Defined
+              </button>
+              <button class="dev-milestone" data-milestone="feasibility" role="tab" aria-selected="false">
+                <span>2</span> Feasibility Completed
+              </button>
+              <button class="dev-milestone" data-milestone="environmental" role="tab" aria-selected="false">
+                <span>3</span> Environmental Review
+              </button>
+              <button class="dev-milestone" data-milestone="permits" role="tab" aria-selected="false">
+                <span>4</span> Permits Approved
+              </button>
+              <button class="dev-milestone" data-milestone="financing" role="tab" aria-selected="false">
+                <span>5</span> Financing Secured
+              </button>
+              <button class="dev-milestone" data-milestone="construction" role="tab" aria-selected="false">
+                <span>6</span> Construction Started
+              </button>
+            </div>
+
+            <aside class="dev-milestone-detail" aria-live="polite">
+              <p class="dev-detail-kicker" id="devDetailKicker">Milestone 1</p>
+              <h4 id="devDetailTitle">Resource Defined</h4>
+              <p class="dev-detail-summary" id="devDetailSummary">The company estimates how much metal is in the ground and whether the deposit is large enough to justify more advanced studies.</p>
+
+              <div class="dev-detail-columns">
+                <div>
+                  <h5>Work required</h5>
+                  <p id="devDetailWork">Drill the deposit, assay the samples, model the geology, and publish a resource estimate.</p>
+                </div>
+                <div>
+                  <h5>Why it matters</h5>
+                  <p id="devDetailWhy">A defined resource gives investors the first real evidence that the project could become an economic mine.</p>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <div class="dev-takeaway">
+          <strong>Simple translation:</strong> Developer = has a deposit and is working through studies, permits, financing, and construction before becoming a producer.
+        </div>
+      </div>
+    </article>
+  </div>
+
   <script>
     const modal = document.getElementById("infoModal");
     const modalTitle = document.getElementById("modalTitle");
     const modalSummary = document.getElementById("modalSummary");
     const modalClose = document.getElementById("modalClose");
+    const explorerModal = document.getElementById("explorerModal");
+    const explorerModalOpen = document.getElementById("explorerModalOpen");
+    const explorerModalClose = document.getElementById("explorerModalClose");
+    const developerModal = document.getElementById("developerModal");
+    const developerModalOpen = document.getElementById("developerModalOpen");
+    const developerModalClose = document.getElementById("developerModalClose");
+    const explorerMilestones = {
+      land: {
+        number: "Milestone 1",
+        title: "Acquire Land",
+        question: "Question: Do we control the ground?",
+        summary: "The company secures the mineral rights or claims where it believes a valuable deposit may exist.",
+        work: "Stake claims, acquire mineral rights, review historical data, secure basic exploration access, and confirm ownership boundaries.",
+        why: "Without control of the ground, there is no real project. This is the foundation for every future exploration dollar spent."
+      },
+      targets: {
+        number: "Milestone 2",
+        title: "Find Targets",
+        question: "Question: Where should we drill?",
+        summary: "The company narrows a large land package into the most promising areas to test.",
+        work: "Complete geological mapping, soil sampling, rock sampling, geophysics, geochemistry, and build a model of where mineralization may be concentrated.",
+        why: "Drilling is expensive. Good targeting improves the odds of discovery and helps avoid wasting capital on weak targets."
+      },
+      drill: {
+        number: "Milestone 3",
+        title: "Drill",
+        question: "Question: Is there mineralization underground?",
+        summary: "The company uses drill holes to directly test what is beneath the surface.",
+        work: "Plan drill holes, secure drill permits, hire contractors, drill the property, log the core, send samples to the lab, and report assay results.",
+        why: "Drilling provides the first hard evidence of grade, thickness, and continuity. This is where exploration ideas are proven or disproven."
+      },
+      discovery: {
+        number: "Milestone 4",
+        title: "Discovery",
+        question: "Question: Did we find something meaningful?",
+        summary: "The company reports drill results that suggest the deposit may have real size, grade, or economic potential.",
+        work: "Follow up on strong intercepts, drill step-out holes, confirm mineralized zones, and communicate results clearly to the market.",
+        why: "Discovery is often the biggest value-creation moment for an explorer because the market begins to see a possible future mine."
+      },
+      resource: {
+        number: "Milestone 5",
+        title: "Resource Estimate",
+        question: "Question: How much metal is there?",
+        summary: "The company estimates the size and quality of the deposit using drill data and geological modeling.",
+        work: "Conduct infill drilling, validate assays, model the deposit, estimate tonnes and grade, classify resources, and publish a technical resource estimate.",
+        why: "A resource estimate moves the story from speculation to measurement. Investors can begin comparing the project to other deposits."
+      },
+      pea: {
+        number: "Milestone 6",
+        title: "PEA",
+        question: "Question: Could this become a profitable mine?",
+        summary: "A Preliminary Economic Assessment gives the first high-level view of whether the project could make economic sense.",
+        work: "Prepare a conceptual mine plan, estimate production rates, processing methods, capital costs, operating costs, mine life, NPV, and IRR.",
+        why: "The PEA connects geology to economics. It helps investors understand whether the discovery could eventually justify development."
+      },
+      developer: {
+        number: "Milestone 7",
+        title: "Developer Transition",
+        question: "Question: Is it worth building?",
+        summary: "The project moves from discovery-focused exploration into more serious engineering, permitting, and financing work.",
+        work: "Begin PFS or feasibility studies, expand environmental baseline work, refine permitting plans, evaluate financing options, and build a development team.",
+        why: "This marks the shift from finding minerals to planning a mine. The company starts behaving more like a developer than an explorer."
+      }
+    };
+    const developerMilestones = {
+      resource: {
+        number: "Milestone 1",
+        title: "Resource Defined",
+        summary: "The company estimates how much metal is in the ground and whether the deposit is large enough to justify more advanced studies.",
+        work: "Drill the deposit, assay the samples, model the geology, and publish a resource estimate.",
+        why: "A defined resource gives investors the first real evidence that the project could become an economic mine."
+      },
+      feasibility: {
+        number: "Milestone 2",
+        title: "Feasibility Completed",
+        summary: "The company studies whether the project can be mined safely, built practically, and generate attractive returns.",
+        work: "Complete engineering studies, mine plans, processing designs, cost estimates, schedule estimates, and economic models.",
+        why: "Feasibility work converts a mineral deposit into a real business case with expected costs, risks, and returns."
+      },
+      environmental: {
+        number: "Milestone 3",
+        title: "Environmental Review",
+        summary: "The company explains how the mine may affect water, land, wildlife, communities, and closure obligations.",
+        work: "Collect baseline data, prepare environmental studies, identify impacts, design mitigation plans, and engage regulators and communities.",
+        why: "Environmental review helps determine whether the project can be approved responsibly and where major delay risks may appear."
+      },
+      permits: {
+        number: "Milestone 4",
+        title: "Permits Approved",
+        summary: "Regulators grant the major approvals needed to build and operate the mine.",
+        work: "Submit applications, respond to technical questions, complete public consultation, and secure mining, water, tailings, air, and construction permits.",
+        why: "Permits are one of the biggest de-risking events. Without them, even a strong project cannot move into construction."
+      },
+      financing: {
+        number: "Milestone 5",
+        title: "Financing Secured",
+        summary: "The company raises or arranges the money needed to build the mine.",
+        work: "Negotiate equity, debt, streaming, royalty, joint venture, or offtake financing and finalize a construction budget.",
+        why: "Financing proves that investors or lenders are willing to fund the project and that construction can realistically begin."
+      },
+      construction: {
+        number: "Milestone 6",
+        title: "Construction Started",
+        summary: "The company begins building the mine, plant, roads, power, water systems, and supporting infrastructure.",
+        work: "Mobilize contractors, order long-lead equipment, build site infrastructure, construct the processing plant, and prepare for commissioning.",
+        why: "Construction marks the transition from developer toward producer, but execution risk remains until the mine reaches steady production."
+      }
+    };
     let activeTrigger = null;
+    let activeModal = null;
 
     function openModal(trigger) {
       activeTrigger = trigger;
+      activeModal = modal;
       modalTitle.textContent = trigger.dataset.title;
       modalSummary.textContent = trigger.dataset.summary;
       modal.classList.add("open");
@@ -540,21 +1353,92 @@
     }
 
     function closeModal() {
-      modal.classList.remove("open");
-      modal.setAttribute("aria-hidden", "true");
+      if (!activeModal) return;
+      activeModal.classList.remove("open");
+      activeModal.setAttribute("aria-hidden", "true");
+      activeModal = null;
       if (activeTrigger) activeTrigger.focus();
+    }
+
+    function openExplorerModal() {
+      activeTrigger = explorerModalOpen;
+      activeModal = explorerModal;
+      explorerModal.classList.add("open");
+      explorerModal.setAttribute("aria-hidden", "false");
+      explorerModalClose.focus();
+    }
+    window.openExplorerModal = openExplorerModal;
+
+    function openDeveloperModal() {
+      activeTrigger = developerModalOpen;
+      activeModal = developerModal;
+      developerModal.classList.add("open");
+      developerModal.setAttribute("aria-hidden", "false");
+      developerModalClose.focus();
+    }
+    window.openDeveloperModal = openDeveloperModal;
+
+    function showDeveloperMilestone(key) {
+      const item = developerMilestones[key];
+      if (!item) return;
+
+      document.getElementById("devDetailKicker").textContent = item.number;
+      document.getElementById("devDetailTitle").textContent = item.title;
+      document.getElementById("devDetailSummary").textContent = item.summary;
+      document.getElementById("devDetailWork").textContent = item.work;
+      document.getElementById("devDetailWhy").textContent = item.why;
+
+      document.querySelectorAll(".dev-milestone").forEach((button) => {
+        const active = button.dataset.milestone === key;
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-selected", active ? "true" : "false");
+      });
+    }
+
+    function showExplorerMilestone(key) {
+      const item = explorerMilestones[key];
+      if (!item) return;
+
+      document.getElementById("explorerDetailKicker").textContent = item.number;
+      document.getElementById("explorerDetailTitle").textContent = item.title;
+      document.getElementById("explorerDetailQuestion").textContent = item.question;
+      document.getElementById("explorerDetailSummary").textContent = item.summary;
+      document.getElementById("explorerDetailWork").textContent = item.work;
+      document.getElementById("explorerDetailWhy").textContent = item.why;
+
+      document.querySelectorAll(".explorer-milestone").forEach((button) => {
+        const active = button.dataset.explorerMilestone === key;
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-selected", active ? "true" : "false");
+      });
     }
 
     document.querySelectorAll(".info-trigger").forEach((trigger) => {
       trigger.addEventListener("click", () => openModal(trigger));
     });
 
+    explorerModalOpen.addEventListener("click", openExplorerModal);
+    developerModalOpen.addEventListener("click", openDeveloperModal);
+    document.querySelectorAll(".explorer-milestone").forEach((button) => {
+      button.addEventListener("click", () => showExplorerMilestone(button.dataset.explorerMilestone));
+    });
+    document.querySelectorAll(".dev-milestone").forEach((button) => {
+      button.addEventListener("click", () => showDeveloperMilestone(button.dataset.milestone));
+    });
     modalClose.addEventListener("click", closeModal);
+    explorerModalClose.addEventListener("click", closeModal);
+    developerModalClose.addEventListener("click", closeModal);
     modal.addEventListener("click", (event) => {
       if (event.target === modal) closeModal();
     });
+    explorerModal.addEventListener("click", (event) => {
+      if (event.target === explorerModal) closeModal();
+    });
+    developerModal.addEventListener("click", (event) => {
+      if (event.target === developerModal) closeModal();
+    });
     document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && modal.classList.contains("open")) closeModal();
+      if (event.key === "Escape" && activeModal) closeModal();
     });
   </script>
 </body>
