@@ -614,6 +614,32 @@
         linear-gradient(135deg, rgba(110,122,113,.92), rgba(154,122,74,.74));
     }
 
+    .developerRoadmapModal{
+      width: min(1000px, 100%);
+      max-height: min(90vh, 900px);
+      overflow: auto;
+      background:
+        radial-gradient(circle at top left, rgba(73,90,110,.18), transparent 34%),
+        radial-gradient(circle at bottom right, rgba(154,122,74,.12), transparent 28%),
+        rgba(17,19,21,.98);
+    }
+
+    .developerRoadmapModal .modal-head{
+      align-items: flex-start;
+      background:
+        linear-gradient(135deg, rgba(73,90,110,.96), rgba(154,122,74,.70));
+    }
+
+    .developerRoadmapModal .explorerPathStage.is-active{
+      background: linear-gradient(135deg, rgba(73,90,110,.82), rgba(61,78,97,.52));
+    }
+
+    .developerRoadmapModal .explorerMilestoneButton.is-active{
+      border-color: rgba(90,105,124,.78);
+      background: rgba(90,105,124,.22);
+      box-shadow: inset 3px 0 0 rgba(90,105,124,.96);
+    }
+
     .modalKicker{
       margin: 0 0 6px;
       color: rgba(255,255,255,.72);
@@ -1718,6 +1744,7 @@
                 <li><button class="info-trigger" type="button" data-title="Project financing" data-summary="Project financing is the capital package used to build the mine, often combining equity, debt, streams, royalties, or strategic investments. It matters because financing terms can determine how much value existing shareholders keep.">Project financing</button></li>
                 <li><button class="info-trigger" type="button" data-title="Construction planning and execution" data-summary="Construction planning turns the study into a schedule, budget, procurement plan, and build sequence. Execution matters because overruns and delays can quickly weaken a project's original economics.">Construction planning and execution</button></li>
               </ul>
+              <button class="stageAction" type="button" id="openDeveloperRoadmap">View developer roadmap</button>
               <div class="riskPill">Moderate risk · de-risking · usually no revenue</div>
             </div>
           </article>
@@ -2027,6 +2054,82 @@ Examples:
     </article>
   </div>
 
+  <div class="modal-backdrop" id="developerRoadmapModal" role="dialog" aria-modal="true" aria-labelledby="developerRoadmapTitle" aria-hidden="true">
+    <article class="modal developerRoadmapModal">
+      <div class="modal-head">
+        <div>
+          <p class="modalKicker">Minerlytics Education</p>
+          <h2 id="developerRoadmapTitle">How a Mining Developer Progresses</h2>
+        </div>
+        <button class="modal-close" type="button" id="developerRoadmapClose" aria-label="Close developer roadmap modal">&times;</button>
+      </div>
+      <div class="explorerRoadmapBody">
+        <p class="explorerIntro">
+          A developer-stage miner sits between discovery and production. Its job is to prove the project can be built, permitted, financed, and operated.
+        </p>
+
+        <div class="explorerPathway" aria-label="Developer to producer progression">
+          <article class="explorerPathStage">
+            <span>01</span>
+            <h3>Explorer</h3>
+            <p>Find metal and define the deposit.</p>
+          </article>
+          <div class="explorerPathArrow" aria-hidden="true">→</div>
+          <article class="explorerPathStage is-active">
+            <span>02</span>
+            <h3>Developer</h3>
+            <p>Turn a discovery into a build-ready mine.</p>
+          </article>
+          <div class="explorerPathArrow" aria-hidden="true">→</div>
+          <article class="explorerPathStage">
+            <span>03</span>
+            <h3>Producer</h3>
+            <p>Mine and sell minerals.</p>
+          </article>
+        </div>
+
+        <section class="explorerMilestonePanel" aria-label="Major developer milestones">
+          <div class="explorerPanelHead">
+            <h3>Major Developer Milestones</h3>
+            <p>Select a milestone to see what work is done and why it matters.</p>
+          </div>
+
+          <div class="explorerMilestoneLayout">
+            <div class="explorerMilestoneList" role="tablist" aria-label="Developer milestones">
+              <button class="explorerMilestoneButton developerMilestoneButton is-active" type="button" data-developer-milestone="resource" role="tab" aria-selected="true"><span>1</span>Resource Defined</button>
+              <button class="explorerMilestoneButton developerMilestoneButton" type="button" data-developer-milestone="feasibility" role="tab" aria-selected="false"><span>2</span>Feasibility Completed</button>
+              <button class="explorerMilestoneButton developerMilestoneButton" type="button" data-developer-milestone="environmental" role="tab" aria-selected="false"><span>3</span>Environmental Review</button>
+              <button class="explorerMilestoneButton developerMilestoneButton" type="button" data-developer-milestone="permits" role="tab" aria-selected="false"><span>4</span>Permits Approved</button>
+              <button class="explorerMilestoneButton developerMilestoneButton" type="button" data-developer-milestone="financing" role="tab" aria-selected="false"><span>5</span>Financing Secured</button>
+              <button class="explorerMilestoneButton developerMilestoneButton" type="button" data-developer-milestone="construction" role="tab" aria-selected="false"><span>6</span>Construction Started</button>
+            </div>
+
+            <aside class="explorerMilestoneDetail" aria-live="polite">
+              <p class="explorerDetailKicker" id="developerMilestoneNumber">Milestone 1</p>
+              <h4 id="developerMilestoneTitle">Resource Defined</h4>
+              <p id="developerMilestoneSummary">The company estimates how much metal is in the ground and whether the deposit is large enough to justify more advanced studies.</p>
+
+              <div class="explorerDetailColumns">
+                <div>
+                  <h5>Work Required</h5>
+                  <p id="developerMilestoneWork">Drill the deposit, assay the samples, model the geology, and publish a resource estimate.</p>
+                </div>
+                <div>
+                  <h5>Why It Matters</h5>
+                  <p id="developerMilestoneWhy">A defined resource gives investors the first real evidence that the project could become an economic mine.</p>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <div class="explorerTakeaway">
+          <strong>Simple translation:</strong> Developer means the company has a deposit and is working through studies, permits, financing, and construction before becoming a producer.
+        </div>
+      </div>
+    </article>
+  </div>
+
   <script>
 function applyMinerlyticsAiGate() {
   const email = localStorage.getItem("minerlytics_user_email");
@@ -2185,6 +2288,104 @@ applyMinerlyticsAiGate();
   });
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && explorerRoadmapModal?.classList.contains("open")) closeExplorerRoadmap();
+  });
+</script>
+
+<script>
+  const developerMilestones = {
+    resource: {
+      number: "Milestone 1",
+      title: "Resource Defined",
+      summary: "The company estimates how much metal is in the ground and whether the deposit is large enough to justify more advanced studies.",
+      work: "Drill the deposit, assay the samples, model the geology, and publish a resource estimate.",
+      why: "A defined resource gives investors the first real evidence that the project could become an economic mine."
+    },
+    feasibility: {
+      number: "Milestone 2",
+      title: "Feasibility Completed",
+      summary: "The company studies whether the project can be mined safely, built practically, and generate attractive returns.",
+      work: "Complete engineering studies, mine plans, processing designs, cost estimates, schedule estimates, and economic models.",
+      why: "Feasibility work converts a mineral deposit into a real business case with expected costs, risks, and returns."
+    },
+    environmental: {
+      number: "Milestone 3",
+      title: "Environmental Review",
+      summary: "The company explains how the mine may affect water, land, wildlife, communities, and closure obligations.",
+      work: "Collect baseline data, prepare environmental studies, identify impacts, design mitigation plans, and engage regulators and communities.",
+      why: "Environmental review helps determine whether the project can be approved responsibly and where major delay risks may appear."
+    },
+    permits: {
+      number: "Milestone 4",
+      title: "Permits Approved",
+      summary: "Regulators grant the major approvals needed to build and operate the mine.",
+      work: "Submit applications, respond to technical questions, complete public consultation, and secure mining, water, tailings, air, and construction permits.",
+      why: "Permits are one of the biggest de-risking events. Without them, even a strong project cannot move into construction."
+    },
+    financing: {
+      number: "Milestone 5",
+      title: "Financing Secured",
+      summary: "The company raises or arranges the money needed to build the mine.",
+      work: "Negotiate equity, debt, streaming, royalty, joint venture, or offtake financing and finalize a construction budget.",
+      why: "Financing proves that investors or lenders are willing to fund the project and that construction can realistically begin."
+    },
+    construction: {
+      number: "Milestone 6",
+      title: "Construction Started",
+      summary: "The company begins building the mine, plant, roads, power, water systems, and supporting infrastructure.",
+      work: "Mobilize contractors, order long-lead equipment, build site infrastructure, construct the processing plant, and prepare for commissioning.",
+      why: "Construction marks the transition from developer toward producer, but execution risk remains until the mine reaches steady production."
+    }
+  };
+
+  const developerRoadmapModal = document.getElementById("developerRoadmapModal");
+  const openDeveloperRoadmapButton = document.getElementById("openDeveloperRoadmap");
+  const closeDeveloperRoadmapButton = document.getElementById("developerRoadmapClose");
+  const developerMilestoneButtons = document.querySelectorAll(".developerMilestoneButton");
+  const developerMilestoneNumber = document.getElementById("developerMilestoneNumber");
+  const developerMilestoneTitle = document.getElementById("developerMilestoneTitle");
+  const developerMilestoneSummary = document.getElementById("developerMilestoneSummary");
+  const developerMilestoneWork = document.getElementById("developerMilestoneWork");
+  const developerMilestoneWhy = document.getElementById("developerMilestoneWhy");
+  let developerRoadmapReturnFocus = null;
+
+  function setDeveloperMilestone(key) {
+    const item = developerMilestones[key] || developerMilestones.resource;
+    developerMilestoneNumber.textContent = item.number;
+    developerMilestoneTitle.textContent = item.title;
+    developerMilestoneSummary.textContent = item.summary;
+    developerMilestoneWork.textContent = item.work;
+    developerMilestoneWhy.textContent = item.why;
+
+    developerMilestoneButtons.forEach((button) => {
+      const active = button.dataset.developerMilestone === key;
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-selected", active ? "true" : "false");
+    });
+  }
+
+  function openDeveloperRoadmap() {
+    developerRoadmapReturnFocus = document.activeElement;
+    developerRoadmapModal.classList.add("open");
+    developerRoadmapModal.setAttribute("aria-hidden", "false");
+    closeDeveloperRoadmapButton.focus();
+  }
+
+  function closeDeveloperRoadmap() {
+    developerRoadmapModal.classList.remove("open");
+    developerRoadmapModal.setAttribute("aria-hidden", "true");
+    if (developerRoadmapReturnFocus) developerRoadmapReturnFocus.focus();
+  }
+
+  openDeveloperRoadmapButton?.addEventListener("click", openDeveloperRoadmap);
+  closeDeveloperRoadmapButton?.addEventListener("click", closeDeveloperRoadmap);
+  developerRoadmapModal?.addEventListener("click", (event) => {
+    if (event.target === developerRoadmapModal) closeDeveloperRoadmap();
+  });
+  developerMilestoneButtons.forEach((button) => {
+    button.addEventListener("click", () => setDeveloperMilestone(button.dataset.developerMilestone));
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && developerRoadmapModal?.classList.contains("open")) closeDeveloperRoadmap();
   });
 </script>
 
