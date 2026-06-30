@@ -32,15 +32,15 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: "24"
 
@@ -59,6 +59,7 @@ jobs:
             --output-sql .tmp/company-homepages.sql
             --delay "${INPUT_DELAY:-1.0}"
           )
+          symbol_args=()
 
           if [ -n "${INPUT_LIMIT:-}" ]; then
             args+=(--limit "$INPUT_LIMIT")
@@ -69,12 +70,12 @@ jobs:
             for symbol in "${symbols[@]}"; do
               trimmed="$(echo "$symbol" | xargs)"
               if [ -n "$trimmed" ]; then
-                args+=("$trimmed")
+                symbol_args+=("$trimmed")
               fi
             done
           fi
 
-          python scripts/sync_company_homepages.py "${args[@]}"
+          python scripts/sync_company_homepages.py "${args[@]}" "${symbol_args[@]}"
 
       - name: Write homepage results to Cloudflare D1
         env:
