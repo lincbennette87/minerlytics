@@ -174,6 +174,26 @@
             <a id="searchBtnLink" class="btn btnPrimary btnTight" href="./company.html">Search</a>
             <div id="heroSearchSuggestions" class="heroSearchSuggestions" aria-live="polite"></div>
           </div>
+          <div class="heroSearchAssist">
+            <div id="heroSearchResolved" class="heroSearchResolved" hidden></div>
+            <div class="favoriteTickerPanel" id="personalDashboard" style="display:none;">
+              <div class="favoriteTickerPanelHead">
+                <div>
+                  <div class="favoriteTickerEyebrow" id="personalEmail">Saved favorites</div>
+                  <div class="favoriteTickerTitle">Favorite up to 5 mining tickers</div>
+                </div>
+                <a class="favoriteTickerDetailsLink" id="companyDetailBtn" href="./company.html">Open company details</a>
+              </div>
+              <div class="favoriteTickerControls">
+                <input id="watchSymbol" type="text" placeholder="Add ticker or company, e.g. AEM" />
+                <button class="btn btnGhost btnTight" type="button" onclick="addWatchTicker()">Add</button>
+                <button class="btn btnPrimary btnTight" type="button" onclick="addHeroTickerToFavorites()">Add Search</button>
+              </div>
+              <div id="favoriteActionStatus" class="heroSearchStatus" aria-live="polite"></div>
+              <div id="watchHelp" class="favoriteTickerHelp">0/5 favorite tickers saved.</div>
+              <div id="watchlistBox" class="favoriteTickerChips" aria-live="polite"></div>
+            </div>
+          </div>
         </div>
 
         <!-- “Trending now” row -->
