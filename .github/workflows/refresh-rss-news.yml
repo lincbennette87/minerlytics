@@ -3,6 +3,7 @@ name: Refresh RSS News
 on:
   workflow_dispatch:
   schedule:
+    # Daily RSS refresh for homepage news, assistant context, and ticker feeds.
     - cron: "15 9 * * *"
 
 jobs:

@@ -3,6 +3,7 @@ name: EDGAR (Dev)
 on:
   workflow_dispatch:
   schedule:
+    # Every two months for SEC/EDGAR filings, fundamentals, and mining disclosures.
     - cron: "0 9 1 */2 *"
 
 concurrency:
@@ -27,7 +28,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v5
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Install deps
         run: npm ci || npm install
