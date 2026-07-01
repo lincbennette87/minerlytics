@@ -1839,6 +1839,62 @@ async function getLatestUniverseNewsItems(env, symbols = [], limit = 12, days = 
   });
 }
 
+async function getWebsiteInvestorNewsForTicker(env, ticker, limit = 8) {
+  const symbol = String(ticker || "").toUpperCase().trim();
+  if (!symbol) return [];
+  const safeLimit = clamp(Number(limit || 8), 1, 25);
+
+  const rows = await env.DB.prepare(
+    `
+    SELECT
+      symbol,
+      company_name,
+      homepage_url,
+      news_landing_url,
+      article_url,
+      article_title,
+      published_date,
+      summary_text,
+      page_title,
+      retrieved_at,
+      evidence_text,
+      confidence,
+      extraction_layer
+    FROM website_investor_news
+    WHERE symbol = ?
+      AND status_code = 'found'
+      AND article_url IS NOT NULL
+      AND article_url != ''
+    ORDER BY
+      CASE
+        WHEN published_date IS NOT NULL AND published_date != '' THEN published_date
+        ELSE retrieved_at
+      END DESC
+    LIMIT ?
+    `
+  ).bind(symbol, safeLimit).all();
+
+  return ((rows && rows.results) || []).map((row) => {
+    const when = row.published_date || row.retrieved_at || null;
+    return {
+      ticker: row.symbol,
+      title: row.article_title,
+      link: row.article_url,
+      source: "Company website",
+      source_type: "website_investor_news",
+      published_at: row.published_date || null,
+      fetched_at: row.retrieved_at || null,
+      summary_text: row.summary_text || "",
+      evidence_text: row.evidence_text || "",
+      news_landing_url: row.news_landing_url || "",
+      homepage_url: row.homepage_url || "",
+      confidence: row.confidence ?? null,
+      meta: `${row.symbol} • Company website • ${when ? relTime(when) : "recent"}`,
+      one_liner: summarizeHeadlineOneLiner(row.article_title, row.symbol)
+    };
+  });
+}
+
 async function getStooqSeriesForTicker(env, ticker, limit = 60) {
   if (!ticker) return [];
   const safeLimit = Math.min(Math.max(Number(limit || 60), 1), 120);
@@ -3375,6 +3431,20 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
           ok: true,
           days,
           symbols: symbols.length ? symbols : Object.keys(TICKERS),
+          items
+        }, 200);
+      }
+
+      if (url.pathname === "/api/company-website-news" && request.method === "GET") {
+        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        if (!ticker || !TICKERS[ticker]) return json({ ok: false, error: "unknown ticker" }, 400);
+        const limit = clamp(parseInt(url.searchParams.get("limit") || "8", 10), 1, 25);
+        const items = await getWebsiteInvestorNewsForTicker(env, ticker, limit).catch(() => []);
+
+        return json({
+          ok: true,
+          ticker,
+          source: "website_investor_news",
           items
         }, 200);
       }

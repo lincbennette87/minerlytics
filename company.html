@@ -326,6 +326,12 @@
       font-weight: 850;
       line-height: 1.35;
     }
+    .news-item p {
+      margin: 2px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+    }
     .news-date {
       color: var(--muted);
       font-size: 12px;
@@ -628,7 +634,7 @@
     <section class="media-grid">
       <section class="panel">
         <div class="panel-head">
-          <div class="panel-title">News Releases</div>
+          <div class="panel-title">Latest News</div>
         </div>
         <div class="panel-body">
           <div class="news-list" id="newsList"></div>
@@ -1791,12 +1797,29 @@
     }
 
     function normalizeNewsItem(item) {
+      const sourceType = item.source_type || item.sourceType || "";
+      const source = item.source || (sourceType === "website_investor_news" ? "Company website" : "RSS");
       return {
         title: item.title || "Untitled headline",
-        url: item.link || item.url || "#",
-        date: item.published_at || item.pubDate || item.date || item.fetched_at || "",
-        source: item.source || "RSS"
+        url: item.link || item.url || item.article_url || "#",
+        date: item.published_at || item.pubDate || item.date || item.published_date || item.fetched_at || item.retrieved_at || "",
+        source,
+        sourceType,
+        summary: sourceType === "website_investor_news" ? (item.summary_text || item.summary || item.one_liner || "") : ""
       };
+    }
+
+    function mergeNewsItems(...groups) {
+      const best = new Map();
+      groups.flat().filter(Boolean).forEach(item => {
+        const normalized = normalizeNewsItem(item);
+        const key = normalized.url && normalized.url !== "#"
+          ? normalized.url.replace(/#.*$/, "").replace(/\/$/, "").toLowerCase()
+          : normalized.title.toLowerCase().replace(/\s+/g, " ").trim();
+        const existing = best.get(key);
+        if (!existing || newsDateValue(normalized) > newsDateValue(existing)) best.set(key, normalized);
+      });
+      return Array.from(best.values()).sort((a, b) => newsDateValue(b) - newsDateValue(a));
     }
 
     function formatNewsDate(value) {
@@ -1806,20 +1829,55 @@
       return date.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
     }
 
+    function truncateText(value, maxLength = 240) {
+      const text = String(value || "").replace(/\s+/g, " ").trim();
+      return text.length > maxLength ? text.slice(0, maxLength - 3).trimEnd() + "..." : text;
+    }
+
+    async function fetchWithTimeout(url, options = {}, timeoutMs = 7000) {
+      const controller = new AbortController();
+      const timer = window.setTimeout(() => controller.abort(), timeoutMs);
+      try {
+        return await fetch(url, { ...options, signal: controller.signal });
+      } finally {
+        window.clearTimeout(timer);
+      }
+    }
+
+    async function getLatestFeedNews() {
+      const response = await fetchWithTimeout(
+        API_BASE + "/api/news/latest-feed?symbols=" + encodeURIComponent(company.symbol) + "&limit=8&days=60",
+        {
+          headers: { accept: "application/json" },
+          cache: "no-store"
+        }
+      );
+      if (!response.ok) throw new Error("Latest feed request failed: " + response.status);
+      const payload = await response.json();
+      return (payload.items || []).map(normalizeNewsItem);
+    }
+
+    async function getWebsiteInvestorNews() {
+      const response = await fetchWithTimeout(API_BASE + "/api/company-website-news?ticker=" + encodeURIComponent(company.symbol) + "&limit=8", {
+        headers: { accept: "application/json" },
+        cache: "no-store"
+      });
+      if (!response.ok) throw new Error("Company website news request failed: " + response.status);
+      const payload = await response.json();
+      return (payload.items || []).map(normalizeNewsItem);
+    }
+
     async function getCompanyRssNews() {
       if (!rssTools?.googleRssUrl || !rssTools?.parseRssItems || !company.newsQuery) return [];
       const rssUrl = rssTools.googleRssUrl(company.newsQuery);
-      const response = await fetch(rssUrl, { headers: { accept: "application/rss+xml,text/xml,*/*" }, cache: "no-store" });
+      const response = await fetchWithTimeout(rssUrl, { headers: { accept: "application/rss+xml,text/xml,*/*" }, cache: "no-store" });
       if (!response.ok) throw new Error("RSS request failed: " + response.status);
       const xml = await response.text();
       return rssTools.parseRssItems(xml, 25).map(normalizeNewsItem);
     }
 
     async function getServerRssNews() {
-      const base = window.location.protocol === "http:" || window.location.protocol === "https:"
-        ? ""
-        : API_BASE;
-      const response = await fetch(base + "/api/news?ticker=" + encodeURIComponent(company.symbol), {
+      const response = await fetchWithTimeout(API_BASE + "/api/news?ticker=" + encodeURIComponent(company.symbol), {
         headers: { accept: "application/json" },
         cache: "no-store"
       });
@@ -1830,30 +1888,52 @@
 
     async function initNews() {
       const container = document.getElementById("newsList");
-      container.innerHTML = '<div class="empty">Loading company RSS headlines...</div>';
-      let items = [];
-      try {
-        items = await getCompanyRssNews();
-      } catch (error) {
-        console.warn("Direct RSS company news fetch failed; trying Minerlytics news API fallback.", error);
+      container.innerHTML = '<div class="empty">Loading RSS and company website news...</div>';
+      let rssItems = [];
+      let websiteItems = [];
+
+      const [rssResult, websiteResult] = await Promise.allSettled([
+        getLatestFeedNews(),
+        getWebsiteInvestorNews()
+      ]);
+
+      if (rssResult.status === "fulfilled") {
+        rssItems = rssResult.value;
+      } else {
+        console.warn("Homepage latest-feed RSS request failed; trying direct company RSS.", rssResult.reason);
       }
-      if (!items.length) {
+
+      if (websiteResult.status === "fulfilled") {
+        websiteItems = websiteResult.value;
+      } else {
+        console.warn("Company website news request failed; continuing with RSS fallbacks.", websiteResult.reason);
+      }
+
+      if (!rssItems.length) {
         try {
-          items = await getServerRssNews();
+          rssItems = await getCompanyRssNews();
         } catch (error) {
-          console.warn("Server RSS company news fetch failed; using stored company news fallback.", error);
-          items = (company.newsItems || []).map(normalizeNewsItem);
+          console.warn("Direct RSS company news fetch failed; trying Minerlytics ticker news API fallback.", error);
         }
       }
-      items = items.sort((a, b) => newsDateValue(b) - newsDateValue(a));
+      if (!rssItems.length) {
+        try {
+          rssItems = await getServerRssNews();
+        } catch (error) {
+          console.warn("Server RSS company news fetch failed; using stored company news fallback.", error);
+          rssItems = (company.newsItems || []).map(normalizeNewsItem);
+        }
+      }
+      const items = mergeNewsItems(websiteItems, rssItems);
       if (!items.length) {
-        container.innerHTML = '<div class="empty">No recent RSS headlines were found for this company.</div>';
+        container.innerHTML = '<div class="empty">No recent RSS or company website news was found for this company.</div>';
         return;
       }
       container.innerHTML = items.slice(0, 5).map(item => `
         <article class="news-item">
           <div class="news-date">${escapeHtml(formatNewsDate(item.date))} · ${escapeHtml(item.source || "RSS")}</div>
           <a href="${item.url}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a>
+          ${item.summary ? `<p>${escapeHtml(truncateText(item.summary))}</p>` : ""}
         </article>
       `).join("");
     }
@@ -2028,6 +2108,73 @@
       }));
     }
 
+    const COMPANY_FACT_METRICS = {
+      revenue: "Revenue",
+      netIncome: "Net Income",
+      assets: "Assets",
+      liabilities: "Liabilities",
+      cashFlowOps: "Operating Cash Flow",
+      epsBasic: "EPS Basic",
+      epsDiluted: "EPS Diluted",
+      sharesOutstanding: "Shares Outstanding"
+    };
+
+    function companyFactToFinancial(metricKey, fact) {
+      if (!fact || fact.val === undefined || fact.val === null) return null;
+      return {
+        metric: COMPANY_FACT_METRICS[metricKey] || formatLabel(metricKey),
+        factName: fact.tag || metricKey,
+        factLabel: `${fact.taxonomy || "EDGAR"}:${fact.tag || metricKey}`,
+        value: fact.val,
+        unit: fact.unit || "",
+        periodStart: fact.start || null,
+        periodEnd: fact.end || "",
+        form: fact.form || "",
+        filedDate: fact.filed || "",
+        fiscalYear: fact.fy || "",
+        fiscalPeriod: fact.fp || "",
+        accessionNumber: fact.accn || "",
+        reportUrl: "",
+        source: "pullCompanyFacts.js"
+      };
+    }
+
+    async function fetchJsonFirstAvailable(urls) {
+      for (const url of urls) {
+        try {
+          const response = await fetchWithTimeout(url, { headers: { accept: "application/json" }, cache: "no-store" }, 7000);
+          if (response.ok) return await response.json();
+        } catch (error) {
+          console.warn(`Could not load ${url}`, error);
+        }
+      }
+      return null;
+    }
+
+    async function loadCompanyFactsFinancials() {
+      const fundamentals = await fetchJsonFirstAvailable([
+        "./public/data/fundamentals_latest.json",
+        "./data/fundamentals_latest.json"
+      ]);
+      if (!Array.isArray(fundamentals)) return;
+
+      const row = fundamentals.find(item => normalizeTicker(item.ticker) === normalizeTicker(company.symbol));
+      if (!row) return;
+
+      const facts = Object.keys(COMPANY_FACT_METRICS)
+        .map(metricKey => companyFactToFinancial(metricKey, row[metricKey]))
+        .filter(Boolean);
+      if (!facts.length) return;
+
+      company.financials = facts;
+      company.financialSource = {
+        label: "EDGAR company facts",
+        script: "src/edgar/pullCompanyFacts.js",
+        file: "public/data/fundamentals_latest.json",
+        asOf: row.asOf || ""
+      };
+    }
+
     function formatNumberValue(value, unit = "") {
       const numeric = Number(value);
       if (!Number.isFinite(numeric)) return value || "Not available";
@@ -2181,10 +2328,11 @@
     function reportReference(fact) {
       const text = `${fact.form || "Report"} · period ${fact.periodEnd || "n/a"} · filed ${fact.filedDate || "n/a"}`;
       const accession = fact.accessionNumber ? `<div class="meta">Accession: ${fact.accessionNumber}</div>` : "";
+      const source = fact.source ? `<div class="meta">Source: ${escapeHtml(fact.source)}</div>` : "";
       if (fact.reportUrl) {
-        return `<a href="${fact.reportUrl}" target="_blank" rel="noopener">${text}</a>${accession}`;
+        return `<a href="${fact.reportUrl}" target="_blank" rel="noopener">${text}</a>${accession}${source}`;
       }
-      return `${text}${accession}`;
+      return `${text}${accession}${source}`;
     }
 
     function escapeHtml(value) {
@@ -2205,6 +2353,12 @@
         return;
       }
       container.innerHTML = `
+        ${company.financialSource ? `
+          <div class="meta" style="margin-bottom:10px;">
+            Financial source: ${escapeHtml(company.financialSource.label)} from ${escapeHtml(company.financialSource.script)}
+            ${company.financialSource.asOf ? ` · refreshed ${escapeHtml(formatNewsDate(company.financialSource.asOf))}` : ""}
+          </div>
+        ` : ""}
         <table class="financial-table">
           <thead>
             <tr>
@@ -2327,6 +2481,7 @@
     initRanges();
     await initNews();
     initSecFilings();
+    await loadCompanyFactsFinancials();
     initFinancials();
     initKeyHealthMeasures();
     initRisks();

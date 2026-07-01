@@ -1,0 +1,104 @@
+name: Sync Website Investor News to Cloudflare D1
+
+on:
+  workflow_dispatch:
+    inputs:
+      symbols:
+        description: "Optional comma-separated tickers, e.g. AEM,WPM,PZG"
+        required: false
+        default: ""
+      limit:
+        description: "Optional maximum number of tickers to process"
+        required: false
+        default: ""
+      delay:
+        description: "Seconds to wait between company requests"
+        required: false
+        default: "0.5"
+      max_articles:
+        description: "Maximum news/article rows per company"
+        required: false
+        default: "10"
+  schedule:
+    - cron: "45 13 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  sync-investor-news:
+    runs-on: ubuntu-latest
+    env:
+      CF_D1_DATABASE: minerlytics-dev
+      INPUT_SYMBOLS: ${{ inputs.symbols }}
+      INPUT_LIMIT: ${{ inputs.limit }}
+      INPUT_DELAY: ${{ inputs.delay || '0.5' }}
+      INPUT_MAX_ARTICLES: ${{ inputs.max_articles || '10' }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+
+      - name: Install Wrangler
+        run: npm install --no-save wrangler@latest
+
+      - name: Generate homepage and investor-news SQL
+        run: |
+          set -euo pipefail
+          mkdir -p .tmp
+
+          common_args=(--tickers-js src/tickers.js)
+          symbol_args=()
+          if [ -n "${INPUT_LIMIT:-}" ]; then
+            common_args+=(--limit "$INPUT_LIMIT")
+          fi
+
+          if [ -n "${INPUT_SYMBOLS:-}" ]; then
+            IFS=',' read -ra symbols <<< "$INPUT_SYMBOLS"
+            for symbol in "${symbols[@]}"; do
+              trimmed="$(echo "$symbol" | xargs)"
+              if [ -n "$trimmed" ]; then
+                symbol_args+=("$trimmed")
+              fi
+            done
+          fi
+
+          python scripts/sync_company_homepages.py \
+            "${common_args[@]}" \
+            --schema-sql d1_company_homepages.sql \
+            --output-json .tmp/company-homepages.json \
+            --output-sql .tmp/company-homepages.sql \
+            --delay 0.75 \
+            "${symbol_args[@]}"
+
+          python scripts/sync_website_investor_news.py \
+            "${common_args[@]}" \
+            --homepages-json .tmp/company-homepages.json \
+            --schema-sql d1_website_investor_news.sql \
+            --output-json .tmp/website-investor-news.json \
+            --output-sql .tmp/website-investor-news.sql \
+            --delay "${INPUT_DELAY:-0.5}" \
+            --max-articles "${INPUT_MAX_ARTICLES:-10}" \
+            "${symbol_args[@]}"
+
+      - name: Write homepage results to Cloudflare D1
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler d1 execute "$CF_D1_DATABASE" --remote --file .tmp/company-homepages.sql --yes
+
+      - name: Write investor-news results to Cloudflare D1
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler d1 execute "$CF_D1_DATABASE" --remote --file .tmp/website-investor-news.sql --yes
