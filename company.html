@@ -1,343 +1,490 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Minerlytics AI — Company Details</title>
   <link rel="stylesheet" href="./styles.css" />
   <style>
-    .page-loader {
-      position: fixed;
-      inset: 0;
-      z-index: 20000;
+    :root {
+      --ink: var(--text);
+      --muted: rgba(243,239,230,.74);
+      --line: rgba(243,239,230,.10);
+      --paper: #08090a;
+      --panel: rgba(21,24,26,.62);
+      --green: #9A7A4A;
+      --green-2: #6E7A71;
+      --gold: #C69A54;
+      --blue: #6E7A71;
+      --shadow: 0 18px 50px rgba(0,0,0,.22);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: var(--font);
+      color: var(--text);
+      background:
+        radial-gradient(1000px 600px at 16% 18%, rgba(154,122,74,.14), transparent 60%),
+        radial-gradient(900px 520px at 82% 28%, rgba(110,122,113,.10), transparent 55%),
+        radial-gradient(900px 520px at 68% 88%, rgba(243,239,230,.04), transparent 55%),
+        linear-gradient(180deg, var(--bg0), var(--bg1));
+    }
+
+    a { color: var(--green); font-weight: 800; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .page { width: min(1440px, calc(100vw - 40px)); margin: 0 auto; padding: 28px 18px 48px; }
+
+    .company-header {
       display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 18px;
+    }
+
+    h1 { margin: 0; font-size: 34px; line-height: 1.05; letter-spacing: 0; }
+    .ticker { color: var(--green); font-weight: 900; }
+    .meta { color: var(--muted); margin-top: 7px; font-size: 14px; }
+
+    .pills { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+    .pill {
+      min-height: 30px;
+      display: inline-flex;
       align-items: center;
-      justify-content: center;
-      padding: 24px;
-      background:
-        radial-gradient(circle at 30% 20%, rgba(154,122,74,.18), transparent 36%),
-        radial-gradient(circle at 70% 30%, rgba(110,122,113,.14), transparent 34%),
-        rgba(8,10,12,.68);
-      backdrop-filter: blur(14px);
-      transition: opacity .28s ease, visibility .28s ease;
+      padding: 0 10px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: rgba(255,255,255,.04);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 850;
+      text-transform: capitalize;
     }
-    .page-loader.is-hidden {
-      opacity: 0;
-      visibility: hidden;
-      pointer-events: none;
+
+    .top-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(360px, .9fr);
+      gap: 18px;
+      align-items: stretch;
+      margin-bottom: 18px;
     }
-    .page-loader-box {
-      width: min(92vw, 360px);
-      padding: 28px 26px;
-      border-radius: 24px;
-      border: 1px solid rgba(255,255,255,.12);
-      background: rgba(17,19,21,.92);
-      box-shadow: 0 30px 90px rgba(0,0,0,.42);
-      text-align: center;
-    }
-    .page-loader-mark {
-      width: 74px;
-      height: 74px;
-      margin: 0 auto 16px;
-      border-radius: 22px;
-      background:
-        radial-gradient(circle at 35% 35%, rgba(255,255,255,.14), transparent 60%),
-        linear-gradient(135deg, var(--accent), rgba(110,122,113,.92));
-      box-shadow: 0 0 0 1px rgba(255,255,255,.08), 0 18px 40px rgba(154,122,74,.24);
-      position: relative;
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(21,24,26,.62);
+      box-shadow: var(--shadow);
       overflow: hidden;
     }
-    .page-loader-mark::before {
-      content: "";
-      position: absolute;
-      left: 50%;
-      top: 17px;
-      width: 40px;
-      height: 40px;
-      transform: translateX(-50%) rotate(-45deg);
-      border-top: 3px solid rgba(243,239,230,.88);
-      border-right: 3px solid rgba(243,239,230,.88);
-      border-radius: 4px;
-      opacity: .9;
-      animation: pageLoaderPickaxe 1.9s ease-in-out infinite;
-      transform-origin: 50% 85%;
-    }
-    .page-loader-mark::after {
-      content: "";
-      position: absolute;
-      left: 50%;
-      bottom: 15px;
-      width: 38px;
-      height: 5px;
-      transform: translateX(-50%);
-      border-radius: 999px;
-      background: linear-gradient(90deg, rgba(243,239,230,.18), rgba(243,239,230,.9), rgba(243,239,230,.18));
-      box-shadow: 0 -11px 0 1px rgba(243,239,230,.74), 0 -17px 18px rgba(154,122,74,.22);
-    }
-    .page-loader-title {
-      margin: 0;
-      font-size: 20px;
-      font-weight: 800;
-      color: #fff;
-    }
-    .page-loader-copy {
-      margin: 10px 0 0;
-      font-size: 13px;
-      line-height: 1.6;
-      color: rgba(243,239,230,.72);
-    }
-    @keyframes pageLoaderPickaxe {
-      0%, 100% { transform: translateX(-50%) rotate(-45deg); }
-      50% { transform: translateX(-50%) rotate(-20deg); }
-    }
-    .page-shell { max-width: 1200px; margin: 0 auto; padding: 28px 18px 48px; }
-    .pageAuthGate {
-      position: relative;
-    }
-    .pageAuthGate.is-locked .gateContent {
-      filter: blur(10px) brightness(.55);
-      pointer-events: none;
-      user-select: none;
-    }
-    .pageAuthGate.is-locked .pageAuthOverlay {
+
+    .panel-head {
+      min-height: 56px;
+      padding: 14px 16px;
       display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,.035);
     }
-    .pageAuthOverlay {
+
+    .panel-title { font-size: 13px; font-weight: 900; text-transform: uppercase; }
+    .panel-body { padding: 16px; }
+
+    .range-buttons { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+    .range-buttons button {
+      height: 30px;
+      min-width: 52px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: rgba(21,24,26,.96);
+      color: var(--ink);
+      font-weight: 850;
+      cursor: pointer;
+    }
+    .range-buttons button.active { background: var(--green); color: #fff; border-color: var(--green); }
+
+    .chart-wrap { height: 320px; position: relative; }
+    canvas { width: 100%; height: 100%; display: block; }
+    .empty-chart {
       position: absolute;
       inset: 0;
-      z-index: 30;
-      display: none;
-      align-items: center;
-      justify-content: center;
-      padding: 24px;
-      border-radius: 28px;
-      background: linear-gradient(180deg, rgba(8,10,12,.18), rgba(8,10,12,.42));
-      backdrop-filter: blur(6px);
-    }
-    .pageAuthOverlayCard {
-      width: min(92vw, 520px);
-      padding: 28px 24px;
+      display: grid;
+      place-items: center;
+      color: var(--muted);
       text-align: center;
-      border-radius: 24px;
-      border: 1px solid rgba(255,255,255,.12);
-      background: rgba(17,19,21,.92);
-      box-shadow: 0 28px 80px rgba(0,0,0,.35);
+      padding: 20px;
     }
-    .pageAuthOverlayCard h2 {
-      margin: 0 0 10px;
-      font-size: clamp(24px, 4vw, 32px);
-      line-height: 1.1;
+    .empty-chart[hidden] { display: none; }
+
+    .summary-text { margin: 0 0 14px; color: var(--muted); line-height: 1.58; }
+    .website-line { display: flex; gap: 10px; align-items: center; color: var(--muted); font-size: 14px; word-break: break-word; }
+    .summary-actions {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
     }
-    .pageAuthOverlayCard p {
+    .text-button {
+      width: fit-content;
+      min-height: 32px;
+      border: 1px solid rgba(154,122,74,.28);
+      border-radius: 6px;
+      background: rgba(154,122,74,.12);
+      color: var(--green);
+      padding: 0 10px;
+      font: inherit;
+      font-size: 14px;
+      font-weight: 850;
+      cursor: pointer;
+    }
+    .text-button:hover { background: rgba(154,122,74,.18); }
+
+    .accordion { display: grid; gap: 10px; margin-bottom: 18px; }
+    .section-accordion {
+      margin-bottom: 18px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(21,24,26,.62);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .section-accordion > summary {
+      min-height: 58px;
+      padding: 0 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,.035);
+      cursor: pointer;
+      list-style: none;
+    }
+    .section-accordion > summary::-webkit-details-marker { display: none; }
+    .section-accordion > summary:after { content: "+"; color: var(--green); font-size: 22px; line-height: 1; }
+    .section-accordion[open] > summary:after { content: "−"; }
+    .section-accordion-body { padding: 16px; }
+    details {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(21,24,26,.62);
+      box-shadow: 0 8px 20px rgba(25,33,29,.06);
+      overflow: hidden;
+    }
+    summary {
+      min-height: 58px;
+      padding: 0 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      cursor: pointer;
+      font-weight: 900;
+      list-style: none;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary:after { content: "+"; color: var(--green); font-size: 22px; line-height: 1; }
+    details[open] summary:after { content: "−"; }
+
+    .project-body { border-top: 1px solid var(--line); padding: 16px; }
+    .project-description { margin: 0 0 14px; color: var(--muted); line-height: 1.55; }
+    .financial-table td:nth-child(2), .financial-table td:nth-child(3) {
+      font-variant-numeric: tabular-nums;
+    }
+    .health-measure-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .health-measure-card {
+      min-height: 118px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,.04);
+    }
+    .health-measure-label {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+    .health-measure-value {
+      margin-top: 8px;
+      color: var(--ink);
+      font-size: 18px;
+      font-weight: 900;
+      line-height: 1.3;
+      overflow-wrap: anywhere;
+    }
+    .health-measure-meta {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+    .source-note {
+      margin: 0 0 12px;
+      color: var(--muted);
+      line-height: 1.45;
+      font-size: 13px;
+    }
+    table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 10px 8px;
+      vertical-align: top;
+      text-align: left;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+    th { width: 210px; color: var(--muted); text-transform: uppercase; font-size: 11px; letter-spacing: 0; }
+    tr:last-child th, tr:last-child td { border-bottom: 0; }
+
+    .doc-links { display: flex; gap: 8px; flex-wrap: wrap; }
+    .doc-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 0 10px;
+      border: 1px solid rgba(154,122,74,.28);
+      border-radius: 6px;
+      background: rgba(154,122,74,.12);
+      font-size: 12px;
+    }
+
+    .media-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .link-card {
+      display: grid;
+      gap: 8px;
+      min-height: 116px;
+      align-content: center;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: linear-gradient(135deg, rgba(154,122,74,.10), rgba(110,122,113,.10));
+      padding: 16px;
+    }
+    .link-card strong { font-size: 18px; }
+    .link-card span { color: var(--muted); line-height: 1.45; }
+    .news-list {
+      display: grid;
+      gap: 10px;
+    }
+    .news-item {
+      display: grid;
+      gap: 4px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,.04);
+    }
+    .news-item a {
+      color: var(--ink);
+      font-weight: 850;
+      line-height: 1.35;
+    }
+    .news-date {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+    .show-all-news {
+      width: fit-content;
+      margin-top: 12px;
+      display: inline-flex;
+      min-height: 34px;
+      align-items: center;
+      padding: 0 11px;
+      border: 1px solid rgba(154,122,74,.28);
+      border-radius: 6px;
+      background: rgba(154,122,74,.12);
+    }
+    .filings-list {
+      display: grid;
+      gap: 10px;
+    }
+    .filing-item {
+      display: grid;
+      gap: 6px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,.04);
+    }
+    .filing-item a {
+      color: var(--ink);
+      font-weight: 900;
+      line-height: 1.35;
+    }
+    .filing-meta {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+    .risk-summary {
+      display: grid;
+      gap: 14px;
+    }
+    .ai-summary {
+      padding: 14px;
+      border: 1px solid rgba(65,103,122,.24);
+      border-radius: 16px;
+      background: rgba(65,103,122,.08);
+      color: var(--ink);
+      line-height: 1.58;
+      font-weight: 650;
+    }
+    .risk-source {
+      display: grid;
+      gap: 10px;
+    }
+    .risk-source-text {
+      max-height: 260px;
+      overflow: auto;
+      margin: 0;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,.04);
+      color: var(--muted);
+      font: 13px/1.55 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      white-space: pre-wrap;
+    }
+
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: rgba(15, 22, 19, .52);
+      z-index: 20;
+    }
+    .modal-backdrop[hidden] { display: none; }
+    .modal {
+      width: min(960px, 100%);
+      max-height: min(760px, calc(100vh - 48px));
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      border-radius: 16px;
+      background: rgba(21,24,26,.96);
+      box-shadow: 0 24px 80px rgba(0,0,0,.24);
+      overflow: hidden;
+    }
+    .modal-head {
+      min-height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(250,250,247,.96);
+    }
+    .modal-title { font-size: 14px; font-weight: 900; text-transform: uppercase; }
+    .icon-button {
+      width: 34px;
+      height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: rgba(21,24,26,.96);
+      color: var(--ink);
+      font-size: 24px;
+      line-height: 1;
+      cursor: pointer;
+    }
+    .management-layout {
+      min-height: 0;
+      display: grid;
+      grid-template-columns: minmax(220px, .36fr) minmax(0, .64fr);
+    }
+    .management-list {
+      min-height: 0;
+      overflow: auto;
+      border-right: 1px solid var(--line);
+      background: #f9faf7;
+      padding: 10px;
+    }
+    .person-button {
+      width: 100%;
+      min-height: 62px;
+      display: grid;
+      gap: 4px;
+      text-align: left;
+      border: 1px solid transparent;
+      border-radius: 6px;
+      background: transparent;
+      padding: 10px;
+      color: var(--ink);
+      cursor: pointer;
+    }
+    .person-button strong { font-size: 14px; }
+    .person-button span { color: var(--muted); font-size: 12px; line-height: 1.25; }
+    .person-button.active {
+      border-color: rgba(36,79,67,.26);
+      background: rgba(21,24,26,.96);
+      box-shadow: 0 8px 18px rgba(25,33,29,.08);
+    }
+    .management-detail {
+      min-height: 0;
+      overflow: auto;
+      padding: 22px;
+    }
+    .management-detail h3 {
+      margin: 0;
+      font-size: 26px;
+      line-height: 1.05;
+    }
+    .management-detail .role {
+      margin: 8px 0 18px;
+      color: var(--green);
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+    .management-detail p {
       margin: 0;
       color: var(--muted);
-      line-height: 1.65;
-      font-size: 14px;
+      line-height: 1.62;
     }
-    .pageAuthActions {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-top: 18px;
-    }
-    .hero-grid { display:grid; grid-template-columns: 1.05fr .95fr; gap:18px; }
-    .panel {
-      border:1px solid var(--line);
-      background:rgba(21,24,26,.62);
-      border-radius:20px;
-      padding:18px;
-      box-shadow:0 18px 50px rgba(0,0,0,.22);
-    }
-    .eyebrow {
-      font-size:12px;
-      letter-spacing:.14em;
-      text-transform:uppercase;
-      color:var(--muted2);
-      margin-bottom:10px;
-    }
-    .title-row { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; }
-    .title-row h1 { margin:0; font-size:40px; line-height:1.05; }
-    .company-search-wrap {
-      margin-top:16px;
-      display:flex;
-      gap:10px;
-      align-items:center;
-      flex-wrap:wrap;
-    }
-    .company-search-input {
-      flex:1;
-      min-width:240px;
-      border:1px solid var(--line);
-      border-radius:14px;
-      background:rgba(255,255,255,.05);
-      color:var(--text);
-      padding:12px 14px;
-      outline:none;
-    }
-    .company-search-note {
-      margin-top:8px;
-      font-size:12px;
-      color:var(--muted2);
-    }
-    .symbol-badge {
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      padding:8px 12px;
-      border-radius:999px;
-      border:1px solid rgba(255,255,255,.12);
-      background:rgba(255,255,255,.04);
-      font-size:12px;
-      font-weight:700;
-      letter-spacing:.08em;
-    }
-    .subtitle { margin:10px 0 0; color:var(--muted); max-width:700px; line-height:1.6; }
-    .meta-row, .metric-grid, .section-grid { display:grid; gap:14px; }
-    .meta-row { grid-template-columns: repeat(4, minmax(0,1fr)); margin-top:18px; }
-    .metric-grid { grid-template-columns: repeat(4, minmax(0,1fr)); margin-top:18px; }
-    .section-grid { grid-template-columns: repeat(2, minmax(0,1fr)); margin-top:18px; }
-    .mini-card {
-      border:1px solid rgba(255,255,255,.08);
-      background:rgba(255,255,255,.03);
-      border-radius:16px;
-      padding:14px;
-    }
-    .mini-label {
-      font-size:11px;
-      letter-spacing:.1em;
-      text-transform:uppercase;
-      color:var(--muted2);
-      margin-bottom:8px;
-    }
-    .mini-value {
-      font-size:24px;
-      font-weight:800;
-      font-variant-numeric:tabular-nums;
-    }
-    .mini-sub { margin-top:6px; color:var(--muted); font-size:13px; line-height:1.5; }
-    .up { color:#7ef0a8; }
-    .down { color:#ff8ea8; }
-    .detail-list { display:grid; gap:10px; margin-top:12px; }
-    .detail-item {
-      border:1px solid rgba(255,255,255,.08);
-      background:rgba(255,255,255,.03);
-      border-radius:14px;
-      padding:12px 14px;
-    }
-    .detail-item a { color:inherit; text-decoration:none; }
-    .detail-title { font-weight:700; line-height:1.45; }
-    .detail-meta { margin-top:6px; font-size:12px; color:var(--muted2); }
-    .detail-text { margin-top:8px; color:var(--muted); line-height:1.6; font-size:13px; }
-    .chart-wrap {
-      position:relative;
-      border:1px solid rgba(255,255,255,.08);
-      border-radius:16px;
-      background:rgba(0,0,0,.12);
-      padding:12px;
-      margin-top:16px;
-    }
-    .chart-canvas { width:100%; height:300px; display:block; }
-    .chart-meta {
-      display:flex;
-      justify-content:space-between;
-      gap:12px;
-      margin-top:12px;
-      font-size:12px;
-      color:var(--muted2);
-    }
-    .section-title {
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:12px;
-      margin-bottom:10px;
-    }
-    .section-title h2 {
-      margin:0;
-      font-size:16px;
-      letter-spacing:.02em;
-    }
-    .body-copy { color:var(--muted); line-height:1.7; font-size:14px; }
-    .source-link {
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      margin-top:12px;
-      color:#d7c09a;
-      font-size:13px;
-      text-decoration:none;
-    }
-    .loading { color:var(--muted); }
+
     @media (max-width: 980px) {
-      .hero-grid, .section-grid, .metric-grid, .meta-row { grid-template-columns: 1fr; }
-      .title-row h1 { font-size:32px; }
+      .page { width: min(100vw - 24px, 920px); padding-top: 18px; }
+      .company-header, .top-grid, .media-grid { grid-template-columns: 1fr; display: grid; }
+      .company-header { align-items: start; }
+      .pills { justify-content: flex-start; }
+      th { width: 150px; }
     }
-    @media (max-width: 760px) {
-      .topbar{
-        flex-direction:column;
-        align-items:stretch;
-        gap:12px;
-        padding:12px 14px;
-      }
-      .navLinks{
-        width:100%;
-        overflow-x:auto;
-        flex-wrap:nowrap;
-        gap:10px;
-        -webkit-overflow-scrolling:touch;
-        scrollbar-width:none;
-      }
-      .navLinks::-webkit-scrollbar{display:none}
-      .navLink{white-space:nowrap;flex:0 0 auto}
-      .navRight,
-      #authNav{
-        width:100%;
-      }
-      #authNav{
-        display:grid !important;
-        grid-template-columns:1fr 1fr;
-        gap:10px;
-      }
-      #authNav .btn{
-        width:100%;
-        text-align:center;
-      }
-      .page-shell{
-        padding:20px 14px 34px;
-      }
-      .title-row{
-        flex-direction:column;
-      }
-      .company-search-wrap{
-        flex-direction:column;
-        align-items:stretch;
-      }
-      .company-search-input,
-      #companySearchBtn{
-        width:100%;
-      }
-      .chart-meta{
-        flex-direction:column;
-        align-items:flex-start;
-      }
+
+    @media (max-width: 640px) {
+      h1 { font-size: 28px; }
+      .health-measure-grid { grid-template-columns: 1fr; }
+      .top-grid { gap: 12px; }
+      .panel-head { align-items: start; flex-direction: column; }
+      .chart-wrap { height: 260px; }
+      .management-layout { grid-template-columns: 1fr; }
+      .management-list { max-height: 220px; border-right: 0; border-bottom: 1px solid var(--line); }
+      th, td { display: block; width: 100%; }
+      th { border-bottom: 0; padding-bottom: 2px; }
+      td { padding-top: 2px; }
     }
   </style>
 </head>
 <body>
-  <div id="pageLoader" class="page-loader" aria-live="polite">
-    <div class="page-loader-box">
-      <div class="page-loader-mark" aria-hidden="true"></div>
-      <p class="page-loader-title">Loading Minerlytics</p>
-      <p class="page-loader-copy">Mining signals, filings, and company intelligence are being prepared for this page.</p>
-    </div>
-  </div>
   <header class="topbar">
     <div class="brand">
       <div class="logoMark"></div>
       <div class="brandName">MINERLYTICS</div>
     </div>
-
     <nav class="navLinks">
       <a class="navLink" href="./index.html">Home</a>
       <a class="navLink isActive" href="./company.html">Company Details</a>
@@ -346,7 +493,6 @@
       <a class="navLink" href="./subscription.html">Subscriptions</a>
       <a class="navLink" href="./about.html">About</a>
     </nav>
-
     <div class="navRight">
       <div id="authNav" style="display:flex;gap:10px;">
         <a class="btn btnGhost" href="./login.html">Sign In</a>
@@ -354,840 +500,667 @@
       </div>
     </div>
   </header>
-
-  <main class="page-shell pageAuthGate is-locked" data-protected-page-gate>
-    <div class="gateContent">
-    <section class="hero-grid">
-      <div class="panel">
-        <div class="eyebrow">Company Details</div>
-        <div class="title-row">
-          <div>
-            <div class="symbol-badge" id="companyTicker">Ticker</div>
-            <h1 id="companyName">Loading company…</h1>
-            <p class="subtitle" id="companyDescription">Loading company description…</p>
-            <div class="company-search-wrap">
-              <input id="companySearchInput" class="company-search-input" type="search" placeholder="Search company or ticker e.g. WPM, Barrick Gold, SCCO, Lucara Diamond" />
-              <button id="companySearchBtn" class="btn btnPrimary" type="button">Search</button>
-            </div>
-            <div class="company-search-note">Try: WPM, Barrick Gold, CDE, SCCO, Lucara Diamond, AEM, FCX</div>
-          </div>
-        </div>
-
-        <div class="meta-row">
-          <div class="mini-card">
-            <div class="mini-label">Company Ticker</div>
-            <div class="mini-value" id="metaTicker">—</div>
-            <div class="mini-sub" id="metaExchange">—</div>
-          </div>
-          <div class="mini-card">
-            <div class="mini-label">Company Name</div>
-            <div class="mini-value" style="font-size:20px;" id="metaCompanyName">—</div>
-            <div class="mini-sub" id="metaIndustry">—</div>
-          </div>
-          <div class="mini-card">
-            <div class="mini-label">Latest Close</div>
-            <div class="mini-value" id="metaPrice">—</div>
-            <div class="mini-sub" id="metaPriceDelta">—</div>
-          </div>
-          <div class="mini-card">
-            <div class="mini-label">News Sentiment</div>
-            <div class="mini-value" style="font-size:20px;" id="metaSentiment">—</div>
-            <div class="mini-sub" id="metaSentimentWhy">—</div>
-          </div>
-        </div>
-
-        <div class="chart-wrap">
-          <canvas id="companyChart" class="chart-canvas"></canvas>
-          <div class="chart-meta">
-            <span id="chartStatus">Loading 6M price trend…</span>
-            <span id="chartPerf">—</span>
-          </div>
-        </div>
+  <main class="page">
+    <header class="company-header">
+      <div>
+        <h1><span id="companyName"></span> <span class="ticker" id="ticker"></span></h1>
+        <div class="meta" id="companyMeta"></div>
       </div>
+      <div class="pills" id="pills"></div>
+    </header>
 
-      <div class="panel">
-        <div class="section-title">
-          <h2>Financial Details</h2>
-          <span class="eyebrow" style="margin:0;">Balance Sheet</span>
+    <section class="top-grid">
+      <section class="panel">
+        <div class="panel-head">
+          <div class="panel-title">Stock Price</div>
+          <div class="range-buttons" id="rangeButtons"></div>
         </div>
-        <div class="metric-grid">
-          <div class="mini-card">
-            <div class="mini-label">Market Cap</div>
-            <div class="mini-value" style="font-size:20px;" id="finMarketCap">—</div>
-            <div class="mini-sub" id="finMarketCapMeta">—</div>
-          </div>
-          <div class="mini-card">
-            <div class="mini-label">Revenue</div>
-            <div class="mini-value" style="font-size:20px;" id="finRevenue">—</div>
-            <div class="mini-sub" id="finRevenueMeta">—</div>
-          </div>
-          <div class="mini-card">
-            <div class="mini-label">Net Income</div>
-            <div class="mini-value" style="font-size:20px;" id="finNetIncome">—</div>
-            <div class="mini-sub" id="finNetIncomeMeta">—</div>
-          </div>
-          <div class="mini-card">
-            <div class="mini-label">Total Assets</div>
-            <div class="mini-value" style="font-size:20px;" id="finAssets">—</div>
-            <div class="mini-sub" id="finAssetsMeta">—</div>
-          </div>
-          <div class="mini-card">
-            <div class="mini-label">Total Liabilities</div>
-            <div class="mini-value" style="font-size:20px;" id="finLiabilities">—</div>
-            <div class="mini-sub" id="finLiabilitiesMeta">—</div>
-          </div>
-          <div class="mini-card">
-            <div class="mini-label">Cash & Equivalents</div>
-            <div class="mini-value" style="font-size:20px;" id="finCash">—</div>
-            <div class="mini-sub" id="finCashMeta">—</div>
-          </div>
-          <div class="mini-card">
-            <div class="mini-label">Stockholders Equity</div>
-            <div class="mini-value" style="font-size:20px;" id="finEquity">—</div>
-            <div class="mini-sub" id="finEquityMeta">—</div>
-          </div>
-          <div class="mini-card">
-            <div class="mini-label">EPS Diluted</div>
-            <div class="mini-value" style="font-size:20px;" id="finEps">—</div>
-            <div class="mini-sub" id="finEpsMeta">—</div>
-          </div>
-          <div class="mini-card">
-            <div class="mini-label">Shares Outstanding</div>
-            <div class="mini-value" style="font-size:20px;" id="finShares">—</div>
-            <div class="mini-sub" id="finSharesMeta">—</div>
+        <div class="panel-body">
+          <div class="chart-wrap">
+            <canvas id="priceChart" width="900" height="360"></canvas>
+            <div class="empty-chart" id="emptyChart" hidden>No stored price history is available for this company.</div>
           </div>
         </div>
-        <div class="mini-sub" id="finSnapshotNote" style="margin-top:14px;">Loading ticker financials…</div>
-        <div class="detail-list" id="finDetailList" style="margin-top:14px;"></div>
-      </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div class="panel-title">Company Summary</div>
+        </div>
+        <div class="panel-body">
+          <p class="summary-text" id="companySummary"></p>
+          <div class="summary-actions">
+            <div class="website-line">Website: <a id="websiteLink" target="_blank" rel="noopener"></a></div>
+            <button class="text-button" id="managementTeamButton" type="button">Management Team</button>
+          </div>
+        </div>
+      </section>
     </section>
 
-    <section class="section-grid">
-      <div class="panel">
-        <div class="section-title"><h2>Ounces Produced Past Quarter</h2></div>
-        <div class="body-copy" id="productionSummary">Loading production summary…</div>
+    <details class="section-accordion">
+      <summary>
+        <span class="panel-title">Key Health Measure</span>
+        <span class="meta" id="keyHealthMeasureCount"></span>
+      </summary>
+      <div class="section-accordion-body">
+        <p class="source-note" id="keyHealthMeasureNote">Metrics are selected from the company type framework and populated from the latest available company detail data.</p>
+        <div id="keyHealthMeasures"></div>
       </div>
-      <div class="panel">
-        <div class="section-title"><h2>Mine Details</h2></div>
-        <div class="body-copy" id="mineDetails">Loading mine details…</div>
-      </div>
-      <div class="panel">
-        <div class="section-title"><h2>Management Summary</h2></div>
-        <div class="body-copy" id="managementSummary">Loading management summary…</div>
-      </div>
-      <div class="panel">
-        <div class="section-title"><h2>Risks</h2></div>
-        <div class="body-copy" id="riskSummary">Loading risks…</div>
-      </div>
-      <div class="panel">
-        <div class="section-title"><h2>Forward Looking Statement</h2></div>
-        <div class="body-copy" id="forwardLooking">Loading forward-looking commentary…</div>
-      </div>
-      <div class="panel">
-        <div class="section-title"><h2>Latest Filing Source</h2></div>
-        <div class="body-copy" id="filingLead">Loading filing coverage…</div>
-        <a id="filingLink" class="source-link" href="#" target="_blank" rel="noreferrer" style="display:none;">Open latest SEC filing</a>
-      </div>
-    </section>
+    </details>
 
-    <section class="section-grid">
-      <div class="panel">
-        <div class="section-title"><h2>Recent RSS Headlines</h2></div>
-        <div class="detail-list" id="rssList"><div class="loading">Loading RSS items…</div></div>
+    <details class="section-accordion">
+      <summary>
+        <span class="panel-title">Financials</span>
+        <span class="meta" id="financialCount"></span>
+      </summary>
+      <div class="section-accordion-body">
+        <p class="source-note">Values are pulled from the latest stored SEC financial facts. Each row shows the report form, period end, filed date, and accession reference.</p>
+        <div id="financials"></div>
       </div>
-      <div class="panel">
-        <div class="section-title"><h2>Recent YouTube Videos</h2></div>
-        <div class="detail-list" id="videoList"><div class="loading">Loading YouTube coverage…</div></div>
+    </details>
+
+    <details class="section-accordion">
+      <summary>
+        <span class="panel-title">Risk Summary</span>
+        <span class="meta" id="riskSource"></span>
+      </summary>
+      <div class="section-accordion-body">
+        <p class="source-note">AI summary generated from the latest stored SEC risk-factor text in company_Risks. Source text and filing reference are retained below.</p>
+        <div id="riskSummary"></div>
       </div>
-    </section>
-    </div>
-    <div class="pageAuthOverlay" aria-live="polite">
-      <div class="pageAuthOverlayCard">
-        <div class="eyebrow">Protected Access</div>
-        <h2>Sign in to unlock Company Details</h2>
-        <p>View Minerlytics company intelligence, financial details, filings, sentiment, and market detail after you sign in.</p>
-        <div class="pageAuthActions">
-          <a class="btn btnGhost" href="./login.html">Sign In</a>
-          <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
+    </details>
+
+    <details class="section-accordion">
+      <summary>
+        <span class="panel-title">Projects</span>
+        <span class="meta" id="projectCount"></span>
+      </summary>
+      <div class="section-accordion-body">
+        <div class="accordion" id="projects"></div>
+      </div>
+    </details>
+
+    <section class="media-grid">
+      <section class="panel">
+        <div class="panel-head">
+          <div class="panel-title">News Releases</div>
         </div>
-      </div>
-    </div>
+        <div class="panel-body">
+          <div class="news-list" id="newsList"></div>
+          <a class="show-all-news" id="newsLink" target="_blank" rel="noopener">Show all news</a>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div class="panel-title">YouTube Videos</div>
+        </div>
+        <div class="panel-body">
+          <a class="link-card" id="youtubeLink" target="_blank" rel="noopener">
+            <strong>Video search</strong>
+            <span>Open a YouTube search for recent company interviews, site updates, and presentations.</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div class="panel-title">SEC Filings</div>
+          <div class="meta" id="secFilingCount"></div>
+        </div>
+        <div class="panel-body">
+          <div class="filings-list" id="secFilings"></div>
+        </div>
+      </section>
+    </section>
   </main>
 
-  <script src="./js/auth-ui.js"></script>
-  <script src="./js/company-financial-fallback-data.js"></script>
+  <div class="modal-backdrop" id="managementModal" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="managementModalTitle">
+      <div class="modal-head">
+        <div>
+          <div class="modal-title" id="managementModalTitle">Management Team</div>
+          <div class="meta" id="managementCount"></div>
+        </div>
+        <button class="icon-button" id="managementClose" type="button" aria-label="Close management team modal">×</button>
+      </div>
+      <div class="management-layout">
+        <div class="management-list" id="managementList"></div>
+        <article class="management-detail" id="managementDetail"></article>
+      </div>
+    </section>
+  </div>
+
   <script>
-  (function () {
-    const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
-    const FEATURED_COMPANY_TICKERS = ["WPM", "CDE", "AEM", "GFI", "HL", "HYMC", "PZG", "PSLV", "SIVR", "SLV"];
+    const company = {"symbol": "IAUX", "yahooSymbol": "IAUX", "companyName": "i-80 Gold Corp.", "exchange": "NYSEAMERICAN", "country": "Canada", "metalFocus": "gold", "companyType": "developer", "homepageUrl": "https://www.i80gold.com/", "aboutUrl": "https://www.i80gold.com/about/", "companySummary": "i-80 Gold Corp. is a Nevada-focused, mining company with a goal of achieving mid-tier gold producer status through the development of four new open pit and underground mining operations that will ultimately process ore at the Company’s central Lone Tree complex that includes an Autoclave. The Company’s primary goal is to build a self-sustaining, mid-tier, mining company with a peer-best growth platform by employing a methodical, capital disciplined and staged approach to minimize risk while also assessing and monitoring for accretive growth opportunities. The board and management teams bring extensive technical, financial, legal, ESG and entrepreneurial expertise with proven track records of aligning their interests with shareholders and creating value.", "managementTeam": [{"name": "Cindy Tseo", "title": "VP FINANCE", "biography": "Cindy Tseo brings over 25 years of experience with the last 20 years in finance leadership roles exclusively in mining. Before joining i-80 Gold Corp., Ms. Tseo was VP Finance at Argonaut Gold and held senior finance roles at Lundin Mining Corporation, responsible for overseeing financial reporting and planning and analysis functions. Ms. Tseo holds a Bachelor of Commerce from the University of Toronto and is a Chartered Professional Accountant.​"}, {"name": "David Savarie", "title": "EVP, GENERAL COUNSEL", "biography": "David Savarie is an Ontario qualified corporate commercial lawyer with 20+ years of experience in multiple jurisdictions and industries as both inside and outside counsel, senior business executive and company director. For the last 17 years, Mr. Savarie has worked exclusively within the gold mining sector assisting in the development, permitting, financing and operations of projects across Eastern Europe, West Africa and North America. Most recently, Mr. Savarie served as SVP, General Counsel, Corporate Affairs & People at Teranga Gold Corporation until its acquisition in 2021, and thereafter as SVP, General Counsel at Argonaut Gold Inc. until its acquisition in July 2024. Mr. Savarie received his LLB from Queen’s University (Kingston Ontario) in 1999 and prior to that a Bachelor of Arts (History) from the University of Western Ontario."}, {"name": "Katerina Deluca", "title": "SVP TREASURY", "biography": "Katerina Deluca brings over 20 years of experience in financial reporting and analysis, tax, treasury, financing and mergers and acquisitions. She most recently held the position of VP Treasury and FP&A at Argonaut Gold. Prior to that Ms. Deluca held a position of Senior Finance Director at Teranga Gold, interim CFO/Controller at Gabriel Resources Ltd. Ms. Deluca is a Chartered Professional Accountant (“CPA”) and holds a Master of Science in Engineering with a Major in Economics and Business Law from the University of Economics in the Czech Republic."}, {"name": "Leily Omoumi", "title": "SVP CORPORATE DEVELOPMENT & STRATEGY", "biography": "Leily Omoumi brings over 17 years of experience across the mining industry and capital markets. She was most recently Vice President, Corporate Development at Teranga Gold, a mid-tier gold producer, where she played an integral role in the advancement of the company’s strategic direction and completed two landmark M&A transactions, including the sale of Teranga Gold to Endeavour Mining. Previously she was at BMO Asset Management covering mining and oil and gas equities as a buy-side analyst, and prior to that she was a sell-side analyst covering precious metals equities at Scotia Capital. Ms. Omoumi began her career at Hatch Consulting as an engineer, working in a technical capacity on various global mining projects. She holds a Bachelor’s Degree in Mechanical Engineering, and an MBA from the University of Toronto."}, {"name": "Mark Miller", "title": "SVP ENVIRONMENTAL & PERMITTING", "biography": "Mark Miller is an experienced environmental executive with a strong background in strategic permitting and regulatory compliance. With over three decades of experience, Mark has led environmental management programs across multiple industries, including mining, where he has managed large-scale permitting, compliance and reclamation efforts. Currently, Mark serves as the Vice President, Environmental & Permitting at i-80 Gold Corp, where he leads environmental initiatives for the company’s mining projects. Previously, he has held senior roles at Nevada Gold Mines and Barrick Gold Corp, successfully implementing strategic plans and driving cost savings while maintaining regulatory compliance. Mark holds a Bachelor of Arts in Geology from the University of Minnesota and is a licensed Professional Geologist in Wyoming and Wisconsin."}, {"name": "Paul Chawrun", "title": "EVP, CHIEF OPERATING OFFICER", "biography": "Paul Chawrun is an executive mining engineer with over 30 years of technical, operating, and corporate leadership experience, after beginning his career as an exploration geologist. His work spans a range of commodities, with a focus on gold mining and a proven track record of permitting, building, and operating gold mines globally. Most recently, Mr. Chawrun served as COO and Executive Vice President at Centerra Gold. Prior to that, he was COO of Teranga Gold playing a key role in transitioning the company from a single asset to a multi-asset West African mid-tier gold producer. He previously held senior management roles in operations at Fording Inc. and Suncor Energy, as well as technical services and corporate development roles at various mine development companies, including Detour Gold where he oversaw the technical development of the Detour Lake Project. Mr. Chawrun holds a Bachelor of Science in Mining Engineering from Queen's University, a Bachelor of Science in Geology from McMaster University, and a Master of Business Administration from Athabasca University."}, {"name": "Richard Young", "title": "PRESIDENT, CHIEF EXECUTIVE OFFICER & DIRECTOR", "biography": "Richard Young was the founder and eventually CEO of Teranga Gold Corporation, playing a key role in Teranga’s transformation from a single asset producer into a successful low-cost, mid-tier gold producer that was ultimately acquired by Endeavour Mining PLC in 2021 for more than C$2.5B. Most recently, Richard served as President and CEO of Argonaut Gold that was acquired by Alamos Gold Inc. in July of 2024. During his career, Mr. Young has been responsible for implementing award-winning sustainability programs, including the 2008 and 2017 PDAC Sustainability Award, and the 2020 UN Global Compact Canada SDG Accelerator Award."}, {"name": "Ryan Snow", "title": "EVP, CHIEF FINANCIAL OFFICER", "biography": "Ryan Snow is a mining finance professional with over 15 years of experience in financial management and reporting in both Canada and the United States (IFRS and US GAAP), internal controls, M&A, risk management and taxation. Prior to joining i-80 Gold Mr. Snow served most recently as Vice-President of Finance for Nevada Copper, where he helped to secure project financing and restructure debt during the construction and production ramp up of the Pumpkin Hollow mine. Mr. Snow was the Vice-President, Finance and Controller for Tahoe Resources during which time he oversaw the financial aspects of the Sarbanes-Oxley implementation, two business acquisitions, and progressed the Escobal mine in Guatemala and the Shahuindo Mine in Peru through construction to commercial production. He began his professional career at Hecla Mining Company and holds a B.B.A. in Accounting (with distinction) from Gonzaga University."}, {"name": "Tim George", "title": "VP OPERATIONS", "biography": "Tim George is a seasoned mining professional with over 20 years of experience in mine management, engineering, and technical consulting. Mr. George has spent over 10 years in Nevada with gold mining companies, he joined Premier Gold Mines Ltd. in 2017 and transitioned to i-80 Gold in 2021 as part of the spin-out. He is a licensed Professional Engineer in Colorado and earned a B.Sc. in Mining Engineering Cum Laude from the University of Arizona and is an active member of the Society for Mining Metallurgy and Exploration."}, {"name": "Todd Esplin", "title": "VP TECHNICAL SERVICES", "biography": "Todd Esplin is a seasoned mining professional with over 39 years of experience in gold mining across areas such as metallurgy, safety, human resources, and processing. Before starting his career with i80 Gold, Todd worked as a Mining manager and Process manager at Kinross. He was also the principal accounting Metallurgist, Human resources manager, Autoclave superintendent, and Metallurgical services superintendent with Barrick, where he led major projects to improve efficiency by up to 10% and managed large, diverse teams."}, {"name": "Tyler Hill", "title": "VP GEOLOGY", "biography": "Tyler Hill is a Professional Geologist with over 10 years of experience in Nevada mineral exploration and project management. With i-80 Gold he has held titles of Senior Geologist and Chief Geologist while overseeing exploration activities across the portfolio. Prior to joining i-80 Gold he worked for a subsidiary of the private equity group Waterton Global Resource Management, evaluating exploration projects across Nevada. From there he transitioned to Premier Gold and was part of the McCoy-Cove exploration team that that discovered 1.1 Moz Au, leading to a >400% increase in the mineral resource of the Cove deposit. He holds a B.S. degree in geology from Ball State University and a M.S. degree in geology from the University of Nevada – Reno. Mr. Hill is a Certified Professional Geologist through the American Institute for Professional Geologists and a licensed Professional Geologist in the state of Utah."}], "financials": [{"metric": "Cash", "factName": "CashAndCashEquivalentsAtCarryingValue", "factLabel": "Cash and Cash Equivalents, at Carrying Value", "value": 513506000.0, "unit": "USD", "periodStart": null, "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}, {"metric": "Assets", "factName": "Assets", "factLabel": "Assets", "value": 1176250000.0, "unit": "USD", "periodStart": null, "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}, {"metric": "Liabilities", "factName": "Liabilities", "factLabel": "Liabilities", "value": 877354000.0, "unit": "USD", "periodStart": null, "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}, {"metric": "Long-Term Debt", "factName": "LongTermDebt", "factLabel": "Long-term Debt", "value": 437833000.0, "unit": "USD", "periodStart": null, "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}, {"metric": "Current Debt", "factName": "LongTermDebtCurrent", "factLabel": "Long-term Debt, Current Maturities", "value": 307000.0, "unit": "USD", "periodStart": null, "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}, {"metric": "Gross Profit", "factName": "GrossProfit", "factLabel": "Gross Profit", "value": 16078000.0, "unit": "USD", "periodStart": "2026-01-01", "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}, {"metric": "Net Income", "factName": "NetIncomeLoss", "factLabel": "Net Income (Loss) Attributable to Parent", "value": -78601000.0, "unit": "USD", "periodStart": "2026-01-01", "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}, {"metric": "Operating Cash Flow", "factName": "NetCashProvidedByUsedInOperatingActivities", "factLabel": "Net Cash Provided by (Used in) Operating Activities", "value": -45080000.0, "unit": "USD", "periodStart": "2026-01-01", "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}, {"metric": "Shares Outstanding", "factName": "WeightedAverageNumberOfDilutedSharesOutstanding", "factLabel": "Weighted Average Number of Shares Outstanding, Diluted", "value": 837103078.0, "unit": "shares", "periodStart": "2026-01-01", "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}], "risks": {"sectionName": "Item 1A. Risk Factors", "summary": "subject to various risks and uncertainties due to the nature of its business and the present stages of exploration of its mineral properties. The latest 10-Q does not disclose material changes from the risk factors in the company's Form 10-K for the fiscal year ended December 31, 2025. Additional risks and uncertainties that the Company does not presently know or that it currently deems immaterial may impair our business operations.", "sourceText": "ITEM 1A. RISK FACTORS The Company and its future business, operations, and financial condition are subject to various risks and uncertainties due to the nature of its business and the present stages of exploration of its mineral properties. Certain of these risks and uncertainties are under the heading “Risk Factors” under the Company’s Form 10-K for the fiscal year ended December 31, 2025 (the “Form 10-K”) which is available on EDGAR at www.sec.gov and our website at www.i80gold.com . There have been no material changes to the risk factors set forth in the Company’s Form 10- K . Additional risks and uncertainties that the Company does not presently know or that it currently deems immaterial may impair our business operations.", "form": "10-Q", "filingDate": "2026-05-12", "reportDate": "2026-03-31", "accessionNumber": "0001628280-26-034207", "documentName": "iaux-20260331.htm", "documentUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/iaux-20260331.htm", "textLength": 736, "extractedAt": "2026-06-27T13:22:24+00:00"}, "prices": [{"date": "2025-06-27", "close": 0.6050000190734863, "volume": 45867800}, {"date": "2025-06-30", "close": 0.5979999899864197, "volume": 10630600}, {"date": "2025-07-01", "close": 0.6299999952316284, "volume": 5145400}, {"date": "2025-07-02", "close": 0.6370000243186951, "volume": 4217800}, {"date": "2025-07-03", "close": 0.6320000290870667, "volume": 1933400}, {"date": "2025-07-07", "close": 0.625, "volume": 3471000}, {"date": "2025-07-08", "close": 0.6039999723434448, "volume": 3976900}, {"date": "2025-07-09", "close": 0.6010000109672546, "volume": 2118500}, {"date": "2025-07-10", "close": 0.6179999709129333, "volume": 2435400}, {"date": "2025-07-11", "close": 0.6399999856948853, "volume": 3204200}, {"date": "2025-07-14", "close": 0.6539999842643738, "volume": 4479300}, {"date": "2025-07-15", "close": 0.625, "volume": 2287100}, {"date": "2025-07-16", "close": 0.6179999709129333, "volume": 2731500}, {"date": "2025-07-17", "close": 0.6029999852180481, "volume": 4314100}, {"date": "2025-07-18", "close": 0.6019999980926514, "volume": 2035500}, {"date": "2025-07-21", "close": 0.6069999933242798, "volume": 5231900}, {"date": "2025-07-22", "close": 0.6600000262260437, "volume": 4967200}, {"date": "2025-07-23", "close": 0.6489999890327454, "volume": 5494000}, {"date": "2025-07-24", "close": 0.6330000162124634, "volume": 2356900}, {"date": "2025-07-25", "close": 0.6190000176429749, "volume": 3609000}, {"date": "2025-07-28", "close": 0.5899999737739563, "volume": 5180300}, {"date": "2025-07-29", "close": 0.5789999961853027, "volume": 4040000}, {"date": "2025-07-30", "close": 0.5569999814033508, "volume": 4426900}, {"date": "2025-07-31", "close": 0.5600000023841858, "volume": 2087600}, {"date": "2025-08-01", "close": 0.5640000104904175, "volume": 3159000}, {"date": "2025-08-04", "close": 0.5899999737739563, "volume": 1668700}, {"date": "2025-08-05", "close": 0.578000009059906, "volume": 2596300}, {"date": "2025-08-06", "close": 0.5789999961853027, "volume": 3396000}, {"date": "2025-08-07", "close": 0.5879999995231628, "volume": 5652600}, {"date": "2025-08-08", "close": 0.6159999966621399, "volume": 7793800}, {"date": "2025-08-11", "close": 0.5979999899864197, "volume": 4232800}, {"date": "2025-08-12", "close": 0.5839999914169312, "volume": 3014800}, {"date": "2025-08-13", "close": 0.5789999961853027, "volume": 3682800}, {"date": "2025-08-14", "close": 0.6420000195503235, "volume": 6612200}, {"date": "2025-08-15", "close": 0.6859999895095825, "volume": 20075900}, {"date": "2025-08-18", "close": 0.7099999785423279, "volume": 4208500}, {"date": "2025-08-19", "close": 0.6880000233650208, "volume": 4807700}, {"date": "2025-08-20", "close": 0.6769999861717224, "volume": 2890400}, {"date": "2025-08-21", "close": 0.718999981880188, "volume": 2696500}, {"date": "2025-08-22", "close": 0.7599999904632568, "volume": 5566400}, {"date": "2025-08-25", "close": 0.7490000128746033, "volume": 3433200}, {"date": "2025-08-26", "close": 0.7639999985694885, "volume": 6351800}, {"date": "2025-08-27", "close": 0.7609999775886536, "volume": 1740800}, {"date": "2025-08-28", "close": 0.7680000066757202, "volume": 2862600}, {"date": "2025-08-29", "close": 0.8009999990463257, "volume": 4429800}, {"date": "2025-09-02", "close": 0.8220000267028809, "volume": 5827500}, {"date": "2025-09-03", "close": 0.8109999895095825, "volume": 4207600}, {"date": "2025-09-04", "close": 0.781000018119812, "volume": 2465600}, {"date": "2025-09-05", "close": 0.8500000238418579, "volume": 7451600}, {"date": "2025-09-08", "close": 0.8640000224113464, "volume": 5645200}, {"date": "2025-09-09", "close": 0.8479999899864197, "volume": 5387800}, {"date": "2025-09-10", "close": 0.9150000214576721, "volume": 7938800}, {"date": "2025-09-11", "close": 0.9169999957084656, "volume": 8651700}, {"date": "2025-09-12", "close": 0.9340000152587891, "volume": 5657300}, {"date": "2025-09-15", "close": 0.9190000295639038, "volume": 7504700}, {"date": "2025-09-16", "close": 0.8759999871253967, "volume": 5335400}, {"date": "2025-09-17", "close": 0.9150000214576721, "volume": 12425300}, {"date": "2025-09-18", "close": 0.9290000200271606, "volume": 8872200}, {"date": "2025-09-19", "close": 0.949999988079071, "volume": 12764900}, {"date": "2025-09-22", "close": 0.9769999980926514, "volume": 12628700}, {"date": "2025-09-23", "close": 0.9509999752044678, "volume": 9495400}, {"date": "2025-09-24", "close": 0.9340000152587891, "volume": 2593200}, {"date": "2025-09-25", "close": 0.9480000138282776, "volume": 9442300}, {"date": "2025-09-26", "close": 0.9639999866485596, "volume": 4528300}, {"date": "2025-09-29", "close": 0.9850000143051147, "volume": 5581700}, {"date": "2025-09-30", "close": 0.9549999833106995, "volume": 2937000}, {"date": "2025-10-01", "close": 0.9490000009536743, "volume": 4870700}, {"date": "2025-10-02", "close": 0.9390000104904175, "volume": 4063800}, {"date": "2025-10-03", "close": 0.949999988079071, "volume": 5194700}, {"date": "2025-10-06", "close": 0.9879999756813049, "volume": 5087600}, {"date": "2025-10-07", "close": 0.9900000095367432, "volume": 5403600}, {"date": "2025-10-08", "close": 1.0299999713897705, "volume": 8569500}, {"date": "2025-10-09", "close": 0.9549999833106995, "volume": 6316000}, {"date": "2025-10-10", "close": 0.9290000200271606, "volume": 6399700}, {"date": "2025-10-13", "close": 0.9760000109672546, "volume": 4762300}, {"date": "2025-10-14", "close": 1.0399999618530273, "volume": 7919800}, {"date": "2025-10-15", "close": 1.1200000047683716, "volume": 7358300}, {"date": "2025-10-16", "close": 1.100000023841858, "volume": 9720500}, {"date": "2025-10-17", "close": 1.0499999523162842, "volume": 9764600}, {"date": "2025-10-20", "close": 1.090000033378601, "volume": 6022100}, {"date": "2025-10-21", "close": 0.9779999852180481, "volume": 14223300}, {"date": "2025-10-22", "close": 1.0099999904632568, "volume": 11809800}, {"date": "2025-10-23", "close": 0.9729999899864197, "volume": 3418800}, {"date": "2025-10-24", "close": 0.9700000286102295, "volume": 5673500}, {"date": "2025-10-27", "close": 0.9200000166893005, "volume": 5668400}, {"date": "2025-10-28", "close": 0.949999988079071, "volume": 3857100}, {"date": "2025-10-29", "close": 0.9570000171661377, "volume": 2027200}, {"date": "2025-10-30", "close": 0.9850000143051147, "volume": 1437700}, {"date": "2025-10-31", "close": 0.9729999899864197, "volume": 2930900}, {"date": "2025-11-03", "close": 0.9350000023841858, "volume": 3152900}, {"date": "2025-11-04", "close": 0.8999999761581421, "volume": 3942900}, {"date": "2025-11-05", "close": 0.8899999856948853, "volume": 3533600}, {"date": "2025-11-06", "close": 0.8899999856948853, "volume": 2469600}, {"date": "2025-11-07", "close": 0.9399999976158142, "volume": 3010800}, {"date": "2025-11-10", "close": 0.9739999771118164, "volume": 5778400}, {"date": "2025-11-11", "close": 0.984000027179718, "volume": 1807000}, {"date": "2025-11-12", "close": 0.9990000128746033, "volume": 3894600}, {"date": "2025-11-13", "close": 1.0199999809265137, "volume": 5743900}, {"date": "2025-11-14", "close": 1.0, "volume": 4613800}, {"date": "2025-11-17", "close": 1.0099999904632568, "volume": 4831500}, {"date": "2025-11-18", "close": 1.0499999523162842, "volume": 3278300}, {"date": "2025-11-19", "close": 1.0800000429153442, "volume": 4897200}, {"date": "2025-11-20", "close": 0.9760000109672546, "volume": 6364600}, {"date": "2025-11-21", "close": 0.9879999756813049, "volume": 9538800}, {"date": "2025-11-24", "close": 1.0199999809265137, "volume": 5353600}, {"date": "2025-11-25", "close": 1.0299999713897705, "volume": 2508000}, {"date": "2025-11-26", "close": 1.090000033378601, "volume": 7613100}, {"date": "2025-11-28", "close": 1.1699999570846558, "volume": 3627600}, {"date": "2025-12-01", "close": 1.2000000476837158, "volume": 6225900}, {"date": "2025-12-02", "close": 1.190000057220459, "volume": 2684900}, {"date": "2025-12-03", "close": 1.2200000286102295, "volume": 2573600}, {"date": "2025-12-04", "close": 1.25, "volume": 3768400}, {"date": "2025-12-05", "close": 1.2699999809265137, "volume": 6271500}, {"date": "2025-12-08", "close": 1.2400000095367432, "volume": 5584800}, {"date": "2025-12-09", "close": 1.2999999523162842, "volume": 6083000}, {"date": "2025-12-10", "close": 1.350000023841858, "volume": 4302400}, {"date": "2025-12-11", "close": 1.3799999952316284, "volume": 6241800}, {"date": "2025-12-12", "close": 1.4299999475479126, "volume": 7888300}, {"date": "2025-12-15", "close": 1.4800000190734863, "volume": 11676900}, {"date": "2025-12-16", "close": 1.4800000190734863, "volume": 8283800}, {"date": "2025-12-17", "close": 1.5199999809265137, "volume": 11381600}, {"date": "2025-12-18", "close": 1.4900000095367432, "volume": 7985000}, {"date": "2025-12-19", "close": 1.5399999618530273, "volume": 39265200}, {"date": "2025-12-22", "close": 1.5700000524520874, "volume": 7662000}, {"date": "2025-12-23", "close": 1.5399999618530273, "volume": 4527800}, {"date": "2025-12-24", "close": 1.5399999618530273, "volume": 1998300}, {"date": "2025-12-26", "close": 1.5700000524520874, "volume": 3341900}, {"date": "2025-12-29", "close": 1.4500000476837158, "volume": 7339600}, {"date": "2025-12-30", "close": 1.5099999904632568, "volume": 5174700}, {"date": "2025-12-31", "close": 1.4600000381469727, "volume": 4916000}, {"date": "2026-01-02", "close": 1.4500000476837158, "volume": 2963300}, {"date": "2026-01-05", "close": 1.5099999904632568, "volume": 10035800}, {"date": "2026-01-06", "close": 1.5399999618530273, "volume": 6753100}, {"date": "2026-01-07", "close": 1.5299999713897705, "volume": 4488200}, {"date": "2026-01-08", "close": 1.5099999904632568, "volume": 4253500}, {"date": "2026-01-09", "close": 1.5, "volume": 5080600}, {"date": "2026-01-12", "close": 1.5800000429153442, "volume": 8102000}, {"date": "2026-01-13", "close": 1.5399999618530273, "volume": 5963500}, {"date": "2026-01-14", "close": 1.5499999523162842, "volume": 6657800}, {"date": "2026-01-15", "close": 1.5499999523162842, "volume": 3637800}, {"date": "2026-01-16", "close": 1.600000023841858, "volume": 8778100}, {"date": "2026-01-20", "close": 1.75, "volume": 13220200}, {"date": "2026-01-21", "close": 1.7200000286102295, "volume": 11336700}, {"date": "2026-01-22", "close": 1.809999942779541, "volume": 10061200}, {"date": "2026-01-23", "close": 1.809999942779541, "volume": 8356200}, {"date": "2026-01-26", "close": 1.7899999618530273, "volume": 12599100}, {"date": "2026-01-27", "close": 1.8300000429153442, "volume": 10062600}, {"date": "2026-01-28", "close": 1.899999976158142, "volume": 14679700}, {"date": "2026-01-29", "close": 1.7999999523162842, "volume": 14325200}, {"date": "2026-01-30", "close": 1.590000033378601, "volume": 11062400}, {"date": "2026-02-02", "close": 1.6799999475479126, "volume": 8544200}, {"date": "2026-02-03", "close": 1.8200000524520874, "volume": 10424700}, {"date": "2026-02-04", "close": 1.8200000524520874, "volume": 10257700}, {"date": "2026-02-05", "close": 1.7000000476837158, "volume": 6901800}, {"date": "2026-02-06", "close": 1.8799999952316284, "volume": 8852900}, {"date": "2026-02-09", "close": 2.0, "volume": 11454500}, {"date": "2026-02-10", "close": 1.9900000095367432, "volume": 6159800}, {"date": "2026-02-11", "close": 2.0799999237060547, "volume": 8020700}, {"date": "2026-02-12", "close": 1.940000057220459, "volume": 25086700}, {"date": "2026-02-13", "close": 1.940000057220459, "volume": 10456500}, {"date": "2026-02-17", "close": 1.899999976158142, "volume": 8217200}, {"date": "2026-02-18", "close": 1.9199999570846558, "volume": 8579600}, {"date": "2026-02-19", "close": 1.9500000476837158, "volume": 6817600}, {"date": "2026-02-20", "close": 1.8799999952316284, "volume": 14347900}, {"date": "2026-02-23", "close": 1.8899999856948853, "volume": 9155500}, {"date": "2026-02-24", "close": 1.9299999475479126, "volume": 7369500}, {"date": "2026-02-25", "close": 1.9199999570846558, "volume": 9277800}, {"date": "2026-02-26", "close": 2.0, "volume": 7044600}, {"date": "2026-02-27", "close": 2.0799999237060547, "volume": 9458100}, {"date": "2026-03-02", "close": 2.049999952316284, "volume": 9146100}, {"date": "2026-03-03", "close": 1.8899999856948853, "volume": 8095200}, {"date": "2026-03-04", "close": 1.8200000524520874, "volume": 6139500}, {"date": "2026-03-05", "close": 1.7599999904632568, "volume": 8816800}, {"date": "2026-03-06", "close": 1.75, "volume": 5536700}, {"date": "2026-03-09", "close": 1.7699999809265137, "volume": 9940300}, {"date": "2026-03-10", "close": 1.840000033378601, "volume": 7540100}, {"date": "2026-03-11", "close": 1.8200000524520874, "volume": 6382600}, {"date": "2026-03-12", "close": 1.7300000190734863, "volume": 6787600}, {"date": "2026-03-13", "close": 1.659999966621399, "volume": 12711800}, {"date": "2026-03-16", "close": 1.6699999570846558, "volume": 7215900}, {"date": "2026-03-17", "close": 1.6200000047683716, "volume": 5820700}, {"date": "2026-03-18", "close": 1.399999976158142, "volume": 116867100}, {"date": "2026-03-19", "close": 1.3200000524520874, "volume": 90944900}, {"date": "2026-03-20", "close": 1.2699999809265137, "volume": 31976800}, {"date": "2026-03-23", "close": 1.309999942779541, "volume": 29075100}, {"date": "2026-03-24", "close": 1.350000023841858, "volume": 27401800}, {"date": "2026-03-25", "close": 1.3899999856948853, "volume": 10374500}, {"date": "2026-03-26", "close": 1.3300000429153442, "volume": 7638600}, {"date": "2026-03-27", "close": 1.4299999475479126, "volume": 18652000}, {"date": "2026-03-30", "close": 1.409999966621399, "volume": 13561800}, {"date": "2026-03-31", "close": 1.5199999809265137, "volume": 25764600}, {"date": "2026-04-01", "close": 1.6100000143051147, "volume": 22209600}, {"date": "2026-04-02", "close": 1.659999966621399, "volume": 26630500}, {"date": "2026-04-06", "close": 1.6399999856948853, "volume": 32271100}, {"date": "2026-04-07", "close": 1.659999966621399, "volume": 25266200}, {"date": "2026-04-08", "close": 1.7000000476837158, "volume": 35494200}, {"date": "2026-04-09", "close": 1.6799999475479126, "volume": 21844700}, {"date": "2026-04-10", "close": 1.6799999475479126, "volume": 19189100}, {"date": "2026-04-13", "close": 1.6699999570846558, "volume": 9705200}, {"date": "2026-04-14", "close": 1.659999966621399, "volume": 17502100}, {"date": "2026-04-15", "close": 1.6100000143051147, "volume": 27332400}, {"date": "2026-04-16", "close": 1.6100000143051147, "volume": 13550500}, {"date": "2026-04-17", "close": 1.659999966621399, "volume": 12814100}, {"date": "2026-04-20", "close": 1.7000000476837158, "volume": 17363100}, {"date": "2026-04-21", "close": 1.590000033378601, "volume": 17200700}, {"date": "2026-04-22", "close": 1.5800000429153442, "volume": 7406500}, {"date": "2026-04-23", "close": 1.5499999523162842, "volume": 14263500}, {"date": "2026-04-24", "close": 1.559999942779541, "volume": 10911100}, {"date": "2026-04-27", "close": 1.5800000429153442, "volume": 6575500}, {"date": "2026-04-28", "close": 1.5099999904632568, "volume": 9903600}, {"date": "2026-04-29", "close": 1.4700000286102295, "volume": 6359700}, {"date": "2026-04-30", "close": 1.5, "volume": 6652400}, {"date": "2026-05-01", "close": 1.5199999809265137, "volume": 4368400}, {"date": "2026-05-04", "close": 1.5, "volume": 8562800}, {"date": "2026-05-05", "close": 1.4600000381469727, "volume": 5046100}, {"date": "2026-05-06", "close": 1.5800000429153442, "volume": 20602900}, {"date": "2026-05-07", "close": 1.4900000095367432, "volume": 31509400}, {"date": "2026-05-08", "close": 1.5800000429153442, "volume": 8452300}, {"date": "2026-05-11", "close": 1.600000023841858, "volume": 11795800}, {"date": "2026-05-12", "close": 1.590000033378601, "volume": 7294000}, {"date": "2026-05-13", "close": 1.559999942779541, "volume": 24661700}, {"date": "2026-05-14", "close": 1.5700000524520874, "volume": 9762600}, {"date": "2026-05-15", "close": 1.4800000190734863, "volume": 30289900}, {"date": "2026-05-18", "close": 1.4600000381469727, "volume": 5317300}, {"date": "2026-05-19", "close": 1.4800000190734863, "volume": 8789500}, {"date": "2026-05-20", "close": 1.4800000190734863, "volume": 12546400}, {"date": "2026-05-21", "close": 1.4900000095367432, "volume": 4309900}, {"date": "2026-05-22", "close": 1.5199999809265137, "volume": 4541900}, {"date": "2026-05-26", "close": 1.6200000047683716, "volume": 11842900}, {"date": "2026-05-27", "close": 1.5499999523162842, "volume": 4485600}, {"date": "2026-05-28", "close": 1.600000023841858, "volume": 7080300}, {"date": "2026-05-29", "close": 1.6200000047683716, "volume": 14914200}, {"date": "2026-06-01", "close": 1.600000023841858, "volume": 7373000}, {"date": "2026-06-02", "close": 1.6200000047683716, "volume": 6910900}, {"date": "2026-06-03", "close": 1.5299999713897705, "volume": 6291700}, {"date": "2026-06-04", "close": 1.5800000429153442, "volume": 8960300}, {"date": "2026-06-05", "close": 1.4299999475479126, "volume": 12231300}, {"date": "2026-06-08", "close": 1.399999976158142, "volume": 8073500}, {"date": "2026-06-09", "close": 1.399999976158142, "volume": 11269400}, {"date": "2026-06-10", "close": 1.3700000047683716, "volume": 9291100}, {"date": "2026-06-11", "close": 1.440000057220459, "volume": 9900700}, {"date": "2026-06-12", "close": 1.4800000190734863, "volume": 4847100}, {"date": "2026-06-15", "close": 1.559999942779541, "volume": 20649000}, {"date": "2026-06-16", "close": 1.5800000429153442, "volume": 7133800}, {"date": "2026-06-17", "close": 1.5199999809265137, "volume": 13686900}, {"date": "2026-06-18", "close": 1.5499999523162842, "volume": 14157100}, {"date": "2026-06-22", "close": 1.5, "volume": 17268400}, {"date": "2026-06-23", "close": 1.4199999570846558, "volume": 10688400}, {"date": "2026-06-24", "close": 1.3899999856948853, "volume": 10325500}, {"date": "2026-06-25", "close": 1.3899999856948853, "volume": 6670100}, {"date": "2026-06-26", "close": 1.4199999570846558, "volume": 11108996}], "projects": [{"projectName": "Archimedes Underground", "projectUrl": "https://www.i80gold.com/ruby-hill-complex-archimedes-underground/", "description": "and the Mineral Point open pit projects.", "ownership": "100% i-80 Gold Corp", "location": "Battle Mountain Trend – Northern Nevada", "status": "Construction Residual heap leaching", "miningStyle": "", "miResources": "Underground 1,791 kt @ 7.6 g/t Au for 436 koz Open Pit 4,320 kt @ 1.95 g/t Au for 272 koz", "inferredResources": "Underground 4,188 kt @ 7.3 g/t Au for 988 koz Open Pit 870 koz @ 1.12 g/t Au for 31 koz", "geologySummary": "The Ruby Hill Mine is located along the southeastern end of the Battle Mountain/Eureka gold trend. The 426 zone occurs in the Lower Laminated unit of the Goodwin Formation and the upper part of the underlying basal Goodwin unit of the Goodwin Formation in the nose of a fold. The mineralized zone forms a rod-shaped body plunging shallowly to the northeast that is 1,400 ft long, 200 ft wide and 200 ft thick.", "ni43101Reports": [{"name": "NI 43-101 Technical Report Preliminary Economic Assessment of the i-80 Gold Corp. Ruby Hill Project, Eureka County NV (March 2025)", "url": "https://www.i80gold.com/wp-content/uploads/2025/03/i-80-Gold-Corp.-Ruby-Hill-43-101-PEA-Technical-Report-Final-03_31_25.pdf"}]}, {"projectName": "Cove", "projectUrl": "https://www.i80gold.com/cove-2/", "description": "project by providing a more robust geological model, a greater understanding of the gold mineralization including continuity and grade, and increased confidence in future mineral resource delineation.", "ownership": "100% i-80 Gold Corp", "location": "Battle Mountain Trend – Northern Nevada", "status": "Advanced Exploration Permitting", "miningStyle": "Underground", "miResources": "1,177 kt @ 8.2 g/t Au for 310 koz and 15.0 g/t Ag for 568 koz", "inferredResources": "4,047 kt @ 8.9 g/t Au for 1,156 koz and 11.1 g/t Ag for 1,439 koz", "geologySummary": "The Cove deposit is in the McCoy mining district in the Fish Creek Mountains and located approximately 40km southwest of Battle Mountain, NV. Mineralization at Cove is hosted within the Helen, Gap, CSD, and 2201 zones that are located below and extending ~2000 ft northwest of the historic Cove pit. Three main types of mineralization occur within the property including (a) Carlin-like carbonate replacement deposits at Cove in the Helen, CSD, and the Gap zones, (b) polymetallic sheeted veins in the deep 2201 zone and (c) skarn mineralization at the historic McCoy pit ~1km southwest of the Cove pit.", "ni43101Reports": [{"name": "NI 43-101 Preliminary Economic Assessment for the Cove Project, Lander County, Nevada (March 2025)", "url": "https://www.i80gold.com/wp-content/uploads/2025/03/i-80-Gold-NI43-101-PEA-of-the-Cove-Project-2024-Final-31Mar2025.pdf"}]}, {"projectName": "FAD Project", "projectUrl": "https://www.i80gold.com/fad-project/", "description": "is located immediately south of i-80 Gold’s Ruby Hill Property along the southeastern extent of the highly prolific Battle Mountain-Eureka Trend in northeastern Nevada, USA. The Company announced a mineral resource estimate for FAD on November 6, 2025 which confirms the presence of high-grade gold, silver, lead and zinc mineralization. FAD presents a significant opportunity due to its high-grade nature and further growth potential, however, the Company remains focused on advancing its portfolio of five core gold projects and refurbishing the Lone Tree central processing facility which underpins its development plan to create a Nevada-focused mid-tier gold producer. The Project is considered non-core and is being contemplated for sale in support of the Company’s recapitalization objectives. It was acquired in 2023 through the acquisition of Paycore Minerals Inc.", "ownership": "100% i-80 Gold Corp", "location": "Battle Mountain-Eureka Trend northeastern Nevada", "status": "Exploration (non-core)", "miningStyle": "", "miResources": "594 kt at 4.51 g/t Au, 209.7 g/t Ag, 4.34% Pb, and 6.77% Zn containing 86 koz Au, 4.0 Moz Ag, 57 Mlb Pb, and 89 Mlb Zn (as of October 31, 2025)", "inferredResources": "Inferred Mineral Resource Estimate of 2,736 kt at 5.07 g/t Au, 188.6 g/t Ag, 3.69% Pb, and 4.42% Zn containing 446 koz Au, 16.6 Moz Ag, 223 Mlb Pb, and 267 Mlb Zn (as of October 31, 2025) related NEWS Press Release – Updated Mineral Resource Estimate (November 6, 2025) HIGHLIGHTS Indicated Mineral Resource Estimate of 594 kt at 4.51 g/t Au, 209.7 g/t Ag, 4.34% Pb, and 6.77% Zn containing 86 koz Au, 4.0 Moz Ag, 57 Mlb Pb, and 89 Mlb Zn Inferred Mineral Resource Estimate of 2,736 kt at 5.07 g/t Au, 188.6 g/t Ag, 3.69% Pb, and 4.42% Zn containing 446 koz Au, 16.6 Moz Ag, 223 Mlb Pb, and 267 Mlb Zn At spot commodity prices, there is approximately 7,360 kt containing 895 koz Au, 31 Moz Ag, 407 Mlb Pb, and 678 Mlb Zn High-grade polymetallic asset with attractive net smelter returns of approximately $430/t and $442/t in the indicated and inferred mineral resource categories, respectively. Analysis of two metallurgical composites from FAD sulfide material indicates critical metals such as gallium, indium, antimony, and tin are present in the zinc concentrate with average grades of 126.0 g/t Ga, 122.5 g/t In, 324.0 g/t Sb, and 759.5 g/t Sn, respectively, providing further upside from a metallurgical and permitting standpoint. At surface, oxide gold mineralization present at the Gold Hill target on the Property. PROJECT BACKGROUND The Company acquired FAD in 2023 through the acquisition of Paycore. Paycore completed approximately 11,000 meters of drilling, expanding the deposit, prior", "geologySummary": "& MINERALIZATION The Eureka district is characterized by gold-silver-lead-zinc polymetallic carbonate replacement and Carlin-type gold deposits, which are the two primary deposit-types within the district. The FAD deposit is a mid-Cretaceous gold-rich carbonate replacement deposit and is hosted by the Eldorado dolomite of middle Cambrian age. Sulfide replacement deposit on the FAD property consists mainly of subequal amounts of pyrite, sphalerite, and galena, with subordinate amounts of hydrothermal dolomite, calcite, arsenopyrite, tennantite, pyrrhotite, quartz, and chalcopyrite.", "ni43101Reports": []}, {"projectName": "Granite Creek Open Pit", "projectUrl": "https://www.i80gold.com/granite-creek/", "description": "The Granite Creek Project is located at the intersection of the Getchell and Battle Mountain Trends proximal to Nevada Gold Mines’ Twin Creeks and Turquoise Ridge mining operations. The project hosts both high grade open pit and underground mineral resources that remain open for expansion. Technical work is underway to advance the project toward either a pre-feasibility or a feasibility level study, and technical trade off analyses are being conducted to optimize project economics.", "ownership": "100% i-80 Gold Corp", "location": "Getchell Trend – Northern Nevada", "status": "Permitting", "miningStyle": "Open-pit", "miResources": "37,701 kt @ 1.18 g/t Au for 1,435 koz", "inferredResources": "2,148 kt @ 1.09 g/t Au for 75 koz", "geologySummary": "The property sits on the eastern flank of the Osgood Mountains near the intersection of the northeast-trending Getchell trend and the northwest-trending Battle Mountain trend. Since 1980, the property has produced nearly one million ounces of gold, primarily from the CX, Mag, and Range Front Zones that are all located in the hanging wall of the east-dipping Range Front fault of the Osgood Mountains. The primary host rocks are interbedded shale, siltstone, and limestone rock units of the Ordovician Comus Formation with lesser mineralization in shales and limestones of the underlying Cambrian Preble Formation.", "ni43101Reports": [{"name": "getchell-project-ni-43-101-technical-report-Jan-22-2021.pdf", "url": "https://www.i80gold.com/wp-content/uploads/2021/03/getchell-project-ni-43-101-technical-report-Jan-22-2021.pdf"}, {"name": "NI 43-101 Preliminary Economic Assessment Technical Report Granite Creek Mine Project Humboldt County, Nevada, USA (March 2025)", "url": "https://www.i80gold.com/wp-content/uploads/2025/03/Granite-Creek-PEA-Technical-Report-Final-03_31_25.pdf"}]}, {"projectName": "Granite Creek Underground", "projectUrl": "https://www.i80gold.com/granite-creek-underground/", "description": "is the Company’s first brownfield project to be redeveloped and is currently ramping up towards steady-state gold output. The Granite Creek Property is located at the intersection of the Getchell and Battle Mountain Trends proximal to Nevada Gold Mines’ Twin Creeks and Turquoise Ridge mining operations. The project hosts both high grade open pit and underground mineral resources that remain open for expansion.", "ownership": "100% i-80 Gold Corp.", "location": "Getchell Trend – Northern Nevada", "status": "Operating – Ramping up to steady state", "miningStyle": "Underground (cut-and-fill)", "miResources": "775 kt @ 10.5 g/t Au for 261 koz", "inferredResources": "782 kt @ 13.0 g/t Au for 326 koz", "geologySummary": "The property sits on the eastern flank of the Osgood Mountains near the intersection of the northeast-trending Getchell trend and the northwest-trending Battle Mountain trend. Since 1980, the property has produced nearly one million ounces of gold, primarily from the CX, Mag, and Range Front Zones that are all located in the hanging wall of the east-dipping Range Front fault of the Osgood Mountains. The primary host rocks are interbedded shale, siltstone, and limestone rock units of the Ordovician Comus Formation with lesser mineralization in shales and limestones of the underlying Cambrian Preble Formation.", "ni43101Reports": [{"name": "getchell-project-ni-43-101-technical-report-Jan-22-2021.pdf", "url": "https://www.i80gold.com/wp-content/uploads/2021/03/getchell-project-ni-43-101-technical-report-Jan-22-2021.pdf"}, {"name": "NI 43-101 Preliminary Economic Assessment Technical Report Granite Creek Mine Project Humboldt County, Nevada, USA (March 2025)", "url": "https://www.i80gold.com/wp-content/uploads/2025/03/Granite-Creek-PEA-Technical-Report-Final-03_31_25.pdf"}]}, {"projectName": "Lone Tree Complex", "projectUrl": "https://www.i80gold.com/lone-tree/", "description": "IAU : TSX ( ) IAUX : NYSE ( ) Follow Follow Follow Follow IAU : TSX ( ) IAUX : NYSE ( ) LONE TREE PLANT i-80 holds a 100% interest in the Lone Tree property, located within the Battle Mountain Trend. The Lone Tree Plant is currently non-operational and a construction decision on its refurbishment was made by the Board of Directors in Q1 2026. i-80 Gold is one of two gold companies in Nevada with an autoclave processing plant. The Lone Tree Plant is envisioned to process material from the Company’s three underground mines, Granite Creek, Archimedes, and Cove, to establish a regional hub-and-spoke mining and processing model. Upon refurbishment and commissioning as planned, the Lone Tree Plant will allow the Company to transition from toll milling to owner-operated processing. This shift is expected to materially increase operating margins and enhance free cash flow generation. The total land package of the Lone Tree property consists of approximately 12,000 acres. The property contains significant gold resources with the known mineralized zones remaining open for expansion within the Lone Tree open pit, which is not currently included in the new development plan.", "ownership": "100% i-80 Gold Corp", "location": "Battle Mountain Trend – Northern Nevada", "status": "Constructiond decision granted on the refurbishment Active heap leach pad (currently processing oxide ore from Granite Creek)", "miningStyle": "Centralized autoclave and carbon-in-leach processing facility", "miResources": "7,200 kt @ 1.77 g/t Au for 410 koz", "inferredResources": "50,700 kt @ 1.69 g/t Au for 2,764 koz", "geologySummary": "Additionally, mineralization is located between the Roberts Mountain and Golconda thrusts in siliciclastic rocks of the Ordovician Valmy Formation and in the Pennsylvanian-Permian Battle Mountain and Edna Mountain Formations, and above the Golconda thrust in siliciclastic and carbonate rocks of the Mississippian to Permian Havallah sequence. Mineralization is also hosted by Eocene rhyolitic dikes, although no large intrusive body has been delineated. The gold is associated with sericitic and argillic alteration of the siliciclastic rocks and dikes and with decarbonatization and Fe carbonate alteration of the carbonate-bearing units, as well as in Fe-As sulfide and fine grained quartz alteration of all rock types.", "ni43101Reports": [{"name": "getchell-project-ni-43-101-technical-report-Jan-22-2021.pdf", "url": "https://www.i80gold.com/wp-content/uploads/2021/03/getchell-project-ni-43-101-technical-report-Jan-22-2021.pdf"}, {"name": "Technical Report on the Mineral Resource Estimates for the Lone Tree Deposit, Nevada (March 2025)", "url": "https://www.i80gold.com/wp-content/uploads/2025/03/i80_LoneTree_NI43101_Report_2025_V9_March30-1.pdf"}]}, {"projectName": "Mineral Point Open Pit", "projectUrl": "https://www.i80gold.com/ruby-hill/", "description": "deposit is the largest asset within the Ruby Hill Complex. This deposit has been the focus of multiple drilling campaigns and is one of the largest unmined, bulk mineable precious metal resource in the northern Nevada. Mineral Point is located to the west of the Archimedes Underground, stretching along a major anticlinal structure. The mineralized body extends for over 10,000 feet in length and remains open at depth. Due to the economic potential at Mineral Point, the Company is accelerating infill drilling and technical work to support pre-feasibility and feasibility studies.", "ownership": "100% i-80 Gold Corp", "location": "Battle Mountain Trend – Northern Nevada", "status": "Advanced exploration, permitting Residual heap leach pad", "miningStyle": "", "miResources": "216,982 kt @ 0.48 g/t Au for 3,376 koz and 15.0 g/t Ag for 104,332 koz", "inferredResources": "194,442 kt @ 0.34 g/t Au for 2,117 koz and 14.6 g/t Ag for 91,473 koz", "geologySummary": "The Mineral Point deposit is the largest precious metal Mineral Resource in the i-80 portfolio. It consists of gold and silver mineralization hosted by the Cambrian Hamburg dolomite in the nose of a broad anticline that plunges gently to the north-northwest and is bound to the east by the Holly Fault and to the west by the Spring Valley Fault. The Mineral Point deposit is 10,000 ft long, 2,400 ft wide and up to 500 ft thick.", "ni43101Reports": [{"name": "NI 43-101 Technical Report Preliminary Economic Assessment of the i-80 Gold Corp. Ruby Hill Project, Eureka County NV(March 2025)", "url": "https://www.i80gold.com/wp-content/uploads/2025/03/i-80-Gold-Corp.-Ruby-Hill-43-101-PEA-Technical-Report-Final-03_31_25.pdf"}]}], "newsUrl": "https://www.i80gold.com/investors/#news", "newsItems": [{"date": "", "title": "i-80 Gold Announces Termination of Gold Offtake Agreement", "url": "https://www.i80gold.com/i-80-gold-announces-termination-of-gold-offtake-agreement/"}, {"date": "", "title": "i-80 Gold Announces Additional High-Grade Assay Results From Archimedes Underground Including 16.2 g/t Au Over 56.4 Meters; Updates Timing of 2026 Technical Studies", "url": "https://www.i80gold.com/10339-2/"}, {"date": "", "title": "i-80 Gold Announces Voting Results from Its 2026 Annual Meeting of Shareholders", "url": "https://www.i80gold.com/10326-2/"}, {"date": "", "title": "i-80 Gold Reports First Quarter 2026 Results; Fully Funded Development Plan on Track", "url": "https://www.i80gold.com/i-80-gold-reports-first-quarter-2026-results-fully-funded-development-plan-on-track/"}, {"date": "", "title": "i-80 Gold Reports High-Grade Assay Results at Archimedes Underground Project Including 24.6 g/t Au over 23.6 meters; Development Advancing on Schedule", "url": "https://www.i80gold.com/i-80-gold-reports-high-grade-assay-results-at-archimedes-underground-project-including-24-6-g-t-au-over-23-6-meters-development-advancing-on-schedule/"}], "secFilings": [{"form": "8-K", "filingDate": "2026-05-15", "reportDate": "2026-05-15", "accessionNumber": "0001193125-26-227244", "description": "8-K", "filingUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000119312526227244/", "documentUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000119312526227244/d100702d8k.htm"}, {"form": "SCHEDULE 13G/A", "filingDate": "2026-05-15", "reportDate": "", "accessionNumber": "0000905148-26-002422", "description": "SCHEDULE 13G/A", "filingUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000090514826002422/", "documentUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000090514826002422/xslSCHEDULE_13G_X02/primary_doc.xml"}, {"form": "8-K", "filingDate": "2026-05-12", "reportDate": "2026-05-12", "accessionNumber": "0001628280-26-034215", "description": "8-K", "filingUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034215/", "documentUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034215/iaux-20260512.htm"}, {"form": "10-Q", "filingDate": "2026-05-12", "reportDate": "2026-03-31", "accessionNumber": "0001628280-26-034207", "description": "10-Q", "filingUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/", "documentUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/iaux-20260331.htm"}, {"form": "ARS", "filingDate": "2026-04-29", "reportDate": "2025-12-31", "accessionNumber": "0001628280-26-028420", "description": "ARS", "filingUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026028420/", "documentUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026028420/i-80goldcorp2025annualrepo.pdf"}], "youtubeUrl": "https://www.youtube.com/results?search_query=i-80+Gold+Corp.+mining"};
+    const ranges = [
+      { label: "1W", days: 7 },
+      { label: "1M", days: 31 },
+      { label: "3M", days: 93 },
+      { label: "6M", days: 186 },
+      { label: "12M", days: 366 }
+    ];
+    let selectedRange = "6M";
+    let selectedPersonIndex = 0;
 
-    function pickFeaturedTicker() {
-      try {
-        const cachedWatch = JSON.parse(localStorage.getItem("minerlytics_watchlist") || "[]");
-        const watchTicker = Array.isArray(cachedWatch)
-          ? cachedWatch.map((item) => String(item?.symbol || item || "").toUpperCase().trim()).find(Boolean)
-          : "";
-        if (watchTicker) return watchTicker;
-      } catch {}
-
-      const cachedTicker = String(localStorage.getItem("minerlytics_last_company_ticker") || "").toUpperCase().trim();
-      if (cachedTicker) return cachedTicker;
-
-      const dayIndex = Math.abs(Math.floor(Date.now() / 86400000)) % FEATURED_COMPANY_TICKERS.length;
-      return FEATURED_COMPANY_TICKERS[dayIndex];
-    }
-
-    const ticker = (new URLSearchParams(window.location.search).get("ticker") || pickFeaturedTicker()).toUpperCase().trim();
-    localStorage.setItem("minerlytics_last_company_ticker", ticker);
-    const chartCanvas = document.getElementById("companyChart");
-    const companySearchInput = document.getElementById("companySearchInput");
-    const companySearchBtn = document.getElementById("companySearchBtn");
-    const pageLoader = document.getElementById("pageLoader");
-    let cachedPoints = [];
-
-    const $ = (id) => document.getElementById(id);
-    const isLocalFile = window.location.protocol === "file:";
-    const localFinancialFallback = window.MINERLYTICS_COMPANY_FINANCIAL_FALLBACK || {};
-
-    function dataUrl(path) {
-      const clean = String(path || "")
-        .replace(/^\/+/, "")
-        .replace(/^public\//, "");
-      return isLocalFile ? `./public/${clean}` : `/${clean}`;
-    }
-
-    function getLocalFallbackTickerData(symbol) {
-      return localFinancialFallback[String(symbol || "").toUpperCase().trim()] || {};
-    }
-
-    function fmtCurrency(value) {
-      const num = Number(value);
-      if (!Number.isFinite(num)) return "Not available";
-      const abs = Math.abs(num);
-      if (abs >= 1e9) return `$${(num / 1e9).toFixed(2)}B`;
-      if (abs >= 1e6) return `$${(num / 1e6).toFixed(2)}M`;
-      if (abs >= 1e3) return `$${(num / 1e3).toFixed(1)}K`;
-      return `$${num.toFixed(2)}`;
-    }
-
-    function fmtNumber(value) {
-      const num = Number(value);
-      if (!Number.isFinite(num)) return "Not available";
-      return new Intl.NumberFormat("en-US").format(num);
-    }
-
-    function fmtPct(value) {
-      const num = Number(value);
-      if (!Number.isFinite(num)) return "Not available";
-      return `${num >= 0 ? "+" : ""}${num.toFixed(2)}%`;
-    }
-
-    function fmtMarketCap(value) {
-      return fmtCurrency(value);
-    }
-
-    function relTime(value) {
-      if (!value) return "recent";
-      const date = new Date(value);
-      const diffMs = Date.now() - date.getTime();
-      const diffHrs = Math.round(diffMs / 36e5);
-      if (!Number.isFinite(diffHrs)) return "recent";
-      if (Math.abs(diffHrs) < 24) return `${Math.max(1, Math.abs(diffHrs))}h ago`;
-      const diffDays = Math.round(diffHrs / 24);
-      return `${Math.max(1, Math.abs(diffDays))}d ago`;
-    }
-
-    async function fetchJson(url) {
-      const res = await fetch(url, { headers: { accept: "application/json" }, cache: "no-store" });
-      if (!res.ok) throw new Error(`${url} (${res.status})`);
-      return res.json();
-    }
-
-    function findByTicker(items, key = "ticker") {
-      return Array.isArray(items)
-        ? items.find((item) => String(item?.[key] || "").toUpperCase() === ticker)
-        : null;
-    }
-
-    function firstDefined(...values) {
-      for (const value of values) {
-        if (value !== undefined && value !== null && value !== "") return value;
-      }
-      return null;
+    function formatLabel(value) {
+      return String(value || "").replace(/_/g, " ");
     }
 
     function setText(id, value) {
-      const el = $(id);
-      if (el) el.textContent = value;
+      document.getElementById(id).textContent = value || "";
     }
 
-    function setHtml(id, value) {
-      const el = $(id);
-      if (el) el.innerHTML = value;
-    }
-
-    function hidePageLoader() {
-      pageLoader?.classList.add("is-hidden");
-    }
-
-    function applyProtectedGate() {
-      const email = localStorage.getItem("minerlytics_user_email");
-      document.querySelectorAll("[data-protected-page-gate]").forEach((gate) => {
-        gate.classList.toggle("is-locked", !email);
-      });
-    }
-
-    function parseSearchTicker(value) {
-      return String(value || "")
-        .split(/[,\s]+/)
-        .map((item) => String(item || "").trim().toUpperCase())
-        .filter(Boolean)[0] || "";
-    }
-
-    function runCompanySearch() {
-      const nextTicker = parseSearchTicker(companySearchInput?.value || "");
-      if (!nextTicker) return;
-      window.location.href = `./company.html?ticker=${encodeURIComponent(nextTicker)}`;
-    }
-
-    function formatSectionText(value) {
-      const text = String(value || "Not available.").trim();
-      return text
-        .split(/\n{2,}/)
-        .map((part) => `<p style="margin:0 0 12px;">${part}</p>`)
+    function initHeader() {
+      setText("companyName", company.companyName);
+      setText("ticker", `(${company.symbol})`);
+      setText("companyMeta", `${company.exchange || ""} · ${company.country || ""} · Yahoo: ${company.yahooSymbol || company.symbol}`);
+      document.getElementById("pills").innerHTML = [company.metalFocus, company.companyType]
+        .filter(Boolean)
+        .map(value => `<span class="pill">${formatLabel(value)}</span>`)
         .join("");
+      setText("companySummary", company.companySummary || "No company website summary has been loaded yet.");
+      const website = document.getElementById("websiteLink");
+      website.href = company.homepageUrl || "#";
+      website.textContent = company.homepageUrl || "Not available";
+      const managementButton = document.getElementById("managementTeamButton");
+      managementButton.hidden = !(company.managementTeam || []).length;
+      managementButton.addEventListener("click", openManagementModal);
+      document.getElementById("newsLink").href = company.newsUrl || company.homepageUrl || "#";
+      document.getElementById("youtubeLink").href = company.youtubeUrl || "#";
     }
 
-    function normalizeTextBlock(value) {
-      return String(value || "")
-        .replace(/\s+/g, " ")
-        .replace(/\u0000/g, " ")
-        .trim();
-    }
-
-    function buildTableText(report) {
-      const tables = Array.isArray(report?.tables) ? report.tables : [];
-      return tables.flatMap((table) => {
-        const rows = Array.isArray(table?.rows) ? table.rows : [];
-        return rows.map((row) => {
-          const cells = Array.isArray(row) ? row : [];
-          return normalizeTextBlock(cells.join(" | "));
-        }).filter(Boolean);
-      });
-    }
-
-    function getReportCombinedText(report) {
-      const blocks = Array.isArray(report?.textBlocks) ? report.textBlocks : [];
-      const blockText = blocks.map((item) => normalizeTextBlock(item?.text || item?.text_content || "")).join(" ");
-      const tableText = buildTableText(report).join(" ");
-      return normalizeTextBlock(`${blockText} ${tableText}`);
-    }
-
-    function reportReadabilityScore(report) {
-      const text = getReportCombinedText(report);
-      if (!text) return -9999;
-      const alpha = (text.match(/[A-Za-z]/g) || []).length;
-      const spaces = (text.match(/\s/g) || []).length;
-      const colonCodes = (text.match(/[a-z-]+:[A-Za-z]/g) || []).length;
-      const pipeCount = (text.match(/\|/g) || []).length;
-      const ratioAlpha = alpha / Math.max(text.length, 1);
-      const ratioSpaces = spaces / Math.max(text.length, 1);
-      let score = Math.round(ratioAlpha * 100) + Math.round(ratioSpaces * 80) + Math.min(pipeCount, 20);
-      score -= colonCodes * 2;
-      if (/united states securities and exchange commission/i.test(text)) score += 15;
-      if (/forward-looking statements/i.test(text)) score += 10;
-      if (/mineral reserve|mineral resource|production|mine|project/i.test(text)) score += 12;
-      return score;
-    }
-
-    function splitIntoSentences(text) {
-      const cleaned = normalizeTextBlock(text)
-        .replace(/([a-z])([A-Z])/g, "$1. $2")
-        .replace(/\s+\|\s+/g, ". ");
-      return cleaned
-        .split(/(?<=[.!?;])\s+/)
-        .map((part) => part.trim())
-        .filter((part) => part.length >= 40);
-    }
-
-    function uniqueList(items = []) {
-      const seen = new Set();
-      return items.filter((item) => {
-        const key = String(item || "").trim();
-        if (!key || seen.has(key)) return false;
-        seen.add(key);
-        return true;
-      });
-    }
-
-    function extractKeywordSnippets(text, keywords = [], max = 3) {
-      const loweredKeywords = keywords.map((item) => String(item || "").toLowerCase()).filter(Boolean);
-      const sentences = splitIntoSentences(text);
-      const scored = sentences.map((sentence) => {
-        const lower = sentence.toLowerCase();
-        let score = 0;
-        loweredKeywords.forEach((keyword) => {
-          if (lower.includes(keyword)) score += keyword.length > 6 ? 3 : 2;
-        });
-        if (/\b(20\d{2}|q1|q2|q3|q4|quarter|ounces|oz|production|mine|project|guidance|risk)\b/i.test(sentence)) {
-          score += 2;
-        }
-        if (sentence.length > 420) score -= 2;
-        return { sentence, score };
-      }).filter((item) => item.score > 0);
-
-      return uniqueList(
-        scored
-          .sort((a, b) => b.score - a.score)
-          .slice(0, max)
-          .map((item) => item.sentence)
-      );
-    }
-
-    function buildSectionFromSnippets(title, snippets = [], reportMeta = null) {
-      const cleaned = uniqueList(snippets).slice(0, 3);
-      if (!cleaned.length) return "";
-      const heading = reportMeta
-        ? `${title} — ${reportMeta.form || "Filing"} filed ${reportMeta.filingDate || reportMeta.reportDate || "recently"}`
-        : title;
-      return `${heading}\n\n${cleaned.join("\n\n")}`;
-    }
-
-    async function fetchLatestEdgarDisclosure(tickerSymbol) {
-      try {
-        const indexData = await fetchJson(dataUrl("data/mining_disclosure_index.json"));
-        const items = Array.isArray(indexData?.items)
-          ? indexData.items
-              .filter((item) => String(item?.ticker || "").toUpperCase() === tickerSymbol)
-              .sort((a, b) => String(b?.filingDate || "").localeCompare(String(a?.filingDate || "")))
-          : [];
-
-        if (!items.length) return null;
-
-        const candidates = items.slice(0, 5);
-        const reports = [];
-        for (const item of candidates) {
-          try {
-            const report = await fetchJson(dataUrl(item.output));
-            reports.push({ meta: item, report, score: reportReadabilityScore(report) });
-          } catch {
-            // keep going
-          }
-        }
-
-        if (!reports.length) return null;
-
-        reports.sort((a, b) => b.score - a.score || String(b.meta?.filingDate || "").localeCompare(String(a.meta?.filingDate || "")));
-        const best = reports[0];
-        return {
-          meta: best.meta,
-          report: best.report,
-          text: getReportCombinedText(best.report),
-          tableLines: buildTableText(best.report),
-          score: best.score,
-        };
-      } catch {
-        return null;
-      }
-    }
-
-    function buildEdgarSectionSet(edgar) {
-      if (!edgar?.text) return null;
-
-      const text = edgar.text;
-      const mineSnippets = extractKeywordSnippets(text, ["mine", "project", "operation", "property", "grade", "resource", "reserve", "location"], 3);
-      const productionSnippets = extractKeywordSnippets(text, ["production", "produced", "ounces", "ounce", "gold", "silver", "copper", "tonnes"], 3);
-      const managementSnippets = extractKeywordSnippets(text, ["strategy", "management", "operations", "capital", "guidance", "development", "exploration"], 3);
-      const riskSnippets = extractKeywordSnippets(text, ["risk", "uncertainties", "uncertainty", "inflation", "permitting", "environmental", "commodity prices"], 3);
-      const forwardSnippets = extractKeywordSnippets(text, ["forward-looking", "expect", "anticipate", "plan", "guidance", "future", "outlook"], 3);
-
-      return {
-        production: buildSectionFromSnippets("EDGAR Production", productionSnippets, edgar.meta),
-        mines: buildSectionFromSnippets("EDGAR Mine Detail", mineSnippets, edgar.meta),
-        management: buildSectionFromSnippets("EDGAR Management", managementSnippets, edgar.meta),
-        risks: buildSectionFromSnippets("EDGAR Risks", riskSnippets, edgar.meta),
-        forward: buildSectionFromSnippets("EDGAR Forward Looking", forwardSnippets, edgar.meta),
-      };
-    }
-
-    function drawChart(points = []) {
-      if (!chartCanvas) return;
-      const rect = chartCanvas.getBoundingClientRect();
-      const dpr = window.devicePixelRatio || 1;
-      chartCanvas.width = Math.max(300, Math.floor(rect.width * dpr));
-      chartCanvas.height = Math.floor(300 * dpr);
-      const ctx = chartCanvas.getContext("2d");
-      ctx.setTransform(1, 0, 0, 1, 0, 0);
-      ctx.scale(dpr, dpr);
-      ctx.clearRect(0, 0, rect.width, 300);
-
-      if (!points.length) {
-        ctx.fillStyle = "rgba(234,240,255,.62)";
-        ctx.font = "14px system-ui";
-        ctx.fillText("No market data available yet.", 18, 30);
+    function initNews() {
+      const container = document.getElementById("newsList");
+      const items = company.newsItems || [];
+      if (!items.length) {
+        container.innerHTML = '<div class="empty">No recent news items were captured for this company.</div>';
         return;
       }
-
-      const closes = points.map((point) => Number(point.close)).filter(Number.isFinite);
-      const min = Math.min(...closes);
-      const max = Math.max(...closes);
-      const pad = Math.max((max - min) * 0.12, 0.5);
-      const low = min - pad;
-      const high = max + pad;
-      const width = rect.width;
-      const height = 300;
-
-      ctx.strokeStyle = "rgba(255,255,255,.08)";
-      for (let i = 1; i < 4; i += 1) {
-        const y = (height / 4) * i;
-        ctx.beginPath();
-        ctx.moveTo(0, y);
-        ctx.lineTo(width, y);
-        ctx.stroke();
-      }
-
-      const coords = points.map((point, index) => {
-        const x = (width * index) / Math.max(points.length - 1, 1);
-        const y = height - ((Number(point.close) - low) / (high - low || 1)) * (height - 16) - 8;
-        return { x, y };
-      });
-
-      const grad = ctx.createLinearGradient(0, 0, 0, height);
-      grad.addColorStop(0, "rgba(154,122,74,.26)");
-      grad.addColorStop(1, "rgba(154,122,74,0)");
-      ctx.beginPath();
-      coords.forEach((point, index) => {
-        if (index === 0) ctx.moveTo(point.x, point.y);
-        else ctx.lineTo(point.x, point.y);
-      });
-      ctx.lineTo(width, height);
-      ctx.lineTo(0, height);
-      ctx.closePath();
-      ctx.fillStyle = grad;
-      ctx.fill();
-
-      ctx.beginPath();
-      coords.forEach((point, index) => {
-        if (index === 0) ctx.moveTo(point.x, point.y);
-        else ctx.lineTo(point.x, point.y);
-      });
-      ctx.strokeStyle = "rgba(154,122,74,.96)";
-      ctx.lineWidth = 2.5;
-      ctx.stroke();
-
-      const last = coords[coords.length - 1];
-      ctx.beginPath();
-      ctx.arc(last.x, last.y, 4.5, 0, Math.PI * 2);
-      ctx.fillStyle = "#fff";
-      ctx.fill();
-      ctx.beginPath();
-      ctx.arc(last.x, last.y, 7.5, 0, Math.PI * 2);
-      ctx.strokeStyle = "rgba(110,122,113,.72)";
-      ctx.lineWidth = 2;
-      ctx.stroke();
-    }
-
-    function renderFeed(listId, items, type) {
-      const target = $(listId);
-      if (!target) return;
-      if (!Array.isArray(items) || !items.length) {
-        target.innerHTML = `<div class="loading">No ${type === "video" ? "video" : "RSS"} items available yet.</div>`;
-        return;
-      }
-
-      target.innerHTML = items.map((item) => `
-        <div class="detail-item">
-          <a href="${item.link || item.url || "#"}" target="_blank" rel="noreferrer">
-            <div class="detail-title">${item.title || "Untitled"}</div>
-            <div class="detail-meta">${item.source || item.channel || type} • ${relTime(item.published_at || item.fetched_at)}</div>
-            ${item.transcript_snippet ? `<div class="detail-text">${item.transcript_snippet}</div>` : ""}
-          </a>
-        </div>
+      container.innerHTML = items.slice(0, 5).map(item => `
+        <article class="news-item">
+          ${item.date ? `<div class="news-date">${item.date}</div>` : ""}
+          <a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>
+        </article>
       `).join("");
     }
 
-    function fillFinancialCard(value, metaValueId, valueId) {
-      setText(valueId, value?.val !== undefined ? fmtCurrency(value.val) : "Not available");
-      setText(metaValueId, value?.filed ? `${value.form || "Filed"} • ${value.filed}` : "Not available");
-    }
-
-    function getFactDate(fact = {}) {
-      return firstDefined(fact.filed, fact.end, fact.asOf, fact.extractedAt, "");
-    }
-
-    function factRank(fact = {}) {
-      const stamp = Date.parse(getFactDate(fact)) || 0;
-      const year = Number(fact.fy) || 0;
-      return stamp || year;
-    }
-
-    function chooseLatestFact(...facts) {
-      return facts
-        .flat()
-        .filter((fact) => fact && Number.isFinite(Number(firstDefined(fact.val, fact.value))))
-        .sort((a, b) => factRank(b) - factRank(a))[0] || null;
-    }
-
-    function getBalanceFact(balanceSheet, legacyBalanceSheet, keys = [], legacyKeys = []) {
-      const modernMatches = keys.map((key) => balanceSheet?.[key]).filter(Boolean);
-      const legacyMatches = legacyKeys.map((key) => legacyBalanceSheet?.[key]).filter(Boolean);
-      return chooseLatestFact(modernMatches, legacyMatches);
-    }
-
-    function fmtFactMeta(fact) {
-      if (!fact) return "Not available";
-      const form = firstDefined(fact.form, "Filed");
-      const period = firstDefined(fact.fp, fact.end);
-      const filed = firstDefined(fact.filed, fact.end);
-      return [form, period, filed].filter(Boolean).join(" • ");
-    }
-
-    function renderFinancialFact(valueId, metaValueId, fact, formatter = fmtCurrency) {
-      const raw = firstDefined(fact?.val, fact?.value);
-      setText(valueId, raw !== null ? formatter(raw) : "Not available");
-      setText(metaValueId, fmtFactMeta(fact));
-    }
-
-    function renderFinancialHighlights(items = []) {
-      const target = $("finDetailList");
-      if (!target) return;
-      const usable = items.filter((item) => Number.isFinite(Number(firstDefined(item?.fact?.val, item?.fact?.value))));
-      if (!usable.length) {
-        target.innerHTML = `<div class="detail-item"><div class="detail-title">No additional filed financial details are available for this ticker yet.</div><div class="detail-meta">Try another covered miner like WPM, CDE, AEM, GFI, HL, or HYMC.</div></div>`;
+    function initSecFilings() {
+      const filings = company.secFilings || [];
+      setText("secFilingCount", `${filings.length} filings`);
+      const container = document.getElementById("secFilings");
+      if (!filings.length) {
+        container.innerHTML = '<div class="empty">No SEC filings have been stored for this company.</div>';
         return;
       }
-
-      target.innerHTML = usable.map((item) => {
-        const value = firstDefined(item.fact?.val, item.fact?.value);
-        const pretty = item.formatter === fmtNumber ? fmtNumber(value) : item.formatter === String ? String(value) : fmtCurrency(value);
+      container.innerHTML = filings.slice(0, 5).map(filing => {
+        const url = filing.documentUrl || filing.filingUrl || "#";
+        const label = [filing.form, filing.description].filter(Boolean).join(" · ");
+        const reportDate = filing.reportDate ? ` · report ${escapeHtml(filing.reportDate)}` : "";
         return `
-          <div class="detail-item">
-            <div class="detail-title">${item.label}: ${pretty}</div>
-            <div class="detail-meta">${fmtFactMeta(item.fact)}</div>
-            <div class="detail-text">${item.description}</div>
-          </div>
+          <article class="filing-item">
+            <a href="${url}" target="_blank" rel="noopener">${escapeHtml(label)}</a>
+            <div class="filing-meta">Filed ${escapeHtml(filing.filingDate || "n/a")}${reportDate}</div>
+            <div class="filing-meta">Accession: ${escapeHtml(filing.accessionNumber || "n/a")}</div>
+          </article>
         `;
       }).join("");
     }
 
-    async function loadPage() {
-      try {
-        const [detail, companyMetaRaw, fundamentalsRaw, balanceSheetsRaw, legacyBalanceSheetsRaw, edgarDisclosure] = await Promise.all([
-          fetchJson(`${API_BASE}/api/company-detail?ticker=${encodeURIComponent(ticker)}`),
-          fetchJson(dataUrl("data/company_meta.json")).catch(() => []),
-          fetchJson(dataUrl("data/fundamentals_latest.json")).catch(() => []),
-          fetchJson(dataUrl("data/detailed_balance_sheets.json")).catch(() => []),
-          fetchJson(dataUrl("data/balance_sheets.json")).catch(() => []),
-          fetchLatestEdgarDisclosure(ticker),
-        ]);
+    function initRanges() {
+      const buttons = document.getElementById("rangeButtons");
+      buttons.innerHTML = ranges.map(range => `<button type="button" data-range="${range.label}">${range.label}</button>`).join("");
+      buttons.addEventListener("click", event => {
+        const button = event.target.closest("button");
+        if (!button) return;
+        selectedRange = button.dataset.range;
+        drawChart();
+      });
+    }
 
-        const fallbackTickerData = getLocalFallbackTickerData(ticker);
-        const companyMeta = Array.isArray(companyMetaRaw) && companyMetaRaw.length
-          ? companyMetaRaw
-          : Object.values(localFinancialFallback).map((item) => item.meta).filter(Boolean);
-        const fundamentals = Array.isArray(fundamentalsRaw) && fundamentalsRaw.length
-          ? fundamentalsRaw
-          : Object.entries(localFinancialFallback).map(([symbol, item]) => ({ ticker: symbol, ...(item.fundamental || {}) }));
-        const balanceSheets = Array.isArray(balanceSheetsRaw) && balanceSheetsRaw.length
-          ? balanceSheetsRaw
-          : Object.entries(localFinancialFallback).map(([symbol, item]) => ({ ticker: symbol, balanceSheet: item.balanceSheet || {} }));
-        const legacyBalanceSheets = Array.isArray(legacyBalanceSheetsRaw) && legacyBalanceSheetsRaw.length
-          ? legacyBalanceSheetsRaw
-          : [];
+    function filteredPrices() {
+      const prices = (company.prices || []).filter(point => Number.isFinite(Number(point.close)));
+      if (!prices.length) return [];
+      const selected = ranges.find(range => range.label === selectedRange) || ranges[3];
+      const lastDate = new Date(prices[prices.length - 1].date + "T00:00:00");
+      const cutoff = new Date(lastDate);
+      cutoff.setDate(cutoff.getDate() - selected.days);
+      return prices.filter(point => new Date(point.date + "T00:00:00") >= cutoff);
+    }
 
-        const meta = findByTicker(companyMeta) || fallbackTickerData.meta || {};
-        const fundamental = findByTicker(fundamentals) || fallbackTickerData.fundamental || {};
-        const balance = findByTicker(balanceSheets) || { balanceSheet: fallbackTickerData.balanceSheet || {} };
-        const legacyBalance = findByTicker(legacyBalanceSheets) || {};
-        const balanceSheet = balance.balanceSheet || fallbackTickerData.balanceSheet || {};
-        const legacySheet = legacyBalance.balanceSheet || {};
-        const market = detail.market || {};
-        const latestPoint = Array.isArray(market.points) && market.points.length ? market.points[market.points.length - 1] : null;
-        const edgarSections = buildEdgarSectionSet(edgarDisclosure);
+    function drawChart() {
+      document.querySelectorAll(".range-buttons button").forEach(button => {
+        button.classList.toggle("active", button.dataset.range === selectedRange);
+      });
+      const canvas = document.getElementById("priceChart");
+      const ctx = canvas.getContext("2d");
+      const points = filteredPrices();
+      document.getElementById("emptyChart").hidden = points.length > 1;
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      if (points.length <= 1) return;
 
-        const revenueFact = chooseLatestFact(fundamental.revenue);
-        const netIncomeFact = chooseLatestFact(fundamental.netIncome);
-        const assetsFact = chooseLatestFact(
-          fundamental.assets,
-          getBalanceFact(balanceSheet, legacySheet, ["assets", "total_assets"], ["Total Assets"])
-        );
-        const liabilitiesFact = chooseLatestFact(
-          fundamental.liabilities,
-          getBalanceFact(balanceSheet, legacySheet, ["liabilities", "total_liabilities"], ["Total Liabilities"])
-        );
-        const cashFact = getBalanceFact(
-          balanceSheet,
-          legacySheet,
-          ["cash_and_cash_equivalents"],
-          ["Cash & Equivalents"]
-        );
-        const equityFact = getBalanceFact(
-          balanceSheet,
-          legacySheet,
-          ["total_stockholders_equity", "stockholders_equity", "equity"],
-          ["Stockholders Equity"]
-        );
-        const epsFact = chooseLatestFact(fundamental.epsDiluted, fundamental.epsBasic);
-        const sharesFact = chooseLatestFact(fundamental.sharesOutstanding);
-        const sharesValue = Number(firstDefined(sharesFact?.val, sharesFact?.value));
-        const latestCloseValue = Number(latestPoint?.close);
-        const marketCapValue = Number.isFinite(sharesValue) && Number.isFinite(latestCloseValue)
-          ? sharesValue * latestCloseValue
-          : null;
-        const currentAssetsFact = getBalanceFact(
-          balanceSheet,
-          legacySheet,
-          ["current_assets", "total_current_assets"],
-          ["Current Assets"]
-        );
-        const currentLiabilitiesFact = getBalanceFact(
-          balanceSheet,
-          legacySheet,
-          ["current_liabilities", "total_current_liabilities"],
-          ["Current Liabilities"]
-        );
-        const propertyFact = getBalanceFact(
-          balanceSheet,
-          legacySheet,
-          ["property_and_equipment"],
-          []
-        );
-        const retainedFact = getBalanceFact(
-          balanceSheet,
-          legacySheet,
-          ["retained_earnings", "retained_earnings_accumulated_deficit"],
-          ["Retained Earnings / Deficit"]
-        );
-        const cashFlowOpsFact = chooseLatestFact(fundamental.cashFlowOps);
+      const width = canvas.width;
+      const height = canvas.height;
+      const pad = { left: 62, right: 24, top: 24, bottom: 42 };
+      const closes = points.map(point => Number(point.close));
+      const min = Math.min(...closes);
+      const max = Math.max(...closes);
+      const span = Math.max(max - min, 0.01);
 
-        document.title = `Minerlytics AI — ${detail.ticker} Company Details`;
-        setText("companyTicker", detail.ticker);
-        setText("companyName", detail.name || meta.name || detail.ticker);
-        setText("companyDescription", detail.ai_sections?.description || "Not available.");
-        setText("metaTicker", detail.ticker);
-        setText("metaExchange", (meta.exchanges || []).join(", ") || "Exchange not available");
-        setText("metaCompanyName", meta.name || detail.name || detail.ticker);
-        setText("metaIndustry", meta.sicDescription || "Mining company");
-        setText("metaPrice", latestPoint ? fmtCurrency(latestPoint.close) : "Not available");
-        setText("metaPriceDelta", Number.isFinite(market.day_change_pct) ? fmtPct(market.day_change_pct) : "Not available");
-        $("metaPriceDelta").className = `mini-sub ${Number(market.day_change_pct) < 0 ? "down" : "up"}`;
-        setText("metaSentiment", detail.sentiment ? `${detail.sentiment.bullish_pct}% Bullish` : "Not available");
-        setText("metaSentimentWhy", detail.sentiment_explanation || "Not available.");
+      ctx.strokeStyle = "#d8ded6";
+      ctx.lineWidth = 1;
+      ctx.fillStyle = "#647066";
+      ctx.font = "12px Inter, sans-serif";
+      for (let i = 0; i <= 4; i += 1) {
+        const y = pad.top + ((height - pad.top - pad.bottom) * i / 4);
+        const value = max - (span * i / 4);
+        ctx.beginPath();
+        ctx.moveTo(pad.left, y);
+        ctx.lineTo(width - pad.right, y);
+        ctx.stroke();
+        ctx.fillText(`$${value.toFixed(2)}`, 8, y + 4);
+      }
 
-        cachedPoints = Array.isArray(market.points) ? market.points : [];
-        drawChart(cachedPoints);
-        setText("chartStatus", latestPoint ? `Latest data point: ${latestPoint.date || "recent"}` : "No market history available");
-        setText("chartPerf", Number.isFinite(market.perf_180d?.change_pct) ? `6M: ${fmtPct(market.perf_180d.change_pct)} • 30D: ${fmtPct(market.perf_30d?.change_pct)}` : "Trend performance not available");
+      const xFor = index => pad.left + ((width - pad.left - pad.right) * index / Math.max(points.length - 1, 1));
+      const yFor = value => pad.top + ((max - value) / span) * (height - pad.top - pad.bottom);
 
-        renderFinancialFact("finRevenue", "finRevenueMeta", revenueFact);
-        renderFinancialFact("finNetIncome", "finNetIncomeMeta", netIncomeFact);
-        renderFinancialFact("finAssets", "finAssetsMeta", assetsFact);
-        renderFinancialFact("finLiabilities", "finLiabilitiesMeta", liabilitiesFact);
-        renderFinancialFact("finCash", "finCashMeta", cashFact);
-        renderFinancialFact("finEquity", "finEquityMeta", equityFact);
-        renderFinancialFact("finEps", "finEpsMeta", epsFact, (value) => String(Number(value)));
-        renderFinancialFact("finShares", "finSharesMeta", sharesFact, fmtNumber);
-        setText("finMarketCap", marketCapValue !== null ? fmtMarketCap(marketCapValue) : "Not available");
-        setText(
-          "finMarketCapMeta",
-          marketCapValue !== null
-            ? `Computed from latest close ${formatDateLabelSafe(latestPoint?.date)} × ${fmtFactMeta(sharesFact)}`
-            : "Needs both latest close and shares outstanding"
-        );
+      const gradient = ctx.createLinearGradient(0, pad.top, 0, height - pad.bottom);
+      gradient.addColorStop(0, "rgba(36,79,67,.24)");
+      gradient.addColorStop(1, "rgba(36,79,67,0)");
 
-        const snapshotFacts = [revenueFact, netIncomeFact, assetsFact, liabilitiesFact, cashFact, equityFact, epsFact, sharesFact].filter(Boolean);
-        const latestSnapshotFact = snapshotFacts.sort((a, b) => factRank(b) - factRank(a))[0] || null;
-        setText(
-          "finSnapshotNote",
-          latestSnapshotFact
-            ? `Snapshot reflects the latest filed values we have for ${detail.ticker}. Most recent financial point: ${fmtFactMeta(latestSnapshotFact)}.`
-            : `No structured financial details are available for ${detail.ticker} yet in the current dataset. Covered names right now include WPM, CDE, AEM, GFI, HL, HYMC, PZG, PSLV, SIVR, and SLV.`
-        );
-        renderFinancialHighlights([
-          {
-            label: "Current Assets",
-            fact: currentAssetsFact,
-            description: "Short-term assets available to support operations, working capital, and near-term mine development."
-          },
-          {
-            label: "Current Liabilities",
-            fact: currentLiabilitiesFact,
-            description: "Near-term obligations that can pressure liquidity if they rise faster than current assets."
-          },
-          {
-            label: "Operating Cash Flow",
-            fact: cashFlowOpsFact,
-            description: "Cash generated from core operations, useful for judging whether the mine base is funding itself."
-          },
-          {
-            label: "Property & Equipment",
-            fact: propertyFact,
-            description: "A proxy for the carrying value of mines, plants, and related infrastructure on the balance sheet."
-          },
-          {
-            label: "Retained Earnings / Deficit",
-            fact: retainedFact,
-            description: "Shows how much profit has accumulated over time, or whether losses have built into a deficit."
-          }
-        ]);
+      ctx.beginPath();
+      points.forEach((point, index) => {
+        const x = xFor(index);
+        const y = yFor(Number(point.close));
+        if (index === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+      });
+      ctx.lineTo(xFor(points.length - 1), height - pad.bottom);
+      ctx.lineTo(xFor(0), height - pad.bottom);
+      ctx.closePath();
+      ctx.fillStyle = gradient;
+      ctx.fill();
 
-        setHtml("productionSummary", formatSectionText(edgarSections?.production || detail.ai_sections?.ounces_produced_past_quarter || "Not available."));
-        setHtml("mineDetails", formatSectionText(edgarSections?.mines || detail.ai_sections?.mine_details || "Not available."));
-        setHtml("managementSummary", formatSectionText(edgarSections?.management || detail.ai_sections?.management_summary || "Not available."));
-        setHtml("riskSummary", formatSectionText(edgarSections?.risks || detail.ai_sections?.risks || "Not available."));
-        setHtml("forwardLooking", formatSectionText(edgarSections?.forward || detail.ai_sections?.forward_looking_statement || "Not available."));
+      ctx.beginPath();
+      points.forEach((point, index) => {
+        const x = xFor(index);
+        const y = yFor(Number(point.close));
+        if (index === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+      });
+      ctx.strokeStyle = "#244f43";
+      ctx.lineWidth = 3;
+      ctx.stroke();
 
-        const filingLead = edgarDisclosure?.meta || detail.filing_excerpts?.latest?.[0] || detail.filing_excerpts?.production?.[0] || null;
-        const filingTitle = filingLead
-          ? `${detail.ticker} ${filingLead.form || "Filing"} filed ${filingLead.filingDate || filingLead.filing_date || "recently"}`
-          : "";
-        setHtml(
-          "filingLead",
-          filingLead
-            ? `<p style="margin:0;"><a class="source-link" href="${filingLead.url || filingLead.source_url || "#"}" target="_blank" rel="noreferrer">${filingTitle}</a></p>`
-            : formatSectionText("No recent filing source is available yet.")
-        );
-        if ((filingLead?.url || filingLead?.source_url)) {
-          const link = $("filingLink");
-          link.href = filingLead.url || filingLead.source_url;
-          link.textContent = "Open filing source";
-          link.style.display = "inline-flex";
+      const first = points[0];
+      const last = points[points.length - 1];
+      ctx.fillStyle = "#647066";
+      ctx.fillText(first.date, pad.left, height - 14);
+      ctx.textAlign = "right";
+      ctx.fillText(last.date, width - pad.right, height - 14);
+      ctx.textAlign = "left";
+      ctx.fillStyle = "#19211d";
+      ctx.font = "700 13px Inter, sans-serif";
+      ctx.fillText(`Latest close: $${Number(last.close).toFixed(2)}`, pad.left, 20);
+    }
+
+    function projectTable(project) {
+      const reports = (project.ni43101Reports || []).length
+        ? `<div class="doc-links">${project.ni43101Reports.map((report, index) => `<a class="doc-link" href="${report.url}" target="_blank" rel="noopener">NI 43-101 ${index + 1}</a>`).join("")}</div>`
+        : "No NI 43-101 document link stored.";
+      const rows = [
+        ["Ownership", project.ownership || "Not available"],
+        ["Location", project.location || "Not available"],
+        ["Status", project.status || "Not available"],
+        ["Mining Style", project.miningStyle || "Not available"],
+        ["M&I Mineral Resources", project.miResources || "Not available"],
+        ["Inferred Resources", project.inferredResources || "Not available"],
+        ["AI Geology Summary", project.geologySummary || "Not available"],
+        ["NI 43-101 Documents", reports]
+      ];
+      return `<table>${rows.map(([label, value]) => `<tr><th>${label}</th><td>${value}</td></tr>`).join("")}</table>`;
+    }
+
+    function formatFinancialValue(fact) {
+      const value = Number(fact.value);
+      if (!Number.isFinite(value)) return "Not available";
+      if (fact.unit === "shares") return value.toLocaleString();
+      if (String(fact.unit || "").toLowerCase().includes("shares")) return value.toLocaleString(undefined, { maximumFractionDigits: 2 });
+      if (fact.unit === "USD") {
+        const abs = Math.abs(value);
+        if (abs >= 1_000_000_000) return `${value < 0 ? "-" : ""}$${(abs / 1_000_000_000).toFixed(2)}B`;
+        if (abs >= 1_000_000) return `${value < 0 ? "-" : ""}$${(abs / 1_000_000).toFixed(1)}M`;
+        return `${value < 0 ? "-" : ""}$${abs.toLocaleString()}`;
+      }
+      return `${value.toLocaleString()} ${fact.unit || ""}`.trim();
+    }
+
+    function normalizeMetricText(value) {
+      return String(value || "").replace(/[_-]/g, " ").toLowerCase();
+    }
+
+    function latestByDate(items) {
+      return [...items].sort((a, b) => {
+        const aDate = Date.parse(a.filedDate || a.periodEnd || a.reportDate || a.date || "") || 0;
+        const bDate = Date.parse(b.filedDate || b.periodEnd || b.reportDate || b.date || "") || 0;
+        return bDate - aDate;
+      })[0] || null;
+    }
+
+    function findFinancialFact(terms) {
+      const wanted = terms.map(normalizeMetricText);
+      return latestByDate((company.financials || []).filter(fact => {
+        const haystack = normalizeMetricText(`${fact.metric || ""} ${fact.factName || ""} ${fact.factLabel || ""}`);
+        return wanted.some(term => haystack.includes(term));
+      }));
+    }
+
+    function formatNumberValue(value, unit = "") {
+      const numeric = Number(value);
+      if (!Number.isFinite(numeric)) return value || "Not available";
+      if (String(unit).toLowerCase().includes("share")) return numeric.toLocaleString();
+      return `${numeric.toLocaleString(undefined, { maximumFractionDigits: 3 })}${unit ? ` ${unit}` : ""}`;
+    }
+
+    function commodityLabel() {
+      return formatLabel(company.metalFocus || company.commodity || "Commodity")
+        .replace(/\b\w/g, letter => letter.toUpperCase());
+    }
+
+    function getDirectMetric(possibleKeys) {
+      for (const key of possibleKeys) {
+        if (company[key] !== undefined && company[key] !== null && company[key] !== "") return company[key];
+      }
+      for (const source of [company.keyHealthMeasures, company.production, company.metrics]) {
+        if (!source || Array.isArray(source)) continue;
+        for (const key of possibleKeys) {
+          if (source[key] !== undefined && source[key] !== null && source[key] !== "") return source[key];
         }
-
-        renderFeed("rssList", detail.rss_items || [], "rss");
-        renderFeed("videoList", detail.videos || [], "video");
-      } catch (error) {
-        console.error("COMPANY DETAIL PAGE ERROR:", error);
-        setText("companyName", `${ticker} could not be loaded`);
-        setText("companyDescription", "The company detail page could not load its current data. Please try again after the latest deployment finishes.");
-        setText("chartStatus", "Could not load market data");
-        setText("chartPerf", "—");
-        setText("finSnapshotNote", isLocalFile ? "Could not load local ticker financial files. Open the site through your deployed Cloudflare domain or keep the page in local mode with the repo's /public/data files present." : "Could not load ticker financials.");
-      } finally {
-        hidePageLoader();
       }
+      return null;
     }
 
-    function formatDateLabelSafe(value) {
-      if (!value) return "recent price";
-      const date = new Date(`${value}T00:00:00`);
-      if (Number.isNaN(date.getTime())) return String(value);
-      return date.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+    function asArray(value) {
+      if (!value) return [];
+      return Array.isArray(value) ? value : [value];
     }
 
-    companySearchBtn?.addEventListener("click", runCompanySearch);
-    companySearchInput?.addEventListener("keydown", (event) => {
-      if (event.key === "Enter") {
-        event.preventDefault();
-        runCompanySearch();
+    function getLatestProductionRecord() {
+      const sources = [
+        ...asArray(company.production),
+        ...asArray(company.productionValues),
+        ...asArray(company.productionMetrics)
+      ];
+      return latestByDate(sources);
+    }
+
+    function parseOunces(value) {
+      const match = String(value || "").match(/([\d,.]+)\s*(moz|million ounces|koz|thousand ounces|oz|ounces)?/i);
+      if (!match) return null;
+      const number = Number(match[1].replace(/,/g, ""));
+      if (!Number.isFinite(number)) return null;
+      const unit = String(match[2] || "").toLowerCase();
+      if (unit === "moz" || unit.includes("million")) return number * 1_000_000;
+      if (unit === "koz" || unit.includes("thousand")) return number * 1_000;
+      return number;
+    }
+
+    function getProductionValue() {
+      const direct = getDirectMetric(["productionValue", "productionOunces", "latestProduction", "latestProductionOunces"]);
+      if (direct) return { value: formatNumberValue(direct, typeof direct === "number" ? "oz" : ""), raw: direct };
+      const record = getLatestProductionRecord();
+      if (!record) return { value: "Not available", raw: null };
+      const raw = record.productionOunces ?? record.ounces ?? record.value ?? record.production_value;
+      return {
+        value: formatNumberValue(raw, record.unit || "oz"),
+        raw,
+        meta: record.form || record.filingDate || record.reportDate ? `${record.form || "Report"} · ${record.reportDate || record.filingDate || "latest stored"}` : ""
+      };
+    }
+
+    function getTotalReserves() {
+      const direct = getDirectMetric(["totalReserves", "reserves", "mineralReserves", "reserveText"]);
+      if (direct) return direct;
+      const project = (company.projects || []).find(item => item.totalReserves || item.reserves || item.mineralReserves || item.reserveText);
+      if (!project) return "Not available";
+      return project.totalReserves || project.reserves || project.mineralReserves || project.reserveText;
+    }
+
+    function findProjectEconomicValue(patterns, fields) {
+      const direct = getDirectMetric(fields);
+      if (direct) return direct;
+      for (const project of company.projects || []) {
+        for (const field of fields) {
+          if (project[field]) return project[field];
+        }
+        const text = [project.description, project.miResources, project.inferredResources, project.geologySummary]
+          .filter(Boolean)
+          .join(" ");
+        for (const pattern of patterns) {
+          const match = text.match(pattern);
+          if (match) return match[0];
+        }
       }
-    });
-    if (companySearchInput) companySearchInput.value = ticker;
-    window.addEventListener("resize", () => drawChart(cachedPoints));
-    window.addEventListener("minerlytics-auth-state", applyProtectedGate);
-    applyProtectedGate();
-    loadPage();
-  })();
+      return "Not available";
+    }
+
+    function getPermittingProgress() {
+      const statuses = [...new Set((company.projects || [])
+        .map(project => project.status)
+        .filter(Boolean)
+        .filter(status => /permit|approval|construction|development|feasibility|exploration/i.test(status)))];
+      return statuses.length ? statuses.slice(0, 4).join("; ") : "Not available";
+    }
+
+    function renderHealthMeasures(items) {
+      document.getElementById("keyHealthMeasures").innerHTML = `
+        <div class="health-measure-grid">
+          ${items.map(item => `
+            <article class="health-measure-card">
+              <div class="health-measure-label">${escapeHtml(item.label)}</div>
+              <div class="health-measure-value">${escapeHtml(item.value)}</div>
+              ${item.meta ? `<div class="health-measure-meta">${escapeHtml(item.meta)}</div>` : ""}
+            </article>
+          `).join("")}
+        </div>
+      `;
+      setText("keyHealthMeasureCount", `${items.length} metrics`);
+    }
+
+    function initKeyHealthMeasures() {
+      const type = normalizeMetricText(company.companyType);
+      const commodity = commodityLabel();
+      const shares = findFinancialFact(["shares outstanding", "weighted average number of shares"]);
+      const production = getProductionValue();
+      const productionOunces = parseOunces(production.raw || production.value);
+      const sharesValue = shares ? Number(shares.value) : null;
+      const ouncesPerShare = Number.isFinite(productionOunces) && Number.isFinite(sharesValue) && sharesValue > 0
+        ? (productionOunces / sharesValue).toFixed(6)
+        : "Not available";
+
+      if (type.includes("producer") || type.includes("production")) {
+        document.getElementById("keyHealthMeasureNote").textContent = "Producer metrics focus on commodity output, production intensity, and reserve depth from the latest stored production and financial data.";
+        renderHealthMeasures([
+          { label: "Commodity Produced", value: commodity },
+          { label: `${commodity} Production Value`, value: production.value, meta: production.meta || "Latest stored production value" },
+          { label: `${commodity} Production Ounces per Share`, value: ouncesPerShare, meta: shares ? `Shares source: ${shares.form || "Report"} filed ${shares.filedDate || "n/a"}` : "" },
+          { label: `${commodity} Total Reserves`, value: getTotalReserves() }
+        ]);
+        return;
+      }
+
+      if (type.includes("developer")) {
+        document.getElementById("keyHealthMeasureNote").textContent = "Developer metrics focus on project economics, capital needs, and permitting status from the stored company detail data.";
+        renderHealthMeasures([
+          { label: "Net Present Value", value: findProjectEconomicValue([/\bNPV\b[^.;]{0,80}/i, /net present value[^.;]{0,80}/i], ["npv", "netPresentValue"]) },
+          { label: "Internal Rate of Return", value: findProjectEconomicValue([/\bIRR\b[^.;]{0,80}/i, /internal rate of return[^.;]{0,80}/i], ["irr", "internalRateOfReturn"]) },
+          { label: "Payback Period", value: findProjectEconomicValue([/payback[^.;]{0,80}/i], ["payback", "paybackPeriod"]) },
+          { label: "Capex and Capital Intensity", value: findProjectEconomicValue([/\bcapex\b[^.;]{0,80}/i, /capital intensity[^.;]{0,80}/i, /capital cost[^.;]{0,80}/i], ["capex", "capitalIntensity", "capitalCost"]) },
+          { label: "Permitting Progress", value: getPermittingProgress() }
+        ]);
+        return;
+      }
+
+      document.getElementById("keyHealthMeasureNote").textContent = "No key health framework has been configured for this company type.";
+      renderHealthMeasures([{ label: "Company Type", value: company.companyType || "Not available" }]);
+    }
+
+    function reportReference(fact) {
+      const text = `${fact.form || "Report"} · period ${fact.periodEnd || "n/a"} · filed ${fact.filedDate || "n/a"}`;
+      const accession = fact.accessionNumber ? `<div class="meta">Accession: ${fact.accessionNumber}</div>` : "";
+      if (fact.reportUrl) {
+        return `<a href="${fact.reportUrl}" target="_blank" rel="noopener">${text}</a>${accession}`;
+      }
+      return `${text}${accession}`;
+    }
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function initFinancials() {
+      const facts = company.financials || [];
+      setText("financialCount", `${facts.length} metrics`);
+      const container = document.getElementById("financials");
+      if (!facts.length) {
+        container.innerHTML = '<div class="empty">No stored SEC financial facts are available for this company.</div>';
+        return;
+      }
+      container.innerHTML = `
+        <table class="financial-table">
+          <thead>
+            <tr>
+              <th>Metric</th>
+              <th>Value</th>
+              <th>Report / Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${facts.map(fact => `
+              <tr>
+                <td><strong>${fact.metric}</strong><div class="meta">${fact.factLabel || fact.factName}</div></td>
+                <td>${formatFinancialValue(fact)}</td>
+                <td>${reportReference(fact)}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      `;
+    }
+
+    function initRisks() {
+      const risk = company.risks;
+      const container = document.getElementById("riskSummary");
+      if (!risk) {
+        setText("riskSource", "No stored risk text");
+        container.innerHTML = '<div class="empty">No risk-factor text has been loaded for this company yet.</div>';
+        return;
+      }
+      setText("riskSource", `${risk.form || "Report"} · filed ${risk.filingDate || "n/a"}`);
+      const sourceLink = risk.documentUrl
+        ? `<a href="${risk.documentUrl}" target="_blank" rel="noopener">${risk.documentName || "SEC filing"}</a>`
+        : escapeHtml(risk.documentName || "SEC filing");
+      container.innerHTML = `
+        <div class="risk-summary">
+          <div class="ai-summary">${escapeHtml(risk.summary)}</div>
+          <div class="risk-source">
+            <div class="meta">
+              Source: ${sourceLink} · report date ${escapeHtml(risk.reportDate || "n/a")} · accession ${escapeHtml(risk.accessionNumber || "n/a")}
+            </div>
+            <pre class="risk-source-text">${escapeHtml(risk.sourceText)}</pre>
+          </div>
+        </div>
+      `;
+    }
+
+    function initProjects() {
+      setText("projectCount", `${(company.projects || []).length} projects`);
+      const container = document.getElementById("projects");
+      container.innerHTML = (company.projects || []).map((project, index) => `
+        <details>
+          <summary>
+            <span>${project.projectName}</span>
+            <span class="meta">${project.location || ""}</span>
+          </summary>
+          <div class="project-body">
+            <p class="project-description">${project.description || "No website project description has been stored yet."}</p>
+            ${projectTable(project)}
+          </div>
+        </details>
+      `).join("");
+    }
+
+    function renderManagementModal() {
+      const people = company.managementTeam || [];
+      setText("managementCount", `${people.length} profiles`);
+      const list = document.getElementById("managementList");
+      const detail = document.getElementById("managementDetail");
+      if (!people.length) {
+        list.innerHTML = "";
+        detail.innerHTML = "<p>No management profiles have been loaded for this company yet.</p>";
+        return;
+      }
+      selectedPersonIndex = Math.min(selectedPersonIndex, people.length - 1);
+      list.innerHTML = people.map((person, index) => `
+        <button class="person-button ${index === selectedPersonIndex ? "active" : ""}" type="button" data-person-index="${index}">
+          <strong>${person.name}</strong>
+          <span>${person.title}</span>
+        </button>
+      `).join("");
+      const selected = people[selectedPersonIndex];
+      detail.innerHTML = `
+        <h3>${selected.name}</h3>
+        <div class="role">${selected.title}</div>
+        <p>${selected.biography || "No biography has been loaded for this person yet."}</p>
+      `;
+    }
+
+    function openManagementModal() {
+      renderManagementModal();
+      document.getElementById("managementModal").hidden = false;
+      document.querySelector(".person-button")?.focus();
+    }
+
+    function closeManagementModal() {
+      document.getElementById("managementModal").hidden = true;
+      document.getElementById("managementTeamButton").focus();
+    }
+
+    function initManagementModal() {
+      document.getElementById("managementClose").addEventListener("click", closeManagementModal);
+      document.getElementById("managementModal").addEventListener("click", event => {
+        if (event.target.id === "managementModal") closeManagementModal();
+      });
+      document.getElementById("managementList").addEventListener("click", event => {
+        const button = event.target.closest(".person-button");
+        if (!button) return;
+        selectedPersonIndex = Number(button.dataset.personIndex || 0);
+        renderManagementModal();
+      });
+      document.addEventListener("keydown", event => {
+        if (event.key === "Escape" && !document.getElementById("managementModal").hidden) {
+          closeManagementModal();
+        }
+      });
+    }
+
+    initHeader();
+    initRanges();
+    initNews();
+    initSecFilings();
+    initFinancials();
+    initKeyHealthMeasures();
+    initRisks();
+    initProjects();
+    initManagementModal();
+    drawChart();
+    window.addEventListener("resize", drawChart);
   </script>
+  <script src="./js/auth-ui.js"></script>
 </body>
 </html>
