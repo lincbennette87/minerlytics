@@ -2033,6 +2033,51 @@
       });
     }
 
+    async function loadCompanyMarketPrices() {
+      const emptyChart = document.getElementById("emptyChart");
+      emptyChart.textContent = "Loading stock price history...";
+      emptyChart.hidden = false;
+
+      try {
+        const response = await fetchWithTimeout(
+          API_BASE + "/api/market/top-trends?symbols=" + encodeURIComponent(company.symbol) + "&days=365",
+          {
+            headers: { accept: "application/json" },
+            cache: "no-store"
+          },
+          10000
+        );
+        if (!response.ok) throw new Error("Market price request failed: " + response.status);
+        const payload = await response.json();
+        const tickerSeries = Array.isArray(payload.tickers)
+          ? payload.tickers.find(item => normalizeTicker(item.ticker || item.symbol) === normalizeTicker(company.symbol)) || payload.tickers[0]
+          : null;
+        const points = Array.isArray(tickerSeries?.points) ? tickerSeries.points : [];
+        const prices = points
+          .map(point => ({
+            date: point.date || point.timestamp || "",
+            close: Number(point.close),
+            volume: Number(point.volume)
+          }))
+          .filter(point => point.date && Number.isFinite(point.close))
+          .sort((a, b) => String(a.date).localeCompare(String(b.date)));
+
+        if (prices.length) {
+          company.prices = prices;
+          company.marketSource = {
+            label: tickerSeries?.source || payload.source || "market data",
+            symbol: tickerSeries?.symbol || company.yahooSymbol || company.symbol,
+            latestClose: tickerSeries?.latest_close ?? prices[prices.length - 1]?.close ?? null
+          };
+        }
+      } catch (error) {
+        console.warn("Company market price request failed; using embedded price fallback.", error);
+      }
+
+      emptyChart.textContent = "No stored price history is available for this company.";
+      drawChart();
+    }
+
     function filteredPrices() {
       const prices = (company.prices || []).filter(point => Number.isFinite(Number(point.close)));
       if (!prices.length) return [];
@@ -2682,7 +2727,7 @@
     initRisks();
     initProjects();
     initManagementModal();
-    drawChart();
+    await loadCompanyMarketPrices();
     window.addEventListener("resize", drawChart);
   </script>
   <script src="./js/auth-ui.js"></script>
