@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Minerlytics About Preview</title>
+  <title>Minerlytics — About</title>
   <style>
     :root {
       --bg: #07111f;
@@ -80,9 +80,9 @@
     .hero { border-bottom: 1px solid var(--line); overflow: hidden; }
     .hero-inner {
       display: grid;
-      gap: 48px;
+      gap: 28px;
       grid-template-columns: 1fr;
-      padding: 88px 0;
+      padding: 54px 0;
       align-items: center;
     }
     .eyebrow {
@@ -91,21 +91,21 @@
       letter-spacing: .24em;
       text-transform: uppercase;
       font-weight: 800;
-      margin: 0 0 18px;
+      margin: 0 0 12px;
     }
     h1, h2, h3, p { margin: 0; }
-    h1 { font-size: clamp(42px, 7vw, 78px); line-height: .98; letter-spacing: -.04em; max-width: 840px; }
-    h2 { font-size: clamp(30px, 4vw, 46px); line-height: 1.06; letter-spacing: -.03em; }
-    h3 { font-size: 19px; line-height: 1.2; }
-    .lead { margin-top: 24px; max-width: 720px; color: var(--muted); font-size: 20px; line-height: 1.7; }
-    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
+    h1 { font-size: clamp(36px, 5.8vw, 64px); line-height: 1; letter-spacing: -.035em; max-width: 820px; }
+    h2 { font-size: clamp(26px, 3.3vw, 38px); line-height: 1.08; letter-spacing: -.025em; }
+    h3 { font-size: 17px; line-height: 1.22; }
+    .lead { margin-top: 16px; max-width: 720px; color: var(--muted); font-size: 18px; line-height: 1.55; }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
     .btn {
       display: inline-flex;
-      min-height: 46px;
+      min-height: 40px;
       align-items: center;
       justify-content: center;
       border-radius: 999px;
-      padding: 0 22px;
+      padding: 0 18px;
       font-weight: 800;
       font-size: 14px;
       border: 1px solid var(--line);
@@ -114,81 +114,81 @@
     .btn-ghost { background: rgba(255,255,255,.05); color: #fff; }
     .research-card {
       border: 1px solid var(--line);
-      border-radius: 28px;
+      border-radius: 22px;
       background: rgba(255,255,255,.055);
-      padding: 24px;
+      padding: 18px;
       box-shadow: 0 28px 80px rgba(0,0,0,.28);
     }
     .bar-card {
       border: 1px solid var(--line);
-      border-radius: 18px;
+      border-radius: 14px;
       background: rgba(2,6,23,.45);
-      padding: 16px;
-      margin-top: 14px;
+      padding: 12px;
+      margin-top: 10px;
     }
-    .bar { height: 8px; border-radius: 999px; background: #1e293b; margin-top: 12px; overflow: hidden; }
+    .bar { height: 6px; border-radius: 999px; background: #1e293b; margin-top: 9px; overflow: hidden; }
     .bar span { display: block; height: 100%; width: 82%; border-radius: inherit; background: linear-gradient(90deg, var(--gold), var(--gold2)); }
-    section { padding: 82px 0 0; }
+    section { padding: 46px 0 0; }
     .section-head { max-width: 780px; }
     .section-head.center { margin: 0 auto; text-align: center; }
-    .section-copy { margin-top: 18px; color: var(--muted); font-size: 17px; line-height: 1.8; }
-    .grid { display: grid; gap: 16px; margin-top: 36px; }
+    .section-copy { margin-top: 12px; color: var(--muted); font-size: 15px; line-height: 1.6; }
+    .grid { display: grid; gap: 12px; margin-top: 22px; }
     .grid.two, .grid.four { grid-template-columns: 1fr; }
     .card {
       border: 1px solid var(--line);
-      border-radius: 22px;
+      border-radius: 18px;
       background: var(--card);
-      padding: 22px;
+      padding: 16px;
       box-shadow: 0 18px 48px rgba(0,0,0,.18);
     }
-    .card p { margin-top: 12px; color: var(--muted); line-height: 1.7; font-size: 14px; }
-    .meta { color: rgba(252,211,77,.78); text-transform: uppercase; letter-spacing: .18em; font-size: 11px; font-weight: 800; margin-bottom: 12px; }
+    .card p { margin-top: 8px; color: var(--muted); line-height: 1.55; font-size: 13px; }
+    .meta { color: rgba(252,211,77,.78); text-transform: uppercase; letter-spacing: .16em; font-size: 10px; font-weight: 800; margin-bottom: 8px; }
     .pipeline { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    .pipe-card { min-height: 108px; display: flex; flex-direction: column; justify-content: space-between; }
+    .pipe-card { min-height: 82px; display: flex; flex-direction: column; justify-content: space-between; }
     .num { color: rgba(252,211,77,.82); font-size: 12px; font-weight: 900; }
     .lifecycle .card { background: linear-gradient(135deg, rgba(252,211,77,.12), rgba(255,255,255,.04)); border-color: rgba(252,211,77,.20); }
     .focus {
-      margin-top: 18px;
+      margin-top: 12px;
       border: 1px solid var(--line);
-      border-radius: 16px;
+      border-radius: 14px;
       background: rgba(2,6,23,.45);
-      padding: 14px;
+      padding: 12px;
       color: #e2e8f0;
       line-height: 1.6;
       font-size: 14px;
     }
     .terms {
       display: grid;
-      gap: 12px;
+      gap: 10px;
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
     .term {
       border: 1px solid var(--line);
-      border-radius: 16px;
+      border-radius: 14px;
       background: rgba(2,6,23,.45);
-      padding: 16px;
+      padding: 12px;
       font-weight: 800;
     }
     .education-panel {
       border: 1px solid var(--line);
-      border-radius: 28px;
+      border-radius: 22px;
       background: rgba(255,255,255,.045);
-      padding: 28px;
+      padding: 22px;
     }
     .cta {
-      margin: 82px 0;
+      margin: 52px 0;
       border: 1px solid rgba(252,211,77,.25);
-      border-radius: 30px;
+      border-radius: 24px;
       background: linear-gradient(135deg, rgba(252,211,77,.18), #0f172a 42%, #020617);
-      padding: 42px 28px;
+      padding: 30px 22px;
     }
     @media (min-width: 760px) {
-      .hero-inner { grid-template-columns: 1fr 390px; padding: 110px 0; }
+      .hero-inner { grid-template-columns: 1fr 360px; padding: 68px 0; }
       .grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .grid.four { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .pipeline { grid-template-columns: repeat(4, minmax(0, 1fr)); }
       .terms { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-      .education-panel { padding: 42px; }
+      .education-panel { padding: 28px; }
     }
     @media (min-width: 1080px) {
       .grid.four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
@@ -228,8 +228,8 @@
           <h1>Research-Grade AI for Gold &amp; Silver Mining Investors</h1>
           <p class="lead">Minerlytics transforms fragmented mining data into clear education, deep research, and actionable investment signals for retail investors.</p>
           <div class="actions">
-            <a class="btn btn-primary" href="#">Explore the Platform</a>
-            <a class="btn btn-ghost" href="#pipeline">Learn How It Works</a>
+            <a class="btn btn-primary" href="./analysis.html">Explore the Platform</a>
+            <a class="btn btn-ghost" href="./educationportal.html">Learn How It Works</a>
           </div>
         </div>
         <aside class="research-card">
@@ -248,6 +248,20 @@
           <p class="eyebrow">Mission</p>
           <h2>Democratizing professional-grade mining research</h2>
           <p class="section-copy">Minerlytics exists to help retail investors evaluate gold and silver miners with more context, more transparency, and better educational support. The platform organizes complex source material into research workflows that explain what matters and why it matters.</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head"><p class="eyebrow">Investor Education</p><h2>Why gold and silver miners matter</h2><p class="section-copy">Precious metals miners can respond to metal prices, costs, reserves, project execution, and capital markets in ways that are different from physical metals or broad equity indexes.</p></div>
+        <div class="grid four">
+          <article class="card"><h3>Operating leverage to metal prices</h3><p>Small changes in metal prices can have a larger impact on miner margins when costs are relatively fixed.</p></article>
+          <article class="card"><h3>Inflation and currency hedge exposure</h3><p>Precious metals often attract attention when investors evaluate inflation, rates, and currency risk.</p></article>
+          <article class="card"><h3>Cash flow and dividend potential</h3><p>Established producers may convert margins into cash flow, debt reduction, reinvestment, or dividends.</p></article>
+          <article class="card"><h3>Production growth</h3><p>New mines, expansions, and operational improvements can change production profiles over time.</p></article>
+          <article class="card"><h3>Resource expansion</h3><p>Exploration success can extend mine life, improve project economics, or support development decisions.</p></article>
+          <article class="card"><h3>Portfolio diversification</h3><p>Mining equities can behave differently than broad equity indexes, physical metals, and other commodities.</p></article>
+          <article class="card"><h3>Long-term supply constraints</h3><p>Mine depletion, permitting timelines, and capital intensity can limit new supply.</p></article>
+          <article class="card"><h3>Acquisition potential</h3><p>Quality assets can become strategic targets when larger miners seek reserves or growth.</p></article>
         </div>
       </section>
 
@@ -283,19 +297,6 @@
         </div>
       </section>
 
-      <section>
-        <div class="section-head"><p class="eyebrow">Investor Education</p><h2>Why gold and silver miners matter</h2><p class="section-copy">Precious metals miners can respond to metal prices, costs, reserves, project execution, and capital markets in ways that are different from physical metals or broad equity indexes.</p></div>
-        <div class="grid four">
-          <article class="card"><h3>Operating leverage to metal prices</h3><p>Small changes in metal prices can have a larger impact on miner margins when costs are relatively fixed.</p></article>
-          <article class="card"><h3>Inflation and currency hedge exposure</h3><p>Precious metals often attract attention when investors evaluate inflation, rates, and currency risk.</p></article>
-          <article class="card"><h3>Cash flow and dividend potential</h3><p>Established producers may convert margins into cash flow, debt reduction, reinvestment, or dividends.</p></article>
-          <article class="card"><h3>Production growth</h3><p>New mines, expansions, and operational improvements can change production profiles over time.</p></article>
-          <article class="card"><h3>Resource expansion</h3><p>Exploration success can extend mine life, improve project economics, or support development decisions.</p></article>
-          <article class="card"><h3>Portfolio diversification</h3><p>Mining equities can behave differently than broad equity indexes, physical metals, and other commodities.</p></article>
-          <article class="card"><h3>Long-term supply constraints</h3><p>Mine depletion, permitting timelines, and capital intensity can limit new supply.</p></article>
-          <article class="card"><h3>Acquisition potential</h3><p>Quality assets can become strategic targets when larger miners seek reserves or growth.</p></article>
-        </div>
-      </section>
 
       <section>
         <div class="section-head"><p class="eyebrow">Mining Lifecycle</p><h2>Understanding company stage before comparing metrics</h2><p class="section-copy">A miner's stage shapes the data that matters most. Minerlytics separates companies so investors can compare them with the right framework.</p></div>
@@ -335,7 +336,7 @@
         <p class="eyebrow">Minerlytics</p>
         <h2>Better Mining Research. Better Investing Decisions.</h2>
         <p class="lead">Start researching gold and silver miners with confidence.</p>
-        <div class="actions"><a class="btn btn-primary" href="#">Explore the Platform</a><a class="btn btn-ghost" href="#">Learn How It Works</a></div>
+        <div class="actions"><a class="btn btn-primary" href="./analysis.html">Explore the Platform</a><a class="btn btn-ghost" href="./educationportal.html">Learn How It Works</a></div>
       </section>
     </div>
   </main>
