@@ -1679,9 +1679,21 @@
     }
 
     function selectedTicker() {
-      const requested = normalizeTicker(new URLSearchParams(window.location.search).get("ticker"));
-      if (requested && tickerUniverse[requested]) return requested;
-      if (requested === normalizeTicker(IAUX_DETAIL.symbol)) return requested;
+      const params = new URLSearchParams(window.location.search);
+      const requestedValues = [
+        params.get("ticker"),
+        params.get("symbol"),
+        params.get("company"),
+        params.get("q"),
+        window.location.hash ? decodeURIComponent(window.location.hash.slice(1)) : ""
+      ].filter(Boolean);
+      for (const value of requestedValues) {
+        const directTicker = normalizeTicker(value);
+        if (directTicker && tickerUniverse[directTicker]) return directTicker;
+        if (directTicker === normalizeTicker(IAUX_DETAIL.symbol)) return directTicker;
+        const match = findTickerProfile(value);
+        if (match?.[0]) return match[0];
+      }
       return tickerEntries()[0]?.[0] || normalizeTicker(IAUX_DETAIL.symbol);
     }
 

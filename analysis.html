@@ -496,9 +496,16 @@
     }
 
     .selected-symbol {
+      display: inline-block;
+      color: var(--text);
       font-size: 15px;
       font-weight: 800;
       margin-bottom: 4px;
+      text-decoration: none;
+    }
+
+    .selected-symbol:hover {
+      color: #f1d7a7;
     }
 
     .selected-company,
@@ -1078,7 +1085,7 @@
               <p>Live Minerlytics market, sentiment, and coverage fields arranged in a clean side-by-side format.</p>
             </div>
             <div class="compare-actions">
-              <a class="btn btnGhost" href="./company.html">Open Company Details</a>
+              <a class="btn btnGhost" id="openCompanyDetailsLink" href="./company.html">Open Company Details</a>
             </div>
           </div>
 
@@ -1128,6 +1135,7 @@
     const compareTableWrap = document.getElementById("compareTableWrap");
     const emptyState = document.getElementById("emptyState");
     const pageLoader = document.getElementById("pageLoader");
+    const openCompanyDetailsLink = document.getElementById("openCompanyDetailsLink");
 
     function hidePageLoader() {
       pageLoader?.classList.add("is-hidden");
@@ -1320,7 +1328,7 @@
         card.className = "selected-card";
         card.innerHTML = `
           <div class="selected-card-main">
-            <div class="selected-symbol">${escapeHtml(item.symbol)}</div>
+            <a class="selected-symbol" href="./company.html?ticker=${encodeURIComponent(item.symbol)}">${escapeHtml(item.symbol)}</a>
             <div class="selected-company">${escapeHtml(item.name)}</div>
             <div class="selected-meta">${escapeHtml(capitalize(item.stage))} • ${escapeHtml(item.country)} • ${escapeHtml(item.sentiment)}</div>
           </div>
@@ -1508,6 +1516,15 @@
       resultMeta.textContent = selected.length
         ? `Comparing ${selected.length} miner${selected.length === 1 ? "" : "s"}`
         : `Loaded ${ANALYSIS_DATA.length} miners`;
+      if (openCompanyDetailsLink) {
+        const firstTicker = selected[0]?.symbol || getFilteredUniverse()[0]?.symbol || "";
+        openCompanyDetailsLink.href = firstTicker
+          ? `./company.html?ticker=${encodeURIComponent(firstTicker)}`
+          : "./company.html";
+        openCompanyDetailsLink.textContent = firstTicker
+          ? `Open ${firstTicker} Company Details`
+          : "Open Company Details";
+      }
     }
 
     function syncView() {

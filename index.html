@@ -1556,8 +1556,19 @@ async function ensureHomeSearchUniverse() {
       aliases: Array.isArray(item?.aliases) ? item.aliases.map((alias) => String(alias || "").trim()).filter(Boolean) : []
     })).filter((item) => item.symbol);
   } catch (error) {
-    console.warn("HOME SEARCH UNIVERSE ERROR:", error);
-    HOME_SEARCH_UNIVERSE = [];
+    try {
+      const module = await import("./src/tickers.js");
+      const tickers = module?.TICKERS || {};
+      HOME_SEARCH_UNIVERSE = Object.entries(tickers).map(([symbol, item]) => ({
+        symbol: String(symbol || "").toUpperCase().trim(),
+        name: String(item?.company || item?.name || symbol || "").trim(),
+        metal: String(item?.metal || "").trim().toLowerCase(),
+        aliases: Array.isArray(item?.aliases) ? item.aliases.map((alias) => String(alias || "").trim()).filter(Boolean) : []
+      })).filter((item) => item.symbol);
+    } catch (fallbackError) {
+      console.warn("HOME SEARCH UNIVERSE ERROR:", error, fallbackError);
+      HOME_SEARCH_UNIVERSE = [];
+    }
   }
   return HOME_SEARCH_UNIVERSE;
 }
@@ -1668,6 +1679,11 @@ function updateCompanyDetailLink(value = "") {
   if (searchLink) {
     searchLink.href = `./company.html?ticker=${encodeURIComponent(ticker)}`;
   }
+}
+
+async function refreshCompanyDetailLink(value = "") {
+  await ensureHomeSearchUniverse();
+  updateCompanyDetailLink(value);
 }
 
 function updateFavoriteCtaState(savedCount = 0) {
@@ -1836,7 +1852,7 @@ async function loadPersonalDashboard() {
 
 async function addWatchTicker() {
   const input = document.getElementById("watchSymbol");
-  ensureHomeSearchUniverse().catch(() => {});
+  await ensureHomeSearchUniverse().catch(() => {});
   const symbol = resolveSymbolFromInput(input.value);
   const watchHelp = document.getElementById("watchHelp");
 
@@ -1896,7 +1912,7 @@ async function addFavoriteTickerBySymbol(symbol, watchHelpEl) {
 window.addHeroTickerToFavorites = async function addHeroTickerToFavorites() {
   const searchInput = document.getElementById("heroSearch");
   if (!searchInput) return;
-  ensureHomeSearchUniverse().catch(() => {});
+  await ensureHomeSearchUniverse().catch(() => {});
   const symbol = resolveSymbolFromInput(searchInput.value);
   if (!symbol) {
     setFavoriteActionStatus("Enter a valid ticker or company name first.", "error");
@@ -2456,15 +2472,14 @@ window.addEventListener("minerlytics-auth-state", () => {
 
   searchInput.addEventListener("input", async () => {
     setFavoriteActionStatus("");
-    ensureHomeSearchUniverse().catch(() => {});
+    await refreshCompanyDetailLink(searchInput.value).catch(() => updateCompanyDetailLink(searchInput.value));
     renderResolvedSearchState(searchInput.value);
-    updateCompanyDetailLink(searchInput.value);
     openSuggestions(getSuggestions(searchInput.value));
   });
   searchInput.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
       event.preventDefault();
-      searchBtnLink.click();
+      refreshCompanyDetailLink(searchInput.value).finally(() => searchBtnLink.click());
     }
     if (event.key === "Escape") {
       closeSuggestions();
