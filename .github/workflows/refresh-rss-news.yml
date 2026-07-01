@@ -1,33 +1,22 @@
-name: Refresh Market History
+name: Refresh RSS News
 
 on:
   workflow_dispatch:
-    inputs:
-      symbols:
-        description: "Optional comma-separated tickers, e.g. WPM,CDE,HYMC"
-        required: false
-        default: ""
-      days:
-        description: "How many days of history to sync"
-        required: false
-        default: "180"
   schedule:
-    # Daily market-history refresh for homepage charts and company detail trend views.
-    - cron: "30 10 * * *"
+    # Daily RSS refresh for homepage news, assistant context, and ticker feeds.
+    - cron: "15 9 * * *"
 
 jobs:
-  sync:
+  refresh:
     runs-on: ubuntu-latest
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
     steps:
-      - name: Trigger Worker market sync
+      - name: Trigger Worker RSS refresh
         env:
           WORKER_BASE_URL: ${{ secrets.WORKER_BASE_URL }}
           WORKER_API_KEY: ${{ secrets.WORKER_API_KEY }}
-          INPUT_SYMBOLS: ${{ inputs.symbols }}
-          INPUT_DAYS: ${{ inputs.days }}
         run: |
           python - <<'PY'
           import json
@@ -36,25 +25,19 @@ jobs:
 
           base = (os.environ.get("WORKER_BASE_URL") or "").rstrip("/")
           api_key = os.environ.get("WORKER_API_KEY") or ""
-          symbols = os.environ.get("INPUT_SYMBOLS") or ""
-          days = os.environ.get("INPUT_DAYS") or "180"
 
           if not base:
             raise SystemExit("Missing WORKER_BASE_URL secret")
           if not api_key:
             raise SystemExit("Missing WORKER_API_KEY secret")
 
-          payload = {"days": int(days)}
-          if symbols.strip():
-            payload["symbols"] = [s.strip().upper() for s in symbols.split(",") if s.strip()]
-
           req = urllib.request.Request(
-            f"{base}/api/market/sync",
-            data=json.dumps(payload).encode("utf-8"),
+            f"{base}/api/news/sync",
+            data=b"{}",
             headers={
               "content-type": "application/json",
               "x-api-key": api_key,
-              "user-agent": "GitHub-Minerlytics-MarketSync"
+              "user-agent": "GitHub-Minerlytics-RssSync"
             },
             method="POST"
           )

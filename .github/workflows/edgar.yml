@@ -2,32 +2,201 @@ name: EDGAR (Dev)
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - dev
+  schedule:
+    # Every two months for SEC/EDGAR filings, fundamentals, and mining disclosures.
+    - cron: "0 9 1 */2 *"
+
+concurrency:
+  group: edgar-refresh-develop
+  cancel-in-progress: false
 
 permissions:
-  contents: write
+  contents: write   # needed only if you want the workflow to commit/push results
 
 jobs:
   run-edgar:
     runs-on: ubuntu-latest
-
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
+      - name: Checkout
+        uses: actions/checkout@v5
         with:
-          node-version: 20
+          fetch-depth: 0
 
-      - run: npm ci || npm install
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
 
-      - run: npm run edgar:all
+      - name: Install deps
+        run: npm ci || npm install
 
-      - name: Commit data
+      - name: Debug folders
+        run: |
+          ls -la
+          ls -la data || true
+          ls -la src || true
+          ls -la src/edgar || true
+      - name: Debug JSON validity
+        run: |
+          echo "---- miner.rules.json ----"
+          sed -n '1,220p' data/miner.rules.json || true
+          echo "---- universe.json (head) ----"
+          sed -n '1,120p' data/universe.json || true
+
+      - name: Resolve CIK
+        run: npm run edgar:resolve
+
+      - name: Pull Submissions
+        run: npm run edgar:submissions
+
+      - name: Extract mining disclosure from primary filings
+        run: npm run edgar:mining-extract
+
+      - name: Pull Facts
+        run: npm run edgar:facts
+
+      - name: Extract Balance Sheet
+        run: npm run edgar:balance-sheet
+
+      - name: Extract Detailed Balance Sheet
+        run: npm run edgar:detailed-balance-sheet
+
+      - name: Extract EX-99.1 reports
+        run: npm run edgar:ex99-1
+
+      - name: Find TRS
+        run: npm run edgar:trs
+        
+      - name: Extract TRS Reports
+        run: npm run edgar:trs-extract
+
+      - name: Commit outputs
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add public/data config/universe.json
-          git commit -m "Update EDGAR data" || echo "No changes"
-          git push
+          git config http.version HTTP/1.1
+          git config http.postBuffer 524288000
+
+          git add public/data data/universe.json package-lock.json
+
+          if git diff --cached --quiet; then
+            echo "No EDGAR output changes to commit"
+          else
+            git commit -m "Refresh EDGAR data for Minerlytics universe"
+            git pull --rebase origin develop || true
+            git push origin HEAD:develop || {
+              echo "Git push failed after data generation. Keeping workflow green so outputs and imports can continue."
+            }
+          fi
+
+      - name: Import mining disclosures to Cloudflare D1
+        env:
+          IMPORT_URL: ${{ secrets.CF_IMPORT_URL }}
+          IMPORT_KEY: ${{ secrets.CF_IMPORT_KEY }}
+        run: |
+          if [ -z "$IMPORT_URL" ] || [ -z "$IMPORT_KEY" ]; then
+            echo "Skipping Cloudflare import because CF_IMPORT_URL or CF_IMPORT_KEY is missing."
+            exit 0
+          fi
+
+          python3 - <<'PY'
+          import os
+          import json
+          import glob
+          import time
+          import urllib.request
+          import urllib.error
+
+          files = sorted(glob.glob("public/data/mining_disclosure_reports/*.json"))
+          print("Found", len(files), "disclosure files to import")
+
+          if not files:
+              raise SystemExit("No mining disclosure JSON files found.")
+
+          failed = []
+          imported = 0
+          report_path = "public/data/import_failures.json"
+
+          for path in files:
+              with open(path, "r", encoding="utf-8") as f:
+                  data = json.load(f)
+
+              last_error = None
+              success = False
+
+              for attempt in range(1, 4):
+                  req = urllib.request.Request(
+                      os.environ["IMPORT_URL"],
+                      data=json.dumps(data).encode("utf-8"),
+                      headers={
+                          "Content-Type": "application/json",
+                          "x-import-key": os.environ["IMPORT_KEY"],
+                          "User-Agent": "GitHub-Minerlytics-EDGAR-Importer"
+                      },
+                      method="POST"
+                  )
+
+                  try:
+                      with urllib.request.urlopen(req, timeout=60) as resp:
+                          print("IMPORTED", path, resp.status, f"(attempt {attempt})")
+                          imported += 1
+                          success = True
+                          break
+                  except urllib.error.HTTPError as e:
+                      body = e.read().decode("utf-8", errors="replace")
+                      last_error = {
+                          "file": path,
+                          "type": "http",
+                          "status": e.code,
+                          "body": body[:2000],
+                          "attempt": attempt,
+                      }
+                      print("FAILED", path, e.code, f"(attempt {attempt})", body[:500])
+                  except Exception as e:
+                      last_error = {
+                          "file": path,
+                          "type": "exception",
+                          "message": str(e),
+                          "attempt": attempt,
+                      }
+                      print("FAILED", path, str(e), f"(attempt {attempt})")
+
+                  if attempt < 3:
+                      time.sleep(attempt * 2)
+
+              if not success and last_error:
+                  failed.append(last_error)
+
+          print("----- IMPORT SUMMARY -----")
+          print("Total files:", len(files))
+          print("Imported files:", imported)
+          print("Failed files:", len(failed))
+
+          if failed:
+              with open(report_path, "w", encoding="utf-8") as f:
+                  json.dump(
+                      {
+                          "total_files": len(files),
+                          "imported_files": imported,
+                          "failed_files": len(failed),
+                          "failures": failed,
+                      },
+                      f,
+                      indent=2,
+                  )
+              print(f"Wrote import failure report to {report_path}")
+              if len(failed) == len(files):
+                  raise SystemExit("All disclosure imports failed.")
+              print("Some disclosure imports failed, but the workflow will continue.")
+          PY
+
+      - name: Upload import failure report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: edgar-import-failure-report
+          path: public/data/import_failures.json
+          if-no-files-found: ignore
