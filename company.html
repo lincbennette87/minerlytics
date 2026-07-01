@@ -2187,6 +2187,36 @@
       };
     }
 
+    async function loadCompanyProduction() {
+      const payload = await fetchJsonFirstAvailable([
+        API_BASE + "/api/company-production?ticker=" + encodeURIComponent(company.symbol)
+      ]);
+      if (!payload?.ok || !payload.by_metal) return;
+
+      company.productionByMetal = payload.by_metal || {};
+      company.productionRows = Array.isArray(payload.rows) ? payload.rows : [];
+      company.productionSource = {
+        label: "Production table",
+        endpoint: "/api/company-production",
+        source: payload.source || "production table"
+      };
+    }
+
+    async function loadCompanyAisc() {
+      const payload = await fetchJsonFirstAvailable([
+        API_BASE + "/api/company-aisc?ticker=" + encodeURIComponent(company.symbol)
+      ]);
+      if (!payload?.ok || !payload.by_metal) return;
+
+      company.aiscByMetal = payload.by_metal || {};
+      company.aiscRows = Array.isArray(payload.rows) ? payload.rows : [];
+      company.aiscSource = {
+        label: "AISC metrics table",
+        endpoint: "/api/company-aisc",
+        source: payload.source || "aisc_metrics table"
+      };
+    }
+
     function formatNumberValue(value, unit = "") {
       const numeric = Number(value);
       if (!Number.isFinite(numeric)) return value || "Not available";
@@ -2250,6 +2280,93 @@
       };
     }
 
+    function getProductionMetalRecord(metal) {
+      const key = String(metal || "").toLowerCase();
+      const record = company.productionByMetal?.[key] || null;
+      if (!record || record.ounces === null || record.ounces === undefined) return null;
+      const ounces = Number(record.ounces);
+      if (!Number.isFinite(ounces)) return null;
+      return { ...record, metal: key, ounces };
+    }
+
+    function getAiscMetalRecord(metal) {
+      const key = String(metal || "").toLowerCase();
+      const record = company.aiscByMetal?.[key] || null;
+      if (!record || record.value === null || record.value === undefined) return null;
+      const value = Number(record.value);
+      if (!Number.isFinite(value)) return null;
+      return { ...record, metal: key, value };
+    }
+
+    function productionMeta(record) {
+      const reportDate = record.latest_report_date || record.reportDate || record.report_date || "";
+      const filedDate = record.latest_filing_date || record.filingDate || record.filing_date || "";
+      const form = record.form || "SEC filing";
+      const rowCount = Number(record.row_count || 0);
+      const parts = [
+        form,
+        reportDate ? `period ${reportDate}` : "",
+        filedDate ? `filed ${filedDate}` : "",
+        rowCount > 1 ? `${rowCount} production rows` : ""
+      ].filter(Boolean);
+      return parts.join(" · ");
+    }
+
+    function aiscMeta(record) {
+      const reportDate = record.latest_report_date || record.reportDate || record.report_date || "";
+      const filedDate = record.latest_filing_date || record.filingDate || record.filing_date || "";
+      const form = record.form || "SEC filing";
+      const rowCount = Number(record.row_count || 0);
+      const parts = [
+        form,
+        reportDate ? `period ${reportDate}` : "",
+        filedDate ? `filed ${filedDate}` : "",
+        rowCount > 1 ? `${rowCount} AISC values averaged` : ""
+      ].filter(Boolean);
+      return parts.join(" · ");
+    }
+
+    function formatAiscValue(value) {
+      const numeric = Number(value);
+      if (!Number.isFinite(numeric)) return "Not available";
+      return `$${numeric.toLocaleString(undefined, { maximumFractionDigits: 0 })}/oz`;
+    }
+
+    function productionCardsForMetals(sharesValue) {
+      return ["gold", "silver"].flatMap((metal) => {
+        const record = getProductionMetalRecord(metal);
+        if (!record) return [];
+        const commodity = metal.replace(/\b\w/g, letter => letter.toUpperCase());
+        const cards = [{
+          label: `${commodity} Production Value`,
+          value: formatNumberValue(record.ounces, "oz"),
+          meta: productionMeta(record) || "Latest value from production table"
+        }];
+        if (Number.isFinite(sharesValue) && sharesValue > 0) {
+          cards.push({
+            label: `${commodity} Production Ounces per Share`,
+            value: (record.ounces / sharesValue).toFixed(6),
+            meta: `${commodity} production ounces divided by total shares outstanding`
+          });
+        }
+        return cards;
+      });
+    }
+
+    function aiscCardsForMetals() {
+      return ["gold", "silver"].flatMap((metal) => {
+        const record = getAiscMetalRecord(metal);
+        if (!record) return [];
+        const commodity = metal.replace(/\b\w/g, letter => letter.toUpperCase());
+        return [{
+          label: `${commodity} AISC`,
+          value: formatAiscValue(record.value),
+          href: record.source_url || "",
+          meta: aiscMeta(record) || "Latest value from AISC metrics table"
+        }];
+      });
+    }
+
     function getTotalReserves() {
       const direct = getDirectMetric(["totalReserves", "reserves", "mineralReserves", "reserveText"]);
       if (direct) return direct;
@@ -2290,7 +2407,11 @@
           ${items.map(item => `
             <article class="health-measure-card">
               <div class="health-measure-label">${escapeHtml(item.label)}</div>
-              <div class="health-measure-value">${escapeHtml(item.value)}</div>
+              <div class="health-measure-value">${
+                item.href
+                  ? `<a href="${escapeHtml(item.href)}" target="_blank" rel="noopener">${escapeHtml(item.value)}</a>`
+                  : escapeHtml(item.value)
+              }</div>
               ${item.meta ? `<div class="health-measure-meta">${escapeHtml(item.meta)}</div>` : ""}
             </article>
           `).join("")}
@@ -2311,11 +2432,20 @@
         : "Not available";
 
       if (type.includes("producer") || type.includes("production")) {
-        document.getElementById("keyHealthMeasureNote").textContent = "Producer metrics focus on commodity output, production intensity, and reserve depth from the latest stored production and financial data.";
+        const metalProductionCards = productionCardsForMetals(sharesValue);
+        const metalAiscCards = aiscCardsForMetals();
+        document.getElementById("keyHealthMeasureNote").textContent = metalProductionCards.length
+          ? "Producer metrics focus on commodity output, AISC, production intensity, and reserve depth from the latest stored production, AISC, and financial data."
+          : "Producer metrics focus on commodity output, AISC, production intensity, and reserve depth from the latest stored production, AISC, and financial data. No gold or silver production rows were found for this ticker in the production table.";
+        const fallbackProductionCards = metalProductionCards.length ? [] : [
+          { label: `${commodity} Production Value`, value: production.value, meta: production.meta || "Latest stored production value" },
+          { label: `${commodity} Production Ounces per Share`, value: ouncesPerShare, meta: shares ? `Shares source: ${shares.form || "Report"} filed ${shares.filedDate || "n/a"}` : "" }
+        ];
         renderHealthMeasures([
           { label: "Commodity Produced", value: commodity },
-          { label: `${commodity} Production Value`, value: production.value, meta: production.meta || "Latest stored production value" },
-          { label: `${commodity} Production Ounces per Share`, value: ouncesPerShare, meta: shares ? `Shares source: ${shares.form || "Report"} filed ${shares.filedDate || "n/a"}` : "" },
+          ...metalProductionCards,
+          ...metalAiscCards,
+          ...fallbackProductionCards,
           { label: `${commodity} Total Reserves`, value: getTotalReserves() }
         ]);
         return;
@@ -2495,6 +2625,8 @@
     initSecFilings();
     await loadCompanyFactsFinancials();
     initFinancials();
+    await loadCompanyProduction();
+    await loadCompanyAisc();
     initKeyHealthMeasures();
     initRisks();
     initProjects();

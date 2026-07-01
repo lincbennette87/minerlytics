@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -11,7 +12,95 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from minerlytics.connectors.production_parser import DEFAULT_FORMS, parse_production_to_sqlite
-from minerlytics.database import DEFAULT_DB_PATH, active_miner_symbols, connect
+from minerlytics.database import DEFAULT_DB_PATH, active_miner_symbols, connect, seed_miner_tickers
+
+
+DEFAULT_TICKERS_JS_CANDIDATES = (
+    PROJECT_ROOT / "src" / "tickers.js",
+    PROJECT_ROOT.parent / "GitHub" / "minerlytics" / "src" / "tickers.js",
+)
+
+
+def resolve_tickers_js_path(path_value: str | None) -> Path | None:
+    if path_value:
+        path = Path(path_value).expanduser()
+        if not path.is_absolute():
+            path = (PROJECT_ROOT / path).resolve()
+        return path if path.exists() else None
+    for candidate in DEFAULT_TICKERS_JS_CANDIDATES:
+        if candidate.exists():
+            return candidate
+    return None
+
+
+def string_property(block: str, name: str) -> str:
+    match = re.search(rf"\b{name}\s*:\s*(['\"])(.*?)\1", block, re.S)
+    return match.group(2).strip() if match else ""
+
+
+def iter_ticker_blocks(body: str) -> list[tuple[str, str]]:
+    blocks: list[tuple[str, str]] = []
+    index = 0
+    while True:
+        match = re.search(r"([A-Z0-9]+):\s*\{", body[index:])
+        if not match:
+            return blocks
+        symbol = match.group(1)
+        start = index + match.end()
+        depth = 1
+        cursor = start
+        quote: str | None = None
+        escape = False
+        while cursor < len(body):
+            char = body[cursor]
+            if quote:
+                if escape:
+                    escape = False
+                elif char == "\\":
+                    escape = True
+                elif char == quote:
+                    quote = None
+            elif char in ("'", '"'):
+                quote = char
+            elif char == "{":
+                depth += 1
+            elif char == "}":
+                depth -= 1
+                if depth == 0:
+                    blocks.append((symbol, body[start:cursor]))
+                    index = cursor + 1
+                    break
+            cursor += 1
+        else:
+            return blocks
+
+
+def load_tickers_js_miners(path: Path) -> list[dict[str, str]]:
+    source = path.read_text(encoding="utf-8")
+    body_match = re.search(r"export\s+const\s+TICKERS\s*=\s*\{(?P<body>.*)\}\s*;?\s*$", source, re.S)
+    if not body_match:
+        raise ValueError(f"Could not find exported TICKERS object in {path}")
+
+    miners: list[dict[str, str]] = []
+    for symbol, block in iter_ticker_blocks(body_match.group("body")):
+        company_name = string_property(block, "company") or string_property(block, "name") or symbol
+        metal_focus = (string_property(block, "metal") or "mining").lower().strip()
+        if "gold" in metal_focus and "silver" in metal_focus:
+            metal_focus = "gold_silver"
+        if metal_focus not in {"gold", "silver", "gold_silver"}:
+            continue
+        miners.append(
+            {
+                "symbol": symbol,
+                "yahoo_symbol": string_property(block, "yahooSymbol") or string_property(block, "yahoo_symbol") or symbol,
+                "company_name": company_name,
+                "metal_focus": metal_focus,
+                "company_type": string_property(block, "type") or "miner",
+                "exchange": string_property(block, "exchange"),
+                "country": string_property(block, "country"),
+            }
+        )
+    return miners
 
 
 def main() -> int:
@@ -20,6 +109,15 @@ def main() -> int:
     )
     parser.add_argument("symbols", nargs="*", help="Ticker symbols to parse, for example CDE HL NEM")
     parser.add_argument("--all-miners", action="store_true", help="Parse filings for all active miners")
+    parser.add_argument(
+        "--tickers-js",
+        help="Path to GitHub src/tickers.js. When present, --all-miners seeds and includes this universe.",
+    )
+    parser.add_argument(
+        "--database-only",
+        action="store_true",
+        help="With --all-miners, only use active symbols already in the local database.",
+    )
     parser.add_argument("--forms", nargs="*", default=sorted(DEFAULT_FORMS), help="SEC forms to parse")
     parser.add_argument("--latest-per-form", action="store_true", help="Only parse the latest filing per symbol/form")
     parser.add_argument("--latest-only", action="store_true", help="Alias for --latest-per-form")
@@ -37,6 +135,14 @@ def main() -> int:
     elif args.all_miners:
         db = connect(args.db_path)
         try:
+            if not args.database_only:
+                tickers_js_path = resolve_tickers_js_path(args.tickers_js)
+                if tickers_js_path:
+                    ticker_rows = load_tickers_js_miners(tickers_js_path)
+                    seed_miner_tickers(db, ticker_rows)
+                    print(f"Seeded {len(ticker_rows)} tickers from {tickers_js_path}")
+                else:
+                    print("No src/tickers.js file found; using active local database miners only")
             symbols = active_miner_symbols(db)
         finally:
             db.close()

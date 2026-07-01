@@ -2626,6 +2626,191 @@ async function getAnalysisUniverse(env) {
   });
 }
 
+async function getCompanyProductionByMetal(env, ticker) {
+  const symbol = String(ticker || "").toUpperCase().trim();
+  if (!symbol) {
+    return { rows: [], by_metal: {} };
+  }
+
+  const result = await env.DB.prepare(
+    `
+    SELECT
+      symbol,
+      cik,
+      accession_number,
+      form,
+      filing_date,
+      report_date,
+      fiscal_year,
+      fiscal_period,
+      period_type,
+      mine_name,
+      metal,
+      ounces_produced,
+      unit,
+      source_url,
+      source_text,
+      parser_version,
+      confidence,
+      updated_at
+    FROM production
+    WHERE UPPER(symbol) = ?
+      AND LOWER(metal) IN ('gold', 'silver')
+    ORDER BY
+      COALESCE(report_date, filing_date, updated_at, '') DESC,
+      LOWER(metal),
+      mine_name
+    LIMIT 250
+    `
+  ).bind(symbol).all().catch(() => ({ results: [] }));
+
+  const rows = ((result && result.results) || []).map((row) => ({
+    symbol: String(row.symbol || "").toUpperCase(),
+    cik: row.cik || "",
+    accession_number: row.accession_number || "",
+    form: row.form || "",
+    filing_date: row.filing_date || "",
+    report_date: row.report_date || "",
+    fiscal_year: row.fiscal_year ?? null,
+    fiscal_period: row.fiscal_period || "",
+    period_type: row.period_type || "",
+    mine_name: row.mine_name || "Consolidated",
+    metal: String(row.metal || "").toLowerCase(),
+    ounces_produced: Number(row.ounces_produced),
+    unit: row.unit || "ounces",
+    source_url: row.source_url || "",
+    source_text: row.source_text || "",
+    parser_version: row.parser_version || "",
+    confidence: row.confidence ?? null,
+    updated_at: row.updated_at || "",
+  })).filter((row) => row.symbol && row.metal && Number.isFinite(row.ounces_produced));
+
+  const byMetal = {};
+  for (const metal of ["gold", "silver"]) {
+    const metalRows = rows.filter((row) => row.metal === metal);
+    if (!metalRows.length) continue;
+    const latestDate = metalRows[0].report_date || metalRows[0].filing_date || metalRows[0].updated_at || "";
+    const latestRows = metalRows.filter((row) => {
+      const rowDate = row.report_date || row.filing_date || row.updated_at || "";
+      return rowDate === latestDate;
+    });
+    const consolidatedRows = latestRows.filter((row) => String(row.mine_name || "").trim().toLowerCase() === "consolidated");
+    const rowsForTotal = consolidatedRows.length ? consolidatedRows : latestRows;
+    const ounces = rowsForTotal.reduce((sum, row) => sum + Number(row.ounces_produced || 0), 0);
+    byMetal[metal] = {
+      metal,
+      ounces,
+      unit: "ounces",
+      aggregation: consolidatedRows.length ? "consolidated" : "project_sum",
+      latest_report_date: rowsForTotal[0]?.report_date || "",
+      latest_filing_date: rowsForTotal[0]?.filing_date || "",
+      form: rowsForTotal[0]?.form || "",
+      accession_number: rowsForTotal[0]?.accession_number || "",
+      source_url: rowsForTotal[0]?.source_url || "",
+      source: "production table",
+      row_count: rowsForTotal.length,
+      rows: rowsForTotal,
+    };
+  }
+
+  return { rows, by_metal: byMetal };
+}
+
+async function getCompanyAiscByMetal(env, ticker) {
+  const symbol = String(ticker || "").toUpperCase().trim();
+  if (!symbol) {
+    return { rows: [], by_metal: {} };
+  }
+
+  const result = await env.DB.prepare(
+    `
+    SELECT
+      symbol,
+      cik,
+      accession_number,
+      form,
+      filing_date,
+      report_date,
+      metric_label,
+      metal,
+      mine_name,
+      value,
+      unit,
+      value_sequence,
+      source_url,
+      source_text,
+      parser_version,
+      confidence,
+      updated_at
+    FROM aisc_metrics
+    WHERE UPPER(symbol) = ?
+      AND LOWER(metal) IN ('gold', 'silver', 'gold_silver')
+    ORDER BY
+      COALESCE(report_date, filing_date, updated_at, '') DESC,
+      CASE LOWER(metal)
+        WHEN 'gold' THEN 1
+        WHEN 'silver' THEN 2
+        ELSE 3
+      END,
+      confidence DESC,
+      value_sequence
+    LIMIT 250
+    `
+  ).bind(symbol).all().catch(() => ({ results: [] }));
+
+  const rows = ((result && result.results) || []).map((row) => ({
+    symbol: String(row.symbol || "").toUpperCase(),
+    cik: row.cik || "",
+    accession_number: row.accession_number || "",
+    form: row.form || "",
+    filing_date: row.filing_date || "",
+    report_date: row.report_date || "",
+    metric_label: row.metric_label || "AISC",
+    metal: String(row.metal || "").toLowerCase(),
+    mine_name: row.mine_name || "Consolidated",
+    value: Number(row.value),
+    unit: row.unit || "usd_per_ounce",
+    value_sequence: row.value_sequence ?? null,
+    source_url: row.source_url || "",
+    source_text: row.source_text || "",
+    parser_version: row.parser_version || "",
+    confidence: row.confidence ?? null,
+    updated_at: row.updated_at || "",
+  })).filter((row) => row.symbol && row.metal && Number.isFinite(row.value));
+
+  const byMetal = {};
+  for (const metal of ["gold", "silver"]) {
+    const metalRows = rows.filter((row) => row.metal === metal || row.metal === "gold_silver");
+    if (!metalRows.length) continue;
+    const latestDate = metalRows[0].report_date || metalRows[0].filing_date || metalRows[0].updated_at || "";
+    const latestRows = metalRows.filter((row) => {
+      const rowDate = row.report_date || row.filing_date || row.updated_at || "";
+      return rowDate === latestDate;
+    });
+    const consolidatedRows = latestRows.filter((row) => String(row.mine_name || "").trim().toLowerCase() === "consolidated");
+    const rowsForAverage = consolidatedRows.length ? consolidatedRows : latestRows;
+    const values = rowsForAverage.map((row) => Number(row.value)).filter((value) => Number.isFinite(value));
+    if (!values.length) continue;
+    const average = values.reduce((sum, value) => sum + value, 0) / values.length;
+    byMetal[metal] = {
+      metal,
+      value: average,
+      unit: rowsForAverage[0]?.unit || "usd_per_ounce",
+      aggregation: rowsForAverage.length > 1 ? "average" : "single_value",
+      latest_report_date: rowsForAverage[0]?.report_date || "",
+      latest_filing_date: rowsForAverage[0]?.filing_date || "",
+      form: rowsForAverage[0]?.form || "",
+      accession_number: rowsForAverage[0]?.accession_number || "",
+      source_url: rowsForAverage[0]?.source_url || "",
+      source: "aisc_metrics table",
+      row_count: rowsForAverage.length,
+      rows: rowsForAverage,
+    };
+  }
+
+  return { rows, by_metal: byMetal };
+}
+
 function summarizeRssNews(rssItems) {
   const items = pickTopItems(rssItems, 8);
   return {
@@ -3628,6 +3813,36 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
             forward_looking: forwardLookingExcerpts,
           },
           ai_sections: aiSections,
+        }, 200);
+      }
+
+      if (url.pathname === "/api/company-production" && request.method === "GET") {
+        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        if (!ticker || !TICKERS[ticker]) {
+          return json({ ok: false, error: "unknown ticker" }, 400);
+        }
+        const production = await getCompanyProductionByMetal(env, ticker);
+        return json({
+          ok: true,
+          ticker,
+          source: "production table",
+          by_metal: production.by_metal,
+          rows: production.rows,
+        }, 200);
+      }
+
+      if (url.pathname === "/api/company-aisc" && request.method === "GET") {
+        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        if (!ticker || !TICKERS[ticker]) {
+          return json({ ok: false, error: "unknown ticker" }, 400);
+        }
+        const aisc = await getCompanyAiscByMetal(env, ticker);
+        return json({
+          ok: true,
+          ticker,
+          source: "aisc_metrics table",
+          by_metal: aisc.by_metal,
+          rows: aisc.rows,
         }, 200);
       }
 
