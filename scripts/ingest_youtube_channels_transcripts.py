@@ -15,6 +15,27 @@ CHANNEL_FILTER = {
     if item.strip()
 }
 
+DEFAULT_SYMBOL_TAGS = ["GOLD", "SILVER", "MINERS"]
+
+KEYWORD_SYMBOL_TAGS = {
+    "aem": ["AEM"],
+    "agnico": ["AEM"],
+    "wheaton": ["WPM"],
+    "wpm": ["WPM"],
+    "coeur": ["CDE"],
+    "cde": ["CDE"],
+    "newmont": ["NEM"],
+    "nem": ["NEM"],
+    "barrick": ["GOLD"],
+    "gold": ["GOLD", "MINERS"],
+    "silver": ["SILVER", "MINERS"],
+    "copper": ["COPPER", "MINERS"],
+    "uranium": ["URANIUM", "MINERS"],
+    "lithium": ["LITHIUM", "MINERS"],
+    "miner": ["MINERS"],
+    "mining": ["MINERS"],
+}
+
 CHANNELS = [
     {
         "name": "Kitco News",
@@ -173,6 +194,25 @@ def transcript_exists(video_id: str) -> bool:
     return bool(resp.json().get("exists"))
 
 
+def infer_symbol_tags(video: dict):
+    text = f"{video.get('title', '')} {video.get('channel_title', '')}".lower()
+    tags = []
+    for keyword, symbols in KEYWORD_SYMBOL_TAGS.items():
+        if keyword in text:
+            tags.extend(symbols)
+    if not tags:
+        tags.extend(DEFAULT_SYMBOL_TAGS)
+
+    seen = set()
+    unique = []
+    for tag in tags:
+        normalized = str(tag or "").upper().strip()
+        if normalized and normalized not in seen:
+            unique.append(normalized)
+            seen.add(normalized)
+    return unique[:8]
+
+
 def fetch_transcript(video_id: str):
     ytt = YouTubeTranscriptApi()
 
@@ -236,6 +276,37 @@ def ingest_one(channel_id: str, channel_title: str, video: dict):
     return resp.json()
 
 
+def ingest_video_metadata(channel_id: str, channel_title: str, video: dict, reason: str):
+    """Store a video/link record when transcript fetch is blocked by YouTube."""
+    payload = {
+        "video_id": video["video_id"],
+        "title": video["title"],
+        "channel": channel_title or video.get("channel_title") or "",
+        "published_at": video.get("published_at") or "",
+        "url": video["video_url"],
+        "symbol_tags": infer_symbol_tags(video),
+        "segments": [
+            {
+                "start": 0,
+                "duration": 0,
+                "text": f"Transcript unavailable from GitHub runner. Stored video metadata only. Reason: {str(reason)[:500]}",
+            }
+        ],
+    }
+
+    resp = SESSION.post(
+        f"{WORKER_BASE_URL}/api/ingest/youtube",
+        json=payload,
+        headers={
+            "x-api-key": WORKER_API_KEY,
+            "content-type": "application/json",
+        },
+        timeout=60,
+    )
+    resp.raise_for_status()
+    return resp.json()
+
+
 def resolve_channel(channel: dict):
     channel_id = channel.get("channel_id")
     if channel_id:
@@ -252,7 +323,7 @@ def resolve_channel(channel: dict):
 
 
 def main():
-    totals = {"success": 0, "skipped": 0, "failed": 0, "channels": 0, "videos": 0}
+    totals = {"success": 0, "metadata_only": 0, "skipped": 0, "failed": 0, "channels": 0, "videos": 0}
 
     for channel in CHANNELS:
         if not should_run_channel(channel):
@@ -289,8 +360,13 @@ def main():
                     time.sleep(0.5)
 
                 except Exception as err:
-                    print(f"[{idx}/{len(videos)}] FAIL {video_id} | {title} | {err}")
-                    totals["failed"] += 1
+                    try:
+                        result = ingest_video_metadata(channel_id, channel_title, video, str(err))
+                        print(f"[{idx}/{len(videos)}] METADATA_ONLY {video_id} | {title} | {result}")
+                        totals["metadata_only"] += 1
+                    except Exception as fallback_err:
+                        print(f"[{idx}/{len(videos)}] FAIL {video_id} | {title} | transcript={err} | metadata={fallback_err}")
+                        totals["failed"] += 1
 
         except Exception as err:
             print(f"CHANNEL FAIL {name} | {err}")
