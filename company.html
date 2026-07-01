@@ -645,12 +645,11 @@
       <section class="panel">
         <div class="panel-head">
           <div class="panel-title">YouTube Videos</div>
+          <div class="meta" id="youtubeVideoCount"></div>
         </div>
         <div class="panel-body">
-          <a class="link-card" id="youtubeLink" target="_blank" rel="noopener">
-            <strong>Video search</strong>
-            <span>Open a YouTube search for recent company interviews, site updates, and presentations.</span>
-          </a>
+          <div class="news-list" id="youtubeVideos"></div>
+          <a class="show-all-news" id="youtubeLink" target="_blank" rel="noopener">Open YouTube search</a>
         </div>
       </section>
 
@@ -1950,6 +1949,57 @@
       `).join("");
     }
 
+    async function getCompanyYoutubeVideos() {
+      const response = await fetchWithTimeout(
+        API_BASE + "/api/youtube/recent?symbols=" + encodeURIComponent(company.symbol) + "&limit=5&days=60",
+        {
+          headers: { accept: "application/json" },
+          cache: "no-store"
+        }
+      );
+      if (!response.ok) throw new Error("YouTube recent request failed: " + response.status);
+      const payload = await response.json();
+      return Array.isArray(payload.videos) ? payload.videos : [];
+    }
+
+    async function initYoutubeVideos() {
+      const container = document.getElementById("youtubeVideos");
+      const count = document.getElementById("youtubeVideoCount");
+      container.innerHTML = '<div class="empty">Loading recent YouTube coverage...</div>';
+      setText("youtubeVideoCount", "");
+
+      let videos = [];
+      try {
+        videos = await getCompanyYoutubeVideos();
+      } catch (error) {
+        console.warn("Company YouTube coverage request failed.", error);
+      }
+
+      if (!videos.length) {
+        setText("youtubeVideoCount", "0 videos");
+        container.innerHTML = '<div class="empty">No recent Minerlytics-linked YouTube coverage was found for this company in the last 60 days.</div>';
+        return;
+      }
+
+      setText("youtubeVideoCount", `${videos.length} videos`);
+      container.innerHTML = videos.slice(0, 5).map(video => {
+        const symbols = Array.isArray(video.symbols) && video.symbols.length
+          ? `<p>${escapeHtml(video.symbols.slice(0, 6).join(", "))}</p>`
+          : "";
+        const snippet = video.transcript_snippet
+          ? `<p>${escapeHtml(truncateText(video.transcript_snippet, 180))}</p>`
+          : "";
+        return `
+          <article class="news-item">
+            <div class="news-date">${escapeHtml(formatNewsDate(video.published_at))} · ${escapeHtml(video.channel || "YouTube")}</div>
+            <a href="${escapeHtml(video.url || "#")}" target="_blank" rel="noopener">${escapeHtml(video.title || "Untitled video")}</a>
+            ${symbols}
+            ${snippet}
+          </article>
+        `;
+      }).join("");
+    }
+
     function initSecFilings() {
       const filings = company.secFilings || [];
       setText("secFilingCount", `${filings.length} filings`);
@@ -2622,6 +2672,7 @@
     initHeader();
     initRanges();
     await initNews();
+    await initYoutubeVideos();
     initSecFilings();
     await loadCompanyFactsFinancials();
     initFinancials();
