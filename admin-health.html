@@ -1,0 +1,824 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Minerlytics AI — Admin Health Dashboard</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <style>
+    .healthShell {
+      width: min(1440px, calc(100vw - 36px));
+      margin: 0 auto;
+      padding: 22px 0 54px;
+    }
+
+    .healthHero {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(243,239,230,.12);
+      border-radius: 28px;
+      background:
+        radial-gradient(circle at 18% 24%, rgba(154,122,74,.22), transparent 34%),
+        radial-gradient(circle at 84% 12%, rgba(110,122,113,.22), transparent 32%),
+        linear-gradient(135deg, rgba(21,24,26,.88), rgba(8,9,10,.96));
+      box-shadow: 0 28px 90px rgba(0,0,0,.48);
+      padding: 28px;
+      margin-bottom: 18px;
+    }
+
+    .healthHero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+      background-size: 26px 26px;
+      mask-image: radial-gradient(circle at 50% 20%, black, transparent 72%);
+      pointer-events: none;
+    }
+
+    .healthHeroInner {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 340px;
+      gap: 24px;
+      align-items: center;
+    }
+
+    .healthEyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #f1d7a7;
+      border: 1px solid rgba(154,122,74,.32);
+      background: rgba(154,122,74,.10);
+      border-radius: 999px;
+      padding: 7px 11px;
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .healthPulse {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #cfe8be;
+      box-shadow: 0 0 0 0 rgba(207,232,190,.48);
+      animation: healthPulse 1.9s infinite;
+    }
+
+    .healthHero h1 {
+      margin: 16px 0 10px;
+      font-size: clamp(34px, 5vw, 68px);
+      line-height: .94;
+      letter-spacing: -.055em;
+    }
+
+    .healthHero p {
+      max-width: 780px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .healthActions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .healthScoreCard {
+      position: relative;
+      min-height: 286px;
+      border: 1px solid rgba(243,239,230,.13);
+      border-radius: 24px;
+      background: rgba(8,9,10,.62);
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+    }
+
+    .healthScoreCard::before {
+      content: "";
+      position: absolute;
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      background: conic-gradient(from 180deg, rgba(154,122,74,.95), rgba(110,122,113,.72), rgba(198,154,84,.95), rgba(154,122,74,.95));
+      filter: blur(.2px);
+      animation: slowSpin 9s linear infinite;
+    }
+
+    .healthScoreCard::after {
+      content: "";
+      position: absolute;
+      width: 218px;
+      height: 218px;
+      border-radius: 50%;
+      background: #0b0d0e;
+      box-shadow: inset 0 0 50px rgba(0,0,0,.7);
+    }
+
+    .healthScoreInner {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+    }
+
+    .healthScore {
+      font-size: 58px;
+      font-weight: 950;
+      letter-spacing: -.06em;
+    }
+
+    .healthScoreLabel {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    .adminGate {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto auto;
+      gap: 10px;
+      align-items: center;
+      border: 1px solid rgba(243,239,230,.12);
+      border-radius: 18px;
+      padding: 12px;
+      background: rgba(255,255,255,.04);
+      margin: 18px 0;
+    }
+
+    .adminGate input {
+      min-height: 42px;
+      border: 1px solid rgba(243,239,230,.12);
+      border-radius: 999px;
+      background: rgba(0,0,0,.22);
+      color: var(--text);
+      outline: none;
+      padding: 0 14px;
+    }
+
+    .healthGrid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin: 18px 0;
+    }
+
+    .metricCard,
+    .healthPanel {
+      border: 1px solid rgba(243,239,230,.11);
+      border-radius: 22px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.025)),
+        rgba(21,24,26,.70);
+      box-shadow: 0 18px 50px rgba(0,0,0,.26);
+    }
+
+    .metricCard {
+      position: relative;
+      overflow: hidden;
+      min-height: 132px;
+      padding: 16px;
+    }
+
+    .metricCard::after {
+      content: "";
+      position: absolute;
+      right: -36px;
+      top: -42px;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: rgba(154,122,74,.13);
+    }
+
+    .metricLabel {
+      color: var(--muted2);
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .metricValue {
+      margin-top: 12px;
+      font-size: 34px;
+      font-weight: 950;
+      letter-spacing: -.04em;
+    }
+
+    .metricNote {
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .dashboardGrid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.08fr) minmax(360px, .92fr);
+      gap: 16px;
+      align-items: start;
+    }
+
+    .healthPanel {
+      overflow: hidden;
+      margin-bottom: 16px;
+    }
+
+    .panelTop {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 16px 18px;
+      border-bottom: 1px solid rgba(243,239,230,.10);
+    }
+
+    .panelTop h2 {
+      margin: 0;
+      font-size: 16px;
+      letter-spacing: -.01em;
+    }
+
+    .panelTop span {
+      color: var(--muted2);
+      font-size: 12px;
+    }
+
+    .feedGrid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      padding: 14px;
+    }
+
+    .feedCard {
+      position: relative;
+      min-height: 146px;
+      padding: 14px;
+      border: 1px solid rgba(243,239,230,.10);
+      border-radius: 18px;
+      background: rgba(0,0,0,.18);
+      overflow: hidden;
+    }
+
+    .feedCard::before {
+      content: "";
+      position: absolute;
+      inset: auto 12px 12px 12px;
+      height: 4px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--status-color), rgba(255,255,255,.08));
+    }
+
+    .statusPill {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      border: 1px solid color-mix(in srgb, var(--status-color), transparent 55%);
+      background: color-mix(in srgb, var(--status-color), transparent 88%);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 5px 9px;
+      font-size: 10px;
+      font-weight: 950;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+    }
+
+    .statusDot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--status-color);
+      box-shadow: 0 0 18px var(--status-color);
+    }
+
+    .feedTitle {
+      margin: 12px 0 8px;
+      font-size: 15px;
+      font-weight: 950;
+    }
+
+    .feedMeta {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .feedStats {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+      color: var(--muted2);
+      font-size: 11px;
+    }
+
+    .feedStats b { color: var(--text); }
+
+    .healthTable {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+
+    .healthTable th,
+    .healthTable td {
+      text-align: left;
+      padding: 12px 14px;
+      border-bottom: 1px solid rgba(243,239,230,.08);
+      vertical-align: top;
+    }
+
+    .healthTable th {
+      color: var(--muted2);
+      font-size: 10px;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+      font-weight: 950;
+    }
+
+    .healthTable td {
+      color: var(--muted);
+    }
+
+    .healthTable strong {
+      color: var(--text);
+    }
+
+    .alertList {
+      display: grid;
+      gap: 10px;
+      padding: 14px;
+    }
+
+    .alertItem {
+      border: 1px solid rgba(243,239,230,.10);
+      border-left: 4px solid var(--status-color);
+      border-radius: 16px;
+      background: rgba(0,0,0,.18);
+      padding: 13px;
+    }
+
+    .alertItem h3 {
+      margin: 0 0 7px;
+      font-size: 14px;
+    }
+
+    .alertItem p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .emptyState,
+    .errorState {
+      padding: 20px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .errorState {
+      border: 1px solid rgba(198,154,84,.30);
+      background: rgba(198,154,84,.08);
+      border-radius: 18px;
+      margin: 18px 0;
+    }
+
+    @keyframes healthPulse {
+      70% { box-shadow: 0 0 0 11px rgba(207,232,190,0); }
+      100% { box-shadow: 0 0 0 0 rgba(207,232,190,0); }
+    }
+
+    @keyframes slowSpin {
+      to { transform: rotate(360deg); }
+    }
+
+    @media (max-width: 980px) {
+      .healthHeroInner,
+      .dashboardGrid {
+        grid-template-columns: 1fr;
+      }
+      .healthGrid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .feedGrid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .healthShell { width: min(100% - 24px, 1440px); }
+      .healthHero { padding: 20px; border-radius: 22px; }
+      .healthGrid { grid-template-columns: 1fr; }
+      .adminGate { grid-template-columns: 1fr; }
+      .healthTable { min-width: 720px; }
+      .tableScroller { overflow-x: auto; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logoMark" aria-hidden="true"></div>
+      <span class="brandName">MINERLYTICS</span>
+    </div>
+
+    <nav class="navLinks" aria-label="Primary navigation">
+      <a class="navLink" href="./index.html">Home</a>
+      <a class="navLink" href="./company.html">Company Details</a>
+      <a class="navLink" href="./analysis.html">Analysis</a>
+      <a class="navLink" href="./educationportal.html">Education Portal</a>
+      <a class="navLink" href="./subscription.html">Subscriptions</a>
+      <a class="navLink" href="./about.html">About</a>
+      <a class="navLink isActive" href="./admin-health.html">Admin Health</a>
+    </nav>
+
+    <div class="navRight">
+      <div class="navSearch">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <path fill="currentColor" d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
+        </svg>
+        <input id="globalSearch" type="search" placeholder="Search tickers, feeds, jobs…" />
+      </div>
+
+      <div id="authNav" style="display:flex;align-items:center;gap:10px;">
+        <a class="btn btnGhost" href="./login.html">Sign In</a>
+        <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="healthShell">
+    <section class="healthHero">
+      <div class="healthHeroInner">
+        <div>
+          <div class="healthEyebrow"><span class="healthPulse"></span> Operations Command Center</div>
+          <h1>Minerlytics Health Dashboard</h1>
+          <p>
+            Monitor the data systems feeding Minerlytics: GitHub workflows, Cloudflare D1 tables,
+            market data, RSS, YouTube coverage, EDGAR, company websites, and open alerts.
+          </p>
+          <div class="healthActions">
+            <button class="btn btnPrimary" id="refreshBtn" type="button">Refresh Health</button>
+            <button class="btn btnGhost" id="clearKeyBtn" type="button">Clear Admin Key</button>
+          </div>
+        </div>
+
+        <div class="healthScoreCard" aria-label="Overall health score">
+          <div class="healthScoreInner">
+            <div class="healthScore" id="healthScore">--</div>
+            <div class="healthScoreLabel" id="healthScoreLabel">Awaiting Data</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="adminGate" aria-label="Admin access">
+      <input id="adminKeyInput" type="password" autocomplete="off" placeholder="Enter admin health key" />
+      <button class="btn btnPrimary" id="saveKeyBtn" type="button">Unlock Dashboard</button>
+      <button class="btn btnGhost" id="demoBtn" type="button">Show Sample Visuals</button>
+    </section>
+
+    <div id="errorState" class="errorState" hidden></div>
+
+    <section class="healthGrid" aria-label="Health summary">
+      <article class="metricCard">
+        <div class="metricLabel">Healthy Checks</div>
+        <div class="metricValue" id="healthyCount">--</div>
+        <div class="metricNote">Feeds and jobs currently fresh.</div>
+      </article>
+      <article class="metricCard">
+        <div class="metricLabel">Warnings</div>
+        <div class="metricValue" id="warningCount">--</div>
+        <div class="metricNote">Stale or cancelled items to watch.</div>
+      </article>
+      <article class="metricCard">
+        <div class="metricLabel">Critical</div>
+        <div class="metricValue" id="criticalCount">--</div>
+        <div class="metricNote">Failures or empty/missing feeds.</div>
+      </article>
+      <article class="metricCard">
+        <div class="metricLabel">Open Alerts</div>
+        <div class="metricValue" id="alertCount">--</div>
+        <div class="metricNote" id="lastChecked">Waiting for first refresh.</div>
+      </article>
+    </section>
+
+    <section class="dashboardGrid">
+      <div>
+        <article class="healthPanel">
+          <div class="panelTop">
+            <div>
+              <h2>Data Feed Freshness</h2>
+              <span>D1 table status across the Minerlytics data pipeline</span>
+            </div>
+          </div>
+          <div class="feedGrid" id="feedGrid">
+            <div class="emptyState">Unlock the dashboard to load D1 feed health.</div>
+          </div>
+        </article>
+
+        <article class="healthPanel">
+          <div class="panelTop">
+            <div>
+              <h2>Latest GitHub Workflow Runs</h2>
+              <span>Last recorded Actions runs feeding Minerlytics</span>
+            </div>
+          </div>
+          <div class="tableScroller">
+            <table class="healthTable">
+              <thead>
+                <tr>
+                  <th>Workflow</th>
+                  <th>Status</th>
+                  <th>Finished</th>
+                  <th>Duration</th>
+                </tr>
+              </thead>
+              <tbody id="runsBody">
+                <tr><td colspan="4">Unlock the dashboard to load workflow runs.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+      </div>
+
+      <aside>
+        <article class="healthPanel">
+          <div class="panelTop">
+            <div>
+              <h2>Open Alerts</h2>
+              <span>Items that need attention</span>
+            </div>
+          </div>
+          <div class="alertList" id="alertList">
+            <div class="emptyState">No alert data loaded yet.</div>
+          </div>
+        </article>
+
+        <article class="healthPanel">
+          <div class="panelTop">
+            <div>
+              <h2>Workflow Health Checks</h2>
+              <span>GitHub Actions freshness and status</span>
+            </div>
+          </div>
+          <div class="tableScroller">
+            <table class="healthTable">
+              <thead>
+                <tr>
+                  <th>Check</th>
+                  <th>Status</th>
+                  <th>Freshness</th>
+                </tr>
+              </thead>
+              <tbody id="checksBody">
+                <tr><td colspan="3">Unlock the dashboard to load checks.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+      </aside>
+    </section>
+  </main>
+
+  <script src="./js/auth-ui.js"></script>
+  <script>
+    const ADMIN_KEY_STORAGE = "minerlytics_admin_health_key";
+    const els = {
+      key: document.getElementById("adminKeyInput"),
+      save: document.getElementById("saveKeyBtn"),
+      clear: document.getElementById("clearKeyBtn"),
+      demo: document.getElementById("demoBtn"),
+      refresh: document.getElementById("refreshBtn"),
+      error: document.getElementById("errorState"),
+      score: document.getElementById("healthScore"),
+      scoreLabel: document.getElementById("healthScoreLabel"),
+      healthy: document.getElementById("healthyCount"),
+      warning: document.getElementById("warningCount"),
+      critical: document.getElementById("criticalCount"),
+      alerts: document.getElementById("alertCount"),
+      lastChecked: document.getElementById("lastChecked"),
+      feedGrid: document.getElementById("feedGrid"),
+      runsBody: document.getElementById("runsBody"),
+      checksBody: document.getElementById("checksBody"),
+      alertList: document.getElementById("alertList")
+    };
+
+    const sampleData = {
+      ok: true,
+      generatedAt: new Date().toISOString(),
+      summary: {
+        overall: "warning",
+        totalChecks: 14,
+        healthy: 9,
+        warning: 3,
+        critical: 2,
+        totalRuns: 8,
+        failedRuns: 1,
+        openAlerts: 3,
+        latestCheckAt: new Date().toISOString()
+      },
+      checks: [
+        feed("Market history D1 table", "market", "daily_ohlcv", "fresh", "info", 1360, 9, 36, "Market history is healthy."),
+        feed("RSS/news items D1 table", "news", "news_items", "stale", "warning", 420, 86, 72, "RSS items are getting stale."),
+        feed("YouTube videos D1 table", "youtube", "youtube_videos", "fresh", "info", 44, 21, 168, "YouTube metadata is fresh."),
+        feed("YouTube transcripts D1 table", "youtube", "youtube_transcripts", "warning", "warning", 1, 220, 336, "Transcript coverage is thin because YouTube blocks cloud IPs."),
+        feed("Website project portfolio D1 table", "company_web", "website_project_portfolio", "fresh", "info", 78, 30, 336, "Project portfolio is fresh."),
+        feed("Website management team D1 table", "company_web", "website_management_team", "failed", "critical", null, null, 168, "Management table could not be queried.")
+      ],
+      runs: [
+        run("Refresh Market History", "success", "success", 210),
+        run("Refresh RSS News", "success", "success", 44),
+        run("Ingest YouTube Channel Transcripts", "success", "success", 520),
+        run("Sync Website Management Team", "failed", "failure", 90)
+      ],
+      alerts: [
+        { severity: "warning", title: "RSS feed stale", message: "Latest RSS item is older than the freshness threshold.", source: "d1" },
+        { severity: "critical", title: "Management table query failed", message: "The website_management_team table could not be queried.", source: "d1" }
+      ]
+    };
+
+    function feed(check_name, category, target_name, status, severity, row_count, freshness_hours, threshold_hours, message) {
+      return { check_name, category, target_name, status, severity, row_count, freshness_hours, threshold_hours, message, latest_data_at: new Date().toISOString(), checked_at: new Date().toISOString() };
+    }
+
+    function run(job_name, status, conclusion, duration_seconds) {
+      return { job_name, status, conclusion, duration_seconds, finished_at: new Date().toISOString(), github_run_url: "#" };
+    }
+
+    function colorFor(severity, status) {
+      if (severity === "critical" || status === "failed" || status === "empty") return "#d36a5f";
+      if (severity === "warning" || status === "stale" || status === "warning") return "#C69A54";
+      return "#9fcb8f";
+    }
+
+    function esc(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function formatDate(value) {
+      if (!value) return "Not available";
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return value;
+      return date.toLocaleString([], { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+    }
+
+    function formatDuration(seconds) {
+      if (!Number.isFinite(Number(seconds))) return "--";
+      const value = Number(seconds);
+      if (value < 60) return `${value}s`;
+      return `${Math.round(value / 60)}m`;
+    }
+
+    function scoreFor(summary) {
+      const total = Math.max(1, Number(summary.totalChecks || 0));
+      const penalty = Number(summary.critical || 0) * 18 + Number(summary.warning || 0) * 8 + Number(summary.failedRuns || 0) * 12;
+      return Math.max(0, Math.min(100, Math.round(100 - penalty / total)));
+    }
+
+    function render(data) {
+      const summary = data.summary || {};
+      const score = scoreFor(summary);
+      els.score.textContent = score;
+      els.scoreLabel.textContent = `${String(summary.overall || "unknown").toUpperCase()} HEALTH`;
+      els.healthy.textContent = summary.healthy ?? 0;
+      els.warning.textContent = summary.warning ?? 0;
+      els.critical.textContent = summary.critical ?? 0;
+      els.alerts.textContent = summary.openAlerts ?? 0;
+      els.lastChecked.textContent = `Last checked ${formatDate(summary.latestCheckAt || data.generatedAt)}`;
+
+      const d1Checks = (data.checks || []).filter((check) => check.check_name && check.check_name.includes("D1 table"));
+      const workflowChecks = (data.checks || []).filter((check) => !check.check_name || !check.check_name.includes("D1 table"));
+
+      els.feedGrid.innerHTML = d1Checks.length ? d1Checks.map((check) => {
+        const color = colorFor(check.severity, check.status);
+        return `
+          <article class="feedCard" style="--status-color:${color}">
+            <div class="statusPill"><span class="statusDot"></span>${esc(check.status)}</div>
+            <div class="feedTitle">${esc(check.check_name)}</div>
+            <div class="feedMeta">${esc(check.message || "")}</div>
+            <div class="feedStats">
+              <span>Rows: <b>${esc(check.row_count ?? "--")}</b></span>
+              <span>Age: <b>${check.freshness_hours == null ? "--" : `${Number(check.freshness_hours).toFixed(1)}h`}</b></span>
+              <span>Limit: <b>${check.threshold_hours == null ? "--" : `${Number(check.threshold_hours).toFixed(0)}h`}</b></span>
+            </div>
+          </article>
+        `;
+      }).join("") : `<div class="emptyState">No D1 table checks have been recorded yet.</div>`;
+
+      els.runsBody.innerHTML = (data.runs || []).length ? data.runs.slice(0, 14).map((item) => {
+        const color = colorFor(item.conclusion === "success" ? "info" : "critical", item.status);
+        const name = item.github_run_url ? `<a href="${esc(item.github_run_url)}" target="_blank" rel="noopener">${esc(item.job_name)}</a>` : esc(item.job_name);
+        return `
+          <tr>
+            <td><strong>${name}</strong><br><span>${esc(item.workflow_file || item.workflow_name || "")}</span></td>
+            <td><span class="statusPill" style="--status-color:${color}"><span class="statusDot"></span>${esc(item.conclusion || item.status)}</span></td>
+            <td>${formatDate(item.finished_at)}</td>
+            <td>${formatDuration(item.duration_seconds)}</td>
+          </tr>
+        `;
+      }).join("") : `<tr><td colspan="4">No workflow runs recorded yet.</td></tr>`;
+
+      els.checksBody.innerHTML = workflowChecks.length ? workflowChecks.map((check) => {
+        const color = colorFor(check.severity, check.status);
+        return `
+          <tr>
+            <td><strong>${esc(check.check_name)}</strong><br><span>${esc(check.message || "")}</span></td>
+            <td><span class="statusPill" style="--status-color:${color}"><span class="statusDot"></span>${esc(check.status)}</span></td>
+            <td>${check.freshness_hours == null ? "--" : `${Number(check.freshness_hours).toFixed(1)}h`}</td>
+          </tr>
+        `;
+      }).join("") : `<tr><td colspan="3">No workflow health checks recorded yet.</td></tr>`;
+
+      const openAlerts = (data.alerts || []).filter((alert) => !alert.resolved_at);
+      els.alertList.innerHTML = openAlerts.length ? openAlerts.map((alert) => {
+        const color = colorFor(alert.severity, alert.severity);
+        return `
+          <article class="alertItem" style="--status-color:${color}">
+            <div class="statusPill" style="--status-color:${color}"><span class="statusDot"></span>${esc(alert.severity)}</div>
+            <h3>${esc(alert.title)}</h3>
+            <p>${esc(alert.message)}</p>
+          </article>
+        `;
+      }).join("") : `<div class="emptyState">No open alerts. The control room is quiet.</div>`;
+    }
+
+    async function loadHealth() {
+      const key = sessionStorage.getItem(ADMIN_KEY_STORAGE) || els.key.value.trim();
+      if (!key) {
+        showError("Enter your admin health key to load live D1 health data.");
+        return;
+      }
+
+      sessionStorage.setItem(ADMIN_KEY_STORAGE, key);
+      els.error.hidden = true;
+      els.refresh.textContent = "Refreshing...";
+      els.refresh.disabled = true;
+
+      try {
+        const response = await fetch("./api/admin/health", {
+          headers: { "x-admin-key": key },
+          cache: "no-store"
+        });
+        const data = await response.json();
+        if (!response.ok || !data.ok) {
+          throw new Error(data.error || data.message || `HTTP ${response.status}`);
+        }
+        render(data);
+      } catch (err) {
+        showError(err.message || String(err));
+      } finally {
+        els.refresh.textContent = "Refresh Health";
+        els.refresh.disabled = false;
+      }
+    }
+
+    function showError(message) {
+      els.error.hidden = false;
+      els.error.innerHTML = `<strong>Dashboard notice:</strong> ${esc(message)}<br><span>Use “Show Sample Visuals” to preview the dashboard layout without live D1 data.</span>`;
+    }
+
+    els.save.addEventListener("click", loadHealth);
+    els.refresh.addEventListener("click", loadHealth);
+    els.demo.addEventListener("click", () => {
+      els.error.hidden = true;
+      render(sampleData);
+    });
+    els.clear.addEventListener("click", () => {
+      sessionStorage.removeItem(ADMIN_KEY_STORAGE);
+      els.key.value = "";
+      showError("Admin key cleared from this browser session.");
+    });
+    els.key.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") loadHealth();
+    });
+
+    const savedKey = sessionStorage.getItem(ADMIN_KEY_STORAGE);
+    if (savedKey) {
+      els.key.value = savedKey;
+      loadHealth();
+    }
+  </script>
+</body>
+</html>
