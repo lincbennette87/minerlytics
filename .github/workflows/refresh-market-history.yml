@@ -11,6 +11,10 @@ on:
         description: "How many days of history to sync"
         required: false
         default: "180"
+      batch_size:
+        description: "How many tickers to sync per Worker request"
+        required: false
+        default: "8"
   schedule:
     # Daily market-history refresh for homepage charts and company detail trend views.
     - cron: "30 10 * * *"
@@ -28,38 +32,66 @@ jobs:
           WORKER_API_KEY: ${{ secrets.WORKER_API_KEY }}
           INPUT_SYMBOLS: ${{ inputs.symbols }}
           INPUT_DAYS: ${{ inputs.days }}
+          INPUT_BATCH_SIZE: ${{ inputs.batch_size }}
         run: |
           python - <<'PY'
           import json
           import os
+          import re
           import urllib.request
 
           base = (os.environ.get("WORKER_BASE_URL") or "").rstrip("/")
           api_key = os.environ.get("WORKER_API_KEY") or ""
           symbols = os.environ.get("INPUT_SYMBOLS") or ""
           days = os.environ.get("INPUT_DAYS") or "180"
+          batch_size = int(os.environ.get("INPUT_BATCH_SIZE") or "8")
 
           if not base:
             raise SystemExit("Missing WORKER_BASE_URL secret")
           if not api_key:
             raise SystemExit("Missing WORKER_API_KEY secret")
 
-          payload = {"days": int(days)}
           if symbols.strip():
-            payload["symbols"] = [s.strip().upper() for s in symbols.split(",") if s.strip()]
+            all_symbols = [s.strip().upper() for s in symbols.split(",") if s.strip()]
+          else:
+            source = open("src/tickers.js", encoding="utf-8").read()
+            body = re.search(r"export\s+const\s+TICKERS\s*=\s*\{(?P<body>.*)\}\s*;?\s*$", source, re.S)
+            if not body:
+              raise SystemExit("Could not find TICKERS in src/tickers.js")
+            all_symbols = re.findall(r"^\s*([A-Z0-9]+):\s*\{", body.group("body"), re.M)
 
-          req = urllib.request.Request(
-            f"{base}/api/market/sync",
-            data=json.dumps(payload).encode("utf-8"),
-            headers={
-              "content-type": "application/json",
-              "x-api-key": api_key,
-              "user-agent": "GitHub-Minerlytics-MarketSync"
-            },
-            method="POST"
-          )
+          if not all_symbols:
+            raise SystemExit("No market symbols selected")
 
-          with urllib.request.urlopen(req) as resp:
-            body = resp.read().decode("utf-8")
-            print(body)
+          failures = []
+          total_saved = 0
+          for start in range(0, len(all_symbols), batch_size):
+            batch = all_symbols[start:start + batch_size]
+            payload = {"days": int(days), "symbols": batch}
+            print(f"Syncing market batch {start // batch_size + 1}: {','.join(batch)}")
+
+            req = urllib.request.Request(
+              f"{base}/api/market/sync",
+              data=json.dumps(payload).encode("utf-8"),
+              headers={
+                "content-type": "application/json",
+                "x-api-key": api_key,
+                "user-agent": "GitHub-Minerlytics-MarketSync"
+              },
+              method="POST"
+            )
+
+            with urllib.request.urlopen(req, timeout=120) as resp:
+              body = resp.read().decode("utf-8")
+              print(body)
+              data = json.loads(body)
+              for item in data.get("results", []):
+                if item.get("ok"):
+                  total_saved += int(item.get("rows") or 0)
+                else:
+                  failures.append(item)
+
+          print(json.dumps({"symbols": len(all_symbols), "rows_saved": total_saved, "failed": failures}, indent=2))
+          if failures:
+            raise SystemExit(f"{len(failures)} market symbols failed")
           PY

@@ -2,6 +2,15 @@ name: Refresh RSS News
 
 on:
   workflow_dispatch:
+    inputs:
+      symbols:
+        description: "Optional comma-separated tickers, e.g. AEM,WPM,CDE"
+        required: false
+        default: ""
+      batch_size:
+        description: "How many tickers to sync per Worker request"
+        required: false
+        default: "10"
   schedule:
     # Daily RSS refresh for homepage news, assistant context, and ticker feeds.
     - cron: "15 9 * * *"
@@ -17,32 +26,67 @@ jobs:
         env:
           WORKER_BASE_URL: ${{ secrets.WORKER_BASE_URL }}
           WORKER_API_KEY: ${{ secrets.WORKER_API_KEY }}
+          INPUT_SYMBOLS: ${{ inputs.symbols }}
+          INPUT_BATCH_SIZE: ${{ inputs.batch_size }}
         run: |
           python - <<'PY'
           import json
           import os
+          import re
           import urllib.request
 
           base = (os.environ.get("WORKER_BASE_URL") or "").rstrip("/")
           api_key = os.environ.get("WORKER_API_KEY") or ""
+          symbols = os.environ.get("INPUT_SYMBOLS") or ""
+          batch_size = int(os.environ.get("INPUT_BATCH_SIZE") or "10")
 
           if not base:
             raise SystemExit("Missing WORKER_BASE_URL secret")
           if not api_key:
             raise SystemExit("Missing WORKER_API_KEY secret")
 
-          req = urllib.request.Request(
-            f"{base}/api/news/sync",
-            data=b"{}",
-            headers={
-              "content-type": "application/json",
-              "x-api-key": api_key,
-              "user-agent": "GitHub-Minerlytics-RssSync"
-            },
-            method="POST"
-          )
+          if symbols.strip():
+            all_symbols = [s.strip().upper() for s in symbols.split(",") if s.strip()]
+          else:
+            source = open("src/tickers.js", encoding="utf-8").read()
+            body = re.search(r"export\s+const\s+TICKERS\s*=\s*\{(?P<body>.*)\}\s*;?\s*$", source, re.S)
+            if not body:
+              raise SystemExit("Could not find TICKERS in src/tickers.js")
+            all_symbols = re.findall(r"^\s*([A-Z0-9]+):\s*\{", body.group("body"), re.M)
 
-          with urllib.request.urlopen(req) as resp:
-            body = resp.read().decode("utf-8")
-            print(body)
+          if not all_symbols:
+            raise SystemExit("No RSS symbols selected")
+
+          failures = []
+          inserted = 0
+          fetched = 0
+          for start in range(0, len(all_symbols), batch_size):
+            batch = all_symbols[start:start + batch_size]
+            payload = {"symbols": batch}
+            print(f"Syncing RSS batch {start // batch_size + 1}: {','.join(batch)}")
+
+            req = urllib.request.Request(
+              f"{base}/api/news/sync",
+              data=json.dumps(payload).encode("utf-8"),
+              headers={
+                "content-type": "application/json",
+                "x-api-key": api_key,
+                "user-agent": "GitHub-Minerlytics-RssSync"
+              },
+              method="POST"
+            )
+
+            with urllib.request.urlopen(req, timeout=120) as resp:
+              body = resp.read().decode("utf-8")
+              print(body)
+              data = json.loads(body)
+              for item in data.get("results", []):
+                fetched += int(item.get("fetched") or 0)
+                inserted += int(item.get("inserted") or 0)
+                if not item.get("ok"):
+                  failures.append(item)
+
+          print(json.dumps({"symbols": len(all_symbols), "fetched": fetched, "inserted": inserted, "failed": failures}, indent=2))
+          if failures:
+            raise SystemExit(f"{len(failures)} RSS symbols failed")
           PY

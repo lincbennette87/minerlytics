@@ -1731,6 +1731,7 @@ async function getTranscriptMatches(env, ticker, q, limit = 20) {
 async function getLatestRssItemsForTicker(env, ticker, limit = 8) {
   if (!ticker) return [];
   const safeLimit = Math.min(Math.max(Number(limit || 8), 1), 25);
+  const recentCutoffMs = Date.now() - 60 * 24 * 60 * 60 * 1000;
 
   const rows = await env.DB.prepare(
     `
@@ -1744,23 +1745,33 @@ async function getLatestRssItemsForTicker(env, ticker, limit = 8) {
       END DESC
     LIMIT ?
     `
-  ).bind(ticker, safeLimit).all();
+  ).bind(ticker, safeLimit * 8).all();
 
-  return buildRssContext((rows && rows.results) || []);
+  const recentRows = ((rows && rows.results) || [])
+    .filter((row) => feedRowTimeMs(row) >= recentCutoffMs)
+    .sort((a, b) => feedRowTimeMs(b) - feedRowTimeMs(a))
+    .slice(0, safeLimit);
+
+  return buildRssContext(recentRows);
 }
 
 async function getLatestNewsCardForTicker(env, ticker) {
   try {
-    const row = await env.DB.prepare(
+    const rows = await env.DB.prepare(
       `
       SELECT title, source, published_at, fetched_at
       FROM news_items
       WHERE ticker = ?
       ORDER BY
         CASE WHEN published_at IS NOT NULL AND published_at != '' THEN published_at ELSE fetched_at END DESC
-      LIMIT 1
+      LIMIT 25
       `
-    ).bind(ticker).first();
+    ).bind(ticker).all();
+
+    const recentCutoffMs = Date.now() - 60 * 24 * 60 * 60 * 1000;
+    const row = ((rows && rows.results) || [])
+      .filter((item) => feedRowTimeMs(item) >= recentCutoffMs)
+      .sort((a, b) => feedRowTimeMs(b) - feedRowTimeMs(a))[0];
 
     if (row && row.title) {
       const when = row.published_at || row.fetched_at || null;
@@ -1801,6 +1812,22 @@ function summarizeHeadlineOneLiner(title = "", ticker = "") {
   return `${cleaned.slice(0, 115).trimEnd()}...`;
 }
 
+function parseFeedDateMs(value) {
+  if (!value) return 0;
+  const ms = Date.parse(String(value));
+  return Number.isFinite(ms) ? ms : 0;
+}
+
+function feedRowTimeMs(row) {
+  return Math.max(
+    parseFeedDateMs(row?.published_at),
+    parseFeedDateMs(row?.fetched_at),
+    parseFeedDateMs(row?.retrieved_at),
+    parseFeedDateMs(row?.created_at),
+    0
+  );
+}
+
 async function getLatestUniverseNewsItems(env, symbols = [], limit = 12, days = 60) {
   const tickers = (symbols.length ? symbols : Object.keys(TICKERS))
     .map((t) => String(t || "").toUpperCase().trim())
@@ -1809,22 +1836,25 @@ async function getLatestUniverseNewsItems(env, symbols = [], limit = 12, days = 
 
   if (!tickers.length) return [];
 
-  const placeholders = tickers.map(() => "?").join(",");
   const safeDays = clamp(Number(days || 60), 1, 365);
-  const recentCutoffIso = new Date(Date.now() - safeDays * 24 * 60 * 60 * 1000).toISOString();
+  const recentCutoffMs = Date.now() - safeDays * 24 * 60 * 60 * 1000;
+  const placeholders = tickers.map(() => "?").join(",");
   const rows = await env.DB.prepare(
     `
     SELECT id, ticker, title, link, source, published_at, fetched_at
     FROM news_items
     WHERE ticker IN (${placeholders})
-      AND COALESCE(NULLIF(published_at, ''), fetched_at, '') >= ?
     ORDER BY
       CASE WHEN published_at IS NOT NULL AND published_at != '' THEN published_at ELSE fetched_at END DESC
     LIMIT ?
     `
-  ).bind(...tickers, recentCutoffIso, clamp(Number(limit || 12), 1, 24)).all();
+  ).bind(...tickers, clamp(Number(limit || 12), 1, 24) * 8).all();
 
-  return ((rows && rows.results) || []).map((row) => {
+  return ((rows && rows.results) || [])
+    .filter((row) => feedRowTimeMs(row) >= recentCutoffMs)
+    .sort((a, b) => feedRowTimeMs(b) - feedRowTimeMs(a))
+    .slice(0, clamp(Number(limit || 12), 1, 24))
+    .map((row) => {
     const when = row.published_at || row.fetched_at || null;
     return {
       ticker: row.ticker,
@@ -1999,10 +2029,60 @@ async function getStooqSeriesForTicker(env, ticker, limit = 60) {
     ).bind(candidate, safeLimit).all().catch(() => null);
 
     const results = (rows && rows.results) || [];
-    if (results.length) return results;
+    if (results.length) {
+      return results
+        .slice()
+        .reverse()
+        .map((row) => ({
+          ...row,
+          open: Number(row.open),
+          high: Number(row.high),
+          low: Number(row.low),
+          close: Number(row.close),
+          volume: Number(row.volume),
+        }))
+        .filter((row) => row.date && Number.isFinite(row.close));
+    }
   }
 
   return [];
+}
+
+async function getAssistantMarketSeriesForTicker(env, ticker, limit = 60) {
+  const cleanTicker = String(ticker || "").toUpperCase().trim();
+  if (!cleanTicker) return [];
+
+  const safeLimit = Math.min(Math.max(Number(limit || 60), 5), 180);
+  const liveSeries = await getTrendSeriesForTickers(env, [cleanTicker], safeLimit).catch(() => []);
+  const liveItem = liveSeries[0];
+  if (liveItem?.points?.length) {
+    return liveItem.points.slice(-safeLimit).map((point) => ({
+      symbol: liveItem.symbol || normalizeSymbolToStooqUS(cleanTicker),
+      category: inferTickerCategory(cleanTicker),
+      source: liveItem.source || "live_history",
+      date: point.date,
+      time: point.time || null,
+      open: Number(point.open),
+      high: Number(point.high),
+      low: Number(point.low),
+      close: Number(point.close),
+      volume: Number(point.volume),
+      is_live: !!point.is_live,
+    }));
+  }
+
+  const stored = await getStooqSeriesForTicker(env, cleanTicker, safeLimit);
+  const storedItem = stored.length
+    ? {
+        ticker: cleanTicker,
+        symbol: stored[0]?.symbol || normalizeSymbolToStooqUS(cleanTicker),
+        points: stored,
+      }
+    : null;
+  if (!storedItem) return [];
+
+  const enriched = await enrichTrendSeriesWithLatestQuotes([storedItem]).catch(() => [storedItem]);
+  return (enriched[0]?.points || stored).slice(-safeLimit);
 }
 
 function inferTickerCategory(ticker) {
@@ -2625,7 +2705,11 @@ async function getAnalysisUniverse(env) {
       ).bind(...bindTickers).all().catch(() => ({ results: [] }))
     : { results: [] };
   const latestHeadlineByTicker = new Map();
-  for (const row of ((headlineRows && headlineRows.results) || [])) {
+  const headlineCutoffMs = Date.now() - 60 * 24 * 60 * 60 * 1000;
+  const recentHeadlines = ((headlineRows && headlineRows.results) || [])
+    .filter((row) => feedRowTimeMs(row) >= headlineCutoffMs)
+    .sort((a, b) => feedRowTimeMs(b) - feedRowTimeMs(a));
+  for (const row of recentHeadlines) {
     const ticker = String(row.ticker || "").toUpperCase().trim();
     if (ticker && !latestHeadlineByTicker.has(ticker)) {
       latestHeadlineByTicker.set(ticker, row);
@@ -2892,6 +2976,89 @@ async function getCompanyAiscByMetal(env, ticker) {
       source: "aisc_metrics table",
       row_count: rowsForAverage.length,
       rows: rowsForAverage,
+    };
+  }
+
+  if (!Object.keys(byMetal).length) {
+    const fallback = await getCompanyAiscFallbackFromProduction(env, symbol);
+    if (fallback.rows.length) return fallback;
+  }
+
+  return { rows, by_metal: byMetal };
+}
+
+async function getCompanyAiscFallbackFromProduction(env, symbol) {
+  const result = await env.DB.prepare(
+    `
+    SELECT
+      symbol,
+      cik,
+      accession_number,
+      form,
+      filing_date,
+      report_date,
+      mine_name,
+      metal,
+      source_url,
+      source_text,
+      confidence,
+      updated_at
+    FROM production
+    WHERE UPPER(symbol) = ?
+      AND source_text IS NOT NULL
+      AND LOWER(source_text) LIKE '%aisc%'
+    ORDER BY COALESCE(report_date, filing_date, updated_at, '') DESC
+    LIMIT 50
+    `
+  ).bind(symbol).all().catch(() => ({ results: [] }));
+
+  const rows = [];
+  for (const row of ((result && result.results) || [])) {
+    const sourceText = String(row.source_text || "");
+    const match = sourceText.match(/\bAISC(?:\s+per\s+ounce)?(?:\s+was|\s+were|\s+of|\s*:)?\s*\$?\s*([0-9][0-9,]*(?:\.\d+)?)/i);
+    if (!match) continue;
+    const value = Number(String(match[1] || "").replace(/,/g, ""));
+    if (!Number.isFinite(value) || value <= 0) continue;
+
+    rows.push({
+      symbol: String(row.symbol || "").toUpperCase(),
+      cik: row.cik || "",
+      accession_number: row.accession_number || "",
+      form: row.form || "",
+      filing_date: row.filing_date || "",
+      report_date: row.report_date || "",
+      metric_label: "AISC per ounce",
+      metal: String(row.metal || "gold").toLowerCase(),
+      mine_name: row.mine_name || "Consolidated",
+      value,
+      unit: "usd_per_ounce",
+      value_sequence: null,
+      source_url: row.source_url || "",
+      source_text: sourceText,
+      parser_version: "production_source_text_fallback",
+      confidence: row.confidence ?? null,
+      updated_at: row.updated_at || "",
+    });
+  }
+
+  const byMetal = {};
+  for (const metal of ["gold", "silver"]) {
+    const metalRows = rows.filter((row) => row.metal === metal || row.metal === "gold_silver");
+    if (!metalRows.length) continue;
+    const latest = metalRows[0];
+    byMetal[metal] = {
+      metal,
+      value: latest.value,
+      unit: latest.unit,
+      aggregation: "single_value",
+      latest_report_date: latest.report_date || "",
+      latest_filing_date: latest.filing_date || "",
+      form: latest.form || "",
+      accession_number: latest.accession_number || "",
+      source_url: latest.source_url || "",
+      source: "production_source_text_fallback",
+      row_count: 1,
+      rows: [latest],
     };
   }
 
@@ -3761,11 +3928,22 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
         const auth = requireApiKey(request, env);
         if (!auth.ok) return auth.res;
 
-        await refreshNewsForAll(env);
+        const body = await request.json().catch(() => ({}));
+        const requested = Array.isArray(body.symbols)
+          ? body.symbols
+          : parseSymbolsParam(body.symbols || "");
+        const tickers = (requested.length ? requested : Object.keys(TICKERS))
+          .map((t) => String(t || "").toUpperCase().trim())
+          .filter((t) => !!TICKERS[t]);
+        const results = await refreshNewsForAll(env, tickers);
 
         return json({
           ok: true,
-          tickers: Object.keys(TICKERS).length,
+          tickers,
+          total: results.length,
+          success: results.filter((item) => item.ok).length,
+          failed: results.filter((item) => !item.ok).length,
+          results,
           refreshed_at: new Date().toISOString(),
         }, 200);
       }
@@ -4209,9 +4387,9 @@ VALUES (?, ?, ?, ?)`
 
           newsDetail = buildNewsDetailFromSummary(sentimentRow);
 
-          stooqSeries = await getStooqSeriesForTicker(env, resolvedTicker, 60);
-          stooqLatest = stooqSeries[0] || null;
-          stooqPrevious = stooqSeries.length > 1 ? stooqSeries[1] : null;
+          stooqSeries = await getAssistantMarketSeriesForTicker(env, resolvedTicker, 60);
+          stooqLatest = stooqSeries[stooqSeries.length - 1] || null;
+          stooqPrevious = stooqSeries.length > 1 ? stooqSeries[stooqSeries.length - 2] : null;
         }
 
         const context = buildUnifiedAssistantContext({
@@ -4386,9 +4564,9 @@ VALUES (?, ?, ?, ?)`
         let rssItems = [];
 
         if (intent.sourceGroups.includes("market_data")) {
-          stooqSeries = await getStooqSeriesForTicker(env, resolvedTicker, 60);
-          latest = stooqSeries[0] || null;
-          previous = stooqSeries.length > 1 ? stooqSeries[1] : null;
+          stooqSeries = await getAssistantMarketSeriesForTicker(env, resolvedTicker, 60);
+          latest = stooqSeries[stooqSeries.length - 1] || null;
+          previous = stooqSeries.length > 1 ? stooqSeries[stooqSeries.length - 2] : null;
         }
 
         if (intent.sourceGroups.includes("news_sentiment") || intent.sourceGroups.includes("rss_news")) {

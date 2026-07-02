@@ -45,7 +45,16 @@ export function parseRssItems(xml, limit = 25) {
     const sourceChunk = decodeEntities(textBetween(chunk, "<source", "</source>"));
     const source = sourceChunk.includes(">") ? sourceChunk.slice(sourceChunk.indexOf(">") + 1).trim() : null;
 
-    if (title && link) items.push({ title, link, pubDate, source: source || null });
+    if (title && link) {
+      const parsedDate = pubDate ? new Date(pubDate) : null;
+      items.push({
+        title,
+        link,
+        pubDate,
+        published_at_iso: parsedDate && !Number.isNaN(parsedDate.getTime()) ? parsedDate.toISOString() : null,
+        source: source || null
+      });
+    }
     if (items.length >= limit) break;
   }
   return items;
