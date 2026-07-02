@@ -44,10 +44,41 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Preflight workflow files
+        run: |
+          set -euo pipefail
+          for file in \
+            src/tickers.js \
+            d1_company_homepages.sql \
+            d1_website_investor_news.sql \
+            scripts/sync_company_homepages.py \
+            scripts/sync_website_investor_news.py
+          do
+            test -f "$file" || (echo "Missing required workflow file: $file" && exit 1)
+          done
+
+          python -m py_compile \
+            scripts/sync_company_homepages.py \
+            scripts/sync_website_investor_news.py
+
+          python scripts/sync_company_homepages.py --tickers-js src/tickers.js --parse-only --limit 1 >/tmp/homepages-parse.txt
+          python scripts/sync_website_investor_news.py --tickers-js src/tickers.js --parse-only --limit 1 >/tmp/investor-news-parse.txt
+          grep -q "Parsed" /tmp/homepages-parse.txt
+          grep -q "Parsed" /tmp/investor-news-parse.txt
+
       - name: Set up Node.js
         uses: actions/setup-node@v5
         with:
           node-version: "24"
+
+      - name: Validate Cloudflare secrets
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          test -n "${CLOUDFLARE_API_TOKEN:-}" || (echo "Missing required secret: CLOUDFLARE_API_TOKEN" && exit 1)
+          test -n "${CLOUDFLARE_ACCOUNT_ID:-}" || (echo "Missing required secret: CLOUDFLARE_ACCOUNT_ID" && exit 1)
 
       - name: Install Wrangler
         run: npm install --no-save wrangler@latest
@@ -90,15 +121,6 @@ jobs:
             --delay "${INPUT_DELAY:-0.5}" \
             --max-articles "${INPUT_MAX_ARTICLES:-10}" \
             "${symbol_args[@]}"
-
-      - name: Validate Cloudflare secrets
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: |
-          set -euo pipefail
-          test -n "${CLOUDFLARE_API_TOKEN:-}" || (echo "Missing required secret: CLOUDFLARE_API_TOKEN" && exit 1)
-          test -n "${CLOUDFLARE_ACCOUNT_ID:-}" || (echo "Missing required secret: CLOUDFLARE_ACCOUNT_ID" && exit 1)
 
       - name: Write homepage results to Cloudflare D1
         env:
