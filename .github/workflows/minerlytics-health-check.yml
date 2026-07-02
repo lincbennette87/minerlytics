@@ -1,0 +1,140 @@
+name: Minerlytics Health Check
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Morning health summary after the daily market/RSS/company jobs have had time to run.
+    - cron: "30 14 * * *"
+
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: minerlytics-health-check
+  cancel-in-progress: false
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      CF_D1_DATABASE: minerlytics-dev
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+
+      - name: Install Wrangler
+        run: npm install --no-save wrangler@latest
+
+      - name: Create health tables
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          test -n "${CLOUDFLARE_API_TOKEN:-}" || { echo "Missing CLOUDFLARE_API_TOKEN secret"; exit 1; }
+          test -n "${CLOUDFLARE_ACCOUNT_ID:-}" || { echo "Missing CLOUDFLARE_ACCOUNT_ID secret"; exit 1; }
+          npx wrangler d1 execute "$CF_D1_DATABASE" --remote --file d1_pipeline_health.sql --yes
+
+      - name: Collect GitHub Actions health
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          set -euo pipefail
+          mkdir -p .tmp/health
+          python scripts/minerlytics_pipeline_health.py \
+            --output-sql .tmp/health/github-actions-health.sql \
+            --summary-json .tmp/health/github-actions-health.json \
+            --branch "${GITHUB_REF_NAME:-main}" \
+            --notify-telegram
+
+      - name: Write GitHub Actions health to D1
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler d1 execute "$CF_D1_DATABASE" --remote --file .tmp/health/github-actions-health.sql --yes
+
+      - name: Query D1 data feed tables
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          mkdir -p .tmp/d1-table-health
+
+          query_table() {
+            table="$1"
+            latest_column="$2"
+            json_file=".tmp/d1-table-health/${table}.json"
+            err_file=".tmp/d1-table-health/${table}.err"
+            rm -f "$json_file" "$err_file"
+
+            if npx wrangler d1 execute "$CF_D1_DATABASE" \
+              --remote \
+              --json \
+              --command "SELECT COUNT(*) AS row_count, MAX(${latest_column}) AS latest_data_at FROM ${table};" \
+              > "$json_file" 2> "$err_file"; then
+              if [ ! -s "$err_file" ]; then
+                rm -f "$err_file"
+              fi
+            else
+              echo "Failed query for ${table}; captured error for health report."
+            fi
+          }
+
+          query_table daily_ohlcv date
+          query_table news_items published_at
+          query_table rss_news published_at
+          query_table youtube_videos published_at
+          query_table youtube_transcripts created_at
+          query_table youtube_segments created_at
+          query_table company_homepages checked_at
+          query_table website_project_portfolio retrieved_at
+          query_table website_management_team retrieved_at
+          query_table website_investor_news published_at
+
+      - name: Build D1 data feed health SQL
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          set -euo pipefail
+          python scripts/minerlytics_d1_table_health.py \
+            --input-dir .tmp/d1-table-health \
+            --output-sql .tmp/health/d1-table-health.sql \
+            --summary-json .tmp/health/d1-table-health.json \
+            --notify-telegram
+
+      - name: Write D1 data feed health to D1
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler d1 execute "$CF_D1_DATABASE" --remote --file .tmp/health/d1-table-health.sql --yes
+
+      - name: Upload health artifacts
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: minerlytics-health-check
+          path: |
+            .tmp/health/*.json
+            .tmp/health/*.sql
+            .tmp/d1-table-health/*.json
+            .tmp/d1-table-health/*.err
+          if-no-files-found: warn
+          retention-days: 14
