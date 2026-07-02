@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -81,6 +82,70 @@ def load_universe(path: Path) -> dict[str, dict]:
     if isinstance(data, dict):
         return {str(symbol).upper(): info for symbol, info in data.items()}
     raise ValueError(f"Unsupported universe format in {path}")
+
+
+def load_tickers_js_universe(path: Path) -> dict[str, dict]:
+    source = path.read_text(encoding="utf-8")
+    body_match = re.search(r"export\s+const\s+TICKERS\s*=\s*\{(?P<body>.*)\}\s*;?\s*$", source, re.S)
+    if not body_match:
+        raise ValueError(f"Could not find exported TICKERS object in {path}")
+    universe: dict[str, dict] = {}
+    for symbol, block in iter_ticker_blocks(body_match.group("body")):
+        name = string_property(block, "name") or symbol
+        universe[symbol] = {
+            "symbol": symbol,
+            "name": name,
+            "companyName": string_property(block, "company") or name,
+            "metal": string_property(block, "metal") or "unknown",
+            "metalFocus": string_property(block, "metal") or "unknown",
+            "type": string_property(block, "type") or None,
+            "companyType": string_property(block, "type") or None,
+        }
+    return universe
+
+
+def iter_ticker_blocks(body: str) -> list[tuple[str, str]]:
+    blocks: list[tuple[str, str]] = []
+    index = 0
+    while True:
+        match = re.search(r"([A-Z0-9]+):\s*\{", body[index:])
+        if not match:
+            return blocks
+        symbol = match.group(1)
+        start = index + match.end()
+        depth = 1
+        cursor = start
+        quote: str | None = None
+        escape = False
+        while cursor < len(body):
+            char = body[cursor]
+            if quote:
+                if escape:
+                    escape = False
+                elif char == "\\":
+                    escape = True
+                elif char == quote:
+                    quote = None
+            elif char in {"'", '"'}:
+                quote = char
+            elif char == "{":
+                depth += 1
+            elif char == "}":
+                depth -= 1
+                if depth == 0:
+                    blocks.append((symbol, body[start:cursor]))
+                    index = cursor + 1
+                    break
+            cursor += 1
+        else:
+            raise ValueError(f"Unclosed ticker block for {symbol}")
+
+
+def string_property(block: str, name: str) -> str | None:
+    match = re.search(rf"\b{name}\s*:\s*(['\"])(.*?)\1", block, re.S)
+    if not match:
+        return None
+    return bytes(match.group(2), "utf-8").decode("unicode_escape")
 
 
 def normalize_url(url: str) -> str:
@@ -214,17 +279,18 @@ def main() -> int:
     parser.add_argument("--force", action="store_true", help="Accepted for workflow compatibility")
     parser.add_argument("--delay", type=float, default=0, help="Accepted for workflow compatibility")
     parser.add_argument("--db-path", help="Accepted for legacy workflow compatibility")
-    parser.add_argument("--tickers-js", help="Accepted for legacy workflow compatibility")
+    parser.add_argument("--tickers-js", help="Path to src/tickers.js miner universe")
     parser.add_argument("--debug-results", action="store_true", help="Accepted for legacy workflow compatibility")
     parser.add_argument("--user-agent", help="Accepted for legacy workflow compatibility")
     args = parser.parse_args()
 
-    universe = load_universe(Path(args.universe))
+    universe = load_tickers_js_universe(Path(args.tickers_js)) if args.tickers_js else load_universe(Path(args.universe))
     rows = build_rows(universe, args.symbols, all_miners=args.all_miners, limit=args.limit)
     found_count = sum(1 for row in rows if row["status"] == "found")
 
     if args.parse_only:
-        print(f"Parsed {len(universe)} companies from {args.universe}")
+        source_path = args.tickers_js or args.universe
+        print(f"Parsed {len(universe)} companies from {source_path}")
         for row in rows:
             print(json.dumps(row, separators=(",", ":")))
         return 0
