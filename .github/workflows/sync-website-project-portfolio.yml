@@ -8,27 +8,38 @@ on:
         required: false
         default: ""
       limit:
-        description: "Optional maximum number of tickers to process"
+        description: "Optional maximum number of tickers to process. Also controls rolling batch size when symbols are blank."
         required: false
         default: ""
       delay:
         description: "Seconds to wait between company requests"
         required: false
         default: "0.5"
+      full_universe:
+        description: "Process every ticker when symbols are blank. Leave off for safer rolling batches."
+        required: false
+        default: false
+        type: boolean
   schedule:
-    - cron: "45 12 * * *"
+    - cron: "45 12 * * 2"
 
 permissions:
   contents: read
 
+concurrency:
+  group: sync-website-project-portfolio
+  cancel-in-progress: false
+
 jobs:
   sync-project-portfolio:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     env:
       CF_D1_DATABASE: minerlytics-dev
-      INPUT_SYMBOLS: ${{ inputs.symbols }}
-      INPUT_LIMIT: ${{ inputs.limit }}
+      INPUT_SYMBOLS: ${{ inputs.symbols || '' }}
+      INPUT_LIMIT: ${{ inputs.limit || '' }}
       INPUT_DELAY: ${{ inputs.delay || '0.5' }}
+      INPUT_FULL_UNIVERSE: ${{ inputs.full_universe || 'false' }}
 
     steps:
       - name: Check out repository
@@ -54,9 +65,6 @@ jobs:
 
           common_args=(--tickers-js src/tickers.js)
           symbol_args=()
-          if [ -n "${INPUT_LIMIT:-}" ]; then
-            common_args+=(--limit "$INPUT_LIMIT")
-          fi
 
           if [ -n "${INPUT_SYMBOLS:-}" ]; then
             IFS=',' read -ra symbols <<< "$INPUT_SYMBOLS"
@@ -66,6 +74,49 @@ jobs:
                 symbol_args+=("$trimmed")
               fi
             done
+            echo "Using manually requested symbols: ${symbol_args[*]}"
+          elif [ "${INPUT_FULL_UNIVERSE:-false}" = "true" ]; then
+            if [ -n "${INPUT_LIMIT:-}" ]; then
+              common_args+=(--limit "$INPUT_LIMIT")
+              echo "Full-universe run requested with limit=${INPUT_LIMIT}."
+            else
+              echo "Full-universe run requested with no limit."
+            fi
+          else
+            batch_size="${INPUT_LIMIT:-20}"
+            python - <<'PY' > .tmp/all-portfolio-symbols.txt
+          import pathlib
+          import re
+
+          source = pathlib.Path("src/tickers.js").read_text(encoding="utf-8")
+          body_match = re.search(r"export\s+const\s+TICKERS\s*=\s*\{(?P<body>.*)\}\s*;?\s*$", source, re.S)
+          if not body_match:
+              raise SystemExit("Could not find exported TICKERS object in src/tickers.js")
+          print("\n".join(re.findall(r"^\s*([A-Z0-9]+):\s*\{", body_match.group("body"), re.M)))
+          PY
+            mapfile -t all_symbols < .tmp/all-portfolio-symbols.txt
+            total="${#all_symbols[@]}"
+            if [ "$total" -eq 0 ]; then
+              echo "No symbols found in src/tickers.js" >&2
+              exit 1
+            fi
+            if ! [[ "$batch_size" =~ ^[0-9]+$ ]] || [ "$batch_size" -lt 1 ]; then
+              echo "limit must be a positive integer when using rolling batches." >&2
+              exit 1
+            fi
+            day_of_year="$(date -u +%j)"
+            batch_index=$(( (10#$day_of_year - 1) / 7 ))
+            offset=$(( (batch_index * batch_size) % total ))
+            count="$batch_size"
+            if [ "$count" -gt "$total" ]; then
+              count="$total"
+            fi
+            for ((i = 0; i < count; i++)); do
+              idx=$(( (offset + i) % total ))
+              symbol_args+=("${all_symbols[$idx]}")
+            done
+            echo "Using rolling weekly batch: offset=${offset}, count=${count}, total=${total}"
+            echo "Selected symbols: ${symbol_args[*]}"
           fi
 
           python scripts/sync_company_homepages.py \
@@ -84,6 +135,28 @@ jobs:
             --output-sql .tmp/website-project-portfolio.sql \
             --delay "${INPUT_DELAY:-0.5}" \
             "${symbol_args[@]}"
+
+      - name: Upload generated sync artifacts
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: website-project-portfolio-sync
+          path: |
+            .tmp/company-homepages.json
+            .tmp/company-homepages.sql
+            .tmp/website-project-portfolio.json
+            .tmp/website-project-portfolio.sql
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Validate Cloudflare D1 credentials
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          test -n "${CLOUDFLARE_API_TOKEN:-}" || { echo "Missing CLOUDFLARE_API_TOKEN secret"; exit 1; }
+          test -n "${CLOUDFLARE_ACCOUNT_ID:-}" || { echo "Missing CLOUDFLARE_ACCOUNT_ID secret"; exit 1; }
 
       - name: Write homepage results to Cloudflare D1
         env:
