@@ -1951,7 +1951,7 @@
 
     async function getCompanyYoutubeVideos() {
       const response = await fetchWithTimeout(
-        API_BASE + "/api/youtube/recent?symbols=" + encodeURIComponent(company.symbol) + "&limit=5&days=60",
+        API_BASE + "/api/youtube/recent?symbols=" + encodeURIComponent(company.symbol) + "&limit=5&days=60&strict=1",
         {
           headers: { accept: "application/json" },
           cache: "no-store"
@@ -1959,7 +1959,11 @@
       );
       if (!response.ok) throw new Error("YouTube recent request failed: " + response.status);
       const payload = await response.json();
-      return Array.isArray(payload.videos) ? payload.videos : [];
+      const selectedSymbol = normalizeTicker(company.symbol);
+      return (Array.isArray(payload.videos) ? payload.videos : []).filter((video) => {
+        const symbols = Array.isArray(video.symbols) ? video.symbols.map(normalizeTicker) : [];
+        return symbols.includes(selectedSymbol);
+      });
     }
 
     async function initYoutubeVideos() {
@@ -2166,7 +2170,7 @@
 
     function projectTable(project) {
       const reports = (project.ni43101Reports || []).length
-        ? `<div class="doc-links">${project.ni43101Reports.map((report, index) => `<a class="doc-link" href="${report.url}" target="_blank" rel="noopener">NI 43-101 ${index + 1}</a>`).join("")}</div>`
+        ? `<div class="doc-links">${project.ni43101Reports.map((report, index) => `<a class="doc-link" href="${escapeHtml(report.url || "#")}" target="_blank" rel="noopener">${escapeHtml(report.name || `Technical Report ${index + 1}`)}</a>`).join("")}</div>`
         : "No NI 43-101 document link stored.";
       const rows = [
         ["Ownership", project.ownership || "Not available"],
@@ -2178,7 +2182,10 @@
         ["AI Geology Summary", project.geologySummary || "Not available"],
         ["NI 43-101 Documents", reports]
       ];
-      return `<table>${rows.map(([label, value]) => `<tr><th>${label}</th><td>${value}</td></tr>`).join("")}</table>`;
+      return `<table>${rows.map(([label, value]) => {
+        const isHtml = label === "NI 43-101 Documents";
+        return `<tr><th>${escapeHtml(label)}</th><td>${isHtml ? value : escapeHtml(value)}</td></tr>`;
+      }).join("")}</table>`;
     }
 
     function formatFinancialValue(fact) {
@@ -2309,6 +2316,20 @@
         label: "AISC metrics table",
         endpoint: "/api/company-aisc",
         source: payload.source || "aisc_metrics table"
+      };
+    }
+
+    async function loadCompanyProjects() {
+      const payload = await fetchJsonFirstAvailable([
+        API_BASE + "/api/company-projects?ticker=" + encodeURIComponent(company.symbol) + "&limit=50"
+      ]);
+      if (!payload?.ok || !Array.isArray(payload.projects)) return;
+
+      company.projects = payload.projects;
+      company.projectSource = {
+        label: "Website project portfolio",
+        endpoint: "/api/company-projects",
+        source: payload.source || "website_project_portfolio"
       };
     }
 
@@ -2645,14 +2666,20 @@
     function initProjects() {
       setText("projectCount", `${(company.projects || []).length} projects`);
       const container = document.getElementById("projects");
+      if (!(company.projects || []).length) {
+        container.innerHTML = '<div class="empty">No website project portfolio rows have been loaded for this company yet.</div>';
+        return;
+      }
       container.innerHTML = (company.projects || []).map((project, index) => `
         <details>
           <summary>
-            <span>${project.projectName}</span>
-            <span class="meta">${project.location || ""}</span>
+            <span>${escapeHtml(project.projectName)}</span>
+            <span class="meta">${escapeHtml(project.location || "")}</span>
           </summary>
           <div class="project-body">
-            <p class="project-description">${project.description || "No website project description has been stored yet."}</p>
+            ${company.projectSource ? `<div class="meta">Source: ${escapeHtml(company.projectSource.label)}${project.retrievedAt ? ` · retrieved ${escapeHtml(formatNewsDate(project.retrievedAt))}` : ""}</div>` : ""}
+            <p class="project-description">${escapeHtml(project.description || "No website project description has been stored yet.")}</p>
+            ${project.projectUrl ? `<p class="meta"><a href="${escapeHtml(project.projectUrl)}" target="_blank" rel="noopener">Open project source</a></p>` : ""}
             ${projectTable(project)}
           </div>
         </details>
@@ -2723,6 +2750,7 @@
     initFinancials();
     await loadCompanyProduction();
     await loadCompanyAisc();
+    await loadCompanyProjects();
     initKeyHealthMeasures();
     initRisks();
     initProjects();

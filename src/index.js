@@ -1895,6 +1895,93 @@ async function getWebsiteInvestorNewsForTicker(env, ticker, limit = 8) {
   });
 }
 
+function parseJsonArray(value) {
+  if (!value) return [];
+  try {
+    const parsed = JSON.parse(String(value));
+    return Array.isArray(parsed) ? parsed.filter(Boolean) : [];
+  } catch {
+    return [];
+  }
+}
+
+async function getWebsiteProjectPortfolioForTicker(env, ticker, limit = 50) {
+  const symbol = String(ticker || "").toUpperCase().trim();
+  if (!symbol) return [];
+  const safeLimit = clamp(Number(limit || 50), 1, 100);
+
+  const rows = await env.DB.prepare(
+    `
+    SELECT
+      symbol,
+      company_name,
+      short_name,
+      metal,
+      company_type,
+      project_name,
+      project_url,
+      source_url,
+      page_title,
+      retrieved_at,
+      description_text,
+      ownership,
+      location,
+      status,
+      mining_style,
+      measured_indicated_mineral_resources,
+      inferred_mineral_resources,
+      geology_text,
+      technical_report_names_json,
+      technical_report_urls_json,
+      evidence_text,
+      confidence,
+      extraction_layer
+    FROM website_project_portfolio
+    WHERE symbol = ?
+      AND status_code = 'found'
+      AND project_name IS NOT NULL
+      AND project_name != ''
+    ORDER BY
+      confidence DESC,
+      project_name COLLATE NOCASE,
+      retrieved_at DESC
+    LIMIT ?
+    `
+  ).bind(symbol, safeLimit).all();
+
+  return ((rows && rows.results) || []).map((row) => {
+    const reportNames = parseJsonArray(row.technical_report_names_json);
+    const reportUrls = parseJsonArray(row.technical_report_urls_json);
+    const reports = reportUrls.map((url, index) => ({
+      name: reportNames[index] || `Technical report ${index + 1}`,
+      url
+    })).filter((report) => report.url);
+
+    return {
+      symbol: row.symbol,
+      companyName: row.company_name || "",
+      projectName: row.project_name || "",
+      projectUrl: row.project_url || row.source_url || "",
+      sourceUrl: row.source_url || row.project_url || "",
+      pageTitle: row.page_title || "",
+      retrievedAt: row.retrieved_at || "",
+      description: row.description_text || "",
+      ownership: row.ownership || "",
+      location: row.location || "",
+      status: row.status || "",
+      miningStyle: row.mining_style || "",
+      miResources: row.measured_indicated_mineral_resources || "",
+      inferredResources: row.inferred_mineral_resources || "",
+      geologySummary: row.geology_text || "",
+      ni43101Reports: reports,
+      evidenceText: row.evidence_text || "",
+      confidence: row.confidence ?? null,
+      extractionLayer: row.extraction_layer || "",
+      sourceType: "website_project_portfolio"
+    };
+  });
+}
+
 async function getStooqSeriesForTicker(env, ticker, limit = 60) {
   if (!ticker) return [];
   const safeLimit = Math.min(Math.max(Number(limit || 60), 1), 120);
@@ -3634,6 +3721,20 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
         }, 200);
       }
 
+      if (url.pathname === "/api/company-projects" && request.method === "GET") {
+        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        if (!ticker || !TICKERS[ticker]) return json({ ok: false, error: "unknown ticker" }, 400);
+        const limit = clamp(parseInt(url.searchParams.get("limit") || "50", 10), 1, 100);
+        const projects = await getWebsiteProjectPortfolioForTicker(env, ticker, limit).catch(() => []);
+
+        return json({
+          ok: true,
+          ticker,
+          source: "website_project_portfolio",
+          projects
+        }, 200);
+      }
+
       if (url.pathname === "/api/market/sync" && request.method === "POST") {
         const auth = requireApiKey(request, env);
         if (!auth.ok) return auth.res;
@@ -3695,9 +3796,10 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
         const symbols = parseSymbolsParam(url.searchParams.get("symbols") || "");
         const limit = clamp(parseInt(url.searchParams.get("limit") || "8", 10), 1, 20);
         const days = clamp(parseInt(url.searchParams.get("days") || "60", 10), 1, 365);
+        const strict = ["1", "true", "yes"].includes(String(url.searchParams.get("strict") || "").toLowerCase());
         let videos = await getRecentYoutubeVideosForTickers(env, symbols, limit, days);
         let source = "database_recent";
-        if (!Array.isArray(videos) || !videos.length) {
+        if ((!Array.isArray(videos) || !videos.length) && !strict) {
           videos = await getFallbackYoutubeCoverage(limit).catch(() => []);
           if (videos.length) source = "live_channel_fallback";
         }

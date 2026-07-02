@@ -27,6 +27,7 @@ CURATED_HOMEPAGES = {
     "HYMC": "https://hycroftmining.com/",
     "IAUX": "https://www.i80gold.com/",
     "MAG": "https://magsilver.com/",
+    "NEM": "https://operations.newmont.com/",
     "PZG": "https://paramountnevada.com/",
     "WPM": "https://www.wheatonpm.com/",
 }
@@ -50,6 +51,7 @@ KNOWN_PROJECT_PATHS = {
         "/lone-tree/",
         "/fad-project/",
     ],
+    "NEM": ["/exploration-and-projects/"],
     "PZG": [
         "/PageBuilder/Grassy-Mountain-Gold",
         "/PageBuilder/Sleeper-Gold-Project",
@@ -73,8 +75,26 @@ KNOWN_LANDING_PATHS = {
     "GOLD": ["/English/operations/default.aspx"],
     "HL": ["/operations/"],
     "HMY": ["/where-we-operate/", "/operations/"],
+    "NEM": ["/exploration-and-projects/"],
     "WPM": ["/portfolio/portfolio-overview/default.aspx"],
 }
+
+NEWMONT_PROJECTS_URL = "https://operations.newmont.com/exploration-and-projects/"
+NEWMONT_PROJECT_LINK_RE = re.compile(
+    r"^(?:\d+\s+)?(?P<name>.+?)(?:,\s+(?P<location>[^,]+))?$"
+)
+NEWMONT_EXECUTION_PROJECTS = [
+    "Tanami Expansion 2",
+    "Cadia Panel Caves",
+    "Lihir Nearshore Soil Barrier",
+]
+NEWMONT_NON_PROJECT_PATH_FRAGMENTS = [
+    "/exploration-and-projects/",
+    "/health-and-safety/",
+    "/reserves-and-resources/",
+    "/sustainability/",
+    "dominican-replublic",
+]
 
 COMMON_LANDING_PATHS = [
     "/operations/",
@@ -380,6 +400,9 @@ def load_homepages(path: Path) -> dict[str, str]:
 
 
 def extract_company_projects(company: Company, homepage_url: str, *, timeout: float, user_agent: str) -> list[ProjectRow]:
+    if company.symbol == "NEM":
+        return extract_newmont_projects(company, timeout=timeout, user_agent=user_agent)
+
     homepage_html = fetch_html(homepage_url, timeout=timeout, user_agent=user_agent)
     urls = discover_project_urls(company.symbol, homepage_url, homepage_html, timeout=timeout, user_agent=user_agent)
     rows: list[ProjectRow] = []
@@ -406,6 +429,108 @@ def discover_project_urls(symbol: str, homepage_url: str, homepage_html: str, *,
             continue
         urls.extend(project_links_from_html(landing_url, landing_html))
     return list(dict.fromkeys(urls))[:55]
+
+
+def extract_newmont_projects(company: Company, *, timeout: float, user_agent: str) -> list[ProjectRow]:
+    landing_html = fetch_html(NEWMONT_PROJECTS_URL, timeout=timeout, user_agent=user_agent)
+    parser = parse_page(landing_html)
+    retrieved_at = datetime.now(timezone.utc).isoformat()
+    landing_text = " ".join(split_text_lines(" ".join(parser.lines)))
+    rows: list[ProjectRow] = []
+
+    for project_name, project_url, location_hint in newmont_managed_project_links(parser):
+        try:
+            project_html = fetch_html(project_url, timeout=timeout, user_agent=user_agent)
+        except Exception:
+            continue
+        project_parser = parse_page(project_html)
+        detail_text = "\n".join(line for line in project_parser.lines if clean_text(line))
+        if location_hint and not LOCATION_RE.search(detail_text):
+            detail_text = f"Location: {location_hint}. {detail_text}"
+        rows.append(
+            build_project_row(
+                company,
+                project_name,
+                project_url,
+                project_url,
+                project_parser.title,
+                retrieved_at,
+                detail_text,
+                "newmont_managed_project_detail",
+            )
+        )
+
+    for project_name in NEWMONT_EXECUTION_PROJECTS:
+        section_text = newmont_execution_project_text(landing_text, project_name)
+        if not section_text:
+            continue
+        rows.append(
+            build_project_row(
+                company,
+                project_name,
+                f"{NEWMONT_PROJECTS_URL}#{slugify(project_name)}",
+                NEWMONT_PROJECTS_URL,
+                parser.title,
+                retrieved_at,
+                section_text,
+                "newmont_projects_in_execution",
+            )
+        )
+
+    return dedupe_project_rows(rows)[:40]
+
+
+def newmont_managed_project_links(parser: PageParser) -> list[tuple[str, str, str]]:
+    projects: list[tuple[str, str, str]] = []
+    for link in parser.links:
+        text = clean_text(link.text)
+        url = normalize_url(urllib.parse.urljoin(NEWMONT_PROJECTS_URL, link.href))
+        if not text or not url.startswith("https://operations.newmont.com/"):
+            continue
+        if url.rstrip("/") == "https://operations.newmont.com":
+            continue
+        if any(fragment in url.lower() for fragment in NEWMONT_NON_PROJECT_PATH_FRAGMENTS):
+            continue
+        if not re.match(r"^(?:\d+\s+)?[^\d#|/]{3,90}(?:,\s+[^\d#|/]{2,80})?$", text):
+            continue
+        if text in {"Operations & Projects", "Projects", "Africa", "Australia", "Canada", "Latin America", "Papua New Guinea"}:
+            continue
+        match = NEWMONT_PROJECT_LINK_RE.match(text)
+        if not match:
+            continue
+        name = clean_project_name(match.group("name"))
+        location = clean_text(match.group("location") or "")
+        if generic_project_name(name):
+            continue
+        projects.append((name, url, location))
+
+    best: dict[str, tuple[str, str, str]] = {}
+    for name, url, location in projects:
+        key = normalize_url(url)
+        existing = best.get(key)
+        if existing is None or len(name) > len(existing[0]):
+            best[key] = (name, url, location)
+    return sorted(best.values(), key=lambda item: item[0].lower())
+
+
+def newmont_execution_project_text(landing_text: str, project_name: str) -> str:
+    start = landing_text.lower().find(project_name.lower())
+    if start < 0:
+        return ""
+    following_starts = [
+        landing_text.lower().find(name.lower(), start + len(project_name))
+        for name in NEWMONT_EXECUTION_PROJECTS
+    ]
+    following_starts = [index for index in following_starts if index > start]
+    footer_start = landing_text.lower().find("our purpose is", start)
+    if footer_start > start:
+        following_starts.append(footer_start)
+    end = min(following_starts) if following_starts else min(len(landing_text), start + 1400)
+    return trim_text(landing_text[start:end], 2400)
+
+
+def slugify(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
 
 
 def urls_for_paths(base_url: str, paths: list[str]) -> list[str]:
@@ -632,7 +757,7 @@ def project_confidence(project_name: str, description: str, location: str, statu
         score += 0.06
     if re.search(r"\b(?:resource|reserve|geology|ownership|technical report)\b", evidence, re.I):
         score += 0.08
-    if extraction_layer == "semantic_html":
+    if extraction_layer in {"semantic_html", "newmont_managed_project_detail", "newmont_projects_in_execution"}:
         score += 0.06
     return min(score, 0.98)
 
