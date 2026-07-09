@@ -1935,6 +1935,58 @@ function parseJsonArray(value) {
   }
 }
 
+async function getWebsiteAboutForTicker(env, ticker) {
+  const symbol = String(ticker || "").toUpperCase().trim();
+  if (!symbol) return null;
+
+  const row = await env.DB.prepare(
+    `
+    SELECT
+      symbol,
+      company_name,
+      short_name,
+      metal,
+      company_type,
+      homepage_url,
+      about_url,
+      about_title,
+      about_text,
+      text_length,
+      extraction_method,
+      status,
+      error_message,
+      checked_at,
+      updated_at
+    FROM Website_about_Us
+    WHERE symbol = ?
+    ORDER BY
+      CASE WHEN status = 'found' THEN 0 ELSE 1 END,
+      checked_at DESC
+    LIMIT 1
+    `
+  ).bind(symbol).first();
+
+  if (!row) return null;
+  return {
+    symbol: row.symbol,
+    companyName: row.company_name || "",
+    shortName: row.short_name || "",
+    metal: row.metal || "",
+    companyType: row.company_type || "",
+    homepageUrl: row.homepage_url || "",
+    aboutUrl: row.about_url || "",
+    aboutTitle: row.about_title || "",
+    aboutText: row.about_text || "",
+    textLength: row.text_length ?? 0,
+    extractionMethod: row.extraction_method || "",
+    status: row.status || "not_found",
+    errorMessage: row.error_message || "",
+    checkedAt: row.checked_at || "",
+    updatedAt: row.updated_at || "",
+    sourceType: "Website_about_Us"
+  };
+}
+
 async function getWebsiteProjectPortfolioForTicker(env, ticker, limit = 50) {
   const symbol = String(ticker || "").toUpperCase().trim();
   if (!symbol) return [];
@@ -3885,6 +3937,19 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
           ticker,
           source: "website_investor_news",
           items
+        }, 200);
+      }
+
+      if (url.pathname === "/api/company-about" && request.method === "GET") {
+        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        if (!ticker || !TICKERS[ticker]) return json({ ok: false, error: "unknown ticker" }, 400);
+        const about = await getWebsiteAboutForTicker(env, ticker).catch(() => null);
+
+        return json({
+          ok: true,
+          ticker,
+          source: "Website_about_Us",
+          about
         }, 200);
       }
 

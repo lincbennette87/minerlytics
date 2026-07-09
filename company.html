@@ -58,6 +58,13 @@
 
     .pills { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
     .header-actions { display: grid; gap: 10px; justify-items: end; min-width: min(100%, 420px); }
+    .detail-actions {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
     .company-controls {
       display: flex;
       gap: 8px;
@@ -175,6 +182,24 @@
       cursor: pointer;
     }
     .text-button:hover { background: rgba(154,122,74,.18); }
+    .header-link-button {
+      min-height: 34px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(154,122,74,.32);
+      border-radius: 6px;
+      background: rgba(154,122,74,.14);
+      color: var(--green);
+      padding: 0 12px;
+      font-size: 13px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+    .header-link-button[aria-disabled="true"] {
+      opacity: .52;
+      pointer-events: none;
+    }
 
     .accordion { display: grid; gap: 10px; margin-bottom: 18px; }
     .section-accordion {
@@ -549,6 +574,9 @@
         <div class="meta" id="companyMeta"></div>
       </div>
       <div class="header-actions">
+        <div class="detail-actions">
+          <a class="header-link-button" id="aboutUsHeaderLink" target="_blank" rel="noopener" aria-disabled="true">About Us</a>
+        </div>
         <div class="pills" id="pills"></div>
         <div class="company-controls" aria-label="Select company from Minerlytics universe">
           <label class="company-control-label" for="tickerSelect">Miner Universe</label>
@@ -1794,6 +1822,14 @@
       const website = document.getElementById("websiteLink");
       website.href = company.homepageUrl || "#";
       website.textContent = company.homepageUrl || "Not available";
+      const aboutLink = document.getElementById("aboutUsHeaderLink");
+      const aboutHref = company.aboutUrl || company.homepageUrl || "";
+      aboutLink.href = aboutHref || "#";
+      aboutLink.textContent = company.aboutUrl ? "About Us" : "Website";
+      aboutLink.setAttribute("aria-disabled", aboutHref ? "false" : "true");
+      aboutLink.title = company.aboutSource?.method
+        ? `Source: ${company.aboutSource.label} · ${company.aboutSource.method}`
+        : "Open company website summary source";
       const managementButton = document.getElementById("managementTeamButton");
       managementButton.hidden = !(company.managementTeam || []).length;
       managementButton.addEventListener("click", openManagementModal);
@@ -1876,6 +1912,35 @@
       if (!response.ok) throw new Error("Company website news request failed: " + response.status);
       const payload = await response.json();
       return (payload.items || []).map(normalizeNewsItem);
+    }
+
+    async function loadCompanyAbout() {
+      try {
+        const response = await fetchWithTimeout(API_BASE + "/api/company-about?ticker=" + encodeURIComponent(company.symbol), {
+          headers: { accept: "application/json" },
+          cache: "no-store"
+        });
+        if (!response.ok) throw new Error("Company about request failed: " + response.status);
+        const payload = await response.json();
+        const about = payload.about || null;
+        if (!about) return;
+
+        company.homepageUrl = about.homepageUrl || company.homepageUrl;
+        company.aboutUrl = about.aboutUrl || company.aboutUrl || about.homepageUrl || "";
+        if (about.status === "found" && about.aboutText) {
+          company.companySummary = about.aboutText;
+          company.metalFocus = about.metal || company.metalFocus;
+          company.companyType = about.companyType || company.companyType;
+          company.aboutSource = {
+            label: payload.source || about.sourceType || "Website_about_Us",
+            method: about.extractionMethod || "",
+            checkedAt: about.checkedAt || "",
+            title: about.aboutTitle || ""
+          };
+        }
+      } catch (error) {
+        console.warn("Company About Us request failed; using embedded summary fallback.", error);
+      }
     }
 
     async function getCompanyRssNews() {
@@ -2740,6 +2805,7 @@
       });
     }
 
+    await loadCompanyAbout();
     initTickerControls();
     initHeader();
     initRanges();
