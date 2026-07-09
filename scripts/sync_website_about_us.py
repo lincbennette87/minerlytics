@@ -15,6 +15,11 @@ from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
 
+try:
+    from sync_company_homepages import CURATED_HOMEPAGES as CURATED_COMPANY_HOMEPAGES
+except Exception:
+    CURATED_COMPANY_HOMEPAGES = {}
+
 
 DEFAULT_USER_AGENT = "Minerlytics/0.2 website-about-us"
 ABOUT_TEXT_PATTERNS = [
@@ -54,9 +59,133 @@ ABOUT_CONTEXT_TERMS = [
     "our business",
     "our story",
 ]
+COMMODITY_PATTERNS = [
+    ("gold", r"\bgold\b|\bau\b"),
+    ("silver", r"\bsilver\b|\bag\b"),
+    ("copper", r"\bcopper\b|\bcu\b"),
+    ("lithium", r"\blithium\b"),
+    ("uranium", r"\buranium\b|u3o8"),
+    ("rare earths", r"\brare earths?\b|\brare-earths?\b|\bneodymium\b|\bpraseodymium\b"),
+    ("diamonds", r"\bdiamonds?\b"),
+    ("platinum group metals", r"\bpgm\b|\bpgms\b|\bplatinum\b|\bpalladium\b|\brhodium\b"),
+    ("zinc", r"\bzinc\b"),
+    ("lead", r"\blead\b"),
+    ("nickel", r"\bnickel\b"),
+    ("iron ore", r"\biron ore\b"),
+    ("coal", r"\bcoal\b"),
+    ("potash", r"\bpotash\b"),
+]
+SUMMARY_CONTEXT_TERMS = [
+    "mine",
+    "mining",
+    "miner",
+    "mineral",
+    "exploration",
+    "development",
+    "producer",
+    "production",
+    "project",
+    "portfolio",
+    "operation",
+    "royalty",
+    "streaming",
+    "reserve",
+    "resource",
+    "fund",
+    "etf",
+    "trust",
+]
 CURATED_HOMEPAGES = {
+    **CURATED_COMPANY_HOMEPAGES,
     "IAUX": "https://www.i80gold.com/",
     "PZG": "https://paramountnevada.com/",
+}
+CURATED_SUMMARY_OVERRIDES = {
+    "BHP": {
+        "source_url": "https://www.bhp.com/",
+        "title": "BHP company overview",
+        "summary": (
+            "BHP Group Limited is a diversified global resources company with mined commodity exposure "
+            "including copper, iron ore, metallurgical coal, and potash. The company operates large-scale "
+            "mining and processing assets across Australia and the Americas, with copper growth, Western "
+            "Australia iron ore, and the Jansen potash project among its major strategic pillars."
+        ),
+    },
+    "GATO": {
+        "source_url": "https://www.gatossilver.com/",
+        "title": "Gatos Silver company overview",
+        "summary": (
+            "Gatos Silver, Inc. is listed in Minerlytics as a silver producer focused on the Los Gatos "
+            "District in Chihuahua, Mexico. Its mined commodity exposure includes silver, zinc, lead, and "
+            "gold from polymetallic ore associated with the Cerro Los Gatos operation."
+        ),
+    },
+    "MAG": {
+        "source_url": "https://magsilver.com/",
+        "title": "MAG Silver company overview",
+        "summary": (
+            "MAG Silver Corp. is listed in Minerlytics as a silver developer whose principal asset was the "
+            "Juanicipio silver, gold, lead, and zinc mine in Zacatecas, Mexico. The former MAG public "
+            "website currently redirects to Pan American Silver, so this summary preserves the MAG company "
+            "context and commodity exposure for the ticker record."
+        ),
+    },
+    "FSM": {
+        "source_url": "https://fortunamining.com/",
+        "title": "Fortuna Mining company overview",
+        "summary": (
+            "Fortuna Mining Corp. is a precious metals producer in the Minerlytics universe with mined "
+            "commodity exposure including gold, silver, lead, and zinc. The company operates a portfolio "
+            "of mines and development assets across the Americas and West Africa, including gold and "
+            "silver operations supported by exploration and mine-life extension programs."
+        ),
+    },
+    "PILBF": {
+        "source_url": "https://pilbaraminerals.com.au/",
+        "title": "Pilbara Minerals company overview",
+        "summary": (
+            "Pilbara Minerals Limited is a lithium producer in the Minerlytics universe focused on hard-rock "
+            "lithium mining in Western Australia. Its principal commodity exposure is lithium through "
+            "spodumene concentrate from the Pilgangoora operation, which supplies battery-materials value chains."
+        ),
+    },
+    "MP": {
+        "source_url": "https://mpmaterials.com/",
+        "title": "MP Materials company overview",
+        "summary": (
+            "MP Materials Corp. is a rare earth producer in the Minerlytics universe centered on the Mountain "
+            "Pass rare earth mine and processing operations in California. Its commodity exposure includes "
+            "rare earth elements used in magnets and electrification supply chains, including neodymium and "
+            "praseodymium products."
+        ),
+    },
+    "SIVR": {
+        "source_url": "https://www.abrdn.com/en-us/investor/fund-centre/etf/sivr",
+        "title": "abrdn Physical Silver Shares ETF overview",
+        "summary": (
+            "abrdn Physical Silver Shares ETF is a silver ETF in the Minerlytics universe. It provides "
+            "investment exposure to physical silver bullion rather than operating mines, so its commodity "
+            "exposure is silver and its company detail record is treated as a fund-style metals vehicle."
+        ),
+    },
+    "GDX": {
+        "source_url": "https://www.vaneck.com/us/en/investments/gold-miners-etf-gdx/",
+        "title": "VanEck Gold Miners ETF overview",
+        "summary": (
+            "VanEck Gold Miners ETF is a gold miners ETF in the Minerlytics universe. It provides investment "
+            "exposure to a portfolio of publicly traded gold mining companies rather than directly mining "
+            "commodities, so its commodity exposure is gold through miner equities."
+        ),
+    },
+    "GDXJ": {
+        "source_url": "https://www.vaneck.com/us/en/investments/junior-gold-miners-etf-gdxj/",
+        "title": "VanEck Junior Gold Miners ETF overview",
+        "summary": (
+            "VanEck Junior Gold Miners ETF is a junior gold miners ETF in the Minerlytics universe. It provides "
+            "investment exposure to smaller gold and silver mining companies rather than directly operating "
+            "mines, so its commodity exposure is primarily gold with related precious-metals miner exposure."
+        ),
+    },
 }
 
 
@@ -224,6 +353,8 @@ def main() -> int:
         try:
             if args.mode in {"combined", "legacy"}:
                 result = extract_about_us(homepage_url, timeout=args.timeout, user_agent=args.user_agent)
+            if result.status != "found" and company.symbol in CURATED_SUMMARY_OVERRIDES:
+                result = curated_summary_result(company, homepage_url)
             if result.status != "found" and args.mode in {"combined", "resilient"}:
                 enriched = extract_about_us_resilient(
                     homepage_url,
@@ -240,6 +371,16 @@ def main() -> int:
                         f"resilient_{enriched.extraction_layer}",
                         "found",
                     )
+            if result.status != "found":
+                fallback = generate_ai_about_summary(
+                    company,
+                    homepage_url,
+                    timeout=args.timeout,
+                    user_agent=args.user_agent,
+                    previous_error=result.error_message,
+                )
+                if fallback:
+                    result = fallback
             about_rows.append(row_for_about_result(company, result))
             if enriched:
                 extraction_rows.append(row_for_enriched_about(company, homepage_url, enriched))
@@ -372,7 +513,7 @@ def extract_about_us(homepage_url: str | None, *, timeout: float, user_agent: st
 def ensure_resilient_about_schema(db: Any) -> None:
     db.executescript(
         """
-        create table if not exists Website_About_us_Extractions (
+        create table if not exists Website_about_Us_Extractions (
             id integer primary key autoincrement,
             symbol text not null references mining_companies(symbol),
             company_name text not null,
@@ -394,7 +535,7 @@ def ensure_resilient_about_schema(db: Any) -> None:
         );
 
         create index if not exists idx_website_about_us_extractions_symbol
-            on Website_About_us_Extractions(symbol, confidence);
+            on Website_about_Us_Extractions(symbol, confidence);
         """
     )
 
@@ -420,6 +561,187 @@ def extract_about_us_resilient(
         if candidates:
             return sorted(candidates, key=about_quality, reverse=True)[0]
     return None
+
+
+def curated_summary_result(company: Company, homepage_url: str | None) -> AboutResult:
+    override = CURATED_SUMMARY_OVERRIDES[company.symbol]
+    source_url = override.get("source_url") or homepage_url
+    return AboutResult(
+        homepage_url,
+        source_url,
+        override.get("title") or f"{company.company_name} company overview",
+        trim_about_text(override.get("summary") or ""),
+        "curated_ai_summary",
+        "found",
+    )
+
+
+def generate_ai_about_summary(
+    company: Company,
+    homepage_url: str | None,
+    *,
+    timeout: float,
+    user_agent: str,
+    previous_error: str | None = None,
+) -> AboutResult | None:
+    if company.symbol in CURATED_SUMMARY_OVERRIDES:
+        return curated_summary_result(company, homepage_url)
+    if not homepage_url:
+        return None
+    try:
+        homepage_html = fetch_html(homepage_url, timeout=timeout, user_agent=user_agent)
+        homepage_text, title = extract_text(homepage_html)
+    except Exception as exc:
+        error = f"AI summary fallback fetch failed: {exc}"
+        if previous_error:
+            error = f"{previous_error}; {error}"
+        return AboutResult(homepage_url, None, None, "", "ai_homepage_summary", "failed", error)
+
+    summary = build_generated_company_summary(company, homepage_text)
+    if not summary:
+        return None
+    return AboutResult(homepage_url, homepage_url, title, summary, "ai_homepage_summary", "found")
+
+
+def build_generated_company_summary(company: Company, website_text: str) -> str:
+    commodities = detect_commodities(website_text, company.metal)
+    commodity_phrase = human_join(commodities) if commodities else commodity_label(company.metal)
+    company_type = format_label(company.company_type or "mining company")
+    text_lower = website_text.lower()
+    is_fund = company.company_type.lower() in {"fund", "etf"} or any(term in text_lower for term in ["exchange traded fund", "etf", "trust"])
+
+    if is_fund:
+        lead = (
+            f"{company.company_name} is a {company_type} in the Minerlytics universe with commodity exposure "
+            f"focused on {commodity_phrase}."
+        )
+    else:
+        lead = (
+            f"{company.company_name} is a {company_type} in the Minerlytics universe with mined or mineral "
+            f"commodity exposure that includes {commodity_phrase}."
+        )
+
+    evidence = select_summary_evidence(website_text, company)
+    if evidence:
+        detail = " ".join(evidence)
+    else:
+        detail = (
+            f"The public website was reachable, but it did not expose a clean About Us section during extraction. "
+            f"This generated summary uses the reachable website text and Minerlytics ticker metadata for {company.short_name}."
+        )
+    return trim_about_text(f"{lead} {detail}")
+
+
+def detect_commodities(text: str, default_metal: str) -> list[str]:
+    lowered = text.lower()
+    found: list[str] = []
+    for label, pattern in COMMODITY_PATTERNS:
+        if re.search(pattern, lowered, flags=re.I):
+            found.append(label)
+
+    default_label = commodity_label(default_metal)
+    if default_label and default_label not in {"mining", "unknown", "diversified"}:
+        found.insert(0, default_label)
+    if default_label == "diversified" and not found:
+        found.append("diversified metals and mining")
+    return list(dict.fromkeys(found))
+
+
+def commodity_label(value: str) -> str:
+    label = format_label(value or "").strip().lower()
+    aliases = {
+        "pgm": "platinum group metals",
+        "rare earth": "rare earths",
+        "rare-earth": "rare earths",
+        "diamond": "diamonds",
+    }
+    return aliases.get(label, label)
+
+
+def format_label(value: str) -> str:
+    return re.sub(r"\s+", " ", str(value or "").replace("_", " ").replace("-", " ")).strip()
+
+
+def human_join(items: list[str]) -> str:
+    items = [item for item in items if item]
+    if not items:
+        return "mining commodities"
+    if len(items) == 1:
+        return items[0]
+    if len(items) == 2:
+        return f"{items[0]} and {items[1]}"
+    return ", ".join(items[:-1]) + f", and {items[-1]}"
+
+
+def select_summary_evidence(text: str, company: Company) -> list[str]:
+    sentences = split_sentences(remove_boilerplate(text))
+    if not sentences:
+        return []
+
+    company_terms = [
+        company.company_name.lower(),
+        company.short_name.lower(),
+        company.symbol.lower(),
+    ]
+    scored: list[tuple[int, int, str]] = []
+    for index, sentence in enumerate(sentences):
+        cleaned = clean_summary_sentence(sentence)
+        if not cleaned:
+            continue
+        lowered = cleaned.lower()
+        score = 0
+        if any(term and term in lowered for term in company_terms):
+            score += 3
+        score += sum(1 for term in SUMMARY_CONTEXT_TERMS if term in lowered)
+        score += sum(1 for _, pattern in COMMODITY_PATTERNS if re.search(pattern, lowered, flags=re.I))
+        if score:
+            scored.append((score, index, cleaned))
+
+    if not scored:
+        return first_meaningful_sentences(sentences, 2)
+
+    best = sorted(scored, key=lambda item: (-item[0], item[1]))[:3]
+    return [sentence for _, _, sentence in sorted(best, key=lambda item: item[1])]
+
+
+def split_sentences(text: str) -> list[str]:
+    normalized = re.sub(r"\s+", " ", text or "").strip()
+    if not normalized:
+        return []
+    return re.split(r"(?<=[.!?])\s+(?=[A-Z0-9])", normalized)
+
+
+def clean_summary_sentence(sentence: str) -> str:
+    sentence = clean_text(sentence)
+    if len(sentence) < 35 or len(sentence) > 420:
+        return ""
+    lowered = sentence.lower()
+    if any(
+        marker in lowered
+        for marker in [
+            "cookie",
+            "privacy policy",
+            "terms of use",
+            "skip to",
+            "subscribe",
+            "sign up",
+            "all rights reserved",
+        ]
+    ):
+        return ""
+    return sentence
+
+
+def first_meaningful_sentences(sentences: list[str], limit: int) -> list[str]:
+    results: list[str] = []
+    for sentence in sentences:
+        cleaned = clean_summary_sentence(sentence)
+        if not cleaned:
+            continue
+        results.append(cleaned)
+        if len(results) >= limit:
+            break
+    return results
 
 
 def resilient_about_urls(homepage_url: str, *, timeout: float, user_agent: str) -> list[str]:
@@ -842,7 +1164,7 @@ def write_d1_sql(
     for row in about_rows:
         values = ", ".join(sql_value(row.get(column)) for column in about_columns)
         statements.append(
-            f"""INSERT INTO website_about_us ({", ".join(about_columns)}, updated_at)
+            f"""INSERT INTO Website_about_Us ({", ".join(about_columns)}, updated_at)
 VALUES ({values}, CURRENT_TIMESTAMP)
 ON CONFLICT(symbol) DO UPDATE SET
     {about_assignments},
@@ -877,7 +1199,7 @@ ON CONFLICT(symbol) DO UPDATE SET
     for row in extraction_rows:
         values = ", ".join(sql_value(row.get(column)) for column in extraction_columns)
         statements.append(
-            f"""INSERT INTO website_about_us_extractions ({", ".join(extraction_columns)}, updated_at)
+            f"""INSERT INTO Website_about_Us_Extractions ({", ".join(extraction_columns)}, updated_at)
 VALUES ({values}, CURRENT_TIMESTAMP)
 ON CONFLICT(symbol, source_url, extraction_layer) DO UPDATE SET
     {extraction_assignments},
@@ -889,7 +1211,7 @@ ON CONFLICT(symbol, source_url, extraction_layer) DO UPDATE SET
 
 
 def sql_value(value: Any) -> str:
-    if value is None or value == "":
+    if value is None:
         return "NULL"
     if isinstance(value, (int, float)):
         return str(value)

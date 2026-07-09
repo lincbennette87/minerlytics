@@ -1,0 +1,2829 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minerlytics AI — Company Details</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <style>
+    :root {
+      --bg0: #08090a;
+      --bg1: #111315;
+      --text: #F3EFE6;
+      --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      --muted2: rgba(243,239,230,.52);
+      --accent: #9A7A4A;
+      --accent2: #6E7A71;
+      --warn: #C69A54;
+      --ink: var(--text);
+      --muted: rgba(243,239,230,.74);
+      --line: rgba(243,239,230,.10);
+      --paper: #08090a;
+      --panel: rgba(21,24,26,.62);
+      --green: #9A7A4A;
+      --green-2: #6E7A71;
+      --gold: #C69A54;
+      --blue: #6E7A71;
+      --shadow: 0 18px 50px rgba(0,0,0,.22);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: var(--font);
+      color: var(--text);
+      background:
+        radial-gradient(1000px 600px at 16% 18%, rgba(154,122,74,.14), transparent 60%),
+        radial-gradient(900px 520px at 82% 28%, rgba(110,122,113,.10), transparent 55%),
+        radial-gradient(900px 520px at 68% 88%, rgba(243,239,230,.04), transparent 55%),
+        linear-gradient(180deg, var(--bg0), var(--bg1));
+    }
+
+    a { color: var(--green); font-weight: 800; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .page { width: min(1440px, calc(100vw - 40px)); margin: 0 auto; padding: 28px 18px 48px; }
+
+    .company-header {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 18px;
+    }
+
+    h1 { margin: 0; font-size: 34px; line-height: 1.05; letter-spacing: 0; }
+    .ticker { color: var(--green); font-weight: 900; }
+    .meta { color: var(--muted); margin-top: 7px; font-size: 14px; }
+
+    .pills { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+    .header-actions { display: grid; gap: 10px; justify-items: end; min-width: min(100%, 420px); }
+    .detail-actions {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
+    .company-controls {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
+    .company-control-label {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+    .company-select, .company-search {
+      min-height: 36px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: rgba(255,255,255,.05);
+      color: var(--text);
+      padding: 0 10px;
+      outline: none;
+    }
+    .company-select { max-width: 190px; }
+    .company-search { width: 210px; }
+    .company-select option { color: #19211d; }
+    .pill {
+      min-height: 30px;
+      display: inline-flex;
+      align-items: center;
+      padding: 0 10px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: rgba(255,255,255,.04);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 850;
+      text-transform: capitalize;
+    }
+
+    .top-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(360px, .9fr);
+      gap: 18px;
+      align-items: stretch;
+      margin-bottom: 18px;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(21,24,26,.62);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .panel-head {
+      min-height: 56px;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,.035);
+    }
+
+    .panel-title { font-size: 13px; font-weight: 900; text-transform: uppercase; }
+    .panel-body { padding: 16px; }
+
+    .range-buttons { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+    .range-buttons button {
+      height: 30px;
+      min-width: 52px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: rgba(21,24,26,.96);
+      color: var(--ink);
+      font-weight: 850;
+      cursor: pointer;
+    }
+    .range-buttons button.active { background: var(--green); color: #fff; border-color: var(--green); }
+
+    .chart-wrap { height: 320px; position: relative; }
+    canvas { width: 100%; height: 100%; display: block; }
+    .empty-chart {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      color: var(--muted);
+      text-align: center;
+      padding: 20px;
+    }
+    .empty-chart[hidden] { display: none; }
+
+    .summary-text { margin: 0 0 14px; color: var(--muted); line-height: 1.58; }
+    .website-line { display: flex; gap: 10px; align-items: center; color: var(--muted); font-size: 14px; word-break: break-word; }
+    .summary-actions {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .text-button {
+      width: fit-content;
+      min-height: 32px;
+      border: 1px solid rgba(154,122,74,.28);
+      border-radius: 6px;
+      background: rgba(154,122,74,.12);
+      color: var(--green);
+      padding: 0 10px;
+      font: inherit;
+      font-size: 14px;
+      font-weight: 850;
+      cursor: pointer;
+    }
+    .text-button:hover { background: rgba(154,122,74,.18); }
+    .header-link-button {
+      min-height: 34px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(154,122,74,.32);
+      border-radius: 6px;
+      background: rgba(154,122,74,.14);
+      color: var(--green);
+      padding: 0 12px;
+      font-size: 13px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+    .header-link-button[aria-disabled="true"] {
+      opacity: .52;
+      pointer-events: none;
+    }
+
+    .accordion { display: grid; gap: 10px; margin-bottom: 18px; }
+    .section-accordion {
+      margin-bottom: 18px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(21,24,26,.62);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .section-accordion > summary {
+      min-height: 58px;
+      padding: 0 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,.035);
+      cursor: pointer;
+      list-style: none;
+    }
+    .section-accordion > summary::-webkit-details-marker { display: none; }
+    .section-accordion > summary:after { content: "+"; color: var(--green); font-size: 22px; line-height: 1; }
+    .section-accordion[open] > summary:after { content: "−"; }
+    .section-accordion-body { padding: 16px; }
+    details {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(21,24,26,.62);
+      box-shadow: 0 8px 20px rgba(25,33,29,.06);
+      overflow: hidden;
+    }
+    summary {
+      min-height: 58px;
+      padding: 0 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      cursor: pointer;
+      font-weight: 900;
+      list-style: none;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary:after { content: "+"; color: var(--green); font-size: 22px; line-height: 1; }
+    details[open] summary:after { content: "−"; }
+
+    .project-body { border-top: 1px solid var(--line); padding: 16px; }
+    .project-description { margin: 0 0 14px; color: var(--muted); line-height: 1.55; }
+    .financial-table td:nth-child(2), .financial-table td:nth-child(3) {
+      font-variant-numeric: tabular-nums;
+    }
+    .health-measure-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .health-measure-card {
+      min-height: 118px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,.04);
+    }
+    .health-measure-label {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+    .health-measure-value {
+      margin-top: 8px;
+      color: var(--ink);
+      font-size: 18px;
+      font-weight: 900;
+      line-height: 1.3;
+      overflow-wrap: anywhere;
+    }
+    .health-measure-meta {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+    .source-note {
+      margin: 0 0 12px;
+      color: var(--muted);
+      line-height: 1.45;
+      font-size: 13px;
+    }
+    table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 10px 8px;
+      vertical-align: top;
+      text-align: left;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+    th { width: 210px; color: var(--muted); text-transform: uppercase; font-size: 11px; letter-spacing: 0; }
+    tr:last-child th, tr:last-child td { border-bottom: 0; }
+
+    .doc-links { display: flex; gap: 8px; flex-wrap: wrap; }
+    .doc-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 0 10px;
+      border: 1px solid rgba(154,122,74,.28);
+      border-radius: 6px;
+      background: rgba(154,122,74,.12);
+      font-size: 12px;
+    }
+
+    .media-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .link-card {
+      display: grid;
+      gap: 8px;
+      min-height: 116px;
+      align-content: center;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: linear-gradient(135deg, rgba(154,122,74,.10), rgba(110,122,113,.10));
+      padding: 16px;
+    }
+    .link-card strong { font-size: 18px; }
+    .link-card span { color: var(--muted); line-height: 1.45; }
+    .news-list {
+      display: grid;
+      gap: 10px;
+    }
+    .news-item {
+      display: grid;
+      gap: 4px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,.04);
+    }
+    .news-item a {
+      color: var(--ink);
+      font-weight: 850;
+      line-height: 1.35;
+    }
+    .news-item p {
+      margin: 2px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    .news-date {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+    .show-all-news {
+      width: fit-content;
+      margin-top: 12px;
+      display: inline-flex;
+      min-height: 34px;
+      align-items: center;
+      padding: 0 11px;
+      border: 1px solid rgba(154,122,74,.28);
+      border-radius: 6px;
+      background: rgba(154,122,74,.12);
+    }
+    .filings-list {
+      display: grid;
+      gap: 10px;
+    }
+    .filing-item {
+      display: grid;
+      gap: 6px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,.04);
+    }
+    .filing-item a {
+      color: var(--ink);
+      font-weight: 900;
+      line-height: 1.35;
+    }
+    .filing-meta {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+    .risk-summary {
+      display: grid;
+      gap: 14px;
+    }
+    .ai-summary {
+      padding: 14px;
+      border: 1px solid rgba(65,103,122,.24);
+      border-radius: 16px;
+      background: rgba(65,103,122,.08);
+      color: var(--ink);
+      line-height: 1.58;
+      font-weight: 650;
+    }
+    .risk-source {
+      display: grid;
+      gap: 10px;
+    }
+    .risk-source-text {
+      max-height: 260px;
+      overflow: auto;
+      margin: 0;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,.04);
+      color: var(--muted);
+      font: 13px/1.55 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      white-space: pre-wrap;
+    }
+
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: rgba(15, 22, 19, .52);
+      z-index: 20;
+    }
+    .modal-backdrop[hidden] { display: none; }
+    .modal {
+      width: min(960px, 100%);
+      max-height: min(760px, calc(100vh - 48px));
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      border-radius: 16px;
+      background: rgba(21,24,26,.96);
+      box-shadow: 0 24px 80px rgba(0,0,0,.24);
+      overflow: hidden;
+    }
+    .modal-head {
+      min-height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(250,250,247,.96);
+    }
+    .modal-title { font-size: 14px; font-weight: 900; text-transform: uppercase; }
+    .icon-button {
+      width: 34px;
+      height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: rgba(21,24,26,.96);
+      color: var(--ink);
+      font-size: 24px;
+      line-height: 1;
+      cursor: pointer;
+    }
+    .management-layout {
+      min-height: 0;
+      display: grid;
+      grid-template-columns: minmax(220px, .36fr) minmax(0, .64fr);
+    }
+    .management-list {
+      min-height: 0;
+      overflow: auto;
+      border-right: 1px solid var(--line);
+      background: #f9faf7;
+      padding: 10px;
+    }
+    .person-button {
+      width: 100%;
+      min-height: 62px;
+      display: grid;
+      gap: 4px;
+      text-align: left;
+      border: 1px solid transparent;
+      border-radius: 6px;
+      background: transparent;
+      padding: 10px;
+      color: var(--ink);
+      cursor: pointer;
+    }
+    .person-button strong { font-size: 14px; }
+    .person-button span { color: var(--muted); font-size: 12px; line-height: 1.25; }
+    .person-button.active {
+      border-color: rgba(36,79,67,.26);
+      background: rgba(21,24,26,.96);
+      box-shadow: 0 8px 18px rgba(25,33,29,.08);
+    }
+    .management-detail {
+      min-height: 0;
+      overflow: auto;
+      padding: 22px;
+    }
+    .management-detail h3 {
+      margin: 0;
+      font-size: 26px;
+      line-height: 1.05;
+    }
+    .management-detail .role {
+      margin: 8px 0 18px;
+      color: var(--green);
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+    .management-detail p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.62;
+    }
+
+    @media (max-width: 980px) {
+      .page { width: min(100vw - 24px, 920px); padding-top: 18px; }
+      .company-header, .top-grid, .media-grid { grid-template-columns: 1fr; display: grid; }
+      .company-header { align-items: start; }
+      .pills { justify-content: flex-start; }
+      .header-actions { justify-items: start; }
+      th { width: 150px; }
+    }
+
+    @media (max-width: 640px) {
+      h1 { font-size: 28px; }
+      .health-measure-grid { grid-template-columns: 1fr; }
+      .top-grid { gap: 12px; }
+      .panel-head { align-items: start; flex-direction: column; }
+      .chart-wrap { height: 260px; }
+      .management-layout { grid-template-columns: 1fr; }
+      .management-list { max-height: 220px; border-right: 0; border-bottom: 1px solid var(--line); }
+      th, td { display: block; width: 100%; }
+      th { border-bottom: 0; padding-bottom: 2px; }
+      td { padding-top: 2px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logoMark"></div>
+      <div class="brandName">MINERLYTICS</div>
+    </div>
+    <nav class="navLinks">
+      <a class="navLink" href="./index.html">Home</a>
+      <a class="navLink isActive" href="./company.html">Company Details</a>
+      <a class="navLink" href="./analysis.html">Analysis</a>
+      <a class="navLink" href="./educationportal.html">Education Portal</a>
+      <a class="navLink" href="./subscription.html">Subscriptions</a>
+      <a class="navLink" href="./about.html">About</a>
+    </nav>
+    <div class="navRight">
+      <div id="authNav" style="display:flex;gap:10px;">
+        <a class="btn btnGhost" href="./login.html">Sign In</a>
+        <a class="btn btnPrimary" href="./signup.html">Join Minerlytics</a>
+      </div>
+    </div>
+  </header>
+  <main class="page">
+    <header class="company-header">
+      <div>
+        <h1><span id="companyName"></span> <span class="ticker" id="ticker"></span></h1>
+        <div class="meta" id="companyMeta"></div>
+      </div>
+      <div class="header-actions">
+        <div class="detail-actions">
+          <a class="header-link-button" id="aboutUsHeaderLink" target="_blank" rel="noopener" aria-disabled="true">About Us</a>
+        </div>
+        <div class="pills" id="pills"></div>
+        <div class="company-controls" aria-label="Select company from Minerlytics universe">
+          <label class="company-control-label" for="tickerSelect">Miner Universe</label>
+          <select class="company-select" id="tickerSelect"></select>
+          <input class="company-search" id="tickerSearchInput" type="search" list="tickerSearchOptions" placeholder="Ticker or company" />
+          <datalist id="tickerSearchOptions"></datalist>
+          <button class="text-button" id="tickerSearchButton" type="button">Open</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="top-grid">
+      <section class="panel">
+        <div class="panel-head">
+          <div class="panel-title">Stock Price</div>
+          <div class="range-buttons" id="rangeButtons"></div>
+        </div>
+        <div class="panel-body">
+          <div class="chart-wrap">
+            <canvas id="priceChart" width="900" height="360"></canvas>
+            <div class="empty-chart" id="emptyChart" hidden>No stored price history is available for this company.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div class="panel-title">Company Summary</div>
+        </div>
+        <div class="panel-body">
+          <p class="summary-text" id="companySummary"></p>
+          <div class="summary-actions">
+            <div class="website-line">Website: <a id="websiteLink" target="_blank" rel="noopener"></a></div>
+            <button class="text-button" id="managementTeamButton" type="button">Management Team</button>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <details class="section-accordion">
+      <summary>
+        <span class="panel-title">Key Health Measure</span>
+        <span class="meta" id="keyHealthMeasureCount"></span>
+      </summary>
+      <div class="section-accordion-body">
+        <p class="source-note" id="keyHealthMeasureNote">Metrics are selected from the company type framework and populated from the latest available company detail data.</p>
+        <div id="keyHealthMeasures"></div>
+      </div>
+    </details>
+
+    <details class="section-accordion">
+      <summary>
+        <span class="panel-title">Financials</span>
+        <span class="meta" id="financialCount"></span>
+      </summary>
+      <div class="section-accordion-body">
+        <p class="source-note">Values are pulled from the latest stored SEC financial facts. Each row shows the report form, period end, filed date, and accession reference.</p>
+        <div id="financials"></div>
+      </div>
+    </details>
+
+    <details class="section-accordion">
+      <summary>
+        <span class="panel-title">Risk Summary</span>
+        <span class="meta" id="riskSource"></span>
+      </summary>
+      <div class="section-accordion-body">
+        <p class="source-note">AI summary generated from the latest stored SEC risk-factor text in company_Risks. Source text and filing reference are retained below.</p>
+        <div id="riskSummary"></div>
+      </div>
+    </details>
+
+    <details class="section-accordion">
+      <summary>
+        <span class="panel-title">Projects</span>
+        <span class="meta" id="projectCount"></span>
+      </summary>
+      <div class="section-accordion-body">
+        <div class="accordion" id="projects"></div>
+      </div>
+    </details>
+
+    <section class="media-grid">
+      <section class="panel">
+        <div class="panel-head">
+          <div class="panel-title">Latest News</div>
+        </div>
+        <div class="panel-body">
+          <div class="news-list" id="newsList"></div>
+          <a class="show-all-news" id="newsLink" target="_blank" rel="noopener">Show all news</a>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div class="panel-title">YouTube Videos</div>
+          <div class="meta" id="youtubeVideoCount"></div>
+        </div>
+        <div class="panel-body">
+          <div class="news-list" id="youtubeVideos"></div>
+          <a class="show-all-news" id="youtubeLink" target="_blank" rel="noopener">Open YouTube search</a>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div class="panel-title">SEC Filings</div>
+          <div class="meta" id="secFilingCount"></div>
+        </div>
+        <div class="panel-body">
+          <div class="filings-list" id="secFilings"></div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <div class="modal-backdrop" id="managementModal" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="managementModalTitle">
+      <div class="modal-head">
+        <div>
+          <div class="modal-title" id="managementModalTitle">Management Team</div>
+          <div class="meta" id="managementCount"></div>
+        </div>
+        <button class="icon-button" id="managementClose" type="button" aria-label="Close management team modal">×</button>
+      </div>
+      <div class="management-layout">
+        <div class="management-list" id="managementList"></div>
+        <article class="management-detail" id="managementDetail"></article>
+      </div>
+    </section>
+  </div>
+
+  <script type="module">
+    const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+    const EMBEDDED_TICKERS = {
+      "AEM": {
+            "name": "Agnico Eagle Mines",
+            "company": "Agnico Eagle Mines Limited",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "Agnico Eagle",
+                  "Agnico Eagle Mines Limited"
+            ],
+            "q": "(AEM OR \"Agnico Eagle\" OR \"Agnico Eagle Mines\") (gold OR mining OR earnings OR production)"
+      },
+      "NEM": {
+            "name": "Newmont",
+            "company": "Newmont Corporation",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "Newmont",
+                  "Newmont Corporation"
+            ],
+            "q": "(NEM OR \"Newmont\" OR \"Newmont Corporation\") (gold OR mining OR earnings OR production)"
+      },
+      "GOLD": {
+            "name": "Barrick Gold",
+            "company": "Barrick Gold Corporation",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "Barrick",
+                  "Barrick Gold",
+                  "Barrick Gold Corporation"
+            ],
+            "q": "(GOLD OR \"Barrick\" OR \"Barrick Gold\") (gold OR mining OR earnings OR production)"
+      },
+      "KGC": {
+            "name": "Kinross Gold",
+            "company": "Kinross Gold Corporation",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "Kinross",
+                  "Kinross Gold"
+            ],
+            "q": "(KGC OR \"Kinross\" OR \"Kinross Gold\") (gold OR mining OR earnings)"
+      },
+      "AU": {
+            "name": "AngloGold Ashanti",
+            "company": "AngloGold Ashanti plc",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "AngloGold",
+                  "Anglogold Ashanti",
+                  "AngloGold Ashanti"
+            ],
+            "q": "(AU OR \"AngloGold\" OR \"AngloGold Ashanti\") (gold OR mining OR earnings)"
+      },
+      "BTG": {
+            "name": "B2Gold",
+            "company": "B2Gold Corp.",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "B2Gold",
+                  "B2 Gold"
+            ],
+            "q": "(BTG OR \"B2Gold\" OR \"B2 Gold\") (gold OR mining OR earnings)"
+      },
+      "AGI": {
+            "name": "Alamos Gold",
+            "company": "Alamos Gold Inc.",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "Alamos",
+                  "Alamos Gold"
+            ],
+            "q": "(AGI OR \"Alamos\" OR \"Alamos Gold\") (gold OR mining OR earnings)"
+      },
+      "GFI": {
+            "name": "Gold Fields",
+            "company": "Gold Fields Limited",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "Gold Fields",
+                  "Gold Fields Limited"
+            ],
+            "q": "(GFI OR \"Gold Fields\" OR \"Gold Fields Limited\") (gold OR mining OR earnings)"
+      },
+      "HMY": {
+            "name": "Harmony Gold",
+            "company": "Harmony Gold Mining Company Limited",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "Harmony",
+                  "Harmony Gold",
+                  "Harmony Gold Mining"
+            ],
+            "q": "(HMY OR \"Harmony Gold\" OR \"Harmony Gold Mining\") (gold OR mining OR earnings)"
+      },
+      "OR": {
+            "name": "Osisko Gold Royalties",
+            "company": "Osisko Gold Royalties Ltd",
+            "metal": "gold",
+            "type": "royalty",
+            "aliases": [
+                  "Osisko",
+                  "Osisko Gold Royalties"
+            ],
+            "q": "(OR OR \"Osisko\" OR \"Osisko Gold Royalties\") (gold OR royalty OR mining)"
+      },
+      "FNV": {
+            "name": "Franco-Nevada",
+            "company": "Franco-Nevada Corporation",
+            "metal": "gold",
+            "type": "royalty",
+            "aliases": [
+                  "Franco Nevada",
+                  "Franco-Nevada"
+            ],
+            "q": "(FNV OR \"Franco Nevada\" OR \"Franco-Nevada\") (gold OR royalty OR mining)"
+      },
+      "RGLD": {
+            "name": "Royal Gold",
+            "company": "Royal Gold, Inc.",
+            "metal": "gold",
+            "type": "royalty",
+            "aliases": [
+                  "Royal Gold",
+                  "Royal Gold Inc"
+            ],
+            "q": "(RGLD OR \"Royal Gold\") (gold OR royalty OR mining)"
+      },
+      "PZG": {
+            "name": "Paramount Gold Nevada",
+            "company": "Paramount Gold Nevada Corp.",
+            "metal": "gold",
+            "type": "developer",
+            "aliases": [
+                  "Paramount Gold",
+                  "Paramount Gold Nevada"
+            ],
+            "q": "(PZG OR \"Paramount Gold\" OR \"Paramount Gold Nevada\") (gold OR mining)"
+      },
+      "GAYMF": {
+            "name": "Galiano Gold",
+            "company": "Galiano Gold Inc.",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "Galiano",
+                  "Galiano Gold"
+            ],
+            "q": "(GAYMF OR \"Galiano\" OR \"Galiano Gold\") (gold OR mining OR earnings)"
+      },
+      "HYMC": {
+            "name": "Hycroft Mining",
+            "company": "Hycroft Mining Holding Corporation",
+            "metal": "gold",
+            "type": "developer",
+            "aliases": [
+                  "Hycroft",
+                  "Hycroft Mining"
+            ],
+            "q": "(HYMC OR \"Hycroft\" OR \"Hycroft Mining\") (gold OR silver OR mining OR earnings)"
+      },
+      "WPM": {
+            "name": "Wheaton Precious Metals",
+            "company": "Wheaton Precious Metals Corp.",
+            "metal": "silver",
+            "type": "royalty",
+            "aliases": [
+                  "Wheaton",
+                  "Wheaton Precious Metals"
+            ],
+            "q": "(WPM OR \"Wheaton\" OR \"Wheaton Precious Metals\") (silver OR gold OR royalty OR mining OR earnings)"
+      },
+      "PAAS": {
+            "name": "Pan American Silver",
+            "company": "Pan American Silver Corp.",
+            "metal": "silver",
+            "type": "producer",
+            "aliases": [
+                  "Pan American",
+                  "Pan American Silver"
+            ],
+            "q": "(PAAS OR \"Pan American\" OR \"Pan American Silver\") (silver OR mining OR earnings)"
+      },
+      "AG": {
+            "name": "First Majestic Silver",
+            "company": "First Majestic Silver Corp.",
+            "metal": "silver",
+            "type": "producer",
+            "aliases": [
+                  "First Majestic",
+                  "First Majestic Silver"
+            ],
+            "q": "(AG OR \"First Majestic\" OR \"First Majestic Silver\") (silver OR mining OR earnings)"
+      },
+      "MAG": {
+            "name": "MAG Silver",
+            "company": "MAG Silver Corp.",
+            "metal": "silver",
+            "type": "developer",
+            "aliases": [
+                  "MAG Silver",
+                  "MAG Silver Corp"
+            ],
+            "q": "(MAG OR \"MAG Silver\") (silver OR mining OR earnings)"
+      },
+      "CDE": {
+            "name": "Coeur Mining",
+            "company": "Coeur Mining, Inc.",
+            "metal": "silver",
+            "type": "producer",
+            "aliases": [
+                  "Coeur",
+                  "Coeur Mining"
+            ],
+            "q": "(CDE OR \"Coeur\" OR \"Coeur Mining\") (silver OR gold OR mining OR earnings)"
+      },
+      "HL": {
+            "name": "Hecla Mining",
+            "company": "Hecla Mining Company",
+            "metal": "silver",
+            "type": "producer",
+            "aliases": [
+                  "Hecla",
+                  "Hecla Mining"
+            ],
+            "q": "(HL OR \"Hecla\" OR \"Hecla Mining\") (silver OR gold OR mining OR earnings)"
+      },
+      "EXK": {
+            "name": "Endeavour Silver",
+            "company": "Endeavour Silver Corp.",
+            "metal": "silver",
+            "type": "producer",
+            "aliases": [
+                  "Endeavour Silver",
+                  "Endeavour"
+            ],
+            "q": "(EXK OR \"Endeavour Silver\" OR \"Endeavour\") (silver OR mining OR earnings)"
+      },
+      "SVM": {
+            "name": "Silvercorp Metals",
+            "company": "Silvercorp Metals Inc.",
+            "metal": "silver",
+            "type": "producer",
+            "aliases": [
+                  "Silvercorp",
+                  "Silvercorp Metals"
+            ],
+            "q": "(SVM OR \"Silvercorp\" OR \"Silvercorp Metals\") (silver OR mining OR earnings)"
+      },
+      "SILV": {
+            "name": "SilverCrest Metals",
+            "company": "SilverCrest Metals Inc.",
+            "metal": "silver",
+            "type": "developer",
+            "aliases": [
+                  "SilverCrest",
+                  "SilverCrest Metals"
+            ],
+            "q": "(SILV OR \"SilverCrest\" OR \"SilverCrest Metals\") (silver OR mining OR earnings)"
+      },
+      "DSVSF": {
+            "name": "Discovery Silver",
+            "company": "Discovery Silver Corp.",
+            "metal": "silver",
+            "type": "developer",
+            "aliases": [
+                  "Discovery Silver",
+                  "Discovery"
+            ],
+            "q": "(DSVSF OR \"Discovery Silver\" OR \"Discovery\") (silver OR mining OR earnings)"
+      },
+      "FCX": {
+            "name": "Freeport-McMoRan",
+            "company": "Freeport-McMoRan Inc.",
+            "metal": "copper",
+            "type": "producer",
+            "aliases": [
+                  "Freeport",
+                  "Freeport McMoRan",
+                  "Freeport-McMoRan"
+            ],
+            "q": "(FCX OR \"Freeport\" OR \"Freeport McMoRan\" OR \"Freeport-McMoRan\") (copper OR mining OR earnings)"
+      },
+      "SCCO": {
+            "name": "Southern Copper",
+            "company": "Southern Copper Corporation",
+            "metal": "copper",
+            "type": "producer",
+            "aliases": [
+                  "Southern Copper",
+                  "Southern Copper Corporation"
+            ],
+            "q": "(SCCO OR \"Southern Copper\") (copper OR mining OR earnings)"
+      },
+      "TECK": {
+            "name": "Teck Resources",
+            "company": "Teck Resources Limited",
+            "metal": "copper",
+            "type": "producer",
+            "aliases": [
+                  "Teck",
+                  "Teck Resources"
+            ],
+            "q": "(TECK OR \"Teck\" OR \"Teck Resources\") (copper OR zinc OR mining OR earnings)"
+      },
+      "HBM": {
+            "name": "Hudbay Minerals",
+            "company": "Hudbay Minerals Inc.",
+            "metal": "copper",
+            "type": "producer",
+            "aliases": [
+                  "Hudbay",
+                  "Hudbay Minerals"
+            ],
+            "q": "(HBM OR \"Hudbay\" OR \"Hudbay Minerals\") (copper OR mining OR earnings)"
+      },
+      "TRQ": {
+            "name": "Turquoise Hill",
+            "company": "Turquoise Hill Resources Ltd.",
+            "metal": "copper",
+            "type": "developer",
+            "aliases": [
+                  "Turquoise Hill",
+                  "Oyu Tolgoi"
+            ],
+            "q": "(TRQ OR \"Turquoise Hill\" OR \"Oyu Tolgoi\") (copper OR mining)"
+      },
+      "TGB": {
+            "name": "Taseko Mines",
+            "company": "Taseko Mines Limited",
+            "metal": "copper",
+            "type": "producer",
+            "aliases": [
+                  "Taseko",
+                  "Taseko Mines"
+            ],
+            "q": "(TGB OR \"Taseko\" OR \"Taseko Mines\") (copper OR mining OR earnings)"
+      },
+      "LUCRF": {
+            "name": "Lucara Diamond",
+            "company": "Lucara Diamond Corp.",
+            "metal": "diamond",
+            "type": "producer",
+            "aliases": [
+                  "Lucara",
+                  "Lucara Diamond",
+                  "Lucara Diamond Corp"
+            ],
+            "q": "(LUCRF OR \"Lucara\" OR \"Lucara Diamond\") (diamond OR mining OR production)"
+      },
+      "MPVDF": {
+            "name": "Mountain Province Diamonds",
+            "company": "Mountain Province Diamonds Inc.",
+            "metal": "diamond",
+            "type": "producer",
+            "aliases": [
+                  "Mountain Province",
+                  "Mountain Province Diamonds"
+            ],
+            "q": "(MPVDF OR \"Mountain Province\" OR \"Mountain Province Diamonds\") (diamond OR mining OR production)"
+      },
+      "NGLOY": {
+            "name": "Anglo American",
+            "company": "Anglo American plc",
+            "metal": "diamond",
+            "type": "diamond-related",
+            "aliases": [
+                  "Anglo American",
+                  "De Beers",
+                  "DeBeers"
+            ],
+            "q": "(NGLOY OR \"Anglo American\" OR \"De Beers\" OR \"DeBeers\") (diamond OR mining)"
+      },
+      "RIO": {
+            "name": "Rio Tinto",
+            "company": "Rio Tinto Group",
+            "metal": "diamond",
+            "type": "diamond-related",
+            "aliases": [
+                  "Rio Tinto",
+                  "Diavik",
+                  "diamond mining"
+            ],
+            "q": "(RIO OR \"Rio Tinto\" OR \"Diavik\") (diamond OR copper OR mining)"
+      },
+      "EGO": {
+            "name": "Eldorado Gold",
+            "company": "Eldorado Gold Corporation",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "Eldorado",
+                  "Eldorado Gold"
+            ],
+            "q": "(EGO OR \"Eldorado\" OR \"Eldorado Gold\") (gold OR mining OR earnings)"
+      },
+      "IAG": {
+            "name": "IAMGOLD",
+            "company": "IAMGOLD Corporation",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "IAMGOLD",
+                  "Iamgold"
+            ],
+            "q": "(IAG OR \"IAMGOLD\" OR \"Iamgold\") (gold OR mining OR earnings)"
+      },
+      "SSRM": {
+            "name": "SSR Mining",
+            "company": "SSR Mining Inc.",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "SSR Mining",
+                  "SSR"
+            ],
+            "q": "(SSRM OR \"SSR Mining\") (gold OR silver OR mining OR earnings)"
+      },
+      "CPG": {
+            "name": "Centamin",
+            "company": "Centamin plc",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "Centamin"
+            ],
+            "q": "(CPG OR \"Centamin\") (gold OR mining OR earnings)"
+      },
+      "DRD": {
+            "name": "DRDGOLD",
+            "company": "DRDGOLD Limited",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "DRDGOLD",
+                  "DRDGold"
+            ],
+            "q": "(DRD OR \"DRDGOLD\" OR \"DRDGold\") (gold OR mining OR earnings)"
+      },
+      "LUG": {
+            "name": "Lundin Gold",
+            "company": "Lundin Gold Inc.",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "Lundin Gold"
+            ],
+            "q": "(LUG OR \"Lundin Gold\") (gold OR mining OR earnings)"
+      },
+      "EQX": {
+            "name": "Equinox Gold",
+            "company": "Equinox Gold Corp.",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "Equinox Gold"
+            ],
+            "q": "(EQX OR \"Equinox Gold\") (gold OR mining OR earnings)"
+      },
+      "NGD": {
+            "name": "New Gold",
+            "company": "New Gold Inc.",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "New Gold"
+            ],
+            "q": "(NGD OR \"New Gold\") (gold OR mining OR earnings)"
+      },
+      "CGAU": {
+            "name": "Centerra Gold",
+            "company": "Centerra Gold Inc.",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "Centerra",
+                  "Centerra Gold"
+            ],
+            "q": "(CGAU OR \"Centerra\" OR \"Centerra Gold\") (gold OR mining OR earnings)"
+      },
+      "ORLA": {
+            "name": "Orla Mining",
+            "company": "Orla Mining Ltd.",
+            "metal": "gold",
+            "type": "developer",
+            "aliases": [
+                  "Orla",
+                  "Orla Mining"
+            ],
+            "q": "(ORLA OR \"Orla\" OR \"Orla Mining\") (gold OR mining OR earnings)"
+      },
+      "EDVMF": {
+            "name": "Endeavour Mining",
+            "company": "Endeavour Mining plc",
+            "metal": "gold",
+            "type": "producer",
+            "aliases": [
+                  "Endeavour Mining"
+            ],
+            "q": "(EDVMF OR \"Endeavour Mining\") (gold OR mining OR earnings)"
+      },
+      "FSM": {
+            "name": "Fortuna Mining",
+            "company": "Fortuna Mining Corp.",
+            "metal": "silver",
+            "type": "producer",
+            "aliases": [
+                  "Fortuna",
+                  "Fortuna Mining"
+            ],
+            "q": "(FSM OR \"Fortuna\" OR \"Fortuna Mining\") (silver OR gold OR mining OR earnings)"
+      },
+      "SAND": {
+            "name": "Sandstorm Gold",
+            "company": "Sandstorm Gold Ltd.",
+            "metal": "silver",
+            "type": "royalty",
+            "aliases": [
+                  "Sandstorm",
+                  "Sandstorm Gold"
+            ],
+            "q": "(SAND OR \"Sandstorm\" OR \"Sandstorm Gold\") (gold OR silver OR royalty OR mining)"
+      },
+      "GATO": {
+            "name": "Gatos Silver",
+            "company": "Gatos Silver, Inc.",
+            "metal": "silver",
+            "type": "producer",
+            "aliases": [
+                  "Gatos Silver"
+            ],
+            "q": "(GATO OR \"Gatos Silver\") (silver OR mining OR earnings)"
+      },
+      "MUX": {
+            "name": "McEwen Mining",
+            "company": "McEwen Mining Inc.",
+            "metal": "silver",
+            "type": "producer",
+            "aliases": [
+                  "McEwen",
+                  "McEwen Mining"
+            ],
+            "q": "(MUX OR \"McEwen\" OR \"McEwen Mining\") (gold OR silver OR mining OR earnings)"
+      },
+      "AYASF": {
+            "name": "Aya Gold & Silver",
+            "company": "Aya Gold & Silver Inc.",
+            "metal": "silver",
+            "type": "developer",
+            "aliases": [
+                  "Aya Gold",
+                  "Aya Gold and Silver"
+            ],
+            "q": "(AYASF OR \"Aya Gold\" OR \"Aya Gold and Silver\") (silver OR mining OR earnings)"
+      },
+      "SKE": {
+            "name": "Skeena Resources",
+            "company": "Skeena Resources Limited",
+            "metal": "silver",
+            "type": "developer",
+            "aliases": [
+                  "Skeena",
+                  "Skeena Resources"
+            ],
+            "q": "(SKE OR \"Skeena\" OR \"Skeena Resources\") (silver OR gold OR mining OR earnings)"
+      },
+      "BHP": {
+            "name": "BHP Group",
+            "company": "BHP Group Limited",
+            "metal": "copper",
+            "type": "diversified",
+            "aliases": [
+                  "BHP",
+                  "BHP Group"
+            ],
+            "q": "(BHP OR \"BHP Group\") (copper OR iron ore OR mining OR earnings)"
+      },
+      "GLNCY": {
+            "name": "Glencore",
+            "company": "Glencore plc",
+            "metal": "copper",
+            "type": "diversified",
+            "aliases": [
+                  "Glencore"
+            ],
+            "q": "(GLNCY OR \"Glencore\") (copper OR coal OR zinc OR mining OR earnings)"
+      },
+      "VALE": {
+            "name": "Vale",
+            "company": "Vale S.A.",
+            "metal": "copper",
+            "type": "diversified",
+            "aliases": [
+                  "Vale",
+                  "Vale SA"
+            ],
+            "q": "(VALE OR \"Vale\") (iron ore OR copper OR nickel OR mining OR earnings)"
+      },
+      "FQVLF": {
+            "name": "First Quantum Minerals",
+            "company": "First Quantum Minerals Ltd.",
+            "metal": "copper",
+            "type": "producer",
+            "aliases": [
+                  "First Quantum",
+                  "First Quantum Minerals"
+            ],
+            "q": "(FQVLF OR \"First Quantum\" OR \"First Quantum Minerals\") (copper OR mining OR earnings)"
+      },
+      "IVPAF": {
+            "name": "Ivanhoe Mines",
+            "company": "Ivanhoe Mines Ltd.",
+            "metal": "copper",
+            "type": "developer",
+            "aliases": [
+                  "Ivanhoe",
+                  "Ivanhoe Mines"
+            ],
+            "q": "(IVPAF OR \"Ivanhoe\" OR \"Ivanhoe Mines\") (copper OR mining OR earnings)"
+      },
+      "CSFFF": {
+            "name": "Capstone Copper",
+            "company": "Capstone Copper Corp.",
+            "metal": "copper",
+            "type": "producer",
+            "aliases": [
+                  "Capstone",
+                  "Capstone Copper"
+            ],
+            "q": "(CSFFF OR \"Capstone\" OR \"Capstone Copper\") (copper OR mining OR earnings)"
+      },
+      "LUNMF": {
+            "name": "Lundin Mining",
+            "company": "Lundin Mining Corporation",
+            "metal": "copper",
+            "type": "producer",
+            "aliases": [
+                  "Lundin Mining"
+            ],
+            "q": "(LUNMF OR \"Lundin Mining\") (copper OR zinc OR mining OR earnings)"
+      },
+      "ANFGF": {
+            "name": "Antofagasta",
+            "company": "Antofagasta plc",
+            "metal": "copper",
+            "type": "producer",
+            "aliases": [
+                  "Antofagasta"
+            ],
+            "q": "(ANFGF OR \"Antofagasta\") (copper OR mining OR earnings)"
+      },
+      "TMQ": {
+            "name": "Trilogy Metals",
+            "company": "Trilogy Metals Inc.",
+            "metal": "copper",
+            "type": "developer",
+            "aliases": [
+                  "Trilogy Metals"
+            ],
+            "q": "(TMQ OR \"Trilogy Metals\") (copper OR mining OR earnings)"
+      },
+      "CCJ": {
+            "name": "Cameco",
+            "company": "Cameco Corporation",
+            "metal": "uranium",
+            "type": "producer",
+            "aliases": [
+                  "Cameco"
+            ],
+            "q": "(CCJ OR \"Cameco\") (uranium OR nuclear fuel OR mining OR earnings)"
+      },
+      "NXE": {
+            "name": "NexGen Energy",
+            "company": "NexGen Energy Ltd.",
+            "metal": "uranium",
+            "type": "developer",
+            "aliases": [
+                  "NexGen",
+                  "NexGen Energy"
+            ],
+            "q": "(NXE OR \"NexGen\" OR \"NexGen Energy\") (uranium OR mining OR earnings)"
+      },
+      "UEC": {
+            "name": "Uranium Energy",
+            "company": "Uranium Energy Corp.",
+            "metal": "uranium",
+            "type": "producer",
+            "aliases": [
+                  "Uranium Energy",
+                  "UEC"
+            ],
+            "q": "(UEC OR \"Uranium Energy\") (uranium OR mining OR earnings)"
+      },
+      "DNN": {
+            "name": "Denison Mines",
+            "company": "Denison Mines Corp.",
+            "metal": "uranium",
+            "type": "developer",
+            "aliases": [
+                  "Denison",
+                  "Denison Mines"
+            ],
+            "q": "(DNN OR \"Denison\" OR \"Denison Mines\") (uranium OR mining OR earnings)"
+      },
+      "UUUU": {
+            "name": "Energy Fuels",
+            "company": "Energy Fuels Inc.",
+            "metal": "uranium",
+            "type": "producer",
+            "aliases": [
+                  "Energy Fuels"
+            ],
+            "q": "(UUUU OR \"Energy Fuels\") (uranium OR rare earth OR mining OR earnings)"
+      },
+      "PALAF": {
+            "name": "Paladin Energy",
+            "company": "Paladin Energy Ltd.",
+            "metal": "uranium",
+            "type": "producer",
+            "aliases": [
+                  "Paladin",
+                  "Paladin Energy"
+            ],
+            "q": "(PALAF OR \"Paladin\" OR \"Paladin Energy\") (uranium OR mining OR earnings)"
+      },
+      "SQM": {
+            "name": "SQM",
+            "company": "Sociedad Quimica y Minera de Chile S.A.",
+            "metal": "lithium",
+            "type": "producer",
+            "aliases": [
+                  "SQM",
+                  "Sociedad Quimica y Minera"
+            ],
+            "q": "(SQM OR \"Sociedad Quimica y Minera\" OR \"SQM\") (lithium OR potash OR mining OR earnings)"
+      },
+      "LAC": {
+            "name": "Lithium Americas",
+            "company": "Lithium Americas Corp.",
+            "metal": "lithium",
+            "type": "developer",
+            "aliases": [
+                  "Lithium Americas"
+            ],
+            "q": "(LAC OR \"Lithium Americas\") (lithium OR mining OR earnings)"
+      },
+      "LAAC": {
+            "name": "Lithium Argentina",
+            "company": "Lithium Argentina AG",
+            "metal": "lithium",
+            "type": "producer",
+            "aliases": [
+                  "Lithium Argentina"
+            ],
+            "q": "(LAAC OR \"Lithium Argentina\") (lithium OR mining OR earnings)"
+      },
+      "SGML": {
+            "name": "Sigma Lithium",
+            "company": "Sigma Lithium Corporation",
+            "metal": "lithium",
+            "type": "producer",
+            "aliases": [
+                  "Sigma Lithium"
+            ],
+            "q": "(SGML OR \"Sigma Lithium\") (lithium OR mining OR earnings)"
+      },
+      "PILBF": {
+            "name": "Pilbara Minerals",
+            "company": "Pilbara Minerals Limited",
+            "metal": "lithium",
+            "type": "producer",
+            "aliases": [
+                  "Pilbara",
+                  "Pilbara Minerals"
+            ],
+            "q": "(PILBF OR \"Pilbara\" OR \"Pilbara Minerals\") (lithium OR mining OR earnings)"
+      },
+      "ALB": {
+            "name": "Albemarle",
+            "company": "Albemarle Corporation",
+            "metal": "lithium",
+            "type": "producer",
+            "aliases": [
+                  "Albemarle"
+            ],
+            "q": "(ALB OR \"Albemarle\") (lithium OR mining OR earnings)"
+      },
+      "MP": {
+            "name": "MP Materials",
+            "company": "MP Materials Corp.",
+            "metal": "rare-earth",
+            "type": "producer",
+            "aliases": [
+                  "MP Materials"
+            ],
+            "q": "(MP OR \"MP Materials\") (rare earth OR mining OR earnings)"
+      },
+      "LYSCF": {
+            "name": "Lynas Rare Earths",
+            "company": "Lynas Rare Earths Limited",
+            "metal": "rare-earth",
+            "type": "producer",
+            "aliases": [
+                  "Lynas",
+                  "Lynas Rare Earths"
+            ],
+            "q": "(LYSCF OR \"Lynas\" OR \"Lynas Rare Earths\") (rare earth OR mining OR earnings)"
+      },
+      "SBSW": {
+            "name": "Sibanye Stillwater",
+            "company": "Sibanye Stillwater Limited",
+            "metal": "pgm",
+            "type": "producer",
+            "aliases": [
+                  "Sibanye",
+                  "Sibanye Stillwater"
+            ],
+            "q": "(SBSW OR \"Sibanye\" OR \"Sibanye Stillwater\") (platinum OR palladium OR gold OR mining OR earnings)"
+      },
+      "IMPUY": {
+            "name": "Impala Platinum",
+            "company": "Impala Platinum Holdings Limited",
+            "metal": "pgm",
+            "type": "producer",
+            "aliases": [
+                  "Impala Platinum",
+                  "Implats"
+            ],
+            "q": "(IMPUY OR \"Impala Platinum\" OR \"Implats\") (platinum OR palladium OR mining OR earnings)"
+      },
+      "PSLV": {
+            "name": "Sprott Physical Silver Trust",
+            "company": "Sprott Physical Silver Trust",
+            "metal": "silver",
+            "type": "fund",
+            "aliases": [
+                  "PSLV",
+                  "Sprott Physical Silver Trust",
+                  "Sprott silver"
+            ],
+            "q": "(PSLV OR \"Sprott Physical Silver Trust\" OR \"Sprott silver\") (silver OR trust OR ETF OR fund)"
+      },
+      "SIL": {
+            "name": "Global X Silver Miners ETF",
+            "company": "Global X Silver Miners ETF",
+            "metal": "silver",
+            "type": "etf",
+            "aliases": [
+                  "SIL ETF",
+                  "Global X Silver Miners",
+                  "silver miners ETF"
+            ],
+            "q": "(SIL OR \"Global X Silver Miners\" OR \"silver miners ETF\") (ETF OR fund OR holdings)"
+      },
+      "SILJ": {
+            "name": "Amplify Junior Silver Miners ETF",
+            "company": "Amplify Junior Silver Miners ETF",
+            "metal": "silver",
+            "type": "etf",
+            "aliases": [
+                  "SILJ",
+                  "junior silver miners ETF",
+                  "Amplify Junior Silver Miners"
+            ],
+            "q": "(SILJ OR \"Amplify Junior Silver Miners\" OR \"junior silver miners ETF\") (ETF OR fund OR holdings)"
+      },
+      "SIVR": {
+            "name": "abrdn Physical Silver Shares",
+            "company": "abrdn Physical Silver Shares ETF",
+            "metal": "silver",
+            "type": "etf",
+            "aliases": [
+                  "SIVR",
+                  "abrdn Physical Silver Shares",
+                  "SIVR ETF"
+            ],
+            "q": "(SIVR OR \"abrdn Physical Silver Shares\" OR \"SIVR ETF\") (silver OR ETF OR fund)"
+      },
+      "SLV": {
+            "name": "iShares Silver Trust",
+            "company": "iShares Silver Trust",
+            "metal": "silver",
+            "type": "etf",
+            "aliases": [
+                  "SLV ETF",
+                  "iShares Silver Trust",
+                  "silver ETF SLV"
+            ],
+            "q": "(SLV OR \"iShares Silver Trust\" OR \"silver ETF SLV\") (silver OR ETF OR fund)"
+      },
+      "GDX": {
+            "name": "VanEck Gold Miners ETF",
+            "company": "VanEck Gold Miners ETF",
+            "metal": "gold",
+            "type": "etf",
+            "aliases": [
+                  "GDX ETF",
+                  "VanEck Gold Miners"
+            ],
+            "q": "(GDX OR \"VanEck Gold Miners\") (ETF OR fund OR gold miners)"
+      },
+      "GDXJ": {
+            "name": "VanEck Junior Gold Miners ETF",
+            "company": "VanEck Junior Gold Miners ETF",
+            "metal": "gold",
+            "type": "etf",
+            "aliases": [
+                  "GDXJ ETF",
+                  "Junior Gold Miners ETF"
+            ],
+            "q": "(GDXJ OR \"VanEck Junior Gold Miners\" OR \"Junior Gold Miners ETF\") (ETF OR fund OR gold miners)"
+      },
+      "COPX": {
+            "name": "Global X Copper Miners ETF",
+            "company": "Global X Copper Miners ETF",
+            "metal": "copper",
+            "type": "etf",
+            "aliases": [
+                  "COPX ETF",
+                  "Copper Miners ETF"
+            ],
+            "q": "(COPX OR \"Global X Copper Miners\" OR \"Copper Miners ETF\") (ETF OR fund OR copper miners)"
+      },
+      "PICK": {
+            "name": "iShares MSCI Global Metals & Mining Producers ETF",
+            "company": "iShares MSCI Global Metals & Mining Producers ETF",
+            "metal": "diversified",
+            "type": "etf",
+            "aliases": [
+                  "PICK ETF",
+                  "Global Metals and Mining Producers ETF"
+            ],
+            "q": "(PICK OR \"Global Metals and Mining Producers ETF\" OR \"PICK ETF\") (ETF OR fund OR mining)"
+      },
+      "URNM": {
+            "name": "Sprott Uranium Miners ETF",
+            "company": "Sprott Uranium Miners ETF",
+            "metal": "uranium",
+            "type": "etf",
+            "aliases": [
+                  "URNM ETF",
+                  "Sprott Uranium Miners"
+            ],
+            "q": "(URNM OR \"Sprott Uranium Miners\") (ETF OR fund OR uranium miners)"
+      }
+};
+    const IAUX_DETAIL = {"symbol": "IAUX", "yahooSymbol": "IAUX", "companyName": "i-80 Gold Corp.", "exchange": "NYSEAMERICAN", "country": "Canada", "metalFocus": "gold", "companyType": "developer", "homepageUrl": "https://www.i80gold.com/", "aboutUrl": "https://www.i80gold.com/about/", "companySummary": "i-80 Gold Corp. is a Nevada-focused, mining company with a goal of achieving mid-tier gold producer status through the development of four new open pit and underground mining operations that will ultimately process ore at the Company’s central Lone Tree complex that includes an Autoclave. The Company’s primary goal is to build a self-sustaining, mid-tier, mining company with a peer-best growth platform by employing a methodical, capital disciplined and staged approach to minimize risk while also assessing and monitoring for accretive growth opportunities. The board and management teams bring extensive technical, financial, legal, ESG and entrepreneurial expertise with proven track records of aligning their interests with shareholders and creating value.", "managementTeam": [{"name": "Cindy Tseo", "title": "VP FINANCE", "biography": "Cindy Tseo brings over 25 years of experience with the last 20 years in finance leadership roles exclusively in mining. Before joining i-80 Gold Corp., Ms. Tseo was VP Finance at Argonaut Gold and held senior finance roles at Lundin Mining Corporation, responsible for overseeing financial reporting and planning and analysis functions. Ms. Tseo holds a Bachelor of Commerce from the University of Toronto and is a Chartered Professional Accountant.​"}, {"name": "David Savarie", "title": "EVP, GENERAL COUNSEL", "biography": "David Savarie is an Ontario qualified corporate commercial lawyer with 20+ years of experience in multiple jurisdictions and industries as both inside and outside counsel, senior business executive and company director. For the last 17 years, Mr. Savarie has worked exclusively within the gold mining sector assisting in the development, permitting, financing and operations of projects across Eastern Europe, West Africa and North America. Most recently, Mr. Savarie served as SVP, General Counsel, Corporate Affairs & People at Teranga Gold Corporation until its acquisition in 2021, and thereafter as SVP, General Counsel at Argonaut Gold Inc. until its acquisition in July 2024. Mr. Savarie received his LLB from Queen’s University (Kingston Ontario) in 1999 and prior to that a Bachelor of Arts (History) from the University of Western Ontario."}, {"name": "Katerina Deluca", "title": "SVP TREASURY", "biography": "Katerina Deluca brings over 20 years of experience in financial reporting and analysis, tax, treasury, financing and mergers and acquisitions. She most recently held the position of VP Treasury and FP&A at Argonaut Gold. Prior to that Ms. Deluca held a position of Senior Finance Director at Teranga Gold, interim CFO/Controller at Gabriel Resources Ltd. Ms. Deluca is a Chartered Professional Accountant (“CPA”) and holds a Master of Science in Engineering with a Major in Economics and Business Law from the University of Economics in the Czech Republic."}, {"name": "Leily Omoumi", "title": "SVP CORPORATE DEVELOPMENT & STRATEGY", "biography": "Leily Omoumi brings over 17 years of experience across the mining industry and capital markets. She was most recently Vice President, Corporate Development at Teranga Gold, a mid-tier gold producer, where she played an integral role in the advancement of the company’s strategic direction and completed two landmark M&A transactions, including the sale of Teranga Gold to Endeavour Mining. Previously she was at BMO Asset Management covering mining and oil and gas equities as a buy-side analyst, and prior to that she was a sell-side analyst covering precious metals equities at Scotia Capital. Ms. Omoumi began her career at Hatch Consulting as an engineer, working in a technical capacity on various global mining projects. She holds a Bachelor’s Degree in Mechanical Engineering, and an MBA from the University of Toronto."}, {"name": "Mark Miller", "title": "SVP ENVIRONMENTAL & PERMITTING", "biography": "Mark Miller is an experienced environmental executive with a strong background in strategic permitting and regulatory compliance. With over three decades of experience, Mark has led environmental management programs across multiple industries, including mining, where he has managed large-scale permitting, compliance and reclamation efforts. Currently, Mark serves as the Vice President, Environmental & Permitting at i-80 Gold Corp, where he leads environmental initiatives for the company’s mining projects. Previously, he has held senior roles at Nevada Gold Mines and Barrick Gold Corp, successfully implementing strategic plans and driving cost savings while maintaining regulatory compliance. Mark holds a Bachelor of Arts in Geology from the University of Minnesota and is a licensed Professional Geologist in Wyoming and Wisconsin."}, {"name": "Paul Chawrun", "title": "EVP, CHIEF OPERATING OFFICER", "biography": "Paul Chawrun is an executive mining engineer with over 30 years of technical, operating, and corporate leadership experience, after beginning his career as an exploration geologist. His work spans a range of commodities, with a focus on gold mining and a proven track record of permitting, building, and operating gold mines globally. Most recently, Mr. Chawrun served as COO and Executive Vice President at Centerra Gold. Prior to that, he was COO of Teranga Gold playing a key role in transitioning the company from a single asset to a multi-asset West African mid-tier gold producer. He previously held senior management roles in operations at Fording Inc. and Suncor Energy, as well as technical services and corporate development roles at various mine development companies, including Detour Gold where he oversaw the technical development of the Detour Lake Project. Mr. Chawrun holds a Bachelor of Science in Mining Engineering from Queen's University, a Bachelor of Science in Geology from McMaster University, and a Master of Business Administration from Athabasca University."}, {"name": "Richard Young", "title": "PRESIDENT, CHIEF EXECUTIVE OFFICER & DIRECTOR", "biography": "Richard Young was the founder and eventually CEO of Teranga Gold Corporation, playing a key role in Teranga’s transformation from a single asset producer into a successful low-cost, mid-tier gold producer that was ultimately acquired by Endeavour Mining PLC in 2021 for more than C$2.5B. Most recently, Richard served as President and CEO of Argonaut Gold that was acquired by Alamos Gold Inc. in July of 2024. During his career, Mr. Young has been responsible for implementing award-winning sustainability programs, including the 2008 and 2017 PDAC Sustainability Award, and the 2020 UN Global Compact Canada SDG Accelerator Award."}, {"name": "Ryan Snow", "title": "EVP, CHIEF FINANCIAL OFFICER", "biography": "Ryan Snow is a mining finance professional with over 15 years of experience in financial management and reporting in both Canada and the United States (IFRS and US GAAP), internal controls, M&A, risk management and taxation. Prior to joining i-80 Gold Mr. Snow served most recently as Vice-President of Finance for Nevada Copper, where he helped to secure project financing and restructure debt during the construction and production ramp up of the Pumpkin Hollow mine. Mr. Snow was the Vice-President, Finance and Controller for Tahoe Resources during which time he oversaw the financial aspects of the Sarbanes-Oxley implementation, two business acquisitions, and progressed the Escobal mine in Guatemala and the Shahuindo Mine in Peru through construction to commercial production. He began his professional career at Hecla Mining Company and holds a B.B.A. in Accounting (with distinction) from Gonzaga University."}, {"name": "Tim George", "title": "VP OPERATIONS", "biography": "Tim George is a seasoned mining professional with over 20 years of experience in mine management, engineering, and technical consulting. Mr. George has spent over 10 years in Nevada with gold mining companies, he joined Premier Gold Mines Ltd. in 2017 and transitioned to i-80 Gold in 2021 as part of the spin-out. He is a licensed Professional Engineer in Colorado and earned a B.Sc. in Mining Engineering Cum Laude from the University of Arizona and is an active member of the Society for Mining Metallurgy and Exploration."}, {"name": "Todd Esplin", "title": "VP TECHNICAL SERVICES", "biography": "Todd Esplin is a seasoned mining professional with over 39 years of experience in gold mining across areas such as metallurgy, safety, human resources, and processing. Before starting his career with i80 Gold, Todd worked as a Mining manager and Process manager at Kinross. He was also the principal accounting Metallurgist, Human resources manager, Autoclave superintendent, and Metallurgical services superintendent with Barrick, where he led major projects to improve efficiency by up to 10% and managed large, diverse teams."}, {"name": "Tyler Hill", "title": "VP GEOLOGY", "biography": "Tyler Hill is a Professional Geologist with over 10 years of experience in Nevada mineral exploration and project management. With i-80 Gold he has held titles of Senior Geologist and Chief Geologist while overseeing exploration activities across the portfolio. Prior to joining i-80 Gold he worked for a subsidiary of the private equity group Waterton Global Resource Management, evaluating exploration projects across Nevada. From there he transitioned to Premier Gold and was part of the McCoy-Cove exploration team that that discovered 1.1 Moz Au, leading to a >400% increase in the mineral resource of the Cove deposit. He holds a B.S. degree in geology from Ball State University and a M.S. degree in geology from the University of Nevada – Reno. Mr. Hill is a Certified Professional Geologist through the American Institute for Professional Geologists and a licensed Professional Geologist in the state of Utah."}], "financials": [{"metric": "Cash", "factName": "CashAndCashEquivalentsAtCarryingValue", "factLabel": "Cash and Cash Equivalents, at Carrying Value", "value": 513506000.0, "unit": "USD", "periodStart": null, "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}, {"metric": "Assets", "factName": "Assets", "factLabel": "Assets", "value": 1176250000.0, "unit": "USD", "periodStart": null, "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}, {"metric": "Liabilities", "factName": "Liabilities", "factLabel": "Liabilities", "value": 877354000.0, "unit": "USD", "periodStart": null, "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}, {"metric": "Long-Term Debt", "factName": "LongTermDebt", "factLabel": "Long-term Debt", "value": 437833000.0, "unit": "USD", "periodStart": null, "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}, {"metric": "Current Debt", "factName": "LongTermDebtCurrent", "factLabel": "Long-term Debt, Current Maturities", "value": 307000.0, "unit": "USD", "periodStart": null, "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}, {"metric": "Gross Profit", "factName": "GrossProfit", "factLabel": "Gross Profit", "value": 16078000.0, "unit": "USD", "periodStart": "2026-01-01", "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}, {"metric": "Net Income", "factName": "NetIncomeLoss", "factLabel": "Net Income (Loss) Attributable to Parent", "value": -78601000.0, "unit": "USD", "periodStart": "2026-01-01", "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}, {"metric": "Operating Cash Flow", "factName": "NetCashProvidedByUsedInOperatingActivities", "factLabel": "Net Cash Provided by (Used in) Operating Activities", "value": -45080000.0, "unit": "USD", "periodStart": "2026-01-01", "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}, {"metric": "Shares Outstanding", "factName": "WeightedAverageNumberOfDilutedSharesOutstanding", "factLabel": "Weighted Average Number of Shares Outstanding, Diluted", "value": 837103078.0, "unit": "shares", "periodStart": "2026-01-01", "periodEnd": "2026-03-31", "form": "10-Q", "filedDate": "2026-05-12", "fiscalYear": 2026, "fiscalPeriod": "Q1", "accessionNumber": "0001628280-26-034207", "reportUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/"}], "risks": {"sectionName": "Item 1A. Risk Factors", "summary": "subject to various risks and uncertainties due to the nature of its business and the present stages of exploration of its mineral properties. The latest 10-Q does not disclose material changes from the risk factors in the company's Form 10-K for the fiscal year ended December 31, 2025. Additional risks and uncertainties that the Company does not presently know or that it currently deems immaterial may impair our business operations.", "sourceText": "ITEM 1A. RISK FACTORS The Company and its future business, operations, and financial condition are subject to various risks and uncertainties due to the nature of its business and the present stages of exploration of its mineral properties. Certain of these risks and uncertainties are under the heading “Risk Factors” under the Company’s Form 10-K for the fiscal year ended December 31, 2025 (the “Form 10-K”) which is available on EDGAR at www.sec.gov and our website at www.i80gold.com . There have been no material changes to the risk factors set forth in the Company’s Form 10- K . Additional risks and uncertainties that the Company does not presently know or that it currently deems immaterial may impair our business operations.", "form": "10-Q", "filingDate": "2026-05-12", "reportDate": "2026-03-31", "accessionNumber": "0001628280-26-034207", "documentName": "iaux-20260331.htm", "documentUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/iaux-20260331.htm", "textLength": 736, "extractedAt": "2026-06-27T13:22:24+00:00"}, "prices": [{"date": "2025-06-27", "close": 0.6050000190734863, "volume": 45867800}, {"date": "2025-06-30", "close": 0.5979999899864197, "volume": 10630600}, {"date": "2025-07-01", "close": 0.6299999952316284, "volume": 5145400}, {"date": "2025-07-02", "close": 0.6370000243186951, "volume": 4217800}, {"date": "2025-07-03", "close": 0.6320000290870667, "volume": 1933400}, {"date": "2025-07-07", "close": 0.625, "volume": 3471000}, {"date": "2025-07-08", "close": 0.6039999723434448, "volume": 3976900}, {"date": "2025-07-09", "close": 0.6010000109672546, "volume": 2118500}, {"date": "2025-07-10", "close": 0.6179999709129333, "volume": 2435400}, {"date": "2025-07-11", "close": 0.6399999856948853, "volume": 3204200}, {"date": "2025-07-14", "close": 0.6539999842643738, "volume": 4479300}, {"date": "2025-07-15", "close": 0.625, "volume": 2287100}, {"date": "2025-07-16", "close": 0.6179999709129333, "volume": 2731500}, {"date": "2025-07-17", "close": 0.6029999852180481, "volume": 4314100}, {"date": "2025-07-18", "close": 0.6019999980926514, "volume": 2035500}, {"date": "2025-07-21", "close": 0.6069999933242798, "volume": 5231900}, {"date": "2025-07-22", "close": 0.6600000262260437, "volume": 4967200}, {"date": "2025-07-23", "close": 0.6489999890327454, "volume": 5494000}, {"date": "2025-07-24", "close": 0.6330000162124634, "volume": 2356900}, {"date": "2025-07-25", "close": 0.6190000176429749, "volume": 3609000}, {"date": "2025-07-28", "close": 0.5899999737739563, "volume": 5180300}, {"date": "2025-07-29", "close": 0.5789999961853027, "volume": 4040000}, {"date": "2025-07-30", "close": 0.5569999814033508, "volume": 4426900}, {"date": "2025-07-31", "close": 0.5600000023841858, "volume": 2087600}, {"date": "2025-08-01", "close": 0.5640000104904175, "volume": 3159000}, {"date": "2025-08-04", "close": 0.5899999737739563, "volume": 1668700}, {"date": "2025-08-05", "close": 0.578000009059906, "volume": 2596300}, {"date": "2025-08-06", "close": 0.5789999961853027, "volume": 3396000}, {"date": "2025-08-07", "close": 0.5879999995231628, "volume": 5652600}, {"date": "2025-08-08", "close": 0.6159999966621399, "volume": 7793800}, {"date": "2025-08-11", "close": 0.5979999899864197, "volume": 4232800}, {"date": "2025-08-12", "close": 0.5839999914169312, "volume": 3014800}, {"date": "2025-08-13", "close": 0.5789999961853027, "volume": 3682800}, {"date": "2025-08-14", "close": 0.6420000195503235, "volume": 6612200}, {"date": "2025-08-15", "close": 0.6859999895095825, "volume": 20075900}, {"date": "2025-08-18", "close": 0.7099999785423279, "volume": 4208500}, {"date": "2025-08-19", "close": 0.6880000233650208, "volume": 4807700}, {"date": "2025-08-20", "close": 0.6769999861717224, "volume": 2890400}, {"date": "2025-08-21", "close": 0.718999981880188, "volume": 2696500}, {"date": "2025-08-22", "close": 0.7599999904632568, "volume": 5566400}, {"date": "2025-08-25", "close": 0.7490000128746033, "volume": 3433200}, {"date": "2025-08-26", "close": 0.7639999985694885, "volume": 6351800}, {"date": "2025-08-27", "close": 0.7609999775886536, "volume": 1740800}, {"date": "2025-08-28", "close": 0.7680000066757202, "volume": 2862600}, {"date": "2025-08-29", "close": 0.8009999990463257, "volume": 4429800}, {"date": "2025-09-02", "close": 0.8220000267028809, "volume": 5827500}, {"date": "2025-09-03", "close": 0.8109999895095825, "volume": 4207600}, {"date": "2025-09-04", "close": 0.781000018119812, "volume": 2465600}, {"date": "2025-09-05", "close": 0.8500000238418579, "volume": 7451600}, {"date": "2025-09-08", "close": 0.8640000224113464, "volume": 5645200}, {"date": "2025-09-09", "close": 0.8479999899864197, "volume": 5387800}, {"date": "2025-09-10", "close": 0.9150000214576721, "volume": 7938800}, {"date": "2025-09-11", "close": 0.9169999957084656, "volume": 8651700}, {"date": "2025-09-12", "close": 0.9340000152587891, "volume": 5657300}, {"date": "2025-09-15", "close": 0.9190000295639038, "volume": 7504700}, {"date": "2025-09-16", "close": 0.8759999871253967, "volume": 5335400}, {"date": "2025-09-17", "close": 0.9150000214576721, "volume": 12425300}, {"date": "2025-09-18", "close": 0.9290000200271606, "volume": 8872200}, {"date": "2025-09-19", "close": 0.949999988079071, "volume": 12764900}, {"date": "2025-09-22", "close": 0.9769999980926514, "volume": 12628700}, {"date": "2025-09-23", "close": 0.9509999752044678, "volume": 9495400}, {"date": "2025-09-24", "close": 0.9340000152587891, "volume": 2593200}, {"date": "2025-09-25", "close": 0.9480000138282776, "volume": 9442300}, {"date": "2025-09-26", "close": 0.9639999866485596, "volume": 4528300}, {"date": "2025-09-29", "close": 0.9850000143051147, "volume": 5581700}, {"date": "2025-09-30", "close": 0.9549999833106995, "volume": 2937000}, {"date": "2025-10-01", "close": 0.9490000009536743, "volume": 4870700}, {"date": "2025-10-02", "close": 0.9390000104904175, "volume": 4063800}, {"date": "2025-10-03", "close": 0.949999988079071, "volume": 5194700}, {"date": "2025-10-06", "close": 0.9879999756813049, "volume": 5087600}, {"date": "2025-10-07", "close": 0.9900000095367432, "volume": 5403600}, {"date": "2025-10-08", "close": 1.0299999713897705, "volume": 8569500}, {"date": "2025-10-09", "close": 0.9549999833106995, "volume": 6316000}, {"date": "2025-10-10", "close": 0.9290000200271606, "volume": 6399700}, {"date": "2025-10-13", "close": 0.9760000109672546, "volume": 4762300}, {"date": "2025-10-14", "close": 1.0399999618530273, "volume": 7919800}, {"date": "2025-10-15", "close": 1.1200000047683716, "volume": 7358300}, {"date": "2025-10-16", "close": 1.100000023841858, "volume": 9720500}, {"date": "2025-10-17", "close": 1.0499999523162842, "volume": 9764600}, {"date": "2025-10-20", "close": 1.090000033378601, "volume": 6022100}, {"date": "2025-10-21", "close": 0.9779999852180481, "volume": 14223300}, {"date": "2025-10-22", "close": 1.0099999904632568, "volume": 11809800}, {"date": "2025-10-23", "close": 0.9729999899864197, "volume": 3418800}, {"date": "2025-10-24", "close": 0.9700000286102295, "volume": 5673500}, {"date": "2025-10-27", "close": 0.9200000166893005, "volume": 5668400}, {"date": "2025-10-28", "close": 0.949999988079071, "volume": 3857100}, {"date": "2025-10-29", "close": 0.9570000171661377, "volume": 2027200}, {"date": "2025-10-30", "close": 0.9850000143051147, "volume": 1437700}, {"date": "2025-10-31", "close": 0.9729999899864197, "volume": 2930900}, {"date": "2025-11-03", "close": 0.9350000023841858, "volume": 3152900}, {"date": "2025-11-04", "close": 0.8999999761581421, "volume": 3942900}, {"date": "2025-11-05", "close": 0.8899999856948853, "volume": 3533600}, {"date": "2025-11-06", "close": 0.8899999856948853, "volume": 2469600}, {"date": "2025-11-07", "close": 0.9399999976158142, "volume": 3010800}, {"date": "2025-11-10", "close": 0.9739999771118164, "volume": 5778400}, {"date": "2025-11-11", "close": 0.984000027179718, "volume": 1807000}, {"date": "2025-11-12", "close": 0.9990000128746033, "volume": 3894600}, {"date": "2025-11-13", "close": 1.0199999809265137, "volume": 5743900}, {"date": "2025-11-14", "close": 1.0, "volume": 4613800}, {"date": "2025-11-17", "close": 1.0099999904632568, "volume": 4831500}, {"date": "2025-11-18", "close": 1.0499999523162842, "volume": 3278300}, {"date": "2025-11-19", "close": 1.0800000429153442, "volume": 4897200}, {"date": "2025-11-20", "close": 0.9760000109672546, "volume": 6364600}, {"date": "2025-11-21", "close": 0.9879999756813049, "volume": 9538800}, {"date": "2025-11-24", "close": 1.0199999809265137, "volume": 5353600}, {"date": "2025-11-25", "close": 1.0299999713897705, "volume": 2508000}, {"date": "2025-11-26", "close": 1.090000033378601, "volume": 7613100}, {"date": "2025-11-28", "close": 1.1699999570846558, "volume": 3627600}, {"date": "2025-12-01", "close": 1.2000000476837158, "volume": 6225900}, {"date": "2025-12-02", "close": 1.190000057220459, "volume": 2684900}, {"date": "2025-12-03", "close": 1.2200000286102295, "volume": 2573600}, {"date": "2025-12-04", "close": 1.25, "volume": 3768400}, {"date": "2025-12-05", "close": 1.2699999809265137, "volume": 6271500}, {"date": "2025-12-08", "close": 1.2400000095367432, "volume": 5584800}, {"date": "2025-12-09", "close": 1.2999999523162842, "volume": 6083000}, {"date": "2025-12-10", "close": 1.350000023841858, "volume": 4302400}, {"date": "2025-12-11", "close": 1.3799999952316284, "volume": 6241800}, {"date": "2025-12-12", "close": 1.4299999475479126, "volume": 7888300}, {"date": "2025-12-15", "close": 1.4800000190734863, "volume": 11676900}, {"date": "2025-12-16", "close": 1.4800000190734863, "volume": 8283800}, {"date": "2025-12-17", "close": 1.5199999809265137, "volume": 11381600}, {"date": "2025-12-18", "close": 1.4900000095367432, "volume": 7985000}, {"date": "2025-12-19", "close": 1.5399999618530273, "volume": 39265200}, {"date": "2025-12-22", "close": 1.5700000524520874, "volume": 7662000}, {"date": "2025-12-23", "close": 1.5399999618530273, "volume": 4527800}, {"date": "2025-12-24", "close": 1.5399999618530273, "volume": 1998300}, {"date": "2025-12-26", "close": 1.5700000524520874, "volume": 3341900}, {"date": "2025-12-29", "close": 1.4500000476837158, "volume": 7339600}, {"date": "2025-12-30", "close": 1.5099999904632568, "volume": 5174700}, {"date": "2025-12-31", "close": 1.4600000381469727, "volume": 4916000}, {"date": "2026-01-02", "close": 1.4500000476837158, "volume": 2963300}, {"date": "2026-01-05", "close": 1.5099999904632568, "volume": 10035800}, {"date": "2026-01-06", "close": 1.5399999618530273, "volume": 6753100}, {"date": "2026-01-07", "close": 1.5299999713897705, "volume": 4488200}, {"date": "2026-01-08", "close": 1.5099999904632568, "volume": 4253500}, {"date": "2026-01-09", "close": 1.5, "volume": 5080600}, {"date": "2026-01-12", "close": 1.5800000429153442, "volume": 8102000}, {"date": "2026-01-13", "close": 1.5399999618530273, "volume": 5963500}, {"date": "2026-01-14", "close": 1.5499999523162842, "volume": 6657800}, {"date": "2026-01-15", "close": 1.5499999523162842, "volume": 3637800}, {"date": "2026-01-16", "close": 1.600000023841858, "volume": 8778100}, {"date": "2026-01-20", "close": 1.75, "volume": 13220200}, {"date": "2026-01-21", "close": 1.7200000286102295, "volume": 11336700}, {"date": "2026-01-22", "close": 1.809999942779541, "volume": 10061200}, {"date": "2026-01-23", "close": 1.809999942779541, "volume": 8356200}, {"date": "2026-01-26", "close": 1.7899999618530273, "volume": 12599100}, {"date": "2026-01-27", "close": 1.8300000429153442, "volume": 10062600}, {"date": "2026-01-28", "close": 1.899999976158142, "volume": 14679700}, {"date": "2026-01-29", "close": 1.7999999523162842, "volume": 14325200}, {"date": "2026-01-30", "close": 1.590000033378601, "volume": 11062400}, {"date": "2026-02-02", "close": 1.6799999475479126, "volume": 8544200}, {"date": "2026-02-03", "close": 1.8200000524520874, "volume": 10424700}, {"date": "2026-02-04", "close": 1.8200000524520874, "volume": 10257700}, {"date": "2026-02-05", "close": 1.7000000476837158, "volume": 6901800}, {"date": "2026-02-06", "close": 1.8799999952316284, "volume": 8852900}, {"date": "2026-02-09", "close": 2.0, "volume": 11454500}, {"date": "2026-02-10", "close": 1.9900000095367432, "volume": 6159800}, {"date": "2026-02-11", "close": 2.0799999237060547, "volume": 8020700}, {"date": "2026-02-12", "close": 1.940000057220459, "volume": 25086700}, {"date": "2026-02-13", "close": 1.940000057220459, "volume": 10456500}, {"date": "2026-02-17", "close": 1.899999976158142, "volume": 8217200}, {"date": "2026-02-18", "close": 1.9199999570846558, "volume": 8579600}, {"date": "2026-02-19", "close": 1.9500000476837158, "volume": 6817600}, {"date": "2026-02-20", "close": 1.8799999952316284, "volume": 14347900}, {"date": "2026-02-23", "close": 1.8899999856948853, "volume": 9155500}, {"date": "2026-02-24", "close": 1.9299999475479126, "volume": 7369500}, {"date": "2026-02-25", "close": 1.9199999570846558, "volume": 9277800}, {"date": "2026-02-26", "close": 2.0, "volume": 7044600}, {"date": "2026-02-27", "close": 2.0799999237060547, "volume": 9458100}, {"date": "2026-03-02", "close": 2.049999952316284, "volume": 9146100}, {"date": "2026-03-03", "close": 1.8899999856948853, "volume": 8095200}, {"date": "2026-03-04", "close": 1.8200000524520874, "volume": 6139500}, {"date": "2026-03-05", "close": 1.7599999904632568, "volume": 8816800}, {"date": "2026-03-06", "close": 1.75, "volume": 5536700}, {"date": "2026-03-09", "close": 1.7699999809265137, "volume": 9940300}, {"date": "2026-03-10", "close": 1.840000033378601, "volume": 7540100}, {"date": "2026-03-11", "close": 1.8200000524520874, "volume": 6382600}, {"date": "2026-03-12", "close": 1.7300000190734863, "volume": 6787600}, {"date": "2026-03-13", "close": 1.659999966621399, "volume": 12711800}, {"date": "2026-03-16", "close": 1.6699999570846558, "volume": 7215900}, {"date": "2026-03-17", "close": 1.6200000047683716, "volume": 5820700}, {"date": "2026-03-18", "close": 1.399999976158142, "volume": 116867100}, {"date": "2026-03-19", "close": 1.3200000524520874, "volume": 90944900}, {"date": "2026-03-20", "close": 1.2699999809265137, "volume": 31976800}, {"date": "2026-03-23", "close": 1.309999942779541, "volume": 29075100}, {"date": "2026-03-24", "close": 1.350000023841858, "volume": 27401800}, {"date": "2026-03-25", "close": 1.3899999856948853, "volume": 10374500}, {"date": "2026-03-26", "close": 1.3300000429153442, "volume": 7638600}, {"date": "2026-03-27", "close": 1.4299999475479126, "volume": 18652000}, {"date": "2026-03-30", "close": 1.409999966621399, "volume": 13561800}, {"date": "2026-03-31", "close": 1.5199999809265137, "volume": 25764600}, {"date": "2026-04-01", "close": 1.6100000143051147, "volume": 22209600}, {"date": "2026-04-02", "close": 1.659999966621399, "volume": 26630500}, {"date": "2026-04-06", "close": 1.6399999856948853, "volume": 32271100}, {"date": "2026-04-07", "close": 1.659999966621399, "volume": 25266200}, {"date": "2026-04-08", "close": 1.7000000476837158, "volume": 35494200}, {"date": "2026-04-09", "close": 1.6799999475479126, "volume": 21844700}, {"date": "2026-04-10", "close": 1.6799999475479126, "volume": 19189100}, {"date": "2026-04-13", "close": 1.6699999570846558, "volume": 9705200}, {"date": "2026-04-14", "close": 1.659999966621399, "volume": 17502100}, {"date": "2026-04-15", "close": 1.6100000143051147, "volume": 27332400}, {"date": "2026-04-16", "close": 1.6100000143051147, "volume": 13550500}, {"date": "2026-04-17", "close": 1.659999966621399, "volume": 12814100}, {"date": "2026-04-20", "close": 1.7000000476837158, "volume": 17363100}, {"date": "2026-04-21", "close": 1.590000033378601, "volume": 17200700}, {"date": "2026-04-22", "close": 1.5800000429153442, "volume": 7406500}, {"date": "2026-04-23", "close": 1.5499999523162842, "volume": 14263500}, {"date": "2026-04-24", "close": 1.559999942779541, "volume": 10911100}, {"date": "2026-04-27", "close": 1.5800000429153442, "volume": 6575500}, {"date": "2026-04-28", "close": 1.5099999904632568, "volume": 9903600}, {"date": "2026-04-29", "close": 1.4700000286102295, "volume": 6359700}, {"date": "2026-04-30", "close": 1.5, "volume": 6652400}, {"date": "2026-05-01", "close": 1.5199999809265137, "volume": 4368400}, {"date": "2026-05-04", "close": 1.5, "volume": 8562800}, {"date": "2026-05-05", "close": 1.4600000381469727, "volume": 5046100}, {"date": "2026-05-06", "close": 1.5800000429153442, "volume": 20602900}, {"date": "2026-05-07", "close": 1.4900000095367432, "volume": 31509400}, {"date": "2026-05-08", "close": 1.5800000429153442, "volume": 8452300}, {"date": "2026-05-11", "close": 1.600000023841858, "volume": 11795800}, {"date": "2026-05-12", "close": 1.590000033378601, "volume": 7294000}, {"date": "2026-05-13", "close": 1.559999942779541, "volume": 24661700}, {"date": "2026-05-14", "close": 1.5700000524520874, "volume": 9762600}, {"date": "2026-05-15", "close": 1.4800000190734863, "volume": 30289900}, {"date": "2026-05-18", "close": 1.4600000381469727, "volume": 5317300}, {"date": "2026-05-19", "close": 1.4800000190734863, "volume": 8789500}, {"date": "2026-05-20", "close": 1.4800000190734863, "volume": 12546400}, {"date": "2026-05-21", "close": 1.4900000095367432, "volume": 4309900}, {"date": "2026-05-22", "close": 1.5199999809265137, "volume": 4541900}, {"date": "2026-05-26", "close": 1.6200000047683716, "volume": 11842900}, {"date": "2026-05-27", "close": 1.5499999523162842, "volume": 4485600}, {"date": "2026-05-28", "close": 1.600000023841858, "volume": 7080300}, {"date": "2026-05-29", "close": 1.6200000047683716, "volume": 14914200}, {"date": "2026-06-01", "close": 1.600000023841858, "volume": 7373000}, {"date": "2026-06-02", "close": 1.6200000047683716, "volume": 6910900}, {"date": "2026-06-03", "close": 1.5299999713897705, "volume": 6291700}, {"date": "2026-06-04", "close": 1.5800000429153442, "volume": 8960300}, {"date": "2026-06-05", "close": 1.4299999475479126, "volume": 12231300}, {"date": "2026-06-08", "close": 1.399999976158142, "volume": 8073500}, {"date": "2026-06-09", "close": 1.399999976158142, "volume": 11269400}, {"date": "2026-06-10", "close": 1.3700000047683716, "volume": 9291100}, {"date": "2026-06-11", "close": 1.440000057220459, "volume": 9900700}, {"date": "2026-06-12", "close": 1.4800000190734863, "volume": 4847100}, {"date": "2026-06-15", "close": 1.559999942779541, "volume": 20649000}, {"date": "2026-06-16", "close": 1.5800000429153442, "volume": 7133800}, {"date": "2026-06-17", "close": 1.5199999809265137, "volume": 13686900}, {"date": "2026-06-18", "close": 1.5499999523162842, "volume": 14157100}, {"date": "2026-06-22", "close": 1.5, "volume": 17268400}, {"date": "2026-06-23", "close": 1.4199999570846558, "volume": 10688400}, {"date": "2026-06-24", "close": 1.3899999856948853, "volume": 10325500}, {"date": "2026-06-25", "close": 1.3899999856948853, "volume": 6670100}, {"date": "2026-06-26", "close": 1.4199999570846558, "volume": 11108996}], "projects": [{"projectName": "Archimedes Underground", "projectUrl": "https://www.i80gold.com/ruby-hill-complex-archimedes-underground/", "description": "and the Mineral Point open pit projects.", "ownership": "100% i-80 Gold Corp", "location": "Battle Mountain Trend – Northern Nevada", "status": "Construction Residual heap leaching", "miningStyle": "", "miResources": "Underground 1,791 kt @ 7.6 g/t Au for 436 koz Open Pit 4,320 kt @ 1.95 g/t Au for 272 koz", "inferredResources": "Underground 4,188 kt @ 7.3 g/t Au for 988 koz Open Pit 870 koz @ 1.12 g/t Au for 31 koz", "geologySummary": "The Ruby Hill Mine is located along the southeastern end of the Battle Mountain/Eureka gold trend. The 426 zone occurs in the Lower Laminated unit of the Goodwin Formation and the upper part of the underlying basal Goodwin unit of the Goodwin Formation in the nose of a fold. The mineralized zone forms a rod-shaped body plunging shallowly to the northeast that is 1,400 ft long, 200 ft wide and 200 ft thick.", "ni43101Reports": [{"name": "NI 43-101 Technical Report Preliminary Economic Assessment of the i-80 Gold Corp. Ruby Hill Project, Eureka County NV (March 2025)", "url": "https://www.i80gold.com/wp-content/uploads/2025/03/i-80-Gold-Corp.-Ruby-Hill-43-101-PEA-Technical-Report-Final-03_31_25.pdf"}]}, {"projectName": "Cove", "projectUrl": "https://www.i80gold.com/cove-2/", "description": "project by providing a more robust geological model, a greater understanding of the gold mineralization including continuity and grade, and increased confidence in future mineral resource delineation.", "ownership": "100% i-80 Gold Corp", "location": "Battle Mountain Trend – Northern Nevada", "status": "Advanced Exploration Permitting", "miningStyle": "Underground", "miResources": "1,177 kt @ 8.2 g/t Au for 310 koz and 15.0 g/t Ag for 568 koz", "inferredResources": "4,047 kt @ 8.9 g/t Au for 1,156 koz and 11.1 g/t Ag for 1,439 koz", "geologySummary": "The Cove deposit is in the McCoy mining district in the Fish Creek Mountains and located approximately 40km southwest of Battle Mountain, NV. Mineralization at Cove is hosted within the Helen, Gap, CSD, and 2201 zones that are located below and extending ~2000 ft northwest of the historic Cove pit. Three main types of mineralization occur within the property including (a) Carlin-like carbonate replacement deposits at Cove in the Helen, CSD, and the Gap zones, (b) polymetallic sheeted veins in the deep 2201 zone and (c) skarn mineralization at the historic McCoy pit ~1km southwest of the Cove pit.", "ni43101Reports": [{"name": "NI 43-101 Preliminary Economic Assessment for the Cove Project, Lander County, Nevada (March 2025)", "url": "https://www.i80gold.com/wp-content/uploads/2025/03/i-80-Gold-NI43-101-PEA-of-the-Cove-Project-2024-Final-31Mar2025.pdf"}]}, {"projectName": "FAD Project", "projectUrl": "https://www.i80gold.com/fad-project/", "description": "is located immediately south of i-80 Gold’s Ruby Hill Property along the southeastern extent of the highly prolific Battle Mountain-Eureka Trend in northeastern Nevada, USA. The Company announced a mineral resource estimate for FAD on November 6, 2025 which confirms the presence of high-grade gold, silver, lead and zinc mineralization. FAD presents a significant opportunity due to its high-grade nature and further growth potential, however, the Company remains focused on advancing its portfolio of five core gold projects and refurbishing the Lone Tree central processing facility which underpins its development plan to create a Nevada-focused mid-tier gold producer. The Project is considered non-core and is being contemplated for sale in support of the Company’s recapitalization objectives. It was acquired in 2023 through the acquisition of Paycore Minerals Inc.", "ownership": "100% i-80 Gold Corp", "location": "Battle Mountain-Eureka Trend northeastern Nevada", "status": "Exploration (non-core)", "miningStyle": "", "miResources": "594 kt at 4.51 g/t Au, 209.7 g/t Ag, 4.34% Pb, and 6.77% Zn containing 86 koz Au, 4.0 Moz Ag, 57 Mlb Pb, and 89 Mlb Zn (as of October 31, 2025)", "inferredResources": "Inferred Mineral Resource Estimate of 2,736 kt at 5.07 g/t Au, 188.6 g/t Ag, 3.69% Pb, and 4.42% Zn containing 446 koz Au, 16.6 Moz Ag, 223 Mlb Pb, and 267 Mlb Zn (as of October 31, 2025) related NEWS Press Release – Updated Mineral Resource Estimate (November 6, 2025) HIGHLIGHTS Indicated Mineral Resource Estimate of 594 kt at 4.51 g/t Au, 209.7 g/t Ag, 4.34% Pb, and 6.77% Zn containing 86 koz Au, 4.0 Moz Ag, 57 Mlb Pb, and 89 Mlb Zn Inferred Mineral Resource Estimate of 2,736 kt at 5.07 g/t Au, 188.6 g/t Ag, 3.69% Pb, and 4.42% Zn containing 446 koz Au, 16.6 Moz Ag, 223 Mlb Pb, and 267 Mlb Zn At spot commodity prices, there is approximately 7,360 kt containing 895 koz Au, 31 Moz Ag, 407 Mlb Pb, and 678 Mlb Zn High-grade polymetallic asset with attractive net smelter returns of approximately $430/t and $442/t in the indicated and inferred mineral resource categories, respectively. Analysis of two metallurgical composites from FAD sulfide material indicates critical metals such as gallium, indium, antimony, and tin are present in the zinc concentrate with average grades of 126.0 g/t Ga, 122.5 g/t In, 324.0 g/t Sb, and 759.5 g/t Sn, respectively, providing further upside from a metallurgical and permitting standpoint. At surface, oxide gold mineralization present at the Gold Hill target on the Property. PROJECT BACKGROUND The Company acquired FAD in 2023 through the acquisition of Paycore. Paycore completed approximately 11,000 meters of drilling, expanding the deposit, prior", "geologySummary": "& MINERALIZATION The Eureka district is characterized by gold-silver-lead-zinc polymetallic carbonate replacement and Carlin-type gold deposits, which are the two primary deposit-types within the district. The FAD deposit is a mid-Cretaceous gold-rich carbonate replacement deposit and is hosted by the Eldorado dolomite of middle Cambrian age. Sulfide replacement deposit on the FAD property consists mainly of subequal amounts of pyrite, sphalerite, and galena, with subordinate amounts of hydrothermal dolomite, calcite, arsenopyrite, tennantite, pyrrhotite, quartz, and chalcopyrite.", "ni43101Reports": []}, {"projectName": "Granite Creek Open Pit", "projectUrl": "https://www.i80gold.com/granite-creek/", "description": "The Granite Creek Project is located at the intersection of the Getchell and Battle Mountain Trends proximal to Nevada Gold Mines’ Twin Creeks and Turquoise Ridge mining operations. The project hosts both high grade open pit and underground mineral resources that remain open for expansion. Technical work is underway to advance the project toward either a pre-feasibility or a feasibility level study, and technical trade off analyses are being conducted to optimize project economics.", "ownership": "100% i-80 Gold Corp", "location": "Getchell Trend – Northern Nevada", "status": "Permitting", "miningStyle": "Open-pit", "miResources": "37,701 kt @ 1.18 g/t Au for 1,435 koz", "inferredResources": "2,148 kt @ 1.09 g/t Au for 75 koz", "geologySummary": "The property sits on the eastern flank of the Osgood Mountains near the intersection of the northeast-trending Getchell trend and the northwest-trending Battle Mountain trend. Since 1980, the property has produced nearly one million ounces of gold, primarily from the CX, Mag, and Range Front Zones that are all located in the hanging wall of the east-dipping Range Front fault of the Osgood Mountains. The primary host rocks are interbedded shale, siltstone, and limestone rock units of the Ordovician Comus Formation with lesser mineralization in shales and limestones of the underlying Cambrian Preble Formation.", "ni43101Reports": [{"name": "getchell-project-ni-43-101-technical-report-Jan-22-2021.pdf", "url": "https://www.i80gold.com/wp-content/uploads/2021/03/getchell-project-ni-43-101-technical-report-Jan-22-2021.pdf"}, {"name": "NI 43-101 Preliminary Economic Assessment Technical Report Granite Creek Mine Project Humboldt County, Nevada, USA (March 2025)", "url": "https://www.i80gold.com/wp-content/uploads/2025/03/Granite-Creek-PEA-Technical-Report-Final-03_31_25.pdf"}]}, {"projectName": "Granite Creek Underground", "projectUrl": "https://www.i80gold.com/granite-creek-underground/", "description": "is the Company’s first brownfield project to be redeveloped and is currently ramping up towards steady-state gold output. The Granite Creek Property is located at the intersection of the Getchell and Battle Mountain Trends proximal to Nevada Gold Mines’ Twin Creeks and Turquoise Ridge mining operations. The project hosts both high grade open pit and underground mineral resources that remain open for expansion.", "ownership": "100% i-80 Gold Corp.", "location": "Getchell Trend – Northern Nevada", "status": "Operating – Ramping up to steady state", "miningStyle": "Underground (cut-and-fill)", "miResources": "775 kt @ 10.5 g/t Au for 261 koz", "inferredResources": "782 kt @ 13.0 g/t Au for 326 koz", "geologySummary": "The property sits on the eastern flank of the Osgood Mountains near the intersection of the northeast-trending Getchell trend and the northwest-trending Battle Mountain trend. Since 1980, the property has produced nearly one million ounces of gold, primarily from the CX, Mag, and Range Front Zones that are all located in the hanging wall of the east-dipping Range Front fault of the Osgood Mountains. The primary host rocks are interbedded shale, siltstone, and limestone rock units of the Ordovician Comus Formation with lesser mineralization in shales and limestones of the underlying Cambrian Preble Formation.", "ni43101Reports": [{"name": "getchell-project-ni-43-101-technical-report-Jan-22-2021.pdf", "url": "https://www.i80gold.com/wp-content/uploads/2021/03/getchell-project-ni-43-101-technical-report-Jan-22-2021.pdf"}, {"name": "NI 43-101 Preliminary Economic Assessment Technical Report Granite Creek Mine Project Humboldt County, Nevada, USA (March 2025)", "url": "https://www.i80gold.com/wp-content/uploads/2025/03/Granite-Creek-PEA-Technical-Report-Final-03_31_25.pdf"}]}, {"projectName": "Lone Tree Complex", "projectUrl": "https://www.i80gold.com/lone-tree/", "description": "IAU : TSX ( ) IAUX : NYSE ( ) Follow Follow Follow Follow IAU : TSX ( ) IAUX : NYSE ( ) LONE TREE PLANT i-80 holds a 100% interest in the Lone Tree property, located within the Battle Mountain Trend. The Lone Tree Plant is currently non-operational and a construction decision on its refurbishment was made by the Board of Directors in Q1 2026. i-80 Gold is one of two gold companies in Nevada with an autoclave processing plant. The Lone Tree Plant is envisioned to process material from the Company’s three underground mines, Granite Creek, Archimedes, and Cove, to establish a regional hub-and-spoke mining and processing model. Upon refurbishment and commissioning as planned, the Lone Tree Plant will allow the Company to transition from toll milling to owner-operated processing. This shift is expected to materially increase operating margins and enhance free cash flow generation. The total land package of the Lone Tree property consists of approximately 12,000 acres. The property contains significant gold resources with the known mineralized zones remaining open for expansion within the Lone Tree open pit, which is not currently included in the new development plan.", "ownership": "100% i-80 Gold Corp", "location": "Battle Mountain Trend – Northern Nevada", "status": "Constructiond decision granted on the refurbishment Active heap leach pad (currently processing oxide ore from Granite Creek)", "miningStyle": "Centralized autoclave and carbon-in-leach processing facility", "miResources": "7,200 kt @ 1.77 g/t Au for 410 koz", "inferredResources": "50,700 kt @ 1.69 g/t Au for 2,764 koz", "geologySummary": "Additionally, mineralization is located between the Roberts Mountain and Golconda thrusts in siliciclastic rocks of the Ordovician Valmy Formation and in the Pennsylvanian-Permian Battle Mountain and Edna Mountain Formations, and above the Golconda thrust in siliciclastic and carbonate rocks of the Mississippian to Permian Havallah sequence. Mineralization is also hosted by Eocene rhyolitic dikes, although no large intrusive body has been delineated. The gold is associated with sericitic and argillic alteration of the siliciclastic rocks and dikes and with decarbonatization and Fe carbonate alteration of the carbonate-bearing units, as well as in Fe-As sulfide and fine grained quartz alteration of all rock types.", "ni43101Reports": [{"name": "getchell-project-ni-43-101-technical-report-Jan-22-2021.pdf", "url": "https://www.i80gold.com/wp-content/uploads/2021/03/getchell-project-ni-43-101-technical-report-Jan-22-2021.pdf"}, {"name": "Technical Report on the Mineral Resource Estimates for the Lone Tree Deposit, Nevada (March 2025)", "url": "https://www.i80gold.com/wp-content/uploads/2025/03/i80_LoneTree_NI43101_Report_2025_V9_March30-1.pdf"}]}, {"projectName": "Mineral Point Open Pit", "projectUrl": "https://www.i80gold.com/ruby-hill/", "description": "deposit is the largest asset within the Ruby Hill Complex. This deposit has been the focus of multiple drilling campaigns and is one of the largest unmined, bulk mineable precious metal resource in the northern Nevada. Mineral Point is located to the west of the Archimedes Underground, stretching along a major anticlinal structure. The mineralized body extends for over 10,000 feet in length and remains open at depth. Due to the economic potential at Mineral Point, the Company is accelerating infill drilling and technical work to support pre-feasibility and feasibility studies.", "ownership": "100% i-80 Gold Corp", "location": "Battle Mountain Trend – Northern Nevada", "status": "Advanced exploration, permitting Residual heap leach pad", "miningStyle": "", "miResources": "216,982 kt @ 0.48 g/t Au for 3,376 koz and 15.0 g/t Ag for 104,332 koz", "inferredResources": "194,442 kt @ 0.34 g/t Au for 2,117 koz and 14.6 g/t Ag for 91,473 koz", "geologySummary": "The Mineral Point deposit is the largest precious metal Mineral Resource in the i-80 portfolio. It consists of gold and silver mineralization hosted by the Cambrian Hamburg dolomite in the nose of a broad anticline that plunges gently to the north-northwest and is bound to the east by the Holly Fault and to the west by the Spring Valley Fault. The Mineral Point deposit is 10,000 ft long, 2,400 ft wide and up to 500 ft thick.", "ni43101Reports": [{"name": "NI 43-101 Technical Report Preliminary Economic Assessment of the i-80 Gold Corp. Ruby Hill Project, Eureka County NV(March 2025)", "url": "https://www.i80gold.com/wp-content/uploads/2025/03/i-80-Gold-Corp.-Ruby-Hill-43-101-PEA-Technical-Report-Final-03_31_25.pdf"}]}], "newsUrl": "https://www.i80gold.com/investors/#news", "newsItems": [{"date": "", "title": "i-80 Gold Announces Termination of Gold Offtake Agreement", "url": "https://www.i80gold.com/i-80-gold-announces-termination-of-gold-offtake-agreement/"}, {"date": "", "title": "i-80 Gold Announces Additional High-Grade Assay Results From Archimedes Underground Including 16.2 g/t Au Over 56.4 Meters; Updates Timing of 2026 Technical Studies", "url": "https://www.i80gold.com/10339-2/"}, {"date": "", "title": "i-80 Gold Announces Voting Results from Its 2026 Annual Meeting of Shareholders", "url": "https://www.i80gold.com/10326-2/"}, {"date": "", "title": "i-80 Gold Reports First Quarter 2026 Results; Fully Funded Development Plan on Track", "url": "https://www.i80gold.com/i-80-gold-reports-first-quarter-2026-results-fully-funded-development-plan-on-track/"}, {"date": "", "title": "i-80 Gold Reports High-Grade Assay Results at Archimedes Underground Project Including 24.6 g/t Au over 23.6 meters; Development Advancing on Schedule", "url": "https://www.i80gold.com/i-80-gold-reports-high-grade-assay-results-at-archimedes-underground-project-including-24-6-g-t-au-over-23-6-meters-development-advancing-on-schedule/"}], "secFilings": [{"form": "8-K", "filingDate": "2026-05-15", "reportDate": "2026-05-15", "accessionNumber": "0001193125-26-227244", "description": "8-K", "filingUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000119312526227244/", "documentUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000119312526227244/d100702d8k.htm"}, {"form": "SCHEDULE 13G/A", "filingDate": "2026-05-15", "reportDate": "", "accessionNumber": "0000905148-26-002422", "description": "SCHEDULE 13G/A", "filingUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000090514826002422/", "documentUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000090514826002422/xslSCHEDULE_13G_X02/primary_doc.xml"}, {"form": "8-K", "filingDate": "2026-05-12", "reportDate": "2026-05-12", "accessionNumber": "0001628280-26-034215", "description": "8-K", "filingUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034215/", "documentUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034215/iaux-20260512.htm"}, {"form": "10-Q", "filingDate": "2026-05-12", "reportDate": "2026-03-31", "accessionNumber": "0001628280-26-034207", "description": "10-Q", "filingUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/", "documentUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026034207/iaux-20260331.htm"}, {"form": "ARS", "filingDate": "2026-04-29", "reportDate": "2025-12-31", "accessionNumber": "0001628280-26-028420", "description": "ARS", "filingUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026028420/", "documentUrl": "https://www.sec.gov/Archives/edgar/data/1853962/000162828026028420/i-80goldcorp2025annualrepo.pdf"}], "youtubeUrl": "https://www.youtube.com/results?search_query=i-80+Gold+Corp.+mining"};
+    let tickerUniverse = EMBEDDED_TICKERS;
+    let rssTools = null;
+
+    try {
+      const module = await import("./src/tickers.js");
+      if (module?.TICKERS && Object.keys(module.TICKERS).length) tickerUniverse = module.TICKERS;
+    } catch (error) {
+      console.warn("Using embedded ticker universe fallback because src/tickers.js could not be imported.", error);
+    }
+
+    try {
+      rssTools = await import("./src/rss.js");
+    } catch (error) {
+      console.warn("Company news will use stored headlines because src/rss.js could not be imported.", error);
+    }
+
+    function normalizeTicker(value) {
+      return String(value || "").trim().toUpperCase();
+    }
+
+    function tickerEntries() {
+      return Object.entries(tickerUniverse)
+        .map(([symbol, profile]) => [normalizeTicker(symbol), profile || {}])
+        .sort((a, b) => a[0].localeCompare(b[0]));
+    }
+
+    function findTickerProfile(value) {
+      const query = normalizeTicker(value);
+      if (!query) return null;
+      if (tickerUniverse[query]) return [query, tickerUniverse[query]];
+      const lower = String(value || "").trim().toLowerCase();
+      return tickerEntries().find(([symbol, profile]) => {
+        const labels = [symbol, profile.name, profile.company, ...(profile.aliases || [])]
+          .filter(Boolean)
+          .map(item => String(item).toLowerCase());
+        return labels.some(label => label === lower || label.includes(lower));
+      }) || null;
+    }
+
+    function selectedTicker() {
+      const params = new URLSearchParams(window.location.search);
+      const requestedValues = [
+        params.get("ticker"),
+        params.get("symbol"),
+        params.get("company"),
+        params.get("q"),
+        window.location.hash ? decodeURIComponent(window.location.hash.slice(1)) : ""
+      ].filter(Boolean);
+      for (const value of requestedValues) {
+        const directTicker = normalizeTicker(value);
+        if (directTicker && tickerUniverse[directTicker]) return directTicker;
+        if (directTicker === normalizeTicker(IAUX_DETAIL.symbol)) return directTicker;
+        const match = findTickerProfile(value);
+        if (match?.[0]) return match[0];
+      }
+      return tickerEntries()[0]?.[0] || normalizeTicker(IAUX_DETAIL.symbol);
+    }
+
+    function companyFromTicker(symbol) {
+      const normalized = normalizeTicker(symbol);
+      if (normalized === normalizeTicker(IAUX_DETAIL.symbol) && !tickerUniverse[normalized]) return IAUX_DETAIL;
+      const profile = tickerUniverse[normalized] || {};
+      const companyName = profile.company || profile.name || normalized;
+      const displayName = profile.name || companyName || normalized;
+      const metal = profile.metal || "mining";
+      const type = profile.type || "miner";
+      return {
+        symbol: normalized,
+        yahooSymbol: normalized,
+        companyName,
+        exchange: profile.exchange || "",
+        country: profile.country || "",
+        metalFocus: metal,
+        companyType: type,
+        homepageUrl: profile.homepageUrl || profile.website || "",
+        aboutUrl: profile.aboutUrl || "",
+        companySummary: profile.summary || companyName + " is available in the Minerlytics universe as a " + metal + " " + type + ". Detailed website, SEC, financial, project, production, and management records will display here as they are loaded for " + displayName + ".",
+        managementTeam: [],
+        financials: [],
+        risks: null,
+        prices: [],
+        projects: [],
+        newsUrl: profile.newsUrl || profile.homepageUrl || profile.website || "",
+        newsQuery: profile.q || (companyName + " mining"),
+        newsItems: [],
+        secFilings: [],
+        youtubeUrl: "https://www.youtube.com/results?search_query=" + encodeURIComponent(companyName + " mining")
+      };
+    }
+
+    let company = companyFromTicker(selectedTicker());
+
+    const ranges = [
+      { label: "1W", days: 7 },
+      { label: "1M", days: 31 },
+      { label: "3M", days: 93 },
+      { label: "6M", days: 186 },
+      { label: "12M", days: 366 }
+    ];
+    let selectedRange = "6M";
+    let selectedPersonIndex = 0;
+
+    function formatLabel(value) {
+      return String(value || "").replace(/_/g, " ");
+    }
+
+    function setText(id, value) {
+      document.getElementById(id).textContent = value || "";
+    }
+
+    function initTickerControls() {
+      const select = document.getElementById("tickerSelect");
+      const search = document.getElementById("tickerSearchInput");
+      const datalist = document.getElementById("tickerSearchOptions");
+      const button = document.getElementById("tickerSearchButton");
+      const entries = tickerEntries();
+      select.innerHTML = entries.map(([symbol, profile]) => `
+        <option value="${symbol}" ${symbol === company.symbol ? "selected" : ""}>${symbol} - ${profile.name || profile.company || symbol}</option>
+      `).join("");
+      datalist.innerHTML = entries.map(([symbol, profile]) => `
+        <option value="${symbol}">${profile.company || profile.name || symbol}</option>
+        ${profile.company ? `<option value="${profile.company}">${symbol}</option>` : ""}
+        ${profile.name ? `<option value="${profile.name}">${symbol}</option>` : ""}
+      `).join("");
+      search.value = company.symbol;
+      function openTicker(value) {
+        const match = findTickerProfile(value);
+        if (!match) {
+          search.value = "";
+          search.placeholder = "Ticker not found";
+          return;
+        }
+        const params = new URLSearchParams(window.location.search);
+        params.set("ticker", match[0]);
+        window.location.href = window.location.pathname + "?" + params.toString();
+      }
+      select.addEventListener("change", event => openTicker(event.target.value));
+      button.addEventListener("click", () => openTicker(search.value));
+      search.addEventListener("keydown", event => {
+        if (event.key === "Enter") openTicker(search.value);
+      });
+    }
+
+    function initHeader() {
+      setText("companyName", company.companyName);
+      setText("ticker", `(${company.symbol})`);
+      const metaParts = [company.exchange, company.country, `Yahoo: ${company.yahooSymbol || company.symbol}`].filter(Boolean);
+      setText("companyMeta", metaParts.join(" · "));
+      document.getElementById("pills").innerHTML = [company.metalFocus, company.companyType]
+        .filter(Boolean)
+        .map(value => `<span class="pill">${formatLabel(value)}</span>`)
+        .join("");
+      setText("companySummary", company.companySummary || "No company website summary has been loaded yet.");
+      const website = document.getElementById("websiteLink");
+      website.href = company.homepageUrl || "#";
+      website.textContent = company.homepageUrl || "Not available";
+      const aboutLink = document.getElementById("aboutUsHeaderLink");
+      const aboutHref = company.aboutUrl || company.homepageUrl || "";
+      aboutLink.href = aboutHref || "#";
+      aboutLink.textContent = company.aboutUrl ? "About Us" : "Website";
+      aboutLink.setAttribute("aria-disabled", aboutHref ? "false" : "true");
+      aboutLink.title = company.aboutSource?.method
+        ? `Source: ${company.aboutSource.label} · ${company.aboutSource.method}`
+        : "Open company website summary source";
+      const managementButton = document.getElementById("managementTeamButton");
+      managementButton.hidden = !(company.managementTeam || []).length;
+      managementButton.addEventListener("click", openManagementModal);
+      document.getElementById("newsLink").href = company.newsUrl || (rssTools?.googleRssUrl && company.newsQuery ? rssTools.googleRssUrl(company.newsQuery) : company.homepageUrl) || "#";
+      document.getElementById("youtubeLink").href = company.youtubeUrl || "#";
+    }
+
+    function newsDateValue(item) {
+      const raw = item.published_at || item.pubDate || item.date || item.fetched_at || "";
+      const time = Date.parse(raw);
+      return Number.isFinite(time) ? time : 0;
+    }
+
+    function normalizeNewsItem(item) {
+      const sourceType = item.source_type || item.sourceType || "";
+      const source = item.source || (sourceType === "website_investor_news" ? "Company website" : "RSS");
+      return {
+        title: item.title || "Untitled headline",
+        url: item.link || item.url || item.article_url || "#",
+        date: item.published_at || item.pubDate || item.date || item.published_date || item.fetched_at || item.retrieved_at || "",
+        source,
+        sourceType,
+        summary: sourceType === "website_investor_news" ? (item.summary_text || item.summary || item.one_liner || "") : ""
+      };
+    }
+
+    function mergeNewsItems(...groups) {
+      const best = new Map();
+      groups.flat().filter(Boolean).forEach(item => {
+        const normalized = normalizeNewsItem(item);
+        const key = normalized.url && normalized.url !== "#"
+          ? normalized.url.replace(/#.*$/, "").replace(/\/$/, "").toLowerCase()
+          : normalized.title.toLowerCase().replace(/\s+/g, " ").trim();
+        const existing = best.get(key);
+        if (!existing || newsDateValue(normalized) > newsDateValue(existing)) best.set(key, normalized);
+      });
+      return Array.from(best.values()).sort((a, b) => newsDateValue(b) - newsDateValue(a));
+    }
+
+    function formatNewsDate(value) {
+      if (!value) return "Recent";
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return value;
+      return date.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+    }
+
+    function truncateText(value, maxLength = 240) {
+      const text = String(value || "").replace(/\s+/g, " ").trim();
+      return text.length > maxLength ? text.slice(0, maxLength - 3).trimEnd() + "..." : text;
+    }
+
+    async function fetchWithTimeout(url, options = {}, timeoutMs = 7000) {
+      const controller = new AbortController();
+      const timer = window.setTimeout(() => controller.abort(), timeoutMs);
+      try {
+        return await fetch(url, { ...options, signal: controller.signal });
+      } finally {
+        window.clearTimeout(timer);
+      }
+    }
+
+    async function getLatestFeedNews() {
+      const response = await fetchWithTimeout(
+        API_BASE + "/api/news/latest-feed?symbols=" + encodeURIComponent(company.symbol) + "&limit=8&days=60",
+        {
+          headers: { accept: "application/json" },
+          cache: "no-store"
+        }
+      );
+      if (!response.ok) throw new Error("Latest feed request failed: " + response.status);
+      const payload = await response.json();
+      return (payload.items || []).map(normalizeNewsItem);
+    }
+
+    async function getWebsiteInvestorNews() {
+      const response = await fetchWithTimeout(API_BASE + "/api/company-website-news?ticker=" + encodeURIComponent(company.symbol) + "&limit=8", {
+        headers: { accept: "application/json" },
+        cache: "no-store"
+      });
+      if (!response.ok) throw new Error("Company website news request failed: " + response.status);
+      const payload = await response.json();
+      return (payload.items || []).map(normalizeNewsItem);
+    }
+
+    async function loadCompanyAbout() {
+      try {
+        const response = await fetchWithTimeout(API_BASE + "/api/company-about?ticker=" + encodeURIComponent(company.symbol), {
+          headers: { accept: "application/json" },
+          cache: "no-store"
+        });
+        if (!response.ok) throw new Error("Company about request failed: " + response.status);
+        const payload = await response.json();
+        const about = payload.about || null;
+        if (!about) return;
+
+        company.homepageUrl = about.homepageUrl || company.homepageUrl;
+        company.aboutUrl = about.aboutUrl || company.aboutUrl || about.homepageUrl || "";
+        if (about.status === "found" && about.aboutText) {
+          company.companySummary = about.aboutText;
+          company.metalFocus = about.metal || company.metalFocus;
+          company.companyType = about.companyType || company.companyType;
+          company.aboutSource = {
+            label: payload.source || about.sourceType || "Website_about_Us",
+            method: about.extractionMethod || "",
+            checkedAt: about.checkedAt || "",
+            title: about.aboutTitle || ""
+          };
+        }
+      } catch (error) {
+        console.warn("Company About Us request failed; using embedded summary fallback.", error);
+      }
+    }
+
+    async function getCompanyRssNews() {
+      if (!rssTools?.googleRssUrl || !rssTools?.parseRssItems || !company.newsQuery) return [];
+      const rssUrl = rssTools.googleRssUrl(company.newsQuery);
+      const response = await fetchWithTimeout(rssUrl, { headers: { accept: "application/rss+xml,text/xml,*/*" }, cache: "no-store" });
+      if (!response.ok) throw new Error("RSS request failed: " + response.status);
+      const xml = await response.text();
+      return rssTools.parseRssItems(xml, 25).map(normalizeNewsItem);
+    }
+
+    async function getServerRssNews() {
+      const response = await fetchWithTimeout(API_BASE + "/api/news?ticker=" + encodeURIComponent(company.symbol), {
+        headers: { accept: "application/json" },
+        cache: "no-store"
+      });
+      if (!response.ok) throw new Error("Server RSS request failed: " + response.status);
+      const payload = await response.json();
+      return (payload.items || []).map(normalizeNewsItem);
+    }
+
+    async function initNews() {
+      const container = document.getElementById("newsList");
+      container.innerHTML = '<div class="empty">Loading RSS and company website news...</div>';
+      let rssItems = [];
+      let websiteItems = [];
+
+      const [rssResult, websiteResult] = await Promise.allSettled([
+        getLatestFeedNews(),
+        getWebsiteInvestorNews()
+      ]);
+
+      if (rssResult.status === "fulfilled") {
+        rssItems = rssResult.value;
+      } else {
+        console.warn("Homepage latest-feed RSS request failed; trying direct company RSS.", rssResult.reason);
+      }
+
+      if (websiteResult.status === "fulfilled") {
+        websiteItems = websiteResult.value;
+      } else {
+        console.warn("Company website news request failed; continuing with RSS fallbacks.", websiteResult.reason);
+      }
+
+      if (!rssItems.length) {
+        try {
+          rssItems = await getCompanyRssNews();
+        } catch (error) {
+          console.warn("Direct RSS company news fetch failed; trying Minerlytics ticker news API fallback.", error);
+        }
+      }
+      if (!rssItems.length) {
+        try {
+          rssItems = await getServerRssNews();
+        } catch (error) {
+          console.warn("Server RSS company news fetch failed; using stored company news fallback.", error);
+          rssItems = (company.newsItems || []).map(normalizeNewsItem);
+        }
+      }
+      const items = mergeNewsItems(websiteItems, rssItems);
+      if (!items.length) {
+        container.innerHTML = '<div class="empty">No recent RSS or company website news was found for this company.</div>';
+        return;
+      }
+      container.innerHTML = items.slice(0, 5).map(item => `
+        <article class="news-item">
+          <div class="news-date">${escapeHtml(formatNewsDate(item.date))} · ${escapeHtml(item.source || "RSS")}</div>
+          <a href="${item.url}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a>
+          ${item.summary ? `<p>${escapeHtml(truncateText(item.summary))}</p>` : ""}
+        </article>
+      `).join("");
+    }
+
+    async function getCompanyYoutubeVideos() {
+      const response = await fetchWithTimeout(
+        API_BASE + "/api/youtube/recent?symbols=" + encodeURIComponent(company.symbol) + "&limit=5&days=60&strict=1",
+        {
+          headers: { accept: "application/json" },
+          cache: "no-store"
+        }
+      );
+      if (!response.ok) throw new Error("YouTube recent request failed: " + response.status);
+      const payload = await response.json();
+      const selectedSymbol = normalizeTicker(company.symbol);
+      return (Array.isArray(payload.videos) ? payload.videos : []).filter((video) => {
+        const symbols = Array.isArray(video.symbols) ? video.symbols.map(normalizeTicker) : [];
+        return symbols.includes(selectedSymbol);
+      });
+    }
+
+    async function initYoutubeVideos() {
+      const container = document.getElementById("youtubeVideos");
+      const count = document.getElementById("youtubeVideoCount");
+      container.innerHTML = '<div class="empty">Loading recent YouTube coverage...</div>';
+      setText("youtubeVideoCount", "");
+
+      let videos = [];
+      try {
+        videos = await getCompanyYoutubeVideos();
+      } catch (error) {
+        console.warn("Company YouTube coverage request failed.", error);
+      }
+
+      if (!videos.length) {
+        setText("youtubeVideoCount", "0 videos");
+        container.innerHTML = '<div class="empty">No recent Minerlytics-linked YouTube coverage was found for this company in the last 60 days.</div>';
+        return;
+      }
+
+      setText("youtubeVideoCount", `${videos.length} videos`);
+      container.innerHTML = videos.slice(0, 5).map(video => {
+        const symbols = Array.isArray(video.symbols) && video.symbols.length
+          ? `<p>${escapeHtml(video.symbols.slice(0, 6).join(", "))}</p>`
+          : "";
+        const snippet = video.transcript_snippet
+          ? `<p>${escapeHtml(truncateText(video.transcript_snippet, 180))}</p>`
+          : "";
+        return `
+          <article class="news-item">
+            <div class="news-date">${escapeHtml(formatNewsDate(video.published_at))} · ${escapeHtml(video.channel || "YouTube")}</div>
+            <a href="${escapeHtml(video.url || "#")}" target="_blank" rel="noopener">${escapeHtml(video.title || "Untitled video")}</a>
+            ${symbols}
+            ${snippet}
+          </article>
+        `;
+      }).join("");
+    }
+
+    function initSecFilings() {
+      const filings = company.secFilings || [];
+      setText("secFilingCount", `${filings.length} filings`);
+      const container = document.getElementById("secFilings");
+      if (!filings.length) {
+        container.innerHTML = '<div class="empty">No SEC filings have been stored for this company.</div>';
+        return;
+      }
+      container.innerHTML = filings.slice(0, 5).map(filing => {
+        const url = filing.documentUrl || filing.filingUrl || "#";
+        const label = [filing.form, filing.description].filter(Boolean).join(" · ");
+        const reportDate = filing.reportDate ? ` · report ${escapeHtml(filing.reportDate)}` : "";
+        return `
+          <article class="filing-item">
+            <a href="${url}" target="_blank" rel="noopener">${escapeHtml(label)}</a>
+            <div class="filing-meta">Filed ${escapeHtml(filing.filingDate || "n/a")}${reportDate}</div>
+            <div class="filing-meta">Accession: ${escapeHtml(filing.accessionNumber || "n/a")}</div>
+          </article>
+        `;
+      }).join("");
+    }
+
+    function initRanges() {
+      const buttons = document.getElementById("rangeButtons");
+      buttons.innerHTML = ranges.map(range => `<button type="button" data-range="${range.label}">${range.label}</button>`).join("");
+      buttons.addEventListener("click", event => {
+        const button = event.target.closest("button");
+        if (!button) return;
+        selectedRange = button.dataset.range;
+        drawChart();
+      });
+    }
+
+    async function loadCompanyMarketPrices() {
+      const emptyChart = document.getElementById("emptyChart");
+      emptyChart.textContent = "Loading stock price history...";
+      emptyChart.hidden = false;
+
+      try {
+        const response = await fetchWithTimeout(
+          API_BASE + "/api/market/top-trends?symbols=" + encodeURIComponent(company.symbol) + "&days=365",
+          {
+            headers: { accept: "application/json" },
+            cache: "no-store"
+          },
+          10000
+        );
+        if (!response.ok) throw new Error("Market price request failed: " + response.status);
+        const payload = await response.json();
+        const tickerSeries = Array.isArray(payload.tickers)
+          ? payload.tickers.find(item => normalizeTicker(item.ticker || item.symbol) === normalizeTicker(company.symbol)) || payload.tickers[0]
+          : null;
+        const points = Array.isArray(tickerSeries?.points) ? tickerSeries.points : [];
+        const prices = points
+          .map(point => ({
+            date: point.date || point.timestamp || "",
+            close: Number(point.close),
+            volume: Number(point.volume)
+          }))
+          .filter(point => point.date && Number.isFinite(point.close))
+          .sort((a, b) => String(a.date).localeCompare(String(b.date)));
+
+        if (prices.length) {
+          company.prices = prices;
+          company.marketSource = {
+            label: tickerSeries?.source || payload.source || "market data",
+            symbol: tickerSeries?.symbol || company.yahooSymbol || company.symbol,
+            latestClose: tickerSeries?.latest_close ?? prices[prices.length - 1]?.close ?? null
+          };
+        }
+      } catch (error) {
+        console.warn("Company market price request failed; using embedded price fallback.", error);
+      }
+
+      emptyChart.textContent = "No stored price history is available for this company.";
+      drawChart();
+    }
+
+    function filteredPrices() {
+      const prices = (company.prices || []).filter(point => Number.isFinite(Number(point.close)));
+      if (!prices.length) return [];
+      const selected = ranges.find(range => range.label === selectedRange) || ranges[3];
+      const lastDate = new Date(prices[prices.length - 1].date + "T00:00:00");
+      const cutoff = new Date(lastDate);
+      cutoff.setDate(cutoff.getDate() - selected.days);
+      return prices.filter(point => new Date(point.date + "T00:00:00") >= cutoff);
+    }
+
+    function drawChart() {
+      document.querySelectorAll(".range-buttons button").forEach(button => {
+        button.classList.toggle("active", button.dataset.range === selectedRange);
+      });
+      const canvas = document.getElementById("priceChart");
+      const ctx = canvas.getContext("2d");
+      const points = filteredPrices();
+      document.getElementById("emptyChart").hidden = points.length > 1;
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      if (points.length <= 1) return;
+
+      const width = canvas.width;
+      const height = canvas.height;
+      const pad = { left: 62, right: 24, top: 24, bottom: 42 };
+      const closes = points.map(point => Number(point.close));
+      const min = Math.min(...closes);
+      const max = Math.max(...closes);
+      const span = Math.max(max - min, 0.01);
+
+      ctx.strokeStyle = "#d8ded6";
+      ctx.lineWidth = 1;
+      ctx.fillStyle = "#647066";
+      ctx.font = "12px Inter, sans-serif";
+      for (let i = 0; i <= 4; i += 1) {
+        const y = pad.top + ((height - pad.top - pad.bottom) * i / 4);
+        const value = max - (span * i / 4);
+        ctx.beginPath();
+        ctx.moveTo(pad.left, y);
+        ctx.lineTo(width - pad.right, y);
+        ctx.stroke();
+        ctx.fillText(`$${value.toFixed(2)}`, 8, y + 4);
+      }
+
+      const xFor = index => pad.left + ((width - pad.left - pad.right) * index / Math.max(points.length - 1, 1));
+      const yFor = value => pad.top + ((max - value) / span) * (height - pad.top - pad.bottom);
+
+      const gradient = ctx.createLinearGradient(0, pad.top, 0, height - pad.bottom);
+      gradient.addColorStop(0, "rgba(36,79,67,.24)");
+      gradient.addColorStop(1, "rgba(36,79,67,0)");
+
+      ctx.beginPath();
+      points.forEach((point, index) => {
+        const x = xFor(index);
+        const y = yFor(Number(point.close));
+        if (index === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+      });
+      ctx.lineTo(xFor(points.length - 1), height - pad.bottom);
+      ctx.lineTo(xFor(0), height - pad.bottom);
+      ctx.closePath();
+      ctx.fillStyle = gradient;
+      ctx.fill();
+
+      ctx.beginPath();
+      points.forEach((point, index) => {
+        const x = xFor(index);
+        const y = yFor(Number(point.close));
+        if (index === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+      });
+      ctx.strokeStyle = "#244f43";
+      ctx.lineWidth = 3;
+      ctx.stroke();
+
+      const first = points[0];
+      const last = points[points.length - 1];
+      ctx.fillStyle = "#647066";
+      ctx.fillText(first.date, pad.left, height - 14);
+      ctx.textAlign = "right";
+      ctx.fillText(last.date, width - pad.right, height - 14);
+      ctx.textAlign = "left";
+      ctx.fillStyle = "#19211d";
+      ctx.font = "700 13px Inter, sans-serif";
+      ctx.fillText(`Latest close: $${Number(last.close).toFixed(2)}`, pad.left, 20);
+    }
+
+    function projectTable(project) {
+      const reports = (project.ni43101Reports || []).length
+        ? `<div class="doc-links">${project.ni43101Reports.map((report, index) => `<a class="doc-link" href="${escapeHtml(report.url || "#")}" target="_blank" rel="noopener">${escapeHtml(report.name || `Technical Report ${index + 1}`)}</a>`).join("")}</div>`
+        : "No NI 43-101 document link stored.";
+      const rows = [
+        ["Ownership", project.ownership || "Not available"],
+        ["Location", project.location || "Not available"],
+        ["Status", project.status || "Not available"],
+        ["Mining Style", project.miningStyle || "Not available"],
+        ["M&I Mineral Resources", project.miResources || "Not available"],
+        ["Inferred Resources", project.inferredResources || "Not available"],
+        ["AI Geology Summary", project.geologySummary || "Not available"],
+        ["NI 43-101 Documents", reports]
+      ];
+      return `<table>${rows.map(([label, value]) => {
+        const isHtml = label === "NI 43-101 Documents";
+        return `<tr><th>${escapeHtml(label)}</th><td>${isHtml ? value : escapeHtml(value)}</td></tr>`;
+      }).join("")}</table>`;
+    }
+
+    function formatFinancialValue(fact) {
+      const value = Number(fact.value);
+      if (!Number.isFinite(value)) return "Not available";
+      if (fact.unit === "shares") return value.toLocaleString();
+      if (String(fact.unit || "").toLowerCase().includes("shares")) return value.toLocaleString(undefined, { maximumFractionDigits: 2 });
+      if (fact.unit === "USD") {
+        const abs = Math.abs(value);
+        if (abs >= 1_000_000_000) return `${value < 0 ? "-" : ""}$${(abs / 1_000_000_000).toFixed(2)}B`;
+        if (abs >= 1_000_000) return `${value < 0 ? "-" : ""}$${(abs / 1_000_000).toFixed(1)}M`;
+        return `${value < 0 ? "-" : ""}$${abs.toLocaleString()}`;
+      }
+      return `${value.toLocaleString()} ${fact.unit || ""}`.trim();
+    }
+
+    function normalizeMetricText(value) {
+      return String(value || "").replace(/[_-]/g, " ").toLowerCase();
+    }
+
+    function latestByDate(items) {
+      return [...items].sort((a, b) => {
+        const aDate = Date.parse(a.filedDate || a.periodEnd || a.reportDate || a.date || "") || 0;
+        const bDate = Date.parse(b.filedDate || b.periodEnd || b.reportDate || b.date || "") || 0;
+        return bDate - aDate;
+      })[0] || null;
+    }
+
+    function findFinancialFact(terms) {
+      const wanted = terms.map(normalizeMetricText);
+      return latestByDate((company.financials || []).filter(fact => {
+        const haystack = normalizeMetricText(`${fact.metric || ""} ${fact.factName || ""} ${fact.factLabel || ""}`);
+        return wanted.some(term => haystack.includes(term));
+      }));
+    }
+
+    const COMPANY_FACT_METRICS = {
+      revenue: "Revenue",
+      netIncome: "Net Income",
+      assets: "Assets",
+      liabilities: "Liabilities",
+      cashFlowOps: "Operating Cash Flow",
+      epsBasic: "EPS Basic",
+      epsDiluted: "EPS Diluted",
+      sharesOutstanding: "Shares Outstanding"
+    };
+
+    function companyFactToFinancial(metricKey, fact) {
+      if (!fact || fact.val === undefined || fact.val === null) return null;
+      return {
+        metric: COMPANY_FACT_METRICS[metricKey] || formatLabel(metricKey),
+        factName: fact.tag || metricKey,
+        factLabel: `${fact.taxonomy || "EDGAR"}:${fact.tag || metricKey}`,
+        value: fact.val,
+        unit: fact.unit || "",
+        periodStart: fact.start || null,
+        periodEnd: fact.end || "",
+        form: fact.form || "",
+        filedDate: fact.filed || "",
+        fiscalYear: fact.fy || "",
+        fiscalPeriod: fact.fp || "",
+        accessionNumber: fact.accn || "",
+        reportUrl: "",
+        source: "pullCompanyFacts.js"
+      };
+    }
+
+    async function fetchJsonFirstAvailable(urls) {
+      for (const url of urls) {
+        try {
+          const response = await fetchWithTimeout(url, { headers: { accept: "application/json" }, cache: "no-store" }, 7000);
+          if (response.ok) return await response.json();
+        } catch (error) {
+          console.warn(`Could not load ${url}`, error);
+        }
+      }
+      return null;
+    }
+
+    async function loadCompanyFactsFinancials() {
+      const fundamentals = await fetchJsonFirstAvailable([
+        "./public/data/fundamentals_latest.json",
+        "./data/fundamentals_latest.json"
+      ]);
+      if (!Array.isArray(fundamentals)) return;
+
+      const row = fundamentals.find(item => normalizeTicker(item.ticker) === normalizeTicker(company.symbol));
+      if (!row) return;
+
+      const facts = Object.keys(COMPANY_FACT_METRICS)
+        .map(metricKey => companyFactToFinancial(metricKey, row[metricKey]))
+        .filter(Boolean);
+      if (!facts.length) return;
+
+      company.financials = facts;
+      company.financialSource = {
+        label: "EDGAR company facts",
+        script: "src/edgar/pullCompanyFacts.js",
+        file: "public/data/fundamentals_latest.json",
+        asOf: row.asOf || ""
+      };
+    }
+
+    async function loadCompanyProduction() {
+      const payload = await fetchJsonFirstAvailable([
+        API_BASE + "/api/company-production?ticker=" + encodeURIComponent(company.symbol)
+      ]);
+      if (!payload?.ok || !payload.by_metal) return;
+
+      company.productionByMetal = payload.by_metal || {};
+      company.productionRows = Array.isArray(payload.rows) ? payload.rows : [];
+      company.productionSource = {
+        label: "Production table",
+        endpoint: "/api/company-production",
+        source: payload.source || "production table"
+      };
+    }
+
+    async function loadCompanyAisc() {
+      const payload = await fetchJsonFirstAvailable([
+        API_BASE + "/api/company-aisc?ticker=" + encodeURIComponent(company.symbol)
+      ]);
+      if (!payload?.ok || !payload.by_metal) return;
+
+      company.aiscByMetal = payload.by_metal || {};
+      company.aiscRows = Array.isArray(payload.rows) ? payload.rows : [];
+      company.aiscSource = {
+        label: "AISC metrics table",
+        endpoint: "/api/company-aisc",
+        source: payload.source || "aisc_metrics table"
+      };
+    }
+
+    async function loadCompanyProjects() {
+      const payload = await fetchJsonFirstAvailable([
+        API_BASE + "/api/company-projects?ticker=" + encodeURIComponent(company.symbol) + "&limit=50"
+      ]);
+      if (!payload?.ok || !Array.isArray(payload.projects)) return;
+
+      company.projects = payload.projects;
+      company.projectSource = {
+        label: "Website project portfolio",
+        endpoint: "/api/company-projects",
+        source: payload.source || "website_project_portfolio"
+      };
+    }
+
+    function formatNumberValue(value, unit = "") {
+      const numeric = Number(value);
+      if (!Number.isFinite(numeric)) return value || "Not available";
+      if (String(unit).toLowerCase().includes("share")) return numeric.toLocaleString();
+      return `${numeric.toLocaleString(undefined, { maximumFractionDigits: 3 })}${unit ? ` ${unit}` : ""}`;
+    }
+
+    function commodityLabel() {
+      return formatLabel(company.metalFocus || company.commodity || "Commodity")
+        .replace(/\b\w/g, letter => letter.toUpperCase());
+    }
+
+    function getDirectMetric(possibleKeys) {
+      for (const key of possibleKeys) {
+        if (company[key] !== undefined && company[key] !== null && company[key] !== "") return company[key];
+      }
+      for (const source of [company.keyHealthMeasures, company.production, company.metrics]) {
+        if (!source || Array.isArray(source)) continue;
+        for (const key of possibleKeys) {
+          if (source[key] !== undefined && source[key] !== null && source[key] !== "") return source[key];
+        }
+      }
+      return null;
+    }
+
+    function asArray(value) {
+      if (!value) return [];
+      return Array.isArray(value) ? value : [value];
+    }
+
+    function getLatestProductionRecord() {
+      const sources = [
+        ...asArray(company.production),
+        ...asArray(company.productionValues),
+        ...asArray(company.productionMetrics)
+      ];
+      return latestByDate(sources);
+    }
+
+    function parseOunces(value) {
+      const match = String(value || "").match(/([\d,.]+)\s*(moz|million ounces|koz|thousand ounces|oz|ounces)?/i);
+      if (!match) return null;
+      const number = Number(match[1].replace(/,/g, ""));
+      if (!Number.isFinite(number)) return null;
+      const unit = String(match[2] || "").toLowerCase();
+      if (unit === "moz" || unit.includes("million")) return number * 1_000_000;
+      if (unit === "koz" || unit.includes("thousand")) return number * 1_000;
+      return number;
+    }
+
+    function getProductionValue() {
+      const direct = getDirectMetric(["productionValue", "productionOunces", "latestProduction", "latestProductionOunces"]);
+      if (direct) return { value: formatNumberValue(direct, typeof direct === "number" ? "oz" : ""), raw: direct };
+      const record = getLatestProductionRecord();
+      if (!record) return { value: "Not available", raw: null };
+      const raw = record.productionOunces ?? record.ounces ?? record.value ?? record.production_value;
+      return {
+        value: formatNumberValue(raw, record.unit || "oz"),
+        raw,
+        meta: record.form || record.filingDate || record.reportDate ? `${record.form || "Report"} · ${record.reportDate || record.filingDate || "latest stored"}` : ""
+      };
+    }
+
+    function getProductionMetalRecord(metal) {
+      const key = String(metal || "").toLowerCase();
+      const record = company.productionByMetal?.[key] || null;
+      if (!record || record.ounces === null || record.ounces === undefined) return null;
+      const ounces = Number(record.ounces);
+      if (!Number.isFinite(ounces)) return null;
+      return { ...record, metal: key, ounces };
+    }
+
+    function getAiscMetalRecord(metal) {
+      const key = String(metal || "").toLowerCase();
+      const record = company.aiscByMetal?.[key] || null;
+      if (!record || record.value === null || record.value === undefined) return null;
+      const value = Number(record.value);
+      if (!Number.isFinite(value)) return null;
+      return { ...record, metal: key, value };
+    }
+
+    function productionMeta(record) {
+      const reportDate = record.latest_report_date || record.reportDate || record.report_date || "";
+      const filedDate = record.latest_filing_date || record.filingDate || record.filing_date || "";
+      const form = record.form || "SEC filing";
+      const rowCount = Number(record.row_count || 0);
+      const parts = [
+        form,
+        reportDate ? `period ${reportDate}` : "",
+        filedDate ? `filed ${filedDate}` : "",
+        rowCount > 1 ? `${rowCount} production rows` : ""
+      ].filter(Boolean);
+      return parts.join(" · ");
+    }
+
+    function aiscMeta(record) {
+      const reportDate = record.latest_report_date || record.reportDate || record.report_date || "";
+      const filedDate = record.latest_filing_date || record.filingDate || record.filing_date || "";
+      const form = record.form || "SEC filing";
+      const rowCount = Number(record.row_count || 0);
+      const parts = [
+        form,
+        reportDate ? `period ${reportDate}` : "",
+        filedDate ? `filed ${filedDate}` : "",
+        rowCount > 1 ? `${rowCount} AISC values averaged` : ""
+      ].filter(Boolean);
+      return parts.join(" · ");
+    }
+
+    function formatAiscValue(value) {
+      const numeric = Number(value);
+      if (!Number.isFinite(numeric)) return "Not available";
+      return `$${numeric.toLocaleString(undefined, { maximumFractionDigits: 0 })}/oz`;
+    }
+
+    function productionCardsForMetals(sharesValue) {
+      return ["gold", "silver"].flatMap((metal) => {
+        const record = getProductionMetalRecord(metal);
+        if (!record) return [];
+        const commodity = metal.replace(/\b\w/g, letter => letter.toUpperCase());
+        const cards = [{
+          label: `${commodity} Production Value`,
+          value: formatNumberValue(record.ounces, "oz"),
+          meta: productionMeta(record) || "Latest value from production table"
+        }];
+        if (Number.isFinite(sharesValue) && sharesValue > 0) {
+          cards.push({
+            label: `${commodity} Production Ounces per Share`,
+            value: (record.ounces / sharesValue).toFixed(6),
+            meta: `${commodity} production ounces divided by total shares outstanding`
+          });
+        }
+        return cards;
+      });
+    }
+
+    function aiscCardsForMetals() {
+      return ["gold", "silver"].flatMap((metal) => {
+        const record = getAiscMetalRecord(metal);
+        if (!record) return [];
+        const commodity = metal.replace(/\b\w/g, letter => letter.toUpperCase());
+        return [{
+          label: `${commodity} AISC`,
+          value: formatAiscValue(record.value),
+          href: record.source_url || "",
+          meta: aiscMeta(record) || "Latest value from AISC metrics table"
+        }];
+      });
+    }
+
+    function getTotalReserves() {
+      const direct = getDirectMetric(["totalReserves", "reserves", "mineralReserves", "reserveText"]);
+      if (direct) return direct;
+      const project = (company.projects || []).find(item => item.totalReserves || item.reserves || item.mineralReserves || item.reserveText);
+      if (!project) return "Not available";
+      return project.totalReserves || project.reserves || project.mineralReserves || project.reserveText;
+    }
+
+    function findProjectEconomicValue(patterns, fields) {
+      const direct = getDirectMetric(fields);
+      if (direct) return direct;
+      for (const project of company.projects || []) {
+        for (const field of fields) {
+          if (project[field]) return project[field];
+        }
+        const text = [project.description, project.miResources, project.inferredResources, project.geologySummary]
+          .filter(Boolean)
+          .join(" ");
+        for (const pattern of patterns) {
+          const match = text.match(pattern);
+          if (match) return match[0];
+        }
+      }
+      return "Not available";
+    }
+
+    function getPermittingProgress() {
+      const statuses = [...new Set((company.projects || [])
+        .map(project => project.status)
+        .filter(Boolean)
+        .filter(status => /permit|approval|construction|development|feasibility|exploration/i.test(status)))];
+      return statuses.length ? statuses.slice(0, 4).join("; ") : "Not available";
+    }
+
+    function renderHealthMeasures(items) {
+      document.getElementById("keyHealthMeasures").innerHTML = `
+        <div class="health-measure-grid">
+          ${items.map(item => `
+            <article class="health-measure-card">
+              <div class="health-measure-label">${escapeHtml(item.label)}</div>
+              <div class="health-measure-value">${
+                item.href
+                  ? `<a href="${escapeHtml(item.href)}" target="_blank" rel="noopener">${escapeHtml(item.value)}</a>`
+                  : escapeHtml(item.value)
+              }</div>
+              ${item.meta ? `<div class="health-measure-meta">${escapeHtml(item.meta)}</div>` : ""}
+            </article>
+          `).join("")}
+        </div>
+      `;
+      setText("keyHealthMeasureCount", `${items.length} metrics`);
+    }
+
+    function initKeyHealthMeasures() {
+      const type = normalizeMetricText(company.companyType);
+      const commodity = commodityLabel();
+      const shares = findFinancialFact(["shares outstanding", "weighted average number of shares"]);
+      const production = getProductionValue();
+      const productionOunces = parseOunces(production.raw || production.value);
+      const sharesValue = shares ? Number(shares.value) : null;
+      const ouncesPerShare = Number.isFinite(productionOunces) && Number.isFinite(sharesValue) && sharesValue > 0
+        ? (productionOunces / sharesValue).toFixed(6)
+        : "Not available";
+
+      if (type.includes("producer") || type.includes("production")) {
+        const metalProductionCards = productionCardsForMetals(sharesValue);
+        const metalAiscCards = aiscCardsForMetals();
+        document.getElementById("keyHealthMeasureNote").textContent = metalProductionCards.length
+          ? "Producer metrics focus on commodity output, AISC, production intensity, and reserve depth from the latest stored production, AISC, and financial data."
+          : "Producer metrics focus on commodity output, AISC, production intensity, and reserve depth from the latest stored production, AISC, and financial data. No gold or silver production rows were found for this ticker in the production table.";
+        const fallbackProductionCards = metalProductionCards.length ? [] : [
+          { label: `${commodity} Production Value`, value: production.value, meta: production.meta || "Latest stored production value" },
+          { label: `${commodity} Production Ounces per Share`, value: ouncesPerShare, meta: shares ? `Shares source: ${shares.form || "Report"} filed ${shares.filedDate || "n/a"}` : "" }
+        ];
+        renderHealthMeasures([
+          { label: "Commodity Produced", value: commodity },
+          ...metalProductionCards,
+          ...metalAiscCards,
+          ...fallbackProductionCards,
+          { label: `${commodity} Total Reserves`, value: getTotalReserves() }
+        ]);
+        return;
+      }
+
+      if (type.includes("developer")) {
+        document.getElementById("keyHealthMeasureNote").textContent = "Developer metrics focus on project economics, capital needs, and permitting status from the stored company detail data.";
+        renderHealthMeasures([
+          { label: "Net Present Value", value: findProjectEconomicValue([/\bNPV\b[^.;]{0,80}/i, /net present value[^.;]{0,80}/i], ["npv", "netPresentValue"]) },
+          { label: "Internal Rate of Return", value: findProjectEconomicValue([/\bIRR\b[^.;]{0,80}/i, /internal rate of return[^.;]{0,80}/i], ["irr", "internalRateOfReturn"]) },
+          { label: "Payback Period", value: findProjectEconomicValue([/payback[^.;]{0,80}/i], ["payback", "paybackPeriod"]) },
+          { label: "Capex and Capital Intensity", value: findProjectEconomicValue([/\bcapex\b[^.;]{0,80}/i, /capital intensity[^.;]{0,80}/i, /capital cost[^.;]{0,80}/i], ["capex", "capitalIntensity", "capitalCost"]) },
+          { label: "Permitting Progress", value: getPermittingProgress() }
+        ]);
+        return;
+      }
+
+      document.getElementById("keyHealthMeasureNote").textContent = "No key health framework has been configured for this company type.";
+      renderHealthMeasures([{ label: "Company Type", value: company.companyType || "Not available" }]);
+    }
+
+    function reportReference(fact) {
+      const text = `${fact.form || "Report"} · period ${fact.periodEnd || "n/a"} · filed ${fact.filedDate || "n/a"}`;
+      const accession = fact.accessionNumber ? `<div class="meta">Accession: ${fact.accessionNumber}</div>` : "";
+      const source = fact.source ? `<div class="meta">Source: ${escapeHtml(fact.source)}</div>` : "";
+      if (fact.reportUrl) {
+        return `<a href="${fact.reportUrl}" target="_blank" rel="noopener">${text}</a>${accession}${source}`;
+      }
+      return `${text}${accession}${source}`;
+    }
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function initFinancials() {
+      const facts = company.financials || [];
+      setText("financialCount", `${facts.length} metrics`);
+      const container = document.getElementById("financials");
+      if (!facts.length) {
+        container.innerHTML = '<div class="empty">No stored SEC financial facts are available for this company.</div>';
+        return;
+      }
+      container.innerHTML = `
+        ${company.financialSource ? `
+          <div class="meta" style="margin-bottom:10px;">
+            Financial source: ${escapeHtml(company.financialSource.label)} from ${escapeHtml(company.financialSource.script)}
+            ${company.financialSource.asOf ? ` · refreshed ${escapeHtml(formatNewsDate(company.financialSource.asOf))}` : ""}
+          </div>
+        ` : ""}
+        <table class="financial-table">
+          <thead>
+            <tr>
+              <th>Metric</th>
+              <th>Value</th>
+              <th>Report / Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${facts.map(fact => `
+              <tr>
+                <td><strong>${fact.metric}</strong><div class="meta">${fact.factLabel || fact.factName}</div></td>
+                <td>${formatFinancialValue(fact)}</td>
+                <td>${reportReference(fact)}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      `;
+    }
+
+    function initRisks() {
+      const risk = company.risks;
+      const container = document.getElementById("riskSummary");
+      if (!risk) {
+        setText("riskSource", "No stored risk text");
+        container.innerHTML = '<div class="empty">No risk-factor text has been loaded for this company yet.</div>';
+        return;
+      }
+      setText("riskSource", `${risk.form || "Report"} · filed ${risk.filingDate || "n/a"}`);
+      const sourceLink = risk.documentUrl
+        ? `<a href="${risk.documentUrl}" target="_blank" rel="noopener">${risk.documentName || "SEC filing"}</a>`
+        : escapeHtml(risk.documentName || "SEC filing");
+      container.innerHTML = `
+        <div class="risk-summary">
+          <div class="ai-summary">${escapeHtml(risk.summary)}</div>
+          <div class="risk-source">
+            <div class="meta">
+              Source: ${sourceLink} · report date ${escapeHtml(risk.reportDate || "n/a")} · accession ${escapeHtml(risk.accessionNumber || "n/a")}
+            </div>
+            <pre class="risk-source-text">${escapeHtml(risk.sourceText)}</pre>
+          </div>
+        </div>
+      `;
+    }
+
+    function initProjects() {
+      setText("projectCount", `${(company.projects || []).length} projects`);
+      const container = document.getElementById("projects");
+      if (!(company.projects || []).length) {
+        container.innerHTML = '<div class="empty">No website project portfolio rows have been loaded for this company yet.</div>';
+        return;
+      }
+      container.innerHTML = (company.projects || []).map((project, index) => `
+        <details>
+          <summary>
+            <span>${escapeHtml(project.projectName)}</span>
+            <span class="meta">${escapeHtml(project.location || "")}</span>
+          </summary>
+          <div class="project-body">
+            ${company.projectSource ? `<div class="meta">Source: ${escapeHtml(company.projectSource.label)}${project.retrievedAt ? ` · retrieved ${escapeHtml(formatNewsDate(project.retrievedAt))}` : ""}</div>` : ""}
+            <p class="project-description">${escapeHtml(project.description || "No website project description has been stored yet.")}</p>
+            ${project.projectUrl ? `<p class="meta"><a href="${escapeHtml(project.projectUrl)}" target="_blank" rel="noopener">Open project source</a></p>` : ""}
+            ${projectTable(project)}
+          </div>
+        </details>
+      `).join("");
+    }
+
+    function renderManagementModal() {
+      const people = company.managementTeam || [];
+      setText("managementCount", `${people.length} profiles`);
+      const list = document.getElementById("managementList");
+      const detail = document.getElementById("managementDetail");
+      if (!people.length) {
+        list.innerHTML = "";
+        detail.innerHTML = "<p>No management profiles have been loaded for this company yet.</p>";
+        return;
+      }
+      selectedPersonIndex = Math.min(selectedPersonIndex, people.length - 1);
+      list.innerHTML = people.map((person, index) => `
+        <button class="person-button ${index === selectedPersonIndex ? "active" : ""}" type="button" data-person-index="${index}">
+          <strong>${person.name}</strong>
+          <span>${person.title}</span>
+        </button>
+      `).join("");
+      const selected = people[selectedPersonIndex];
+      detail.innerHTML = `
+        <h3>${selected.name}</h3>
+        <div class="role">${selected.title}</div>
+        <p>${selected.biography || "No biography has been loaded for this person yet."}</p>
+      `;
+    }
+
+    function openManagementModal() {
+      renderManagementModal();
+      document.getElementById("managementModal").hidden = false;
+      document.querySelector(".person-button")?.focus();
+    }
+
+    function closeManagementModal() {
+      document.getElementById("managementModal").hidden = true;
+      document.getElementById("managementTeamButton").focus();
+    }
+
+    function initManagementModal() {
+      document.getElementById("managementClose").addEventListener("click", closeManagementModal);
+      document.getElementById("managementModal").addEventListener("click", event => {
+        if (event.target.id === "managementModal") closeManagementModal();
+      });
+      document.getElementById("managementList").addEventListener("click", event => {
+        const button = event.target.closest(".person-button");
+        if (!button) return;
+        selectedPersonIndex = Number(button.dataset.personIndex || 0);
+        renderManagementModal();
+      });
+      document.addEventListener("keydown", event => {
+        if (event.key === "Escape" && !document.getElementById("managementModal").hidden) {
+          closeManagementModal();
+        }
+      });
+    }
+
+    await loadCompanyAbout();
+    initTickerControls();
+    initHeader();
+    initRanges();
+    await initNews();
+    await initYoutubeVideos();
+    initSecFilings();
+    await loadCompanyFactsFinancials();
+    initFinancials();
+    await loadCompanyProduction();
+    await loadCompanyAisc();
+    await loadCompanyProjects();
+    initKeyHealthMeasures();
+    initRisks();
+    initProjects();
+    initManagementModal();
+    await loadCompanyMarketPrices();
+    window.addEventListener("resize", drawChart);
+  </script>
+  <script src="./js/auth-ui.js"></script>
+</body>
+</html>

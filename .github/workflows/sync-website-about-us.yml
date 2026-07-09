@@ -1,6 +1,18 @@
 name: Sync Website About Us to Cloudflare D1
 
 on:
+  push:
+    branches:
+      - main
+      - develop
+      - dev
+    paths:
+      - "src/tickers.js"
+      - "d1_company_homepages.sql"
+      - "d1_website_about_us.sql"
+      - "scripts/sync_company_homepages.py"
+      - "scripts/sync_website_about_us.py"
+      - ".github/workflows/sync-website-about-us.yml"
   workflow_dispatch:
     inputs:
       symbols:
