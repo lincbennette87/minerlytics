@@ -1707,6 +1707,8 @@ def project_name_from_title(title: str, url: str) -> str:
         return "Thacker Pass"
     if "mpmaterials.com" in host:
         return "Mountain Pass"
+    if "skeenagoldsilver.com" in host and "eskay-creek" in path:
+        return "Eskay Creek"
     if "trilogymetals.com" in host and "/properties/arctic" in path:
         return "Arctic"
     path = urllib.parse.urlparse(url).path.lower()
