@@ -651,7 +651,7 @@
 
     <details class="section-accordion">
       <summary>
-        <span class="panel-title">Projects</span>
+        <span class="panel-title">Mine Details</span>
         <span class="meta" id="projectCount"></span>
       </summary>
       <div class="section-accordion-body">
@@ -2392,9 +2392,9 @@
 
       company.projects = payload.projects;
       company.projectSource = {
-        label: "Website project portfolio",
+        label: "Website mine details",
         endpoint: "/api/company-projects",
-        source: payload.source || "website_project_portfolio"
+        source: payload.source || "Website_mine_details"
       };
     }
 
@@ -2729,10 +2729,10 @@
     }
 
     function initProjects() {
-      setText("projectCount", `${(company.projects || []).length} projects`);
+      setText("projectCount", `${(company.projects || []).length} mine details`);
       const container = document.getElementById("projects");
       if (!(company.projects || []).length) {
-        container.innerHTML = '<div class="empty">No website project portfolio rows have been loaded for this company yet.</div>';
+        container.innerHTML = '<div class="empty">No website mine detail rows have been loaded for this company yet.</div>';
         return;
       }
       container.innerHTML = (company.projects || []).map((project, index) => `
