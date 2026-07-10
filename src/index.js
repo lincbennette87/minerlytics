@@ -1992,7 +1992,51 @@ async function getWebsiteProjectPortfolioForTicker(env, ticker, limit = 50) {
   if (!symbol) return [];
   const safeLimit = clamp(Number(limit || 50), 1, 100);
 
-  const rows = await env.DB.prepare(
+  const mineDetailRows = await env.DB.prepare(
+    `
+    SELECT
+      symbol,
+      company_name,
+      short_name,
+      metal,
+      company_type,
+      project_name,
+      project_url,
+      source_url,
+      page_title,
+      retrieved_at,
+      description_text,
+      ownership,
+      location,
+      status,
+      mining_style,
+      measured_indicated_mineral_resources,
+      inferred_mineral_resources,
+      geology_text,
+      technical_report_names_json,
+      technical_report_urls_json,
+      evidence_text,
+      confidence,
+      extraction_layer
+    FROM Website_mine_details
+    WHERE symbol = ?
+      AND status_code = 'found'
+      AND project_name IS NOT NULL
+      AND project_name != ''
+    ORDER BY
+      confidence DESC,
+      project_name COLLATE NOCASE,
+      retrieved_at DESC
+    LIMIT ?
+    `
+  ).bind(symbol, safeLimit).all().catch(() => null);
+
+  const mineDetailResults = (mineDetailRows && mineDetailRows.results) || [];
+  if (mineDetailResults.length) {
+    return mapWebsiteProjectRows(mineDetailResults, "Website_mine_details");
+  }
+
+  const legacyRows = await env.DB.prepare(
     `
     SELECT
       symbol,
@@ -2029,9 +2073,13 @@ async function getWebsiteProjectPortfolioForTicker(env, ticker, limit = 50) {
       retrieved_at DESC
     LIMIT ?
     `
-  ).bind(symbol, safeLimit).all();
+  ).bind(symbol, safeLimit).all().catch(() => null);
 
-  return ((rows && rows.results) || []).map((row) => {
+  return mapWebsiteProjectRows((legacyRows && legacyRows.results) || [], "website_project_portfolio");
+}
+
+function mapWebsiteProjectRows(rows, sourceType) {
+  return (rows || []).map((row) => {
     const reportNames = parseJsonArray(row.technical_report_names_json);
     const reportUrls = parseJsonArray(row.technical_report_urls_json);
     const reports = reportUrls.map((url, index) => ({
@@ -2059,7 +2107,7 @@ async function getWebsiteProjectPortfolioForTicker(env, ticker, limit = 50) {
       evidenceText: row.evidence_text || "",
       confidence: row.confidence ?? null,
       extractionLayer: row.extraction_layer || "",
-      sourceType: "website_project_portfolio"
+      sourceType
     };
   });
 }
@@ -3962,7 +4010,7 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
         return json({
           ok: true,
           ticker,
-          source: "website_project_portfolio",
+          source: projects[0]?.sourceType || "Website_mine_details",
           projects
         }, 200);
       }

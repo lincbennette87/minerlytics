@@ -1,0 +1,116 @@
+name: Sync Website Mine Details to Cloudflare D1
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+      - dev
+    paths:
+      - "src/tickers.js"
+      - "d1_company_homepages.sql"
+      - "d1_website_mine_details.sql"
+      - "scripts/sync_company_homepages.py"
+      - "scripts/sync_website_mine_details.py"
+      - ".github/workflows/sync-website-mine-details.yml"
+  workflow_dispatch:
+    inputs:
+      symbols:
+        description: "Optional comma-separated tickers, e.g. PZG,AEM,NEM"
+        required: false
+        default: ""
+      limit:
+        description: "Optional maximum number of tickers to process"
+        required: false
+        default: ""
+      delay:
+        description: "Seconds to wait between company requests"
+        required: false
+        default: "0.75"
+      mode:
+        description: "Extraction mode: combined, legacy, or resilient"
+        required: false
+        default: "combined"
+  schedule:
+    - cron: "35 13 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  sync-mine-details:
+    runs-on: ubuntu-latest
+    env:
+      CF_D1_DATABASE: minerlytics-dev
+      INPUT_SYMBOLS: ${{ inputs.symbols }}
+      INPUT_LIMIT: ${{ inputs.limit }}
+      INPUT_DELAY: ${{ inputs.delay || '0.75' }}
+      INPUT_MODE: ${{ inputs.mode || 'combined' }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+
+      - name: Install Wrangler
+        run: npm install --no-save wrangler@latest
+
+      - name: Generate homepage and mine detail SQL
+        run: |
+          set -euo pipefail
+          mkdir -p .tmp
+
+          common_args=(--tickers-js src/tickers.js)
+          symbol_args=()
+          if [ -n "${INPUT_LIMIT:-}" ]; then
+            common_args+=(--limit "$INPUT_LIMIT")
+          fi
+
+          if [ -n "${INPUT_SYMBOLS:-}" ]; then
+            IFS=',' read -ra symbols <<< "$INPUT_SYMBOLS"
+            for symbol in "${symbols[@]}"; do
+              trimmed="$(echo "$symbol" | xargs)"
+              if [ -n "$trimmed" ]; then
+                symbol_args+=("$trimmed")
+              fi
+            done
+          fi
+
+          python scripts/sync_company_homepages.py \
+            "${common_args[@]}" \
+            --schema-sql d1_company_homepages.sql \
+            --output-json .tmp/company-homepages.json \
+            --output-sql .tmp/company-homepages.sql \
+            --delay 0.75 \
+            "${symbol_args[@]}"
+
+          python scripts/sync_website_mine_details.py \
+            "${common_args[@]}" \
+            --homepages-json .tmp/company-homepages.json \
+            --schema-sql d1_website_mine_details.sql \
+            --output-json .tmp/website-mine-details.json \
+            --output-sql .tmp/website-mine-details.sql \
+            --mode "${INPUT_MODE:-combined}" \
+            --delay "${INPUT_DELAY:-0.75}" \
+            "${symbol_args[@]}"
+
+      - name: Write homepage results to Cloudflare D1
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler d1 execute "$CF_D1_DATABASE" --remote --file .tmp/company-homepages.sql --yes
+
+      - name: Write mine detail results to Cloudflare D1
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler d1 execute "$CF_D1_DATABASE" --remote --file .tmp/website-mine-details.sql --yes
