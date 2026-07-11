@@ -80,6 +80,11 @@ jobs:
             done
           fi
 
+          about_args=()
+          if [ -z "${INPUT_SYMBOLS:-}" ] && [ -z "${INPUT_LIMIT:-}" ]; then
+            about_args+=(--overwrite-table)
+          fi
+
           python scripts/sync_company_homepages.py \
             "${common_args[@]}" \
             --schema-sql d1_company_homepages.sql \
@@ -94,7 +99,10 @@ jobs:
             --schema-sql d1_website_about_us.sql \
             --output-json .tmp/website-about-us.json \
             --output-sql .tmp/website-about-us.sql \
+            --max-pages 8 \
+            --timeout 5 \
             --delay "${INPUT_DELAY:-0.5}" \
+            "${about_args[@]}" \
             "${symbol_args[@]}"
 
       - name: Write homepage results to Cloudflare D1
