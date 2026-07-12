@@ -2384,17 +2384,31 @@
       };
     }
 
+    async function loadStaticCompanyProjects() {
+      const payload = await fetchJsonFirstAvailable([
+        "./data/website-mine-details.json",
+        "/data/website-mine-details.json"
+      ]);
+      const projects = payload?.projectsBySymbol?.[company.symbol] || [];
+      return Array.isArray(projects) ? projects : [];
+    }
+
     async function loadCompanyProjects() {
       const payload = await fetchJsonFirstAvailable([
         API_BASE + "/api/company-projects?ticker=" + encodeURIComponent(company.symbol) + "&limit=50"
-      ]);
-      if (!payload?.ok || !Array.isArray(payload.projects)) return;
+      ]).catch(() => null);
+      const apiProjects = payload?.ok && Array.isArray(payload.projects) ? payload.projects : [];
+      const staticProjects = await loadStaticCompanyProjects().catch(() => []);
+      const apiUsesMineDetails = payload?.source === "Website_mine_details"
+        || apiProjects.some(project => project.sourceType === "Website_mine_details");
+      const useStaticProjects = staticProjects.length
+        && (!apiProjects.length || !apiUsesMineDetails || staticProjects.length > apiProjects.length);
 
-      company.projects = payload.projects;
+      company.projects = useStaticProjects ? staticProjects : apiProjects;
       company.projectSource = {
         label: "Website mine details",
-        endpoint: "/api/company-projects",
-        source: payload.source || "Website_mine_details"
+        endpoint: useStaticProjects ? "/data/website-mine-details.json" : "/api/company-projects",
+        source: useStaticProjects ? "Website_mine_details static fallback" : (payload?.source || "Website_mine_details")
       };
     }
 

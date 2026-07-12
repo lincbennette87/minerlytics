@@ -1,14 +1,6 @@
 name: Deploy Minerlytics Worker
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "src/**"
-      - "wrangler.toml"
-      - "package.json"
-      - ".github/workflows/deploy-minerlytics-worker.yml"
   workflow_dispatch:
 
 permissions:
