@@ -1,6 +1,14 @@
 name: Deploy Minerlytics Worker
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "src/**"
+      - "wrangler.toml"
+      - "package.json"
+      - ".github/workflows/deploy-minerlytics-worker.yml"
   workflow_dispatch:
 
 permissions:
@@ -26,7 +34,16 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: npx wrangler deploy --minify
+        run: |
+          set +e
+          npx wrangler deploy --minify > wrangler-deploy.log 2>&1
+          status=$?
+          cat wrangler-deploy.log
+          if [ "$status" -ne 0 ]; then
+            message="$(tail -n 40 wrangler-deploy.log | sed ':a;N;$!ba;s/%/%25/g;s/\r/%0D/g;s/\n/%0A/g')"
+            echo "::error file=wrangler.toml,title=Wrangler deploy failed::${message}"
+            exit "$status"
+          fi
 
       - name: Verify AEM mine details endpoint
         run: |
