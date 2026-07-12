@@ -1,0 +1,12 @@
+name = "minerlytics-dev"
+main = "src/index.js"
+compatibility_date = "2026-06-23"
+workers_dev = true
+
+[ai]
+binding = "AI"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "minerlytics-dev"
+database_id = "278e5f2a-8a18-4160-94f3-48fb6bdeabfd"
