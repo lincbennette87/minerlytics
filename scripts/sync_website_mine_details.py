@@ -269,6 +269,71 @@ FIELD_LABELS = [
     "TECHNICAL REPORTS",
     "GEOLOGY",
 ]
+RESOURCE_VALUE_TERMS = [
+    "oz",
+    "koz",
+    "moz",
+    "ounces",
+    "tonnes",
+    "tons",
+    "kt",
+    "mt",
+    "g/t",
+    "gram",
+    "%",
+    "au",
+    "ag",
+    "cu",
+    "lb",
+    "lbs",
+    "mlb",
+    "pb",
+    "zn",
+    "u3o8",
+    "nio",
+    "ree",
+]
+RESOURCE_BOUNDARY_LABELS = [
+    "Proven",
+    "Probable",
+    "Measured",
+    "Measured & Indicated",
+    "Measured and Indicated",
+    "M&I",
+    "Indicated",
+    "Inferred",
+    "Mineral Reserves",
+    "Mineral Reserve",
+    "Mineral Resources",
+    "Mineral Resource",
+    "Resources",
+    "Reserves",
+    "Geology",
+    "Technical Reports",
+    "Technical Report",
+    "Documents and Downloads",
+    "Documents",
+    "Quick Links",
+    "Stay informed",
+    "Subscribe",
+    "News",
+    "Project Background",
+    "Highlights",
+    "Initial Assessment",
+    "Feasibility Study",
+    "Permitting",
+    "Permitting Status",
+    "Development Strategy",
+    "Exploration Upside",
+    "Ownership",
+    "Location",
+    "Status",
+    "Mining Style",
+    "Mine Type",
+    "Production",
+    "Guidance",
+    "Contact",
+]
 NON_OPERATING_COMPANY_TYPES = {"etf", "fund", "trust"}
 
 
@@ -352,7 +417,7 @@ class TextParser(HTMLParser):
             self._skip_depth += 1
         elif tag == "title":
             self._in_title = True
-        elif tag in {"h1", "h2", "h3", "p", "div", "li", "section", "article", "br"} and not self._skip_depth:
+        elif tag in {"h1", "h2", "h3", "p", "div", "li", "section", "article", "table", "tr", "th", "td", "br"} and not self._skip_depth:
             self.parts.append("\n")
 
     def handle_endtag(self, tag: str) -> None:
@@ -1119,11 +1184,8 @@ def make_enriched_project_row(
         location=generic_location(full_text),
         status=generic_status(full_text),
         mining_style=generic_mining_style(full_text),
-        measured_indicated_mineral_resources=generic_resource(
-            full_text,
-            r"(?:Measured\s*(?:&|\+|and)\s*Indicated|M&I|Indicated)[^.]{0,600}",
-        ),
-        inferred_mineral_resources=generic_resource(full_text, r"Inferred[^.]{0,600}"),
+        measured_indicated_mineral_resources=resource_value(full_text, "measured_indicated"),
+        inferred_mineral_resources=resource_value(full_text, "inferred"),
         geology_text=trim_text(generic_geology(full_text), 5000),
         technical_report_names=[name for name, _url in report_links],
         technical_report_urls=[url for _name, url in report_links],
@@ -1348,12 +1410,12 @@ def parse_project_page(symbol: str, project_url: str, page_html: str) -> Project
     status = field_between(quick_facts, "STATUS") or generic_status(text)
     mining_style = field_between(quick_facts, "MINING STYLE") or generic_mining_style(text)
     measured_indicated = (
-        field_between(quick_facts, "M&I MINERAL RESOURCES")
-        or field_between(quick_facts, "MEASURED & INDICATED MINERAL RESOURCES")
-        or field_between(quick_facts, "INDICATED MINERAL RESOURCES")
-        or generic_resource(text, r"(?:Measured\s*(?:&|\+|and)\s*Indicated|M&I|Indicated)[^.]{0,600}")
+        clean_resource_field(field_between(quick_facts, "M&I MINERAL RESOURCES"))
+        or clean_resource_field(field_between(quick_facts, "MEASURED & INDICATED MINERAL RESOURCES"))
+        or clean_resource_field(field_between(quick_facts, "INDICATED MINERAL RESOURCES"))
+        or resource_value(text, "measured_indicated")
     )
-    inferred = field_between(quick_facts, "INFERRED MINERAL RESOURCES") or generic_resource(text, r"Inferred[^.]{0,600}")
+    inferred = clean_resource_field(field_between(quick_facts, "INFERRED MINERAL RESOURCES")) or resource_value(text, "inferred")
     geology = trim_text(text_after(quick_facts, "GEOLOGY"), 5000) or generic_geology(text)
     technical_report_text = field_between(quick_facts, "TECHNICAL REPORTS")
     report_links = technical_report_links(project_url, page_html)
@@ -1523,6 +1585,8 @@ def parse_paramount_project_page(
     report_links = technical_report_links(project_url, page_html)
     report_names = [name for name, _url in report_links]
     report_urls = [url for _name, url in report_links]
+    measured_indicated = paramount_resource(resources, "measured_indicated") or paramount_resource(text, "measured_indicated")
+    inferred = paramount_resource(resources, "inferred") or paramount_resource(text, "inferred")
     return ProjectPortfolioRow(
         project_name=project_name,
         project_url=project_url,
@@ -1531,8 +1595,8 @@ def parse_paramount_project_page(
         location=paramount_location(text, project_name),
         status=paramount_status(text, highlights),
         mining_style=paramount_mining_style(text),
-        measured_indicated_mineral_resources=paramount_resource(resources, r"Measured\s*(?:&|\+|and)\s*Indicated[^.]*"),
-        inferred_mineral_resources=paramount_resource(resources, r"Inferred[^.]*"),
+        measured_indicated_mineral_resources=measured_indicated,
+        inferred_mineral_resources=inferred,
         geology_text=trim_text(geology, 5000),
         technical_report_names=report_names,
         technical_report_urls=report_urls,
@@ -1608,9 +1672,8 @@ def paramount_mining_style(text: str) -> str:
     return ", ".join(dict.fromkeys(styles))
 
 
-def paramount_resource(text: str, pattern: str) -> str:
-    match = re.search(pattern + r".*?(?=\s+(?:Inferred|Initial Assessment|NOTE|NOTES|Permitting|Development|Exploration|$))", text, flags=re.IGNORECASE)
-    return trim_text(match.group(0), 500) if match else ""
+def paramount_resource(text: str, classification: str) -> str:
+    return resource_value(text, classification, max_length=700)
 
 
 def fetch_html(url: str, *, timeout: float, user_agent: str) -> str:
@@ -1821,8 +1884,127 @@ def generic_mining_style(text: str) -> str:
 
 
 def generic_resource(text: str, pattern: str) -> str:
-    match = re.search(pattern, text, flags=re.IGNORECASE)
-    return trim_text(match.group(0), 600) if match else ""
+    classification = "inferred" if "inferred" in pattern.lower() else "measured_indicated"
+    return resource_value(text, classification)
+
+
+def resource_value(text: str, classification: str, *, max_length: int = 700) -> str:
+    text = resource_search_text(text)
+    if not text:
+        return ""
+
+    label_pattern = resource_label_pattern(classification)
+    candidates: list[str] = []
+    for haystack in resource_haystacks(text):
+        for match in re.finditer(label_pattern, haystack, flags=re.IGNORECASE):
+            window = resource_window(haystack, match.start(), match.end(), classification, max_length=max_length)
+            if resource_window_has_value(window):
+                candidates.append(window)
+
+    if not candidates:
+        return ""
+    return select_resource_candidate(candidates, classification, max_length=max_length)
+
+
+def resource_search_text(text: str) -> str:
+    text = remove_boilerplate(text)
+    text = re.sub(r"</?[a-z][^>]*>", " ", text, flags=re.IGNORECASE)
+    text = re.sub(r"\b(?:contained|containing)\s+metal\b", "contained metal", text, flags=re.IGNORECASE)
+    return clean_text(text)
+
+
+def resource_haystacks(text: str) -> list[str]:
+    sections = [
+        section_between(
+            text,
+            ["Mineral Reserves & Mineral Resources", "Mineral Reserve and Mineral Resource Estimates", "Mineral Resources", "Resources"],
+            ["Geology", "Technical Reports", "Documents and Downloads", "Quick Links", "Stay informed", "Subscribe", "News", "Contact"],
+        ),
+        text,
+    ]
+    return [section for section in dict.fromkeys(sections) if section]
+
+
+def resource_label_pattern(classification: str) -> str:
+    if classification == "inferred":
+        return r"\bInferred(?:\s+Mineral\s+Resource(?:s| Estimate)?|\s+Resources?|\s+category)?\b"
+    return (
+        r"\b(?:"
+        r"Measured\s*(?:&|\+|and)\s*Indicated"
+        r"|M\s*&\s*I"
+        r"|M&I"
+        r"|Indicated(?:\s+Mineral\s+Resource(?:s| Estimate)?|\s+Resources?|\s+category)?"
+        r")\b"
+    )
+
+
+def resource_window(text: str, start: int, label_end: int, classification: str, *, max_length: int) -> str:
+    lower_bound = label_end + 18
+    end = min(len(text), start + max_length * 2)
+    boundary_pattern = resource_boundary_pattern(classification)
+    for match in re.finditer(boundary_pattern, text[label_end:], flags=re.IGNORECASE):
+        absolute = label_end + match.start()
+        if absolute < lower_bound:
+            continue
+        end = min(end, absolute)
+        break
+    value = text[start:end]
+    value = re.sub(r"\s+(?:NOTE|NOTES)\b.*$", "", value, flags=re.IGNORECASE)
+    value = re.sub(r"\s+(?:Documents and Downloads|Quick Links|Stay informed|Subscribe|Contact)\b.*$", "", value, flags=re.IGNORECASE)
+    return trim_text(value.strip(" -:;,.|"), max_length)
+
+
+def resource_boundary_pattern(classification: str) -> str:
+    labels = RESOURCE_BOUNDARY_LABELS
+    if classification == "inferred":
+        labels = [label for label in labels if label.lower() != "inferred"]
+    else:
+        labels = [label for label in labels if not re.search(r"^(measured|m&i|indicated)", label, flags=re.IGNORECASE)]
+    escaped = [re.escape(label).replace(r"\ ", r"\s+") for label in labels]
+    year_heading = r"20[2-9]\d\s+(?:Performance|Guidance)"
+    return r"\b(?:" + "|".join(escaped + [year_heading]) + r")\b"
+
+
+def resource_window_has_value(value: str) -> bool:
+    lowered = value.lower()
+    if not re.search(r"\d", value):
+        return False
+    if any(term in lowered for term in RESOURCE_VALUE_TERMS):
+        return True
+    if "mineral resource" in lowered and len(re.findall(r"\d[\d,]*(?:\.\d+)?", value)) >= 3:
+        return True
+    return bool(re.search(r"\b(?:million|thousand|billion)\b", lowered))
+
+
+def select_resource_candidate(candidates: list[str], classification: str, *, max_length: int) -> str:
+    def score(value: str) -> tuple[int, int]:
+        lowered = value.lower()
+        unit_score = sum(1 for term in RESOURCE_VALUE_TERMS if term in lowered)
+        metal_score = len(re.findall(r"\b(?:au|ag|cu|pb|zn|u3o8|nio|ree)\b", lowered))
+        number_score = min(len(re.findall(r"\d", value)), 12)
+        length_penalty = max(0, len(value) - max_length)
+        classification_score = 4 if (
+            ("inferred" in lowered and classification == "inferred")
+            or (classification != "inferred" and re.search(r"\b(?:measured|indicated|m&i)\b", lowered))
+        ) else 0
+        return (classification_score + unit_score * 3 + metal_score * 2 + number_score - length_penalty, -len(value))
+
+    best = sorted((clean_resource_value(candidate) for candidate in candidates), key=score, reverse=True)[0]
+    return trim_text(best, max_length)
+
+
+def clean_resource_value(value: str) -> str:
+    value = clean_text(value)
+    value = re.sub(r"\s+(?:related NEWS|PROJECT BACKGROUND|HIGHLIGHTS|Initial Assessment|Feasibility Study|Permitting Status)\b.*$", "", value, flags=re.IGNORECASE)
+    value = re.sub(r"\s+\*?\s*As at\b", " *As at", value, flags=re.IGNORECASE)
+    value = re.sub(r"\s+\((?:see|refer to)[^)]+\)", "", value, flags=re.IGNORECASE)
+    return value.strip(" -:;,.|•")
+
+
+def clean_resource_field(value: str, *, max_length: int = 700) -> str:
+    if not value:
+        return ""
+    return trim_text(clean_resource_value(value), max_length)
 
 
 def generic_geology(text: str) -> str:
