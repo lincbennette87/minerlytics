@@ -258,6 +258,71 @@ function parseSymbolsParam(param) {
     .filter(Boolean);
 }
 
+const YOUTUBE_TICKER_SEARCH_BLOCKLIST = new Set(["AG", "AU", "GOLD", "OR", "USA"]);
+const YOUTUBE_ALIAS_SEARCH_BLOCKLIST = new Set([
+  "company",
+  "corp",
+  "corporation",
+  "copper",
+  "gold",
+  "inc",
+  "limited",
+  "lithium",
+  "ltd",
+  "metal",
+  "metals",
+  "miner",
+  "miners",
+  "mines",
+  "mining",
+  "plc",
+  "resource",
+  "resources",
+  "royalty",
+  "silver",
+  "the",
+  "uranium",
+]);
+
+function cleanYoutubeSearchTerm(value) {
+  return String(value || "")
+    .replace(/\b(corp(?:oration)?|inc(?:orporated)?|ltd|limited|plc|company|co)\.?\b/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/^[,.;:-]+|[,.;:-]+$/g, "");
+}
+
+function getYoutubeTranscriptSearchTermsForTickers(tickers = []) {
+  const terms = [];
+  const addTerm = (value) => {
+    const candidates = [String(value || "").trim(), cleanYoutubeSearchTerm(value)];
+    for (const candidate of candidates) {
+      const term = String(candidate || "").trim();
+      const compact = term.toLowerCase().replace(/[^a-z0-9]+/g, "");
+      if (compact.length < 3) continue;
+      if (YOUTUBE_ALIAS_SEARCH_BLOCKLIST.has(term.toLowerCase())) continue;
+      terms.push(term.toUpperCase());
+    }
+  };
+
+  for (const rawTicker of tickers) {
+    const ticker = String(rawTicker || "").toUpperCase().trim();
+    if (!ticker) continue;
+    if (!YOUTUBE_TICKER_SEARCH_BLOCKLIST.has(ticker) && ticker.length >= 3) {
+      terms.push(ticker);
+    }
+
+    const profile = TICKERS[ticker] || {};
+    addTerm(profile.name);
+    addTerm(profile.company);
+    for (const alias of (Array.isArray(profile.aliases) ? profile.aliases : [])) {
+      addTerm(alias);
+    }
+  }
+
+  return Array.from(new Set(terms)).slice(0, 40);
+}
+
 function safeJsonParseArray(maybeJson) {
   try {
     const v = JSON.parse(maybeJson || "[]");
@@ -621,29 +686,34 @@ async function getRecentYoutubeVideosForTickers(env, tickers = [], limit = 8, da
       `
     ).bind(...cleanTickers, recentCutoffIso, safeLimit).all().catch(() => ({ results: [] }));
 
-    const transcriptClauses = cleanTickers.map(() => `
-      UPPER(COALESCE(title, '')) LIKE '%' || ? || '%'
-      OR UPPER(COALESCE(transcript_text, '')) LIKE '%' || ? || '%'
+    const transcriptSearchTerms = getYoutubeTranscriptSearchTermsForTickers(cleanTickers);
+    if (!transcriptSearchTerms.length) transcriptSearchTerms.push(...cleanTickers);
+    const transcriptClauses = transcriptSearchTerms.map(() => `
+      UPPER(COALESCE(t.title, '')) LIKE '%' || ? || '%'
+      OR UPPER(COALESCE(t.transcript_text, '')) LIKE '%' || ? || '%'
     `).join(" OR ");
-    const transcriptBindings = [];
-    cleanTickers.forEach((ticker) => {
-      transcriptBindings.push(ticker, ticker);
+    const transcriptBindings = cleanTickers.slice();
+    transcriptSearchTerms.forEach((term) => {
+      transcriptBindings.push(term, term);
     });
     transcriptBindings.push(recentCutoffIso, safeLimit);
 
     transcriptRows = await env.DB.prepare(
       `
       SELECT
-        video_id,
-        title,
-        channel_title AS channel,
-        published_at,
-        video_url AS url,
-        transcript_text
-      FROM youtube_transcripts
-      WHERE (${transcriptClauses})
-        AND COALESCE(published_at, '') >= ?
-      ORDER BY published_at DESC
+        t.video_id,
+        t.title,
+        t.channel_title AS channel,
+        t.published_at,
+        t.video_url AS url,
+        t.transcript_text,
+        GROUP_CONCAT(DISTINCT ys.symbol) AS symbols
+      FROM youtube_transcripts t
+      LEFT JOIN youtube_video_symbols ys ON ys.video_id = t.video_id
+      WHERE (ys.symbol IN (${placeholders}) OR ${transcriptClauses})
+        AND COALESCE(t.published_at, '') >= ?
+      GROUP BY t.video_id, t.title, t.channel_title, t.published_at, t.video_url, t.transcript_text
+      ORDER BY t.published_at DESC
       LIMIT ?
       `
     ).bind(...transcriptBindings).all().catch(() => ({ results: [] }));
@@ -704,6 +774,10 @@ async function getRecentYoutubeVideosForTickers(env, tickers = [], limit = 8, da
   }
 
   for (const row of ((transcriptRows && transcriptRows.results) || [])) {
+    const rowSymbols = String(row.symbols || "")
+      .split(",")
+      .map((item) => String(item || "").trim())
+      .filter(Boolean);
     const existing = merged.get(row.video_id);
     if (existing) {
       if (!existing.transcript_snippet) {
@@ -711,6 +785,9 @@ async function getRecentYoutubeVideosForTickers(env, tickers = [], limit = 8, da
       }
       if (!existing.channel && row.channel) existing.channel = row.channel;
       if ((!existing.url || existing.url === "#") && row.url) existing.url = row.url;
+      if (rowSymbols.length) {
+        existing.symbols = Array.from(new Set([...(existing.symbols || []), ...rowSymbols]));
+      }
       continue;
     }
 
@@ -720,7 +797,7 @@ async function getRecentYoutubeVideosForTickers(env, tickers = [], limit = 8, da
       channel: row.channel || "",
       published_at: row.published_at || null,
       url: row.url || ytSourceUrl(row.video_id, 0),
-      symbols: cleanTickers.slice(0, 6),
+      symbols: rowSymbols.length ? rowSymbols : cleanTickers.slice(0, 6),
       transcript_snippet: truncateText(row.transcript_text || "", 220),
     });
   }
@@ -4371,14 +4448,25 @@ VALUES (?, ?, ?, ?)`
           transcript_text,
           transcript_language,
           is_generated,
+          symbol_tags,
         } = body || {};
 
         if (!video_id || !transcript_text) {
           return json({ ok: false, error: "video_id and transcript_text required" }, 400);
         }
 
+        const symbolTags = Array.from(
+          new Set(
+            (Array.isArray(symbol_tags) ? symbol_tags : [])
+              .map((sym) => String(sym || "").toUpperCase().trim())
+              .filter(Boolean)
+          )
+        ).slice(0, 20);
+
         try {
-          await env.DB.prepare(`
+          const stmts = [];
+
+          stmts.push(env.DB.prepare(`
             INSERT INTO youtube_transcripts (
               video_id,
               title,
@@ -4413,12 +4501,32 @@ VALUES (?, ?, ?, ?)`
             transcript_text,
             transcript_language || null,
             is_generated ? 1 : 0
-          ).run();
+          ));
+
+          stmts.push(env.DB.prepare(
+            `INSERT OR IGNORE INTO youtube_videos (video_id, title, channel, published_at, url)
+VALUES (?, ?, ?, ?, ?)`
+          ).bind(
+            video_id,
+            title || "",
+            channel_title || "",
+            published_at || "",
+            video_url || ""
+          ));
+
+          for (const sym of symbolTags) {
+            stmts.push(env.DB.prepare(
+              `INSERT OR IGNORE INTO youtube_video_symbols (video_id, symbol)
+VALUES (?, ?)`
+            ).bind(video_id, sym));
+          }
+
+          await env.DB.batch(stmts);
         } catch (e) {
           return json({ ok: false, error: "DB error", detail: String(e) }, 500);
         }
 
-        return json({ ok: true, video_id });
+        return json({ ok: true, video_id, symbol_tags: symbolTags });
       }
 
       if (url.pathname === "/api/ai/search" && request.method === "GET") {
