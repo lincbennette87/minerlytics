@@ -31,6 +31,10 @@ on:
         description: "Extraction mode: combined, legacy, or resilient"
         required: false
         default: "combined"
+      min_confidence:
+        description: "Minimum confidence for resilient website mine rows"
+        required: false
+        default: "0.55"
   schedule:
     - cron: "35 13 * * *"
 
@@ -46,6 +50,7 @@ jobs:
       INPUT_LIMIT: ${{ inputs.limit }}
       INPUT_DELAY: ${{ inputs.delay || '0.75' }}
       INPUT_MODE: ${{ inputs.mode || 'combined' }}
+      INPUT_MIN_CONFIDENCE: ${{ inputs.min_confidence || '0.55' }}
 
     steps:
       - name: Check out repository
@@ -100,8 +105,29 @@ jobs:
             --output-json .tmp/website-mine-details.json \
             --output-sql .tmp/website-mine-details.sql \
             --mode "${INPUT_MODE:-combined}" \
+            --min-confidence "${INPUT_MIN_CONFIDENCE:-0.55}" \
             --delay "${INPUT_DELAY:-0.75}" \
             "${symbol_args[@]}"
+
+      - name: Summarize generated mine resource rows
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          payload = json.loads(Path(".tmp/website-mine-details.json").read_text())
+          rows = payload.get("mine_rows") or []
+          found = [row for row in rows if row.get("status_code") == "found"]
+          with_resources = [
+              row for row in found
+              if row.get("measured_indicated_mineral_resources") or row.get("inferred_mineral_resources")
+          ]
+          print(
+              "Generated "
+              f"{len(found)} found mine/project rows; "
+              f"{len(with_resources)} include measured/indicated or inferred resource values."
+          )
+          PY
 
       - name: Write homepage results to Cloudflare D1
         env:
