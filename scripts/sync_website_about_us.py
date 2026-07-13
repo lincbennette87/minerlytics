@@ -265,7 +265,7 @@ CURATED_SUMMARY_OVERRIDES = {
         "title": "Glencore what we do overview",
         "summary": (
             "Glencore plc is a diversified mining, processing, recycling, and commodity marketing company. "
-            "Its public website groups the business by commodity rather than a simple mine count: mined and "
+            "Its public website groups the business by commodity and regional asset platform: mined and "
             "processed exposures include copper, cobalt, nickel, zinc, lead, ferroalloys, coal, and recycled "
             "precious and battery metals. Producing assets are geographically spread across Australia, Africa "
             "including the DRC and South Africa, Kazakhstan, Europe, Canada, Chile, Peru, Colombia, and other "
@@ -279,7 +279,7 @@ CURATED_SUMMARY_OVERRIDES = {
         "summary": (
             "Vale S.A. is a Brazilian mining company with major mined commodity exposure to iron ore, iron "
             "ore pellets, nickel, copper, manganese, and other base-metals products. Its public website "
-            "presents large producing systems rather than a single current mine count, led by iron ore "
+            "presents large producing systems led by iron ore "
             "operations in Brazil and base-metals operations in Brazil, Canada, and Indonesia. Development "
             "and growth work is concentrated around Brazilian iron ore systems and the Vale Base Metals "
             "copper and nickel portfolio, including projects and expansions in the Carajas and Sudbury-style "
@@ -341,6 +341,17 @@ CURATED_SUMMARY_OVERRIDES = {
             "The company also describes development and exploration exposure through regional targets and "
             "new mine areas around its existing Chinese operating districts, with additional corporate "
             "exposure to the Ecuador-focused Adventus transaction pipeline."
+        ),
+    },
+    "HMY": {
+        "source_url": "https://www.harmony.co.za/",
+        "title": "Harmony Gold company overview",
+        "summary": (
+            "Harmony Gold Mining Company Limited is a gold producer with public website-described operations "
+            "in South Africa and Papua New Guinea. Its mined commodity exposure is primarily gold, with "
+            "copper-gold development exposure through the Wafi-Golpu project in Papua New Guinea. The company "
+            "presents a portfolio of South African underground and surface operations, the Hidden Valley mine "
+            "in Papua New Guinea, and regional exploration or life-extension work around its operating districts."
         ),
     },
     "MAG": {
@@ -406,8 +417,8 @@ CURATED_SUMMARY_OVERRIDES = {
             "lithium, potassium, iodine, nitrates, and specialty plant nutrients. For Minerlytics, the "
             "mining-relevant exposure is lithium brine and potassium salts from the Salar de Atacama in "
             "northern Chile, supported by chemical processing and sales into battery and industrial markets. "
-            "The public website presents producing brine and minerals businesses rather than a conventional "
-            "hard-rock mine count, with development and growth centered on lithium capacity, resource "
+            "The public website presents producing brine and minerals businesses, with development and "
+            "growth centered on lithium capacity, resource "
             "management, and processing expansion."
         ),
     },
@@ -558,6 +569,7 @@ PROFILE_CURATED_ONLY_SYMBOLS = {
     "CSFFF",
     "FQVLF",
     "GLNCY",
+    "HMY",
     "IVPAF",
     "LYSCF",
     "ORLA",
@@ -1500,48 +1512,41 @@ def build_website_profile_summary(
         and re.search(r"\b(?:exchange traded fund|etf|physical bullion)\b", combined_text, re.I)
     )
     is_royalty = normalized_type in {"royalty", "streaming"}
-    page_count = len(pages)
-
     lead = (
-        f"{company.company_name} is a {company_type} in the Minerlytics universe with website-described commodity exposure "
+        f"{company.company_name} is a {company_type} with public website-described commodity exposure "
         f"including {commodity_phrase}."
     )
     if is_fund:
         mine_sentence = (
-            "It is an investment vehicle rather than a mine operator, so production, development, and exploration mine counts "
-            "are not applicable from the company website."
+            "It is an investment vehicle rather than a mine operator, so the website presents metals exposure through holdings "
+            "or bullion instead of operated production, development, or exploration assets."
+        )
+    elif is_royalty:
+        mine_sentence = (
+            "The website presents royalty or streaming portfolio exposure rather than mines directly operated by the company."
         )
     else:
-        stage_counts = count_assets_by_stage(assets)
         mine_sentence = (
-            "The public website profile identified "
-            f"{stage_counts['production']} production mine/operation record(s), "
-            f"{stage_counts['development']} development project record(s), and "
-            f"{stage_counts['exploration']} exploration property/project record(s)."
+            "The website presents the company through its operating assets, development projects, and exploration or growth "
+            "pipeline."
         )
-        if is_royalty:
-            mine_sentence += " These are portfolio exposure records, not mines directly operated by the royalty or streaming company."
 
     locations = locations_for_summary(combined_text, assets)
     location_sentence = (
-        f"Geographic exposure described on the reviewed pages includes {human_join(locations[:8])}."
+        f"Geographic exposure includes {human_join(locations[:8])}."
         if locations
-        else "The reviewed pages did not provide a clean geographic footprint that could be summarized automatically."
+        else "The public website content reviewed did not provide a clean geographic footprint."
     )
 
     asset_sentence = asset_sentence_for_summary(assets)
     evidence = select_summary_evidence(combined_text, company)
     evidence_sentence = " ".join(evidence[:2])
-    reviewed_sentence = f"The summary was generated from {page_count} public website page(s), including company profile and mine/project pages."
-    if errors and page_count:
-        reviewed_sentence += f" Some candidate pages were unreachable during the crawl ({len(errors)} fetch issue(s)), so the summary uses the pages that were accessible."
 
     parts = [lead, mine_sentence, location_sentence]
     if asset_sentence:
         parts.append(asset_sentence)
     if evidence_sentence:
         parts.append(evidence_sentence)
-    parts.append(reviewed_sentence)
     return trim_text(" ".join(parts), 2400)
 
 
@@ -1562,15 +1567,22 @@ def locations_for_summary(combined_text: str, assets: list[AssetFinding]) -> lis
 
 def asset_sentence_for_summary(assets: list[AssetFinding]) -> str:
     if not assets:
-        return "No discrete mine or project names were confidently identified from the reviewed pages."
+        return "The available website pages describe the portfolio at a high level rather than cleanly naming each asset."
     pieces: list[str] = []
     for stage in ["production", "development", "exploration", "unknown"]:
         names = [asset.name for asset in assets if asset.stage == stage]
         if names:
-            label = "unclassified" if stage == "unknown" else stage
+            if stage == "production":
+                label = "operating or producing assets such as"
+            elif stage == "development":
+                label = "development-stage projects such as"
+            elif stage == "exploration":
+                label = "exploration properties or districts such as"
+            else:
+                label = "other named assets such as"
             suffix = " among others" if len(names) > 8 else ""
-            pieces.append(f"{label}: {human_join(names[:8])}{suffix}")
-    return "Identified website asset records include " + "; ".join(pieces[:4]) + "."
+            pieces.append(f"{label} {human_join(names[:8])}{suffix}")
+    return "Website-listed portfolio examples include " + "; ".join(pieces[:4]) + "."
 
 
 def profile_page_extractions(pages: list[ProfilePage], homepage_url: str | None) -> list[EnrichedAboutResult]:
