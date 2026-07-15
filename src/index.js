@@ -2064,6 +2064,60 @@ async function getWebsiteAboutForTicker(env, ticker) {
   };
 }
 
+async function getWebsiteManagementTeamForTicker(env, ticker, limit = 60) {
+  const symbol = String(ticker || "").toUpperCase().trim();
+  if (!symbol) return [];
+  const safeLimit = clamp(Number(limit || 60), 1, 100);
+
+  const rows = await env.DB.prepare(
+    `
+    SELECT
+      symbol,
+      company_name,
+      source_url,
+      person_name,
+      position,
+      biography,
+      biography_length,
+      extraction_method,
+      status,
+      error_message,
+      checked_at,
+      created_at,
+      updated_at
+    FROM website_management_team
+    WHERE symbol = ?
+      AND status = 'found'
+      AND (
+        person_name IS NOT NULL
+        OR position IS NOT NULL
+        OR biography IS NOT NULL
+      )
+    ORDER BY
+      person_name COLLATE NOCASE,
+      position COLLATE NOCASE
+    LIMIT ?
+    `
+  ).bind(symbol, safeLimit).all().catch(() => null);
+
+  return ((rows && rows.results) || []).map((row) => ({
+    symbol: row.symbol,
+    companyName: row.company_name || "",
+    sourceUrl: row.source_url || "",
+    name: row.person_name || "",
+    personName: row.person_name || "",
+    title: row.position || "",
+    position: row.position || "",
+    biography: row.biography || "",
+    biographyLength: row.biography_length ?? 0,
+    extractionMethod: row.extraction_method || "",
+    status: row.status || "found",
+    errorMessage: row.error_message || "",
+    retrievedAt: row.checked_at || row.updated_at || row.created_at || "",
+    sourceType: "website_management_team"
+  }));
+}
+
 async function getWebsiteProjectPortfolioForTicker(env, ticker, limit = 50) {
   const symbol = String(ticker || "").toUpperCase().trim();
   if (!symbol) return [];
@@ -4075,6 +4129,21 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
           ticker,
           source: "Website_about_Us",
           about
+        }, 200);
+      }
+
+      if (url.pathname === "/api/company-management" && request.method === "GET") {
+        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        if (!ticker || !TICKERS[ticker]) return json({ ok: false, error: "unknown ticker" }, 400);
+        const limit = clamp(parseInt(url.searchParams.get("limit") || "60", 10), 1, 100);
+        const managementTeam = await getWebsiteManagementTeamForTicker(env, ticker, limit).catch(() => []);
+
+        return json({
+          ok: true,
+          ticker,
+          source: "website_management_team",
+          managementTeam,
+          items: managementTeam
         }, 200);
       }
 
