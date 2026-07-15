@@ -161,6 +161,23 @@
       gap: 10px;
       margin-top: 14px;
     }
+    .summary-link-line {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      color: var(--muted);
+      font-size: 14px;
+      word-break: break-word;
+    }
+    .summary-link {
+      color: var(--green);
+      font-weight: 850;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+    .summary-link-line[hidden] { display: none; }
+    .summary-link[hidden] { display: none; }
     .text-button {
       width: fit-content;
       min-height: 32px;
@@ -581,7 +598,7 @@
           <p class="summary-text" id="companySummary"></p>
           <div class="summary-actions">
             <div class="website-line">Website: <a id="websiteLink" target="_blank" rel="noopener"></a></div>
-            <button class="text-button" id="managementTeamButton" type="button">Management Team</button>
+            <div class="summary-link-line" id="managementTeamLine">Management Team: <a class="summary-link" id="managementTeamLink" href="#management-team">View leadership profiles</a></div>
           </div>
         </div>
       </section>
@@ -1698,32 +1715,33 @@
     function companyFromTicker(symbol) {
       const normalized = normalizeTicker(symbol);
       if (normalized === normalizeTicker(IAUX_DETAIL.symbol) && !tickerUniverse[normalized]) return IAUX_DETAIL;
+      const embeddedDetail = normalized === normalizeTicker(IAUX_DETAIL.symbol) ? IAUX_DETAIL : null;
       const profile = tickerUniverse[normalized] || {};
-      const companyName = profile.company || profile.name || normalized;
+      const companyName = profile.company || embeddedDetail?.companyName || profile.name || normalized;
       const displayName = profile.name || companyName || normalized;
-      const metal = profile.metal || "mining";
-      const type = profile.type || "miner";
+      const metal = profile.metal || embeddedDetail?.metalFocus || "mining";
+      const type = profile.type || embeddedDetail?.companyType || "miner";
       return {
         symbol: normalized,
-        yahooSymbol: normalized,
+        yahooSymbol: profile.yahooSymbol || embeddedDetail?.yahooSymbol || normalized,
         companyName,
-        exchange: profile.exchange || "",
-        country: profile.country || "",
+        exchange: profile.exchange || embeddedDetail?.exchange || "",
+        country: profile.country || embeddedDetail?.country || "",
         metalFocus: metal,
         companyType: type,
-        homepageUrl: profile.homepageUrl || profile.website || "",
-        aboutUrl: profile.aboutUrl || "",
-        companySummary: profile.summary || companyName + " is available in the Minerlytics universe as a " + metal + " " + type + ". Detailed website, SEC, financial, project, production, and management records will display here as they are loaded for " + displayName + ".",
-        managementTeam: [],
-        financials: [],
-        risks: null,
-        prices: [],
-        projects: [],
-        newsUrl: profile.newsUrl || profile.homepageUrl || profile.website || "",
+        homepageUrl: profile.homepageUrl || profile.website || embeddedDetail?.homepageUrl || "",
+        aboutUrl: profile.aboutUrl || embeddedDetail?.aboutUrl || "",
+        companySummary: profile.summary || embeddedDetail?.companySummary || companyName + " is available in the Minerlytics universe as a " + metal + " " + type + ". Detailed website, SEC, financial, project, production, and management records will display here as they are loaded for " + displayName + ".",
+        managementTeam: embeddedDetail?.managementTeam || [],
+        financials: embeddedDetail?.financials || [],
+        risks: embeddedDetail?.risks || null,
+        prices: embeddedDetail?.prices || [],
+        projects: embeddedDetail?.projects || [],
+        newsUrl: profile.newsUrl || profile.homepageUrl || profile.website || embeddedDetail?.newsUrl || "",
         newsQuery: profile.q || (companyName + " mining"),
-        newsItems: [],
-        secFilings: [],
-        youtubeUrl: "https://www.youtube.com/results?search_query=" + encodeURIComponent(companyName + " mining")
+        newsItems: embeddedDetail?.newsItems || [],
+        secFilings: embeddedDetail?.secFilings || [],
+        youtubeUrl: embeddedDetail?.youtubeUrl || "https://www.youtube.com/results?search_query=" + encodeURIComponent(companyName + " mining")
       };
     }
 
@@ -1793,9 +1811,10 @@
       const website = document.getElementById("websiteLink");
       website.href = company.homepageUrl || "#";
       website.textContent = company.homepageUrl || "Not available";
-      const managementButton = document.getElementById("managementTeamButton");
-      managementButton.hidden = !(company.managementTeam || []).length;
-      managementButton.addEventListener("click", openManagementModal);
+      const managementLine = document.getElementById("managementTeamLine");
+      const managementLink = document.getElementById("managementTeamLink");
+      managementLine.hidden = !(company.managementTeam || []).length;
+      managementLink.addEventListener("click", openManagementModal);
       document.getElementById("newsLink").href = company.newsUrl || (rssTools?.googleRssUrl && company.newsQuery ? rssTools.googleRssUrl(company.newsQuery) : company.homepageUrl) || "#";
       document.getElementById("youtubeLink").href = company.youtubeUrl || "#";
     }
@@ -1903,6 +1922,41 @@
         }
       } catch (error) {
         console.warn("Company About Us request failed; using embedded summary fallback.", error);
+      }
+    }
+
+    function normalizeManagementProfile(profile) {
+      return {
+        name: profile.name || profile.personName || profile.person_name || "",
+        title: profile.title || profile.position || profile.role || "",
+        biography: profile.biography || profile.bio || "",
+        sourceUrl: profile.sourceUrl || profile.source_url || "",
+        retrievedAt: profile.retrievedAt || profile.retrieved_at || "",
+        sourceType: profile.sourceType || profile.source_type || "website_management_team"
+      };
+    }
+
+    async function loadCompanyManagementTeam() {
+      try {
+        const response = await fetchWithTimeout(API_BASE + "/api/company-management?ticker=" + encodeURIComponent(company.symbol) + "&limit=60", {
+          headers: { accept: "application/json" },
+          cache: "no-store"
+        });
+        if (!response.ok) throw new Error("Company management request failed: " + response.status);
+        const payload = await response.json();
+        const profiles = (payload.managementTeam || payload.items || [])
+          .map(normalizeManagementProfile)
+          .filter(profile => profile.name || profile.title || profile.biography);
+        if (profiles.length) {
+          company.managementTeam = profiles;
+          company.managementSource = {
+            label: "Website management team",
+            endpoint: "/api/company-management",
+            source: payload.source || "website_management_team"
+          };
+        }
+      } catch (error) {
+        console.warn("Company management request failed; using embedded team fallback.", error);
       }
     }
 
@@ -2741,19 +2795,21 @@
       selectedPersonIndex = Math.min(selectedPersonIndex, people.length - 1);
       list.innerHTML = people.map((person, index) => `
         <button class="person-button ${index === selectedPersonIndex ? "active" : ""}" type="button" data-person-index="${index}">
-          <strong>${person.name}</strong>
-          <span>${person.title}</span>
+          <strong>${escapeHtml(person.name || "Leadership profile")}</strong>
+          <span>${escapeHtml(person.title || "Role not listed")}</span>
         </button>
       `).join("");
       const selected = people[selectedPersonIndex];
       detail.innerHTML = `
-        <h3>${selected.name}</h3>
-        <div class="role">${selected.title}</div>
-        <p>${selected.biography || "No biography has been loaded for this person yet."}</p>
+        <h3>${escapeHtml(selected.name || "Leadership profile")}</h3>
+        <div class="role">${escapeHtml(selected.title || "Role not listed")}</div>
+        ${company.managementSource ? `<div class="meta">Source: ${escapeHtml(company.managementSource.label)}</div>` : ""}
+        <p>${escapeHtml(selected.biography || "No biography has been loaded for this person yet.")}</p>
       `;
     }
 
-    function openManagementModal() {
+    function openManagementModal(event) {
+      event?.preventDefault();
       renderManagementModal();
       document.getElementById("managementModal").hidden = false;
       document.querySelector(".person-button")?.focus();
@@ -2761,7 +2817,7 @@
 
     function closeManagementModal() {
       document.getElementById("managementModal").hidden = true;
-      document.getElementById("managementTeamButton").focus();
+      document.getElementById("managementTeamLink").focus();
     }
 
     function initManagementModal() {
@@ -2783,6 +2839,7 @@
     }
 
     await loadCompanyAbout();
+    await loadCompanyManagementTeam();
     initTickerControls();
     initHeader();
     initRanges();
