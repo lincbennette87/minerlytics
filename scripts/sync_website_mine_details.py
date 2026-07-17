@@ -379,6 +379,117 @@ class EnrichedProjectPortfolioRow:
     extraction_layer: str
 
 
+def manual_project_rows(symbol: str) -> list[ProjectPortfolioRow]:
+    """Source-backed rows for operations that are hidden behind managed challenges."""
+    if str(symbol or "").strip().upper() != "DSVSF":
+        return []
+
+    return [
+        ProjectPortfolioRow(
+            project_name="Cordero Project",
+            project_url="https://www.dsvmining.com/English/operations/cordero-project-minera-titan/default.aspx",
+            description_text=(
+                "Cordero is Discovery Mining's 100%-owned silver development project in Chihuahua State, Mexico. "
+                "Discovery describes it as one of the world's largest undeveloped silver reserves, with a 2024 "
+                "feasibility study outlining a long-life, large-scale silver project with by-product gold, lead, "
+                "and zinc."
+            ),
+            ownership="100% Discovery Mining Ltd.",
+            location="Chihuahua State, Mexico",
+            status="development",
+            mining_style="open pit",
+            measured_indicated_mineral_resources=(
+                "Measured and indicated resources of 719 Mt grading 52 g/t AgEq for 1,202 Moz AgEq; "
+                "proven and probable reserves of 327 Mt containing 302 Moz Ag, 0.84 Moz Au, 2.96 Blb Pb, and 5.1 Blb Zn."
+            ),
+            inferred_mineral_resources="Inferred resources of 149 Mt grading 32 g/t AgEq for 155 Moz AgEq.",
+            geology_text=(
+                "Cordero sits on the eastern edge of the Sierra Madre Occidental in the northern Central Mexican "
+                "Silver Belt, with porphyry-style and carbonate replacement mineralization plus high-grade "
+                "silver-zinc-lead-gold vein trends."
+            ),
+            technical_report_names=[
+                "Cordero 2024 feasibility study",
+                "Cordero Project operations page",
+            ],
+            technical_report_urls=[
+                "https://s21.q4cdn.com/713783313/files/doc_downloads/cordero/cordero_silver_project_ni_43-101_technical_report_final.pdf",
+                "https://www.dsvmining.com/English/operations/cordero-project-minera-titan/default.aspx",
+            ],
+        ),
+        ProjectPortfolioRow(
+            project_name="Porcupine Operations",
+            project_url="https://www.dsvmining.com/English/operations/porcupine-operations/default.aspx",
+            description_text=(
+                "Porcupine Operations is Discovery Mining's Timmins-area gold complex in Ontario. It includes the "
+                "Hoyle Pond, Borden, and Pamour operating mines, the Dome mine property, the Dome Mill, and a large "
+                "near-mine and regional exploration land package."
+            ),
+            ownership="Discovery Mining Ltd.",
+            location="Timmins and Chapleau area, Ontario, Canada",
+            status="production",
+            mining_style="underground and open pit",
+            measured_indicated_mineral_resources=(
+                "Measured and indicated resources of 69.7 Mt grading 1.76 g/t Au for 3.932 Moz Au across "
+                "Borden, Hoyle Pond, and Pamour, including 1.471 Mt measured at 6.17 g/t Au and 68.196 Mt "
+                "indicated at 1.66 g/t Au."
+            ),
+            inferred_mineral_resources=(
+                "Inferred resources of 254.5 Mt grading 1.53 g/t Au for 12.494 Moz Au across Borden, Dome, "
+                "Hoyle Pond, and Pamour."
+            ),
+            geology_text=(
+                "The complex covers the Porcupine-Destor Fault Zone near Timmins and the Borden land package near "
+                "Chapleau. Operating mines include high-grade underground gold at Hoyle Pond and Borden plus the "
+                "Pamour open-pit operation, with all operating-mine material processed through the Dome Mill."
+            ),
+            technical_report_names=[
+                "Porcupine Complex, Ontario, Canada, Technical Report on Preliminary Economic Assessment",
+                "Porcupine Operations page",
+            ],
+            technical_report_urls=[
+                "https://www.dsvmining.com/English/operations/porcupine-operations/default.aspx",
+                "https://www.dsvmining.com/English/operations/porcupine-operations/default.aspx",
+            ],
+        ),
+        ProjectPortfolioRow(
+            project_name="Kidd Operations",
+            project_url="https://www.dsvmining.com/English/operations/kidd-operations/default.aspx",
+            description_text=(
+                "Kidd Operations is Discovery Mining's Timmins, Ontario base-metal operating complex. It includes "
+                "the Kidd Creek Mine, Kidd Met Site, Kidd tailings management area, and related infrastructure, "
+                "with production exposure to copper, zinc, and silver."
+            ),
+            ownership="Discovery Mining Ltd.; acquired from Glencore Canada in June 2026.",
+            location="Timmins, Ontario, Canada",
+            status="production",
+            mining_style="underground, sublevel longhole",
+            measured_indicated_mineral_resources=(
+                "The Kidd Operations page does not publish a standalone measured and indicated resource estimate "
+                "for Kidd; Discovery states it plans technical studies and drilling to identify new mineral "
+                "resources that could support future operations."
+            ),
+            inferred_mineral_resources=(
+                "The Kidd Operations page does not publish a standalone inferred resource estimate for Kidd; "
+                "the page describes planned drilling and technical studies for future resource identification."
+            ),
+            geology_text=(
+                "Kidd Creek is a deep underground base-metal mine in the Timmins camp. Ore is hoisted from the "
+                "mine and transported by rail to the Kidd Met Site, where copper and zinc ores are processed "
+                "through operating flotation circuits."
+            ),
+            technical_report_names=[
+                "Kidd Operations page",
+                "Discovery Completes Acquisition of Kidd Operations",
+            ],
+            technical_report_urls=[
+                "https://www.dsvmining.com/English/operations/kidd-operations/default.aspx",
+                "https://www.dsvmining.com/English/news-media/press-releases/press-releases-details/2026/Discovery-Completes-Acquisition-of-Kidd-Operations/default.aspx",
+            ],
+        ),
+    ]
+
+
 class LinkParser(HTMLParser):
     def __init__(self) -> None:
         super().__init__()
@@ -515,19 +626,30 @@ def main() -> int:
 
             rows: list[ProjectPortfolioRow] = []
             enriched_rows: list[EnrichedProjectPortfolioRow] = []
-            if args.mode in {"combined", "legacy"}:
-                rows = extract_company_portfolio(company.symbol, homepage_url, timeout=args.timeout, user_agent=args.user_agent)
-            if not rows and args.mode in {"combined", "resilient"}:
-                enriched_rows = extract_company_portfolio_resilient(
-                    company.symbol,
-                    homepage_url,
-                    timeout=args.timeout,
-                    user_agent=args.user_agent,
-                    min_confidence=args.min_confidence,
-                )
-                rows = [row.project for row in enriched_rows]
+            fallback_rows = manual_project_rows(company.symbol)
+            fallback_names = {clean_project_name(row.project_name).lower() for row in fallback_rows}
+            extraction_error: Exception | None = None
+            try:
+                if args.mode in {"combined", "legacy"}:
+                    rows = extract_company_portfolio(company.symbol, homepage_url, timeout=args.timeout, user_agent=args.user_agent)
+                if not rows and args.mode in {"combined", "resilient"}:
+                    enriched_rows = extract_company_portfolio_resilient(
+                        company.symbol,
+                        homepage_url,
+                        timeout=args.timeout,
+                        user_agent=args.user_agent,
+                        min_confidence=args.min_confidence,
+                    )
+                    rows = [row.project for row in enriched_rows]
+            except Exception as exc:
+                extraction_error = exc
+
+            if fallback_rows:
+                rows = dedupe_project_rows(rows + fallback_rows)
 
             if not rows:
+                if extraction_error:
+                    raise extraction_error
                 row = status_row(company, homepage_url, "not_found", "No mine or project pages found")
                 mine_rows.append(row)
                 statuses.append(status_for_row(row, 0))
@@ -535,10 +657,23 @@ def main() -> int:
                 print(json.dumps(statuses[-1], separators=(",", ":")), flush=True)
                 continue
 
-            if enriched_rows:
+            if enriched_rows and not fallback_rows:
                 company_rows = [row_for_enriched_project(company, homepage_url, enriched) for enriched in enriched_rows]
             else:
-                company_rows = [row_for_project(company, homepage_url, row) for row in rows]
+                company_rows = [
+                    row_for_project(
+                        company,
+                        homepage_url,
+                        row,
+                        confidence=0.98 if clean_project_name(row.project_name).lower() in fallback_names else None,
+                        extraction_layer=(
+                            "manual_dsvmining_operation"
+                            if clean_project_name(row.project_name).lower() in fallback_names
+                            else "website_project_portfolio_page"
+                        ),
+                    )
+                    for row in rows
+                ]
             mine_rows.extend(company_rows)
             total_projects += len(company_rows)
             found += 1
