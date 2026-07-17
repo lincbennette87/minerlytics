@@ -408,7 +408,7 @@ const ANALYSIS_META_OVERRIDES = {
   EXK: { country: "Mexico", stage: "producer" },
   SVM: { country: "China", stage: "producer" },
   SILV: { country: "Mexico", stage: "developer" },
-  DSVSF: { country: "Mexico", stage: "developer" },
+  DSVSF: { country: "Canada", stage: "producer" },
   FCX: { country: "USA", stage: "producer" },
   SCCO: { country: "Peru", stage: "producer" },
   HBM: { country: "Canada", stage: "producer" },
@@ -492,6 +492,19 @@ function buildAnalysisUniverse() {
 
 const ANALYSIS_UNIVERSE = buildAnalysisUniverse();
 
+function resolveUniverseTicker(value) {
+  const raw = String(value || "").toUpperCase().trim();
+  if (!raw) return "";
+  if (TICKERS[raw]) return raw;
+
+  const normalized = normalizeLooseText(raw);
+  for (const [ticker, aliases] of Object.entries(TICKER_ALIAS_MAP)) {
+    if (aliases.some((alias) => alias === normalized)) return ticker;
+  }
+
+  return raw;
+}
+
 function resolveTickerFromQuestion(question) {
   const raw = String(question || "").trim();
   if (!raw) return null;
@@ -515,7 +528,7 @@ function resolveTickerFromQuestion(question) {
 }
 
 function resolveTicker({ explicitSymbol, explicitTicker, question }) {
-  const explicitTickerNormalized = String(explicitTicker || "").toUpperCase().trim();
+  const explicitTickerNormalized = resolveUniverseTicker(explicitTicker);
   if (explicitTickerNormalized) return explicitTickerNormalized;
 
   const symbolTicker = symbolToTicker(explicitSymbol || "");
@@ -4106,7 +4119,7 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
       }
 
       if (url.pathname === "/api/company-website-news" && request.method === "GET") {
-        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        const ticker = resolveUniverseTicker(url.searchParams.get("ticker"));
         if (!ticker || !TICKERS[ticker]) return json({ ok: false, error: "unknown ticker" }, 400);
         const limit = clamp(parseInt(url.searchParams.get("limit") || "8", 10), 1, 25);
         const items = await getWebsiteInvestorNewsForTicker(env, ticker, limit).catch(() => []);
@@ -4120,7 +4133,7 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
       }
 
       if (url.pathname === "/api/company-about" && request.method === "GET") {
-        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        const ticker = resolveUniverseTicker(url.searchParams.get("ticker"));
         if (!ticker || !TICKERS[ticker]) return json({ ok: false, error: "unknown ticker" }, 400);
         const about = await getWebsiteAboutForTicker(env, ticker).catch(() => null);
 
@@ -4133,7 +4146,7 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
       }
 
       if (url.pathname === "/api/company-management" && request.method === "GET") {
-        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        const ticker = resolveUniverseTicker(url.searchParams.get("ticker"));
         if (!ticker || !TICKERS[ticker]) return json({ ok: false, error: "unknown ticker" }, 400);
         const limit = clamp(parseInt(url.searchParams.get("limit") || "60", 10), 1, 100);
         const managementTeam = await getWebsiteManagementTeamForTicker(env, ticker, limit).catch(() => []);
@@ -4148,7 +4161,7 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
       }
 
       if (url.pathname === "/api/company-projects" && request.method === "GET") {
-        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        const ticker = resolveUniverseTicker(url.searchParams.get("ticker"));
         if (!ticker || !TICKERS[ticker]) return json({ ok: false, error: "unknown ticker" }, 400);
         const limit = clamp(parseInt(url.searchParams.get("limit") || "50", 10), 1, 100);
         const projects = await getWebsiteProjectPortfolioForTicker(env, ticker, limit).catch(() => []);
@@ -4264,7 +4277,7 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
       }
 
       if (url.pathname === "/api/company-detail" && request.method === "GET") {
-        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        const ticker = resolveUniverseTicker(url.searchParams.get("ticker"));
         if (!ticker || !TICKERS[ticker]) {
           return json({ ok: false, error: "unknown ticker" }, 400);
         }
@@ -4356,7 +4369,7 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
       }
 
       if (url.pathname === "/api/company-production" && request.method === "GET") {
-        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        const ticker = resolveUniverseTicker(url.searchParams.get("ticker"));
         if (!ticker || !TICKERS[ticker]) {
           return json({ ok: false, error: "unknown ticker" }, 400);
         }
@@ -4371,7 +4384,7 @@ if (url.pathname === "/api/contact" && request.method === "POST") {
       }
 
       if (url.pathname === "/api/company-aisc" && request.method === "GET") {
-        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        const ticker = resolveUniverseTicker(url.searchParams.get("ticker"));
         if (!ticker || !TICKERS[ticker]) {
           return json({ ok: false, error: "unknown ticker" }, 400);
         }
@@ -4742,7 +4755,7 @@ VALUES (?, ?)`
       }
 
       if (url.pathname === "/api/news" && request.method === "GET") {
-        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        const ticker = resolveUniverseTicker(url.searchParams.get("ticker"));
         if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
 
         const rssUrl = googleRssUrl(TICKERS[ticker].q);
@@ -4754,7 +4767,7 @@ VALUES (?, ?)`
       }
 
       if (url.pathname === "/api/news-summary" && request.method === "GET") {
-        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        const ticker = resolveUniverseTicker(url.searchParams.get("ticker"));
         if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
 
         const row = await env.DB.prepare(
@@ -4765,7 +4778,7 @@ VALUES (?, ?)`
       }
 
       if (url.pathname === "/api/news-detail" && request.method === "GET") {
-        const ticker = String(url.searchParams.get("ticker") || "").toUpperCase().trim();
+        const ticker = resolveUniverseTicker(url.searchParams.get("ticker"));
         if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
 
         const limit = Math.min(
