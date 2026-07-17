@@ -38,7 +38,7 @@ CURATED_HOMEPAGES = {
     "CSFFF": "https://capstonecopper.com/",
     "DNN": "https://www.denisonmines.com/",
     "DRD": "https://www.drdgold.com/",
-    "DSVSF": "https://discoverysilver.com/",
+    "DSVSF": "https://dsvmining.com/",
     "EDVMF": "https://www.endeavourmining.com/",
     "EGO": "https://www.eldoradogold.com/",
     "EQX": "https://www.equinoxgold.com/",
