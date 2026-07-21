@@ -18,6 +18,15 @@ const tickerItems = [
   "Regulatory update: project approval milestone reached",
 ];
 
+const RSS_LOOKBACK_DAYS = 60;
+const RSS_ENDPOINT_CANDIDATES = [
+  "/api/home/rss",
+  "/api/rss-news",
+  "/api/rss",
+  "/api/home/news",
+  "/api/news",
+];
+
 function renderTrending() {
   const el = document.getElementById("trendRow");
   el.innerHTML = trending.map(t => `
@@ -140,11 +149,120 @@ function wireSegButtons() {
   });
 }
 
+function escapeHtml(value) {
+  return String(value || "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function formatHeadlineDate(date) {
+  return new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  }).format(date);
+}
+
+function isRecentHeadline(date) {
+  const maxAgeMs = RSS_LOOKBACK_DAYS * 24 * 60 * 60 * 1000;
+  return Date.now() - date.getTime() <= maxAgeMs;
+}
+
+function parseHeadlineDate(item) {
+  const rawValue = item.published_at || item.publishedAt || item.pubDate || item.date || item.created_at || item.createdAt;
+  if (!rawValue) return null;
+  const parsed = new Date(rawValue);
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+}
+
+function normalizeHeadline(item) {
+  const publishedAt = parseHeadlineDate(item);
+  if (!publishedAt) return null;
+
+  const title = item.title || item.headline || item.name;
+  const url = item.url || item.link || item.article_url || item.articleUrl;
+  if (!title || !url) return null;
+
+  return {
+    title: String(title).trim(),
+    url: String(url).trim(),
+    source: String(item.source || item.feed_name || item.feed || item.publisher || "RSS").trim(),
+    summary: String(item.summary || item.description || item.snippet || "").trim(),
+    publishedAt,
+  };
+}
+
+async function fetchRssHeadlines() {
+  const baseUrl = "https://minerlytics-dev.lincbennette87.workers.dev";
+
+  for (const path of RSS_ENDPOINT_CANDIDATES) {
+    try {
+      const response = await fetch(`${baseUrl}${path}`, {
+        headers: { accept: "application/json" },
+      });
+      if (!response.ok) continue;
+
+      const payload = await response.json();
+      const items = Array.isArray(payload)
+        ? payload
+        : payload.items || payload.headlines || payload.results || payload.data || [];
+
+      if (Array.isArray(items) && items.length) {
+        return items;
+      }
+    } catch (error) {
+      // Try the next endpoint candidate.
+    }
+  }
+
+  return [];
+}
+
+async function renderRssFeed() {
+  const el = document.getElementById("rssFeed");
+  if (!el) return;
+
+  el.innerHTML = '<div class="rssState">Loading RSS headlines...</div>';
+
+  const headlines = (await fetchRssHeadlines())
+    .map(normalizeHeadline)
+    .filter(Boolean)
+    .filter(item => isRecentHeadline(item.publishedAt))
+    .sort((a, b) => b.publishedAt - a.publishedAt);
+
+  if (!headlines.length) {
+    el.innerHTML = `<div class="rssState">No RSS headlines found from the last ${RSS_LOOKBACK_DAYS} days.</div>`;
+    return;
+  }
+
+  el.innerHTML = headlines.map(item => {
+    const summary = item.summary
+      ? `<div class="rssSummary">${escapeHtml(item.summary.slice(0, 180))}${item.summary.length > 180 ? "..." : ""}</div>`
+      : "";
+
+    return `
+      <a class="rssCard" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">
+        <div class="rssCardTop">
+          <div class="rssSource">${escapeHtml(item.source)}</div>
+          <div class="rssDate">${escapeHtml(formatHeadlineDate(item.publishedAt))}</div>
+        </div>
+        <div class="rssHeadline">${escapeHtml(item.title)}</div>
+        ${summary}
+        <span class="rssLink">Open headline -></span>
+      </a>
+    `;
+  }).join("");
+}
+
 renderTrending();
 renderQuotes();
 renderTicker();
 wireSearch();
 wireSegButtons();
+renderRssFeed();
 
 spark("goldChart");
 spark("silverChart");
