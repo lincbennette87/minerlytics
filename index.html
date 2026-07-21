@@ -2532,8 +2532,8 @@ window.addEventListener("minerlytics-auth-state", () => {
     return Number.isNaN(parsed.getTime()) ? null : parsed;
   }
 
-  function getSortedRecentRssItems(items) {
-    const maxAgeMs = RSS_LOOKBACK_DAYS * 24 * 60 * 60 * 1000;
+  function getSortedRecentRssItems(items, maxAgeDays = RSS_LOOKBACK_DAYS) {
+    const maxAgeMs = maxAgeDays * 24 * 60 * 60 * 1000;
     return (Array.isArray(items) ? items : [])
       .map((item) => ({ item, publishedAt: parseFeedDate(item) }))
       .filter(({ publishedAt }) => publishedAt && Date.now() - publishedAt.getTime() <= maxAgeMs)
@@ -2541,8 +2541,14 @@ window.addEventListener("minerlytics-auth-state", () => {
       .map(({ item }) => item);
   }
 
-  function renderRss(items) {
-    const sortedItems = getSortedRecentRssItems(items);
+  function formatFeedDate(value) {
+    const parsed = parseFeedDate({ published_at: value });
+    if (!parsed) return "an older date";
+    return parsed.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+  }
+
+  function renderRss(items, maxAgeDays = RSS_LOOKBACK_DAYS) {
+    const sortedItems = getSortedRecentRssItems(items, maxAgeDays);
     if (!sortedItems.length) {
       rssList.innerHTML = `<div style="color:rgba(234,240,255,.62);font-size:13px;">No recent RSS items found for the active tickers yet.</div>`;
       return;
@@ -2586,20 +2592,41 @@ window.addEventListener("minerlytics-auth-state", () => {
     videoMeta.textContent = `Recent YouTube coverage from the last 60 days across the Minerlytics universe`;
 
     try {
-      const [rssRes, videoRes] = await Promise.all([
-        fetch(`${API_BASE}/api/news/latest-feed?symbols=${encodeURIComponent(tickers.join(","))}&limit=8&days=60`, {
+      async function fetchRss(days) {
+        const res = await fetch(`${API_BASE}/api/news/latest-feed?symbols=${encodeURIComponent(tickers.join(","))}&limit=8&days=${days}`, {
           headers: { accept: "application/json" },
           cache: "no-store"
-        }),
+        });
+        return res.json().catch(() => ({ items: [] }));
+      }
+
+      const [rssData60, videoRes] = await Promise.all([
+        fetchRss(60),
         fetch(`${API_BASE}/api/youtube/recent?limit=10&days=60`, {
           headers: { accept: "application/json" },
           cache: "no-store"
         })
       ]);
 
-      const rssData = await rssRes.json().catch(() => ({ items: [] }));
+      let rssItems = Array.isArray(rssData60.items) ? rssData60.items : [];
+      let rssWindowDays = RSS_LOOKBACK_DAYS;
+      if (getSortedRecentRssItems(rssItems).length) {
+        rssMeta.textContent = `Latest RSS headlines from the last 60 days across ${tickers.join(", ")}`;
+      } else {
+        const rssData180 = await fetchRss(180);
+        rssItems = Array.isArray(rssData180.items) ? rssData180.items : [];
+        const fallbackItems = getSortedRecentRssItems(rssItems, 180);
+        rssWindowDays = 180;
+        const latestDate = fallbackItems[0]?.published_at || fallbackItems[0]?.fetched_at || "";
+        if (fallbackItems.length) {
+          rssMeta.textContent = `No RSS headlines were found from the last 60 days across ${tickers.join(", ")}. Showing latest available items, newest first, with the latest from ${formatFeedDate(latestDate)}.`;
+        } else {
+          rssMeta.textContent = `No RSS headlines were found from the last 60 days across ${tickers.join(", ")}.`;
+        }
+      }
+
       const videoData = await videoRes.json().catch(() => ({ videos: [] }));
-      renderRss(Array.isArray(rssData.items) ? rssData.items : []);
+      renderRss(rssItems, rssWindowDays);
       renderVideos(Array.isArray(videoData.videos) ? videoData.videos : []);
     } catch (error) {
       console.error("HOME INTEL ERROR:", error);

@@ -199,22 +199,33 @@ async function refreshLatestTickerFeed() {
     return;
   }
   try {
-    const res = await fetch(
-      `${APP_API_BASE}/api/news/latest-feed?symbols=${encodeURIComponent(NEWS_TICKERS.join(","))}&limit=12&days=60`,
-      {
-        headers: { accept: "application/json" },
-        cache: "no-store",
-      }
-    );
-    if (!res.ok) throw new Error(`latest-feed status ${res.status}`);
+    async function fetchFeed(days) {
+      const res = await fetch(
+        `${APP_API_BASE}/api/news/latest-feed?symbols=${encodeURIComponent(NEWS_TICKERS.join(","))}&limit=12&days=${days}`,
+        {
+          headers: { accept: "application/json" },
+          cache: "no-store",
+        }
+      );
+      if (!res.ok) throw new Error(`latest-feed status ${res.status}`);
+      const data = await res.json();
+      return Array.isArray(data.items) ? data.items : [];
+    }
 
-    const data = await res.json();
-    const items = getSortedRecentNewsItems(data.items);
+    let items = getSortedRecentNewsItems(await fetchFeed(60));
+    let fallbackLabel = "Latest RSS";
+
+    if (!items.length) {
+      const fallbackItems = await fetchFeed(180);
+      items = getSortedRecentNewsItems(fallbackItems, 180);
+      fallbackLabel = "Latest available RSS";
+    }
+
     if (!items.length) return;
 
     tickerItems = items.map((item) => ({
       href: item.link || "#",
-      text: `${item.meta || "Latest RSS"} — ${item.one_liner || item.title || "Headline available"}`
+      text: `${item.meta || fallbackLabel} — ${item.one_liner || item.title || "Headline available"}`
     }));
     renderTicker();
   } catch (e) {
