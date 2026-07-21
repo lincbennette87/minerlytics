@@ -1,6 +1,6 @@
 import { refreshNewsForAll } from "./news_cron.js";
 import { TICKERS } from "./tickers.js";
-import { googleRssUrl, parseRssItems } from "./rss.js";
+import { fetchGoogleRssItems } from "./rss.js";
 import { handleEducationPortalChat, educationOptions } from "./educationPortalChat.js";
 
 const WORKERS_AI_CHAT_MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
@@ -1874,10 +1874,7 @@ async function getLatestNewsCardForTicker(env, ticker) {
 
   try {
     if (!TICKERS[ticker]) return null;
-    const rssUrl = googleRssUrl(TICKERS[ticker].q);
-    const r = await fetch(rssUrl, { headers: { "User-Agent": "Mozilla/5.0" } });
-    const xml = await r.text();
-    const items = parseRssItems(xml, 5);
+    const { items } = await fetchGoogleRssItems(fetch, TICKERS[ticker].q, { limit: 5 });
     const top = items && items[0] ? items[0] : null;
     if (!top || !top.title) return null;
 
@@ -4758,12 +4755,9 @@ VALUES (?, ?)`
         const ticker = resolveUniverseTicker(url.searchParams.get("ticker"));
         if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
 
-        const rssUrl = googleRssUrl(TICKERS[ticker].q);
-        const r = await fetch(rssUrl, { headers: { "User-Agent": "Mozilla/5.0" } });
-        const xml = await r.text();
-        const items = parseRssItems(xml, 25);
+        const { items, rssUrl, queryUsed, attempts } = await fetchGoogleRssItems(fetch, TICKERS[ticker].q, { limit: 25 });
 
-        return json({ ticker, rssUrl, items });
+        return json({ ticker, rssUrl, queryUsed, attempts, items });
       }
 
       if (url.pathname === "/api/news-summary" && request.method === "GET") {

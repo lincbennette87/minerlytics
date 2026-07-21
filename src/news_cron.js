@@ -1,5 +1,5 @@
 import { TICKERS } from "./tickers.js";
-import { googleRssUrl, parseRssItems } from "./rss.js";
+import { fetchGoogleRssItems } from "./rss.js";
 import { headlineSentiment } from "./sentiment.js";
 
 function nowIso() {
@@ -19,11 +19,7 @@ export async function refreshNewsForAll(env, tickers = Object.keys(TICKERS)) {
     if (!ticker || !TICKERS[ticker]) continue;
 
     try {
-      const rssUrl = googleRssUrl(TICKERS[ticker].q);
-      const r = await fetch(rssUrl, { headers: { "User-Agent": "Mozilla/5.0" } });
-      if (!r.ok) throw new Error(`Google RSS returned HTTP ${r.status}`);
-      const xml = await r.text();
-      const items = parseRssItems(xml, 25);
+      const { items, rssUrl, queryUsed, attempts } = await fetchGoogleRssItems(fetch, TICKERS[ticker].q, { limit: 25 });
       let inserted = 0;
 
       for (const it of items) {
@@ -59,7 +55,7 @@ export async function refreshNewsForAll(env, tickers = Object.keys(TICKERS)) {
         ticker, 168, mentions, bullish, bearish, neutral, JSON.stringify(topTitles), fetchedAt
       ).run();
 
-      results.push({ ticker, ok: true, fetched: items.length, inserted, mentions });
+      results.push({ ticker, ok: true, fetched: items.length, inserted, mentions, rssUrl, queryUsed, attempts });
     } catch (err) {
       results.push({ ticker, ok: false, fetched: 0, inserted: 0, error: String(err?.message || err) });
     }

@@ -1,13 +1,80 @@
 const GOOGLE_NEWS_BASE = "https://news.google.com/rss/search";
 
-export function googleRssUrl(query) {
-  const q = `${query} when:7d`;
+function buildGoogleNewsSearchUrl(query) {
   const u = new URL(GOOGLE_NEWS_BASE);
-  u.searchParams.set("q", q);
+  u.searchParams.set("q", query);
   u.searchParams.set("hl", "en-US");
   u.searchParams.set("gl", "US");
   u.searchParams.set("ceid", "US:en");
   return u.toString();
+}
+
+export function googleRssUrl(query) {
+  return buildGoogleNewsSearchUrl(`${query} when:7d`);
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function jitter(baseMs) {
+  const spread = Math.floor(baseMs * 0.2);
+  return baseMs + Math.floor(Math.random() * Math.max(1, spread));
+}
+
+function rssRequestHeaders() {
+  return {
+    "User-Agent": "Mozilla/5.0 (compatible; MinerlyticsRSS/1.0; +https://minerlyticsai.com)",
+    "Accept": "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+  };
+}
+
+export async function fetchGoogleRssItems(fetchImpl, query, options = {}) {
+  const limit = Math.max(1, Math.min(50, Number(options.limit || 25)));
+  const attemptsPerQuery = Math.max(1, Math.min(5, Number(options.attemptsPerQuery || 4)));
+  const queryVariants = [
+    `${query} when:7d`,
+    `${query} when:30d`,
+    `${query} when:60d`,
+    String(query || "").trim(),
+  ].filter(Boolean);
+
+  let lastError = null;
+
+  for (const variant of queryVariants) {
+    const rssUrl = buildGoogleNewsSearchUrl(variant);
+
+    for (let attempt = 1; attempt <= attemptsPerQuery; attempt += 1) {
+      try {
+        const response = await fetchImpl(rssUrl, { headers: rssRequestHeaders() });
+        if (!response.ok) {
+          const error = new Error(`Google RSS returned HTTP ${response.status}`);
+          error.status = response.status;
+          error.rssUrl = rssUrl;
+          throw error;
+        }
+
+        const xml = await response.text();
+        const items = parseRssItems(xml, limit);
+        if (items.length) {
+          return { items, rssUrl, queryUsed: variant, attempts: attempt };
+        }
+
+        lastError = new Error(`Google RSS returned no items for query variant: ${variant}`);
+      } catch (error) {
+        lastError = error;
+        const status = Number(error?.status || 0);
+        const retryable = status === 429 || status === 503 || status === 520 || status === 522 || status === 524;
+        if (!retryable || attempt === attemptsPerQuery) break;
+        await sleep(jitter(800 * attempt));
+      }
+    }
+  }
+
+  throw lastError || new Error("Google RSS fetch failed");
 }
 
 function textBetween(s, a, b) {

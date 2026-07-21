@@ -10,7 +10,7 @@ on:
       batch_size:
         description: "How many tickers to sync per Worker request"
         required: false
-        default: "10"
+        default: "1"
   schedule:
     # Daily RSS refresh for homepage news, assistant context, and ticker feeds.
     - cron: "15 9 * * *"
@@ -41,7 +41,7 @@ jobs:
           base = (os.environ.get("WORKER_BASE_URL") or "").rstrip("/")
           api_key = os.environ.get("WORKER_API_KEY") or ""
           symbols = os.environ.get("INPUT_SYMBOLS") or ""
-          batch_size = int(os.environ.get("INPUT_BATCH_SIZE") or "10")
+          batch_size = int(os.environ.get("INPUT_BATCH_SIZE") or "1")
 
           if not base:
             raise SystemExit("Missing WORKER_BASE_URL secret")
