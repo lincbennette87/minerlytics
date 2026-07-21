@@ -639,7 +639,7 @@
 
     <details class="section-accordion">
       <summary>
-        <span class="panel-title">Projects</span>
+        <span class="panel-title">Mine Details</span>
         <span class="meta" id="projectCount"></span>
       </summary>
       <div class="section-accordion-body">
@@ -2261,7 +2261,7 @@
         ["Location", project.location || "Not available"],
         ["Status", project.status || "Not available"],
         ["Mining Style", project.miningStyle || "Not available"],
-        ["M&I Mineral Resources", project.miResources || "Not available"],
+        ["Measured & Indicated Resources", project.miResources || "Not available"],
         ["Inferred Resources", project.inferredResources || "Not available"],
         ["AI Geology Summary", project.geologySummary || "Not available"],
         ["NI 43-101 Documents", reports]
@@ -2762,10 +2762,10 @@
     }
 
     function initProjects() {
-      setText("projectCount", `${(company.projects || []).length} projects`);
+      setText("projectCount", `${(company.projects || []).length} mine details`);
       const container = document.getElementById("projects");
       if (!(company.projects || []).length) {
-        container.innerHTML = '<div class="empty">No website project portfolio rows have been loaded for this company yet.</div>';
+        container.innerHTML = '<div class="empty">No website mine detail rows have been loaded for this company yet.</div>';
         return;
       }
       container.innerHTML = (company.projects || []).map((project, index) => `
