@@ -1,6 +1,6 @@
 import { refreshNewsForAll } from "./news_cron.js";
 import { TICKERS } from "./tickers.js";
-import { googleRssUrl, parseRssItems } from "./rss.js";
+import { fetchGoogleRssItems } from "./rss.js";
 import { handleEducationPortalChat, educationOptions } from "./educationPortalChat.js";
 
 const WORKERS_AI_CHAT_MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
@@ -1874,10 +1874,7 @@ async function getLatestNewsCardForTicker(env, ticker) {
 
   try {
     if (!TICKERS[ticker]) return null;
-    const rssUrl = googleRssUrl(TICKERS[ticker].q);
-    const r = await fetch(rssUrl, { headers: { "User-Agent": "Mozilla/5.0" } });
-    const xml = await r.text();
-    const items = parseRssItems(xml, 5);
+    const { items } = await fetchGoogleRssItems(fetch, TICKERS[ticker].q, { limit: 5 });
     const top = items && items[0] ? items[0] : null;
     if (!top || !top.title) return null;
 
@@ -1927,6 +1924,7 @@ async function getLatestUniverseNewsItems(env, symbols = [], limit = 12, days = 
   if (!tickers.length) return [];
 
   const safeDays = clamp(Number(days || 60), 1, 365);
+  const safeLimit = clamp(Number(limit || 12), 1, 24);
   const recentCutoffMs = Date.now() - safeDays * 24 * 60 * 60 * 1000;
   const placeholders = tickers.map(() => "?").join(",");
   const rows = await env.DB.prepare(
@@ -1938,25 +1936,79 @@ async function getLatestUniverseNewsItems(env, symbols = [], limit = 12, days = 
       CASE WHEN published_at IS NOT NULL AND published_at != '' THEN published_at ELSE fetched_at END DESC
     LIMIT ?
     `
-  ).bind(...tickers, clamp(Number(limit || 12), 1, 24) * 8).all();
+  ).bind(...tickers, safeLimit * 8).all();
 
-  return ((rows && rows.results) || [])
+  const rssItems = ((rows && rows.results) || [])
     .filter((row) => feedRowTimeMs(row) >= recentCutoffMs)
     .sort((a, b) => feedRowTimeMs(b) - feedRowTimeMs(a))
-    .slice(0, clamp(Number(limit || 12), 1, 24))
     .map((row) => {
-    const when = row.published_at || row.fetched_at || null;
-    return {
-      ticker: row.ticker,
-      title: row.title,
-      link: row.link,
-      source: row.source || "RSS",
-      published_at: row.published_at || null,
-      fetched_at: row.fetched_at || null,
-      meta: `${row.ticker} • ${row.source || "RSS"} • ${when ? relTime(when) : "recent"}`,
-      one_liner: summarizeHeadlineOneLiner(row.title, row.ticker)
-    };
-  });
+      const when = row.published_at || row.fetched_at || null;
+      return {
+        ticker: row.ticker,
+        title: row.title,
+        link: row.link,
+        source: row.source || "RSS",
+        source_type: "news_items",
+        published_at: row.published_at || null,
+        fetched_at: row.fetched_at || null,
+        meta: `${row.ticker} • ${row.source || "RSS"} • ${when ? relTime(when) : "recent"}`,
+        one_liner: summarizeHeadlineOneLiner(row.title, row.ticker)
+      };
+    });
+
+  const websiteRows = await env.DB.prepare(
+    `
+    SELECT
+      symbol,
+      article_title,
+      article_url,
+      published_date,
+      retrieved_at
+    FROM website_investor_news
+    WHERE symbol IN (${placeholders})
+      AND status_code = 'found'
+      AND article_url IS NOT NULL
+      AND article_url != ''
+      AND article_title IS NOT NULL
+      AND article_title != ''
+    ORDER BY
+      CASE
+        WHEN published_date IS NOT NULL AND published_date != '' THEN published_date
+        ELSE retrieved_at
+      END DESC
+    LIMIT ?
+    `
+  ).bind(...tickers, safeLimit * 8).all().catch(() => ({ results: [] }));
+
+  const websiteItems = ((websiteRows && websiteRows.results) || [])
+    .map((row) => {
+      const when = row.published_date || row.retrieved_at || null;
+      return {
+        ticker: row.symbol,
+        title: row.article_title,
+        link: row.article_url,
+        source: "Company website",
+        source_type: "website_investor_news",
+        published_at: row.published_date || null,
+        fetched_at: row.retrieved_at || null,
+        meta: `${row.symbol} • Company website • ${when ? relTime(when) : "recent"}`,
+        one_liner: summarizeHeadlineOneLiner(row.article_title, row.symbol)
+      };
+    })
+    .filter((row) => feedRowTimeMs(row) >= recentCutoffMs);
+
+  const merged = [...rssItems, ...websiteItems];
+  const deduped = [];
+  const seenLinks = new Set();
+  for (const item of merged.sort((a, b) => feedRowTimeMs(b) - feedRowTimeMs(a))) {
+    const key = `${item.ticker}|${item.link || item.title}`;
+    if (seenLinks.has(key)) continue;
+    seenLinks.add(key);
+    deduped.push(item);
+    if (deduped.length >= safeLimit) break;
+  }
+
+  return deduped;
 }
 
 async function getWebsiteInvestorNewsForTicker(env, ticker, limit = 8) {
@@ -4758,12 +4810,9 @@ VALUES (?, ?)`
         const ticker = resolveUniverseTicker(url.searchParams.get("ticker"));
         if (!ticker || !TICKERS[ticker]) return json({ error: "unknown ticker" }, 400);
 
-        const rssUrl = googleRssUrl(TICKERS[ticker].q);
-        const r = await fetch(rssUrl, { headers: { "User-Agent": "Mozilla/5.0" } });
-        const xml = await r.text();
-        const items = parseRssItems(xml, 25);
+        const { items, rssUrl, queryUsed, attempts } = await fetchGoogleRssItems(fetch, TICKERS[ticker].q, { limit: 25 });
 
-        return json({ ticker, rssUrl, items });
+        return json({ ticker, rssUrl, queryUsed, attempts, items });
       }
 
       if (url.pathname === "/api/news-summary" && request.method === "GET") {

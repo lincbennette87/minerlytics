@@ -1,48 +1,128 @@
-function decodeXml(value = "") {
-  return String(value || "")
-    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
-    .replace(/&amp;/g, "&")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&apos;/g, "'")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .trim();
+const GOOGLE_NEWS_BASE = "https://news.google.com/rss/search";
+
+function buildGoogleNewsSearchUrl(query) {
+  const u = new URL(GOOGLE_NEWS_BASE);
+  u.searchParams.set("q", query);
+  u.searchParams.set("hl", "en-US");
+  u.searchParams.set("gl", "US");
+  u.searchParams.set("ceid", "US:en");
+  return u.toString();
 }
 
-function tagValue(block, tagName) {
-  const pattern = new RegExp(`<${tagName}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${tagName}>`, "i");
-  const match = String(block || "").match(pattern);
-  return match ? decodeXml(match[1]) : "";
+export function googleRssUrl(query) {
+  return buildGoogleNewsSearchUrl(`${query} when:7d`);
 }
 
-function normalizeDate(value) {
-  if (!value) return "";
-  const parsed = new Date(value);
-  return Number.isFinite(parsed.getTime()) ? parsed.toISOString() : "";
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-export function googleRssUrl(query = "") {
-  const q = String(query || "").trim() || "gold mining stocks";
-  return `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-US&gl=US&ceid=US:en`;
+function jitter(baseMs) {
+  const spread = Math.floor(baseMs * 0.2);
+  return baseMs + Math.floor(Math.random() * Math.max(1, spread));
 }
 
-export function parseRssItems(xml = "", limit = 25) {
-  const safeLimit = Math.min(Math.max(Number(limit || 25), 1), 100);
-  const blocks = String(xml || "").match(/<item\b[\s\S]*?<\/item>/gi) || [];
+function rssRequestHeaders() {
+  return {
+    "User-Agent": "Mozilla/5.0 (compatible; MinerlyticsRSS/1.0; +https://minerlyticsai.com)",
+    "Accept": "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+  };
+}
 
-  return blocks.slice(0, safeLimit).map((block) => {
-    const source = tagValue(block, "source");
-    const pubDate = tagValue(block, "pubDate");
-    return {
-      title: tagValue(block, "title"),
-      link: tagValue(block, "link"),
-      source,
-      publisher: source,
-      pubDate,
-      published_at: normalizeDate(pubDate),
-      date: normalizeDate(pubDate),
-      description: tagValue(block, "description")
-    };
-  }).filter((item) => item.title || item.link);
+export async function fetchGoogleRssItems(fetchImpl, query, options = {}) {
+  const limit = Math.max(1, Math.min(50, Number(options.limit || 25)));
+  const attemptsPerQuery = Math.max(1, Math.min(5, Number(options.attemptsPerQuery || 4)));
+  const queryVariants = [
+    `${query} when:7d`,
+    `${query} when:30d`,
+    `${query} when:60d`,
+    String(query || "").trim(),
+  ].filter(Boolean);
+
+  let lastError = null;
+
+  for (const variant of queryVariants) {
+    const rssUrl = buildGoogleNewsSearchUrl(variant);
+
+    for (let attempt = 1; attempt <= attemptsPerQuery; attempt += 1) {
+      try {
+        const response = await fetchImpl(rssUrl, { headers: rssRequestHeaders() });
+        if (!response.ok) {
+          const error = new Error(`Google RSS returned HTTP ${response.status}`);
+          error.status = response.status;
+          error.rssUrl = rssUrl;
+          throw error;
+        }
+
+        const xml = await response.text();
+        const items = parseRssItems(xml, limit);
+        if (items.length) {
+          return { items, rssUrl, queryUsed: variant, attempts: attempt };
+        }
+
+        lastError = new Error(`Google RSS returned no items for query variant: ${variant}`);
+      } catch (error) {
+        lastError = error;
+        const status = Number(error?.status || 0);
+        const retryable = status === 429 || status === 503 || status === 520 || status === 522 || status === 524;
+        if (!retryable || attempt === attemptsPerQuery) break;
+        await sleep(jitter(800 * attempt));
+      }
+    }
+  }
+
+  throw lastError || new Error("Google RSS fetch failed");
+}
+
+function textBetween(s, a, b) {
+  const i = s.indexOf(a);
+  if (i === -1) return "";
+  const j = s.indexOf(b, i + a.length);
+  if (j === -1) return "";
+  return s.slice(i + a.length, j);
+}
+
+function decodeEntities(s) {
+  return (s || "")
+    .replaceAll("&amp;", "&")
+    .replaceAll("&lt;", "<")
+    .replaceAll("&gt;", ">")
+    .replaceAll("&quot;", '"')
+    .replaceAll("&#39;", "'");
+}
+
+export function parseRssItems(xml, limit = 25) {
+  const items = [];
+  let rest = xml || "";
+  while (true) {
+    const start = rest.indexOf("<item>");
+    if (start === -1) break;
+    const end = rest.indexOf("</item>", start);
+    if (end === -1) break;
+    const chunk = rest.slice(start, end + 7);
+    rest = rest.slice(end + 7);
+
+    const title = decodeEntities(textBetween(chunk, "<title>", "</title>")).trim();
+    const link = decodeEntities(textBetween(chunk, "<link>", "</link>")).trim();
+    const pubDate = decodeEntities(textBetween(chunk, "<pubDate>", "</pubDate>")).trim();
+
+    const sourceChunk = decodeEntities(textBetween(chunk, "<source", "</source>"));
+    const source = sourceChunk.includes(">") ? sourceChunk.slice(sourceChunk.indexOf(">") + 1).trim() : null;
+
+    if (title && link) {
+      const parsedDate = pubDate ? new Date(pubDate) : null;
+      items.push({
+        title,
+        link,
+        pubDate,
+        published_at_iso: parsedDate && !Number.isNaN(parsedDate.getTime()) ? parsedDate.toISOString() : null,
+        source: source || null
+      });
+    }
+    if (items.length >= limit) break;
+  }
+  return items;
 }
