@@ -1,4 +1,4 @@
-name: Sync Website About Us to Cloudflare D1
+name: Sync Website Mine Details to Cloudflare D1
 
 on:
   push:
@@ -9,10 +9,10 @@ on:
     paths:
       - "src/tickers.js"
       - "d1_company_homepages.sql"
-      - "d1_website_about_us.sql"
+      - "d1_website_mine_details.sql"
       - "scripts/sync_company_homepages.py"
-      - "scripts/sync_website_about_us.py"
-      - ".github/workflows/sync-website-about-us.yml"
+      - "scripts/sync_website_mine_details.py"
+      - ".github/workflows/sync-website-mine-details.yml"
   workflow_dispatch:
     inputs:
       symbols:
@@ -26,21 +26,31 @@ on:
       delay:
         description: "Seconds to wait between company requests"
         required: false
-        default: "0.5"
+        default: "0.75"
+      mode:
+        description: "Extraction mode: combined, legacy, or resilient"
+        required: false
+        default: "combined"
+      min_confidence:
+        description: "Minimum confidence for resilient website mine rows"
+        required: false
+        default: "0.55"
   schedule:
-    - cron: "5 13 * * *"
+    - cron: "35 13 * * *"
 
 permissions:
   contents: read
 
 jobs:
-  sync-about-us:
+  sync-mine-details:
     runs-on: ubuntu-latest
     env:
       CF_D1_DATABASE: minerlytics-dev
       INPUT_SYMBOLS: ${{ inputs.symbols }}
       INPUT_LIMIT: ${{ inputs.limit }}
-      INPUT_DELAY: ${{ inputs.delay || '0.5' }}
+      INPUT_DELAY: ${{ inputs.delay || '0.75' }}
+      INPUT_MODE: ${{ inputs.mode || 'combined' }}
+      INPUT_MIN_CONFIDENCE: ${{ inputs.min_confidence || '0.55' }}
 
     steps:
       - name: Check out repository
@@ -59,7 +69,7 @@ jobs:
       - name: Install Wrangler
         run: npm install --no-save wrangler@latest
 
-      - name: Generate homepage and About Us SQL
+      - name: Generate homepage and mine detail SQL
         run: |
           set -euo pipefail
           mkdir -p .tmp
@@ -80,11 +90,6 @@ jobs:
             done
           fi
 
-          about_args=()
-          if [ -z "${INPUT_SYMBOLS:-}" ] && [ -z "${INPUT_LIMIT:-}" ]; then
-            about_args+=(--overwrite-table)
-          fi
-
           python scripts/sync_company_homepages.py \
             "${common_args[@]}" \
             --schema-sql d1_company_homepages.sql \
@@ -93,17 +98,36 @@ jobs:
             --delay 0.75 \
             "${symbol_args[@]}"
 
-          python scripts/sync_website_about_us.py \
+          python scripts/sync_website_mine_details.py \
             "${common_args[@]}" \
             --homepages-json .tmp/company-homepages.json \
-            --schema-sql d1_website_about_us.sql \
-            --output-json .tmp/website-about-us.json \
-            --output-sql .tmp/website-about-us.sql \
-            --max-pages 8 \
-            --timeout 5 \
-            --delay "${INPUT_DELAY:-0.5}" \
-            "${about_args[@]}" \
+            --schema-sql d1_website_mine_details.sql \
+            --output-json .tmp/website-mine-details.json \
+            --output-sql .tmp/website-mine-details.sql \
+            --mode "${INPUT_MODE:-combined}" \
+            --min-confidence "${INPUT_MIN_CONFIDENCE:-0.55}" \
+            --delay "${INPUT_DELAY:-0.75}" \
             "${symbol_args[@]}"
+
+      - name: Summarize generated mine resource rows
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          payload = json.loads(Path(".tmp/website-mine-details.json").read_text())
+          rows = payload.get("mine_rows") or []
+          found = [row for row in rows if row.get("status_code") == "found"]
+          with_resources = [
+              row for row in found
+              if row.get("measured_indicated_mineral_resources") or row.get("inferred_mineral_resources")
+          ]
+          print(
+              "Generated "
+              f"{len(found)} found mine/project rows; "
+              f"{len(with_resources)} include measured/indicated or inferred resource values."
+          )
+          PY
 
       - name: Write homepage results to Cloudflare D1
         env:
@@ -111,8 +135,8 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: npx wrangler d1 execute "$CF_D1_DATABASE" --remote --file .tmp/company-homepages.sql --yes
 
-      - name: Write About Us results to Cloudflare D1
+      - name: Write mine detail results to Cloudflare D1
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: npx wrangler d1 execute "$CF_D1_DATABASE" --remote --file .tmp/website-about-us.sql --yes
+        run: npx wrangler d1 execute "$CF_D1_DATABASE" --remote --file .tmp/website-mine-details.sql --yes

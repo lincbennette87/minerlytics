@@ -119,6 +119,14 @@ export const TICKERS = {
     aliases: ["Hycroft", "Hycroft Mining"],
     q: '(HYMC OR "Hycroft" OR "Hycroft Mining") (gold OR silver OR mining OR earnings)',
   },
+  IAUX: {
+    name: "i-80 Gold",
+    company: "i-80 Gold Corp.",
+    metal: "gold",
+    type: "developer",
+    aliases: ["i-80 Gold", "i80 Gold", "i-80 Gold Corp", "i-80 Gold Corp."],
+    q: '(IAUX OR IAU OR "i-80 Gold" OR "i80 Gold") (gold OR mining OR Nevada OR development OR earnings)',
+  },
 
   WPM: {
     name: "Wheaton Precious Metals",
@@ -193,12 +201,12 @@ export const TICKERS = {
     q: '(SILV OR "SilverCrest" OR "SilverCrest Metals") (silver OR mining OR earnings)',
   },
   DSVSF: {
-    name: "Discovery Silver",
-    company: "Discovery Silver Corp.",
-    metal: "silver",
-    type: "developer",
-    aliases: ["Discovery Silver", "Discovery"],
-    q: '(DSVSF OR "Discovery Silver" OR "Discovery") (silver OR mining OR earnings)',
+    name: "Discovery Mining",
+    company: "Discovery Mining Ltd.",
+    metal: "precious metals",
+    type: "producer",
+    aliases: ["DSV", "Discovery Mining", "Discovery Silver", "Discovery"],
+    q: '(DSV OR DSVSF OR "Discovery Mining" OR "Discovery Silver" OR "Discovery") (gold OR silver OR copper OR zinc OR mining OR earnings)',
   },
 
   FCX: {

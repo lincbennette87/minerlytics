@@ -1,6 +1,7 @@
 import os
 import re
 import time
+from pathlib import Path
 import requests
 from youtube_transcript_api import YouTubeTranscriptApi
 
@@ -9,32 +10,46 @@ WORKER_BASE_URL = os.environ["WORKER_BASE_URL"].rstrip("/")
 WORKER_API_KEY = os.environ["WORKER_API_KEY"]
 
 MAX_VIDEOS_PER_CHANNEL = int(os.environ.get("YT_MAX_VIDEOS_PER_CHANNEL", "10"))
+TICKERS_JS_PATH = Path(os.environ.get("TICKERS_JS_PATH", "src/tickers.js"))
 CHANNEL_FILTER = {
     item.strip().lower()
     for item in os.environ.get("YT_CHANNEL_FILTER", "").split(",")
     if item.strip()
 }
 
-DEFAULT_SYMBOL_TAGS = ["GOLD", "SILVER", "MINERS"]
-
-KEYWORD_SYMBOL_TAGS = {
-    "aem": ["AEM"],
-    "agnico": ["AEM"],
-    "wheaton": ["WPM"],
-    "wpm": ["WPM"],
-    "coeur": ["CDE"],
-    "cde": ["CDE"],
-    "newmont": ["NEM"],
-    "nem": ["NEM"],
-    "barrick": ["GOLD"],
-    "gold": ["GOLD", "MINERS"],
-    "silver": ["SILVER", "MINERS"],
-    "copper": ["COPPER", "MINERS"],
-    "uranium": ["URANIUM", "MINERS"],
-    "lithium": ["LITHIUM", "MINERS"],
-    "miner": ["MINERS"],
-    "mining": ["MINERS"],
+SYMBOL_ONLY_BLOCKLIST = {"AG", "AU", "OR", "GOLD", "USA"}
+ALIAS_BLOCKLIST = {
+    "and",
+    "company",
+    "corp",
+    "corporation",
+    "copper",
+    "energy",
+    "gold",
+    "inc",
+    "limited",
+    "lithium",
+    "ltd",
+    "metal",
+    "metals",
+    "miner",
+    "miners",
+    "mines",
+    "mining",
+    "or",
+    "plc",
+    "resource",
+    "resources",
+    "royalty",
+    "silver",
+    "streaming",
+    "the",
+    "uranium",
 }
+LEGAL_SUFFIX_RE = re.compile(
+    r"\b(corp(?:oration)?|inc(?:orporated)?|ltd|limited|plc|company|co)\.?\b",
+    re.I,
+)
 
 CHANNELS = [
     {
@@ -61,6 +76,154 @@ SESSION = requests.Session()
 SESSION.headers.update({
     "User-Agent": "Mozilla/5.0 transcript-ingest/1.0"
 })
+
+
+def iter_ticker_blocks(body: str) -> list[tuple[str, str]]:
+    blocks: list[tuple[str, str]] = []
+    index = 0
+    while True:
+        match = re.search(r"([A-Z0-9]+):\s*\{", body[index:])
+        if not match:
+            return blocks
+        symbol = match.group(1)
+        start = index + match.end()
+        depth = 1
+        cursor = start
+        quote = None
+        escape = False
+        while cursor < len(body):
+            char = body[cursor]
+            if quote:
+                if escape:
+                    escape = False
+                elif char == "\\":
+                    escape = True
+                elif char == quote:
+                    quote = None
+            elif char in {"'", '"'}:
+                quote = char
+            elif char == "{":
+                depth += 1
+            elif char == "}":
+                depth -= 1
+                if depth == 0:
+                    blocks.append((symbol, body[start:cursor]))
+                    index = cursor + 1
+                    break
+            cursor += 1
+        else:
+            raise ValueError(f"Unclosed ticker block for {symbol}")
+
+
+def string_property(block: str, name: str) -> str | None:
+    match = re.search(rf"\b{name}\s*:\s*(['\"])(.*?)\1", block, re.S)
+    if not match:
+        return None
+    return bytes(match.group(2), "utf-8").decode("unicode_escape")
+
+
+def array_property(block: str, name: str) -> list[str]:
+    match = re.search(rf"\b{name}\s*:\s*\[(.*?)\]", block, re.S)
+    if not match:
+        return []
+    return [
+        bytes(item.group(2), "utf-8").decode("unicode_escape")
+        for item in re.finditer(r"(['\"])(.*?)\1", match.group(1), re.S)
+    ]
+
+
+def normalize_alias(value: str) -> str:
+    value = re.sub(r"\s+", " ", str(value or "")).strip()
+    return value.strip(" ,.;:-")
+
+
+def strip_legal_suffix(value: str) -> str:
+    return normalize_alias(LEGAL_SUFFIX_RE.sub("", value))
+
+
+def alias_variants(value: str) -> list[str]:
+    base = normalize_alias(value)
+    if not base:
+        return []
+    variants = {
+        base,
+        strip_legal_suffix(base),
+        normalize_alias(base.replace("&", "and")),
+        normalize_alias(base.replace("-", " ")),
+    }
+    return [variant for variant in variants if variant]
+
+
+def is_useful_alias(alias: str) -> bool:
+    compact = re.sub(r"[^a-z0-9]+", "", alias.lower())
+    if len(compact) < 4:
+        return False
+    if alias.lower() in ALIAS_BLOCKLIST:
+        return False
+    return any(char.isalpha() for char in alias)
+
+
+def compile_alias_pattern(alias: str):
+    parts = [re.escape(part) for part in re.split(r"\s+", alias) if part]
+    if not parts:
+        return None
+    return re.compile(r"(?<![A-Za-z0-9])" + r"[\W_]+".join(parts) + r"(?![A-Za-z0-9])", re.I)
+
+
+def compile_symbol_pattern(symbol: str):
+    if len(symbol) < 3 or symbol in SYMBOL_ONLY_BLOCKLIST:
+        return None
+    return re.compile(r"(?<![A-Za-z0-9])\$?" + re.escape(symbol) + r"(?![A-Za-z0-9])", re.I)
+
+
+def load_ticker_matchers(path: Path):
+    if not path.exists():
+        print(f"Ticker universe not found at {path}; company-specific YouTube tagging disabled.")
+        return [], []
+
+    source = path.read_text(encoding="utf-8")
+    body_match = re.search(r"export\s+const\s+TICKERS\s*=\s*\{(?P<body>.*)\}\s*;?\s*$", source, re.S)
+    if not body_match:
+        raise ValueError(f"Could not find exported TICKERS object in {path}")
+
+    symbol_matchers = []
+    alias_to_symbols: dict[str, set[str]] = {}
+    alias_display: dict[str, str] = {}
+
+    for symbol, block in iter_ticker_blocks(body_match.group("body")):
+        pattern = compile_symbol_pattern(symbol)
+        if pattern:
+            symbol_matchers.append((symbol, pattern))
+
+        raw_aliases = [
+            string_property(block, "name") or "",
+            string_property(block, "company") or "",
+            *array_property(block, "aliases"),
+        ]
+        for raw_alias in raw_aliases:
+            for alias in alias_variants(raw_alias):
+                if not is_useful_alias(alias):
+                    continue
+                key = alias.lower()
+                alias_to_symbols.setdefault(key, set()).add(symbol)
+                alias_display.setdefault(key, alias)
+
+    alias_matchers = []
+    for key, symbols in alias_to_symbols.items():
+        if len(symbols) != 1:
+            continue
+        pattern = compile_alias_pattern(alias_display[key])
+        if pattern:
+            alias_matchers.append((next(iter(symbols)), pattern))
+
+    print(
+        f"Loaded {len(symbol_matchers)} ticker patterns and "
+        f"{len(alias_matchers)} company alias patterns from {path}"
+    )
+    return symbol_matchers, alias_matchers
+
+
+SYMBOL_MATCHERS, ALIAS_MATCHERS = load_ticker_matchers(TICKERS_JS_PATH)
 
 
 def should_run_channel(channel):
@@ -194,14 +357,20 @@ def transcript_exists(video_id: str) -> bool:
     return bool(resp.json().get("exists"))
 
 
-def infer_symbol_tags(video: dict):
-    text = f"{video.get('title', '')} {video.get('channel_title', '')}".lower()
+def infer_symbol_tags(video: dict, transcript_text: str = ""):
+    text = "\n".join(
+        [
+            str(video.get("title", "") or ""),
+            str(transcript_text or "")[:200000],
+        ]
+    )
     tags = []
-    for keyword, symbols in KEYWORD_SYMBOL_TAGS.items():
-        if keyword in text:
-            tags.extend(symbols)
-    if not tags:
-        tags.extend(DEFAULT_SYMBOL_TAGS)
+    for symbol, pattern in SYMBOL_MATCHERS:
+        if pattern.search(text):
+            tags.append(symbol)
+    for symbol, pattern in ALIAS_MATCHERS:
+        if pattern.search(text):
+            tags.append(symbol)
 
     seen = set()
     unique = []
@@ -210,7 +379,7 @@ def infer_symbol_tags(video: dict):
         if normalized and normalized not in seen:
             unique.append(normalized)
             seen.add(normalized)
-    return unique[:8]
+    return unique[:12]
 
 
 def fetch_transcript(video_id: str):
@@ -250,6 +419,7 @@ def fetch_transcript(video_id: str):
 
 def ingest_one(channel_id: str, channel_title: str, video: dict):
     transcript_text, language_code, is_generated = fetch_transcript(video["video_id"])
+    symbol_tags = infer_symbol_tags(video, transcript_text)
 
     payload = {
         "video_id": video["video_id"],
@@ -261,6 +431,7 @@ def ingest_one(channel_id: str, channel_title: str, video: dict):
         "transcript_text": transcript_text,
         "transcript_language": language_code,
         "is_generated": bool(is_generated),
+        "symbol_tags": symbol_tags,
     }
 
     resp = SESSION.post(
@@ -273,7 +444,9 @@ def ingest_one(channel_id: str, channel_title: str, video: dict):
         timeout=60,
     )
     resp.raise_for_status()
-    return resp.json()
+    result = resp.json()
+    result["symbol_tags"] = symbol_tags
+    return result
 
 
 def ingest_video_metadata(channel_id: str, channel_title: str, video: dict, reason: str):

@@ -40,4 +40,5 @@ jobs:
           WORKER_API_KEY: ${{ secrets.WORKER_API_KEY }}
           YT_CHANNEL_FILTER: ${{ inputs.channel_filter }}
           YT_MAX_VIDEOS_PER_CHANNEL: ${{ inputs.max_videos_per_channel }}
+          TICKERS_JS_PATH: src/tickers.js
         run: python scripts/ingest_youtube_channels_transcripts.py

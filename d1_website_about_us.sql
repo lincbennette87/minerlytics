@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS website_about_us (
+CREATE TABLE IF NOT EXISTS Website_about_Us (
   symbol TEXT PRIMARY KEY,
   company_name TEXT NOT NULL,
   short_name TEXT,
@@ -18,18 +18,18 @@ CREATE TABLE IF NOT EXISTS website_about_us (
 );
 
 CREATE INDEX IF NOT EXISTS idx_website_about_us_status
-  ON website_about_us (status);
+  ON Website_about_Us (status);
 
 CREATE INDEX IF NOT EXISTS idx_website_about_us_company_type
-  ON website_about_us (company_type);
+  ON Website_about_Us (company_type);
 
 CREATE INDEX IF NOT EXISTS idx_website_about_us_metal
-  ON website_about_us (metal);
+  ON Website_about_Us (metal);
 
 CREATE INDEX IF NOT EXISTS idx_website_about_us_checked_at
-  ON website_about_us (checked_at DESC);
+  ON Website_about_Us (checked_at DESC);
 
-CREATE TABLE IF NOT EXISTS website_about_us_extractions (
+CREATE TABLE IF NOT EXISTS Website_about_Us_Extractions (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   symbol TEXT NOT NULL,
   company_name TEXT NOT NULL,
@@ -54,10 +54,10 @@ CREATE TABLE IF NOT EXISTS website_about_us_extractions (
 );
 
 CREATE INDEX IF NOT EXISTS idx_website_about_us_extractions_symbol
-  ON website_about_us_extractions (symbol, confidence);
+  ON Website_about_Us_Extractions (symbol, confidence);
 
 CREATE INDEX IF NOT EXISTS idx_website_about_us_extractions_status
-  ON website_about_us_extractions (status);
+  ON Website_about_Us_Extractions (status);
 
 CREATE INDEX IF NOT EXISTS idx_website_about_us_extractions_retrieved_at
-  ON website_about_us_extractions (retrieved_at DESC);
+  ON Website_about_Us_Extractions (retrieved_at DESC);
