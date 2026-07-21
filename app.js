@@ -17,6 +17,29 @@ let trending = [];
 // fallback until universe.json loads
 let NEWS_TICKERS = [];
 const APP_API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
+const RSS_LOOKBACK_DAYS = 60;
+
+function parseNewsDate(item) {
+  const rawValue =
+    item?.published_at ||
+    item?.publishedAt ||
+    item?.pubDate ||
+    item?.date ||
+    item?.fetched_at ||
+    item?.fetchedAt ||
+    "";
+  const parsed = new Date(rawValue);
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+}
+
+function getSortedRecentNewsItems(items, maxAgeDays = RSS_LOOKBACK_DAYS) {
+  const maxAgeMs = maxAgeDays * 24 * 60 * 60 * 1000;
+  return (Array.isArray(items) ? items : [])
+    .map((item) => ({ item, publishedAt: parseNewsDate(item) }))
+    .filter(({ publishedAt }) => publishedAt && Date.now() - publishedAt.getTime() <= maxAgeMs)
+    .sort((a, b) => b.publishedAt - a.publishedAt)
+    .map(({ item }) => item);
+}
 
 /* ---------- Quotes ---------- */
 let quotes = [];
@@ -186,7 +209,7 @@ async function refreshLatestTickerFeed() {
     if (!res.ok) throw new Error(`latest-feed status ${res.status}`);
 
     const data = await res.json();
-    const items = Array.isArray(data.items) ? data.items : [];
+    const items = getSortedRecentNewsItems(data.items);
     if (!items.length) return;
 
     tickerItems = items.map((item) => ({

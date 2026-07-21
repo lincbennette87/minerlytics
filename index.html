@@ -2512,6 +2512,7 @@ window.addEventListener("minerlytics-auth-state", () => {
   const rssMeta = document.getElementById("rssFeedMeta");
   const videoList = document.getElementById("videoFeedList");
   const videoMeta = document.getElementById("videoFeedMeta");
+  const RSS_LOOKBACK_DAYS = 60;
   if (!rssList || !rssMeta || !videoList || !videoMeta) return;
 
   function relTime(value) {
@@ -2525,12 +2526,28 @@ window.addEventListener("minerlytics-auth-state", () => {
     return `${Math.max(1, Math.abs(diffDays))}d ago`;
   }
 
+  function parseFeedDate(item) {
+    const rawValue = item?.published_at || item?.publishedAt || item?.pubDate || item?.date || item?.fetched_at || item?.fetchedAt || "";
+    const parsed = new Date(rawValue);
+    return Number.isNaN(parsed.getTime()) ? null : parsed;
+  }
+
+  function getSortedRecentRssItems(items) {
+    const maxAgeMs = RSS_LOOKBACK_DAYS * 24 * 60 * 60 * 1000;
+    return (Array.isArray(items) ? items : [])
+      .map((item) => ({ item, publishedAt: parseFeedDate(item) }))
+      .filter(({ publishedAt }) => publishedAt && Date.now() - publishedAt.getTime() <= maxAgeMs)
+      .sort((a, b) => b.publishedAt - a.publishedAt)
+      .map(({ item }) => item);
+  }
+
   function renderRss(items) {
-    if (!items.length) {
+    const sortedItems = getSortedRecentRssItems(items);
+    if (!sortedItems.length) {
       rssList.innerHTML = `<div style="color:rgba(234,240,255,.62);font-size:13px;">No recent RSS items found for the active tickers yet.</div>`;
       return;
     }
-    rssList.innerHTML = items.map((item) => `
+    rssList.innerHTML = sortedItems.map((item) => `
       <a href="${item.link || "#"}" target="_blank" rel="noreferrer" style="display:block;padding:12px 14px;border-radius:14px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03);text-decoration:none;">
         <div style="font-size:14px;font-weight:700;line-height:1.45;">${item.title || "Untitled item"}</div>
         <div style="margin-top:6px;font-size:12px;color:rgba(234,240,255,.62);">${item.ticker ? `${item.ticker} • ` : ""}${item.source || "RSS"} • ${relTime(item.published_at || item.fetched_at)}</div>
