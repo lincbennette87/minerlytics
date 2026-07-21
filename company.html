@@ -32,11 +32,7 @@
       margin: 0;
       font-family: var(--font);
       color: var(--text);
-      background:
-        radial-gradient(1000px 600px at 16% 18%, rgba(154,122,74,.14), transparent 60%),
-        radial-gradient(900px 520px at 82% 28%, rgba(110,122,113,.10), transparent 55%),
-        radial-gradient(900px 520px at 68% 88%, rgba(243,239,230,.04), transparent 55%),
-        linear-gradient(180deg, var(--bg0), var(--bg1));
+      background: linear-gradient(180deg, var(--bg0), var(--bg1));
     }
 
     a { color: var(--green); font-weight: 800; text-decoration: none; }
@@ -192,55 +188,6 @@
       cursor: pointer;
     }
     .text-button:hover { background: rgba(154,122,74,.18); }
-    .accordion { display: grid; gap: 10px; margin-bottom: 18px; }
-    .section-accordion {
-      margin-bottom: 18px;
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      background: rgba(21,24,26,.62);
-      box-shadow: var(--shadow);
-      overflow: hidden;
-    }
-    .section-accordion > summary {
-      min-height: 58px;
-      padding: 0 16px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      border-bottom: 1px solid var(--line);
-      background: rgba(255,255,255,.035);
-      cursor: pointer;
-      list-style: none;
-    }
-    .section-accordion > summary::-webkit-details-marker { display: none; }
-    .section-accordion > summary:after { content: "+"; color: var(--green); font-size: 22px; line-height: 1; }
-    .section-accordion[open] > summary:after { content: "−"; }
-    .section-accordion-body { padding: 16px; }
-    details {
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      background: rgba(21,24,26,.62);
-      box-shadow: 0 8px 20px rgba(25,33,29,.06);
-      overflow: hidden;
-    }
-    summary {
-      min-height: 58px;
-      padding: 0 16px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 14px;
-      cursor: pointer;
-      font-weight: 900;
-      list-style: none;
-    }
-    summary::-webkit-details-marker { display: none; }
-    summary:after { content: "+"; color: var(--green); font-size: 22px; line-height: 1; }
-    details[open] summary:after { content: "−"; }
-
-    .project-body { border-top: 1px solid var(--line); padding: 16px; }
-    .project-description { margin: 0 0 14px; color: var(--muted); line-height: 1.55; }
     .financial-table td:nth-child(2), .financial-table td:nth-child(3) {
       font-variant-numeric: tabular-nums;
     }
@@ -535,6 +482,896 @@
       th { border-bottom: 0; padding-bottom: 2px; }
       td { padding-top: 2px; }
     }
+
+    body {
+      background: linear-gradient(180deg, #f8fafc 0%, #f4f6f9 38%, #eef2f6 100%);
+      color: #20232a;
+    }
+    .topbar { color: var(--text); }
+    .company-detail-page {
+      --detail-ink: #20232a;
+      --detail-muted: #6f7582;
+      --detail-line: #d9dde5;
+      --detail-panel: #ffffff;
+      --detail-surface: #f4f6f9;
+      --detail-navy: #2d3b58;
+      --detail-blue: #d4e9fb;
+      --detail-green: #cfe8db;
+      --detail-gold: #f5e3a6;
+      --detail-silver: #e6e7e9;
+      --detail-copper: #efd2bd;
+      --detail-lead: #d8d8d8;
+      --detail-zinc: #ead8c9;
+      --detail-positive: #197553;
+      --detail-negative: #a63f3f;
+      --detail-shadow: 0 18px 50px rgba(22, 28, 45, .11);
+      width: min(1440px, 100%);
+      margin: 0 auto;
+      padding: 22px;
+      color: var(--detail-ink);
+    }
+    .company-detail-page a {
+      color: #213d63;
+      font-weight: 850;
+    }
+    .research-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 14px 0 20px;
+    }
+    .brand-cluster {
+      display: flex;
+      align-items: center;
+      min-width: 0;
+      gap: 14px;
+    }
+    .company-mark {
+      display: grid;
+      width: 58px;
+      height: 58px;
+      flex: 0 0 auto;
+      place-items: center;
+      border: 1px solid #c9ced8;
+      border-radius: 8px;
+      background: #fff;
+      color: var(--detail-navy);
+      font-weight: 900;
+      box-shadow: var(--detail-shadow);
+    }
+    .company-mark span {
+      max-width: 48px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: .94rem;
+    }
+    .eyebrow {
+      margin: 0 0 6px;
+      color: var(--detail-muted);
+      font-size: .75rem;
+      font-weight: 850;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .research-header h1 {
+      margin: 0;
+      color: var(--detail-ink);
+      font-size: clamp(2.35rem, 5vw, 5rem);
+      line-height: .95;
+      letter-spacing: 0;
+    }
+    .ticker {
+      color: var(--detail-navy);
+      font-size: .48em;
+      vertical-align: middle;
+    }
+    .meta {
+      color: var(--detail-muted);
+      margin-top: 7px;
+      font-size: 13px;
+    }
+    .top-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .icon-button {
+      display: inline-grid;
+      width: 42px;
+      height: 42px;
+      place-items: center;
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--detail-navy);
+      cursor: pointer;
+      font-size: 0;
+      text-decoration: none;
+      transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+    }
+    .icon-button:hover,
+    .icon-button:focus-visible {
+      border-color: var(--detail-navy);
+      box-shadow: 0 10px 24px rgba(22, 28, 45, .13);
+      outline: none;
+      transform: translateY(-1px);
+    }
+    .icon-button svg {
+      width: 21px;
+      height: 21px;
+      fill: none;
+      stroke: currentColor;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 2;
+    }
+    .company-control-dock {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 18px;
+      padding: 12px;
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .82);
+      box-shadow: var(--detail-shadow);
+    }
+    .pills,
+    .ticker-row,
+    .fact-tags,
+    .asset-commodities,
+    .doc-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .pills { justify-content: flex-start; }
+    .company-controls {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
+    .company-control-label,
+    .metric-label,
+    .health-measure-label {
+      color: var(--detail-muted);
+      font-size: .76rem;
+      font-weight: 850;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+    .company-select,
+    .company-search {
+      min-height: 38px;
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--detail-ink);
+      padding: 0 10px;
+      outline: none;
+    }
+    .company-select { max-width: 220px; }
+    .company-search { width: 230px; }
+    .text-button {
+      min-height: 38px;
+      border: 1px solid var(--detail-navy);
+      border-radius: 8px;
+      background: var(--detail-navy);
+      color: #fff;
+      padding: 0 12px;
+      font-weight: 850;
+      cursor: pointer;
+    }
+    .text-button:hover { background: #43506a; }
+    .pill,
+    .exchange-pill,
+    .tag {
+      display: inline-flex;
+      min-height: 30px;
+      align-items: center;
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: .86rem;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .pill,
+    .exchange-pill {
+      background: var(--detail-blue);
+      color: #1f3854;
+      border: 0;
+      text-transform: capitalize;
+    }
+    .tag.gold { background: var(--detail-gold); color: #5f4b0d; }
+    .tag.silver { background: var(--detail-silver); color: #3e434a; }
+    .tag.copper { background: var(--detail-copper); color: #61341f; }
+    .tag.zinc { background: var(--detail-zinc); color: #584031; }
+    .tag.lead { background: var(--detail-lead); color: #3e3e3e; }
+    .tag.lithium,
+    .tag.uranium,
+    .tag.nickel,
+    .tag.pgm,
+    .tag.other,
+    .tag.status,
+    .tag.country {
+      background: var(--detail-green);
+      color: #244d3f;
+    }
+    .dashboard {
+      display: grid;
+      grid-template-columns: minmax(300px, .78fr) minmax(500px, 1.55fr);
+      grid-template-areas:
+        "summary portfolio"
+        "chart portfolio"
+        "financial portfolio"
+        "risk research";
+      gap: 18px;
+      align-items: start;
+    }
+    .summary-panel,
+    .main-panel,
+    .chart-panel,
+    .financial-panel,
+    .risk-panel,
+    .research-panel {
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .93);
+      box-shadow: var(--detail-shadow);
+      padding: 20px;
+      overflow: hidden;
+    }
+    .summary-panel { grid-area: summary; }
+    .main-panel { grid-area: portfolio; }
+    .chart-panel { grid-area: chart; }
+    .financial-panel { grid-area: financial; }
+    .risk-panel { grid-area: risk; }
+    .research-panel { grid-area: research; }
+    .section-heading {
+      min-width: 0;
+      margin-bottom: 16px;
+    }
+    .section-heading h2,
+    .chart-header h3 {
+      margin: 0;
+      color: var(--detail-ink);
+      font-size: 1.12rem;
+      letter-spacing: 0;
+    }
+    .summary-text {
+      margin: 0 0 16px;
+      color: #4e5560;
+      line-height: 1.58;
+    }
+    .summary-actions {
+      display: grid;
+      gap: 9px;
+      margin-top: 12px;
+      color: var(--detail-muted);
+      font-size: .9rem;
+    }
+    .summary-link-line[hidden],
+    .summary-link[hidden] { display: none; }
+    .fact-list {
+      margin: 0;
+      border-top: 1px solid var(--detail-line);
+    }
+    .fact-item {
+      display: grid;
+      grid-template-columns: 36px minmax(90px, .72fr) minmax(130px, 1fr);
+      align-items: center;
+      gap: 10px;
+      min-height: 58px;
+      border-bottom: 1px solid var(--detail-line);
+    }
+    .fact-icon {
+      width: 24px;
+      height: 24px;
+      color: #858a91;
+    }
+    .fact-icon svg {
+      width: 100%;
+      height: 100%;
+      fill: none;
+      stroke: currentColor;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 2;
+    }
+    .fact-label {
+      color: #747a83;
+      font-size: .95rem;
+    }
+    .fact-value {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      justify-content: flex-start;
+      color: var(--detail-ink);
+      font-weight: 750;
+      overflow-wrap: anywhere;
+    }
+    .metric-strip,
+    .financial-grid,
+    .health-measure-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .metric-strip { margin-top: 16px; }
+    .market-card,
+    .financial-card,
+    .health-measure-card {
+      min-height: 96px;
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      padding: 14px;
+      background: #fbfcfe;
+    }
+    .metric-value,
+    .health-measure-value {
+      margin: 0;
+      color: var(--detail-ink);
+      font-size: clamp(1.25rem, 2vw, 1.85rem);
+      font-weight: 850;
+      line-height: 1.08;
+      overflow-wrap: anywhere;
+    }
+    .metric-value { margin-top: 8px; }
+    .metric-note,
+    .health-measure-meta,
+    .source-note {
+      margin: 8px 0 0;
+      color: var(--detail-muted);
+      font-size: .82rem;
+      line-height: 1.38;
+    }
+    .positive { color: var(--detail-positive); }
+    .negative { color: var(--detail-negative); }
+    .portfolio-head,
+    .chart-toolbar,
+    .subsection-head {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .segmented-control {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      padding: 4px;
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      background: var(--detail-surface);
+    }
+    .segmented-control button,
+    .range-buttons button {
+      min-height: 32px;
+      border: 0;
+      border-radius: 6px;
+      padding: 0 10px;
+      background: transparent;
+      color: #59606b;
+      cursor: pointer;
+      font-size: .82rem;
+      font-weight: 850;
+    }
+    .segmented-control button[aria-pressed="true"],
+    .range-buttons button.active {
+      background: #fff;
+      color: var(--detail-navy);
+      box-shadow: 0 4px 12px rgba(22, 28, 45, .11);
+    }
+    .chart-wrap {
+      height: 300px;
+      position: relative;
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      background: #fbfcfe;
+      overflow: hidden;
+    }
+    canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    .empty-chart,
+    .empty {
+      display: grid;
+      min-height: 96px;
+      place-items: center;
+      color: var(--detail-muted);
+      text-align: center;
+      padding: 20px;
+      border: 1px dashed var(--detail-line);
+      border-radius: 8px;
+      background: #fbfcfe;
+    }
+    .empty-chart {
+      position: absolute;
+      inset: 0;
+      border: 0;
+      border-radius: 0;
+    }
+    .empty-chart[hidden] { display: none; }
+    .asset-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .asset-card {
+      overflow: hidden;
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--detail-ink);
+      cursor: pointer;
+      transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+    }
+    .asset-card:hover,
+    .asset-card:focus-visible {
+      border-color: var(--detail-navy);
+      box-shadow: 0 15px 34px rgba(22, 28, 45, .14);
+      outline: none;
+      transform: translateY(-2px);
+    }
+    .asset-media,
+    .detail-media {
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(165deg, rgba(255,255,255,.18), transparent 35%),
+        repeating-linear-gradient(8deg, rgba(255,255,255,.18) 0 1px, transparent 1px 12px),
+        linear-gradient(20deg, #354252 0 18%, #756f58 18% 38%, #c1a76f 38% 56%, #897b5b 56% 72%, #28384a 72%);
+    }
+    .asset-media {
+      aspect-ratio: 16 / 9;
+    }
+    .asset-media img {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+    .asset-name {
+      position: absolute;
+      z-index: 2;
+      left: 10px;
+      top: 10px;
+      max-width: calc(100% - 20px);
+      border-radius: 5px;
+      padding: 5px 9px;
+      background: rgba(45, 59, 88, .94);
+      color: #fff;
+      font-size: .82rem;
+      font-weight: 850;
+      letter-spacing: 0;
+    }
+    .asset-body {
+      padding: 12px;
+    }
+    .asset-location {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      min-height: 22px;
+      margin-bottom: 10px;
+      color: var(--detail-muted);
+      font-size: .82rem;
+      font-weight: 750;
+    }
+    .asset-location svg {
+      width: 16px;
+      height: 16px;
+      fill: none;
+      stroke: currentColor;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 2;
+    }
+    .asset-stats {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .mini-stat {
+      border-left: 3px solid var(--detail-navy);
+      padding-left: 8px;
+    }
+    .mini-stat span {
+      display: block;
+      color: var(--detail-muted);
+      font-size: .72rem;
+      font-weight: 850;
+      text-transform: uppercase;
+    }
+    .mini-stat strong {
+      display: block;
+      margin-top: 3px;
+      font-size: .88rem;
+      overflow-wrap: anywhere;
+    }
+    .asset-note {
+      margin: 12px 0 0;
+      color: var(--detail-muted);
+      font-size: .86rem;
+      line-height: 1.42;
+    }
+    .financials-table-wrap,
+    .table-wrap {
+      max-height: 344px;
+      overflow: auto;
+      margin-top: 16px;
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      background: #fff;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: auto;
+      background: #fff;
+      color: var(--detail-ink);
+      font-size: .88rem;
+    }
+    th,
+    td {
+      padding: 11px 12px;
+      border-bottom: 1px solid var(--detail-line);
+      text-align: left;
+      vertical-align: top;
+      line-height: 1.4;
+    }
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      width: auto;
+      background: #f8fafc;
+      color: var(--detail-muted);
+      font-size: .76rem;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+    tr:last-child th,
+    tr:last-child td { border-bottom: 0; }
+    .production-chart {
+      margin-top: 16px;
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      padding: 14px;
+      background: #fbfcfe;
+    }
+    .chart-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .chart-header span {
+      color: var(--detail-muted);
+      font-size: .78rem;
+      font-weight: 850;
+    }
+    .bar-row {
+      display: grid;
+      grid-template-columns: 76px 1fr minmax(74px, auto);
+      align-items: center;
+      gap: 10px;
+      margin: 10px 0;
+      font-size: .82rem;
+      font-weight: 850;
+    }
+    .bar-track {
+      height: 12px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #e8ebf0;
+    }
+    .bar-fill {
+      height: 100%;
+      border-radius: inherit;
+      background: var(--detail-navy);
+    }
+    .bar-fill.gold { background: #d3a72b; }
+    .bar-fill.silver { background: #9aa1ac; }
+    .bar-fill.copper { background: #b66a40; }
+    .bar-fill.zinc { background: #9b795f; }
+    .bar-fill.lead { background: #7f8792; }
+    .risk-summary {
+      display: grid;
+      gap: 14px;
+    }
+    .ai-summary {
+      padding: 14px;
+      border: 1px solid rgba(45, 59, 88, .18);
+      border-radius: 8px;
+      background: #fbfcfe;
+      color: var(--detail-ink);
+      line-height: 1.58;
+      font-weight: 650;
+    }
+    .risk-source {
+      display: grid;
+      gap: 10px;
+    }
+    .risk-source-text {
+      max-height: 260px;
+      overflow: auto;
+      margin: 0;
+      padding: 14px;
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      background: #fff;
+      color: #4e5560;
+      font: 13px/1.55 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      white-space: pre-wrap;
+    }
+    .research-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .research-card {
+      min-width: 0;
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      padding: 14px;
+      background: #fbfcfe;
+    }
+    .research-card.wide {
+      grid-column: 1 / -1;
+    }
+    .news-list,
+    .filings-list,
+    .source-list {
+      display: grid;
+      gap: 10px;
+    }
+    .news-item,
+    .filing-item,
+    .source-item {
+      display: grid;
+      gap: 5px;
+      padding: 12px;
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      background: #fff;
+    }
+    .news-item a,
+    .filing-item a,
+    .source-item a {
+      color: #213d63;
+      font-weight: 850;
+      line-height: 1.35;
+    }
+    .news-item p,
+    .source-item p {
+      margin: 2px 0 0;
+      color: var(--detail-muted);
+      font-size: .84rem;
+      line-height: 1.45;
+    }
+    .news-date,
+    .filing-meta {
+      color: var(--detail-muted);
+      font-size: .76rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+    .show-all-news {
+      width: fit-content;
+      margin-top: 12px;
+      display: inline-flex;
+      min-height: 34px;
+      align-items: center;
+      padding: 0 11px;
+      border: 1px solid var(--detail-line);
+      border-radius: 6px;
+      background: #fff;
+    }
+    .source-drawer {
+      position: fixed;
+      inset: 0;
+      z-index: 80;
+      display: none;
+      justify-content: flex-end;
+      background: rgba(13, 18, 28, .36);
+    }
+    .source-drawer.open {
+      display: flex;
+    }
+    .drawer-panel {
+      width: min(520px, 100%);
+      height: 100%;
+      overflow: auto;
+      border-left: 1px solid var(--detail-line);
+      background: #fff;
+      box-shadow: -18px 0 50px rgba(13, 18, 28, .18);
+    }
+    .drawer-head {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 20px;
+      border-bottom: 1px solid var(--detail-line);
+      background: rgba(255, 255, 255, .96);
+    }
+    .drawer-panel .source-list {
+      padding: 18px;
+    }
+    .asset-dialog {
+      width: min(840px, calc(100vw - 28px));
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      padding: 0;
+      background: #fff;
+      color: var(--detail-ink);
+      box-shadow: var(--detail-shadow);
+    }
+    .asset-dialog::backdrop {
+      background: rgba(13, 18, 28, .42);
+    }
+    .asset-detail {
+      display: grid;
+      grid-template-columns: minmax(220px, .75fr) minmax(300px, 1fr);
+      gap: 0;
+    }
+    .detail-media {
+      min-height: 100%;
+    }
+    .detail-media img {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      min-height: 320px;
+      display: block;
+      object-fit: cover;
+    }
+    .detail-copy {
+      padding: 20px;
+    }
+    .detail-copy h2 {
+      margin: 0;
+      color: var(--detail-ink);
+      font-size: 1.65rem;
+      line-height: 1.05;
+    }
+    .detail-copy p {
+      color: var(--detail-muted);
+      line-height: 1.48;
+    }
+    .detail-actions {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 18px;
+    }
+    .modal-backdrop {
+      background: rgba(13, 18, 28, .42);
+      z-index: 90;
+    }
+    .modal {
+      border-radius: 8px;
+      background: #fff;
+      color: var(--detail-ink);
+      box-shadow: var(--detail-shadow);
+    }
+    .modal-head {
+      background: rgba(255, 255, 255, .96);
+      border-bottom: 1px solid var(--detail-line);
+    }
+    .modal-title {
+      color: var(--detail-ink);
+      font-size: .9rem;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+    .management-list {
+      background: #f8fafc;
+      border-right: 1px solid var(--detail-line);
+    }
+    .person-button {
+      border-radius: 8px;
+      color: var(--detail-ink);
+    }
+    .person-button span {
+      color: var(--detail-muted);
+    }
+    .person-button.active {
+      border-color: rgba(45, 59, 88, .24);
+      background: #fff;
+      box-shadow: 0 8px 18px rgba(25, 33, 29, .08);
+    }
+    .management-detail h3 {
+      color: var(--detail-ink);
+    }
+    .management-detail .role {
+      color: var(--detail-navy);
+    }
+    .management-detail p {
+      color: #4e5560;
+    }
+    @media (max-width: 1120px) {
+      .dashboard {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "summary"
+          "portfolio"
+          "chart"
+          "financial"
+          "risk"
+          "research";
+      }
+      .asset-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    @media (max-width: 720px) {
+      .company-detail-page {
+        padding: 14px;
+      }
+      .research-header,
+      .portfolio-head,
+      .chart-toolbar,
+      .company-control-dock {
+        align-items: stretch;
+        flex-direction: column;
+      }
+      .top-actions {
+        align-self: flex-end;
+      }
+      .company-mark {
+        width: 48px;
+        height: 48px;
+      }
+      .summary-panel,
+      .main-panel,
+      .chart-panel,
+      .financial-panel,
+      .risk-panel,
+      .research-panel {
+        padding: 16px;
+      }
+      .company-controls {
+        justify-content: flex-start;
+      }
+      .company-select,
+      .company-search {
+        width: 100%;
+        max-width: none;
+      }
+      .fact-item {
+        grid-template-columns: 28px minmax(80px, .7fr) minmax(120px, 1fr);
+      }
+      .metric-strip,
+      .financial-grid,
+      .health-measure-grid,
+      .asset-grid,
+      .research-grid,
+      .asset-detail {
+        grid-template-columns: 1fr;
+      }
+      .bar-row {
+        grid-template-columns: 62px 1fr 64px;
+        gap: 8px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -558,128 +1395,190 @@
       </div>
     </div>
   </header>
-  <main class="page">
-    <header class="company-header">
-      <div>
-        <h1><span id="companyName"></span> <span class="ticker" id="ticker"></span></h1>
-        <div class="meta" id="companyMeta"></div>
-      </div>
-      <div class="header-actions">
-        <div class="pills" id="pills"></div>
-        <div class="company-controls" aria-label="Select company from Minerlytics universe">
-          <label class="company-control-label" for="tickerSelect">Miner Universe</label>
-          <select class="company-select" id="tickerSelect"></select>
-          <input class="company-search" id="tickerSearchInput" type="search" list="tickerSearchOptions" placeholder="Ticker or company" />
-          <datalist id="tickerSearchOptions"></datalist>
-          <button class="text-button" id="tickerSearchButton" type="button">Open</button>
+  <main class="page company-detail-page">
+    <header class="research-header">
+      <div class="brand-cluster">
+        <div class="company-mark" aria-hidden="true">
+          <span id="companyMark">--</span>
         </div>
+        <div>
+          <p class="eyebrow">Mining company research</p>
+          <h1><span id="companyName"></span> <span class="ticker" id="ticker"></span></h1>
+          <div class="meta" id="companyMeta"></div>
+        </div>
+      </div>
+      <div class="top-actions" aria-label="Company actions">
+        <button class="icon-button" id="sourceToggle" type="button" aria-label="View sources" title="View sources">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+        </button>
+        <a class="icon-button" id="headerWebsiteLink" href="#" target="_blank" rel="noopener" aria-label="Open company website" title="Open company website">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+        </a>
       </div>
     </header>
 
-    <section class="top-grid">
-      <section class="panel">
-        <div class="panel-head">
-          <div class="panel-title">Stock Price</div>
-          <div class="range-buttons" id="rangeButtons"></div>
-        </div>
-        <div class="panel-body">
-          <div class="chart-wrap">
-            <canvas id="priceChart" width="900" height="360"></canvas>
-            <div class="empty-chart" id="emptyChart" hidden>No stored price history is available for this company.</div>
-          </div>
-        </div>
-      </section>
-
-      <section class="panel">
-        <div class="panel-head">
-          <div class="panel-title">Company Summary</div>
-        </div>
-        <div class="panel-body">
-          <p class="summary-text" id="companySummary"></p>
-          <div class="summary-actions">
-            <div class="website-line">Website: <a id="websiteLink" target="_blank" rel="noopener"></a></div>
-            <div class="summary-link-line" id="managementTeamLine">Management Team: <a class="summary-link" id="managementTeamLink" href="#management-team">View leadership profiles</a></div>
-          </div>
-        </div>
-      </section>
+    <section class="company-control-dock">
+      <div class="pills" id="pills"></div>
+      <div class="company-controls" aria-label="Select company from Minerlytics universe">
+        <label class="company-control-label" for="tickerSelect">Miner Universe</label>
+        <select class="company-select" id="tickerSelect"></select>
+        <input class="company-search" id="tickerSearchInput" type="search" list="tickerSearchOptions" placeholder="Ticker or company" />
+        <datalist id="tickerSearchOptions"></datalist>
+        <button class="text-button" id="tickerSearchButton" type="button">Open</button>
+      </div>
     </section>
 
-    <details class="section-accordion">
-      <summary>
-        <span class="panel-title">Key Health Measure</span>
-        <span class="meta" id="keyHealthMeasureCount"></span>
-      </summary>
-      <div class="section-accordion-body">
+    <section class="dashboard">
+      <section class="summary-panel" aria-labelledby="overviewTitle">
+        <div class="section-heading">
+          <p class="eyebrow">Company overview</p>
+          <h2 id="overviewTitle">Company snapshot</h2>
+        </div>
+        <p class="summary-text" id="companySummary"></p>
+        <div class="summary-actions">
+          <div class="summary-link-line">Website: <a id="websiteLink" target="_blank" rel="noopener"></a></div>
+          <div class="summary-link-line" id="managementTeamLine">Management Team: <a class="summary-link" id="managementTeamLink" href="#management-team">View leadership profiles</a></div>
+        </div>
+        <div class="ticker-row" id="tickerRow"></div>
+        <dl class="fact-list" id="companyFacts"></dl>
+        <div class="metric-strip" id="marketMetrics"></div>
+      </section>
+
+      <section class="chart-panel" aria-labelledby="stockTitle">
+        <div class="chart-toolbar">
+          <div class="section-heading">
+            <p class="eyebrow">Market data</p>
+            <h2 id="stockTitle">Stock price</h2>
+          </div>
+          <div class="range-buttons" id="rangeButtons"></div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="priceChart" width="900" height="360"></canvas>
+          <div class="empty-chart" id="emptyChart" hidden>No stored price history is available for this company.</div>
+        </div>
+      </section>
+
+      <section class="financial-panel" aria-labelledby="financialTitle">
+        <div class="subsection-head">
+          <div class="section-heading">
+            <p class="eyebrow">Company health</p>
+            <h2 id="financialTitle">Financial and operating metrics</h2>
+          </div>
+          <span class="meta" id="keyHealthMeasureCount"></span>
+        </div>
         <p class="source-note" id="keyHealthMeasureNote">Metrics are selected from the company type framework and populated from the latest available company detail data.</p>
         <div id="keyHealthMeasures"></div>
-      </div>
-    </details>
-
-    <details class="section-accordion">
-      <summary>
-        <span class="panel-title">Financials</span>
-        <span class="meta" id="financialCount"></span>
-      </summary>
-      <div class="section-accordion-body">
+        <div class="production-chart" id="productionChart">
+          <div class="chart-header">
+            <h3>Produced metal</h3>
+            <span id="productionPeriod">Latest stored</span>
+          </div>
+          <div id="productionBars"></div>
+        </div>
+        <div class="subsection-head" style="margin-top:18px;">
+          <div class="section-heading">
+            <p class="eyebrow">SEC facts</p>
+            <h2>Latest financials</h2>
+          </div>
+          <span class="meta" id="financialCount"></span>
+        </div>
         <p class="source-note">Values are pulled from the latest stored SEC financial facts. Each row shows the report form, period end, filed date, and accession reference.</p>
         <div id="financials"></div>
-      </div>
-    </details>
+      </section>
 
-    <details class="section-accordion">
-      <summary>
-        <span class="panel-title">Risk Summary</span>
-        <span class="meta" id="riskSource"></span>
-      </summary>
-      <div class="section-accordion-body">
+      <section class="main-panel" aria-labelledby="portfolioTitle">
+        <div class="portfolio-head">
+          <div class="section-heading">
+            <p class="eyebrow">Asset portfolio</p>
+            <h2 id="portfolioTitle">Operations and projects</h2>
+            <div class="meta" id="projectCount"></div>
+          </div>
+          <div class="segmented-control" id="commodityFilters" aria-label="Filter assets by commodity"></div>
+        </div>
+        <div class="asset-grid" id="projects"></div>
+      </section>
+
+      <section class="risk-panel" aria-labelledby="riskTitle">
+        <div class="subsection-head">
+          <div class="section-heading">
+            <p class="eyebrow">Risk factors</p>
+            <h2 id="riskTitle">Risk summary</h2>
+          </div>
+          <span class="meta" id="riskSource"></span>
+        </div>
         <p class="source-note">AI summary generated from the latest stored SEC risk-factor text in company_Risks. Source text and filing reference are retained below.</p>
         <div id="riskSummary"></div>
-      </div>
-    </details>
-
-    <details class="section-accordion">
-      <summary>
-        <span class="panel-title">Mine Details</span>
-        <span class="meta" id="projectCount"></span>
-      </summary>
-      <div class="section-accordion-body">
-        <div class="accordion" id="projects"></div>
-      </div>
-    </details>
-
-    <section class="media-grid">
-      <section class="panel">
-        <div class="panel-head">
-          <div class="panel-title">Latest News</div>
-        </div>
-        <div class="panel-body">
-          <div class="news-list" id="newsList"></div>
-          <a class="show-all-news" id="newsLink" target="_blank" rel="noopener">Show all news</a>
-        </div>
       </section>
 
-      <section class="panel">
-        <div class="panel-head">
-          <div class="panel-title">YouTube Videos</div>
-          <div class="meta" id="youtubeVideoCount"></div>
+      <section class="research-panel" aria-labelledby="researchTitle">
+        <div class="section-heading">
+          <p class="eyebrow">Research feed</p>
+          <h2 id="researchTitle">News, filings, video, and analyst coverage</h2>
         </div>
-        <div class="panel-body">
-          <div class="news-list" id="youtubeVideos"></div>
-          <a class="show-all-news" id="youtubeLink" target="_blank" rel="noopener">Open YouTube search</a>
-        </div>
-      </section>
-
-      <section class="panel">
-        <div class="panel-head">
-          <div class="panel-title">SEC Filings</div>
-          <div class="meta" id="secFilingCount"></div>
-        </div>
-        <div class="panel-body">
-          <div class="filings-list" id="secFilings"></div>
+        <div class="research-grid">
+          <section class="research-card">
+            <div class="subsection-head">
+              <h3>Latest news</h3>
+            </div>
+            <div class="news-list" id="newsList"></div>
+            <a class="show-all-news" id="newsLink" target="_blank" rel="noopener">Show all news</a>
+          </section>
+          <section class="research-card">
+            <div class="subsection-head">
+              <h3>YouTube videos</h3>
+              <span class="meta" id="youtubeVideoCount"></span>
+            </div>
+            <div class="news-list" id="youtubeVideos"></div>
+            <a class="show-all-news" id="youtubeLink" target="_blank" rel="noopener">Open YouTube search</a>
+          </section>
+          <section class="research-card">
+            <div class="subsection-head">
+              <h3>SEC filings</h3>
+              <span class="meta" id="secFilingCount"></span>
+            </div>
+            <div class="filings-list" id="secFilings"></div>
+          </section>
+          <section class="research-card">
+            <div class="subsection-head">
+              <h3>Analyst roster</h3>
+              <span class="meta" id="analystCount"></span>
+            </div>
+            <div id="analystCoverage"></div>
+          </section>
         </div>
       </section>
     </section>
   </main>
+
+  <aside class="source-drawer" id="sourceDrawer" aria-label="Research sources" aria-hidden="true">
+    <div class="drawer-panel">
+      <div class="drawer-head">
+        <div>
+          <p class="eyebrow">Research trail</p>
+          <h2>Sources</h2>
+        </div>
+        <button class="icon-button" id="closeSources" type="button" aria-label="Close sources" title="Close sources">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="source-list" id="sourceList"></div>
+    </div>
+  </aside>
+
+  <dialog class="asset-dialog" id="projectDialog">
+    <div class="asset-detail" id="projectDetail"></div>
+  </dialog>
 
   <div class="modal-backdrop" id="managementModal" hidden>
     <section class="modal" role="dialog" aria-modal="true" aria-labelledby="managementModalTitle">
@@ -1749,6 +2648,189 @@
 
     let company = companyFromTicker(selectedTicker());
 
+    const SUPPLEMENTAL_COMPANY_DATA = {
+      CDE: {
+        country: "United States",
+        exchange: "NYSE",
+        homepageUrl: "https://www.coeur.com",
+        headquarters: "Chicago, Illinois",
+        status: "Public",
+        tickers: ["NYSE: CDE", "TSX: CDE"],
+        commodities: ["Silver", "Gold", "Copper", "Zinc", "Lead"],
+        fiscalPeriod: "Q1 2026",
+        latestFiling: "Form 10-Q for quarter ended March 31, 2026",
+        supplementalFinancials: [
+          { label: "Adjusted EBITDA", value: "$187.4M", note: "Non-GAAP measure, Q1 2026" },
+          { label: "Free Cash Flow", value: "$148.2M", note: "Operating cash flow less capital expenditures, Q1 2026" },
+          { label: "Capital Expenditures", value: "$55.9M", note: "Q1 2026 consolidated capex" }
+        ],
+        supplementalProduction: [
+          { commodity: "Silver", value: 6077000, display: "6.08M oz", className: "silver", period: "Q1 2026" },
+          { commodity: "Gold", value: 92615, display: "92.6K oz", className: "gold", period: "Q1 2026" },
+          { commodity: "Copper", value: 1360000, display: "1.36M lb", className: "copper", period: "Q1 2026" }
+        ],
+        projects: [
+          {
+            name: "Las Chispas",
+            location: "Sonora, Mexico",
+            status: "Operating mine",
+            commodities: ["Silver", "Gold"],
+            image: "https://miningmexico.com/wp-content/uploads/2023/01/SilverCrest-Metals-Las-Chispas-Mining-Mexico-960x457.jpeg",
+            q1FreeCashFlow: "$76.2M",
+            q1Production: "1.48M oz Ag, 15.0K oz Au",
+            note: "Added through the SilverCrest acquisition; the mine was Coeur's largest Q1 2026 free cash flow contributor after Rainy River."
+          },
+          {
+            name: "Rainy River",
+            location: "Ontario, Canada",
+            status: "Operating mine",
+            commodities: ["Gold", "Silver"],
+            image: "https://magazine.cim.org/media/3019542/rainy-river-recap-1.png?anchor=center&height=480&mode=crop&rnd=133749464670000000&width=768",
+            q1FreeCashFlow: "$83.6M",
+            q1Production: "12.5K oz Au, 19K oz Ag",
+            note: "Acquired from New Gold; Q1 2026 results reflect only the post-acquisition stub period in Coeur's report."
+          },
+          {
+            name: "Palmarejo",
+            location: "Chihuahua, Mexico",
+            status: "Operating mine",
+            commodities: ["Silver", "Gold"],
+            q1FreeCashFlow: "$64.3M",
+            q1Production: "1.48M oz Ag, 22.9K oz Au",
+            note: "Underground silver-gold operation and a core legacy asset in Coeur's portfolio."
+          },
+          {
+            name: "Rochester",
+            location: "Nevada, United States",
+            status: "Operating mine",
+            commodities: ["Silver", "Gold"],
+            q1FreeCashFlow: "$8.4M",
+            q1Production: "1.40M oz Ag, 11.8K oz Au",
+            note: "Open-pit heap leach operation; 2026 guidance calls for 8.0-9.2M silver ounces and 50.0-56.0K gold ounces."
+          },
+          {
+            name: "Kensington",
+            location: "Alaska, United States",
+            status: "Operating mine",
+            commodities: ["Gold"],
+            q1FreeCashFlow: "$12.2M",
+            q1Production: "25.0K oz Au",
+            note: "Underground gold operation with Q1 production above the prior-year period."
+          },
+          {
+            name: "Wharf",
+            location: "South Dakota, United States",
+            status: "Operating mine",
+            commodities: ["Gold", "Silver"],
+            q1FreeCashFlow: "$4.3M",
+            q1Production: "3.7K oz Au, 19K oz Ag",
+            note: "Open-pit heap leach gold operation in the northern Black Hills."
+          },
+          {
+            name: "New Afton",
+            location: "British Columbia, Canada",
+            status: "Operating mine",
+            commodities: ["Copper", "Gold", "Silver"],
+            q1FreeCashFlow: "$24.6M",
+            q1Production: "1.36M lb Cu, 1.7K oz Au",
+            note: "Acquired from New Gold; Coeur reports a post-acquisition stub period for Q1 2026."
+          },
+          {
+            name: "Silvertip",
+            location: "British Columbia, Canada",
+            status: "Project",
+            commodities: ["Zinc", "Lead", "Silver"],
+            q1FreeCashFlow: "n/a",
+            q1Production: "Development project",
+            note: "High-grade silver-zinc-lead project listed by Coeur separately from operating mine production."
+          }
+        ],
+        analystCoverage: [
+          ["BMO Capital Markets", "Kevin O'Halloran"],
+          ["Canaccord Genuity", "Dalton Baretto"],
+          ["Cantor Fitzgerald", "Mike Kozak"],
+          ["CIBC Capital Markets", "Cosmos Chiu"],
+          ["Cormark Securities", "Richard Gray"],
+          ["National Bank Financial", "Alex Terentiew"],
+          ["Raymond James", "Brian MacArthur"],
+          ["RBC Capital Markets", "Michael Siperco"],
+          ["Roth Capital Partners", "Joe Reagor"],
+          ["Scotiabank", "Ovais Habib"],
+          ["TD Cowen", "Craig Hutchison"]
+        ],
+        sources: [
+          {
+            title: "Coeur Mining Q1 2026 results exhibit filed with SEC",
+            url: "https://www.sec.gov/Archives/edgar/data/215466/000021546626000021/a1q26earningsreleaseex-991.htm",
+            note: "Supplemental source for Q1 operating metrics, adjusted EBITDA, free cash flow, capex, and produced metal."
+          },
+          {
+            title: "Coeur Mining Form 10-Q for quarter ended March 31, 2026",
+            url: "https://www.sec.gov/Archives/edgar/data/215466/000021546626000019/cde-20260331.htm",
+            note: "Supplemental source for the most recent quarterly filing packet."
+          },
+          {
+            title: "Coeur Mining analyst coverage page",
+            url: "https://www.coeur.com/investors/analyst-coverage/default.aspx",
+            note: "Supplemental source for sell-side firm and analyst names."
+          },
+          {
+            title: "TMX bulletin: Coeur Mining begins TSX trading as CDE",
+            url: "https://www.tmx.com/news/new-company-listings?id=613",
+            note: "Supplemental source for the current TSX ticker."
+          }
+        ]
+      }
+    };
+
+    const icons = {
+      tag: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.6 13.6 12 22.2 2 12.2V2.2h10l8.6 8.6a2 2 0 0 1 0 2.8Z"></path><circle cx="7.5" cy="7.5" r="1.6"></circle></svg>',
+      flag: '<svg viewBox="0 0 24 24" aria-hidden="true"><line x1="5" y1="22" x2="5" y2="2"></line><path d="M5 4h14l-2 5 2 5H5"></path></svg>',
+      gem: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12l4 6-10 12L2 9Z"></path><path d="M2 9h20"></path><path d="m6 3 6 18 6-18"></path></svg>',
+      menu: '<svg viewBox="0 0 24 24" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"></line><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="17" x2="20" y2="17"></line></svg>',
+      external: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>',
+      file: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"></path><path d="M14 2v6h6"></path><path d="M8 13h8"></path><path d="M8 17h5"></path></svg>',
+      pin: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>',
+      users: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>'
+    };
+
+    const METAL_CODE_LABELS = {
+      au: "Gold",
+      ag: "Silver",
+      cu: "Copper",
+      zn: "Zinc",
+      pb: "Lead",
+      ni: "Nickel",
+      li: "Lithium",
+      u: "Uranium",
+      pgm: "PGM"
+    };
+
+    function applySupplementalCompanyData() {
+      const supplemental = SUPPLEMENTAL_COMPANY_DATA[normalizeTicker(company.symbol)];
+      if (!supplemental) return;
+      company = {
+        ...company,
+        exchange: supplemental.exchange || company.exchange || "",
+        country: supplemental.country || company.country || "",
+        homepageUrl: company.homepageUrl || supplemental.homepageUrl || "",
+        newsUrl: company.newsUrl || supplemental.newsUrl || supplemental.homepageUrl || "",
+        headquarters: supplemental.headquarters || company.headquarters || "",
+        status: supplemental.status || company.status || "",
+        tickers: supplemental.tickers || company.tickers || [],
+        commodities: supplemental.commodities || company.commodities || [],
+        fiscalPeriod: supplemental.fiscalPeriod || company.fiscalPeriod || "",
+        latestFiling: supplemental.latestFiling || company.latestFiling || "",
+        analystCoverage: supplemental.analystCoverage || company.analystCoverage || [],
+        supplementalFinancials: supplemental.supplementalFinancials || [],
+        supplementalProduction: supplemental.supplementalProduction || [],
+        supplementalProjects: supplemental.projects || [],
+        supplementalSources: supplemental.sources || []
+      };
+    }
+
+    applySupplementalCompanyData();
+
     const ranges = [
       { label: "1W", days: 7 },
       { label: "1M", days: 31 },
@@ -1765,6 +2847,260 @@
 
     function setText(id, value) {
       document.getElementById(id).textContent = value || "";
+    }
+
+    function asClass(value) {
+      return String(value || "other").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "other";
+    }
+
+    function uniqueValues(values) {
+      const seen = new Set();
+      return values
+        .flatMap(value => Array.isArray(value) ? value : [value])
+        .map(value => String(value || "").trim())
+        .filter(Boolean)
+        .filter(value => {
+          const key = value.toLowerCase();
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        });
+    }
+
+    function titleCase(value) {
+      return formatLabel(value)
+        .replace(/\s+/g, " ")
+        .trim()
+        .replace(/\b\w/g, letter => letter.toUpperCase());
+    }
+
+    function splitCommodityText(value) {
+      return String(value || "")
+        .replace(/gold_silver/gi, "gold, silver")
+        .split(/[,/|]+|\band\b/gi)
+        .map(item => item.trim())
+        .filter(Boolean)
+        .map(item => METAL_CODE_LABELS[item.toLowerCase()] || titleCase(item));
+    }
+
+    function projectCommodities(project) {
+      const values = [
+        project.commodities,
+        project.commodity,
+        project.primaryMetal,
+        project.primary_metal,
+        project.metal,
+        project.metalFocus,
+        project.miningCommodity
+      ];
+      const ownership = String(project.ownership || "");
+      const primaryMatch = ownership.match(/Primary metal:\s*([a-z]+)/i);
+      const streamMatch = ownership.match(/Stream:\s*([a-z]+)/i);
+      if (primaryMatch) values.push(METAL_CODE_LABELS[primaryMatch[1].toLowerCase()] || primaryMatch[1]);
+      if (streamMatch) values.push(METAL_CODE_LABELS[streamMatch[1].toLowerCase()] || streamMatch[1]);
+      const labels = uniqueValues(values.flatMap(splitCommodityText));
+      return labels.length ? labels : splitCommodityText(company.metalFocus || "Mining");
+    }
+
+    function normalizedProjectName(value) {
+      return String(value || "")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, " ")
+        .replace(/\b(project|mine|operation|deposit)\b/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    function enrichProjectsWithSupplemental() {
+      const supplemental = company.supplementalProjects || [];
+      if (!supplemental.length) return;
+      const extrasByName = new Map(supplemental.map(project => [normalizedProjectName(project.name), project]));
+      const used = new Set();
+      const mergedProjects = (company.projects || []).map(project => {
+        const key = normalizedProjectName(project.projectName);
+        const extra = extrasByName.get(key);
+        if (!extra) return project;
+        used.add(key);
+        const extractedStatus = project.status && extra.status && project.status !== extra.status ? project.status : "";
+        return {
+          ...project,
+          location: extra.location || project.location || "",
+          status: extra.status || project.status || "",
+          commodities: extra.commodities || project.commodities || [],
+          image: extra.image || project.image || "",
+          q1FreeCashFlow: extra.q1FreeCashFlow || project.q1FreeCashFlow || "",
+          q1Production: extra.q1Production || project.q1Production || "",
+          supplementalNote: extra.note || project.supplementalNote || "",
+          extractedStatus
+        };
+      });
+      supplemental.forEach(extra => {
+        const key = normalizedProjectName(extra.name);
+        if (used.has(key)) return;
+        mergedProjects.push({
+          symbol: company.symbol,
+          companyName: company.companyName,
+          projectName: extra.name,
+          description: extra.note || "",
+          location: extra.location || "",
+          status: extra.status || "",
+          commodities: extra.commodities || [],
+          image: extra.image || "",
+          q1FreeCashFlow: extra.q1FreeCashFlow || "",
+          q1Production: extra.q1Production || "",
+          supplementalNote: extra.note || "",
+          sourceType: "Bruno supplemental company research"
+        });
+      });
+      company.projects = mergedProjects;
+    }
+
+    function renderTags(values, extraClass = "") {
+      return uniqueValues(values).map(value => `<span class="tag ${extraClass || asClass(value)}">${escapeHtml(value)}</span>`).join("");
+    }
+
+    function companyTickerLabels() {
+      return uniqueValues([
+        company.tickers,
+        company.exchange && company.symbol ? `${company.exchange}: ${company.symbol}` : "",
+        company.yahooSymbol && company.yahooSymbol !== company.symbol ? `Yahoo: ${company.yahooSymbol}` : ""
+      ]);
+    }
+
+    function companyCommodityLabels() {
+      return uniqueValues([
+        company.commodities,
+        splitCommodityText(company.metalFocus),
+        Object.keys(company.productionByMetal || {}).map(titleCase),
+        (company.projects || []).flatMap(projectCommodities)
+      ]);
+    }
+
+    function latestFilingLabel() {
+      if (company.latestFiling) return company.latestFiling;
+      const filing = latestByDate(company.secFilings || []);
+      if (filing) {
+        return [filing.form || filing.description || "SEC filing", filing.filingDate ? `filed ${filing.filingDate}` : ""]
+          .filter(Boolean)
+          .join(" · ");
+      }
+      const fact = latestByDate(company.financials || []);
+      if (fact) {
+        return [fact.form || "SEC fact", fact.periodEnd ? `period ${fact.periodEnd}` : "", fact.filedDate ? `filed ${fact.filedDate}` : ""]
+          .filter(Boolean)
+          .join(" · ");
+      }
+      return "Not available";
+    }
+
+    function factRow({ icon, label, html, value }) {
+      const content = html || escapeHtml(value || "Not available");
+      return `
+        <div class="fact-item">
+          <dt class="fact-icon">${icons[icon] || ""}</dt>
+          <dd class="fact-label">${escapeHtml(label)}</dd>
+          <dd class="fact-value">${content}</dd>
+        </div>
+      `;
+    }
+
+    function renderCompanyFacts() {
+      const tickers = companyTickerLabels();
+      const commodities = companyCommodityLabels();
+      document.getElementById("tickerRow").innerHTML = tickers.map(ticker => `<span class="exchange-pill">${escapeHtml(ticker)}</span>`).join("");
+      document.getElementById("companyFacts").innerHTML = [
+        factRow({ icon: "tag", label: "Ticker", html: tickers.map(ticker => `<span>${escapeHtml(ticker)}</span>`).join("") || escapeHtml(company.symbol) }),
+        factRow({ icon: "flag", label: "Country", html: renderTags([company.country || "Not available"], "country") }),
+        factRow({ icon: "pin", label: "Headquarters", value: company.headquarters || company.country || "Not available" }),
+        factRow({ icon: "gem", label: "Commodities", html: renderTags(commodities.length ? commodities : [commodityLabel()]) }),
+        factRow({ icon: "menu", label: "Status", html: renderTags([company.status || titleCase(company.companyType || "Not available")], "status") }),
+        factRow({
+          icon: "external",
+          label: "Website",
+          html: company.homepageUrl
+            ? `<a href="${escapeHtml(company.homepageUrl)}" target="_blank" rel="noopener">${escapeHtml(company.homepageUrl.replace(/^https?:\/\//, "").replace(/\/$/, ""))}</a>`
+            : "Not available"
+        }),
+        factRow({ icon: "file", label: "SEC packet", value: latestFilingLabel() }),
+        factRow({ icon: "users", label: "Leadership", value: `${(company.managementTeam || []).length} profiles` })
+      ].join("");
+    }
+
+    function formatCompactCurrency(value, unit = "USD") {
+      const numeric = Number(value);
+      if (!Number.isFinite(numeric)) return "Not available";
+      const sign = numeric < 0 ? "-" : "";
+      const abs = Math.abs(numeric);
+      const prefix = unit === "USD" || !unit ? "$" : `${unit} `;
+      if (abs >= 1_000_000_000) return `${sign}${prefix}${(abs / 1_000_000_000).toFixed(2)}B`;
+      if (abs >= 1_000_000) return `${sign}${prefix}${(abs / 1_000_000).toFixed(1)}M`;
+      return `${sign}${prefix}${abs.toLocaleString(undefined, { maximumFractionDigits: 2 })}`;
+    }
+
+    function formatPercent(value) {
+      const numeric = Number(value);
+      if (!Number.isFinite(numeric)) return "Not available";
+      return `${numeric >= 0 ? "+" : ""}${numeric.toFixed(2)}%`;
+    }
+
+    function latestPricePoint() {
+      const points = (company.prices || []).filter(point => Number.isFinite(Number(point.close)));
+      return points.length ? points[points.length - 1] : null;
+    }
+
+    function priceReturn(days) {
+      const points = (company.prices || []).filter(point => Number.isFinite(Number(point.close)));
+      if (points.length < 2) return null;
+      const last = points[points.length - 1];
+      const cutoff = new Date(last.date + "T00:00:00");
+      cutoff.setDate(cutoff.getDate() - days);
+      const first = points.find(point => new Date(point.date + "T00:00:00") >= cutoff) || points[0];
+      const firstClose = Number(first.close);
+      const lastClose = Number(last.close);
+      if (!Number.isFinite(firstClose) || !Number.isFinite(lastClose) || firstClose === 0) return null;
+      return ((lastClose - firstClose) / firstClose) * 100;
+    }
+
+    function renderMarketMetrics() {
+      const strip = document.getElementById("marketMetrics");
+      const latest = latestPricePoint();
+      const shares = findFinancialFact(["shares outstanding", "weighted average number of shares"]);
+      const shareValue = shares ? Number(shares.value) : null;
+      const latestClose = latest ? Number(latest.close) : Number(company.marketSource?.latestClose);
+      const marketCap = Number.isFinite(shareValue) && Number.isFinite(latestClose)
+        ? shareValue * latestClose
+        : null;
+      const sixMonthReturn = priceReturn(186);
+      const metrics = [
+        {
+          label: "Market cap",
+          value: Number.isFinite(marketCap) ? formatCompactCurrency(marketCap) : "Not available",
+          note: Number.isFinite(marketCap) ? "Estimated from latest close and stored share count" : "Share count or latest close not available"
+        },
+        {
+          label: "Latest close",
+          value: Number.isFinite(latestClose) ? `$${latestClose.toFixed(2)}` : "Not available",
+          note: latest?.date ? `Market data through ${latest.date}` : "Stored price history"
+        },
+        {
+          label: "6M stock",
+          value: formatPercent(sixMonthReturn),
+          tone: sixMonthReturn === null ? "" : (sixMonthReturn >= 0 ? "positive" : "negative"),
+          note: "Calculated from stored close prices"
+        },
+        {
+          label: "Shares out",
+          value: Number.isFinite(shareValue) ? shareValue.toLocaleString(undefined, { maximumFractionDigits: 0 }) : "Not available",
+          note: shares ? `${shares.form || "SEC fact"} · period ${shares.periodEnd || "n/a"}` : "Stored SEC fact"
+        }
+      ];
+      strip.innerHTML = metrics.map(metric => `
+        <article class="market-card">
+          <p class="metric-label">${escapeHtml(metric.label)}</p>
+          <p class="metric-value ${metric.tone || ""}">${escapeHtml(metric.value)}</p>
+          <p class="metric-note">${escapeHtml(metric.note)}</p>
+        </article>
+      `).join("");
     }
 
     function initTickerControls() {
@@ -1801,10 +3137,12 @@
     }
 
     function initHeader() {
+      setText("companyMark", company.symbol);
       setText("companyName", company.companyName);
       setText("ticker", `(${company.symbol})`);
       const metaParts = [company.exchange, company.country, `Yahoo: ${company.yahooSymbol || company.symbol}`].filter(Boolean);
       setText("companyMeta", metaParts.join(" · "));
+      setText("overviewTitle", company.companyName || "Company snapshot");
       document.getElementById("pills").innerHTML = [company.metalFocus, company.companyType]
         .filter(Boolean)
         .map(value => `<span class="pill">${formatLabel(value)}</span>`)
@@ -1813,12 +3151,20 @@
       const website = document.getElementById("websiteLink");
       website.href = company.homepageUrl || "#";
       website.textContent = company.homepageUrl || "Not available";
+      const headerWebsite = document.getElementById("headerWebsiteLink");
+      headerWebsite.href = company.homepageUrl || "#";
+      headerWebsite.toggleAttribute("aria-disabled", !company.homepageUrl);
       const managementLine = document.getElementById("managementTeamLine");
       const managementLink = document.getElementById("managementTeamLink");
       managementLine.hidden = !(company.managementTeam || []).length;
-      managementLink.addEventListener("click", openManagementModal);
+      if (!managementLink.dataset.bound) {
+        managementLink.addEventListener("click", openManagementModal);
+        managementLink.dataset.bound = "true";
+      }
       document.getElementById("newsLink").href = company.newsUrl || (rssTools?.googleRssUrl && company.newsQuery ? rssTools.googleRssUrl(company.newsQuery) : company.homepageUrl) || "#";
       document.getElementById("youtubeLink").href = company.youtubeUrl || "#";
+      renderCompanyFacts();
+      renderMarketMetrics();
     }
 
     function newsDateValue(item) {
@@ -1959,6 +3305,51 @@
         }
       } catch (error) {
         console.warn("Company management request failed; using embedded team fallback.", error);
+      }
+    }
+
+    async function loadCompanyDetailContext() {
+      try {
+        const response = await fetchWithTimeout(API_BASE + "/api/company-detail?ticker=" + encodeURIComponent(company.symbol), {
+          headers: { accept: "application/json" },
+          cache: "no-store"
+        }, 10000);
+        if (!response.ok) throw new Error("Company detail request failed: " + response.status);
+        const payload = await response.json();
+        if (!payload?.ok) return;
+
+        if (payload.market?.points?.length && !(company.prices || []).length) {
+          company.prices = payload.market.points
+            .map(point => ({
+              date: point.date || point.timestamp || "",
+              close: Number(point.close),
+              volume: Number(point.volume)
+            }))
+            .filter(point => point.date && Number.isFinite(point.close))
+            .sort((a, b) => String(a.date).localeCompare(String(b.date)));
+        }
+
+        const latest = payload.filing_excerpts?.latest || [];
+        if (latest.length && !(company.secFilings || []).length) {
+          company.secFilings = latest.map(filing => ({
+            form: filing.form || "",
+            filingDate: filing.filing_date || "",
+            reportDate: "",
+            accessionNumber: filing.accession_number || "",
+            description: filing.heading || filing.form || "SEC filing",
+            filingUrl: filing.url || filing.primary_document || "",
+            documentUrl: filing.primary_document || filing.url || "",
+            sourceText: filing.text || ""
+          }));
+        }
+
+        company.detailSource = {
+          label: "Company detail endpoint",
+          endpoint: "/api/company-detail",
+          source: "Minerlytics disclosure context"
+        };
+      } catch (error) {
+        console.warn("Company detail context request failed; using specialized company detail loaders.", error);
       }
     }
 
@@ -2164,6 +3555,7 @@
 
       emptyChart.textContent = "No stored price history is available for this company.";
       drawChart();
+      renderMarketMetrics();
     }
 
     function filteredPrices() {
@@ -2260,10 +3652,14 @@
         ["Ownership", project.ownership || "Not available"],
         ["Location", project.location || "Not available"],
         ["Status", project.status || "Not available"],
+        ["Website Extracted Status", project.extractedStatus || "Not available"],
         ["Mining Style", project.miningStyle || "Not available"],
+        ["Q1 Free Cash Flow", project.q1FreeCashFlow || "Not available"],
+        ["Q1 Production", project.q1Production || "Not available"],
         ["Measured & Indicated Resources", project.miResources || "Not available"],
         ["Inferred Resources", project.inferredResources || "Not available"],
         ["AI Geology Summary", project.geologySummary || "Not available"],
+        ["Supplemental Asset Note", project.supplementalNote || "Not available"],
         ["NI 43-101 Documents", reports]
       ];
       return `<table>${rows.map(([label, value]) => {
@@ -2424,9 +3820,10 @@
         && (!apiProjects.length || !apiUsesMineDetails || staticProjects.length > apiProjects.length);
 
       company.projects = useStaticProjects ? staticProjects : apiProjects;
+      enrichProjectsWithSupplemental();
       company.projectSource = {
         label: "Website mine details",
-        endpoint: useStaticProjects ? "/data/website-mine-details.json" : "/api/company-projects",
+        endpoint: useStaticProjects ? "/website-mine-details.json" : "/api/company-projects",
         source: useStaticProjects ? "Website_mine_details static fallback" : (payload?.source || "Website_mine_details")
       };
     }
@@ -2702,12 +4099,43 @@
 
     function initFinancials() {
       const facts = company.financials || [];
-      setText("financialCount", `${facts.length} metrics`);
+      const supplemental = company.supplementalFinancials || [];
+      setText("financialCount", `${facts.length + supplemental.length} metrics`);
       const container = document.getElementById("financials");
-      if (!facts.length) {
+      if (!facts.length && !supplemental.length) {
         container.innerHTML = '<div class="empty">No stored SEC financial facts are available for this company.</div>';
         return;
       }
+
+      const preferredTerms = [
+        ["revenue"],
+        ["net income", "profit loss"],
+        ["operating cash flow", "net cash provided by used in operating"],
+        ["capital expenditures", "payments to acquire property"],
+        ["cash"],
+        ["assets"]
+      ];
+      const selectedFacts = [];
+      preferredTerms.forEach(terms => {
+        const fact = findFinancialFact(terms);
+        if (!fact) return;
+        const key = `${fact.metric || ""}|${fact.accessionNumber || ""}|${fact.periodEnd || ""}`;
+        if (selectedFacts.some(item => `${item.metric || ""}|${item.accessionNumber || ""}|${item.periodEnd || ""}` === key)) return;
+        selectedFacts.push(fact);
+      });
+      const financialCards = [
+        ...supplemental.map(metric => ({
+          label: metric.label,
+          value: metric.value,
+          note: metric.note || "Supplemental company research detail"
+        })),
+        ...selectedFacts.map(fact => ({
+          label: fact.metric,
+          value: formatFinancialValue(fact),
+          note: `${fact.form || "Report"} · period ${fact.periodEnd || "n/a"} · filed ${fact.filedDate || "n/a"}`
+        }))
+      ];
+
       container.innerHTML = `
         ${company.financialSource ? `
           <div class="meta" style="margin-bottom:10px;">
@@ -2715,24 +4143,39 @@
             ${company.financialSource.asOf ? ` · refreshed ${escapeHtml(formatNewsDate(company.financialSource.asOf))}` : ""}
           </div>
         ` : ""}
-        <table class="financial-table">
-          <thead>
-            <tr>
-              <th>Metric</th>
-              <th>Value</th>
-              <th>Report / Date</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${facts.map(fact => `
-              <tr>
-                <td><strong>${fact.metric}</strong><div class="meta">${fact.factLabel || fact.factName}</div></td>
-                <td>${formatFinancialValue(fact)}</td>
-                <td>${reportReference(fact)}</td>
-              </tr>
+        ${financialCards.length ? `
+          <div class="financial-grid">
+            ${financialCards.map(metric => `
+              <article class="financial-card">
+                <p class="metric-label">${escapeHtml(metric.label)}</p>
+                <p class="metric-value">${escapeHtml(metric.value)}</p>
+                <p class="metric-note">${escapeHtml(metric.note)}</p>
+              </article>
             `).join("")}
-          </tbody>
-        </table>
+          </div>
+        ` : ""}
+        ${facts.length ? `
+          <div class="financials-table-wrap">
+            <table class="financial-table">
+              <thead>
+                <tr>
+                  <th>Metric</th>
+                  <th>Value</th>
+                  <th>Report / Date</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${facts.map(fact => `
+                  <tr>
+                    <td><strong>${escapeHtml(fact.metric)}</strong><div class="meta">${escapeHtml(fact.factLabel || fact.factName)}</div></td>
+                    <td>${escapeHtml(formatFinancialValue(fact))}</td>
+                    <td>${reportReference(fact)}</td>
+                  </tr>
+                `).join("")}
+              </tbody>
+            </table>
+          </div>
+        ` : ""}
       `;
     }
 
@@ -2761,27 +4204,335 @@
       `;
     }
 
+    function productionBarItems() {
+      const byMetal = company.productionByMetal || {};
+      const liveItems = Object.entries(byMetal).flatMap(([metal, record]) => {
+        const ounces = Number(record?.ounces);
+        if (!Number.isFinite(ounces)) return [];
+        const commodity = METAL_CODE_LABELS[metal.toLowerCase()] || titleCase(metal);
+        return [{
+          commodity,
+          value: ounces,
+          display: formatNumberValue(ounces, "oz"),
+          className: asClass(commodity),
+          period: record.latest_report_date || record.reportDate || record.report_date || record.latest_filing_date || ""
+        }];
+      });
+      return liveItems.length ? liveItems : (company.supplementalProduction || []);
+    }
+
+    function renderProductionBars() {
+      const chart = document.getElementById("productionChart");
+      const target = document.getElementById("productionBars");
+      const items = productionBarItems();
+      if (!items.length) {
+        chart.hidden = true;
+        target.innerHTML = "";
+        return;
+      }
+      chart.hidden = false;
+      const max = Math.max(...items.map(item => Number(item.value) || 0), 1);
+      const period = uniqueValues(items.map(item => item.period)).filter(Boolean)[0] || "Latest stored";
+      setText("productionPeriod", period);
+      target.innerHTML = items.map(item => `
+        <div class="bar-row">
+          <span>${escapeHtml(item.commodity)}</span>
+          <div class="bar-track">
+            <div class="bar-fill ${escapeHtml(item.className || asClass(item.commodity))}" style="width: ${Math.max(((Number(item.value) || 0) / max) * 100, 8)}%"></div>
+          </div>
+          <span>${escapeHtml(item.display || formatNumberValue(item.value))}</span>
+        </div>
+      `).join("");
+    }
+
+    let selectedCommodityFilter = "All";
+
+    function renderCommodityFilters() {
+      const target = document.getElementById("commodityFilters");
+      const filters = ["All", ...uniqueValues((company.projects || []).flatMap(projectCommodities)).slice(0, 10)];
+      if (filters.length <= 1) {
+        target.innerHTML = "";
+        return;
+      }
+      if (!filters.includes(selectedCommodityFilter)) selectedCommodityFilter = "All";
+      target.innerHTML = filters.map(filter => `
+        <button type="button" data-filter="${escapeHtml(filter)}" aria-pressed="${filter === selectedCommodityFilter}">
+          ${escapeHtml(filter)}
+        </button>
+      `).join("");
+    }
+
+    function projectMetaValue(project, fields, fallback = "Not available") {
+      for (const field of fields) {
+        if (project[field]) return project[field];
+      }
+      return fallback;
+    }
+
     function initProjects() {
       setText("projectCount", `${(company.projects || []).length} mine details`);
       const container = document.getElementById("projects");
       if (!(company.projects || []).length) {
         container.innerHTML = '<div class="empty">No website mine detail rows have been loaded for this company yet.</div>';
+        document.getElementById("commodityFilters").innerHTML = "";
         return;
       }
-      container.innerHTML = (company.projects || []).map((project, index) => `
-        <details>
-          <summary>
-            <span>${escapeHtml(project.projectName)}</span>
-            <span class="meta">${escapeHtml(project.location || "")}</span>
-          </summary>
-          <div class="project-body">
-            ${company.projectSource ? `<div class="meta">Source: ${escapeHtml(company.projectSource.label)}${project.retrievedAt ? ` · retrieved ${escapeHtml(formatNewsDate(project.retrievedAt))}` : ""}</div>` : ""}
-            <p class="project-description">${escapeHtml(project.description || "No website project description has been stored yet.")}</p>
-            ${project.projectUrl ? `<p class="meta"><a href="${escapeHtml(project.projectUrl)}" target="_blank" rel="noopener">Open project source</a></p>` : ""}
-            ${projectTable(project)}
+      renderCommodityFilters();
+      const filteredProjects = selectedCommodityFilter === "All"
+        ? company.projects
+        : company.projects.filter(project => projectCommodities(project).includes(selectedCommodityFilter));
+      container.innerHTML = filteredProjects.map(project => {
+        const projectIndex = company.projects.indexOf(project);
+        const commodities = projectCommodities(project);
+        const status = project.status || "Status not listed";
+        const ownership = projectMetaValue(project, ["ownership"], "Ownership not listed");
+        const miningStyle = projectMetaValue(project, ["miningStyle", "mining_style"], "Mining style not listed");
+        const secondMetricLabel = project.q1FreeCashFlow ? "Q1 FCF" : "Mining Style";
+        const secondMetricValue = project.q1FreeCashFlow || miningStyle;
+        const image = project.image
+          ? `<img src="${escapeHtml(project.image)}" alt="${escapeHtml(project.projectName || "Project")} mining asset" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" />`
+          : "";
+        return `
+          <article class="asset-card" tabindex="0" role="button" data-project-index="${projectIndex}" aria-label="Open ${escapeHtml(project.projectName || "project")} project details">
+            <div class="asset-media">
+              ${image}
+              <span class="asset-name">${escapeHtml(project.projectName || "Project")}</span>
+            </div>
+            <div class="asset-body">
+              <div class="asset-location">${icons.pin}<span>${escapeHtml(project.location || company.country || "Location not listed")}</span></div>
+              <div class="asset-commodities">${renderTags(commodities)}</div>
+              <div class="asset-stats">
+                <div class="mini-stat">
+                  <span>Status</span>
+                  <strong>${escapeHtml(status)}</strong>
+                </div>
+                <div class="mini-stat">
+                  <span>${escapeHtml(secondMetricLabel)}</span>
+                  <strong>${escapeHtml(secondMetricValue)}</strong>
+                </div>
+              </div>
+              <p class="asset-note">${escapeHtml(truncateText(project.supplementalNote || project.description || ownership, 148))}</p>
+            </div>
+          </article>
+        `;
+      }).join("");
+    }
+
+    function openProjectDialog(index) {
+      const project = (company.projects || [])[index];
+      if (!project) return;
+      const detail = document.getElementById("projectDetail");
+      const image = project.image
+        ? `<img src="${escapeHtml(project.image)}" alt="${escapeHtml(project.projectName || "Project")} mining asset" referrerpolicy="no-referrer" onerror="this.remove()" />`
+        : "";
+      detail.innerHTML = `
+        <div class="detail-media">
+          ${image}
+          <span class="asset-name">${escapeHtml(project.projectName || "Project")}</span>
+        </div>
+        <div class="detail-copy">
+          <p class="eyebrow">${escapeHtml(project.status || "Project detail")}</p>
+          <h2>${escapeHtml(project.projectName || "Project")}</h2>
+          <p>${escapeHtml(project.location || company.country || "Location not listed")}</p>
+          <div class="asset-commodities">${renderTags(projectCommodities(project))}</div>
+          ${(project.q1FreeCashFlow || project.q1Production) ? `
+            <div class="asset-stats">
+              <div class="mini-stat">
+                <span>Q1 free cash flow</span>
+                <strong>${escapeHtml(project.q1FreeCashFlow || "Not available")}</strong>
+              </div>
+              <div class="mini-stat">
+                <span>Q1 production</span>
+                <strong>${escapeHtml(project.q1Production || "Not available")}</strong>
+              </div>
+            </div>
+          ` : ""}
+          <p>${escapeHtml(project.description || "No website project description has been stored yet.")}</p>
+          ${company.projectSource ? `<div class="meta">Source: ${escapeHtml(company.projectSource.label)}${project.retrievedAt ? ` · retrieved ${escapeHtml(formatNewsDate(project.retrievedAt))}` : ""}</div>` : ""}
+          ${project.projectUrl ? `<p><a href="${escapeHtml(project.projectUrl)}" target="_blank" rel="noopener">Open project source</a></p>` : ""}
+          ${projectTable(project)}
+          <div class="detail-actions">
+            <button class="icon-button" type="button" aria-label="Close project details" title="Close project details" data-close-project-dialog>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </button>
           </div>
-        </details>
+        </div>
+      `;
+      document.getElementById("projectDialog").showModal();
+    }
+
+    function initProjectInteractions() {
+      const filters = document.getElementById("commodityFilters");
+      filters.addEventListener("click", event => {
+        const button = event.target.closest("button");
+        if (!button) return;
+        selectedCommodityFilter = button.dataset.filter || "All";
+        initProjects();
+      });
+
+      const container = document.getElementById("projects");
+      container.addEventListener("click", event => {
+        const card = event.target.closest(".asset-card");
+        if (!card) return;
+        openProjectDialog(Number(card.dataset.projectIndex));
+      });
+      container.addEventListener("keydown", event => {
+        if (event.key !== "Enter" && event.key !== " ") return;
+        const card = event.target.closest(".asset-card");
+        if (!card) return;
+        event.preventDefault();
+        openProjectDialog(Number(card.dataset.projectIndex));
+      });
+
+      const dialog = document.getElementById("projectDialog");
+      dialog.addEventListener("click", event => {
+        if (event.target === dialog || event.target.closest("[data-close-project-dialog]")) {
+          dialog.close();
+        }
+      });
+    }
+
+    function renderAnalystCoverage() {
+      const rows = company.analystCoverage || [];
+      const container = document.getElementById("analystCoverage");
+      setText("analystCount", rows.length ? `${rows.length} analysts` : "Not available");
+      if (!rows.length) {
+        container.innerHTML = '<div class="empty">No analyst roster has been loaded for this company yet.</div>';
+        return;
+      }
+      container.innerHTML = `
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Firm</th>
+                <th>Analyst</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${rows.map(([firm, analyst]) => `
+                <tr>
+                  <td>${escapeHtml(firm)}</td>
+                  <td>${escapeHtml(analyst)}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    function sourceEntries() {
+      const entries = [];
+      if (company.aboutSource) {
+        entries.push({
+          title: "Company overview",
+          url: company.aboutUrl || company.homepageUrl || "",
+          note: `${company.aboutSource.label || "Website_about_Us"}${company.aboutSource.checkedAt ? ` checked ${formatNewsDate(company.aboutSource.checkedAt)}` : ""}`
+        });
+      }
+      if (company.managementSource) {
+        entries.push({
+          title: "Management team",
+          url: (company.managementTeam || []).find(person => person.sourceUrl)?.sourceUrl || company.aboutUrl || company.homepageUrl || "",
+          note: `${company.managementSource.label || "Website management team"} via ${company.managementSource.endpoint || "company management loader"}`
+        });
+      }
+      if (company.financialSource) {
+        entries.push({
+          title: "SEC financial facts",
+          url: "",
+          note: `${company.financialSource.label || "EDGAR company facts"} from ${company.financialSource.file || company.financialSource.script || "stored fundamentals"}`
+        });
+      }
+      if (company.productionSource) {
+        entries.push({
+          title: "Production metrics",
+          url: "",
+          note: `${company.productionSource.source || "production table"} via ${company.productionSource.endpoint || "/api/company-production"}`
+        });
+      }
+      if (company.aiscSource) {
+        entries.push({
+          title: "AISC metrics",
+          url: "",
+          note: `${company.aiscSource.source || "aisc_metrics table"} via ${company.aiscSource.endpoint || "/api/company-aisc"}`
+        });
+      }
+      if (company.projectSource) {
+        entries.push({
+          title: "Mine and project details",
+          url: (company.projects || []).find(project => project.projectUrl)?.projectUrl || "",
+          note: `${company.projectSource.source || "Website_mine_details"} via ${company.projectSource.endpoint || "/api/company-projects"}`
+        });
+      }
+      if (company.detailSource) {
+        entries.push({
+          title: "Disclosure context",
+          url: "",
+          note: `${company.detailSource.source || "Minerlytics disclosure context"} via ${company.detailSource.endpoint || "/api/company-detail"}`
+        });
+      }
+      if (company.risks?.documentUrl) {
+        entries.push({
+          title: company.risks.documentName || "SEC risk factor filing",
+          url: company.risks.documentUrl,
+          note: `${company.risks.form || "SEC filing"} filed ${company.risks.filingDate || "n/a"}`
+        });
+      }
+      (company.secFilings || []).slice(0, 4).forEach(filing => {
+        entries.push({
+          title: [filing.form, filing.description].filter(Boolean).join(" · ") || "SEC filing",
+          url: filing.documentUrl || filing.filingUrl || "",
+          note: `Filed ${filing.filingDate || "n/a"}${filing.accessionNumber ? ` · accession ${filing.accessionNumber}` : ""}`
+        });
+      });
+      (company.supplementalSources || []).forEach(source => entries.push(source));
+      return entries.filter((entry, index, all) => {
+        const key = `${entry.title || ""}|${entry.url || ""}|${entry.note || ""}`.toLowerCase();
+        return all.findIndex(item => `${item.title || ""}|${item.url || ""}|${item.note || ""}`.toLowerCase() === key) === index;
+      });
+    }
+
+    function renderSources() {
+      const list = document.getElementById("sourceList");
+      const entries = sourceEntries();
+      if (!entries.length) {
+        list.innerHTML = '<div class="empty">No source records are available yet.</div>';
+        return;
+      }
+      list.innerHTML = entries.map(source => `
+        <article class="source-item">
+          ${source.url
+            ? `<a href="${escapeHtml(source.url)}" target="_blank" rel="noopener">${escapeHtml(source.title || "Source")}</a>`
+            : `<strong>${escapeHtml(source.title || "Source")}</strong>`}
+          <p>${escapeHtml(source.note || "Stored Minerlytics source")}</p>
+        </article>
       `).join("");
+    }
+
+    function setupSources() {
+      const drawer = document.getElementById("sourceDrawer");
+      const open = document.getElementById("sourceToggle");
+      const close = document.getElementById("closeSources");
+      open.addEventListener("click", () => {
+        renderSources();
+        drawer.classList.add("open");
+        drawer.setAttribute("aria-hidden", "false");
+      });
+      close.addEventListener("click", () => {
+        drawer.classList.remove("open");
+        drawer.setAttribute("aria-hidden", "true");
+      });
+      drawer.addEventListener("click", event => {
+        if (event.target === drawer) {
+          drawer.classList.remove("open");
+          drawer.setAttribute("aria-hidden", "true");
+        }
+      });
     }
 
     function renderManagementModal() {
@@ -2840,24 +4591,57 @@
       });
     }
 
-    await loadCompanyAbout();
-    await loadCompanyManagementTeam();
     initTickerControls();
     initHeader();
     initRanges();
-    await initNews();
-    await initYoutubeVideos();
+    initProjectInteractions();
+    setupSources();
     initSecFilings();
-    await loadCompanyFactsFinancials();
+    renderAnalystCoverage();
+    renderSources();
+    initManagementModal();
+    enrichProjectsWithSupplemental();
     initFinancials();
-    await loadCompanyProduction();
-    await loadCompanyAisc();
-    await loadCompanyProjects();
     initKeyHealthMeasures();
+    renderProductionBars();
     initRisks();
     initProjects();
-    initManagementModal();
+    renderCompanyFacts();
+    renderMarketMetrics();
+
+    await Promise.allSettled([
+      loadCompanyAbout(),
+      loadCompanyManagementTeam(),
+      loadCompanyDetailContext()
+    ]);
+    initHeader();
+    initSecFilings();
+    renderAnalystCoverage();
+    renderSources();
+
+    await Promise.allSettled([
+      initNews(),
+      initYoutubeVideos()
+    ]);
+
+    await Promise.allSettled([
+      loadCompanyFactsFinancials(),
+      loadCompanyProduction(),
+      loadCompanyAisc(),
+      loadCompanyProjects()
+    ]);
+    initFinancials();
+    initKeyHealthMeasures();
+    renderProductionBars();
+    initRisks();
+    initProjects();
+    renderCompanyFacts();
+    renderMarketMetrics();
+    renderAnalystCoverage();
+    renderSources();
     await loadCompanyMarketPrices();
+    renderCompanyFacts();
+    renderSources();
     window.addEventListener("resize", drawChart);
   </script>
   <script src="./js/auth-ui.js"></script>
