@@ -67,27 +67,46 @@ jobs:
             batch = all_symbols[start:start + batch_size]
             payload = {"symbols": batch}
             print(f"Syncing RSS batch {start // batch_size + 1}: {','.join(batch)}")
+            last_error = None
 
-            req = urllib.request.Request(
-              f"{base}/api/news/sync",
-              data=json.dumps(payload).encode("utf-8"),
-              headers={
-                "content-type": "application/json",
-                "x-api-key": api_key,
-                "user-agent": "GitHub-Minerlytics-RssSync"
-              },
-              method="POST"
-            )
+            for attempt in range(1, 4):
+              req = urllib.request.Request(
+                f"{base}/api/news/sync",
+                data=json.dumps(payload).encode("utf-8"),
+                headers={
+                  "content-type": "application/json",
+                  "x-api-key": api_key,
+                  "user-agent": "GitHub-Minerlytics-RssSync"
+                },
+                method="POST"
+              )
 
-            with urllib.request.urlopen(req, timeout=120) as resp:
-              body = resp.read().decode("utf-8")
-              print(body)
-              data = json.loads(body)
-              for item in data.get("results", []):
-                fetched += int(item.get("fetched") or 0)
-                inserted += int(item.get("inserted") or 0)
-                if not item.get("ok"):
-                  failures.append(item)
+              try:
+                with urllib.request.urlopen(req, timeout=300) as resp:
+                  body = resp.read().decode("utf-8")
+                  print(body)
+                  data = json.loads(body)
+                  for item in data.get("results", []):
+                    fetched += int(item.get("fetched") or 0)
+                    inserted += int(item.get("inserted") or 0)
+                    if not item.get("ok"):
+                      failures.append(item)
+                  last_error = None
+                  break
+              except Exception as err:
+                last_error = err
+                print(f"Batch {start // batch_size + 1} attempt {attempt} failed: {err}")
+                if attempt < 3:
+                  continue
+
+            if last_error is not None:
+              failures.append({
+                "ticker": ",".join(batch),
+                "ok": False,
+                "fetched": 0,
+                "inserted": 0,
+                "error": f"Workflow request failed after retries: {last_error}"
+              })
 
           print(json.dumps({"symbols": len(all_symbols), "fetched": fetched, "inserted": inserted, "failed": failures}, indent=2))
           if failures:
