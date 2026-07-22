@@ -668,6 +668,12 @@
       cursor: pointer;
     }
     .text-button:hover { background: #43506a; }
+    .text-button:disabled {
+      border-color: var(--detail-line);
+      background: #e8ebf0;
+      color: var(--detail-muted);
+      cursor: not-allowed;
+    }
     .pill,
     .exchange-pill,
     .tag {
@@ -704,12 +710,11 @@
     }
     .dashboard {
       display: grid;
-      grid-template-columns: minmax(300px, .78fr) minmax(500px, 1.55fr);
+      grid-template-columns: minmax(300px, .95fr) minmax(380px, 1.1fr) minmax(320px, 1fr);
       grid-template-areas:
-        "summary portfolio"
-        "chart portfolio"
-        "financial portfolio"
-        "risk research";
+        "summary chart financial"
+        "portfolio portfolio risk"
+        "details research research";
       gap: 18px;
       align-items: start;
     }
@@ -718,6 +723,7 @@
     .chart-panel,
     .financial-panel,
     .risk-panel,
+    .details-panel,
     .research-panel {
       border: 1px solid var(--detail-line);
       border-radius: 8px;
@@ -731,6 +737,7 @@
     .chart-panel { grid-area: chart; }
     .financial-panel { grid-area: financial; }
     .risk-panel { grid-area: risk; }
+    .details-panel { grid-area: details; }
     .research-panel { grid-area: research; }
     .section-heading {
       min-width: 0;
@@ -754,6 +761,38 @@
       margin-top: 12px;
       color: var(--detail-muted);
       font-size: .9rem;
+    }
+    .leadership-callout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 12px;
+      margin: 16px 0;
+      padding: 14px;
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      background: #fbfcfe;
+    }
+    .leadership-callout[hidden] { display: none; }
+    .leadership-callout span {
+      display: block;
+      color: var(--detail-muted);
+      font-size: .76rem;
+      font-weight: 850;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+    .leadership-callout strong {
+      display: block;
+      margin-top: 4px;
+      color: var(--detail-ink);
+      overflow-wrap: anywhere;
+    }
+    .leadership-callout p {
+      margin: 6px 0 0;
+      color: var(--detail-muted);
+      font-size: .84rem;
+      line-height: 1.38;
     }
     .summary-link-line[hidden],
     .summary-link[hidden] { display: none; }
@@ -905,6 +944,82 @@
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 12px;
+    }
+    .portfolio-summary {
+      display: grid;
+      gap: 14px;
+    }
+    .portfolio-stat-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .portfolio-stat {
+      min-height: 86px;
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      padding: 12px;
+      background: #fbfcfe;
+    }
+    .portfolio-stat span {
+      display: block;
+      color: var(--detail-muted);
+      font-size: .72rem;
+      font-weight: 850;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+    .portfolio-stat strong {
+      display: block;
+      margin-top: 7px;
+      color: var(--detail-ink);
+      font-size: 1.14rem;
+      line-height: 1.08;
+      overflow-wrap: anywhere;
+    }
+    .asset-preview-list {
+      display: grid;
+      gap: 8px;
+    }
+    .asset-preview-item {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--detail-ink);
+      padding: 10px 12px;
+      cursor: pointer;
+      text-align: left;
+      transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+    }
+    .asset-preview-item:hover,
+    .asset-preview-item:focus-visible {
+      border-color: var(--detail-navy);
+      box-shadow: 0 10px 22px rgba(22, 28, 45, .11);
+      outline: none;
+      transform: translateY(-1px);
+    }
+    .asset-preview-item strong,
+    .asset-preview-item span {
+      display: block;
+      overflow-wrap: anywhere;
+    }
+    .asset-preview-item span {
+      margin-top: 3px;
+      color: var(--detail-muted);
+      font-size: .82rem;
+      line-height: 1.32;
+    }
+    .asset-preview-item em {
+      color: var(--detail-navy);
+      font-size: .78rem;
+      font-style: normal;
+      font-weight: 850;
+      white-space: nowrap;
     }
     .asset-card {
       overflow: hidden;
@@ -1227,6 +1342,43 @@
     .asset-dialog::backdrop {
       background: rgba(13, 18, 28, .42);
     }
+    .portfolio-dialog {
+      width: min(1220px, calc(100vw - 28px));
+      max-height: min(900px, calc(100vh - 28px));
+      border: 1px solid var(--detail-line);
+      border-radius: 8px;
+      padding: 0;
+      background: #fff;
+      color: var(--detail-ink);
+      box-shadow: var(--detail-shadow);
+    }
+    .portfolio-dialog::backdrop {
+      background: rgba(13, 18, 28, .42);
+    }
+    .portfolio-dialog-shell {
+      max-height: inherit;
+      overflow: auto;
+    }
+    .portfolio-dialog-head {
+      position: sticky;
+      top: 0;
+      z-index: 3;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 14px;
+      align-items: start;
+      padding: 20px;
+      border-bottom: 1px solid var(--detail-line);
+      background: rgba(255, 255, 255, .96);
+    }
+    .portfolio-dialog-body {
+      display: grid;
+      gap: 16px;
+      padding: 18px;
+    }
+    .portfolio-dialog-body .asset-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
     .asset-detail {
       display: grid;
       grid-template-columns: minmax(220px, .75fr) minmax(300px, 1fr);
@@ -1309,16 +1461,15 @@
     }
     @media (max-width: 1120px) {
       .dashboard {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
         grid-template-areas:
-          "summary"
-          "portfolio"
-          "chart"
-          "financial"
-          "risk"
-          "research";
+          "summary chart"
+          "financial financial"
+          "portfolio risk"
+          "details details"
+          "research research";
       }
-      .asset-grid {
+      .portfolio-dialog-body .asset-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
     }
@@ -1333,6 +1484,20 @@
         align-items: stretch;
         flex-direction: column;
       }
+      .portfolio-dialog-head {
+        grid-template-columns: 1fr;
+      }
+      .dashboard {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "summary"
+          "chart"
+          "financial"
+          "portfolio"
+          "risk"
+          "details"
+          "research";
+      }
       .top-actions {
         align-self: flex-end;
       }
@@ -1345,6 +1510,7 @@
       .chart-panel,
       .financial-panel,
       .risk-panel,
+      .details-panel,
       .research-panel {
         padding: 16px;
       }
@@ -1362,9 +1528,15 @@
       .metric-strip,
       .financial-grid,
       .health-measure-grid,
+      .portfolio-stat-grid,
       .asset-grid,
+      .portfolio-dialog-body .asset-grid,
       .research-grid,
       .asset-detail {
+        grid-template-columns: 1fr;
+      }
+      .leadership-callout,
+      .asset-preview-item {
         grid-template-columns: 1fr;
       }
       .bar-row {
@@ -1447,6 +1619,14 @@
           <div class="summary-link-line">Website: <a id="websiteLink" target="_blank" rel="noopener"></a></div>
           <div class="summary-link-line" id="managementTeamLine">Management Team: <a class="summary-link" id="managementTeamLink" href="#management-team">View leadership profiles</a></div>
         </div>
+        <div class="leadership-callout" id="leadershipCallout" hidden>
+          <div>
+            <span>Leadership team</span>
+            <strong id="leadershipLead"></strong>
+            <p id="leadershipPreview"></p>
+          </div>
+          <button class="text-button" id="managementTeamButton" type="button">Open leadership</button>
+        </div>
         <div class="ticker-row" id="tickerRow"></div>
         <dl class="fact-list" id="companyFacts"></dl>
         <div class="metric-strip" id="marketMetrics"></div>
@@ -1483,15 +1663,6 @@
           </div>
           <div id="productionBars"></div>
         </div>
-        <div class="subsection-head" style="margin-top:18px;">
-          <div class="section-heading">
-            <p class="eyebrow">SEC facts</p>
-            <h2>Latest financials</h2>
-          </div>
-          <span class="meta" id="financialCount"></span>
-        </div>
-        <p class="source-note">Values are pulled from the latest stored SEC financial facts. Each row shows the report form, period end, filed date, and accession reference.</p>
-        <div id="financials"></div>
       </section>
 
       <section class="main-panel" aria-labelledby="portfolioTitle">
@@ -1501,9 +1672,10 @@
             <h2 id="portfolioTitle">Operations and projects</h2>
             <div class="meta" id="projectCount"></div>
           </div>
-          <div class="segmented-control" id="commodityFilters" aria-label="Filter assets by commodity"></div>
+          <button class="text-button" id="assetPortfolioOpen" type="button">Open portfolio</button>
         </div>
-        <div class="asset-grid" id="projects"></div>
+        <div class="portfolio-summary" id="portfolioSummary"></div>
+        <div class="asset-preview-list" id="projects"></div>
       </section>
 
       <section class="risk-panel" aria-labelledby="riskTitle">
@@ -1516,6 +1688,18 @@
         </div>
         <p class="source-note">AI summary generated from the latest stored SEC risk-factor text in company_Risks. Source text and filing reference are retained below.</p>
         <div id="riskSummary"></div>
+      </section>
+
+      <section class="details-panel" aria-labelledby="detailFinancialTitle">
+        <div class="subsection-head">
+          <div class="section-heading">
+            <p class="eyebrow">Supplemental detail</p>
+            <h2 id="detailFinancialTitle">Latest SEC financials</h2>
+          </div>
+          <span class="meta" id="financialCount"></span>
+        </div>
+        <p class="source-note">Values are pulled from the latest stored SEC financial facts. Each row shows the report form, period end, filed date, and accession reference.</p>
+        <div id="financials"></div>
       </section>
 
       <section class="research-panel" aria-labelledby="researchTitle">
@@ -1578,6 +1762,28 @@
 
   <dialog class="asset-dialog" id="projectDialog">
     <div class="asset-detail" id="projectDetail"></div>
+  </dialog>
+
+  <dialog class="portfolio-dialog" id="assetPortfolioDialog">
+    <div class="portfolio-dialog-shell">
+      <div class="portfolio-dialog-head">
+        <div>
+          <p class="eyebrow">Asset portfolio</p>
+          <h2>Operations and projects</h2>
+          <div class="meta" id="assetPortfolioModalCount"></div>
+        </div>
+        <button class="icon-button" id="assetPortfolioClose" type="button" aria-label="Close asset portfolio" title="Close asset portfolio">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="portfolio-dialog-body">
+        <div class="segmented-control" id="commodityFilters" aria-label="Filter assets by commodity"></div>
+        <div class="asset-grid" id="assetPortfolioProjects"></div>
+      </div>
+    </div>
   </dialog>
 
   <div class="modal-backdrop" id="managementModal" hidden>
@@ -2840,6 +3046,7 @@
     ];
     let selectedRange = "6M";
     let selectedPersonIndex = 0;
+    let managementReturnFocus = null;
 
     function formatLabel(value) {
       return String(value || "").replace(/_/g, " ");
@@ -3026,6 +3233,31 @@
       ].join("");
     }
 
+    function renderLeadershipSummary() {
+      const people = company.managementTeam || [];
+      const callout = document.getElementById("leadershipCallout");
+      if (!people.length) {
+        setText("leadershipLead", "Leadership profiles");
+        setText("leadershipPreview", "No leadership profiles have been loaded for this company yet.");
+        callout.hidden = false;
+        return;
+      }
+      const lead = people[0];
+      const leadLabel = [lead.name, lead.title].filter(Boolean).join(" · ") || `${people.length} leadership profiles`;
+      const nextNames = people
+        .slice(1, 4)
+        .map(person => person.name)
+        .filter(Boolean);
+      setText("leadershipLead", leadLabel);
+      setText(
+        "leadershipPreview",
+        nextNames.length
+          ? `${people.length} profiles loaded, including ${nextNames.join(", ")}.`
+          : `${people.length} leadership profiles loaded from the company website.`
+      );
+      callout.hidden = false;
+    }
+
     function formatCompactCurrency(value, unit = "USD") {
       const numeric = Number(value);
       if (!Number.isFinite(numeric)) return "Not available";
@@ -3156,14 +3388,20 @@
       headerWebsite.toggleAttribute("aria-disabled", !company.homepageUrl);
       const managementLine = document.getElementById("managementTeamLine");
       const managementLink = document.getElementById("managementTeamLink");
-      managementLine.hidden = !(company.managementTeam || []).length;
+      const managementButton = document.getElementById("managementTeamButton");
+      managementLine.hidden = false;
       if (!managementLink.dataset.bound) {
         managementLink.addEventListener("click", openManagementModal);
         managementLink.dataset.bound = "true";
       }
+      if (!managementButton.dataset.bound) {
+        managementButton.addEventListener("click", openManagementModal);
+        managementButton.dataset.bound = "true";
+      }
       document.getElementById("newsLink").href = company.newsUrl || (rssTools?.googleRssUrl && company.newsQuery ? rssTools.googleRssUrl(company.newsQuery) : company.homepageUrl) || "#";
       document.getElementById("youtubeLink").href = company.youtubeUrl || "#";
       renderCompanyFacts();
+      renderLeadershipSummary();
       renderMarketMetrics();
     }
 
@@ -4269,53 +4507,112 @@
       return fallback;
     }
 
+    function renderPortfolioSummary(projects = company.projects || []) {
+      const target = document.getElementById("portfolioSummary");
+      if (!projects.length) {
+        target.innerHTML = "";
+        return;
+      }
+      const statuses = uniqueValues(projects.map(project => project.status).filter(Boolean));
+      const countries = uniqueValues(projects.map(project => {
+        const parts = String(project.location || "").split(",").map(part => part.trim()).filter(Boolean);
+        return parts.length ? parts[parts.length - 1] : "";
+      }).filter(Boolean));
+      const commodities = uniqueValues(projects.flatMap(projectCommodities));
+      target.innerHTML = `
+        <div class="portfolio-stat-grid">
+          <div class="portfolio-stat">
+            <span>Total assets</span>
+            <strong>${projects.length}</strong>
+          </div>
+          <div class="portfolio-stat">
+            <span>Commodities</span>
+            <strong>${escapeHtml(commodities.slice(0, 3).join(", ") || commodityLabel())}</strong>
+          </div>
+          <div class="portfolio-stat">
+            <span>Footprint</span>
+            <strong>${escapeHtml(countries.slice(0, 3).join(", ") || company.country || "Not available")}</strong>
+          </div>
+        </div>
+        <p class="source-note">${escapeHtml(statuses.length ? `Portfolio status mix: ${statuses.slice(0, 4).join(", ")}.` : "Open the portfolio for project descriptions, technical-report links, ownership, location, resources, and operating notes.")}</p>
+      `;
+    }
+
+    function renderProjectCard(project) {
+      const projectIndex = company.projects.indexOf(project);
+      const commodities = projectCommodities(project);
+      const status = project.status || "Status not listed";
+      const ownership = projectMetaValue(project, ["ownership"], "Ownership not listed");
+      const miningStyle = projectMetaValue(project, ["miningStyle", "mining_style"], "Mining style not listed");
+      const secondMetricLabel = project.q1FreeCashFlow ? "Q1 FCF" : "Mining Style";
+      const secondMetricValue = project.q1FreeCashFlow || miningStyle;
+      const image = project.image
+        ? `<img src="${escapeHtml(project.image)}" alt="${escapeHtml(project.projectName || "Project")} mining asset" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" />`
+        : "";
+      return `
+        <article class="asset-card" tabindex="0" role="button" data-project-index="${projectIndex}" aria-label="Open ${escapeHtml(project.projectName || "project")} project details">
+          <div class="asset-media">
+            ${image}
+            <span class="asset-name">${escapeHtml(project.projectName || "Project")}</span>
+          </div>
+          <div class="asset-body">
+            <div class="asset-location">${icons.pin}<span>${escapeHtml(project.location || company.country || "Location not listed")}</span></div>
+            <div class="asset-commodities">${renderTags(commodities)}</div>
+            <div class="asset-stats">
+              <div class="mini-stat">
+                <span>Status</span>
+                <strong>${escapeHtml(status)}</strong>
+              </div>
+              <div class="mini-stat">
+                <span>${escapeHtml(secondMetricLabel)}</span>
+                <strong>${escapeHtml(secondMetricValue)}</strong>
+              </div>
+            </div>
+            <p class="asset-note">${escapeHtml(truncateText(project.supplementalNote || project.description || ownership, 148))}</p>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderProjectPreviewItem(project) {
+      const projectIndex = company.projects.indexOf(project);
+      const status = project.status || "Status not listed";
+      const metric = project.q1FreeCashFlow || projectMetaValue(project, ["miningStyle", "mining_style"], "");
+      return `
+        <button class="asset-preview-item" type="button" data-project-index="${projectIndex}">
+          <span>
+            <strong>${escapeHtml(project.projectName || "Project")}</strong>
+            <span>${escapeHtml([project.location, status].filter(Boolean).join(" · ") || "Project details available")}</span>
+          </span>
+          <em>${escapeHtml(metric || "Details")}</em>
+        </button>
+      `;
+    }
+
     function initProjects() {
-      setText("projectCount", `${(company.projects || []).length} mine details`);
+      const projectTotal = (company.projects || []).length;
+      setText("projectCount", `${projectTotal} mine details`);
+      setText("assetPortfolioModalCount", `${projectTotal} mine details`);
+      const openButton = document.getElementById("assetPortfolioOpen");
+      openButton.disabled = !projectTotal;
+      openButton.textContent = projectTotal ? `Open portfolio (${projectTotal})` : "No portfolio loaded";
       const container = document.getElementById("projects");
-      if (!(company.projects || []).length) {
+      const modalContainer = document.getElementById("assetPortfolioProjects");
+      if (!projectTotal) {
+        document.getElementById("portfolioSummary").innerHTML = "";
         container.innerHTML = '<div class="empty">No website mine detail rows have been loaded for this company yet.</div>';
+        modalContainer.innerHTML = '<div class="empty">No website mine detail rows have been loaded for this company yet.</div>';
         document.getElementById("commodityFilters").innerHTML = "";
         return;
       }
+      renderPortfolioSummary(company.projects);
       renderCommodityFilters();
       const filteredProjects = selectedCommodityFilter === "All"
         ? company.projects
         : company.projects.filter(project => projectCommodities(project).includes(selectedCommodityFilter));
-      container.innerHTML = filteredProjects.map(project => {
-        const projectIndex = company.projects.indexOf(project);
-        const commodities = projectCommodities(project);
-        const status = project.status || "Status not listed";
-        const ownership = projectMetaValue(project, ["ownership"], "Ownership not listed");
-        const miningStyle = projectMetaValue(project, ["miningStyle", "mining_style"], "Mining style not listed");
-        const secondMetricLabel = project.q1FreeCashFlow ? "Q1 FCF" : "Mining Style";
-        const secondMetricValue = project.q1FreeCashFlow || miningStyle;
-        const image = project.image
-          ? `<img src="${escapeHtml(project.image)}" alt="${escapeHtml(project.projectName || "Project")} mining asset" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" />`
-          : "";
-        return `
-          <article class="asset-card" tabindex="0" role="button" data-project-index="${projectIndex}" aria-label="Open ${escapeHtml(project.projectName || "project")} project details">
-            <div class="asset-media">
-              ${image}
-              <span class="asset-name">${escapeHtml(project.projectName || "Project")}</span>
-            </div>
-            <div class="asset-body">
-              <div class="asset-location">${icons.pin}<span>${escapeHtml(project.location || company.country || "Location not listed")}</span></div>
-              <div class="asset-commodities">${renderTags(commodities)}</div>
-              <div class="asset-stats">
-                <div class="mini-stat">
-                  <span>Status</span>
-                  <strong>${escapeHtml(status)}</strong>
-                </div>
-                <div class="mini-stat">
-                  <span>${escapeHtml(secondMetricLabel)}</span>
-                  <strong>${escapeHtml(secondMetricValue)}</strong>
-                </div>
-              </div>
-              <p class="asset-note">${escapeHtml(truncateText(project.supplementalNote || project.description || ownership, 148))}</p>
-            </div>
-          </article>
-        `;
-      }).join("");
+      const previewProjects = company.projects.slice(0, 4);
+      container.innerHTML = previewProjects.map(renderProjectPreviewItem).join("");
+      modalContainer.innerHTML = filteredProjects.map(renderProjectCard).join("");
     }
 
     function openProjectDialog(index) {
@@ -4373,18 +4670,40 @@
         initProjects();
       });
 
-      const container = document.getElementById("projects");
-      container.addEventListener("click", event => {
-        const card = event.target.closest(".asset-card");
-        if (!card) return;
-        openProjectDialog(Number(card.dataset.projectIndex));
+      const assetPortfolioDialog = document.getElementById("assetPortfolioDialog");
+      const assetPortfolioOpen = document.getElementById("assetPortfolioOpen");
+      const assetPortfolioClose = document.getElementById("assetPortfolioClose");
+      assetPortfolioOpen.addEventListener("click", () => {
+        renderCommodityFilters();
+        assetPortfolioDialog.showModal();
+        document.querySelector("#assetPortfolioProjects .asset-card")?.focus();
       });
-      container.addEventListener("keydown", event => {
+      assetPortfolioClose.addEventListener("click", () => {
+        assetPortfolioDialog.close();
+        assetPortfolioOpen.focus();
+      });
+      assetPortfolioDialog.addEventListener("click", event => {
+        if (event.target === assetPortfolioDialog) {
+          assetPortfolioDialog.close();
+          assetPortfolioOpen.focus();
+        }
+      });
+
+      const handleProjectOpen = event => {
+        const item = event.target.closest(".asset-card, .asset-preview-item");
+        if (!item) return;
+        openProjectDialog(Number(item.dataset.projectIndex));
+      };
+      const handleProjectKeydown = event => {
         if (event.key !== "Enter" && event.key !== " ") return;
-        const card = event.target.closest(".asset-card");
-        if (!card) return;
+        const item = event.target.closest(".asset-card, .asset-preview-item");
+        if (!item) return;
         event.preventDefault();
-        openProjectDialog(Number(card.dataset.projectIndex));
+        openProjectDialog(Number(item.dataset.projectIndex));
+      };
+      [document.getElementById("projects"), document.getElementById("assetPortfolioProjects")].forEach(container => {
+        container.addEventListener("click", handleProjectOpen);
+        container.addEventListener("keydown", handleProjectKeydown);
       });
 
       const dialog = document.getElementById("projectDialog");
@@ -4563,6 +4882,7 @@
 
     function openManagementModal(event) {
       event?.preventDefault();
+      managementReturnFocus = event?.currentTarget || document.getElementById("managementTeamLink");
       renderManagementModal();
       document.getElementById("managementModal").hidden = false;
       document.querySelector(".person-button")?.focus();
@@ -4570,7 +4890,7 @@
 
     function closeManagementModal() {
       document.getElementById("managementModal").hidden = true;
-      document.getElementById("managementTeamLink").focus();
+      (managementReturnFocus || document.getElementById("managementTeamLink"))?.focus();
     }
 
     function initManagementModal() {
