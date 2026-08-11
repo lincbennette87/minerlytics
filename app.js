@@ -1,24 +1,8 @@
-const trending = [
-  { title: "Top 5 Momentum (30D)", meta: "Toggle: Potential momentum stocks" },
-  { title: "Recent News", meta: "Toggle: Recent interviews" },
-  { title: "Mining Sector Watchlist", meta: "US + Canada tickers" },
-];
-
-const quotes = [
-  { sym: "AEM", company: "Agnico Eagle Mines", price: 54.21, chg: +1.28 },
-  { sym: "WPM", company: "Wheaton Precious Metals", price: 45.88, chg: -0.62 },
-  { sym: "NEM", company: "Newmont", price: 39.14, chg: +0.41 },
-];
-
-const tickerItems = [
-  "Gold breaks above key resistance as USD weakens",
-  "Interview: permitting timelines and risk factors (new video)",
-  "Copper demand outlook strengthens on electrification news",
-  "Junior miner announces new drill results; sentiment spikes",
-  "Regulatory update: project approval milestone reached",
-];
-
+const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 const RSS_LOOKBACK_DAYS = 60;
+const MAP_VIEWBOX_WIDTH = 900;
+const MAP_VIEWBOX_HEIGHT = 460;
+
 const RSS_ENDPOINT_CANDIDATES = [
   "/api/home/rss",
   "/api/rss-news",
@@ -27,127 +11,19 @@ const RSS_ENDPOINT_CANDIDATES = [
   "/api/news",
 ];
 
-function renderTrending() {
-  const el = document.getElementById("trendRow");
-  el.innerHTML = trending.map(t => `
-    <div class="trendCard">
-      <div class="avatar" aria-hidden="true"></div>
-      <div class="trendText">
-        <div class="trendTitle">${t.title}</div>
-        <div class="trendMeta">${t.meta}</div>
-      </div>
-    </div>
-  `).join("");
-}
+const METAL_COLORS = {
+  gold: "#e0a440",
+  silver: "#b7c9db",
+  copper: "#d67d4f",
+  uranium: "#8ecf79",
+  lithium: "#72bfd2",
+  royalty: "#ddb26d",
+  streaming: "#ddb26d",
+};
 
-function renderQuotes() {
-  const el = document.getElementById("quoteRow");
-  el.innerHTML = quotes.map(q => {
-    const up = q.chg >= 0;
-    const cls = up ? "up" : "down";
-    const sign = up ? "+" : "";
-    return `
-      <div class="quoteCard">
-        <div class="quoteTop">
-          <div class="sym">${q.sym}</div>
-          <div class="price">${q.price.toFixed(2)}</div>
-          <div class="chg ${cls}">${sign}${q.chg.toFixed(2)}%</div>
-        </div>
-        <div class="company">${q.company}</div>
-      </div>
-    `;
-  }).join("");
-}
-
-function renderTicker() {
-  const el = document.getElementById("tickerTrack");
-  // Duplicate so it loops cleanly
-  const combined = [...tickerItems, ...tickerItems].map(t => `
-    <span class="tickerItem"><span class="badge"></span>${t}</span>
-  `).join("");
-  el.innerHTML = combined;
-}
-
-function wireSearch() {
-  const hero = document.getElementById("heroSearch");
-  const btn = document.getElementById("searchBtn");
-  const global = document.getElementById("globalSearch");
-
-  function go(q) {
-    const query = (q || "").trim();
-    if (!query) return;
-    // Placeholder: later route to Company Profile / Analysis page
-    alert(`Search: ${query}\n\nNext: connect to ticker/company lookup + mining-only filter.`);
-  }
-
-  btn.addEventListener("click", () => go(hero.value));
-  hero.addEventListener("keydown", (e) => { if (e.key === "Enter") go(hero.value); });
-  global.addEventListener("keydown", (e) => { if (e.key === "Enter") go(global.value); });
-}
-
-/* Tiny chart placeholder (simple canvas sparkline) */
-function spark(canvasId) {
-  const c = document.getElementById(canvasId);
-  if (!c) return;
-  const ctx = c.getContext("2d");
-  const w = c.width = c.parentElement.clientWidth - 4;
-  const h = c.height;
-
-  const pts = Array.from({length: 28}, (_, i) => {
-    const base = Math.sin(i/4) * 0.35 + 0.5;
-    const noise = (Math.random() - 0.5) * 0.12;
-    return Math.max(0.08, Math.min(0.92, base + noise));
-  });
-
-  ctx.clearRect(0,0,w,h);
-
-  // grid
-  ctx.globalAlpha = 0.18;
-  ctx.strokeStyle = "#ffffff";
-  for (let i = 1; i < 4; i++) {
-    ctx.beginPath();
-    ctx.moveTo(0, (h*i)/4);
-    ctx.lineTo(w, (h*i)/4);
-    ctx.stroke();
-  }
-  ctx.globalAlpha = 1;
-
-  // line (no custom color; use default current strokeStyle)
-  ctx.lineWidth = 2;
-  ctx.strokeStyle = "rgba(234,240,255,.82)";
-  ctx.beginPath();
-  pts.forEach((p, i) => {
-    const x = (w * i) / (pts.length - 1);
-    const y = h - p * h;
-    if (i === 0) ctx.moveTo(x,y);
-    else ctx.lineTo(x,y);
-  });
-  ctx.stroke();
-
-  // fill
-  const grad = ctx.createLinearGradient(0, 0, 0, h);
-  grad.addColorStop(0, "rgba(124,92,255,.22)");
-  grad.addColorStop(1, "rgba(124,92,255,0)");
-  ctx.fillStyle = grad;
-  ctx.lineTo(w, h);
-  ctx.lineTo(0, h);
-  ctx.closePath();
-  ctx.fill();
-}
-
-function wireSegButtons() {
-  document.querySelectorAll(".segBtn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const group = btn.parentElement;
-      group.querySelectorAll(".segBtn").forEach(b => b.classList.remove("isOn"));
-      btn.classList.add("isOn");
-      // Placeholder: later fetch data by range (1d/7d/6m/1y)
-      spark("goldChart");
-      spark("silverChart");
-      spark("copperChart");
-    });
-  });
-}
+let universeMarkers = [];
+let selectedMarkerIndex = -1;
+let latestHeadlineCount = 0;
 
 function escapeHtml(value) {
   return String(value || "")
@@ -158,6 +34,35 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
+function normalizeSearchValue(value) {
+  return String(value || "").trim();
+}
+
+function openCompanyProfile(value) {
+  const query = normalizeSearchValue(value);
+  if (!query) return;
+  window.location.href = `./company.html?q=${encodeURIComponent(query)}`;
+}
+
+function wireSearch() {
+  const hero = document.getElementById("heroSearch");
+  const global = document.getElementById("globalSearch");
+  const button = document.getElementById("searchBtn");
+
+  if (button && hero) {
+    button.addEventListener("click", () => openCompanyProfile(hero.value));
+    hero.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") openCompanyProfile(hero.value);
+    });
+  }
+
+  if (global) {
+    global.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") openCompanyProfile(global.value);
+    });
+  }
+}
+
 function formatHeadlineDate(date) {
   return new Intl.DateTimeFormat("en-US", {
     month: "short",
@@ -166,16 +71,16 @@ function formatHeadlineDate(date) {
   }).format(date);
 }
 
-function isRecentHeadline(date) {
-  const maxAgeMs = RSS_LOOKBACK_DAYS * 24 * 60 * 60 * 1000;
-  return Date.now() - date.getTime() <= maxAgeMs;
-}
-
 function parseHeadlineDate(item) {
   const rawValue = item.published_at || item.publishedAt || item.pubDate || item.date || item.created_at || item.createdAt;
   if (!rawValue) return null;
   const parsed = new Date(rawValue);
   return Number.isNaN(parsed.getTime()) ? null : parsed;
+}
+
+function isRecentHeadline(date) {
+  const maxAgeMs = RSS_LOOKBACK_DAYS * 24 * 60 * 60 * 1000;
+  return Date.now() - date.getTime() <= maxAgeMs;
 }
 
 function normalizeHeadline(item) {
@@ -196,11 +101,9 @@ function normalizeHeadline(item) {
 }
 
 async function fetchRssHeadlines() {
-  const baseUrl = "https://minerlytics-dev.lincbennette87.workers.dev";
-
   for (const path of RSS_ENDPOINT_CANDIDATES) {
     try {
-      const response = await fetch(`${baseUrl}${path}`, {
+      const response = await fetch(`${API_BASE}${path}`, {
         headers: { accept: "application/json" },
       });
       if (!response.ok) continue;
@@ -213,32 +116,68 @@ async function fetchRssHeadlines() {
       if (Array.isArray(items) && items.length) {
         return items;
       }
-    } catch (error) {
-      // Try the next endpoint candidate.
+    } catch (_error) {
+      // Continue to the next endpoint candidate.
     }
   }
 
   return [];
 }
 
-async function renderRssFeed() {
-  const el = document.getElementById("rssFeed");
-  if (!el) return;
+function updateSignalCards() {
+  const signalGrid = document.getElementById("signalGrid");
+  if (!signalGrid) return;
 
-  el.innerHTML = '<div class="rssState">Loading RSS headlines...</div>';
+  const jurisdictions = new Set(universeMarkers.map((item) => item.location_label).filter(Boolean));
+  const metals = new Set(universeMarkers.map((item) => String(item.metal || "").toLowerCase()).filter(Boolean));
+  const cards = [
+    {
+      label: "Mapped coverage",
+      value: universeMarkers.length ? String(universeMarkers.length) : "0",
+      meta: universeMarkers.length ? "Universe markers" : "Waiting for markers",
+    },
+    {
+      label: "Jurisdictions",
+      value: jurisdictions.size ? String(jurisdictions.size) : "0",
+      meta: metals.size ? `${metals.size} tracked metal groups` : "Active regions",
+    },
+    {
+      label: "Latest headlines",
+      value: latestHeadlineCount ? String(latestHeadlineCount) : "0",
+      meta: `Last ${RSS_LOOKBACK_DAYS} days`,
+    },
+  ];
+
+  signalGrid.innerHTML = cards.map((card) => `
+    <div class="signalCard">
+      <span class="signalLabel">${escapeHtml(card.label)}</span>
+      <strong class="signalValue">${escapeHtml(card.value)}</strong>
+      <span class="signalMeta">${escapeHtml(card.meta)}</span>
+    </div>
+  `).join("");
+}
+
+async function renderRssFeed() {
+  const container = document.getElementById("rssFeed");
+  if (!container) return;
+
+  container.innerHTML = '<div class="rssState">Loading RSS headlines...</div>';
 
   const headlines = (await fetchRssHeadlines())
     .map(normalizeHeadline)
     .filter(Boolean)
-    .filter(item => isRecentHeadline(item.publishedAt))
+    .filter((item) => isRecentHeadline(item.publishedAt))
     .sort((a, b) => b.publishedAt - a.publishedAt);
 
+  latestHeadlineCount = headlines.length;
+  updateSignalCards();
+
   if (!headlines.length) {
-    el.innerHTML = `<div class="rssState">No RSS headlines found from the last ${RSS_LOOKBACK_DAYS} days.</div>`;
+    container.innerHTML = `<div class="rssState">No RSS headlines found from the last ${RSS_LOOKBACK_DAYS} days.</div>`;
     return;
   }
 
-  el.innerHTML = headlines.map(item => {
+  container.innerHTML = headlines.map((item) => {
     const summary = item.summary
       ? `<div class="rssSummary">${escapeHtml(item.summary.slice(0, 180))}${item.summary.length > 180 ? "..." : ""}</div>`
       : "";
@@ -257,19 +196,161 @@ async function renderRssFeed() {
   }).join("");
 }
 
-renderTrending();
-renderQuotes();
-renderTicker();
+function metalColor(metal) {
+  const key = String(metal || "").toLowerCase();
+  return METAL_COLORS[key] || "#8fa9c4";
+}
+
+function buildMarkerSvg(marker, index) {
+  const x = Number(marker.x || 0);
+  const y = Number(marker.y || 0);
+  const color = metalColor(marker.metal);
+  const selectedClass = index === selectedMarkerIndex ? " isSelected" : "";
+  const labelX = x + 12;
+  const labelY = y - 13;
+
+  return `
+    <g class="mapMarker${selectedClass}" data-marker-index="${index}" tabindex="0" role="button" aria-label="${escapeHtml(marker.ticker)}">
+      <circle class="mapMarkerPulse" cx="${x}" cy="${y}" r="16"></circle>
+      <circle class="mapMarkerCircle" cx="${x}" cy="${y}" r="7.5" fill="${color}"></circle>
+      <text class="mapMarkerText" x="${labelX}" y="${labelY}">${escapeHtml(marker.ticker)}</text>
+    </g>
+  `;
+}
+
+function renderMapDetail() {
+  const title = document.getElementById("mapDetailTitle");
+  const meta = document.getElementById("mapDetailMeta");
+  const copy = document.getElementById("mapDetailCopy");
+  const facts = document.getElementById("mapDetailFacts");
+  const link = document.getElementById("mapDetailLink");
+  const list = document.getElementById("mapTickerList");
+  const subtitle = document.getElementById("mapSubtitle");
+
+  const marker = universeMarkers[selectedMarkerIndex] || null;
+  if (!marker) {
+    if (title) title.textContent = "No marker selected";
+    if (meta) meta.textContent = "Universe details will appear here.";
+    if (copy) copy.textContent = "No marker data is available yet.";
+    if (facts) facts.innerHTML = "";
+    if (list) list.innerHTML = "";
+    if (subtitle) subtitle.textContent = "Plotting filing-backed operating regions.";
+    return;
+  }
+
+  if (title) title.textContent = `${marker.map_label || marker.company_name || marker.ticker}`;
+  if (meta) meta.textContent = `${marker.ticker} • ${marker.location_label || "Location unavailable"}${marker.sub_location ? ` • ${marker.sub_location}` : ""}`;
+  if (copy) copy.textContent = marker.source_excerpt || "No filing excerpt available for this marker.";
+  if (subtitle) subtitle.textContent = `${universeMarkers.length} markers loaded across the current Minerlytics universe map.`;
+  if (link) link.href = `./company.html?ticker=${encodeURIComponent(marker.ticker)}`;
+  if (link) link.textContent = `Open ${marker.ticker} profile`;
+
+  const markerFacts = [
+    marker.metal ? `Metal: ${marker.metal}` : "",
+    marker.latest_filing_date ? `Latest filing: ${marker.latest_filing_date}` : "Latest filing: unavailable",
+    marker.detail ? `Region: ${marker.detail}` : "",
+  ].filter(Boolean);
+
+  if (facts) {
+    facts.innerHTML = markerFacts.map((item) => `<span class="mapFact">${escapeHtml(item)}</span>`).join("");
+  }
+
+  if (list) {
+    list.innerHTML = universeMarkers.map((item, index) => `
+      <button class="mapTickerButton${index === selectedMarkerIndex ? " isSelected" : ""}" type="button" data-list-marker-index="${index}">
+        ${escapeHtml(item.ticker)} • ${escapeHtml(item.location_label || "Unknown")}
+      </button>
+    `).join("");
+
+    list.querySelectorAll("[data-list-marker-index]").forEach((buttonEl) => {
+      buttonEl.addEventListener("click", () => {
+        const index = Number(buttonEl.getAttribute("data-list-marker-index"));
+        if (Number.isFinite(index)) selectMarker(index);
+      });
+    });
+  }
+}
+
+function bindMarkerInteractions() {
+  const markersRoot = document.getElementById("universeMarkers");
+  if (!markersRoot) return;
+
+  markersRoot.querySelectorAll("[data-marker-index]").forEach((node) => {
+    const select = () => {
+      const index = Number(node.getAttribute("data-marker-index"));
+      if (Number.isFinite(index)) selectMarker(index);
+    };
+
+    node.addEventListener("click", select);
+    node.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        select();
+      }
+    });
+  });
+}
+
+function renderUniverseMap() {
+  const markersRoot = document.getElementById("universeMarkers");
+  const emptyState = document.getElementById("mapEmptyState");
+
+  if (!markersRoot) return;
+
+  if (!universeMarkers.length) {
+    markersRoot.innerHTML = "";
+    if (emptyState) emptyState.textContent = "No universe markers returned.";
+    renderMapDetail();
+    updateSignalCards();
+    return;
+  }
+
+  markersRoot.innerHTML = universeMarkers.map(buildMarkerSvg).join("");
+  if (emptyState) emptyState.classList.add("isHidden");
+  bindMarkerInteractions();
+  renderMapDetail();
+  updateSignalCards();
+}
+
+function selectMarker(index) {
+  if (!Number.isFinite(index) || index < 0 || index >= universeMarkers.length) return;
+  selectedMarkerIndex = index;
+  renderUniverseMap();
+}
+
+async function loadUniverseMap() {
+  const emptyState = document.getElementById("mapEmptyState");
+  if (emptyState) emptyState.textContent = "Loading universe map...";
+
+  try {
+    const response = await fetch(`${API_BASE}/api/universe/map?limit=18`, {
+      headers: { accept: "application/json" },
+    });
+    if (!response.ok) throw new Error(`Universe map request failed: ${response.status}`);
+
+    const payload = await response.json();
+    const markers = Array.isArray(payload.markers) ? payload.markers : [];
+
+    universeMarkers = markers
+      .filter((item) => Number.isFinite(Number(item.x)) && Number.isFinite(Number(item.y)))
+      .map((item) => ({
+        ...item,
+        x: Math.max(20, Math.min(MAP_VIEWBOX_WIDTH - 20, Number(item.x))),
+        y: Math.max(20, Math.min(MAP_VIEWBOX_HEIGHT - 20, Number(item.y))),
+      }));
+
+    selectedMarkerIndex = universeMarkers.length ? 0 : -1;
+    renderUniverseMap();
+  } catch (error) {
+    if (emptyState) emptyState.textContent = "Universe map unavailable right now.";
+    universeMarkers = [];
+    selectedMarkerIndex = -1;
+    renderUniverseMap();
+    console.error(error);
+  }
+}
+
 wireSearch();
-wireSegButtons();
+updateSignalCards();
+loadUniverseMap();
 renderRssFeed();
-
-spark("goldChart");
-spark("silverChart");
-spark("copperChart");
-
-window.addEventListener("resize", () => {
-  spark("goldChart");
-  spark("silverChart");
-  spark("copperChart");
-});

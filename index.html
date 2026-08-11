@@ -3,11 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Minerlytics — Informing decisions with research-grade AI platform</title>
-  <link rel="stylesheet" href="./styles.css?v=20260721a" />
+  <title>Minerlytics — Mining intelligence, mapped clearly</title>
+  <link rel="stylesheet" href="./styles.css?v=20260811a" />
 </head>
 <body>
-  <!-- Top Nav -->
   <header class="topbar">
     <div class="brand">
       <div class="logoMark" aria-hidden="true"></div>
@@ -16,11 +15,9 @@
 
     <nav class="navLinks" aria-label="Primary navigation">
       <a class="navLink isActive" href="#home">Home</a>
-      <a class="navLink" href="#analysis">Analysis</a>
-      <a class="navLink" href="#trends">Trends</a>
-      <a class="navLink" href="#company">Company Profile</a>
-      <a class="navLink" href="#subscriptions">Subscriptions</a>
-      <a class="navLink" href="#about">About</a>
+      <a class="navLink" href="#universe">Universe Map</a>
+      <a class="navLink" href="#feed">News Feed</a>
+      <a class="navLink" href="./company.html">Company Profiles</a>
     </nav>
 
     <div class="navRight">
@@ -28,21 +25,18 @@
         <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
           <path fill="currentColor" d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
         </svg>
-        <input id="globalSearch" type="search" placeholder="Search tickers, commodities, companies, and more…" />
+        <input id="globalSearch" type="search" placeholder="Jump to a ticker or company…" />
       </div>
-
-      <a class="btn btnGhost" href="#signin">Sign In</a>
-      <a class="btn btnPrimary" href="#signup">Join Minerlytics</a>
     </div>
   </header>
 
-  <!-- Hero -->
   <main class="shell" id="home">
     <section class="hero">
       <div class="heroLeft">
-        <h1>AI-Powered Research Assistant</h1>
+        <div class="eyebrow">Mining intelligence for listed producers, developers, and royalty names</div>
+        <h1>Clean signal across the mining universe.</h1>
         <p class="subhead">
-          Track the forces that move mining markets — momentum, sentiment, interviews, news, and project milestones.
+          Minerlytics brings together market action, filings, transcripts, and headline flow so you can spot where companies operate and what is moving them.
         </p>
 
         <div class="heroSearch">
@@ -50,110 +44,138 @@
             <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
               <path fill="currentColor" d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
             </svg>
-            <input id="heroSearch" type="search" placeholder="Search stocks, commodities, and more…" />
-            <button id="searchBtn" class="btn btnPrimary btnTight" type="button">Search</button>
+            <input id="heroSearch" type="search" placeholder="Search AEM, HYMC, Wheaton Precious Metals…" />
+            <button id="searchBtn" class="btn btnPrimary btnTight" type="button">Open profile</button>
           </div>
           <div class="hintRow">
-            <span class="pill">Mining sector focus</span>
-            <span class="pill">US + Canada markets</span>
-            <span class="pill">News + YouTube + Social</span>
+            <span class="pill">40-F disclosure mapped</span>
+            <span class="pill">RSS headlines tracked</span>
+            <span class="pill">Ticker-level company drilldown</span>
           </div>
         </div>
 
-        <!-- “Trending now” row -->
-        <div class="sectionTitleRow">
-          <span class="sectionTitle">Trending Now on Minerlytics</span>
-        </div>
-
-        <div class="trendRow" id="trendRow">
-          <!-- filled by app.js -->
-        </div>
-
-        <!-- Feature tiles -->
-        <div class="tileGrid">
-          <a class="tile" href="#trends">
-            <div class="tileIcon" aria-hidden="true">⚡</div>
-            <div>
-              <div class="tileTitle">Momentum</div>
-              <div class="tileMeta">Top movers, 1D / 7D / 6M / 1Y</div>
-            </div>
-            <span class="tileCta">See Dashboard →</span>
-          </a>
-
-          <a class="tile" href="#analysis">
-            <div class="tileIcon" aria-hidden="true">🧠</div>
-            <div>
-              <div class="tileTitle">Conversational AI</div>
-              <div class="tileMeta">Ask about sentiment, drills, permits</div>
-            </div>
-            <span class="tileCta">Open →</span>
-          </a>
-
-          <a class="tile" href="#company">
-            <div class="tileIcon" aria-hidden="true">⛏️</div>
-            <div>
-              <div class="tileTitle">Company Profiles</div>
-              <div class="tileMeta">Leadership, mines, timelines, regs</div>
-            </div>
-            <span class="tileCta">Explore →</span>
-          </a>
-        </div>
-
-        <!-- Mini quote cards (like the screenshot) -->
-        <div class="quoteRow" id="quoteRow">
-          <!-- filled by app.js -->
+        <div class="signalGrid" id="signalGrid">
+          <div class="signalCard">
+            <span class="signalLabel">Mapped coverage</span>
+            <strong class="signalValue">Loading</strong>
+            <span class="signalMeta">Universe markers</span>
+          </div>
+          <div class="signalCard">
+            <span class="signalLabel">Jurisdictions</span>
+            <strong class="signalValue">Loading</strong>
+            <span class="signalMeta">Active regions</span>
+          </div>
+          <div class="signalCard">
+            <span class="signalLabel">Latest headlines</span>
+            <strong class="signalValue">Loading</strong>
+            <span class="signalMeta">Last 60 days</span>
+          </div>
         </div>
       </div>
 
       <div class="heroRight">
-        <div class="artCard">
-          <div class="artGrid"></div>
-          <div class="artGlow"></div>
+        <div class="aiHud">
+          <div class="aiTop">
+            <div>
+              <div class="sectionTitle">Assistant</div>
+              <div class="aiTitle">Minerlytics AI Assistant</div>
+            </div>
+            <div class="aiSub">Grounded on stored OHLCV data</div>
+          </div>
 
-          <div class="aiHud">
-  <div class="aiTop">
-    <div class="aiTitle">Minerlytics AI Assistant</div>
-    <div class="aiSub">Grounded on D1 (daily_ohlcv)</div>
-  </div>
+          <div class="aiForm">
+            <input id="aiSymbol" type="text" placeholder="Ticker (HYMC, AEM, CDE...)" />
+            <input id="aiQuestion" type="text" placeholder="Ask something focused and specific…" />
+            <button id="aiRun" class="btn btnPrimary btnTight" type="button">Ask</button>
+          </div>
 
-  <div class="aiForm">
-    <input id="aiSymbol" type="text" placeholder="Ticker (HYMC, AEM, CDE...)" />
-    <input id="aiQuestion" type="text" placeholder="Ask (e.g., summarize last 10 days)" />
-    <button id="aiRun" class="btn btnPrimary btnTight" type="button">Ask</button>
-  </div>
+          <div class="aiQuickRow">
+            <button class="pillBtn" type="button" data-t="HYMC">HYMC</button>
+            <button class="pillBtn" type="button" data-t="AEM">AEM</button>
+            <button class="pillBtn" type="button" data-t="CDE">CDE</button>
+            <button class="pillBtn" type="button" data-t="WPM">WPM</button>
+          </div>
 
-  <div class="aiQuickRow">
-    <button class="pillBtn" type="button" data-t="HYMC">HYMC</button>
-    <button class="pillBtn" type="button" data-t="AEM">AEM</button>
-    <button class="pillBtn" type="button" data-t="CDE">CDE</button>
-    <button class="pillBtn" type="button" data-t="WPM">WPM</button>
-  </div>
-
-  <div class="aiOut" id="aiOut">
-    <div class="aiHint">Type a ticker and question. Response uses only your stored OHLCV.</div>
-  </div>
-</div>
-
-
-        <!-- Charts placeholders required by your doc -->
-        
+          <div class="aiOut" id="aiOut">
+            <div class="aiHint">Type a ticker and question. Responses use only your stored market history.</div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Bottom bar: “All News” + ticker strip -->
-    <section class="bottomBar">
-      <div class="bottomLeft">
-        <span class="dot"></span>
-        <span class="bottomLabel">Trending</span>
+    <section class="universeSection" id="universe" aria-labelledby="universeTitle">
+      <div class="sectionTitleRow universeHeader">
+        <div>
+          <span class="sectionTitle">Universe Map</span>
+          <h2 class="sectionHeading" id="universeTitle">Where Minerlytics coverage is anchored right now</h2>
+        </div>
+        <div class="sectionMeta">Live from the universe map endpoint</div>
       </div>
 
-      <div class="ticker" aria-label="Scrolling news ticker">
-        <div class="tickerTrack" id="tickerTrack"></div>
-      </div>
+      <div class="universeLayout">
+        <div class="mapCard">
+          <div class="mapToolbar">
+            <div>
+              <div class="mapTitle">Operations map</div>
+              <div class="mapSubtitle" id="mapSubtitle">Plotting filing-backed operating regions.</div>
+            </div>
+            <div class="mapLegend">
+              <span class="legendItem"><span class="legendDot gold"></span>Gold</span>
+              <span class="legendItem"><span class="legendDot silver"></span>Silver</span>
+              <span class="legendItem"><span class="legendDot copper"></span>Copper</span>
+              <span class="legendItem"><span class="legendDot other"></span>Other</span>
+            </div>
+          </div>
 
-      <button class="newsBtn" type="button">All News</button>
+          <div class="mapStage">
+            <svg class="universeSvg" viewBox="0 0 900 460" role="img" aria-label="Minerlytics universe map">
+              <defs>
+                <linearGradient id="mapBg" x1="0%" x2="100%" y1="0%" y2="100%">
+                  <stop offset="0%" stop-color="rgba(124,92,255,0.18)"></stop>
+                  <stop offset="100%" stop-color="rgba(57,230,200,0.08)"></stop>
+                </linearGradient>
+              </defs>
+              <rect x="0" y="0" width="900" height="460" rx="28" fill="url(#mapBg)"></rect>
+              <g class="mapGrid">
+                <path d="M0 115H900"></path>
+                <path d="M0 230H900"></path>
+                <path d="M0 345H900"></path>
+                <path d="M180 0V460"></path>
+                <path d="M360 0V460"></path>
+                <path d="M540 0V460"></path>
+                <path d="M720 0V460"></path>
+              </g>
+              <g class="mapLand">
+                <path d="M86 120l54-39 85-14 65 11 43 31-18 22-56 2-25 18-13 30-35 10-32-8-14-24-32-3-22-18z"></path>
+                <path d="M243 210l34 15 20 40-16 62 18 59-29 26-28-18-15-44-21-54 8-50 29-36z"></path>
+                <path d="M450 83l39-21 61 7 29 41-17 40-45 6-33-14-22 10-19-25-14-4 6-20z"></path>
+                <path d="M501 179l55-13 65 14 28 44-21 56-30 46-26 39-33-5-25-46 12-35-13-41z"></path>
+                <path d="M698 111l42-24 97 8 49 34-14 31-46 14-28 31-44-7-31-34-43-9-11-22z"></path>
+                <path d="M766 303l51-18 53 9 26 32-24 45-52 18-45-11-28-34z"></path>
+              </g>
+              <g id="universeMarkers"></g>
+            </svg>
+            <div class="mapEmptyState" id="mapEmptyState">Loading universe map…</div>
+          </div>
+        </div>
+
+        <aside class="mapDetailCard">
+          <div class="mapDetailHeader">
+            <div>
+              <div class="sectionTitle">Selected marker</div>
+              <div class="mapDetailTitle" id="mapDetailTitle">Waiting for map data</div>
+            </div>
+            <a class="mapDetailLink" id="mapDetailLink" href="./company.html">Open company page</a>
+          </div>
+          <div class="mapDetailMeta" id="mapDetailMeta">Universe details will appear here.</div>
+          <p class="mapDetailCopy" id="mapDetailCopy">The homepage now uses the universe map endpoint directly so this panel reflects the selected marker instead of placeholder content.</p>
+          <div class="mapDetailFacts" id="mapDetailFacts"></div>
+          <div class="mapTickerList" id="mapTickerList"></div>
+        </aside>
+      </div>
     </section>
 
-    <section class="rssSection" aria-labelledby="rssSectionTitle">
+    <section class="rssSection" id="feed" aria-labelledby="rssSectionTitle">
       <div class="sectionTitleRow rssSectionHeader">
         <div>
           <span class="sectionTitle">Home Feed</span>
@@ -166,69 +188,74 @@
         <div class="rssState">Loading RSS headlines…</div>
       </div>
     </section>
-
-    <!-- Minimal “Sign-in / Sign-up” modal-ish section hooks (placeholders) -->
-   
   </main>
-          <script>
-  (function () {
-    const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 
-    const out = document.getElementById("aiOut");
-    const sym = document.getElementById("aiSymbol");
-    const q = document.getElementById("aiQuestion");
-    const btn = document.getElementById("aiRun");
+  <script>
+    (function () {
+      const API_BASE = "https://minerlytics-dev.lincbennette87.workers.dev";
 
-    function esc(s){
-      return String(s || "")
-        .replaceAll("&","&amp;")
-        .replaceAll("<","&lt;")
-        .replaceAll(">","&gt;")
-        .replaceAll('"',"&quot;")
-        .replaceAll("'","&#039;");
-    }
+      const out = document.getElementById("aiOut");
+      const sym = document.getElementById("aiSymbol");
+      const q = document.getElementById("aiQuestion");
+      const btn = document.getElementById("aiRun");
 
-    async function ask(){
-      const symbol = (sym.value || "").trim().toUpperCase();
-      const question = (q.value || "").trim();
-
-      if(!symbol){
-        out.innerHTML = '<div class="aiErr">Enter a ticker.</div>';
-        return;
+      function esc(s){
+        return String(s || "")
+          .replaceAll("&","&amp;")
+          .replaceAll("<","&lt;")
+          .replaceAll(">","&gt;")
+          .replaceAll('"',"&quot;")
+          .replaceAll("'","&#039;");
       }
 
-      out.innerHTML = `<div class="aiLoading">Thinking about ${esc(symbol)}…</div>`;
+      async function ask(){
+        const symbol = (sym.value || "").trim().toUpperCase();
+        const question = (q.value || "").trim();
 
-      let res;
-      try {
-        res = await fetch(API_BASE + "/api/assistant", {
-          method: "POST",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify({ symbol, question })
+        if(!symbol){
+          out.innerHTML = '<div class="aiErr">Enter a ticker.</div>';
+          return;
+        }
+
+        out.innerHTML = `<div class="aiLoading">Thinking about ${esc(symbol)}…</div>`;
+
+        let res;
+        try {
+          res = await fetch(API_BASE + "/api/assistant", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({ symbol, question })
+          });
+        } catch (e) {
+          out.innerHTML = `<div class="aiErr">Network error: ${esc(e?.message || String(e))}</div>`;
+          return;
+        }
+
+        if(!res.ok){
+          const txt = await res.text().catch(()=> "");
+          out.innerHTML = `<div class="aiErr">${esc(txt || ("Request failed: " + res.status))}</div>`;
+          return;
+        }
+
+        const data = await res.json().catch(()=> null);
+        const answer = data && data.answer ? String(data.answer) : "No answer returned.";
+        out.innerHTML = `<pre class="aiPre">${esc(answer)}</pre>`;
+      }
+
+      btn.addEventListener("click", ask);
+
+      sym.addEventListener("keydown", (e)=>{ if(e.key==="Enter") ask(); });
+      q.addEventListener("keydown", (e)=>{ if(e.key==="Enter") ask(); });
+
+      document.querySelectorAll(".pillBtn").forEach((pill) => {
+        pill.addEventListener("click", () => {
+          sym.value = pill.dataset.t || "";
+          q.focus();
         });
-      } catch (e) {
-        out.innerHTML = `<div class="aiErr">Network error: ${esc(e?.message || String(e))}</div>`;
-        return;
-      }
+      });
+    })();
+  </script>
 
-      if(!res.ok){
-        const txt = await res.text().catch(()=> "");
-        out.innerHTML = `<div class="aiErr">${esc(txt || ("Request failed: " + res.status))}</div>`;
-        return;
-      }
-
-      const data = await res.json().catch(()=> null);
-      const answer = data && data.answer ? String(data.answer) : "No answer returned.";
-      out.innerHTML = `<pre class="aiPre">${esc(answer)}</pre>`;
-    }
-
-    btn.addEventListener("click", ask);
-
-    sym.addEventListener("keydown", (e)=>{ if(e.key==="Enter") ask(); });
-    q.addEventListener("keydown", (e)=>{ if(e.key==="Enter") ask(); });
-  })();
-</script>
-
-<script src="./app.js?v=20260721a"></script>
+  <script src="./app.js?v=20260811a"></script>
 </body>
 </html>
